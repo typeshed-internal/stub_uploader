@@ -1,7 +1,7 @@
 import sys
 from setuptools import setup
 
-increment = int(sys.argv[1])
+increment = int(sys.argv.pop())
 name = "types-tsbot-empty"
 description = "Empty typing stubs for testing typeshed/PyPI auto-upload"
 
