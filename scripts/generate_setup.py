@@ -17,12 +17,9 @@ META = "METADATA.toml"
 
 # These constants may be adjusted, depending on convention we agree on.
 THIRD_PARTY_NAMESPACE = "stubs"
-PY2_NAMESPACE = "python2"
+PY2_NAMESPACE = "@python2"
 SUFFIX = "-stubs"
 PY2_SUFFIX = "-python2-stubs"
-
-# After the typeshed refactoring PR lands, this will be not needed.
-OUTPUT_DIR = "out"
 
 SETUP_TEMPLATE = dedent("""
 from setuptools import setup
@@ -170,7 +167,6 @@ def main(distribution: str, increment: str) -> str:
     Note: the caller should clean the temporary directory where wheel is
     created after uploading it.
     """
-    os.chdir(OUTPUT_DIR)  # TODO: remove this after typeshed refatoring is done.
     tmpdir = tempfile.mkdtemp()
     with open(os.path.join(tmpdir, "setup.py"), "w") as f:
         f.write(generate_setup_file(distribution, increment))
@@ -186,7 +182,6 @@ def main(distribution: str, increment: str) -> str:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("distribution", help="Third-party distribution to build")
-    # TODO: discuss where the stub version increment is stored.
     parser.add_argument("increment", help="Stub version increment")
     args = parser.parse_args()
     print(main(args.distribution, args.increment))
