@@ -3,10 +3,11 @@ name: Test PyPI API token
 on:
   # Only triggered manually (for debugging/integration testing).
   workflow_dispatch:
+    inputs:
       increment:
-          description: 'Package minor version'
-          required: true
-          default: 0
+        description: 'Package minor version'
+        required: true
+        default: 0
 
 jobs:
   deploy:
