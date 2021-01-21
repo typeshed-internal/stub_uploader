@@ -24,4 +24,5 @@ jobs:
           rm -rf typeshed
           git add .
           git commit -m "Update last typeshed commit"
+          git push
           echo "Done."
