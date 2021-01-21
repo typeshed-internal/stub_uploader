@@ -1,9 +1,9 @@
 name: Daily update of stubs from typeshed to PyPI
 
 on:
-  # Triggers the workflow daily at 2PM UTC.
+  # Triggers the workflow every three hours starting midnight UTC.
   schedule:
-    - cron: 0 14 * * *
+    - cron: 0 */3 * * *
   # If needed, allows to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -11,17 +11,29 @@ jobs:
   build-and-upload:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout main
+        uses: actions/checkout@v2
+        with:
+          path: main
+      - name: Checkout typeshed
+        uses: actions/checkout@v2
+        with:
+          repository: python/typeshed
+          path: typeshed
+      - name: Checkout pin repository
+        uses: actions/checkout@v2
+        with:
+          repository: typeshed-internal/typeshed_pin
+          path: typeshed_pin
+
       - name: Execute diff build and upload tasks
         run: |
           echo "WIP..."
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git clone https://github.com/python/typeshed
           cd typeshed
-          git rev-parse HEAD > ../last_typeshed_commit.sha1
-          cd ..
-          rm -rf typeshed
+          git rev-parse HEAD > ../typeshed_pin/last_typeshed_commit.sha1
+          cd ../typeshed_pin
           git add .
           git commit -m "Update last typeshed commit"
           git push
