@@ -13,4 +13,15 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Execute diff build and upload tasks
-        run: echo "WIP..."
+        run: |
+          echo "WIP..."
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git clone https://github.com/python/typeshed
+          cd typeshed
+          git rev-parse HEAD > ../last_typeshed_commit.sha1
+          cd ..
+          rm -rf typeshed
+          git add .
+          git commit -m "Update last typeshed commit"
+          echo "Done."
