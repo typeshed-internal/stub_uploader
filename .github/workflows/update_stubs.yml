@@ -20,18 +20,13 @@ jobs:
         with:
           repository: python/typeshed
           path: typeshed
-      - name: Checkout pin repository
-        uses: actions/checkout@v2
-        with:
-          repository: typeshed-internal/typeshed_pin
-          path: typeshed_pin
 
       - name: Execute diff build and upload tasks
         run: |
           echo "WIP..."
           cd typeshed
-          git rev-parse HEAD > ../typeshed_pin/last_typeshed_commit.sha1
-          cd ../typeshed_pin
+          git rev-parse HEAD > ../main/last_typeshed_commit.sha1
+          cd ../main
           git config user.name github-actions && git config user.email github-actions@github.com
           git add . && git commit -m "Update last typeshed commit" && git push
           echo "Done."
