@@ -1,0 +1,32 @@
+name: Test PyPI API token
+
+on:
+  # Only triggered manually (for debugging/integration testing).
+  workflow_dispatch:
+      increment:
+          description: 'Package minor version'
+          required: true
+          default: 0
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install setuptools wheel twine
+    - name: Build and publish
+      env:
+        TWINE_USERNAME: __token__
+        TWINE_PASSWORD: ${{ secrets.TYPESHED_BOT_API_TOKEN }}
+      run: |
+        cd empty_package
+        python setup.py bdist_wheel ${{ github.event.inputs.increment }}
+        twine upload dist/*
