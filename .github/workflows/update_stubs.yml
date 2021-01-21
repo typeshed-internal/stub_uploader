@@ -1,0 +1,16 @@
+name: Daily update of stubs from typeshed to PyPI
+
+on:
+  # Triggers the workflow daily at 2PM UTC.
+  schedule:
+    - cron: 0 14 * * *
+  # If needed, allows to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build-and-upload:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Execute diff build and upload tasks
+        run: echo "WIP..."
