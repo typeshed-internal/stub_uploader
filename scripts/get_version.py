@@ -7,8 +7,7 @@ import toml
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-# TODO: remove the "out" part after migration is done.
-THIRD_PARTY_NAMESPACE = "out/stubs"
+THIRD_PARTY_NAMESPACE = "stubs"
 PREFIX = "types-"
 URL_TEMPLATE = "https://pypi.org/pypi/{}/json"
 RETRIES = 5
@@ -42,11 +41,13 @@ def main(distribution: str, version: Optional[str]) -> int:
     if not version:
         # Use the METADATA.toml version, if not given one.
         version = read_base_version(distribution)
-    # TODO: fix ordering between "2.3" and "2.10" below.
-    latest = max(v for v in data["releases"].keys() if v.startswith(version))
-    assert latest.count(".") == 2
-    increment = latest.split(".")[-1]
-    return int(increment)
+    assert version.count(".") == 1
+    matching = [v for v in data["releases"].keys() if v.startswith(version)]
+    if not matching:
+        return -1
+    assert all(v.count(".") == 2 for v in matching)
+    increment = max(int(v.split(".")[-1]) for v in matching)
+    return increment
 
 
 if __name__ == "__main__":
