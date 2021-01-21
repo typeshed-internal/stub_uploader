@@ -28,6 +28,6 @@ jobs:
         TWINE_USERNAME: __token__
         TWINE_PASSWORD: ${{ secrets.TYPESHED_BOT_API_TOKEN }}
       run: |
-        cd empty_package
+        cd data/empty_package
         python setup.py bdist_wheel ${{ github.event.inputs.increment }}
         twine upload dist/*
