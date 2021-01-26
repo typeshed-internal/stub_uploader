@@ -175,7 +175,7 @@ def main(distribution: str, increment: str) -> str:
         # If there are Python 2 only stubs, copy them too.
         copy_stubs(os.path.join(distribution, PY2_NAMESPACE), tmpdir, PY2_SUFFIX)
     os.chdir(tmpdir)
-    subprocess.run(["python3", "setup.py", "bdist_wheel"])
+    subprocess.run(["python3", "setup.py", "bdist_wheel", "--universal"])
     return f"{tmpdir}/dist"
 
 
