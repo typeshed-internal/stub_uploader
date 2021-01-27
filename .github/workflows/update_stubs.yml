@@ -27,7 +27,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install setuptools wheel twine toml reuests
+          pip install setuptools wheel twine toml requests
       - name: Execute diff build and upload tasks
         env:
           TWINE_USERNAME: __token__
