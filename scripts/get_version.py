@@ -36,6 +36,9 @@ def main(distribution: str, version: Optional[str]) -> int:
         session.mount("https://", HTTPAdapter(max_retries=retry_strategy))
         resp = session.get(url, timeout=TIMEOUT)
     if not resp.ok:
+        if resp.status_code == 404:
+            # Looks like this is first time this package is ever uploaded.
+            return -1
         raise ValueError("Error while retrieving version")
     data = resp.json()
     if not version:
