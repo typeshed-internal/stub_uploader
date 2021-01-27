@@ -37,5 +37,8 @@ jobs:
           PYTHONPATH=../main python -m scripts.upload_changed $(cat ../main/data/last_typeshed_commit.sha1) --dry-run
           git rev-parse HEAD > ../main/data/last_typeshed_commit.sha1
           cd ../main
+          if [ -z "$(git status --porcelain)" ]; then
+              exit 0;
+          fi
           git config user.name github-actions && git config user.email github-actions@github.com
           git add . && git commit -m "Update last typeshed commit" && git push
