@@ -1,11 +1,10 @@
 import argparse
 import os
-import re
 import subprocess
 
-from . import get_version
-from . import build_wheel
-from . import get_changed
+from scripts import get_version
+from scripts import build_wheel
+from scripts import get_changed
 
 
 def main(commit: str, dry_run: bool = False) -> None:
@@ -25,4 +24,4 @@ if __name__ == "__main__":
     parser.add_argument("previous_commit", help="Previous typeshed commit for which we performed upload")
     parser.add_argument("--dry-run", action="store_true", help="Should we perform a dry run (don't actually upload)")
     args = parser.parse_args()
-    main(args.commit, args.dry_run)
+    main(args.previous_commit, args.dry_run)

@@ -34,4 +34,4 @@ jobs:
           TWINE_PASSWORD: ${{ secrets.TYPESHED_BOT_API_TOKEN }}
         run: |
           cd typeshed
-          python ../main/scripts/upload_some.py ${{ github.event.inputs.distribution }}
+          PYTHONPATH=../main python -m scripts.upload_some ${{ github.event.inputs.distribution }}

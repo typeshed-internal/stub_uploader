@@ -3,8 +3,8 @@ import os
 import re
 import subprocess
 
-from . import get_version
-from . import build_wheel
+from scripts import get_version
+from scripts import build_wheel
 
 
 def main(pattern: str) -> None:
