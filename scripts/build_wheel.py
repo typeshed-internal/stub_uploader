@@ -159,7 +159,7 @@ def generate_setup_file(distribution: str, increment: str) -> str:
     )
 
 
-def main(distribution: str, increment: str) -> str:
+def main(distribution: str, increment: int) -> str:
     """Generate a wheel for a third-party distribution in typeshed.
 
     Return the path to directory where wheel is created.
@@ -169,7 +169,7 @@ def main(distribution: str, increment: str) -> str:
     """
     tmpdir = tempfile.mkdtemp()
     with open(os.path.join(tmpdir, "setup.py"), "w") as f:
-        f.write(generate_setup_file(distribution, increment))
+        f.write(generate_setup_file(distribution, str(increment)))
     copy_stubs(distribution, tmpdir, SUFFIX)
     if PY2_NAMESPACE in os.listdir(os.path.join(THIRD_PARTY_NAMESPACE, distribution)):
         # If there are Python 2 only stubs, copy them too.

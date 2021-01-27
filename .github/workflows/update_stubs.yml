@@ -24,14 +24,18 @@ jobs:
         with:
           repository: python/typeshed
           path: typeshed
-
-      - name: Execute diff build and upload tasks
+      - name: Install dependencies
         run: |
-          echo "WIP..."
+          python -m pip install --upgrade pip
+          pip install setuptools wheel twine toml reuests
+      - name: Execute diff build and upload tasks
+        env:
+          TWINE_USERNAME: __token__
+          TWINE_PASSWORD: ${{ secrets.TYPESHED_BOT_API_TOKEN }}
+        run: |
           cd typeshed
-          python ../main/scripts/get_changed.py $(cat ../main/data/last_typeshed_commit.sha1)
+          python ../main/scripts/upload_changed.py $(cat ../main/data/last_typeshed_commit.sha1) --dry-run
           git rev-parse HEAD > ../main/data/last_typeshed_commit.sha1
           cd ../main
           git config user.name github-actions && git config user.email github-actions@github.com
           git add . && git commit -m "Update last typeshed commit" && git push
-          echo "Done."
