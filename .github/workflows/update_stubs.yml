@@ -11,6 +11,10 @@ jobs:
   build-and-upload:
     runs-on: ubuntu-latest
     steps:
+      - name: Setup Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
       - name: Checkout main
         uses: actions/checkout@v2
         with:
@@ -25,6 +29,7 @@ jobs:
         run: |
           echo "WIP..."
           cd typeshed
+          python ../main/scripts/get_changed.py $(cat ../main/data/last_typeshed_commit.sha1)
           git rev-parse HEAD > ../main/data/last_typeshed_commit.sha1
           cd ../main
           git config user.name github-actions && git config user.email github-actions@github.com
