@@ -26,7 +26,7 @@ def main(typeshed_dir: str, pattern: str) -> None:
         increment = get_version.main(typeshed_dir, distribution, version=None)
         increment += 1
         temp_dir = build_wheel.main(typeshed_dir, distribution, increment)
-        subprocess.run(["twine", "upload", os.path.join(temp_dir, "*")])
+        subprocess.run(["twine", "upload", os.path.join(temp_dir, "*")], check=True)
 
 
 if __name__ == "__main__":

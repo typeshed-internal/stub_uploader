@@ -28,7 +28,7 @@ def main(typeshed_dir: str, commit: str, dry_run: bool = False) -> None:
         if dry_run:
             print(f"Would upload: {distribution}, increment {increment}")
             continue
-        subprocess.run(["twine", "upload", os.path.join(temp_dir, "*")])
+        subprocess.run(["twine", "upload", os.path.join(temp_dir, "*")], check=True)
 
 
 if __name__ == "__main__":

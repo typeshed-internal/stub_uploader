@@ -184,13 +184,15 @@ def generate_setup_file(typeshed_dir: str, distribution: str, increment: str) ->
         dep_name = dependency[len("types-"):]
         assert dep_name in known_distributions, "Only dependencies on typeshed stubs are allowed"
     assert version.count(".") == 1, f"Version must be major.minor, not {version}"
-    return SETUP_TEMPLATE.format(
+    res = SETUP_TEMPLATE.format(
         distribution=distribution,
         version=f"{version}.{increment}",
         requires=requires,
         packages=packages,
         package_data=package_data,
     )
+    print(res)
+    return res
 
 
 def main(typeshed_dir: str, distribution: str, increment: int) -> str:
