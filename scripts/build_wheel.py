@@ -37,7 +37,18 @@ SETUP_TEMPLATE = dedent("""
 from setuptools import setup
 
 name = "types-{distribution}"
-description = "Typing stubs for {distribution}"
+description = '''
+Typing stubs for {distribution}
+-------------------------------
+
+This is an auto-generated PEP 561 type stub package for ``{distribution}`` package.
+It can be used by type-checking tools like mypy, PyCharm, pytype etc. to check code
+that uses ``{distribution}``. The source for this package can be found at
+https://github.com/python/typeshed/tree/master/stubs/{distribution}. All fixes for
+types and metadata should be contributed there.
+
+See https://github.com/python/typeshed/blob/master/README.md for more details.
+'''.lstrip()
 
 setup(name=name,
       version="{version}",
