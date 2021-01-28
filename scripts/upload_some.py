@@ -18,8 +18,8 @@ from scripts import build_wheel
 
 def main(typeshed_dir: str, pattern: str) -> None:
     """Force upload typeshed stub packages to PyPI."""
-    compiled = re.compile(pattern)
-    for distribution in os.listdir("stubs"):
+    compiled = re.compile(f"^{pattern}$")  # force exact matches
+    for distribution in os.listdir(os.path.join(typeshed_dir, "stubs")):
         if not re.match(compiled, distribution):
             continue
         # Setting base version to None, so it will be read from current METADATA.toml.
