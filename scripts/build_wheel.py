@@ -38,12 +38,11 @@ from setuptools import setup
 
 name = "types-{distribution}"
 description = '''
-Typing stubs for {distribution}
--------------------------------
+## Typing stubs for {distribution}
 
-This is an auto-generated PEP 561 type stub package for ``{distribution}`` package.
+This is an auto-generated PEP 561 type stub package for `{distribution}` package.
 It can be used by type-checking tools like mypy, PyCharm, pytype etc. to check code
-that uses ``{distribution}``. The source for this package can be found at
+that uses `{distribution}`. The source for this package can be found at
 https://github.com/python/typeshed/tree/master/stubs/{distribution}. All fixes for
 types and metadata should be contributed there.
 
@@ -54,6 +53,7 @@ setup(name=name,
       version="{version}",
       description=description,
       long_description=description,
+      long_description_content_type="text/markdown",
       url="https://github.com/python/typeshed",
       install_requires={requires},
       packages={packages},
@@ -184,15 +184,13 @@ def generate_setup_file(typeshed_dir: str, distribution: str, increment: str) ->
         dep_name = dependency[len("types-"):]
         assert dep_name in known_distributions, "Only dependencies on typeshed stubs are allowed"
     assert version.count(".") == 1, f"Version must be major.minor, not {version}"
-    res = SETUP_TEMPLATE.format(
+    return SETUP_TEMPLATE.format(
         distribution=distribution,
         version=f"{version}.{increment}",
         requires=requires,
         packages=packages,
         package_data=package_data,
     )
-    print(res)
-    return res
 
 
 def main(typeshed_dir: str, distribution: str, increment: int) -> str:
