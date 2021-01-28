@@ -1,3 +1,12 @@
+"""
+Find the latest typeshed increment for a stub package with given
+(or current) version.
+
+If the given version was never uploaded, this will return -1. See
+https://github.com/python/typeshed/blob/master/README.md for details
+on stub versioning.
+"""
+
 import argparse
 import os.path
 from typing import Optional
@@ -15,15 +24,17 @@ RETRY_ON = [429, 500, 502, 503, 504]
 TIMEOUT = 3
 
 
-def read_base_version(distribution: str) -> str:
+def read_base_version(typeshed_dir: str, distribution: str) -> str:
     """Read distribution version from metadata."""
-    metadata_file = os.path.join(THIRD_PARTY_NAMESPACE, distribution, "METADATA.toml")
+    metadata_file = os.path.join(
+        typeshed_dir, THIRD_PARTY_NAMESPACE, distribution, "METADATA.toml"
+    )
     with open(metadata_file) as f:
         data = toml.loads(f.read())
     return data["version"]
 
 
-def main(distribution: str, version: Optional[str]) -> int:
+def main(typeshed_dir: str, distribution: str, version: Optional[str]) -> int:
     """A simple function to get version increment of a third-party stub package.
 
     Supports basic reties and timeouts (as module constants).
@@ -43,7 +54,7 @@ def main(distribution: str, version: Optional[str]) -> int:
     data = resp.json()
     if not version:
         # Use the METADATA.toml version, if not given one.
-        version = read_base_version(distribution)
+        version = read_base_version(typeshed_dir, distribution)
     assert version.count(".") == 1
     matching = [v for v in data["releases"].keys() if v.startswith(version)]
     if not matching:
@@ -55,7 +66,8 @@ def main(distribution: str, version: Optional[str]) -> int:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
+    parser.add_argument("typeshed_dir", help="Path to typeshed checkout directory")
     parser.add_argument("distribution", help="Third-party distribution to build")
     parser.add_argument("version", nargs="?", help="Base version for which to get increment")
     args = parser.parse_args()
-    print(main(args.distribution, args.version))
+    print(main(args.typeshed_dir, args.distribution, args.version))

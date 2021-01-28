@@ -1,3 +1,13 @@
+"""
+Entry point for scheduled GitHub auto-upload action.
+
+This does three things:
+* Reads the list of stub packages modified since last commit in typeshed
+* Checks what is the current stub version increment for each package on PyPI
+* Bumps the increment, builds and uploads (unless run with --dry-run) each
+  new package to PyPI
+"""
+
 import argparse
 import os
 import subprocess
@@ -8,9 +18,11 @@ from scripts import get_changed
 
 
 def main(typeshed_dir: str, commit: str, dry_run: bool = False) -> None:
-    changed = get_changed.main(commit)
+    """Upload stub typeshed packages modified since commit."""
+    changed = get_changed.main(typeshed_dir, commit)
     for distribution in changed:
-        increment = get_version.main(distribution, None)
+        # Setting base version to None, so it will be read from current METADATA.toml.
+        increment = get_version.main(typeshed_dir, distribution, None)
         increment += 1
         temp_dir = build_wheel.main(typeshed_dir, distribution, increment)
         if dry_run:
