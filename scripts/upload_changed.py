@@ -1,7 +1,7 @@
 """
 Entry point for scheduled GitHub auto-upload action.
 
-This does three things:
+This does following things:
 * Reads the list of stub packages modified since last commit in typeshed
 * Checks what is the current stub version increment for each package on PyPI
 * Bumps the increment, builds and uploads (unless run with --dry-run) each
