@@ -37,7 +37,8 @@ SETUP_TEMPLATE = dedent("""
 from setuptools import setup
 
 name = "types-{distribution}"
-description = '''
+description = "Typing stubs for {distribution}"
+long_description = '''
 ## Typing stubs for {distribution}
 
 This is an auto-generated PEP 561 type stub package for `{distribution}` package.
@@ -52,7 +53,7 @@ See https://github.com/python/typeshed/blob/master/README.md for more details.
 setup(name=name,
       version="{version}",
       description=description,
-      long_description=description,
+      long_description=long_description,
       long_description_content_type="text/markdown",
       url="https://github.com/python/typeshed",
       install_requires={requires},
