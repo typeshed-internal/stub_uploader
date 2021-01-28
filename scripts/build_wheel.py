@@ -12,6 +12,8 @@ itself, no other files can be included.
 The types stubs live in https://github.com/python/typeshed/tree/master/stubs,
 all fixes for types and metadata should be contributed there, see
 https://github.com/python/typeshed/blob/master/CONTRIBUTING.md for more details.
+
+This file also contains some helper functions related to wheel validation and upload.
 """
 
 import argparse
@@ -22,6 +24,8 @@ import tempfile
 import subprocess
 from textwrap import dedent
 from typing import List, Dict, Any, Tuple
+
+from scripts import get_version
 
 import toml
 
@@ -165,6 +169,25 @@ def collect_setup_entries(
     return packages, package_data
 
 
+def verify_dependency(typeshed_dir: str, dependency: str, uploaded: str) -> None:
+    """Verify this is a valid dependency, i.e. a stub package uploaded by us."""
+    known_distributions = set(os.listdir(os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE)))
+    dependency = get_version.strip_dep_version(dependency)
+    assert dependency.startswith("types-"), "Currently only dependencies on stub packages are supported"
+    assert dependency[len("types-"):] in known_distributions, "Only dependencies on typeshed stubs are allowed"
+    with open(uploaded) as f:
+        uploaded_distributions = set(f.read().splitlines())
+    assert dependency in uploaded_distributions, f"{dependency} looks like a foreign distribution"
+
+
+def update_uploaded(uploaded: str, distribution: str) -> None:
+    with open(uploaded) as f:
+        current = set(f.read().splitlines())
+    if f"types-{distribution}" not in current:
+        with open(uploaded, "w") as f:
+            f.writelines(sorted(current | {f"types-{distribution}"}))
+
+
 def generate_setup_file(typeshed_dir: str, distribution: str, increment: str) -> str:
     """Auto-generate a setup.py file for given distribution using a template."""
     base_dir = os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE, distribution)
@@ -178,17 +201,11 @@ def generate_setup_file(typeshed_dir: str, distribution: str, increment: str) ->
         packages += py2_packages
         package_data.update(py2_package_data)
     version = metadata["version"]
-    requires = metadata.get("requires", [])
-    known_distributions = set(os.listdir(os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE)))
-    for dependency in requires:
-        assert dependency.startswith("types-"), "Only dependencies on stub packages are allowed"
-        dep_name = dependency[len("types-"):]
-        assert dep_name in known_distributions, "Only dependencies on typeshed stubs are allowed"
     assert version.count(".") == 1, f"Version must be major.minor, not {version}"
     return SETUP_TEMPLATE.format(
         distribution=distribution,
         version=f"{version}.{increment}",
-        requires=requires,
+        requires=metadata.get("requires", []),
         packages=packages,
         package_data=package_data,
     )
