@@ -177,7 +177,12 @@ def verify_dependency(typeshed_dir: str, dependency: str, uploaded: str) -> None
     assert dependency[len("types-"):] in known_distributions, "Only dependencies on typeshed stubs are allowed"
     with open(uploaded) as f:
         uploaded_distributions = set(f.read().splitlines())
-    assert dependency in uploaded_distributions, f"{dependency} looks like a foreign distribution"
+
+    msg = f"{dependency} looks like a foreign distribution."
+    uploaded_distributions_lower = [d.lower() for d in uploaded_distributions]
+    if dependency not in uploaded_distributions and dependency.lower() in uploaded_distributions_lower:
+        msg += " Note: list is case sensitive"
+    assert dependency in uploaded_distributions, msg
 
 
 def update_uploaded(uploaded: str, distribution: str) -> None:
