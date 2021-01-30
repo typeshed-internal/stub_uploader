@@ -41,7 +41,7 @@ def strip_dep_version(dependency: str) -> str:
     """Strip a possible version suffix, e.g. types-six>=0.1.4 -> types-six."""
     dep_version_pos = len(dependency)
     for pos, c in enumerate(dependency):
-        if c in "!=<>":
+        if c in "=<>":
             dep_version_pos = pos
             break
     return dependency[:dep_version_pos]

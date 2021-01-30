@@ -22,8 +22,10 @@ import os.path
 import shutil
 import tempfile
 import subprocess
+from  collections import defaultdict
+from functools import cmp_to_key
 from textwrap import dedent
-from typing import List, Dict, Any, Tuple
+from typing import List, Dict, Any, Tuple, Set
 
 from scripts import get_version
 
@@ -191,6 +193,59 @@ def update_uploaded(uploaded: str, distribution: str) -> None:
     if f"types-{distribution}" not in current:
         with open(uploaded, "w") as f:
             f.writelines(sorted(current | {f"types-{distribution}"}))
+
+
+def make_dependency_map(typeshed_dir: str, distributions: List[str]) -> Dict[str, Set[str]]:
+    """Return relative dependency map among distributions.
+
+    Important: this only includes dependencies *within* the given
+    list of distributions.
+    """
+    result = {d: set() for d in distributions}
+    for distribution in distributions:
+        data = read_matadata(
+            os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE, distribution, META)
+        )
+        for dependency in data.get("requires", []):
+            dependency = get_version.strip_dep_version(dependency)
+            assert dependency.startswith("types-"), "Currently only dependencies on stub packages are supported"
+            if dependency[len("types-"):] in distributions:
+                result[distribution].add(dependency[len("types-"):])
+    return result
+
+
+def transitive_deps(dep_map: Dict[str, Set[str]]) -> Dict[str, Set[str]]:
+    """Propagate dependencies to compute a transitive dependency map.
+
+    Note: this algorithm is O(N**2) in general case, but we don't worry,
+    because N is small (less than 1000). So it will take few seconds at worst,
+    while building/uploading 1000 packages will take minutes.
+    """
+    transitive = defaultdict(set)
+    for distribution in dep_map:
+        to_add = {distribution}
+        while to_add:
+            new = to_add.pop()
+            extra = dep_map.get(new, set())
+            transitive[distribution] |= extra
+            assert distribution not in transitive[distribution], f"Cyclic dependency {distribution} -> {distribution}"
+            to_add |= extra
+    return transitive
+
+
+def sort_by_dependency(dep_map: Dict[str, Set[str]]) -> List[str]:
+    """Sort distributions by dependency order (those depending on nothing appear first)."""
+    trans_map = transitive_deps(dep_map)
+
+    def compare(d1: str, d2: str) -> int:
+        if d1 in trans_map[d2]:
+            return -1
+        if d2 in trans_map[d1]:
+            return 1
+        return 0
+
+    # Return independent packages sorted by name for stability.
+    return sorted(sorted(dep_map), key=cmp_to_key(compare))
 
 
 def generate_setup_file(typeshed_dir: str, distribution: str, increment: str) -> str:

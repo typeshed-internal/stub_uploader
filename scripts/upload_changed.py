@@ -21,7 +21,11 @@ from scripts import get_changed
 def main(typeshed_dir: str, commit: str, uploaded: str, dry_run: bool = False) -> None:
     """Upload stub typeshed packages modified since commit."""
     changed = get_changed.main(typeshed_dir, commit)
-    for distribution in changed:
+    # Sort by dependency to prevent depending on foreign distributions.
+    to_upload = build_wheel.sort_by_dependency(
+        build_wheel.make_dependency_map(typeshed_dir, changed)
+    )
+    for distribution in to_upload:
         # Setting base version to None, so it will be read from current METADATA.toml.
         increment = get_version.main(typeshed_dir, distribution, None)
         increment += 1

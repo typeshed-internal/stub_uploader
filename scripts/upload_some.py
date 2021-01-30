@@ -20,9 +20,14 @@ from scripts import build_wheel
 def main(typeshed_dir: str, pattern: str, uploaded: str) -> None:
     """Force upload typeshed stub packages to PyPI."""
     compiled = re.compile(f"^{pattern}$")  # force exact matches
-    for distribution in os.listdir(os.path.join(typeshed_dir, "stubs")):
-        if not re.match(compiled, distribution):
-            continue
+    matching = [
+        d for d in os.listdir(os.path.join(typeshed_dir, "stubs")) if re.match(compiled, d)
+    ]
+    # Sort by dependency to prevent depending on foreign distributions.
+    to_upload = build_wheel.sort_by_dependency(
+        build_wheel.make_dependency_map(typeshed_dir, matching)
+    )
+    for distribution in to_upload:
         # Setting base version to None, so it will be read from current METADATA.toml.
         increment = get_version.main(typeshed_dir, distribution, version=None)
         increment += 1
