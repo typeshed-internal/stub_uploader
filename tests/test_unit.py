@@ -1,7 +1,17 @@
 """Unit tests for simple helpers should go here."""
 
 import pytest  # type: ignore[import]
+from scripts.get_version import strip_dep_version
 from scripts.build_wheel import sort_by_dependency, transitive_deps
+
+
+def test_strip_version() -> None:
+    assert strip_dep_version("foo") == "foo"
+    assert strip_dep_version("types-foo") == "types-foo"
+    assert strip_dep_version("foo==1.1") == "foo"
+    assert strip_dep_version("types-foo==1.1") == "types-foo"
+    assert strip_dep_version("foo>2.3") == "foo"
+    assert strip_dep_version("types-foo>2.3") == "types-foo"
 
 
 def test_transitive_deps() -> None:
