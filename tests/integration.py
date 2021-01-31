@@ -17,6 +17,11 @@ def test_version() -> None:
     assert get_version.main(TYPESHED, "typing-extensions", None) >= 0
 
 
+def test_check_exists() -> None:
+    assert get_version.check_exists("six")
+    assert not get_version.check_exists("nonexistent-distribution")
+
+
 def test_build_wheel() -> None:
     # Check that we can build wheels for all distributions.
     for distribution in os.listdir(os.path.join(TYPESHED, "stubs")):

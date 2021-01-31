@@ -226,7 +226,7 @@ def transitive_deps(dep_map: Dict[str, Set[str]]) -> Dict[str, Set[str]]:
         to_add = {distribution}
         while to_add:
             new = to_add.pop()
-            extra = dep_map.get(new, set())
+            extra = dep_map[new]
             transitive[distribution] |= extra
             assert distribution not in transitive[distribution], f"Cyclic dependency {distribution} -> {distribution}"
             to_add |= extra
