@@ -19,7 +19,7 @@ def test_version() -> None:
 
 def test_build_wheel() -> None:
     # Check that we can build wheels for all distributions.
-    for distribution in sorted(os.listdir(os.path.join(TYPESHED, "stubs"))):
+    for distribution in os.listdir(os.path.join(TYPESHED, "stubs")):
         tmp_dir = build_wheel.main(TYPESHED, distribution, increment=1)
         assert tmp_dir.endswith("/dist")
         assert list(os.listdir(tmp_dir))  # check it is not empty
