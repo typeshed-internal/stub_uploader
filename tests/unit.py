@@ -1,6 +1,6 @@
 """Unit tests for simple helpers should go here."""
 
-import pytest
+import pytest  # type: ignore[import]
 from scripts.build_wheel import sort_by_dependency, transitive_deps
 
 
