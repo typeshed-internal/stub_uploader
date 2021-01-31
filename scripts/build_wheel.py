@@ -201,7 +201,7 @@ def make_dependency_map(typeshed_dir: str, distributions: List[str]) -> Dict[str
     Important: this only includes dependencies *within* the given
     list of distributions.
     """
-    result = {d: set() for d in distributions}
+    result: Dict[str, Set[str]] = {d: set() for d in distributions}
     for distribution in distributions:
         data = read_matadata(
             os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE, distribution, META)
@@ -221,7 +221,7 @@ def transitive_deps(dep_map: Dict[str, Set[str]]) -> Dict[str, Set[str]]:
     because N is small (less than 1000). So it will take few seconds at worst,
     while building/uploading 1000 packages will take minutes.
     """
-    transitive = defaultdict(set)
+    transitive: Dict[str, Set[str]] = defaultdict(set)
     for distribution in dep_map:
         to_add = {distribution}
         while to_add:
