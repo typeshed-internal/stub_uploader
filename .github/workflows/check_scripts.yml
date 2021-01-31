@@ -34,6 +34,6 @@ jobs:
           path: typeshed
       - name: Run tests
         run: |
-          pip install pytest toml requests
+          pip install pytest toml requests setuptools wheel
           cd main
           python -m pytest tests/*
