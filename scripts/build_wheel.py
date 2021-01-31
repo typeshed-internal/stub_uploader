@@ -287,8 +287,10 @@ def main(typeshed_dir: str, distribution: str, increment: int) -> str:
     if PY2_NAMESPACE in os.listdir(base_dir):
         # If there are Python 2 only stubs, copy them too.
         copy_stubs(typeshed_dir, os.path.join(distribution, PY2_NAMESPACE), tmpdir, PY2_SUFFIX)
+    current_dir = os.getcwd()
     os.chdir(tmpdir)
     subprocess.run(["python3", "setup.py", "bdist_wheel", "--universal"])
+    os.chdir(current_dir)
     return f"{tmpdir}/dist"
 
 

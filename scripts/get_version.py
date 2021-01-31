@@ -17,7 +17,7 @@ from typing import Optional
 import requests
 import toml
 from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
+from urllib3.util.retry import Retry  # type: ignore[import]
 
 THIRD_PARTY_NAMESPACE = "stubs"
 PREFIX = "types-"
