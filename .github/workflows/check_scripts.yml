@@ -1,0 +1,39 @@
+name: Check scripts
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  mypy:
+    name: Check scripts with mypy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v2
+      - run: |
+          pip install mypy
+          mypy -p scripts
+
+  tests:
+    name: Run integration and unit tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
+      - name: Checkout main
+        uses: actions/checkout@v2
+        with:
+          path: main
+      - name: Checkout typeshed
+        uses: actions/checkout@v2
+        with:
+          repository: python/typeshed
+          path: typeshed
+      - name: Run tests
+        run: |
+          pip install pytest toml requests
+          cd main
+          python -m pytest tests/*
