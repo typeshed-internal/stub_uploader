@@ -54,7 +54,7 @@ https://github.com/python/typeshed/tree/master/stubs/{distribution}. All fixes f
 types and metadata should be contributed there.
 
 See https://github.com/python/typeshed/blob/master/README.md for more details.
-This package is generated from typeshed commit `{commit}`.
+This package was generated from typeshed commit `{commit}`.
 '''.lstrip()
 
 setup(name=name,
