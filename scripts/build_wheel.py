@@ -54,6 +54,7 @@ https://github.com/python/typeshed/tree/master/stubs/{distribution}. All fixes f
 types and metadata should be contributed there.
 
 See https://github.com/python/typeshed/blob/master/README.md for more details.
+This package was generated from typeshed commit `{commit}`.
 '''.lstrip()
 
 setup(name=name,
@@ -252,7 +253,9 @@ def sort_by_dependency(dep_map: Dict[str, Set[str]]) -> List[str]:
     return sorted(sorted(dep_map), key=cmp_to_key(compare))
 
 
-def generate_setup_file(typeshed_dir: str, distribution: str, increment: str) -> str:
+def generate_setup_file(
+        typeshed_dir: str, distribution: str, increment: str, commit: str
+) -> str:
     """Auto-generate a setup.py file for given distribution using a template."""
     base_dir = os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE, distribution)
     metadata = read_matadata(os.path.join(base_dir, META))
@@ -272,6 +275,7 @@ def generate_setup_file(typeshed_dir: str, distribution: str, increment: str) ->
         requires=metadata.get("requires", []),
         packages=packages,
         package_data=package_data,
+        commit=commit,
     )
 
 
@@ -285,8 +289,11 @@ def main(typeshed_dir: str, distribution: str, increment: int) -> str:
     """
     base_dir = os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE, distribution)
     tmpdir = tempfile.mkdtemp()
+    commit = subprocess.run(["git", "rev-parse", "HEAD"],
+                            capture_output=True, universal_newlines=True, cwd=typeshed_dir
+                            ).stdout.strip()
     with open(os.path.join(tmpdir, "setup.py"), "w") as f:
-        f.write(generate_setup_file(typeshed_dir, distribution, str(increment)))
+        f.write(generate_setup_file(typeshed_dir, distribution, str(increment), commit))
     copy_stubs(typeshed_dir, distribution, tmpdir, SUFFIX)
     if PY2_NAMESPACE in os.listdir(base_dir):
         # If there are Python 2 only stubs, copy them too.

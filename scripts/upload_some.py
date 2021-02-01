@@ -27,6 +27,7 @@ def main(typeshed_dir: str, pattern: str, uploaded: str) -> None:
     to_upload = build_wheel.sort_by_dependency(
         build_wheel.make_dependency_map(typeshed_dir, matching)
     )
+    print("Uploading stubs for:", ", ".join(to_upload))
     for distribution in to_upload:
         # Setting base version to None, so it will be read from current METADATA.toml.
         increment = get_version.main(typeshed_dir, distribution, version=None)
@@ -38,12 +39,13 @@ def main(typeshed_dir: str, pattern: str, uploaded: str) -> None:
         temp_dir = build_wheel.main(typeshed_dir, distribution, increment)
         subprocess.run(["twine", "upload", os.path.join(temp_dir, "*")], check=True)
         build_wheel.update_uploaded(uploaded, distribution)
+        print(f"Successfully uploaded stubs for {distribution}")
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("typeshed_dir", help="Path to typeshed checkout directory")
     parser.add_argument("pattern", help="Regular expression to select distributions for upload")
-    parser.add_argument("uploaded", help="Previously uploaded packages to validate dependencies")
+    parser.add_argument("uploaded", help="File listing previously uploaded packages to validate dependencies")
     args = parser.parse_args()
     main(args.typeshed_dir, args.pattern, args.uploaded)

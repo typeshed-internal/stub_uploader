@@ -25,9 +25,12 @@ def main(typeshed_dir: str, commit: str, uploaded: str, dry_run: bool = False) -
     to_upload = build_wheel.sort_by_dependency(
         build_wheel.make_dependency_map(typeshed_dir, changed)
     )
+    print("Building and uploading stubs for:", ", ".join(to_upload))
     for distribution in to_upload:
         # Setting base version to None, so it will be read from current METADATA.toml.
         increment = get_version.main(typeshed_dir, distribution, None)
+        if increment >= 0:
+            print(f"Existing version found for {distribution}")
         increment += 1
         temp_dir = build_wheel.main(typeshed_dir, distribution, increment)
         if dry_run:
@@ -39,13 +42,14 @@ def main(typeshed_dir: str, commit: str, uploaded: str, dry_run: bool = False) -
             build_wheel.verify_dependency(typeshed_dir, dependency, uploaded)
         subprocess.run(["twine", "upload", os.path.join(temp_dir, "*")], check=True)
         build_wheel.update_uploaded(uploaded, distribution)
+        print(f"Successfully uploaded stubs for {distribution}")
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("typeshed_dir", help="Path to typeshed checkout directory")
     parser.add_argument("previous_commit", help="Previous typeshed commit for which we performed upload")
-    parser.add_argument("uploaded", help="Previously uploaded packages to validate dependencies")
+    parser.add_argument("uploaded", help="File listing previously uploaded packages to validate dependencies")
     parser.add_argument("--dry-run", action="store_true", help="Should we perform a dry run (don't actually upload)")
     args = parser.parse_args()
     main(args.typeshed_dir, args.previous_commit, args.uploaded, args.dry_run)
