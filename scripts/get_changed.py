@@ -19,6 +19,7 @@ def main(typeshed_dir: str, commit: str) -> List[str]:
     assert typeshed_dir.endswith(os.sep + "typeshed")
     git = subprocess.run(["git", "diff", "--name-only", "HEAD", commit],
                          capture_output=True, universal_newlines=True, cwd=typeshed_dir)
+    print("git output:", git.stdout)
     changed = set()
     for file in git.stdout.splitlines():
         # Third party stubs live in typeshed/stubs/...
