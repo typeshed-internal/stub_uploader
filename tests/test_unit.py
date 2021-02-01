@@ -2,13 +2,13 @@
 
 import pytest  # type: ignore[import]
 from scripts.get_version import strip_dep_version
-from scripts.build_wheel import sort_by_dependency, transitive_deps, assert_and_strip_types_prefix
+from scripts.build_wheel import sort_by_dependency, transitive_deps, strip_types_prefix
 
 
 def test_strip_types_prefix() -> None:
-    assert assert_and_strip_types_prefix("types-foo") == "foo"
+    assert strip_types_prefix("types-foo") == "foo"
     with pytest.raises(AssertionError):
-        assert_and_strip_types_prefix("bad")
+        strip_types_prefix("bad")
 
 
 def test_strip_version() -> None:
