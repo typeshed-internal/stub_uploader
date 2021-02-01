@@ -17,13 +17,8 @@ from typing import List
 def main(typeshed_dir: str, commit: str) -> List[str]:
     """List all distributions that changed since commit."""
     assert typeshed_dir.endswith(os.sep + "typeshed")
-    subprocess.run(["git", "log", "--oneline", "-n", "20"], cwd=typeshed_dir)
-    git = subprocess.run(["git", "rev-parse", "HEAD"],
-                         capture_output=True, universal_newlines=True, cwd=typeshed_dir)
-    print("old", commit, "current", git.stdout)
-    git = subprocess.run(["git", "diff", "--name-only", commit],
-                         cwd=typeshed_dir, check=True)
-    print("git output:", git.stdout)
+    git = subprocess.run(["git", "diff", "--name-only", "HEAD", commit],
+                         capture_output=True, universal_newlines=True, cwd=typeshed_dir, check=True)
     changed = set()
     for file in git.stdout.splitlines():
         # Third party stubs live in typeshed/stubs/...
