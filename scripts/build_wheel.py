@@ -12,6 +12,8 @@ itself, no other files can be included.
 The types stubs live in https://github.com/python/typeshed/tree/master/stubs,
 all fixes for types and metadata should be contributed there, see
 https://github.com/python/typeshed/blob/master/CONTRIBUTING.md for more details.
+
+This file also contains some helper functions related to wheel validation and upload.
 """
 
 import argparse
@@ -20,8 +22,12 @@ import os.path
 import shutil
 import tempfile
 import subprocess
+from collections import defaultdict
+from functools import cmp_to_key
 from textwrap import dedent
-from typing import List, Dict, Any, Tuple
+from typing import List, Dict, Any, Tuple, Set
+
+from scripts import get_version
 
 import toml
 
@@ -64,6 +70,11 @@ setup(name=name,
       ]
 )
 """).lstrip()
+
+
+def strip_types_prefix(dependency: str) -> str:
+    assert dependency.startswith("types-"), "Currently only dependencies on stub packages are supported"
+    return dependency[len("types-"):]
 
 
 def find_stub_files(top: str) -> List[str]:
@@ -165,6 +176,82 @@ def collect_setup_entries(
     return packages, package_data
 
 
+def verify_dependency(typeshed_dir: str, dependency: str, uploaded: str) -> None:
+    """Verify this is a valid dependency, i.e. a stub package uploaded by us."""
+    known_distributions = set(os.listdir(os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE)))
+    assert ";" not in dependency, "Semicolons in dependencies are not supported"
+    dependency = get_version.strip_dep_version(dependency)
+    assert strip_types_prefix(dependency) in known_distributions, "Only dependencies on typeshed stubs are allowed"
+    with open(uploaded) as f:
+        uploaded_distributions = set(f.read().splitlines())
+
+    msg = f"{dependency} looks like a foreign distribution."
+    uploaded_distributions_lower = [d.lower() for d in uploaded_distributions]
+    if dependency not in uploaded_distributions and dependency.lower() in uploaded_distributions_lower:
+        msg += " Note: list is case sensitive"
+    assert dependency in uploaded_distributions, msg
+
+
+def update_uploaded(uploaded: str, distribution: str) -> None:
+    with open(uploaded) as f:
+        current = set(f.read().splitlines())
+    if f"types-{distribution}" not in current:
+        with open(uploaded, "w") as f:
+            f.writelines(sorted(current | {f"types-{distribution}"}))
+
+
+def make_dependency_map(typeshed_dir: str, distributions: List[str]) -> Dict[str, Set[str]]:
+    """Return relative dependency map among distributions.
+
+    Important: this only includes dependencies *within* the given
+    list of distributions.
+    """
+    result: Dict[str, Set[str]] = {d: set() for d in distributions}
+    for distribution in distributions:
+        data = read_matadata(
+            os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE, distribution, META)
+        )
+        for dependency in data.get("requires", []):
+            dependency = strip_types_prefix(get_version.strip_dep_version(dependency))
+            if dependency in distributions:
+                result[distribution].add(dependency)
+    return result
+
+
+def transitive_deps(dep_map: Dict[str, Set[str]]) -> Dict[str, Set[str]]:
+    """Propagate dependencies to compute a transitive dependency map.
+
+    Note: this algorithm is O(N**2) in general case, but we don't worry,
+    because N is small (less than 1000). So it will take few seconds at worst,
+    while building/uploading 1000 packages will take minutes.
+    """
+    transitive: Dict[str, Set[str]] = defaultdict(set)
+    for distribution in dep_map:
+        to_add = {distribution}
+        while to_add:
+            new = to_add.pop()
+            extra = dep_map[new]
+            transitive[distribution] |= extra
+            assert distribution not in transitive[distribution], f"Cyclic dependency {distribution} -> {distribution}"
+            to_add |= extra
+    return transitive
+
+
+def sort_by_dependency(dep_map: Dict[str, Set[str]]) -> List[str]:
+    """Sort distributions by dependency order (those depending on nothing appear first)."""
+    trans_map = transitive_deps(dep_map)
+
+    def compare(d1: str, d2: str) -> int:
+        if d1 in trans_map[d2]:
+            return -1
+        if d2 in trans_map[d1]:
+            return 1
+        return 0
+
+    # Return independent packages sorted by name for stability.
+    return sorted(sorted(dep_map), key=cmp_to_key(compare))
+
+
 def generate_setup_file(typeshed_dir: str, distribution: str, increment: str) -> str:
     """Auto-generate a setup.py file for given distribution using a template."""
     base_dir = os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE, distribution)
@@ -178,17 +265,11 @@ def generate_setup_file(typeshed_dir: str, distribution: str, increment: str) ->
         packages += py2_packages
         package_data.update(py2_package_data)
     version = metadata["version"]
-    requires = metadata.get("requires", [])
-    known_distributions = set(os.listdir(os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE)))
-    for dependency in requires:
-        assert dependency.startswith("types-"), "Only dependencies on stub packages are allowed"
-        dep_name = dependency[len("types-"):]
-        assert dep_name in known_distributions, "Only dependencies on typeshed stubs are allowed"
     assert version.count(".") == 1, f"Version must be major.minor, not {version}"
     return SETUP_TEMPLATE.format(
         distribution=distribution,
         version=f"{version}.{increment}",
-        requires=requires,
+        requires=metadata.get("requires", []),
         packages=packages,
         package_data=package_data,
     )

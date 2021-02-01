@@ -5,6 +5,9 @@ Find the latest typeshed increment for a stub package with given
 If the given version was never uploaded, this will return -1. See
 https://github.com/python/typeshed/blob/master/README.md for details
 on stub versioning.
+
+This file also contains some helper functions related to querying
+distribution information.
 """
 
 import argparse
@@ -32,6 +35,30 @@ def read_base_version(typeshed_dir: str, distribution: str) -> str:
     with open(metadata_file) as f:
         data = toml.loads(f.read())
     return data["version"]
+
+
+def strip_dep_version(dependency: str) -> str:
+    """Strip a possible version suffix, e.g. types-six>=0.1.4 -> types-six."""
+    dep_version_pos = len(dependency)
+    for pos, c in enumerate(dependency):
+        if c in "=<>":
+            dep_version_pos = pos
+            break
+    return dependency[:dep_version_pos]
+
+
+def check_exists(distribution: str) -> bool:
+    """Check if any version of this *stub* distribution has ben ever uploaded."""
+    url = URL_TEMPLATE.format(distribution)
+    retry_strategy = Retry(total=RETRIES, status_forcelist=RETRY_ON)
+    with requests.Session() as session:
+        session.mount("https://", HTTPAdapter(max_retries=retry_strategy))
+        resp = session.get(url, timeout=TIMEOUT)
+    if resp.ok:
+        return True
+    if resp.status_code == 404:
+        return False
+    raise ValueError("Error while verifying existence")
 
 
 def main(typeshed_dir: str, distribution: str, version: Optional[str]) -> int:
