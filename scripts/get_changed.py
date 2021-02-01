@@ -21,7 +21,7 @@ def main(typeshed_dir: str, commit: str) -> List[str]:
                          capture_output=True, universal_newlines=True, cwd=typeshed_dir)
     print("old", commit, "current", git.stdout)
     git = subprocess.run(["git", "diff", "--name-only", commit],
-                         capture_output=True, universal_newlines=True, cwd=typeshed_dir)
+                         capture_output=True, universal_newlines=True, cwd=typeshed_dir, check=True)
     print("git output:", git.stdout)
     changed = set()
     for file in git.stdout.splitlines():
