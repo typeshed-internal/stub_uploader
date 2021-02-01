@@ -20,7 +20,7 @@ def main(typeshed_dir: str, commit: str) -> List[str]:
     git = subprocess.run(["git", "rev-parse", "HEAD"],
                          capture_output=True, universal_newlines=True, cwd=typeshed_dir)
     print("old", commit, "current", git.stdout)
-    git = subprocess.run(["git", "diff", "--name-only", commit, git.stdout.strip()],
+    git = subprocess.run(["git", "diff", "--name-only", commit],
                          capture_output=True, universal_newlines=True, cwd=typeshed_dir)
     print("git output:", git.stdout)
     changed = set()
