@@ -22,7 +22,7 @@ import os.path
 import shutil
 import tempfile
 import subprocess
-from  collections import defaultdict
+from collections import defaultdict
 from functools import cmp_to_key
 from textwrap import dedent
 from typing import List, Dict, Any, Tuple, Set
@@ -70,6 +70,11 @@ setup(name=name,
       ]
 )
 """).lstrip()
+
+
+def strip_types_prefix(dependency: str) -> str:
+    assert dependency.startswith("types-"), "Currently only dependencies on stub packages are supported"
+    return dependency[len("types-"):]
 
 
 def find_stub_files(top: str) -> List[str]:
@@ -174,9 +179,9 @@ def collect_setup_entries(
 def verify_dependency(typeshed_dir: str, dependency: str, uploaded: str) -> None:
     """Verify this is a valid dependency, i.e. a stub package uploaded by us."""
     known_distributions = set(os.listdir(os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE)))
+    assert ";" not in dependency, "Semicolons in dependencies are not supported"
     dependency = get_version.strip_dep_version(dependency)
-    assert dependency.startswith("types-"), "Currently only dependencies on stub packages are supported"
-    assert dependency[len("types-"):] in known_distributions, "Only dependencies on typeshed stubs are allowed"
+    assert strip_types_prefix(dependency) in known_distributions, "Only dependencies on typeshed stubs are allowed"
     with open(uploaded) as f:
         uploaded_distributions = set(f.read().splitlines())
 
@@ -207,10 +212,9 @@ def make_dependency_map(typeshed_dir: str, distributions: List[str]) -> Dict[str
             os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE, distribution, META)
         )
         for dependency in data.get("requires", []):
-            dependency = get_version.strip_dep_version(dependency)
-            assert dependency.startswith("types-"), "Currently only dependencies on stub packages are supported"
-            if dependency[len("types-"):] in distributions:
-                result[distribution].add(dependency[len("types-"):])
+            dependency = strip_types_prefix(get_version.strip_dep_version(dependency))
+            if dependency in distributions:
+                result[distribution].add(dependency)
     return result
 
 

@@ -34,9 +34,7 @@ def main(typeshed_dir: str, pattern: str, uploaded: str) -> None:
         for dependency in build_wheel.read_matadata(
             os.path.join(typeshed_dir, build_wheel.THIRD_PARTY_NAMESPACE, distribution)
         ).get("requires", []):
-            if get_version.check_exists(get_version.strip_dep_version(dependency)):
-                # If this dependency is already present, check it was uploaded by us.
-                build_wheel.verify_dependency(typeshed_dir, dependency, uploaded)
+            build_wheel.verify_dependency(typeshed_dir, dependency, uploaded)
         temp_dir = build_wheel.main(typeshed_dir, distribution, increment)
         subprocess.run(["twine", "upload", os.path.join(temp_dir, "*")], check=True)
         build_wheel.update_uploaded(uploaded, distribution)
