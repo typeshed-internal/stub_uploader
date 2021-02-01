@@ -35,3 +35,8 @@ jobs:
         run: |
           cd main
           python -m scripts.upload_some ../typeshed ${{ github.event.inputs.distribution }} data/uploaded_packages.txt
+          if [ -z "$(git status --porcelain)" ]; then
+              exit 0;
+          fi
+          git config user.name github-actions && git config user.email github-actions@github.com
+          git add . && git commit -m "Update uploaded packages list" && git push
