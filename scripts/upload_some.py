@@ -33,7 +33,9 @@ def main(typeshed_dir: str, pattern: str, uploaded: str) -> None:
         increment = get_version.main(typeshed_dir, distribution, version=None)
         increment += 1
         for dependency in build_wheel.read_matadata(
-            os.path.join(typeshed_dir, build_wheel.THIRD_PARTY_NAMESPACE, distribution)
+            os.path.join(
+                typeshed_dir, build_wheel.THIRD_PARTY_NAMESPACE, distribution, build_wheel.META
+            )
         ).get("requires", []):
             build_wheel.verify_dependency(typeshed_dir, dependency, uploaded)
         temp_dir = build_wheel.main(typeshed_dir, distribution, increment)

@@ -37,7 +37,9 @@ def main(typeshed_dir: str, commit: str, uploaded: str, dry_run: bool = False) -
             print(f"Would upload: {distribution}, increment {increment}")
             continue
         for dependency in build_wheel.read_matadata(
-            os.path.join(typeshed_dir, build_wheel.THIRD_PARTY_NAMESPACE, distribution)
+            os.path.join(
+                typeshed_dir, build_wheel.THIRD_PARTY_NAMESPACE, distribution, build_wheel.META
+            )
         ).get("requires", []):
             build_wheel.verify_dependency(typeshed_dir, dependency, uploaded)
         subprocess.run(["twine", "upload", os.path.join(temp_dir, "*")], check=True)
