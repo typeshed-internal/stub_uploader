@@ -18,7 +18,7 @@ def main(typeshed_dir: str, commit: str) -> List[str]:
     """List all distributions that changed since commit."""
     assert typeshed_dir.endswith(os.sep + "typeshed")
     git = subprocess.run(["git", "diff", "--name-only", "HEAD", commit],
-                         capture_output=True, universal_newlines=True, cwd=typeshed_dir)
+                         capture_output=True, universal_newlines=True, cwd=typeshed_dir, check=True)
     changed = set()
     for file in git.stdout.splitlines():
         # Third party stubs live in typeshed/stubs/...
