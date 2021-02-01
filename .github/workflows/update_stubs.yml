@@ -24,6 +24,9 @@ jobs:
         with:
           repository: python/typeshed
           path: typeshed
+          # It is unlikely there will be more commits between two runs.
+          # We could set this to 0 to fetch everything, but we want this to be fast.
+          fetch-depth: 100
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
