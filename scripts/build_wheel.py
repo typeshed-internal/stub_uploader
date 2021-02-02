@@ -242,15 +242,19 @@ def sort_by_dependency(dep_map: Dict[str, Set[str]]) -> List[str]:
     """Sort distributions by dependency order (those depending on nothing appear first)."""
     trans_map = transitive_deps(dep_map)
 
-    def compare(d1: str, d2: str) -> int:
-        if d1 in trans_map[d2]:
-            return -1
-        if d2 in trans_map[d1]:
-            return 1
-        return 0
+    # We can't use builtin sort w.r.t. trans_map because it makes various assumptions
+    # about properties of equality and order (like their mutual transitivity).
+    def sort(ds: List[str]) -> List[str]:
+        if not ds:
+            return []
+        pivot = ds.pop()
+        not_dependent = [d for d in ds if pivot not in trans_map[d]]
+        dependent = [d for d in ds if pivot in trans_map[d]]
+        return sort(not_dependent) + [pivot] + sort(dependent)
 
     # Return independent packages sorted by name for stability.
-    return sorted(sorted(dep_map), key=cmp_to_key(compare))
+    ordered = sorted(dep_map)
+    return sort(ordered)
 
 
 def generate_setup_file(
