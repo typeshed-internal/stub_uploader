@@ -253,8 +253,7 @@ def sort_by_dependency(dep_map: Dict[str, Set[str]]) -> List[str]:
         return sort(not_dependent) + [pivot] + sort(dependent)
 
     # Return independent packages sorted by name for stability.
-    ordered = sorted(dep_map)
-    return sort(ordered)
+    return sort(sorted(dep_map))
 
 
 def generate_setup_file(
