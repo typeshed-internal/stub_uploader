@@ -21,6 +21,9 @@ from scripts import get_changed
 def main(typeshed_dir: str, commit: str, uploaded: str, dry_run: bool = False) -> None:
     """Upload stub typeshed packages modified since commit."""
     changed = get_changed.main(typeshed_dir, commit)
+    # Ignore those distributions that were completely deleted.
+    current = set(os.listdir(os.path.join(typeshed_dir, "stubs")))
+    changed = [d for d in changed if d in current]
     # Sort by dependency to prevent depending on foreign distributions.
     to_upload = build_wheel.sort_by_dependency(
         build_wheel.make_dependency_map(typeshed_dir, changed)
