@@ -1,10 +1,2 @@
-types-Routes
-types-attrs
-types-certifi
-types-enum34
-types-first
-types-mypy-extensions
-types-six
-types-toml
-types-typed-ast
-types-typing-extensions
+types-Routestypes-attrstypes-certifitypes-enum34types-firsttypes-mypy-extensionstypes-pycurl
+types-sixtypes-tomltypes-typed-asttypes-typing-extensions
