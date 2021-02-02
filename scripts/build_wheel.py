@@ -198,7 +198,7 @@ def update_uploaded(uploaded: str, distribution: str) -> None:
         current = set(f.read().splitlines())
     if f"types-{distribution}" not in current:
         with open(uploaded, "w") as f:
-            f.writelines(sorted(current | {f"types-{distribution}\n"}))
+            f.write("\n".join(sorted(current | {f"types-{distribution}"})))
 
 
 def make_dependency_map(typeshed_dir: str, distributions: List[str]) -> Dict[str, Set[str]]:
