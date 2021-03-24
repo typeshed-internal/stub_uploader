@@ -54,8 +54,10 @@ types-pkg_resources
 types-polib
 types-protobuf
 types-pyRFC3339
+types-pyaudio
 types-pycurl
 types-pymssql
+types-pysftp
 types-python-dateutil
 types-python-gflags
 types-python-slugify
