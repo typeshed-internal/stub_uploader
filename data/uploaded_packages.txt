@@ -22,6 +22,7 @@ types-characteristic
 types-chardet
 types-click
 types-click-spinner
+types-colorama
 types-contextvars
 types-croniter
 types-cryptography
