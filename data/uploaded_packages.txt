@@ -57,6 +57,7 @@ types-protobuf
 types-pyRFC3339
 types-pyaudio
 types-pycurl
+types-pyfarmhash
 types-pymssql
 types-pysftp
 types-python-dateutil
