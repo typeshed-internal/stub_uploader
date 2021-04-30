@@ -15,8 +15,8 @@ def test_version() -> None:
     """Check that we can query PyPI for package increments."""
     assert get_version.main(TYPESHED, "six", "0.1") >= 0
     assert get_version.main(TYPESHED, "nonexistent-distribution", "0.1") == -1
-    assert get_version.main(TYPESHED, "typing-extensions", "0.1") == -1
-    assert get_version.main(TYPESHED, "typing-extensions", None) >= 0
+    assert get_version.main(TYPESHED, "typed-ast", "0.1") == -1
+    assert get_version.main(TYPESHED, "typed-ast", None) >= 0
 
 
 def test_check_exists() -> None:
@@ -36,8 +36,8 @@ def test_verify_dependency() -> None:
     # Check some known dependencies that they verify as valid.
     build_wheel.verify_dependency(TYPESHED, "types-six", UPLOADED)
     build_wheel.verify_dependency(TYPESHED, "types-six==0.1.1", UPLOADED)
-    build_wheel.verify_dependency(TYPESHED, "types-typing-extensions", UPLOADED)
-    build_wheel.verify_dependency(TYPESHED, "types-typing-extensions>=3.7", UPLOADED)
+    build_wheel.verify_dependency(TYPESHED, "types-typed-ast", UPLOADED)
+    build_wheel.verify_dependency(TYPESHED, "types-typed-ast>=3.7", UPLOADED)
     # Also check couple errors.
     with pytest.raises(AssertionError):
         build_wheel.verify_dependency(TYPESHED, "unsupported", UPLOADED)
