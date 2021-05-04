@@ -10,6 +10,7 @@ types-PyYAML
 types-Routes
 types-Werkzeug
 types-aiofiles
+types-annoy
 types-atomicwrites
 types-attrs
 types-backports
