@@ -289,16 +289,16 @@ def generate_setup_file(
         packages=packages,
         package_data=package_data,
         commit=commit,
-        obsolete_text=generate_obsolete_text(distribution, meta),
+        obsolete_text=generate_obsolete_text(distribution, metadata),
     )
 
 
-def generate_obsolete_text(distribution: str, meta: Dict[str, Any]) -> str:
-    if "obsolete_since" not in meta:
+def generate_obsolete_text(distribution: str, metadata: Dict[str, Any]) -> str:
+    if "obsolete_since" not in metadata:
         return ""
     return OBSOLETE_TEXT_TEMPLATE.format(
         distribution=distribution,
-        obsolete_since=meta["obsolete_since"],
+        obsolete_since=metadata["obsolete_since"],
     )
 
 
