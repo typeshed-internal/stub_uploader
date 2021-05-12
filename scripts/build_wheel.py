@@ -53,6 +53,8 @@ that uses `{distribution}`. The source for this package can be found at
 https://github.com/python/typeshed/tree/master/stubs/{distribution}. All fixes for
 types and metadata should be contributed there.
 
+{extra_description}
+
 See https://github.com/python/typeshed/blob/master/README.md for more details.
 This package was generated from typeshed commit `{commit}`.
 '''.lstrip()
@@ -280,6 +282,7 @@ def generate_setup_file(
         requires=metadata.get("requires", []),
         packages=packages,
         package_data=package_data,
+        extra_description=metadata.get("extra_description", ""),
         commit=commit,
     )
 
