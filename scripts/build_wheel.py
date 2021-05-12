@@ -45,18 +45,7 @@ from setuptools import setup
 name = "types-{distribution}"
 description = "Typing stubs for {distribution}"
 long_description = '''
-## Typing stubs for {distribution}
-
-This is an auto-generated PEP 561 type stub package for `{distribution}` package.
-It can be used by type-checking tools like mypy, PyCharm, pytype etc. to check code
-that uses `{distribution}`. The source for this package can be found at
-https://github.com/python/typeshed/tree/master/stubs/{distribution}. All fixes for
-types and metadata should be contributed there.
-
-{extra_description}
-
-See https://github.com/python/typeshed/blob/master/README.md for more details.
-This package was generated from typeshed commit `{commit}`.
+{long_description}
 '''.lstrip()
 
 setup(name=name,
@@ -75,6 +64,22 @@ setup(name=name,
       ]
 )
 """).lstrip()
+
+
+DESCRIPTION_INTRO_TEMPLATE = """
+## Typing stubs for {distribution}
+
+This is an auto-generated PEP 561 type stub package for `{distribution}` package.
+It can be used by type-checking tools like mypy, PyCharm, pytype etc. to check code
+that uses `{distribution}`. The source for this package can be found at
+https://github.com/python/typeshed/tree/master/stubs/{distribution}. All fixes for
+types and metadata should be contributed there.
+""".strip()
+
+DESCRIPTION_OUTRO_TEMPLATE = """
+See https://github.com/python/typeshed/blob/master/README.md for more details.
+This package was generated from typeshed commit `{commit}`.
+""".strip()
 
 
 def strip_types_prefix(dependency: str) -> str:
@@ -278,13 +283,24 @@ def generate_setup_file(
     assert version.count(".") == 1, f"Version must be major.minor, not {version}"
     return SETUP_TEMPLATE.format(
         distribution=distribution,
+        long_description=generate_long_description(distribution, commit, metadata),
         version=f"{version}.{increment}",
         requires=metadata.get("requires", []),
         packages=packages,
         package_data=package_data,
-        extra_description=metadata.get("extra_description", ""),
-        commit=commit,
     )
+
+
+def generate_long_description(
+        distribution: str, commit: str, metadata: Metadata
+) -> str:
+    extra_description = metadata.get("extra_description", "").strip()
+    parts = []
+    parts.append(DESCRIPTION_INTRO_TEMPLATE.format(distribution=distribution))
+    if extra_description:
+        parts.append(extra_description)
+    parts.append(DESCRIPTION_OUTRO_TEMPLATE.format(commit=commit)
+    return "\n\n".join(parts)
 
 
 def main(typeshed_dir: str, distribution: str, increment: int) -> str:
