@@ -45,6 +45,7 @@ from setuptools import setup
 name = "types-{distribution}"
 description = "Typing stubs for {distribution}"
 long_description = '''
+<<<<<<< HEAD
 ## Typing stubs for {distribution}
 
 This is an auto-generated PEP 561 type stub package for `{distribution}` package.
@@ -57,6 +58,9 @@ types and metadata should be contributed there.
 
 See https://github.com/python/typeshed/blob/master/README.md for more details.
 This package was generated from typeshed commit `{commit}`.
+=======
+{long_description}
+>>>>>>> main
 '''.lstrip()
 
 setup(name=name,
@@ -81,6 +85,22 @@ OBSOLETE_TEXT_TEMPLATE = """
 since version {obsolete_since}. Please uninstall the `types-{distribution}`
 package if you use this or a newer version.
 """.lstrip()
+
+
+DESCRIPTION_INTRO_TEMPLATE = """
+## Typing stubs for {distribution}
+
+This is an auto-generated PEP 561 type stub package for `{distribution}` package.
+It can be used by type-checking tools like mypy, PyCharm, pytype etc. to check code
+that uses `{distribution}`. The source for this package can be found at
+https://github.com/python/typeshed/tree/master/stubs/{distribution}. All fixes for
+types and metadata should be contributed there.
+""".strip()
+
+DESCRIPTION_OUTRO_TEMPLATE = """
+See https://github.com/python/typeshed/blob/master/README.md for more details.
+This package was generated from typeshed commit `{commit}`.
+""".strip()
 
 
 def strip_types_prefix(dependency: str) -> str:
@@ -284,22 +304,29 @@ def generate_setup_file(
     assert version.count(".") == 1, f"Version must be major.minor, not {version}"
     return SETUP_TEMPLATE.format(
         distribution=distribution,
+        long_description=generate_long_description(distribution, commit, metadata),
         version=f"{version}.{increment}",
         requires=metadata.get("requires", []),
         packages=packages,
         package_data=package_data,
-        commit=commit,
-        obsolete_text=generate_obsolete_text(distribution, metadata),
     )
 
 
-def generate_obsolete_text(distribution: str, metadata: Dict[str, Any]) -> str:
-    if "obsolete_since" not in metadata:
-        return ""
-    return OBSOLETE_TEXT_TEMPLATE.format(
-        distribution=distribution,
-        obsolete_since=metadata["obsolete_since"],
-    )
+def generate_long_description(
+        distribution: str, commit: str, metadata: Dict[str, Any]
+) -> str:
+    extra_description = metadata.get("extra_description", "").strip()
+    parts = []
+    parts.append(DESCRIPTION_INTRO_TEMPLATE.format(distribution=distribution))
+    if extra_description:
+        parts.append(extra_description)
+    if "obsolete_since" in metadata:
+        parts.append(OBSOLETE_TEXT_TEMPLATE.format(
+            distribution=distribution,
+            obsolete_since=metadata["obsolete_since"]
+        ))
+    parts.append(DESCRIPTION_OUTRO_TEMPLATE.format(commit=commit))
+    return "\n\n".join(parts)
 
 
 def main(typeshed_dir: str, distribution: str, increment: int) -> str:
