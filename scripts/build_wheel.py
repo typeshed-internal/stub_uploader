@@ -65,6 +65,12 @@ setup(name=name,
 )
 """).lstrip()
 
+OBSOLETE_TEXT_TEMPLATE = """
+*Note:* The `{distribution}` package includes type annotations or type stubs
+since version {obsolete_since}. Please uninstall the `types-{distribution}`
+package if you use this or a newer version.
+""".lstrip()
+
 
 DESCRIPTION_INTRO_TEMPLATE = """
 ## Typing stubs for {distribution}
@@ -299,6 +305,11 @@ def generate_long_description(
     parts.append(DESCRIPTION_INTRO_TEMPLATE.format(distribution=distribution))
     if extra_description:
         parts.append(extra_description)
+    if "obsolete_since" in metadata:
+        parts.append(OBSOLETE_TEXT_TEMPLATE.format(
+            distribution=distribution,
+            obsolete_since=metadata["obsolete_since"]
+        ))
     parts.append(DESCRIPTION_OUTRO_TEMPLATE.format(commit=commit))
     return "\n\n".join(parts)
 
