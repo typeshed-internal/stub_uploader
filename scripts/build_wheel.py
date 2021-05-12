@@ -299,7 +299,7 @@ def generate_long_description(
     parts.append(DESCRIPTION_INTRO_TEMPLATE.format(distribution=distribution))
     if extra_description:
         parts.append(extra_description)
-    parts.append(DESCRIPTION_OUTRO_TEMPLATE.format(commit=commit)
+    parts.append(DESCRIPTION_OUTRO_TEMPLATE.format(commit=commit))
     return "\n\n".join(parts)
 
 
