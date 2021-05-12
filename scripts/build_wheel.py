@@ -292,7 +292,7 @@ def generate_setup_file(
 
 
 def generate_long_description(
-        distribution: str, commit: str, metadata: Metadata
+        distribution: str, commit: str, metadata: Dict[str, Any]
 ) -> str:
     extra_description = metadata.get("extra_description", "").strip()
     parts = []
