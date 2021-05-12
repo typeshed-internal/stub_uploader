@@ -53,6 +53,8 @@ that uses `{distribution}`. The source for this package can be found at
 https://github.com/python/typeshed/tree/master/stubs/{distribution}. All fixes for
 types and metadata should be contributed there.
 
+{obsolete_text}
+
 See https://github.com/python/typeshed/blob/master/README.md for more details.
 This package was generated from typeshed commit `{commit}`.
 '''.lstrip()
@@ -73,6 +75,12 @@ setup(name=name,
       ]
 )
 """).lstrip()
+
+OBSOLETE_TEXT_TEMPLATE = """
+*Note:* The `{distribution}` package includes type annotations or type stubs
+since version {obsolete_since}. Please uninstall the `types-{distribution}`
+package if you use this or a newer version.
+""".lstrip()
 
 
 def strip_types_prefix(dependency: str) -> str:
@@ -281,6 +289,16 @@ def generate_setup_file(
         packages=packages,
         package_data=package_data,
         commit=commit,
+        obsolete_text=generate_obsolete_text(distribution, meta),
+    )
+
+
+def generate_obsolete_text(distribution: str, meta: Dict[str, Any]) -> str:
+    if "obsolete_since" not in meta:
+        return ""
+    return OBSOLETE_TEXT_TEMPLATE.format(
+        distribution=distribution,
+        obsolete_since=meta["obsolete_since"],
     )
 
 
