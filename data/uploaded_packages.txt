@@ -5,6 +5,7 @@ types-JACK-Client
 types-Jinja2
 types-Markdown
 types-MarkupSafe
+types-Pillow
 types-PyMySQL
 types-PyYAML
 types-Routes
