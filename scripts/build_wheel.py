@@ -101,6 +101,8 @@ def find_stub_files(top: str) -> List[str]:
     """
     result = []
     for root, _, files in os.walk(top):
+        if os.path.basename(root) == TESTS_NAMESPACE:
+            continue
         for file in files:
             if file.endswith(".pyi"):
                 name, _ = os.path.splitext(file)
