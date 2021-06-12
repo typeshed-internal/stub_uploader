@@ -108,7 +108,7 @@ def find_stub_files(top: str) -> List[str]:
                 result.append(os.path.relpath(os.path.join(root, file), top))
             elif not file.endswith((".md", ".rst")):
                 # Allow having README docs, as some stubs have these (e.g. click).
-                raise ValueError("Only stub files are allowed")
+                raise ValueError(f"Only stub files are allowed, not {file}")
     return result
 
 
