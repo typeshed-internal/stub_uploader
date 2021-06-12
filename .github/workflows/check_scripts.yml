@@ -11,9 +11,8 @@ jobs:
     steps:
       - uses: actions/setup-python@v2
       - uses: actions/checkout@v2
-      - run: |
-          pip install mypy
-          mypy -p scripts -p tests
+      - run: pip install mypy types-requests types-toml
+      - run: mypy -p scripts -p tests
 
   tests:
     name: Run integration and unit tests
