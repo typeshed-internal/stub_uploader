@@ -32,7 +32,7 @@ def main(typeshed_dir: str, pattern: str, uploaded: str) -> None:
         # Setting base version to None, so it will be read from current METADATA.toml.
         increment = get_version.main(typeshed_dir, distribution, version=None)
         increment += 1
-        for dependency in build_wheel.read_matadata(
+        for dependency in build_wheel.read_metadata(
             os.path.join(
                 typeshed_dir, build_wheel.THIRD_PARTY_NAMESPACE, distribution, build_wheel.META
             )

@@ -39,7 +39,7 @@ def main(typeshed_dir: str, commit: str, uploaded: str, dry_run: bool = False) -
         if dry_run:
             print(f"Would upload: {distribution}, increment {increment}")
             continue
-        for dependency in build_wheel.read_matadata(
+        for dependency in build_wheel.read_metadata(
             os.path.join(
                 typeshed_dir, build_wheel.THIRD_PARTY_NAMESPACE, distribution, build_wheel.META
             )

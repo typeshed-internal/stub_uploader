@@ -24,6 +24,7 @@ import tempfile
 import subprocess
 from collections import defaultdict
 from functools import cmp_to_key
+from glob import glob
 from textwrap import dedent
 from typing import List, Dict, Any, Tuple, Set
 
@@ -89,6 +90,30 @@ This package was generated from typeshed commit `{commit}`.
 """.strip()
 
 
+class BuildData:
+    def __init__(self, typeshed_dir: str, distribution: str) -> None:
+        self.distribution = distribution
+        self._base_dir = os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE, distribution)
+        self.meta_path = os.path.join(self._base_dir, META)
+        # Python 3 (and mixed Python 2 and 3) stubs exist if at least one
+        # *.pyi file exists on the top-level or one level down, *excluding*
+        # the @python2 directory.
+        self.py3_stubs = (
+            len(glob(f"{self._base_dir}/*.pyi")) >= 1
+            or len(glob(f"{self._base_dir}/[!@]*/*.pyi")) >= 1
+        )
+        # Python 2 stubs exist if a @python2 directory exists.
+        self.py2_stubs = PY2_NAMESPACE in os.listdir(self._base_dir)
+
+    @property
+    def py3_stub_dir(self) -> str:
+        return self._base_dir
+
+    @property
+    def py2_stub_dir(self) -> str:
+        return os.path.join(self._base_dir, PY2_NAMESPACE)
+
+
 def strip_types_prefix(dependency: str) -> str:
     assert dependency.startswith("types-"), "Currently only dependencies on stub packages are supported"
     return dependency[len("types-"):]
@@ -112,19 +137,18 @@ def find_stub_files(top: str) -> List[str]:
     return result
 
 
-def read_matadata(file: str) -> Dict[str, Any]:
+def read_metadata(file: str) -> Dict[str, Any]:
     """Parse metadata from file."""
     with open(file) as f:
         return dict(toml.loads(f.read()))
 
 
-def copy_stubs(typeshed_dir: str, distribution: str, dst: str, suffix: str) -> None:
+def copy_stubs(base_dir: str, dst: str, suffix: str) -> None:
     """Copy stubs for given distribution to a temporary directory.
 
     For packages change name by appending "-stubs" suffix (PEP 561),
     also convert modules to trivial packages with a single __init__.pyi.
     """
-    base_dir = os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE, distribution)
     for entry in os.listdir(base_dir):
         if os.path.isfile(os.path.join(base_dir, entry)):
             if not entry.endswith(".pyi"):
@@ -156,8 +180,7 @@ def copy_stubs(typeshed_dir: str, distribution: str, dst: str, suffix: str) -> N
 
 
 def collect_setup_entries(
-        typeshed_dir: str,
-        distribution: str,
+        base_dir: str,
         suffix: str,
 ) -> Tuple[List[str], Dict[str, List[str]]]:
     """Generate package data for a setuptools.setup() call.
@@ -166,7 +189,6 @@ def collect_setup_entries(
     """
     packages = []
     package_data = {}
-    base_dir = os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE, distribution)
     for entry in os.listdir(base_dir):
         if entry == META:
             # Metadata file entry is added at the end.
@@ -229,7 +251,7 @@ def make_dependency_map(typeshed_dir: str, distributions: List[str]) -> Dict[str
     """
     result: Dict[str, Set[str]] = {d: set() for d in distributions}
     for distribution in distributions:
-        data = read_matadata(
+        data = read_metadata(
             os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE, distribution, META)
         )
         for dependency in data.get("requires", []):
@@ -276,25 +298,29 @@ def sort_by_dependency(dep_map: Dict[str, Set[str]]) -> List[str]:
     return sort(sorted(dep_map))
 
 
-def generate_setup_file(
-        typeshed_dir: str, distribution: str, increment: str, commit: str
-) -> str:
+def generate_setup_file(build_data: BuildData, increment: str, commit: str) -> str:
     """Auto-generate a setup.py file for given distribution using a template."""
-    base_dir = os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE, distribution)
-    metadata = read_matadata(os.path.join(base_dir, META))
-    packages, package_data = collect_setup_entries(typeshed_dir, distribution, SUFFIX)
-    if PY2_NAMESPACE in os.listdir(base_dir):
+    metadata = read_metadata(build_data.meta_path)
+    packages = []
+    package_data = {}
+    if build_data.py3_stubs:
+        py3_packages, py3_package_data = collect_setup_entries(
+            build_data.py3_stub_dir, SUFFIX
+        )
+        packages += py3_packages
+        package_data.update(py3_package_data)
+    if build_data.py2_stubs:
         # If there are Python 2 only stubs, add entries from the sub-directory.
         py2_packages, py2_package_data = collect_setup_entries(
-            typeshed_dir, os.path.join(distribution, PY2_NAMESPACE), PY2_SUFFIX
+            build_data.py2_stub_dir, PY2_SUFFIX
         )
         packages += py2_packages
         package_data.update(py2_package_data)
     version = metadata["version"]
     assert version.count(".") == 1, f"Version must be major.minor, not {version}"
     return SETUP_TEMPLATE.format(
-        distribution=distribution,
-        long_description=generate_long_description(distribution, commit, metadata),
+        distribution=build_data.distribution,
+        long_description=generate_long_description(build_data.distribution, commit, metadata),
         version=f"{version}.{increment}",
         requires=metadata.get("requires", []),
         packages=packages,
@@ -327,17 +353,19 @@ def main(typeshed_dir: str, distribution: str, increment: int) -> str:
     Note: the caller should clean the temporary directory where wheel is
     created after uploading it.
     """
-    base_dir = os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE, distribution)
+    build_data = BuildData(typeshed_dir, distribution)
+    assert build_data.py3_stubs or build_data.py2_stubs, "no stubs found"
     tmpdir = tempfile.mkdtemp()
     commit = subprocess.run(["git", "rev-parse", "HEAD"],
                             capture_output=True, universal_newlines=True, cwd=typeshed_dir
                             ).stdout.strip()
     with open(os.path.join(tmpdir, "setup.py"), "w") as f:
-        f.write(generate_setup_file(typeshed_dir, distribution, str(increment), commit))
-    copy_stubs(typeshed_dir, distribution, tmpdir, SUFFIX)
-    if PY2_NAMESPACE in os.listdir(base_dir):
+        f.write(generate_setup_file(build_data, str(increment), commit))
+    if build_data.py3_stubs:
+        copy_stubs(build_data.py3_stub_dir, tmpdir, SUFFIX)
+    if build_data.py2_stubs:
         # If there are Python 2 only stubs, copy them too.
-        copy_stubs(typeshed_dir, os.path.join(distribution, PY2_NAMESPACE), tmpdir, PY2_SUFFIX)
+        copy_stubs(build_data.py2_stub_dir, tmpdir, PY2_SUFFIX)
     current_dir = os.getcwd()
     os.chdir(tmpdir)
     subprocess.run(["python3", "setup.py", "bdist_wheel", "--universal"])

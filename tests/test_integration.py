@@ -53,7 +53,7 @@ def test_dependency_order() -> None:
     )
     assert len(set(to_upload)) == len(to_upload)
     for distribution in distributions:
-        for dependency in build_wheel.read_matadata(
+        for dependency in build_wheel.read_metadata(
             os.path.join(
                 TYPESHED, build_wheel.THIRD_PARTY_NAMESPACE, distribution, build_wheel.META
             )
