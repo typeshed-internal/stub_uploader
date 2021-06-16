@@ -369,6 +369,7 @@ def main(typeshed_dir: str, distribution: str, increment: int) -> str:
     current_dir = os.getcwd()
     os.chdir(tmpdir)
     subprocess.run(["python3", "setup.py", "bdist_wheel", "--universal"])
+    subprocess.run(["python3", "setup.py", "sdist"])
     os.chdir(current_dir)
     return f"{tmpdir}/dist"
 
