@@ -58,6 +58,7 @@ types-pathlib2
 types-pkg_resources
 types-polib
 types-protobuf
+types-pyOpenSSL
 types-pyRFC3339
 types-pyaudio
 types-pycurl
