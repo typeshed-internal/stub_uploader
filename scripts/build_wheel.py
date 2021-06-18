@@ -368,7 +368,10 @@ def main(typeshed_dir: str, distribution: str, increment: int) -> str:
         copy_stubs(build_data.py2_stub_dir, tmpdir, PY2_SUFFIX)
     current_dir = os.getcwd()
     os.chdir(tmpdir)
-    subprocess.run(["python3", "setup.py", "bdist_wheel", "--universal"])
+    universal_args = []
+    if build_data.py2_stubs and build_data.py3_stubs:
+        universal_args.append("--universal")
+    subprocess.run(["python3", "setup.py", "bdist_wheel"] + universal_args)
     subprocess.run(["python3", "setup.py", "sdist"])
     os.chdir(current_dir)
     return f"{tmpdir}/dist"
