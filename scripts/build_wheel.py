@@ -26,7 +26,7 @@ from collections import defaultdict
 from functools import cmp_to_key
 from glob import glob
 from textwrap import dedent
-from typing import List, Dict, Any, Tuple, Set
+from typing import List, Dict, Any, Tuple, Set, Mapping
 
 from scripts import get_version
 
@@ -298,9 +298,10 @@ def sort_by_dependency(dep_map: Dict[str, Set[str]]) -> List[str]:
     return sort(sorted(dep_map))
 
 
-def generate_setup_file(build_data: BuildData, increment: str, commit: str) -> str:
+def generate_setup_file(
+        build_data: BuildData, metadata: Mapping[str, Any], increment: str, commit: str
+) -> str:
     """Auto-generate a setup.py file for given distribution using a template."""
-    metadata = read_metadata(build_data.meta_path)
     packages = []
     package_data = {}
     if build_data.py3_stubs:
@@ -359,8 +360,9 @@ def main(typeshed_dir: str, distribution: str, increment: int) -> str:
     commit = subprocess.run(["git", "rev-parse", "HEAD"],
                             capture_output=True, universal_newlines=True, cwd=typeshed_dir
                             ).stdout.strip()
+    metadata = read_metadata(build_data.meta_path)
     with open(os.path.join(tmpdir, "setup.py"), "w") as f:
-        f.write(generate_setup_file(build_data, str(increment), commit))
+        f.write(generate_setup_file(build_data, metadata, str(increment), commit))
     if build_data.py3_stubs:
         copy_stubs(build_data.py3_stub_dir, tmpdir, SUFFIX)
     if build_data.py2_stubs:
@@ -369,7 +371,7 @@ def main(typeshed_dir: str, distribution: str, increment: int) -> str:
     current_dir = os.getcwd()
     os.chdir(tmpdir)
     universal_args = []
-    if build_data.py2_stubs and build_data.py3_stubs:
+    if build_data.py3_stubs and (build_data.py2_stubs or metadata.get("version2", False)):
         universal_args.append("--universal")
     subprocess.run(["python3", "setup.py", "bdist_wheel"] + universal_args)
     subprocess.run(["python3", "setup.py", "sdist"])
