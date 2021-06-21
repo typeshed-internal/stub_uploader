@@ -74,6 +74,7 @@ types-redis
 types-requests
 types-retry
 types-scribe
+types-setuptools
 types-simplejson
 types-singledispatch
 types-six
