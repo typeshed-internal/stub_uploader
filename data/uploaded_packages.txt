@@ -43,6 +43,7 @@ types-freezegun
 types-frozendict
 types-futures
 types-geoip2
+types-html5lib
 types-ipaddress
 types-itsdangerous
 types-jwt
