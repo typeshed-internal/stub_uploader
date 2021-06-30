@@ -77,7 +77,7 @@ package if you use this or a newer version.
 DESCRIPTION_INTRO_TEMPLATE = """
 ## Typing stubs for {distribution}
 
-This is a PEP 561 type stub package for `{distribution}` package.
+This is a PEP 561 type stub package for the `{distribution}` package.
 It can be used by type-checking tools like mypy, PyCharm, pytype etc. to check code
 that uses `{distribution}`. The source for this package can be found at
 https://github.com/python/typeshed/tree/master/stubs/{distribution}. All fixes for
