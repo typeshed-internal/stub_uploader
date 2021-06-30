@@ -20,12 +20,14 @@ types-backports_abc
 types-bleach
 types-boto
 types-cachetools
+types-caldav
 types-certifi
 types-characteristic
 types-chardet
 types-click
 types-click-spinner
 types-colorama
+types-commonmark
 types-contextvars
 types-croniter
 types-cryptography
@@ -44,6 +46,7 @@ types-frozendict
 types-futures
 types-geoip2
 types-html5lib
+types-httplib2
 types-ipaddress
 types-itsdangerous
 types-jwt
