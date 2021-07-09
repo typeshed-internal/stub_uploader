@@ -69,6 +69,7 @@ types-pycurl
 types-pyfarmhash
 types-pymssql
 types-pysftp
+types-pytest-lazy-fixture
 types-python-dateutil
 types-python-gflags
 types-python-slugify
