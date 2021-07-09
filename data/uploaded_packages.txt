@@ -90,5 +90,6 @@ types-typed-ast
 types-typing-extensions
 types-tzlocal
 types-ujson
+types-vobject
 types-waitress
 types-xxhash
