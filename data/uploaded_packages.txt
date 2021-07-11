@@ -9,6 +9,7 @@ types-Pillow
 types-PyJWT
 types-PyMySQL
 types-PyYAML
+types-Pygments
 types-Routes
 types-Werkzeug
 types-aiofiles
@@ -17,6 +18,7 @@ types-atomicwrites
 types-attrs
 types-backports
 types-backports_abc
+types-beautifulsoup4
 types-bleach
 types-boto
 types-cachetools
