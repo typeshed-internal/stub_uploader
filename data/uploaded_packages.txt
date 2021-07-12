@@ -85,6 +85,7 @@ types-setuptools
 types-simplejson
 types-singledispatch
 types-six
+types-slumber
 types-tabulate
 types-termcolor
 types-toml
