@@ -57,6 +57,7 @@ types-maxminddb
 types-mock
 types-mypy-extensions
 types-nmap
+types-oauthlib
 types-openssl-python
 types-orjson
 types-paramiko
