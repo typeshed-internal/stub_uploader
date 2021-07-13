@@ -87,6 +87,7 @@ types-simplejson
 types-singledispatch
 types-six
 types-slumber
+types-stripe
 types-tabulate
 types-termcolor
 types-toml
