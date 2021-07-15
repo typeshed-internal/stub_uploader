@@ -66,6 +66,7 @@ types-paramiko
 types-pathlib2
 types-pkg_resources
 types-polib
+types-prettytable
 types-protobuf
 types-psutil
 types-pyOpenSSL
