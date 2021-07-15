@@ -52,6 +52,7 @@ types-html5lib
 types-httplib2
 types-ipaddress
 types-itsdangerous
+types-jmespath
 types-jwt
 types-kazoo
 types-maxminddb
@@ -66,6 +67,7 @@ types-pathlib2
 types-pkg_resources
 types-polib
 types-protobuf
+types-psutil
 types-pyOpenSSL
 types-pyRFC3339
 types-pyaudio
