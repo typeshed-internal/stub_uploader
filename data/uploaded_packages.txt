@@ -59,6 +59,7 @@ types-kazoo
 types-maxminddb
 types-mock
 types-mypy-extensions
+types-mysqlclient
 types-nmap
 types-oauthlib
 types-openssl-python
