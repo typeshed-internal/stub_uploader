@@ -22,6 +22,7 @@ types-backports_abc
 types-beautifulsoup4
 types-bleach
 types-boto
+types-braintree
 types-cachetools
 types-caldav
 types-certifi
@@ -50,6 +51,7 @@ types-futures
 types-geoip2
 types-html5lib
 types-httplib2
+types-humanfriendly
 types-ipaddress
 types-itsdangerous
 types-jmespath
@@ -89,6 +91,7 @@ types-redis
 types-requests
 types-retry
 types-scribe
+types-selenium
 types-setuptools
 types-simplejson
 types-singledispatch
