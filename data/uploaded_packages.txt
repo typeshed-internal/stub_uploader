@@ -41,6 +41,7 @@ types-decorator
 types-docopt
 types-docutils
 types-emoji
+types-entrypoints
 types-enum34
 types-fb303
 types-filelock
