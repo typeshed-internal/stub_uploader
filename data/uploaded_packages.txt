@@ -40,6 +40,7 @@ types-dateparser
 types-decorator
 types-docopt
 types-docutils
+types-editdistance
 types-emoji
 types-entrypoints
 types-enum34
