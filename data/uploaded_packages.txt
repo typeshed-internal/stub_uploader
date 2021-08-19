@@ -86,6 +86,7 @@ types-pysftp
 types-pytest-lazy-fixture
 types-python-dateutil
 types-python-gflags
+types-python-nmap
 types-python-slugify
 types-pytz
 types-pyvmomi
