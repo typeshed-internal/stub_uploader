@@ -13,7 +13,7 @@ import argparse
 import os
 import subprocess
 
-from scripts import build_wheel, get_changed
+from scripts import build_wheel, get_changed, update_changelog
 from scripts.metadata import determine_version, read_metadata
 
 
@@ -30,6 +30,7 @@ def main(typeshed_dir: str, commit: str, uploaded: str, dry_run: bool = False) -
     print("Building and uploading stubs for:", ", ".join(to_upload))
     for distribution in to_upload:
         version = determine_version(typeshed_dir, distribution)
+        update_changelog.update_changelog(typeshed_dir, commit, distribution, version, dry_run=dry_run)
         temp_dir = build_wheel.main(typeshed_dir, distribution, version)
         if dry_run:
             print(f"Would upload: {distribution}, version {version}")

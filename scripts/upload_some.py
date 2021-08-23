@@ -32,6 +32,7 @@ def main(typeshed_dir: str, pattern: str, uploaded: str) -> None:
         version = determine_version(typeshed_dir, distribution)
         for dependency in read_metadata(typeshed_dir, distribution).get("requires", []):
             build_wheel.verify_dependency(typeshed_dir, dependency, uploaded)
+        # TODO: Update changelog
         temp_dir = build_wheel.main(typeshed_dir, distribution, version)
         subprocess.run(["twine", "upload", os.path.join(temp_dir, "*")], check=True)
         build_wheel.update_uploaded(uploaded, distribution)
