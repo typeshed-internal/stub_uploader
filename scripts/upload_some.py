@@ -13,8 +13,8 @@ import os
 import re
 import subprocess
 
-from scripts import get_version
 from scripts import build_wheel
+from scripts.metadata import determine_version, read_metadata
 
 
 def main(typeshed_dir: str, pattern: str, uploaded: str) -> None:
@@ -29,16 +29,10 @@ def main(typeshed_dir: str, pattern: str, uploaded: str) -> None:
     )
     print("Uploading stubs for:", ", ".join(to_upload))
     for distribution in to_upload:
-        # Setting base version to None, so it will be read from current METADATA.toml.
-        increment = get_version.main(typeshed_dir, distribution, version=None)
-        increment += 1
-        for dependency in build_wheel.read_metadata(
-            os.path.join(
-                typeshed_dir, build_wheel.THIRD_PARTY_NAMESPACE, distribution, build_wheel.META
-            )
-        ).get("requires", []):
+        version = determine_version(typeshed_dir, distribution)
+        for dependency in read_metadata(typeshed_dir, distribution).get("requires", []):
             build_wheel.verify_dependency(typeshed_dir, dependency, uploaded)
-        temp_dir = build_wheel.main(typeshed_dir, distribution, increment)
+        temp_dir = build_wheel.main(typeshed_dir, distribution, version)
         subprocess.run(["twine", "upload", os.path.join(temp_dir, "*")], check=True)
         build_wheel.update_uploaded(uploaded, distribution)
         print(f"Successfully uploaded stubs for {distribution}")

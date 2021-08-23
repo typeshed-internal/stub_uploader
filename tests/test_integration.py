@@ -6,6 +6,7 @@ a typeshed checkout side by side.
 import os
 import pytest  # type: ignore[import]
 from scripts import get_version, build_wheel
+from scripts.metadata import read_metadata
 
 TYPESHED = "../typeshed"
 UPLOADED = "data/uploaded_packages.txt"
@@ -27,7 +28,7 @@ def test_check_exists() -> None:
 def test_build_wheel() -> None:
     """Check that we can build wheels for all distributions."""
     for distribution in os.listdir(os.path.join(TYPESHED, "stubs")):
-        tmp_dir = build_wheel.main(TYPESHED, distribution, increment=1)
+        tmp_dir = build_wheel.main(TYPESHED, distribution, version="1.1.1")
         assert tmp_dir.endswith("/dist")
         assert list(os.listdir(tmp_dir))  # check it is not empty
 
@@ -53,11 +54,7 @@ def test_dependency_order() -> None:
     )
     assert len(set(to_upload)) == len(to_upload)
     for distribution in distributions:
-        for dependency in build_wheel.read_metadata(
-            os.path.join(
-                TYPESHED, build_wheel.THIRD_PARTY_NAMESPACE, distribution, build_wheel.META
-            )
-        ).get("requires", []):
+        for dependency in read_metadata(TYPESHED, distribution).get("requires", []):
             assert to_upload.index(
                 build_wheel.strip_types_prefix(get_version.strip_dep_version(dependency))
             ) < to_upload.index(distribution)
