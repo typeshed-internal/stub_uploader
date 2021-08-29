@@ -14,7 +14,7 @@ jobs:
       - name: Setup Python 3.9
         uses: actions/setup-python@v2
         with:
-          python-version: '3.9'
+          python-version: "3.9"
       - name: Checkout main
         uses: actions/checkout@v2
         with:
@@ -43,4 +43,5 @@ jobs:
               exit 0;
           fi
           git config user.name github-actions && git config user.email github-actions@github.com
+          # This will also commit any new and changed changelogs.
           git add . && git commit -m "Update last typeshed commit" && git push

@@ -19,7 +19,8 @@ import toml
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry  # type: ignore[import]
 
-THIRD_PARTY_NAMESPACE = "stubs"
+from scripts.const import *
+
 PREFIX = "types-"
 URL_TEMPLATE = "https://pypi.org/pypi/{}/json"
 RETRIES = 5

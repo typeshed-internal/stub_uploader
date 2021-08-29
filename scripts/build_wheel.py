@@ -23,21 +23,14 @@ import shutil
 import tempfile
 import subprocess
 from collections import defaultdict
-from functools import cmp_to_key
 from glob import glob
 from textwrap import dedent
 from typing import List, Dict, Any, Tuple, Set, Mapping
 
 from scripts import get_version
+from scripts.const import *
+from scripts.metadata import Metadata, read_metadata
 
-import toml
-
-META = "METADATA.toml"
-
-# These constants may be adjusted, depending on convention we agree on.
-THIRD_PARTY_NAMESPACE = "stubs"
-PY2_NAMESPACE = "@python2"
-TESTS_NAMESPACE = "@tests"
 SUFFIX = "-stubs"
 PY2_SUFFIX = "-python2-stubs"
 
@@ -94,7 +87,6 @@ class BuildData:
     def __init__(self, typeshed_dir: str, distribution: str) -> None:
         self.distribution = distribution
         self._base_dir = os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE, distribution)
-        self.meta_path = os.path.join(self._base_dir, META)
         # Python 3 (and mixed Python 2 and 3) stubs exist if at least one
         # *.pyi file exists on the top-level or one level down, *excluding*
         # the @python2 directory.
@@ -104,6 +96,7 @@ class BuildData:
         )
         # Python 2 stubs exist if a @python2 directory exists.
         self.py2_stubs = PY2_NAMESPACE in os.listdir(self._base_dir)
+        assert self.py3_stubs or self.py2_stubs, "no stubs found"
 
     @property
     def py3_stub_dir(self) -> str:
@@ -135,12 +128,6 @@ def find_stub_files(top: str) -> List[str]:
                 # Allow having README docs, as some stubs have these (e.g. click).
                 raise ValueError(f"Only stub files are allowed, not {file}")
     return result
-
-
-def read_metadata(file: str) -> Dict[str, Any]:
-    """Parse metadata from file."""
-    with open(file) as f:
-        return dict(toml.loads(f.read()))
 
 
 def copy_stubs(base_dir: str, dst: str, suffix: str) -> None:
@@ -251,9 +238,7 @@ def make_dependency_map(typeshed_dir: str, distributions: List[str]) -> Dict[str
     """
     result: Dict[str, Set[str]] = {d: set() for d in distributions}
     for distribution in distributions:
-        data = read_metadata(
-            os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE, distribution, META)
-        )
+        data = read_metadata(typeshed_dir, distribution)
         for dependency in data.get("requires", []):
             dependency = strip_types_prefix(get_version.strip_dep_version(dependency))
             if dependency in distributions:
@@ -299,7 +284,7 @@ def sort_by_dependency(dep_map: Dict[str, Set[str]]) -> List[str]:
 
 
 def generate_setup_file(
-        build_data: BuildData, metadata: Mapping[str, Any], increment: str, commit: str
+        build_data: BuildData, metadata: Metadata, version: str, commit: str
 ) -> str:
     """Auto-generate a setup.py file for given distribution using a template."""
     packages = []
@@ -317,12 +302,10 @@ def generate_setup_file(
         )
         packages += py2_packages
         package_data.update(py2_package_data)
-    version = metadata["version"]
-    assert version.count(".") == 1, f"Version must be major.minor, not {version}"
     return SETUP_TEMPLATE.format(
         distribution=build_data.distribution,
         long_description=generate_long_description(build_data.distribution, commit, metadata),
-        version=f"{version}.{increment}",
+        version=version,
         requires=metadata.get("requires", []),
         packages=packages,
         package_data=package_data,
@@ -346,7 +329,7 @@ def generate_long_description(
     return "\n\n".join(parts)
 
 
-def main(typeshed_dir: str, distribution: str, increment: int) -> str:
+def main(typeshed_dir: str, distribution: str, version: str) -> str:
     """Generate a wheel for a third-party distribution in typeshed.
 
     Return the path to directory where wheel is created.
@@ -355,14 +338,13 @@ def main(typeshed_dir: str, distribution: str, increment: int) -> str:
     created after uploading it.
     """
     build_data = BuildData(typeshed_dir, distribution)
-    assert build_data.py3_stubs or build_data.py2_stubs, "no stubs found"
     tmpdir = tempfile.mkdtemp()
     commit = subprocess.run(["git", "rev-parse", "HEAD"],
                             capture_output=True, universal_newlines=True, cwd=typeshed_dir
                             ).stdout.strip()
-    metadata = read_metadata(build_data.meta_path)
+    metadata = read_metadata(typeshed_dir, distribution)
     with open(os.path.join(tmpdir, "setup.py"), "w") as f:
-        f.write(generate_setup_file(build_data, metadata, str(increment), commit))
+        f.write(generate_setup_file(build_data, metadata, version, commit))
     if build_data.py3_stubs:
         copy_stubs(build_data.py3_stub_dir, tmpdir, SUFFIX)
     if build_data.py2_stubs:
@@ -383,6 +365,6 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("typeshed_dir", help="Path to typeshed checkout directory")
     parser.add_argument("distribution", help="Third-party distribution to build")
-    parser.add_argument("increment", help="Stub version increment")
+    parser.add_argument("version", help="New stub version")
     args = parser.parse_args()
-    print("Wheel is built in:", main(args.typeshed_dir, args.distribution, args.increment))
+    print("Wheel is built in:", main(args.typeshed_dir, args.distribution, args.version))
