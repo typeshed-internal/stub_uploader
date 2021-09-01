@@ -110,3 +110,8 @@ def test_collect_setup_entries_bogusfile() -> None:
         ['singlefilepkg-stubs'],
         {'singlefilepkg-stubs': ['__init__.pyi', 'METADATA.toml']}
     )
+
+    with open(os.path.join(stubs, "multifilepkg", "multifilepkg", ".METADATA.toml.swp"), "w"):
+        pass
+    entries = collect_setup_entries(os.path.join(stubs, "multifilepkg"), SUFFIX)
+    assert len(entries[1]['multifilepkg-stubs']) == 7

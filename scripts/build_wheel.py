@@ -126,7 +126,8 @@ def find_stub_files(top: str) -> List[str]:
                 result.append(os.path.relpath(os.path.join(root, file), top))
             elif not file.endswith((".md", ".rst")):
                 # Allow having README docs, as some stubs have these (e.g. click).
-                raise ValueError(f"Only stub files are allowed, not {file}")
+                if subprocess.run(["git", "check-ignore", file], cwd=top).returncode != 0:
+                    raise ValueError(f"Only stub files are allowed, not {file}")
     return sorted(result)
 
 
