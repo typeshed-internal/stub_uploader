@@ -362,7 +362,7 @@ def main(typeshed_dir: str, distribution: str, version: str) -> str:
     if build_data.py2_stubs:
         # If there are Python 2 only stubs, copy them too.
         copy_stubs(build_data.py2_stub_dir, tmpdir, PY2_SUFFIX)
-    copy_changelog(tmpdir)
+    copy_changelog(distribution, tmpdir)
     current_dir = os.getcwd()
     os.chdir(tmpdir)
     universal_args = []
