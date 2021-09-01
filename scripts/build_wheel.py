@@ -174,7 +174,7 @@ def copy_changelog(distribution: str, dst: str) -> None:
         os.path.join(CHANGELOG_PATH, f"{distribution}.md"),
         os.path.join(dst, CHANGELOG),
     )
-    with open(os.path.join(tmpdir, "MANIFEST.in"), "a") as f:
+    with open(os.path.join(dst, "MANIFEST.in"), "a") as f:
         f.write(f"include {CHANGELOG}\n")
 
 
