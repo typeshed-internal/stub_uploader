@@ -184,7 +184,8 @@ def collect_setup_entries(
         if os.path.isfile(os.path.join(base_dir, entry)):
             if not entry.endswith(".pyi"):
                 if not entry.endswith((".md", ".rst")):
-                    raise ValueError("Only stub files are allowed")
+                    if subprocess.run(["git", "check-ignore", entry], cwd=base_dir).returncode != 0:
+                        raise ValueError(f"Only stub files are allowed: {entry}")
                 continue
             entry = entry.split('.')[0] + suffix
             packages.append(entry)
