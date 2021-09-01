@@ -21,7 +21,6 @@ def read_metadata(typeshed_dir: str, distribution: str) -> Metadata:
 def determine_version(typeshed_dir: str, distribution: str) -> str:
     metadata = read_metadata(typeshed_dir, distribution)
     version: str = metadata["version"]
-    assert version.count(".") == 1, f"Version must be major.minor, not {version}"
     # Setting base version to None, so it will be read from current METADATA.toml.
     increment = get_version.main(typeshed_dir, distribution, None)
     if increment >= 0:
