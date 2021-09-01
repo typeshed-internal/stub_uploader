@@ -170,12 +170,15 @@ def copy_stubs(base_dir: str, dst: str, suffix: str) -> None:
 
 def copy_changelog(distribution: str, dst: str) -> None:
     """Copy changelog to the build directory."""
-    shutil.copy(
-        os.path.join(CHANGELOG_PATH, f"{distribution}.md"),
-        os.path.join(dst, CHANGELOG),
-    )
-    with open(os.path.join(dst, "MANIFEST.in"), "a") as f:
-        f.write(f"include {CHANGELOG}\n")
+    try:
+        shutil.copy(
+            os.path.join(CHANGELOG_PATH, f"{distribution}.md"),
+            os.path.join(dst, CHANGELOG),
+        )
+        with open(os.path.join(dst, "MANIFEST.in"), "a") as f:
+            f.write(f"include {CHANGELOG}\n")
+    except FileNotFoundError:
+        pass  # Ignore missing changelogs
 
 
 def collect_setup_entries(
