@@ -91,8 +91,8 @@ def test_collect_setup_entries() -> None:
             'a.pyi',
             'b.pyi',
             'c/__init__.pyi',
-            'c/e.pyi',
             'c/d.pyi',
+            'c/e.pyi',
             'METADATA.toml',
         ]}
     )

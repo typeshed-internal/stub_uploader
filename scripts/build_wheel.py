@@ -127,7 +127,7 @@ def find_stub_files(top: str) -> List[str]:
             elif not file.endswith((".md", ".rst")):
                 # Allow having README docs, as some stubs have these (e.g. click).
                 raise ValueError(f"Only stub files are allowed, not {file}")
-    return result
+    return sorted(result)
 
 
 def copy_stubs(base_dir: str, dst: str, suffix: str) -> None:
