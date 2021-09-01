@@ -12,9 +12,10 @@ import subprocess
 from dataclasses import dataclass
 from pathlib import Path
 
+from scripts.const import CHANGELOG_PATH
+
 
 THIRD_PARTY_NAMESPACE = "stubs"
-CHANGELOGS = "data/changelogs"
 
 
 def main() -> None:
@@ -50,7 +51,7 @@ def update_changelog(
         return
     new_entry = process_git_log(log, version)
 
-    changelog = os.path.join(CHANGELOGS, f"{distribution}.md")
+    changelog = os.path.join(CHANGELOG_PATH, f"{distribution}.md")
     try:
         with open(changelog) as f:
             old_entries = f.read()
