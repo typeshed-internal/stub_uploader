@@ -31,6 +31,8 @@ from scripts import get_version
 from scripts.const import *
 from scripts.metadata import Metadata, read_metadata
 
+CHANGELOG = "CHANGELOG.md"
+
 SUFFIX = "-stubs"
 PY2_SUFFIX = "-python2-stubs"
 
@@ -132,7 +134,7 @@ def find_stub_files(top: str) -> List[str]:
 
 
 def copy_stubs(base_dir: str, dst: str, suffix: str) -> None:
-    """Copy stubs for given distribution to a temporary directory.
+    """Copy stubs for given distribution to the build directory.
 
     For packages change name by appending "-stubs" suffix (PEP 561),
     also convert modules to trivial packages with a single __init__.pyi.
@@ -165,6 +167,19 @@ def copy_stubs(base_dir: str, dst: str, suffix: str) -> None:
             upper_dir = os.path.dirname(base_dir)
             assert os.path.isfile(os.path.join(upper_dir, META))
             shutil.copy(os.path.join(upper_dir, META), stub_dir)
+
+
+def copy_changelog(distribution: str, dst: str) -> None:
+    """Copy changelog to the build directory."""
+    try:
+        shutil.copy(
+            os.path.join(CHANGELOG_PATH, f"{distribution}.md"),
+            os.path.join(dst, CHANGELOG),
+        )
+        with open(os.path.join(dst, "MANIFEST.in"), "a") as f:
+            f.write(f"include {CHANGELOG}\n")
+    except FileNotFoundError:
+        pass  # Ignore missing changelogs
 
 
 def collect_setup_entries(
@@ -349,6 +364,7 @@ def main(typeshed_dir: str, distribution: str, version: str) -> str:
     if build_data.py2_stubs:
         # If there are Python 2 only stubs, copy them too.
         copy_stubs(build_data.py2_stub_dir, tmpdir, PY2_SUFFIX)
+    copy_changelog(distribution, tmpdir)
     current_dir = os.getcwd()
     os.chdir(tmpdir)
     universal_args = []
