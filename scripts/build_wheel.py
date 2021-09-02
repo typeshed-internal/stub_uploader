@@ -170,12 +170,11 @@ def copy_stubs(base_dir: str, dst: str, suffix: str) -> None:
 def collect_setup_entries(
         base_dir: str,
         suffix: str,
-) -> Tuple[List[str], Dict[str, List[str]]]:
+) -> Dict[str, List[str]]:
     """Generate package data for a setuptools.setup() call.
 
     This reflects the transformations done during copying in copy_stubs().
     """
-    packages = []
     package_data = {}
     for entry in os.listdir(base_dir):
         if entry == META:
@@ -189,7 +188,6 @@ def collect_setup_entries(
                         raise ValueError(f"Only stub files are allowed: {entry}")
                 continue
             entry = entry.split('.')[0] + suffix
-            packages.append(entry)
             # Module -> package transformation is done while copying.
             package_data[entry] = ["__init__.pyi"]
         else:
@@ -200,12 +198,11 @@ def collect_setup_entries(
             if entry == TESTS_NAMESPACE:
                 continue
             entry += suffix
-            packages.append(entry)
             package_data[entry] = find_stub_files(
                 os.path.join(base_dir, original_entry)
             )
         package_data[entry].append(META)
-    return packages, package_data
+    return package_data
 
 
 def verify_dependency(typeshed_dir: str, dependency: str, uploaded: str) -> None:
@@ -289,20 +286,20 @@ def generate_setup_file(
         build_data: BuildData, metadata: Metadata, version: str, commit: str
 ) -> str:
     """Auto-generate a setup.py file for given distribution using a template."""
-    packages = []
+    packages: List[str] = []
     package_data = {}
     if build_data.py3_stubs:
-        py3_packages, py3_package_data = collect_setup_entries(
+        py3_package_data = collect_setup_entries(
             build_data.py3_stub_dir, SUFFIX
         )
-        packages += py3_packages
+        packages.extend(py3_package_data.keys())
         package_data.update(py3_package_data)
     if build_data.py2_stubs:
         # If there are Python 2 only stubs, add entries from the sub-directory.
-        py2_packages, py2_package_data = collect_setup_entries(
+        py2_package_data = collect_setup_entries(
             build_data.py2_stub_dir, PY2_SUFFIX
         )
-        packages += py2_packages
+        packages.extend(py2_package_data.keys())
         package_data.update(py2_package_data)
     return SETUP_TEMPLATE.format(
         distribution=build_data.distribution,
