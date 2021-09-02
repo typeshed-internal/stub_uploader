@@ -126,8 +126,9 @@ def find_stub_files(top: str) -> List[str]:
                 result.append(os.path.relpath(os.path.join(root, file), top))
             elif not file.endswith((".md", ".rst")):
                 # Allow having README docs, as some stubs have these (e.g. click).
-                raise ValueError(f"Only stub files are allowed, not {file}")
-    return result
+                if subprocess.run(["git", "check-ignore", file], cwd=top).returncode != 0:
+                    raise ValueError(f"Only stub files are allowed, not {file}")
+    return sorted(result)
 
 
 def copy_stubs(base_dir: str, dst: str, suffix: str) -> None:
@@ -184,7 +185,8 @@ def collect_setup_entries(
         if os.path.isfile(os.path.join(base_dir, entry)):
             if not entry.endswith(".pyi"):
                 if not entry.endswith((".md", ".rst")):
-                    raise ValueError("Only stub files are allowed")
+                    if subprocess.run(["git", "check-ignore", entry], cwd=base_dir).returncode != 0:
+                        raise ValueError(f"Only stub files are allowed: {entry}")
                 continue
             entry = entry.split('.')[0] + suffix
             packages.append(entry)
