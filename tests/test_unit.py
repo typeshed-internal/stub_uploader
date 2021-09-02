@@ -1,8 +1,9 @@
 """Unit tests for simple helpers should go here."""
 
+import os
 import pytest  # type: ignore[import]
 from scripts.get_version import strip_dep_version
-from scripts.build_wheel import sort_by_dependency, transitive_deps, strip_types_prefix
+from scripts.build_wheel import collect_setup_entries, sort_by_dependency, transitive_deps, strip_types_prefix, SUFFIX, PY2_SUFFIX
 
 
 def test_strip_types_prefix() -> None:
@@ -67,3 +68,44 @@ def test_sort_by_dependency() -> None:
             "2a": set(), "2b": set(), "3a": set(), "3b": set()
         }
     ) == ["2a", "2b", "2", "3a", "3b", "3", "1"]
+
+def test_collect_setup_entries() -> None:
+    stubs = os.path.join("data", "test_typeshed_stubs")
+    entries = collect_setup_entries(os.path.join(stubs, "singlefilepkg"), SUFFIX)
+    assert entries == (
+        {'singlefilepkg-stubs': ['__init__.pyi', 'METADATA.toml']}
+    )
+
+    entries = collect_setup_entries(os.path.join(stubs, "singlefilepkg"), PY2_SUFFIX)
+    assert entries == (
+        {'singlefilepkg-python2-stubs': ['__init__.pyi', 'METADATA.toml']}
+    )
+
+    entries = collect_setup_entries(os.path.join(stubs, "multifilepkg"), SUFFIX)
+    assert entries == (
+        {'multifilepkg-stubs': [
+            '__init__.pyi',
+            'a.pyi',
+            'b.pyi',
+            'c/__init__.pyi',
+            'c/d.pyi',
+            'c/e.pyi',
+            'METADATA.toml',
+        ]}
+    )
+
+def test_collect_setup_entries_bogusfile() -> None:
+    stubs = os.path.join("data", "test_typeshed_stubs")
+    with pytest.raises(ValueError, match="Only stub files are allowed: bogusfile.txt"):
+        collect_setup_entries(os.path.join(stubs, "bogusfiles"), SUFFIX)
+
+    # Make sure gitignored files aren't collected, nor do they crash function
+    with open(os.path.join(stubs, "singlefilepkg", ".METADATA.toml.swp"), "w"):
+        pass
+    entries = collect_setup_entries(os.path.join(stubs, "singlefilepkg"), SUFFIX)
+    assert len(entries['singlefilepkg-stubs']) == 2
+
+    with open(os.path.join(stubs, "multifilepkg", "multifilepkg", ".METADATA.toml.swp"), "w"):
+        pass
+    entries = collect_setup_entries(os.path.join(stubs, "multifilepkg"), SUFFIX)
+    assert len(entries['multifilepkg-stubs']) == 7
