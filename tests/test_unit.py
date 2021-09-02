@@ -73,19 +73,16 @@ def test_collect_setup_entries() -> None:
     stubs = os.path.join("data", "test_typeshed_stubs")
     entries = collect_setup_entries(os.path.join(stubs, "singlefilepkg"), SUFFIX)
     assert entries == (
-        ['singlefilepkg-stubs'],
         {'singlefilepkg-stubs': ['__init__.pyi', 'METADATA.toml']}
     )
 
     entries = collect_setup_entries(os.path.join(stubs, "singlefilepkg"), PY2_SUFFIX)
     assert entries == (
-        ['singlefilepkg-python2-stubs'],
         {'singlefilepkg-python2-stubs': ['__init__.pyi', 'METADATA.toml']}
     )
 
     entries = collect_setup_entries(os.path.join(stubs, "multifilepkg"), SUFFIX)
     assert entries == (
-        ['multifilepkg-stubs'],
         {'multifilepkg-stubs': [
             '__init__.pyi',
             'a.pyi',
@@ -107,7 +104,6 @@ def test_collect_setup_entries_bogusfile() -> None:
         pass
     entries = collect_setup_entries(os.path.join(stubs, "singlefilepkg"), SUFFIX)
     assert entries == (
-        ['singlefilepkg-stubs'],
         {'singlefilepkg-stubs': ['__init__.pyi', 'METADATA.toml']}
     )
 
