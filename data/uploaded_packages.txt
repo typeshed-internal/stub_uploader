@@ -11,6 +11,7 @@ types-PyMySQL
 types-PyYAML
 types-Pygments
 types-Routes
+types-Send2Trash
 types-Werkzeug
 types-aiofiles
 types-annoy
