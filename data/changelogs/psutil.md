@@ -1,3 +1,9 @@
+## 5.8.4 (2021-09-09)
+
+Annotate several NamedTuples in psutil (#6016)
+
+Annotate more methods of psutil.Process (#6012)
+
 ## 5.8.3 (2021-09-06)
 
 Improves `psutil/_common.pyi` (#6010)
