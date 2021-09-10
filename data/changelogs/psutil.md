@@ -1,3 +1,7 @@
+## 5.8.5 (2021-09-10)
+
+Annotate more NamedTuples for psutil (#6021)
+
 ## 5.8.4 (2021-09-09)
 
 Annotate several NamedTuples in psutil (#6016)
