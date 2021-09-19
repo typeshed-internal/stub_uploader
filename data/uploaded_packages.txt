@@ -107,6 +107,7 @@ types-stripe
 types-tabulate
 types-termcolor
 types-toml
+types-toposort
 types-tornado
 types-ttkthemes
 types-typed-ast
