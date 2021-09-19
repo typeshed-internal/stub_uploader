@@ -20,6 +20,7 @@ types-attrs
 types-aws-xray-sdk
 types-babel
 types-backports
+types-backports.ssl_match_hostname
 types-backports_abc
 types-beautifulsoup4
 types-bleach
