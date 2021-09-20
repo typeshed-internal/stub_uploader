@@ -15,6 +15,7 @@ types-Send2Trash
 types-Werkzeug
 types-aiofiles
 types-annoy
+types-appdirs
 types-atomicwrites
 types-attrs
 types-aws-xray-sdk
