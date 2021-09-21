@@ -1,3 +1,7 @@
+## 2.25.8 (2021-09-21)
+
+Update Session.prepare_request, .get_adapter (#6058)
+
 ## 2.25.7 (2021-09-20)
 
 Support name, content-type and headers in file upload (#6052)
