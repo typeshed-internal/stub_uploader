@@ -1,3 +1,7 @@
+## 5.8.6 (2021-09-24)
+
+Further annotations for the psutil module (#6066)
+
 ## 5.8.5 (2021-09-10)
 
 Annotate more NamedTuples for psutil (#6021)
