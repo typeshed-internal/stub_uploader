@@ -1,3 +1,9 @@
+## 2.25.9 (2021-09-25)
+
+requests: Response.encoding can be None (#6067)
+
+The type of the `encoding` attribute was previously typed as `str`, even though it can be `None` at runtime.
+
 ## 2.25.8 (2021-09-21)
 
 Update Session.prepare_request, .get_adapter (#6058)
