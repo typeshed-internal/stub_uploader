@@ -1,3 +1,14 @@
+## 5.8.7 (2021-09-25)
+
+Further improvements to `psutil` (#6072)
+
+Adds types to the following functions:
+- `psutil.environ()`
+- `psutil.send_signal()`
+- `psutil.sensors_temperatures()`
+- `psutil.sensors_fans()`
+- `psutil.sensors_battery()`
+
 ## 5.8.6 (2021-09-24)
 
 Further annotations for the psutil module (#6066)
