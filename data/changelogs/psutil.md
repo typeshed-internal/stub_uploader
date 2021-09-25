@@ -1,3 +1,7 @@
+## 5.8.8 (2021-09-25)
+
+Improves `Popen` types in `psutil` (#6074)
+
 ## 5.8.7 (2021-09-25)
 
 Further improvements to `psutil` (#6072)
