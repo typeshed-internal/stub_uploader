@@ -12,6 +12,7 @@ distribution information.
 
 import argparse
 import os.path
+from collections.abc import Iterable
 from typing import Optional
 
 import requests
@@ -28,7 +29,7 @@ RETRY_ON = [429, 500, 502, 503, 504]
 TIMEOUT = 3
 
 
-def fetch_pypi_versions(distribution: str) -> list[str]:
+def fetch_pypi_versions(distribution: str) -> Iterable[str]:
     url = URL_TEMPLATE.format(PREFIX + distribution)
     retry_strategy = Retry(
         total=RETRIES, status_forcelist=RETRY_ON
