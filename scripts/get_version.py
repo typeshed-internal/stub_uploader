@@ -28,6 +28,23 @@ RETRY_ON = [429, 500, 502, 503, 504]
 TIMEOUT = 3
 
 
+def fetch_pypi_versions(distribution: str) -> list[str]:
+    url = URL_TEMPLATE.format(PREFIX + distribution)
+    retry_strategy = Retry(
+        total=RETRIES, status_forcelist=RETRY_ON
+    )
+    with requests.Session() as session:
+        session.mount("https://", HTTPAdapter(max_retries=retry_strategy))
+        resp = session.get(url, timeout=TIMEOUT)
+    if not resp.ok:
+        if resp.status_code == 404:
+            # Looks like this is first time this package is ever uploaded.
+            return []
+        raise ValueError("Error while retrieving version")
+    data = resp.json()
+    return data["releases"].keys()
+
+
 def read_base_version(typeshed_dir: str, distribution: str) -> str:
     """Read distribution version from metadata."""
     metadata_file = os.path.join(
@@ -67,27 +84,13 @@ def main(typeshed_dir: str, distribution: str, version: Optional[str]) -> int:
 
     Supports basic reties and timeouts (as module constants).
     """
-    url = URL_TEMPLATE.format(PREFIX + distribution)
-    retry_strategy = Retry(
-        total=RETRIES, status_forcelist=RETRY_ON
-    )
-    with requests.Session() as session:
-        session.mount("https://", HTTPAdapter(max_retries=retry_strategy))
-        resp = session.get(url, timeout=TIMEOUT)
-    if not resp.ok:
-        if resp.status_code == 404:
-            # Looks like this is first time this package is ever uploaded.
-            return -1
-        raise ValueError("Error while retrieving version")
-    data = resp.json()
+    pypi_versions = fetch_pypi_versions(distribution)
     if not version:
         # Use the METADATA.toml version, if not given one.
         version = read_base_version(typeshed_dir, distribution)
-    assert version.count(".") == 1
-    matching = [v for v in data["releases"].keys() if v.startswith(version)]
+    matching = [v for v in pypi_versions if v.startswith(f"{version}.")]
     if not matching:
         return -1
-    assert all(v.count(".") == 2 for v in matching)
     increment = max(int(v.split(".")[-1]) for v in matching)
     return increment
 
