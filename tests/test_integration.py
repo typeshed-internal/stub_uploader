@@ -25,12 +25,12 @@ def test_check_exists() -> None:
     assert not get_version.check_exists("nonexistent-distribution")
 
 
-def test_build_wheel() -> None:
+@pytest.mark.parametrize("distribution", os.listdir(os.path.join(TYPESHED, "stubs")))
+def test_build_wheel(distribution: str) -> None:
     """Check that we can build wheels for all distributions."""
-    for distribution in os.listdir(os.path.join(TYPESHED, "stubs")):
-        tmp_dir = build_wheel.main(TYPESHED, distribution, version="1.1.1")
-        assert tmp_dir.endswith("/dist")
-        assert list(os.listdir(tmp_dir))  # check it is not empty
+    tmp_dir = build_wheel.main(TYPESHED, distribution, version="1.1.1")
+    assert tmp_dir.endswith("/dist")
+    assert list(os.listdir(tmp_dir))  # check it is not empty
 
 
 def test_verify_dependency() -> None:
