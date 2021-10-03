@@ -10,9 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-python@v2
+        with:
+          python-version: '3.9'
       - uses: actions/checkout@v2
-      - run: pip install mypy types-requests types-toml
-      - run: mypy -p scripts -p tests
+      - run: pip install mypy types-requests types-toml pytest
+      - run: mypy --strict -p scripts -p tests
 
   tests:
     name: Run integration and unit tests

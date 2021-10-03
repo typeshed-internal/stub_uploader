@@ -4,7 +4,7 @@ anything on PyPI, but can make PyPI queries and may expect
 a typeshed checkout side by side.
 """
 import os
-import pytest  # type: ignore[import]
+import pytest
 from scripts import get_version, build_wheel
 from scripts.metadata import read_metadata
 
