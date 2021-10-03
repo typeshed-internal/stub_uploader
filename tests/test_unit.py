@@ -97,7 +97,7 @@ def test_sort_by_dependency() -> None:
 
 
 def test_collect_setup_entries() -> None:
-    stubs = os.path.join("data", "test_typeshed_stubs")
+    stubs = os.path.join("data", "test_typeshed", "stubs")
     entries = collect_setup_entries(os.path.join(stubs, "singlefilepkg"), SUFFIX)
     assert entries == ({"singlefilepkg-stubs": ["__init__.pyi", "METADATA.toml"]})
 
@@ -123,7 +123,7 @@ def test_collect_setup_entries() -> None:
 
 
 def test_collect_setup_entries_bogusfile() -> None:
-    stubs = os.path.join("data", "test_typeshed_stubs")
+    stubs = os.path.join("data", "test_typeshed", "stubs")
     with pytest.raises(ValueError, match="Only stub files are allowed: bogusfile.txt"):
         collect_setup_entries(os.path.join(stubs, "bogusfiles"), SUFFIX)
 
