@@ -68,9 +68,7 @@ def main(typeshed_dir: str, distribution: str, version: Optional[str]) -> int:
     Supports basic reties and timeouts (as module constants).
     """
     url = URL_TEMPLATE.format(PREFIX + distribution)
-    retry_strategy = Retry(
-        total=RETRIES, status_forcelist=RETRY_ON
-    )
+    retry_strategy = Retry(total=RETRIES, status_forcelist=RETRY_ON)
     with requests.Session() as session:
         session.mount("https://", HTTPAdapter(max_retries=retry_strategy))
         resp = session.get(url, timeout=TIMEOUT)
@@ -96,6 +94,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("typeshed_dir", help="Path to typeshed checkout directory")
     parser.add_argument("distribution", help="Third-party distribution to build")
-    parser.add_argument("version", nargs="?", help="Base version for which to get increment")
+    parser.add_argument(
+        "version", nargs="?", help="Base version for which to get increment"
+    )
     args = parser.parse_args()
     print(main(args.typeshed_dir, args.distribution, args.version))

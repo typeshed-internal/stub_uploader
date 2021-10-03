@@ -3,7 +3,14 @@
 import os
 import pytest
 from scripts.get_version import strip_dep_version
-from scripts.build_wheel import collect_setup_entries, sort_by_dependency, transitive_deps, strip_types_prefix, SUFFIX, PY2_SUFFIX
+from scripts.build_wheel import (
+    collect_setup_entries,
+    sort_by_dependency,
+    transitive_deps,
+    strip_types_prefix,
+    SUFFIX,
+    PY2_SUFFIX,
+)
 
 
 def test_strip_types_prefix() -> None:
@@ -30,20 +37,28 @@ def test_transitive_deps() -> None:
         transitive_deps({"1": {"1"}})
     with pytest.raises(AssertionError):
         transitive_deps({"1": {"2"}, "2": {"3"}, "3": {"1"}})
-    assert transitive_deps(
-        {"1": {"2"}, "2": {"3"}, "3": {"4"}, "4": set()}
-    ) == (
+    assert transitive_deps({"1": {"2"}, "2": {"3"}, "3": {"4"}, "4": set()}) == (
         {"1": {"2", "3", "4"}, "2": {"3", "4"}, "3": {"4"}, "4": set()}
     )
     assert transitive_deps(
         {
-            "1": {"2", "3"}, "2": {"2a", "2b"}, "3": {"3a", "3b"},
-            "2a": set(), "2b": set(), "3a": set(), "3b": set()
+            "1": {"2", "3"},
+            "2": {"2a", "2b"},
+            "3": {"3a", "3b"},
+            "2a": set(),
+            "2b": set(),
+            "3a": set(),
+            "3b": set(),
         }
     ) == (
         {
-            "1": {"2", "2a", "2b", "3", "3a", "3b"}, "2": {"2a", "2b"}, "3": {"3a", "3b"},
-            "2a": set(), "2b": set(), "3a": set(), "3b": set()
+            "1": {"2", "2a", "2b", "3", "3a", "3b"},
+            "2": {"2a", "2b"},
+            "3": {"3a", "3b"},
+            "2a": set(),
+            "2b": set(),
+            "3a": set(),
+            "3b": set(),
         }
     )
 
@@ -59,40 +74,53 @@ def test_sort_by_dependency() -> None:
         sort_by_dependency({"1": {"2"}, "2": {"3"}, "3": {"1"}})
     # Independent are in alphabetic order.
     assert sort_by_dependency({"2": set(), "1": set()}) == ["1", "2"]
-    assert sort_by_dependency(
-        {"1": {"2"}, "2": {"3"}, "3": {"4"}, "4": set()}
-    ) == ["4", "3", "2", "1"]
-    assert sort_by_dependency(
-        {
-            "1": {"2", "3"}, "2": {"2a", "2b"}, "3": {"3a", "3b"},
-            "2a": set(), "2b": set(), "3a": set(), "3b": set()
-        }
-    ) == ["2a", "2b", "2", "3a", "3b", "3", "1"]
+    assert sort_by_dependency({"1": {"2"}, "2": {"3"}, "3": {"4"}, "4": set()}) == [
+        "4",
+        "3",
+        "2",
+        "1",
+    ]
+    assert (
+        sort_by_dependency(
+            {
+                "1": {"2", "3"},
+                "2": {"2a", "2b"},
+                "3": {"3a", "3b"},
+                "2a": set(),
+                "2b": set(),
+                "3a": set(),
+                "3b": set(),
+            }
+        )
+        == ["2a", "2b", "2", "3a", "3b", "3", "1"]
+    )
+
 
 def test_collect_setup_entries() -> None:
     stubs = os.path.join("data", "test_typeshed_stubs")
     entries = collect_setup_entries(os.path.join(stubs, "singlefilepkg"), SUFFIX)
-    assert entries == (
-        {'singlefilepkg-stubs': ['__init__.pyi', 'METADATA.toml']}
-    )
+    assert entries == ({"singlefilepkg-stubs": ["__init__.pyi", "METADATA.toml"]})
 
     entries = collect_setup_entries(os.path.join(stubs, "singlefilepkg"), PY2_SUFFIX)
     assert entries == (
-        {'singlefilepkg-python2-stubs': ['__init__.pyi', 'METADATA.toml']}
+        {"singlefilepkg-python2-stubs": ["__init__.pyi", "METADATA.toml"]}
     )
 
     entries = collect_setup_entries(os.path.join(stubs, "multifilepkg"), SUFFIX)
     assert entries == (
-        {'multifilepkg-stubs': [
-            '__init__.pyi',
-            'a.pyi',
-            'b.pyi',
-            'c/__init__.pyi',
-            'c/d.pyi',
-            'c/e.pyi',
-            'METADATA.toml',
-        ]}
+        {
+            "multifilepkg-stubs": [
+                "__init__.pyi",
+                "a.pyi",
+                "b.pyi",
+                "c/__init__.pyi",
+                "c/d.pyi",
+                "c/e.pyi",
+                "METADATA.toml",
+            ]
+        }
     )
+
 
 def test_collect_setup_entries_bogusfile() -> None:
     stubs = os.path.join("data", "test_typeshed_stubs")
@@ -103,9 +131,11 @@ def test_collect_setup_entries_bogusfile() -> None:
     with open(os.path.join(stubs, "singlefilepkg", ".METADATA.toml.swp"), "w"):
         pass
     entries = collect_setup_entries(os.path.join(stubs, "singlefilepkg"), SUFFIX)
-    assert len(entries['singlefilepkg-stubs']) == 2
+    assert len(entries["singlefilepkg-stubs"]) == 2
 
-    with open(os.path.join(stubs, "multifilepkg", "multifilepkg", ".METADATA.toml.swp"), "w"):
+    with open(
+        os.path.join(stubs, "multifilepkg", "multifilepkg", ".METADATA.toml.swp"), "w"
+    ):
         pass
     entries = collect_setup_entries(os.path.join(stubs, "multifilepkg"), SUFFIX)
-    assert len(entries['multifilepkg-stubs']) == 7
+    assert len(entries["multifilepkg-stubs"]) == 7

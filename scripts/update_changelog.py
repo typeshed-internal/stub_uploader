@@ -21,22 +21,37 @@ THIRD_PARTY_NAMESPACE = "stubs"
 def main() -> None:
     args = parse_args()
     update_changelog(
-        args.typeshed_dir, args.previous_commit, args.distribution, args.version, dry_run=args.dry_run,
+        args.typeshed_dir,
+        args.previous_commit,
+        args.distribution,
+        args.version,
+        dry_run=args.dry_run,
     )
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("typeshed_dir", help="Path to typeshed checkout directory")
-    parser.add_argument("previous_commit", help="Previous typeshed commit for which we performed upload")
+    parser.add_argument(
+        "previous_commit", help="Previous typeshed commit for which we performed upload"
+    )
     parser.add_argument("distribution", help="Distribution to update the changelog for")
     parser.add_argument("version", help="New version to add to the changelog")
-    parser.add_argument("--dry-run", action="store_true", help="Should we perform a dry run (don't actually update)")
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Should we perform a dry run (don't actually update)",
+    )
     return parser.parse_args()
 
 
 def update_changelog(
-    typeshed_dir: str, previous_commit: str, distribution: str, version: str, *, dry_run: bool = False,
+    typeshed_dir: str,
+    previous_commit: str,
+    distribution: str,
+    version: str,
+    *,
+    dry_run: bool = False,
 ) -> None:
     dist_path = Path(THIRD_PARTY_NAMESPACE, distribution)
     result = subprocess.run(
@@ -60,7 +75,9 @@ def update_changelog(
 
     if dry_run:
         if old_entries:
-            print(f"Would add {len(new_entry.splitlines())} lines to existing {changelog}")
+            print(
+                f"Would add {len(new_entry.splitlines())} lines to existing {changelog}"
+            )
         else:
             print(f"Would add {len(new_entry.splitlines())} lines to new {changelog}")
         return
@@ -79,7 +96,7 @@ def process_git_log(log: str, version: str) -> str:
             # Proper git log lines start with four spaces.
             entry += f"{line.rstrip()[4:]}\n"
         else:
-            pass # Ignore header entries.
+            pass  # Ignore header entries.
     entry += "\n"
     # Strip multiple empty lines.
     return re.sub("\n\n+", "\n\n", entry)
