@@ -12,7 +12,7 @@ distribution information.
 
 import argparse
 import os.path
-from typing import Optional
+from typing import Optional, cast
 
 import requests
 import toml
@@ -35,7 +35,7 @@ def read_base_version(typeshed_dir: str, distribution: str) -> str:
     )
     with open(metadata_file) as f:
         data = toml.loads(f.read())
-    return data["version"]
+    return cast(str, data["version"])
 
 
 def strip_dep_version(dependency: str) -> str:

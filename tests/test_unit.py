@@ -1,7 +1,7 @@
 """Unit tests for simple helpers should go here."""
 
 import os
-import pytest  # type: ignore[import]
+import pytest
 from scripts.get_version import strip_dep_version
 from scripts.build_wheel import collect_setup_entries, sort_by_dependency, transitive_deps, strip_types_prefix, SUFFIX, PY2_SUFFIX
 
