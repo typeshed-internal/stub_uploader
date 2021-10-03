@@ -56,5 +56,7 @@ def test_dependency_order() -> None:
     for distribution in distributions:
         for dependency in read_metadata(TYPESHED, distribution).get("requires", []):
             assert to_upload.index(
-                build_wheel.strip_types_prefix(get_version.strip_dep_version(dependency))
+                build_wheel.strip_types_prefix(
+                    get_version.strip_dep_version(dependency)
+                )
             ) < to_upload.index(distribution)
