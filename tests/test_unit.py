@@ -8,6 +8,7 @@ from scripts.build_wheel import (
     sort_by_dependency,
     transitive_deps,
     strip_types_prefix,
+    BuildData,
     SUFFIX,
     PY2_SUFFIX,
 )
@@ -97,7 +98,7 @@ def test_sort_by_dependency() -> None:
 
 
 def test_collect_setup_entries() -> None:
-    stubs = os.path.join("data", "test_typeshed_stubs")
+    stubs = os.path.join("data", "test_typeshed", "stubs")
     entries = collect_setup_entries(os.path.join(stubs, "singlefilepkg"), SUFFIX)
     assert entries == ({"singlefilepkg-stubs": ["__init__.pyi", "METADATA.toml"]})
 
@@ -121,9 +122,29 @@ def test_collect_setup_entries() -> None:
         }
     )
 
+    entries = collect_setup_entries(os.path.join(stubs, "nspkg"), SUFFIX)
+    assert entries == (
+        {
+            "nspkg-stubs": [
+                "innerpkg/__init__.pyi",
+                "METADATA.toml",
+            ]
+        }
+    )
+
+
+def test_build_data() -> None:
+    typeshed = os.path.join("data", "test_typeshed")
+    singlefilepkg_bd = BuildData(typeshed, "singlefilepkg")
+    assert singlefilepkg_bd.py3_stubs
+    assert not singlefilepkg_bd.py2_stubs
+    nspkg_bd = BuildData(typeshed, "nspkg")
+    assert nspkg_bd.py3_stubs
+    assert not nspkg_bd.py2_stubs
+
 
 def test_collect_setup_entries_bogusfile() -> None:
-    stubs = os.path.join("data", "test_typeshed_stubs")
+    stubs = os.path.join("data", "test_typeshed", "stubs")
     with pytest.raises(ValueError, match="Only stub files are allowed: bogusfile.txt"):
         collect_setup_entries(os.path.join(stubs, "bogusfiles"), SUFFIX)
 

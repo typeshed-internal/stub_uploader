@@ -92,11 +92,13 @@ class BuildData:
         self.distribution = distribution
         self._base_dir = os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE, distribution)
         # Python 3 (and mixed Python 2 and 3) stubs exist if at least one
-        # *.pyi file exists on the top-level or one level down, *excluding*
-        # the @python2 directory.
+        # *.pyi file exists on the top-level or in subdirectories, *excluding*
+        # the @python2 directory. May be more than one level down in the case
+        # of namespace packages (which lack __init__.pyi or any pyi files)
         self.py3_stubs = (
             len(glob(f"{self._base_dir}/*.pyi")) >= 1
             or len(glob(f"{self._base_dir}/[!@]*/*.pyi")) >= 1
+            or len(glob(f"{self._base_dir}/[!@]*/**/*.pyi")) >= 1
         )
         # Python 2 stubs exist if a @python2 directory exists.
         self.py2_stubs = PY2_NAMESPACE in os.listdir(self._base_dir)
