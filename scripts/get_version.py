@@ -43,6 +43,7 @@ def fetch_pypi_versions(distribution: str) -> Iterable[str]:
     data = resp.json()
     return data["releases"].keys()
 
+
 def read_base_version(typeshed_dir: str, distribution: str) -> str:
     """Read distribution version from metadata."""
     metadata_file = os.path.join(
