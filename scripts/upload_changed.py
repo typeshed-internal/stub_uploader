@@ -30,7 +30,9 @@ def main(typeshed_dir: str, commit: str, uploaded: str, dry_run: bool = False) -
     print("Building and uploading stubs for:", ", ".join(to_upload))
     for distribution in to_upload:
         version = determine_version(typeshed_dir, distribution)
-        update_changelog.update_changelog(typeshed_dir, commit, distribution, version, dry_run=dry_run)
+        update_changelog.update_changelog(
+            typeshed_dir, commit, distribution, version, dry_run=dry_run
+        )
         temp_dir = build_wheel.main(typeshed_dir, distribution, version)
         if dry_run:
             print(f"Would upload: {distribution}, version {version}")
@@ -45,8 +47,17 @@ def main(typeshed_dir: str, commit: str, uploaded: str, dry_run: bool = False) -
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("typeshed_dir", help="Path to typeshed checkout directory")
-    parser.add_argument("previous_commit", help="Previous typeshed commit for which we performed upload")
-    parser.add_argument("uploaded", help="File listing previously uploaded packages to validate dependencies")
-    parser.add_argument("--dry-run", action="store_true", help="Should we perform a dry run (don't actually upload)")
+    parser.add_argument(
+        "previous_commit", help="Previous typeshed commit for which we performed upload"
+    )
+    parser.add_argument(
+        "uploaded",
+        help="File listing previously uploaded packages to validate dependencies",
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Should we perform a dry run (don't actually upload)",
+    )
     args = parser.parse_args()
     main(args.typeshed_dir, args.previous_commit, args.uploaded, args.dry_run)

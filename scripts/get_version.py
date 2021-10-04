@@ -13,7 +13,7 @@ distribution information.
 import argparse
 import os.path
 from collections.abc import Iterable
-from typing import Optional
+from typing import Optional, cast
 
 import requests
 import toml
@@ -31,9 +31,7 @@ TIMEOUT = 3
 
 def fetch_pypi_versions(distribution: str) -> Iterable[str]:
     url = URL_TEMPLATE.format(PREFIX + distribution)
-    retry_strategy = Retry(
-        total=RETRIES, status_forcelist=RETRY_ON
-    )
+    retry_strategy = Retry(total=RETRIES, status_forcelist=RETRY_ON)
     with requests.Session() as session:
         session.mount("https://", HTTPAdapter(max_retries=retry_strategy))
         resp = session.get(url, timeout=TIMEOUT)
@@ -45,7 +43,6 @@ def fetch_pypi_versions(distribution: str) -> Iterable[str]:
     data = resp.json()
     return data["releases"].keys()
 
-
 def read_base_version(typeshed_dir: str, distribution: str) -> str:
     """Read distribution version from metadata."""
     metadata_file = os.path.join(
@@ -53,7 +50,7 @@ def read_base_version(typeshed_dir: str, distribution: str) -> str:
     )
     with open(metadata_file) as f:
         data = toml.loads(f.read())
-    return data["version"]
+    return cast(str, data["version"])
 
 
 def strip_dep_version(dependency: str) -> str:
@@ -100,6 +97,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("typeshed_dir", help="Path to typeshed checkout directory")
     parser.add_argument("distribution", help="Third-party distribution to build")
-    parser.add_argument("version", nargs="?", help="Base version for which to get increment")
+    parser.add_argument(
+        "version", nargs="?", help="Base version for which to get increment"
+    )
     args = parser.parse_args()
     print(main(args.typeshed_dir, args.distribution, args.version))

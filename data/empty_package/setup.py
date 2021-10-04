@@ -15,5 +15,5 @@ setup(
     packages=[],
     classifiers=[
         "Typing :: Typed",
-    ]
+    ],
 )

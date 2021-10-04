@@ -4,7 +4,7 @@ anything on PyPI, but can make PyPI queries and may expect
 a typeshed checkout side by side.
 """
 import os
-import pytest  # type: ignore[import]
+import pytest
 from scripts import get_version, build_wheel
 from scripts.metadata import read_metadata
 
@@ -25,12 +25,12 @@ def test_check_exists() -> None:
     assert not get_version.check_exists("nonexistent-distribution")
 
 
-def test_build_wheel() -> None:
+@pytest.mark.parametrize("distribution", os.listdir(os.path.join(TYPESHED, "stubs")))
+def test_build_wheel(distribution: str) -> None:
     """Check that we can build wheels for all distributions."""
-    for distribution in os.listdir(os.path.join(TYPESHED, "stubs")):
-        tmp_dir = build_wheel.main(TYPESHED, distribution, version="1.1.1")
-        assert tmp_dir.endswith("/dist")
-        assert list(os.listdir(tmp_dir))  # check it is not empty
+    tmp_dir = build_wheel.main(TYPESHED, distribution, version="1.1.1")
+    assert tmp_dir.endswith("/dist")
+    assert list(os.listdir(tmp_dir))  # check it is not empty
 
 
 def test_verify_dependency() -> None:
@@ -56,5 +56,7 @@ def test_dependency_order() -> None:
     for distribution in distributions:
         for dependency in read_metadata(TYPESHED, distribution).get("requires", []):
             assert to_upload.index(
-                build_wheel.strip_types_prefix(get_version.strip_dep_version(dependency))
+                build_wheel.strip_types_prefix(
+                    get_version.strip_dep_version(dependency)
+                )
             ) < to_upload.index(distribution)
