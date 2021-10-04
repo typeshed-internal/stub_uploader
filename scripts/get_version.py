@@ -10,10 +10,12 @@ This file also contains some helper functions related to querying
 distribution information.
 """
 
+from __future__ import annotations
+
 import argparse
 import os.path
 from collections.abc import Iterable
-from typing import Optional, cast
+from typing import Any, Optional, cast
 
 import requests
 import toml
@@ -40,8 +42,8 @@ def fetch_pypi_versions(distribution: str) -> Iterable[str]:
             # Looks like this is first time this package is ever uploaded.
             return []
         raise ValueError("Error while retrieving version")
-    data = resp.json()
-    return data["releases"].keys()
+    releases: dict[str, Any] = resp.json()["releases"]
+    return releases.keys()
 
 
 def read_base_version(typeshed_dir: str, distribution: str) -> str:
