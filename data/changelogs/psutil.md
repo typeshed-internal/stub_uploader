@@ -1,3 +1,7 @@
+## 5.8.10 (2021-10-05)
+
+Add several missing type annotations to `psutil._common` (#6104)
+
 ## 5.8.9 (2021-10-05)
 
 Properly export types from psutil._compat (#6112)
