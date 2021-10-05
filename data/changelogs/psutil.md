@@ -1,3 +1,7 @@
+## 5.8.9 (2021-10-05)
+
+Properly export types from psutil._compat (#6112)
+
 ## 5.8.8 (2021-09-25)
 
 Improves `Popen` types in `psutil` (#6074)
