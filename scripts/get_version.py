@@ -14,13 +14,9 @@ from __future__ import annotations
 
 import argparse
 import os.path
-<<<<<<< HEAD
 import re
-from typing import Optional
-=======
 from collections.abc import Iterable
 from typing import Any, Optional, cast
->>>>>>> main
 
 import requests
 import toml
@@ -95,11 +91,7 @@ def main(typeshed_dir: str, distribution: str, version: Optional[str]) -> int:
 
     Supports basic reties and timeouts (as module constants).
     """
-<<<<<<< HEAD
-    pypi_versions = fetch_pypi_versions()
-=======
     pypi_versions = fetch_pypi_versions(distribution)
->>>>>>> main
     if not version:
         # Use the METADATA.toml version, if not given one.
         version = read_base_version(typeshed_dir, distribution)
