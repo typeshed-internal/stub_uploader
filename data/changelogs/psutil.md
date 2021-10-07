@@ -1,3 +1,7 @@
+## 5.8.12 (2021-10-07)
+
+Add missing annotations for psutil (#6124)
+
 ## 5.8.11 (2021-10-07)
 
 Improves `psutil` (#6103)
