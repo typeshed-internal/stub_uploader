@@ -1,3 +1,11 @@
+## 3.3.4 (2021-10-05)
+
+markdown: fix type of Pattern (#6115)
+
+Surfaced weirdly by #6109
+
+Co-authored-by: hauntsaninja <>
+
 ## 3.3.3 (2021-09-20)
 
 Add types to Markdown (#6045)

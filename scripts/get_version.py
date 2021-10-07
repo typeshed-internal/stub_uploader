@@ -10,10 +10,17 @@ This file also contains some helper functions related to querying
 distribution information.
 """
 
+from __future__ import annotations
+
 import argparse
 import os.path
+<<<<<<< HEAD
 import re
 from typing import Optional
+=======
+from collections.abc import Iterable
+from typing import Any, Optional, cast
+>>>>>>> main
 
 import requests
 import toml
@@ -29,11 +36,9 @@ RETRY_ON = [429, 500, 502, 503, 504]
 TIMEOUT = 3
 
 
-def fetch_pypi_versions(distribution: str) -> list[str]:
+def fetch_pypi_versions(distribution: str) -> Iterable[str]:
     url = URL_TEMPLATE.format(PREFIX + distribution)
-    retry_strategy = Retry(
-        total=RETRIES, status_forcelist=RETRY_ON
-    )
+    retry_strategy = Retry(total=RETRIES, status_forcelist=RETRY_ON)
     with requests.Session() as session:
         session.mount("https://", HTTPAdapter(max_retries=retry_strategy))
         resp = session.get(url, timeout=TIMEOUT)
@@ -42,8 +47,8 @@ def fetch_pypi_versions(distribution: str) -> list[str]:
             # Looks like this is first time this package is ever uploaded.
             return []
         raise ValueError("Error while retrieving version")
-    data = resp.json()
-    return data["releases"].keys()
+    releases: dict[str, Any] = resp.json()["releases"]
+    return releases.keys()
 
 
 def read_base_version(typeshed_dir: str, distribution: str) -> str:
@@ -54,6 +59,7 @@ def read_base_version(typeshed_dir: str, distribution: str) -> str:
     with open(metadata_file) as f:
         data = toml.loads(f.read())
     version = data["version"]
+    assert isinstance(version, str)
     if version.endswith(".*"):
         version = version[:-2]
     assert re.match(r"\d+(\.\d+)*", version)
@@ -89,7 +95,11 @@ def main(typeshed_dir: str, distribution: str, version: Optional[str]) -> int:
 
     Supports basic reties and timeouts (as module constants).
     """
+<<<<<<< HEAD
     pypi_versions = fetch_pypi_versions()
+=======
+    pypi_versions = fetch_pypi_versions(distribution)
+>>>>>>> main
     if not version:
         # Use the METADATA.toml version, if not given one.
         version = read_base_version(typeshed_dir, distribution)
@@ -104,6 +114,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("typeshed_dir", help="Path to typeshed checkout directory")
     parser.add_argument("distribution", help="Third-party distribution to build")
-    parser.add_argument("version", nargs="?", help="Base version for which to get increment")
+    parser.add_argument(
+        "version", nargs="?", help="Base version for which to get increment"
+    )
     args = parser.parse_args()
     print(main(args.typeshed_dir, args.distribution, args.version))

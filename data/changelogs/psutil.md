@@ -1,3 +1,17 @@
+## 5.8.11 (2021-10-07)
+
+Improves `psutil` (#6103)
+
+Add a few items and annotations to psutil
+
+## 5.8.10 (2021-10-05)
+
+Add several missing type annotations to `psutil._common` (#6104)
+
+## 5.8.9 (2021-10-05)
+
+Properly export types from psutil._compat (#6112)
+
 ## 5.8.8 (2021-09-25)
 
 Improves `Popen` types in `psutil` (#6074)

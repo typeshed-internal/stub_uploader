@@ -21,7 +21,9 @@ def main(typeshed_dir: str, pattern: str, uploaded: str) -> None:
     """Force upload typeshed stub packages to PyPI."""
     compiled = re.compile(f"^{pattern}$")  # force exact matches
     matching = [
-        d for d in os.listdir(os.path.join(typeshed_dir, "stubs")) if re.match(compiled, d)
+        d
+        for d in os.listdir(os.path.join(typeshed_dir, "stubs"))
+        if re.match(compiled, d)
     ]
     # Sort by dependency to prevent depending on foreign distributions.
     to_upload = build_wheel.sort_by_dependency(
@@ -42,7 +44,12 @@ def main(typeshed_dir: str, pattern: str, uploaded: str) -> None:
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("typeshed_dir", help="Path to typeshed checkout directory")
-    parser.add_argument("pattern", help="Regular expression to select distributions for upload")
-    parser.add_argument("uploaded", help="File listing previously uploaded packages to validate dependencies")
+    parser.add_argument(
+        "pattern", help="Regular expression to select distributions for upload"
+    )
+    parser.add_argument(
+        "uploaded",
+        help="File listing previously uploaded packages to validate dependencies",
+    )
     args = parser.parse_args()
     main(args.typeshed_dir, args.pattern, args.uploaded)
