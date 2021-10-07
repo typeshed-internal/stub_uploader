@@ -14,6 +14,7 @@ from __future__ import annotations
 
 import argparse
 import os.path
+import re
 from collections.abc import Iterable
 from typing import Any, Optional, cast
 
@@ -53,7 +54,12 @@ def read_base_version(typeshed_dir: str, distribution: str) -> str:
     )
     with open(metadata_file) as f:
         data = toml.loads(f.read())
-    return cast(str, data["version"])
+    version = data["version"]
+    assert isinstance(version, str)
+    if version.endswith(".*"):
+        version = version[:-2]
+    assert re.match(r"\d+(\.\d+)*", version)
+    return version
 
 
 def strip_dep_version(dependency: str) -> str:
