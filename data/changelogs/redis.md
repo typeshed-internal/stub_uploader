@@ -1,3 +1,7 @@
+## 3.5.11 (2021-10-09)
+
+Add Redis.memory_purge() (#6138)
+
 ## 3.5.10 (2021-10-09)
 
 Add memory_stats() to Redis (#6137)
