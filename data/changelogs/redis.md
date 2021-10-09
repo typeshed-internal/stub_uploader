@@ -1,3 +1,7 @@
+## 3.5.10 (2021-10-09)
+
+Add memory_stats() to Redis (#6137)
+
 ## 3.5.9 (2021-09-29)
 
 redis: include local property on Lock class (#6083)
