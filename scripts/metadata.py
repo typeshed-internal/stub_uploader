@@ -19,10 +19,8 @@ def read_metadata(typeshed_dir: str, distribution: str) -> Metadata:
 
 
 def determine_version(typeshed_dir: str, distribution: str) -> str:
-    metadata = read_metadata(typeshed_dir, distribution)
-    version: str = metadata["version"]
-    # Setting base version to None, so it will be read from current METADATA.toml.
-    increment = get_version.main(typeshed_dir, distribution, None)
+    version = get_version.read_base_version(typeshed_dir, distribution)
+    increment = get_version.main(typeshed_dir, distribution, version)
     if increment >= 0:
         print(f"Existing version found for {distribution}")
     increment += 1
