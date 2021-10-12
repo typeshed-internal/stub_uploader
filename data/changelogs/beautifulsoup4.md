@@ -1,3 +1,7 @@
+## 4.10.3 (2021-10-12)
+
+Put Generic last in base class list (#6155)
+
 ## 4.10.2 (2021-10-12)
 
 Add star to all non-0.1 versions (#6146)
