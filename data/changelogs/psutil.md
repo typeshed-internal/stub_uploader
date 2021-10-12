@@ -1,3 +1,7 @@
+## 5.8.13 (2021-10-12)
+
+Add star to all non-0.1 versions (#6146)
+
 ## 5.8.12 (2021-10-07)
 
 Add missing annotations for psutil (#6124)

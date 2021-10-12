@@ -1,3 +1,7 @@
+## 4.2.4 (2021-10-12)
+
+Add star to all non-0.1 versions (#6146)
+
 ## 4.2.3 (2021-10-11)
 
 Fix type of lock parameter of cachetools.cachedmethod() decorator (#6144)

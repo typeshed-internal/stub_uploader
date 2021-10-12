@@ -1,3 +1,7 @@
+## 3.5.12 (2021-10-12)
+
+Add star to all non-0.1 versions (#6146)
+
 ## 3.5.11 (2021-10-09)
 
 Add Redis.memory_purge() (#6138)

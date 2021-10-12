@@ -1,3 +1,7 @@
+## 2.25.10 (2021-10-12)
+
+Add star to all non-0.1 versions (#6146)
+
 ## 2.25.9 (2021-09-25)
 
 requests: Response.encoding can be None (#6067)

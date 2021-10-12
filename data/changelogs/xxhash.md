@@ -1,3 +1,7 @@
+## 2.0.2 (2021-10-12)
+
+Add star to all non-0.1 versions (#6146)
+
 ## 2.0.1 (2021-09-14)
 
 Update the `xxhash` and `hashlib` stubs (#6031)

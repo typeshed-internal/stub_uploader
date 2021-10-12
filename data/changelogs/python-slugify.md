@@ -1,3 +1,7 @@
+## 5.0.1 (2021-10-12)
+
+Add star to all non-0.1 versions (#6146)
+
 ## 5.0.0 (2021-09-05)
 
 Fix python-slugify replacements argument type (#6004)

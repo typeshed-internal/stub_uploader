@@ -1,3 +1,7 @@
+## 2021.10.8.0 (2021-10-12)
+
+Add star to all non-0.1 versions (#6146)
+
 ## 2020.4.0 (2021-09-01)
 
 Add certifi.contents() (#5989)

@@ -1,3 +1,7 @@
+## 8.3.7 (2021-10-12)
+
+Add star to all non-0.1 versions (#6146)
+
 ## 8.3.6 (2021-10-11)
 
 Annotate PIL.ImageColor (#6151)
