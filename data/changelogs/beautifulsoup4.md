@@ -1,3 +1,7 @@
+## 4.10.4 (2021-10-13)
+
+Cleanup: use lower-case list and dict, add a test (#6161)
+
 ## 4.10.3 (2021-10-12)
 
 Put Generic last in base class list (#6155)

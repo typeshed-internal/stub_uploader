@@ -1,3 +1,9 @@
+## 1.0.5 (2021-10-13)
+
+dateparser.search.search_dates: allow arbitrary-length tuples for languages argument (#6166)
+
+Cleanup: use lower-case list and dict, add a test (#6161)
+
 ## 1.0.4 (2021-10-12)
 
 Add star to all non-0.1 versions (#6146)
