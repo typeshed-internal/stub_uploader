@@ -1,3 +1,7 @@
+## 1.0.6 (2021-10-14)
+
+check_new_syntax.py: check nested annotations (#6167)
+
 ## 1.0.5 (2021-10-13)
 
 dateparser.search.search_dates: allow arbitrary-length tuples for languages argument (#6166)
