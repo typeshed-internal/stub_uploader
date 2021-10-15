@@ -1,3 +1,7 @@
+## 3.5.14 (2021-10-15)
+
+Add redis/sentinel.pyi (#6174)
+
 ## 3.5.13 (2021-10-15)
 
 Use lowercase tuple where possible (#6170)
