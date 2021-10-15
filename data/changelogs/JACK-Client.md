@@ -1,3 +1,7 @@
+## 0.5.1 (2021-10-15)
+
+Use lowercase tuple where possible (#6170)
+
 ## 0.5.0 (2021-10-12)
 
 Update remaining versions for third-party stubs (#6094)

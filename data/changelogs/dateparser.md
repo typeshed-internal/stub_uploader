@@ -1,3 +1,7 @@
+## 1.0.7 (2021-10-15)
+
+Use lowercase tuple where possible (#6170)
+
 ## 1.0.6 (2021-10-14)
 
 check_new_syntax.py: check nested annotations (#6167)

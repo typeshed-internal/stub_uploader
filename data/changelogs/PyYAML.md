@@ -1,3 +1,7 @@
+## 5.4.12 (2021-10-15)
+
+Use lowercase tuple where possible (#6170)
+
 ## 5.4.11 (2021-10-12)
 
 Add star to all non-0.1 versions (#6146)

@@ -1,3 +1,7 @@
+## 0.3.3 (2021-10-15)
+
+Use lowercase tuple where possible (#6170)
+
 ## 0.3.2 (2021-10-13)
 
 Cleanup: use lower-case list and dict, add a test (#6161)
