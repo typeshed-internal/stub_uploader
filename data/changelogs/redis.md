@@ -1,3 +1,7 @@
+## 3.5.15 (2021-10-16)
+
+Annotate Client.decr() and decrby() (#6179)
+
 ## 3.5.14 (2021-10-15)
 
 Add redis/sentinel.pyi (#6174)
