@@ -25,7 +25,7 @@ import subprocess
 from collections import defaultdict
 from glob import glob
 from textwrap import dedent
-from typing import List, Dict, Any, Tuple, Set, Mapping
+from typing import List, Dict, Any, Tuple, Set, Mapping, Optional
 
 from scripts import get_version
 from scripts.const import *
@@ -371,7 +371,9 @@ def generate_long_description(
     return "\n\n".join(parts)
 
 
-def main(typeshed_dir: str, distribution: str, version: str) -> str:
+def main(
+    typeshed_dir: str, distribution: str, version: str, build_dir: Optional[str] = None
+) -> str:
     """Generate a wheel for a third-party distribution in typeshed.
 
     Return the path to directory where wheel is created.
@@ -380,7 +382,10 @@ def main(typeshed_dir: str, distribution: str, version: str) -> str:
     created after uploading it.
     """
     build_data = BuildData(typeshed_dir, distribution)
-    tmpdir = tempfile.mkdtemp()
+    if build_dir:
+        tmpdir = build_dir
+    else:
+        tmpdir = tempfile.mkdtemp()
     commit = subprocess.run(
         ["git", "rev-parse", "HEAD"],
         capture_output=True,
@@ -411,10 +416,12 @@ def main(typeshed_dir: str, distribution: str, version: str) -> str:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
+    parser.add_argument("--build-dir", default=None, help="build directory")
     parser.add_argument("typeshed_dir", help="Path to typeshed checkout directory")
     parser.add_argument("distribution", help="Third-party distribution to build")
     parser.add_argument("version", help="New stub version")
     args = parser.parse_args()
     print(
-        "Wheel is built in:", main(args.typeshed_dir, args.distribution, args.version)
+        "Wheel is built in:",
+        main(args.typeshed_dir, args.distribution, args.version, args.build_dir),
     )
