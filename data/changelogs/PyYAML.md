@@ -1,3 +1,20 @@
+## 6.0.0 (2021-10-22)
+
+Upgrade PyYAML to version 6 (#6183)
+
+* Fix load_all() argument
+* Remove Python 2 remnants
+  + Replace Text with str
+  + Replace alias "_Str" with str
+  + Import from collections.abc and re where applicable
+  + Remove Python 2 branches
+* Fix PyYaml allowlist entries
+  + Add yaml._yaml and move CParser and CEmitter there.
+  + Add missing functions, classes, and arguments.
+* Use relative imports in some modules.
+* Add __all__ to yaml.cyaml.
+* Remove unnecessary noqa markers.
+
 ## 5.4.12 (2021-10-15)
 
 Use lowercase tuple where possible (#6170)
