@@ -1,3 +1,7 @@
+## 2.7.4 (2021-11-08)
+
+paramiko.ServerInterface: replace str with bytes in some methods (#6254)
+
 ## 2.7.3 (2021-10-15)
 
 Use lowercase tuple where possible (#6170)
