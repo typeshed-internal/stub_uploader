@@ -1,3 +1,9 @@
+## 5.8.14 (2021-11-08)
+
+Process.status returns a status string (#6245)
+
+Typed STATUS_* constants using Literal
+
 ## 5.8.13 (2021-10-12)
 
 Add star to all non-0.1 versions (#6146)
