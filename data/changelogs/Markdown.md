@@ -1,3 +1,7 @@
+## 3.3.7 (2021-11-09)
+
+Add markdown.blockprocessors.ReferenceProcessor (#6270)
+
 ## 3.3.6 (2021-10-15)
 
 Use lowercase tuple where possible (#6170)
