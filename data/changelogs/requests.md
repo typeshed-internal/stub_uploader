@@ -1,3 +1,7 @@
+## 2.25.12 (2021-11-09)
+
+Remove BaseAdapter from requests.sessions (#6264)
+
 ## 2.25.11 (2021-10-15)
 
 Use lowercase tuple where possible (#6170)
