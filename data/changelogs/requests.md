@@ -1,3 +1,9 @@
+## 2.26.0 (2021-11-10)
+
+Add some kwonly arguments to Session.send() (#6266)
+
+Bump version to 2.26
+
 ## 2.25.12 (2021-11-09)
 
 Remove BaseAdapter from requests.sessions (#6264)
