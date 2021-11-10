@@ -1,3 +1,7 @@
+## 21.0.0 (2021-11-10)
+
+Add pyOpenSSL 21 constants (#6273)
+
 ## 20.0.9 (2021-10-15)
 
 Use lowercase tuple where possible (#6170)
