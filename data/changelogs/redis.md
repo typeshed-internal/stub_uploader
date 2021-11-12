@@ -1,3 +1,7 @@
+## 3.5.16 (2021-11-12)
+
+Redis Sentinel master_for, slave_for returns a Redis client (#6269)
+
 ## 3.5.15 (2021-10-16)
 
 Annotate Client.decr() and decrby() (#6179)

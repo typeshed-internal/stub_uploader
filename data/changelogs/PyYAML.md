@@ -1,3 +1,7 @@
+## 6.0.1 (2021-11-12)
+
+Add more type hints for pyyaml (#6265)
+
 ## 6.0.0 (2021-10-22)
 
 Upgrade PyYAML to version 6 (#6183)
