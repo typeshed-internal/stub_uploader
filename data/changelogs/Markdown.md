@@ -1,3 +1,7 @@
+## 3.3.8 (2021-11-16)
+
+Add hilite(shebang) argument and return type (#6316)
+
 ## 3.3.7 (2021-11-09)
 
 Add markdown.blockprocessors.ReferenceProcessor (#6270)
