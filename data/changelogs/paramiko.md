@@ -1,3 +1,9 @@
+## 2.8.0 (2021-11-18)
+
+Add `prefetch` argument to paramiko SFTPClient.getfo (#6331)
+
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+
 ## 2.7.4 (2021-11-08)
 
 paramiko.ServerInterface: replace str with bytes in some methods (#6254)
