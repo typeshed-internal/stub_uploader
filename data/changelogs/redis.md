@@ -1,3 +1,7 @@
+## 3.5.17 (2021-11-18)
+
+Revert "do not use mypy-specific syntax in '# type: ignore' comments" (#6338)
+
 ## 3.5.16 (2021-11-12)
 
 Redis Sentinel master_for, slave_for returns a Redis client (#6269)
