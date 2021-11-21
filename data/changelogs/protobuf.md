@@ -1,3 +1,7 @@
+## 3.18.1 (2021-11-21)
+
+Fix MutableMapping overrides (#6352)
+
 ## 3.18.0 (2021-10-13)
 
 Bump protobuf stub to 3.18.1 and mypy-protobuf 3.0.0 (#6157)
