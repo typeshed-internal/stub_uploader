@@ -1,3 +1,7 @@
+## 3.3.9 (2021-11-23)
+
+Reduce use of deprecated `typing` aliases (#6358)
+
 ## 3.3.8 (2021-10-28)
 
 Add defaults to GCM.__init__ arguments (#6207)

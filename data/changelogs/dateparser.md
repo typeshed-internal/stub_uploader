@@ -1,3 +1,7 @@
+## 1.0.8 (2021-11-23)
+
+Reduce use of deprecated `typing` aliases (#6358)
+
 ## 1.0.7 (2021-10-15)
 
 Use lowercase tuple where possible (#6170)

@@ -1,3 +1,7 @@
+## 4.2.6 (2021-11-23)
+
+Reduce use of deprecated `typing` aliases (#6358)
+
 ## 4.2.5 (2021-11-21)
 
 Fix MutableMapping overrides (#6352)

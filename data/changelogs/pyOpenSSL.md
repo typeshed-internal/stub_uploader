@@ -1,3 +1,7 @@
+## 21.0.1 (2021-11-23)
+
+Reduce use of deprecated `typing` aliases (#6358)
+
 ## 21.0.0 (2021-11-10)
 
 Add pyOpenSSL 21 constants (#6273)

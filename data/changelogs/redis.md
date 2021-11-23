@@ -1,3 +1,7 @@
+## 3.5.18 (2021-11-23)
+
+Reduce use of deprecated `typing` aliases (#6358)
+
 ## 3.5.17 (2021-11-18)
 
 Revert "do not use mypy-specific syntax in '# type: ignore' comments" (#6338)

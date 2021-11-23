@@ -1,3 +1,7 @@
+## 5.8.15 (2021-11-23)
+
+Reduce use of deprecated `typing` aliases (#6358)
+
 ## 5.8.14 (2021-11-08)
 
 Process.status returns a status string (#6245)

@@ -1,3 +1,7 @@
+## 4.10.5 (2021-11-23)
+
+Reduce use of deprecated `typing` aliases (#6358)
+
 ## 4.10.4 (2021-10-13)
 
 Cleanup: use lower-case list and dict, add a test (#6161)
