@@ -1,3 +1,7 @@
+## 2.8.3 (2021-11-23)
+
+Add tz{utc,offset}.fromutc() (#6360)
+
 ## 2.8.2 (2021-10-15)
 
 Use lowercase tuple where possible (#6170)
