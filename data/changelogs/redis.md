@@ -1,3 +1,7 @@
+## 4.0.0 (2021-11-25)
+
+Update redis stubs to version 4 (#6368)
+
 ## 3.5.18 (2021-11-23)
 
 Reduce use of deprecated `typing` aliases (#6358)
