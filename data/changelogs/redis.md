@@ -1,3 +1,7 @@
+## 4.0.1 (2021-11-26)
+
+Add mypy error codes to '# type: ignore' comments (#6379)
+
 ## 4.0.0 (2021-11-25)
 
 Update redis stubs to version 4 (#6368)

@@ -1,3 +1,7 @@
+## 1.0.6 (2021-11-26)
+
+Add mypy error codes to '# type: ignore' comments (#6379)
+
 ## 1.0.5 (2021-11-09)
 
 Improve pymysql.converters stubs (#6267)

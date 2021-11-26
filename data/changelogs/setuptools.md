@@ -1,3 +1,7 @@
+## 57.4.4 (2021-11-26)
+
+Add mypy error codes to '# type: ignore' comments (#6379)
+
 ## 57.4.3 (2021-11-23)
 
 Reduce use of deprecated `typing` aliases (#6358)

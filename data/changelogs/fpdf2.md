@@ -1,3 +1,7 @@
+## 2.4.2 (2021-11-26)
+
+Add mypy error codes to '# type: ignore' comments (#6379)
+
 ## 2.4.1 (2021-11-16)
 
 Improve fpdf.image_parsing (#6313)

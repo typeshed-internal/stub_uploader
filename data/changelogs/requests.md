@@ -1,3 +1,7 @@
+## 2.26.1 (2021-11-26)
+
+Add mypy error codes to '# type: ignore' comments (#6379)
+
 ## 2.26.0 (2021-11-10)
 
 Add some kwonly arguments to Session.send() (#6266)

@@ -1,3 +1,7 @@
+## 3.3.9 (2021-11-26)
+
+Add mypy error codes to '# type: ignore' comments (#6379)
+
 ## 3.3.8 (2021-11-16)
 
 Add hilite(shebang) argument and return type (#6316)
