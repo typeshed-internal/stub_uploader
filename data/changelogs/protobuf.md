@@ -1,3 +1,7 @@
+## 3.18.2 (2021-11-27)
+
+Improve stubs for sequence types (#6386)
+
 ## 3.18.1 (2021-11-21)
 
 Fix MutableMapping overrides (#6352)

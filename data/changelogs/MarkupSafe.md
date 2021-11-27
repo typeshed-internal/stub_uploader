@@ -1,3 +1,7 @@
+## 1.1.10 (2021-11-27)
+
+Improve stubs for sequence types (#6386)
+
 ## 1.1.9 (2021-11-26)
 
 Add mypy error codes to '# type: ignore' comments (#6379)
