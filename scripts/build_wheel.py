@@ -84,6 +84,9 @@ types and metadata should be contributed there.
 DESCRIPTION_OUTRO_TEMPLATE = """
 See https://github.com/python/typeshed/blob/master/README.md for more details.
 This package was generated from typeshed commit `{commit}`.
+The script that generated this package is maintained at
+https://github.com/typeshed-internal/stub_uploader, and it is run daily when
+stubs are updated.
 """.strip()
 
 
