@@ -1,4 +1,4 @@
-name: Daily update of stubs from typeshed to PyPI
+name: Periodic update of stubs from typeshed to PyPI
 
 on:
   # Triggers the workflow every three hours starting midnight UTC.
