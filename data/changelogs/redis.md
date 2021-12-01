@@ -1,3 +1,7 @@
+## 4.0.3 (2021-12-01)
+
+Fix various issues in redis.client (#6464)
+
 ## 4.0.2 (2021-12-01)
 
 redis: fix several stubtest warnings (#6378)
