@@ -1,3 +1,11 @@
+## 4.0.2 (2021-12-01)
+
+redis: fix several stubtest warnings (#6378)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Shantanu <12621235+hauntsaninja@users.noreply.github.com>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 4.0.1 (2021-11-26)
 
 Add mypy error codes to '# type: ignore' comments (#6379)
