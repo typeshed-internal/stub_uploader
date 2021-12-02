@@ -73,6 +73,7 @@ types-mysqlclient
 types-nmap
 types-oauthlib
 types-openssl-python
+types-opentracing
 types-orjson
 types-paramiko
 types-pathlib2
