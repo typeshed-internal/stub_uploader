@@ -51,6 +51,7 @@ types-enum34
 types-fb303
 types-filelock
 types-first
+types-flake8-simplify
 types-fpdf2
 types-freezegun
 types-frozendict
