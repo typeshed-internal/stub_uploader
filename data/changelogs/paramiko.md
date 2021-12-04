@@ -1,3 +1,7 @@
+## 2.8.3 (2021-12-04)
+
+paramiko.Channel - mark arguments as also accepting bytes (#6276)
+
 ## 2.8.2 (2021-11-26)
 
 Add mypy error codes to '# type: ignore' comments (#6379)
