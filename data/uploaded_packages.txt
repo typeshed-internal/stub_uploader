@@ -52,6 +52,7 @@ types-fb303
 types-filelock
 types-first
 types-flake8-builtins
+types-flake8-docstrings
 types-flake8-simplify
 types-fpdf2
 types-freezegun

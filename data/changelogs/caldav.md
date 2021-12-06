@@ -1,3 +1,7 @@
+## 0.8.4 (2021-12-06)
+
+caldav: Update DAVError and AuthorizationError (#6508)
+
 ## 0.8.3 (2021-11-09)
 
 Fix typos (#6263)
