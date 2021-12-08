@@ -51,6 +51,7 @@ types-enum34
 types-fb303
 types-filelock
 types-first
+types-flake8-bugbear
 types-flake8-builtins
 types-flake8-docstrings
 types-flake8-simplify

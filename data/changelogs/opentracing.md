@@ -1,3 +1,7 @@
+## 2.4.3 (2021-12-08)
+
+Adjust opentracing return types for mocks (#6527)
+
 ## 2.4.2 (2021-12-03)
 
 Fix minor issues in opentracing (#6482)
