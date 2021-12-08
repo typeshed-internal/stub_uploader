@@ -1,3 +1,7 @@
+## 2.8.4 (2021-12-08)
+
+fix: paramiko.HostKeyEntry.hostnames is a list (#6544)
+
 ## 2.8.3 (2021-12-04)
 
 paramiko.Channel - mark arguments as also accepting bytes (#6276)
