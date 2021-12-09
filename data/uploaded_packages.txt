@@ -61,6 +61,7 @@ types-frozendict
 types-futures
 types-geoip2
 types-google-cloud-ndb
+types-hdbcli
 types-html5lib
 types-httplib2
 types-humanfriendly
