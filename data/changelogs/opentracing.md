@@ -1,3 +1,9 @@
+## 2.4.4 (2021-12-10)
+
+Add missing context proptery to MockSpan (#6549)
+
+The property context should return a mocked context and not a regular one
+
 ## 2.4.3 (2021-12-08)
 
 Adjust opentracing return types for mocks (#6527)
