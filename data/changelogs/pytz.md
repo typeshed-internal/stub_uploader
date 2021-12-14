@@ -1,3 +1,11 @@
+## 2021.3.3 (2021-12-14)
+
+Add abstract methods to BaseTzInfo (#6579)
+
+While these abstract methods don't exist at runtime, all sub-classes of
+BaseTzInfo implement them. It can be useful to annotate variables with
+BaseTzInfo and being able to call these methods on it.
+
 ## 2021.3.2 (2021-12-09)
 
 pytz: rework stubs (#6551)
