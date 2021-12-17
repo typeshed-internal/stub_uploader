@@ -1,3 +1,12 @@
+## 1.0.7 (2021-12-17)
+
+Use stubtest 0.920 (#6589)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+
 ## 1.0.6 (2021-11-26)
 
 Add mypy error codes to '# type: ignore' comments (#6379)

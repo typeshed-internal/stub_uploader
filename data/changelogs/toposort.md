@@ -1,3 +1,7 @@
+## 1.7.1 (2021-12-17)
+
+Always import Protocol from typing in stubs (#6617)
+
 ## 1.7.0 (2021-12-07)
 
 toposort: Make argument types less restrictive (#6531)

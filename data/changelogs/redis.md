@@ -1,3 +1,7 @@
+## 4.0.4 (2021-12-17)
+
+Always import Protocol from typing in stubs (#6617)
+
 ## 4.0.3 (2021-12-01)
 
 Fix various issues in redis.client (#6464)
