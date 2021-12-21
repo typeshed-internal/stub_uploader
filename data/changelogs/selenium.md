@@ -1,3 +1,7 @@
+## 3.141.6 (2021-12-21)
+
+Fix return type of find_elements* (#6645)
+
 ## 3.141.5 (2021-12-21)
 
 Update Selenium webdriver with latest return types (#6565)
