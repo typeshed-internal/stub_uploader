@@ -1,3 +1,7 @@
+## 3.141.5 (2021-12-21)
+
+Update Selenium webdriver with latest return types (#6565)
+
 ## 3.141.4 (2021-11-26)
 
 Add mypy error codes to '# type: ignore' comments (#6379)

@@ -1,3 +1,7 @@
+## 8.3.9 (2021-12-21)
+
+correct border= and fill= kwargs for ImageOps.expand (#6641)
+
 ## 8.3.8 (2021-11-26)
 
 Add mypy error codes to '# type: ignore' comments (#6379)
