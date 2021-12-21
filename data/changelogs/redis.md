@@ -1,3 +1,9 @@
+## 4.0.5 (2021-12-21)
+
+Fix Redis.zpopmin and zpopmax (#6642)
+
+Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
+
 ## 4.0.4 (2021-12-17)
 
 Always import Protocol from typing in stubs (#6617)
