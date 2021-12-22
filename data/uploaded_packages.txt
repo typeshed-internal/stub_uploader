@@ -86,6 +86,7 @@ types-openssl-python
 types-opentracing
 types-orjson
 types-paramiko
+types-passpy
 types-pathlib2
 types-pkg_resources
 types-polib
