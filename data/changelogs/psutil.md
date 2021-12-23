@@ -1,3 +1,7 @@
+## 5.8.16 (2021-12-23)
+
+fix typing for psutil sconn (#6669)
+
 ## 5.8.15 (2021-11-23)
 
 Reduce use of deprecated `typing` aliases (#6358)
