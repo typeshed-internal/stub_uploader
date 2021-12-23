@@ -1,3 +1,7 @@
+## 8.3.10 (2021-12-23)
+
+Remove PIL.__main__ (#6665)
+
 ## 8.3.9 (2021-12-21)
 
 correct border= and fill= kwargs for ImageOps.expand (#6641)

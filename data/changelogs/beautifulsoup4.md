@@ -1,3 +1,7 @@
+## 4.10.6 (2021-12-23)
+
+Fix third-party issues found by stubtest (#6667)
+
 ## 4.10.5 (2021-11-23)
 
 Reduce use of deprecated `typing` aliases (#6358)

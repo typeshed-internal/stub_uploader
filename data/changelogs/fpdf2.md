@@ -1,3 +1,7 @@
+## 2.4.4 (2021-12-23)
+
+Fix third-party issues found by stubtest (#6667)
+
 ## 2.4.3 (2021-12-21)
 
 Add some missing attributes and types to FPDF (#6618)
