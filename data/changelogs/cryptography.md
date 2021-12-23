@@ -1,3 +1,7 @@
+## 3.3.10 (2021-12-23)
+
+Remove unused allowlist entries (#6671)
+
 ## 3.3.9 (2021-11-23)
 
 Reduce use of deprecated `typing` aliases (#6358)

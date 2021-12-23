@@ -1,3 +1,9 @@
+## 1.4.4 (2021-12-23)
+
+Add execution_options to Session.get() (#6656)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 1.4.3 (2021-12-23)
 
 Fix third-party issues found by stubtest (#6667)
