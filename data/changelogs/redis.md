@@ -1,3 +1,7 @@
+## 4.0.6 (2021-12-25)
+
+redis: Add stubs for lmove and blmove (#6586)
+
 ## 4.0.5 (2021-12-21)
 
 Fix Redis.zpopmin and zpopmax (#6642)
