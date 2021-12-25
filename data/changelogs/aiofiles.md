@@ -1,3 +1,9 @@
+## 0.7.1 (2021-12-25)
+
+Add a 'stubtest' flag to METADATA.toml (#6687)
+
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+
 ## 0.7.0 (2021-10-12)
 
 Update remaining versions for third-party stubs (#6094)

@@ -1,3 +1,9 @@
+## 7.44.2 (2021-12-25)
+
+Add a 'stubtest' flag to METADATA.toml (#6687)
+
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+
 ## 7.44.1 (2021-10-15)
 
 Use lowercase tuple where possible (#6170)
