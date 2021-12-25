@@ -1,3 +1,7 @@
+## 2.8.4 (2021-12-25)
+
+python-datetutil: WEEKDAYS and MONTHS can have arbitrary length tuples (#6689)
+
 ## 2.8.3 (2021-11-23)
 
 Add tz{utc,offset}.fromutc() (#6360)
