@@ -1,3 +1,7 @@
+## 0.7.2 (2021-12-26)
+
+Enable stubtest for aiofiles (#6698)
+
 ## 0.7.1 (2021-12-25)
 
 Add a 'stubtest' flag to METADATA.toml (#6687)

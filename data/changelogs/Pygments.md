@@ -1,3 +1,11 @@
+## 2.9.7 (2021-12-26)
+
+Annotate return type of pygments.plugin.iter_entry_points (#6697)
+
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+
+pygments: Annotate several generator functions (#6695)
+
 ## 2.9.6 (2021-12-21)
 
 pygments.formatters.get_all_formatters yields Formatters (#6636)
