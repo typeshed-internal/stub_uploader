@@ -1,3 +1,7 @@
+## 0.2.6 (2021-12-27)
+
+Replace METADATA stubtest key with stubtest_apt_packages (#6704)
+
 ## 0.2.5 (2021-12-25)
 
 Add a 'stubtest' flag to METADATA.toml (#6687)

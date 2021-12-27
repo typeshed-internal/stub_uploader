@@ -1,3 +1,7 @@
+## 2.9.8 (2021-12-27)
+
+Always alias `collections.abc.Set` (#6712)
+
 ## 2.9.7 (2021-12-26)
 
 Annotate return type of pygments.plugin.iter_entry_points (#6697)

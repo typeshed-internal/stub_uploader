@@ -1,3 +1,7 @@
+## 1.0.9 (2021-12-27)
+
+Always alias `collections.abc.Set` (#6712)
+
 ## 1.0.8 (2021-11-23)
 
 Reduce use of deprecated `typing` aliases (#6358)
