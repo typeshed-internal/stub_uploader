@@ -1,3 +1,10 @@
+## 4.1.0 (2021-12-27)
+
+Update redis stubs to 4.1 (#6711)
+
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## 4.0.6 (2021-12-25)
 
 redis: Add stubs for lmove and blmove (#6586)
