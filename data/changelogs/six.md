@@ -1,3 +1,7 @@
+## 1.16.5 (2021-12-27)
+
+Enable stubtest for six (#6699)
+
 ## 1.16.4 (2021-12-25)
 
 Add a 'stubtest' flag to METADATA.toml (#6687)
