@@ -1,3 +1,7 @@
+## 2.9.10 (2021-12-28)
+
+pygments: remove outdated TODOs (#6725)
+
 ## 2.9.9 (2021-12-28)
 
 Use PEP 585 syntax wherever possible (#6717)
