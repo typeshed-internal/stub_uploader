@@ -1,3 +1,7 @@
+## 1.1.6 (2021-12-28)
+
+Use PEP 585 syntax wherever possible (#6717)
+
 ## 1.1.5 (2021-10-15)
 
 Use lowercase tuple where possible (#6170)

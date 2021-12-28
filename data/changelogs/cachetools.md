@@ -1,3 +1,7 @@
+## 4.2.7 (2021-12-28)
+
+Use PEP 585 syntax wherever possible (#6717)
+
 ## 4.2.6 (2021-11-23)
 
 Reduce use of deprecated `typing` aliases (#6358)

@@ -1,3 +1,7 @@
+## 3.1.5 (2021-12-28)
+
+Use PEP 585 syntax wherever possible (#6717)
+
 ## 3.1.4 (2021-11-18)
 
 Revert "do not use mypy-specific syntax in '# type: ignore' comments" (#6338)

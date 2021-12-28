@@ -1,3 +1,7 @@
+## 2.59.3 (2021-12-28)
+
+Use PEP 585 syntax wherever possible (#6717)
+
 ## 2.59.2 (2021-12-21)
 
 add stripe.util.populate_headers (#6637)

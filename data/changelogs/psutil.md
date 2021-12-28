@@ -1,3 +1,7 @@
+## 5.8.17 (2021-12-28)
+
+Use PEP 585 syntax wherever possible (#6717)
+
 ## 5.8.16 (2021-12-23)
 
 fix typing for psutil sconn (#6669)

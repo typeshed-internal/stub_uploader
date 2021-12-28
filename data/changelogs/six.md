@@ -1,3 +1,7 @@
+## 1.16.6 (2021-12-28)
+
+Use PEP 585 syntax wherever possible (#6717)
+
 ## 1.16.5 (2021-12-27)
 
 Enable stubtest for six (#6699)

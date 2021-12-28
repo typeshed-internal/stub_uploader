@@ -1,3 +1,7 @@
+## 2.9.3 (2021-12-28)
+
+Use PEP 585 syntax wherever possible (#6717)
+
 ## 2.9.2 (2021-12-17)
 
 Use stubtest 0.920 (#6589)

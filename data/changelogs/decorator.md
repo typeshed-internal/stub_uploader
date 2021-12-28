@@ -1,3 +1,7 @@
+## 5.1.1 (2021-12-28)
+
+Use PEP 585 syntax wherever possible (#6717)
+
 ## 5.1.0 (2021-10-12)
 
 Update remaining versions for third-party stubs (#6094)

@@ -1,3 +1,7 @@
+## 2.9.5 (2021-12-28)
+
+Use PEP 585 syntax wherever possible (#6717)
+
 ## 2.9.4 (2021-12-02)
 
 Fix psycopg2 connection.cursor() stub (#6470)

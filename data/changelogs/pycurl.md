@@ -1,3 +1,7 @@
+## 7.44.4 (2021-12-28)
+
+Use PEP 585 syntax wherever possible (#6717)
+
 ## 7.44.3 (2021-12-27)
 
 Replace METADATA stubtest key with stubtest_apt_packages (#6704)

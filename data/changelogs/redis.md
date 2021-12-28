@@ -1,3 +1,9 @@
+## 4.1.1 (2021-12-28)
+
+redis: Restore type annotations of ping() and save() (#6720)
+
+Use PEP 585 syntax wherever possible (#6717)
+
 ## 4.1.0 (2021-12-27)
 
 Update redis stubs to 4.1 (#6711)

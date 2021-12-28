@@ -1,3 +1,7 @@
+## 8.3.11 (2021-12-28)
+
+Use PEP 585 syntax wherever possible (#6717)
+
 ## 8.3.10 (2021-12-23)
 
 Remove PIL.__main__ (#6665)

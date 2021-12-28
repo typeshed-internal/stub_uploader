@@ -1,3 +1,7 @@
+## 4.10.7 (2021-12-28)
+
+Use PEP 585 syntax wherever possible (#6717)
+
 ## 4.10.6 (2021-12-23)
 
 Fix third-party issues found by stubtest (#6667)

@@ -1,3 +1,7 @@
+## 0.7.3 (2021-12-28)
+
+Use PEP 585 syntax wherever possible (#6717)
+
 ## 0.7.2 (2021-12-26)
 
 Enable stubtest for aiofiles (#6698)

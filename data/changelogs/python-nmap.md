@@ -1,3 +1,7 @@
+## 0.6.4 (2021-12-28)
+
+Use PEP 585 syntax wherever possible (#6717)
+
 ## 0.6.3 (2021-11-26)
 
 Add mypy error codes to '# type: ignore' comments (#6379)

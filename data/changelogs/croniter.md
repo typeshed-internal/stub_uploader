@@ -1,3 +1,7 @@
+## 1.0.4 (2021-12-28)
+
+Use PEP 585 syntax wherever possible (#6717)
+
 ## 1.0.3 (2021-10-30)
 
 croniter: Add missing arguments and functions, add types (#6215)

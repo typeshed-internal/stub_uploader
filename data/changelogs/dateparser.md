@@ -1,3 +1,7 @@
+## 1.0.10 (2021-12-28)
+
+Use PEP 585 syntax wherever possible (#6717)
+
 ## 1.0.9 (2021-12-27)
 
 Always alias `collections.abc.Set` (#6712)
