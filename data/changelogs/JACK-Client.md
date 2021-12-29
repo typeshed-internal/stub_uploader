@@ -1,3 +1,7 @@
+## 0.5.2 (2021-12-29)
+
+Enable stubtest for jack (#6727)
+
 ## 0.5.1 (2021-10-15)
 
 Use lowercase tuple where possible (#6170)
