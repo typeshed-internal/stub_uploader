@@ -109,6 +109,7 @@ types-python-slugify
 types-pytz
 types-pyvmomi
 types-redis
+types-regex
 types-requests
 types-retry
 types-scribe
