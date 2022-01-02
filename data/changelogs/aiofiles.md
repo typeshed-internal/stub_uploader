@@ -1,3 +1,9 @@
+## 0.8.0 (2022-01-02)
+
+Add missing functions and keyword arguments to aiofiles.os (#6785)
+
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+
 ## 0.7.3 (2021-12-28)
 
 Use PEP 585 syntax wherever possible (#6717)
