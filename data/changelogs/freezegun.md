@@ -1,3 +1,7 @@
+## 1.1.4 (2022-01-02)
+
+Never explicitly inherit from `object` in Python 3-only stubs (#6777)
+
 ## 1.1.3 (2021-11-02)
 
 freezegun: Add as_kwarg argument (#6220)

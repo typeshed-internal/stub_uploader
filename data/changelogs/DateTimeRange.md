@@ -1,3 +1,7 @@
+## 1.2.1 (2022-01-02)
+
+Never explicitly inherit from `object` in Python 3-only stubs (#6777)
+
 ## 1.2.0 (2021-10-12)
 
 Update remaining versions for third-party stubs (#6094)

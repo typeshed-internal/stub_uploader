@@ -1,3 +1,7 @@
+## 5.1.2 (2022-01-02)
+
+Never explicitly inherit from `object` in Python 3-only stubs (#6777)
+
 ## 5.1.1 (2021-12-28)
 
 Use PEP 585 syntax wherever possible (#6717)
