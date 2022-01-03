@@ -58,7 +58,7 @@ setup(name=name,
       license="Apache-2.0 license",
       classifiers=[
           "License :: OSI Approved :: Apache Software License",
-          "Typing :: Typed",
+          "Typing :: Stubs Only",
       ]
 )
 """
