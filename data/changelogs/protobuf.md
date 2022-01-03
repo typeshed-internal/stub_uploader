@@ -1,3 +1,7 @@
+## 3.18.3 (2022-01-03)
+
+Add google.protobuf.internal.api_implementation (#6802)
+
 ## 3.18.2 (2021-11-27)
 
 Improve stubs for sequence types (#6386)
