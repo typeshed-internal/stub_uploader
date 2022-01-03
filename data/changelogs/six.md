@@ -1,3 +1,7 @@
+## 1.16.7 (2022-01-03)
+
+Add six.moves.copyreg six stubs (#6793)
+
 ## 1.16.6 (2021-12-28)
 
 Use PEP 585 syntax wherever possible (#6717)
