@@ -1,3 +1,9 @@
+## 9.0.0 (2022-01-05)
+
+Upgrade stubs to Pillow 9 (#6795)
+
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+
 ## 8.3.11 (2021-12-28)
 
 Use PEP 585 syntax wherever possible (#6717)
