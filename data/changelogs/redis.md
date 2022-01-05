@@ -1,3 +1,7 @@
+## 4.1.3 (2022-01-05)
+
+Remove several unused `TypeVar`s (#6829)
+
 ## 4.1.2 (2022-01-02)
 
 Never explicitly inherit from `object` in Python 3-only stubs (#6777)
