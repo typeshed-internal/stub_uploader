@@ -14,6 +14,6 @@ setup(
     install_requires=[],
     packages=[],
     classifiers=[
-        "Typing :: Typed",
+        "Typing :: Stubs Only",
     ],
 )
