@@ -1,3 +1,10 @@
+## 9.0.2 (2022-01-07)
+
+Pillow: Image fixes (#6848)
+
+* Fix return type of `Image.transform()`.
+* Add animation attributes to `Image`.
+
 ## 9.0.0 (2022-01-05)
 
 Upgrade stubs to Pillow 9 (#6795)

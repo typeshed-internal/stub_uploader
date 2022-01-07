@@ -1,3 +1,7 @@
+## 2.27.2 (2022-01-07)
+
+Update pyright (#6840)
+
 ## 2.27.0 (2022-01-07)
 
 requests: Add JSONDecodeError (#6838)

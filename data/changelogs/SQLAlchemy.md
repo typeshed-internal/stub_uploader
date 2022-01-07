@@ -1,3 +1,7 @@
+## 1.4.6 (2022-01-07)
+
+Update pyright (#6840)
+
 ## 1.4.4 (2021-12-23)
 
 Add execution_options to Session.get() (#6656)

@@ -1,3 +1,7 @@
+## 4.0.7 (2022-01-07)
+
+Update pyright (#6840)
+
 ## 4.0.5 (2021-12-25)
 
 Fixes for third-party mock package (#6685)

@@ -1,3 +1,9 @@
+## 2.9.5 (2022-01-07)
+
+Update pyright (#6840)
+
+Improve Babel dates stub (#6730)
+
 ## 2.9.3 (2021-12-28)
 
 Use PEP 585 syntax wherever possible (#6717)

@@ -1,3 +1,7 @@
+## 4.10.9 (2022-01-07)
+
+Update pyright (#6840)
+
 ## 4.10.7 (2021-12-28)
 
 Use PEP 585 syntax wherever possible (#6717)
