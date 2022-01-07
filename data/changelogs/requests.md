@@ -1,3 +1,7 @@
+## 2.27.0 (2022-01-07)
+
+requests: Add JSONDecodeError (#6838)
+
 ## 2.26.3 (2021-12-28)
 
 Use PEP 585 syntax wherever possible (#6717)
