@@ -55,8 +55,8 @@ specifies version `X.Y`, this will check what is the latest uploaded minor versi
 [This action](https://github.com/typeshed-internal/stub_uploader/actions?query=workflow%3A%22Force+update+of+some+stubs+from+typeshed+to+PyPI%22)
 can be run to manually force upload new version of some packages. When you click on "Run workflow",
 you will need to select the name of distribution to upload. This can be a Python regexp, for example,
-`six` will only upload the `six` package, `"(typing-extensions|mypy-extensions)"` will upload both packages,
-and entering `".*"` will select all packages (quotes are needed since these are passed as arguments in bash).
+`six` will only upload the `six` package, `(typing-extensions|mypy-extensions)` will upload both packages,
+and entering `.*` will select all packages.
 Note that this action also sorts packages in the dependency order, but it doesn't update the typeshed commit. It may update
 [list of uploaded packages](https://github.com/typeshed-internal/stub_uploader/blob/main/data/uploaded_packages.txt)
 if this is the first time the package is uploaded.
