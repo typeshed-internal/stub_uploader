@@ -130,6 +130,7 @@ types-typed-ast
 types-typing-extensions
 types-tzlocal
 types-ujson
+types-urllib3
 types-vobject
 types-waitress
 types-xxhash
