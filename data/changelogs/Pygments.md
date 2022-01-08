@@ -1,3 +1,9 @@
+## 2.9.13 (2022-01-08)
+
+Pygments: make Formatter generic and improve format/highlight (#6819)
+
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+
 ## 2.9.12 (2022-01-08)
 
 Use lowercase `type` everywhere (#6853)
