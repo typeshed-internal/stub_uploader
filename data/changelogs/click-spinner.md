@@ -1,3 +1,7 @@
+## 0.1.9 (2022-01-08)
+
+Use lowercase `type` everywhere (#6853)
+
 ## 0.1.7 (2021-12-17)
 
 Always import Protocol from typing in stubs (#6617)

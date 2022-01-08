@@ -1,3 +1,7 @@
+## 1.16.9 (2022-01-08)
+
+Use lowercase `type` everywhere (#6853)
+
 ## 1.16.7 (2022-01-03)
 
 Add six.moves.copyreg six stubs (#6793)

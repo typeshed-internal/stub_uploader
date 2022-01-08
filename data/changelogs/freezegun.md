@@ -1,3 +1,7 @@
+## 1.1.6 (2022-01-08)
+
+Use lowercase `type` everywhere (#6853)
+
 ## 1.1.4 (2022-01-02)
 
 Never explicitly inherit from `object` in Python 3-only stubs (#6777)

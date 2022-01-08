@@ -1,3 +1,7 @@
+## 2.0.3 (2022-01-08)
+
+Use lowercase `type` everywhere (#6853)
+
 ## 2.0.1 (2021-10-15)
 
 Use lowercase tuple where possible (#6170)

@@ -1,3 +1,7 @@
+## 4.10.10 (2022-01-08)
+
+Use lowercase `type` everywhere (#6853)
+
 ## 4.10.9 (2022-01-07)
 
 Update pyright (#6840)

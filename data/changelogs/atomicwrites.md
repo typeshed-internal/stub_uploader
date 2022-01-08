@@ -1,3 +1,7 @@
+## 1.4.3 (2022-01-08)
+
+Use lowercase `type` everywhere (#6853)
+
 ## 1.4.1 (2021-10-12)
 
 Add star to all non-0.1 versions (#6146)

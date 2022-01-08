@@ -1,3 +1,7 @@
+## 2.4.6 (2022-01-08)
+
+Use lowercase `type` everywhere (#6853)
+
 ## 2.4.4 (2021-12-10)
 
 Add missing context proptery to MockSpan (#6549)

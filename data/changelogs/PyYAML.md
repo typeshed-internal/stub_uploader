@@ -1,3 +1,7 @@
+## 6.0.3 (2022-01-08)
+
+Use lowercase `type` everywhere (#6853)
+
 ## 6.0.1 (2021-11-12)
 
 Add more type hints for pyyaml (#6265)

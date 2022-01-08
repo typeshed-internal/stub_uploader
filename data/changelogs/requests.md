@@ -1,3 +1,9 @@
+## 2.27.3 (2022-01-08)
+
+Use lowercase `type` everywhere (#6853)
+
+Use types-urllib3 for requests (#6859)
+
 ## 2.27.2 (2022-01-07)
 
 Update pyright (#6840)
