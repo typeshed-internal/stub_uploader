@@ -1,3 +1,11 @@
+## 4.1.6 (2022-01-09)
+
+put redis.client._ScoreCastFuncReturn back (#6876)
+
+#6829 removed it as unused but #6790 added a usage.
+
+Minor improvements to redis stubs for scan and zset methods (#6790)
+
 ## 4.1.5 (2022-01-08)
 
 Use lowercase `type` everywhere (#6853)
