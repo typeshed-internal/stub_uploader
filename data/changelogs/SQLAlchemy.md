@@ -1,3 +1,7 @@
+## 1.4.8 (2022-01-09)
+
+Further annotate sqlalchemy.engine and collections (#6680)
+
 ## 1.4.7 (2022-01-08)
 
 Use lowercase `type` everywhere (#6853)
