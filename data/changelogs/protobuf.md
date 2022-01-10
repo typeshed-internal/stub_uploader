@@ -1,3 +1,7 @@
+## 3.19.0 (2022-01-10)
+
+Bump protobuf to 3.19.2 (#6879)
+
 ## 3.18.3 (2022-01-03)
 
 Add google.protobuf.internal.api_implementation (#6802)
