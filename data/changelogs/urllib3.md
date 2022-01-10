@@ -1,3 +1,7 @@
+## 1.26.3 (2022-01-10)
+
+Fix urllib3.util.Retry.sleep type (#6883)
+
 ## 1.26.2 (2022-01-09)
 
 Annotate urllib3.exceptions (#6865)
