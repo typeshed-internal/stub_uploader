@@ -89,6 +89,7 @@ types-paramiko
 types-passpy
 types-pathlib2
 types-pkg_resources
+types-playsound
 types-polib
 types-prettytable
 types-protobuf
