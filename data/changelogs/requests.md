@@ -1,3 +1,7 @@
+## 2.27.4 (2022-01-10)
+
+Remove unused `requests` allowlist entry (#6882)
+
 ## 2.27.3 (2022-01-08)
 
 Use lowercase `type` everywhere (#6853)
