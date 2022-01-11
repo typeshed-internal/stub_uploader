@@ -1,3 +1,9 @@
+## 1.26.4 (2022-01-11)
+
+urllib3: add "__version__" (#6890)
+
+Co-authored-by: Shantanu <12621235+hauntsaninja@users.noreply.github.com>
+
 ## 1.26.3 (2022-01-10)
 
 Fix urllib3.util.Retry.sleep type (#6883)
