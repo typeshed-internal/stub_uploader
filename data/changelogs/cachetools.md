@@ -1,3 +1,7 @@
+## 4.2.9 (2022-01-12)
+
+Fix cachetools maxsize argument types (#6901)
+
 ## 4.2.7 (2021-12-28)
 
 Use PEP 585 syntax wherever possible (#6717)
