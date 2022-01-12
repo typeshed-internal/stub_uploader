@@ -1,3 +1,7 @@
+## 1.26.5 (2022-01-12)
+
+Update types in urllib3.util.retry (#6892)
+
 ## 1.26.4 (2022-01-11)
 
 urllib3: add "__version__" (#6890)

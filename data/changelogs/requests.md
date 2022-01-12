@@ -1,3 +1,7 @@
+## 2.27.6 (2022-01-12)
+
+requests: Remove an unused allowlist entry (#6897)
+
 ## 2.27.5 (2022-01-10)
 
 Always use `_typeshed.Self`, where applicable (#6880)
