@@ -1,3 +1,7 @@
+## 1.26.7 (2022-01-13)
+
+urllib3: allow allowed_methods to be False (#6909)
+
 ## 1.26.5 (2022-01-12)
 
 Update types in urllib3.util.retry (#6892)
