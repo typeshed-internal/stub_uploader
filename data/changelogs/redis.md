@@ -1,3 +1,7 @@
+## 4.1.8 (2022-01-13)
+
+Annotate command kwargs arguments (#6721)
+
 ## 4.1.7 (2022-01-10)
 
 Always use `_typeshed.Self`, where applicable (#6880)
