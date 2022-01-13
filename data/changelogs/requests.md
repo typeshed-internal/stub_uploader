@@ -1,3 +1,7 @@
+## 2.27.7 (2022-01-13)
+
+requests: remove an unused allowlist entry (#6911)
+
 ## 2.27.6 (2022-01-12)
 
 requests: Remove an unused allowlist entry (#6897)
