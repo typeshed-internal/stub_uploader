@@ -1,3 +1,7 @@
+## 4.1.0 (2022-01-14)
+
+Add get_localzone_name to tzlocal (#6912)
+
 ## 3.0.0 (2021-10-12)
 
 Update remaining versions for third-party stubs (#6094)
