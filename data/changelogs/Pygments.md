@@ -1,3 +1,7 @@
+## 2.9.14 (2022-01-15)
+
+pygments: delete _TokenType.__init__ (#6918)
+
 ## 2.9.13 (2022-01-08)
 
 Pygments: make Formatter generic and improve format/highlight (#6819)
