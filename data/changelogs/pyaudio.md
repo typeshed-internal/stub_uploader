@@ -1,3 +1,7 @@
+## 0.2.9 (2022-01-16)
+
+remove "= ..." from top-level values (#6930)
+
 ## 0.2.7 (2021-12-28)
 
 Use PEP 585 syntax wherever possible (#6717)

@@ -1,3 +1,9 @@
+## 4.3.2 (2022-01-16)
+
+Cleanup: do not quote types unnecessarily (#6931)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## 4.3.0 (2021-12-17)
 
 Add `jsonschema.protocols` to library stubs (#6614)

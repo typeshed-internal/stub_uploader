@@ -1,3 +1,7 @@
+## 2.8.10 (2022-01-16)
+
+remove "= ..." from top-level values (#6930)
+
 ## 2.8.9 (2022-01-10)
 
 Always use `_typeshed.Self`, where applicable (#6880)

@@ -1,3 +1,7 @@
+## 3.3.13 (2022-01-16)
+
+remove "= ..." from top-level values (#6930)
+
 ## 3.3.12 (2022-01-08)
 
 Use lowercase `type` everywhere (#6853)
