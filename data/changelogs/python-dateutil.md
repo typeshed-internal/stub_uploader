@@ -1,3 +1,7 @@
+## 2.8.7 (2022-01-17)
+
+Use `_typeshed.Self` in Python 2, too (#6932)
+
 ## 2.8.6 (2022-01-10)
 
 Always use `_typeshed.Self`, where applicable (#6880)

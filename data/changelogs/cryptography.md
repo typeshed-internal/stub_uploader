@@ -1,3 +1,7 @@
+## 3.3.14 (2022-01-17)
+
+remove quoted strings (#6933)
+
 ## 3.3.13 (2022-01-16)
 
 remove "= ..." from top-level values (#6930)

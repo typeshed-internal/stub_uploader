@@ -1,3 +1,7 @@
+## 1.1.9 (2022-01-17)
+
+remove quoted strings (#6933)
+
 ## 1.1.8 (2022-01-08)
 
 Use lowercase `type` everywhere (#6853)
