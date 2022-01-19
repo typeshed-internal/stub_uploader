@@ -1,3 +1,13 @@
+## 4.1.9 (2022-01-19)
+
+Revert "Temporarily fix redis version to 4.1.0" (#6957)
+
+This reverts commit 7d2de33bba2808e98b3caa46904418ad9a1b07f5.
+
+Temporarily fix redis version to 4.1.0 (#6952)
+
+Quick fix for #6951
+
 ## 4.1.8 (2022-01-13)
 
 Annotate command kwargs arguments (#6721)

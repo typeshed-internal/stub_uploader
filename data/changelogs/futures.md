@@ -1,3 +1,7 @@
+## 3.3.7 (2022-01-19)
+
+Use PEP 585 syntax in Python 2, `protobuf` & `_ast` stubs, where possible (#6949)
+
 ## 3.3.3 (2022-01-17)
 
 Use `_typeshed.Self` in Python 2, too (#6932)

@@ -1,3 +1,7 @@
+## 1.16.10 (2022-01-19)
+
+Use PEP 585 syntax in Python 2, `protobuf` & `_ast` stubs, where possible (#6949)
+
 ## 1.16.9 (2022-01-08)
 
 Use lowercase `type` everywhere (#6853)

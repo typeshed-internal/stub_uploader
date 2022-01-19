@@ -1,3 +1,11 @@
+## 1.4.11 (2022-01-19)
+
+Use PEP 585 syntax in `@python2/_ast`, convert more `TypeVar`s to `_typeshed.Self`, & `# noqa` a `SQLAlchemy` line (#6954)
+
+* Manual fixes for `_ast` and `SQLAlchemy`
+
+* Change more `TypeVar`s to `Self`, using script
+
 ## 1.4.9 (2022-01-10)
 
 Always use `_typeshed.Self`, where applicable (#6880)

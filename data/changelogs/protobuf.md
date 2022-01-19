@@ -1,3 +1,17 @@
+## 3.19.4 (2022-01-19)
+
+Use `_typeshed.Self` in `protobuf/google/protobuf/message.pyi` (#6955)
+
+Use PEP 585 syntax in Python 2, `protobuf` & `_ast` stubs, where possible (#6949)
+
+Flatten stubtest_allowlist for protobuf generated files (#6944)
+
+I added stubtest testing for generated files within mypy-protobuf.
+There are many ways in which the protobuf code is doing *weird*
+things and we want the stubs to look a bit different. They're enumerated
+in the `stubtest_allowlist.txt` of mypy-protobuf, so squashing them here
+so that this one can focus on the non-generated files.
+
 ## 3.19.0 (2022-01-10)
 
 Bump protobuf to 3.19.2 (#6879)
