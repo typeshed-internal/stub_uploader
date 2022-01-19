@@ -1,3 +1,9 @@
+## 4.1.10 (2022-01-19)
+
+Update redis stubs to 4.1.1 (#6960)
+
+Closes: #6951
+
 ## 4.1.9 (2022-01-19)
 
 Revert "Temporarily fix redis version to 4.1.0" (#6957)
