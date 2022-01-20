@@ -1,3 +1,7 @@
+## 1.4.12 (2022-01-20)
+
+Update SQLAlchemy stubs for 1.4.30 (#6973)
+
 ## 1.4.11 (2022-01-19)
 
 Use PEP 585 syntax in `@python2/_ast`, convert more `TypeVar`s to `_typeshed.Self`, & `# noqa` a `SQLAlchemy` line (#6954)
