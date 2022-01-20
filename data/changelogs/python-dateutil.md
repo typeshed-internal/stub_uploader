@@ -1,3 +1,7 @@
+## 2.8.8 (2022-01-20)
+
+Remove nearly all `__str__` and `__repr__` methods from typeshed (#6968)
+
 ## 2.8.7 (2022-01-17)
 
 Use `_typeshed.Self` in Python 2, too (#6932)

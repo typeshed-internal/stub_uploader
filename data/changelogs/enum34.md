@@ -1,3 +1,7 @@
+## 1.1.8 (2022-01-20)
+
+Remove nearly all `__str__` and `__repr__` methods from typeshed (#6968)
+
 ## 1.1.7 (2022-01-19)
 
 Use PEP 585 syntax in `@python2/_ast`, convert more `TypeVar`s to `_typeshed.Self`, & `# noqa` a `SQLAlchemy` line (#6954)

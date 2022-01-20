@@ -1,3 +1,7 @@
+## 0.4.7 (2022-01-20)
+
+Remove nearly all `__str__` and `__repr__` methods from typeshed (#6968)
+
 ## 0.4.5 (2021-12-28)
 
 Use PEP 585 syntax wherever possible (#6717)

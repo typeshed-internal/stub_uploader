@@ -1,3 +1,7 @@
+## 3.19.5 (2022-01-20)
+
+Remove nearly all `__str__` and `__repr__` methods from typeshed (#6968)
+
 ## 3.19.4 (2022-01-19)
 
 Use `_typeshed.Self` in `protobuf/google/protobuf/message.pyi` (#6955)

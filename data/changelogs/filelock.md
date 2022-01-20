@@ -1,3 +1,7 @@
+## 3.2.5 (2022-01-20)
+
+Remove nearly all `__str__` and `__repr__` methods from typeshed (#6968)
+
 ## 3.2.4 (2022-01-10)
 
 Always use `_typeshed.Self`, where applicable (#6880)

@@ -1,3 +1,7 @@
+## 3.1.3 (2022-01-20)
+
+Remove nearly all `__str__` and `__repr__` methods from typeshed (#6968)
+
 ## 3.1.1 (2021-10-12)
 
 Add star to all non-0.1 versions (#6146)
