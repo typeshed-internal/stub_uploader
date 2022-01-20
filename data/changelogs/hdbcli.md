@@ -1,3 +1,7 @@
+## 2.10.5 (2022-01-20)
+
+Use the Literal["foo", "bar"] syntax consistently (#6984)
+
 ## 2.10.4 (2022-01-08)
 
 Use lowercase `type` everywhere (#6853)
