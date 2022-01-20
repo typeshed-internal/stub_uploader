@@ -1,6 +1,7 @@
 types-DateTimeRange
 types-Deprecated
 types-Flask
+types-Flask-SQLAlchemy
 types-JACK-Client
 types-Jinja2
 types-Markdown
