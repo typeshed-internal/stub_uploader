@@ -1,3 +1,9 @@
+## 2.9.15 (2022-01-22)
+
+fix incorrect tuple[T] (#6996)
+
+Found from PyCQA/flake8-pyi#135.
+
 ## 2.9.14 (2022-01-15)
 
 pygments: delete _TokenType.__init__ (#6918)

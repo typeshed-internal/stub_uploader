@@ -1,3 +1,9 @@
+## 9.0.5 (2022-01-22)
+
+fix incorrect tuple[T] (#6996)
+
+Found from PyCQA/flake8-pyi#135.
+
 ## 9.0.4 (2022-01-10)
 
 Always use `_typeshed.Self`, where applicable (#6880)

@@ -1,3 +1,9 @@
+## 1.0.13 (2022-01-22)
+
+fix incorrect tuple[T] (#6996)
+
+Found from PyCQA/flake8-pyi#135.
+
 ## 1.0.12 (2022-01-08)
 
 Use lowercase `type` everywhere (#6853)
