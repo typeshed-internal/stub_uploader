@@ -70,6 +70,7 @@ types-hdbcli
 types-html5lib
 types-httplib2
 types-humanfriendly
+types-invoke
 types-ipaddress
 types-itsdangerous
 types-jmespath
