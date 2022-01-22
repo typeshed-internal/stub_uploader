@@ -1,3 +1,7 @@
+## 1.4.13 (2022-01-22)
+
+Update SQLAlchemy stubs for 1.4.31 (#6990)
+
 ## 1.4.12 (2022-01-20)
 
 Update SQLAlchemy stubs for 1.4.30 (#6973)

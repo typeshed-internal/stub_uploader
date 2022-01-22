@@ -1,3 +1,9 @@
+## 0.5.4 (2022-01-22)
+
+Add missing context manager stub for JACK Client (#6982)
+
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+
 ## 0.5.2 (2021-12-29)
 
 Enable stubtest for jack (#6727)
