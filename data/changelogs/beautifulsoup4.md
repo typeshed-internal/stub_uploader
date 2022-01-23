@@ -1,3 +1,7 @@
+## 4.10.11 (2022-01-23)
+
+bs4: Expose bs4.SoupStrainer and bs4.Tag (#7002)
+
 ## 4.10.10 (2022-01-08)
 
 Use lowercase `type` everywhere (#6853)
