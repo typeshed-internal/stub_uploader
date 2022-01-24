@@ -1,3 +1,7 @@
+## 4.4.0 (2022-01-24)
+
+Annotate parts of jsonschema.validators and URIDict (#7025)
+
 ## 4.3.2 (2022-01-16)
 
 Cleanup: do not quote types unnecessarily (#6931)
