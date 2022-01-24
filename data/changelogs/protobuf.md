@@ -1,3 +1,7 @@
+## 3.19.6 (2022-01-24)
+
+Bump to mypy-protobuf 3.2.0 (#7013)
+
 ## 3.19.5 (2022-01-20)
 
 Remove nearly all `__str__` and `__repr__` methods from typeshed (#6968)
