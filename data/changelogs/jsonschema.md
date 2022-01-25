@@ -1,3 +1,9 @@
+## 4.4.1 (2022-01-25)
+
+Treat validators as classes (#7035)
+
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+
 ## 4.4.0 (2022-01-24)
 
 Annotate parts of jsonschema.validators and URIDict (#7025)
