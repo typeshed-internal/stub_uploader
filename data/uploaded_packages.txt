@@ -59,6 +59,7 @@ types-flake8-bugbear
 types-flake8-builtins
 types-flake8-docstrings
 types-flake8-plugin-utils
+types-flake8-rst-docstrings
 types-flake8-simplify
 types-flake8-typing-imports
 types-fpdf2
@@ -91,6 +92,7 @@ types-orjson
 types-paramiko
 types-passpy
 types-pathlib2
+types-pep8-naming
 types-pkg_resources
 types-playsound
 types-polib
