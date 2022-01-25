@@ -1,3 +1,9 @@
+## 0.4.13 (2022-01-25)
+
+Improve trait signature in mypy_extensions.pyi (#7027)
+
+Co-authored-by: Mehdi Drissi <mdrissi@snapchat.com>
+
 ## 0.4.12 (2022-01-10)
 
 Always use `_typeshed.Self`, where applicable (#6880)
