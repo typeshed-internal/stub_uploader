@@ -1,3 +1,9 @@
+## 5.1.4 (2022-01-27)
+
+Add `ParamSpec` to `decorator.contextmanager` (#7051)
+
+There may be other places in this package where `ParamSpec` could be used, but this one is the most clear-cut.
+
 ## 5.1.2 (2022-01-02)
 
 Never explicitly inherit from `object` in Python 3-only stubs (#6777)

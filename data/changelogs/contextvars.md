@@ -1,3 +1,9 @@
+## 2.4.2 (2022-01-27)
+
+Improve `contextvars.Context` (#7052)
+
+Similar changes to the ones @sobolevn made in #6942
+
 ## 2.4.0 (2021-10-12)
 
 Update remaining versions for third-party stubs (#6094)
