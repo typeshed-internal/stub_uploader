@@ -1,3 +1,7 @@
+## 1.0.13 (2022-01-28)
+
+Add __enter__/__exit__ to pymysql.Connection (#7069)
+
 ## 1.0.11 (2022-01-10)
 
 Always use `_typeshed.Self`, where applicable (#6880)
