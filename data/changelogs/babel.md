@@ -1,3 +1,7 @@
+## 2.9.6 (2022-01-28)
+
+Add babel.core.get_global (#7063)
+
 ## 2.9.5 (2022-01-07)
 
 Update pyright (#6840)
