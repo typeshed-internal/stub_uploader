@@ -1,3 +1,7 @@
+## 3.1.4 (2022-01-28)
+
+Do not use `True` or `False` as default values in assignments (#7060)
+
 ## 3.1.3 (2022-01-20)
 
 Remove nearly all `__str__` and `__repr__` methods from typeshed (#6968)
