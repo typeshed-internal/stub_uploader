@@ -1,3 +1,7 @@
+## 4.1.11 (2022-01-28)
+
+Update redis stubs for 4.1.2 (#7064)
+
 ## 4.1.10 (2022-01-19)
 
 Update redis stubs to 4.1.1 (#6960)
