@@ -21,7 +21,7 @@ from typing import Any, Optional, cast
 import requests
 import toml
 from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry  # type: ignore[import]
+from urllib3.util.retry import Retry
 
 from scripts.const import *
 
