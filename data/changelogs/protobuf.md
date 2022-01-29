@@ -1,3 +1,15 @@
+## 3.19.7 (2022-01-29)
+
+Use relax_strict_optional_primitives on protobuf generated code (#7038)
+
+Per the suggestion in https://github.com/dropbox/mypy-protobuf/issues/344
+This generates more permissive constructors (which protobuf itself actually
+accepts).
+
+Philosophically, I think it makes sense for the generated code hosted on
+typeshed to be most permissive, while the generated code of individual
+projects can make individual decisions (defaulting to less permissive).
+
 ## 3.19.6 (2022-01-24)
 
 Bump to mypy-protobuf 3.2.0 (#7013)
