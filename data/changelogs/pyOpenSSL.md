@@ -1,3 +1,7 @@
+## 22.0.0 (2022-01-30)
+
+pyOpenSSL: Adapt to changes in 22.0.0 (#7080)
+
 ## 21.0.2 (2021-12-28)
 
 Use PEP 585 syntax wherever possible (#6717)

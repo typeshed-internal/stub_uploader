@@ -1,3 +1,9 @@
+## 57.4.8 (2022-01-30)
+
+Reduce use of `Any` in equality methods (#7081)
+
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+
 ## 57.4.7 (2022-01-08)
 
 Use lowercase `type` everywhere (#6853)

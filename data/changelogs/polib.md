@@ -1,3 +1,9 @@
+## 1.1.10 (2022-01-30)
+
+Reduce use of `Any` in equality methods (#7081)
+
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+
 ## 1.1.9 (2022-01-17)
 
 remove quoted strings (#6933)

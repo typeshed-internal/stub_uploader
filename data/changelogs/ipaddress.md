@@ -1,3 +1,9 @@
+## 1.0.8 (2022-01-30)
+
+Reduce use of `Any` in equality methods (#7081)
+
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+
 ## 1.0.7 (2022-01-19)
 
 Use PEP 585 syntax in Python 2, `protobuf` & `_ast` stubs, where possible (#6949)
