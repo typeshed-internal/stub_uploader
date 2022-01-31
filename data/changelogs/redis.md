@@ -1,3 +1,7 @@
+## 4.1.12 (2022-01-31)
+
+Upgrade black version (#7089)
+
 ## 4.1.11 (2022-01-28)
 
 Update redis stubs for 4.1.2 (#7064)

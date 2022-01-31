@@ -1,3 +1,7 @@
+## 1.26.8 (2022-01-31)
+
+Upgrade black version (#7089)
+
 ## 1.26.7 (2022-01-13)
 
 urllib3: allow allowed_methods to be False (#6909)

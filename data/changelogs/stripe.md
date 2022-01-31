@@ -1,3 +1,7 @@
+## 2.59.5 (2022-01-31)
+
+Upgrade black version (#7089)
+
 ## 2.59.3 (2021-12-28)
 
 Use PEP 585 syntax wherever possible (#6717)

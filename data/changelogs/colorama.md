@@ -1,3 +1,7 @@
+## 0.4.8 (2022-01-31)
+
+Upgrade black version (#7089)
+
 ## 0.4.7 (2022-01-20)
 
 Remove nearly all `__str__` and `__repr__` methods from typeshed (#6968)

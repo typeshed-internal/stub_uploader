@@ -1,3 +1,7 @@
+## 1.4.14 (2022-01-31)
+
+Upgrade black version (#7089)
+
 ## 1.4.13 (2022-01-22)
 
 Update SQLAlchemy stubs for 1.4.31 (#6990)

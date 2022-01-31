@@ -1,3 +1,7 @@
+## 0.4.14 (2022-01-31)
+
+Upgrade black version (#7089)
+
 ## 0.4.13 (2022-01-25)
 
 Improve trait signature in mypy_extensions.pyi (#7027)

@@ -1,3 +1,7 @@
+## 2.9.5 (2022-01-31)
+
+Upgrade black version (#7089)
+
 ## 2.9.4 (2022-01-10)
 
 Always use `_typeshed.Self`, where applicable (#6880)

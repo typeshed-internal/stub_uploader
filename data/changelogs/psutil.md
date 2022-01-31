@@ -1,3 +1,7 @@
+## 5.8.20 (2022-01-31)
+
+Upgrade black version (#7089)
+
 ## 5.8.19 (2022-01-10)
 
 Always use `_typeshed.Self`, where applicable (#6880)

@@ -1,3 +1,7 @@
+## 2.8.11 (2022-01-31)
+
+Upgrade black version (#7089)
+
 ## 2.8.10 (2022-01-16)
 
 remove "= ..." from top-level values (#6930)
