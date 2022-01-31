@@ -1,3 +1,7 @@
+## 4.1.13 (2022-01-31)
+
+Redis: Annotate .pttl(), .dump(), and .getdel() (#7091)
+
 ## 4.1.12 (2022-01-31)
 
 Upgrade black version (#7089)
