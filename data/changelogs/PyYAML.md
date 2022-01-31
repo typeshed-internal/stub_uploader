@@ -1,3 +1,7 @@
+## 6.0.4 (2022-01-31)
+
+Replace IO with protocols (#7092)
+
 ## 6.0.3 (2022-01-08)
 
 Use lowercase `type` everywhere (#6853)

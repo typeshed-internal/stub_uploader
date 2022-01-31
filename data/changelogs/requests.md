@@ -1,3 +1,7 @@
+## 2.27.8 (2022-01-31)
+
+requests.Session: Accept hooks and lists of hooks (#7094)
+
 ## 2.27.7 (2022-01-13)
 
 requests: remove an unused allowlist entry (#6911)
