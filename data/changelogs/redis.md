@@ -1,3 +1,7 @@
+## 4.1.14 (2022-02-02)
+
+Redis: Annotate .lolwut() (#7104)
+
 ## 4.1.13 (2022-01-31)
 
 Redis: Annotate .pttl(), .dump(), and .getdel() (#7091)

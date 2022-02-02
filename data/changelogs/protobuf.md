@@ -1,3 +1,7 @@
+## 3.19.8 (2022-02-02)
+
+Add/fix types to a bunch of non-generated protobuf files (#7017)
+
 ## 3.19.7 (2022-01-29)
 
 Use relax_strict_optional_primitives on protobuf generated code (#7038)
