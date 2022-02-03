@@ -1,3 +1,7 @@
+## 1.26.9 (2022-02-03)
+
+Improve `__enter__` & constructor methods (#7114)
+
 ## 1.26.8 (2022-01-31)
 
 Upgrade black version (#7089)

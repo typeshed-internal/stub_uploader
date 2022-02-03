@@ -1,3 +1,7 @@
+## 9.0.6 (2022-02-03)
+
+Improve `__enter__` & constructor methods (#7114)
+
 ## 9.0.5 (2022-01-22)
 
 fix incorrect tuple[T] (#6996)

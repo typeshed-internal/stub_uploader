@@ -1,3 +1,7 @@
+## 0.17.5 (2022-02-03)
+
+Use `_typeshed.Self` in `docutils.VersionInfo` and `os.sched_param` (#7117)
+
 ## 0.17.4 (2022-01-08)
 
 Use lowercase `type` everywhere (#6853)

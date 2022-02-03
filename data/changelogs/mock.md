@@ -1,3 +1,7 @@
+## 4.0.10 (2022-02-03)
+
+Improve `__enter__` & constructor methods (#7114)
+
 ## 4.0.9 (2022-01-30)
 
 Reduce use of `Any` in equality methods (#7081)

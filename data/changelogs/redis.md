@@ -1,3 +1,7 @@
+## 4.1.15 (2022-02-03)
+
+Improve `__enter__` & constructor methods (#7114)
+
 ## 4.1.14 (2022-02-02)
 
 Redis: Annotate .lolwut() (#7104)

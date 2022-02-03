@@ -1,3 +1,15 @@
+## 1.9.3 (2022-02-03)
+
+Fix mistyped `get_by_id` class methods (#7120)
+
+The types for these class methods were mixed up. The async method
+returned an optional `Model`, while the synchronous method returned a
+`Future`. It's the other way around.
+
+Fixes #7103
+
+Improve `__enter__` & constructor methods (#7114)
+
 ## 1.9.2 (2022-01-08)
 
 Use lowercase `type` everywhere (#6853)

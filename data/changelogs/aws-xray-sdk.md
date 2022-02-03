@@ -1,3 +1,7 @@
+## 2.8.4 (2022-02-03)
+
+Improve `__enter__` & constructor methods (#7114)
+
 ## 2.8.2 (2021-10-12)
 
 Add star to all non-0.1 versions (#6146)

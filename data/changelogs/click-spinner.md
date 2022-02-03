@@ -1,3 +1,7 @@
+## 0.1.10 (2022-02-03)
+
+Improve `__enter__` & constructor methods (#7114)
+
 ## 0.1.9 (2022-01-08)
 
 Use lowercase `type` everywhere (#6853)

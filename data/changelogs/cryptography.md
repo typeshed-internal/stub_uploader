@@ -1,3 +1,7 @@
+## 3.3.15 (2022-02-03)
+
+Improve `__enter__` & constructor methods (#7114)
+
 ## 3.3.14 (2022-01-17)
 
 remove quoted strings (#6933)

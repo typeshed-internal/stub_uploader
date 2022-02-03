@@ -1,3 +1,7 @@
+## 2.8.12 (2022-02-03)
+
+Improve classmethods in `paramiko` stubs (#7113)
+
 ## 2.8.11 (2022-01-31)
 
 Upgrade black version (#7089)
