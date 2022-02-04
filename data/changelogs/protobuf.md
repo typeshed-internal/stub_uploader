@@ -1,3 +1,9 @@
+## 3.19.9 (2022-02-04)
+
+Makes `DESCRIPTOR` non nullable again (#7125)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 3.19.8 (2022-02-02)
 
 Add/fix types to a bunch of non-generated protobuf files (#7017)
