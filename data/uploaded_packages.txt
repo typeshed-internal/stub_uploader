@@ -35,6 +35,7 @@ types-caldav
 types-certifi
 types-characteristic
 types-chardet
+types-chevron
 types-click
 types-click-spinner
 types-colorama
