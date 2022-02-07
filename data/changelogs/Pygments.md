@@ -1,3 +1,7 @@
+## 2.9.16 (2022-02-07)
+
+Improve a bunch of `__(deep)copy__` methods (#7148)
+
 ## 2.9.15 (2022-01-22)
 
 fix incorrect tuple[T] (#6996)

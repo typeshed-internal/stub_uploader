@@ -1,3 +1,7 @@
+## 2.59.6 (2022-02-07)
+
+Improve a bunch of `__(deep)copy__` methods (#7148)
+
 ## 2.59.5 (2022-01-31)
 
 Upgrade black version (#7089)

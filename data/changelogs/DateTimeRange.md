@@ -1,3 +1,7 @@
+## 1.2.3 (2022-02-07)
+
+Improve some in-place BinOp methods (#7149)
+
 ## 1.2.1 (2022-01-02)
 
 Never explicitly inherit from `object` in Python 3-only stubs (#6777)

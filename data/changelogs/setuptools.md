@@ -1,3 +1,7 @@
+## 57.4.9 (2022-02-07)
+
+Improve some in-place BinOp methods (#7149)
+
 ## 57.4.8 (2022-01-30)
 
 Reduce use of `Any` in equality methods (#7081)

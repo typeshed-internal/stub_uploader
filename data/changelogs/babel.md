@@ -1,3 +1,7 @@
+## 2.9.7 (2022-02-07)
+
+Improve a bunch of `__(deep)copy__` methods (#7148)
+
 ## 2.9.6 (2022-01-28)
 
 Add babel.core.get_global (#7063)

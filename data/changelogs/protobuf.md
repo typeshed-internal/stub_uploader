@@ -1,3 +1,7 @@
+## 3.19.10 (2022-02-07)
+
+Improve a bunch of `__(deep)copy__` methods (#7148)
+
 ## 3.19.9 (2022-02-04)
 
 Makes `DESCRIPTOR` non nullable again (#7125)
