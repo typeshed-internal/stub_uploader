@@ -1,3 +1,7 @@
+## 2.8.13 (2022-02-08)
+
+Improve `sock` typing in Paramiko stub (#7156)
+
 ## 2.8.12 (2022-02-03)
 
 Improve classmethods in `paramiko` stubs (#7113)

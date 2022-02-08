@@ -1,3 +1,7 @@
+## 3.19.11 (2022-02-08)
+
+protobuf: Bring back Message.Extensions (#7154)
+
 ## 3.19.10 (2022-02-07)
 
 Improve a bunch of `__(deep)copy__` methods (#7148)
