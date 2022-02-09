@@ -1,3 +1,9 @@
+## 2.27.9 (2022-02-09)
+
+Added missing import for JSONDecodeError (#7171)
+
+Co-authored-by: DataGhost <git@dataghost.com>
+
 ## 2.27.8 (2022-01-31)
 
 requests.Session: Accept hooks and lists of hooks (#7094)
