@@ -1,3 +1,7 @@
+## 2.4.7 (2022-02-10)
+
+fpdf2: Correct annotations of @contextmanager methods (#7172)
+
 ## 2.4.5 (2021-12-28)
 
 Use PEP 585 syntax wherever possible (#6717)
