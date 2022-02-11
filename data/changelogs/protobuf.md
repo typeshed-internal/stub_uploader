@@ -1,3 +1,9 @@
+## 3.19.12 (2022-02-11)
+
+protobuf doesn't support Python 2 anymore (#7176)
+
+Remove Python-2-only package "futures"
+
 ## 3.19.11 (2022-02-08)
 
 protobuf: Bring back Message.Extensions (#7154)
