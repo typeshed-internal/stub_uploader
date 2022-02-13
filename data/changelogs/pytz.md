@@ -1,3 +1,14 @@
+## 2021.3.5 (2022-02-13)
+
+Fix argument types of pytz.tzinfo.StaticTzInfo (#7184)
+
+The argument is_dst of the functions StaticTzInfo.localize and
+StaticTzInfo.normalize are ignored, and only present for compatibility with
+DstTzInfo. The functions in DstTzInfo also accepts None, so for compatibility,
+StaticTzInfo should accept them as well.
+
+[^1] https://github.com/stub42/pytz/blob/2ed682a7c4079042f50975970fc4f503c8450058/src/pytz/tzinfo.py#L112
+
 ## 2021.3.3 (2021-12-14)
 
 Add abstract methods to BaseTzInfo (#6579)
