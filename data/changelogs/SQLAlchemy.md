@@ -1,3 +1,7 @@
+## 1.4.15 (2022-02-16)
+
+Various SQLalchemy fixes and improvements (#7237)
+
 ## 1.4.14 (2022-01-31)
 
 Upgrade black version (#7089)
