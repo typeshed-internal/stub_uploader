@@ -1,3 +1,7 @@
+## 2.9.8 (2022-02-16)
+
+Remove unused allowlist entries in `babel` and `requests` (#7233)
+
 ## 2.9.7 (2022-02-07)
 
 Improve a bunch of `__(deep)copy__` methods (#7148)

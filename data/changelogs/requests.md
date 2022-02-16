@@ -1,3 +1,7 @@
+## 2.27.10 (2022-02-16)
+
+Remove unused allowlist entries in `babel` and `requests` (#7233)
+
 ## 2.27.9 (2022-02-09)
 
 Added missing import for JSONDecodeError (#7171)
