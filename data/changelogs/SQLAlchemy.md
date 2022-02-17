@@ -1,3 +1,13 @@
+## 1.4.17 (2022-02-17)
+
+Annotate Session.execute() and Result (#7252)
+
+* Annotate return type of Session.execute()
+
+* Annotate Result return types
+
+* Remove sub-class overrides with identical signatures
+
 ## 1.4.16 (2022-02-17)
 
 Various SQLalchemy type improvements (#7238)
