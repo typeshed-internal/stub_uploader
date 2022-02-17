@@ -1,3 +1,11 @@
+## 1.4.16 (2022-02-17)
+
+Various SQLalchemy type improvements (#7238)
+
+* Make ColumnOperators and ColumnElement generic
+* Overload Session.query() return type
+* Annotate ColumnOperators methods
+
 ## 1.4.15 (2022-02-16)
 
 Various SQLalchemy fixes and improvements (#7237)
