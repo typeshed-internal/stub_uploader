@@ -1,3 +1,9 @@
+## 4.1.16 (2022-02-17)
+
+Update to redis 4.1.4 (#7247)
+
+Closes: #7245
+
 ## 4.1.15 (2022-02-03)
 
 Improve `__enter__` & constructor methods (#7114)
