@@ -1,3 +1,7 @@
+## 4.10.12 (2022-02-18)
+
+Tag.attrs is a dict, instead of an immutable Mapping (#7253)
+
 ## 4.10.11 (2022-01-23)
 
 bs4: Expose bs4.SoupStrainer and bs4.Tag (#7002)
