@@ -1,3 +1,9 @@
+## 3.0.2 (2022-02-20)
+
+flask-cors: remove unused allowlist (#7309)
+
+Co-authored-by: hauntsaninja <>
+
 ## 3.0.1 (2022-01-22)
 
 Use class-based syntax for `TypedDict` in `Flask-Cors/flask_cors/core.pyi` (#6995)
