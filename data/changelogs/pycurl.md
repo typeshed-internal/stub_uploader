@@ -1,3 +1,7 @@
+## 7.44.7 (2022-02-21)
+
+contextvars, pycurl: make classes final (#7334)
+
 ## 7.44.5 (2022-01-02)
 
 Never explicitly inherit from `object` in Python 3-only stubs (#6777)

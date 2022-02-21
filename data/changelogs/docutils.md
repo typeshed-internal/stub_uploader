@@ -1,3 +1,7 @@
+## 0.17.6 (2022-02-21)
+
+Improve docutils stubs (#7256)
+
 ## 0.17.5 (2022-02-03)
 
 Use `_typeshed.Self` in `docutils.VersionInfo` and `os.sched_param` (#7117)

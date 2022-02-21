@@ -1,3 +1,7 @@
+## 2.4.3 (2022-02-21)
+
+contextvars, pycurl: make classes final (#7334)
+
 ## 2.4.2 (2022-01-27)
 
 Improve `contextvars.Context` (#7052)
