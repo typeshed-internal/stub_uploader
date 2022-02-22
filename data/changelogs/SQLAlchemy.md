@@ -1,3 +1,15 @@
+## 1.4.18 (2022-02-22)
+
+Re-introduce the 'stubtest' key for third-party packages (#7351)
+
+Some distributions can't be tested with stubtest for a variety of
+reasons or because of bugs in stubtest. This key:
+
+* let's us keep metadata about a distribution in one place,
+* prevents us from modifying the scripts because of issues with a
+  specific distribution, and
+* will trigger tests if only the key is changed.
+
 ## 1.4.17 (2022-02-17)
 
 Annotate Session.execute() and Result (#7252)

@@ -1,3 +1,7 @@
+## 2.4.4 (2022-02-22)
+
+Correct several positional-only differences in third-party stubs (#7352)
+
 ## 2.4.3 (2022-02-21)
 
 contextvars, pycurl: make classes final (#7334)

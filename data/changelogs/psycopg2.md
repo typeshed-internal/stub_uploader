@@ -1,3 +1,7 @@
+## 2.9.7 (2022-02-22)
+
+Correct several positional-only differences in third-party stubs (#7352)
+
 ## 2.9.5 (2021-12-28)
 
 Use PEP 585 syntax wherever possible (#6717)

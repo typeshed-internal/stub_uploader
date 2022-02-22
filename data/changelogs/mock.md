@@ -1,3 +1,7 @@
+## 4.0.11 (2022-02-22)
+
+Correct several positional-only differences in third-party stubs (#7352)
+
 ## 4.0.10 (2022-02-03)
 
 Improve `__enter__` & constructor methods (#7114)

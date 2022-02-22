@@ -1,3 +1,7 @@
+## 2.0.6 (2022-02-22)
+
+Correct several positional-only differences in third-party stubs (#7352)
+
 ## 2.0.5 (2022-01-20)
 
 Remove nearly all `__str__` and `__repr__` methods from typeshed (#6968)

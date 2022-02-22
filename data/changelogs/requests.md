@@ -1,3 +1,7 @@
+## 2.27.11 (2022-02-22)
+
+Correct several positional-only differences in third-party stubs (#7352)
+
 ## 2.27.10 (2022-02-16)
 
 Remove unused allowlist entries in `babel` and `requests` (#7233)
