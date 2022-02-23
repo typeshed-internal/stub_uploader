@@ -1,3 +1,7 @@
+## 2021.11.10.3 (2022-02-23)
+
+regex stubs: Add __getitem__ method to Match (#7372)
+
 ## 2021.11.10.2 (2022-01-07)
 
 Update pyright (#6840)

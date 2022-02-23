@@ -1,3 +1,7 @@
+## 1.1.0 (2022-02-23)
+
+Update dateparser stubs for 1.1 (#7368)
+
 ## 1.0.14 (2022-02-03)
 
 Improve `__enter__` & constructor methods (#7114)
