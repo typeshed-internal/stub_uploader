@@ -1,3 +1,7 @@
+## 4.1.17 (2022-02-23)
+
+Re-export RedisCluster from redis (#7371)
+
 ## 4.1.16 (2022-02-17)
 
 Update to redis 4.1.4 (#7247)
