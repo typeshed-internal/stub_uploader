@@ -108,6 +108,7 @@ types-pycurl
 types-pyfarmhash
 types-pyflakes
 types-pymssql
+types-pynput
 types-pysftp
 types-pytest-lazy-fixture
 types-python-dateutil
