@@ -1,3 +1,7 @@
+## 0.17.7 (2022-02-24)
+
+docutils: Add missing dunders to nodes.Element (#7377)
+
 ## 0.17.6 (2022-02-21)
 
 Improve docutils stubs (#7256)
