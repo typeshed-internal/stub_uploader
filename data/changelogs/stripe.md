@@ -1,3 +1,7 @@
+## 2.59.7 (2022-02-25)
+
+Improve annotation for stripe DeletableAPIResource delete method (#7230)
+
 ## 2.59.6 (2022-02-07)
 
 Improve a bunch of `__(deep)copy__` methods (#7148)
