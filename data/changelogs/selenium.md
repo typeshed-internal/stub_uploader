@@ -1,3 +1,7 @@
+## 3.141.8 (2022-02-25)
+
+Mark selenium stubs as obsolete (#7383)
+
 ## 3.141.6 (2021-12-21)
 
 Fix return type of find_elements* (#6645)
