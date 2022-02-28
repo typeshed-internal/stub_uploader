@@ -1,3 +1,7 @@
+## 0.18.0 (2022-02-28)
+
+docutils: complete nodes.Node & bump version to 0.18.* (#7380)
+
 ## 0.17.7 (2022-02-24)
 
 docutils: Add missing dunders to nodes.Element (#7377)

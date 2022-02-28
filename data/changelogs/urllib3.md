@@ -1,3 +1,7 @@
+## 1.26.10 (2022-02-28)
+
+Add DEFAULT_CIPHERS to urllib3.util.ssl_ (#7399)
+
 ## 1.26.9 (2022-02-03)
 
 Improve `__enter__` & constructor methods (#7114)
