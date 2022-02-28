@@ -1,3 +1,7 @@
+## 2.59.8 (2022-02-28)
+
+Add stripe.util.convert_to_stripe_object (#7386)
+
 ## 2.59.7 (2022-02-25)
 
 Improve annotation for stripe DeletableAPIResource delete method (#7230)
