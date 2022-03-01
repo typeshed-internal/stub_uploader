@@ -1,3 +1,9 @@
+## 1.16.11 (2022-03-01)
+
+Add six.create_bound_method dunders to allowlist (#7409)
+
+Closes: #7404
+
 ## 1.16.10 (2022-01-19)
 
 Use PEP 585 syntax in Python 2, `protobuf` & `_ast` stubs, where possible (#6949)
