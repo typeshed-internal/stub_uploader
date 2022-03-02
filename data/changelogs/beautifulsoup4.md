@@ -1,3 +1,14 @@
+## 4.10.14 (2022-03-02)
+
+bs4: expose several other classes (#7420)
+
+On the same lines as #7419
+
+These are all imports that are not used within bs4/__init__.py
+My main interest here is in exposing NavigableString
+
+Co-authored-by: hauntsaninja <>
+
 ## 4.10.13 (2022-03-02)
 
 bs4: expose bs4.PageElement (#7419)
