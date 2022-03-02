@@ -1,3 +1,13 @@
+## 4.10.13 (2022-03-02)
+
+bs4: expose bs4.PageElement (#7419)
+
+This is generally useful. It's also imported in the source without being
+used in bs4/__init__.py which in well maintained packages is a pretty
+good marker of intention to export
+
+Co-authored-by: hauntsaninja <>
+
 ## 4.10.12 (2022-02-18)
 
 Tag.attrs is a dict, instead of an immutable Mapping (#7253)
