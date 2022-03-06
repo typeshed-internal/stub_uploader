@@ -1,3 +1,7 @@
+## 3.141.9 (2022-03-06)
+
+Upgrade to stubtest with dunder pos only reverted (#7442)
+
 ## 3.141.8 (2022-02-25)
 
 Mark selenium stubs as obsolete (#7383)

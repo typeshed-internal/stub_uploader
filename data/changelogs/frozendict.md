@@ -1,3 +1,7 @@
+## 2.0.7 (2022-03-06)
+
+Upgrade to stubtest with dunder pos only reverted (#7442)
+
 ## 2.0.6 (2022-02-22)
 
 Correct several positional-only differences in third-party stubs (#7352)

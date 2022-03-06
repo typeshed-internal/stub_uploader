@@ -1,3 +1,7 @@
+## 2.9.7 (2022-03-06)
+
+Upgrade to stubtest with dunder pos only reverted (#7442)
+
 ## 2.9.6 (2022-02-02)
 
 Add iterable and ServerPool types to ldap3 Connection.server parameter  (#7101)
