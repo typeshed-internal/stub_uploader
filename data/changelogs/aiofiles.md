@@ -1,3 +1,27 @@
+## 0.8.4 (2022-03-07)
+
+Improve open overloads when mode is a literal union (#7428)
+
+As pointed out by @gvanrossum in https://github.com/python/typing/issues/1096
+
+Improves type inference in cases when we know that mode is
+OpenBinaryMode, but don't know anything more specific:
+```
+def my_open(name: str, write: bool):
+    mode: Literal['rb', 'wb'] = 'wb' if write else 'rb'
+    with open(name, mode) as f:
+        reveal_type(f)  # previously typing.IO[Any], now typing.BinaryIO
+```
+
+You may be tempted into thinking this is some limitation of type
+checkers. mypy does in fact have logic for detecting if we match
+multiple overloads and union-ing up the return types of matched
+overloads. The problem is the last overload interferes with this logic.
+That is, if you remove the fallback overload (prior to this PR), you'd get
+"Union[io.BufferedReader, io.BufferedWriter]" in the above example.
+
+Co-authored-by: hauntsaninja <>
+
 ## 0.8.3 (2022-01-13)
 
 Add stubs for aiofiles.os.path (#6787)
