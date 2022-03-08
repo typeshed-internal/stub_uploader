@@ -1,3 +1,7 @@
+## 57.4.10 (2022-03-08)
+
+Widen the `cmdclass` parameter of `setuptools.setup` (#7458)
+
 ## 57.4.9 (2022-02-07)
 
 Improve some in-place BinOp methods (#7149)
