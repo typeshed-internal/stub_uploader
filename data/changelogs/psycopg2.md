@@ -1,3 +1,7 @@
+## 2.9.8 (2022-03-08)
+
+psycopg2: Annotate cursor execute* and dunder methods (#7460)
+
 ## 2.9.7 (2022-02-22)
 
 Correct several positional-only differences in third-party stubs (#7352)
