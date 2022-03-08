@@ -1,3 +1,10 @@
+## 5.0.0 (2022-03-08)
+
+Update cachetools to 5.0.0 (#7455)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## 4.2.10 (2022-03-06)
 
 Upgrade to stubtest with dunder pos only reverted (#7442)
