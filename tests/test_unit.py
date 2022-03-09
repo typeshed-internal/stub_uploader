@@ -81,20 +81,17 @@ def test_sort_by_dependency() -> None:
         "2",
         "1",
     ]
-    assert (
-        sort_by_dependency(
-            {
-                "1": {"2", "3"},
-                "2": {"2a", "2b"},
-                "3": {"3a", "3b"},
-                "2a": set(),
-                "2b": set(),
-                "3a": set(),
-                "3b": set(),
-            }
-        )
-        == ["2a", "2b", "2", "3a", "3b", "3", "1"]
-    )
+    assert sort_by_dependency(
+        {
+            "1": {"2", "3"},
+            "2": {"2a", "2b"},
+            "3": {"3a", "3b"},
+            "2a": set(),
+            "2b": set(),
+            "3a": set(),
+            "3b": set(),
+        }
+    ) == ["2a", "2b", "2", "3a", "3b", "3", "1"]
 
 
 def test_collect_setup_entries() -> None:
