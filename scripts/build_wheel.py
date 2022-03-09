@@ -315,7 +315,7 @@ def generate_setup_file(
         ),
         version=version,
         requires=metadata.get("requires", []),
-        packages=package_data.keys(),
+        packages=list(package_data.keys()),
         package_data=package_data,
     )
 
