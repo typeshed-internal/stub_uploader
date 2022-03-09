@@ -1,3 +1,9 @@
+## 2.8.14 (2022-03-09)
+
+Remove Python 2 support from some third-party distributions (#7466)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 2.8.13 (2022-02-08)
 
 Improve `sock` typing in Paramiko stub (#7156)

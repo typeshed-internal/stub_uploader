@@ -1,3 +1,9 @@
+## 7.0.5 (2022-03-09)
+
+Remove Python 2 support from some third-party distributions (#7466)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 7.0.4 (2022-01-31)
 
 Upgrade black version (#7089)

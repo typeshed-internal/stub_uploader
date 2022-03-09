@@ -1,3 +1,9 @@
+## 0.2.10 (2022-03-09)
+
+Remove Python 2 support from some third-party distributions (#7466)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 0.2.9 (2022-01-16)
 
 Cleanup: do not quote types unnecessarily (#6931)

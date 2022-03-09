@@ -1,3 +1,9 @@
+## 2.49.8 (2022-03-09)
+
+Remove Python 2 support from some third-party distributions (#7466)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 2.49.7 (2022-01-30)
 
 Reduce use of `Any` in equality methods (#7081)

@@ -1,3 +1,9 @@
+## 1.16.12 (2022-03-09)
+
+Remove Python 2 support from some third-party distributions (#7466)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 1.16.11 (2022-03-01)
 
 Add six.create_bound_method dunders to allowlist (#7409)

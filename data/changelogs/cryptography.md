@@ -1,3 +1,9 @@
+## 3.3.16 (2022-03-09)
+
+Remove Python 2 support from some third-party distributions (#7466)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 3.3.15 (2022-02-03)
 
 Improve `__enter__` & constructor methods (#7114)
