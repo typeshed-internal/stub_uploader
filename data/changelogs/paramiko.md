@@ -1,3 +1,7 @@
+## 2.8.15 (2022-03-09)
+
+Remove explicit inheritance from object (#7468)
+
 ## 2.8.14 (2022-03-09)
 
 Remove Python 2 support from some third-party distributions (#7466)
