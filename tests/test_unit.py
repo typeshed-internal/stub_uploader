@@ -133,16 +133,6 @@ def test_collect_setup_entries() -> None:
     )
 
 
-def test_build_data() -> None:
-    typeshed = os.path.join("data", "test_typeshed")
-    singlefilepkg_bd = BuildData(typeshed, "singlefilepkg")
-    assert singlefilepkg_bd.py3_stubs
-    assert not singlefilepkg_bd.py2_stubs
-    nspkg_bd = BuildData(typeshed, "nspkg")
-    assert nspkg_bd.py3_stubs
-    assert not nspkg_bd.py2_stubs
-
-
 def test_collect_setup_entries_bogusfile() -> None:
     stubs = os.path.join("data", "test_typeshed", "stubs")
     with pytest.raises(ValueError, match="Only stub files are allowed: bogusfile.txt"):
