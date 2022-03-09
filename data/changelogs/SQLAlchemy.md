@@ -1,3 +1,7 @@
+## 1.4.19 (2022-03-09)
+
+Re-enable stubtest on SQLAlchemy (#7456)
+
 ## 1.4.18 (2022-02-22)
 
 Re-introduce the 'stubtest' key for third-party packages (#7351)
