@@ -1,3 +1,9 @@
+## 2.49.9 (2022-03-10)
+
+Modernize syntax in various stubs (#7469)
+
+Use `str` and `contextlib.AbstractContextManager` instead of `typing.Text` and `typing.ContextManager`.
+
 ## 2.49.8 (2022-03-09)
 
 Remove Python 2 support from some third-party distributions (#7466)

@@ -1,3 +1,9 @@
+## 2.8.16 (2022-03-10)
+
+Modernize syntax in various stubs (#7469)
+
+Use `str` and `contextlib.AbstractContextManager` instead of `typing.Text` and `typing.ContextManager`.
+
 ## 2.8.15 (2022-03-09)
 
 Remove explicit inheritance from object (#7468)
