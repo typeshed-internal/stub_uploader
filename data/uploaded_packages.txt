@@ -144,4 +144,5 @@ types-ujson
 types-urllib3
 types-vobject
 types-waitress
+types-xmltodict
 types-xxhash
