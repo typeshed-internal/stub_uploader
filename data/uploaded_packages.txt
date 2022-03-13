@@ -92,6 +92,7 @@ types-openssl-python
 types-opentracing
 types-orjson
 types-paramiko
+types-parsimonious
 types-passlib
 types-passpy
 types-pathlib2
