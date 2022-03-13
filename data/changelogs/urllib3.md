@@ -1,3 +1,9 @@
+## 1.26.11 (2022-03-13)
+
+urllib3: stubs are not Python 2 compatible (#7480)
+
+They use http.client, which is Python 3-only. Another catch from #7478.
+
 ## 1.26.10 (2022-02-28)
 
 Add DEFAULT_CIPHERS to urllib3.util.ssl_ (#7399)
