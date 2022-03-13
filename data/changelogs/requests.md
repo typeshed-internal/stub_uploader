@@ -1,3 +1,7 @@
+## 2.27.12 (2022-03-13)
+
+`requests` stubs are not Python 2-compatible (#7483)
+
 ## 2.27.11 (2022-02-22)
 
 Correct several positional-only differences in third-party stubs (#7352)
