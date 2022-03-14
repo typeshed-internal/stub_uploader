@@ -1,3 +1,7 @@
+## 1.4.20 (2022-03-14)
+
+sqlalchemy: Annotate `(Async)Session.__(a)enter__` (#7488)
+
 ## 1.4.19 (2022-03-09)
 
 Re-enable stubtest on SQLAlchemy (#7456)
