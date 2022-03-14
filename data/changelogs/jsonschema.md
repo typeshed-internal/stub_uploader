@@ -1,3 +1,9 @@
+## 4.4.2 (2022-03-14)
+
+jsonschema: mark schemas as Mapping[str, Any] (#7489)
+
+jsonschema: `RefResolver.referrer` is a `dict[str, Any]` (#7487)
+
 ## 4.4.1 (2022-01-25)
 
 Treat validators as classes (#7035)
