@@ -1,3 +1,7 @@
+## 2.9.17 (2022-03-16)
+
+Use PEP 604 syntax wherever possible (#7493)
+
 ## 2.9.16 (2022-02-07)
 
 Improve a bunch of `__(deep)copy__` methods (#7148)

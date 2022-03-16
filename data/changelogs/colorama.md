@@ -1,3 +1,7 @@
+## 0.4.9 (2022-03-16)
+
+Use PEP 604 syntax wherever possible (#7493)
+
 ## 0.4.8 (2022-01-31)
 
 Upgrade black version (#7089)

@@ -1,3 +1,7 @@
+## 4.1.18 (2022-03-16)
+
+Use PEP 604 syntax wherever possible (#7493)
+
 ## 4.1.17 (2022-02-23)
 
 Re-export RedisCluster from redis (#7371)

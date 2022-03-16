@@ -1,3 +1,7 @@
+## 4.1.5 (2022-03-16)
+
+Use PEP 604 syntax wherever possible (#7493)
+
 ## 4.1.3 (2022-01-02)
 
 Never explicitly inherit from `object` in Python 3-only stubs (#6777)

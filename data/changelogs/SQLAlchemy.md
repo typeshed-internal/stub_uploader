@@ -1,3 +1,13 @@
+## 1.4.21 (2022-03-16)
+
+Use pyright 1.1.230 in CI, temporarily pin pyright-action to 1.0.4 (#7495)
+
+* Upgrade pyright to 1.1.230
+* Add `type: ignore`s for new pyright checks regarding multiple inheritance
+* Temporarily pin pyright-action to 1.0.4, as changes made in 1.0.5 break typeshed's CI
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 1.4.20 (2022-03-14)
 
 sqlalchemy: Annotate `(Async)Session.__(a)enter__` (#7488)

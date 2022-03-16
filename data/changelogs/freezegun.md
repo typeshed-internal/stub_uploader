@@ -1,3 +1,7 @@
+## 1.1.7 (2022-03-16)
+
+Use PEP 604 syntax wherever possible (#7493)
+
 ## 1.1.6 (2022-01-08)
 
 Use lowercase `type` everywhere (#6853)

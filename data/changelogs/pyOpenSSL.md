@@ -1,3 +1,7 @@
+## 22.0.1 (2022-03-16)
+
+Use PEP 604 syntax wherever possible (#7493)
+
 ## 22.0.0 (2022-01-30)
 
 pyOpenSSL: Adapt to changes in 22.0.0 (#7080)

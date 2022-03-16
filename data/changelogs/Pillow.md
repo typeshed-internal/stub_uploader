@@ -1,3 +1,7 @@
+## 9.0.7 (2022-03-16)
+
+Use PEP 604 syntax wherever possible (#7493)
+
 ## 9.0.6 (2022-02-03)
 
 Improve `__enter__` & constructor methods (#7114)

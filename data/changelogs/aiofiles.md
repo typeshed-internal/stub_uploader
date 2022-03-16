@@ -1,3 +1,7 @@
+## 0.8.5 (2022-03-16)
+
+Use PEP 604 syntax wherever possible (#7493)
+
 ## 0.8.4 (2022-03-07)
 
 Improve open overloads when mode is a literal union (#7428)

@@ -1,3 +1,7 @@
+## 0.2.10 (2022-03-16)
+
+Use PEP 604 syntax wherever possible (#7493)
+
 ## 0.2.9 (2022-01-16)
 
 remove "= ..." from top-level values (#6930)

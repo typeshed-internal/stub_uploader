@@ -1,3 +1,7 @@
+## 2.27.13 (2022-03-16)
+
+Use PEP 604 syntax wherever possible (#7493)
+
 ## 2.27.12 (2022-03-13)
 
 `requests` stubs are not Python 2-compatible (#7483)

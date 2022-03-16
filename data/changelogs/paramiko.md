@@ -1,3 +1,7 @@
+## 2.8.17 (2022-03-16)
+
+Use PEP 604 syntax wherever possible (#7493)
+
 ## 2.8.16 (2022-03-10)
 
 Modernize syntax in various stubs (#7469)

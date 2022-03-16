@@ -1,3 +1,7 @@
+## 57.4.11 (2022-03-16)
+
+Use PEP 604 syntax wherever possible (#7493)
+
 ## 57.4.10 (2022-03-08)
 
 Widen the `cmdclass` parameter of `setuptools.setup` (#7458)

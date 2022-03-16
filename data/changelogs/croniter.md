@@ -1,3 +1,7 @@
+## 1.0.8 (2022-03-16)
+
+Use PEP 604 syntax wherever possible (#7493)
+
 ## 1.0.7 (2022-01-10)
 
 Always use `_typeshed.Self`, where applicable (#6880)

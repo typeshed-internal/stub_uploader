@@ -1,3 +1,7 @@
+## 4.10.15 (2022-03-16)
+
+Use PEP 604 syntax wherever possible (#7493)
+
 ## 4.10.14 (2022-03-02)
 
 bs4: expose several other classes (#7420)

@@ -1,3 +1,7 @@
+## 1.0.14 (2022-03-16)
+
+Use PEP 604 syntax wherever possible (#7493)
+
 ## 1.0.13 (2022-01-28)
 
 Add __enter__/__exit__ to pymysql.Connection (#7069)
