@@ -1,3 +1,10 @@
+## 1.4.22 (2022-03-16)
+
+pyright: Don't report incompatible overrides (#7498)
+
+These overrides are inherited from the implementation and are out of
+typeshed's control.
+
 ## 1.4.21 (2022-03-16)
 
 Use pyright 1.1.230 in CI, temporarily pin pyright-action to 1.0.4 (#7495)
