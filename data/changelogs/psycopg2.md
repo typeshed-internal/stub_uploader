@@ -1,3 +1,13 @@
+## 2.9.9 (2022-03-16)
+
+psycopg2: Accept Composable in place of query string (#7494)
+
+https://www.psycopg.org/docs/sql.html#psycopg2.sql.Composable
+“Composable objects can be passed directly to execute(),
+executemany(), copy_expert() in place of the query string.”
+
+Signed-off-by: Anders Kaseorg <andersk@mit.edu>
+
 ## 2.9.8 (2022-03-08)
 
 psycopg2: Annotate cursor execute* and dunder methods (#7460)
