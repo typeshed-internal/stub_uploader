@@ -1,3 +1,7 @@
+## 1.6.3 (2022-03-17)
+
+Add annotations to invoke.tasks (#7502)
+
 ## 1.6.2 (2022-02-07)
 
 Improve a bunch of `__(deep)copy__` methods (#7148)
