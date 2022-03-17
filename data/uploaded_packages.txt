@@ -145,5 +145,6 @@ types-ujson
 types-urllib3
 types-vobject
 types-waitress
+types-whatthepatch
 types-xmltodict
 types-xxhash
