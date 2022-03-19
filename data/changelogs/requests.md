@@ -1,3 +1,15 @@
+## 2.27.14 (2022-03-19)
+
+PEP 604: Remove some more uses of Union/Optional (#7515)
+
+The following patterns still break mypy:
+
+1. `type[]` at top level fails
+2. `tuple[T1, T2]` at top level fails (but `tuple[T1, ...]` is fine)
+3. `T1 | Callable[..., T2 | T3]` fails, but only <=3.9
+
+This PR cleans up usage of `Union` and `Optional` outside these patterns.
+
 ## 2.27.13 (2022-03-16)
 
 Use PEP 604 syntax wherever possible (#7493)
