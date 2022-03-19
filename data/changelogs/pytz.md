@@ -1,3 +1,7 @@
+## 2021.3.6 (2022-03-19)
+
+pytz: utcoffset only returns None if dt is None (#7510)
+
 ## 2021.3.5 (2022-02-13)
 
 Fix argument types of pytz.tzinfo.StaticTzInfo (#7184)
