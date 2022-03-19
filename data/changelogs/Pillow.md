@@ -1,3 +1,9 @@
+## 9.0.8 (2022-03-19)
+
+Use PEP 604 syntax wherever possible, part II (#7514)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 9.0.7 (2022-03-16)
 
 Use PEP 604 syntax wherever possible (#7493)

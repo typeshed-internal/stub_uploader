@@ -1,3 +1,9 @@
+## 3.0.3 (2022-03-19)
+
+Add mypy error codes to `type: ignore`s, remove unused ignores (#7504)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 3.0.2 (2022-02-20)
 
 flask-cors: remove unused allowlist (#7309)

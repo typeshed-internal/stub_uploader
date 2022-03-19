@@ -1,3 +1,9 @@
+## 2.9.9 (2022-03-19)
+
+Add mypy error codes to `type: ignore`s, remove unused ignores (#7504)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 2.9.8 (2022-02-16)
 
 Remove unused allowlist entries in `babel` and `requests` (#7233)

@@ -1,3 +1,9 @@
+## 1.4.23 (2022-03-19)
+
+Add mypy error codes to `type: ignore`s, remove unused ignores (#7504)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 1.4.22 (2022-03-16)
 
 pyright: Don't report incompatible overrides (#7498)

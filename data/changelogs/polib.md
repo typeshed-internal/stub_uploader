@@ -1,3 +1,9 @@
+## 1.1.11 (2022-03-19)
+
+Add mypy error codes to `type: ignore`s, remove unused ignores (#7504)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 1.1.10 (2022-01-30)
 
 Reduce use of `Any` in equality methods (#7081)

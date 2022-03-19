@@ -1,3 +1,9 @@
+## 2.49.10 (2022-03-19)
+
+Add mypy error codes to `type: ignore`s, remove unused ignores (#7504)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 2.49.9 (2022-03-10)
 
 Modernize syntax in various stubs (#7469)

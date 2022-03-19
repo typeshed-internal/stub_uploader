@@ -1,3 +1,9 @@
+## 1.7.3 (2022-03-19)
+
+Add mypy error codes to `type: ignore`s, remove unused ignores (#7504)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 1.7.2 (2022-03-14)
 
 passlib: Annotate pbkdf2_sha* (#7486)
