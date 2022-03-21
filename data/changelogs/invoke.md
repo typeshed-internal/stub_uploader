@@ -1,3 +1,9 @@
+## 1.6.4 (2022-03-21)
+
+Fix invoke task decorator (#7511)
+
+The decorator can be called with and without (). The current types only consider the first case
+
 ## 1.6.3 (2022-03-17)
 
 Add annotations to invoke.tasks (#7502)
