@@ -1,3 +1,9 @@
+## 3.19.15 (2022-03-21)
+
+Revert "Remove google/__init__.pyi (#6106)" (#7522)
+
+This reverts commit a11a6643a7599c352ae11ac1b08dc5f3d71b106c.
+
 ## 3.19.14 (2022-03-21)
 
 Remove google/__init__.pyi (#6106)
