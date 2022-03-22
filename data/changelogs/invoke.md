@@ -1,3 +1,11 @@
+## 1.6.5 (2022-03-22)
+
+Mark pre/post tasks in invoke tasks as iterable (#7531)
+
+Fix wrong return type of invoke decorator (#7536)
+
+Closes #7530
+
 ## 1.6.4 (2022-03-21)
 
 Fix invoke task decorator (#7511)
