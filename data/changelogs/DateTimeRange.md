@@ -1,3 +1,7 @@
+## 1.2.4 (2022-03-24)
+
+DateTimeRange: __contains__ accepts datetime.datetime (#7541)
+
 ## 1.2.3 (2022-02-07)
 
 Improve some in-place BinOp methods (#7149)
