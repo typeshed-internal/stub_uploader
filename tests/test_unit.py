@@ -81,20 +81,17 @@ def test_sort_by_dependency() -> None:
         "2",
         "1",
     ]
-    assert (
-        sort_by_dependency(
-            {
-                "1": {"2", "3"},
-                "2": {"2a", "2b"},
-                "3": {"3a", "3b"},
-                "2a": set(),
-                "2b": set(),
-                "3a": set(),
-                "3b": set(),
-            }
-        )
-        == ["2a", "2b", "2", "3a", "3b", "3", "1"]
-    )
+    assert sort_by_dependency(
+        {
+            "1": {"2", "3"},
+            "2": {"2a", "2b"},
+            "3": {"3a", "3b"},
+            "2a": set(),
+            "2b": set(),
+            "3a": set(),
+            "3b": set(),
+        }
+    ) == ["2a", "2b", "2", "3a", "3b", "3", "1"]
 
 
 def test_collect_setup_entries() -> None:
@@ -131,16 +128,6 @@ def test_collect_setup_entries() -> None:
             ]
         }
     )
-
-
-def test_build_data() -> None:
-    typeshed = os.path.join("data", "test_typeshed")
-    singlefilepkg_bd = BuildData(typeshed, "singlefilepkg")
-    assert singlefilepkg_bd.py3_stubs
-    assert not singlefilepkg_bd.py2_stubs
-    nspkg_bd = BuildData(typeshed, "nspkg")
-    assert nspkg_bd.py3_stubs
-    assert not nspkg_bd.py2_stubs
 
 
 def test_collect_setup_entries_bogusfile() -> None:
