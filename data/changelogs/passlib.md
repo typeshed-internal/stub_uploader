@@ -1,3 +1,9 @@
+## 1.7.4 (2022-03-27)
+
+passlib: Annotate various handler methods and fields (#7521)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 1.7.3 (2022-03-19)
 
 Add mypy error codes to `type: ignore`s, remove unused ignores (#7504)

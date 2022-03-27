@@ -1,3 +1,16 @@
+## 2.27.15 (2022-03-27)
+
+requests: Update adapters.pyi (#7544)
+
+The cert can be
+* A string / bytes which is a path to a certfile
+* A tuple with two string / bytes, where the first is the certfile and the second is a keyfile
+* None (optional)
+
+The tuple could be anything indexable, but there are strict requirement to actualle have two items, don't know if there is something more generic
+
+See https://github.com/psf/requests/blob/main/requests/adapters.py#L242-L248
+
 ## 2.27.14 (2022-03-19)
 
 PEP 604: Remove some more uses of Union/Optional (#7515)
