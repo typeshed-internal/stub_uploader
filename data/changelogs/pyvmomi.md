@@ -1,3 +1,7 @@
+## 7.0.6 (2022-03-29)
+
+Add a few classes to vmodl and vmodl.fault (#7565)
+
 ## 7.0.5 (2022-03-09)
 
 Remove Python 2 support from some third-party distributions (#7466)
