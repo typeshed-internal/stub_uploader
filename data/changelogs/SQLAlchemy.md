@@ -1,3 +1,7 @@
+## 1.4.24 (2022-03-29)
+
+Remove unneeded `# noqa` comments, fix broken `# noqa` comments (#7561)
+
 ## 1.4.23 (2022-03-19)
 
 Add mypy error codes to `type: ignore`s, remove unused ignores (#7504)

@@ -1,3 +1,7 @@
+## 1.3.4 (2022-03-29)
+
+Remove unneeded `# noqa` comments, fix broken `# noqa` comments (#7561)
+
 ## 1.3.3 (2022-01-08)
 
 Use lowercase `type` everywhere (#6853)

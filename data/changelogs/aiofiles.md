@@ -1,3 +1,7 @@
+## 0.8.6 (2022-03-29)
+
+Remove unneeded `# noqa` comments, fix broken `# noqa` comments (#7561)
+
 ## 0.8.5 (2022-03-16)
 
 Use PEP 604 syntax wherever possible (#7493)
