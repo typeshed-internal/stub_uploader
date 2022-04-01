@@ -1,3 +1,9 @@
+## 1.4.25 (2022-04-01)
+
+Update SQLalchemy to 1.4.34 (#7573)
+
+Closes: #7572
+
 ## 1.4.24 (2022-03-29)
 
 Remove unneeded `# noqa` comments, fix broken `# noqa` comments (#7561)

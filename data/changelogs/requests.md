@@ -1,3 +1,7 @@
+## 2.27.16 (2022-04-01)
+
+Third-party stubs: Improve several `__exit__` methods (#7575)
+
 ## 2.27.15 (2022-03-27)
 
 requests: Update adapters.pyi (#7544)

@@ -1,3 +1,7 @@
+## 9.2.6 (2022-04-01)
+
+Third-party stubs: Improve several `__exit__` methods (#7575)
+
 ## 9.2.5 (2022-04-01)
 
 flake8 config: remove line that exists only for Python-2 checking (#7570)

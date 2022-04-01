@@ -1,3 +1,7 @@
+## 4.1.19 (2022-04-01)
+
+Third-party stubs: Improve several `__exit__` methods (#7575)
+
 ## 4.1.18 (2022-03-16)
 
 Use PEP 604 syntax wherever possible (#7493)
