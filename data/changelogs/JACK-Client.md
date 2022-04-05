@@ -1,3 +1,7 @@
+## 0.5.5 (2022-04-05)
+
+Mark many attributes as read-only properties (#7591)
+
 ## 0.5.4 (2022-01-22)
 
 Add missing context manager stub for JACK Client (#6982)

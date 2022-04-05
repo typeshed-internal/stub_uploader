@@ -1,3 +1,7 @@
+## 1.1.6 (2022-04-05)
+
+Mark many attributes as read-only properties (#7591)
+
 ## 1.1.4 (2021-12-28)
 
 Use PEP 585 syntax wherever possible (#6717)

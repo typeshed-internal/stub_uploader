@@ -1,3 +1,7 @@
+## 57.4.12 (2022-04-05)
+
+Mark many attributes as read-only properties (#7591)
+
 ## 57.4.11 (2022-03-16)
 
 Use PEP 604 syntax wherever possible (#7493)

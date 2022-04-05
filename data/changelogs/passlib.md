@@ -1,3 +1,7 @@
+## 1.7.5 (2022-04-05)
+
+Mark many attributes as read-only properties (#7591)
+
 ## 1.7.4 (2022-03-27)
 
 passlib: Annotate various handler methods and fields (#7521)

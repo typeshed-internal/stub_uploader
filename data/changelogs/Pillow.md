@@ -1,3 +1,7 @@
+## 9.0.10 (2022-04-05)
+
+Mark many attributes as read-only properties (#7591)
+
 ## 9.0.9 (2022-04-01)
 
 Third-party stubs: Improve several `__exit__` methods (#7575)

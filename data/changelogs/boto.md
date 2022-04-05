@@ -1,3 +1,7 @@
+## 2.49.11 (2022-04-05)
+
+Mark many attributes as read-only properties (#7591)
+
 ## 2.49.10 (2022-03-19)
 
 Add mypy error codes to `type: ignore`s, remove unused ignores (#7504)

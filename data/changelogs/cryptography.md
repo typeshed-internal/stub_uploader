@@ -1,3 +1,7 @@
+## 3.3.19 (2022-04-05)
+
+Mark many attributes as read-only properties (#7591)
+
 ## 3.3.18 (2022-03-10)
 
 Modernize syntax in various stubs (#7469)
