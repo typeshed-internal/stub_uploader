@@ -1,3 +1,7 @@
+## 1.11.0 (2022-04-05)
+
+Update google-cloud-ndb stubs to 1.11 (#7593)
+
 ## 1.9.4 (2022-02-08)
 
 google-cloud-ndb: Fix incorrect type definition for `validator` (#7116)
