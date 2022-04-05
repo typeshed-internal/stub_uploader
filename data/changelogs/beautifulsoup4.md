@@ -1,3 +1,7 @@
+## 4.10.18 (2022-04-05)
+
+Replace Union with union operator (#7596)
+
 ## 4.10.17 (2022-04-05)
 
 Mark many attributes as read-only properties (#7591)

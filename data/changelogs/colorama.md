@@ -1,3 +1,7 @@
+## 0.4.11 (2022-04-05)
+
+Replace Union with union operator (#7596)
+
 ## 0.4.10 (2022-04-01)
 
 Third-party stubs: Improve several `__exit__` methods (#7575)
