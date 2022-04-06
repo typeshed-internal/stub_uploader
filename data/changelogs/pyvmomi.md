@@ -1,3 +1,12 @@
+## 7.0.7 (2022-04-06)
+
+Update pyVmomi stubs (#7599)
+
+* Add generic base class `DynamicData`
+* Add missing `key` prop to `OptionValue`
+* Fix `MethodFault` not inheriting from `Exception`
+* Fix `RetrieveOptions` default `maxObjects` type and default
+
 ## 7.0.6 (2022-03-29)
 
 Add a few classes to vmodl and vmodl.fault (#7565)
