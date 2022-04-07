@@ -1,3 +1,7 @@
+## 1.4.27 (2022-04-07)
+
+SQLAlchemy improvements for generative methods (#7603)
+
 ## 1.4.26 (2022-04-05)
 
 Mark many attributes as read-only properties (#7591)
