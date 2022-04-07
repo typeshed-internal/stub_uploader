@@ -1,3 +1,7 @@
+## 1.4.28 (2022-04-07)
+
+SQLAlchemy improvements for Operators (#7604)
+
 ## 1.4.27 (2022-04-07)
 
 SQLAlchemy improvements for generative methods (#7603)
