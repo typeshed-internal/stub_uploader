@@ -131,6 +131,7 @@ types-simplejson
 types-singledispatch
 types-six
 types-slumber
+types-stdlib-list
 types-stripe
 types-tabulate
 types-termcolor
