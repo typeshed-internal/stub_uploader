@@ -1,3 +1,14 @@
+## 2.9.10 (2022-04-08)
+
+psycopg2: correct return type (#7607)
+
+Fixes the return type of `psycopg2.cursor.fetchone()` to match the psycopg2 code:
+
+https://github.com/psycopg/psycopg2/blob/1d3a89a0bba621dc1cc9b32db6d241bd2da85ad1/psycopg/cursor_type.c#L647-L651
+https://github.com/psycopg/psycopg2/blob/1d3a89a0bba621dc1cc9b32db6d241bd2da85ad1/psycopg/cursor_type.c#L748-L786
+
+It also matches the [psycopg2 documentation](https://www.psycopg.org/docs/cursor.html?highlight=copy_from#cursor.fetchone) as well as the [DB-API](https://peps.python.org/pep-0249/#fetchone)
+
 ## 2.9.9 (2022-03-16)
 
 psycopg2: Accept Composable in place of query string (#7494)
