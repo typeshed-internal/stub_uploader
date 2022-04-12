@@ -116,6 +116,7 @@ types-pysftp
 types-pytest-lazy-fixture
 types-python-dateutil
 types-python-gflags
+types-python-jose
 types-python-nmap
 types-python-slugify
 types-pytz
