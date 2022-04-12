@@ -1,3 +1,11 @@
+## 1.16.13 (2022-04-12)
+
+Add missing definitions to six.moves.http_client (#7615)
+
+These were removed as a side-effect of #7327, which added
+`__all__` to `http.client`. I checked that all the definitions
+are present at runtime via `six.moves.http_client`.
+
 ## 1.16.12 (2022-03-09)
 
 Remove Python 2 support from some third-party distributions (#7466)
