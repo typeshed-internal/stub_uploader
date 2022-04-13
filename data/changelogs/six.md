@@ -1,3 +1,7 @@
+## 1.16.14 (2022-04-13)
+
+Add back six.moves.configparser.Error (#7616)
+
 ## 1.16.13 (2022-04-12)
 
 Add missing definitions to six.moves.http_client (#7615)
