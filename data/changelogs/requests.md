@@ -1,3 +1,9 @@
+## 2.27.18 (2022-04-16)
+
+Use imports instead of TypeAliases in a couple places (#7634)
+
+Fixes #7632
+
 ## 2.27.17 (2022-04-16)
 
 Use `TypeAlias` where possible for type aliases (#7630)
