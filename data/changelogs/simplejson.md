@@ -1,3 +1,7 @@
+## 3.17.5 (2022-04-16)
+
+Use `TypeAlias` where possible for type aliases (#7630)
+
 ## 3.17.4 (2022-03-16)
 
 Use PEP 604 syntax wherever possible (#7493)

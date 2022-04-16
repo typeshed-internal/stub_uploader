@@ -1,3 +1,7 @@
+## 1.0.16 (2022-04-16)
+
+Use `TypeAlias` where possible for type aliases (#7630)
+
 ## 1.0.15 (2022-04-01)
 
 Third-party stubs: Improve several `__exit__` methods (#7575)

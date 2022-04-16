@@ -1,3 +1,7 @@
+## 5.0.1 (2022-04-16)
+
+Use `TypeAlias` where possible for type aliases (#7630)
+
 ## 5.0.0 (2022-04-12)
 
 Update bleach stubs to version 5 (#7612)

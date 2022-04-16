@@ -1,3 +1,7 @@
+## 2.9.11 (2022-04-16)
+
+Use `TypeAlias` where possible for type aliases (#7630)
+
 ## 2.9.10 (2022-04-08)
 
 psycopg2: correct return type (#7607)

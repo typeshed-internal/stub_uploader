@@ -1,3 +1,7 @@
+## 0.10.5 (2022-04-16)
+
+Use `TypeAlias` where possible for type aliases (#7630)
+
 ## 0.10.4 (2022-02-10)
 
 Improve `toml` typings (#7146)

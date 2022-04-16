@@ -1,3 +1,7 @@
+## 1.1.1 (2022-04-16)
+
+Use `TypeAlias` where possible for type aliases (#7630)
+
 ## 1.1.0 (2022-02-23)
 
 Update dateparser stubs for 1.1 (#7368)

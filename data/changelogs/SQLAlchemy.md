@@ -1,3 +1,7 @@
+## 1.4.29 (2022-04-16)
+
+Use `TypeAlias` where possible for type aliases (#7630)
+
 ## 1.4.28 (2022-04-07)
 
 SQLAlchemy improvements for Operators (#7604)

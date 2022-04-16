@@ -1,3 +1,7 @@
+## 0.2.12 (2022-04-16)
+
+Use `TypeAlias` where possible for type aliases (#7630)
+
 ## 0.2.11 (2022-03-19)
 
 PEP 604: Remove some more uses of Union/Optional (#7515)

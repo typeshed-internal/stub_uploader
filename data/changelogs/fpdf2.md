@@ -1,3 +1,7 @@
+## 2.4.8 (2022-04-16)
+
+Use `TypeAlias` where possible for type aliases (#7630)
+
 ## 2.4.7 (2022-02-10)
 
 fpdf2: Correct annotations of @contextmanager methods (#7172)

@@ -1,3 +1,7 @@
+## 1.11.1 (2022-04-16)
+
+Use `TypeAlias` where possible for type aliases (#7630)
+
 ## 1.11.0 (2022-04-05)
 
 Update google-cloud-ndb stubs to 1.11 (#7593)

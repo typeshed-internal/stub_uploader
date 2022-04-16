@@ -1,3 +1,7 @@
+## 0.18.1 (2022-04-16)
+
+Use `TypeAlias` where possible for type aliases (#7630)
+
 ## 0.18.0 (2022-02-28)
 
 docutils: complete nodes.Node & bump version to 0.18.* (#7380)

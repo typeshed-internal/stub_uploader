@@ -1,3 +1,7 @@
+## 57.4.13 (2022-04-16)
+
+Use `TypeAlias` where possible for type aliases (#7630)
+
 ## 57.4.12 (2022-04-05)
 
 Mark many attributes as read-only properties (#7591)

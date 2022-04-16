@@ -1,3 +1,7 @@
+## 1.26.12 (2022-04-16)
+
+Use `TypeAlias` where possible for type aliases (#7630)
+
 ## 1.26.11 (2022-03-13)
 
 urllib3: stubs are not Python 2 compatible (#7480)

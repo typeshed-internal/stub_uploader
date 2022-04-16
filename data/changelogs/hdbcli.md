@@ -1,3 +1,7 @@
+## 2.10.6 (2022-04-16)
+
+Use `TypeAlias` where possible for type aliases (#7630)
+
 ## 2.10.5 (2022-01-20)
 
 Use the Literal["foo", "bar"] syntax consistently (#6984)

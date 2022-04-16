@@ -1,3 +1,7 @@
+## 0.4.12 (2022-04-16)
+
+Use `TypeAlias` where possible for type aliases (#7630)
+
 ## 0.4.11 (2022-04-05)
 
 Replace Union with union operator (#7596)

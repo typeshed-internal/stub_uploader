@@ -1,3 +1,7 @@
+## 2.59.9 (2022-04-16)
+
+Use `TypeAlias` where possible for type aliases (#7630)
+
 ## 2.59.8 (2022-02-28)
 
 Add stripe.util.convert_to_stripe_object (#7386)

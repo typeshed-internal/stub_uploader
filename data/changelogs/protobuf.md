@@ -1,3 +1,7 @@
+## 3.19.16 (2022-04-16)
+
+Use `TypeAlias` where possible for type aliases (#7630)
+
 ## 3.19.15 (2022-03-21)
 
 Revert "Remove google/__init__.pyi (#6106)" (#7522)

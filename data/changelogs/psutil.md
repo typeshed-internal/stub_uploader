@@ -1,3 +1,7 @@
+## 5.8.21 (2022-04-16)
+
+Use `TypeAlias` where possible for type aliases (#7630)
+
 ## 5.8.20 (2022-01-31)
 
 Upgrade black version (#7089)

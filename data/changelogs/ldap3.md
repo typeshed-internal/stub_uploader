@@ -1,3 +1,7 @@
+## 2.9.8 (2022-04-16)
+
+Use `TypeAlias` where possible for type aliases (#7630)
+
 ## 2.9.7 (2022-03-06)
 
 Upgrade to stubtest with dunder pos only reverted (#7442)

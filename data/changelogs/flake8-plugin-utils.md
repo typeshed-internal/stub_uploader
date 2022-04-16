@@ -1,3 +1,7 @@
+## 1.3.5 (2022-04-16)
+
+Use `TypeAlias` where possible for type aliases (#7630)
+
 ## 1.3.4 (2022-03-29)
 
 Remove unneeded `# noqa` comments, fix broken `# noqa` comments (#7561)

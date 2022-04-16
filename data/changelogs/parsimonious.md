@@ -1,3 +1,7 @@
+## 0.8.3 (2022-04-16)
+
+Use `TypeAlias` where possible for type aliases (#7630)
+
 ## 0.8.2 (2022-03-19)
 
 Add mypy error codes to `type: ignore`s, remove unused ignores (#7504)

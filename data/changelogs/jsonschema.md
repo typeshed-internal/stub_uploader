@@ -1,3 +1,7 @@
+## 4.4.3 (2022-04-16)
+
+Use `TypeAlias` where possible for type aliases (#7630)
+
 ## 4.4.2 (2022-03-14)
 
 jsonschema: mark schemas as Mapping[str, Any] (#7489)

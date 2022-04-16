@@ -1,3 +1,9 @@
+## 2.27.17 (2022-04-16)
+
+Use `TypeAlias` where possible for type aliases (#7630)
+
+Use str instead of typing.Text (#7629)
+
 ## 2.27.16 (2022-04-01)
 
 Third-party stubs: Improve several `__exit__` methods (#7575)
