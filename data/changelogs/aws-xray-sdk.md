@@ -1,3 +1,7 @@
+## 2.8.5 (2022-04-16)
+
+Third-party stubs: import from `collections.abc` where possible (#7637)
+
 ## 2.8.4 (2022-02-03)
 
 Improve `__enter__` & constructor methods (#7114)

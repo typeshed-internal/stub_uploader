@@ -1,3 +1,7 @@
+## 1.7.3 (2022-04-16)
+
+Third-party stubs: import from `collections.abc` where possible (#7637)
+
 ## 1.7.1 (2021-12-17)
 
 Always import Protocol from typing in stubs (#6617)

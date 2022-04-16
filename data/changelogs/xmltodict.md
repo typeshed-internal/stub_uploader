@@ -1,3 +1,7 @@
+## 0.12.1 (2022-04-16)
+
+Third-party stubs: import from `collections.abc` where possible (#7637)
+
 ## 0.12.0 (2022-03-11)
 
 Add xmltodict (#7472)

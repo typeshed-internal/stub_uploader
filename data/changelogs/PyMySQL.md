@@ -1,3 +1,9 @@
+## 1.0.17 (2022-04-16)
+
+Python 3 stubs: use `str` instead of `typing.Text` (#7638)
+
+Third-party stubs: import from `collections.abc` where possible (#7637)
+
 ## 1.0.16 (2022-04-16)
 
 Use `TypeAlias` where possible for type aliases (#7630)

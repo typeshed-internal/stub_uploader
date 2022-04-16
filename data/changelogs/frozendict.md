@@ -1,3 +1,7 @@
+## 2.0.8 (2022-04-16)
+
+Third-party stubs: import from `collections.abc` where possible (#7637)
+
 ## 2.0.7 (2022-03-06)
 
 Upgrade to stubtest with dunder pos only reverted (#7442)

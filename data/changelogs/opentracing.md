@@ -1,3 +1,7 @@
+## 2.4.8 (2022-04-16)
+
+Third-party stubs: import from `collections.abc` where possible (#7637)
+
 ## 2.4.7 (2022-01-10)
 
 Always use `_typeshed.Self`, where applicable (#6880)

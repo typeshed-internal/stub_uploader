@@ -1,3 +1,9 @@
+## 3.3.13 (2022-04-16)
+
+Python 3 stubs: use `str` instead of `typing.Text` (#7638)
+
+Third-party stubs: import from `collections.abc` where possible (#7637)
+
 ## 3.3.12 (2022-01-10)
 
 Always use `_typeshed.Self`, where applicable (#6880)

@@ -1,3 +1,7 @@
+## 2021.11.10.4 (2022-04-16)
+
+Third-party stubs: import from `collections.abc` where possible (#7637)
+
 ## 2021.11.10.3 (2022-02-23)
 
 regex stubs: Add __getitem__ method to Match (#7372)

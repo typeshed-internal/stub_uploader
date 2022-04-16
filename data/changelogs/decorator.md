@@ -1,3 +1,9 @@
+## 5.1.5 (2022-04-16)
+
+Python 3 stubs: use `str` instead of `typing.Text` (#7638)
+
+Third-party stubs: import from `collections.abc` where possible (#7637)
+
 ## 5.1.4 (2022-01-27)
 
 Add `ParamSpec` to `decorator.contextmanager` (#7051)

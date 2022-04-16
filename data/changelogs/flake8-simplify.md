@@ -1,3 +1,7 @@
+## 0.18.1 (2022-04-16)
+
+Third-party stubs: import from `collections.abc` where possible (#7637)
+
 ## 0.18.0 (2022-02-21)
 
 Update flake8-simplify (#7339)

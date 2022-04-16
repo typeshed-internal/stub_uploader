@@ -1,3 +1,7 @@
+## 3.3.20 (2022-04-16)
+
+Third-party stubs: import from `collections.abc` where possible (#7637)
+
 ## 3.3.19 (2022-04-05)
 
 Mark many attributes as read-only properties (#7591)

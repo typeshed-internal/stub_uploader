@@ -1,3 +1,7 @@
+## 7.44.8 (2022-04-16)
+
+Python 3 stubs: use `str` instead of `typing.Text` (#7638)
+
 ## 7.44.7 (2022-02-21)
 
 contextvars, pycurl: make classes final (#7334)

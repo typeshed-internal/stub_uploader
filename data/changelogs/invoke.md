@@ -1,3 +1,7 @@
+## 1.6.6 (2022-04-16)
+
+Third-party stubs: import from `collections.abc` where possible (#7637)
+
 ## 1.6.5 (2022-03-22)
 
 Mark pre/post tasks in invoke tasks as iterable (#7531)

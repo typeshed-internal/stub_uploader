@@ -1,3 +1,7 @@
+## 2.0.7 (2022-04-16)
+
+Third-party stubs: import from `collections.abc` where possible (#7637)
+
 ## 2.0.5 (2021-12-28)
 
 Use PEP 585 syntax wherever possible (#6717)

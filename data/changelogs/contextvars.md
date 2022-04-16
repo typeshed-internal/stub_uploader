@@ -1,3 +1,7 @@
+## 2.4.5 (2022-04-16)
+
+Third-party stubs: import from `collections.abc` where possible (#7637)
+
 ## 2.4.4 (2022-02-22)
 
 Correct several positional-only differences in third-party stubs (#7352)

@@ -1,3 +1,7 @@
+## 5.0.1 (2022-04-16)
+
+Third-party stubs: import from `collections.abc` where possible (#7637)
+
 ## 5.0.0 (2022-03-08)
 
 Update cachetools to 5.0.0 (#7455)

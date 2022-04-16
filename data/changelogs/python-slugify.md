@@ -1,3 +1,7 @@
+## 5.0.4 (2022-04-16)
+
+Third-party stubs: import from `collections.abc` where possible (#7637)
+
 ## 5.0.2 (2021-10-15)
 
 Use lowercase tuple where possible (#6170)

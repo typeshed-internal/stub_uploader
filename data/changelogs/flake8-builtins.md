@@ -1,3 +1,7 @@
+## 1.5.4 (2022-04-16)
+
+Third-party stubs: import from `collections.abc` where possible (#7637)
+
 ## 1.5.3 (2022-01-08)
 
 Use lowercase `type` everywhere (#6853)

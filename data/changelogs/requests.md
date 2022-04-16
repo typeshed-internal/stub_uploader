@@ -1,3 +1,7 @@
+## 2.27.19 (2022-04-16)
+
+Third-party stubs: import from `collections.abc` where possible (#7637)
+
 ## 2.27.18 (2022-04-16)
 
 Use imports instead of TypeAliases in a couple places (#7634)

@@ -1,3 +1,7 @@
+## 0.9.8 (2022-04-16)
+
+Third-party stubs: import from `collections.abc` where possible (#7637)
+
 ## 0.9.7 (2022-01-31)
 
 Upgrade black version (#7089)

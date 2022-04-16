@@ -1,3 +1,7 @@
+## 1.2.5 (2022-04-16)
+
+Third-party stubs: import from `collections.abc` where possible (#7637)
+
 ## 1.2.4 (2022-03-24)
 
 DateTimeRange: __contains__ accepts datetime.datetime (#7541)
