@@ -1,3 +1,7 @@
+## 1.4.31 (2022-04-20)
+
+Add typing for __iter__ in sqlalchemy.orm.Query (#7666)
+
 ## 1.4.30 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)
