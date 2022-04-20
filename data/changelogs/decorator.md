@@ -1,3 +1,7 @@
+## 5.1.6 (2022-04-20)
+
+Use `TypeAlias` for type aliases where possible, part II (#7667)
+
 ## 5.1.5 (2022-04-16)
 
 Python 3 stubs: use `str` instead of `typing.Text` (#7638)

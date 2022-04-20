@@ -1,3 +1,7 @@
+## 2.8.12 (2022-04-20)
+
+Use `TypeAlias` for type aliases where possible, part II (#7667)
+
 ## 2.8.11 (2022-04-16)
 
 Use `TypeAlias` where possible for type aliases (#7630)

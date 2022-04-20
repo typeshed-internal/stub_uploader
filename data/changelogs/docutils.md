@@ -1,3 +1,7 @@
+## 0.18.3 (2022-04-20)
+
+Use `TypeAlias` for type aliases where possible, part II (#7667)
+
 ## 0.18.2 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)
