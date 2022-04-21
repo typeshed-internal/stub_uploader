@@ -1,3 +1,7 @@
+## 1.0.18 (2022-04-21)
+
+Update PyMySQL constants (#7670)
+
 ## 1.0.17 (2022-04-16)
 
 Python 3 stubs: use `str` instead of `typing.Text` (#7638)
