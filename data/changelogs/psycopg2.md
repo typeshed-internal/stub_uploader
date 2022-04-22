@@ -1,3 +1,9 @@
+## 2.9.13 (2022-04-22)
+
+Annotate Error and Diagnostics (#7671)
+
+Move cursor class to top of file so it can be used as base class
+
 ## 2.9.12 (2022-04-20)
 
 Use `TypeAlias` for type aliases where possible, part II (#7667)
