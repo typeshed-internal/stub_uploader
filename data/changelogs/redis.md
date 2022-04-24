@@ -1,3 +1,9 @@
+## 4.2.0 (2022-04-24)
+
+Update redis stubs to 4.2 (#7675)
+
+Closes #7597
+
 ## 4.1.22 (2022-04-20)
 
 Use `TypeAlias` for type aliases where possible, part II (#7667)
