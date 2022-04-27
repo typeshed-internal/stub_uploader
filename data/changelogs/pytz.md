@@ -1,3 +1,7 @@
+## 2021.3.7 (2022-04-27)
+
+Drop Python 2 support in third-party stubs (#7703)
+
 ## 2021.3.6 (2022-03-19)
 
 pytz: utcoffset only returns None if dt is None (#7510)

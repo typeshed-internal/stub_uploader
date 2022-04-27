@@ -1,3 +1,9 @@
+## 9.2.7 (2022-04-27)
+
+Add various missing generic arguments (#7702)
+
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+
 ## 9.2.6 (2022-04-01)
 
 Third-party stubs: Improve several `__exit__` methods (#7575)

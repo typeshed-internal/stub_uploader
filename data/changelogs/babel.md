@@ -1,3 +1,9 @@
+## 2.9.12 (2022-04-27)
+
+Add various missing generic arguments (#7702)
+
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+
 ## 2.9.11 (2022-04-16)
 
 Use `TypeAlias` where possible for type aliases (#7630)

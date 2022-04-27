@@ -1,3 +1,9 @@
+## 3.3.14 (2022-04-27)
+
+Add various missing generic arguments (#7702)
+
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+
 ## 3.3.13 (2022-04-16)
 
 Python 3 stubs: use `str` instead of `typing.Text` (#7638)

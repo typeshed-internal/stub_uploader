@@ -1,3 +1,7 @@
+## 0.10.6 (2022-04-27)
+
+Remove Python 2 support from toml (#7713)
+
 ## 0.10.5 (2022-04-16)
 
 Use `TypeAlias` where possible for type aliases (#7630)

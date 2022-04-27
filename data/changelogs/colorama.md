@@ -1,3 +1,7 @@
+## 0.4.13 (2022-04-27)
+
+Drop Python 2 support in third-party stubs (#7703)
+
 ## 0.4.12 (2022-04-16)
 
 Use `TypeAlias` where possible for type aliases (#7630)

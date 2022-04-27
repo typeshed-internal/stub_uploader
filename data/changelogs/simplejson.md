@@ -1,3 +1,7 @@
+## 3.17.6 (2022-04-27)
+
+Remove Python 2 support from simplejson (#7704)
+
 ## 3.17.5 (2022-04-16)
 
 Use `TypeAlias` where possible for type aliases (#7630)

@@ -1,3 +1,7 @@
+## 0.4.15 (2022-04-27)
+
+Drop Python 2 support in third-party stubs (#7703)
+
 ## 0.4.14 (2022-01-31)
 
 Upgrade black version (#7089)

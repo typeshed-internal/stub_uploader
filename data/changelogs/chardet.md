@@ -1,3 +1,7 @@
+## 4.0.4 (2022-04-27)
+
+Drop Python 2 support from chardet (#7708)
+
 ## 4.0.2 (2021-12-28)
 
 Use PEP 585 syntax wherever possible (#6717)

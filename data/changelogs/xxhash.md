@@ -1,3 +1,7 @@
+## 2.0.4 (2022-04-27)
+
+Drop Python 2 support in third-party stubs (#7703)
+
 ## 2.0.2 (2021-10-12)
 
 Add star to all non-0.1 versions (#6146)

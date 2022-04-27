@@ -1,3 +1,7 @@
+## 2.8.13 (2022-04-27)
+
+Drop Python 2 support from python-dateutil (#7715)
+
 ## 2.8.12 (2022-04-20)
 
 Use `TypeAlias` for type aliases where possible, part II (#7667)

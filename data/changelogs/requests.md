@@ -1,3 +1,10 @@
+## 2.27.21 (2022-04-27)
+
+Add more typing hints for requests (#7696)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+
 ## 2.27.20 (2022-04-20)
 
 Use `TypeAlias` for type aliases where possible, part II (#7667)

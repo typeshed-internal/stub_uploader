@@ -1,3 +1,9 @@
+## 9.0.14 (2022-04-27)
+
+Add various missing generic arguments (#7702)
+
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+
 ## 9.0.13 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)

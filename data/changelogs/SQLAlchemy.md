@@ -1,3 +1,9 @@
+## 1.4.32 (2022-04-27)
+
+Add various missing generic arguments (#7702)
+
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+
 ## 1.4.31 (2022-04-20)
 
 Add typing for __iter__ in sqlalchemy.orm.Query (#7666)

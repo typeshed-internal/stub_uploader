@@ -1,3 +1,7 @@
+## 0.1.11 (2022-04-27)
+
+Drop Python 2 support from click-spinner (#7710)
+
 ## 0.1.10 (2022-02-03)
 
 Improve `__enter__` & constructor methods (#7114)

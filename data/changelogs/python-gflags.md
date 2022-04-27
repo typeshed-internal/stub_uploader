@@ -1,3 +1,7 @@
+## 3.1.5 (2022-04-27)
+
+Drop Python 2 support from python-gflags (#7709)
+
 ## 3.1.4 (2022-01-28)
 
 Do not use `True` or `False` as default values in assignments (#7060)

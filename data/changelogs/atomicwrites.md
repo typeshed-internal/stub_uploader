@@ -1,3 +1,7 @@
+## 1.4.4 (2022-04-27)
+
+Remove Python 2 support from atomicwrites (#7712)
+
 ## 1.4.3 (2022-01-08)
 
 Use lowercase `type` everywhere (#6853)

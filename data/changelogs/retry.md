@@ -1,3 +1,7 @@
+## 0.9.6 (2022-04-27)
+
+Drop Python 2 support in third-party stubs (#7703)
+
 ## 0.9.5 (2022-01-08)
 
 Use lowercase `type` everywhere (#6853)
