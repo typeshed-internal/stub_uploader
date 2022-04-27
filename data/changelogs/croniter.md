@@ -1,3 +1,7 @@
+## 1.0.10 (2022-04-27)
+
+Drop Python 2 support from croniter (#7705)
+
 ## 1.0.9 (2022-04-16)
 
 Use `TypeAlias` where possible for type aliases (#7630)

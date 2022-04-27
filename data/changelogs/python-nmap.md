@@ -1,3 +1,7 @@
+## 0.6.7 (2022-04-27)
+
+Drop Python 2 support from python-nmap (#7706)
+
 ## 0.6.6 (2022-04-16)
 
 Use `TypeAlias` where possible for type aliases (#7630)
