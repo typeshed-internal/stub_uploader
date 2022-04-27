@@ -1,3 +1,7 @@
+## 2.8.14 (2022-04-27)
+
+dateutil.tz.tz: Replace IO with protocols (#7717)
+
 ## 2.8.13 (2022-04-27)
 
 Drop Python 2 support from python-dateutil (#7715)

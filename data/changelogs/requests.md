@@ -1,3 +1,9 @@
+## 2.27.22 (2022-04-27)
+
+requests: Add None to a type alias (#7721)
+
+Fixes #7720
+
 ## 2.27.21 (2022-04-27)
 
 Add more typing hints for requests (#7696)
