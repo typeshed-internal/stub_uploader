@@ -1,3 +1,13 @@
+## 0.5.8 (2022-04-28)
+
+jack: Fix MidiPort properties (#7730)
+
+Fixes #7729
+
+https://github.com/spatialaudio/jackclient-python/blob/26b648a36143b1e3db6e6fc827ca927b0c93cbec/src/jack.py#L1950
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 0.5.7 (2022-04-20)
 
 Use `TypeAlias` for type aliases where possible, part II (#7667)
