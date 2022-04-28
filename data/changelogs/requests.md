@@ -1,3 +1,7 @@
+## 2.27.24 (2022-04-28)
+
+requests: allow non-mutable Mapping for files/hooks parameters (#7732)
+
 ## 2.27.23 (2022-04-28)
 
 requests: allow str and bytes for fileobj in files parameter (#7728)

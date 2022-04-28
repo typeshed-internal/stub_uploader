@@ -1,3 +1,7 @@
+## 0.9.0 (2022-04-28)
+
+Update caldav stubs for 0.9 (#7734)
+
 ## 0.8.7 (2022-04-20)
 
 Use `TypeAlias` for type aliases where possible, part II (#7667)
