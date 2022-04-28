@@ -1,3 +1,11 @@
+## 2.27.23 (2022-04-28)
+
+requests: allow str and bytes for fileobj in files parameter (#7728)
+
+* requests: allow str and bytes for fileobj in files parameter
+
+* requests: Use SupportsRead instead of IO for files
+
 ## 2.27.22 (2022-04-27)
 
 requests: Add None to a type alias (#7721)

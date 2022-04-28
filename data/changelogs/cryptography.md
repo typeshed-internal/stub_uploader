@@ -1,3 +1,7 @@
+## 3.3.21 (2022-04-28)
+
+cryptography: make `oid` attributes readonly (#7731)
+
 ## 3.3.20 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)
