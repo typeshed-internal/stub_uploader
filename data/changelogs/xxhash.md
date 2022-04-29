@@ -1,3 +1,9 @@
+## 2.0.5 (2022-04-29)
+
+Delete python 2 branches from third-party stubs (#7741)
+
+Since #7703, we no longer have third-party stubs that support Python 2, so code like `if sys.version_info >= (3, 0)` can be simplified.
+
 ## 2.0.4 (2022-04-27)
 
 Drop Python 2 support in third-party stubs (#7703)

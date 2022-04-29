@@ -1,3 +1,9 @@
+## 5.1.7 (2022-04-29)
+
+Delete python 2 branches from third-party stubs (#7741)
+
+Since #7703, we no longer have third-party stubs that support Python 2, so code like `if sys.version_info >= (3, 0)` can be simplified.
+
 ## 5.1.6 (2022-04-20)
 
 Use `TypeAlias` for type aliases where possible, part II (#7667)

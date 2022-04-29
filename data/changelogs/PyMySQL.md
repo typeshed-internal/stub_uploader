@@ -1,3 +1,9 @@
+## 1.0.19 (2022-04-29)
+
+Delete python 2 branches from third-party stubs (#7741)
+
+Since #7703, we no longer have third-party stubs that support Python 2, so code like `if sys.version_info >= (3, 0)` can be simplified.
+
 ## 1.0.18 (2022-04-21)
 
 Update PyMySQL constants (#7670)
