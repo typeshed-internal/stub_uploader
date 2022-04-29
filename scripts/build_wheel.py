@@ -34,7 +34,6 @@ from scripts.metadata import Metadata, read_metadata
 CHANGELOG = "CHANGELOG.md"
 
 SUFFIX = "-stubs"
-PY2_SUFFIX = "-python2-stubs"
 
 SETUP_TEMPLATE = dedent(
     """
@@ -64,6 +63,7 @@ setup(name=name,
       license="Apache-2.0 license",
       classifiers=[
           "License :: OSI Approved :: Apache Software License",
+          "Programming Language :: Python :: 3",
           "Typing :: Stubs Only",
       ]
 )
@@ -130,7 +130,7 @@ def find_stub_files(top: str) -> List[str]:
     return sorted(result)
 
 
-def copy_stubs(base_dir: str, dst: str, suffix: str) -> None:
+def copy_stubs(base_dir: str, dst: str) -> None:
     """Copy stubs for given distribution to the build directory.
 
     For packages change name by appending "-stubs" suffix (PEP 561),
@@ -140,7 +140,7 @@ def copy_stubs(base_dir: str, dst: str, suffix: str) -> None:
         if os.path.isfile(os.path.join(base_dir, entry)):
             if not entry.endswith(".pyi"):
                 continue
-            stub_dir = os.path.join(dst, entry.split(".")[0] + suffix)
+            stub_dir = os.path.join(dst, entry.split(".")[0] + SUFFIX)
             os.mkdir(stub_dir)
             shutil.copy(
                 os.path.join(base_dir, entry), os.path.join(stub_dir, "__init__.pyi")
@@ -149,7 +149,7 @@ def copy_stubs(base_dir: str, dst: str, suffix: str) -> None:
             if entry == TESTS_NAMESPACE:
                 # Don't package tests for the stubs
                 continue
-            stub_dir = os.path.join(dst, entry + suffix)
+            stub_dir = os.path.join(dst, entry + SUFFIX)
             shutil.copytree(os.path.join(base_dir, entry), stub_dir)
 
         # We add original METADATA file in case some type-checking tool will want
@@ -176,10 +176,7 @@ def copy_changelog(distribution: str, dst: str) -> None:
         pass  # Ignore missing changelogs
 
 
-def collect_setup_entries(
-    base_dir: str,
-    suffix: str,
-) -> Dict[str, List[str]]:
+def collect_setup_entries(base_dir: str) -> Dict[str, List[str]]:
     """Generate package data for a setuptools.setup() call.
 
     This reflects the transformations done during copying in copy_stubs().
@@ -201,13 +198,13 @@ def collect_setup_entries(
                     ):
                         raise ValueError(f"Only stub files are allowed: {entry}")
                 continue
-            entry = entry.split(".")[0] + suffix
+            entry = entry.split(".")[0] + SUFFIX
             # Module -> package transformation is done while copying.
             package_data[entry] = ["__init__.pyi"]
         else:
             if entry == TESTS_NAMESPACE:
                 continue
-            entry += suffix
+            entry += SUFFIX
             package_data[entry] = find_stub_files(
                 os.path.join(base_dir, original_entry)
             )
@@ -307,7 +304,7 @@ def generate_setup_file(
     build_data: BuildData, metadata: Metadata, version: str, commit: str
 ) -> str:
     """Auto-generate a setup.py file for given distribution using a template."""
-    package_data = collect_setup_entries(build_data.stub_dir, SUFFIX)
+    package_data = collect_setup_entries(build_data.stub_dir)
     return SETUP_TEMPLATE.format(
         distribution=build_data.distribution,
         long_description=generate_long_description(
@@ -362,7 +359,7 @@ def main(
     metadata = read_metadata(typeshed_dir, distribution)
     with open(os.path.join(tmpdir, "setup.py"), "w") as f:
         f.write(generate_setup_file(build_data, metadata, version, commit))
-    copy_stubs(build_data.stub_dir, tmpdir, SUFFIX)
+    copy_stubs(build_data.stub_dir, tmpdir)
     copy_changelog(distribution, tmpdir)
     current_dir = os.getcwd()
     os.chdir(tmpdir)
