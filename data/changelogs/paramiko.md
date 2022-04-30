@@ -1,3 +1,9 @@
+## 2.8.21 (2022-04-30)
+
+Fix paramiko `channel.setblocking()` argument (#7758)
+
+Add 0,1 as allowed arguments using `Literal[0,1]`
+
 ## 2.8.20 (2022-04-29)
 
 Delete python 2 branches from third-party stubs (#7741)
