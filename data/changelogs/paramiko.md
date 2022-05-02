@@ -1,3 +1,7 @@
+## 2.10.0 (2022-05-02)
+
+Upgrade paramiko (#7766)
+
 ## 2.8.21 (2022-04-30)
 
 Fix paramiko `channel.setblocking()` argument (#7758)
