@@ -1,3 +1,9 @@
+## 4.2.1 (2022-05-04)
+
+Add missing redis modules and classes (#7676)
+
+This adds asyncio support and support for redis.typing.
+
 ## 4.2.0 (2022-04-24)
 
 Update redis stubs to 4.2 (#7675)
