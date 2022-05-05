@@ -1,3 +1,7 @@
+## 1.6.7 (2022-05-05)
+
+Improve types of invoke/env.pyi (#7780)
+
 ## 1.6.6 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)
