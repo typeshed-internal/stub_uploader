@@ -1,3 +1,7 @@
+## 3.0.7 (2022-05-06)
+
+`flask-cors.decorator`: allow `re.Pattern` objects to `origins` and `allow_headers` parameters (#7782)
+
 ## 3.0.6 (2022-04-20)
 
 Use `TypeAlias` for type aliases where possible, part II (#7667)

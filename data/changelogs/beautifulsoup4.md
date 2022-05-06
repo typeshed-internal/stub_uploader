@@ -1,3 +1,9 @@
+## 4.11.0 (2022-05-06)
+
+bs4: update to 4.11 (#7785)
+
+Co-authored-by: hauntsaninja <>
+
 ## 4.10.20 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)
