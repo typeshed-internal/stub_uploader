@@ -1,3 +1,7 @@
+## 1.4.33 (2022-05-07)
+
+Import generics from standard modules in all third-party stubs (#7791)
+
 ## 1.4.32 (2022-04-27)
 
 Add various missing generic arguments (#7702)

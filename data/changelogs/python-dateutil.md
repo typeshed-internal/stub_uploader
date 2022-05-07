@@ -1,3 +1,7 @@
+## 2.8.15 (2022-05-07)
+
+Import generics from standard modules in all third-party stubs (#7791)
+
 ## 2.8.14 (2022-04-27)
 
 dateutil.tz.tz: Replace IO with protocols (#7717)

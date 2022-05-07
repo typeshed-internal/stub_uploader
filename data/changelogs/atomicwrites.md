@@ -1,3 +1,7 @@
+## 1.4.5 (2022-05-07)
+
+Import generics from standard modules in all third-party stubs (#7791)
+
 ## 1.4.4 (2022-04-27)
 
 Remove Python 2 support from atomicwrites (#7712)

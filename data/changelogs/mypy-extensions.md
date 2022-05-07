@@ -1,3 +1,7 @@
+## 0.4.17 (2022-05-07)
+
+Import generics from standard modules in all third-party stubs (#7791)
+
 ## 0.4.16 (2022-04-29)
 
 Delete python 2 branches from third-party stubs (#7741)

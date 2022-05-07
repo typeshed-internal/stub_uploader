@@ -1,3 +1,7 @@
+## 3.7.5 (2022-05-07)
+
+Import generics from standard modules in all third-party stubs (#7791)
+
 ## 3.7.4 (2022-04-27)
 
 Drop Python 2 support in third-party stubs (#7703)

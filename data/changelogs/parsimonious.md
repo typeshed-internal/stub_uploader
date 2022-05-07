@@ -1,3 +1,7 @@
+## 0.8.5 (2022-05-07)
+
+Import generics from standard modules in all third-party stubs (#7791)
+
 ## 0.8.4 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)

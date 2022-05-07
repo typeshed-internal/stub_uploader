@@ -1,3 +1,7 @@
+## 3.0.8 (2022-05-07)
+
+Import generics from standard modules in all third-party stubs (#7791)
+
 ## 3.0.7 (2022-05-06)
 
 `flask-cors.decorator`: allow `re.Pattern` objects to `origins` and `allow_headers` parameters (#7782)

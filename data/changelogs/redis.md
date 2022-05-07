@@ -1,3 +1,7 @@
+## 4.2.2 (2022-05-07)
+
+Import generics from standard modules in all third-party stubs (#7791)
+
 ## 4.2.1 (2022-05-04)
 
 Add missing redis modules and classes (#7676)
