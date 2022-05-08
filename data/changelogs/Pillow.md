@@ -1,3 +1,7 @@
+## 9.0.15 (2022-05-08)
+
+#7805: Ensure all references to mode are Literals, not str. (#7807)
+
 ## 9.0.14 (2022-04-27)
 
 Add various missing generic arguments (#7702)
