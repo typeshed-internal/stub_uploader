@@ -1,3 +1,7 @@
+## 3.19.19 (2022-05-09)
+
+Use `str` instead of `Text` (#7812)
+
 ## 3.19.18 (2022-04-20)
 
 Use `TypeAlias` for type aliases where possible, part II (#7667)
