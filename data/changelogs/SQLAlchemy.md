@@ -1,3 +1,7 @@
+## 1.4.34 (2022-05-10)
+
+Update testing_engine() annotations (#7818)
+
 ## 1.4.33 (2022-05-07)
 
 Import generics from standard modules in all third-party stubs (#7791)
