@@ -1,3 +1,7 @@
+## 3.19.20 (2022-05-10)
+
+Remove explicit inheritance from `object` (#7819)
+
 ## 3.19.19 (2022-05-09)
 
 Use `str` instead of `Text` (#7812)
