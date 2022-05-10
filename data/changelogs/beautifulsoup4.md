@@ -1,3 +1,7 @@
+## 4.11.1 (2022-05-10)
+
+beautifulsoup4: small fixes and updates (#7816)
+
 ## 4.11.0 (2022-05-06)
 
 bs4: update to 4.11 (#7785)
