@@ -1,3 +1,12 @@
+## 2021.11.10.5 (2022-05-11)
+
+regex: accept buffers (#7680)
+
+Similar to #7679
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+
 ## 2021.11.10.4 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)
