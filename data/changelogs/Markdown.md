@@ -1,3 +1,7 @@
+## 3.3.15 (2022-05-12)
+
+markdown: PY37 is a bool (#7831)
+
 ## 3.3.14 (2022-04-27)
 
 Add various missing generic arguments (#7702)
