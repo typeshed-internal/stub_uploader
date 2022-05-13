@@ -1,3 +1,7 @@
+## 3.3.16 (2022-05-13)
+
+markdown: `@deprecated` argument of `message` is a str. (#7835)
+
 ## 3.3.15 (2022-05-12)
 
 markdown: PY37 is a bool (#7831)
