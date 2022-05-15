@@ -1,3 +1,7 @@
+## 4.2.3 (2022-05-15)
+
+Add `__version__`/`VERSION` to redis (#7838)
+
 ## 4.2.2 (2022-05-07)
 
 Import generics from standard modules in all third-party stubs (#7791)
