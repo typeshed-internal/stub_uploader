@@ -1,3 +1,7 @@
+## 3.3.17 (2022-05-16)
+
+markdown: `isBlockLevel()` returns a bool value. (#7839)
+
 ## 3.3.16 (2022-05-13)
 
 markdown: `@deprecated` argument of `message` is a str. (#7835)
