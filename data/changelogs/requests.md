@@ -1,3 +1,9 @@
+## 2.27.26 (2022-05-16)
+
+`requests`: Fix type of request headers (#7773)
+
+Allow bytes values. In `Session` methods, `None` can be used to ignore the session's headers.
+
 ## 2.27.25 (2022-04-29)
 
 Delete python 2 branches from third-party stubs (#7741)
