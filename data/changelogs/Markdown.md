@@ -1,3 +1,7 @@
+## 3.3.18 (2022-05-17)
+
+markdown: Annotate `Registry.get_index_for_name()` (#7848)
+
 ## 3.3.17 (2022-05-16)
 
 markdown: `isBlockLevel()` returns a bool value. (#7839)
