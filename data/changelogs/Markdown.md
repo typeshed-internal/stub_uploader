@@ -1,3 +1,7 @@
+## 3.3.19 (2022-05-17)
+
+Markdown: use I/O protocols (#7851)
+
 ## 3.3.18 (2022-05-17)
 
 markdown: Annotate `Registry.get_index_for_name()` (#7848)
