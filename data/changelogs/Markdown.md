@@ -1,3 +1,7 @@
+## 3.3.20 (2022-05-18)
+
+markdown: Annotate `code_escape()`. (#7857)
+
 ## 3.3.19 (2022-05-17)
 
 Markdown: use I/O protocols (#7851)
