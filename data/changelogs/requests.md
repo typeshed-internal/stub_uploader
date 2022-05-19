@@ -1,3 +1,11 @@
+## 2.27.27 (2022-05-19)
+
+Fix requests.Session().hooks (#7871)
+
+Fixes #7776
+
+Mutating hooks, as in `session.hooks['response'] = ...`, should work. Reassigning it like `session.hooks = ...` is probably a bad idea, so it will always be a `dict`.
+
 ## 2.27.26 (2022-05-16)
 
 `requests`: Fix type of request headers (#7773)

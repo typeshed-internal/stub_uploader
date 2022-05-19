@@ -1,3 +1,7 @@
+## 3.3.21 (2022-05-19)
+
+markdown: Annotate `parseBoolValue()` (#7875)
+
 ## 3.3.20 (2022-05-18)
 
 markdown: Annotate `code_escape()`. (#7857)

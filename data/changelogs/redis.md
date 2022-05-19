@@ -1,3 +1,15 @@
+## 4.2.4 (2022-05-19)
+
+reds: commands from asyncio module must be async (#7820)
+
+redis-py has introduced an asyncio module since 4.2 and almost all
+commands should be async if the redis.asyncio.Redis is used instead of
+redis.Redis.
+
+This changes adds the types for all core commands.
+
+Related to #7597
+
 ## 4.2.3 (2022-05-15)
 
 Add `__version__`/`VERSION` to redis (#7838)
