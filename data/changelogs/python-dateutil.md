@@ -1,3 +1,7 @@
+## 2.8.16 (2022-05-19)
+
+Add return type for `dateutil.rrule._rrulestr.__call__`. (#7868)
+
 ## 2.8.15 (2022-05-07)
 
 Import generics from standard modules in all third-party stubs (#7791)
