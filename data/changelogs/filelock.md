@@ -1,3 +1,9 @@
+## 3.2.6 (2022-05-21)
+
+Simplify and correct many numeric unions (#7906)
+
+Unblocks PyCQA/flake8-pyi#222
+
 ## 3.2.5 (2022-01-20)
 
 Remove nearly all `__str__` and `__repr__` methods from typeshed (#6968)

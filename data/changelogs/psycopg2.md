@@ -1,3 +1,55 @@
+## 2.9.14 (2022-05-21)
+
+Annotations for psycopg2.ConnectionInfo (#7834)
+
+* Annotations for psycopg2.ConnectionInfo
+
+These annotations come from the documentation here:
+
+https://www.psycopg.org/docs/extensions.html#psycopg2.extensions.ConnectionInfo
+If there was doubt, I referred to the libpq documentation cited by
+psycopg2's docs.
+
+I wasn't completely sure about `dsn_parameters`. Psycopg2's docs list it
+as an `dict`, and the example suggests it's a `dict[str, str]` at that.
+From psycopg2's source I found
+
+    https://github.com/psycopg/psycopg2/blob/1d3a89a0bba621dc1cc9b32db6d241bd2da85ad1/psycopg/conninfo_type.c#L183-L206
+
+which is implemented here:
+
+    https://github.com/psycopg/psycopg2/blob/1d3a89a0bba621dc1cc9b32db6d241bd2da85ad1/psycopg/utils.c#L251-L279
+
+I'm no expert in CPython's API, but this looks to me like it's building
+a `dict[str, str]`.
+
+Additionally, the libpq docs
+
+https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-PQCONNINFO
+https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-PQCONNDEFAULTS
+
+show that the underlying data just consists of strings.
+
+Additionally, I'm pretty sure from this chunk of source
+
+    https://github.com/psycopg/psycopg2/blob/1d3a89a0bba621dc1cc9b32db6d241bd2da85ad1/psycopg/conninfo_type.c#L581-L598
+
+That `ConnectionInfo.__init__` takes one positional-only argument, which
+must be a `psycopg2.connection`. But I don't think users are intended to
+be constructing this type, so I've not added that annotation.
+
+* Annotate `connection.info` and related attributes
+
+* Make ConnectionInfo attributes properties
+
+According to https://github.com/psycopg/psycopg2/blob/1d3a89a0bba621dc1cc9b32db6d241bd2da85ad1/psycopg/conninfo_type.c#L534-L563
+
+* Mark connection attributes as readonly
+
+according to https://github.com/psycopg/psycopg2/blob/8ef195f2ff187454cc709d7857235676bb4176ee/psycopg/connection_type.c#L1244
+
+* Explain why some properties aren't `T | None`
+
 ## 2.9.13 (2022-04-22)
 
 Annotate Error and Diagnostics (#7671)

@@ -1,3 +1,9 @@
+## 1.5.5 (2022-05-21)
+
+Simplify and correct many numeric unions (#7906)
+
+Unblocks PyCQA/flake8-pyi#222
+
 ## 1.5.4 (2022-04-20)
 
 Use `TypeAlias` for type aliases where possible, part II (#7667)

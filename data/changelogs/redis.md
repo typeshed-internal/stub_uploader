@@ -1,3 +1,9 @@
+## 4.2.5 (2022-05-21)
+
+Simplify and correct many numeric unions (#7906)
+
+Unblocks PyCQA/flake8-pyi#222
+
 ## 4.2.4 (2022-05-19)
 
 reds: commands from asyncio module must be async (#7820)

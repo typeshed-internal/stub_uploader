@@ -1,3 +1,9 @@
+## 3.19.21 (2022-05-21)
+
+Simplify and correct many numeric unions (#7906)
+
+Unblocks PyCQA/flake8-pyi#222
+
 ## 3.19.20 (2022-05-10)
 
 Remove explicit inheritance from `object` (#7819)

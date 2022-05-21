@@ -1,3 +1,9 @@
+## 2.4.9 (2022-05-21)
+
+Simplify and correct many numeric unions (#7906)
+
+Unblocks PyCQA/flake8-pyi#222
+
 ## 2.4.8 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)

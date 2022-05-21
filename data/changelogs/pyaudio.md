@@ -1,3 +1,9 @@
+## 0.2.15 (2022-05-21)
+
+Simplify and correct many numeric unions (#7906)
+
+Unblocks PyCQA/flake8-pyi#222
+
 ## 0.2.14 (2022-05-07)
 
 Import generics from standard modules in all third-party stubs (#7791)
