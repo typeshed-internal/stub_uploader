@@ -1,3 +1,10 @@
+## 57.4.15 (2022-05-22)
+
+More setuptools.command.easy_install definitions. (#7145)
+
+Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+
 ## 57.4.14 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)
