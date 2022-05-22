@@ -1,3 +1,7 @@
+## 1.7.0 (2022-05-22)
+
+Update emoji stubs for version 1.7 (#7884)
+
 ## 1.2.8 (2022-04-27)
 
 Drop Python 2 support from emoji (#7716)
