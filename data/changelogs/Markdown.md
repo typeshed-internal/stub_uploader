@@ -1,3 +1,9 @@
+## 3.3.22 (2022-05-24)
+
+markdown: Annotate methods of `Registry` (#7926)
+
+Co-authored-by: Shantanu <12621235+hauntsaninja@users.noreply.github.com>
+
 ## 3.3.21 (2022-05-19)
 
 markdown: Annotate `parseBoolValue()` (#7875)
