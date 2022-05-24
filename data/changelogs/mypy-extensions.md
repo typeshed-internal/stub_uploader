@@ -1,3 +1,9 @@
+## 0.4.18 (2022-05-24)
+
+`mypy_extensions`: fix `TypeVar` usage (#7937)
+
+#7928
+
 ## 0.4.17 (2022-05-07)
 
 Import generics from standard modules in all third-party stubs (#7791)
