@@ -1,3 +1,11 @@
+## 57.4.16 (2022-05-25)
+
+pkg_resources: Fix unconstrained TypeVars (#7941)
+
+https://github.com/pypa/setuptools/blob/499c468a57d240e5bb450bdb6daedc3e559541dd/pkg_resources/__init__.py#L1049
+
+Part of #7928
+
 ## 57.4.15 (2022-05-22)
 
 More setuptools.command.easy_install definitions. (#7145)
