@@ -1,3 +1,7 @@
+## 9.0.16 (2022-05-25)
+
+`Pillow`: use union type for `Image.paste` (#7893)
+
 ## 9.0.15 (2022-05-08)
 
 #7805: Ensure all references to mode are Literals, not str. (#7807)
