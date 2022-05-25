@@ -1,3 +1,11 @@
+## 1.6.8 (2022-05-25)
+
+invoke: Fix unconstrained TypeVar (#7943)
+
+Part of #7928
+
+https://github.com/pyinvoke/invoke/blob/f34c6c9413146a34ede3a5b529916b4cee649887/invoke/tasks.py#L328
+
 ## 1.6.7 (2022-05-05)
 
 Improve types of invoke/env.pyi (#7780)

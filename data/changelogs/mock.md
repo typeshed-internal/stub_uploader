@@ -1,3 +1,11 @@
+## 4.0.14 (2022-05-25)
+
+mock: Fix unconstrained TypeVar (#7945)
+
+The first overload covers the case where `new` is not given.
+
+Part of #7928
+
 ## 4.0.13 (2022-04-01)
 
 Third-party stubs: Improve several `__exit__` methods (#7575)
