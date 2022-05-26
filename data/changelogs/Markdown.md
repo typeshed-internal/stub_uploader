@@ -1,3 +1,7 @@
+## 3.3.23 (2022-05-26)
+
+markdown: annotate `__deprecated__` (#7955)
+
 ## 3.3.22 (2022-05-24)
 
 markdown: Annotate methods of `Registry` (#7926)
