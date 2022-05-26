@@ -1,3 +1,7 @@
+## 2.27.28 (2022-05-26)
+
+requests: allow immutable headers (#7932)
+
 ## 2.27.27 (2022-05-19)
 
 Fix requests.Session().hooks (#7871)
