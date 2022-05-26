@@ -1,3 +1,7 @@
+## 1.4.35 (2022-05-26)
+
+Third-party stubs: fix several fictitious type aliases (#7958)
+
 ## 1.4.34 (2022-05-10)
 
 Update testing_engine() annotations (#7818)

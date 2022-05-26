@@ -1,3 +1,7 @@
+## 2.9.9 (2022-05-26)
+
+Third-party stubs: fix several fictitious type aliases (#7958)
+
 ## 2.9.8 (2022-04-16)
 
 Use `TypeAlias` where possible for type aliases (#7630)

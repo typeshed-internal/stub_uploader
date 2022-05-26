@@ -1,3 +1,9 @@
+## 4.2.6 (2022-05-26)
+
+redis: Fix unconstrained TypeVars in a few redis commands (#7942)
+
+Part of #7928
+
 ## 4.2.5 (2022-05-21)
 
 Simplify and correct many numeric unions (#7906)

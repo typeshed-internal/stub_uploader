@@ -1,3 +1,7 @@
+## 9.0.17 (2022-05-26)
+
+Third-party stubs: fix several fictitious type aliases (#7958)
+
 ## 9.0.16 (2022-05-25)
 
 `Pillow`: use union type for `Image.paste` (#7893)

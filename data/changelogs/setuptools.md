@@ -1,3 +1,7 @@
+## 57.4.17 (2022-05-26)
+
+Third-party stubs: fix several fictitious type aliases (#7958)
+
 ## 57.4.16 (2022-05-25)
 
 pkg_resources: Fix unconstrained TypeVars (#7941)

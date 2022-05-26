@@ -1,3 +1,7 @@
+## 1.11.3 (2022-05-26)
+
+Third-party stubs: fix several fictitious type aliases (#7958)
+
 ## 1.11.2 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)

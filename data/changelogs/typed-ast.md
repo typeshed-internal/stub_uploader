@@ -1,3 +1,7 @@
+## 1.5.6 (2022-05-26)
+
+Third-party stubs: fix several fictitious type aliases (#7958)
+
 ## 1.5.5 (2022-05-21)
 
 Simplify and correct many numeric unions (#7906)

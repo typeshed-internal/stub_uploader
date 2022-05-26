@@ -1,3 +1,7 @@
+## 2.27.29 (2022-05-26)
+
+Third-party stubs: fix several fictitious type aliases (#7958)
+
 ## 2.27.28 (2022-05-26)
 
 requests: allow immutable headers (#7932)

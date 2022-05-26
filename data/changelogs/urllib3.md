@@ -1,3 +1,7 @@
+## 1.26.15 (2022-05-26)
+
+Third-party stubs: fix several fictitious type aliases (#7958)
+
 ## 1.26.14 (2022-04-29)
 
 Delete python 2 branches from third-party stubs (#7741)
