@@ -1,3 +1,7 @@
+## 9.0.18 (2022-05-26)
+
+Pillow: Add missing image modes to `_Mode` type alias in `Image.pyi` stub (issue #7956) (#7960)
+
 ## 9.0.17 (2022-05-26)
 
 Third-party stubs: fix several fictitious type aliases (#7958)
