@@ -1,3 +1,7 @@
+## 3.0.3 (2022-05-27)
+
+`openpyxl`: annotate openpyxl.utils.cell stubs (#7969)
+
 ## 3.0.2 (2022-04-05)
 
 Mark many attributes as read-only properties (#7591)
