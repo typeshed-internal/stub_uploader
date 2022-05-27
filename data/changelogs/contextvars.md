@@ -1,3 +1,9 @@
+## 2.4.6 (2022-05-27)
+
+constructors: Fix defaulted TypeVars (#7965)
+
+From the list in https://github.com/microsoft/pyright/issues/3501
+
 ## 2.4.5 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)

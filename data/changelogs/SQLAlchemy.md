@@ -1,3 +1,9 @@
+## 1.4.36 (2022-05-27)
+
+constructors: Fix defaulted TypeVars (#7965)
+
+From the list in https://github.com/microsoft/pyright/issues/3501
+
 ## 1.4.35 (2022-05-26)
 
 Third-party stubs: fix several fictitious type aliases (#7958)
