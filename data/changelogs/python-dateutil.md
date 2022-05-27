@@ -1,3 +1,9 @@
+## 2.8.17 (2022-05-27)
+
+dateutil: Add dateutil.rrule.weekdays (#7968)
+
+Closes: #7946
+
 ## 2.8.16 (2022-05-19)
 
 Add return type for `dateutil.rrule._rrulestr.__call__`. (#7868)
