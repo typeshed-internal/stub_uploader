@@ -1,3 +1,10 @@
+## 4.4.5 (2022-05-27)
+
+Flesh out more of jsonschema stubs (#7950)
+
+Apply more detailed annotations to the format module and most of the
+exceptions module.
+
 ## 4.4.4 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)
