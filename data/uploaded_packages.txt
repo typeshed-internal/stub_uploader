@@ -46,6 +46,7 @@ types-cryptography
 types-dataclasses
 types-dateparser
 types-decorator
+types-dj-database-url
 types-docopt
 types-docutils
 types-editdistance
