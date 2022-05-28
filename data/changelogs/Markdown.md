@@ -1,3 +1,7 @@
+## 3.3.24 (2022-05-28)
+
+markdown: remove `__getattr__()` (#7962)
+
 ## 3.3.23 (2022-05-26)
 
 markdown: annotate `__deprecated__` (#7955)
