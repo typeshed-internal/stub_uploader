@@ -1,3 +1,7 @@
+## 4.4.6 (2022-05-29)
+
+jsonschema: {relative,absolute}_path can hold ints (#7980)
+
 ## 4.4.5 (2022-05-27)
 
 Flesh out more of jsonschema stubs (#7950)
