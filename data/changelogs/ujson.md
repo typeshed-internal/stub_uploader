@@ -1,3 +1,7 @@
+## 5.2.0 (2022-05-30)
+
+ujson: add JSONDecodeError (#7988)
+
 ## 4.2.0 (2021-10-12)
 
 Update remaining versions for third-party stubs (#6094)
