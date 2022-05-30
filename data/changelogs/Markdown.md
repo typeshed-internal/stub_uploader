@@ -1,3 +1,7 @@
+## 3.3.25 (2022-05-30)
+
+markdown: annotate `Registry.__len__()`. (#7986)
+
 ## 3.3.24 (2022-05-28)
 
 markdown: remove `__getattr__()` (#7962)

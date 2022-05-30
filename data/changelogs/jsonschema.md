@@ -1,3 +1,12 @@
+## 4.4.7 (2022-05-30)
+
+Fix jsonschema exception str|int containers (#7981)
+
+schema_path, relative_schema_path, and absolute_schema_path are all
+(related) attributes of `jsonschema` errors which contain `str | int`
+but were accidentally annotated as containing `str`. Fix them for
+accuracy.
+
 ## 4.4.6 (2022-05-29)
 
 jsonschema: {relative,absolute}_path can hold ints (#7980)

@@ -1,3 +1,9 @@
+## 2.9.15 (2022-05-30)
+
+psycopg2: Fix the return type of Composable.as_string (#7984)
+
+Signed-off-by: Zixuan James Li <359101898@qq.com>
+
 ## 2.9.14 (2022-05-21)
 
 Annotations for psycopg2.ConnectionInfo (#7834)
