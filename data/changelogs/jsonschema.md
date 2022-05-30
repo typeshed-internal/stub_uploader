@@ -1,3 +1,17 @@
+## 4.4.8 (2022-05-30)
+
+Fix exception types for jsonschema._format (#7990)
+
+The annotated type for the `raises` argument on format checkers was
+
+    Exception | tuple[Exception, ...]
+
+when it should read
+
+    type[Exception] | tuple[type[Exception], ...]
+
+Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
+
 ## 4.4.7 (2022-05-30)
 
 Fix jsonschema exception str|int containers (#7981)
