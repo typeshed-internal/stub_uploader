@@ -1,3 +1,7 @@
+## 3.3.26 (2022-05-31)
+
+markdown: add `Markdown.registeredExtensions` (#7997)
+
 ## 3.3.25 (2022-05-30)
 
 markdown: annotate `Registry.__len__()`. (#7986)
