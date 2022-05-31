@@ -1,3 +1,9 @@
+## 0.9.1 (2022-05-31)
+
+caldav: add verify_expand to Calendar.date_search (#7996)
+
+Co-authored-by: hauntsaninja <>
+
 ## 0.9.0 (2022-04-28)
 
 Update caldav stubs for 0.9 (#7734)
