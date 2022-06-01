@@ -1,3 +1,7 @@
+## 3.3.27 (2022-06-01)
+
+markdown: remove `INSTALLED_EXTENSIONS`. (#8002)
+
 ## 3.3.26 (2022-05-31)
 
 markdown: add `Markdown.registeredExtensions` (#7997)

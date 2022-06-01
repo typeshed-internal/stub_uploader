@@ -1,3 +1,9 @@
+## 1.4.37 (2022-06-01)
+
+SQLAlchemy 1.4.37 fixes (#8003)
+
+Closes: #8001
+
 ## 1.4.36 (2022-05-27)
 
 constructors: Fix defaulted TypeVars (#7965)
