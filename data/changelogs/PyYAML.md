@@ -1,3 +1,7 @@
+## 6.0.8 (2022-06-01)
+
+PyYAML: Add types to `add_constructor` (#7989)
+
 ## 6.0.7 (2022-04-20)
 
 Use `TypeAlias` for type aliases where possible, part II (#7667)
