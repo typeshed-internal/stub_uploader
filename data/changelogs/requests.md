@@ -1,3 +1,7 @@
+## 2.27.30 (2022-06-01)
+
+requests: expand types for files (#7999)
+
 ## 2.27.29 (2022-05-26)
 
 Third-party stubs: fix several fictitious type aliases (#7958)
