@@ -1,3 +1,9 @@
+## 2.59.10 (2022-06-03)
+
+`stripe`: update a few signatures (#7978)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 2.59.9 (2022-04-16)
 
 Use `TypeAlias` where possible for type aliases (#7630)
