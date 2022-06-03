@@ -1,3 +1,12 @@
+## 2.9.16 (2022-06-03)
+
+psycopg2: stub improvements (#7964)
+
+Fixes an entry from #7928 along with a number of other improvements.
+
+I went off the C code:
+https://github.com/psycopg/psycopg2/blob/master/psycopg/connection_type.c
+
 ## 2.9.15 (2022-05-30)
 
 psycopg2: Fix the return type of Composable.as_string (#7984)
