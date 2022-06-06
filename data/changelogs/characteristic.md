@@ -1,3 +1,7 @@
+## 14.3.6 (2022-06-06)
+
+Always use `TypeAlias` when assigning to `Any` (#8021)
+
 ## 14.3.5 (2022-05-07)
 
 Import generics from standard modules in all third-party stubs (#7791)

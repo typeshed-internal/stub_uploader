@@ -1,3 +1,7 @@
+## 5.8.23 (2022-06-06)
+
+Always use `TypeAlias` when assigning to `Any` (#8021)
+
 ## 5.8.22 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)

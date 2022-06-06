@@ -1,3 +1,7 @@
+## 2.9.10 (2022-06-06)
+
+Always use `TypeAlias` when assigning to `Any` (#8021)
+
 ## 2.9.9 (2022-05-26)
 
 Third-party stubs: fix several fictitious type aliases (#7958)

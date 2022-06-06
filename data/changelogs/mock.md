@@ -1,3 +1,7 @@
+## 4.0.15 (2022-06-06)
+
+Always use `TypeAlias` when assigning to `Any` (#8021)
+
 ## 4.0.14 (2022-05-25)
 
 mock: Fix unconstrained TypeVar (#7945)

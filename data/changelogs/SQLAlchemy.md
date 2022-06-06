@@ -1,3 +1,7 @@
+## 1.4.38 (2022-06-06)
+
+Always use `TypeAlias` when assigning to `Any` (#8021)
+
 ## 1.4.37 (2022-06-01)
 
 SQLAlchemy 1.4.37 fixes (#8003)

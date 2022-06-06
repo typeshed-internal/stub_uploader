@@ -1,3 +1,7 @@
+## 3.0.4 (2022-06-06)
+
+Always use `TypeAlias` when assigning to `Any` (#8021)
+
 ## 3.0.3 (2022-05-27)
 
 `openpyxl`: annotate openpyxl.utils.cell stubs (#7969)
