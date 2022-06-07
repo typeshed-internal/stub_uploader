@@ -71,7 +71,7 @@ setup(name=name,
 ).lstrip()
 
 NO_LONGER_UPDATED_TEMPLATE = """
-*Note:* The `types-{distribution}` is obsolete and unmaintained.
+*Note:* The `types-{distribution}` is unmaintained and won't be updated.
 """.lstrip()
 
 OBSOLETE_SINCE_TEXT_TEMPLATE = """
