@@ -70,7 +70,7 @@ setup(name=name,
 """
 ).lstrip()
 
-OBSOLETE_TEXT_TEMPLATE = """
+NO_LONGER_UPDATED_TEMPLATE = """
 *Note:* The `types-{distribution}` is obsolete and unmaintained.
 """.lstrip()
 
@@ -334,8 +334,8 @@ def generate_long_description(
                 distribution=distribution, obsolete_since=metadata["obsolete_since"]
             )
         )
-    elif metadata.get("obsolete", False):
-        parts.append(OBSOLETE_TEXT_TEMPLATE.format(distribution=distribution))
+    elif metadata.get("no_longer_updated", False):
+        parts.append(NO_LONGER_UPDATED_TEMPLATE.format(distribution=distribution))
     parts.append(DESCRIPTION_OUTRO_TEMPLATE.format(commit=commit))
     return "\n\n".join(parts)
 
