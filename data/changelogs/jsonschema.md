@@ -1,3 +1,7 @@
+## 4.4.9 (2022-06-07)
+
+`jsonschema`: mark type alias explicitly (#8024)
+
 ## 4.4.8 (2022-05-30)
 
 Fix exception types for jsonschema._format (#7990)
