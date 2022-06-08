@@ -1,3 +1,7 @@
+## 1.1.3 (2022-06-08)
+
+`dateparser`: Remove redundant import of `_typeshed.Self` (#8041)
+
 ## 1.1.2 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)
