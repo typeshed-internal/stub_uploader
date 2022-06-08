@@ -1,3 +1,9 @@
+## 3.0.0 (2022-06-08)
+
+Update xxhash (#8034)
+
+Co-authored-by: hauntsaninja <>
+
 ## 2.0.5 (2022-04-29)
 
 Delete python 2 branches from third-party stubs (#7741)
