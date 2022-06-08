@@ -1,3 +1,9 @@
+## 14.3.7 (2022-06-08)
+
+Mark characteristic as no longer updated (#8038)
+
+Part of #8012
+
 ## 14.3.6 (2022-06-06)
 
 Always use `TypeAlias` when assigning to `Any` (#8021)
