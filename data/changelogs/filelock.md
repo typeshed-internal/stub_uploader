@@ -1,3 +1,7 @@
+## 3.2.7 (2022-06-09)
+
+filelock: mark as obsolete since 3.3.0 (#8043)
+
 ## 3.2.6 (2022-05-21)
 
 Simplify and correct many numeric unions (#7906)

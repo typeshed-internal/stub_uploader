@@ -1,3 +1,9 @@
+## 1.1.10 (2022-06-09)
+
+freezegun: mark as obsolete since 1.2.1 (#8042)
+
+Linking #5842
+
 ## 1.1.9 (2022-04-16)
 
 Use `TypeAlias` where possible for type aliases (#7630)

@@ -1,3 +1,13 @@
+## 2.0.9 (2022-06-09)
+
+frozendict: mark as obsolete since 2.2.0 (#8044)
+
+It has shipped with a py.typed file since v.2.2.0 in January: https://github.com/Marco-Sulla/python-frozendict/commit/7fcdd3aa990aa323fbcecea4b33733468c97cc27
+
+It can be removed come July 15
+
+Co-authored-by: hauntsaninja <>
+
 ## 2.0.8 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)
