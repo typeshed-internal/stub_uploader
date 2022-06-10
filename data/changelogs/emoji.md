@@ -1,3 +1,7 @@
+## 1.7.1 (2022-06-10)
+
+Add stub for emoji.is_emoji (#8053)
+
 ## 1.7.0 (2022-05-22)
 
 Update emoji stubs for version 1.7 (#7884)
