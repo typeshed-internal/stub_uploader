@@ -1,3 +1,7 @@
+## 0.19.0 (2022-06-13)
+
+[stubsabot] Bump flake8-simplify to 0.19.* (#8052)
+
 ## 0.18.1 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)
