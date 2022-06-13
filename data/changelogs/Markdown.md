@@ -1,3 +1,7 @@
+## 3.3.28 (2022-06-13)
+
+`markdown`: annotate `HtmlStash`. (#8067)
+
 ## 3.3.27 (2022-06-01)
 
 markdown: remove `INSTALLED_EXTENSIONS`. (#8002)
