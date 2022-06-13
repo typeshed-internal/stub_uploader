@@ -1,3 +1,7 @@
+## 1.16.16 (2022-06-13)
+
+Use `_typeshed.IdentityFunction` more consistently (#8063)
+
 ## 1.16.15 (2022-04-13)
 
 Add back six.moves.http_cookies.Morsel (#7617)

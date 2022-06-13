@@ -1,3 +1,7 @@
+## 0.4.19 (2022-06-13)
+
+Use `_typeshed.IdentityFunction` more consistently (#8063)
+
 ## 0.4.18 (2022-05-24)
 
 `mypy_extensions`: fix `TypeVar` usage (#7937)
