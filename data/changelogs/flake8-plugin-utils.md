@@ -1,3 +1,7 @@
+## 1.3.7 (2022-06-14)
+
+Fix miscellaneous invalid `TypeVar` usages (#8074)
+
 ## 1.3.6 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)
