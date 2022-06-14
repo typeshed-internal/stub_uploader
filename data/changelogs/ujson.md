@@ -1,3 +1,9 @@
+## 5.3.0 (2022-06-14)
+
+[stubsabot] Bump ujson to 5.3.* (#8078)
+
+Co-authored-by: hauntsaninja <>
+
 ## 5.2.0 (2022-05-30)
 
 ujson: add JSONDecodeError (#7988)
