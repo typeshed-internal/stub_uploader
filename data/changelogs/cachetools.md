@@ -1,3 +1,7 @@
+## 5.0.2 (2022-06-14)
+
+`cachetools`: Fix invalid `TypeVar` usage (#8073)
+
 ## 5.0.1 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)
