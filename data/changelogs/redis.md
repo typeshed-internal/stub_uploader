@@ -1,3 +1,7 @@
+## 4.2.7 (2022-06-15)
+
+`redis`: fix more unconstrained `TypeVar`s (#8084)
+
 ## 4.2.6 (2022-05-26)
 
 redis: Fix unconstrained TypeVars in a few redis commands (#7942)
