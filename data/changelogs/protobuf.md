@@ -1,3 +1,7 @@
+## 3.19.22 (2022-06-16)
+
+`protobuf`: Delete some `__new__` and `__init__` methods (#8088)
+
 ## 3.19.21 (2022-05-21)
 
 Simplify and correct many numeric unions (#7906)
