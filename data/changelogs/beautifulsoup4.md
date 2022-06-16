@@ -1,3 +1,7 @@
+## 4.11.2 (2022-06-16)
+
+Fix `TypeVar`s in `beautifulsoup` and `SQLAlchemy` (#8087)
+
 ## 4.11.1 (2022-05-10)
 
 beautifulsoup4: small fixes and updates (#7816)

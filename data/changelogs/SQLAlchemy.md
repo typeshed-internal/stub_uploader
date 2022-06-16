@@ -1,3 +1,9 @@
+## 1.4.39 (2022-06-16)
+
+Upgrade pyright, improve pyright config files (#8072)
+
+Fix `TypeVar`s in `beautifulsoup` and `SQLAlchemy` (#8087)
+
 ## 1.4.38 (2022-06-06)
 
 Always use `TypeAlias` when assigning to `Any` (#8021)
