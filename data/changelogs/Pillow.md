@@ -1,3 +1,12 @@
+## 9.0.20 (2022-06-17)
+
+Fix `box` parameter type of `Pillow.PIL.Image.paste` (#8090)
+
+When executing `img.paste(cropped, box=(10.5, 10.5))`:
+TypeError: 'float' object cannot be interpreted as an integer
+
+So the `box` parameter's type should be not `tuple[float, float]` but `tuple[int, int]`. (same as `_Box`)
+
 ## 9.0.19 (2022-05-27)
 
 Pillow: change `_Mode` type alias to `str` (#7967)
