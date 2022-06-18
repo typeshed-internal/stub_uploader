@@ -1,3 +1,9 @@
+## 2.11.0 (2022-06-18)
+
+[stubsabot] Bump paramiko to 2.11.* (#8091)
+
+Co-authored-by: hauntsaninja <>
+
 ## 2.10.0 (2022-05-02)
 
 Upgrade paramiko (#7766)

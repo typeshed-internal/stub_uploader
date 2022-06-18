@@ -1,3 +1,9 @@
+## 4.2.8 (2022-06-18)
+
+redis: remove duplicate allowlist entries (#8097)
+
+Co-authored-by: hauntsaninja <>
+
 ## 4.2.7 (2022-06-15)
 
 `redis`: fix more unconstrained `TypeVar`s (#8084)

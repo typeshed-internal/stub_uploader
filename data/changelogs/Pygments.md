@@ -1,3 +1,10 @@
+## 2.12.0 (2022-06-18)
+
+[stubsabot] Bump Pygments to 2.12.* (#8093)
+
+Co-authored-by: hauntsaninja <>
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+
 ## 2.9.19 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)
