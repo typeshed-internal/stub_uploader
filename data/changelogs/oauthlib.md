@@ -1,3 +1,7 @@
+## 3.2.0 (2022-06-18)
+
+Bump oauthlib to 3.2.* (#8081)
+
 ## 3.1.5 (2021-12-28)
 
 Use PEP 585 syntax wherever possible (#6717)
