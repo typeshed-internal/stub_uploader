@@ -1,3 +1,7 @@
+## 1.7.2 (2022-06-19)
+
+stubtest: use separate table in METADATA.toml (#8096)
+
 ## 1.7.1 (2022-04-01)
 
 Third-party stubs: Improve several `__exit__` methods (#7575)

@@ -1,3 +1,7 @@
+## 0.5.9 (2022-06-19)
+
+stubtest: use separate table in METADATA.toml (#8096)
+
 ## 0.5.8 (2022-04-28)
 
 jack: Fix MidiPort properties (#7730)

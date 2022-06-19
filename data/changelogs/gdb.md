@@ -1,3 +1,7 @@
+## 12.1.1 (2022-06-19)
+
+stubtest: use separate table in METADATA.toml (#8096)
+
 ## 12.1.0 (2022-06-15)
 
 Add stubs for "gdb" (#8013)

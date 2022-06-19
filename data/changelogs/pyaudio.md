@@ -1,3 +1,7 @@
+## 0.2.16 (2022-06-19)
+
+stubtest: use separate table in METADATA.toml (#8096)
+
 ## 0.2.15 (2022-05-21)
 
 Simplify and correct many numeric unions (#7906)

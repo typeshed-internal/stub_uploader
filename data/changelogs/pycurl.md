@@ -1,3 +1,7 @@
+## 7.44.9 (2022-06-19)
+
+stubtest: use separate table in METADATA.toml (#8096)
+
 ## 7.44.8 (2022-04-16)
 
 Python 3 stubs: use `str` instead of `typing.Text` (#7638)
