@@ -1,3 +1,7 @@
+## 4.3.0 (2022-06-20)
+
+Update redis stubs to 4.3 (#8108)
+
 ## 4.2.8 (2022-06-18)
 
 redis: remove duplicate allowlist entries (#8097)

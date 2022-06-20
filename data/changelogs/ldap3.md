@@ -1,3 +1,9 @@
+## 2.9.11 (2022-06-20)
+
+Overhaul `socket` stubs on Windows and MacOS (#8106)
+
+Reduce the `socket` allowlists for these platforms to a handful of missing constants
+
 ## 2.9.10 (2022-06-06)
 
 Always use `TypeAlias` when assigning to `Any` (#8021)
