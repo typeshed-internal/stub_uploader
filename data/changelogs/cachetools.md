@@ -1,3 +1,7 @@
+## 5.2.0 (2022-06-21)
+
+Update cachetools to 5.2.* (#8119)
+
 ## 5.0.2 (2022-06-14)
 
 `cachetools`: Fix invalid `TypeVar` usage (#8073)
