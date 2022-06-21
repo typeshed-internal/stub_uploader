@@ -1,3 +1,7 @@
+## 4.3.1 (2022-06-21)
+
+Rename some confusingly named type aliases (#8129)
+
 ## 4.3.0 (2022-06-20)
 
 Update redis stubs to 4.3 (#8108)
