@@ -1,3 +1,9 @@
+## 10.0.0 (2022-06-21)
+
+[stubsabot] Bump humanfriendly to 10.0.* (#8118)
+
+Co-authored-by: hauntsaninja <>
+
 ## 9.2.8 (2022-04-29)
 
 Delete python 2 branches from third-party stubs (#7741)

@@ -1,3 +1,7 @@
+## 2.1.0 (2022-06-21)
+
+Bump waitress to 2.1.* (#8113)
+
 ## 2.0.9 (2022-05-26)
 
 Third-party stubs: fix several fictitious type aliases (#7958)

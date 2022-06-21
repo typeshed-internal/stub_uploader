@@ -1,3 +1,7 @@
+## 1.7.0 (2022-06-21)
+
+Bump invoke to 1.7.* (#8111)
+
 ## 1.6.8 (2022-05-25)
 
 invoke: Fix unconstrained TypeVar (#7943)

@@ -1,3 +1,7 @@
+## 0.9.0 (2022-06-21)
+
+Bump parsimonious to 0.9.* (#8117)
+
 ## 0.8.5 (2022-05-07)
 
 Import generics from standard modules in all third-party stubs (#7791)

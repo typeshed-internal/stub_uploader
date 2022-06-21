@@ -1,3 +1,7 @@
+## 2.1.0 (2022-06-21)
+
+Bump mysqlclient to 2.1.* (#8116)
+
 ## 2.0.5 (2022-02-22)
 
 Correct several positional-only differences in third-party stubs (#7352)

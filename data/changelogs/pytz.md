@@ -1,3 +1,9 @@
+## 2022.1.0 (2022-06-21)
+
+[stubsabot] Bump pytz to 2022.1 (#8121)
+
+Co-authored-by: hauntsaninja <>
+
 ## 2021.3.8 (2022-05-07)
 
 Import generics from standard modules in all third-party stubs (#7791)
