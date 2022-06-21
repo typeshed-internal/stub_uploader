@@ -152,3 +152,4 @@ types-waitress
 types-whatthepatch
 types-xmltodict
 types-xxhash
+types-zxcvbn
