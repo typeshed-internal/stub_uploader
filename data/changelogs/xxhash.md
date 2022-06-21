@@ -1,3 +1,7 @@
+## 3.0.1 (2022-06-21)
+
+stubtest: per project --ignore-missing-stub (#8122)
+
 ## 3.0.0 (2022-06-08)
 
 Update xxhash (#8034)

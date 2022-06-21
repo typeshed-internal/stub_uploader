@@ -1,3 +1,7 @@
+## 2021.11.10.6 (2022-06-21)
+
+`requests`, `regex`: use re-exports instead of assignments in a few places (#8127)
+
 ## 2021.11.10.5 (2022-05-11)
 
 regex: accept buffers (#7680)

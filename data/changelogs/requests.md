@@ -1,3 +1,7 @@
+## 2.27.31 (2022-06-21)
+
+`requests`, `regex`: use re-exports instead of assignments in a few places (#8127)
+
 ## 2.27.30 (2022-06-01)
 
 requests: expand types for files (#7999)
