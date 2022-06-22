@@ -1,3 +1,7 @@
+## 0.8.10 (2022-06-22)
+
+tabulate: Add maxcolwidths arguments (#8132)
+
 ## 0.8.9 (2022-05-07)
 
 Import generics from standard modules in all third-party stubs (#7791)

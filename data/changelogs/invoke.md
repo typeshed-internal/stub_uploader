@@ -1,3 +1,7 @@
+## 1.7.1 (2022-06-22)
+
+Improve several `__hash__` methods (#8128)
+
 ## 1.7.0 (2022-06-21)
 
 Bump invoke to 1.7.* (#8111)

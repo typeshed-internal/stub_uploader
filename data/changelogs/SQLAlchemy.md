@@ -1,3 +1,7 @@
+## 1.4.40 (2022-06-22)
+
+Improve several `__hash__` methods (#8128)
+
 ## 1.4.39 (2022-06-16)
 
 Upgrade pyright, improve pyright config files (#8072)

@@ -1,3 +1,7 @@
+## 2.8.18 (2022-06-22)
+
+Improve several `__hash__` methods (#8128)
+
 ## 2.8.17 (2022-05-27)
 
 dateutil: Add dateutil.rrule.weekdays (#7968)
