@@ -1,3 +1,7 @@
+## 4.3.2 (2022-06-23)
+
+Improve `redis/asyncio/client.pyi` (#8141)
+
 ## 4.3.1 (2022-06-21)
 
 Rename some confusingly named type aliases (#8129)
