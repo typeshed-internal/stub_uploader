@@ -1,3 +1,7 @@
+## 1.4.41 (2022-06-25)
+
+Fix stubtest failures on `SQLAlchemy` (#8148)
+
 ## 1.4.40 (2022-06-22)
 
 Improve several `__hash__` methods (#8128)
