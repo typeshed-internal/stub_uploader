@@ -1,3 +1,7 @@
+## 6.0.9 (2022-06-25)
+
+PyYAML: check missing defs (#8159)
+
 ## 6.0.8 (2022-06-01)
 
 PyYAML: Add types to `add_constructor` (#7989)

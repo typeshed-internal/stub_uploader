@@ -1,3 +1,9 @@
+## 7.45.0 (2022-06-25)
+
+[stubsabot] Bump pycurl to 7.45.* (#8163)
+
+Co-authored-by: hauntsaninja <>
+
 ## 7.44.9 (2022-06-19)
 
 stubtest: use separate table in METADATA.toml (#8096)
