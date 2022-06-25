@@ -1,3 +1,9 @@
+## 5.0.0 (2022-06-25)
+
+[stubsabot] Bump chardet to 5.0.* (#8150)
+
+Co-authored-by: hauntsaninja <>
+
 ## 4.0.4 (2022-04-27)
 
 Drop Python 2 support from chardet (#7708)

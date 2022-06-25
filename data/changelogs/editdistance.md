@@ -1,3 +1,7 @@
+## 0.6.1 (2022-06-25)
+
+dj-database-url, docopt, editdistance, first: check missing defs (#8154)
+
 ## 0.6.0 (2022-06-21)
 
 [stubsabot] Bump editdistance to 0.6.* (#8120)

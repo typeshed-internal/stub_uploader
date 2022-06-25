@@ -1,3 +1,7 @@
+## 0.5.3 (2022-06-25)
+
+dj-database-url, docopt, editdistance, first: check missing defs (#8154)
+
 ## 0.5.2 (2022-06-01)
 
 `dj-database-url`: Add missing fields to `_DBConfig` TypedDict (#8008)

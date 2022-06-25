@@ -1,3 +1,9 @@
+## 0.4.0 (2022-06-25)
+
+[stubsabot] Bump entrypoints to 0.4.* (#8157)
+
+Co-authored-by: hauntsaninja <>
+
 ## 0.3.7 (2022-04-29)
 
 Delete python 2 branches from third-party stubs (#7741)

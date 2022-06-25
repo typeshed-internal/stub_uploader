@@ -1,3 +1,9 @@
+## 2.28.0 (2022-06-25)
+
+[stubsabot] Bump requests to 2.28.* (#8152)
+
+Co-authored-by: hauntsaninja <>
+
 ## 2.27.31 (2022-06-21)
 
 `requests`, `regex`: use re-exports instead of assignments in a few places (#8127)

@@ -1,3 +1,9 @@
+## 0.12.2 (2022-06-25)
+
+appdirs, tabulate, termcolor, xmltodict: check missing defs (#8156)
+
+complete termcolor, xmltodict
+
 ## 0.12.1 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)

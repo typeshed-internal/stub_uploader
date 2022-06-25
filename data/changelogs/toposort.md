@@ -1,3 +1,9 @@
+## 1.7.4 (2022-06-25)
+
+ujson, pyfarmhash, toposort: check for missing definitions (#8153)
+
+Co-authored-by: hauntsaninja <>
+
 ## 1.7.3 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)

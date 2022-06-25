@@ -1,3 +1,7 @@
+## 0.6.11 (2022-06-25)
+
+dj-database-url, docopt, editdistance, first: check missing defs (#8154)
+
 ## 0.6.10 (2022-05-21)
 
 Add docopt.printable_usage (#7913)

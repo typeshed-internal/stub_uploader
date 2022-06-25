@@ -1,3 +1,9 @@
+## 0.8.11 (2022-06-25)
+
+appdirs, tabulate, termcolor, xmltodict: check missing defs (#8156)
+
+complete termcolor, xmltodict
+
 ## 0.8.10 (2022-06-22)
 
 tabulate: Add maxcolwidths arguments (#8132)
