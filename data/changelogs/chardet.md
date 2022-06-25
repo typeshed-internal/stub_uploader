@@ -1,3 +1,7 @@
+## 5.0.1 (2022-06-25)
+
+chardet: improve stubs (#8155)
+
 ## 5.0.0 (2022-06-25)
 
 [stubsabot] Bump chardet to 5.0.* (#8150)
