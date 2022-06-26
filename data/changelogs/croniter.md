@@ -1,3 +1,9 @@
+## 1.0.11 (2022-06-26)
+
+Check missing definitions for several packages (#8167)
+
+Co-authored-by: hauntsaninja <>
+
 ## 1.0.10 (2022-04-27)
 
 Drop Python 2 support from croniter (#7705)

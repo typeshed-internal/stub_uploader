@@ -1,3 +1,9 @@
+## 0.4.20 (2022-06-26)
+
+Check missing definitions for several packages (#8167)
+
+Co-authored-by: hauntsaninja <>
+
 ## 0.4.19 (2022-06-13)
 
 Use `_typeshed.IdentityFunction` more consistently (#8063)

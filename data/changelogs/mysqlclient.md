@@ -1,3 +1,9 @@
+## 2.1.1 (2022-06-26)
+
+Check missing definitions for several packages (#8167)
+
+Co-authored-by: hauntsaninja <>
+
 ## 2.1.0 (2022-06-21)
 
 Bump mysqlclient to 2.1.* (#8116)

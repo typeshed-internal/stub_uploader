@@ -1,3 +1,9 @@
+## 0.9.8 (2022-06-26)
+
+Check missing definitions for several packages (#8167)
+
+Co-authored-by: hauntsaninja <>
+
 ## 0.9.7 (2022-05-07)
 
 Import generics from standard modules in all third-party stubs (#7791)

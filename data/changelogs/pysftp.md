@@ -1,3 +1,9 @@
+## 0.2.15 (2022-06-26)
+
+Check missing definitions for several packages (#8167)
+
+Co-authored-by: hauntsaninja <>
+
 ## 0.2.14 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)

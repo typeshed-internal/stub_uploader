@@ -1,3 +1,9 @@
+## 4.1.1 (2022-06-26)
+
+Check missing definitions for several packages (#8167)
+
+Co-authored-by: hauntsaninja <>
+
 ## 4.1.0 (2022-01-14)
 
 Add get_localzone_name to tzlocal (#6912)

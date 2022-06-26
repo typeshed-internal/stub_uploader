@@ -1,3 +1,9 @@
+## 2.4.7 (2022-06-26)
+
+Check missing definitions for several packages (#8167)
+
+Co-authored-by: hauntsaninja <>
+
 ## 2.4.6 (2022-05-27)
 
 constructors: Fix defaulted TypeVars (#7965)

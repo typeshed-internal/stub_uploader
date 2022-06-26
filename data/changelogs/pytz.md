@@ -1,3 +1,9 @@
+## 2022.1.1 (2022-06-26)
+
+Check missing definitions for several packages (#8167)
+
+Co-authored-by: hauntsaninja <>
+
 ## 2022.1.0 (2022-06-21)
 
 [stubsabot] Bump pytz to 2022.1 (#8121)

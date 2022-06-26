@@ -1,3 +1,9 @@
+## 1.7.2 (2022-06-26)
+
+emoji: complete stubs (#8170)
+
+Co-authored-by: hauntsaninja <>
+
 ## 1.7.1 (2022-06-10)
 
 Add stub for emoji.is_emoji (#8053)

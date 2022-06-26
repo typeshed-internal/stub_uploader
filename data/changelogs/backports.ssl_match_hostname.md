@@ -1,3 +1,9 @@
+## 3.7.4 (2022-06-26)
+
+Check missing definitions for several packages (#8167)
+
+Co-authored-by: hauntsaninja <>
+
 ## 3.7.3 (2022-04-27)
 
 Drop Python 2 support in third-party stubs (#7703)

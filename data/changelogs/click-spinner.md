@@ -1,3 +1,9 @@
+## 0.1.12 (2022-06-26)
+
+Check missing definitions for several packages (#8167)
+
+Co-authored-by: hauntsaninja <>
+
 ## 0.1.11 (2022-04-27)
 
 Drop Python 2 support from click-spinner (#7710)

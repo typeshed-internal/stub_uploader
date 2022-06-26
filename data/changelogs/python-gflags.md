@@ -1,3 +1,9 @@
+## 3.1.6 (2022-06-26)
+
+Check missing definitions for several packages (#8167)
+
+Co-authored-by: hauntsaninja <>
+
 ## 3.1.5 (2022-04-27)
 
 Drop Python 2 support from python-gflags (#7709)
