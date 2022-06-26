@@ -1,3 +1,12 @@
+## 2.9.0 (2022-06-26)
+
+[stubsabot] Bump aws-xray-sdk to 2.9.* (#8180)
+
+* [stubsabot] Bump aws-xray-sdk to 2.9.*
+
+Co-authored-by: hauntsaninja <>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 2.8.5 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)

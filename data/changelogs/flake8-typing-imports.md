@@ -1,3 +1,9 @@
+## 1.12.0 (2022-06-26)
+
+[stubsabot] Bump flake8-typing-imports to 1.12.* (#8179)
+
+Co-authored-by: hauntsaninja <>
+
 ## 1.11.3 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)
