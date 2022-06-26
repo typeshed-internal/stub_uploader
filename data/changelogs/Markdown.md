@@ -1,3 +1,9 @@
+## 3.3.29 (2022-06-26)
+
+Markdown: Fix BlockProcessor method return types (#8166)
+
+Signed-off-by: Anders Kaseorg <andersk@mit.edu>
+
 ## 3.3.28 (2022-06-13)
 
 `markdown`: annotate `HtmlStash`. (#8067)
