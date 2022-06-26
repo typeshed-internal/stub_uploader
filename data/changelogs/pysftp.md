@@ -1,3 +1,7 @@
+## 0.2.16 (2022-06-26)
+
+Third-party stubs: audit `Callable[<parameters>, None]` annotations (#8175)
+
 ## 0.2.15 (2022-06-26)
 
 Check missing definitions for several packages (#8167)

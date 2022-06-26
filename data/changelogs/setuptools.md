@@ -1,3 +1,7 @@
+## 57.4.18 (2022-06-26)
+
+Third-party stubs: audit `Callable[<parameters>, None]` annotations (#8175)
+
 ## 57.4.17 (2022-05-26)
 
 Third-party stubs: fix several fictitious type aliases (#7958)

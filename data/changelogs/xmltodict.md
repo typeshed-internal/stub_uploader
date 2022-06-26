@@ -1,3 +1,7 @@
+## 0.13.0 (2022-06-26)
+
+Bump xmltodict to 0.13.* (#8172)
+
 ## 0.12.2 (2022-06-25)
 
 appdirs, tabulate, termcolor, xmltodict: check missing defs (#8156)

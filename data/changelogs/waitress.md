@@ -1,3 +1,7 @@
+## 2.1.1 (2022-06-26)
+
+Third-party stubs: audit `Callable[<parameters>, None]` annotations (#8175)
+
 ## 2.1.0 (2022-06-21)
 
 Bump waitress to 2.1.* (#8113)

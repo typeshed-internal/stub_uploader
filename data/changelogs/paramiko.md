@@ -1,3 +1,7 @@
+## 2.11.1 (2022-06-26)
+
+Third-party stubs: audit `Callable[<parameters>, None]` annotations (#8175)
+
 ## 2.11.0 (2022-06-18)
 
 [stubsabot] Bump paramiko to 2.11.* (#8091)

@@ -1,3 +1,11 @@
+## 1.2.6 (2022-06-26)
+
+DateTimeRange: complete stubs (#8168)
+
+Co-authored-by: hauntsaninja <>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 1.2.5 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)

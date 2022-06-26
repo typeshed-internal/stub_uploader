@@ -1,3 +1,7 @@
+## 1.7.3 (2022-06-26)
+
+Third-party stubs: audit `Callable[<parameters>, None]` annotations (#8175)
+
 ## 1.7.2 (2022-06-19)
 
 stubtest: use separate table in METADATA.toml (#8096)

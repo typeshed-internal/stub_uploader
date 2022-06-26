@@ -1,3 +1,9 @@
+## 0.7.0 (2022-06-26)
+
+[stubsabot] Bump python-nmap to 0.7.* (#8174)
+
+Co-authored-by: hauntsaninja <>
+
 ## 0.6.7 (2022-04-27)
 
 Drop Python 2 support from python-nmap (#7706)

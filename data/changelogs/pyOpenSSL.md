@@ -1,3 +1,7 @@
+## 22.0.4 (2022-06-26)
+
+Third-party stubs: audit `Callable[<parameters>, None]` annotations (#8175)
+
 ## 22.0.3 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)

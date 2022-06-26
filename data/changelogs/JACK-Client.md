@@ -1,3 +1,9 @@
+## 0.5.10 (2022-06-26)
+
+`JACK-Client`: audit callback annotations (#8177)
+
+The returned values from these functions are all ignored at runtime.
+
 ## 0.5.9 (2022-06-19)
 
 stubtest: use separate table in METADATA.toml (#8096)
