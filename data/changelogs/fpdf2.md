@@ -1,3 +1,9 @@
+## 2.4.9 (2022-06-26)
+
+fpdf2: improve types (#8176)
+
+Co-authored-by: hauntsaninja <>
+
 ## 2.4.8 (2022-04-16)
 
 Use `TypeAlias` where possible for type aliases (#7630)

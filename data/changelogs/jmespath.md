@@ -1,3 +1,9 @@
+## 1.0.0 (2022-06-26)
+
+[stubsabot] Bump jmespath to 1.0.* (#8183)
+
+Co-authored-by: hauntsaninja <>
+
 ## 0.10.3 (2022-06-26)
 
 Check missing definitions for several packages (#8167)

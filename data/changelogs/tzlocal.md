@@ -1,3 +1,9 @@
+## 4.2.0 (2022-06-26)
+
+[stubsabot] Bump tzlocal to 4.2 (#8184)
+
+Co-authored-by: hauntsaninja <>
+
 ## 4.1.1 (2022-06-26)
 
 Check missing definitions for several packages (#8167)

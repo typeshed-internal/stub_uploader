@@ -1,3 +1,7 @@
+## 1.3.0 (2022-06-26)
+
+[stubsabot] Bump croniter to 1.3.* (#8185)
+
 ## 1.0.11 (2022-06-26)
 
 Check missing definitions for several packages (#8167)
