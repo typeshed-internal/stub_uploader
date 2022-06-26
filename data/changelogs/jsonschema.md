@@ -1,3 +1,9 @@
+## 4.6.0 (2022-06-26)
+
+Bump jsonschema to 4.6.* (#8161)
+
+Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
+
 ## 4.4.9 (2022-06-07)
 
 `jsonschema`: mark type alias explicitly (#8024)

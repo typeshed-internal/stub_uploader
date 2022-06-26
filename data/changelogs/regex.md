@@ -1,3 +1,9 @@
+## 2022.6.2.0 (2022-06-26)
+
+Bump regex to 2022.6.2 (#8162)
+
+Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
+
 ## 2021.11.10.6 (2022-06-21)
 
 `requests`, `regex`: use re-exports instead of assignments in a few places (#8127)
