@@ -1,3 +1,7 @@
+## 2.49.16 (2022-06-28)
+
+Improve `boto` callbacks (#8201)
+
 ## 2.49.15 (2022-04-29)
 
 Delete python 2 branches from third-party stubs (#7741)
