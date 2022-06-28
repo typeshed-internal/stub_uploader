@@ -1,3 +1,9 @@
+## 4.3.3 (2022-06-28)
+
+Update redis stubs to 4.3.4 (#8199)
+
+Fixes #8196
+
 ## 4.3.2 (2022-06-23)
 
 Improve `redis/asyncio/client.pyi` (#8141)
