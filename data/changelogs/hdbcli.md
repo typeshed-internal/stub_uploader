@@ -1,3 +1,9 @@
+## 2.13.0 (2022-06-29)
+
+[stubsabot] Bump hdbcli to 2.13.* (#8206)
+
+Co-authored-by: hauntsaninja <>
+
 ## 2.10.7 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)

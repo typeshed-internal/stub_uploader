@@ -1,3 +1,11 @@
+## 2.5.0 (2022-06-29)
+
+Bump fpdf2 to 2.5.* (#8173)
+
+Co-authored-by: hauntsaninja <>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## 2.4.9 (2022-06-26)
 
 fpdf2: improve types (#8176)

@@ -1,3 +1,7 @@
+## 6.1.0 (2022-06-29)
+
+[stubsabot] Bump python-slugify to 6.1.* (#8208)
+
 ## 5.0.4 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)
