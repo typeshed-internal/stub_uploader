@@ -1,3 +1,9 @@
+## 5.9.0 (2022-07-01)
+
+[stubsabot] Bump psutil to 5.9.* (#8213)
+
+Co-authored-by: hauntsaninja <>
+
 ## 5.8.23 (2022-06-06)
 
 Always use `TypeAlias` when assigning to `Any` (#8021)

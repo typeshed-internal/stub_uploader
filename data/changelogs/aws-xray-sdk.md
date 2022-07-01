@@ -1,3 +1,9 @@
+## 2.10.0 (2022-07-01)
+
+[stubsabot] Bump aws-xray-sdk to 2.10.* (#8221)
+
+Co-authored-by: hauntsaninja <>
+
 ## 2.9.0 (2022-06-26)
 
 [stubsabot] Bump aws-xray-sdk to 2.9.* (#8180)

@@ -1,3 +1,13 @@
+## 3.5.0 (2022-07-01)
+
+[stubsabot] Bump stripe to 3.5.* (#8223)
+
+Co-authored-by: hauntsaninja <>
+
+[stubsabot] Bump stripe to 3.4.* (#8212)
+
+Co-authored-by: hauntsaninja <>
+
 ## 2.59.10 (2022-06-03)
 
 `stripe`: update a few signatures (#7978)

@@ -1,3 +1,7 @@
+## 2.10.0 (2022-07-01)
+
+[stubsabot] Bump babel to 2.10.* (#8222)
+
 ## 2.9.12 (2022-04-27)
 
 Add various missing generic arguments (#7702)
