@@ -1,3 +1,7 @@
+## 2.5.1 (2022-07-04)
+
+Fix size parameter of FPDF.set_font_size (#8234)
+
 ## 2.5.0 (2022-06-29)
 
 Bump fpdf2 to 2.5.* (#8173)
