@@ -1,3 +1,7 @@
+## 0.7.1 (2022-07-04)
+
+Third-party stubs: audit more `Callable[<parameters>, Any]` annotations (#8233)
+
 ## 0.7.0 (2022-06-26)
 
 [stubsabot] Bump python-nmap to 0.7.* (#8174)

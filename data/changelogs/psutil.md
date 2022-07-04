@@ -1,3 +1,7 @@
+## 5.9.1 (2022-07-04)
+
+Third-party stubs: audit more `Callable[<parameters>, Any]` annotations (#8233)
+
 ## 5.9.0 (2022-07-01)
 
 [stubsabot] Bump psutil to 5.9.* (#8213)

@@ -1,3 +1,7 @@
+## 2.4.10 (2022-07-04)
+
+Third-party stubs: audit more `Callable[<parameters>, Any]` annotations (#8233)
+
 ## 2.4.9 (2022-05-21)
 
 Simplify and correct many numeric unions (#7906)

@@ -1,3 +1,7 @@
+## 2.10.1 (2022-07-04)
+
+Third-party stubs: audit more `Callable[<parameters>, Any]` annotations (#8233)
+
 ## 2.10.0 (2022-07-01)
 
 [stubsabot] Bump aws-xray-sdk to 2.10.* (#8221)

@@ -1,3 +1,12 @@
+## 9.2.0 (2022-07-04)
+
+[stubsabot] Bump Pillow to 9.2.* (#8226)
+
+Improve`_Color` type alias of `PIL.Image` (#8210)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 9.0.20 (2022-06-17)
 
 Fix `box` parameter type of `Pillow.PIL.Image.paste` (#8090)

@@ -1,3 +1,7 @@
+## 1.16.17 (2022-07-04)
+
+Third-party stubs: audit more `Callable[<parameters>, Any]` annotations (#8233)
+
 ## 1.16.16 (2022-06-13)
 
 Use `_typeshed.IdentityFunction` more consistently (#8063)

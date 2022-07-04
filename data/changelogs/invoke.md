@@ -1,3 +1,7 @@
+## 1.7.2 (2022-07-04)
+
+Third-party stubs: audit more `Callable[<parameters>, Any]` annotations (#8233)
+
 ## 1.7.1 (2022-06-22)
 
 Improve several `__hash__` methods (#8128)

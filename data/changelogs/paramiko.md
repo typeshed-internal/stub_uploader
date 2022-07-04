@@ -1,3 +1,7 @@
+## 2.11.2 (2022-07-04)
+
+Third-party stubs: audit more `Callable[<parameters>, Any]` annotations (#8233)
+
 ## 2.11.1 (2022-06-26)
 
 Third-party stubs: audit `Callable[<parameters>, None]` annotations (#8175)
