@@ -141,6 +141,7 @@ types-termcolor
 types-toml
 types-toposort
 types-tornado
+types-tqdm
 types-ttkthemes
 types-typed-ast
 types-typing-extensions
