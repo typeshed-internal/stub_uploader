@@ -1,3 +1,9 @@
+## 2.12.1 (2022-07-05)
+
+Pygments: add pygments.__version__ (#8241)
+
+Signed-off-by: Anders Kaseorg <andersk@mit.edu>
+
 ## 2.12.0 (2022-06-18)
 
 [stubsabot] Bump Pygments to 2.12.* (#8093)
