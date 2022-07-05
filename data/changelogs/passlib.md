@@ -1,3 +1,7 @@
+## 1.7.6 (2022-07-05)
+
+Improve passlib CryptContext typing (#8237)
+
 ## 1.7.5 (2022-04-05)
 
 Mark many attributes as read-only properties (#7591)
