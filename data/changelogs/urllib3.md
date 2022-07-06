@@ -1,3 +1,7 @@
+## 1.26.16 (2022-07-06)
+
+Annotate `urllib3.disable_warnings` (#8245)
+
 ## 1.26.15 (2022-05-26)
 
 Third-party stubs: fix several fictitious type aliases (#7958)
