@@ -1,3 +1,12 @@
+## 0.8.9 (2022-07-06)
+
+Add missing aiofiles.tempfile classes (#7523)
+
+Fixes: #6524
+
+Co-authored-by: Andrej Shadura <andrew.shadura@collabora.co.uk>
+Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
+
 ## 0.8.8 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)
