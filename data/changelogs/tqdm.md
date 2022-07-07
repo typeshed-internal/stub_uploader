@@ -1,3 +1,7 @@
+## 4.64.1 (2022-07-07)
+
+Improve `tqdm.contrib.logging` context managers (#8251)
+
 ## 4.64.0 (2022-07-05)
 
 Add stubs for `tqdm` (#8235)

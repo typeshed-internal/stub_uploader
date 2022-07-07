@@ -1,3 +1,7 @@
+## 12.1.3 (2022-07-07)
+
+Fix various `TypeAlias` issues (#8248)
+
 ## 12.1.2 (2022-06-23)
 
 Various fixes in `gdb` (#8144)

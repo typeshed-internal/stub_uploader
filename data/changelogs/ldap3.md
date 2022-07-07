@@ -1,3 +1,7 @@
+## 2.9.12 (2022-07-07)
+
+Fix various `TypeAlias` issues (#8248)
+
 ## 2.9.11 (2022-06-20)
 
 Overhaul `socket` stubs on Windows and MacOS (#8106)

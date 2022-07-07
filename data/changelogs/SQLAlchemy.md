@@ -1,3 +1,10 @@
+## 1.4.42 (2022-07-07)
+
+Improve `SQLAlchemy` type aliases (#8252)
+
+* Remove `sqlalchemy.dbapi` (in favor of `_typeshed.dbapi`).
+* Don't re-export mypy imports from `sqlalchemy.ext.mypy.*`.
+
 ## 1.4.41 (2022-06-25)
 
 Fix stubtest failures on `SQLAlchemy` (#8148)

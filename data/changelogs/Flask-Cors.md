@@ -1,3 +1,7 @@
+## 3.0.9 (2022-07-07)
+
+Fix various `TypeAlias` issues (#8248)
+
 ## 3.0.8 (2022-05-07)
 
 Import generics from standard modules in all third-party stubs (#7791)
