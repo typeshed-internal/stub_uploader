@@ -1,3 +1,7 @@
+## 1.0.1 (2022-07-07)
+
+Annotate `jmespath` public API (#8253)
+
 ## 1.0.0 (2022-06-26)
 
 [stubsabot] Bump jmespath to 1.0.* (#8183)
