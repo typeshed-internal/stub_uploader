@@ -1,3 +1,7 @@
+## 1.4.43 (2022-07-08)
+
+Add Session annotation for sessionmaker call (#8257)
+
 ## 1.4.42 (2022-07-07)
 
 Improve `SQLAlchemy` type aliases (#8252)
