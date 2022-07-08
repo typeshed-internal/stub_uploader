@@ -1,3 +1,9 @@
+## 5.4.0 (2022-07-08)
+
+[stubsabot] Bump ujson to 5.4.* (#8259)
+
+Co-authored-by: hauntsaninja <>
+
 ## 5.3.1 (2022-06-25)
 
 ujson, pyfarmhash, toposort: check for missing definitions (#8153)

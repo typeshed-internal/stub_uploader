@@ -1,3 +1,7 @@
+## 0.19.0 (2022-07-08)
+
+[stubsabot] Bump docutils to 0.19.* (#8260)
+
 ## 0.18.3 (2022-04-20)
 
 Use `TypeAlias` for type aliases where possible, part II (#7667)

@@ -1,3 +1,9 @@
+## 62.6.0 (2022-07-08)
+
+[stubsabot] Bump setuptools to 62.6.* (#8224)
+
+Most of setuptools.config is not included as the module is deprecated.
+
 ## 57.4.18 (2022-06-26)
 
 Third-party stubs: audit `Callable[<parameters>, None]` annotations (#8175)
