@@ -1,3 +1,7 @@
+## 2.9.17 (2022-07-11)
+
+Extend annotations for `psycopg2.sql` (#8263)
+
 ## 2.9.16 (2022-06-03)
 
 psycopg2: stub improvements (#7964)
