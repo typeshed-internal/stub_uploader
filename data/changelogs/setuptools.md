@@ -1,3 +1,7 @@
+## 62.6.1 (2022-07-11)
+
+Remove Python 3.6 branches from typeshed (#8269)
+
 ## 62.6.0 (2022-07-08)
 
 [stubsabot] Bump setuptools to 62.6.* (#8224)

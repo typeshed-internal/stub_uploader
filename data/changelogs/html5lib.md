@@ -1,3 +1,7 @@
+## 1.1.8 (2022-07-11)
+
+Remove Python 3.6 branches from typeshed (#8269)
+
 ## 1.1.7 (2022-04-16)
 
 Use `TypeAlias` where possible for type aliases (#7630)

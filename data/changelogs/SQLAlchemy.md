@@ -1,3 +1,7 @@
+## 1.4.44 (2022-07-11)
+
+Remove Python 3.6 branches from typeshed (#8269)
+
 ## 1.4.43 (2022-07-08)
 
 Add Session annotation for sessionmaker call (#8257)
