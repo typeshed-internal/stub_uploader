@@ -1,3 +1,7 @@
+## 0.9.1 (2022-07-12)
+
+Import `Match` and `Pattern` from `re`, not `typing` (#8277)
+
 ## 0.9.0 (2022-06-21)
 
 Bump parsimonious to 0.9.* (#8117)

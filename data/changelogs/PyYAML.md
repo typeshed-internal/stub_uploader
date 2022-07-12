@@ -1,3 +1,7 @@
+## 6.0.10 (2022-07-12)
+
+Import `Match` and `Pattern` from `re`, not `typing` (#8277)
+
 ## 6.0.9 (2022-06-25)
 
 PyYAML: check missing defs (#8159)

@@ -1,3 +1,7 @@
+## 5.1.8 (2022-07-12)
+
+Import `Match` and `Pattern` from `re`, not `typing` (#8277)
+
 ## 5.1.7 (2022-04-29)
 
 Delete python 2 branches from third-party stubs (#7741)

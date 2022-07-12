@@ -1,3 +1,7 @@
+## 4.64.2 (2022-07-12)
+
+Import `Match` and `Pattern` from `re`, not `typing` (#8277)
+
 ## 4.64.1 (2022-07-07)
 
 Improve `tqdm.contrib.logging` context managers (#8251)

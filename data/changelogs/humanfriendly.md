@@ -1,3 +1,7 @@
+## 10.0.1 (2022-07-12)
+
+Import `Match` and `Pattern` from `re`, not `typing` (#8277)
+
 ## 10.0.0 (2022-06-21)
 
 [stubsabot] Bump humanfriendly to 10.0.* (#8118)

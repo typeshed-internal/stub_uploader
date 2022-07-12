@@ -1,3 +1,7 @@
+## 2.5.3 (2022-07-12)
+
+Import `Match` and `Pattern` from `re`, not `typing` (#8277)
+
 ## 2.5.2 (2022-05-19)
 
 Import SQLAlchemy types in Flask-SQLAlchemy (#7861)

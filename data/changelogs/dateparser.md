@@ -1,3 +1,7 @@
+## 1.1.4 (2022-07-12)
+
+Import `Match` and `Pattern` from `re`, not `typing` (#8277)
+
 ## 1.1.3 (2022-06-08)
 
 `dateparser`: Remove redundant import of `_typeshed.Self` (#8041)

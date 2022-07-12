@@ -1,3 +1,7 @@
+## 3.3.30 (2022-07-12)
+
+Import `Match` and `Pattern` from `re`, not `typing` (#8277)
+
 ## 3.3.29 (2022-06-26)
 
 Markdown: Fix BlockProcessor method return types (#8166)

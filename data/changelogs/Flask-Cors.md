@@ -1,3 +1,7 @@
+## 3.0.10 (2022-07-12)
+
+Import `Match` and `Pattern` from `re`, not `typing` (#8277)
+
 ## 3.0.9 (2022-07-07)
 
 Fix various `TypeAlias` issues (#8248)

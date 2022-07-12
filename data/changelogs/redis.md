@@ -1,3 +1,7 @@
+## 4.3.4 (2022-07-12)
+
+Import `Match` and `Pattern` from `re`, not `typing` (#8277)
+
 ## 4.3.3 (2022-06-28)
 
 Update redis stubs to 4.3.4 (#8199)

@@ -1,3 +1,7 @@
+## 0.4.15 (2022-07-12)
+
+Import `Match` and `Pattern` from `re`, not `typing` (#8277)
+
 ## 0.4.14 (2022-05-07)
 
 Import generics from standard modules in all third-party stubs (#7791)

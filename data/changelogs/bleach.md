@@ -1,3 +1,7 @@
+## 5.0.3 (2022-07-12)
+
+Import `Match` and `Pattern` from `re`, not `typing` (#8277)
+
 ## 5.0.2 (2022-04-20)
 
 Use `TypeAlias` for type aliases where possible, part II (#7667)

@@ -1,3 +1,7 @@
+## 5.0.2 (2022-07-12)
+
+Import `Match` and `Pattern` from `re`, not `typing` (#8277)
+
 ## 5.0.1 (2022-06-25)
 
 chardet: improve stubs (#8155)

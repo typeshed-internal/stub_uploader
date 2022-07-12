@@ -1,3 +1,7 @@
+## 1.7.3 (2022-07-12)
+
+Import `Match` and `Pattern` from `re`, not `typing` (#8277)
+
 ## 1.7.2 (2022-06-26)
 
 emoji: complete stubs (#8170)

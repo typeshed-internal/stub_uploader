@@ -1,3 +1,7 @@
+## 4.11.3 (2022-07-12)
+
+Import `Match` and `Pattern` from `re`, not `typing` (#8277)
+
 ## 4.11.2 (2022-06-16)
 
 Fix `TypeVar`s in `beautifulsoup` and `SQLAlchemy` (#8087)

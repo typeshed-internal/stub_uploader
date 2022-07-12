@@ -1,3 +1,7 @@
+## 3.17.7 (2022-07-12)
+
+Import `Match` and `Pattern` from `re`, not `typing` (#8277)
+
 ## 3.17.6 (2022-04-27)
 
 Remove Python 2 support from simplejson (#7704)

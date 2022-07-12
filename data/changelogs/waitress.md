@@ -1,3 +1,7 @@
+## 2.1.3 (2022-07-12)
+
+Import `Match` and `Pattern` from `re`, not `typing` (#8277)
+
 ## 2.1.2 (2022-07-04)
 
 Third-party stubs: audit more `Callable[<parameters>, Any]` annotations (#8233)
