@@ -1,3 +1,12 @@
+## 1.4.45 (2022-07-12)
+
+Use error codes for type ignores (#8280)
+
+Disable reportSelfClsParameterName for pytype as this is out of typeshed's
+control
+
+Closes: #7497
+
 ## 1.4.44 (2022-07-11)
 
 Remove Python 3.6 branches from typeshed (#8269)

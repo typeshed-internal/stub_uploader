@@ -1,3 +1,12 @@
+## 0.4.21 (2022-07-12)
+
+Use error codes for type ignores (#8280)
+
+Disable reportSelfClsParameterName for pytype as this is out of typeshed's
+control
+
+Closes: #7497
+
 ## 0.4.20 (2022-06-26)
 
 Check missing definitions for several packages (#8167)

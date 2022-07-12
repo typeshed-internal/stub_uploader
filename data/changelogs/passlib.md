@@ -1,3 +1,12 @@
+## 1.7.7 (2022-07-12)
+
+Use error codes for type ignores (#8280)
+
+Disable reportSelfClsParameterName for pytype as this is out of typeshed's
+control
+
+Closes: #7497
+
 ## 1.7.6 (2022-07-05)
 
 Improve passlib CryptContext typing (#8237)
