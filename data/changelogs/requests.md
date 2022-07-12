@@ -1,3 +1,9 @@
+## 2.28.1 (2022-07-12)
+
+Turn requests.requests.packages into a module (#8281)
+
+Remove obsolete class VendorAlias
+
 ## 2.28.0 (2022-06-25)
 
 [stubsabot] Bump requests to 2.28.* (#8152)
