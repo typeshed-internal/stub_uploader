@@ -1,3 +1,9 @@
+## 1.7.3 (2022-07-13)
+
+Add types to `invoke.Runner.run` (#8279)
+
+Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
+
 ## 1.7.2 (2022-07-04)
 
 Third-party stubs: audit more `Callable[<parameters>, Any]` annotations (#8233)
