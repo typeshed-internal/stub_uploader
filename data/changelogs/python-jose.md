@@ -1,3 +1,7 @@
+## 3.3.3 (2022-07-13)
+
+Complete python-jose typing (#8258)
+
 ## 3.3.2 (2022-07-06)
 
 Improve python-jose jws and jwt modules (#8238)
