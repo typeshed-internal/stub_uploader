@@ -1,3 +1,7 @@
+## 3.3.4 (2022-07-15)
+
+python-jose: improvements to jose.backends (#8294)
+
 ## 3.3.3 (2022-07-13)
 
 Complete python-jose typing (#8258)
