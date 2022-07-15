@@ -1,3 +1,7 @@
+## 4.64.3 (2022-07-15)
+
+`tqdm`: Improve a few `__init__` methods (#8246)
+
 ## 4.64.2 (2022-07-12)
 
 Import `Match` and `Pattern` from `re`, not `typing` (#8277)
