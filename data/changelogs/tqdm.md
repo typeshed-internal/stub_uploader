@@ -1,3 +1,9 @@
+## 4.64.4 (2022-07-15)
+
+`tqdm`: Add `__all__` to `__init__.pyi` and submodules (#8308)
+
+Fixes #8307
+
 ## 4.64.3 (2022-07-15)
 
 `tqdm`: Improve a few `__init__` methods (#8246)
