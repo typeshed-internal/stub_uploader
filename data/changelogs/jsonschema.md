@@ -1,3 +1,7 @@
+## 4.7.0 (2022-07-15)
+
+[stubsabot] Bump jsonschema to 4.7.* (#8299)
+
 ## 4.6.0 (2022-06-26)
 
 Bump jsonschema to 4.6.* (#8161)
