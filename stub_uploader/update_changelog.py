@@ -12,7 +12,7 @@ import subprocess
 from dataclasses import dataclass
 from pathlib import Path
 
-from scripts.const import CHANGELOG_PATH
+from stub_uploader.const import CHANGELOG_PATH
 
 
 THIRD_PARTY_NAMESPACE = "stubs"

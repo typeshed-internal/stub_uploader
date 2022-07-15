@@ -23,7 +23,7 @@ import toml
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-from scripts.const import *
+from stub_uploader.const import *
 
 PREFIX = "types-"
 URL_TEMPLATE = "https://pypi.org/pypi/{}/json"

@@ -6,7 +6,7 @@
 This repository contains scripts and GitHub actions to auto-upload
 [typeshed](https://github.com/python/typeshed) stubs to [PyPI](https://pypi.org/).
 The directory layout is self-explanatory:
-* `/scripts` contains the Python scripts used by GitHub actions.
+* `/stub_uploader` contains the Python scripts used by GitHub actions.
 * `/tests` contains some tests for the above scripts.
 * `/data` keeps the state for upload tasks. Currently this is the last
   [typeshed commit](https://github.com/typeshed-internal/stub_uploader/blob/main/data/last_typeshed_commit.sha1)

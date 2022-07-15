@@ -3,7 +3,7 @@ from typing import Any, Dict
 
 import toml
 
-from scripts import get_version
+from stub_uploader import get_version
 
 from .const import META, THIRD_PARTY_NAMESPACE
 

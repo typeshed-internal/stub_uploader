@@ -17,7 +17,7 @@ jobs:
           black --check .
 
   mypy:
-    name: Check scripts with mypy
+    name: Check stub_uploader with mypy
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-python@v2
@@ -25,7 +25,7 @@ jobs:
           python-version: '3.9'
       - uses: actions/checkout@v2
       - run: pip install mypy types-requests types-toml pytest
-      - run: mypy --strict -p scripts -p tests
+      - run: mypy --strict -p stub_uploader -p tests
 
   tests:
     name: Run integration and unit tests

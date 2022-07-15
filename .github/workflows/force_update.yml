@@ -34,7 +34,7 @@ jobs:
           TWINE_PASSWORD: ${{ secrets.TYPESHED_BOT_API_TOKEN }}
         run: |
           cd main
-          python -m scripts.upload_some ../typeshed "${{ github.event.inputs.distribution }}" data/uploaded_packages.txt
+          python -m stub_uploader.upload_some ../typeshed "${{ github.event.inputs.distribution }}" data/uploaded_packages.txt
           # If we are force uploading packages that were never uploaded, they are added to the list
           if [ -z "$(git status --porcelain)" ]; then
               exit 0;
