@@ -1,3 +1,7 @@
+## 3.3.31 (2022-07-16)
+
+`markdown`: remove deleted methods of `Registry`. (#8197)
+
 ## 3.3.30 (2022-07-12)
 
 Import `Match` and `Pattern` from `re`, not `typing` (#8277)
