@@ -1,3 +1,9 @@
+## 0.6.2 (2022-07-17)
+
+Make xxhash, editdistance into packages (#8320)
+
+This matches the runtime. Also see #8319
+
 ## 0.6.1 (2022-06-25)
 
 dj-database-url, docopt, editdistance, first: check missing defs (#8154)

@@ -1,3 +1,9 @@
+## 3.0.2 (2022-07-17)
+
+Make xxhash, editdistance into packages (#8320)
+
+This matches the runtime. Also see #8319
+
 ## 3.0.1 (2022-06-21)
 
 stubtest: per project --ignore-missing-stub (#8122)
