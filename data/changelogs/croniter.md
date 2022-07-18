@@ -1,3 +1,7 @@
+## 1.3.1 (2022-07-18)
+
+croniter: make package, complete public API (#8316)
+
 ## 1.3.0 (2022-06-26)
 
 [stubsabot] Bump croniter to 1.3.* (#8185)
