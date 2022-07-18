@@ -1,3 +1,7 @@
+## 3.4.0 (2022-07-18)
+
+[stubsabot] Bump Markdown to 3.4.* (#8309)
+
 ## 3.3.31 (2022-07-16)
 
 `markdown`: remove deleted methods of `Registry`. (#8197)
