@@ -1,3 +1,9 @@
+## 2.28.2 (2022-07-18)
+
+`requests`: Annotate `Session.merge_environment_settings` (#8313)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 2.28.1 (2022-07-12)
 
 Turn requests.requests.packages into a module (#8281)
