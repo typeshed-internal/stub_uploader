@@ -1,3 +1,7 @@
+## 7.45.1 (2022-07-18)
+
+`pycurl`: Add `CurlMulti.setopt()` (#8315)
+
 ## 7.45.0 (2022-06-25)
 
 [stubsabot] Bump pycurl to 7.45.* (#8163)
