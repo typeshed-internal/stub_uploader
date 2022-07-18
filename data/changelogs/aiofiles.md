@@ -1,3 +1,7 @@
+## 0.8.10 (2022-07-18)
+
+Run `pycln` as a pre-commit hook in CI (#8304)
+
 ## 0.8.9 (2022-07-06)
 
 Add missing aiofiles.tempfile classes (#7523)
