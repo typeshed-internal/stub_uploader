@@ -13,8 +13,8 @@ import argparse
 import os
 import subprocess
 
-from scripts import build_wheel, get_changed, update_changelog
-from scripts.metadata import determine_version, read_metadata
+from stub_uploader import build_wheel, get_changed, update_changelog
+from stub_uploader.metadata import determine_version, read_metadata
 
 
 def main(typeshed_dir: str, commit: str, uploaded: str, dry_run: bool = False) -> None:

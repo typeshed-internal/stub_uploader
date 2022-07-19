@@ -13,8 +13,8 @@ import os
 import re
 import subprocess
 
-from scripts import build_wheel
-from scripts.metadata import determine_version, read_metadata
+from stub_uploader import build_wheel
+from stub_uploader.metadata import determine_version, read_metadata
 
 
 def main(typeshed_dir: str, pattern: str, uploaded: str) -> None:

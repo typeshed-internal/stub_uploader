@@ -5,8 +5,8 @@ a typeshed checkout side by side.
 """
 import os
 import pytest
-from scripts import get_version, build_wheel
-from scripts.metadata import read_metadata
+from stub_uploader import get_version, build_wheel
+from stub_uploader.metadata import read_metadata
 
 TYPESHED = "../typeshed"
 UPLOADED = "data/uploaded_packages.txt"

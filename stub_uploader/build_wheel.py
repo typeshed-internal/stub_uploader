@@ -27,9 +27,9 @@ from glob import glob
 from textwrap import dedent
 from typing import List, Dict, Any, Tuple, Set, Mapping, Optional
 
-from scripts import get_version
-from scripts.const import *
-from scripts.metadata import Metadata, read_metadata
+from stub_uploader import get_version
+from stub_uploader.const import *
+from stub_uploader.metadata import Metadata, read_metadata
 
 CHANGELOG = "CHANGELOG.md"
 

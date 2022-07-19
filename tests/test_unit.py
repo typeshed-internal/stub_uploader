@@ -2,8 +2,8 @@
 
 import os
 import pytest
-from scripts.get_version import strip_dep_version
-from scripts.build_wheel import (
+from stub_uploader.get_version import strip_dep_version
+from stub_uploader.build_wheel import (
     collect_setup_entries,
     sort_by_dependency,
     transitive_deps,
