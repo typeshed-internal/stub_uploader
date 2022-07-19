@@ -1,3 +1,7 @@
+## 4.3.6 (2022-07-19)
+
+Type async Pipeline commands explicitly (#8325)
+
 ## 4.3.5 (2022-07-19)
 
 Improve `redis.sentinel` types (#8331)
