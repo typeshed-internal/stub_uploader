@@ -1,3 +1,9 @@
+## 1.1.9 (2022-07-19)
+
+Third-party stubs: enforce CamelCase for type alias names (#8256)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 1.1.8 (2022-07-11)
 
 Remove Python 3.6 branches from typeshed (#8269)

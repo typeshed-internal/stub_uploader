@@ -1,3 +1,9 @@
+## 2.1.4 (2022-07-19)
+
+Third-party stubs: enforce CamelCase for type alias names (#8256)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 2.1.3 (2022-07-12)
 
 Import `Match` and `Pattern` from `re`, not `typing` (#8277)

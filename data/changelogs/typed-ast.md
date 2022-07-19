@@ -1,3 +1,9 @@
+## 1.5.7 (2022-07-19)
+
+Third-party stubs: enforce CamelCase for type alias names (#8256)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 1.5.6 (2022-05-26)
 
 Third-party stubs: fix several fictitious type aliases (#7958)

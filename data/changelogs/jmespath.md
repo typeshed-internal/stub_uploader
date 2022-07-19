@@ -1,3 +1,11 @@
+## 1.0.2 (2022-07-19)
+
+Add missing third party modules (#8321)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: hauntsaninja <>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## 1.0.1 (2022-07-07)
 
 Annotate `jmespath` public API (#8253)

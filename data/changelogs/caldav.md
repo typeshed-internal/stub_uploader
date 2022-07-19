@@ -1,3 +1,9 @@
+## 0.9.2 (2022-07-19)
+
+Third-party stubs: enforce CamelCase for type alias names (#8256)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 0.9.1 (2022-05-31)
 
 caldav: add verify_expand to Calendar.date_search (#7996)

@@ -1,3 +1,11 @@
+## 0.6.3 (2022-07-19)
+
+Add missing third party modules (#8321)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: hauntsaninja <>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## 0.6.2 (2022-07-17)
 
 Make xxhash, editdistance into packages (#8320)

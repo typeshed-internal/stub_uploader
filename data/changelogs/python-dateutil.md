@@ -1,3 +1,9 @@
+## 2.8.19 (2022-07-19)
+
+Third-party stubs: enforce CamelCase for type alias names (#8256)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 2.8.18 (2022-06-22)
 
 Improve several `__hash__` methods (#8128)

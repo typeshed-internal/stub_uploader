@@ -1,3 +1,9 @@
+## 2.49.17 (2022-07-19)
+
+Third-party stubs: enforce CamelCase for type alias names (#8256)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 2.49.16 (2022-06-28)
 
 Improve `boto` callbacks (#8201)

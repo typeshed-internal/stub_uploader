@@ -1,3 +1,11 @@
+## 2022.1.2 (2022-07-19)
+
+Add missing third party modules (#8321)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: hauntsaninja <>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## 2022.1.1 (2022-06-26)
 
 Check missing definitions for several packages (#8167)

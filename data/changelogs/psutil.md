@@ -1,3 +1,9 @@
+## 5.9.2 (2022-07-19)
+
+Third-party stubs: enforce CamelCase for type alias names (#8256)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 5.9.1 (2022-07-04)
 
 Third-party stubs: audit more `Callable[<parameters>, Any]` annotations (#8233)

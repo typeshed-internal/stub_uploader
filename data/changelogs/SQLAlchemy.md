@@ -1,3 +1,9 @@
+## 1.4.46 (2022-07-19)
+
+Third-party stubs: enforce CamelCase for type alias names (#8256)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 1.4.45 (2022-07-12)
 
 Use error codes for type ignores (#8280)

@@ -1,3 +1,9 @@
+## 2.9.18 (2022-07-19)
+
+Third-party stubs: enforce CamelCase for type alias names (#8256)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 2.9.17 (2022-07-11)
 
 Extend annotations for `psycopg2.sql` (#8263)
