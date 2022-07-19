@@ -1,3 +1,7 @@
+## 4.3.5 (2022-07-19)
+
+Improve `redis.sentinel` types (#8331)
+
 ## 4.3.4 (2022-07-12)
 
 Import `Match` and `Pattern` from `re`, not `typing` (#8277)
