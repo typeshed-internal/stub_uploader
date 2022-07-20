@@ -1,3 +1,9 @@
+## 63.2.1 (2022-07-20)
+
+Update setuptools stubs (#8345)
+
+setuptools now vendors `distutils` as `setuptools._distutils`.
+
 ## 63.2.0 (2022-07-15)
 
 [stubsabot] Bump setuptools to 63.2.* (#8301)
