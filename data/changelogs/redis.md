@@ -1,3 +1,10 @@
+## 4.3.7 (2022-07-20)
+
+Improve types of `redis.connection` module (#8342)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 4.3.6 (2022-07-19)
 
 Type async Pipeline commands explicitly (#8325)
