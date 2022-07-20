@@ -1,3 +1,11 @@
+## 3.0.4 (2022-07-20)
+
+Allowlist useless modules (#8340)
+
+These are the ones I chose not to add from #8321
+
+Fixes most of #8339
+
 ## 3.0.3 (2022-07-19)
 
 Add missing third party modules (#8321)

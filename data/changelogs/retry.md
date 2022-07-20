@@ -1,3 +1,11 @@
+## 0.9.9 (2022-07-20)
+
+Allowlist useless modules (#8340)
+
+These are the ones I chose not to add from #8321
+
+Fixes most of #8339
+
 ## 0.9.8 (2022-06-26)
 
 Check missing definitions for several packages (#8167)
