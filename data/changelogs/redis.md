@@ -1,3 +1,7 @@
+## 4.3.9 (2022-07-21)
+
+Improve `redis.retry` types (#8354)
+
 ## 4.3.8 (2022-07-21)
 
 Annotate some `redis.backoff` items (#8352)
