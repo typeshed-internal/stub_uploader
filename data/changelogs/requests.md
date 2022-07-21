@@ -1,3 +1,13 @@
+## 2.28.3 (2022-07-21)
+
+requests: add annotation for `parse_header_links` (#8349)
+
+In the requests package the function `utils.parse_header_links()`
+takes a str as input and returns a list of dictionaries.
+
+This can be seen in the unit tests that are used:
+https://github.com/psf/requests/blob/786255613bd92f87c9c8f066c4271aab1b9eeaad/tests/test_utils.py#L644-L664
+
 ## 2.28.2 (2022-07-18)
 
 `requests`: Annotate `Session.merge_environment_settings` (#8313)
