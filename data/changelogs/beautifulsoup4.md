@@ -1,3 +1,7 @@
+## 4.11.4 (2022-07-21)
+
+beautifulsoup4: Fix type of Tag.__iter__ (#8357)
+
 ## 4.11.3 (2022-07-12)
 
 Import `Match` and `Pattern` from `re`, not `typing` (#8277)
