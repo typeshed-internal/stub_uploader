@@ -1,3 +1,7 @@
+## 4.3.8 (2022-07-21)
+
+Annotate some `redis.backoff` items (#8352)
+
 ## 4.3.7 (2022-07-20)
 
 Improve types of `redis.connection` module (#8342)
