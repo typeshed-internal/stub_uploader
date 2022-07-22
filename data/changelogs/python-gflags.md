@@ -1,3 +1,7 @@
+## 3.1.7 (2022-07-22)
+
+Always return `Iterator`, not `Iterable` for `__iter__` (#8361)
+
 ## 3.1.6 (2022-06-26)
 
 Check missing definitions for several packages (#8167)

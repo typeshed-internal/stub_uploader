@@ -1,3 +1,10 @@
+## 4.3.10 (2022-07-22)
+
+Improve `redis.utils` types (#8362)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 4.3.9 (2022-07-21)
 
 Improve `redis.retry` types (#8354)
