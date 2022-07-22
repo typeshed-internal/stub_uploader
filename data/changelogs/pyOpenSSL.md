@@ -1,3 +1,7 @@
+## 22.0.6 (2022-07-22)
+
+Add `ocsp` callback setters to `OpenSSL.SSL` (#8367)
+
 ## 22.0.5 (2022-07-22)
 
 Add `proto_version` setters to `OpenSSL.SSL` (#8363)
