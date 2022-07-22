@@ -1,3 +1,7 @@
+## 22.0.5 (2022-07-22)
+
+Add `proto_version` setters to `OpenSSL.SSL` (#8363)
+
 ## 22.0.4 (2022-06-26)
 
 Third-party stubs: audit `Callable[<parameters>, None]` annotations (#8175)
