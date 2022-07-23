@@ -1,3 +1,7 @@
+## 22.0.7 (2022-07-23)
+
+`pyopenssl`: `data` argument for `set_ocsp_server_callback`/`set_ocsp_client_callback` can be non-`bytes` (#8371)
+
 ## 22.0.6 (2022-07-22)
 
 Add `ocsp` callback setters to `OpenSSL.SSL` (#8367)
