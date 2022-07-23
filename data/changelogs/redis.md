@@ -1,3 +1,7 @@
+## 4.3.11 (2022-07-23)
+
+Improve `redis.crc` types (#8375)
+
 ## 4.3.10 (2022-07-22)
 
 Improve `redis.utils` types (#8362)
