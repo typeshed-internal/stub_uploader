@@ -1,3 +1,10 @@
+## 2.1.2 (2022-07-24)
+
+Add return type to MySQLdb.Connection.__enter__ (#8381)
+
+This pull request adds the return type, as seen in the link below, to the `mysqlclient.MySQLdb.connections:Connection.__enter__`
+https://github.com/PyMySQL/mysqlclient/blob/main/MySQLdb/connections.py#L230-L231
+
 ## 2.1.1 (2022-06-26)
 
 Check missing definitions for several packages (#8167)
