@@ -1,3 +1,10 @@
+## 22.0.8 (2022-07-24)
+
+Add missing methods to `OpenSSL.SSL.Connection` (#8374)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 22.0.7 (2022-07-23)
 
 `pyopenssl`: `data` argument for `set_ocsp_server_callback`/`set_ocsp_client_callback` can be non-`bytes` (#8371)
