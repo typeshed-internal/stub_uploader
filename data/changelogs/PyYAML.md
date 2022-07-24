@@ -1,3 +1,15 @@
+## 6.0.11 (2022-07-24)
+
+`PyYaml`’s Serializer: annotate `open`, `close`, `serialize` (#8383)
+
+As seen here:
+https://github.com/yaml/pyyaml/blob/master/lib/yaml/serializer.py#L27-L41
+
+Neither `open` nor `close` methods return, so `None` added as the return type.
+
+Finally, serialize accepts a Node and does not return as seen here:
+https://github.com/yaml/pyyaml/blob/master/lib/yaml/serializer.py#L46-L58
+
 ## 6.0.10 (2022-07-12)
 
 Import `Match` and `Pattern` from `re`, not `typing` (#8277)

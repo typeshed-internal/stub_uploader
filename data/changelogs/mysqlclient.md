@@ -1,3 +1,7 @@
+## 2.1.3 (2022-07-24)
+
+`mysqlclient`: Annotate types of exceptions in `Connection` class (#8382)
+
 ## 2.1.2 (2022-07-24)
 
 Add return type to MySQLdb.Connection.__enter__ (#8381)
