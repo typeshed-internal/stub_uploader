@@ -1,3 +1,7 @@
+## 5.0.3 (2022-07-25)
+
+Add missing `__version__` to `chardet.__init__` (#8401)
+
 ## 5.0.2 (2022-07-12)
 
 Import `Match` and `Pattern` from `re`, not `typing` (#8277)

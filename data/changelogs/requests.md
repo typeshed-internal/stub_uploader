@@ -1,3 +1,7 @@
+## 2.28.4 (2022-07-25)
+
+Add missing re-exports and vars to requests.compat (#8396)
+
 ## 2.28.3 (2022-07-21)
 
 requests: add annotation for `parse_header_links` (#8349)

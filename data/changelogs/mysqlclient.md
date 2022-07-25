@@ -1,3 +1,7 @@
+## 2.1.4 (2022-07-25)
+
+Annotate `mysqlclient.release.version_info` (#8391)
+
 ## 2.1.3 (2022-07-24)
 
 `mysqlclient`: Annotate types of exceptions in `Connection` class (#8382)
