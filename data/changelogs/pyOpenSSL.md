@@ -1,3 +1,7 @@
+## 22.0.9 (2022-07-25)
+
+Add `pyopenssl.version` module (#8384)
+
 ## 22.0.8 (2022-07-24)
 
 Add missing methods to `OpenSSL.SSL.Connection` (#8374)
