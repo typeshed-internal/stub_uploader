@@ -1,3 +1,9 @@
+## 2.28.5 (2022-07-26)
+
+requests: add type hints to requests.utils (#8395)
+
+Co-authored-by: Shantanu <12621235+hauntsaninja@users.noreply.github.com>
+
 ## 2.28.4 (2022-07-25)
 
 Add missing re-exports and vars to requests.compat (#8396)

@@ -1,3 +1,11 @@
+## 2.1.5 (2022-07-26)
+
+mysqlclient.connection: add missing type hints (#8393)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
+Add type hints to mysqlclient.times (#8392)
+
 ## 2.1.4 (2022-07-25)
 
 Annotate `mysqlclient.release.version_info` (#8391)
