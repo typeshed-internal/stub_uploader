@@ -1,3 +1,9 @@
+## 1.4.47 (2022-07-26)
+
+SQLAlchemy: Fix annotations for Query.{update,delete} (#8388)
+
+Closes: #8387
+
 ## 1.4.46 (2022-07-19)
 
 Third-party stubs: enforce CamelCase for type alias names (#8256)
