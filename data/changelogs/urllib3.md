@@ -1,3 +1,7 @@
+## 1.26.17 (2022-07-26)
+
+Add more urllib3.__init__ annotations (#8402)
+
 ## 1.26.16 (2022-07-06)
 
 Annotate `urllib3.disable_warnings` (#8245)
