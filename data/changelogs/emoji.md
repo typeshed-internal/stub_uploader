@@ -1,3 +1,7 @@
+## 2.0.0 (2022-07-28)
+
+Update emoji stubs for v2.0.0 (#8426)
+
 ## 1.7.4 (2022-07-19)
 
 Add missing third party modules (#8321)
