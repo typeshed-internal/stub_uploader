@@ -1,3 +1,11 @@
+## 63.2.2 (2022-07-28)
+
+Fix todo in setuptools.command.test (#8416)
+
+With https://github.com/python/mypy/pull/10884 merged and released, this should be safe to re-enable per the todo comment.
+
+https://github.com/pypa/setuptools/blob/main/setuptools/command/test.py#L117
+
 ## 63.2.1 (2022-07-20)
 
 Update setuptools stubs (#8345)
