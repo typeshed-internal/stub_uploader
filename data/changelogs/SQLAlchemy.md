@@ -1,3 +1,7 @@
+## 1.4.48 (2022-07-28)
+
+Fix TODO RE: Use of `Concatenate` and `ParamSpec` in sqlalchemy (#8415)
+
 ## 1.4.47 (2022-07-26)
 
 SQLAlchemy: Fix annotations for Query.{update,delete} (#8388)
