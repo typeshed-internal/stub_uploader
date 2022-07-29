@@ -1,3 +1,7 @@
+## 22.0.10 (2022-07-29)
+
+Add `pyopenssl.rand` module (#8435)
+
 ## 22.0.9 (2022-07-25)
 
 Add `pyopenssl.version` module (#8384)
