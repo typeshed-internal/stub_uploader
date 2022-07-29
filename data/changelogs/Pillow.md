@@ -1,3 +1,9 @@
+## 9.2.1 (2022-07-29)
+
+[pillow] add new `PIL.Image` enums (#8419)
+
+Co-authored-by: Shantanu <12621235+hauntsaninja@users.noreply.github.com>
+
 ## 9.2.0 (2022-07-04)
 
 [stubsabot] Bump Pillow to 9.2.* (#8226)
