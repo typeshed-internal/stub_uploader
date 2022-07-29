@@ -1,3 +1,9 @@
+## 4.16.0 (2022-07-29)
+
+Bump braintree to 4.16.* (#8433)
+
+Resolves #8431
+
 ## 4.15.0 (2022-06-14)
 
 [stubsabot] Bump braintree to 4.15.* (#8080)
