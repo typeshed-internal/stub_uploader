@@ -1,3 +1,7 @@
+## 1.26.18 (2022-07-30)
+
+Remove or move several `TypeAlias` declarations (#8444)
+
 ## 1.26.17 (2022-07-26)
 
 Add more urllib3.__init__ annotations (#8402)

@@ -1,3 +1,7 @@
+## 5.9.3 (2022-07-30)
+
+Remove or move several `TypeAlias` declarations (#8444)
+
 ## 5.9.2 (2022-07-19)
 
 Third-party stubs: enforce CamelCase for type alias names (#8256)

@@ -1,3 +1,7 @@
+## 1.4.49 (2022-07-30)
+
+Remove or move several `TypeAlias` declarations (#8444)
+
 ## 1.4.48 (2022-07-28)
 
 Fix TODO RE: Use of `Concatenate` and `ParamSpec` in sqlalchemy (#8415)
