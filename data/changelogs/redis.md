@@ -1,3 +1,10 @@
+## 4.3.12 (2022-07-30)
+
+Improve `redis.cluster` annotations (#8379)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 4.3.11 (2022-07-23)
 
 Improve `redis.crc` types (#8375)
