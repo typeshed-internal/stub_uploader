@@ -1,3 +1,7 @@
+## 1.26.19 (2022-07-30)
+
+Add annotations to `urrlib3.util.url` (#8448)
+
 ## 1.26.18 (2022-07-30)
 
 Remove or move several `TypeAlias` declarations (#8444)
