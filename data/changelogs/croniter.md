@@ -1,3 +1,7 @@
+## 1.3.2 (2022-07-31)
+
+Clean up a few Python 2 remnants (#8452)
+
 ## 1.3.1 (2022-07-18)
 
 croniter: make package, complete public API (#8316)
