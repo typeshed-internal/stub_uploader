@@ -1,3 +1,10 @@
+## 2.5.4 (2022-07-31)
+
+Annotate flask_sqlalchemy.__init__.Pagination (#8390)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 2.5.3 (2022-07-12)
 
 Import `Match` and `Pattern` from `re`, not `typing` (#8277)
