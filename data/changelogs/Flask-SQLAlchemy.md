@@ -1,3 +1,7 @@
+## 2.5.5 (2022-07-31)
+
+Add type hints to `flask_sqlalchemy.model` (#8389)
+
 ## 2.5.4 (2022-07-31)
 
 Annotate flask_sqlalchemy.__init__.Pagination (#8390)
