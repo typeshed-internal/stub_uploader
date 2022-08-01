@@ -1,3 +1,9 @@
+## 1.26.20 (2022-08-01)
+
+Improve `urllib3.fields` annotations (#8456)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 1.26.19 (2022-07-30)
 
 Add annotations to `urrlib3.util.url` (#8448)
