@@ -1,3 +1,7 @@
+## 4.3.13 (2022-08-01)
+
+redis.backoff: fix  `cap` and `base` type (float) (#8454)
+
 ## 4.3.12 (2022-07-30)
 
 Improve `redis.cluster` annotations (#8379)
