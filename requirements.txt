@@ -1,0 +1,10 @@
+requests
+tomli
+
+setuptools
+wheel
+twine
+
+mypy
+pytest
+types-requests

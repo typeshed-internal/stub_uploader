@@ -24,7 +24,7 @@ jobs:
         with:
           python-version: '3.9'
       - uses: actions/checkout@v2
-      - run: pip install mypy types-requests pytest
+      - run: pip install -r requirements.txt
       - run: mypy --strict -p stub_uploader -p tests
 
   tests:
@@ -46,6 +46,6 @@ jobs:
           path: typeshed
       - name: Run tests
         run: |
-          pip install pytest tomli requests setuptools wheel
           cd main
+          pip install -r requirements.txt
           python -m pytest tests
