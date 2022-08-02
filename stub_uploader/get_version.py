@@ -19,7 +19,7 @@ from collections.abc import Iterable
 from typing import Any, Optional, cast
 
 import requests
-import toml
+import tomli
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
@@ -52,8 +52,8 @@ def read_base_version(typeshed_dir: str, distribution: str) -> str:
     metadata_file = os.path.join(
         typeshed_dir, THIRD_PARTY_NAMESPACE, distribution, "METADATA.toml"
     )
-    with open(metadata_file) as f:
-        data = toml.loads(f.read())
+    with open(metadata_file, "rb") as f:
+        data = tomli.load(f)
     version = data["version"]
     assert isinstance(version, str)
     if version.endswith(".*"):
