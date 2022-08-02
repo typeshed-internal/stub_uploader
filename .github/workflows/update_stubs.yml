@@ -30,7 +30,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install setuptools wheel twine tomli requests
+          pip install -r requirements.txt
       - name: Execute diff build and upload tasks
         env:
           TWINE_USERNAME: __token__
