@@ -1,3 +1,7 @@
+## 2.28.7 (2022-08-02)
+
+requests: fix stubtest (#8463)
+
 ## 2.28.6 (2022-07-30)
 
 Remove or move several `TypeAlias` declarations (#8444)
