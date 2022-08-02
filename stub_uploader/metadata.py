@@ -1,7 +1,7 @@
 import os
 from typing import Any, Dict
 
-import toml
+import tomli
 
 from stub_uploader import get_version
 
@@ -14,8 +14,8 @@ Metadata = Dict[str, Any]
 def read_metadata(typeshed_dir: str, distribution: str) -> Metadata:
     """Parse metadata from file."""
     file = os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE, distribution, META)
-    with open(file) as f:
-        return dict(toml.loads(f.read()))
+    with open(file, "rb") as f:
+        return dict(tomli.load(f))
 
 
 def determine_version(typeshed_dir: str, distribution: str) -> str:
