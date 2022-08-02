@@ -1,7 +1,7 @@
 # stub_uploader
 
-[![Build status](https://github.com/typeshed-internal/stub_uploader/workflows/Check%20scripts/badge.svg)](https://github.com/typeshed-internal/stub_uploader/actions?query=workflow%3A%22Check+scripts%22)
-[![Upload status](https://github.com/typeshed-internal/stub_uploader/workflows/Daily%20update%20of%20stubs%20from%20typeshed%20to%20PyPI/badge.svg)](https://github.com/typeshed-internal/stub_uploader/actions?query=workflow%3A%22Daily+update+of+stubs+from+typeshed+to+PyPI%22)
+[![Build status](https://github.com/typeshed-internal/stub_uploader/actions/workflows/check_scripts.yml/badge.svg)](https://github.com/typeshed-internal/stub_uploader/actions/workflows/check_scripts.yml)
+[![Upload status](https://github.com/typeshed-internal/stub_uploader/actions/workflows/update_stubs.yml/badge.svg)](https://github.com/typeshed-internal/stub_uploader/actions/workflows/update_stubs.yml)
 
 This repository contains scripts and GitHub actions to auto-upload
 [typeshed](https://github.com/python/typeshed) stubs to [PyPI](https://pypi.org/).
