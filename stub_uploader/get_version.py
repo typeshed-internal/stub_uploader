@@ -14,12 +14,13 @@ from __future__ import annotations
 
 import argparse
 import os.path
-import re
 from collections.abc import Iterable
-from typing import Any, Optional, cast
+from typing import Any, Optional
 
 import requests
 import tomli
+from packaging.requirements import Requirement
+from packaging.version import Version
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
@@ -58,18 +59,14 @@ def read_base_version(typeshed_dir: str, distribution: str) -> str:
     assert isinstance(version, str)
     if version.endswith(".*"):
         version = version[:-2]
-    assert re.match(r"\d+(\.\d+)*", version)
+    # Check that the version parses
+    Version(version)
     return version
 
 
 def strip_dep_version(dependency: str) -> str:
     """Strip a possible version suffix, e.g. types-six>=0.1.4 -> types-six."""
-    dep_version_pos = len(dependency)
-    for pos, c in enumerate(dependency):
-        if c in "=<>":
-            dep_version_pos = pos
-            break
-    return dependency[:dep_version_pos]
+    return Requirement(dependency).name
 
 
 def check_exists(distribution: str) -> bool:
