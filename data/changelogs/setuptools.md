@@ -1,3 +1,7 @@
+## 63.2.3 (2022-08-03)
+
+Remove redundant `__str__` methods (#8475)
+
 ## 63.2.2 (2022-07-28)
 
 Fix todo in setuptools.command.test (#8416)
