@@ -1,3 +1,7 @@
+## 1.26.21 (2022-08-03)
+
+Improve urllib3.util.url annotations (#8460)
+
 ## 1.26.20 (2022-08-01)
 
 Improve `urllib3.fields` annotations (#8456)

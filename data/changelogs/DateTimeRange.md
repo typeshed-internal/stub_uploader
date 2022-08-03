@@ -1,3 +1,7 @@
+## 1.2.8 (2022-08-03)
+
+Add some missing stubs in datetimerange (#8470)
+
 ## 1.2.7 (2022-07-19)
 
 Add missing third party modules (#8321)
