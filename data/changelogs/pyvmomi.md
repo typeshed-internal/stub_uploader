@@ -1,3 +1,10 @@
+## 7.0.8 (2022-08-04)
+
+Various pyvmomi improvements (#8469)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 7.0.7 (2022-04-06)
 
 Update pyVmomi stubs (#7599)
