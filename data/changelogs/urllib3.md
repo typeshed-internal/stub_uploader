@@ -1,3 +1,10 @@
+## 1.26.22 (2022-08-04)
+
+Add `urllib3.contrib.socks`; improve `urllib3.connectionpool` (#8457)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 1.26.21 (2022-08-03)
 
 Improve urllib3.util.url annotations (#8460)
