@@ -1,3 +1,7 @@
+## 2.5.0 (2022-08-05)
+
+Bump pyflakes to 2.5.* (#8495)
+
 ## 2.4.3 (2022-07-12)
 
 Import `Match` and `Pattern` from `re`, not `typing` (#8277)
