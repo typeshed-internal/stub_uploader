@@ -1,3 +1,9 @@
+## 1.13.0 (2022-08-05)
+
+[stubsabot] Bump flake8-typing-imports to 1.13.* (#8489)
+
+Co-authored-by: stubsabot <>
+
 ## 1.12.0 (2022-06-26)
 
 [stubsabot] Bump flake8-typing-imports to 1.12.* (#8179)

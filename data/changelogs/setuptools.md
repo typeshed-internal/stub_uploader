@@ -1,3 +1,9 @@
+## 63.4.0 (2022-08-05)
+
+[stubsabot] Bump setuptools to 63.4.* (#8493)
+
+Co-authored-by: stubsabot <>
+
 ## 63.2.3 (2022-08-03)
 
 Remove redundant `__str__` methods (#8475)
