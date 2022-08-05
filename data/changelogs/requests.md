@@ -1,3 +1,14 @@
+## 2.28.8 (2022-08-05)
+
+`requests.adapters`: use re-exports rather than assignments (#8485)
+
+Add `requests.help` submodule (#8486)
+
+Add `requests.__version__`; improve `requests.__init__` (#8484)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 2.28.7 (2022-08-02)
 
 requests: fix stubtest (#8463)

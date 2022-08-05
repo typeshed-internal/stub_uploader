@@ -1,3 +1,14 @@
+## 1.0.0 (2022-08-05)
+
+[stubsabot] Bump dj-database-url to 1.0.* (#8488)
+
+* [stubsabot] Bump dj-database-url to 1.0.*
+
+* Add DJANGO_VERSION
+
+Co-authored-by: stubsabot <>
+Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
+
 ## 0.5.3 (2022-06-25)
 
 dj-database-url, docopt, editdistance, first: check missing defs (#8154)
