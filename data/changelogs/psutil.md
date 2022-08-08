@@ -1,3 +1,7 @@
+## 5.9.4 (2022-08-08)
+
+psutil: types for virtual_memory (#8501)
+
 ## 5.9.3 (2022-07-30)
 
 Remove or move several `TypeAlias` declarations (#8444)
