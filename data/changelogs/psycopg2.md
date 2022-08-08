@@ -1,3 +1,7 @@
+## 2.9.19 (2022-08-08)
+
+Enhanced type hinting for psycopg2 stubs (#8500)
+
 ## 2.9.18 (2022-07-19)
 
 Third-party stubs: enforce CamelCase for type alias names (#8256)
