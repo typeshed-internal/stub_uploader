@@ -1,3 +1,7 @@
+## 5.9.5 (2022-08-08)
+
+psutil: improve svmem types (#8503)
+
 ## 5.9.4 (2022-08-08)
 
 psutil: types for virtual_memory (#8501)
