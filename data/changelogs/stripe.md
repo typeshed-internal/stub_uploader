@@ -1,3 +1,9 @@
+## 3.5.1 (2022-08-08)
+
+Add classmethod to stripe.PaymentIntent.confirm. (#8498)
+
+Signed-off-by: Zixuan James Li <p359101898@gmail.com>
+
 ## 3.5.0 (2022-07-01)
 
 [stubsabot] Bump stripe to 3.5.* (#8223)
