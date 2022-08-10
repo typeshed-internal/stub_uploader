@@ -1,3 +1,7 @@
+## 4.3.14 (2022-08-10)
+
+Remove a few unused `TypedDict`s (#8522)
+
 ## 4.3.13 (2022-08-01)
 
 redis.backoff: fix  `cap` and `base` type (float) (#8454)

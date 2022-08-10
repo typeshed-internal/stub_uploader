@@ -1,3 +1,7 @@
+## 2.0.1 (2022-08-10)
+
+Remove a few unused `TypedDict`s (#8522)
+
 ## 2.0.0 (2022-07-28)
 
 Update emoji stubs for v2.0.0 (#8426)

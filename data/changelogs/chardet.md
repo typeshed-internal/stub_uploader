@@ -1,3 +1,7 @@
+## 5.0.4 (2022-08-10)
+
+Remove a few unused `TypedDict`s (#8522)
+
 ## 5.0.3 (2022-07-25)
 
 Add missing `__version__` to `chardet.__init__` (#8401)

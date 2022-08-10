@@ -1,3 +1,10 @@
+## 2.5.6 (2022-08-10)
+
+`Flask-SQLAlchemy`: Make model query non-generic (#8455)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 2.5.5 (2022-07-31)
 
 Add type hints to `flask_sqlalchemy.model` (#8389)
