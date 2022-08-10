@@ -1,3 +1,7 @@
+## 0.4.22 (2022-08-10)
+
+Add missing `TypedDict` methods and `ClassVar`s (#8512)
+
 ## 0.4.21 (2022-07-12)
 
 Use error codes for type ignores (#8280)
