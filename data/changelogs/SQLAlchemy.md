@@ -1,3 +1,7 @@
+## 1.4.50 (2022-08-10)
+
+Fix stubtest failures on `SQLAlchemy` (#8524)
+
 ## 1.4.49 (2022-07-30)
 
 Remove or move several `TypeAlias` declarations (#8444)
