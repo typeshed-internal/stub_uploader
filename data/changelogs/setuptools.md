@@ -1,3 +1,9 @@
+## 63.4.1 (2022-08-11)
+
+setuptools: delete _distutils.command.check.HAS_DOCUTILS (#8529)
+
+Fixes #8527
+
 ## 63.4.0 (2022-08-05)
 
 [stubsabot] Bump setuptools to 63.4.* (#8493)
