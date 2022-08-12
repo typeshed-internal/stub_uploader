@@ -1,3 +1,7 @@
+## 2.5.7 (2022-08-12)
+
+Annotate Model in SQLAlchemy (#8535)
+
 ## 2.5.6 (2022-08-10)
 
 `Flask-SQLAlchemy`: Make model query non-generic (#8455)
