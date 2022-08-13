@@ -1,3 +1,9 @@
+## 64.0.1 (2022-08-13)
+
+setuptools: fix stubtest (#8540)
+
+Fixes #8539
+
 ## 64.0.0 (2022-08-12)
 
 [stubsabot] Bump setuptools to 64.0.* (#8534)

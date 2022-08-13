@@ -1,3 +1,7 @@
+## 0.4.23 (2022-08-13)
+
+Improve `.keys()`, `.values()`, `.items()` methods for `TypedDict`s (#8532)
+
 ## 0.4.22 (2022-08-10)
 
 Add missing `TypedDict` methods and `ClassVar`s (#8512)
