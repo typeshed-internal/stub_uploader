@@ -1,3 +1,7 @@
+## 3.3.22 (2022-08-16)
+
+cryptography: Rename parameter of serialize_key_and_certificates (#8543)
+
 ## 3.3.21 (2022-04-28)
 
 cryptography: make `oid` attributes readonly (#7731)
