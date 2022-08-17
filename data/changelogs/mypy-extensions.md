@@ -1,3 +1,7 @@
+## 0.4.24 (2022-08-17)
+
+Normalise use of `Never` vs `NoReturn` (#8549)
+
 ## 0.4.23 (2022-08-13)
 
 Improve `.keys()`, `.values()`, `.items()` methods for `TypedDict`s (#8532)
