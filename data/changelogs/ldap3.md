@@ -1,3 +1,7 @@
+## 2.9.13 (2022-08-17)
+
+Add SAFE_RESTARTABLE strategy to ldap3 Connection client_strategy parameter (#8547)
+
 ## 2.9.12 (2022-07-07)
 
 Fix various `TypeAlias` issues (#8248)
