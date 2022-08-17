@@ -1,3 +1,43 @@
+## 2.9.20 (2022-08-17)
+
+Additional return types for psycopg2 connections (#8528)
+
+* Return types for psycopg2 dict connections
+
+DB connection and cursor methods that deal with `dict`-style results now indicate the expected return types as implemented.
+
+* Return types for psycopg2 namedtuple connections
+
+DB connection and cursor methods that deal with `namedtuple` results now indicate the expected return types as implemented.
+
+* Use ABC iterator
+
+As required by flake8, the `Iterator` referenced in psycopg2's `extras` module has been switched to the `collections.abc.Iterator[T]` variant.
+
+* Fix base psycopg2 cursor iter return type
+
+The previous return type of `Self` is wrong; `cursor`'s `__iter__` method returns an `Iterator`.
+
+* Correct return type for cursor iter and next methods
+
+The previous attempt to fix the return type of `cursor`'s (and subclasses) `__iter__` method was misguided; they should indeed return `Self`. It's the `__next__` methods that had to be updated to return the correct record/row instance type.
+
+* Comprehensive overloads for psycopg2 extra connections
+
+Provides full method signatures for the `cursor` methods of the `DictConnection`, `RealDictConnection` and `NamedTupleConnection` types. Notably this includes a default value for `cursor_factory` in each case, while preserving the option to override the parameter manually.
+
+* Have mypy ignore incompatible psycopg2 return types
+
+The return types of the `fetch*` and `__next__` methods of `DictCursor`, `RealDictCursor` and `NamedTupleCursor` are incompatible with the base `cursor` class's corresponding methods' return types. However, this does accurately reflect reality, so ignore the mypy errors in those cases.
+
+* Use ABC callable for psycopg2 extras module
+
+As required by flake8, the `Callable` referenced in psycopg2's `extras` module has been switched to the `Callable` variant.
+
+* Remove superfluous psycopg2 member overrides
+
+Several members in the `DictCursorBase` type definition were entirely unnecessary, so they have been removed. In addition, adds a type to the `size` param of the `cursor`'s `fetchmany` method.
+
 ## 2.9.19 (2022-08-08)
 
 Enhanced type hinting for psycopg2 stubs (#8500)

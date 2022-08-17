@@ -1,3 +1,11 @@
+## 2.5.2 (2022-08-17)
+
+fpdf2: fix for 2.5.6 changes (#8546)
+
+Life is much easier when upstream has some annotations
+
+Fixes #8545
+
 ## 2.5.1 (2022-07-04)
 
 Fix size parameter of FPDF.set_font_size (#8234)

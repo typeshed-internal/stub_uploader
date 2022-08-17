@@ -142,6 +142,7 @@ types-toml
 types-toposort
 types-tornado
 types-tqdm
+types-tree-sitter
 types-ttkthemes
 types-typed-ast
 types-typing-extensions
