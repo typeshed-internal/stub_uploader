@@ -1,3 +1,7 @@
+## 2.28.9 (2022-08-18)
+
+Support extras in stubtest_third_party.py (#8467)
+
 ## 2.28.8 (2022-08-05)
 
 `requests.adapters`: use re-exports rather than assignments (#8485)

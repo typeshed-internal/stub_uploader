@@ -1,3 +1,7 @@
+## 1.26.23 (2022-08-18)
+
+Support extras in stubtest_third_party.py (#8467)
+
 ## 1.26.22 (2022-08-04)
 
 Add `urllib3.contrib.socks`; improve `urllib3.connectionpool` (#8457)

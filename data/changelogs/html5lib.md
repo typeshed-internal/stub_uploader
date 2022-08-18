@@ -1,3 +1,7 @@
+## 1.1.10 (2022-08-18)
+
+Support extras in stubtest_third_party.py (#8467)
+
 ## 1.1.9 (2022-07-19)
 
 Third-party stubs: enforce CamelCase for type alias names (#8256)

@@ -1,3 +1,7 @@
+## 4.64.5 (2022-08-18)
+
+Support extras in stubtest_third_party.py (#8467)
+
 ## 4.64.4 (2022-07-15)
 
 `tqdm`: Add `__all__` to `__init__.pyi` and submodules (#8308)

@@ -1,3 +1,7 @@
+## 4.11.5 (2022-08-18)
+
+Support extras in stubtest_third_party.py (#8467)
+
 ## 4.11.4 (2022-07-21)
 
 beautifulsoup4: Fix type of Tag.__iter__ (#8357)
