@@ -368,10 +368,7 @@ def main(
     copy_changelog(distribution, tmpdir)
     current_dir = os.getcwd()
     os.chdir(tmpdir)
-    universal_args = []
-    if metadata.get("version2", False):
-        universal_args.append("--universal")
-    subprocess.run(["python3", "setup.py", "bdist_wheel"] + universal_args)
+    subprocess.run(["python3", "setup.py", "bdist_wheel"])
     subprocess.run(["python3", "setup.py", "sdist"])
     os.chdir(current_dir)
     return f"{tmpdir}/dist"
