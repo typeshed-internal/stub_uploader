@@ -54,7 +54,7 @@ def test_dependency_order() -> None:
     )
     assert len(set(to_upload)) == len(to_upload)
     for distribution in distributions:
-        for dependency in read_metadata(TYPESHED, distribution).get("requires", []):
+        for dependency in read_metadata(TYPESHED, distribution).requires:
             assert to_upload.index(
                 build_wheel.strip_types_prefix(
                     get_version.strip_dep_version(dependency)
