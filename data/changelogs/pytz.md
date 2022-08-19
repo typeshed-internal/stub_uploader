@@ -1,3 +1,9 @@
+## 2022.2.1.0 (2022-08-19)
+
+[stubsabot] Bump pytz to 2022.2.1 (#8564)
+
+Co-authored-by: stubsabot <>
+
 ## 2022.1.2 (2022-07-19)
 
 Add missing third party modules (#8321)

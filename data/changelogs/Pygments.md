@@ -1,3 +1,9 @@
+## 2.13.0 (2022-08-19)
+
+[stubsabot] Bump Pygments to 2.13.* (#8561)
+
+Co-authored-by: stubsabot <>
+
 ## 2.12.1 (2022-07-05)
 
 Pygments: add pygments.__version__ (#8241)

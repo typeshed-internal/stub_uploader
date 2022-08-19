@@ -1,3 +1,9 @@
+## 4.12.0 (2022-08-19)
+
+[stubsabot] Bump jsonschema to 4.12.* (#8560)
+
+Co-authored-by: stubsabot <>
+
 ## 4.9.0 (2022-08-05)
 
 [stubsabot] Bump jsonschema to 4.9.* (#8491)

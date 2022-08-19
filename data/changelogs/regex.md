@@ -1,3 +1,9 @@
+## 2022.8.17.0 (2022-08-19)
+
+[stubsabot] Bump regex to 2022.8.17 (#8562)
+
+Co-authored-by: stubsabot <>
+
 ## 2022.7.25.0 (2022-07-29)
 
 [stubsabot] Bump regex to 2022.7.25 (#8432)

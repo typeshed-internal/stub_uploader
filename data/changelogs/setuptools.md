@@ -1,3 +1,9 @@
+## 65.1.0 (2022-08-19)
+
+Update setuptools to 65.1.* (#8565)
+
+Fixes #8563
+
 ## 64.0.1 (2022-08-13)
 
 setuptools: fix stubtest (#8540)
