@@ -32,7 +32,7 @@ def main(typeshed_dir: str, pattern: str, uploaded: str) -> None:
     print("Uploading stubs for:", ", ".join(to_upload))
     for distribution in to_upload:
         version = determine_version(typeshed_dir, distribution)
-        for dependency in read_metadata(typeshed_dir, distribution).get("requires", []):
+        for dependency in read_metadata(typeshed_dir, distribution).requires:
             build_wheel.verify_dependency(typeshed_dir, dependency, uploaded)
         # TODO: Update changelog
         temp_dir = build_wheel.main(typeshed_dir, distribution, version)
