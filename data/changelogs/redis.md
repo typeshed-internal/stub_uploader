@@ -1,3 +1,12 @@
+## 4.3.15 (2022-08-20)
+
+Improve `redis.cluster` types (#8573)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
+`redis`: correct `set` command parameter types (#8536)
+
 ## 4.3.14 (2022-08-10)
 
 Remove a few unused `TypedDict`s (#8522)

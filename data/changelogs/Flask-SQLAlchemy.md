@@ -1,3 +1,7 @@
+## 2.5.8 (2022-08-20)
+
+`Flask-SQLAlchemy`: type `session` as `Session` (#8550)
+
 ## 2.5.7 (2022-08-12)
 
 Annotate Model in SQLAlchemy (#8535)
