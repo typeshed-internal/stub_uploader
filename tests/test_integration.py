@@ -5,6 +5,7 @@ a typeshed checkout side by side.
 """
 import os
 import pytest
+from packaging.version import Version
 from stub_uploader import get_version, build_wheel
 from stub_uploader.metadata import read_metadata
 
@@ -12,12 +13,11 @@ TYPESHED = "../typeshed"
 UPLOADED = "data/uploaded_packages.txt"
 
 
-def test_version() -> None:
+def test_fetch_pypi_versions() -> None:
     """Check that we can query PyPI for package increments."""
-    assert get_version.main(TYPESHED, "six", "0.1") >= 0
-    assert get_version.main(TYPESHED, "nonexistent-distribution", "0.1") == -1
-    assert get_version.main(TYPESHED, "typed-ast", "0.1") == -1
-    assert get_version.main(TYPESHED, "typed-ast", None) >= 0
+    assert Version("1.16.0") in get_version.fetch_pypi_versions("six")
+    assert Version("1.5.4") in get_version.fetch_pypi_versions("typed-ast")
+    assert not get_version.fetch_pypi_versions("nonexistent-distribution")
 
 
 def test_check_exists() -> None:

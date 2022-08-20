@@ -14,7 +14,8 @@ import re
 import subprocess
 
 from stub_uploader import build_wheel
-from stub_uploader.metadata import determine_version, read_metadata
+from stub_uploader.metadata import read_metadata
+from stub_uploader.get_version import determine_incremented_version
 
 
 def main(typeshed_dir: str, pattern: str, uploaded: str) -> None:
@@ -31,8 +32,9 @@ def main(typeshed_dir: str, pattern: str, uploaded: str) -> None:
     )
     print("Uploading stubs for:", ", ".join(to_upload))
     for distribution in to_upload:
-        version = determine_version(typeshed_dir, distribution)
-        for dependency in read_metadata(typeshed_dir, distribution).requires:
+        metadata = read_metadata(typeshed_dir, distribution)
+        version = determine_incremented_version(metadata)
+        for dependency in metadata.requires:
             build_wheel.verify_dependency(typeshed_dir, dependency, uploaded)
         # TODO: Update changelog
         temp_dir = build_wheel.main(typeshed_dir, distribution, version)

@@ -2,13 +2,16 @@
 
 import os
 import pytest
-from stub_uploader.get_version import strip_dep_version
+from stub_uploader.get_version import (
+    compute_incremented_version,
+    extend_to_specificity,
+    strip_dep_version,
+)
 from stub_uploader.build_wheel import (
     collect_setup_entries,
     sort_by_dependency,
     transitive_deps,
     strip_types_prefix,
-    BuildData,
 )
 
 
@@ -25,6 +28,56 @@ def test_strip_version() -> None:
     assert strip_dep_version("types-foo==1.1") == "types-foo"
     assert strip_dep_version("foo>2.3") == "foo"
     assert strip_dep_version("types-foo>2.3") == "types-foo"
+
+
+def test_extend_to_specificity() -> None:
+    ver = [1]
+    extend_to_specificity(ver, 3)
+    assert ver == [1, 0, 0]
+
+    ver = [1, 2, 3]
+    extend_to_specificity(ver, 3)
+    assert ver == [1, 2, 3]
+
+    ver = [1, 2, 3, 4, 5]
+    extend_to_specificity(ver, 3)
+    assert ver == [1, 2, 3, 4, 5]
+
+
+def test_compute_incremented_version() -> None:
+    # never before published version
+    empty_list: list[str] = []
+    assert str(compute_incremented_version("1", empty_list)) == "1.0.0.0"
+    assert str(compute_incremented_version("1.2", empty_list)) == "1.2.0.0"
+
+    # published greater than version spec
+    assert str(compute_incremented_version("1.2", ["1.3.0.4"])) == "1.3.0.5"
+    assert str(compute_incremented_version("1.1", ["1.2.0.1"])) == "1.2.0.2"
+    assert str(compute_incremented_version("1.1", ["1.2"])) == "1.2.0.1"
+    assert str(compute_incremented_version("1.1", ["1.2.3"])) == "1.2.3.1"
+    assert str(compute_incremented_version("1.1", ["1.2.3.4.5"])) == "1.2.3.4.6"
+    assert str(compute_incremented_version("1.4.40", ["1.4.50"])) == "1.4.50.1"
+    assert str(compute_incremented_version("1.4.0.40", ["1.4.0.50"])) == "1.4.0.50.1"
+
+    # published less than version spec
+    assert str(compute_incremented_version("1.2", ["1.1.0.4"])) == "1.2.0.0"
+    assert str(compute_incremented_version("1", ["0.9"])) == "1.0.0.0"
+    assert str(compute_incremented_version("1.1", ["0.9"])) == "1.1.0.0"
+    assert str(compute_incremented_version("1.2.3", ["1.1.0.17"])) == "1.2.3.0"
+    assert str(compute_incremented_version("1.2.3.4", ["1.1.0.17"])) == "1.2.3.4.0"
+
+    # published equals version spec
+    assert str(compute_incremented_version("1.1", ["1.1"])) == "1.1.0.1"
+    assert str(compute_incremented_version("1.1", ["1.1.0.4"])) == "1.1.0.5"
+    assert str(compute_incremented_version("1.1", ["1.1.3.4"])) == "1.1.3.5"
+    assert str(compute_incremented_version("1.2.3.4", ["1.2.3.4.5"])) == "1.2.3.4.6"
+    assert str(compute_incremented_version("1.2.3.4.5", ["1.2.3.4.5"])) == "1.2.3.4.5.1"
+
+    # test that we do the max version right
+    assert (
+        str(compute_incremented_version("1.2", ["1.1.0.7", "1.2.0.7", "1.3.0.7"]))
+        == "1.3.0.8"
+    )
 
 
 def test_transitive_deps() -> None:

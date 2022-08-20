@@ -14,7 +14,8 @@ import os
 import subprocess
 
 from stub_uploader import build_wheel, get_changed, update_changelog
-from stub_uploader.metadata import determine_version, read_metadata
+from stub_uploader.metadata import read_metadata
+from stub_uploader.get_version import determine_incremented_version
 
 
 def main(typeshed_dir: str, commit: str, uploaded: str, dry_run: bool = False) -> None:
@@ -29,7 +30,8 @@ def main(typeshed_dir: str, commit: str, uploaded: str, dry_run: bool = False) -
     )
     print("Building and uploading stubs for:", ", ".join(to_upload))
     for distribution in to_upload:
-        version = determine_version(typeshed_dir, distribution)
+        metadata = read_metadata(typeshed_dir, distribution)
+        version = determine_incremented_version(metadata)
         update_changelog.update_changelog(
             typeshed_dir, commit, distribution, version, dry_run=dry_run
         )
@@ -37,7 +39,7 @@ def main(typeshed_dir: str, commit: str, uploaded: str, dry_run: bool = False) -
         if dry_run:
             print(f"Would upload: {distribution}, version {version}")
             continue
-        for dependency in read_metadata(typeshed_dir, distribution).requires:
+        for dependency in metadata.requires:
             build_wheel.verify_dependency(typeshed_dir, dependency, uploaded)
         subprocess.run(["twine", "upload", os.path.join(temp_dir, "*")], check=True)
         build_wheel.update_uploaded(uploaded, distribution)
