@@ -103,9 +103,9 @@ class BuildData:
 
 def strip_types_prefix(dependency: str) -> str:
     assert dependency.startswith(
-        "types-"
+        TYPES_PREFIX
     ), "Currently only dependencies on stub packages are supported"
-    return dependency[len("types-") :]
+    return dependency[len(TYPES_PREFIX) :]
 
 
 def find_stub_files(top: str) -> List[str]:

@@ -15,9 +15,9 @@ UPLOADED = "data/uploaded_packages.txt"
 
 def test_fetch_pypi_versions() -> None:
     """Check that we can query PyPI for package increments."""
-    assert Version("1.16.0") in get_version.fetch_pypi_versions("six")
-    assert Version("1.5.4") in get_version.fetch_pypi_versions("typed-ast")
-    assert not get_version.fetch_pypi_versions("nonexistent-distribution")
+    assert Version("1.16.0") in get_version.fetch_pypi_versions("types-six")
+    assert Version("1.5.4") in get_version.fetch_pypi_versions("types-typed-ast")
+    assert not get_version.fetch_pypi_versions("types-nonexistent-distribution")
 
 
 def test_check_exists() -> None:

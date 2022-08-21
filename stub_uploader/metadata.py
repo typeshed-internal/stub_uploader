@@ -3,13 +3,17 @@ from typing import Any, Dict, List, Optional
 
 import tomli
 
-from .const import META, THIRD_PARTY_NAMESPACE
+from .const import META, THIRD_PARTY_NAMESPACE, TYPES_PREFIX
 
 
 class Metadata:
     def __init__(self, distribution: str, data: Dict[str, Any]):
-        self.distribution = distribution
+        self.upstream_distribution = distribution
         self.data = data
+
+    @property
+    def stub_distribution(self) -> str:
+        return TYPES_PREFIX + self.upstream_distribution
 
     @property
     def version_spec(self) -> str:
