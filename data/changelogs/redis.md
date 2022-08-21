@@ -1,3 +1,7 @@
+## 4.3.16 (2022-08-21)
+
+Further improve `redis.cluster` (#8578)
+
 ## 4.3.15 (2022-08-20)
 
 Improve `redis.cluster` types (#8573)
