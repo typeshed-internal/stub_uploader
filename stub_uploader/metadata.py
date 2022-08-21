@@ -1,7 +1,8 @@
 import os
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, Optional
 
 import tomli
+from packaging.requirements import Requirement
 
 from .const import META, THIRD_PARTY_NAMESPACE, TYPES_PREFIX
 
@@ -24,8 +25,25 @@ class Metadata:
         return version
 
     @property
-    def requires(self) -> List[str]:
-        return self.data.get("requires", [])
+    def requires_typeshed(self) -> list[Requirement]:
+        if "requires_typeshed" in self.data:
+            assert "requires" not in self.data
+            reqs_str = self.data["requires_typeshed"]
+        else:
+            # Backward compatibility, can be removed once typeshed is updated
+            reqs_str = self.data.get("requires", [])
+
+        reqs = [Requirement(req) for req in reqs_str]
+        assert all(req.name.startswith(TYPES_PREFIX) for req in reqs)
+        return reqs
+
+    @property
+    def requires_external(self) -> list[Requirement]:
+        reqs_str = self.data.get("requires_external", [])
+        reqs = [Requirement(req) for req in reqs_str]
+        # This assert isn't strictly necessary
+        assert all(not req.name.startswith(TYPES_PREFIX) for req in reqs)
+        return reqs
 
     @property
     def extra_description(self) -> str:

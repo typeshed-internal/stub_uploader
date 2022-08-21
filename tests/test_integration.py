@@ -4,9 +4,12 @@ anything on PyPI, but can make PyPI queries and may expect
 a typeshed checkout side by side.
 """
 import os
+
 import pytest
+from packaging.requirements import Requirement
 from packaging.version import Version
-from stub_uploader import get_version, build_wheel
+
+from stub_uploader import build_wheel, get_version
 from stub_uploader.metadata import read_metadata
 
 TYPESHED = "../typeshed"
@@ -38,17 +41,27 @@ def test_version_increment(distribution: str) -> None:
     get_version.determine_incremented_version(read_metadata(TYPESHED, distribution))
 
 
-def test_verify_dependency() -> None:
+def test_verify_typeshed_dependency() -> None:
     # Check some known dependencies that they verify as valid.
-    build_wheel.verify_dependency(TYPESHED, "types-six", UPLOADED)
-    build_wheel.verify_dependency(TYPESHED, "types-six==0.1.1", UPLOADED)
-    build_wheel.verify_dependency(TYPESHED, "types-typed-ast", UPLOADED)
-    build_wheel.verify_dependency(TYPESHED, "types-typed-ast>=3.7", UPLOADED)
+    build_wheel.verify_typeshed_dependency(TYPESHED, Requirement("types-six"), UPLOADED)
+    build_wheel.verify_typeshed_dependency(
+        TYPESHED, Requirement("types-six==0.1.1"), UPLOADED
+    )
+    build_wheel.verify_typeshed_dependency(
+        TYPESHED, Requirement("types-typed-ast"), UPLOADED
+    )
+    build_wheel.verify_typeshed_dependency(
+        TYPESHED, Requirement("types-typed-ast>=3.7"), UPLOADED
+    )
     # Also check couple errors.
-    with pytest.raises(AssertionError):
-        build_wheel.verify_dependency(TYPESHED, "unsupported", UPLOADED)
-    with pytest.raises(AssertionError):
-        build_wheel.verify_dependency(TYPESHED, "types-unknown-xxx", UPLOADED)
+    with pytest.raises(ValueError):
+        build_wheel.verify_typeshed_dependency(
+            TYPESHED, Requirement("unsupported"), UPLOADED
+        )
+    with pytest.raises(ValueError):
+        build_wheel.verify_typeshed_dependency(
+            TYPESHED, Requirement("types-unknown-xxx"), UPLOADED
+        )
 
 
 def test_dependency_order() -> None:
@@ -59,9 +72,7 @@ def test_dependency_order() -> None:
     )
     assert len(set(to_upload)) == len(to_upload)
     for distribution in distributions:
-        for dependency in read_metadata(TYPESHED, distribution).requires:
+        for req in read_metadata(TYPESHED, distribution).requires_typeshed:
             assert to_upload.index(
-                build_wheel.strip_types_prefix(
-                    get_version.strip_dep_version(dependency)
-                )
+                build_wheel.strip_types_prefix(req.name)
             ) < to_upload.index(distribution)

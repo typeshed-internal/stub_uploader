@@ -9,7 +9,6 @@ import datetime
 import os
 import re
 import subprocess
-from dataclasses import dataclass
 from pathlib import Path
 
 from stub_uploader.const import CHANGELOG_PATH

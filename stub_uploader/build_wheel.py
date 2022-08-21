@@ -26,7 +26,8 @@ from collections import defaultdict
 from textwrap import dedent
 from typing import List, Dict, Set, Optional
 
-from stub_uploader import get_version
+from packaging.requirements import Requirement
+
 from stub_uploader.const import *
 from stub_uploader.metadata import Metadata, read_metadata
 
@@ -102,9 +103,8 @@ class BuildData:
 
 
 def strip_types_prefix(dependency: str) -> str:
-    assert dependency.startswith(
-        TYPES_PREFIX
-    ), "Currently only dependencies on stub packages are supported"
+    if not dependency.startswith(TYPES_PREFIX):
+        raise ValueError("Expected dependency on a typeshed package")
     return dependency[len(TYPES_PREFIX) :]
 
 
@@ -214,16 +214,18 @@ def collect_setup_entries(base_dir: str) -> Dict[str, List[str]]:
     return package_data
 
 
-def verify_dependency(typeshed_dir: str, dependency: str, uploaded: str) -> None:
+def verify_typeshed_dependency(
+    typeshed_dir: str, req: Requirement, uploaded: str
+) -> None:
     """Verify this is a valid dependency, i.e. a stub package uploaded by us."""
     known_distributions = set(
         os.listdir(os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE))
     )
-    assert ";" not in dependency, "Semicolons in dependencies are not supported"
-    dependency = get_version.strip_dep_version(dependency)
-    assert (
-        strip_types_prefix(dependency) in known_distributions
-    ), "Only dependencies on typeshed stubs are allowed"
+    dependency = req.name
+    if strip_types_prefix(dependency) not in known_distributions:
+        raise ValueError(
+            "Only dependencies on typeshed stubs are allowed in requires_typeshed"
+        )
     with open(uploaded) as f:
         uploaded_distributions = set(f.read().splitlines())
 
@@ -256,8 +258,8 @@ def make_dependency_map(
     result: Dict[str, Set[str]] = {d: set() for d in distributions}
     for distribution in distributions:
         data = read_metadata(typeshed_dir, distribution)
-        for dependency in data.requires:
-            dependency = strip_types_prefix(get_version.strip_dep_version(dependency))
+        for req in data.requires_typeshed:
+            dependency = strip_types_prefix(req.name)
             if dependency in distributions:
                 result[distribution].add(dependency)
     return result
@@ -306,6 +308,9 @@ def generate_setup_file(
     build_data: BuildData, metadata: Metadata, version: str, commit: str
 ) -> str:
     """Auto-generate a setup.py file for given distribution using a template."""
+    all_requirements = [
+        str(req) for req in metadata.requires_typeshed + metadata.requires_external
+    ]
     package_data = collect_setup_entries(build_data.stub_dir)
     return SETUP_TEMPLATE.format(
         distribution=build_data.distribution,
@@ -313,7 +318,7 @@ def generate_setup_file(
             build_data.distribution, commit, metadata
         ),
         version=version,
-        requires=metadata.requires,
+        requires=all_requirements,
         packages=list(package_data.keys()),
         package_data=package_data,
     )

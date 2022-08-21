@@ -6,7 +6,6 @@ from packaging.version import Version
 from stub_uploader.get_version import (
     compute_incremented_version,
     ensure_specificity,
-    strip_dep_version,
 )
 from stub_uploader.build_wheel import (
     collect_setup_entries,
@@ -18,17 +17,8 @@ from stub_uploader.build_wheel import (
 
 def test_strip_types_prefix() -> None:
     assert strip_types_prefix("types-foo") == "foo"
-    with pytest.raises(AssertionError):
+    with pytest.raises(ValueError):
         strip_types_prefix("bad")
-
-
-def test_strip_version() -> None:
-    assert strip_dep_version("foo") == "foo"
-    assert strip_dep_version("types-foo") == "types-foo"
-    assert strip_dep_version("foo==1.1") == "foo"
-    assert strip_dep_version("types-foo==1.1") == "types-foo"
-    assert strip_dep_version("foo>2.3") == "foo"
-    assert strip_dep_version("types-foo>2.3") == "types-foo"
 
 
 def test_ensure_specificity() -> None:
