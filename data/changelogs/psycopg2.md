@@ -1,3 +1,9 @@
+## 2.9.21 (2022-08-21)
+
+Improve return type for psycopg2 connect function (#8567)
+
+When a `connection_factory` argument is provided to psycopg2's `connect` function, the function's return type now matches that of the factory output class. However, if `cursor_factory` is set and has a non-`None` value and/or `connection_factory` is not set or is `None`, the return type is simply `connection`, as before.
+
 ## 2.9.20 (2022-08-17)
 
 Additional return types for psycopg2 connections (#8528)
