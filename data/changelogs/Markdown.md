@@ -1,3 +1,7 @@
+## 3.4.1 (2022-08-21)
+
+`Markdown`: `BlockProcessor.detab` returns a pair of strings (#8586)
+
 ## 3.4.0 (2022-07-18)
 
 [stubsabot] Bump Markdown to 3.4.* (#8309)
