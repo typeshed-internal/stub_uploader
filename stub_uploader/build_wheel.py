@@ -23,9 +23,8 @@ import shutil
 import tempfile
 import subprocess
 from collections import defaultdict
-from glob import glob
 from textwrap import dedent
-from typing import List, Dict, Any, Tuple, Set, Mapping, Optional
+from typing import List, Dict, Set, Optional
 
 from stub_uploader import get_version
 from stub_uploader.const import *
@@ -257,7 +256,7 @@ def make_dependency_map(
     result: Dict[str, Set[str]] = {d: set() for d in distributions}
     for distribution in distributions:
         data = read_metadata(typeshed_dir, distribution)
-        for dependency in data.get("requires", []):
+        for dependency in data.requires:
             dependency = strip_types_prefix(get_version.strip_dep_version(dependency))
             if dependency in distributions:
                 result[distribution].add(dependency)
@@ -314,27 +313,27 @@ def generate_setup_file(
             build_data.distribution, commit, metadata
         ),
         version=version,
-        requires=metadata.get("requires", []),
+        requires=metadata.requires,
         packages=list(package_data.keys()),
         package_data=package_data,
     )
 
 
 def generate_long_description(
-    distribution: str, commit: str, metadata: Mapping[str, Any]
+    distribution: str, commit: str, metadata: Metadata
 ) -> str:
-    extra_description = metadata.get("extra_description", "").strip()
+    extra_description = metadata.extra_description.strip()
     parts = []
     parts.append(DESCRIPTION_INTRO_TEMPLATE.format(distribution=distribution))
     if extra_description:
         parts.append(extra_description)
-    if "obsolete_since" in metadata:
+    if metadata.obsolete_since:
         parts.append(
             OBSOLETE_SINCE_TEXT_TEMPLATE.format(
-                distribution=distribution, obsolete_since=metadata["obsolete_since"]
+                distribution=distribution, obsolete_since=metadata.obsolete_since
             )
         )
-    elif metadata.get("no_longer_updated", False):
+    elif metadata.no_longer_updated:
         parts.append(NO_LONGER_UPDATED_TEMPLATE.format(distribution=distribution))
     parts.append(DESCRIPTION_OUTRO_TEMPLATE.format(commit=commit))
     return "\n\n".join(parts)

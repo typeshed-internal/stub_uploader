@@ -37,7 +37,7 @@ def main(typeshed_dir: str, commit: str, uploaded: str, dry_run: bool = False) -
         if dry_run:
             print(f"Would upload: {distribution}, version {version}")
             continue
-        for dependency in read_metadata(typeshed_dir, distribution).get("requires", []):
+        for dependency in read_metadata(typeshed_dir, distribution).requires:
             build_wheel.verify_dependency(typeshed_dir, dependency, uploaded)
         subprocess.run(["twine", "upload", os.path.join(temp_dir, "*")], check=True)
         build_wheel.update_uploaded(uploaded, distribution)
