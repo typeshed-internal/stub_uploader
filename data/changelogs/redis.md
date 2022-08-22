@@ -1,3 +1,9 @@
+## 4.3.17 (2022-08-22)
+
+Update `redis/cluster.pyi` (#8593)
+
+`redis`: Do not override `AbstractRedis.RESPONSE_CALLBACKS` (#8592)
+
 ## 4.3.16 (2022-08-21)
 
 Further improve `redis.cluster` (#8578)
