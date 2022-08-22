@@ -1,3 +1,7 @@
+## 2.5.9 (2022-08-22)
+
+`Flask-SQLAlchemy`: `session` should be `scoped_session`, not `Session` (#8589)
+
 ## 2.5.8 (2022-08-20)
 
 `Flask-SQLAlchemy`: type `session` as `Session` (#8550)
