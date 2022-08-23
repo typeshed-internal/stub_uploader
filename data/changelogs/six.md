@@ -1,3 +1,9 @@
+## 1.16.19 (2022-08-23)
+
+`six`: Fix incorrect `type[type[Any]]` annotation (#8599)
+
+Mypy will (correctly, I think) start flagging `type[type[Any]]` as an illegal annotation when mypy 0.980 comes out. Let's fix it now, before it comes out.
+
 ## 1.16.18 (2022-07-12)
 
 Import `Match` and `Pattern` from `re`, not `typing` (#8277)

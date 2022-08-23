@@ -1,3 +1,7 @@
+## 3.3.23 (2022-08-23)
+
+`cryptography`: Add some missing `@abstractmethod` decorators (#8598)
+
 ## 3.3.22 (2022-08-16)
 
 cryptography: Rename parameter of serialize_key_and_certificates (#8543)
