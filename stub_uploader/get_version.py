@@ -85,6 +85,7 @@ def compute_incremented_version(
     else:
         compatible = SpecifierSet(f"=={version_spec}.*")
 
+    # See what the base version and specificity we used in METADATA.toml
     version_base = Version(version_spec.removesuffix(".*"))
     specificity = len(version_base.release)
 
