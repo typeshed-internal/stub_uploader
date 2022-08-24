@@ -1,3 +1,9 @@
+## 4.64.6 (2022-08-24)
+
+tqdm: All `leave` arguments can be `None` (#8603)
+
+All `leave` arguments are optional in tqdm.
+
 ## 4.64.5 (2022-08-18)
 
 Support extras in stubtest_third_party.py (#8467)
