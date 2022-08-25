@@ -1,3 +1,11 @@
+## 3.20.0 (2022-08-25)
+
+Bump protobuf to 3.20.1 (#8609)
+
+There are even newer versions available (4.*), but I had found a bug
+in it which prevented it from working with mypy-protobuf. For now,
+sticking to just 3.20.1
+
 ## 3.19.22 (2022-06-16)
 
 `protobuf`: Delete some `__new__` and `__init__` methods (#8088)
