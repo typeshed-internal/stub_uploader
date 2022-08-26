@@ -5,7 +5,7 @@ import pytest
 from packaging.version import Version
 from stub_uploader.get_version import (
     compute_incremented_version,
-    extend_to_specificity,
+    ensure_specificity,
     strip_dep_version,
 )
 from stub_uploader.build_wheel import (
@@ -31,17 +31,17 @@ def test_strip_version() -> None:
     assert strip_dep_version("types-foo>2.3") == "types-foo"
 
 
-def test_extend_to_specificity() -> None:
+def test_ensure_specificity() -> None:
     ver = [1]
-    extend_to_specificity(ver, 3)
+    ensure_specificity(ver, 3)
     assert ver == [1, 0, 0]
 
     ver = [1, 2, 3]
-    extend_to_specificity(ver, 3)
+    ensure_specificity(ver, 3)
     assert ver == [1, 2, 3]
 
     ver = [1, 2, 3, 4, 5]
-    extend_to_specificity(ver, 3)
+    ensure_specificity(ver, 3)
     assert ver == [1, 2, 3, 4, 5]
 
 

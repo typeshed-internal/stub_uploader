@@ -60,7 +60,7 @@ def check_exists(distribution: str) -> bool:
     raise ValueError("Error while verifying existence")
 
 
-def extend_to_specificity(ver: list[int], specificity: int) -> None:
+def ensure_specificity(ver: list[int], specificity: int) -> None:
     ver.extend([0] * (specificity - len(ver)))
 
 
@@ -105,7 +105,7 @@ def compute_incremented_version(
         # For example, version_base=1.2, max_published=1.3.0.4, return 1.3.0.5
         increment_specificity = max(increment_specificity, len(max_published.release))
         incremented = list(max_published.release)
-        extend_to_specificity(incremented, increment_specificity)
+        ensure_specificity(incremented, increment_specificity)
         incremented[-1] += 1
 
         incremented_version = Version(".".join(map(str, incremented)))
@@ -117,13 +117,13 @@ def compute_incremented_version(
     if version_base.release > max_published.release[:specificity]:
         # For example, version_base=1.2, max_published=1.1.0.4, return 1.2.0.0
         incremented = list(version_base.release)
-        extend_to_specificity(incremented, increment_specificity)
+        ensure_specificity(incremented, increment_specificity)
 
     else:
         assert version_base.release == max_published.release[:specificity]
         # For example, version_base=1.1, max_published=1.1.0.4, return 1.1.0.5
         incremented = list(max_published.release)
-        extend_to_specificity(incremented, increment_specificity)
+        ensure_specificity(incremented, increment_specificity)
         incremented[-1] += 1
 
     incremented_version = Version(".".join(map(str, incremented)))
