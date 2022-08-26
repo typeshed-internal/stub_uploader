@@ -119,16 +119,12 @@ def compute_incremented_version(
         incremented = list(version_base.release)
         extend_to_specificity(incremented, increment_specificity)
 
-        incremented_version = Version(".".join(map(str, incremented)))
-        assert incremented_version > max_published
-        assert incremented_version in compatible
-        return incremented_version
-
-    assert version_base.release == max_published.release[:specificity]
-    # For example, version_base=1.1, max_published=1.1.0.4, return 1.1.0.5
-    incremented = list(max_published.release)
-    extend_to_specificity(incremented, increment_specificity)
-    incremented[-1] += 1
+    else:
+        assert version_base.release == max_published.release[:specificity]
+        # For example, version_base=1.1, max_published=1.1.0.4, return 1.1.0.5
+        incremented = list(max_published.release)
+        extend_to_specificity(incremented, increment_specificity)
+        incremented[-1] += 1
 
     incremented_version = Version(".".join(map(str, incremented)))
     assert incremented_version > max_published
