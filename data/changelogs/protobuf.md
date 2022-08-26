@@ -1,3 +1,11 @@
+## 3.20.1 (2022-08-26)
+
+Bump to mypy-protobuf 3.3.0 (#8612)
+
+* Bump to mypy-protobuf 3.3.0
+
+* Remove some ignores for formatting
+
 ## 3.20.0 (2022-08-25)
 
 Bump protobuf to 3.20.1 (#8609)
