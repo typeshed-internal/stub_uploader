@@ -71,10 +71,7 @@ def compute_incremented_version(
     # all published versions. This ensures that users who don't pin get the most
     # up to date stub. If we ever maintain multiple versions for a stub, this will
     # need revisiting.
-    max_published = max(
-        published_versions,
-        default=Version("0"),
-    )
+    max_published = max(published_versions, default=Version("0"))
 
     # The second thing we try to do (but don't guarantee), is that the incremented
     # version will satisfy the version_spec (defined precisely by the `compatible`
