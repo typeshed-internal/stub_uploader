@@ -65,14 +65,14 @@ def extend_to_specificity(ver: list[int], specificity: int) -> None:
 
 
 def compute_incremented_version(
-    version_spec: str, published_versions: Union[list[str], list[Version]]
+    version_spec: str, published_versions: list[Version]
 ) -> Version:
     # The most important postcondition is that the incremented version is greater than
     # all published versions. This ensures that users who don't pin get the most
     # up to date stub. If we ever maintain multiple versions for a stub, this will
     # need revisiting.
     max_published = max(
-        ((Version(v) if isinstance(v, str) else v) for v in published_versions),
+        published_versions,
         default=Version("0"),
     )
 
