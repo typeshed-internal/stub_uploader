@@ -1,3 +1,7 @@
+## 4.14.0 (2022-08-26)
+
+[stubsabot] Bump jsonschema to 4.14.* (#8619)
+
 ## 4.12.1 (2022-08-25)
 
 Improve annotation of jsonschema.validators.create (#8608)

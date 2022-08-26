@@ -1,3 +1,7 @@
+## 22.8.23.0 (2022-08-26)
+
+[stubsabot] Bump flake8-bugbear to 22.8.23 (#8622)
+
 ## 22.7.1.0 (2022-07-01)
 
 [stubsabot] Bump flake8-bugbear to 22.7.1 (#8220)

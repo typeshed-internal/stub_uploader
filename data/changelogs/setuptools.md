@@ -1,3 +1,7 @@
+## 65.3.0 (2022-08-26)
+
+[stubsabot] Bump setuptools to 65.3.* (#8620)
+
 ## 65.1.0 (2022-08-19)
 
 Update setuptools to 65.1.* (#8565)
