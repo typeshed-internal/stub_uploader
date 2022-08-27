@@ -1,3 +1,7 @@
+## 4.3.18 (2022-08-27)
+
+redis: Improve `ClusterPubSub` types (#8627)
+
 ## 4.3.17 (2022-08-22)
 
 Update `redis/cluster.pyi` (#8593)
