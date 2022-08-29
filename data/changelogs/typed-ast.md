@@ -1,3 +1,15 @@
+## 1.5.8 (2022-08-29)
+
+`typed_ast.ast3`: `arguments.kw_defaults` should be `list[expr | None]` (#8645)
+
+```python
+>>> from typed_ast import ast3
+>>> print(ast3.dump(ast3.parse('def foo(*, arg: int) -> None: ...')))
+Module(body=[FunctionDef(name='foo', args=arguments(args=[], vararg=None, kwonlyargs=[arg(arg='arg', annotation=Name(id='int', ctx=Load()), type_comment=None)], kw_defaults=[None], kwarg=None, defaults=[]), body=[Expr(value=Ellipsis())], decorator_list=[], returns=NameConstant(value=None), type_comment=None)], type_ignores=[])
+```
+
+This bug was discovered in https://github.com/python/mypy/pull/13547
+
 ## 1.5.7 (2022-07-19)
 
 Third-party stubs: enforce CamelCase for type alias names (#8256)
