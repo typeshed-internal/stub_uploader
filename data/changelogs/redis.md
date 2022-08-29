@@ -1,3 +1,7 @@
+## 4.3.19 (2022-08-29)
+
+redis: Add `_Encodable` type alias (#8638)
+
 ## 4.3.18 (2022-08-27)
 
 redis: Improve `ClusterPubSub` types (#8627)

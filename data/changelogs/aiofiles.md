@@ -1,3 +1,7 @@
+## 0.8.11 (2022-08-29)
+
+Delete some unused `# noqa` comments (#8639)
+
 ## 0.8.10 (2022-07-18)
 
 Run `pycln` as a pre-commit hook in CI (#8304)
