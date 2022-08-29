@@ -1,3 +1,7 @@
+## 3.4.0 (2022-08-29)
+
+Bump prettytable to 3.4.* (#8621)
+
 ## 3.3.1 (2022-07-12)
 
 Use error codes for type ignores (#8280)
