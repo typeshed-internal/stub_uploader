@@ -1,3 +1,7 @@
+## 2.5.3 (2022-08-30)
+
+`fpdf2`: Remove redundant `str | Literal['DEPRECATED']` union (#8650)
+
 ## 2.5.2 (2022-08-17)
 
 fpdf2: fix for 2.5.6 changes (#8546)
