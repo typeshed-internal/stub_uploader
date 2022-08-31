@@ -1,3 +1,7 @@
+## 2.11.4 (2022-08-31)
+
+`paramiko`: Add missing types in `__init__.pyi` and `_version.pyi` (#8651)
+
 ## 2.11.3 (2022-07-12)
 
 Import `Match` and `Pattern` from `re`, not `typing` (#8277)
