@@ -1,3 +1,7 @@
+## 4.3.20 (2022-09-02)
+
+`redis`: Improve `kwargs` typing in `sentinel` (#8661)
+
 ## 4.3.19 (2022-08-29)
 
 redis: Add `_Encodable` type alias (#8638)
