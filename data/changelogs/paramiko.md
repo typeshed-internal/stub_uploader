@@ -1,3 +1,7 @@
+## 2.11.5 (2022-09-03)
+
+fix: add missing paramiko.win_openssh (#8672)
+
 ## 2.11.4 (2022-08-31)
 
 `paramiko`: Add missing types in `__init__.pyi` and `_version.pyi` (#8651)

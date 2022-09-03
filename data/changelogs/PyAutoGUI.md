@@ -1,3 +1,7 @@
+## 0.9.1 (2022-09-03)
+
+`pyautogui`: just skip stubtest (#8678)
+
 ## 0.9.0 (2022-09-03)
 
 Add stubs for `pyautogui` (#8654)

@@ -1,3 +1,9 @@
+## 3.4.1 (2022-09-03)
+
+`prettytable`: Fix stubtest errors (#8676)
+
+Fixes #8674. A partial revert of 9e696275018ef3798bb596821ad0d8b4b8e80ab6.
+
 ## 3.4.0 (2022-08-29)
 
 Bump prettytable to 3.4.* (#8621)
