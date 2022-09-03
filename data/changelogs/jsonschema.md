@@ -1,3 +1,7 @@
+## 4.15.1 (2022-09-03)
+
+`jsonschema._format`: update some annotations to match upstream (#8673)
+
 ## 4.15.0 (2022-09-02)
 
 [stubsabot] Bump jsonschema to 4.15.* (#8665)

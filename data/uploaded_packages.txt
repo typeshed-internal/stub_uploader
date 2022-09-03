@@ -8,6 +8,7 @@ types-Jinja2
 types-Markdown
 types-MarkupSafe
 types-Pillow
+types-PyAutoGUI
 types-PyJWT
 types-PyMySQL
 types-PyYAML
