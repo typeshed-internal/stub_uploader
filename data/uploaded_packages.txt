@@ -83,6 +83,7 @@ types-jmespath
 types-jsonschema
 types-jwt
 types-kazoo
+types-keyboard
 types-ldap3
 types-maxminddb
 types-mock

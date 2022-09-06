@@ -1,3 +1,9 @@
+## 4.11.6 (2022-09-06)
+
+[bs4] More precise types for bs4.Tag.select(_one) (#8687)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 4.11.5 (2022-08-18)
 
 Support extras in stubtest_third_party.py (#8467)
