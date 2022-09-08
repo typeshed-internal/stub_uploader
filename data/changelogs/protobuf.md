@@ -1,3 +1,7 @@
+## 3.20.2 (2022-09-08)
+
+[protobuf] MessageToJson indent parameter can be None (#8705)
+
 ## 3.20.1 (2022-08-26)
 
 Bump to mypy-protobuf 3.3.0 (#8612)
