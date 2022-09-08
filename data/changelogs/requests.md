@@ -1,3 +1,18 @@
+## 2.28.10 (2022-09-08)
+
+Add infrastructure allowing for test cases for third-party stubs (#8700)
+
+- Move the logic for running mypy on the test cases from `tests/mypy_test.py` to a separate script, `tests/regr_test.py`.
+- Add the necessary logic in order to be able to have test cases for third-party stubs.
+- Move logic common to `tests/mypy_test.py` and `tests/regr_test.py` into `tests/colors.py`, and rename `tests/colors.py` to `tests/utils.py`.
+- Add a new check to `tests/check_consistent.py`, to enforce the use of `# pyright: reportUnnecessaryTypeIgnoreComment=true` comments in third-party test cases. These are essential if we want to have our tests against false-negatives work with pyright.
+- Update the relevant documentation to account for the new test file.
+- Add a new job to the `tests.yml` GitHub workflow, to run the new test in CI.
+- Add a simple proof-of-concept test case for `requests`, as a regression test for #7998.
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
+
 ## 2.28.9 (2022-08-18)
 
 Support extras in stubtest_third_party.py (#8467)
