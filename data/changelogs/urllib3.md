@@ -1,3 +1,11 @@
+## 1.26.24 (2022-09-08)
+
+Fix urllib3.response.HTTPResponse.geturl() return type (#8704)
+
+urllib3.response.HTTPResponse.geturl() return should be `str | None`.
+
+Source: https://github.com/urllib3/urllib3/blob/3951d3cf8f8c8119c455ce50c171dc0ca50cb130/src/urllib3/response.py#L416-L417
+
 ## 1.26.23 (2022-08-18)
 
 Support extras in stubtest_third_party.py (#8467)
