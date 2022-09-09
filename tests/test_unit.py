@@ -50,6 +50,31 @@ def _incremented_ver(ver: str, published: list[str]) -> str:
     return str(compute_incremented_version(ver, published_vers))
 
 
+def test_compute_incremented_version_legacy() -> None:
+    # never before published version
+    empty_list: list[str] = []
+    assert _incremented_ver("1", empty_list) == "1.0"
+    assert _incremented_ver("1.2", empty_list) == "1.2.0"
+
+    # published less than version spec
+    assert _incremented_ver("1.2", ["1.1.0.4"]) == "1.2.0"
+    assert _incremented_ver("1", ["0.9"]) == "1.0"
+    assert _incremented_ver("1.1", ["0.9"]) == "1.1.0"
+    assert _incremented_ver("1.2.3", ["1.1.0.17"]) == "1.2.3.0"
+    assert _incremented_ver("1.2.3.4", ["1.1.0.17"]) == "1.2.3.4.0"
+
+    # published equals version spec
+    assert _incremented_ver("1.1", ["1.1"]) == "1.1.1"
+    assert _incremented_ver("1.1", ["1.1.0.4"]) == "1.1.0.5"
+    assert _incremented_ver("1.1", ["1.1.3.4"]) == "1.1.3.5"
+    assert _incremented_ver("1.2.3.4", ["1.2.3.4.5"]) == "1.2.3.4.6"
+    assert _incremented_ver("1.2.3.4.5", ["1.2.3.4.5"]) == "1.2.3.4.5.1"
+
+    # test that we do the max version right
+    assert _incremented_ver("1.2", ["1.1.0.7", "1.2.0.7"]) == "1.2.0.8"
+
+
+@pytest.mark.skip(reason="Will use in follow-up PR")
 def test_compute_incremented_version() -> None:
     # never before published version
     empty_list: list[str] = []
