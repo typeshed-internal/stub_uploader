@@ -1,3 +1,9 @@
+## 22.1.0 (2022-09-09)
+
+[stubsabot] Bump aiofiles to 22.1.* (#8714)
+
+Co-authored-by: stubsabot <>
+
 ## 0.8.11 (2022-08-29)
 
 Delete some unused `# noqa` comments (#8639)
