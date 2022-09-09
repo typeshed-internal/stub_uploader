@@ -1,3 +1,9 @@
+## 0.9.2 (2022-09-09)
+
+Complete `pyautogui` stubs (#8684)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 0.9.1 (2022-09-03)
 
 `pyautogui`: just skip stubtest (#8678)
