@@ -33,6 +33,11 @@ def test_build_wheel(distribution: str) -> None:
     assert list(os.listdir(tmp_dir))  # check it is not empty
 
 
+@pytest.mark.parametrize("distribution", os.listdir(os.path.join(TYPESHED, "stubs")))
+def test_version_increment(distribution: str) -> None:
+    get_version.determine_incremented_version(read_metadata(TYPESHED, distribution))
+
+
 def test_verify_dependency() -> None:
     # Check some known dependencies that they verify as valid.
     build_wheel.verify_dependency(TYPESHED, "types-six", UPLOADED)
