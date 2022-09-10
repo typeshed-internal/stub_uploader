@@ -1,3 +1,7 @@
+## 1.4.51 (2022-09-10)
+
+`SQLAlchemy`: Use `ParamSpec` for `Engine.transaction()` and `Engine.run_callable()` (#8718)
+
 ## 1.4.50 (2022-08-10)
 
 Fix stubtest failures on `SQLAlchemy` (#8524)

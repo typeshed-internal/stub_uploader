@@ -1,3 +1,7 @@
+## 0.9.3 (2022-09-10)
+
+Run third-party stubtest under xvfb-run (#8719)
+
 ## 0.9.2 (2022-09-09)
 
 Complete `pyautogui` stubs (#8684)

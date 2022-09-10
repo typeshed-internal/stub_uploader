@@ -1,3 +1,7 @@
+## 1.7.4 (2022-09-10)
+
+Run third-party stubtest under xvfb-run (#8719)
+
 ## 1.7.3 (2022-06-26)
 
 Third-party stubs: audit `Callable[<parameters>, None]` annotations (#8175)
