@@ -1,3 +1,7 @@
+## 2.11.6 (2022-09-11)
+
+Improve `paramiko.win_pageant` stubs (#8671)
+
 ## 2.11.5 (2022-09-03)
 
 fix: add missing paramiko.win_openssh (#8672)
