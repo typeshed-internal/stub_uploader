@@ -1,3 +1,9 @@
+## 2.5.4 (2022-09-11)
+
+Update `fdpf2` stubs for v2.5.7 (#8721)
+
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+
 ## 2.5.3 (2022-08-30)
 
 `fpdf2`: Remove redundant `str | Literal['DEPRECATED']` union (#8650)

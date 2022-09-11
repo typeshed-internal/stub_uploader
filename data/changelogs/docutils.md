@@ -1,3 +1,9 @@
+## 0.19.1 (2022-09-11)
+
+Add missing attributes for docutils.io (#8716)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 0.19.0 (2022-07-08)
 
 [stubsabot] Bump docutils to 0.19.* (#8260)
