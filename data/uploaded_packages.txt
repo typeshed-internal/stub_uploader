@@ -1,3 +1,4 @@
+types-D3DShot
 types-DateTimeRange
 types-Deprecated
 types-Flask
