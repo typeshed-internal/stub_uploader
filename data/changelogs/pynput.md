@@ -1,3 +1,9 @@
+## 1.7.5 (2022-09-12)
+
+[pynput] Fix annotations of Controller.Key(Code) (#8722)
+
+Document stubtest entries
+
 ## 1.7.4 (2022-09-10)
 
 Run third-party stubtest under xvfb-run (#8719)
