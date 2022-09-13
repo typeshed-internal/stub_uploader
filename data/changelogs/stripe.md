@@ -1,3 +1,7 @@
+## 3.5.2 (2022-09-13)
+
+`stripe`: Add `SearchableAPIResource`, `SearchResultObject` (#8696)
+
 ## 3.5.1 (2022-08-08)
 
 Add classmethod to stripe.PaymentIntent.confirm. (#8498)
