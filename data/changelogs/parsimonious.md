@@ -1,3 +1,7 @@
+## 0.10.0 (2022-09-13)
+
+Update parsimonious to 0.10.0 (#8730)
+
 ## 0.9.1 (2022-07-12)
 
 Import `Match` and `Pattern` from `re`, not `typing` (#8277)
