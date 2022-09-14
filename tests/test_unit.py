@@ -2,13 +2,17 @@
 
 import os
 import pytest
-from stub_uploader.get_version import strip_dep_version
+from packaging.version import Version
+from stub_uploader.get_version import (
+    compute_incremented_version,
+    ensure_specificity,
+    strip_dep_version,
+)
 from stub_uploader.build_wheel import (
     collect_setup_entries,
     sort_by_dependency,
     transitive_deps,
     strip_types_prefix,
-    BuildData,
 )
 
 
@@ -25,6 +29,83 @@ def test_strip_version() -> None:
     assert strip_dep_version("types-foo==1.1") == "types-foo"
     assert strip_dep_version("foo>2.3") == "foo"
     assert strip_dep_version("types-foo>2.3") == "types-foo"
+
+
+def test_ensure_specificity() -> None:
+    ver = [1]
+    ensure_specificity(ver, 3)
+    assert ver == [1, 0, 0]
+
+    ver = [1, 2, 3]
+    ensure_specificity(ver, 3)
+    assert ver == [1, 2, 3]
+
+    ver = [1, 2, 3, 4, 5]
+    ensure_specificity(ver, 3)
+    assert ver == [1, 2, 3, 4, 5]
+
+
+def _incremented_ver(ver: str, published: list[str]) -> str:
+    published_vers = [Version(v) for v in published]
+    return str(compute_incremented_version(ver, published_vers))
+
+
+def test_compute_incremented_version_legacy() -> None:
+    # never before published version
+    empty_list: list[str] = []
+    assert _incremented_ver("1", empty_list) == "1.0"
+    assert _incremented_ver("1.2", empty_list) == "1.2.0"
+
+    # published less than version spec
+    assert _incremented_ver("1.2", ["1.1.0.4"]) == "1.2.0"
+    assert _incremented_ver("1", ["0.9"]) == "1.0"
+    assert _incremented_ver("1.1", ["0.9"]) == "1.1.0"
+    assert _incremented_ver("1.2.3", ["1.1.0.17"]) == "1.2.3.0"
+    assert _incremented_ver("1.2.3.4", ["1.1.0.17"]) == "1.2.3.4.0"
+
+    # published equals version spec
+    assert _incremented_ver("1.1", ["1.1"]) == "1.1.1"
+    assert _incremented_ver("1.1", ["1.1.0.4"]) == "1.1.0.5"
+    assert _incremented_ver("1.1", ["1.1.3.4"]) == "1.1.3.5"
+    assert _incremented_ver("1.2.3.4", ["1.2.3.4.5"]) == "1.2.3.4.6"
+    assert _incremented_ver("1.2.3.4.5", ["1.2.3.4.5"]) == "1.2.3.4.5.1"
+
+    # test that we do the max version right
+    assert _incremented_ver("1.2", ["1.1.0.7", "1.2.0.7"]) == "1.2.0.8"
+
+
+@pytest.mark.skip(reason="Will use in follow-up PR")
+def test_compute_incremented_version() -> None:
+    # never before published version
+    empty_list: list[str] = []
+    assert _incremented_ver("1", empty_list) == "1.0.0.0"
+    assert _incremented_ver("1.2", empty_list) == "1.2.0.0"
+
+    # published greater than version spec
+    assert _incremented_ver("1.2", ["1.3.0.4"]) == "1.3.0.5"
+    assert _incremented_ver("1.1", ["1.2.0.1"]) == "1.2.0.2"
+    assert _incremented_ver("1.1", ["1.2"]) == "1.2.0.1"
+    assert _incremented_ver("1.1", ["1.2.3"]) == "1.2.3.1"
+    assert _incremented_ver("1.1", ["1.2.3.4.5"]) == "1.2.3.4.6"
+    assert _incremented_ver("1.4.40", ["1.4.50"]) == "1.4.50.1"
+    assert _incremented_ver("1.4.0.40", ["1.4.0.50"]) == "1.4.0.50.1"
+
+    # published less than version spec
+    assert _incremented_ver("1.2", ["1.1.0.4"]) == "1.2.0.0"
+    assert _incremented_ver("1", ["0.9"]) == "1.0.0.0"
+    assert _incremented_ver("1.1", ["0.9"]) == "1.1.0.0"
+    assert _incremented_ver("1.2.3", ["1.1.0.17"]) == "1.2.3.0"
+    assert _incremented_ver("1.2.3.4", ["1.1.0.17"]) == "1.2.3.4.0"
+
+    # published equals version spec
+    assert _incremented_ver("1.1", ["1.1"]) == "1.1.0.1"
+    assert _incremented_ver("1.1", ["1.1.0.4"]) == "1.1.0.5"
+    assert _incremented_ver("1.1", ["1.1.3.4"]) == "1.1.3.5"
+    assert _incremented_ver("1.2.3.4", ["1.2.3.4.5"]) == "1.2.3.4.6"
+    assert _incremented_ver("1.2.3.4.5", ["1.2.3.4.5"]) == "1.2.3.4.5.1"
+
+    # test that we do the max version right
+    assert _incremented_ver("1.2", ["1.1.0.7", "1.2.0.7", "1.3.0.7"]) == "1.3.0.8"
 
 
 def test_transitive_deps() -> None:
