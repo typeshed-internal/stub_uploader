@@ -35,6 +35,7 @@ types-braintree
 types-cachetools
 types-caldav
 types-certifi
+types-cffi
 types-characteristic
 types-chardet
 types-chevron
