@@ -1,3 +1,7 @@
+## 3.20.3 (2022-09-15)
+
+protobuf: fix stubtest errors (#8735)
+
 ## 3.20.2 (2022-09-08)
 
 [protobuf] MessageToJson indent parameter can be None (#8705)
