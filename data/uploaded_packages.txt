@@ -116,6 +116,7 @@ types-pyaudio
 types-pycurl
 types-pyfarmhash
 types-pyflakes
+types-pyinstaller
 types-pymssql
 types-pynput
 types-pysftp
