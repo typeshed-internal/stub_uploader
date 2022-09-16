@@ -38,14 +38,6 @@ class Metadata:
         return reqs
 
     @property
-    def requires_external(self) -> list[Requirement]:
-        reqs_str = self.data.get("requires_external", [])
-        reqs = [Requirement(req) for req in reqs_str]
-        # This assert isn't strictly necessary
-        assert all(not req.name.startswith(TYPES_PREFIX) for req in reqs)
-        return reqs
-
-    @property
     def extra_description(self) -> str:
         return self.data.get("extra_description", "")
 

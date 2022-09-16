@@ -308,9 +308,7 @@ def generate_setup_file(
     build_data: BuildData, metadata: Metadata, version: str, commit: str
 ) -> str:
     """Auto-generate a setup.py file for given distribution using a template."""
-    all_requirements = [
-        str(req) for req in metadata.requires_typeshed + metadata.requires_external
-    ]
+    all_requirements = [str(req) for req in metadata.requires_typeshed]
     package_data = collect_setup_entries(build_data.stub_dir)
     return SETUP_TEMPLATE.format(
         distribution=build_data.distribution,
