@@ -1,3 +1,11 @@
+## 2022.9.13.0 (2022-09-16)
+
+[stubsabot] Bump regex to 2022.9.13 (#8751)
+
+Release: https://pypi.org/project/regex/2022.9.13/
+Homepage: https://github.com/mrabarnett/mrab-regex
+Diff: https://github.com/mrabarnett/mrab-regex/compare/2022.8.17...2022.9.13
+
 ## 2022.8.17.0 (2022-08-19)
 
 [stubsabot] Bump regex to 2022.8.17 (#8562)

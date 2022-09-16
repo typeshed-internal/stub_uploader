@@ -1,3 +1,12 @@
+## 4.16.0 (2022-09-16)
+
+[stubsabot] Bump jsonschema to 4.16.* (#8748)
+
+Release: https://pypi.org/project/jsonschema/4.16.0/
+Homepage: https://github.com/python-jsonschema/jsonschema
+Changelog: https://github.com/python-jsonschema/jsonschema/blob/main/CHANGELOG.rst
+Diff: https://github.com/python-jsonschema/jsonschema/compare/v4.15.0...v4.16.0
+
 ## 4.15.1 (2022-09-03)
 
 `jsonschema._format`: update some annotations to match upstream (#8673)

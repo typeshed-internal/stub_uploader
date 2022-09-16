@@ -1,3 +1,11 @@
+## 5.5.0 (2022-09-16)
+
+[stubsabot] Bump ujson to 5.5.* (#8749)
+
+Release: https://pypi.org/project/ujson/5.5.0/
+Homepage: https://github.com/ultrajson/ultrajson
+Diff: https://github.com/ultrajson/ultrajson/compare/5.4.0...5.5.0
+
 ## 5.4.0 (2022-07-08)
 
 [stubsabot] Bump ujson to 5.4.* (#8259)
