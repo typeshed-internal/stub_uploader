@@ -89,16 +89,12 @@ def compute_incremented_version(
     if max_published.epoch > 0 or version_base.epoch > 0:
         raise NotImplementedError("Epochs in versions are not supported")
 
-    increment_specificity = specificity + 1
-    # TODO: uncomment this in follow-up PR
     # We'll try to bump the fourth part of the release. So e.g. if our version_spec is
     # 1.1, we'll release 1.1.0.0, 1.1.0.1, 1.1.0.2, ...
     # But if our version_spec is 5.6.7.8, we'll release 5.6.7.8.0, 5.6.7.8.1, ...
-    # increment_specificity = max(specificity + 1, 4)
+    increment_specificity = max(specificity + 1, 4)
 
     if version_base.release < max_published.release[:specificity]:
-        raise AssertionError("TODO: remove this exception in follow-up PR")
-
         # Our published versions have gone too far ahead the upstream version
         # So we can't guarantee our second property.
         # In practice, this will only happen if the specificity of version_spec is
