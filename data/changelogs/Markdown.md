@@ -1,3 +1,7 @@
+## 3.4.2 (2022-09-18)
+
+Add markdown.util.nearing_recursion_limit (#8764)
+
 ## 3.4.1 (2022-08-21)
 
 `Markdown`: `BlockProcessor.detab` returns a pair of strings (#8586)
