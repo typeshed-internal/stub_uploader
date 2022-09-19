@@ -1,3 +1,7 @@
+## 3.20.4 (2022-09-19)
+
+Fix protobuf stubtest errors (#8758)
+
 ## 3.20.3 (2022-09-15)
 
 protobuf: fix stubtest errors (#8735)
