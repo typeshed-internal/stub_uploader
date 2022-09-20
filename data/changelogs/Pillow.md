@@ -1,3 +1,7 @@
+## 9.2.2 (2022-09-20)
+
+fix: pillow.ImageDraw.textlength may return float (#8773)
+
 ## 9.2.1 (2022-07-29)
 
 [pillow] add new `PIL.Image` enums (#8419)
