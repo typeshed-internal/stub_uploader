@@ -26,16 +26,13 @@ class Metadata:
 
     @property
     def requires_typeshed(self) -> list[Requirement]:
-        if "requires_typeshed" in self.data:
-            assert "requires" not in self.data
-            reqs_str = self.data["requires_typeshed"]
-        else:
-            # Backward compatibility, can be removed once typeshed is updated
-            reqs_str = self.data.get("requires", [])
-
-        reqs = [Requirement(req) for req in reqs_str]
+        reqs = self.requires
         assert all(req.name.startswith(TYPES_PREFIX) for req in reqs)
         return reqs
+
+    @property
+    def requires(self) -> list[Requirement]:
+        return [Requirement(req) for req in self.data.get("requires", [])]
 
     @property
     def extra_description(self) -> str:
