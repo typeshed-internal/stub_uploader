@@ -1,3 +1,7 @@
+## 2.13.1 (2022-09-21)
+
+`pygments.lexers.guess_lexer_for_filename` cannot return `None` (#8777)
+
 ## 2.13.0 (2022-08-19)
 
 [stubsabot] Bump Pygments to 2.13.* (#8561)
