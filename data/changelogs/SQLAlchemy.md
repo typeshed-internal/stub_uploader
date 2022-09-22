@@ -1,3 +1,7 @@
+## 1.4.52 (2022-09-22)
+
+Reexport NoResultFound in orm/exc (#8782)
+
 ## 1.4.51 (2022-09-10)
 
 `SQLAlchemy`: Use `ParamSpec` for `Engine.transaction()` and `Engine.run_callable()` (#8718)
