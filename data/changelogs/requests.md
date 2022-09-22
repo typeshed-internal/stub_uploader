@@ -1,3 +1,11 @@
+## 2.28.11 (2022-09-22)
+
+`requests`: improve `_Data` type (#8762)
+
+requests: improve _Data type
+
+This allows to pass an Iterable[bytes] for streaming request data.
+
 ## 2.28.10 (2022-09-08)
 
 Add infrastructure allowing for test cases for third-party stubs (#8700)
