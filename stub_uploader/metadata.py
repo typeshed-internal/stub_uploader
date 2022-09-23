@@ -49,10 +49,9 @@ class Metadata:
 
     @property
     def _unvalidated_requires_typeshed(self) -> list[Requirement]:
+        typeshed = uploaded_packages.read()
         return [
-            r
-            for r in self._unvalidated_requires
-            if canonical_name(r.name) in uploaded_packages.read()
+            r for r in self._unvalidated_requires if canonical_name(r.name) in typeshed
         ]
 
     @functools.cached_property
@@ -64,10 +63,11 @@ class Metadata:
 
     @property
     def _unvalidated_requires_external(self) -> list[Requirement]:
+        typeshed = uploaded_packages.read()
         return [
             r
             for r in self._unvalidated_requires
-            if canonical_name(r.name) not in uploaded_packages.read()
+            if canonical_name(r.name) not in typeshed
         ]
 
     @functools.cached_property
