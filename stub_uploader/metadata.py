@@ -159,8 +159,9 @@ def verify_external_req(req: Requirement, upstream_distribution: Optional[str]) 
         )
 
     if upstream_distribution is None:
-        # There is not an upstream distribution on PyPI
-        return
+        raise InvalidRequires(
+            f"There is no upstream distribution on PyPI, so cannot verify {req}"
+        )
 
     resp = requests.get(f"https://pypi.org/pypi/{upstream_distribution}/json")
     if resp.status_code != 200:

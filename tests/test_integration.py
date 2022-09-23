@@ -101,6 +101,14 @@ def test_verify_external_req() -> None:
     with pytest.raises(InvalidRequires, match="to be listed in mypy's requires_dist"):
         recursive_verify(m, TYPESHED)
 
+    # TODO: change tests once METADATA.toml specifies whether a dist is on PyPI
+    m = Metadata("gdb", {"version": "0.1", "requires": []})
+    assert m.requires_external == []
+
+    m = Metadata("gdb", {"version": "0.1", "requires": ["something"]})
+    with pytest.raises(InvalidRequires, match="no upstream distribution on PyPI"):
+        m.requires_external
+
 
 def test_dependency_order() -> None:
     """Test sort_by_dependency correctly sorts all packages by dependency."""
