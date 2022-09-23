@@ -135,7 +135,7 @@ uploaded_packages = _UploadedPackages(UPLOADED_PATH)
 def strip_types_prefix(dependency: str) -> str:
     if not dependency.startswith(TYPES_PREFIX):
         raise ValueError("Expected dependency on a typeshed package")
-    return dependency[len(TYPES_PREFIX) :]
+    return dependency.removeprefix(TYPES_PREFIX)
 
 
 def verify_typeshed_req(req: Requirement) -> None:
