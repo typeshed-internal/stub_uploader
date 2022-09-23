@@ -1,3 +1,19 @@
+## 2.1.0 (2022-09-23)
+
+[stubsabot] Bump emoji to 2.1.* (#8784)
+
+Release: https://pypi.org/pypi/emoji/2.1.0
+Homepage: https://github.com/carpedm20/emoji/
+Diff: https://github.com/carpedm20/emoji/compare/v2.0.0...v2.1.0
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 2.0.1 (2022-08-10)
 
 Remove a few unused `TypedDict`s (#8522)
