@@ -172,6 +172,8 @@ def verify_external_req(req: Requirement, upstream_distribution: Optional[str]) 
     data = resp.json()
 
     # TODO: allow external dependencies for stubs for packages that do not ship wheels
+    # Note that we probably can't build packages from sdists, since that can execute
+    # arbitrary code.
     if req.name not in [
         Requirement(r).name for r in (data["info"].get("requires_dist") or [])
     ]:
