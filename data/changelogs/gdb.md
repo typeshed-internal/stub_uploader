@@ -1,3 +1,11 @@
+## 12.1.4 (2022-09-24)
+
+gdb: add missing automatic imports (#8788)
+
+When GDB has just started, several `gdb` submodules are automatically
+loaded, so user code does not have to manually import them (for instance
+`import gdb.events`). Reflect that in `gdb` stubs.
+
 ## 12.1.3 (2022-07-07)
 
 Fix various `TypeAlias` issues (#8248)
