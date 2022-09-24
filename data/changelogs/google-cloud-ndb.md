@@ -1,3 +1,23 @@
+## 1.11.4 (2022-09-24)
+
+google-cloud-ndb: bump stubtest protobuf requirement (#8786)
+
+Bumps [protobuf](https://github.com/protocolbuffers/protobuf) from 3.20.1 to 3.20.2.
+- [Release notes](https://github.com/protocolbuffers/protobuf/releases)
+- [Changelog](https://github.com/protocolbuffers/protobuf/blob/main/generate_changelog.py)
+- [Commits](https://github.com/protocolbuffers/protobuf/compare/v3.20.1...v3.20.2)
+
+---
+updated-dependencies:
+- dependency-name: protobuf
+  dependency-type: direct:production
+...
+
+Signed-off-by: dependabot[bot] <support@github.com>
+
+Signed-off-by: dependabot[bot] <support@github.com>
+Co-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>
+
 ## 1.11.3 (2022-05-26)
 
 Third-party stubs: fix several fictitious type aliases (#7958)
