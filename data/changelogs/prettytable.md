@@ -1,3 +1,7 @@
+## 3.4.2 (2022-09-25)
+
+prettytable: get_X_string return str (#8791)
+
 ## 3.4.1 (2022-09-03)
 
 `prettytable`: Fix stubtest errors (#8676)
