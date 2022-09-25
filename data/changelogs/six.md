@@ -1,3 +1,7 @@
+## 1.16.20 (2022-09-25)
+
+six: Remove unused `__future__` import (#8790)
+
 ## 1.16.19 (2022-08-23)
 
 `six`: Fix incorrect `type[type[Any]]` annotation (#8599)
