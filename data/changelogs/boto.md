@@ -1,3 +1,7 @@
+## 2.49.18 (2022-09-26)
+
+boto: drop dependency on types-six (#8792)
+
 ## 2.49.17 (2022-07-19)
 
 Third-party stubs: enforce CamelCase for type alias names (#8256)
