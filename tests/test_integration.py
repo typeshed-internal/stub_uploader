@@ -80,11 +80,18 @@ def test_verify_typeshed_req() -> None:
 
 def test_verify_external_req() -> None:
     # Check that some known dependencies verify as valid.
-    verify_external_req(Requirement("typing-extensions"), "mypy")
-    verify_external_req(Requirement("mypy-extensions"), "mypy")
+    verify_external_req(
+        Requirement("typing-extensions"), "mypy", _unsafe_ignore_allowlist=True
+    )
+    verify_external_req(
+        Requirement("mypy-extensions"), "mypy", _unsafe_ignore_allowlist=True
+    )
 
-    m = Metadata("mypy", {"version": "0.1", "requires": ["typing-extensions"]})
-    assert [r.name for r in m.requires_external] == ["typing-extensions"]
+    with pytest.raises(InvalidRequires, match="to be present in the allowlist"):
+        verify_external_req(Requirement("typing-extensions"), "mypy")
+
+    m = Metadata("pandas", {"version": "0.1", "requires": ["numpy"]})
+    assert [r.name for r in m.requires_external] == ["numpy"]
 
     with pytest.raises(InvalidRequires, match="to be listed in mypy's requires_dist"):
         verify_external_req(Requirement("numpy"), "mypy")

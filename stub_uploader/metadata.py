@@ -141,13 +141,32 @@ def strip_types_prefix(dependency: str) -> str:
 def verify_typeshed_req(req: Requirement) -> None:
     if not req.name.startswith(TYPES_PREFIX):
         raise InvalidRequires(f"Expected dependency {req} to start with {TYPES_PREFIX}")
+
     if not canonical_name(req.name) in uploaded_packages.read():
         raise InvalidRequires(
             f"Expected dependency {req} to be uploaded from stub_uploader"
         )
 
+    # TODO: make sure that if a typeshed distribution depends on other typeshed stubs,
+    # the upstream depends on the upstreams corresponding to those stubs.
+    # See https://github.com/typeshed-internal/stub_uploader/pull/61#discussion_r979327370
 
-def verify_external_req(req: Requirement, upstream_distribution: Optional[str]) -> None:
+
+# Presence in the top 1000 PyPI packages could be a necessary but not sufficient criterion for
+# inclusion in this allowlist.
+# Note we could loosen our criteria once we address:
+# https://github.com/typeshed-internal/stub_uploader/pull/61#discussion_r979327370
+EXTERNAL_REQ_ALLOWLIST = {
+    "numpy",
+    "cryptography",
+}
+
+
+def verify_external_req(
+    req: Requirement,
+    upstream_distribution: Optional[str],
+    _unsafe_ignore_allowlist: bool = False,  # used for tests
+) -> None:
     if canonical_name(req.name) in uploaded_packages.read():
         raise InvalidRequires(
             f"Expected dependency {req} to not be uploaded from stub_uploader"
@@ -171,14 +190,19 @@ def verify_external_req(req: Requirement, upstream_distribution: Optional[str]) 
 
     data = resp.json()
 
-    # TODO: allow external dependencies for stubs for packages that do not ship wheels
-    # Note that we probably can't build packages from sdists, since that can execute
-    # arbitrary code.
+    # TODO: consider allowing external dependencies for stubs for packages that do not ship wheels.
+    # Note that we can't build packages from sdists, since that can execute arbitrary code.
+    # We could do some hacky setup.py parsing though...
     if req.name not in [
         Requirement(r).name for r in (data["info"].get("requires_dist") or [])
     ]:
         raise InvalidRequires(
             f"Expected dependency {req} to be listed in {upstream_distribution}'s requires_dist"
+        )
+
+    if req.name not in EXTERNAL_REQ_ALLOWLIST and not _unsafe_ignore_allowlist:
+        raise InvalidRequires(
+            f"Expected dependency {req} to be present in the allowlist"
         )
 
 
