@@ -159,6 +159,7 @@ def verify_typeshed_req(req: Requirement) -> None:
 EXTERNAL_REQ_ALLOWLIST = {
     "numpy",
     "cryptography",
+    "torch",
 }
 
 
