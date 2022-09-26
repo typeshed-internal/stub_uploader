@@ -193,6 +193,9 @@ def verify_external_req(
     # TODO: consider allowing external dependencies for stubs for packages that do not ship wheels.
     # Note that we can't build packages from sdists, since that can execute arbitrary code.
     # We could do some hacky setup.py parsing though...
+    # TODO: PyPI doesn't seem to have version specific requires_dist. This does mean we can be
+    # broken by new releases of upstream packages, even if they do not match the version spec we
+    # have for the upstream distribution.
     if req.name not in [
         Requirement(r).name for r in (data["info"].get("requires_dist") or [])
     ]:
