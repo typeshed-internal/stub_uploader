@@ -1,3 +1,7 @@
+## 1.26.25 (2022-09-27)
+
+Bump mypy to 0.981 (#8796)
+
 ## 1.26.24 (2022-09-08)
 
 Fix urllib3.response.HTTPResponse.geturl() return type (#8704)

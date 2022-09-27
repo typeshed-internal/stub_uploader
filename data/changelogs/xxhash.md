@@ -1,3 +1,7 @@
+## 3.0.5 (2022-09-27)
+
+Bump mypy to 0.981 (#8796)
+
 ## 3.0.4 (2022-07-20)
 
 Allowlist useless modules (#8340)

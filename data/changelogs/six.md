@@ -1,3 +1,7 @@
+## 1.16.21 (2022-09-27)
+
+Bump mypy to 0.981 (#8796)
+
 ## 1.16.20 (2022-09-25)
 
 six: Remove unused `__future__` import (#8790)

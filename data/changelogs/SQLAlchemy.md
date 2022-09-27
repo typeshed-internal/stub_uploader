@@ -1,3 +1,7 @@
+## 1.4.53 (2022-09-27)
+
+Bump mypy to 0.981 (#8796)
+
 ## 1.4.52 (2022-09-22)
 
 Reexport NoResultFound in orm/exc (#8782)

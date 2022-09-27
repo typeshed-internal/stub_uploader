@@ -1,3 +1,7 @@
+## 4.64.7 (2022-09-27)
+
+Bump mypy to 0.981 (#8796)
+
 ## 4.64.6 (2022-08-24)
 
 tqdm: All `leave` arguments can be `None` (#8603)

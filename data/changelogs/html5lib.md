@@ -1,3 +1,7 @@
+## 1.1.11 (2022-09-27)
+
+Bump mypy to 0.981 (#8796)
+
 ## 1.1.10 (2022-08-18)
 
 Support extras in stubtest_third_party.py (#8467)

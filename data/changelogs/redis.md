@@ -1,3 +1,7 @@
+## 4.3.21 (2022-09-27)
+
+Bump mypy to 0.981 (#8796)
+
 ## 4.3.20 (2022-09-02)
 
 `redis`: Improve `kwargs` typing in `sentinel` (#8661)

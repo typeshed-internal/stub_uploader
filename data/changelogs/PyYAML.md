@@ -1,3 +1,7 @@
+## 6.0.12 (2022-09-27)
+
+Bump mypy to 0.981 (#8796)
+
 ## 6.0.11 (2022-07-24)
 
 `PyYaml`’s Serializer: annotate `open`, `close`, `serialize` (#8383)
