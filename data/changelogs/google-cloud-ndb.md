@@ -1,3 +1,9 @@
+## 1.11.5 (2022-09-27)
+
+google-cloud-ndb: drop dependency on types-six (#8793)
+
+For https://github.com/typeshed-internal/stub_uploader/pull/61#discussion_r979327370
+
 ## 1.11.4 (2022-09-24)
 
 google-cloud-ndb: bump stubtest protobuf requirement (#8786)
