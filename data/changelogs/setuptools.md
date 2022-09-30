@@ -1,3 +1,12 @@
+## 65.4.0.0 (2022-09-30)
+
+[stubsabot] Bump setuptools to 65.4.* (#8811)
+
+Release: https://pypi.org/pypi/setuptools/65.4.0
+Homepage: https://github.com/pypa/setuptools
+Changelog: https://setuptools.pypa.io/en/stable/history.html
+Diff: https://github.com/pypa/setuptools/compare/v65.3.0...v65.4.0
+
 ## 65.3.0 (2022-08-26)
 
 [stubsabot] Bump setuptools to 65.3.* (#8620)

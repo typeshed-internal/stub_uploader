@@ -1,3 +1,18 @@
+## 22.9.23.0 (2022-09-30)
+
+[stubsabot] Bump flake8-bugbear to 22.9.23 (#8812)
+
+Release: https://pypi.org/pypi/flake8-bugbear/22.9.23
+Homepage: https://github.com/PyCQA/flake8-bugbear
+Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+Diff: https://github.com/PyCQA/flake8-bugbear/compare/22.9.11...22.9.23
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
 ## 22.9.11.0 (2022-09-16)
 
 [stubsabot] Bump flake8-bugbear to 22.9.11 (#8747)
