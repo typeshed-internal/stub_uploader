@@ -1,3 +1,9 @@
+## 1.7.3.1 (2022-10-01)
+
+Add `parser` to `invoke.completion.complete.complete` (#8819)
+
+Closes https://github.com/python/typeshed/issues/8818
+
 ## 1.7.3 (2022-07-13)
 
 Add types to `invoke.Runner.run` (#8279)
