@@ -1,3 +1,16 @@
+## 4.3.21.1 (2022-10-03)
+
+Add `redis.asyncio.parser` (#8830)
+
+Source: https://github.com/redis/redis-py/blob/master/redis/asyncio/parser.py
+
+[redis] Improve `fail` parameter of `Retry.call_with_retry` (#8827)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
+[redis] Improve `redis.asyncio.lock` types (#8826)
+
 ## 4.3.21 (2022-09-27)
 
 Bump mypy to 0.981 (#8796)

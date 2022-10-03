@@ -1,3 +1,7 @@
+## 5.9.5.1 (2022-10-03)
+
+psutil: Improve types for disk_io_counters() and net_io_counters() (#8829)
+
 ## 5.9.5 (2022-08-08)
 
 psutil: improve svmem types (#8503)
