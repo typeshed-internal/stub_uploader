@@ -1,3 +1,7 @@
+## 2.5.4.1 (2022-10-04)
+
+`fpdf2`: Add missing files (#8836)
+
 ## 2.5.4 (2022-09-11)
 
 Update `fdpf2` stubs for v2.5.7 (#8721)

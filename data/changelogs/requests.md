@@ -1,3 +1,9 @@
+## 2.28.11.1 (2022-10-04)
+
+`requests`: Add regression test for #8762 (#8835)
+
+The final mypy_primer report for #8762 was an empty diff. Considering the number of issues we've had with our requests stubs over the last year, it feels like it makes sense to add a test case to make sure that it doesn't regress.
+
 ## 2.28.11 (2022-09-22)
 
 `requests`: improve `_Data` type (#8762)

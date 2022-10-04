@@ -1,3 +1,7 @@
+## 0.9.3.1 (2022-10-04)
+
+`PyAutoGUI`: Use types from `PyScreeze` (#8824)
+
 ## 0.9.3 (2022-09-10)
 
 Run third-party stubtest under xvfb-run (#8719)
