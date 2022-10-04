@@ -1,3 +1,7 @@
+## 22.1.0.0 (2022-10-04)
+
+Update pyOpenSSL stubs to 22.1.* (#8838)
+
 ## 22.0.10 (2022-07-29)
 
 Add `pyopenssl.rand` module (#8435)

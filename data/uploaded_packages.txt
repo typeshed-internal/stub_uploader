@@ -104,6 +104,7 @@ types-parsimonious
 types-passlib
 types-passpy
 types-pathlib2
+types-peewee
 types-pep8-naming
 types-pkg_resources
 types-playsound
