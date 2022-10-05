@@ -1,3 +1,18 @@
+## 2022.4.0.0 (2022-10-05)
+
+[stubsabot] Bump pytz to 2022.4 (#8848)
+
+Release: https://pypi.org/pypi/pytz/2022.4
+Homepage: http://pythonhosted.org/pytz
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 2022.2.1.0 (2022-08-19)
 
 [stubsabot] Bump pytz to 2022.2.1 (#8564)

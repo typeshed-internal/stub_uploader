@@ -1,3 +1,18 @@
+## 4.17.0.0 (2022-10-05)
+
+[stubsabot] Bump braintree to 4.17.* (#8847)
+
+Release: https://pypi.org/pypi/braintree/4.17.0
+Homepage: https://developer.paypal.com/braintree/docs/reference/overview
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 4.16.0 (2022-07-29)
 
 Bump braintree to 4.16.* (#8433)
