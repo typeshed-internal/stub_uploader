@@ -1,3 +1,7 @@
+## 2.5.4.2 (2022-10-06)
+
+`fpdf2`: complete stubs (#8855)
+
 ## 2.5.4.1 (2022-10-04)
 
 `fpdf2`: Add missing files (#8836)
