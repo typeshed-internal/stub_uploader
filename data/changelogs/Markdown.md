@@ -1,3 +1,9 @@
+## 3.4.2.1 (2022-10-06)
+
+markdown: Specify md type (#8857)
+
+Signed-off-by: Anders Kaseorg <andersk@mit.edu>
+
 ## 3.4.2 (2022-09-18)
 
 Add markdown.util.nearing_recursion_limit (#8764)
