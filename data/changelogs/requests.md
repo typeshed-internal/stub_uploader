@@ -1,3 +1,9 @@
+## 2.28.11.2 (2022-10-07)
+
+Mark `requests` stubs as complete (#8858)
+
+Co-authored-by: Kevin Kirsche <kevin.kirsche@one.verizon.com>
+
 ## 2.28.11.1 (2022-10-04)
 
 `requests`: Add regression test for #8762 (#8835)

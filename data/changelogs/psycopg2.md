@@ -1,3 +1,9 @@
+## 2.9.21.1 (2022-10-07)
+
+psycopg2: __nonzero__ was removed (#8863)
+
+Fixes #8862
+
 ## 2.9.21 (2022-08-21)
 
 Improve return type for psycopg2 connect function (#8567)
