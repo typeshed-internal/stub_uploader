@@ -1,3 +1,7 @@
+## 0.9.0.0 (2022-10-07)
+
+Bump tabulate to `0.9` version (#8865)
+
 ## 0.8.11 (2022-06-25)
 
 appdirs, tabulate, termcolor, xmltodict: check missing defs (#8156)

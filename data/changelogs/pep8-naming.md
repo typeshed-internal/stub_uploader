@@ -1,3 +1,7 @@
+## 0.13.0.1 (2022-10-07)
+
+Add two more methods to `pep8-naming` stub (#8864)
+
 ## 0.13.0 (2022-06-26)
 
 [stubsabot] Bump pep8-naming to 0.13.* (#8181)
