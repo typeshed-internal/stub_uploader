@@ -1,3 +1,9 @@
+## 9.2.2.1 (2022-10-10)
+
+Allow PIL.Image.MAX_IMAGE_PIXELS to be None (#8876)
+
+`_decompression_bomb_check()` explicitly checks for `None` and handles it as "unlimited".
+
 ## 9.2.2 (2022-09-20)
 
 fix: pillow.ImageDraw.textlength may return float (#8773)
