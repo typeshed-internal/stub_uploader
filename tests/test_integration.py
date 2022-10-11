@@ -133,8 +133,8 @@ def test_recursive_verify_single() -> None:
     m = read_metadata(TYPESHED, "six")
     assert recursive_verify(m, TYPESHED) == {"types-six"}
 
-    m = read_metadata(TYPESHED, "boto")
-    assert recursive_verify(m, TYPESHED) == {"types-boto", "types-six"}
+    m = read_metadata(TYPESHED, "tzlocal")
+    assert recursive_verify(m, TYPESHED) == {"types-tzlocal", "types-pytz"}
 
 
 @pytest.mark.parametrize(
