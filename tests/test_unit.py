@@ -134,5 +134,5 @@ def test_uploaded_packages() -> None:
         up.add("six")
         assert up.read() == {"types-sqlalchemy", "types-six"}
 
-        with open(file_path, "r") as f:
+        with open(file_path) as f:
             assert f.read() == "types-SqLaLcHeMy\ntypes-six"

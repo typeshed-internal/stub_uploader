@@ -12,7 +12,7 @@ distribution information.
 
 from __future__ import annotations
 
-from typing import Any, Union
+from typing import Any
 
 import requests
 from packaging.specifiers import SpecifierSet
@@ -20,7 +20,7 @@ from packaging.version import Version
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
 
-from stub_uploader.const import *
+from stub_uploader.const import TYPES_PREFIX
 from stub_uploader.metadata import Metadata
 
 URL_TEMPLATE = "https://pypi.org/pypi/{}/json"

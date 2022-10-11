@@ -23,9 +23,14 @@ import shutil
 import subprocess
 import tempfile
 from textwrap import dedent
-from typing import Dict, List, Optional
+from typing import Optional
 
-from stub_uploader.const import *
+from stub_uploader.const import (
+    CHANGELOG_PATH,
+    META,
+    TESTS_NAMESPACE,
+    THIRD_PARTY_NAMESPACE,
+)
 from stub_uploader.metadata import Metadata, read_metadata
 
 CHANGELOG = "CHANGELOG.md"
@@ -99,7 +104,7 @@ class BuildData:
         self.stub_dir = os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE, distribution)
 
 
-def find_stub_files(top: str) -> List[str]:
+def find_stub_files(top: str) -> list[str]:
     """Find all stub files for a given package, relative to package root.
 
     Raise if we find any unknown file extensions during collection.
@@ -169,7 +174,7 @@ def copy_changelog(distribution: str, dst: str) -> None:
         pass  # Ignore missing changelogs
 
 
-def collect_setup_entries(base_dir: str) -> Dict[str, List[str]]:
+def collect_setup_entries(base_dir: str) -> dict[str, list[str]]:
     """Generate package data for a setuptools.setup() call.
 
     This reflects the transformations done during copying in copy_stubs().
@@ -263,7 +268,7 @@ def main(
     commit = subprocess.run(
         ["git", "rev-parse", "HEAD"],
         capture_output=True,
-        universal_newlines=True,
+        text=True,
         cwd=typeshed_dir,
     ).stdout.strip()
     metadata = read_metadata(typeshed_dir, distribution)
