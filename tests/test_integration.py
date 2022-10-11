@@ -32,11 +32,6 @@ def test_fetch_pypi_versions() -> None:
     assert not get_version.fetch_pypi_versions("types-nonexistent-distribution")
 
 
-def test_check_exists() -> None:
-    assert get_version.check_exists("six")
-    assert not get_version.check_exists("nonexistent-distribution")
-
-
 @pytest.mark.parametrize(
     "distribution", os.listdir(os.path.join(TYPESHED, THIRD_PARTY_NAMESPACE))
 )

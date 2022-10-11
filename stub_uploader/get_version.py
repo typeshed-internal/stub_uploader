@@ -45,20 +45,6 @@ def fetch_pypi_versions(distribution: str) -> list[Version]:
     return [Version(release) for release in releases.keys()]
 
 
-def check_exists(distribution: str) -> bool:
-    """Check if any version of this *stub* distribution has ben ever uploaded."""
-    url = URL_TEMPLATE.format(distribution)
-    retry_strategy = Retry(total=RETRIES, status_forcelist=RETRY_ON)
-    with requests.Session() as session:
-        session.mount("https://", HTTPAdapter(max_retries=retry_strategy))
-        resp = session.get(url, timeout=TIMEOUT)
-    if resp.ok:
-        return True
-    if resp.status_code == 404:
-        return False
-    raise ValueError("Error while verifying existence")
-
-
 def ensure_specificity(ver: list[int], specificity: int) -> None:
     ver.extend([0] * (specificity - len(ver)))
 
