@@ -20,13 +20,11 @@ import argparse
 import os
 import os.path
 import shutil
-import tempfile
 import subprocess
-from collections import defaultdict
+import tempfile
 from textwrap import dedent
-from typing import List, Dict, Set, Optional
+from typing import Dict, List, Optional
 
-from stub_uploader import get_version
 from stub_uploader.const import *
 from stub_uploader.metadata import Metadata, read_metadata
 
@@ -99,13 +97,6 @@ class BuildData:
     def __init__(self, typeshed_dir: str, distribution: str) -> None:
         self.distribution = distribution
         self.stub_dir = os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE, distribution)
-
-
-def strip_types_prefix(dependency: str) -> str:
-    assert dependency.startswith(
-        TYPES_PREFIX
-    ), "Currently only dependencies on stub packages are supported"
-    return dependency[len(TYPES_PREFIX) :]
 
 
 def find_stub_files(top: str) -> List[str]:
@@ -214,98 +205,13 @@ def collect_setup_entries(base_dir: str) -> Dict[str, List[str]]:
     return package_data
 
 
-def verify_dependency(typeshed_dir: str, dependency: str, uploaded: str) -> None:
-    """Verify this is a valid dependency, i.e. a stub package uploaded by us."""
-    known_distributions = set(
-        os.listdir(os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE))
-    )
-    assert ";" not in dependency, "Semicolons in dependencies are not supported"
-    dependency = get_version.strip_dep_version(dependency)
-    assert (
-        strip_types_prefix(dependency) in known_distributions
-    ), "Only dependencies on typeshed stubs are allowed"
-    with open(uploaded) as f:
-        uploaded_distributions = set(f.read().splitlines())
-
-    msg = f"{dependency} looks like a foreign distribution."
-    uploaded_distributions_lower = [d.lower() for d in uploaded_distributions]
-    if (
-        dependency not in uploaded_distributions
-        and dependency.lower() in uploaded_distributions_lower
-    ):
-        msg += " Note: list is case sensitive"
-    assert dependency in uploaded_distributions, msg
-
-
-def update_uploaded(uploaded: str, distribution: str) -> None:
-    with open(uploaded) as f:
-        current = set(f.read().splitlines())
-    if f"types-{distribution}" not in current:
-        with open(uploaded, "w") as f:
-            f.write("\n".join(sorted(current | {f"types-{distribution}"})))
-
-
-def make_dependency_map(
-    typeshed_dir: str, distributions: List[str]
-) -> Dict[str, Set[str]]:
-    """Return relative dependency map among distributions.
-
-    Important: this only includes dependencies *within* the given
-    list of distributions.
-    """
-    result: Dict[str, Set[str]] = {d: set() for d in distributions}
-    for distribution in distributions:
-        data = read_metadata(typeshed_dir, distribution)
-        for dependency in data.requires:
-            dependency = strip_types_prefix(get_version.strip_dep_version(dependency))
-            if dependency in distributions:
-                result[distribution].add(dependency)
-    return result
-
-
-def transitive_deps(dep_map: Dict[str, Set[str]]) -> Dict[str, Set[str]]:
-    """Propagate dependencies to compute a transitive dependency map.
-
-    Note: this algorithm is O(N**2) in general case, but we don't worry,
-    because N is small (less than 1000). So it will take few seconds at worst,
-    while building/uploading 1000 packages will take minutes.
-    """
-    transitive: Dict[str, Set[str]] = defaultdict(set)
-    for distribution in dep_map:
-        to_add = {distribution}
-        while to_add:
-            new = to_add.pop()
-            extra = dep_map[new]
-            transitive[distribution] |= extra
-            assert (
-                distribution not in transitive[distribution]
-            ), f"Cyclic dependency {distribution} -> {distribution}"
-            to_add |= extra
-    return transitive
-
-
-def sort_by_dependency(dep_map: Dict[str, Set[str]]) -> List[str]:
-    """Sort distributions by dependency order (those depending on nothing appear first)."""
-    trans_map = transitive_deps(dep_map)
-
-    # We can't use builtin sort w.r.t. trans_map because it makes various assumptions
-    # about properties of equality and order (like their mutual transitivity).
-    def sort(ds: List[str]) -> List[str]:
-        if not ds:
-            return []
-        pivot = ds.pop()
-        not_dependent = [d for d in ds if pivot not in trans_map[d]]
-        dependent = [d for d in ds if pivot in trans_map[d]]
-        return sort(not_dependent) + [pivot] + sort(dependent)
-
-    # Return independent packages sorted by name for stability.
-    return sort(sorted(dep_map))
-
-
 def generate_setup_file(
     build_data: BuildData, metadata: Metadata, version: str, commit: str
 ) -> str:
     """Auto-generate a setup.py file for given distribution using a template."""
+    all_requirements = [
+        str(req) for req in metadata.requires_typeshed + metadata.requires_external
+    ]
     package_data = collect_setup_entries(build_data.stub_dir)
     return SETUP_TEMPLATE.format(
         distribution=build_data.distribution,
@@ -313,7 +219,7 @@ def generate_setup_file(
             build_data.distribution, commit, metadata
         ),
         version=version,
-        requires=metadata.requires,
+        requires=all_requirements,
         packages=list(package_data.keys()),
         package_data=package_data,
     )

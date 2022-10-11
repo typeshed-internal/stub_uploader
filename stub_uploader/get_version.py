@@ -15,7 +15,6 @@ from __future__ import annotations
 from typing import Any, Union
 
 import requests
-from packaging.requirements import Requirement
 from packaging.specifiers import SpecifierSet
 from packaging.version import Version
 from requests.adapters import HTTPAdapter
@@ -127,11 +126,6 @@ def compute_incremented_version(
     assert incremented_version > max_published
     assert incremented_version in compatible
     return incremented_version
-
-
-def strip_dep_version(dependency: str) -> str:
-    """Strip a possible version suffix, e.g. types-six>=0.1.4 -> types-six."""
-    return Requirement(dependency).name
 
 
 def determine_incremented_version(metadata: Metadata) -> str:

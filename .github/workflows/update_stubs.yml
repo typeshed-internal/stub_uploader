@@ -37,7 +37,7 @@ jobs:
           TWINE_PASSWORD: ${{ secrets.TYPESHED_BOT_API_TOKEN }}
         run: |
           cd main
-          python -m stub_uploader.upload_changed ../typeshed $(cat data/last_typeshed_commit.sha1) data/uploaded_packages.txt
+          python -m stub_uploader.upload_changed ../typeshed $(cat data/last_typeshed_commit.sha1)
           (cd ../typeshed; git rev-parse HEAD) > data/last_typeshed_commit.sha1
           if [ -z "$(git status --porcelain)" ]; then
               exit 0;

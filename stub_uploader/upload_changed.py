@@ -13,36 +13,40 @@ import argparse
 import os
 import subprocess
 
-from stub_uploader import build_wheel, get_changed, update_changelog
-from stub_uploader.metadata import read_metadata
+from stub_uploader import build_wheel, get_changed
 from stub_uploader.get_version import determine_incremented_version
+from stub_uploader.metadata import (
+    read_metadata,
+    recursive_verify,
+    sort_by_dependency,
+    uploaded_packages,
+)
+from stub_uploader.update_changelog import update_changelog
 
 
-def main(typeshed_dir: str, commit: str, uploaded: str, dry_run: bool = False) -> None:
+def main(typeshed_dir: str, commit: str, dry_run: bool = False) -> None:
     """Upload stub typeshed packages modified since commit."""
     changed = get_changed.main(typeshed_dir, commit)
     # Ignore those distributions that were completely deleted.
     current = set(os.listdir(os.path.join(typeshed_dir, "stubs")))
     changed = [d for d in changed if d in current]
-    # Sort by dependency to prevent depending on foreign distributions.
-    to_upload = build_wheel.sort_by_dependency(
-        build_wheel.make_dependency_map(typeshed_dir, changed)
-    )
+    to_upload = sort_by_dependency(typeshed_dir, changed)
+
     print("Building and uploading stubs for:", ", ".join(to_upload))
     for distribution in to_upload:
         metadata = read_metadata(typeshed_dir, distribution)
+        recursive_verify(metadata, typeshed_dir)
+
         version = determine_incremented_version(metadata)
-        update_changelog.update_changelog(
-            typeshed_dir, commit, distribution, version, dry_run=dry_run
-        )
+
+        update_changelog(typeshed_dir, commit, distribution, version, dry_run=dry_run)
         temp_dir = build_wheel.main(typeshed_dir, distribution, version)
         if dry_run:
             print(f"Would upload: {distribution}, version {version}")
             continue
-        for dependency in metadata.requires:
-            build_wheel.verify_dependency(typeshed_dir, dependency, uploaded)
+
         subprocess.run(["twine", "upload", os.path.join(temp_dir, "*")], check=True)
-        build_wheel.update_uploaded(uploaded, distribution)
+        uploaded_packages.add(distribution)
         print(f"Successfully uploaded stubs for {distribution}")
 
 
@@ -53,13 +57,9 @@ if __name__ == "__main__":
         "previous_commit", help="Previous typeshed commit for which we performed upload"
     )
     parser.add_argument(
-        "uploaded",
-        help="File listing previously uploaded packages to validate dependencies",
-    )
-    parser.add_argument(
         "--dry-run",
         action="store_true",
         help="Should we perform a dry run (don't actually upload)",
     )
     args = parser.parse_args()
-    main(args.typeshed_dir, args.previous_commit, args.uploaded, args.dry_run)
+    main(args.typeshed_dir, args.previous_commit, args.dry_run)
