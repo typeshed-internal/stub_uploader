@@ -4,7 +4,8 @@ import functools
 import graphlib
 import os
 import re
-from typing import Any, Dict, Iterator, Optional
+from typing import Any, Optional
+from collections.abc import Iterator
 
 import requests
 import tomli
@@ -18,7 +19,7 @@ class InvalidRequires(Exception):
 
 
 class Metadata:
-    def __init__(self, distribution: str, data: Dict[str, Any]):
+    def __init__(self, distribution: str, data: dict[str, Any]):
         assert not distribution.startswith(TYPES_PREFIX)
         self._alleged_upstream_distribution = distribution
         self.data = data

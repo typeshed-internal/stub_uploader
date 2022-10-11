@@ -11,16 +11,14 @@ import argparse
 import os
 import subprocess
 
-from typing import List
 
-
-def main(typeshed_dir: str, commit: str) -> List[str]:
+def main(typeshed_dir: str, commit: str) -> list[str]:
     """List all distributions that changed since commit."""
     assert typeshed_dir.endswith(os.sep + "typeshed")
     git = subprocess.run(
         ["git", "diff", "--no-renames", "--name-only", "HEAD", commit],
         capture_output=True,
-        universal_newlines=True,
+        text=True,
         cwd=typeshed_dir,
         check=True,
     )

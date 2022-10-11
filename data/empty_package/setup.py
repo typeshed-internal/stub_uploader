@@ -1,4 +1,5 @@
 import sys
+
 from setuptools import setup
 
 increment = int(sys.argv.pop())
