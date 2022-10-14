@@ -229,7 +229,10 @@ def sort_by_dependency(typeshed_dir: str, distributions: list[str]) -> Iterator[
             *[r.name for r in metadata._unvalidated_requires],
         )
 
-    for dist in ts.static_order():
+    order = [*ts.static_order()]
+    print("Determined package order", order)
+
+    for dist in order:
         dist = strip_types_prefix(dist)
         if dist in distributions:
             yield dist
