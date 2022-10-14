@@ -23,7 +23,9 @@ def upload(
 ) -> None:
     to_upload = sort_by_dependency(typeshed_dir, distributions)
     print("Building and uploading stubs for:", ", ".join(distributions))
+    print()
     for distribution in to_upload:
+        print(f"Building stubs for {distribution}... ", end="")
         metadata = read_metadata(typeshed_dir, distribution)
         recursive_verify(metadata, typeshed_dir)
 
@@ -34,10 +36,13 @@ def upload(
             )
 
         temp_dir = build_wheel.main(typeshed_dir, distribution, version)
-        if dry_run:
-            print(f"Would upload: {distribution}, version {version}")
-            return
+        print(f"ok, version {version}")
 
-        subprocess.run(["twine", "upload", os.path.join(temp_dir, "*")], check=True)
-        uploaded_packages.add(distribution)
-        print(f"Successfully uploaded stubs for {distribution}")
+        print(f"Uploading stubs for {distribution}... ", end="")
+        if dry_run:
+            print(f"skipped")
+        else:
+            subprocess.run(["twine", "upload", os.path.join(temp_dir, "*")], check=True)
+            uploaded_packages.add(distribution)
+            print(f"ok")
+        print()
