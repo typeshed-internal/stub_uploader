@@ -11,17 +11,8 @@ This does following things:
 
 import argparse
 import os
-import subprocess
-
-from stub_uploader import build_wheel, get_changed
-from stub_uploader.get_version import determine_incremented_version
-from stub_uploader.metadata import (
-    read_metadata,
-    recursive_verify,
-    sort_by_dependency,
-    uploaded_packages,
-)
-from stub_uploader.update_changelog import update_changelog
+from stub_uploader import get_changed
+from stub_uploader.upload import upload
 
 
 def main(typeshed_dir: str, commit: str, dry_run: bool = False) -> None:
@@ -30,24 +21,7 @@ def main(typeshed_dir: str, commit: str, dry_run: bool = False) -> None:
     # Ignore those distributions that were completely deleted.
     current = set(os.listdir(os.path.join(typeshed_dir, "stubs")))
     changed = [d for d in changed if d in current]
-    to_upload = sort_by_dependency(typeshed_dir, changed)
-
-    print("Building and uploading stubs for:", ", ".join(to_upload))
-    for distribution in to_upload:
-        metadata = read_metadata(typeshed_dir, distribution)
-        recursive_verify(metadata, typeshed_dir)
-
-        version = determine_incremented_version(metadata)
-
-        update_changelog(typeshed_dir, commit, distribution, version, dry_run=dry_run)
-        temp_dir = build_wheel.main(typeshed_dir, distribution, version)
-        if dry_run:
-            print(f"Would upload: {distribution}, version {version}")
-            continue
-
-        subprocess.run(["twine", "upload", os.path.join(temp_dir, "*")], check=True)
-        uploaded_packages.add(distribution)
-        print(f"Successfully uploaded stubs for {distribution}")
+    upload(typeshed_dir, changed, commit, dry_run=dry_run)
 
 
 if __name__ == "__main__":
