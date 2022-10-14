@@ -11,16 +11,8 @@ This does following things:
 import argparse
 import os
 import re
-import subprocess
 
-from stub_uploader import build_wheel
-from stub_uploader.get_version import determine_incremented_version
-from stub_uploader.metadata import (
-    read_metadata,
-    recursive_verify,
-    sort_by_dependency,
-    uploaded_packages,
-)
+from stub_uploader.upload import upload
 
 
 def main(typeshed_dir: str, pattern: str) -> None:
@@ -31,20 +23,8 @@ def main(typeshed_dir: str, pattern: str) -> None:
         for d in os.listdir(os.path.join(typeshed_dir, "stubs"))
         if re.match(compiled, d)
     ]
-    to_upload = sort_by_dependency(typeshed_dir, matching)
-
-    print("Uploading stubs for:", ", ".join(to_upload))
-    for distribution in to_upload:
-        metadata = read_metadata(typeshed_dir, distribution)
-        recursive_verify(metadata, typeshed_dir)
-
-        version = determine_incremented_version(metadata)
-
-        # TODO: Update changelog
-        temp_dir = build_wheel.main(typeshed_dir, distribution, version)
-        subprocess.run(["twine", "upload", os.path.join(temp_dir, "*")], check=True)
-        uploaded_packages.add(distribution)
-        print(f"Successfully uploaded stubs for {distribution}")
+    # TODO: Update changelog by providing the "commit" argument
+    upload(typeshed_dir, matching)
 
 
 if __name__ == "__main__":
