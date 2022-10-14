@@ -1,3 +1,7 @@
+## 5.1.8.1 (2022-10-14)
+
+Mark `decorator` as complete (#8897)
+
 ## 5.1.8 (2022-07-12)
 
 Import `Match` and `Pattern` from `re`, not `typing` (#8277)

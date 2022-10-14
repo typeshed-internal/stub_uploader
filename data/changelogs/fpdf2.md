@@ -1,3 +1,10 @@
+## 2.5.4.3 (2022-10-14)
+
+Add return types to fpdf.drawing (#8891)
+
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## 2.5.4.2 (2022-10-06)
 
 `fpdf2`: complete stubs (#8855)
