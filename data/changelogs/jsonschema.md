@@ -1,3 +1,7 @@
+## 4.16.1.1 (2022-10-14)
+
+Fix RefResolver's context manager return types (#8898)
+
 ## 4.16.1 (2022-09-27)
 
 Bump mypy to 0.981 (#8796)
