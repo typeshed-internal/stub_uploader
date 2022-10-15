@@ -1,3 +1,27 @@
+## 65.5.0.0 (2022-10-15)
+
+[stubsabot] Bump setuptools to 65.5.* (#8900)
+
+Release: https://pypi.org/pypi/setuptools/65.5.0
+Homepage: https://github.com/pypa/setuptools
+Changelog: https://setuptools.pypa.io/en/stable/history.html
+Diff: https://github.com/pypa/setuptools/compare/v65.4.1...v65.5.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 4 files included in typeshed's stubs have been modified or renamed: `setuptools/build_meta.py`, `setuptools/command/test.py`, `setuptools/monkey.py`, `setuptools/wheel.py`.
+ - Total lines of Python code added: 111.
+ - Total lines of Python code deleted: 59.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 65.4.0.0 (2022-09-30)
 
 [stubsabot] Bump setuptools to 65.4.* (#8811)
