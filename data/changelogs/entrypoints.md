@@ -1,3 +1,7 @@
+## 0.4.1.1 (2022-10-15)
+
+Mark `entrypoints` as complete (#8901)
+
 ## 0.4.1 (2022-07-12)
 
 Import `Match` and `Pattern` from `re`, not `typing` (#8277)
