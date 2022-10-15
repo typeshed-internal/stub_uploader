@@ -229,11 +229,11 @@ def sort_by_dependency(typeshed_dir: str, distributions: list[str]) -> Iterator[
             *[r.name for r in metadata._unvalidated_requires],
         )
 
-    order = [*ts.static_order()]
-    print("Determined package order", order)
+    order = [strip_types_prefix(dist) for dist in ts.static_order()]
+    missing = set(distributions) - set(order)
+    assert not missing, f"Failed to find distributions {missing}"
 
     for dist in order:
-        dist = strip_types_prefix(dist)
         if dist in distributions:
             yield dist
 
