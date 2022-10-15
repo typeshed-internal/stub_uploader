@@ -1,3 +1,7 @@
+## 7.0.8.1 (2022-10-15)
+
+Use `Incomplete` instead of `Any` in `__getattr__` (#8903)
+
 ## 7.0.8 (2022-08-04)
 
 Various pyvmomi improvements (#8469)

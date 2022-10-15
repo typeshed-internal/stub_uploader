@@ -1,3 +1,7 @@
+## 9.2.2.2 (2022-10-15)
+
+Use `Incomplete` instead of `Any` in `__getattr__` (#8903)
+
 ## 9.2.2.1 (2022-10-10)
 
 Allow PIL.Image.MAX_IMAGE_PIXELS to be None (#8876)

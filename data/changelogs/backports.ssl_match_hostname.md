@@ -1,3 +1,7 @@
+## 3.7.4.1 (2022-10-15)
+
+Use `Incomplete` instead of `Any` in `__getattr__` (#8903)
+
 ## 3.7.4 (2022-06-26)
 
 Check missing definitions for several packages (#8167)

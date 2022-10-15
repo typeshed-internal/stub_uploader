@@ -1,3 +1,7 @@
+## 0.19.1.1 (2022-10-15)
+
+Use `Incomplete` instead of `Any` in `__getattr__` (#8903)
+
 ## 0.19.1 (2022-09-11)
 
 Add missing attributes for docutils.io (#8716)

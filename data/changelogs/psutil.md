@@ -1,3 +1,7 @@
+## 5.9.5.2 (2022-10-15)
+
+Use `Incomplete` instead of `Any` in `__getattr__` (#8903)
+
 ## 5.9.5.1 (2022-10-03)
 
 psutil: Improve types for disk_io_counters() and net_io_counters() (#8829)

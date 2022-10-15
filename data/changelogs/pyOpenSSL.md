@@ -1,3 +1,7 @@
+## 22.1.0.1 (2022-10-15)
+
+Use `Incomplete` instead of `Any` in `__getattr__` (#8903)
+
 ## 22.1.0.0 (2022-10-04)
 
 Update pyOpenSSL stubs to 22.1.* (#8838)

@@ -1,3 +1,7 @@
+## 2.13.1.1 (2022-10-15)
+
+Use `Incomplete` instead of `Any` in `__getattr__` (#8903)
+
 ## 2.13.1 (2022-09-21)
 
 `pygments.lexers.guess_lexer_for_filename` cannot return `None` (#8777)

@@ -1,3 +1,7 @@
+## 3.3.23.1 (2022-10-15)
+
+Use `Incomplete` instead of `Any` in `__getattr__` (#8903)
+
 ## 3.3.23 (2022-08-23)
 
 `cryptography`: Add some missing `@abstractmethod` decorators (#8598)

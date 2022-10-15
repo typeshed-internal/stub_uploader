@@ -1,3 +1,7 @@
+## 22.9.23.1 (2022-10-15)
+
+Use `Incomplete` instead of `Any` in `__getattr__` (#8903)
+
 ## 22.9.23.0 (2022-09-30)
 
 [stubsabot] Bump flake8-bugbear to 22.9.23 (#8812)

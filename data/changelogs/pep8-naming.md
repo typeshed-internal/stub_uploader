@@ -1,3 +1,7 @@
+## 0.13.0.2 (2022-10-15)
+
+Use `Incomplete` instead of `Any` in `__getattr__` (#8903)
+
 ## 0.13.0.1 (2022-10-07)
 
 Add two more methods to `pep8-naming` stub (#8864)

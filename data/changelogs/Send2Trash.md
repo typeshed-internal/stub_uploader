@@ -1,3 +1,7 @@
+## 1.8.2.1 (2022-10-15)
+
+Use `Incomplete` instead of `Any` in `__getattr__` (#8903)
+
 ## 1.8.1 (2021-10-12)
 
 Add star to all non-0.1 versions (#6146)

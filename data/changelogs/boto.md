@@ -1,3 +1,7 @@
+## 2.49.18.1 (2022-10-15)
+
+Use `Incomplete` instead of `Any` in `__getattr__` (#8903)
+
 ## 2.49.18 (2022-09-26)
 
 boto: drop dependency on types-six (#8792)

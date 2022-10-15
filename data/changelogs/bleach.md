@@ -1,3 +1,7 @@
+## 5.0.3.1 (2022-10-15)
+
+Use `Incomplete` instead of `Any` in `__getattr__` (#8903)
+
 ## 5.0.3 (2022-07-12)
 
 Import `Match` and `Pattern` from `re`, not `typing` (#8277)

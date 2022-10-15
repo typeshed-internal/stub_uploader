@@ -1,3 +1,7 @@
+## 1.13.0.1 (2022-10-15)
+
+Use `Incomplete` instead of `Any` in `__getattr__` (#8903)
+
 ## 1.13.0 (2022-08-05)
 
 [stubsabot] Bump flake8-typing-imports to 1.13.* (#8489)
