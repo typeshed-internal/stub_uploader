@@ -1,3 +1,7 @@
+## 4.64.7.1 (2022-10-16)
+
+Remove empty `__init__` methods from classes with 0 parents (#8907)
+
 ## 4.64.7 (2022-09-27)
 
 Bump mypy to 0.981 (#8796)

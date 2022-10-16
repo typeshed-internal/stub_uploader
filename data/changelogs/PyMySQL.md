@@ -1,3 +1,7 @@
+## 1.0.19.1 (2022-10-16)
+
+Remove empty `__init__` methods from classes with 0 parents (#8907)
+
 ## 1.0.19 (2022-04-29)
 
 Delete python 2 branches from third-party stubs (#7741)

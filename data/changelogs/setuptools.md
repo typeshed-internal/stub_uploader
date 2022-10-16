@@ -1,3 +1,7 @@
+## 65.5.0.1 (2022-10-16)
+
+Remove empty `__init__` methods from classes with 0 parents (#8907)
+
 ## 65.5.0.0 (2022-10-15)
 
 [stubsabot] Bump setuptools to 65.5.* (#8900)

@@ -1,3 +1,7 @@
+## 2.1.4.1 (2022-10-16)
+
+Remove empty `__init__` methods from classes with 0 parents (#8907)
+
 ## 2.1.4 (2022-07-19)
 
 Third-party stubs: enforce CamelCase for type alias names (#8256)

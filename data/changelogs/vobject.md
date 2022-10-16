@@ -1,3 +1,7 @@
+## 0.9.8.1 (2022-10-16)
+
+Remove empty `__init__` methods from classes with 0 parents (#8907)
+
 ## 0.9.8 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)

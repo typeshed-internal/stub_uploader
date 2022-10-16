@@ -1,3 +1,7 @@
+## 3.1.7.1 (2022-10-16)
+
+Remove empty `__init__` methods from classes with 0 parents (#8907)
+
 ## 3.1.7 (2022-07-22)
 
 Always return `Iterator`, not `Iterable` for `__iter__` (#8361)
