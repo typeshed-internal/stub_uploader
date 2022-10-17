@@ -1,3 +1,11 @@
+## 1.4.5.1 (2022-10-17)
+
+Mark `atomicwrites` as no longer updated (#8912)
+
+[`atomicwrites`](https://github.com/untitaker/python-atomicwrites) is a package that's only really useful for Python 2/3 compatibility. It's now deprecated, archived, and unmaintained. Prior to #8883 a few days ago, marking the stubs as complete, the typeshed stubs hadn't received any significant updates for several years.
+
+I propose we mark the stubs as no longer updated, and then remove them.
+
 ## 1.4.5 (2022-05-07)
 
 Import generics from standard modules in all third-party stubs (#7791)

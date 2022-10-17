@@ -1,3 +1,7 @@
+## 2.8.19.2 (2022-10-17)
+
+`dateutil`: Add comment explaining the use of `ABCMeta` (#8911)
+
 ## 2.8.19.1 (2022-10-17)
 
 `datetime.tzinfo` is abstract (#8908)

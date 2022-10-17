@@ -1,3 +1,7 @@
+## 1.4.53.2 (2022-10-17)
+
+Fix stubtest failures on `SQLAlchemy` (#8914)
+
 ## 1.4.53.1 (2022-10-16)
 
 Remove empty `__init__` methods from classes with 0 parents (#8907)
