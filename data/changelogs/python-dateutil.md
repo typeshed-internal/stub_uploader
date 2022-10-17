@@ -1,3 +1,7 @@
+## 2.8.19.1 (2022-10-17)
+
+`datetime.tzinfo` is abstract (#8908)
+
 ## 2.8.19 (2022-07-19)
 
 Third-party stubs: enforce CamelCase for type alias names (#8256)
