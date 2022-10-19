@@ -1,3 +1,7 @@
+## 1.7.3.2 (2022-10-19)
+
+Add types to `invoke.Task.__call__` (#8918)
+
 ## 1.7.3.1 (2022-10-01)
 
 Add `parser` to `invoke.completion.complete.complete` (#8819)
