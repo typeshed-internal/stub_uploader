@@ -1,3 +1,9 @@
+## 4.0.15.1 (2022-10-19)
+
+Mark `mock` as completed (#8919)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 4.0.15 (2022-06-06)
 
 Always use `TypeAlias` when assigning to `Any` (#8021)
