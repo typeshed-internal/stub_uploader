@@ -1,3 +1,11 @@
+## 5.9.5.3 (2022-10-19)
+
+psutil: add snicstats.flags (#8928)
+
+Fixes #8927
+
+See https://github.com/giampaolo/psutil/commit/70eecaf44d61f2cabcd22ffb407b904242a122c9
+
 ## 5.9.5.2 (2022-10-15)
 
 Use `Incomplete` instead of `Any` in `__getattr__` (#8903)
