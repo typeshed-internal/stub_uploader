@@ -125,6 +125,7 @@ types-pymssql
 types-pynput
 types-pysftp
 types-pytest-lazy-fixture
+types-python-crontab
 types-python-dateutil
 types-python-gflags
 types-python-jose

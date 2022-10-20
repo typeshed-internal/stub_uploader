@@ -1,3 +1,7 @@
+## 5.9.5.4 (2022-10-20)
+
+`psutil`: Fix `win_service_iter()` return type to allow iterating over its result (#8932)
+
 ## 5.9.5.3 (2022-10-19)
 
 psutil: add snicstats.flags (#8928)

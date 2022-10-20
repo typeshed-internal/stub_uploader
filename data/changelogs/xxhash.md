@@ -1,3 +1,13 @@
+## 3.0.5.1 (2022-10-20)
+
+[stubsabot] Mark xxhash as obsolete since 3.1.0 (#8935)
+
+Release: https://pypi.org/pypi/xxhash/3.1.0
+Homepage: https://github.com/ifduyue/python-xxhash
+Diff: https://github.com/ifduyue/python-xxhash/compare/v3.0.0...v3.1.0
+
+Co-authored-by: stubsabot <>
+
 ## 3.0.5 (2022-09-27)
 
 Bump mypy to 0.981 (#8796)

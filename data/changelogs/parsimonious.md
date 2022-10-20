@@ -1,3 +1,7 @@
+## 0.10.0.1 (2022-10-20)
+
+Mark `parsimonious` as completed (#8934)
+
 ## 0.10.0 (2022-09-13)
 
 Update parsimonious to 0.10.0 (#8730)
