@@ -1,3 +1,7 @@
+## 3.17.7.1 (2022-10-20)
+
+Remove `simplejson` from `pyright`'s exclude (#8945)
+
 ## 3.17.7 (2022-07-12)
 
 Import `Match` and `Pattern` from `re`, not `typing` (#8277)
