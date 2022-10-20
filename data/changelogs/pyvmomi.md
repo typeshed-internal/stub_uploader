@@ -1,3 +1,7 @@
+## 7.0.8.2 (2022-10-20)
+
+Remove `pyvmomi` from `pyright`'s exclude (#8943)
+
 ## 7.0.8.1 (2022-10-15)
 
 Use `Incomplete` instead of `Any` in `__getattr__` (#8903)

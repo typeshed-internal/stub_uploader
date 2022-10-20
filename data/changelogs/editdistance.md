@@ -1,3 +1,7 @@
+## 0.6.3.1 (2022-10-20)
+
+Remove `editdistance` from `pyright`'s exclude (#8941)
+
 ## 0.6.3 (2022-07-19)
 
 Add missing third party modules (#8321)

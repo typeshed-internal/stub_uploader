@@ -1,3 +1,7 @@
+## 4.0.15.2 (2022-10-20)
+
+Remove `mock` from `pyright`'s exclude (#8942)
+
 ## 4.0.15.1 (2022-10-19)
 
 Mark `mock` as completed (#8919)
