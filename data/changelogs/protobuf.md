@@ -1,3 +1,9 @@
+## 3.20.4.1 (2022-10-21)
+
+Bump mypy-protobuf to 3.4.0 (#8951)
+
+`types-protobuf`: Bump the rev of protobuf supported to 4.21.8 (#8937)
+
 ## 3.20.4 (2022-09-19)
 
 Fix protobuf stubtest errors (#8758)
