@@ -1,3 +1,11 @@
+## 4.3.21.3 (2022-10-21)
+
+Fixes redis.asyncio.client: `AsyncIterator` cannot be `async def` in stubs. (#8961)
+
+Without the `yield` statement in the method body, these are interpreted by mypy as coroutines that return an `AsyncIterator`.
+
+Closes #8960
+
 ## 4.3.21.1 (2022-10-03)
 
 Add `redis.asyncio.parser` (#8830)

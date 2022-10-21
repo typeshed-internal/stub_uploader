@@ -1,3 +1,9 @@
+## 1.7.3.3 (2022-10-21)
+
+Fix `invoke` regression (#8950)
+
+* Fix `invoke` regression
+
 ## 1.7.3.2 (2022-10-19)
 
 Add types to `invoke.Task.__call__` (#8918)
