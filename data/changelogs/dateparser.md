@@ -1,3 +1,9 @@
+## 1.1.4.1 (2022-10-21)
+
+dateparser: add negative argument to get_date_from_timestamp (#8954)
+
+Closes #8952
+
 ## 1.1.4 (2022-07-12)
 
 Import `Match` and `Pattern` from `re`, not `typing` (#8277)
