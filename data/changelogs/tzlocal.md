@@ -1,3 +1,7 @@
+## 4.2.2.1 (2022-10-23)
+
+Remove tzlocal from pyright's exclude (#8969)
+
 ## 4.2.2 (2022-07-20)
 
 Allowlist useless modules (#8340)
