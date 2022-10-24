@@ -1,3 +1,9 @@
+## 0.20.1.1 (2022-10-24)
+
+Remove `tree-sitter` from `pyright`'s exclude (#8946)
+
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
+
 ## 0.20.1 (2022-09-06)
 
 tree-sitter: add missing members (#8693)
