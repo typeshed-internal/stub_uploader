@@ -1,3 +1,10 @@
+## 65.5.0.2 (2022-10-24)
+
+Fix `pkg_resources.split_sections` (#8975)
+
+This function is currently documented as returning a list of lines as
+the 2nd pair value.  It does not return plain str here.
+
 ## 65.5.0.1 (2022-10-16)
 
 Remove empty `__init__` methods from classes with 0 parents (#8907)
