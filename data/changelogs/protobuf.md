@@ -1,3 +1,7 @@
+## 3.20.4.2 (2022-10-25)
+
+google.protobuf: Add an __init__ stub to fix type checking (#8982)
+
 ## 3.20.4.1 (2022-10-21)
 
 Bump mypy-protobuf to 3.4.0 (#8951)
