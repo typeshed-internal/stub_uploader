@@ -1,3 +1,7 @@
+## 5.6.0.0 (2022-10-25)
+
+Bump pyinstaller to 5.6.* (#8981)
+
 ## 5.5.0.0 (2022-10-10)
 
 Bump PyInstaller-stubs to 5.5 (#8874)
