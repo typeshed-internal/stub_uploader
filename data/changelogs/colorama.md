@@ -1,3 +1,9 @@
+## 0.4.15.2 (2022-10-26)
+
+colorama: fixes for latest version (#8987)
+
+Fixes #8986
+
 ## 0.4.15 (2022-07-12)
 
 Import `Match` and `Pattern` from `re`, not `typing` (#8277)
