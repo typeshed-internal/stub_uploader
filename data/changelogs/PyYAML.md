@@ -1,3 +1,7 @@
+## 6.0.12.1 (2022-10-26)
+
+Add a couple of missing type hints in pyyaml.constructor (#8965)
+
 ## 6.0.12 (2022-09-27)
 
 Bump mypy to 0.981 (#8796)
