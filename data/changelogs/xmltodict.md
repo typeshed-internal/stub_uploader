@@ -1,3 +1,7 @@
+## 0.13.0.1 (2022-10-28)
+
+xmltodict: improve parse input types (#9018)
+
 ## 0.13.0 (2022-06-26)
 
 Bump xmltodict to 0.13.* (#8172)
