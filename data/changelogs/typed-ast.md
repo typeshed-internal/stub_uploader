@@ -1,3 +1,7 @@
+## 1.5.8.1 (2022-10-28)
+
+typed-ast: fix get_docstring, allow buffer (#9019)
+
 ## 1.5.8 (2022-08-29)
 
 `typed_ast.ast3`: `arguments.kw_defaults` should be `list[expr | None]` (#8645)
