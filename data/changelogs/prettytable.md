@@ -1,3 +1,13 @@
+## 3.4.2.1 (2022-10-29)
+
+[stubsabot] Mark prettytable as obsolete since 3.5.0 (#9023)
+
+Release: https://pypi.org/pypi/prettytable/3.5.0
+Homepage: https://github.com/jazzband/prettytable
+Diff: https://github.com/jazzband/prettytable/compare/3.4.1...3.5.0
+
+Co-authored-by: stubsabot <>
+
 ## 3.4.2 (2022-09-25)
 
 prettytable: get_X_string return str (#8791)
