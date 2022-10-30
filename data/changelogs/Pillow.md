@@ -1,3 +1,24 @@
+## 9.3.0.0 (2022-10-30)
+
+[stubsabot] Bump Pillow to 9.3.* (#9039)
+
+Release: https://pypi.org/pypi/Pillow/9.3.0
+Homepage: https://python-pillow.org
+Changelog: https://github.com/python-pillow/Pillow/blob/main/CHANGES.rst
+Diff: https://github.com/python-pillow/Pillow/compare/9.2.0...9.3.0
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 4163.
+ - Total lines of Python code deleted: 3435.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 9.2.2.2 (2022-10-15)
 
 Use `Incomplete` instead of `Any` in `__getattr__` (#8903)
