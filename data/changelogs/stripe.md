@@ -1,3 +1,9 @@
+## 3.5.2.1 (2022-10-31)
+
+stripe: test clocks resource (#9026)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 3.5.2 (2022-09-13)
 
 `stripe`: Add `SearchableAPIResource`, `SearchResultObject` (#8696)
