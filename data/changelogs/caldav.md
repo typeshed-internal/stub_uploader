@@ -1,3 +1,7 @@
+## 0.10.0.0 (2022-10-31)
+
+Update caldav stubs to 0.10 (#9044)
+
 ## 0.9.2 (2022-07-19)
 
 Third-party stubs: enforce CamelCase for type alias names (#8256)
