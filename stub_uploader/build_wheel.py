@@ -9,9 +9,9 @@ Python package.
 The generated wheel includes all type stubs (*.pyi files) and the METADATA.toml
 itself, no other files can be included.
 
-The types stubs live in https://github.com/python/typeshed/tree/master/stubs,
+The types stubs live in https://github.com/python/typeshed/tree/main/stubs,
 all fixes for types and metadata should be contributed there, see
-https://github.com/python/typeshed/blob/master/CONTRIBUTING.md for more details.
+https://github.com/python/typeshed/blob/main/CONTRIBUTING.md for more details.
 
 This file also contains some helper functions related to wheel validation and upload.
 """
@@ -88,12 +88,12 @@ DESCRIPTION_INTRO_TEMPLATE = """
 This is a PEP 561 type stub package for the `{distribution}` package.
 It can be used by type-checking tools like mypy, PyCharm, pytype etc. to check code
 that uses `{distribution}`. The source for this package can be found at
-https://github.com/python/typeshed/tree/master/stubs/{distribution}. All fixes for
+https://github.com/python/typeshed/tree/main/stubs/{distribution}. All fixes for
 types and metadata should be contributed there.
 """.strip()
 
 DESCRIPTION_OUTRO_TEMPLATE = """
-See https://github.com/python/typeshed/blob/master/README.md for more details.
+See https://github.com/python/typeshed/blob/main/README.md for more details.
 This package was generated from typeshed commit `{commit}`.
 """.strip()
 
