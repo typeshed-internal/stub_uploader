@@ -3,7 +3,7 @@ Find the latest typeshed increment for a stub package with given
 (or current) version.
 
 If the given version was never uploaded, this will return -1. See
-https://github.com/python/typeshed/blob/master/README.md for details
+https://github.com/python/typeshed/blob/main/README.md for details
 on stub versioning.
 
 This file also contains some helper functions related to querying
