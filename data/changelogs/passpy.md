@@ -1,3 +1,7 @@
+## 1.0.2.1 (2022-11-01)
+
+Complete `passpy` stubs (#8959)
+
 ## 1.0.2 (2022-07-12)
 
 Import `Match` and `Pattern` from `re`, not `typing` (#8277)
