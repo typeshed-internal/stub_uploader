@@ -1,3 +1,13 @@
+## 2.1.0.1 (2022-11-01)
+
+[stubsabot] Mark emoji as obsolete since 2.2.0 (#9051)
+
+Release: https://pypi.org/pypi/emoji/2.2.0
+Homepage: https://github.com/carpedm20/emoji/
+Diff: https://github.com/carpedm20/emoji/compare/v2.1.0...v2.2.0
+
+Co-authored-by: stubsabot <>
+
 ## 2.1.0 (2022-09-23)
 
 [stubsabot] Bump emoji to 2.1.* (#8784)

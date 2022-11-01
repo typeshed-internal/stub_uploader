@@ -1,3 +1,23 @@
+## 2022.10.31.0 (2022-11-01)
+
+[stubsabot] Bump regex to 2022.10.31 (#9050)
+
+Release: https://pypi.org/pypi/regex/2022.10.31
+Homepage: https://github.com/mrabarnett/mrab-regex
+Diff: https://github.com/mrabarnett/mrab-regex/compare/2022.9.13...2022.10.31
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 3.
+ - Total lines of Python code deleted: 2.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 2022.9.13.0 (2022-09-16)
 
 [stubsabot] Bump regex to 2022.9.13 (#8751)
