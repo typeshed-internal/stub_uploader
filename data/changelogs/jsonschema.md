@@ -1,3 +1,7 @@
+## 4.17.0.0 (2022-11-02)
+
+Bump jsonschema to 4.17.* (#9066)
+
 ## 4.16.1.1 (2022-10-14)
 
 Fix RefResolver's context manager return types (#8898)
