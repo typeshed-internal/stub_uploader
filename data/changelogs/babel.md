@@ -1,3 +1,7 @@
+## 2.11.0.0 (2022-11-02)
+
+[stubsabot junior] Bump babel to 2.11.* (#9064)
+
 ## 2.10.0 (2022-07-01)
 
 [stubsabot] Bump babel to 2.10.* (#8222)
