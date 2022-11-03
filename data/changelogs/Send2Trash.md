@@ -1,3 +1,7 @@
+## 1.8.2.2 (2022-11-03)
+
+Remove `Send2Trash` from `pyright`'s exclude (#8944)
+
 ## 1.8.2.1 (2022-10-15)
 
 Use `Incomplete` instead of `Any` in `__getattr__` (#8903)
