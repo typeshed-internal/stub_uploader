@@ -1,3 +1,7 @@
+## 5.6.0.1 (2022-11-03)
+
+importlib: improve bytes handling (#9070)
+
 ## 5.6.0.0 (2022-10-25)
 
 Bump pyinstaller to 5.6.* (#8981)
