@@ -1,3 +1,9 @@
+## 5.6.0.2 (2022-11-03)
+
+Update pyright to 1.1.278 (#9077)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 5.6.0.1 (2022-11-03)
 
 importlib: improve bytes handling (#9070)

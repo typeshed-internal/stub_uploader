@@ -1,3 +1,9 @@
+## 1.16.21.1 (2022-11-03)
+
+Update pyright to 1.1.278 (#9077)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 1.16.21 (2022-09-27)
 
 Bump mypy to 0.981 (#8796)
