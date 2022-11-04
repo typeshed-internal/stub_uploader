@@ -1,3 +1,9 @@
+## 1.1.4.2 (2022-11-04)
+
+dateparser: add new parameter (#9081)
+
+Fixes #9079
+
 ## 1.1.4.1 (2022-10-21)
 
 dateparser: add negative argument to get_date_from_timestamp (#8954)
