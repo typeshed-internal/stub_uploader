@@ -1,3 +1,7 @@
+## 22.1.0.2 (2022-11-05)
+
+isort: Add more to extra_standard_library (#9098)
+
 ## 22.1.0.1 (2022-10-15)
 
 Use `Incomplete` instead of `Any` in `__getattr__` (#8903)
