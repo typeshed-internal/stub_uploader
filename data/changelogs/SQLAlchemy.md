@@ -1,3 +1,10 @@
+## 1.4.53.3 (2022-11-05)
+
+[stubsabot] Bump SQLAlchemy to 1.4.43 (#9092)
+
+Release: https://pypi.org/pypi/SQLAlchemy/1.4.43
+Homepage: https://www.sqlalchemy.org
+
 ## 1.4.53.2 (2022-10-17)
 
 Fix stubtest failures on `SQLAlchemy` (#8914)

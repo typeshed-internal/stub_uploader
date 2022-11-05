@@ -1,3 +1,7 @@
+## 304.0.0.4 (2022-11-05)
+
+pywin32: Improve some types (#9089)
+
 ## 304.0.0.3 (2022-10-31)
 
 pywin32 stubs update (#9040)

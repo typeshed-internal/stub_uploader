@@ -1,3 +1,9 @@
+## 2.11.0.1 (2022-11-05)
+
+Add new functions for Babel 2.11.0 (#9091)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 2.11.0.0 (2022-11-02)
 
 [stubsabot junior] Bump babel to 2.11.* (#9064)
