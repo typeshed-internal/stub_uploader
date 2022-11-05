@@ -1,3 +1,7 @@
+## 22.1.0.1 (2022-11-05)
+
+Remove `aiofiles/tempfile/temptypes.pyi` from pyright exclude (#9104)
+
 ## 22.1.0 (2022-09-09)
 
 [stubsabot] Bump aiofiles to 22.1.* (#8714)
