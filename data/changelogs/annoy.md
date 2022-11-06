@@ -1,3 +1,7 @@
+## 1.17.8.1 (2022-11-06)
+
+Remove `annoy` from pyright excludelist (#9114)
+
 ## 1.17.8 (2022-07-19)
 
 Add missing third party modules (#8321)
