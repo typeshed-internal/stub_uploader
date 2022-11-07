@@ -1,3 +1,7 @@
+## 1.5.8.2 (2022-11-07)
+
+Mark typed_ast as completed (#9121)
+
 ## 1.5.8.1 (2022-10-28)
 
 typed-ast: fix get_docstring, allow buffer (#9019)
