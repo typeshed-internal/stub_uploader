@@ -1,3 +1,7 @@
+## 0.9.8.2 (2022-11-07)
+
+Mark `vobject` as complete (#9120)
+
 ## 0.9.8.1 (2022-10-16)
 
 Remove empty `__init__` methods from classes with 0 parents (#8907)
