@@ -1,3 +1,7 @@
+## 3.7.4.2 (2022-11-07)
+
+Remove `ssl_match_hostname` from pyright exclude (#9116)
+
 ## 3.7.4.1 (2022-10-15)
 
 Use `Incomplete` instead of `Any` in `__getattr__` (#8903)

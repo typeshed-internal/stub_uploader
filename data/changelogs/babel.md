@@ -1,3 +1,7 @@
+## 2.11.0.2 (2022-11-07)
+
+Added types for `babel.core` and `babel.numbers` (#9111)
+
 ## 2.11.0.1 (2022-11-05)
 
 Add new functions for Babel 2.11.0 (#9091)

@@ -1,3 +1,20 @@
+## 5.6.0.3 (2022-11-07)
+
+`PyInstaller`: Fix `DeprecationWarning` when parsing the stub using `ast.parse()` (#9112)
+
+```python
+>>> import ast, warnings
+>>> warnings.filterwarnings("always")
+>>> with open("typeshed/stubs/pyinstaller/pyi_splash/__init__.pyi", encoding="utf-8") as file:
+...     source = file.read()
+...
+>>> ast.parse(source)
+<unknown>:11: DeprecationWarning: invalid escape sequence '\u'
+<ast.Module object at 0x0000027EAF6D3AF0>
+```
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 5.6.0.2 (2022-11-03)
 
 Update pyright to 1.1.278 (#9077)
