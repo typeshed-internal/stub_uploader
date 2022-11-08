@@ -1,3 +1,7 @@
+## 1.4.53.4 (2022-11-08)
+
+Fix and allow classes with missing metaclasses (#9136)
+
 ## 1.4.53.3 (2022-11-05)
 
 [stubsabot] Bump SQLAlchemy to 1.4.43 (#9092)

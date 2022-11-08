@@ -1,3 +1,7 @@
+## 1.7.3.4 (2022-11-08)
+
+Fix and allow classes with missing metaclasses (#9136)
+
 ## 1.7.3.3 (2022-10-21)
 
 Fix `invoke` regression (#8950)

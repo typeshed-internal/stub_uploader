@@ -1,3 +1,7 @@
+## 3.3.23.2 (2022-11-08)
+
+Fix and allow classes with missing metaclasses (#9136)
+
 ## 3.3.23.1 (2022-10-15)
 
 Use `Incomplete` instead of `Any` in `__getattr__` (#8903)

@@ -1,3 +1,9 @@
+## 3.17.7.2 (2022-11-08)
+
+add default for simplejson.JSONEncoder.iterencode (#9135)
+
+https://github.com/simplejson/simplejson/blob/43645252224d4e529c22cb78ac42f241d6426073/simplejson/encoder.py#L304
+
 ## 3.17.7.1 (2022-10-20)
 
 Remove `simplejson` from `pyright`'s exclude (#8945)

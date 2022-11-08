@@ -1,3 +1,7 @@
+## 22.1.0.2 (2022-11-08)
+
+Fix and allow classes with missing metaclasses (#9136)
+
 ## 22.1.0.1 (2022-11-05)
 
 Remove `aiofiles/tempfile/temptypes.pyi` from pyright exclude (#9104)

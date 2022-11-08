@@ -1,3 +1,7 @@
+## 1.26.25.2 (2022-11-08)
+
+Fix and allow classes with missing metaclasses (#9136)
+
 ## 1.26.25.1 (2022-10-16)
 
 Remove empty `__init__` methods from classes with 0 parents (#8907)

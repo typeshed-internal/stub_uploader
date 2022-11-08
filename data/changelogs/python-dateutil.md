@@ -1,3 +1,7 @@
+## 2.8.19.3 (2022-11-08)
+
+Fix and allow classes with missing metaclasses (#9136)
+
 ## 2.8.19.2 (2022-10-17)
 
 `dateutil`: Add comment explaining the use of `ABCMeta` (#8911)

@@ -1,3 +1,7 @@
+## 1.0.2.1 (2022-11-08)
+
+Fix and allow classes with missing metaclasses (#9136)
+
 ## 1.0.2 (2022-07-19)
 
 Add missing third party modules (#8321)

@@ -1,3 +1,7 @@
+## 2.28.11.3 (2022-11-08)
+
+Fix and allow classes with missing metaclasses (#9136)
+
 ## 2.28.11.2 (2022-10-07)
 
 Mark `requests` stubs as complete (#8858)

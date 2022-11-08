@@ -1,3 +1,7 @@
+## 3.20.4.3 (2022-11-08)
+
+Fix and allow classes with missing metaclasses (#9136)
+
 ## 3.20.4.2 (2022-10-25)
 
 google.protobuf: Add an __init__ stub to fix type checking (#8982)

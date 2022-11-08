@@ -1,3 +1,7 @@
+## 4.3.21.4 (2022-11-08)
+
+Fix and allow classes with missing metaclasses (#9136)
+
 ## 4.3.21.3 (2022-10-21)
 
 Fixes redis.asyncio.client: `AsyncIterator` cannot be `async def` in stubs. (#8961)
