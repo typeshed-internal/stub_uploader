@@ -1,3 +1,7 @@
+## 1.4.53.6 (2022-11-09)
+
+All `__nonzero__` are methods that return `bool` (#9139)
+
 ## 1.4.53.5 (2022-11-09)
 
 Annotate known magic-method return types (#9131)
