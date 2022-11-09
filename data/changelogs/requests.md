@@ -1,3 +1,7 @@
+## 2.28.11.4 (2022-11-09)
+
+Annotate known magic-method return types (#9131)
+
 ## 2.28.11.3 (2022-11-08)
 
 Fix and allow classes with missing metaclasses (#9136)

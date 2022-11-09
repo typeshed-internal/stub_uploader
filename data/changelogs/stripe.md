@@ -1,3 +1,7 @@
+## 3.5.2.2 (2022-11-09)
+
+Annotate known magic-method return types (#9131)
+
 ## 3.5.2.1 (2022-10-31)
 
 stripe: test clocks resource (#9026)

@@ -1,3 +1,7 @@
+## 0.9.8.3 (2022-11-09)
+
+Annotate known magic-method return types (#9131)
+
 ## 0.9.8.2 (2022-11-07)
 
 Mark `vobject` as complete (#9120)

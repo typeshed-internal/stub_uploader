@@ -1,3 +1,7 @@
+## 2.11.0.3 (2022-11-09)
+
+Annotate known magic-method return types (#9131)
+
 ## 2.11.0.2 (2022-11-07)
 
 Added types for `babel.core` and `babel.numbers` (#9111)

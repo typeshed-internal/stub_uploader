@@ -1,3 +1,7 @@
+## 3.0.4.1 (2022-11-09)
+
+Annotate known magic-method return types (#9131)
+
 ## 3.0.4 (2022-06-06)
 
 Always use `TypeAlias` when assigning to `Any` (#8021)

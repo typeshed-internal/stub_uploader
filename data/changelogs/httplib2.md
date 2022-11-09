@@ -1,3 +1,7 @@
+## 0.21.0.1 (2022-11-09)
+
+Annotate known magic-method return types (#9131)
+
 ## 0.21.0.0 (2022-10-30)
 
 [stubsabot] Bump httplib2 to 0.21.* (#9038)

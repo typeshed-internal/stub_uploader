@@ -1,3 +1,7 @@
+## 1.15.1.1 (2022-11-09)
+
+Annotate known magic-method return types (#9131)
+
 ## 1.15.1 (2022-09-27)
 
 Bump mypy to 0.981 (#8796)

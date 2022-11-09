@@ -1,3 +1,7 @@
+## 2.49.18.2 (2022-11-09)
+
+Annotate known magic-method return types (#9131)
+
 ## 2.49.18.1 (2022-10-15)
 
 Use `Incomplete` instead of `Any` in `__getattr__` (#8903)

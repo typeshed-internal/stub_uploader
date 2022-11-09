@@ -1,3 +1,7 @@
+## 1.7.7.1 (2022-11-09)
+
+Annotate known magic-method return types (#9131)
+
 ## 1.7.7 (2022-07-12)
 
 Use error codes for type ignores (#8280)

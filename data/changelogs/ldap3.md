@@ -1,3 +1,7 @@
+## 2.9.13.1 (2022-11-09)
+
+Annotate known magic-method return types (#9131)
+
 ## 2.9.13 (2022-08-17)
 
 Add SAFE_RESTARTABLE strategy to ldap3 Connection client_strategy parameter (#8547)

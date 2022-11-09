@@ -1,3 +1,7 @@
+## 304.0.0.5 (2022-11-09)
+
+Annotate known magic-method return types (#9131)
+
 ## 304.0.0.4 (2022-11-05)
 
 pywin32: Improve some types (#9089)

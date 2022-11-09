@@ -1,3 +1,7 @@
+## 4.11.6.1 (2022-11-09)
+
+Annotate known magic-method return types (#9131)
+
 ## 4.11.6 (2022-09-06)
 
 [bs4] More precise types for bs4.Tag.select(_one) (#8687)

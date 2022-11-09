@@ -1,3 +1,7 @@
+## 4.17.0.1 (2022-11-09)
+
+Annotate known magic-method return types (#9131)
+
 ## 4.17.0.0 (2022-11-02)
 
 Bump jsonschema to 4.17.* (#9066)

@@ -1,3 +1,40 @@
+## 6.0.12.2 (2022-11-09)
+
+PyYAML: Permit `width: float` for pure-Python `dump(...)` (#8973)
+
+* PyYAML: Permit `width: float` for pure-Python `dump(...)`
+
+To prevent `PyYAML` from wrapping *any* lines, it's possible to pass
+`width=float("inf")`, but the current type hints don't like that.  This
+works at runtime:
+
+    >>> s = yaml.dump({"foo": "bar" * 1000}, width=float("inf"))
+    >>> print(s)
+    foo: barbarbarbarbarbarbarbarbarbarbarbarbarbarbarbarbarbar...
+
+but `mypy` says
+
+    floatwidth.py:2: error: No overload variant of "dump" matches argument types "Dict[str, str]", "float"
+    floatwidth.py:2: note: Possible overload variants:
+    floatwidth.py:2: note:     def dump(data: Any, stream: _WriteStream[Any], Dumper: Any = ..., *, default_style: Optional[str] = ..., default_flow_style: Optional[bool] = ..., canonical: Optional[bool] = ..., indent: Optional[int] = ..., width: Optional[int] = ..., allow_unicode: Optional[bool] = ..., line_break: Optional[str] = ..., encoding: Optional[str] = ..., explicit_start: Optional[bool] = ..., explicit_end: Optional[bool] = ..., version: Optional[Tuple[int, int]] = ..., tags: Optional[Mapping[str, str]] = ..., sort_keys: bool = ...) -> None
+    floatwidth.py:2: note:     def dump(data: Any, stream: None = ..., Dumper: Any = ..., *, default_style: Optional[str] = ..., default_flow_style: Optional[bool] = ..., canonical: Optional[bool] = ..., indent: Optional[int] = ..., width: Optional[int] = ..., allow_unicode: Optional[bool] = ..., line_break: Optional[str] = ..., encoding: Optional[str] = ..., explicit_start: Optional[bool] = ..., explicit_end: Optional[bool] = ..., version: Optional[Tuple[int, int]] = ..., tags: Optional[Mapping[str, str]] = ..., sort_keys: bool = ...) -> Any
+    Found 1 error in 1 file (checked 1 source file)
+
+Poking through the `PyYAML` source, it looks the `width` parameter
+could probably be anything "comparable", as it's only compared via
+the `<` operator[1].
+
+For the LibYAML implementation, however, we have to use `int`s:
+
+    >>> stream = StringIO()
+    >>> dumper = yaml.CDumper(stream, width=float("inf"))
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+      File "/usr/lib/python3/dist-packages/yaml/cyaml.py", line 81, in __init__
+        version=version, tags=tags)
+      File "ext/_yaml.pyx", line 973, in _yaml.CEmitter.__init__ (ext/_yaml.c:14797)
+    OverflowError: cannot convert float infinity to integer
+
 ## 6.0.12.1 (2022-10-26)
 
 Add a couple of missing type hints in pyyaml.constructor (#8965)

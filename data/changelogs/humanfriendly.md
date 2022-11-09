@@ -1,3 +1,7 @@
+## 10.0.1.1 (2022-11-09)
+
+Annotate known magic-method return types (#9131)
+
 ## 10.0.1 (2022-07-12)
 
 Import `Match` and `Pattern` from `re`, not `typing` (#8277)

@@ -1,3 +1,7 @@
+## 1.11.5.1 (2022-11-09)
+
+Annotate known magic-method return types (#9131)
+
 ## 1.11.5 (2022-09-27)
 
 google-cloud-ndb: drop dependency on types-six (#8793)

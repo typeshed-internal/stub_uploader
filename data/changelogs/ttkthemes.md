@@ -1,3 +1,7 @@
+## 3.2.4.1 (2022-11-09)
+
+Annotate known magic-method return types (#9131)
+
 ## 3.2.3 (2021-11-26)
 
 Add mypy error codes to '# type: ignore' comments (#6379)

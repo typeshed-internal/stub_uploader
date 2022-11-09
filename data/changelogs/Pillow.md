@@ -1,3 +1,7 @@
+## 9.3.0.1 (2022-11-09)
+
+Annotate known magic-method return types (#9131)
+
 ## 9.3.0.0 (2022-10-30)
 
 [stubsabot] Bump Pillow to 9.3.* (#9039)

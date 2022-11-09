@@ -1,3 +1,7 @@
+## 2.9.21.2 (2022-11-09)
+
+Annotate known magic-method return types (#9131)
+
 ## 2.9.21.1 (2022-10-07)
 
 psycopg2: __nonzero__ was removed (#8863)
