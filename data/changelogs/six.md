@@ -1,3 +1,7 @@
+## 1.16.21.2 (2022-11-10)
+
+Improve accuracy of `six` byte index methods (#9117)
+
 ## 1.16.21.1 (2022-11-03)
 
 Update pyright to 1.1.278 (#9077)

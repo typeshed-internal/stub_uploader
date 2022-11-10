@@ -1,3 +1,7 @@
+## 304.0.0.6 (2022-11-10)
+
+Update pywin32 to mypy 0.990 (#9124)
+
 ## 304.0.0.5 (2022-11-09)
 
 Annotate known magic-method return types (#9131)
