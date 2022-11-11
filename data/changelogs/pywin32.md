@@ -1,3 +1,10 @@
+## 305.0.0.1 (2022-11-11)
+
+Add the ability to run third-party stubtest on Windows or MacOS when needed (#8923)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 305.0.0.0 (2022-11-10)
 
 Update pywin32 to 305 (#9153)

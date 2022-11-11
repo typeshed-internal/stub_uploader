@@ -1,3 +1,10 @@
+## 7.45.1.1 (2022-11-11)
+
+Add the ability to run third-party stubtest on Windows or MacOS when needed (#8923)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 7.45.1 (2022-07-18)
 
 `pycurl`: Add `CurlMulti.setopt()` (#8315)
