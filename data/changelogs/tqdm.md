@@ -1,3 +1,7 @@
+## 4.64.7.3 (2022-11-11)
+
+tqdm: allow `disable=None` in `tqdm.__init__` (#9154)
+
 ## 4.64.7.2 (2022-11-08)
 
 Fix and allow classes with missing metaclasses (#9136)
