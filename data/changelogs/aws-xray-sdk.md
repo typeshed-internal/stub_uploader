@@ -1,3 +1,18 @@
+## 2.11.0.0 (2022-11-11)
+
+[stubsabot] Bump aws-xray-sdk to 2.11.* (#9156)
+
+Release: https://pypi.org/pypi/aws-xray-sdk/2.11.0
+Homepage: https://github.com/aws/aws-xray-sdk-python
+Diff: https://github.com/aws/aws-xray-sdk-python/compare/2.10.0...2.11.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 7 public Python files have been added: `aws_xray_sdk/core/utils/sqs_message_helper.py`, `aws_xray_sdk/ext/httpx/__init__.py`, `aws_xray_sdk/ext/httpx/patch.py`, `tests/ext/httpx/__init__.py`, `tests/ext/httpx/test_httpx.py`, `tests/ext/httpx/test_httpx_async.py`, `tests/test_sqs_message_helper.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 7 files included in typeshed's stubs have been modified or renamed: `aws_xray_sdk/core/async_recorder.py`, `aws_xray_sdk/core/lambda_launcher.py`, `aws_xray_sdk/core/models/dummy_entities.py`, `aws_xray_sdk/core/models/entity.py`, `aws_xray_sdk/core/patcher.py`, `aws_xray_sdk/core/recorder.py`, `aws_xray_sdk/version.py`.
+ - Total lines of Python code added: 858.
+ - Total lines of Python code deleted: 56.
+
 ## 2.10.1 (2022-07-04)
 
 Third-party stubs: audit more `Callable[<parameters>, Any]` annotations (#8233)
