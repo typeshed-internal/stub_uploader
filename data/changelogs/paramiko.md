@@ -1,3 +1,9 @@
+## 2.12.0.0 (2022-11-12)
+
+Bump paramiko to 2.12.* (#9163)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 2.11.6 (2022-09-11)
 
 Improve `paramiko.win_pageant` stubs (#8671)
