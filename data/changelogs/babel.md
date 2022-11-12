@@ -1,3 +1,9 @@
+## 2.11.0.4 (2022-11-12)
+
+Add more type annotations for Babel (#9125)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 2.11.0.3 (2022-11-09)
 
 Annotate known magic-method return types (#9131)
