@@ -1,3 +1,9 @@
+## 65.5.0.3 (2022-11-12)
+
+Remove `setuptools._distutils.command.bdst_msi` (#9174)
+
+It does not exist
+
 ## 65.5.0.2 (2022-10-24)
 
 Fix `pkg_resources.split_sections` (#8975)
