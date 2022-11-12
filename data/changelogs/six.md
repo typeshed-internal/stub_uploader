@@ -1,3 +1,7 @@
+## 1.16.21.3 (2022-11-12)
+
+Fix usage of byte2int with bytes (#9152)
+
 ## 1.16.21.2 (2022-11-10)
 
 Improve accuracy of `six` byte index methods (#9117)
