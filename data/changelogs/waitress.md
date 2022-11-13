@@ -1,3 +1,7 @@
+## 2.1.4.2 (2022-11-13)
+
+Run stubtest on Windows for waitress (#9181)
+
 ## 2.1.4.1 (2022-10-16)
 
 Remove empty `__init__` methods from classes with 0 parents (#8907)

@@ -1,3 +1,7 @@
+## 22.1.0.3 (2022-11-13)
+
+Complete stubtest for `aiofiles` + fix on Windows (#9184)
+
 ## 22.1.0.2 (2022-11-08)
 
 Fix and allow classes with missing metaclasses (#9136)
