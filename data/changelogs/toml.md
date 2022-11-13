@@ -1,3 +1,7 @@
+## 0.10.8.1 (2022-11-13)
+
+Mark `toml` as complete (#9185)
+
 ## 0.10.8 (2022-07-12)
 
 Import `Match` and `Pattern` from `re`, not `typing` (#8277)

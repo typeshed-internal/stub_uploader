@@ -1,3 +1,7 @@
+## 3.2.4.2 (2022-11-13)
+
+Mark `ttkthemes` as complete (#9186)
+
 ## 3.2.4.1 (2022-11-09)
 
 Annotate known magic-method return types (#9131)
