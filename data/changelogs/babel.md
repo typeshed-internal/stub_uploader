@@ -1,3 +1,7 @@
+## 2.11.0.5 (2022-11-13)
+
+Improvements to existing Babel types (#9190)
+
 ## 2.11.0.4 (2022-11-12)
 
 Add more type annotations for Babel (#9125)
