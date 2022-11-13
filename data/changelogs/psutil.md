@@ -1,3 +1,7 @@
+## 5.9.5.5 (2022-11-13)
+
+Run stubtest for psutil on all platforms (#9169)
+
 ## 5.9.5.4 (2022-10-20)
 
 `psutil`: Fix `win_service_iter()` return type to allow iterating over its result (#8932)

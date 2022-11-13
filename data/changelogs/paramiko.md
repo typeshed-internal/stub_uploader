@@ -1,3 +1,7 @@
+## 2.12.0.1 (2022-11-13)
+
+Fix paramiko stubtest on Windows (#9179)
+
 ## 2.12.0.0 (2022-11-12)
 
 Bump paramiko to 2.12.* (#9163)

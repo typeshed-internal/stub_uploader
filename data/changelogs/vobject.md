@@ -1,3 +1,9 @@
+## 0.9.8.4 (2022-11-13)
+
+Explain why `vobject` is not tested on Windows (#9175)
+
+Specify vobject.win32tz is broken on Windows
+
 ## 0.9.8.3 (2022-11-09)
 
 Annotate known magic-method return types (#9131)

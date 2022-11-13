@@ -1,3 +1,7 @@
+## 1.15.1.3 (2022-11-13)
+
+`cffi`: run stubtest on Windows (#9178)
+
 ## 1.15.1.2 (2022-11-09)
 
 All `__nonzero__` are methods that return `bool` (#9139)

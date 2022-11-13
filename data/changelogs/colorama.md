@@ -1,3 +1,7 @@
+## 0.4.15.3 (2022-11-13)
+
+Run stubtest on windows for colorama (#9168)
+
 ## 0.4.15.2 (2022-10-26)
 
 colorama: fixes for latest version (#8987)

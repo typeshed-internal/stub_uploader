@@ -1,3 +1,18 @@
+## 1.4.53.7 (2022-11-13)
+
+[stubsabot] Bump SQLAlchemy to 1.4.44 (#9182)
+
+Release: https://pypi.org/pypi/SQLAlchemy/1.4.44
+Homepage: https://www.sqlalchemy.org
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 1.4.53.6 (2022-11-09)
 
 All `__nonzero__` are methods that return `bool` (#9139)

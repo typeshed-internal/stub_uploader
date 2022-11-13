@@ -1,3 +1,7 @@
+## 2.9.13.2 (2022-11-13)
+
+Make the `ldap3` stubs platform-agnostic (#9180)
+
 ## 2.9.13.1 (2022-11-09)
 
 Annotate known magic-method return types (#9131)

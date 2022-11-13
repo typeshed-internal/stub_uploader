@@ -1,3 +1,7 @@
+## 3.15.0.4 (2022-11-13)
+
+Make peewee stubs compatible with peewee 3.15.4 (#9176)
+
 ## 3.15.0.3 (2022-11-09)
 
 All `__nonzero__` are methods that return `bool` (#9139)
