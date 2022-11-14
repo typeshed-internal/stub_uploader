@@ -1,3 +1,7 @@
+## 4.2.2.2 (2022-11-14)
+
+Comments explaining why `keyboard` and `tzlocal` are not run on multiple platforms (#9188)
+
 ## 4.2.2.1 (2022-10-23)
 
 Remove tzlocal from pyright's exclude (#8969)

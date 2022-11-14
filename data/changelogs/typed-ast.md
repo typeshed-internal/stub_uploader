@@ -1,3 +1,16 @@
+## 1.5.8.3 (2022-11-14)
+
+Improve `ast` types; revert several "redundant numeric union" changes from #7906 (#9130)
+
+* Adapt number types in ast
+
+Since mypy  0.990 type promotions was limited.
+This means that complex is not longer promoted to int/float, therefore
+we should adapt the types to list all possible types
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
+
 ## 1.5.8.2 (2022-11-07)
 
 Mark typed_ast as completed (#9121)

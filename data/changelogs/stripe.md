@@ -1,3 +1,7 @@
+## 3.5.2.3 (2022-11-14)
+
+stripe: fix test clocks imports (#9137)
+
 ## 3.5.2.2 (2022-11-09)
 
 Annotate known magic-method return types (#9131)
