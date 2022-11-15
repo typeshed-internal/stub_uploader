@@ -1,3 +1,26 @@
+## 3.18.0.0 (2022-11-15)
+
+[stubsabot] Bump simplejson to 3.18.* (#9198)
+
+Release: https://pypi.org/pypi/simplejson/3.18.0
+Homepage: https://github.com/simplejson/simplejson
+Diff: https://github.com/simplejson/simplejson/compare/v3.17.6...v3.18.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 3 files included in typeshed's stubs have been modified or renamed: `simplejson/__init__.py`, `simplejson/decoder.py`, `simplejson/encoder.py`.
+ - Total lines of Python code added: 63.
+ - Total lines of Python code deleted: 25.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 3.17.7.2 (2022-11-08)
 
 add default for simplejson.JSONEncoder.iterencode (#9135)
