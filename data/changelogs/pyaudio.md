@@ -1,3 +1,11 @@
+## 0.2.16.3 (2022-11-16)
+
+Add missing symbols in `pyaudio` stubs (#9206)
+
+Split off from #9187
+Turned off `ignore_missing_stub` for pyaudio stubs.
+Ensured it's valid for Windows and MacOS.
+
 ## 0.2.16.2 (2022-11-14)
 
 Improve `ast` types; revert several "redundant numeric union" changes from #7906 (#9130)
