@@ -1,3 +1,7 @@
+## 1.4.53.8 (2022-11-16)
+
+Always use `bool` and `Literal` for Python compat code (#9213)
+
 ## 1.4.53.7 (2022-11-13)
 
 [stubsabot] Bump SQLAlchemy to 1.4.44 (#9182)

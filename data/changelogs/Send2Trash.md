@@ -1,3 +1,7 @@
+## 1.8.2.3 (2022-11-16)
+
+Always use `bool` and `Literal` for Python compat code (#9213)
+
 ## 1.8.2.2 (2022-11-03)
 
 Remove `Send2Trash` from `pyright`'s exclude (#8944)

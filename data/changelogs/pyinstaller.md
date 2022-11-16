@@ -1,3 +1,7 @@
+## 5.6.0.4 (2022-11-16)
+
+Always use `bool` and `Literal` for Python compat code (#9213)
+
 ## 5.6.0.3 (2022-11-07)
 
 `PyInstaller`: Fix `DeprecationWarning` when parsing the stub using `ast.parse()` (#9112)

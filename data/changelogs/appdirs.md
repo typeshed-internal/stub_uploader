@@ -1,3 +1,7 @@
+## 1.4.3.1 (2022-11-16)
+
+Always use `bool` and `Literal` for Python compat code (#9213)
+
 ## 1.4.3 (2022-06-25)
 
 appdirs, tabulate, termcolor, xmltodict: check missing defs (#8156)

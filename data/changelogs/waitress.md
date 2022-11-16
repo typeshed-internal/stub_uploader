@@ -1,3 +1,7 @@
+## 2.1.4.3 (2022-11-16)
+
+Always use `bool` and `Literal` for Python compat code (#9213)
+
 ## 2.1.4.2 (2022-11-13)
 
 Run stubtest on Windows for waitress (#9181)

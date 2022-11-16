@@ -1,3 +1,9 @@
+## 2.8.19.4 (2022-11-16)
+
+Add exact `**kwargs` types to `dateutil.parser.parse` (#9212)
+
+Closes #9122
+
 ## 2.8.19.3 (2022-11-08)
 
 Fix and allow classes with missing metaclasses (#9136)

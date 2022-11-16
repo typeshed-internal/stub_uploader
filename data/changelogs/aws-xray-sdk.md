@@ -1,3 +1,7 @@
+## 2.11.0.1 (2022-11-16)
+
+Always use `bool` and `Literal` for Python compat code (#9213)
+
 ## 2.11.0.0 (2022-11-11)
 
 [stubsabot] Bump aws-xray-sdk to 2.11.* (#9156)

@@ -1,3 +1,7 @@
+## 2.28.11.5 (2022-11-16)
+
+Always use `bool` and `Literal` for Python compat code (#9213)
+
 ## 2.28.11.4 (2022-11-09)
 
 Annotate known magic-method return types (#9131)
