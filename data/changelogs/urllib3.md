@@ -1,3 +1,7 @@
+## 1.26.25.4 (2022-11-16)
+
+Fix urllib3 Url.port type (#9208)
+
 ## 1.26.25.3 (2022-11-09)
 
 Annotate known magic-method return types (#9131)
