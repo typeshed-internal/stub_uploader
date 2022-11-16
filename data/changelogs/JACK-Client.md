@@ -1,3 +1,9 @@
+## 0.5.10.2 (2022-11-16)
+
+Add missing symbols in `JACK-Client` stubs (#9205)
+
+`ignore_missing_stub = false` and completed on Windows & MacOS
+
 ## 0.5.10.1 (2022-11-11)
 
 Add the ability to run third-party stubtest on Windows or MacOS when needed (#8923)
