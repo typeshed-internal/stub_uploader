@@ -1,3 +1,9 @@
+## 0.1.13.1 (2022-11-17)
+
+click_spinner: make arguments optional (#9220)
+
+Matches the code, where these arguments are not required: https://github.com/click-contrib/click-spinner/blob/master/click_spinner/__init__.py
+
 ## 0.1.13 (2022-07-19)
 
 Add missing third party modules (#8321)
