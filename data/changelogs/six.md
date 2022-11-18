@@ -1,3 +1,7 @@
+## 1.16.21.4 (2022-11-18)
+
+Mark `six` as completed (#9221)
+
 ## 1.16.21.3 (2022-11-12)
 
 Fix usage of byte2int with bytes (#9152)

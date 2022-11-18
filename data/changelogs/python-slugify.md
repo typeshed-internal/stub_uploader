@@ -1,3 +1,7 @@
+## 6.1.0.1 (2022-11-18)
+
+Mark `python-slugify` as completed (#9222)
+
 ## 6.1.0 (2022-06-29)
 
 [stubsabot] Bump python-slugify to 6.1.* (#8208)
