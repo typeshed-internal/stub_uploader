@@ -1,3 +1,18 @@
+## 7.0.0.0 (2022-11-19)
+
+[stubsabot] Bump python-slugify to 7.0.* (#9224)
+
+Release: https://pypi.org/pypi/python-slugify/7.0.0
+Homepage: https://github.com/un33k/python-slugify
+Diff: https://github.com/un33k/python-slugify/compare/v6.1.2...v7.0.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 2 files included in typeshed's stubs have been modified or renamed: `slugify/__init__.py`, `slugify/__version__.py`.
+ - Total lines of Python code added: 11.
+ - Total lines of Python code deleted: 3.
+
 ## 6.1.0.1 (2022-11-18)
 
 Mark `python-slugify` as completed (#9222)
