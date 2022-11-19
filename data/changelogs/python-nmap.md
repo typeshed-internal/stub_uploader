@@ -1,3 +1,7 @@
+## 0.7.1.1 (2022-11-19)
+
+Mark `python-nmap` as completed (#9226)
+
 ## 0.7.1 (2022-07-04)
 
 Third-party stubs: audit more `Callable[<parameters>, Any]` annotations (#8233)

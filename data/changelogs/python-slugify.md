@@ -1,3 +1,9 @@
+## 7.0.0.1 (2022-11-19)
+
+python-slugify: use explicit re-exports (#9225)
+
+Fixes https://github.com/python/typeshed/pull/9224#discussion_r1027053364
+
 ## 7.0.0.0 (2022-11-19)
 
 [stubsabot] Bump python-slugify to 7.0.* (#9224)
