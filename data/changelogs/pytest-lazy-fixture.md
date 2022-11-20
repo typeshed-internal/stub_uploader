@@ -1,3 +1,7 @@
+## 0.6.3.2 (2022-11-20)
+
+Mark `pytest-lazy-fixture` as completed (#9229)
+
 ## 0.6.3.1 (2022-10-15)
 
 Use `Incomplete` instead of `Any` in `__getattr__` (#8903)
