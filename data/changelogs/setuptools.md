@@ -1,3 +1,22 @@
+## 65.6.0.0 (2022-11-20)
+
+[stubsabot] Bump setuptools to 65.6.* (#9227)
+
+Release: https://pypi.org/pypi/setuptools/65.6.0
+Homepage: https://github.com/pypa/setuptools
+Changelog: https://setuptools.pypa.io/en/stable/history.html
+Diff: https://github.com/pypa/setuptools/compare/v65.5.1...v65.6.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 40 files included in typeshed's stubs have been modified or renamed.
+ - Total lines of Python code added: 637.
+ - Total lines of Python code deleted: 630.
+
+Co-authored-by: stubsabot <>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 65.5.0.3 (2022-11-12)
 
 Remove `setuptools._distutils.command.bdst_msi` (#9174)
