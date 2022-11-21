@@ -1,3 +1,7 @@
+## 1.1.1.1 (2022-11-21)
+
+Mark pyRFC3339 as completed (#9233)
+
 ## 1.1.0 (2021-10-12)
 
 Update remaining versions for third-party stubs (#6094)
