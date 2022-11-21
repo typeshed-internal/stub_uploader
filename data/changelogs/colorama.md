@@ -1,3 +1,7 @@
+## 0.4.15.4 (2022-11-21)
+
+colorama: re-export just_fix_windows_console at top level (#9234)
+
 ## 0.4.15.3 (2022-11-13)
 
 Run stubtest on windows for colorama (#9168)
