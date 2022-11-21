@@ -1,3 +1,7 @@
+## 0.7.3.1 (2022-11-21)
+
+Finish `slumber` annotations (#9237)
+
 ## 0.7.3 (2022-06-26)
 
 Check missing definitions for several packages (#8167)
