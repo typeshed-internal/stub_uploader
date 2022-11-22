@@ -25,8 +25,13 @@ import tempfile
 from textwrap import dedent
 from typing import Optional
 
-from stub_uploader.const import (CHANGELOG_PATH, META, TESTS_NAMESPACE,
-                                 THIRD_PARTY_NAMESPACE, TYPES_PREFIX)
+from stub_uploader.const import (
+    CHANGELOG_PATH,
+    META,
+    TESTS_NAMESPACE,
+    THIRD_PARTY_NAMESPACE,
+    TYPES_PREFIX,
+)
 from stub_uploader.metadata import Metadata, read_metadata
 
 CHANGELOG = "CHANGELOG.md"
@@ -240,11 +245,15 @@ def generate_long_description(
             OBSOLETE_SINCE_TEXT_TEMPLATE.format(
                 distribution=distribution,
                 stub_distribution=metadata.stub_distribution,
-                obsolete_since=metadata.obsolete_since
+                obsolete_since=metadata.obsolete_since,
             )
         )
     elif metadata.no_longer_updated:
-        parts.append(NO_LONGER_UPDATED_TEMPLATE.format(stub_distribution=metadata.stub_distribution))
+        parts.append(
+            NO_LONGER_UPDATED_TEMPLATE.format(
+                stub_distribution=metadata.stub_distribution
+            )
+        )
     parts.append(DESCRIPTION_OUTRO_TEMPLATE.format(commit=commit))
     return "\n\n".join(parts)
 

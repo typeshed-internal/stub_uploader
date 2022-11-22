@@ -34,7 +34,9 @@ class Metadata:
 
     @property
     def stub_distribution(self) -> str:
-        return self.data.get("stub_distribution", TYPES_PREFIX + self._alleged_upstream_distribution)
+        return self.data.get(
+            "stub_distribution", TYPES_PREFIX + self._alleged_upstream_distribution
+        )
 
     @property
     def version_spec(self) -> str:
