@@ -41,7 +41,7 @@ SETUP_TEMPLATE = dedent(
     """
 from setuptools import setup
 
-name = "types-{distribution}"
+name = "{stub_distribution}"
 description = "Typing stubs for {distribution}"
 long_description = '''
 {long_description}
@@ -73,12 +73,12 @@ setup(name=name,
 ).lstrip()
 
 NO_LONGER_UPDATED_TEMPLATE = """
-*Note:* `types-{distribution}` is unmaintained and won't be updated.
+*Note:* `{stub_distribution}` is unmaintained and won't be updated.
 """.lstrip()
 
 OBSOLETE_SINCE_TEXT_TEMPLATE = """
 *Note:* The `{distribution}` package includes type annotations or type stubs
-since version {obsolete_since}. Please uninstall the `types-{distribution}`
+since version {obsolete_since}. Please uninstall the `{stub_distribution}`
 package if you use this or a newer version.
 """.lstrip()
 
@@ -220,6 +220,7 @@ def generate_setup_file(
     package_data = collect_setup_entries(build_data.stub_dir)
     return SETUP_TEMPLATE.format(
         distribution=build_data.distribution,
+        stub_distribution=metadata.stub_distribution,
         long_description=generate_long_description(
             build_data.distribution, commit, metadata
         ),
@@ -241,11 +242,17 @@ def generate_long_description(
     if metadata.obsolete_since:
         parts.append(
             OBSOLETE_SINCE_TEXT_TEMPLATE.format(
-                distribution=distribution, obsolete_since=metadata.obsolete_since
+                distribution=distribution,
+                stub_distribution=metadata.stub_distribution,
+                obsolete_since=metadata.obsolete_since,
             )
         )
     elif metadata.no_longer_updated:
-        parts.append(NO_LONGER_UPDATED_TEMPLATE.format(distribution=distribution))
+        parts.append(
+            NO_LONGER_UPDATED_TEMPLATE.format(
+                stub_distribution=metadata.stub_distribution
+            )
+        )
     parts.append(DESCRIPTION_OUTRO_TEMPLATE.format(commit=commit))
     return "\n\n".join(parts)
 
