@@ -9,3 +9,5 @@ twine
 mypy
 pytest
 types-requests
+
+black
