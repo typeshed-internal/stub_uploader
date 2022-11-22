@@ -13,7 +13,7 @@ jobs:
         with:
           python-version: '3.10'
       - uses: actions/checkout@v3
-      - run: pip install black
+      - run: pip install -r requirements.txt
       - run: |
           black --version
           black --check .
