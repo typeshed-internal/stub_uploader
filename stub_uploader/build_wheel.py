@@ -30,7 +30,6 @@ from stub_uploader.const import (
     META,
     TESTS_NAMESPACE,
     THIRD_PARTY_NAMESPACE,
-    TYPES_PREFIX,
 )
 from stub_uploader.metadata import Metadata, read_metadata
 
