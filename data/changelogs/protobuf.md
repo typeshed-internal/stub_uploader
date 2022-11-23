@@ -1,3 +1,7 @@
+## 3.20.4.6 (2022-11-23)
+
+protobuf: Add some return types (#9259)
+
 ## 3.20.4.5 (2022-11-14)
 
 Improve `ast` types; revert several "redundant numeric union" changes from #7906 (#9130)
