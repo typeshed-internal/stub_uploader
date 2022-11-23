@@ -39,7 +39,7 @@ def upload(
         print(f"ok, version {version}")
 
         print(f"Uploading stubs for {distribution}... ", end="")
-        if dry_run:
+        if dry_run or not metadata.upload:
             print(f"skipped")
         else:
             subprocess.run(["twine", "upload", os.path.join(temp_dir, "*")], check=True)
