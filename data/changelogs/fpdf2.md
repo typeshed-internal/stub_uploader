@@ -1,3 +1,9 @@
+## 2.6.0.0 (2022-11-23)
+
+Update fpdf2 stubs to 2.6 (#9236)
+
+Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
+
 ## 2.5.4.3 (2022-10-14)
 
 Add return types to fpdf.drawing (#8891)

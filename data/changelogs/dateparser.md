@@ -1,3 +1,9 @@
+## 1.1.4.3 (2022-11-23)
+
+dateparser: delete DIGIT_USE_PATTERN (#9243)
+
+Fixes #9242
+
 ## 1.1.4.2 (2022-11-04)
 
 dateparser: add new parameter (#9081)

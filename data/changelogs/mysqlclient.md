@@ -1,3 +1,7 @@
+## 2.1.5.1 (2022-11-23)
+
+Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
+
 ## 2.1.5 (2022-07-26)
 
 mysqlclient.connection: add missing type hints (#8393)

@@ -1,3 +1,7 @@
+## 2.11.0.6 (2022-11-23)
+
+Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
+
 ## 2.11.0.5 (2022-11-13)
 
 Improvements to existing Babel types (#9190)

@@ -1,3 +1,9 @@
+## 4.3.21.5 (2022-11-23)
+
+Pin `redis` to 4.3.4 in CI (#9247)
+
+We're about to get a daily test failure with 63 stubtest errors (see the Ubuntu stubtest failure in #9187) due to the release of redis-py 4.3.5, and I'd rather that didn't happen.
+
 ## 4.3.21.4 (2022-11-08)
 
 Fix and allow classes with missing metaclasses (#9136)

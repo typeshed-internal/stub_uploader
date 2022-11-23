@@ -1,3 +1,7 @@
+## 3.2.0.1 (2022-11-23)
+
+Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
+
 ## 3.2.0 (2022-06-18)
 
 Bump oauthlib to 3.2.* (#8081)

@@ -1,3 +1,7 @@
+## 1.1.12.1 (2022-11-23)
+
+Mark `polib` as complete (#9244)
+
 ## 1.1.12 (2022-04-27)
 
 Drop Python 2 support from polib (#7714)

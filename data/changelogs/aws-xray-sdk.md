@@ -1,3 +1,7 @@
+## 2.11.0.10 (2022-11-23)
+
+Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
+
 ## 2.11.0.1 (2022-11-16)
 
 Always use `bool` and `Literal` for Python compat code (#9213)

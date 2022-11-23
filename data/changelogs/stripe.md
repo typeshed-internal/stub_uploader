@@ -1,3 +1,7 @@
+## 3.5.2.4 (2022-11-23)
+
+Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
+
 ## 3.5.2.3 (2022-11-14)
 
 stripe: fix test clocks imports (#9137)

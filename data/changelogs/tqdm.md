@@ -1,3 +1,9 @@
+## 4.64.7.9 (2022-11-23)
+
+tqdm: Add missing tqdm.monitor class variable (#9249)
+
+Co-authored-by: Gabriel Smith <gabriel.smith@precisionot.com>
+
 ## 4.64.7.3 (2022-11-11)
 
 tqdm: allow `disable=None` in `tqdm.__init__` (#9154)

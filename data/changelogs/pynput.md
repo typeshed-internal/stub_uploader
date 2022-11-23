@@ -1,3 +1,7 @@
+## 1.7.5.3 (2022-11-23)
+
+Mark pynput as completed (#9235)
+
 ## 1.7.5 (2022-09-12)
 
 [pynput] Fix annotations of Controller.Key(Code) (#8722)

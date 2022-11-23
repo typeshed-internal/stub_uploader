@@ -1,3 +1,7 @@
+## 7.45.1.2 (2022-11-23)
+
+Add missing symbols in `pycurl` stubs (#9207)
+
 ## 7.45.1.1 (2022-11-11)
 
 Add the ability to run third-party stubtest on Windows or MacOS when needed (#8923)

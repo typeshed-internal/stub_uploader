@@ -1,3 +1,7 @@
+## 305.0.0.2 (2022-11-23)
+
+Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
+
 ## 305.0.0.1 (2022-11-11)
 
 Add the ability to run third-party stubtest on Windows or MacOS when needed (#8923)

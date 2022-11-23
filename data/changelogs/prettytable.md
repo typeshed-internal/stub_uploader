@@ -1,3 +1,7 @@
+## 3.4.2.2 (2022-11-23)
+
+Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
+
 ## 3.4.2.1 (2022-10-29)
 
 [stubsabot] Mark prettytable as obsolete since 3.5.0 (#9023)

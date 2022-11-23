@@ -1,3 +1,7 @@
+## 2.9.13.3 (2022-11-23)
+
+Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
+
 ## 2.9.13.2 (2022-11-13)
 
 Make the `ldap3` stubs platform-agnostic (#9180)

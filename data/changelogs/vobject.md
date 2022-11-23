@@ -1,3 +1,9 @@
+## 0.9.8.5 (2022-11-23)
+
+`__unicode__` always returns `str` (#9248)
+
+Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
+
 ## 0.9.8.4 (2022-11-13)
 
 Explain why `vobject` is not tested on Windows (#9175)

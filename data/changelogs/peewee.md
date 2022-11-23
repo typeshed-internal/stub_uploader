@@ -1,3 +1,7 @@
+## 3.15.0.5 (2022-11-23)
+
+Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
+
 ## 3.15.0.4 (2022-11-13)
 
 Make peewee stubs compatible with peewee 3.15.4 (#9176)

@@ -1,3 +1,7 @@
+## 3.0.4.2 (2022-11-23)
+
+Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
+
 ## 3.0.4.1 (2022-11-09)
 
 Annotate known magic-method return types (#9131)

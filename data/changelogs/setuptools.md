@@ -1,3 +1,7 @@
+## 65.6.0.1 (2022-11-23)
+
+Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
+
 ## 65.6.0.0 (2022-11-20)
 
 [stubsabot] Bump setuptools to 65.6.* (#9227)
