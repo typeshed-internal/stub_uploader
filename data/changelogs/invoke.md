@@ -1,3 +1,7 @@
+## 1.7.3.15 (2022-11-23)
+
+Use modern syntax in test-case files where possible (#9261)
+
 ## 1.7.3.14 (2022-11-23)
 
 Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
