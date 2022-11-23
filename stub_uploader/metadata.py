@@ -4,8 +4,8 @@ import functools
 import graphlib
 import os
 import re
-from typing import Any, Optional
 from collections.abc import Iterator
+from typing import Any, Optional
 
 import requests
 import tomli
@@ -34,7 +34,9 @@ class Metadata:
 
     @property
     def stub_distribution(self) -> str:
-        return TYPES_PREFIX + self._alleged_upstream_distribution
+        return self.data.get(
+            "stub_distribution", TYPES_PREFIX + self._alleged_upstream_distribution
+        )
 
     @property
     def version_spec(self) -> str:
@@ -89,6 +91,10 @@ class Metadata:
     @property
     def no_longer_updated(self) -> bool:
         return self.data.get("no_longer_updated", False)
+
+    @property
+    def upload(self) -> bool:
+        return self.data.get("upload", True)
 
 
 def read_metadata(typeshed_dir: str, distribution: str) -> Metadata:
