@@ -1,3 +1,7 @@
+## 2022.10.31.3 (2022-11-24)
+
+Add test case for recent `types-regex` regression (#9269)
+
 ## 2022.10.31.2 (2022-11-24)
 
 regex: fix type signatures using Scanner (#9266)
