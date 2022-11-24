@@ -1,3 +1,7 @@
+## 2022.10.31.2 (2022-11-24)
+
+regex: fix type signatures using Scanner (#9266)
+
 ## 2022.10.31.1 (2022-11-23)
 
 Mark regex as completed (#9214)
