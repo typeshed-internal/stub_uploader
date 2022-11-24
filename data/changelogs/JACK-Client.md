@@ -1,3 +1,7 @@
+## 0.5.10.3 (2022-11-24)
+
+Add support for Homebrew and Chocolatey (#9187)
+
 ## 0.5.10.2 (2022-11-16)
 
 Add missing symbols in `JACK-Client` stubs (#9205)

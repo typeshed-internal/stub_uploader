@@ -1,3 +1,7 @@
+## 0.2.16.4 (2022-11-24)
+
+Add support for Homebrew and Chocolatey (#9187)
+
 ## 0.2.16.3 (2022-11-16)
 
 Add missing symbols in `pyaudio` stubs (#9206)
