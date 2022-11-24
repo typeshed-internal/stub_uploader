@@ -1,3 +1,7 @@
+## 7.45.1.3 (2022-11-24)
+
+`pycurl`: Add a few missing constants (#9262)
+
 ## 7.45.1.2 (2022-11-23)
 
 Add missing symbols in `pycurl` stubs (#9207)
