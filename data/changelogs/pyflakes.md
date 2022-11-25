@@ -1,3 +1,9 @@
+## 3.0.0.1 (2022-11-25)
+
+pyflakes: fix stubtest (#9273)
+
+Fixes #9272
+
 ## 3.0.0.0 (2022-11-24)
 
 Bump pyflakes to 3.0.* (#9264)
