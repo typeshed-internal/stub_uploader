@@ -1,3 +1,7 @@
+## 1.7.3.16 (2022-11-25)
+
+Add Call object support for invoke tasks (#8916)
+
 ## 1.7.3.15 (2022-11-23)
 
 Use modern syntax in test-case files where possible (#9261)
