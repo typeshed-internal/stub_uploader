@@ -1,3 +1,9 @@
+## 2.11.0.7 (2022-11-25)
+
+Add  methods for Catalog and Message from babel package (#9278)
+
+https://github.com/python/typeshed/issues/9277
+
 ## 2.11.0.6 (2022-11-23)
 
 Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
