@@ -1,3 +1,9 @@
+## 0.11.0.0 (2022-11-25)
+
+Bump caldav to 0.11.* (#9253)
+
+Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
+
 ## 0.10.0.0 (2022-10-31)
 
 Update caldav stubs to 0.10 (#9044)

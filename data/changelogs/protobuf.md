@@ -1,3 +1,11 @@
+## 4.21.0.0 (2022-11-25)
+
+Bump protobuf to 4.21.*; delete `google/__init__.pyi` (#8360)
+
+This major version bump of the stubs package deletes google/__init__.py, which does not exist at runtime, and caused problems for several users. Mypy now has --namespace-packages enabled by default, which should hopefully mean that this causes minimal pain.
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 3.20.4.6 (2022-11-23)
 
 protobuf: Add some return types (#9259)

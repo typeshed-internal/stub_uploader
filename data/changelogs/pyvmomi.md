@@ -1,3 +1,26 @@
+## 8.0.0.0 (2022-11-25)
+
+[stubsabot] Bump pyvmomi to 8.0.* (#9271)
+
+Release: https://pypi.org/pypi/pyvmomi/8.0.0.1
+Homepage: https://github.com/vmware/pyvmomi
+Diff: https://github.com/vmware/pyvmomi/compare/v7.0.3...v8.0.0.1
+
+Stubsabot analysis of the diff between the two releases:
+ - 3 public Python files have been added: `pyVmomi/Feature.py`, `pyVmomi/Security.py`, `pyVmomi/VmomiJSONEncoder.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `pyVmomi/__init__.py`.
+ - Total lines of Python code added: 6229.
+ - Total lines of Python code deleted: 5341.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 7.0.8.2 (2022-10-20)
 
 Remove `pyvmomi` from `pyright`'s exclude (#8943)
