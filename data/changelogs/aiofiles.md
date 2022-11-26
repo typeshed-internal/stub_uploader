@@ -1,3 +1,7 @@
+## 22.1.0.4 (2022-11-26)
+
+Add aiofiles.os.scandir (#9280)
+
 ## 22.1.0.3 (2022-11-13)
 
 Complete stubtest for `aiofiles` + fix on Windows (#9184)
