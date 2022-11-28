@@ -1,3 +1,7 @@
+## 4.21.0.1 (2022-11-28)
+
+Improve annotations for `__instancecheck__`, `__subclasscheck__` (#9291)
+
 ## 4.21.0.0 (2022-11-25)
 
 Bump protobuf to 4.21.*; delete `google/__init__.pyi` (#8360)
