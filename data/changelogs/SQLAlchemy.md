@@ -1,3 +1,7 @@
+## 1.4.53.18 (2022-11-28)
+
+sqlalchemy: add return types for known magic methods (#9290)
+
 ## 1.4.53.17 (2022-11-23)
 
 Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
