@@ -118,6 +118,7 @@ types-psycopg2
 types-pyOpenSSL
 types-pyRFC3339
 types-pyaudio
+types-pycocotools
 types-pycurl
 types-pyfarmhash
 types-pyflakes
