@@ -1,3 +1,7 @@
+## 0.9.3.2 (2022-11-29)
+
+Mark `PyAutoGUI` as complete (#9300)
+
 ## 0.9.3.1 (2022-10-04)
 
 `PyAutoGUI`: Use types from `PyScreeze` (#8824)
