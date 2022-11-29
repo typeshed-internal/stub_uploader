@@ -1,3 +1,7 @@
+## 1.7.7.3 (2022-11-29)
+
+Mark `passlib` as completed (#9302)
+
 ## 1.7.7.2 (2022-11-23)
 
 Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
