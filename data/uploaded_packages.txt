@@ -133,6 +133,7 @@ types-python-gflags
 types-python-jose
 types-python-nmap
 types-python-slugify
+types-python-xlib
 types-pytz
 types-pyvmomi
 types-pywin32
