@@ -1,3 +1,7 @@
+## 10.0.1.3 (2022-12-01)
+
+Mark `humanfriendly` as complete (#9309)
+
 ## 10.0.1.2 (2022-11-23)
 
 Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
