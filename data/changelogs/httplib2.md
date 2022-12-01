@@ -1,3 +1,9 @@
+## 0.21.0.2 (2022-12-01)
+
+Mark `httplib2` as complete (#9311)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 0.21.0.1 (2022-11-09)
 
 Annotate known magic-method return types (#9131)
