@@ -1,3 +1,7 @@
+## 2.6.0.1 (2022-12-01)
+
+fpdf2: annotate draw_color, fill_color, text_color (#9282)
+
 ## 2.6.0.0 (2022-11-23)
 
 Update fpdf2 stubs to 2.6 (#9236)
