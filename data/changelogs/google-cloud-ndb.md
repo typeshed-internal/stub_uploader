@@ -1,3 +1,26 @@
+## 1.12.0.0 (2022-12-01)
+
+[stubsabot] Bump google-cloud-ndb to 1.12.* (#9307)
+
+Release: https://pypi.org/pypi/google-cloud-ndb/1.12.0
+Homepage: https://github.com/googleapis/python-ndb
+Diff: https://github.com/googleapis/python-ndb/compare/v1.11.2...v1.12.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 1 public Python file has been added: `.kokoro/noxfile.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 6 files included in typeshed's stubs have been modified or renamed: `google/cloud/ndb/_datastore_api.py`, `google/cloud/ndb/context.py`, `google/cloud/ndb/django_middleware.py`, `google/cloud/ndb/model.py`, `google/cloud/ndb/msgprop.py`, `google/cloud/ndb/tasklets.py`.
+ - Total lines of Python code added: 377.
+ - Total lines of Python code deleted: 63.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 1.11.5.10 (2022-11-23)
 
 Mark first argument of `__[get|set|del]attr__` as `str` (#9245)

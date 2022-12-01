@@ -53,6 +53,7 @@ types-dataclasses
 types-dateparser
 types-decorator
 types-dj-database-url
+types-dockerfile-parse
 types-docopt
 types-docutils
 types-editdistance
