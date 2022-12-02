@@ -1,3 +1,13 @@
+## 5.0.4.1 (2022-12-02)
+
+[stubsabot] Mark chardet as obsolete since 5.1.0 (#9318)
+
+Release: https://pypi.org/pypi/chardet/5.1.0
+Homepage: https://github.com/chardet/chardet
+Diff: https://github.com/chardet/chardet/compare/5.0.0...5.1.0
+
+Co-authored-by: stubsabot <>
+
 ## 5.0.4 (2022-08-10)
 
 Remove a few unused `TypedDict`s (#8522)
