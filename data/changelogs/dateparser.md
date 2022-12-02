@@ -1,3 +1,9 @@
+## 1.1.4.4 (2022-12-02)
+
+Mark `dateparser` as complete (#9312)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 1.1.4.3 (2022-11-23)
 
 dateparser: delete DIGIT_USE_PATTERN (#9243)
