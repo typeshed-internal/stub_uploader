@@ -1,3 +1,15 @@
+## 5.6.0.0 (2022-12-02)
+
+[stubsabot] Bump ujson to 5.6.* (#9319)
+
+Release: https://pypi.org/pypi/ujson/5.6.0
+Homepage: https://github.com/ultrajson/ultrajson
+Diff: https://github.com/ultrajson/ultrajson/compare/5.5.0...5.6.0
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 13.
+ - Total lines of Python code deleted: 0.
+
 ## 5.5.0 (2022-09-16)
 
 [stubsabot] Bump ujson to 5.5.* (#8749)
