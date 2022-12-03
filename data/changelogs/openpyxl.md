@@ -1,3 +1,7 @@
+## 3.0.4.3 (2022-12-03)
+
+openpyxl stub: add open as an alias for load_workbook (#9324)
+
 ## 3.0.4.2 (2022-11-23)
 
 Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
