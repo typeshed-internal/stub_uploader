@@ -1,3 +1,7 @@
+## 9.3.0.3 (2022-12-05)
+
+PIL: add optimize param to save (#9328)
+
 ## 9.3.0.2 (2022-11-23)
 
 Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
