@@ -1,3 +1,9 @@
+## 4.21.0.2 (2022-12-05)
+
+`protobuf`: Annotate `well_known_types.pyi` (#9323)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 4.21.0.1 (2022-11-28)
 
 Improve annotations for `__instancecheck__`, `__subclasscheck__` (#9291)
