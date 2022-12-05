@@ -1,3 +1,9 @@
+## 2.6.0.2 (2022-12-05)
+
+fpdf:annotation of underline, font_style, font_streching (#9327)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 2.6.0.1 (2022-12-01)
 
 fpdf2: annotate draw_color, fill_color, text_color (#9282)

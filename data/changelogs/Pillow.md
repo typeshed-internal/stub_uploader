@@ -1,3 +1,7 @@
+## 9.3.0.4 (2022-12-05)
+
+PIL: fix image convert palette type (#9331)
+
 ## 9.3.0.3 (2022-12-05)
 
 PIL: add optimize param to save (#9328)
