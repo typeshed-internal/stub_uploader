@@ -1,3 +1,17 @@
+## 4.17.0.2 (2022-12-06)
+
+Update jsonschema protocols.pyi (#9295)
+
+These take in an instance, which need not be a JSON object.
+They could for example be arrays.
+See [this example](https://python-jsonschema.readthedocs.io/en/stable/api/jsonschema/protocols/#jsonschema.protocols.Validator.iter_errors) on the jsonschema docs.
+
+```python
+>>> schema = {"maxItems" : 2}
+>>> Draft202012Validator(schema).is_valid([2, 3, 4])
+False
+```
+
 ## 4.17.0.1 (2022-11-09)
 
 Annotate known magic-method return types (#9131)
