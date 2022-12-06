@@ -1,3 +1,20 @@
+## 65.6.0.2 (2022-12-06)
+
+More pywin32 stub completion (#9308)
+
+Completed based on usage of the following libraries in mypy_primer:
+- apprise
+- comtypes
+As well as some of the most popular libraries that use both pywin32 and mypy (all over 1k stars on github):
+- certbot
+- anki
+- flexget
+- monkey
+- twisted
+- salt
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 65.6.0.1 (2022-11-23)
 
 Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
