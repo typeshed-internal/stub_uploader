@@ -1,3 +1,9 @@
+## 2.0.0.0 (2022-12-07)
+
+[stubsabot] Make google-cloud-ndb a namespace package; bump pinned version to 2.0.* (#9339)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 1.12.0.0 (2022-12-01)
 
 [stubsabot] Bump google-cloud-ndb to 1.12.* (#9307)
