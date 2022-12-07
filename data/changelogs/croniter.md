@@ -1,3 +1,7 @@
+## 1.3.2.1 (2022-12-07)
+
+3rd-party stubtest: run on Python 3.10 (#9342)
+
 ## 1.3.2 (2022-07-31)
 
 Clean up a few Python 2 remnants (#8452)

@@ -1,3 +1,7 @@
+## 4.4.1.2 (2022-12-07)
+
+3rd-party stubtest: run on Python 3.10 (#9342)
+
 ## 4.4.1.1 (2022-11-04)
 
 Mark `zxcvbn` as completed (#9088)

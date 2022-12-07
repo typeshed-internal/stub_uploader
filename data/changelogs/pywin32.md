@@ -1,3 +1,7 @@
+## 305.0.0.4 (2022-12-07)
+
+3rd-party stubtest: run on Python 3.10 (#9342)
+
 ## 305.0.0.3 (2022-12-06)
 
 More pywin32 stub completion (#9308)
