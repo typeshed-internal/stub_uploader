@@ -1,3 +1,7 @@
+## 5.7.0.0 (2022-12-08)
+
+Bump pyinstaller to 5.7.* (#9343)
+
 ## 5.6.0.4 (2022-11-16)
 
 Always use `bool` and `Literal` for Python compat code (#9213)
