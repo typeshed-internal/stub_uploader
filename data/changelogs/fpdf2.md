@@ -1,3 +1,7 @@
+## 2.6.0.3 (2022-12-13)
+
+Fpdf2: annotate more graphics_state properties (#9337)
+
 ## 2.6.0.2 (2022-12-05)
 
 fpdf:annotation of underline, font_style, font_streching (#9327)
