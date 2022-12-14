@@ -1,3 +1,7 @@
+## 2.0.0.0 (2022-12-14)
+
+Update dockerfile-parse to 2.0.* (#9357)
+
 ## 1.2.0.1 (2022-12-01)
 
 Remove `dockerfile-parse` from pyright's exclude (#9310)

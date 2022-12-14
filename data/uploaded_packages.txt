@@ -109,6 +109,7 @@ types-passpy
 types-pathlib2
 types-peewee
 types-pep8-naming
+types-pika
 types-pkg_resources
 types-playsound
 types-polib

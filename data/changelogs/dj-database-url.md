@@ -1,3 +1,7 @@
+## 1.2.0.0 (2022-12-14)
+
+Update dj-database-url to 1.2.* (#9355)
+
 ## 1.0.0 (2022-08-05)
 
 [stubsabot] Bump dj-database-url to 1.0.* (#8488)

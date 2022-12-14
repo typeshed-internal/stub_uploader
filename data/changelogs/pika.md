@@ -1,3 +1,9 @@
+## 1.3.0.0 (2022-12-14)
+
+Distribute our pika stubs under an alternate name (#9358)
+
+Cf. #9246
+
 ## 1.3.0.0 (2022-11-23)
 
 Disable pika uploads for now (#9257)

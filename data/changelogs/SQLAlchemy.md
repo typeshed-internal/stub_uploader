@@ -1,3 +1,9 @@
+## 1.4.53.19 (2022-12-14)
+
+Update to SQLAlchemy 1.4.45 (#9359)
+
+Use Incomplete in touched files
+
 ## 1.4.53.18 (2022-11-28)
 
 sqlalchemy: add return types for known magic methods (#9290)
