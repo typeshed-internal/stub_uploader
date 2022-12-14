@@ -224,7 +224,7 @@ def sort_by_dependency(typeshed_dir: str, distributions: list[str]) -> Iterator[
     # for the first time that depend on each other.
     ts: graphlib.TopologicalSorter[str] = graphlib.TopologicalSorter()
 
-    dist_map: dict[str, str] = {}  # maps type distribution name to directory name
+    dist_map: dict[str, str] = {}  # maps stub distribution name to directory name
     for dist in os.listdir(os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE)):
         metadata = read_metadata(typeshed_dir, dist)
         ts.add(
