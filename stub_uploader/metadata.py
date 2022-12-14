@@ -217,13 +217,14 @@ def verify_external_req(
         )
 
 
-def sort_by_dependency(typeshed_dir: str, distributions: list[str]) -> Iterator[str]:
+def sort_by_dependency(typeshed_dir: str, dist_dirs: list[str]) -> Iterator[str]:
     # Just a simple topological sort. Unlike previous versions of the code, we do not rely
     # on this to perform validation, like requiring the graph to be complete.
     # We only use this to help with edge cases like multiple packages being uploaded
     # for the first time that depend on each other.
     ts: graphlib.TopologicalSorter[str] = graphlib.TopologicalSorter()
 
+    dist_map: dict[str, str] = {}  # maps type distribution name to directory name
     for dist in os.listdir(os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE)):
         metadata = read_metadata(typeshed_dir, dist)
         ts.add(
@@ -234,13 +235,14 @@ def sort_by_dependency(typeshed_dir: str, distributions: list[str]) -> Iterator[
             # upload B.
             *[r.name for r in metadata._unvalidated_requires],
         )
+        dist_map[metadata.stub_distribution] = dist
 
-    order = [strip_types_prefix(dist) for dist in ts.static_order()]
-    missing = set(distributions) - set(order)
+    ordered_dirs = [dist_map[dist] for dist in ts.static_order()]
+    missing = set(dist_dirs) - set(ordered_dirs)
     assert not missing, f"Failed to find distributions {missing}"
 
-    for dist in order:
-        if dist in distributions:
+    for dist in ordered_dirs:
+        if dist in dist_dirs:
             yield dist
 
 
