@@ -224,6 +224,7 @@ def sort_by_dependency(typeshed_dir: str, distributions: list[str]) -> Iterator[
     # for the first time that depend on each other.
     ts: graphlib.TopologicalSorter[str] = graphlib.TopologicalSorter()
 
+    dist_map: dict[str, str] = {}  # maps stub distribution name to directory name
     for dist in os.listdir(os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE)):
         metadata = read_metadata(typeshed_dir, dist)
         ts.add(
@@ -234,12 +235,13 @@ def sort_by_dependency(typeshed_dir: str, distributions: list[str]) -> Iterator[
             # upload B.
             *[r.name for r in metadata._unvalidated_requires],
         )
+        dist_map[metadata.stub_distribution] = dist
 
-    order = [strip_types_prefix(dist) for dist in ts.static_order()]
-    missing = set(distributions) - set(order)
+    ordered = [dist_map[stub_dist] for stub_dist in ts.static_order()]
+    missing = set(distributions) - set(ordered)
     assert not missing, f"Failed to find distributions {missing}"
 
-    for dist in order:
+    for dist in ordered:
         if dist in distributions:
             yield dist
 
