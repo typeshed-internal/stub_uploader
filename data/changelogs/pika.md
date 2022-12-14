@@ -1,3 +1,9 @@
+## 1.3.0.1 (2022-12-14)
+
+pika: Make Method generic, annotate DeclareOk (#9360)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 1.3.0.0 (2022-12-14)
 
 Distribute our pika stubs under an alternate name (#9358)

@@ -1,3 +1,9 @@
+## 1.0.2.2 (2022-12-14)
+
+Add types for jmespath internals (#9338)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 1.0.2.1 (2022-11-08)
 
 Fix and allow classes with missing metaclasses (#9136)
