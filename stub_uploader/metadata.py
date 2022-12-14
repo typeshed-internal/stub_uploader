@@ -217,7 +217,7 @@ def verify_external_req(
         )
 
 
-def sort_by_dependency(typeshed_dir: str, dist_dirs: list[str]) -> Iterator[str]:
+def sort_by_dependency(typeshed_dir: str, distributions: list[str]) -> Iterator[str]:
     # Just a simple topological sort. Unlike previous versions of the code, we do not rely
     # on this to perform validation, like requiring the graph to be complete.
     # We only use this to help with edge cases like multiple packages being uploaded
@@ -237,12 +237,12 @@ def sort_by_dependency(typeshed_dir: str, dist_dirs: list[str]) -> Iterator[str]
         )
         dist_map[metadata.stub_distribution] = dist
 
-    ordered_dirs = [dist_map[dist] for dist in ts.static_order()]
-    missing = set(dist_dirs) - set(ordered_dirs)
+    ordered = [dist_map[stub_dist] for stub_dist in ts.static_order()]
+    missing = set(distributions) - set(ordered)
     assert not missing, f"Failed to find distributions {missing}"
 
-    for dist in ordered_dirs:
-        if dist in dist_dirs:
+    for dist in ordered:
+        if dist in distributions:
             yield dist
 
 
