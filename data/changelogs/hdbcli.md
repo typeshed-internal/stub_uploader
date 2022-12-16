@@ -1,3 +1,10 @@
+## 2.15.0.0 (2022-12-16)
+
+[stubsabot] Bump hdbcli to 2.15.* (#9369)
+
+Release: https://pypi.org/pypi/hdbcli/2.15.17
+Homepage: https://www.sap.com/
+
 ## 2.14.1.1 (2022-11-03)
 
 Mark `hdbcli` as complete (#8904)
