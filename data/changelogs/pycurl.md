@@ -1,3 +1,7 @@
+## 7.45.2.0 (2022-12-17)
+
+pycurl: Add missing constants  (#9373)
+
 ## 7.45.1.4 (2022-11-24)
 
 Add support for Homebrew and Chocolatey (#9187)
