@@ -1,3 +1,7 @@
+## 2.8.19.5 (2022-12-18)
+
+`python-dateutil`: Add `zoneinfo` submodule (#9381)
+
 ## 2.8.19.4 (2022-11-16)
 
 Add exact `**kwargs` types to `dateutil.parser.parse` (#9212)

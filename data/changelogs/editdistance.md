@@ -1,3 +1,7 @@
+## 0.6.3.2 (2022-12-18)
+
+`editdistance`: delete the `bycython` submodule (#9380)
+
 ## 0.6.3.1 (2022-10-20)
 
 Remove `editdistance` from `pyright`'s exclude (#8941)
