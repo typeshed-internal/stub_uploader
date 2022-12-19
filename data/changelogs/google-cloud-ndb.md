@@ -1,3 +1,7 @@
+## 2.1.0.0 (2022-12-19)
+
+Bump google-cloud-ndb to 2.1.* (#9370)
+
 ## 2.0.0.0 (2022-12-07)
 
 [stubsabot] Make google-cloud-ndb a namespace package; bump pinned version to 2.0.* (#9339)
