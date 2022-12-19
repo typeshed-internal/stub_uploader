@@ -1,3 +1,7 @@
+## 1.3.0.2 (2022-12-19)
+
+Annotate more items in pika.channel (#9385)
+
 ## 1.3.0.1 (2022-12-14)
 
 pika: Make Method generic, annotate DeclareOk (#9360)
