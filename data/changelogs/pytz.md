@@ -1,3 +1,7 @@
+## 2022.7.0.0 (2022-12-19)
+
+[stubsabot] Bump pytz to 2022.7 (#9383)
+
 ## 2022.6.0.1 (2022-11-01)
 
 Remove `pytz` from `pyright`s exclude (#9041)
