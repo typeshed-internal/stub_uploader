@@ -1,3 +1,7 @@
+## 1.0.2.3 (2022-12-21)
+
+Fix return type of `search` in jmespath stubs (#9394)
+
 ## 1.0.2.2 (2022-12-14)
 
 Add types for jmespath internals (#9338)
