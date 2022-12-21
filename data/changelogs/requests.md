@@ -1,3 +1,7 @@
+## 2.28.11.6 (2022-12-21)
+
+requests: types for auth username and password (#9389)
+
 ## 2.28.11.5 (2022-11-16)
 
 Always use `bool` and `Literal` for Python compat code (#9213)
