@@ -1,3 +1,7 @@
+## 2.28.11.7 (2022-12-22)
+
+`requests`: set `session.headers` to `MutableMapping` (#9395)
+
 ## 2.28.11.6 (2022-12-21)
 
 requests: types for auth username and password (#9389)
