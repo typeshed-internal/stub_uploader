@@ -127,6 +127,7 @@ types-pyflakes
 types-pyinstaller
 types-pymssql
 types-pynput
+types-pyserial
 types-pysftp
 types-pytest-lazy-fixture
 types-python-crontab
