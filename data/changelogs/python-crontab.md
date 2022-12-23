@@ -1,3 +1,13 @@
+## 2.7.0.0 (2022-12-23)
+
+crontab: improve types, update to 2.7 (#9392)
+
+https://gitlab.com/doctormo/python-crontab/-/blob/v2.7.0/crontab.py
+
+Closes #9391
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 2.6.0.2 (2022-11-16)
 
 Always use `bool` and `Literal` for Python compat code (#9213)

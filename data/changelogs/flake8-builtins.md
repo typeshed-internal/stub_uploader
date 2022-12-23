@@ -1,3 +1,7 @@
+## 2.1.0.0 (2022-12-23)
+
+[stubsabot] Bump flake8-builtins to 2.1.* (#9400)
+
 ## 2.0.0.1 (2022-10-15)
 
 Use `Incomplete` instead of `Any` in `__getattr__` (#8903)
