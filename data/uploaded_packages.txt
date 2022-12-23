@@ -1,6 +1,7 @@
 types-D3DShot
 types-DateTimeRange
 types-Deprecated
+types-ExifRead
 types-Flask
 types-Flask-Cors
 types-Flask-Migrate
