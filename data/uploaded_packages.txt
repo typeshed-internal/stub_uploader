@@ -83,6 +83,7 @@ types-hdbcli
 types-html5lib
 types-httplib2
 types-humanfriendly
+types-ibm-db
 types-invoke
 types-ipaddress
 types-itsdangerous
