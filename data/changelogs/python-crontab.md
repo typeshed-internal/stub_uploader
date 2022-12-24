@@ -1,3 +1,9 @@
+## 2.7.0.1 (2022-12-24)
+
+crontab: upstream did some py2 cleanup (#9406)
+
+Fixes #9405
+
 ## 2.7.0.0 (2022-12-23)
 
 crontab: improve types, update to 2.7 (#9392)
