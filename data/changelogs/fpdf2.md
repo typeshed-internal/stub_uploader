@@ -1,3 +1,9 @@
+## 2.6.0.4 (2022-12-25)
+
+fpdf:annotation of dash_pattern, line_width, text_mode (#9387)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 2.6.0.3 (2022-12-13)
 
 Fpdf2: annotate more graphics_state properties (#9337)
