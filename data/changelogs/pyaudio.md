@@ -1,3 +1,7 @@
+## 0.2.16.5 (2022-12-27)
+
+`pyaudio`: fix stubtest failures (#9416)
+
 ## 0.2.16.4 (2022-11-24)
 
 Add support for Homebrew and Chocolatey (#9187)
