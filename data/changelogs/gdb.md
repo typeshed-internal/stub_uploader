@@ -1,3 +1,7 @@
+## 12.1.4.1 (2022-12-28)
+
+Add type stubs for gdb.Value comparison operators (#9411)
+
 ## 12.1.4 (2022-09-24)
 
 gdb: add missing automatic imports (#8788)
