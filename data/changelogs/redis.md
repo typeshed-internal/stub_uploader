@@ -1,3 +1,7 @@
+## 4.3.21.7 (2022-12-28)
+
+Check for unused `pyright: ignore` and differentiate from mypy ignores (#9397)
+
 ## 4.3.21.6 (2022-11-28)
 
 [redis] update to 4.3.5 (#9284)

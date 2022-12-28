@@ -1,3 +1,7 @@
+## 1.4.53.20 (2022-12-28)
+
+Check for unused `pyright: ignore` and differentiate from mypy ignores (#9397)
+
 ## 1.4.53.19 (2022-12-14)
 
 Update to SQLAlchemy 1.4.45 (#9359)

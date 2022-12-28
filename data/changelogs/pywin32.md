@@ -1,3 +1,7 @@
+## 305.0.0.5 (2022-12-28)
+
+Check for unused `pyright: ignore` and differentiate from mypy ignores (#9397)
+
 ## 305.0.0.4 (2022-12-07)
 
 3rd-party stubtest: run on Python 3.10 (#9342)

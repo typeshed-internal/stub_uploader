@@ -1,3 +1,7 @@
+## 1.7.3.17 (2022-12-28)
+
+Check for unused `pyright: ignore` and differentiate from mypy ignores (#9397)
+
 ## 1.7.3.16 (2022-11-25)
 
 Add Call object support for invoke tasks (#8916)

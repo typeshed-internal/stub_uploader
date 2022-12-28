@@ -1,3 +1,7 @@
+## 3.4.2.3 (2022-12-28)
+
+Check for unused `pyright: ignore` and differentiate from mypy ignores (#9397)
+
 ## 3.4.2.2 (2022-11-23)
 
 Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
