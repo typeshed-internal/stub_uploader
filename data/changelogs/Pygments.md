@@ -1,3 +1,27 @@
+## 2.14.0.0 (2023-01-02)
+
+[stubsabot] Bump Pygments to 2.14.* (#9440)
+
+Release: https://pypi.org/pypi/Pygments/2.14.0
+Homepage: https://pygments.org/
+Changelog: https://github.com/pygments/pygments/blob/master/CHANGES
+Diff: https://github.com/pygments/pygments/compare/2.13.0...2.14.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 11 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 7 files included in typeshed's stubs have been modified or renamed: `pygments/__init__.py`, `pygments/formatters/__init__.py`, `pygments/formatters/html.py`, `pygments/formatters/irc.py`, `pygments/lexer.py`, `pygments/lexers/__init__.py`, `pygments/sphinxext.py`.
+ - Total lines of Python code added: 3094.
+ - Total lines of Python code deleted: 1387.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 2.13.1.1 (2022-10-15)
 
 Use `Incomplete` instead of `Any` in `__getattr__` (#8903)
