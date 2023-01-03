@@ -1,3 +1,23 @@
+## 4.0.0.0 (2023-01-03)
+
+[stubsabot] Bump singledispatch to 4.0.* (#9447)
+
+Release: https://pypi.org/pypi/singledispatch/4.0.0
+Homepage: https://github.com/jaraco/singledispatch
+Diff: https://github.com/jaraco/singledispatch/compare/v3.7.0...v4.0.0
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 381.
+ - Total lines of Python code deleted: 266.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 3.7.5.1 (2022-11-15)
 
 Complete singledispatch stub (#9201)

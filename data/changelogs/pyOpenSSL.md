@@ -1,3 +1,23 @@
+## 23.0.0.0 (2023-01-03)
+
+[stubsabot] Bump pyOpenSSL to 23.0.* (#9446)
+
+Release: https://pypi.org/pypi/pyOpenSSL/23.0.0
+Homepage: https://pyopenssl.org/
+Diff: https://github.com/pyca/pyopenssl/compare/22.1.0...23.0.0
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 83.
+ - Total lines of Python code deleted: 37.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 22.1.0.2 (2022-11-05)
 
 isort: Add more to extra_standard_library (#9098)
