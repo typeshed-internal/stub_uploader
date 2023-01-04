@@ -21,6 +21,7 @@ import os
 import os.path
 import shutil
 import subprocess
+import sys
 import tempfile
 from textwrap import dedent
 from typing import Optional
@@ -285,8 +286,8 @@ def main(
     copy_changelog(distribution, tmpdir)
     current_dir = os.getcwd()
     os.chdir(tmpdir)
-    subprocess.run(["python3", "setup.py", "bdist_wheel"])
-    subprocess.run(["python3", "setup.py", "sdist"])
+    subprocess.run([sys.executable, "setup.py", "bdist_wheel"])
+    subprocess.run([sys.executable, "setup.py", "sdist"])
     os.chdir(current_dir)
     return f"{tmpdir}/dist"
 

@@ -81,9 +81,9 @@ def test_collect_setup_entries() -> None:
                 "__init__.pyi",
                 "a.pyi",
                 "b.pyi",
-                "c/__init__.pyi",
-                "c/d.pyi",
-                "c/e.pyi",
+                os.path.join("c", "__init__.pyi"),
+                os.path.join("c", "d.pyi"),
+                os.path.join("c", "e.pyi"),
                 "METADATA.toml",
             ]
         }
@@ -93,7 +93,7 @@ def test_collect_setup_entries() -> None:
     assert entries == (
         {
             "nspkg-stubs": [
-                "innerpkg/__init__.pyi",
+                os.path.join("innerpkg", "__init__.pyi"),
                 "METADATA.toml",
             ]
         }
