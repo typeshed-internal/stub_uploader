@@ -1,3 +1,7 @@
+## 5.0.0.0 (2023-01-04)
+
+Bump mock to 5.0.* (#9423)
+
 ## 4.0.15.2 (2022-10-20)
 
 Remove `mock` from `pyright`'s exclude (#8942)
