@@ -132,6 +132,14 @@ def test_recursive_verify_single() -> None:
     assert recursive_verify(m, TYPESHED) == {"types-tzlocal", "types-pytz"}
 
 
+def test_dependency_order_single() -> None:
+    assert list(sort_by_dependency(TYPESHED, ["tzlocal"])) == ["tzlocal"]
+    assert list(sort_by_dependency(TYPESHED, ["tzlocal", "pytz"])) == [
+        "pytz",
+        "tzlocal",
+    ]
+
+
 @pytest.mark.parametrize(
     "distribution", os.listdir(os.path.join(TYPESHED, THIRD_PARTY_NAMESPACE))
 )
