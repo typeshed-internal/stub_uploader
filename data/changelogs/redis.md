@@ -1,3 +1,9 @@
+## 4.4.0.0 (2023-01-05)
+
+Bump redis to 4.4.0 (#9458)
+
+Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
+
 ## 4.3.21.7 (2022-12-28)
 
 Check for unused `pyright: ignore` and differentiate from mypy ignores (#9397)
