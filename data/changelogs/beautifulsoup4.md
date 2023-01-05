@@ -1,3 +1,9 @@
+## 4.11.6.2 (2023-01-05)
+
+Add `types-html5lib` as a dependency of `types-beautifulsoup4` (#9462)
+
+Remove the need for subclassing `Any`
+
 ## 4.11.6.1 (2022-11-09)
 
 Annotate known magic-method return types (#9131)

@@ -1,3 +1,7 @@
+## 2.11.0.8 (2023-01-05)
+
+Add type annotations for `babel.messages` subpackage (#9455)
+
 ## 2.11.0.7 (2022-11-25)
 
 Add  methods for Catalog and Message from babel package (#9278)

@@ -1,3 +1,9 @@
+## 1.0.2.4 (2023-01-05)
+
+Improve various `jmespath` types
+
+Merge `jmespath` from microsoft/python-type-stubs
+
 ## 1.0.2.3 (2022-12-21)
 
 Fix return type of `search` in jmespath stubs (#9394)
