@@ -1,3 +1,9 @@
+## 9.4.0.0 (2023-01-05)
+
+Bump Pillow to 9.4 (#9453)
+
+Closes #9448
+
 ## 9.3.0.4 (2022-12-05)
 
 PIL: fix image convert palette type (#9331)
