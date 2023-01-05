@@ -1,3 +1,9 @@
+## 1.4.53.21 (2023-01-05)
+
+Update SQLAlchemy stubs to 1.4.46 (#9464)
+
+Replace `Any` with `Incomplete` where applicable
+
 ## 1.4.53.20 (2022-12-28)
 
 Check for unused `pyright: ignore` and differentiate from mypy ignores (#9397)
