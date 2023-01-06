@@ -122,6 +122,7 @@ types-psutil
 types-psycopg2
 types-pyOpenSSL
 types-pyRFC3339
+types-pyasn1
 types-pyaudio
 types-pycocotools
 types-pycurl
