@@ -3,8 +3,8 @@ Basic script to generate a wheel for a third-party distribution in typeshed.
 
 This generates a PEP 561 types stub package using METADATA.toml file for a given
 distribution in typeshed stubs. Such package
-can be used by type-checking tools
-like [mypy](https://github.com/python/mypy/),
+can be used by type-checking tools like
+[mypy](https://github.com/python/mypy/),
 [pyright](https://github.com/microsoft/pyright),
 [pytype](https://github.com/google/pytype/),
 PyCharm, etc. to check code that uses
