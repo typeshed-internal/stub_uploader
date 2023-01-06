@@ -3,7 +3,10 @@ Basic script to generate a wheel for a third-party distribution in typeshed.
 
 This generates a PEP 561 types stub package using METADATA.toml file for a given
 distribution in typeshed stubs. Such package can be used by type-checking tools
-like mypy, PyCharm, pytype etc. to check code that uses the corresponding runtime
+like [mypy](https://github.com/python/mypy/),
+[pyright](https://github.com/microsoft/pyright),
+[pytype](https://github.com/google/pytype/),
+PyCharm, etc. to check code that uses the corresponding runtime
 Python package.
 
 The generated wheel includes all type stubs (*.pyi files) and the METADATA.toml
@@ -87,7 +90,11 @@ DESCRIPTION_INTRO_TEMPLATE = """
 ## Typing stubs for {distribution}
 
 This is a PEP 561 type stub package for the `{distribution}` package.
-It can be used by type-checking tools like mypy, PyCharm, pytype etc. to check code
+It can be used by type-checking tools like
+[mypy](https://github.com/python/mypy/),
+[pyright](https://github.com/microsoft/pyright),
+[pytype](https://github.com/google/pytype/),
+PyCharm, etc. to check code
 that uses `{distribution}`. The source for this package can be found at
 https://github.com/python/typeshed/tree/main/stubs/{distribution}. All fixes for
 types and metadata should be contributed there.
