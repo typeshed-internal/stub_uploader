@@ -1,3 +1,23 @@
+## 5.7.0.0 (2023-01-07)
+
+[stubsabot] Bump ujson to 5.7.* (#9473)
+
+Release: https://pypi.org/pypi/ujson/5.7.0
+Homepage: https://github.com/ultrajson/ultrajson
+Diff: https://github.com/ultrajson/ultrajson/compare/5.6.0...5.7.0
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 38.
+ - Total lines of Python code deleted: 0.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 5.6.0.0 (2022-12-02)
 
 [stubsabot] Bump ujson to 5.6.* (#9319)
