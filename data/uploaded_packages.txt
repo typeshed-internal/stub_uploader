@@ -98,6 +98,7 @@ types-maxminddb
 types-mock
 types-mypy-extensions
 types-mysqlclient
+types-netaddr
 types-nmap
 types-oauthlib
 types-openpyxl
