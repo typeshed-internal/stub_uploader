@@ -1,3 +1,7 @@
+## 1.8.0.0 (2023-01-11)
+
+Bump toposort to 1.8 (#9489)
+
 ## 1.7.4 (2022-06-25)
 
 ujson, pyfarmhash, toposort: check for missing definitions (#8153)

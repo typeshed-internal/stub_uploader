@@ -136,6 +136,7 @@ types-pyserial
 types-pysftp
 types-pytest-lazy-fixture
 types-python-crontab
+types-python-datemath
 types-python-dateutil
 types-python-gflags
 types-python-jose
