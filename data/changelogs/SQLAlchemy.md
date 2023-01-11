@@ -1,3 +1,7 @@
+## 1.4.53.23 (2023-01-11)
+
+SQLAlchemy: Annotate text() (#9498)
+
 ## 1.4.53.22 (2023-01-11)
 
 `SQLAlchemy`: Remove some implementation details (#9492)
