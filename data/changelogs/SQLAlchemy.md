@@ -1,3 +1,9 @@
+## 1.4.53.22 (2023-01-11)
+
+`SQLAlchemy`: Remove some implementation details (#9492)
+
+Stubs for the mypy plugin, which aren't useful if you're using typeshed's SQLAlchemy stubs, have been removed.
+
 ## 1.4.53.21 (2023-01-05)
 
 Update SQLAlchemy stubs to 1.4.46 (#9464)

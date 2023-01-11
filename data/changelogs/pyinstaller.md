@@ -1,3 +1,7 @@
+## 5.7.0.1 (2023-01-11)
+
+types-pyinstaller: no longer subclass "Any" (#9495)
+
 ## 5.7.0.0 (2022-12-08)
 
 Bump pyinstaller to 5.7.* (#9343)
