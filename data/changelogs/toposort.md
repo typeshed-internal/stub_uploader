@@ -1,3 +1,9 @@
+## 1.9.0.0 (2023-01-12)
+
+[stubsabot] Bump toposort to 1.9 (#9503)
+
+Release: https://pypi.org/pypi/toposort/1.9
+
 ## 1.8.0.0 (2023-01-11)
 
 Bump toposort to 1.8 (#9489)

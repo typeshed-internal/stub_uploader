@@ -1,3 +1,12 @@
+## 65.7.0.0 (2023-01-12)
+
+[stubsabot] Bump setuptools to 65.7.* (#9504)
+
+Release: https://pypi.org/pypi/setuptools/65.7.0
+Homepage: https://github.com/pypa/setuptools
+Changelog: https://setuptools.pypa.io/en/stable/history.html
+Diff: https://github.com/pypa/setuptools/compare/v65.6.3...v65.7.0
+
 ## 65.6.0.3 (2023-01-05)
 
 Add `types-docutils` as a dependency of `types-setuptools` (#9460)
