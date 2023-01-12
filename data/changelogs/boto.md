@@ -1,3 +1,7 @@
+## 2.49.18.4 (2023-01-12)
+
+subprocess: Improve bytes-related types (#9100)
+
 ## 2.49.18.3 (2022-11-23)
 
 Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
