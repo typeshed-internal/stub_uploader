@@ -1,3 +1,7 @@
+## 1.5.0.1 (2023-01-13)
+
+Allowlist-only fixes for stubtest on Windows (#9522)
+
 ## 1.5.0 (2022-09-16)
 
 [stubsabot] Bump tree-sitter-languages to 1.5.* (#8750)

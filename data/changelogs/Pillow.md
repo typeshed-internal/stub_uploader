@@ -1,3 +1,7 @@
+## 9.4.0.1 (2023-01-13)
+
+Allowlist-only fixes for stubtest on Windows (#9522)
+
 ## 9.4.0.0 (2023-01-05)
 
 Bump Pillow to 9.4 (#9453)
