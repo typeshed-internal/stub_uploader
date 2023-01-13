@@ -1,3 +1,7 @@
+## 65.7.0.1 (2023-01-13)
+
+Fix setuptools stubtest on windows (#9521)
+
 ## 65.7.0.0 (2023-01-12)
 
 [stubsabot] Bump setuptools to 65.7.* (#9504)
