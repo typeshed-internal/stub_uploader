@@ -1,3 +1,7 @@
+## 5.7.0.2 (2023-01-14)
+
+Update various comments now non-types dependencies are allowed (#9527)
+
 ## 5.7.0.1 (2023-01-11)
 
 types-pyinstaller: no longer subclass "Any" (#9495)

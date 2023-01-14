@@ -1,3 +1,7 @@
+## 9.4.0.2 (2023-01-14)
+
+Update various comments now non-types dependencies are allowed (#9527)
+
 ## 9.4.0.1 (2023-01-13)
 
 Allowlist-only fixes for stubtest on Windows (#9522)

@@ -1,3 +1,7 @@
+## 1.4.53.24 (2023-01-14)
+
+Fix stubtest for sqlalchemy.testing.plugin.pytestplugin (#9533)
+
 ## 1.4.53.23 (2023-01-11)
 
 SQLAlchemy: Annotate text() (#9498)
