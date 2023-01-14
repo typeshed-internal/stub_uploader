@@ -1,3 +1,7 @@
+## 2.9.13.5 (2023-01-14)
+
+Resolve stubtest allowlist entries for `ldap3` (#9532)
+
 ## 2.9.13.4 (2023-01-12)
 
 Overhaul `ldap3` stubs (#9470)
