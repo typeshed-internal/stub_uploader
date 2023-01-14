@@ -1,3 +1,11 @@
+## 2.6.0.5 (2023-01-14)
+
+Pin `fpdf2` stubs to 2.6.0 (#9535)
+
+They will need some updates to become compatible with `fpdf2` 2.6.1.
+
+Closes #9524
+
 ## 2.6.0.4 (2022-12-25)
 
 fpdf:annotation of dash_pattern, line_width, text_mode (#9387)
