@@ -179,7 +179,9 @@ def verify_external_req(
     upstream_distribution: Optional[str],
     _unsafe_ignore_allowlist: bool = False,  # used for tests
 ) -> None:
-    if canonical_name(req.name) in uploaded_packages.read():
+    req_canonical_name = canonical_name(req.name)
+
+    if req_canonical_name in uploaded_packages.read():
         raise InvalidRequires(
             f"Expected dependency {req} to not be uploaded from stub_uploader"
         )
@@ -208,7 +210,7 @@ def verify_external_req(
     # TODO: PyPI doesn't seem to have version specific requires_dist. This does mean we can be
     # broken by new releases of upstream packages, even if they do not match the version spec we
     # have for the upstream distribution.
-    if canonical_name(req.name) not in [
+    if req_canonical_name not in [
         canonical_name(Requirement(r).name)
         for r in data["info"].get("requires_dist", [])
     ]:
