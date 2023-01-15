@@ -173,7 +173,7 @@ EXTERNAL_REQ_ALLOWLIST = {
 }
 
 
-def validate_response(resp: requests.Response, req: Requirement):
+def validate_response(resp: requests.Response, req: Requirement) -> None:
     if resp.status_code != 200:
         raise InvalidRequires(
             f"Expected dependency {req} to be accessible on PyPI, but got {resp.status_code}"
