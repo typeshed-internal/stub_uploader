@@ -4,7 +4,10 @@ import functools
 import graphlib
 import os
 import re
-from collections.abc import Iterator, Iterable
+import tarfile
+from collections.abc import Iterable, Iterator
+from glob import glob
+from pathlib import Path
 from typing import Any, Optional
 
 import requests
@@ -170,12 +173,50 @@ EXTERNAL_REQ_ALLOWLIST = {
 }
 
 
+def validate_response(resp: requests.Response, req: Requirement):
+    if resp.status_code != 200:
+        raise InvalidRequires(
+            f"Expected dependency {req} to be accessible on PyPI, but got {resp.status_code}"
+        )
+
+
+def get_sdist_requires(sdist_data: dict[str, str], req: Requirement) -> list[str]:
+    filename = sdist_data["filename"]
+    resp = requests.get(sdist_data["url"], stream=True)
+    validate_response(resp, req)
+    with open(filename, "wb") as file:
+        file.write(resp.raw.read())
+
+    folder_name = ""
+    with tarfile.open(filename) as file_in:
+        file_in.extractall()
+        for info in file_in:
+            folder_name = info.name
+            # Assume a single folder
+            break
+
+    sdist_requires: list[str] = []
+    requires_filepath = Path(folder_name) / f"*.egg-info" / "requires.txt"
+    matches = glob(str(requires_filepath))
+    for match in matches:
+        with open(match) as requires_file:
+            sdist_requires = [
+                canonical_name(Requirement(line).name)
+                for line in requires_file.readlines()
+            ]
+        # Assume a single *.egg-info folder
+        break
+    return sdist_requires
+
+
 def verify_external_req(
     req: Requirement,
     upstream_distribution: Optional[str],
     _unsafe_ignore_allowlist: bool = False,  # used for tests
 ) -> None:
-    if canonical_name(req.name) in uploaded_packages.read():
+    req_canonical_name = canonical_name(req.name)
+
+    if req_canonical_name in uploaded_packages.read():
         raise InvalidRequires(
             f"Expected dependency {req} to not be uploaded from stub_uploader"
         )
@@ -190,30 +231,27 @@ def verify_external_req(
             f"There is no upstream distribution on PyPI, so cannot verify {req}"
         )
 
-    resp = requests.get(f"https://pypi.org/pypi/{upstream_distribution}/json")
-    if resp.status_code != 200:
+    if req.name not in EXTERNAL_REQ_ALLOWLIST and not _unsafe_ignore_allowlist:
         raise InvalidRequires(
-            f"Expected dependency {req} to be accessible on PyPI, but got {resp.status_code}"
+            f"Expected dependency {req} to be present in the allowlist"
         )
 
+    resp = requests.get(f"https://pypi.org/pypi/{upstream_distribution}/json")
+    validate_response(resp, req)
     data = resp.json()
 
-    # TODO: consider allowing external dependencies for stubs for packages that do not ship wheels.
-    # Note that we can't build packages from sdists, since that can execute arbitrary code.
-    # We could do some hacky setup.py parsing though...
     # TODO: PyPI doesn't seem to have version specific requires_dist. This does mean we can be
     # broken by new releases of upstream packages, even if they do not match the version spec we
     # have for the upstream distribution.
     if req.name not in [
         Requirement(r).name for r in (data["info"].get("requires_dist") or [])
     ]:
-        raise InvalidRequires(
-            f"Expected dependency {req} to be listed in {upstream_distribution}'s requires_dist"
-        )
+        return  # Ok!
 
-    if req.name not in EXTERNAL_REQ_ALLOWLIST and not _unsafe_ignore_allowlist:
+    if req_canonical_name not in get_sdist_requires(data["urls"][-1], req):
         raise InvalidRequires(
-            f"Expected dependency {req} to be present in the allowlist"
+            f"Expected dependency {req} to be listed in {upstream_distribution}'s "
+            + "requires_dist or the sdist's *.egg-info/requires.txt"
         )
 
 
