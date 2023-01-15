@@ -180,7 +180,9 @@ def validate_response(resp: requests.Response, req: Requirement) -> None:
         )
 
 
-def get_sdist_requires(sdist_data: dict[str, str], req: Requirement) -> list[str]:
+def get_sdist_requires_canonical(
+    sdist_data: dict[str, str], req: Requirement
+) -> list[str]:
     filename = sdist_data["filename"]
     resp = requests.get(sdist_data["url"], stream=True)
     validate_response(resp, req)
@@ -203,6 +205,8 @@ def get_sdist_requires(sdist_data: dict[str, str], req: Requirement) -> list[str
             sdist_requires = [
                 canonical_name(Requirement(line).name)
                 for line in requires_file.readlines()
+                # Skip empty lines and extras
+                if line[0] not in {"\n", "["}
             ]
         # Assume a single *.egg-info folder
         break
@@ -248,7 +252,7 @@ def verify_external_req(
     ]:
         return  # Ok!
 
-    if req_canonical_name not in get_sdist_requires(data["urls"][-1], req):
+    if req_canonical_name not in get_sdist_requires_canonical(data["urls"][-1], req):
         raise InvalidRequires(
             f"Expected dependency {req} to be listed in {upstream_distribution}'s "
             + "requires_dist or the sdist's *.egg-info/requires.txt"
