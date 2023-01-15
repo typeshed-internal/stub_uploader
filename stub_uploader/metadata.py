@@ -242,7 +242,7 @@ def verify_external_req(
 
     resp = requests.get(f"https://pypi.org/pypi/{upstream_distribution}/json")
     validate_response(resp, req)
-    data = resp.json()
+    data: dict[str, Any] = resp.json()
 
     # TODO: PyPI doesn't seem to have version specific requires_dist. This does mean we can be
     # broken by new releases of upstream packages, even if they do not match the version spec we
@@ -252,7 +252,18 @@ def verify_external_req(
     ]:
         return  # Ok!
 
-    if req_canonical_name not in get_sdist_requires_canonical(data["urls"][-1], req):
+    sdist_data: dict[str, Any] | None = next(
+        (
+            url_data
+            for url_data in reversed(data["urls"])
+            if url_data["packagetype"] == "sdist"
+        ),
+        None,
+    )
+    if not (
+        sdist_data
+        and req_canonical_name in get_sdist_requires_canonical(sdist_data, req)
+    ):
         raise InvalidRequires(
             f"Expected dependency {req} to be listed in {upstream_distribution}'s "
             + "requires_dist or the sdist's *.egg-info/requires.txt"
