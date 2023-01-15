@@ -1,3 +1,10 @@
+## 2022.7.1.0 (2023-01-15)
+
+[stubsabot] Bump pytz to 2022.7.1 (#9540)
+
+Release: https://pypi.org/pypi/pytz/2022.7.1
+Homepage: http://pythonhosted.org/pytz
+
 ## 2022.7.0.0 (2022-12-19)
 
 [stubsabot] Bump pytz to 2022.7 (#9383)
