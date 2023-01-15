@@ -5,7 +5,7 @@ import graphlib
 import os
 import re
 import tarfile
-from collections.abc import Iterable, Iterator
+from collections.abc import Generator, Iterable
 from glob import glob
 from pathlib import Path
 from typing import Any, Optional
@@ -180,9 +180,9 @@ def validate_response(resp: requests.Response, req: Requirement) -> None:
         )
 
 
-def get_sdist_requires_canonical(
+def get_sdist_requires(
     sdist_data: dict[str, str], req: Requirement
-) -> list[str]:
+) -> Generator[Requirement, None, None]:
     filename = sdist_data["filename"]
     resp = requests.get(sdist_data["url"], stream=True)
     validate_response(resp, req)
@@ -197,20 +197,18 @@ def get_sdist_requires_canonical(
             # Assume a single folder
             break
 
-    sdist_requires: list[str] = []
-    requires_filepath = Path(folder_name) / f"*.egg-info" / "requires.txt"
+    requires_filepath = Path(folder_name, "*.egg-info", "requires.txt")
     matches = glob(str(requires_filepath))
     for match in matches:
+        lines: list[str] = []
         with open(match) as requires_file:
-            sdist_requires = [
-                canonical_name(Requirement(line).name)
-                for line in requires_file.readlines()
-                # Skip empty lines and extras
-                if line[0] not in {"\n", "["}
-            ]
+            lines = requires_file.readlines()
+        for line in lines:
+            # Skip empty lines and extras
+            if line[0] not in {"\n", "["}:
+                yield Requirement(line)
         # Assume a single *.egg-info folder
         break
-    return sdist_requires
 
 
 def verify_external_req(
@@ -262,7 +260,8 @@ def verify_external_req(
     )
     if not (
         sdist_data
-        and req_canonical_name in get_sdist_requires_canonical(sdist_data, req)
+        and req_canonical_name
+        in [canonical_name(r.name) for r in get_sdist_requires(sdist_data, req)]
     ):
         raise InvalidRequires(
             f"Expected dependency {req} to be listed in {upstream_distribution}'s "
@@ -272,7 +271,7 @@ def verify_external_req(
 
 def sort_by_dependency(
     typeshed_dir: str, distributions: Iterable[str]
-) -> Iterator[str]:
+) -> Generator[str, None, None]:
     # Just a simple topological sort. Unlike previous versions of the code, we do not rely
     # on this to perform validation, like requiring the graph to be complete.
     # We only use this to help with edge cases like multiple packages being uploaded
