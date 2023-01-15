@@ -208,8 +208,8 @@ def verify_external_req(
     # TODO: PyPI doesn't seem to have version specific requires_dist. This does mean we can be
     # broken by new releases of upstream packages, even if they do not match the version spec we
     # have for the upstream distribution.
-    if req.name.lower() not in [
-        Requirement(r).name.lower() for r in (data["info"].get("requires_dist") or [])
+    if canonical_name(req.name) not in [
+        canonical_name(Requirement(r).name) for r in (data["info"].get("requires_dist") or [])
     ]:
         raise InvalidRequires(
             f"Expected dependency {req} to be listed in {upstream_distribution}'s requires_dist"
