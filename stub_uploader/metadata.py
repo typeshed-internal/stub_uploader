@@ -210,7 +210,7 @@ def verify_external_req(
     # have for the upstream distribution.
     if canonical_name(req.name) not in [
         canonical_name(Requirement(r).name)
-        for r in data["info"].get("requires_dist", [])
+        for r in (data["info"].get("requires_dist") or [])
     ]:
         raise InvalidRequires(
             f"Expected dependency {req} to be listed in {upstream_distribution}'s requires_dist"
