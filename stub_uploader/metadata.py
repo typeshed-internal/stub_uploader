@@ -209,7 +209,8 @@ def verify_external_req(
     # broken by new releases of upstream packages, even if they do not match the version spec we
     # have for the upstream distribution.
     if canonical_name(req.name) not in [
-        canonical_name(Requirement(r).name) for r in (data["info"].get("requires_dist") or [])
+        canonical_name(Requirement(r).name)
+        for r in (data["info"].get("requires_dist") or [])
     ]:
         raise InvalidRequires(
             f"Expected dependency {req} to be listed in {upstream_distribution}'s requires_dist"
