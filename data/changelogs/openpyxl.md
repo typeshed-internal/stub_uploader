@@ -1,3 +1,7 @@
+## 3.0.4.4 (2023-01-10)
+
+openpyxl: Use "Incomplete" instead of "Any" (#9488)
+
 ## 3.0.4.3 (2022-12-03)
 
 openpyxl stub: add open as an alias for load_workbook (#9324)

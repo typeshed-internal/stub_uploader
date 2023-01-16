@@ -1,3 +1,7 @@
+## 3.0.10.1 (2023-01-13)
+
+`Flask-Cors`: Add `Flask` as a dependency (#9516)
+
 ## 3.0.10 (2022-07-12)
 
 Import `Match` and `Pattern` from `re`, not `typing` (#8277)

@@ -1,3 +1,12 @@
+## 23.1.14.0 (2023-01-15)
+
+[stubsabot] Bump flake8-bugbear to 23.1.14 (#9541)
+
+Release: https://pypi.org/pypi/flake8-bugbear/23.1.14
+Homepage: https://github.com/PyCQA/flake8-bugbear
+Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+Diff: https://github.com/PyCQA/flake8-bugbear/compare/22.12.6...23.1.14
+
 ## 22.12.6.0 (2022-12-07)
 
 [stubsabot] Bump flake8-bugbear to 22.12.6 (#9340)

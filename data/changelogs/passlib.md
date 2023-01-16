@@ -1,3 +1,7 @@
+## 1.7.7.4 (2023-01-13)
+
+Fix passlib stubtest on windows (#9523)
+
 ## 1.7.7.3 (2022-11-29)
 
 Mark `passlib` as completed (#9302)

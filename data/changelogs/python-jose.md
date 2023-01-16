@@ -1,3 +1,7 @@
+## 3.3.4.1 (2023-01-07)
+
+Use `pyasn1` in `python-jose` (#9469)
+
 ## 3.3.4 (2022-07-15)
 
 python-jose: improvements to jose.backends (#8294)

@@ -1,3 +1,7 @@
+## 4.64.7.10 (2023-01-13)
+
+Fix some Any subclassing in tqdm (#9505)
+
 ## 4.64.7.9 (2022-11-23)
 
 tqdm: Add missing tqdm.monitor class variable (#9249)

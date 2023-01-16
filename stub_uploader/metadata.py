@@ -167,8 +167,12 @@ def verify_typeshed_req(req: Requirement) -> None:
 # Note we could loosen our criteria once we address:
 # https://github.com/typeshed-internal/stub_uploader/pull/61#discussion_r979327370
 EXTERNAL_REQ_ALLOWLIST = {
-    "numpy",
+    "Flask",
+    "Werkzeug",
+    "arrow",
+    "click",
     "cryptography",
+    "numpy",
     "torch",
 }
 
@@ -245,8 +249,10 @@ def verify_external_req(
     # TODO: PyPI doesn't seem to have version specific requires_dist. This does mean we can be
     # broken by new releases of upstream packages, even if they do not match the version spec we
     # have for the upstream distribution.
-    if req.name in [
-        Requirement(r).name for r in (data["info"].get("requires_dist") or [])
+
+    if req_canonical_name in [
+        canonical_name(Requirement(r).name)
+        for r in (data["info"].get("requires_dist") or [])
     ]:
         return  # Ok!
 
