@@ -1,3 +1,7 @@
+## 4.4.0.1 (2023-01-17)
+
+Complete and validate `redis.ocsp` (use requests, cryptography and pyopenssl) (#9528)
+
 ## 4.4.0.0 (2023-01-05)
 
 Bump redis to 4.4.0 (#9458)

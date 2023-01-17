@@ -1,3 +1,7 @@
+## 9.4.0.3 (2023-01-17)
+
+`types-Pillow`: Allow stubtest to validate `PIL.FpxImagePlugin` and `PIL.MicImagePlugin` (#9531)
+
 ## 9.4.0.2 (2023-01-14)
 
 Update various comments now non-types dependencies are allowed (#9527)
