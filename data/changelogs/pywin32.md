@@ -1,3 +1,7 @@
+## 305.0.0.7 (2023-01-17)
+
+Reenable flake8-pyi's Y011 and Y015 (#9551)
+
 ## 305.0.0.6 (2023-01-13)
 
 Allowlist-only fixes for stubtest on Windows (#9522)
