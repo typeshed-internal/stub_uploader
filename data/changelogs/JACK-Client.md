@@ -1,3 +1,9 @@
+## 0.5.10.4 (2023-01-18)
+
+Complete jack-client stub (#9530)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 0.5.10.3 (2022-11-24)
 
 Add support for Homebrew and Chocolatey (#9187)
