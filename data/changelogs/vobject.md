@@ -1,3 +1,7 @@
+## 0.9.8.7 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9565)
+
 ## 0.9.8.6 (2023-01-18)
 
 Replace `Any` with `Incomplete` in many places (#9558)

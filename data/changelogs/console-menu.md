@@ -1,3 +1,7 @@
+## 0.7.0.2 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9565)
+
 ## 0.7.0.1 (2022-10-20)
 
 Remove `consolemenu` from `pyright`'s exclude (#8940)
