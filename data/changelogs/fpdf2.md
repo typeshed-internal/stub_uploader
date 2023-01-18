@@ -1,3 +1,9 @@
+## 2.6.1.2 (2023-01-18)
+
+[fpdf2] Restore string default values (#9562)
+
+Cf. #9546
+
 ## 2.6.1.1 (2023-01-18)
 
 Replace `Any` with `Incomplete` in many places (#9558)
