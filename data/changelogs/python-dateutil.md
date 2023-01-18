@@ -1,3 +1,7 @@
+## 2.8.19.6 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9558)
+
 ## 2.8.19.5 (2022-12-18)
 
 `python-dateutil`: Add `zoneinfo` submodule (#9381)

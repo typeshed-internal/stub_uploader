@@ -1,3 +1,7 @@
+## 4.4.0.2 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9558)
+
 ## 4.4.0.1 (2023-01-17)
 
 Complete and validate `redis.ocsp` (use requests, cryptography and pyopenssl) (#9528)

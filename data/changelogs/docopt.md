@@ -1,3 +1,7 @@
+## 0.6.11.1 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9558)
+
 ## 0.6.11 (2022-06-25)
 
 dj-database-url, docopt, editdistance, first: check missing defs (#8154)

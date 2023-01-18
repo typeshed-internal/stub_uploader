@@ -1,3 +1,7 @@
+## 0.9.8.6 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9558)
+
 ## 0.9.8.5 (2022-11-23)
 
 `__unicode__` always returns `str` (#9248)

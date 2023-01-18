@@ -1,3 +1,7 @@
+## 0.19.1.2 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9558)
+
 ## 0.19.1.1 (2022-10-15)
 
 Use `Incomplete` instead of `Any` in `__getattr__` (#8903)

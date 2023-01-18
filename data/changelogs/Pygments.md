@@ -1,3 +1,7 @@
+## 2.14.0.1 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9558)
+
 ## 2.14.0.0 (2023-01-02)
 
 [stubsabot] Bump Pygments to 2.14.* (#9440)

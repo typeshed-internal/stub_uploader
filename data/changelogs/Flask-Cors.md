@@ -1,3 +1,7 @@
+## 3.0.10.2 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9558)
+
 ## 3.0.10.1 (2023-01-13)
 
 `Flask-Cors`: Add `Flask` as a dependency (#9516)

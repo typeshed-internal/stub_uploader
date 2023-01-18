@@ -1,3 +1,7 @@
+## 2.49.18.5 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9558)
+
 ## 2.49.18.4 (2023-01-12)
 
 subprocess: Improve bytes-related types (#9100)

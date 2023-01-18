@@ -1,3 +1,7 @@
+## 9.4.0.4 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9558)
+
 ## 9.4.0.3 (2023-01-17)
 
 `types-Pillow`: Allow stubtest to validate `PIL.FpxImagePlugin` and `PIL.MicImagePlugin` (#9531)

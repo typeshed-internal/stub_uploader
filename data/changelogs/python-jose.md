@@ -1,3 +1,7 @@
+## 3.3.4.2 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9558)
+
 ## 3.3.4.1 (2023-01-07)
 
 Use `pyasn1` in `python-jose` (#9469)

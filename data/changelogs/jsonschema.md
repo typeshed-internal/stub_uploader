@@ -1,3 +1,7 @@
+## 4.17.0.3 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9558)
+
 ## 4.17.0.2 (2022-12-06)
 
 Update jsonschema protocols.pyi (#9295)

@@ -1,3 +1,7 @@
+## 2.4.10.1 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9558)
+
 ## 2.4.10 (2022-07-04)
 
 Third-party stubs: audit more `Callable[<parameters>, Any]` annotations (#8233)

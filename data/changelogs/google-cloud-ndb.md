@@ -1,3 +1,7 @@
+## 2.1.0.1 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9558)
+
 ## 2.1.0.0 (2022-12-19)
 
 Bump google-cloud-ndb to 2.1.* (#9370)

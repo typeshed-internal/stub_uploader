@@ -1,3 +1,7 @@
+## 1.0.19.2 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9558)
+
 ## 1.0.19.1 (2022-10-16)
 
 Remove empty `__init__` methods from classes with 0 parents (#8907)

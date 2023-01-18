@@ -1,3 +1,7 @@
+## 4.18.0.1 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9558)
+
 ## 4.18.0.0 (2023-01-12)
 
 [stubsabot] Bump braintree to 4.18.* (#9502)

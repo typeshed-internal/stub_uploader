@@ -1,3 +1,7 @@
+## 5.9.5.6 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9558)
+
 ## 5.9.5.5 (2022-11-13)
 
 Run stubtest for psutil on all platforms (#9169)

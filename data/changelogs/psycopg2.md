@@ -1,3 +1,7 @@
+## 2.9.21.3 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9558)
+
 ## 2.9.21.2 (2022-11-09)
 
 Annotate known magic-method return types (#9131)

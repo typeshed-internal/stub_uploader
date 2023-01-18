@@ -1,3 +1,7 @@
+## 3.4.2.2 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9558)
+
 ## 3.4.2.1 (2022-10-06)
 
 markdown: Specify md type (#8857)

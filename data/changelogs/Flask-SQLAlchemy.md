@@ -1,3 +1,7 @@
+## 2.5.9.1 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9558)
+
 ## 2.5.9 (2022-08-22)
 
 `Flask-SQLAlchemy`: `session` should be `scoped_session`, not `Session` (#8589)

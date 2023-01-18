@@ -1,3 +1,7 @@
+## 1.4.53.25 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9558)
+
 ## 1.4.53.24 (2023-01-14)
 
 Fix stubtest for sqlalchemy.testing.plugin.pytestplugin (#9533)

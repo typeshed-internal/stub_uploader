@@ -1,3 +1,7 @@
+## 6.0.12.3 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9558)
+
 ## 6.0.12.2 (2022-11-09)
 
 PyYAML: Permit `width: float` for pure-Python `dump(...)` (#8973)

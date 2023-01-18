@@ -1,3 +1,7 @@
+## 3.2.4.3 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9558)
+
 ## 3.2.4.2 (2022-11-13)
 
 Mark `ttkthemes` as complete (#9186)

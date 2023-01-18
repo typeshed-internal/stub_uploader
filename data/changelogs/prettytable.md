@@ -1,3 +1,7 @@
+## 3.4.2.4 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9558)
+
 ## 3.4.2.3 (2022-12-28)
 
 Check for unused `pyright: ignore` and differentiate from mypy ignores (#9397)

@@ -1,3 +1,7 @@
+## 2.6.1.1 (2023-01-18)
+
+Replace `Any` with `Incomplete` in many places (#9558)
+
 ## 2.6.1.0 (2023-01-17)
 
 Update fpdf2 stubs to 2.6.1 (#9546)
