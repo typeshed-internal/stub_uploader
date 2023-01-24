@@ -1,3 +1,9 @@
+## 6.0.0.0 (2023-01-24)
+
+Upgrade bleach stubs for 6.0 (#9583)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 5.0.3.1 (2022-10-15)
 
 Use `Incomplete` instead of `Any` in `__getattr__` (#8903)
