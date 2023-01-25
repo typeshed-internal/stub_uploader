@@ -1,3 +1,9 @@
+## 5.7.0.3 (2023-01-25)
+
+Fix some stubtest complaints before they happen (#9585)
+
+Add missing objects to various stubs
+
 ## 5.7.0.2 (2023-01-14)
 
 Update various comments now non-types dependencies are allowed (#9527)

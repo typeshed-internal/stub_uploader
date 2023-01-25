@@ -1,3 +1,9 @@
+## 0.9.8.8 (2023-01-25)
+
+Fix some stubtest complaints before they happen (#9585)
+
+Add missing objects to various stubs
+
 ## 0.9.8.7 (2023-01-18)
 
 Replace `Any` with `Incomplete` in many places (#9565)

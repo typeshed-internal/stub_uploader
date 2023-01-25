@@ -1,3 +1,9 @@
+## 5.1.8.2 (2023-01-25)
+
+Fix some stubtest complaints before they happen (#9585)
+
+Add missing objects to various stubs
+
 ## 5.1.8.1 (2022-10-14)
 
 Mark `decorator` as complete (#8897)

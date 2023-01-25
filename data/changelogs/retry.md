@@ -1,3 +1,9 @@
+## 0.9.9.1 (2023-01-25)
+
+Fix some stubtest complaints before they happen (#9585)
+
+Add missing objects to various stubs
+
 ## 0.9.9 (2022-07-20)
 
 Allowlist useless modules (#8340)
