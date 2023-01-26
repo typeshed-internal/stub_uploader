@@ -1,3 +1,7 @@
+## 0.33.0.3 (2023-01-26)
+
+python-xlib: remove workaround for pytype (#9590)
+
 ## 0.33.0.2 (2023-01-16)
 
 `Xlib`: Import `Pattern` from `re`, not `typing` (#9544)
