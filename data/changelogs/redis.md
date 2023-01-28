@@ -1,3 +1,7 @@
+## 4.4.0.4 (2023-01-28)
+
+Add some missing Self return annotations in redis (#9601)
+
 ## 4.4.0.3 (2023-01-18)
 
 Replace `Any` with `Incomplete` in many places (#9565)

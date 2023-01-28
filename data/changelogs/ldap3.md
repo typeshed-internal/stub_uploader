@@ -1,3 +1,7 @@
+## 2.9.13.7 (2023-01-28)
+
+Bump flake8-pyi to 23.1.1 (#9599)
+
 ## 2.9.13.6 (2023-01-18)
 
 Replace `Any` with `Incomplete` in many places (#9558)
