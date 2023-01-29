@@ -1,3 +1,18 @@
+## 8.0.0.0 (2023-01-29)
+
+[stubsabot] Bump python-slugify to 8.0.* (#9602)
+
+Release: https://pypi.org/pypi/python-slugify/8.0.0
+Homepage: https://github.com/un33k/python-slugify
+Diff: https://github.com/un33k/python-slugify/compare/v7.0.0...v8.0.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 2 files included in typeshed's stubs have been modified or renamed: `slugify/__version__.py`, `slugify/slugify.py`.
+ - Total lines of Python code added: 3.
+ - Total lines of Python code deleted: 3.
+
 ## 7.0.0.1 (2022-11-19)
 
 python-slugify: use explicit re-exports (#9225)
