@@ -1,3 +1,10 @@
+## 1.4.53.27 (2023-01-29)
+
+[stubsabot] Mark SQLAlchemy as obsolete since 2.0.0 (#9595)
+
+Release: https://pypi.org/pypi/SQLAlchemy/2.0.0
+Homepage: https://www.sqlalchemy.org
+
 ## 1.4.53.26 (2023-01-18)
 
 Replace `Any` with `Incomplete` in many places (#9565)
