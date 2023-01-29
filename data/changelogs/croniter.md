@@ -1,3 +1,7 @@
+## 1.3.2.3 (2023-01-29)
+
+croniter: complete stubs (#9584)
+
 ## 1.3.2.2 (2023-01-18)
 
 Improve pre-commit config (#9563)
