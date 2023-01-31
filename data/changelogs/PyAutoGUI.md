@@ -1,3 +1,9 @@
+## 0.9.3.3 (2023-01-31)
+
+`PyAutoGui`: Add more reexports from pyscreeze (#9634)
+
+Add remaining methods from pyscreeze
+
 ## 0.9.3.2 (2022-11-29)
 
 Mark `PyAutoGUI` as complete (#9300)
