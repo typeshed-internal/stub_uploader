@@ -1,3 +1,7 @@
+## 0.9.3.4 (2023-02-01)
+
+Add defaults for params and constants in PyAutoGUI (#9639)
+
 ## 0.9.3.3 (2023-01-31)
 
 `PyAutoGui`: Add more reexports from pyscreeze (#9634)

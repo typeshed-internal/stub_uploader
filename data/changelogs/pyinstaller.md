@@ -1,3 +1,7 @@
+## 5.7.0.4 (2023-02-01)
+
+Add defaults for params and constants in pyinstaller (#9640)
+
 ## 5.7.0.3 (2023-01-25)
 
 Fix some stubtest complaints before they happen (#9585)
