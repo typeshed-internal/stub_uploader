@@ -180,4 +180,5 @@ types-waitress
 types-whatthepatch
 types-xmltodict
 types-xxhash
+types-zstd
 types-zxcvbn

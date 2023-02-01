@@ -1,3 +1,10 @@
+## 2.11.0.3 (2023-02-01)
+
+Tensorflow: Add more stubs (#9560)
+
+Co-authored-by: Mehdi Drissi <mdrissi@snapchat.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 2.11.0.2 (2023-01-18)
 
 Improve pre-commit config (#9563)
