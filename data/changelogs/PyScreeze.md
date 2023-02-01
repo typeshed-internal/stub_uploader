@@ -1,3 +1,7 @@
+## 0.1.0.4 (2023-02-01)
+
+Bump black to 23.1.0 (#9647)
+
 ## 0.1.0.3 (2023-02-01)
 
 Add defaults for params and constants in pyscreeze (#9641)

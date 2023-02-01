@@ -1,3 +1,7 @@
+## 0.4.15.5 (2023-02-01)
+
+Bump black to 23.1.0 (#9647)
+
 ## 0.4.15.4 (2022-11-21)
 
 colorama: re-export just_fix_windows_console at top level (#9234)

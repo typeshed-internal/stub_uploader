@@ -1,3 +1,7 @@
+## 9.4.0.6 (2023-02-01)
+
+Bump black to 23.1.0 (#9647)
+
 ## 9.4.0.5 (2023-01-18)
 
 Replace `Any` with `Incomplete` in many places (#9565)

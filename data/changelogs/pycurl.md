@@ -1,3 +1,7 @@
+## 7.45.2.1 (2023-02-01)
+
+Bump black to 23.1.0 (#9647)
+
 ## 7.45.2.0 (2022-12-17)
 
 pycurl: Add missing constants  (#9373)
