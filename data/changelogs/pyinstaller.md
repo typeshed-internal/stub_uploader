@@ -1,3 +1,11 @@
+## 5.7.0.5 (2023-02-02)
+
+Manual changes of `Any` union to `Incomplete` in stubs folder (#9566)
+
+- ClassVar[Any | None]
+- Missed previous changes due to alias
+- Manual review of leftover Any unions (`| Any` and `Any |`)
+
 ## 5.7.0.4 (2023-02-01)
 
 Add defaults for params and constants in pyinstaller (#9640)

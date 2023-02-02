@@ -1,3 +1,11 @@
+## 1.7.7.7 (2023-02-02)
+
+Manual changes of `Any` union to `Incomplete` in stubs folder (#9566)
+
+- ClassVar[Any | None]
+- Missed previous changes due to alias
+- Manual review of leftover Any unions (`| Any` and `Any |`)
+
 ## 1.7.7.6 (2023-01-18)
 
 Replace `Any` with `Incomplete` in many places (#9565)

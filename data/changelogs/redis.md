@@ -1,3 +1,11 @@
+## 4.4.0.5 (2023-02-02)
+
+Manual changes of `Any` union to `Incomplete` in stubs folder (#9566)
+
+- ClassVar[Any | None]
+- Missed previous changes due to alias
+- Manual review of leftover Any unions (`| Any` and `Any |`)
+
 ## 4.4.0.4 (2023-01-28)
 
 Add some missing Self return annotations in redis (#9601)

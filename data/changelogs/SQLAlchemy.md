@@ -1,3 +1,11 @@
+## 1.4.53.28 (2023-02-02)
+
+Manual changes of `Any` union to `Incomplete` in stubs folder (#9566)
+
+- ClassVar[Any | None]
+- Missed previous changes due to alias
+- Manual review of leftover Any unions (`| Any` and `Any |`)
+
 ## 1.4.53.27 (2023-01-29)
 
 [stubsabot] Mark SQLAlchemy as obsolete since 2.0.0 (#9595)
