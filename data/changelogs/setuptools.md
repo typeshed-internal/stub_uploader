@@ -1,3 +1,9 @@
+## 65.7.0.4 (2023-02-02)
+
+setuptools: add pkg_resources.Requirement.url (#9657)
+
+Co-authored-by: Shantanu <12621235+hauntsaninja@users.noreply.github.com>
+
 ## 65.7.0.3 (2023-01-18)
 
 Replace `Any` with `Incomplete` in many places (#9565)
