@@ -1,3 +1,7 @@
+## 1.0.0.0 (2023-02-03)
+
+Update `caldav` stubs to 1.0.* (#9668)
+
 ## 0.11.0.2 (2023-01-18)
 
 Replace `Any` with `Incomplete` in many places (#9565)

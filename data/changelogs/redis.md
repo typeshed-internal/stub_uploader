@@ -1,3 +1,11 @@
+## 4.4.0.6 (2023-02-03)
+
+[redis] Initial stubs for `redis.asyncio.cluster` (#9468)
+
+Co-authored-by: Nikita Sobolev <mail@sobolevn.me>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
+
 ## 4.4.0.5 (2023-02-02)
 
 Manual changes of `Any` union to `Incomplete` in stubs folder (#9566)
