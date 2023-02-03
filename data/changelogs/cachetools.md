@@ -1,3 +1,7 @@
+## 5.3.0.0 (2023-02-03)
+
+Update `cachetools` stubs to 5.3.* (#9666)
+
 ## 5.2.1 (2022-06-26)
 
 Check missing definitions for several packages (#8167)

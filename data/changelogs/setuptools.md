@@ -1,3 +1,9 @@
+## 67.1.0.0 (2023-02-03)
+
+Update setuptools to 67.1 (#9664)
+
+Replace some instances of `Any` with `Incomplete` or proper types.
+
 ## 65.7.0.4 (2023-02-02)
 
 setuptools: add pkg_resources.Requirement.url (#9657)

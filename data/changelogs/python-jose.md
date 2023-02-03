@@ -1,3 +1,7 @@
+## 3.3.4.3 (2023-02-03)
+
+Fix python-jose unverified jws and jwt functions (#9662)
+
 ## 3.3.4.2 (2023-01-18)
 
 Replace `Any` with `Incomplete` in many places (#9558)
