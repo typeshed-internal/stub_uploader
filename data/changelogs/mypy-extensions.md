@@ -1,3 +1,7 @@
+## 1.0.0.0 (2023-02-04)
+
+Update `mypy_extensions` stubs to 1.0.x (#9675)
+
 ## 0.4.24 (2022-08-17)
 
 Normalise use of `Never` vs `NoReturn` (#8549)
