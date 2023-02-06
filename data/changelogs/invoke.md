@@ -1,3 +1,7 @@
+## 2.0.0.0 (2023-02-06)
+
+Update `invoke` stubs to 2.0.* (#9669)
+
 ## 1.7.3.17 (2022-12-28)
 
 Check for unused `pyright: ignore` and differentiate from mypy ignores (#9397)

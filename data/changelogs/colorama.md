@@ -1,3 +1,7 @@
+## 0.4.15.6 (2023-02-06)
+
+colorama: Preserve input type for `wrap_stream` (#9677)
+
 ## 0.4.15.5 (2023-02-01)
 
 Bump black to 23.1.0 (#9647)

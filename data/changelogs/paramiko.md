@@ -1,3 +1,7 @@
+## 3.0.0.0 (2023-02-06)
+
+Update `paramiko` stubs to 3.0.* (#9667)
+
 ## 2.12.0.3 (2023-01-18)
 
 Replace `Any` with `Incomplete` in many places (#9558)
