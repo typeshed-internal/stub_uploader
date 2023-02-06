@@ -1,3 +1,7 @@
+## 3.0.0.1 (2023-02-06)
+
+Use `OSError` instead of `IOError` (#9683)
+
 ## 3.0.0.0 (2023-02-06)
 
 Update `paramiko` stubs to 3.0.* (#9667)

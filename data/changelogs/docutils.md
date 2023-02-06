@@ -1,3 +1,7 @@
+## 0.19.1.3 (2023-02-06)
+
+Use `OSError` instead of `IOError` (#9683)
+
 ## 0.19.1.2 (2023-01-18)
 
 Replace `Any` with `Incomplete` in many places (#9558)

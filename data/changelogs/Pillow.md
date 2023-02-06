@@ -1,3 +1,7 @@
+## 9.4.0.7 (2023-02-06)
+
+Use `OSError` instead of `IOError` (#9683)
+
 ## 9.4.0.6 (2023-02-01)
 
 Bump black to 23.1.0 (#9647)
