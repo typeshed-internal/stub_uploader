@@ -1,3 +1,9 @@
+## 2.0.0.1 (2023-02-07)
+
+Improve pyright verification of third-party test cases in CI (#9650)
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 2.0.0.0 (2023-02-06)
 
 Update `invoke` stubs to 2.0.* (#9669)

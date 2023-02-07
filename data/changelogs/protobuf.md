@@ -1,3 +1,9 @@
+## 4.21.0.5 (2023-02-07)
+
+Improve pyright verification of third-party test cases in CI (#9650)
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 4.21.0.4 (2023-02-02)
 
 Manual changes of `Any` union to `Incomplete` in stubs folder (#9566)

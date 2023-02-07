@@ -1,3 +1,9 @@
+## 2.28.11.12 (2023-02-07)
+
+Improve pyright verification of third-party test cases in CI (#9650)
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 2.28.11.11 (2023-02-07)
 
 Enable flake8-pyi's Y037 (#9686)

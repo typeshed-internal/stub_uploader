@@ -1,3 +1,9 @@
+## 2022.10.31.4 (2023-02-07)
+
+Improve pyright verification of third-party test cases in CI (#9650)
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 2022.10.31.3 (2022-11-24)
 
 Add test case for recent `types-regex` regression (#9269)
