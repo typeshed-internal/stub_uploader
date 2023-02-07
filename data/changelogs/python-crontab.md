@@ -1,3 +1,10 @@
+## 2.7.0.3 (2023-02-07)
+
+Complete `python-crontab` (#9306)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 2.7.0.2 (2023-02-07)
 
 Bump mypy to 1.0 (#9684)
