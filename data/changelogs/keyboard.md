@@ -1,3 +1,7 @@
+## 0.13.2.4 (2023-02-07)
+
+Enable flake8-pyi's Y037 (#9686)
+
 ## 0.13.2.3 (2023-01-13)
 
 Allowlist-only fixes for stubtest on Windows (#9522)

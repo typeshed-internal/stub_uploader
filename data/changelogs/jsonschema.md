@@ -1,3 +1,7 @@
+## 4.17.0.4 (2023-02-07)
+
+Enable flake8-pyi's Y037 (#9686)
+
 ## 4.17.0.3 (2023-01-18)
 
 Replace `Any` with `Incomplete` in many places (#9558)

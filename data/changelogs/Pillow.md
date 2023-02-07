@@ -1,3 +1,7 @@
+## 9.4.0.8 (2023-02-07)
+
+Enable flake8-pyi's Y037 (#9686)
+
 ## 9.4.0.7 (2023-02-06)
 
 Use `OSError` instead of `IOError` (#9683)
