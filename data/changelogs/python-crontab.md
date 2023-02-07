@@ -1,3 +1,7 @@
+## 2.7.0.2 (2023-02-07)
+
+Bump mypy to 1.0 (#9684)
+
 ## 2.7.0.1 (2022-12-24)
 
 crontab: upstream did some py2 cleanup (#9406)

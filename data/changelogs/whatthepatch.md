@@ -1,3 +1,7 @@
+## 1.0.2.2 (2023-02-07)
+
+Bump mypy to 1.0 (#9684)
+
 ## 1.0.2.1 (2023-01-30)
 
 whatthepatch: add parse_git_binary_diff (#9616)

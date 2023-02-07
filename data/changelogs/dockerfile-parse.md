@@ -1,3 +1,7 @@
+## 2.0.0.2 (2023-02-07)
+
+Bump mypy to 1.0 (#9684)
+
 ## 2.0.0.1 (2023-01-25)
 
 Fix some stubtest complaints before they happen (#9585)

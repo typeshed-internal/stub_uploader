@@ -1,3 +1,7 @@
+## 4.64.7.12 (2023-02-07)
+
+Complete stubtest and fix `Any` subclassing in `tqdm` (#9525)
+
 ## 4.64.7.11 (2023-01-18)
 
 Improve pre-commit config (#9563)

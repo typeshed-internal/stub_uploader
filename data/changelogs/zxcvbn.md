@@ -1,3 +1,7 @@
+## 4.4.1.3 (2023-02-07)
+
+Bump mypy to 1.0 (#9684)
+
 ## 4.4.1.2 (2022-12-07)
 
 3rd-party stubtest: run on Python 3.10 (#9342)

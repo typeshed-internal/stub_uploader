@@ -1,3 +1,7 @@
+## 0.14.2.1 (2023-02-07)
+
+Bump mypy to 1.0 (#9684)
+
 ## 0.14.2 (2022-04-16)
 
 Third-party stubs: import from `collections.abc` where possible (#7637)

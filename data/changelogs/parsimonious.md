@@ -1,3 +1,7 @@
+## 0.10.0.3 (2023-02-07)
+
+Bump mypy to 1.0 (#9684)
+
 ## 0.10.0.2 (2023-02-02)
 
 Manual changes of `Any` union to `Incomplete` in stubs folder (#9566)

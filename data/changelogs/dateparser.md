@@ -1,3 +1,7 @@
+## 1.1.4.6 (2023-02-07)
+
+Bump mypy to 1.0 (#9684)
+
 ## 1.1.4.5 (2023-01-18)
 
 Replace `Any` with `Incomplete` in many places (#9558)

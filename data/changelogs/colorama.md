@@ -1,3 +1,7 @@
+## 0.4.15.7 (2023-02-07)
+
+Bump mypy to 1.0 (#9684)
+
 ## 0.4.15.6 (2023-02-06)
 
 colorama: Preserve input type for `wrap_stream` (#9677)

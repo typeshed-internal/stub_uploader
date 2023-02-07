@@ -1,3 +1,7 @@
+## 2.6.1.3 (2023-02-07)
+
+Bump mypy to 1.0 (#9684)
+
 ## 2.6.1.2 (2023-01-18)
 
 [fpdf2] Restore string default values (#9562)

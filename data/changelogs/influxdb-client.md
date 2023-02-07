@@ -1,3 +1,7 @@
+## 1.36.0.1 (2023-02-07)
+
+Bump mypy to 1.0 (#9684)
+
 ## 1.36.0.0 (2023-01-27)
 
 [stubsabot] Bump influxdb-client to 1.36.* (#9594)

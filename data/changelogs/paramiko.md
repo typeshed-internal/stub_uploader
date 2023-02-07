@@ -1,3 +1,7 @@
+## 3.0.0.2 (2023-02-07)
+
+Bump mypy to 1.0 (#9684)
+
 ## 3.0.0.1 (2023-02-06)
 
 Use `OSError` instead of `IOError` (#9683)

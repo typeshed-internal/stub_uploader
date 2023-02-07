@@ -1,3 +1,7 @@
+## 0.33.0.4 (2023-02-07)
+
+Bump mypy to 1.0 (#9684)
+
 ## 0.33.0.3 (2023-01-26)
 
 python-xlib: remove workaround for pytype (#9590)

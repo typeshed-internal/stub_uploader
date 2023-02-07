@@ -1,3 +1,7 @@
+## 1.7.7.8 (2023-02-07)
+
+Bump mypy to 1.0 (#9684)
+
 ## 1.7.7.7 (2023-02-02)
 
 Manual changes of `Any` union to `Incomplete` in stubs folder (#9566)

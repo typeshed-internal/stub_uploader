@@ -1,3 +1,7 @@
+## 1.3.0.3 (2023-02-07)
+
+Bump mypy to 1.0 (#9684)
+
 ## 1.3.0.2 (2022-12-19)
 
 Annotate more items in pika.channel (#9385)
