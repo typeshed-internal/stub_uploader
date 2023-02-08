@@ -1,3 +1,27 @@
+## 67.2.0.0 (2023-02-08)
+
+[stubsabot] Bump setuptools to 67.2.* (#9691)
+
+Release: https://pypi.org/pypi/setuptools/67.2.0
+Homepage: https://github.com/pypa/setuptools
+Changelog: https://setuptools.pypa.io/en/stable/history.html
+Diff: https://github.com/pypa/setuptools/compare/v67.1.0...v67.2.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 33 files included in typeshed's stubs have been modified or renamed.
+ - Total lines of Python code added: 152.
+ - Total lines of Python code deleted: 111.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 67.1.0.2 (2023-02-07)
 
 Enable flake8-pyi's Y037 (#9686)
