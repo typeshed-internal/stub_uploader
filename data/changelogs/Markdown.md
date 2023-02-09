@@ -1,3 +1,13 @@
+## 3.4.2.3 (2023-02-09)
+
+Add markdown.treeprocessors.UnescapeTreeprocessor (#9671)
+
+This replaced the deprecated
+`markdown.postprocessors.UnescapePostprocessor` in
+https://github.com/Python-Markdown/markdown/pull/1272.
+
+Signed-off-by: Anders Kaseorg <andersk@mit.edu>
+
 ## 3.4.2.2 (2023-01-18)
 
 Replace `Any` with `Incomplete` in many places (#9558)
