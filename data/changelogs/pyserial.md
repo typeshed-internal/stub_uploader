@@ -1,3 +1,7 @@
+## 3.5.0.2 (2023-02-09)
+
+Enable stubtest for `pyserial` (#9692)
+
 ## 3.5.0.1 (2023-02-02)
 
 Fix optional USB attributes in pyserial's `ListPortInfo` (#9654)
