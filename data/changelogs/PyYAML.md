@@ -1,3 +1,7 @@
+## 6.0.12.5 (2023-02-09)
+
+yaml: allow ReadableBuffer in represent_binary (#9701)
+
 ## 6.0.12.4 (2023-02-02)
 
 Manual changes of `Any` union to `Incomplete` in stubs folder (#9566)

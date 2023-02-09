@@ -1,3 +1,7 @@
+## 2.6.1.5 (2023-02-09)
+
+[fpdf2] FPDF.add_font() accepts PurePaths (#9699)
+
 ## 2.6.1.4 (2023-02-09)
 
 Fix Any subclassing in `fpdf2` (#9536)
