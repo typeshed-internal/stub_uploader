@@ -1,3 +1,7 @@
+## 2.14.0.2 (2023-02-09)
+
+Use `_typeshed.FileDescriptorOrPath` in stubs (#9695)
+
 ## 2.14.0.1 (2023-01-18)
 
 Replace `Any` with `Incomplete` in many places (#9558)

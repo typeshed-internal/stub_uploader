@@ -1,3 +1,7 @@
+## 0.14.2.2 (2023-02-09)
+
+Use `_typeshed.FileDescriptorOrPath` in stubs (#9695)
+
 ## 0.14.2.1 (2023-02-07)
 
 Bump mypy to 1.0 (#9684)

@@ -1,3 +1,7 @@
+## 5.7.0.6 (2023-02-09)
+
+Use `_typeshed.FileDescriptorOrPath` in stubs (#9695)
+
 ## 5.7.0.5 (2023-02-02)
 
 Manual changes of `Any` union to `Incomplete` in stubs folder (#9566)

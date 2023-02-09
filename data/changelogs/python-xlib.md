@@ -1,3 +1,7 @@
+## 0.33.0.6 (2023-02-09)
+
+Use `_typeshed.FileDescriptorOrPath` in stubs (#9695)
+
 ## 0.33.0.5 (2023-02-07)
 
 Enable flake8-pyi's Y037 (#9686)

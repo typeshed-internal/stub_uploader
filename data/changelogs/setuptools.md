@@ -1,3 +1,7 @@
+## 67.2.0.1 (2023-02-09)
+
+Use `_typeshed.FileDescriptorOrPath` in stubs (#9695)
+
 ## 67.2.0.0 (2023-02-08)
 
 [stubsabot] Bump setuptools to 67.2.* (#9691)

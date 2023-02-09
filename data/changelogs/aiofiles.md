@@ -1,3 +1,7 @@
+## 22.1.0.7 (2023-02-09)
+
+Use `_typeshed.FileDescriptorOrPath` in stubs (#9695)
+
 ## 22.1.0.6 (2023-01-18)
 
 Improve pre-commit config (#9563)
