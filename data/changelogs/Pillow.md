@@ -1,3 +1,7 @@
+## 9.4.0.10 (2023-02-09)
+
+Pillow: Add missing enums from 9.1.0 (#9698)
+
 ## 9.4.0.9 (2023-02-09)
 
 Use `_typeshed.FileDescriptorOrPath` in stubs (#9695)
