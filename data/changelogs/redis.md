@@ -1,3 +1,9 @@
+## 4.5.1.0 (2023-02-10)
+
+[redis] Update to 4.5.1 (#9697)
+
+Also add a few argument defaults
+
 ## 4.4.0.6 (2023-02-03)
 
 [redis] Initial stubs for `redis.asyncio.cluster` (#9468)
