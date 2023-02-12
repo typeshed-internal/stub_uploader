@@ -1,3 +1,11 @@
+## 5.8.0.0 (2023-02-12)
+
+Bump pyinstaller to 5.8.* (#9721)
+
+Release: https://pypi.org/pypi/pyinstaller/5.8.0
+Homepage: https://www.pyinstaller.org/
+Diff: https://github.com/pyinstaller/pyinstaller/compare/v5.7.0...v5.8.0
+
 ## 5.7.0.6 (2023-02-09)
 
 Use `_typeshed.FileDescriptorOrPath` in stubs (#9695)
