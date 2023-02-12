@@ -1,3 +1,11 @@
+## 2.0.0.0 (2023-02-12)
+
+Bump DateTimeRange to 2.0.* (#9720)
+
+Release: https://pypi.org/pypi/DateTimeRange/2.0.0
+Homepage: https://github.com/thombashi/DateTimeRange
+Diff: https://github.com/thombashi/DateTimeRange/compare/v1.2.0...v2.0.0
+
 ## 1.2.8 (2022-08-03)
 
 Add some missing stubs in datetimerange (#8470)
