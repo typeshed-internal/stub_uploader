@@ -1,3 +1,7 @@
+## 6.0.12.6 (2023-02-13)
+
+[PyYAML] Accept all iterables for dump_all functions (#9725)
+
 ## 6.0.12.5 (2023-02-09)
 
 yaml: allow ReadableBuffer in represent_binary (#9701)
