@@ -1,3 +1,7 @@
+## 23.0.0.3 (2023-02-13)
+
+pyOpenSSL: Introduce PARTIAL_CHAIN constant (#9727)
+
 ## 23.0.0.2 (2023-01-18)
 
 Replace `Any` with `Incomplete` in many places (#9565)
