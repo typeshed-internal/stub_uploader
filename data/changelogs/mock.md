@@ -1,3 +1,7 @@
+## 5.0.0.3 (2023-02-14)
+
+Add comments when subclassing Any (#9732)
+
 ## 5.0.0.2 (2023-01-18)
 
 Replace `Any` with `Incomplete` in many places (#9565)

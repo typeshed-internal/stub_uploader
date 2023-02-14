@@ -1,3 +1,7 @@
+## 9.4.0.11 (2023-02-14)
+
+Add comments when subclassing Any (#9732)
+
 ## 9.4.0.10 (2023-02-09)
 
 Pillow: Add missing enums from 9.1.0 (#9698)
