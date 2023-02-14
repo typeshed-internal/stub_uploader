@@ -1,3 +1,7 @@
+## 23.2.13.0 (2023-02-14)
+
+[stubsabot] Bump flake8-bugbear to 23.2.13 (#9729)
+
 ## 23.1.20.0 (2023-01-21)
 
 [stubsabot] Bump flake8-bugbear to 23.1.20 (#9576)
