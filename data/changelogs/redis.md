@@ -1,3 +1,7 @@
+## 4.5.1.1 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 4.5.1.0 (2023-02-10)
 
 [redis] Update to 4.5.1 (#9697)

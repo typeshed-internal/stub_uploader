@@ -1,3 +1,7 @@
+## 2.8.19.7 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 2.8.19.6 (2023-01-18)
 
 Replace `Any` with `Incomplete` in many places (#9558)

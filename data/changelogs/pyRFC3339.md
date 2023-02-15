@@ -1,3 +1,7 @@
+## 1.1.1.2 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 1.1.1.1 (2022-11-21)
 
 Mark pyRFC3339 as completed (#9233)

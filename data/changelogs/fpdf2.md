@@ -1,3 +1,7 @@
+## 2.6.1.6 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 2.6.1.5 (2023-02-09)
 
 [fpdf2] FPDF.add_font() accepts PurePaths (#9699)

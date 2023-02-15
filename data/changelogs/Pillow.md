@@ -1,3 +1,7 @@
+## 9.4.0.12 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 9.4.0.11 (2023-02-14)
 
 Add comments when subclassing Any (#9732)

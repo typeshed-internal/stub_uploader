@@ -1,3 +1,7 @@
+## 0.19.1.4 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 0.19.1.3 (2023-02-06)
 
 Use `OSError` instead of `IOError` (#9683)

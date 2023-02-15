@@ -1,3 +1,7 @@
+## 0.5.10.5 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 0.5.10.4 (2023-01-18)
 
 Complete jack-client stub (#9530)

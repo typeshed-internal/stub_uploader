@@ -1,3 +1,7 @@
+## 1.3.2.4 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 1.3.2.3 (2023-01-29)
 
 croniter: complete stubs (#9584)

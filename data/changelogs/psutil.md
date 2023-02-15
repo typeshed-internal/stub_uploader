@@ -1,3 +1,11 @@
+## 5.9.5.7 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
+Bump pyright to 1.1.294; improve `psutil` stubs (#9739)
+
+Partially type psfullmem
+
 ## 5.9.5.6 (2023-01-18)
 
 Replace `Any` with `Incomplete` in many places (#9558)

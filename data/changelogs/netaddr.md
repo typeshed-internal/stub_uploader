@@ -1,3 +1,7 @@
+## 0.8.0.4 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 0.8.0.3 (2023-02-09)
 
 Use `_typeshed.FileDescriptorOrPath` in stubs (#9695)

@@ -1,3 +1,7 @@
+## 3.3.4.4 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 3.3.4.3 (2023-02-03)
 
 Fix python-jose unverified jws and jwt functions (#9662)

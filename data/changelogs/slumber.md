@@ -1,3 +1,7 @@
+## 0.7.3.2 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 0.7.3.1 (2022-11-21)
 
 Finish `slumber` annotations (#9237)

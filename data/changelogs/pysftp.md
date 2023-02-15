@@ -1,3 +1,7 @@
+## 0.2.17.1 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 0.2.17 (2022-07-04)
 
 Third-party stubs: audit more `Callable[<parameters>, Any]` annotations (#8233)

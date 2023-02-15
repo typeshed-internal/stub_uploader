@@ -1,3 +1,7 @@
+## 1.0.0.1 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 1.0.0.0 (2023-02-04)
 
 Update `mypy_extensions` stubs to 1.0.x (#9675)

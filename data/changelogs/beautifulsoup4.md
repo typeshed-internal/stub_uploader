@@ -1,3 +1,7 @@
+## 4.11.6.6 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 4.11.6.5 (2023-02-01)
 
 Fix stubtest errors on `beautifulsoup4` (#9648)

@@ -1,3 +1,7 @@
+## 0.1.13.2 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 0.1.13.1 (2022-11-17)
 
 click_spinner: make arguments optional (#9220)

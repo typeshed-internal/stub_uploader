@@ -1,3 +1,7 @@
+## 1.26.25.6 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 1.26.25.5 (2023-02-07)
 
 Enable flake8-pyi's Y037 (#9686)

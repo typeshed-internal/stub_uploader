@@ -1,3 +1,7 @@
+## 4.64.7.13 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 4.64.7.12 (2023-02-07)
 
 Complete stubtest and fix `Any` subclassing in `tqdm` (#9525)

@@ -1,3 +1,7 @@
+## 2.11.0.4 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 2.11.0.3 (2023-02-01)
 
 Tensorflow: Add more stubs (#9560)

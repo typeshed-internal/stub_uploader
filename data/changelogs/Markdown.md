@@ -1,3 +1,7 @@
+## 3.4.2.4 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 3.4.2.3 (2023-02-09)
 
 Add markdown.treeprocessors.UnescapeTreeprocessor (#9671)

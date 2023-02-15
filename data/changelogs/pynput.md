@@ -1,3 +1,7 @@
+## 1.7.5.4 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 1.7.5.3 (2022-11-23)
 
 Mark pynput as completed (#9235)

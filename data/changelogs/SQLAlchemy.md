@@ -1,3 +1,7 @@
+## 1.4.53.29 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 1.4.53.28 (2023-02-02)
 
 Manual changes of `Any` union to `Incomplete` in stubs folder (#9566)

@@ -1,3 +1,7 @@
+## 2.7.0.4 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 2.7.0.3 (2023-02-07)
 
 Complete `python-crontab` (#9306)

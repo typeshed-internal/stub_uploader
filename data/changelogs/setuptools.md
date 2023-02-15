@@ -1,3 +1,7 @@
+## 67.3.0.1 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 67.3.0.0 (2023-02-15)
 
 [stubsabot] Bump setuptools to 67.3.* (#9738)

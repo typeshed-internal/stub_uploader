@@ -1,3 +1,7 @@
+## 0.4.1.2 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 0.4.1.1 (2022-10-15)
 
 Mark `entrypoints` as complete (#8901)

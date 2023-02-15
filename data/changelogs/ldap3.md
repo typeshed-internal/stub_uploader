@@ -1,3 +1,7 @@
+## 2.9.13.8 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 2.9.13.7 (2023-01-28)
 
 Bump flake8-pyi to 23.1.1 (#9599)

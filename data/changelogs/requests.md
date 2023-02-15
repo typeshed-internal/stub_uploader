@@ -1,3 +1,7 @@
+## 2.28.11.13 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 2.28.11.12 (2023-02-07)
 
 Improve pyright verification of third-party test cases in CI (#9650)

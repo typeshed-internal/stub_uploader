@@ -1,3 +1,7 @@
+## 5.8.0.1 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 5.8.0.0 (2023-02-12)
 
 Bump pyinstaller to 5.8.* (#9721)

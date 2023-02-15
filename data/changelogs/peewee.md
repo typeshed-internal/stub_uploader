@@ -1,3 +1,7 @@
+## 3.15.0.6 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 3.15.0.5 (2022-11-23)
 
 Mark first argument of `__[get|set|del]attr__` as `str` (#9245)

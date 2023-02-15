@@ -1,3 +1,7 @@
+## 1.7.7.9 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 1.7.7.8 (2023-02-07)
 
 Bump mypy to 1.0 (#9684)

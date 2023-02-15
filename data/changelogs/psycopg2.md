@@ -1,3 +1,7 @@
+## 2.9.21.5 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 2.9.21.4 (2023-01-18)
 
 Improve pre-commit config (#9563)

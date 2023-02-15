@@ -1,3 +1,7 @@
+## 1.0.0.1 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 1.0.0.0 (2023-02-03)
 
 Update `caldav` stubs to 1.0.* (#9668)

@@ -1,3 +1,7 @@
+## 7.45.2.2 (2023-02-15)
+
+Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+
 ## 7.45.2.1 (2023-02-01)
 
 Bump black to 23.1.0 (#9647)
