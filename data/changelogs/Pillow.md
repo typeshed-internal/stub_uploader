@@ -1,3 +1,7 @@
+## 9.4.0.13 (2023-02-18)
+
+Add types for PIL.ImageTk (#9733)
+
 ## 9.4.0.12 (2023-02-15)
 
 Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
