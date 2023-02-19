@@ -1,3 +1,7 @@
+## 3.5.0.4 (2023-02-19)
+
+`pyserial`: fix stubtest errors (#9722)
+
 ## 3.5.0.3 (2023-02-15)
 
 Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
