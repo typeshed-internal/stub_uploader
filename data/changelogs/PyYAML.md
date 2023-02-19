@@ -1,3 +1,7 @@
+## 6.0.12.7 (2023-02-19)
+
+Type `Loader` parameter in `PyYAML/yaml` (#9752)
+
 ## 6.0.12.6 (2023-02-13)
 
 [PyYAML] Accept all iterables for dump_all functions (#9725)
