@@ -1,3 +1,13 @@
+## 2.0.0.2 (2023-02-20)
+
+[stubsabot] Mark DateTimeRange as obsolete since 2.1.0 (#9765)
+
+Release: https://pypi.org/pypi/DateTimeRange/2.1.0
+Homepage: https://github.com/thombashi/DateTimeRange
+Diff: https://github.com/thombashi/DateTimeRange/compare/v2.0.0...v2.1.0
+
+Co-authored-by: stubsabot <>
+
 ## 2.0.0.1 (2023-02-15)
 
 Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
