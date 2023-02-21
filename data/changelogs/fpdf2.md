@@ -1,3 +1,7 @@
+## 2.6.1.8 (2023-02-21)
+
+Integrate requirements-stubtest.txt into METADATA.toml (#9778)
+
 ## 2.6.1.7 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
