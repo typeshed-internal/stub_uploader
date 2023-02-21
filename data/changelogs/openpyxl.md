@@ -1,3 +1,11 @@
+## 3.0.4.7 (2023-02-21)
+
+Improve `openpyxl` annotations (#9764)
+
+Co-authored-by: ArnabRollin <iamarnab.phukan@gmail.com>
+Co-authored-by: ArnabRollin <106329283+ArnabRollin@users.noreply.github.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 3.0.4.6 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
