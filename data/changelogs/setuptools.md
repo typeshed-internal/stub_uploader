@@ -1,3 +1,16 @@
+## 67.4.0.0 (2023-02-22)
+
+[stubsabot] Bump setuptools to 67.4.* (#9794)
+
+Release: https://pypi.org/pypi/setuptools/67.4.0
+Homepage: https://github.com/pypa/setuptools
+Changelog: https://setuptools.pypa.io/en/stable/history.html
+Diff: https://github.com/pypa/setuptools/compare/v67.3.3...v67.4.0
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 877.
+ - Total lines of Python code deleted: 433.
+
 ## 67.3.0.2 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
