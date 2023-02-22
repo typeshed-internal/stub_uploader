@@ -1,3 +1,13 @@
+## 67.4.0.1 (2023-02-22)
+
+Update `Unused` parameters in `stubs/` (#9704)
+
+* Update _Unused TypeAlias
+
+* Update `object | None` params
+
+* Replace unused `object` parameters with `Unused` alias
+
 ## 67.4.0.0 (2023-02-22)
 
 [stubsabot] Bump setuptools to 67.4.* (#9794)

@@ -1,3 +1,13 @@
+## 0.8.0.6 (2023-02-22)
+
+Update `Unused` parameters in `stubs/` (#9704)
+
+* Update _Unused TypeAlias
+
+* Update `object | None` params
+
+* Replace unused `object` parameters with `Unused` alias
+
 ## 0.8.0.5 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)

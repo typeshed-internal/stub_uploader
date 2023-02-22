@@ -1,3 +1,13 @@
+## 9.4.0.16 (2023-02-22)
+
+Update `Unused` parameters in `stubs/` (#9704)
+
+* Update _Unused TypeAlias
+
+* Update `object | None` params
+
+* Replace unused `object` parameters with `Unused` alias
+
 ## 9.4.0.15 (2023-02-21)
 
 Integrate requirements-stubtest.txt into METADATA.toml (#9778)
