@@ -1,3 +1,7 @@
+## 5.3.0.3 (2023-02-23)
+
+Remove unused `type: ignore` comments (#9801)
+
 ## 5.3.0.2 (2023-02-22)
 
 Update `Unused` parameters in `stubs/` (#9704)

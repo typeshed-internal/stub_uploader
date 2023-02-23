@@ -1,3 +1,7 @@
+## 2.9.21.7 (2023-02-23)
+
+Remove unused `type: ignore` comments (#9801)
+
 ## 2.9.21.6 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
