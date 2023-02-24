@@ -1,3 +1,9 @@
+## 1.36.0.5 (2023-02-24)
+
+Fix stubtest for `influxdb-client` (#9808)
+
+Fixes #9805
+
 ## 1.36.0.4 (2023-02-21)
 
 Integrate requirements-stubtest.txt into METADATA.toml (#9778)
