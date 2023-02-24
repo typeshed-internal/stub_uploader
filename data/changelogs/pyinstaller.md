@@ -1,3 +1,7 @@
+## 5.8.0.3 (2023-02-24)
+
+Fix some typos in comments (#9802)
+
 ## 5.8.0.2 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)

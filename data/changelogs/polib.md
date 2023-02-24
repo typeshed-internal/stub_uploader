@@ -1,3 +1,18 @@
+## 1.2.0.0 (2023-02-24)
+
+[stubsabot] Bump polib to 1.2.* (#9804)
+
+Release: https://pypi.org/pypi/polib/1.2.0
+Homepage: https://github.com/izimobil/polib/
+Diff: https://github.com/izimobil/polib/compare/1.1.1...1.2.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `polib.py`.
+ - Total lines of Python code added: 293.
+ - Total lines of Python code deleted: 195.
+
 ## 1.1.12.2 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)

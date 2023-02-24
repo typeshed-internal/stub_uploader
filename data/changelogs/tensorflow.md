@@ -1,3 +1,7 @@
+## 2.11.0.6 (2023-02-24)
+
+Fix some typos in comments (#9802)
+
 ## 2.11.0.5 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
