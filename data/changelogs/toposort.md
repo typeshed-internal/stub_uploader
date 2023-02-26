@@ -1,3 +1,9 @@
+## 1.10.0.0 (2023-02-26)
+
+[stubsabot] Bump toposort to 1.10 (#9816)
+
+Release: https://pypi.org/pypi/toposort/1.10
+
 ## 1.9.0.1 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)

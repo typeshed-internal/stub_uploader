@@ -1,3 +1,7 @@
+## 67.4.0.3 (2023-02-26)
+
+Remove most of `setuptools._distutils` (#9795)
+
 ## 67.4.0.2 (2023-02-26)
 
 Improve many `__(a)exit__` annotations (#9696)
