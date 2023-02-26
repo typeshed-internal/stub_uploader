@@ -1,3 +1,7 @@
+## 5.3.0.4 (2023-02-26)
+
+Improve many `__(a)exit__` annotations (#9696)
+
 ## 5.3.0.3 (2023-02-23)
 
 Remove unused `type: ignore` comments (#9801)

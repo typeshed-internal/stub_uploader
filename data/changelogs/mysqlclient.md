@@ -1,3 +1,7 @@
+## 2.1.5.6 (2023-02-26)
+
+Improve many `__(a)exit__` annotations (#9696)
+
 ## 2.1.5.5 (2023-02-22)
 
 Update `Unused` parameters in `stubs/` (#9704)

@@ -1,3 +1,7 @@
+## 3.15.0.8 (2023-02-26)
+
+Improve many `__(a)exit__` annotations (#9696)
+
 ## 3.15.0.7 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)

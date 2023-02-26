@@ -1,3 +1,7 @@
+## 5.9.5.9 (2023-02-26)
+
+Improve many `__(a)exit__` annotations (#9696)
+
 ## 5.9.5.8 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)

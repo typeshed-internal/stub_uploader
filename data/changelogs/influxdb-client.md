@@ -1,3 +1,7 @@
+## 1.36.0.6 (2023-02-26)
+
+Improve many `__(a)exit__` annotations (#9696)
+
 ## 1.36.0.5 (2023-02-24)
 
 Fix stubtest for `influxdb-client` (#9808)

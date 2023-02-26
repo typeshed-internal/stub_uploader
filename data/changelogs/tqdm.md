@@ -1,3 +1,7 @@
+## 4.64.7.16 (2023-02-26)
+
+Improve many `__(a)exit__` annotations (#9696)
+
 ## 4.64.7.15 (2023-02-21)
 
 Integrate requirements-stubtest.txt into METADATA.toml (#9778)
