@@ -1,3 +1,7 @@
+## 2.8.19.9 (2023-02-27)
+
+Re-export `dateutil._common.weekday` from `dateutil.relativedelta` (#9819)
+
 ## 2.8.19.8 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
