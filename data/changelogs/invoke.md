@@ -1,3 +1,7 @@
+## 2.0.0.5 (2023-02-27)
+
+invoke: Update `Context.cd()` to accept a `pathlib.Path` or a string (#9823)
+
 ## 2.0.0.4 (2023-02-26)
 
 Improve many `__(a)exit__` annotations (#9696)
