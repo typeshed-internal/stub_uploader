@@ -1,3 +1,10 @@
+## 1.2.0.0 (2023-02-27)
+
+Update caldav to 1.2 (#9821)
+
+Also add a few default values and replace some instances of Any with
+Incomplete.
+
 ## 1.0.0.3 (2023-02-26)
 
 Improve many `__(a)exit__` annotations (#9696)

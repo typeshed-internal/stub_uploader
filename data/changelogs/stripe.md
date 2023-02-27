@@ -1,3 +1,7 @@
+## 3.5.2.8 (2023-02-27)
+
+[stripe] Add Session.expire() (#9814)
+
 ## 3.5.2.7 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
