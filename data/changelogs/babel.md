@@ -1,3 +1,7 @@
+## 2.11.0.11 (2023-02-28)
+
+babel: Mark babel as obsolete since 2.12.1 (#9832)
+
 ## 2.11.0.10 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
