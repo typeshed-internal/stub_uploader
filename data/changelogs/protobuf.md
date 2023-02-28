@@ -1,3 +1,7 @@
+## 4.22.0.0 (2023-02-28)
+
+Update protobuf for v4.22 (#9824)
+
 ## 4.21.0.7 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)

@@ -1,3 +1,22 @@
+## 3.16.0.0 (2023-02-28)
+
+Update peewee stubs to v3.16 (#9827)
+
+Bump peewee to 3.16.*
+
+Release: https://pypi.org/pypi/peewee/3.16.0
+Homepage: https://github.com/coleifer/peewee/
+Diff: https://github.com/coleifer/peewee/compare/3.15.4...3.16.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `peewee.py`.
+ - Total lines of Python code added: 120.
+ - Total lines of Python code deleted: 90.
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 3.15.0.8 (2023-02-26)
 
 Improve many `__(a)exit__` annotations (#9696)

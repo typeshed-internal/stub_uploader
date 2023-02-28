@@ -1,3 +1,9 @@
+## 1.3.0.7 (2023-02-28)
+
+Enable running stubtest on more of `types-pika` (#9826)
+
+Make aliases for non-imported dependency private
+
 ## 1.3.0.6 (2023-02-26)
 
 Improve many `__(a)exit__` annotations (#9696)
