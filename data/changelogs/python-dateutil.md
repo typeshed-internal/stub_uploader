@@ -1,3 +1,7 @@
+## 2.8.19.10 (2023-03-01)
+
+Add rrule.__iter__ return type (#9828)
+
 ## 2.8.19.9 (2023-02-27)
 
 Re-export `dateutil._common.weekday` from `dateutil.relativedelta` (#9819)
