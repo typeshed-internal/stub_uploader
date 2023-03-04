@@ -1,3 +1,7 @@
+## 4.65.0.0 (2023-03-04)
+
+Update `tqdm` stubs to 4.65.* (#9840)
+
 ## 4.64.7.16 (2023-02-26)
 
 Improve many `__(a)exit__` annotations (#9696)
