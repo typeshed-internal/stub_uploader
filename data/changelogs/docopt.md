@@ -1,3 +1,7 @@
+## 0.6.11.3 (2023-03-04)
+
+docopt: add exception types (#9839)
+
 ## 0.6.11.2 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
