@@ -1,3 +1,23 @@
+## 67.5.0.0 (2023-03-06)
+
+Update pkg_resources-stubs for use in pytype_test (#9747)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
+[stubsabot] Bump setuptools to 67.5.* (#9841)
+
+Release: https://pypi.org/pypi/setuptools/67.5.0
+Homepage: https://github.com/pypa/setuptools
+Changelog: https://setuptools.pypa.io/en/stable/history.html
+Diff: https://github.com/pypa/setuptools/compare/v67.4.0...v67.5.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `pkg_resources/__init__.py`.
+ - Total lines of Python code added: 28.
+ - Total lines of Python code deleted: 23.
+
 ## 67.4.0.3 (2023-02-26)
 
 Remove most of `setuptools._distutils` (#9795)
