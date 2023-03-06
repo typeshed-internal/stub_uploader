@@ -1,3 +1,7 @@
+## 0.8.0.0 (2023-03-06)
+
+Update `console-menu` stubs for v0.8 (#9845)
+
 ## 0.7.0.3 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
