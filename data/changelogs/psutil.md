@@ -1,3 +1,11 @@
+## 5.9.5.10 (2023-03-08)
+
+psutil: sconn.pid can be None (#9853)
+
+Found out about this the hard way.
+
+The code path that allows None is here: https://github.com/giampaolo/psutil/blob/2da99502238852f18f74db05304e67a01ee77005/psutil/_pslinux.py#L923
+
 ## 5.9.5.9 (2023-02-26)
 
 Improve many `__(a)exit__` annotations (#9696)
