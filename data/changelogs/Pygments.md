@@ -1,3 +1,7 @@
+## 2.14.0.6 (2023-03-08)
+
+Pygments: fix get_style_by_name return type (#9803)
+
 ## 2.14.0.5 (2023-02-21)
 
 Integrate requirements-stubtest.txt into METADATA.toml (#9778)
