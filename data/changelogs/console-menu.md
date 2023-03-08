@@ -1,3 +1,9 @@
+## 0.8.0.1 (2023-03-08)
+
+Replace `object | None` with `object` (#9857)
+
+All types, including `None`, are a subtype of `object`, so `None` is redundant in the union `object | None`.
+
 ## 0.8.0.0 (2023-03-06)
 
 Update `console-menu` stubs for v0.8 (#9845)

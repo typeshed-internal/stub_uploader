@@ -1,3 +1,9 @@
+## 1.16.21.7 (2023-03-08)
+
+Replace `object | None` with `object` (#9857)
+
+All types, including `None`, are a subtype of `object`, so `None` is redundant in the union `object | None`.
+
 ## 1.16.21.6 (2023-02-22)
 
 Update `Unused` parameters in `stubs/` (#9704)
