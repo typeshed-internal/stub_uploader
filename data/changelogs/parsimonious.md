@@ -1,3 +1,7 @@
+## 0.10.0.7 (2023-03-09)
+
+`parsimonious`: Update return types of `NodeVisitor`'s methods (#9564)
+
 ## 0.10.0.6 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)

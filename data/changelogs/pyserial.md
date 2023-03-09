@@ -1,3 +1,7 @@
+## 3.5.0.7 (2023-03-09)
+
+pyserial: Fix read and write methods (#9825)
+
 ## 3.5.0.6 (2023-02-26)
 
 Improve many `__(a)exit__` annotations (#9696)
