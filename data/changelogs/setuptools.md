@@ -1,3 +1,19 @@
+## 67.6.0.0 (2023-03-09)
+
+[stubsabot] Bump setuptools to 67.6.* (#9858)
+
+Release: https://pypi.org/pypi/setuptools/67.6.0
+Homepage: https://github.com/pypa/setuptools
+Changelog: https://setuptools.pypa.io/en/stable/history.html
+Diff: https://github.com/pypa/setuptools/compare/v67.5.1...v67.6.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `setuptools/wheel.py`.
+ - Total lines of Python code added: 38.
+ - Total lines of Python code deleted: 19.
+
 ## 67.5.0.0 (2023-03-06)
 
 Update pkg_resources-stubs for use in pytype_test (#9747)
