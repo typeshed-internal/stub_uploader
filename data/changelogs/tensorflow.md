@@ -1,3 +1,9 @@
+## 2.11.0.7 (2023-03-09)
+
+Tensorflow keras layer (#9707)
+
+Co-authored-by: Mehdi Drissi <mdrissi@snapchat.com>
+
 ## 2.11.0.6 (2023-02-24)
 
 Fix some typos in comments (#9802)

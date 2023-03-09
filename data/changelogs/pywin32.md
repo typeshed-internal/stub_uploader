@@ -1,3 +1,7 @@
+## 305.0.0.10 (2023-03-09)
+
+[pywin32] win32gui.FindWindowEx parameters __ClassName and __WindowName are optional (#9859)
+
 ## 305.0.0.9 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
