@@ -1,3 +1,10 @@
+## 23.1.0.0 (2023-03-09)
+
+Update `aiofiles` for v23.1.* (#9711)
+
+Co-authored-by: Mehdi Drissi <mdrissi@snapchat.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 22.1.0.9 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
