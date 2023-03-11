@@ -1,3 +1,14 @@
+## 1.5.8.5 (2023-03-11)
+
+typed_ast: Add missing field to `typed_ast.ast3.TypeIgnore` (#9868)
+
+```pycon
+>>> import typed_ast.ast3 as ast3
+>>> x = ast3.parse('def foo(): ... # type: ignore[attr-defined]')
+>>> ast3.dump(x)
+"Module(body=[FunctionDef(name='foo', args=arguments(args=[], vararg=None, kwonlyargs=[], kw_defaults=[], kwarg=None, defaults=[]), body=[Expr(value=Ellipsis())], decorator_list=[], returns=None, type_comment=None)], type_ignores=[TypeIgnore(lineno=1, tag='[attr-defined]')])"
+```
+
 ## 1.5.8.4 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
