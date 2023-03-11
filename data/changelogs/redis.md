@@ -1,3 +1,7 @@
+## 4.5.1.5 (2023-03-11)
+
+Add missing properties for `redis.lock.Lock` (#9867)
+
 ## 4.5.1.4 (2023-02-26)
 
 Improve many `__(a)exit__` annotations (#9696)

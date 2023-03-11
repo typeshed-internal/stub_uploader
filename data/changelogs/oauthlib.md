@@ -1,3 +1,9 @@
+## 3.2.0.6 (2023-03-11)
+
+[oauthlib] Add types in oauth1/rfc5849/request_validator.pyi (#9844)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 3.2.0.5 (2023-02-23)
 
 Remove unused `type: ignore` comments (#9801)
