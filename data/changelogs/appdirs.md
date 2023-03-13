@@ -1,3 +1,7 @@
+## 1.4.3.4 (2023-03-13)
+
+Mark `types-appdirs` as no longer updated (#9877)
+
 ## 1.4.3.3 (2023-03-13)
 
 appdirs: improve annotation for appauthor argument (#9876)
