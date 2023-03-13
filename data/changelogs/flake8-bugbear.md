@@ -1,3 +1,14 @@
+## 23.3.12.0 (2023-03-13)
+
+[stubsabot] Bump flake8-bugbear to 23.3.12 (#9872)
+
+Release: https://pypi.org/pypi/flake8-bugbear/23.3.12
+Homepage: https://github.com/PyCQA/flake8-bugbear
+Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+Diff: https://github.com/PyCQA/flake8-bugbear/compare/23.2.13...23.3.12
+
+Co-authored-by: stubsabot <>
+
 ## 23.2.13.1 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
