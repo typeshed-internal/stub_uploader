@@ -1,3 +1,13 @@
+## 1.4.3.3 (2023-03-13)
+
+appdirs: improve annotation for appauthor argument (#9876)
+
+Fix: Missing annotation for appauthor argument
+
+According to the appdirs doc string and code [1], the appauthor argument in all functions supports False as argument value to skip insertion of author directories.
+
+[1] https://github.com/ActiveState/appdirs/blob/master/appdirs.py#L52
+
 ## 1.4.3.2 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
