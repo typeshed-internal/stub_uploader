@@ -1,3 +1,7 @@
+## 1.4.3.5 (2023-03-14)
+
+Fix typos in `extra_description` fields (#9883)
+
 ## 1.4.3.4 (2023-03-13)
 
 Mark `types-appdirs` as no longer updated (#9877)

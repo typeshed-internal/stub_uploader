@@ -1,3 +1,9 @@
+## 3.7.4.4 (2023-03-14)
+
+Mark stubs for backports.ssl_match_hostname as no longer updated (#9882)
+
+See #9843 for discussion
+
 ## 3.7.4.3 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)

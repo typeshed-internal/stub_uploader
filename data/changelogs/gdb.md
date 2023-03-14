@@ -1,3 +1,7 @@
+## 12.1.4.4 (2023-03-14)
+
+Fix typos in `extra_description` fields (#9883)
+
 ## 12.1.4.3 (2023-02-01)
 
 Bump black to 23.1.0 (#9647)
