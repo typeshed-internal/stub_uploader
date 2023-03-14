@@ -1,3 +1,18 @@
+## 5.9.0.0 (2023-03-14)
+
+[stubsabot] Bump pyinstaller to 5.9.* (#9880)
+
+Release: https://pypi.org/pypi/pyinstaller/5.9.0
+Homepage: https://www.pyinstaller.org/
+Diff: https://github.com/pyinstaller/pyinstaller/compare/v5.8.0...v5.9.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 3 files included in typeshed's stubs have been modified or renamed: `PyInstaller/__init__.py`, `PyInstaller/building/build_main.py`, `PyInstaller/isolated/_parent.py`.
+ - Total lines of Python code added: 28.
+ - Total lines of Python code deleted: 59.
+
 ## 5.8.0.3 (2023-02-24)
 
 Fix some typos in comments (#9802)
