@@ -1,3 +1,11 @@
+## 2.11.0.8 (2023-03-15)
+
+Tensorflow protobuf stubs (#9873)
+
+Co-authored-by: Mehdi Drissi <mdrissi@snapchat.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 2.11.0.7 (2023-03-09)
 
 Tensorflow keras layer (#9707)

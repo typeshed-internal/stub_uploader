@@ -1,3 +1,9 @@
+## 1.4.53.34 (2023-03-15)
+
+[SQLAlchemy] Annotate row classes (#9568)
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 1.4.53.33 (2023-02-26)
 
 Improve many `__(a)exit__` annotations (#9696)

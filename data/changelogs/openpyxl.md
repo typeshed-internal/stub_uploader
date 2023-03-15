@@ -1,3 +1,9 @@
+## 3.1.0.0 (2023-03-15)
+
+[openpyxl] Update to 3.1, add more annotations (#9875)
+
+Closes: #9644
+
 ## 3.0.4.7 (2023-02-21)
 
 Improve `openpyxl` annotations (#9764)
