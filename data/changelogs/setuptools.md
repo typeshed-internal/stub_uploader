@@ -1,3 +1,10 @@
+## 67.6.0.1 (2023-03-16)
+
+Add remaining types to setuptools.build_meta (#9890)
+
+Signed-off-by: Henry Schreiner <henryschreineriii@gmail.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 67.6.0.0 (2023-03-09)
 
 [stubsabot] Bump setuptools to 67.6.* (#9858)
