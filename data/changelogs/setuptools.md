@@ -1,3 +1,13 @@
+## 67.6.0.2 (2023-03-16)
+
+`distutils.command.build_ext`: add more annotations to `get_ext_*` methods (#9894)
+
+Signed-off-by: Henry Schreiner <henryschreineriii@gmail.com>
+
+Add missing `distribution` attribute to `distutils.cmd.Command` (#9893)
+
+Signed-off-by: Henry Schreiner <henryschreineriii@gmail.com>
+
 ## 67.6.0.1 (2023-03-16)
 
 Add remaining types to setuptools.build_meta (#9890)
