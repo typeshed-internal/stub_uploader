@@ -1,3 +1,7 @@
+## 67.6.0.3 (2023-03-17)
+
+[distutils] Add generated methods to Distribution (#9896)
+
 ## 67.6.0.2 (2023-03-16)
 
 `distutils.command.build_ext`: add more annotations to `get_ext_*` methods (#9894)
