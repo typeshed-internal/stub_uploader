@@ -1,3 +1,12 @@
+## 2.0.0.2 (2023-03-17)
+
+[pycocotools] Fix COCOeval.eval and Params.areaRng (#9897)
+
+* Rename `_EvaluationResult` to `_ImageEvaluationResult`
+* Add new `_EvaluationResult`
+* Fix type of `COCOeval.eval`
+* Correct Params.areaRng which is in fact a list of pairs
+
 ## 2.0.0.1 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
