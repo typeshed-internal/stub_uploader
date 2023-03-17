@@ -1,3 +1,13 @@
+## 67.6.0.5 (2023-03-17)
+
+distutils/setuptools: Don't use wildcards for allowlist entries (#9900)
+
+Fill out more annotations for `distutils` & `setuptools` dist (#9895)
+
+Signed-off-by: Henry Schreiner <henryschreineriii@gmail.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 67.6.0.4 (2023-03-17)
 
 [setuptools] Fully annotate Extension.__init__ (#9899)
