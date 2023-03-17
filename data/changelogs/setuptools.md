@@ -1,3 +1,9 @@
+## 67.6.0.4 (2023-03-17)
+
+[setuptools] Fully annotate Extension.__init__ (#9899)
+
+Add defaults to distutils.Extension.__init__
+
 ## 67.6.0.3 (2023-03-17)
 
 [distutils] Add generated methods to Distribution (#9896)
