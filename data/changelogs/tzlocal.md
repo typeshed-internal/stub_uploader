@@ -1,3 +1,17 @@
+## 4.3.0.0 (2023-03-19)
+
+[stubsabot] Bump tzlocal to 4.3 (#9903)
+
+Release: https://pypi.org/pypi/tzlocal/4.3
+Diff: https://github.com/regebro/tzlocal/compare/4.2...4.3
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 2 files included in typeshed's stubs have been modified or renamed: `tzlocal/utils.py`, `tzlocal/windows_tz.py`.
+ - Total lines of Python code added: 67.
+ - Total lines of Python code deleted: 41.
+
 ## 4.2.2.3 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
