@@ -1,3 +1,10 @@
+## 4.12.0.0 (2023-03-21)
+
+[stubsabot] Bump beautifulsoup4 to 4.12.* (#9910)
+
+Release: https://pypi.org/pypi/beautifulsoup4/4.12.0
+Homepage: https://www.crummy.com/software/BeautifulSoup/bs4/
+
 ## 4.11.6.7 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
