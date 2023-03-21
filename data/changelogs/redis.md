@@ -1,3 +1,7 @@
+## 4.5.2.0 (2023-03-21)
+
+[redis] Update stubs to 4.5.2 (#9912)
+
 ## 4.5.1.5 (2023-03-11)
 
 Add missing properties for `redis.lock.Lock` (#9867)
