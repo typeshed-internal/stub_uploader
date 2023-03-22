@@ -1,3 +1,10 @@
+## 305.0.0.11 (2023-03-22)
+
+Add missing types to `pywin32.win32api` (#9920)
+
+Co-authored-by: Francesc Elies <francesc.elies@mbbm-ast.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 305.0.0.10 (2023-03-09)
 
 [pywin32] win32gui.FindWindowEx parameters __ClassName and __WindowName are optional (#9859)
