@@ -1,3 +1,9 @@
+## 0.33.0.9 (2023-03-22)
+
+Add defaults for params and constants in python-xlib (#9642)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 0.33.0.8 (2023-02-24)
 
 Fix some typos in comments (#9802)

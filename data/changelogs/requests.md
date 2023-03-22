@@ -1,3 +1,9 @@
+## 2.28.11.16 (2023-03-22)
+
+Add type to requests.models.RequestEncodingMixin.path_url (#9923)
+
+We can see at https://github.com/psf/requests/blob/7f694b79e114c06fac5ec06019cada5a61e5570f/requests/models.py#L104 that this always returns a string.
+
 ## 2.28.11.15 (2023-02-26)
 
 Improve many `__(a)exit__` annotations (#9696)
