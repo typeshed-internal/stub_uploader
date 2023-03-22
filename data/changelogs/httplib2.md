@@ -1,3 +1,15 @@
+## 0.22.0.0 (2023-03-22)
+
+[stubsabot] Bump httplib2 to 0.22.* (#9916)
+
+Release: https://pypi.org/pypi/httplib2/0.22.0
+Homepage: https://github.com/httplib2/httplib2
+Diff: https://github.com/httplib2/httplib2/compare/v0.21.0...v0.22.0
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 21.
+ - Total lines of Python code deleted: 5.
+
 ## 0.21.0.5 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
