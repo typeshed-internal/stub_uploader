@@ -166,6 +166,7 @@ types-toml
 types-toposort
 types-tornado
 types-tqdm
+types-translationstring
 types-tree-sitter
 types-tree-sitter-languages
 types-ttkthemes
