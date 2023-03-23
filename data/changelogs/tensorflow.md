@@ -1,3 +1,14 @@
+## 2.12.0.0 (2023-03-23)
+
+[stubsabot] Bump tensorflow to 2.12.* (#9926)
+
+Release: https://pypi.org/pypi/tensorflow/2.12.0
+Homepage: https://www.tensorflow.org/
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
 ## 2.11.0.8 (2023-03-15)
 
 Tensorflow protobuf stubs (#9873)

@@ -1,3 +1,19 @@
+## 4.5.3.0 (2023-03-23)
+
+[stubsabot] Bump redis to 4.5.3 (#9928)
+
+Release: https://pypi.org/pypi/redis/4.5.3
+Homepage: https://github.com/redis/redis-py
+Changelog: https://github.com/redis/redis-py/releases
+Diff: https://github.com/redis/redis-py/compare/v4.5.2...v4.5.3
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 2 files included in typeshed's stubs have been modified or renamed: `redis/asyncio/client.py`, `redis/asyncio/cluster.py`.
+ - Total lines of Python code added: 58.
+ - Total lines of Python code deleted: 6.
+
 ## 4.5.2.0 (2023-03-21)
 
 [redis] Update stubs to 4.5.2 (#9912)
