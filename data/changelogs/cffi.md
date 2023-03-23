@@ -1,3 +1,13 @@
+## 1.15.1.8 (2023-03-23)
+
+[cffi] cast source can be an int too  (#9930)
+
+[cffi] cast source can be an int too
+
+Co-authored-by: Francesc Elies <francesc.elies@mbbm-ast.com>
+
+Add alternate type for cffi's from_buffer (#9925)
+
 ## 1.15.1.7 (2023-02-26)
 
 Improve many `__(a)exit__` annotations (#9696)
