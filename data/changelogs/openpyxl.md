@@ -1,3 +1,9 @@
+## 3.1.0.1 (2023-03-24)
+
+[openpyxl] Annotate Worksheet and other items (#9892)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 3.1.0.0 (2023-03-15)
 
 [openpyxl] Update to 3.1, add more annotations (#9875)
