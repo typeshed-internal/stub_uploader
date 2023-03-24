@@ -1,3 +1,7 @@
+## 0.2.17.3 (2023-03-24)
+
+pysftp: CnOpts.hostkeys can be None (#9937)
+
 ## 0.2.17.2 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)

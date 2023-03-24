@@ -1,3 +1,7 @@
+## 3.1.0.2 (2023-03-24)
+
+openpyxl: add baseline stubs for new modules (#9921)
+
 ## 3.1.0.1 (2023-03-24)
 
 [openpyxl] Annotate Worksheet and other items (#9892)
