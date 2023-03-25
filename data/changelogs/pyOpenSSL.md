@@ -1,3 +1,17 @@
+## 23.1.0.0 (2023-03-25)
+
+Update pyOpenSSL to 23.1.* (#9939)
+
+Release: https://pypi.org/pypi/pyOpenSSL/23.1.0
+Homepage: https://pyopenssl.org/
+Diff: https://github.com/pyca/pyopenssl/compare/23.0.0...23.1.0
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 122.
+ - Total lines of Python code deleted: 45.
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 23.0.0.4 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
