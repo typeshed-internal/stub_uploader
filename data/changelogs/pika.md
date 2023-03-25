@@ -1,3 +1,9 @@
+## 1.3.0.8 (2023-03-25)
+
+Use of twisted in pika (#9494)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 1.3.0.7 (2023-02-28)
 
 Enable running stubtest on more of `types-pika` (#9826)
