@@ -1,3 +1,10 @@
+## 2023.2.0.0 (2023-03-26)
+
+[stubsabot] Bump pytz to 2023.2 (#9942)
+
+Release: https://pypi.org/pypi/pytz/2023.2
+Homepage: http://pythonhosted.org/pytz
+
 ## 2022.7.1.2 (2023-02-22)
 
 Update `Unused` parameters in `stubs/` (#9704)
