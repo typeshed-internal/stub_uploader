@@ -1,3 +1,10 @@
+## 306.0.0.0 (2023-03-26)
+
+Bump pywin32 to 306.* (#9945)
+
+Release: https://pypi.org/pypi/pywin32/306
+Homepage: https://github.com/mhammond/pywin32
+
 ## 305.0.0.11 (2023-03-22)
 
 Add missing types to `pywin32.win32api` (#9920)
