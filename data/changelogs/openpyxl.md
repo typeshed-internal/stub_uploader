@@ -1,3 +1,7 @@
+## 3.1.0.3 (2023-03-26)
+
+Ran stubdefaulter for `stubs/openpyxl` (#9946)
+
 ## 3.1.0.2 (2023-03-24)
 
 openpyxl: add baseline stubs for new modules (#9921)
