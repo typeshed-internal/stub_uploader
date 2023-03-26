@@ -1,3 +1,7 @@
+## 1.26.25.9 (2023-03-26)
+
+Add types to urllib3.filepost stubs (#9924)
+
 ## 1.26.25.8 (2023-02-26)
 
 Improve many `__(a)exit__` annotations (#9696)
