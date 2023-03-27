@@ -1,3 +1,7 @@
+## 2.0.0.6 (2023-03-27)
+
+Add defaults for third-party stubs I-L (#9955)
+
 ## 2.0.0.5 (2023-02-27)
 
 invoke: Update `Context.cd()` to accept a `pathlib.Path` or a string (#9823)

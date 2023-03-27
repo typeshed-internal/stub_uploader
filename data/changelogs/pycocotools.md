@@ -1,3 +1,7 @@
+## 2.0.0.3 (2023-03-27)
+
+Add default values for third-party stubs beginning with 'P' (#9957)
+
 ## 2.0.0.2 (2023-03-17)
 
 [pycocotools] Fix COCOeval.eval and Params.areaRng (#9897)

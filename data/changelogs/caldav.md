@@ -1,3 +1,7 @@
+## 1.2.0.1 (2023-03-27)
+
+Add defaults for third-party stubs A-D (#9952)
+
 ## 1.2.0.0 (2023-02-27)
 
 Update caldav to 1.2 (#9821)

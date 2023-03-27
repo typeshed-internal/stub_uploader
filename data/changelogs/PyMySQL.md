@@ -1,3 +1,7 @@
+## 1.0.19.6 (2023-03-27)
+
+Add default values for third-party stubs beginning with 'P' (#9957)
+
 ## 1.0.19.5 (2023-02-22)
 
 Update `Unused` parameters in `stubs/` (#9704)

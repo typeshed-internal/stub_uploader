@@ -1,3 +1,7 @@
+## 0.8.0.7 (2023-03-27)
+
+Add defaults for third-party stubs M-O (#9956)
+
 ## 0.8.0.6 (2023-02-22)
 
 Update `Unused` parameters in `stubs/` (#9704)

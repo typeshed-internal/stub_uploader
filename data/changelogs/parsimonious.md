@@ -1,3 +1,7 @@
+## 0.10.0.8 (2023-03-27)
+
+Add default values for third-party stubs beginning with 'P' (#9957)
+
 ## 0.10.0.7 (2023-03-09)
 
 `parsimonious`: Update return types of `NodeVisitor`'s methods (#9564)

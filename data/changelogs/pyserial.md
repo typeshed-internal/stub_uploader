@@ -1,3 +1,7 @@
+## 3.5.0.8 (2023-03-27)
+
+Add default values for third-party stubs beginning with 'P' (#9957)
+
 ## 3.5.0.7 (2023-03-09)
 
 pyserial: Fix read and write methods (#9825)

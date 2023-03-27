@@ -1,3 +1,7 @@
+## 3.2.0.7 (2023-03-27)
+
+Add defaults for third-party stubs M-O (#9956)
+
 ## 3.2.0.6 (2023-03-11)
 
 [oauthlib] Add types in oauth1/rfc5849/request_validator.pyi (#9844)

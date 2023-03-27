@@ -1,3 +1,7 @@
+## 2.11.0.15 (2023-03-27)
+
+Add defaults for third-party stubs A-D (#9952)
+
 ## 2.11.0.14 (2023-02-26)
 
 Improve many `__(a)exit__` annotations (#9696)

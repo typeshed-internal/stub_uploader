@@ -1,3 +1,7 @@
+## 1.3.0.9 (2023-03-27)
+
+Add default values for third-party stubs beginning with 'P' (#9957)
+
 ## 1.3.0.8 (2023-03-25)
 
 Use of twisted in pika (#9494)

@@ -1,3 +1,7 @@
+## 2.11.0.12 (2023-03-27)
+
+Add defaults for third-party stubs A-D (#9952)
+
 ## 2.11.0.11 (2023-02-28)
 
 babel: Mark babel as obsolete since 2.12.1 (#9832)

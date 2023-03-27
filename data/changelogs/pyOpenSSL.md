@@ -1,3 +1,7 @@
+## 23.1.0.1 (2023-03-27)
+
+Add default values for third-party stubs beginning with 'P' (#9957)
+
 ## 23.1.0.0 (2023-03-25)
 
 Update pyOpenSSL to 23.1.* (#9939)

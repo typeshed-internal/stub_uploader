@@ -1,3 +1,7 @@
+## 2.14.0.7 (2023-03-27)
+
+Add default values for third-party stubs beginning with 'P' (#9957)
+
 ## 2.14.0.6 (2023-03-08)
 
 Pygments: fix get_style_by_name return type (#9803)

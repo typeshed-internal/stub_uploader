@@ -1,3 +1,7 @@
+## 5.9.5.11 (2023-03-27)
+
+Add default values for third-party stubs beginning with 'P' (#9957)
+
 ## 5.9.5.10 (2023-03-08)
 
 psutil: sconn.pid can be None (#9853)

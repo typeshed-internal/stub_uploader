@@ -1,3 +1,7 @@
+## 10.0.1.9 (2023-03-27)
+
+Add defaults for third-party stubs E-H (#9954)
+
 ## 10.0.1.8 (2023-02-26)
 
 Improve many `__(a)exit__` annotations (#9696)

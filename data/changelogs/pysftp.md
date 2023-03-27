@@ -1,3 +1,7 @@
+## 0.2.17.4 (2023-03-27)
+
+Add default values for third-party stubs beginning with 'P' (#9957)
+
 ## 0.2.17.3 (2023-03-24)
 
 pysftp: CnOpts.hostkeys can be None (#9937)

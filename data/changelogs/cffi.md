@@ -1,3 +1,7 @@
+## 1.15.1.10 (2023-03-27)
+
+Add defaults for third-party stubs A-D (#9952)
+
 ## 1.15.1.9 (2023-03-27)
 
 [cffi] add some return types (#9949)

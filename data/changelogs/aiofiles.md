@@ -1,3 +1,7 @@
+## 23.1.0.1 (2023-03-27)
+
+Add defaults for third-party stubs A-D (#9952)
+
 ## 23.1.0.0 (2023-03-09)
 
 Update `aiofiles` for v23.1.* (#9711)

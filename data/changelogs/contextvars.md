@@ -1,3 +1,7 @@
+## 2.4.7.2 (2023-03-27)
+
+contextvars: widen return value of ContextVar.get(default) (#9953)
+
 ## 2.4.7.1 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)

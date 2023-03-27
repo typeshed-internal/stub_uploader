@@ -1,3 +1,7 @@
+## 4.12.0.1 (2023-03-27)
+
+Add defaults for third-party stubs A-D (#9952)
+
 ## 4.12.0.0 (2023-03-21)
 
 [stubsabot] Bump beautifulsoup4 to 4.12.* (#9910)

@@ -1,3 +1,7 @@
+## 9.4.0.18 (2023-03-27)
+
+Add default values for third-party stubs beginning with 'P' (#9957)
+
 ## 9.4.0.17 (2023-02-26)
 
 Improve many `__(a)exit__` annotations (#9696)

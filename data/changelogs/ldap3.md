@@ -1,3 +1,7 @@
+## 2.9.13.12 (2023-03-27)
+
+Add defaults for third-party stubs I-L (#9955)
+
 ## 2.9.13.11 (2023-02-22)
 
 Update `Unused` parameters in `stubs/` (#9704)

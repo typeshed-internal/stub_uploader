@@ -1,3 +1,7 @@
+## 0.22.0.1 (2023-03-27)
+
+Add defaults for third-party stubs E-H (#9954)
+
 ## 0.22.0.0 (2023-03-22)
 
 [stubsabot] Bump httplib2 to 0.22.* (#9916)

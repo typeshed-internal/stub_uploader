@@ -1,3 +1,7 @@
+## 2.8.19.11 (2023-03-27)
+
+Add default values for third-party stubs beginning with 'P' (#9957)
+
 ## 2.8.19.10 (2023-03-01)
 
 Add rrule.__iter__ return type (#9828)
