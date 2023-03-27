@@ -1,3 +1,7 @@
+## 0.33.0.10 (2023-03-27)
+
+Add more default values to python-xlib (#9960)
+
 ## 0.33.0.9 (2023-03-22)
 
 Add defaults for params and constants in python-xlib (#9642)
