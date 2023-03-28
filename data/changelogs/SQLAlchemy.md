@@ -1,3 +1,7 @@
+## 1.4.53.35 (2023-03-28)
+
+Add defaults for third-party stubs Q-T (#9959)
+
 ## 1.4.53.34 (2023-03-15)
 
 [SQLAlchemy] Annotate row classes (#9568)

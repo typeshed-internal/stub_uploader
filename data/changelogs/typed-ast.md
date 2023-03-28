@@ -1,3 +1,7 @@
+## 1.5.8.6 (2023-03-28)
+
+Add defaults for third-party stubs Q-T (#9959)
+
 ## 1.5.8.5 (2023-03-11)
 
 typed_ast: Add missing field to `typed_ast.ast3.TypeIgnore` (#9868)

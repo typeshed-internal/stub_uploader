@@ -1,3 +1,7 @@
+## 67.6.0.6 (2023-03-28)
+
+Add defaults for third-party stubs Q-T (#9959)
+
 ## 67.6.0.5 (2023-03-17)
 
 distutils/setuptools: Don't use wildcards for allowlist entries (#9900)

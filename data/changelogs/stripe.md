@@ -1,3 +1,7 @@
+## 3.5.2.9 (2023-03-28)
+
+Add defaults for third-party stubs Q-T (#9959)
+
 ## 3.5.2.8 (2023-02-27)
 
 [stripe] Add Session.expire() (#9814)

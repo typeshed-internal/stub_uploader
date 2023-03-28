@@ -1,3 +1,7 @@
+## 2.28.11.17 (2023-03-28)
+
+Add defaults for third-party stubs Q-T (#9959)
+
 ## 2.28.11.16 (2023-03-22)
 
 Add type to requests.models.RequestEncodingMixin.path_url (#9923)

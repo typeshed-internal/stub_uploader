@@ -1,3 +1,7 @@
+## 0.9.0.2 (2023-03-28)
+
+Add defaults for third-party stubs Q-T (#9959)
+
 ## 0.9.0.1 (2023-02-21)
 
 Add missing symbols to `tabulate` (#9781)

@@ -1,3 +1,7 @@
+## 4.65.0.1 (2023-03-28)
+
+Add defaults for third-party stubs Q-T (#9959)
+
 ## 4.65.0.0 (2023-03-04)
 
 Update `tqdm` stubs to 4.65.* (#9840)

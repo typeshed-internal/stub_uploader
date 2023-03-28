@@ -1,3 +1,7 @@
+## 3.18.0.2 (2023-03-28)
+
+Add defaults for third-party stubs Q-T (#9959)
+
 ## 3.18.0.1 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)

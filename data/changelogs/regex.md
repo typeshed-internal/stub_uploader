@@ -1,3 +1,7 @@
+## 2023.3.23.1 (2023-03-28)
+
+Add defaults for third-party stubs Q-T (#9959)
+
 ## 2023.3.23.0 (2023-03-24)
 
 [stubsabot] Bump regex to 2023.3.23 (#9933)

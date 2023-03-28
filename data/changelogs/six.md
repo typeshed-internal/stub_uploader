@@ -1,3 +1,7 @@
+## 1.16.21.8 (2023-03-28)
+
+Add defaults for third-party stubs Q-T (#9959)
+
 ## 1.16.21.7 (2023-03-08)
 
 Replace `object | None` with `object` (#9857)

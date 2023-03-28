@@ -1,3 +1,9 @@
+## 4.5.3.1 (2023-03-28)
+
+Add retry parameters to redis.client.from_url (#9969)
+
+Add defaults for third-party stubs Q-T (#9959)
+
 ## 4.5.3.0 (2023-03-23)
 
 [stubsabot] Bump redis to 4.5.3 (#9928)
