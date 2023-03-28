@@ -1,3 +1,7 @@
+## 2.15.0.2 (2023-03-28)
+
+Ran stubdefaulter for `hdbcli` (#9962)
+
 ## 2.15.0.1 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)

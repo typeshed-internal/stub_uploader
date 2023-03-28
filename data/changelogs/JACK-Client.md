@@ -1,3 +1,7 @@
+## 0.5.10.8 (2023-03-28)
+
+Add default values to `JACK-Client` (#9964)
+
 ## 0.5.10.7 (2023-02-26)
 
 Improve many `__(a)exit__` annotations (#9696)

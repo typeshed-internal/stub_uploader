@@ -1,3 +1,7 @@
+## 1.1.6.2 (2023-03-28)
+
+Add default values for termcolor (#9963)
+
 ## 1.1.6.1 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
