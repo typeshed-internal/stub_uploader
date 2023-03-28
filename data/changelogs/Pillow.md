@@ -1,3 +1,7 @@
+## 9.4.0.19 (2023-03-28)
+
+Delete some unnecessary type aliases in tkinter (#9970)
+
 ## 9.4.0.18 (2023-03-27)
 
 Add default values for third-party stubs beginning with 'P' (#9957)

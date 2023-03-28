@@ -1,3 +1,7 @@
+## 1.0.2.4 (2023-03-28)
+
+Add defaults to third-party stubs U-Z (#9971)
+
 ## 1.0.2.3 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)

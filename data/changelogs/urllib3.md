@@ -1,3 +1,7 @@
+## 1.26.25.10 (2023-03-28)
+
+Add defaults to third-party stubs U-Z (#9971)
+
 ## 1.26.25.9 (2023-03-26)
 
 Add types to urllib3.filepost stubs (#9924)
