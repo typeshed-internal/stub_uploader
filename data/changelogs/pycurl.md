@@ -1,3 +1,9 @@
+## 7.45.2.4 (2023-03-29)
+
+Fix a default in `pycurl` and update `apt_dependencies` (#9961)
+
+Fix 1 default and update apt dependencies
+
 ## 7.45.2.3 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
