@@ -1,3 +1,9 @@
+## 4.5.4.0 (2023-03-29)
+
+[redis] Fix type of connection_class in ConnectionPool (#9981)
+
+Update stubs to 4.5.4
+
 ## 4.5.3.1 (2023-03-28)
 
 Add retry parameters to redis.client.from_url (#9969)
