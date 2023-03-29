@@ -1,3 +1,9 @@
+## 3.18.0.3 (2023-03-29)
+
+Remove unnecessary ellipsis expressions (#9976)
+
+Ignore flake8 F821 warnings in stub files
+
 ## 3.18.0.2 (2023-03-28)
 
 Add defaults for third-party stubs Q-T (#9959)

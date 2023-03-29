@@ -1,3 +1,7 @@
+## 1.3.0.10 (2023-03-29)
+
+Add default values to `pika.spec` (#9973)
+
 ## 1.3.0.9 (2023-03-27)
 
 Add default values for third-party stubs beginning with 'P' (#9957)

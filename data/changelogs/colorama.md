@@ -1,3 +1,11 @@
+## 0.4.15.10 (2023-03-29)
+
+Remove unnecessary `= ...`s; bump pyright test dependency to 1.1.301 (#9972)
+
+Remove unnecessary ellipsis expressions (#9976)
+
+Ignore flake8 F821 warnings in stub files
+
 ## 0.4.15.9 (2023-03-27)
 
 Add defaults for third-party stubs A-D (#9952)
