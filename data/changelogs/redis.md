@@ -1,3 +1,7 @@
+## 4.5.4.1 (2023-03-30)
+
+[redis] Add CredentialProvider types to __init__.pyi (#9982)
+
 ## 4.5.4.0 (2023-03-29)
 
 [redis] Fix type of connection_class in ConnectionPool (#9981)

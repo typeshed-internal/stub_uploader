@@ -1,3 +1,7 @@
+## 0.4.15.11 (2023-03-30)
+
+colorama.winterm: ClassVar -> Final for WinColor and WinStyle (#9983)
+
 ## 0.4.15.10 (2023-03-29)
 
 Remove unnecessary `= ...`s; bump pyright test dependency to 1.1.301 (#9972)
