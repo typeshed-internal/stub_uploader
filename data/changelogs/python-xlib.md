@@ -1,3 +1,7 @@
+## 0.33.0.11 (2023-03-30)
+
+`Xlib`: Use `bool` for parameters where the default is `False` (#9990)
+
 ## 0.33.0.10 (2023-03-27)
 
 Add more default values to python-xlib (#9960)
