@@ -1,3 +1,7 @@
+## 2023.3.0.0 (2023-03-30)
+
+[stubsabot] Bump pytz to 2023.3 (#9984)
+
 ## 2023.2.0.1 (2023-03-27)
 
 Add default values for third-party stubs beginning with 'P' (#9957)
