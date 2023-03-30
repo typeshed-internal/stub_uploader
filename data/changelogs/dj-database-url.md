@@ -1,3 +1,13 @@
+## 1.3.0.0 (2023-03-30)
+
+Bump dj-database-url to 1.3.* (#9975)
+
+Release: https://pypi.org/pypi/dj-database-url/1.3.0
+Homepage: https://github.com/jazzband/dj-database-url
+Diff: https://github.com/jazzband/dj-database-url/compare/v1.2.0...v1.3.0
+
+Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
+
 ## 1.2.0.1 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
