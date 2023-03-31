@@ -1,3 +1,10 @@
+## 0.20.0.0 (2023-03-31)
+
+[stubsabot] Bump flake8-simplify to 0.20.* (#9993)
+
+Release: https://pypi.org/pypi/flake8-simplify/0.20.0
+Homepage: https://github.com/MartinThoma/flake8-simplify
+
 ## 0.19.0.1 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
