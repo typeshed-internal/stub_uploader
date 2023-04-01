@@ -1,3 +1,11 @@
+## 0.1.0.5 (2023-04-01)
+
+Mark `types-D3DShot` as no longer updated (#8929)
+
+`D3DShot` is an archived repo
+
+Link: https://github.com/SerpentAI/D3DShot
+
 ## 0.1.0.4 (2023-02-22)
 
 Update `Unused` parameters in `stubs/` (#9704)
