@@ -1,3 +1,7 @@
+## 4.22.0.1 (2023-04-03)
+
+Fix return type of protobuf.ScalarMap.get() (#9996)
+
 ## 4.22.0.0 (2023-02-28)
 
 Update protobuf for v4.22 (#9824)
