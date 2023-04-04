@@ -1,3 +1,7 @@
+## 3.0.0.7 (2023-04-04)
+
+`google-cloud-ndb`, `paramiko`, `setuptools`: remove unnecessary `= ...`s (#10011)
+
 ## 3.0.0.6 (2023-03-29)
 
 Remove unnecessary ellipsis expressions (#9976)

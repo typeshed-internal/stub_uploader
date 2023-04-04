@@ -1,3 +1,7 @@
+## 2.8.19.12 (2023-04-04)
+
+Various improvements to `dateutil.rrule` stubs (#10009)
+
 ## 2.8.19.11 (2023-03-27)
 
 Add default values for third-party stubs beginning with 'P' (#9957)

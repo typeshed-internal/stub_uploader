@@ -1,3 +1,7 @@
+## 2.1.0.6 (2023-04-04)
+
+`google-cloud-ndb`, `paramiko`, `setuptools`: remove unnecessary `= ...`s (#10011)
+
 ## 2.1.0.5 (2023-02-22)
 
 Update `Unused` parameters in `stubs/` (#9704)

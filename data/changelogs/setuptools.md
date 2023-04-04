@@ -1,3 +1,7 @@
+## 67.6.0.7 (2023-04-04)
+
+`google-cloud-ndb`, `paramiko`, `setuptools`: remove unnecessary `= ...`s (#10011)
+
 ## 67.6.0.6 (2023-03-28)
 
 Add defaults for third-party stubs Q-T (#9959)
