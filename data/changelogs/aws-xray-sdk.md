@@ -1,3 +1,20 @@
+## 2.12.0.0 (2023-04-04)
+
+Update aws-xray-sdk to 2.12.* (#10005)
+
+Release: https://pypi.org/pypi/aws-xray-sdk/2.12.0
+Homepage: https://github.com/aws/aws-xray-sdk-python
+Diff: https://github.com/aws/aws-xray-sdk-python/compare/2.11.0...2.12.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 5 files included in typeshed's stubs have been modified or renamed: `aws_xray_sdk/core/async_recorder.py`, `aws_xray_sdk/core/context.py`, `aws_xray_sdk/core/patcher.py`, `aws_xray_sdk/core/recorder.py`, `aws_xray_sdk/version.py`.
+ - Total lines of Python code added: 148.
+ - Total lines of Python code deleted: 132.
+
+Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
+
 ## 2.11.0.15 (2023-03-27)
 
 Add defaults for third-party stubs A-D (#9952)

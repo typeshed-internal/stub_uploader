@@ -1,3 +1,7 @@
+## 3.4.2.7 (2023-04-04)
+
+Various improvements to `Markdown` stubs (#10008)
+
 ## 3.4.2.6 (2023-03-27)
 
 Add defaults for third-party stubs M-O (#9956)
