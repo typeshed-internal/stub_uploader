@@ -1,3 +1,9 @@
+## 1.15.1.11 (2023-04-06)
+
+cffi: fix FFI.string signature (#10012)
+
+Keeps _cffi_backend.pyi consistent with api.pyi
+
 ## 1.15.1.10 (2023-03-27)
 
 Add defaults for third-party stubs A-D (#9952)
