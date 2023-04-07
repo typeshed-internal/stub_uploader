@@ -1,3 +1,10 @@
+## 4.19.0.0 (2023-04-07)
+
+[stubsabot] Bump braintree to 4.19.* (#10017)
+
+Release: https://pypi.org/pypi/braintree/4.19.0
+Homepage: https://developer.paypal.com/braintree/docs/reference/overview
+
 ## 4.18.0.3 (2023-03-27)
 
 Add defaults for third-party stubs A-D (#9952)
