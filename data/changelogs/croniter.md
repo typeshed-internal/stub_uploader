@@ -1,3 +1,9 @@
+## 1.3.2.8 (2023-04-09)
+
+Update `croniter` to 1.3.10 (#10027)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 1.3.2.7 (2023-03-27)
 
 Add defaults for third-party stubs A-D (#9952)

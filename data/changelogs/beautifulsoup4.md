@@ -1,3 +1,9 @@
+## 4.12.0.3 (2023-04-09)
+
+bs4: update for 4.12.2 (#10026)
+
+Release: https://pypi.org/project/beautifulsoup4/4.12.2/
+
 ## 4.12.0.2 (2023-04-06)
 
 bs4: update for 4.12.1 (#10015)
