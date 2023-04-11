@@ -1,3 +1,19 @@
+## 2.15.0.0 (2023-04-11)
+
+[stubsabot] Bump Pygments to 2.15.* (#10030)
+
+Release: https://pypi.org/pypi/Pygments/2.15.0
+Homepage: https://pygments.org
+Changelog: https://github.com/pygments/pygments/blob/master/CHANGES
+Diff: https://github.com/pygments/pygments/compare/2.14.0...2.15.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 3 public Python files have been added: `pygments/lexers/carbon.py`, `pygments/lexers/dax.py`, `pygments/lexers/wgsl.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 28 files included in typeshed's stubs have been modified or renamed.
+ - Total lines of Python code added: 2582.
+ - Total lines of Python code deleted: 502.
+
 ## 2.14.0.7 (2023-03-27)
 
 Add default values for third-party stubs beginning with 'P' (#9957)
