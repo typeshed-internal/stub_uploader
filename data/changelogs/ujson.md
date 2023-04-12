@@ -1,3 +1,7 @@
+## 5.7.0.2 (2023-04-12)
+
+[ujson] Update stubs with new features (#10035)
+
 ## 5.7.0.1 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)

@@ -1,3 +1,9 @@
+## 23.1.0.2 (2023-04-12)
+
+[pyOpenSSL] Fix return type of SSLeay_version (#10037)
+
+Closes: #10024
+
 ## 23.1.0.1 (2023-03-27)
 
 Add default values for third-party stubs beginning with 'P' (#9957)
