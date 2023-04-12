@@ -1,3 +1,7 @@
+## 5.10.0.0 (2023-04-12)
+
+[stubsabot] Bump pyinstaller to 5.10.* (#10034)
+
 ## 5.9.0.1 (2023-03-27)
 
 Add default values for third-party stubs beginning with 'P' (#9957)
