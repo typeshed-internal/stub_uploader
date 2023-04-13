@@ -1,3 +1,9 @@
+## 1.3.2.9 (2023-04-13)
+
+Delete allowlist for croniter (#10041)
+
+Fixes #10040
+
 ## 1.3.2.8 (2023-04-09)
 
 Update `croniter` to 1.3.10 (#10027)
