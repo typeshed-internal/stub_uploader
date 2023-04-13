@@ -1,3 +1,7 @@
+## 2.15.0.3 (2023-04-13)
+
+Style: prefer `type[Foo | Bar]` over `type[Foo] | type[Bar]` (#10039)
+
 ## 2.15.0.2 (2023-03-28)
 
 Ran stubdefaulter for `hdbcli` (#9962)

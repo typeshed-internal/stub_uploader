@@ -1,3 +1,7 @@
+## 0.33.0.12 (2023-04-13)
+
+Style: prefer `type[Foo | Bar]` over `type[Foo] | type[Bar]` (#10039)
+
 ## 0.33.0.11 (2023-03-30)
 
 `Xlib`: Use `bool` for parameters where the default is `False` (#9990)

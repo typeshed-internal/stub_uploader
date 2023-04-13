@@ -1,3 +1,7 @@
+## 0.8.0.8 (2023-04-13)
+
+Style: prefer `type[Foo | Bar]` over `type[Foo] | type[Bar]` (#10039)
+
 ## 0.8.0.7 (2023-03-27)
 
 Add defaults for third-party stubs M-O (#9956)

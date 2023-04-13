@@ -1,3 +1,7 @@
+## 1.15.1.12 (2023-04-13)
+
+[cffi] dlopen(None) works when platform != win32 (#10042)
+
 ## 1.15.1.11 (2023-04-06)
 
 cffi: fix FFI.string signature (#10012)

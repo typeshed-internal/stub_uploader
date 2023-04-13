@@ -1,3 +1,7 @@
+## 3.1.0.4 (2023-04-13)
+
+[openpyxl] Annotate _WorkbookChild.title property (#10043)
+
 ## 3.1.0.3 (2023-03-26)
 
 Ran stubdefaulter for `stubs/openpyxl` (#9946)
