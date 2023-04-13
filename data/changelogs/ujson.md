@@ -1,3 +1,7 @@
+## 5.7.0.3 (2023-04-13)
+
+Make most ujson.dump() parameters keyword-only (#10044)
+
 ## 5.7.0.2 (2023-04-12)
 
 [ujson] Update stubs with new features (#10035)
