@@ -1,3 +1,12 @@
+## 9.5.0.0 (2023-04-14)
+
+Bump Pillow to 9.5.* (#10046)
+
+Release: https://pypi.org/pypi/Pillow/9.5.0
+Homepage: https://python-pillow.org
+Changelog: https://github.com/python-pillow/Pillow/blob/main/CHANGES.rst
+Diff: https://github.com/python-pillow/Pillow/compare/9.4.0...9.5.0
+
 ## 9.4.0.19 (2023-03-28)
 
 Delete some unnecessary type aliases in tkinter (#9970)
