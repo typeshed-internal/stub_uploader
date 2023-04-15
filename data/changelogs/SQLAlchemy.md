@@ -1,3 +1,10 @@
+## 1.4.53.36 (2023-04-15)
+
+Fix all fixable stubtest_allowlist entries in SQLAlchemy (#9596)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 1.4.53.35 (2023-03-28)
 
 Add defaults for third-party stubs Q-T (#9959)
