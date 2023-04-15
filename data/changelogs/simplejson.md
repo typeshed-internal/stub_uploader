@@ -1,3 +1,7 @@
+## 3.19.0.0 (2023-04-15)
+
+Bump simplejson to 3.19.* (#10049)
+
 ## 3.18.0.3 (2023-03-29)
 
 Remove unnecessary ellipsis expressions (#9976)
