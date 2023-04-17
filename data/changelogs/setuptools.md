@@ -1,3 +1,9 @@
+## 67.6.0.8 (2023-04-17)
+
+Add missing exception classes in `setuptools.errors` (#10057)
+
+Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
+
 ## 67.6.0.7 (2023-04-04)
 
 `google-cloud-ndb`, `paramiko`, `setuptools`: remove unnecessary `= ...`s (#10011)
