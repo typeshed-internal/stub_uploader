@@ -1,3 +1,7 @@
+## 9.5.0.1 (2023-04-17)
+
+[Pillow] Add Base and GPS enums in PIL.ExifTags (#10051)
+
 ## 9.5.0.0 (2023-04-14)
 
 Bump Pillow to 9.5.* (#10046)

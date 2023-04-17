@@ -1,3 +1,7 @@
+## 0.13.2.7 (2023-04-17)
+
+`keyboard` : Update `stubtest_allowlist` and add comments for missing defaults (#9965)
+
 ## 0.13.2.6 (2023-03-27)
 
 Add defaults for third-party stubs I-L (#9955)
