@@ -1,3 +1,9 @@
+## 5.9.5.12 (2023-04-20)
+
+psutil: fix stubtest (#10065)
+
+Fixes #10059
+
 ## 5.9.5.11 (2023-03-27)
 
 Add default values for third-party stubs beginning with 'P' (#9957)
