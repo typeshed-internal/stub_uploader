@@ -1,3 +1,11 @@
+## 67.7.0.0 (2023-04-22)
+
+setuptools: bump to 67.7 (#10069)
+
+Fixes #10067
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 67.6.0.8 (2023-04-17)
 
 Add missing exception classes in `setuptools.errors` (#10057)
