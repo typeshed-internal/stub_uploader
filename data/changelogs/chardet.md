@@ -1,3 +1,7 @@
+## 5.0.4.4 (2023-04-24)
+
+Simplify `chardet` type imports (#10080)
+
 ## 5.0.4.3 (2023-03-27)
 
 Add defaults for third-party stubs A-D (#9952)

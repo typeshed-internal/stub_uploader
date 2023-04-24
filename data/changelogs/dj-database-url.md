@@ -1,3 +1,7 @@
+## 1.3.0.1 (2023-04-24)
+
+[dj-database-url] Fix CONN_MAX_AGE and conn_max_age types (#10075)
+
 ## 1.3.0.0 (2023-03-30)
 
 Bump dj-database-url to 1.3.* (#9975)
