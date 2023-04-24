@@ -1,3 +1,9 @@
+## 2.15.0.4 (2023-04-24)
+
+hdbcli: Fix wrong connection argument name (#10070)
+
+The name should be `user` and not `username`
+
 ## 2.15.0.3 (2023-04-13)
 
 Style: prefer `type[Foo | Bar]` over `type[Foo] | type[Bar]` (#10039)
