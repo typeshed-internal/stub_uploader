@@ -1,3 +1,11 @@
+## 3.0.0.8 (2023-04-25)
+
+`paramiko`: Be more lenient for client parameter types (#10083)
+
+Use Mapping instead of dict for better covariance
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 3.0.0.7 (2023-04-04)
 
 `google-cloud-ndb`, `paramiko`, `setuptools`: remove unnecessary `= ...`s (#10011)
