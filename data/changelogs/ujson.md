@@ -1,3 +1,13 @@
+## 5.7.0.4 (2023-04-25)
+
+Loosen constraints on ujson file functions (#10081)
+
+Like `json.dump`, `ujson.dump` takes any object that has a
+string-accepting `.write` method.
+
+Similarly, `ujson.load` works with any object with a `.read()` that
+returns either a string or a bytes
+
 ## 5.7.0.3 (2023-04-13)
 
 Make most ujson.dump() parameters keyword-only (#10044)
