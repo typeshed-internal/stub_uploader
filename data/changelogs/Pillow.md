@@ -1,3 +1,9 @@
+## 9.5.0.2 (2023-04-26)
+
+Add a return type for `PIL.Image.load` (#9466)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 9.5.0.1 (2023-04-17)
 
 [Pillow] Add Base and GPS enums in PIL.ExifTags (#10051)
