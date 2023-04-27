@@ -1,3 +1,7 @@
+## 2.12.0.1 (2023-04-27)
+
+tensorflow: Add legacy optimizers (#9997)
+
 ## 2.12.0.0 (2023-03-23)
 
 [stubsabot] Bump tensorflow to 2.12.* (#9926)

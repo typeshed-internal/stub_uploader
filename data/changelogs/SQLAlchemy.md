@@ -1,3 +1,9 @@
+## 1.4.53.37 (2023-04-27)
+
+Mark SQLAlchemy stubs with `ignore_missing_stub = false` (#9653)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 1.4.53.36 (2023-04-15)
 
 Fix all fixable stubtest_allowlist entries in SQLAlchemy (#9596)
