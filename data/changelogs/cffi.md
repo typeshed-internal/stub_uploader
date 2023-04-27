@@ -1,3 +1,9 @@
+## 1.15.1.13 (2023-04-27)
+
+cffi: improve getitem and setitem (#9968)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 1.15.1.12 (2023-04-13)
 
 [cffi] dlopen(None) works when platform != win32 (#10042)
