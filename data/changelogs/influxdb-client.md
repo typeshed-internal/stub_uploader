@@ -1,3 +1,7 @@
+## 1.36.0.8 (2023-04-27)
+
+influxdb-client: fix stubtest (#10090)
+
 ## 1.36.0.7 (2023-03-27)
 
 Add defaults for third-party stubs I-L (#9955)

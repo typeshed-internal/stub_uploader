@@ -1,3 +1,13 @@
+## 1.26.25.11 (2023-04-27)
+
+[stubsabot] Mark urllib3 as obsolete since 2.0.0 (#10087)
+
+Release: https://pypi.org/pypi/urllib3/2.0.0
+Changelog: https://github.com/urllib3/urllib3/blob/main/CHANGES.rst
+Diff: https://github.com/urllib3/urllib3/compare/1.26.15...2.0.0
+
+Co-authored-by: stubsabot <>
+
 ## 1.26.25.10 (2023-03-28)
 
 Add defaults to third-party stubs U-Z (#9971)
