@@ -1,3 +1,10 @@
+## 2.12.0.2 (2023-04-27)
+
+tensorflow: feature columns (#10052)
+
+Co-authored-by: Mehdi Drissi <mdrissi@snapchat.com>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 2.12.0.1 (2023-04-27)
 
 tensorflow: Add legacy optimizers (#9997)
