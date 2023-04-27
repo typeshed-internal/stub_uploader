@@ -171,6 +171,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "cryptography",
     "numpy",
     "torch",
+    "urllib3",
 }
 
 
