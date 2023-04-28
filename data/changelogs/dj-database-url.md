@@ -1,3 +1,13 @@
+## 1.3.0.2 (2023-04-28)
+
+[stubsabot] Mark dj-database-url as obsolete since 2.0.0 (#10094)
+
+Release: https://pypi.org/pypi/dj-database-url/2.0.0
+Homepage: https://github.com/jazzband/dj-database-url
+Diff: https://github.com/jazzband/dj-database-url/compare/v1.3.0...v2.0.0
+
+Co-authored-by: stubsabot <>
+
 ## 1.3.0.1 (2023-04-24)
 
 [dj-database-url] Fix CONN_MAX_AGE and conn_max_age types (#10075)
