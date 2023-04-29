@@ -1,3 +1,7 @@
+## 2.29.0.0 (2023-04-29)
+
+Update `requests` for v2.29 (#10097)
+
 ## 2.28.11.17 (2023-03-28)
 
 Add defaults for third-party stubs Q-T (#9959)
