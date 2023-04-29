@@ -1,3 +1,7 @@
+## 2.16.0.0 (2023-04-29)
+
+Update `hdbcli` to `2.16` and mark as completed (#10101)
+
 ## 2.15.0.4 (2023-04-24)
 
 hdbcli: Fix wrong connection argument name (#10070)

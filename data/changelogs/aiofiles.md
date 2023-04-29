@@ -1,3 +1,9 @@
+## 23.1.0.2 (2023-04-29)
+
+aiofiles: use ReadableBuffer (#10105)
+
+Part of #9006
+
 ## 23.1.0.1 (2023-03-27)
 
 Add defaults for third-party stubs A-D (#9952)

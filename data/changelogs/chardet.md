@@ -1,3 +1,12 @@
+## 5.0.4.5 (2023-04-29)
+
+chardet: UniversalDetector.feed accepts bytearray (#10107)
+
+Technically it accepts any buffer, but the inline type annotations
+now say bytes | bytearray, so let's stick to that.
+
+Part of #9006
+
 ## 5.0.4.4 (2023-04-24)
 
 Simplify `chardet` type imports (#10080)

@@ -1,3 +1,9 @@
+## 4.12.0.4 (2023-04-29)
+
+bs4: NavigableString accepts ReadableBuffer (#10106)
+
+It delegates to str.__new__.
+
 ## 4.12.0.3 (2023-04-09)
 
 bs4: update for 4.12.2 (#10026)

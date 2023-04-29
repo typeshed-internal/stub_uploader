@@ -1,3 +1,13 @@
+## 0.19.1.8 (2023-04-29)
+
+docutils: Input can take bytearray (#10108)
+
+Part of #9006
+
+docutils: add nodes.General; make Element iterable (#10099)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 0.19.1.7 (2023-03-27)
 
 Add defaults for third-party stubs A-D (#9952)
