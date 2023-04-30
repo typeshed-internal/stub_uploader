@@ -1,3 +1,7 @@
+## 1.26.25.12 (2023-04-30)
+
+`urllib3`: move stubs for `ssl_match_hostname` around (#10117)
+
 ## 1.26.25.11 (2023-04-27)
 
 [stubsabot] Mark urllib3 as obsolete since 2.0.0 (#10087)
