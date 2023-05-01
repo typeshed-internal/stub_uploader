@@ -1,3 +1,9 @@
+## 5.7.0.5 (2023-05-01)
+
+Convert the remaining ujson uses of AnyStr (#10086)
+
+Followup from #10081
+
 ## 5.7.0.4 (2023-04-25)
 
 Loosen constraints on ujson file functions (#10081)
