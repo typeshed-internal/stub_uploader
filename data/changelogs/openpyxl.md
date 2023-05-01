@@ -1,3 +1,7 @@
+## 3.1.0.5 (2023-05-01)
+
+Remove unnecessary F821 noqas (#10123)
+
 ## 3.1.0.4 (2023-04-13)
 
 [openpyxl] Annotate _WorkbookChild.title property (#10043)

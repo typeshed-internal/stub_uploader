@@ -1,3 +1,7 @@
+## 1.7.7.12 (2023-05-01)
+
+Remove unnecessary F821 noqas (#10123)
+
 ## 1.7.7.11 (2023-03-27)
 
 Add default values for third-party stubs beginning with 'P' (#9957)

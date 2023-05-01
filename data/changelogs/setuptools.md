@@ -1,3 +1,7 @@
+## 67.7.0.1 (2023-05-01)
+
+Avoid unnecessary forward refs in class definitions (#10124)
+
 ## 67.7.0.0 (2023-04-22)
 
 setuptools: bump to 67.7 (#10069)

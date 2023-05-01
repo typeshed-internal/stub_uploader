@@ -1,3 +1,7 @@
+## 1.4.53.38 (2023-05-01)
+
+Avoid unnecessary forward refs in class definitions (#10124)
+
 ## 1.4.53.37 (2023-04-27)
 
 Mark SQLAlchemy stubs with `ignore_missing_stub = false` (#9653)
