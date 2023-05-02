@@ -217,7 +217,7 @@ def collect_setup_entries(base_dir: str) -> dict[str, list[str]]:
     return package_data
 
 
-def add_partial_marker(package_data: dict[str, list[str]], stub_dir: str):
+def add_partial_marker(package_data: dict[str, list[str]], stub_dir: str) -> None:
     for entry, files in package_data.items():
         entry_path = os.path.join(stub_dir, entry)
         if not os.path.exists(entry_path):
