@@ -200,7 +200,6 @@ def get_sdist_requires(
     requires_filepath = Path(folder_name, "*.egg-info", "requires.txt")
     matches = glob(str(requires_filepath))
     for match in matches:
-        lines: list[str] = []
         with open(match) as requires_file:
             lines = requires_file.readlines()
         for line in lines:
