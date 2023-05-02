@@ -98,6 +98,7 @@ types-maxminddb
 types-mock
 types-mypy-extensions
 types-mysqlclient
+types-netaddr
 types-nmap
 types-oauthlib
 types-openpyxl
@@ -135,6 +136,7 @@ types-pyserial
 types-pysftp
 types-pytest-lazy-fixture
 types-python-crontab
+types-python-datemath
 types-python-dateutil
 types-python-gflags
 types-python-jose
@@ -158,6 +160,7 @@ types-slumber
 types-stdlib-list
 types-stripe
 types-tabulate
+types-tensorflow
 types-termcolor
 types-toml
 types-toposort

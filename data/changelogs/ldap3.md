@@ -1,3 +1,15 @@
+## 2.9.13.5 (2023-01-14)
+
+Resolve stubtest allowlist entries for `ldap3` (#9532)
+
+## 2.9.13.4 (2023-01-12)
+
+Overhaul `ldap3` stubs (#9470)
+
+Add a dependency on `types-pyasn1`, removing the need to subclass `Any`. Fill in many missing types. Use `Incomplete` rather than `Any` where applicable.
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 2.9.13.3 (2022-11-23)
 
 Mark first argument of `__[get|set|del]attr__` as `str` (#9245)

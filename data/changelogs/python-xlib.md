@@ -1,3 +1,9 @@
+## 0.33.0.2 (2023-01-16)
+
+`Xlib`: Import `Pattern` from `re`, not `typing` (#9544)
+
+Refs https://github.com/PyCQA/flake8-pyi/pull/324
+
 ## 0.33.0.1 (2023-01-03)
 
 Re-enable NQA102 (#9426)

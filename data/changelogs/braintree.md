@@ -1,3 +1,10 @@
+## 4.18.0.0 (2023-01-12)
+
+[stubsabot] Bump braintree to 4.18.* (#9502)
+
+Release: https://pypi.org/pypi/braintree/4.18.0
+Homepage: https://developer.paypal.com/braintree/docs/reference/overview
+
 ## 4.17.0.1 (2022-11-09)
 
 Annotate known magic-method return types (#9131)

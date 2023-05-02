@@ -1,3 +1,9 @@
+## 23.0.0.1 (2023-01-10)
+
+Delete stubs for `cryptography` (#9459)
+
+Typeshed's stubs for `paramiko` and `pyOpenSSL` now depend on the `cryptography` package, which now provides inline types at runtime
+
 ## 23.0.0.0 (2023-01-03)
 
 [stubsabot] Bump pyOpenSSL to 23.0.* (#9446)

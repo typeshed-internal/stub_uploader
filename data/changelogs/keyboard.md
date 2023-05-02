@@ -1,3 +1,7 @@
+## 0.13.2.3 (2023-01-13)
+
+Allowlist-only fixes for stubtest on Windows (#9522)
+
 ## 0.13.2.2 (2022-11-14)
 
 Comments explaining why `keyboard` and `tzlocal` are not run on multiple platforms (#9188)

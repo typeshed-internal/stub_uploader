@@ -1,3 +1,7 @@
+## 305.0.0.6 (2023-01-13)
+
+Allowlist-only fixes for stubtest on Windows (#9522)
+
 ## 305.0.0.5 (2022-12-28)
 
 Check for unused `pyright: ignore` and differentiate from mypy ignores (#9397)
