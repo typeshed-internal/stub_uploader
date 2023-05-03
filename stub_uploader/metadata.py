@@ -8,6 +8,7 @@ import tarfile
 from collections.abc import Generator, Iterable
 from glob import glob
 from pathlib import Path
+import tempfile
 from typing import Any, Optional
 
 import requests
@@ -184,24 +185,23 @@ def validate_response(resp: requests.Response, req: Requirement) -> None:
         )
 
 
-def get_sdist_requires(
+def extract_sdist_requires(
     sdist_data: dict[str, str], req: Requirement
 ) -> Generator[Requirement, None, None]:
-    filename = sdist_data["filename"]
+    tmpdir = tempfile.mkdtemp()
+    archive_path = Path(tmpdir, sdist_data["filename"])
+
     resp = requests.get(sdist_data["url"], stream=True)
     validate_response(resp, req)
-    with open(filename, "wb") as file:
+    with open(archive_path, "wb") as file:
         file.write(resp.raw.read())
 
-    folder_name = ""
-    with tarfile.open(filename) as file_in:
-        file_in.extractall()
-        for info in file_in:
-            folder_name = info.name
-            # Assume a single folder
-            break
+    with tarfile.open(archive_path) as file_in:
+        file_in.extractall(tmpdir)
 
-    requires_filepath = Path(folder_name, "*.egg-info", "requires.txt")
+    # Only a single folder with "<package-version>.egg-info/requires.txt" in the archive should exist
+    # but this supports possible edge-cases and doesn't require knowing any variable name in the path.
+    requires_filepath = Path(tmpdir, "*", "*.egg-info", "requires.txt")
     matches = glob(str(requires_filepath))
     for match in matches:
         with open(match) as requires_file:
@@ -210,8 +210,6 @@ def get_sdist_requires(
             # Skip empty lines and extras
             if line[0] not in {"\n", "["}:
                 yield Requirement(line)
-        # Assume a single *.egg-info folder
-        break
 
 
 def verify_external_req(
@@ -266,7 +264,7 @@ def verify_external_req(
     if not (
         sdist_data
         and req_canonical_name
-        in [canonical_name(r.name) for r in get_sdist_requires(sdist_data, req)]
+        in [canonical_name(r.name) for r in extract_sdist_requires(sdist_data, req)]
     ):
         raise InvalidRequires(
             f"Expected dependency {req} to be listed in {upstream_distribution}'s "
