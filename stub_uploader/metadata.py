@@ -165,6 +165,7 @@ def verify_typeshed_req(req: Requirement) -> None:
 # https://github.com/typeshed-internal/stub_uploader/pull/61#discussion_r979327370
 EXTERNAL_REQ_ALLOWLIST = {
     "Flask",
+    "Flask-SQLAlchemy",
     "Werkzeug",
     "arrow",
     "click",
