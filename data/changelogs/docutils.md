@@ -1,3 +1,11 @@
+## 0.19.1.9 (2023-05-03)
+
+[docutils] Add items to docutils.node (#10102)
+
+* Add class paragraph
+* Add class TextElement
+* Add Element.index(), .remove(), and .insert()
+
 ## 0.19.1.8 (2023-04-29)
 
 docutils: Input can take bytearray (#10108)

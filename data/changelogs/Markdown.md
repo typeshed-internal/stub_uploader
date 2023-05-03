@@ -1,3 +1,7 @@
+## 3.4.2.8 (2023-05-03)
+
+Add Markdown.ESCAPED_CHARS to Markdown stubs (#10134)
+
 ## 3.4.2.7 (2023-04-04)
 
 Various improvements to `Markdown` stubs (#10008)
