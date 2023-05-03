@@ -1,3 +1,9 @@
+## 2.7.4.0 (2023-05-03)
+
+[fpdf2] Update stubs for fpdf 2.7.4 (#10136)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 2.7.1.0 (2023-05-03)
 
 [fpdf2] Update to 2.7.1 (#9978)
