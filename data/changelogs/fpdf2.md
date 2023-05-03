@@ -1,3 +1,7 @@
+## 2.7.1.0 (2023-05-03)
+
+[fpdf2] Update to 2.7.1 (#9978)
+
 ## 2.6.1.10 (2023-03-27)
 
 Add defaults for third-party stubs E-H (#9954)

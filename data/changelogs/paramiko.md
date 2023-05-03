@@ -1,3 +1,7 @@
+## 3.0.0.9 (2023-05-03)
+
+paramiko: Improve various bytes-related types (#10109)
+
 ## 3.0.0.8 (2023-04-25)
 
 `paramiko`: Be more lenient for client parameter types (#10083)
