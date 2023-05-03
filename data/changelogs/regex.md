@@ -1,3 +1,15 @@
+## 2023.5.4.0 (2023-05-03)
+
+[stubsabot] Bump regex to 2023.5.4 (#10131)
+
+Release: https://pypi.org/pypi/regex/2023.5.4
+Homepage: https://github.com/mrabarnett/mrab-regex
+Diff: https://github.com/mrabarnett/mrab-regex/compare/2023.3.23...2023.5.4
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 8.
+ - Total lines of Python code deleted: 3.
+
 ## 2023.3.23.1 (2023-03-28)
 
 Add defaults for third-party stubs Q-T (#9959)
