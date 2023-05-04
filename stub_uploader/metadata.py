@@ -4,7 +4,11 @@ import functools
 import graphlib
 import os
 import re
-from collections.abc import Iterator, Iterable
+import tarfile
+from collections.abc import Generator, Iterable
+from glob import glob
+from pathlib import Path
+import tempfile
 from typing import Any, Optional
 
 import requests
@@ -176,6 +180,40 @@ EXTERNAL_REQ_ALLOWLIST = {
 }
 
 
+def validate_response(resp: requests.Response, req: Requirement) -> None:
+    if resp.status_code != 200:
+        raise InvalidRequires(
+            f"Expected dependency {req} to be accessible on PyPI, but got {resp.status_code}"
+        )
+
+
+def extract_sdist_requires(
+    sdist_data: dict[str, str], req: Requirement
+) -> Generator[Requirement, None, None]:
+    tmpdir = tempfile.mkdtemp()
+    archive_path = Path(tmpdir, sdist_data["filename"])
+
+    resp = requests.get(sdist_data["url"], stream=True)
+    validate_response(resp, req)
+    with open(archive_path, "wb") as file:
+        file.write(resp.raw.read())
+
+    with tarfile.open(archive_path) as file_in:
+        file_in.extractall(tmpdir)
+
+    # Only a single folder with "<package-version>.egg-info/requires.txt" in the archive should exist
+    # but this supports possible edge-cases and doesn't require knowing any variable name in the path.
+    requires_filepath = Path(tmpdir, "*", "*.egg-info", "requires.txt")
+    matches = glob(str(requires_filepath))
+    for match in matches:
+        with open(match) as requires_file:
+            lines = requires_file.readlines()
+        for line in lines:
+            # Skip empty lines and extras
+            if line[0] not in {"\n", "["}:
+                yield Requirement(line)
+
+
 def verify_external_req(
     req: Requirement,
     upstream_distribution: Optional[str],
@@ -198,37 +236,47 @@ def verify_external_req(
             f"There is no upstream distribution on PyPI, so cannot verify {req}"
         )
 
-    resp = requests.get(f"https://pypi.org/pypi/{upstream_distribution}/json")
-    if resp.status_code != 200:
-        raise InvalidRequires(
-            f"Expected dependency {req} to be accessible on PyPI, but got {resp.status_code}"
-        )
-
-    data = resp.json()
-
-    # TODO: consider allowing external dependencies for stubs for packages that do not ship wheels.
-    # Note that we can't build packages from sdists, since that can execute arbitrary code.
-    # We could do some hacky setup.py parsing though...
-    # TODO: PyPI doesn't seem to have version specific requires_dist. This does mean we can be
-    # broken by new releases of upstream packages, even if they do not match the version spec we
-    # have for the upstream distribution.
-    if req_canonical_name not in [
-        canonical_name(Requirement(r).name)
-        for r in (data["info"].get("requires_dist") or [])
-    ]:
-        raise InvalidRequires(
-            f"Expected dependency {req} to be listed in {upstream_distribution}'s requires_dist"
-        )
-
     if req.name not in EXTERNAL_REQ_ALLOWLIST and not _unsafe_ignore_allowlist:
         raise InvalidRequires(
             f"Expected dependency {req} to be present in the allowlist"
         )
 
+    resp = requests.get(f"https://pypi.org/pypi/{upstream_distribution}/json")
+    validate_response(resp, req)
+    data: dict[str, Any] = resp.json()
+
+    # TODO: PyPI doesn't seem to have version specific requires_dist. This does mean we can be
+    # broken by new releases of upstream packages, even if they do not match the version spec we
+    # have for the upstream distribution.
+
+    if req_canonical_name in [
+        canonical_name(Requirement(r).name)
+        for r in (data["info"].get("requires_dist") or [])
+    ]:
+        return  # Ok!
+
+    sdist_data: dict[str, Any] | None = next(
+        (
+            url_data
+            for url_data in reversed(data["urls"])
+            if url_data["packagetype"] == "sdist"
+        ),
+        None,
+    )
+    if not (
+        sdist_data
+        and req_canonical_name
+        in [canonical_name(r.name) for r in extract_sdist_requires(sdist_data, req)]
+    ):
+        raise InvalidRequires(
+            f"Expected dependency {req} to be listed in {upstream_distribution}'s "
+            + "requires_dist or the sdist's *.egg-info/requires.txt"
+        )
+
 
 def sort_by_dependency(
     typeshed_dir: str, distributions: Iterable[str]
-) -> Iterator[str]:
+) -> Generator[str, None, None]:
     # Just a simple topological sort. Unlike previous versions of the code, we do not rely
     # on this to perform validation, like requiring the graph to be complete.
     # We only use this to help with edge cases like multiple packages being uploaded
