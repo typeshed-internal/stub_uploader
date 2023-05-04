@@ -1,3 +1,15 @@
+## 2023.5.5.0 (2023-05-04)
+
+[stubsabot] Bump regex to 2023.5.5 (#10138)
+
+Release: https://pypi.org/pypi/regex/2023.5.5
+Homepage: https://github.com/mrabarnett/mrab-regex
+Diff: https://github.com/mrabarnett/mrab-regex/compare/2023.5.4...2023.5.5
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 2.
+ - Total lines of Python code deleted: 2.
+
 ## 2023.5.4.0 (2023-05-03)
 
 [stubsabot] Bump regex to 2023.5.4 (#10131)
