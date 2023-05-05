@@ -1,3 +1,7 @@
+## 2.30.0.0 (2023-05-05)
+
+[requests] Update stubs to 2.30 (#10141)
+
 ## 2.29.0.0 (2023-04-29)
 
 Update `requests` for v2.29 (#10097)
