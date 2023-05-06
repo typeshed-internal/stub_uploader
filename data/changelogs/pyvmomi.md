@@ -1,3 +1,15 @@
+## 8.0.0.2 (2023-05-06)
+
+[stubsabot] Mark pyvmomi as obsolete since 8.0.1.0 (#10148)
+
+Release: https://pypi.org/pypi/pyvmomi/8.0.1.0
+Homepage: https://github.com/vmware/pyvmomi
+Diff: https://github.com/vmware/pyvmomi/compare/v8.0.0.1.2...v8.0.1.0
+
+Pin pyvmomi more tightly (#10147)
+
+Fixes #10146
+
 ## 8.0.0.1 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
