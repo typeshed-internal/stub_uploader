@@ -1,3 +1,7 @@
+## 4.5.4.2 (2023-05-07)
+
+Redis: Add missing exported names (#10151)
+
 ## 4.5.4.1 (2023-03-30)
 
 [redis] Add CredentialProvider types to __init__.pyi (#9982)
