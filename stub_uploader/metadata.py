@@ -98,7 +98,7 @@ class Metadata:
 
     @property
     def partial(self) -> bool:
-        return self.data.get("ignore_missing_stub", False)
+        return self.data.get("partial_stub", False)
 
 
 def read_metadata(typeshed_dir: str, distribution: str) -> Metadata:
