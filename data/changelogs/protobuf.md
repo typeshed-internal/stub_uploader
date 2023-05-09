@@ -1,3 +1,10 @@
+## 4.23.0.0 (2023-05-09)
+
+[stubsabot] Bump protobuf to 4.23.* (#10158)
+
+Release: https://pypi.org/pypi/protobuf/4.23.0
+Homepage: https://developers.google.com/protocol-buffers/
+
 ## 4.22.0.2 (2023-04-04)
 
 Various improvements to non-generated `protobuf` stubs (#10010)
