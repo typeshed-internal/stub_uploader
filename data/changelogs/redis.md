@@ -1,3 +1,9 @@
+## 4.5.5.0 (2023-05-09)
+
+[redis] Add new methods to `RedisClusterCommands` (#10162)
+
+Update `redis` to `4.5.5` (#10161)
+
 ## 4.5.4.2 (2023-05-07)
 
 Redis: Add missing exported names (#10151)
