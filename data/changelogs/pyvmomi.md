@@ -1,3 +1,9 @@
+## 8.0.0.4 (2023-05-10)
+
+Revert "[stubsabot] Mark pyvmomi as obsolete since 8.0.1.0 (#10148)" (#10171)
+
+This reverts commit 853d01d55ef5b5c7f0733e62c2e214be1d472657.
+
 ## 8.0.0.3 (2023-05-10)
 
 Add `partial_stub` metadata field (#10157)
