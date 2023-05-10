@@ -273,11 +273,7 @@ def generate_long_description(
             )
         )
     elif metadata.partial:
-        parts.append(
-            NO_LONGER_UPDATED_TEMPLATE.format(
-                stub_distribution=metadata.stub_distribution
-            )
-        )
+        parts.append(PARTIAL_STUBS_DESCRIPTION)
     parts.append(DESCRIPTION_OUTRO_TEMPLATE.format(commit=commit))
     return "\n\n".join(parts)
 
