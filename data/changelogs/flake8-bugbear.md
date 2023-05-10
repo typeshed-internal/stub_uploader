@@ -1,3 +1,19 @@
+## 23.5.9.0 (2023-05-10)
+
+[stubsabot] Bump flake8-bugbear to 23.5.9 (#10165)
+
+Release: https://pypi.org/pypi/flake8-bugbear/23.5.9
+Homepage: https://github.com/PyCQA/flake8-bugbear
+Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+Diff: https://github.com/PyCQA/flake8-bugbear/compare/23.3.23...23.5.9
+
+Stubsabot analysis of the diff between the two releases:
+ - 2 public Python files have been added: `tests/b033.py`, `tests/b908.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `bugbear.py`.
+ - Total lines of Python code added: 190.
+ - Total lines of Python code deleted: 26.
+
 ## 23.3.23.0 (2023-03-24)
 
 [stubsabot] Bump flake8-bugbear to 23.3.23 (#9934)
