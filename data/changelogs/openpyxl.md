@@ -1,3 +1,7 @@
+## 3.1.0.6 (2023-05-10)
+
+[openpyxl] Complete base descriptors (#10001)
+
 ## 3.1.0.5 (2023-05-01)
 
 Remove unnecessary F821 noqas (#10123)

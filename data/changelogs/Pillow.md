@@ -1,3 +1,7 @@
+## 9.5.0.3 (2023-05-10)
+
+[Pillow] Add all missing items (#10114)
+
 ## 9.5.0.2 (2023-04-26)
 
 Add a return type for `PIL.Image.load` (#9466)
