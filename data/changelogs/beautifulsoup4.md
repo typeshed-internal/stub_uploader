@@ -1,3 +1,7 @@
+## 4.12.0.5 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 4.12.0.4 (2023-04-29)
 
 bs4: NavigableString accepts ReadableBuffer (#10106)

@@ -1,3 +1,7 @@
+## 1.26.25.13 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 1.26.25.12 (2023-04-30)
 
 `urllib3`: move stubs for `ssl_match_hostname` around (#10117)

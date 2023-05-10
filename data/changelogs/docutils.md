@@ -1,3 +1,7 @@
+## 0.20.0.1 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 0.20.0.0 (2023-05-10)
 
 Bump docutils to 0.20.* (#10167)

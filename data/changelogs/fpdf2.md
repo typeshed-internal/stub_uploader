@@ -1,3 +1,7 @@
+## 2.7.4.1 (2023-05-10)
+
+Fix return type of FPDF.output() (#10166)
+
 ## 2.7.4.0 (2023-05-03)
 
 [fpdf2] Update stubs for fpdf 2.7.4 (#10136)

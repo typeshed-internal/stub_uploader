@@ -1,3 +1,7 @@
+## 2.12.0.3 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 2.12.0.2 (2023-04-27)
 
 tensorflow: feature columns (#10052)

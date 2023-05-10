@@ -1,3 +1,7 @@
+## 4.19.0.1 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 4.19.0.0 (2023-04-07)
 
 [stubsabot] Bump braintree to 4.19.* (#10017)

@@ -1,3 +1,7 @@
+## 3.1.0.7 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 3.1.0.6 (2023-05-10)
 
 [openpyxl] Complete base descriptors (#10001)

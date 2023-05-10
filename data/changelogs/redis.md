@@ -1,3 +1,7 @@
+## 4.5.5.1 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 4.5.5.0 (2023-05-09)
 
 [redis] Add new methods to `RedisClusterCommands` (#10162)

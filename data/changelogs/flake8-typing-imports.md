@@ -1,3 +1,7 @@
+## 1.14.0.2 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 1.14.0.1 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)

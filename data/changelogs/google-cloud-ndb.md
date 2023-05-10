@@ -1,3 +1,7 @@
+## 2.1.0.7 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 2.1.0.6 (2023-04-04)
 
 `google-cloud-ndb`, `paramiko`, `setuptools`: remove unnecessary `= ...`s (#10011)

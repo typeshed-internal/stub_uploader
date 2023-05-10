@@ -1,3 +1,7 @@
+## 2.1.4.8 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 2.1.4.7 (2023-03-29)
 
 Remove unnecessary ellipsis expressions (#9976)

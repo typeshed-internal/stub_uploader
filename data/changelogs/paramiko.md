@@ -1,3 +1,7 @@
+## 3.0.0.10 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 3.0.0.9 (2023-05-03)
 
 paramiko: Improve various bytes-related types (#10109)

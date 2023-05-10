@@ -1,3 +1,7 @@
+## 2.15.0.1 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 2.15.0.0 (2023-04-11)
 
 [stubsabot] Bump Pygments to 2.15.* (#10030)

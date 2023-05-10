@@ -1,3 +1,7 @@
+## 3.5.2.10 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 3.5.2.9 (2023-03-28)
 
 Add defaults for third-party stubs Q-T (#9959)

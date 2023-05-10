@@ -1,3 +1,7 @@
+## 2.12.0.1 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 2.12.0.0 (2023-04-04)
 
 Update aws-xray-sdk to 2.12.* (#10005)

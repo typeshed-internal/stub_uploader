@@ -1,3 +1,7 @@
+## 9.5.0.4 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 9.5.0.3 (2023-05-10)
 
 [Pillow] Add all missing items (#10114)

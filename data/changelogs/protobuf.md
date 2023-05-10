@@ -1,3 +1,7 @@
+## 4.23.0.1 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 4.23.0.0 (2023-05-09)
 
 [stubsabot] Bump protobuf to 4.23.* (#10158)

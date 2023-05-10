@@ -1,3 +1,7 @@
+## 2.8.19.13 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 2.8.19.12 (2023-04-04)
 
 Various improvements to `dateutil.rrule` stubs (#10009)

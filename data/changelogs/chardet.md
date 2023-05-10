@@ -1,3 +1,7 @@
+## 5.0.4.6 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 5.0.4.5 (2023-04-29)
 
 chardet: UniversalDetector.feed accepts bytearray (#10107)

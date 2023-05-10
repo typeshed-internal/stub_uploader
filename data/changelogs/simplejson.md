@@ -1,3 +1,7 @@
+## 3.19.0.1 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 3.19.0.0 (2023-04-15)
 
 Bump simplejson to 3.19.* (#10049)

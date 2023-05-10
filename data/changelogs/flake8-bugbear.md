@@ -1,3 +1,7 @@
+## 23.5.9.1 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 23.5.9.0 (2023-05-10)
 
 [stubsabot] Bump flake8-bugbear to 23.5.9 (#10165)

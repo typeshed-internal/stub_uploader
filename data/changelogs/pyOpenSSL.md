@@ -1,3 +1,7 @@
+## 23.1.0.3 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 23.1.0.2 (2023-04-12)
 
 [pyOpenSSL] Fix return type of SSLeay_version (#10037)

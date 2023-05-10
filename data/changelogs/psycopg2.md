@@ -1,3 +1,7 @@
+## 2.9.21.10 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 2.9.21.9 (2023-03-27)
 
 Add default values for third-party stubs beginning with 'P' (#9957)

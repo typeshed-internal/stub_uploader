@@ -1,3 +1,7 @@
+## 3.4.2.9 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 3.4.2.8 (2023-05-03)
 
 Add Markdown.ESCAPED_CHARS to Markdown stubs (#10134)

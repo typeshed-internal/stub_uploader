@@ -1,3 +1,7 @@
+## 67.7.0.2 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 67.7.0.1 (2023-05-01)
 
 Avoid unnecessary forward refs in class definitions (#10124)

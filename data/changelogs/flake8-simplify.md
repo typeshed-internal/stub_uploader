@@ -1,3 +1,7 @@
+## 0.20.0.1 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 0.20.0.0 (2023-03-31)
 
 [stubsabot] Bump flake8-simplify to 0.20.* (#9993)

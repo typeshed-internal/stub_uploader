@@ -1,3 +1,7 @@
+## 8.0.0.3 (2023-05-10)
+
+Add `partial_stub` metadata field (#10157)
+
 ## 8.0.0.2 (2023-05-06)
 
 [stubsabot] Mark pyvmomi as obsolete since 8.0.1.0 (#10148)
