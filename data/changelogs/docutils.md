@@ -1,3 +1,7 @@
+## 0.20.0.0 (2023-05-10)
+
+Bump docutils to 0.20.* (#10167)
+
 ## 0.19.1.9 (2023-05-03)
 
 [docutils] Add items to docutils.node (#10102)
