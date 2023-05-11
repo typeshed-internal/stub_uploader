@@ -1,3 +1,9 @@
+## 4.5.5.2 (2023-05-11)
+
+Bump `mypy` to `1.3.0` (#10173)
+
+Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
+
 ## 4.5.5.1 (2023-05-10)
 
 Add `partial_stub` metadata field (#10157)

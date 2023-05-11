@@ -1,3 +1,9 @@
+## 1.3.0.3 (2023-05-11)
+
+Bump `mypy` to `1.3.0` (#10173)
+
+Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
+
 ## 1.3.0.2 (2023-04-28)
 
 [stubsabot] Mark dj-database-url as obsolete since 2.0.0 (#10094)
