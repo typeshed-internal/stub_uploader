@@ -1,3 +1,9 @@
+## 5.11.0.0 (2023-05-14)
+
+Bump `PyInstaller` to `5.11.*` (#10179)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 5.10.0.1 (2023-04-27)
 
 Type `PyInstaller.building.api` and related modules (#9730)
