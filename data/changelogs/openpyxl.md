@@ -1,3 +1,9 @@
+## 3.1.0.8 (2023-05-15)
+
+openpyxl: Type MetaSerialisable dunders (#10170)
+
+Typed `Serialisable.__attrs__`, `Serialisable.__nested__`, `Serialisable.__elements__`, and `Serialisable.__namespaced__` ClassVars.
+
 ## 3.1.0.7 (2023-05-10)
 
 Add `partial_stub` metadata field (#10157)
