@@ -1,3 +1,7 @@
+## 2.0.0.8 (2023-05-16)
+
+Mark `invoke` as obsolete since `2.1.2` (#10100)
+
 ## 2.0.0.7 (2023-05-10)
 
 Add `partial_stub` metadata field (#10157)
