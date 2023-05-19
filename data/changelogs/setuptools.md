@@ -1,3 +1,7 @@
+## 67.7.0.3 (2023-05-19)
+
+Don't ignore missing stubs in setuptools (#10058)
+
 ## 67.7.0.2 (2023-05-10)
 
 Add `partial_stub` metadata field (#10157)
