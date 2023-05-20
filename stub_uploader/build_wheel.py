@@ -145,8 +145,7 @@ def copy_stubs(base_dir: str, dst: str) -> None:
             if not entry.endswith(".pyi"):
                 continue
             stub_dir = os.path.join(dst, entry.split(".")[0] + SUFFIX)
-            if not os.path.exists(stub_dir):
-                os.mkdir(stub_dir)
+            os.makedirs(stub_dir, exist_ok=True)
             shutil.copy(
                 os.path.join(base_dir, entry), os.path.join(stub_dir, "__init__.pyi")
             )
@@ -220,8 +219,7 @@ def collect_setup_entries(base_dir: str) -> dict[str, list[str]]:
 def add_partial_marker(package_data: dict[str, list[str]], stub_dir: str) -> None:
     for entry, files in package_data.items():
         entry_path = os.path.join(stub_dir, entry)
-        if not os.path.exists(entry_path):
-            os.mkdir(entry_path)
+        os.makedirs(entry_path, exist_ok=True)
         with open(os.path.join(entry_path, "py.typed"), "w") as py_typed:
             py_typed.write("partial\n")
         files.append("py.typed")
@@ -272,7 +270,7 @@ def generate_long_description(
                 stub_distribution=metadata.stub_distribution
             )
         )
-    elif metadata.partial:
+    if metadata.partial:
         parts.append(PARTIAL_STUBS_DESCRIPTION)
     parts.append(DESCRIPTION_OUTRO_TEMPLATE.format(commit=commit))
     return "\n\n".join(parts)
