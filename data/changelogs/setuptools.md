@@ -1,3 +1,23 @@
+## 67.8.0.0 (2023-05-20)
+
+[stubsabot] Bump setuptools to 67.8.* (#10194)
+
+Release: https://pypi.org/pypi/setuptools/67.8.0
+Homepage: https://github.com/pypa/setuptools
+Changelog: https://setuptools.pypa.io/en/stable/history.html
+Diff: https://github.com/pypa/setuptools/compare/v67.7.2...v67.8.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 2 files included in typeshed's stubs have been modified or renamed: `setuptools/command/easy_install.py`, `setuptools/version.py`.
+ - Total lines of Python code added: 425.
+ - Total lines of Python code deleted: 215.
+
+---------
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 67.7.0.3 (2023-05-19)
 
 Don't ignore missing stubs in setuptools (#10058)
