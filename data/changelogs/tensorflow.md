@@ -1,3 +1,11 @@
+## 2.12.0.4 (2023-05-22)
+
+Add core tensorflow.data stubs (#10122)
+
+Co-authored-by: Mehdi Drissi <mdrissi@snapchat.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 2.12.0.3 (2023-05-10)
 
 Add `partial_stub` metadata field (#10157)

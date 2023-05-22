@@ -1,3 +1,11 @@
+## 6.0.12.10 (2023-05-22)
+
+[PyYAML] Improve dump/serialize types (#10196)
+
+* Add overloads to return `str` or `bytes`, instead of `Any`.
+* Mark some arguments as keyword-only.
+* Add missing default values.
+
 ## 6.0.12.9 (2023-03-27)
 
 Add default values for third-party stubs beginning with 'P' (#9957)

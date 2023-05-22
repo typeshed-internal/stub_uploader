@@ -1,3 +1,14 @@
+## 23.1.0.3 (2023-05-22)
+
+add typing support to more aiofiles wrapped functions (#10175)
+
+add stubs for missing functions:
+
+- renames
+- unlink
+- link
+- listdir
+
 ## 23.1.0.2 (2023-04-29)
 
 aiofiles: use ReadableBuffer (#10105)
