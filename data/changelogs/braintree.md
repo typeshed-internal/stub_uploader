@@ -1,3 +1,10 @@
+## 4.20.0.0 (2023-05-23)
+
+[stubsabot] Bump braintree to 4.20.* (#10198)
+
+Release: https://pypi.org/pypi/braintree/4.20.0
+Homepage: https://developer.paypal.com/braintree/docs/reference/overview
+
 ## 4.19.0.1 (2023-05-10)
 
 Add `partial_stub` metadata field (#10157)

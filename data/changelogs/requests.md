@@ -1,3 +1,18 @@
+## 2.31.0.0 (2023-05-23)
+
+[stubsabot] Bump requests to 2.31.* (#10199)
+
+Release: https://pypi.org/pypi/requests/2.31.0
+Homepage: https://requests.readthedocs.io
+Diff: https://github.com/psf/requests/compare/v2.30.0...v2.31.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 2 files included in typeshed's stubs have been modified or renamed: `requests/__version__.py`, `requests/sessions.py`.
+ - Total lines of Python code added: 26.
+ - Total lines of Python code deleted: 4.
+
 ## 2.30.0.0 (2023-05-05)
 
 [requests] Update stubs to 2.30 (#10141)
