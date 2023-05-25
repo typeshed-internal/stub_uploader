@@ -1,3 +1,9 @@
+## 0.9.3.6 (2023-05-25)
+
+Update pyautogui (#10209)
+
+Fixes #10207
+
 ## 0.9.3.5 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
