@@ -1,3 +1,7 @@
+## 0.1.0.8 (2023-05-26)
+
+Update pyscreeze stubs (#10223)
+
 ## 0.1.0.7 (2023-02-22)
 
 Update `Unused` parameters in `stubs/` (#9704)
