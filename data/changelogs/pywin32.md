@@ -1,3 +1,11 @@
+## 306.0.0.2 (2023-05-28)
+
+pywin32: add `HANDLEType` class (#10032)
+
+per http://timgolden.me.uk/pywin32-docs/PyHANDLE.html these objects actually have methods, they are not ints
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 306.0.0.1 (2023-03-27)
 
 Add default values for third-party stubs beginning with 'P' (#9957)
