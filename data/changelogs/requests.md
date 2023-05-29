@@ -1,3 +1,7 @@
+## 2.31.0.1 (2023-05-29)
+
+Allowlist requests.compat.bytes.__buffer__ (#10231)
+
 ## 2.31.0.0 (2023-05-23)
 
 [stubsabot] Bump requests to 2.31.* (#10199)
