@@ -1,3 +1,7 @@
+## 5.9.5.13 (2023-06-01)
+
+[psutil] Fix cpu_percent return type when percpu is True (#10238)
+
 ## 5.9.5.12 (2023-04-20)
 
 psutil: fix stubtest (#10065)
