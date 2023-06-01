@@ -40,6 +40,7 @@ htmlcov/
 nosetests.xml
 coverage.xml
 stubtest-output*
+mypy-*
 
 # Translations
 *.mo

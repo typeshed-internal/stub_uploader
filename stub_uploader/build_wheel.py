@@ -42,6 +42,11 @@ CHANGELOG = "CHANGELOG.md"
 
 SUFFIX = "-stubs"
 
+PARTIAL_STUBS_DESCRIPTION = """
+This stub package is marked as [partial](https://peps.python.org/pep-0561/#partial-stub-packages).
+If you find that annotations are missing, feel free to contribute and help complete them.
+""".lstrip()
+
 SETUP_TEMPLATE = dedent(
     """
 from setuptools import setup
@@ -118,7 +123,7 @@ def find_stub_files(top: str) -> list[str]:
 
     Raise if we find any unknown file extensions during collection.
     """
-    result = []
+    result: list[str] = []
     for root, _, files in os.walk(top):
         for file in files:
             if file.endswith(".pyi"):
@@ -148,7 +153,7 @@ def copy_stubs(base_dir: str, dst: str) -> None:
             if not entry.endswith(".pyi"):
                 continue
             stub_dir = os.path.join(dst, entry.split(".")[0] + SUFFIX)
-            os.mkdir(stub_dir)
+            os.makedirs(stub_dir, exist_ok=True)
             shutil.copy(
                 os.path.join(base_dir, entry), os.path.join(stub_dir, "__init__.pyi")
             )
@@ -188,7 +193,7 @@ def collect_setup_entries(base_dir: str) -> dict[str, list[str]]:
 
     This reflects the transformations done during copying in copy_stubs().
     """
-    package_data = {}
+    package_data: dict[str, list[str]] = {}
     for entry in os.listdir(base_dir):
         if entry == META:
             # Metadata file entry is added at the end.
@@ -219,6 +224,15 @@ def collect_setup_entries(base_dir: str) -> dict[str, list[str]]:
     return package_data
 
 
+def add_partial_marker(package_data: dict[str, list[str]], stub_dir: str) -> None:
+    for entry, files in package_data.items():
+        entry_path = os.path.join(stub_dir, entry)
+        os.makedirs(entry_path, exist_ok=True)
+        with open(os.path.join(entry_path, "py.typed"), "w") as py_typed:
+            py_typed.write("partial\n")
+        files.append("py.typed")
+
+
 def generate_setup_file(
     build_data: BuildData, metadata: Metadata, version: str, commit: str
 ) -> str:
@@ -227,6 +241,8 @@ def generate_setup_file(
         str(req) for req in metadata.requires_typeshed + metadata.requires_external
     ]
     package_data = collect_setup_entries(build_data.stub_dir)
+    if metadata.partial:
+        add_partial_marker(package_data, build_data.stub_dir)
     return SETUP_TEMPLATE.format(
         distribution=build_data.distribution,
         stub_distribution=metadata.stub_distribution,
@@ -244,7 +260,7 @@ def generate_long_description(
     distribution: str, commit: str, metadata: Metadata
 ) -> str:
     extra_description = metadata.extra_description.strip()
-    parts = []
+    parts: list[str] = []
     parts.append(DESCRIPTION_INTRO_TEMPLATE.format(distribution=distribution))
     if extra_description:
         parts.append(extra_description)
@@ -262,6 +278,8 @@ def generate_long_description(
                 stub_distribution=metadata.stub_distribution
             )
         )
+    if metadata.partial:
+        parts.append(PARTIAL_STUBS_DESCRIPTION)
     parts.append(DESCRIPTION_OUTRO_TEMPLATE.format(commit=commit))
     return "\n\n".join(parts)
 

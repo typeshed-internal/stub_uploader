@@ -100,6 +100,10 @@ class Metadata:
     def upload(self) -> bool:
         return self.data.get("upload", True)
 
+    @property
+    def partial(self) -> bool:
+        return self.data.get("partial_stub", False)
+
 
 def read_metadata(typeshed_dir: str, distribution: str) -> Metadata:
     """Parse metadata from file."""
