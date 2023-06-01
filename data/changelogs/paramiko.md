@@ -1,3 +1,7 @@
+## 3.2.0.0 (2023-06-01)
+
+Bump `paramiko` to 3.2.* (#10237)
+
 ## 3.0.0.10 (2023-05-10)
 
 Add `partial_stub` metadata field (#10157)
