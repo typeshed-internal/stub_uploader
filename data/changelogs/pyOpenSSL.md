@@ -1,3 +1,15 @@
+## 23.2.0.0 (2023-06-01)
+
+[stubsabot] Bump pyOpenSSL to 23.2.* (#10235)
+
+Release: https://pypi.org/pypi/pyOpenSSL/23.2.0
+Homepage: https://pyopenssl.org/
+Diff: https://github.com/pyca/pyopenssl/compare/23.1.1...23.2.0
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 149.
+ - Total lines of Python code deleted: 25.
+
 ## 23.1.0.3 (2023-05-10)
 
 Add `partial_stub` metadata field (#10157)
