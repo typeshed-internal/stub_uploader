@@ -1,3 +1,7 @@
+## 1.15.1.14 (2023-06-04)
+
+`distutils` package was removed in 3.12 (#10249)
+
 ## 1.15.1.13 (2023-04-27)
 
 cffi: improve getitem and setitem (#9968)
