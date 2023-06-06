@@ -1,3 +1,27 @@
+## 23.6.5.0 (2023-06-06)
+
+[stubsabot] Bump flake8-bugbear to 23.6.5 (#10265)
+
+Release: https://pypi.org/pypi/flake8-bugbear/23.6.5
+Homepage: https://github.com/PyCQA/flake8-bugbear
+Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+Diff: https://github.com/PyCQA/flake8-bugbear/compare/23.5.9...23.6.5
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `bugbear.py`.
+ - Total lines of Python code added: 31.
+ - Total lines of Python code deleted: 18.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 23.5.9.1 (2023-05-10)
 
 Add `partial_stub` metadata field (#10157)
