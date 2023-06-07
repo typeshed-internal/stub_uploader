@@ -1,3 +1,7 @@
+## 23.1.0.4 (2023-06-07)
+
+[aiofiles] Use file mode alias from _typeshed (#10233)
+
 ## 23.1.0.3 (2023-05-22)
 
 add typing support to more aiofiles wrapped functions (#10175)
