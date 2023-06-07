@@ -85,6 +85,7 @@ types-httplib2
 types-humanfriendly
 types-ibm-db
 types-influxdb-client
+types-inifile
 types-invoke
 types-ipaddress
 types-itsdangerous
