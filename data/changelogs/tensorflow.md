@@ -1,3 +1,9 @@
+## 2.12.0.5 (2023-06-08)
+
+Tensorflow losses (#10264)
+
+Co-authored-by: Mehdi Drissi <mdrissi@snapchat.com>
+
 ## 2.12.0.4 (2023-05-22)
 
 Add core tensorflow.data stubs (#10122)
