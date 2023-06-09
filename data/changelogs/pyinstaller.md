@@ -1,3 +1,18 @@
+## 5.12.0.0 (2023-06-09)
+
+[stubsabot] Bump pyinstaller to 5.12.* (#10287)
+
+Release: https://pypi.org/pypi/pyinstaller/5.12.0
+Homepage: https://www.pyinstaller.org/
+Diff: https://github.com/pyinstaller/pyinstaller/compare/v5.11.0...v5.12.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 2 public Python files have been added: `tests/functional/scripts/pyi_lazy_import.py`, `tests/functional/test_import_lazy_loader.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 6 files included in typeshed's stubs have been modified or renamed: `PyInstaller/__init__.py`, `PyInstaller/building/build_main.py`, `PyInstaller/building/splash.py`, `PyInstaller/compat.py`, `PyInstaller/lib/modulegraph/modulegraph.py`, `PyInstaller/utils/win32/versioninfo.py`.
+ - Total lines of Python code added: 647.
+ - Total lines of Python code deleted: 887.
+
 ## 5.11.0.0 (2023-05-14)
 
 Bump `PyInstaller` to `5.11.*` (#10179)
