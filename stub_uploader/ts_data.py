@@ -6,7 +6,7 @@ from __future__ import annotations
 import argparse
 from dataclasses import dataclass, fields
 from pathlib import Path
-from tomllib import load as toml_load
+from tomli import load as toml_load
 from typing import Any
 
 
