@@ -23,6 +23,7 @@ This file also contains some helper functions related to wheel validation and up
 import argparse
 import os
 import os.path
+from pathlib import Path
 import shutil
 import subprocess
 import sys
@@ -37,6 +38,7 @@ from stub_uploader.const import (
     THIRD_PARTY_NAMESPACE,
 )
 from stub_uploader.metadata import Metadata, read_metadata
+from stub_uploader.ts_data import TypeshedData, read_typeshed_data
 
 CHANGELOG = "CHANGELOG.md"
 
@@ -108,7 +110,9 @@ types and metadata should be contributed there.
 
 DESCRIPTION_OUTRO_TEMPLATE = """
 See https://github.com/python/typeshed/blob/main/README.md for more details.
-This package was generated from typeshed commit `{commit}`.
+This package was generated from typeshed commit `{commit}` and was tested
+with mypy {ts_data.mypy_version}, pyright {ts_data.pyright_version}, and
+pytype {ts_data.pytype_version}.
 """.strip()
 
 
@@ -234,7 +238,11 @@ def add_partial_marker(package_data: dict[str, list[str]], stub_dir: str) -> Non
 
 
 def generate_setup_file(
-    build_data: BuildData, metadata: Metadata, version: str, commit: str
+    build_data: BuildData,
+    ts_data: TypeshedData,
+    metadata: Metadata,
+    version: str,
+    commit: str,
 ) -> str:
     """Auto-generate a setup.py file for given distribution using a template."""
     all_requirements = [
@@ -247,7 +255,7 @@ def generate_setup_file(
         distribution=build_data.distribution,
         stub_distribution=metadata.stub_distribution,
         long_description=generate_long_description(
-            build_data.distribution, commit, metadata
+            build_data.distribution, commit, ts_data, metadata
         ),
         version=version,
         requires=all_requirements,
@@ -257,7 +265,7 @@ def generate_setup_file(
 
 
 def generate_long_description(
-    distribution: str, commit: str, metadata: Metadata
+    distribution: str, commit: str, ts_data: TypeshedData, metadata: Metadata
 ) -> str:
     extra_description = metadata.extra_description.strip()
     parts: list[str] = []
@@ -280,7 +288,7 @@ def generate_long_description(
         )
     if metadata.partial:
         parts.append(PARTIAL_STUBS_DESCRIPTION)
-    parts.append(DESCRIPTION_OUTRO_TEMPLATE.format(commit=commit))
+    parts.append(DESCRIPTION_OUTRO_TEMPLATE.format(commit=commit, ts_data=ts_data))
     return "\n\n".join(parts)
 
 
@@ -294,6 +302,7 @@ def main(
     Note: the caller should clean the temporary directory where wheel is
     created after uploading it.
     """
+    ts_data = read_typeshed_data(Path(typeshed_dir))
     build_data = BuildData(typeshed_dir, distribution)
     if build_dir:
         tmpdir = build_dir
@@ -307,7 +316,7 @@ def main(
     ).stdout.strip()
     metadata = read_metadata(typeshed_dir, distribution)
     with open(os.path.join(tmpdir, "setup.py"), "w") as f:
-        f.write(generate_setup_file(build_data, metadata, version, commit))
+        f.write(generate_setup_file(build_data, ts_data, metadata, version, commit))
     copy_stubs(build_data.stub_dir, tmpdir)
     copy_changelog(distribution, tmpdir)
     current_dir = os.getcwd()
