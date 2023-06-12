@@ -1,3 +1,15 @@
+## 5.8.0.0 (2023-06-12)
+
+[stubsabot] Bump ujson to 5.8.* (#10302)
+
+Release: https://pypi.org/pypi/ujson/5.8.0
+Homepage: https://github.com/ultrajson/ultrajson
+Diff: https://github.com/ultrajson/ultrajson/compare/5.7.0...5.8.0
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 15.
+ - Total lines of Python code deleted: 17.
+
 ## 5.7.0.5 (2023-05-01)
 
 Convert the remaining ujson uses of AnyStr (#10086)
