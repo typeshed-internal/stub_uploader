@@ -1,3 +1,7 @@
+## 5.9.5.14 (2023-06-12)
+
+psutil: declare return type of io_counters() (#10303)
+
 ## 5.9.5.13 (2023-06-01)
 
 [psutil] Fix cpu_percent return type when percpu is True (#10238)
