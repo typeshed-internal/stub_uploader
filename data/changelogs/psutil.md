@@ -1,3 +1,7 @@
+## 5.9.5.15 (2023-06-12)
+
+psutil: import platform-specific 'pio' definitions (#10305)
+
 ## 5.9.5.14 (2023-06-12)
 
 psutil: declare return type of io_counters() (#10303)
