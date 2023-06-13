@@ -4,10 +4,11 @@ Information about typeshed.
 
 from __future__ import annotations
 import argparse
+from collections.abc import Iterable
 from dataclasses import dataclass, fields
+from packaging.requirements import Requirement
 from pathlib import Path
 from tomli import load as toml_load
-from typing import Any
 
 
 REQUIREMENTS = "requirements-tests.txt"
@@ -22,8 +23,10 @@ class TypeshedData:
 
 
 def read_typeshed_data(typeshed_dir: Path) -> TypeshedData:
-    pyproject = _read_pyproject_toml(typeshed_dir / PYPROJECT)
-    requirements = _read_requirements(typeshed_dir / REQUIREMENTS)
+    with (typeshed_dir / PYPROJECT).open("rb") as f:
+        pyproject = toml_load(f)
+    with (typeshed_dir / REQUIREMENTS).open() as f:
+        requirements = parse_requirements(f)
     return TypeshedData(
         mypy_version=requirements["mypy"],
         pyright_version=pyproject["tool"]["typeshed"]["pyright_version"],
@@ -31,26 +34,21 @@ def read_typeshed_data(typeshed_dir: Path) -> TypeshedData:
     )
 
 
-def _read_pyproject_toml(path: Path) -> dict[str, Any]:
-    with path.open("rb") as f:
-        return toml_load(f)
+def parse_requirements(stream: Iterable[str]) -> dict[str, str]:
+    """Parse all exact requirements from a requirements.txt file.
 
-
-def _read_requirements(path: Path) -> dict[str, str]:
+    Only requirements that are pinned to a specific version are returned.
+    """
     requirements = {}
-    with path.open() as f:
-        for line in f:
-            line = line.strip()
-            line = line.split("#")[0]  # strip comments
-            line = line.split(";")[0]  # strip extras
-            if not line.strip():  # skip empty lines
-                continue
-            if "==" in line:
-                name, version = line.split("==")
-            else:
-                name = line
-                version = ""
-            requirements[name.strip()] = version.strip()
+    for line in stream:
+        line = line.strip()
+        line = line.split("#")[0]  # strip comments
+        if not line.strip():  # skip empty lines
+            continue
+        req = Requirement(line.strip())
+        if len(req.specifier) != 1 or not str(req.specifier).startswith("=="):
+            continue
+        requirements[req.name] = str(req.specifier)[2:]
     return requirements
 
 
