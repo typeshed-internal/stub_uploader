@@ -46,9 +46,12 @@ def parse_requirements(stream: Iterable[str]) -> dict[str, str]:
         if not line.strip():  # skip empty lines
             continue
         req = Requirement(line.strip())
-        if len(req.specifier) != 1 or not str(req.specifier).startswith("=="):
+        if len(req.specifier) != 1:
             continue
-        requirements[req.name] = str(req.specifier)[2:]
+        spec = next(iter(req.specifier))
+        if spec.operator != "==":
+            continue
+        requirements[req.name] = spec.version
     return requirements
 
 
