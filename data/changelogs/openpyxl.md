@@ -1,3 +1,7 @@
+## 3.1.0.10 (2023-06-13)
+
+Type all openpyxl constants (#10312)
+
 ## 3.1.0.9 (2023-06-12)
 
 Complete openpyxl's nested descriptors (#10298)
