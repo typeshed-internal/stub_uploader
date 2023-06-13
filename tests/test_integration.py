@@ -4,6 +4,8 @@ anything on PyPI, but can make PyPI queries and may expect
 a typeshed checkout side by side.
 """
 import os
+from pathlib import Path
+import re
 
 import pytest
 from packaging.requirements import Requirement
@@ -21,6 +23,7 @@ from stub_uploader.metadata import (
     verify_external_req,
     verify_typeshed_req,
 )
+from stub_uploader.ts_data import read_typeshed_data
 
 TYPESHED = "../typeshed"
 
@@ -145,3 +148,10 @@ def test_dependency_order_single() -> None:
 )
 def test_recursive_verify(distribution: str) -> None:
     recursive_verify(read_metadata(TYPESHED, distribution), TYPESHED)
+
+
+def test_read_typeshed_data() -> None:
+    ts_data = read_typeshed_data(Path(TYPESHED))
+    assert re.match(r"^\d+\.\d+\.\d+$", ts_data.mypy_version)
+    assert re.match(r"^\d+\.\d+\.\d+$", ts_data.pyright_version)
+    assert re.match(r"^\d+\.\d+\.\d+$", ts_data.pytype_version)

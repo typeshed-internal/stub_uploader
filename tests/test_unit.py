@@ -1,5 +1,6 @@
 """Unit tests for simple helpers should go here."""
 
+from io import StringIO
 import os
 import tempfile
 
@@ -9,6 +10,7 @@ from packaging.version import Version
 from stub_uploader.build_wheel import collect_setup_entries
 from stub_uploader.get_version import compute_incremented_version, ensure_specificity
 from stub_uploader.metadata import _UploadedPackages, strip_types_prefix
+from stub_uploader.ts_data import parse_requirements
 
 
 def test_strip_types_prefix() -> None:
@@ -136,3 +138,41 @@ def test_uploaded_packages() -> None:
 
         with open(file_path) as f:
             assert f.read() == "types-SqLaLcHeMy\ntypes-six"
+
+
+_REQUIREMENTS_TXT = """# This is a comment
+
+pkg1==1.2
+pkg2==2.3.4  # This is a comment
+pkg3==2023.4.13; python_version >= "3.6"
+multispec==3.4.5,>3.4.5
+range>=1.2.3
+no_version
+"""
+
+
+@pytest.mark.parametrize(
+    "name,version",
+    [
+        ("pkg1", "1.2"),
+        ("pkg2", "2.3.4"),
+        ("pkg3", "2023.4.13"),
+    ],
+)
+def test_parse_requirements__parsed_packages(name: str, version: str) -> None:
+    requirements = parse_requirements(StringIO(_REQUIREMENTS_TXT))
+    assert name in requirements, f"package {name} not found"
+    assert requirements[name] == version, f"package {name} has wrong version"
+
+
+@pytest.mark.parametrize(
+    "name",
+    [
+        "multispec",
+        "range",
+        "no_version",
+    ],
+)
+def test_parse_requirements__skipped_packages(name: str) -> None:
+    requirements = parse_requirements(StringIO(_REQUIREMENTS_TXT))
+    assert name not in requirements, f"package {name} was not skipped"
