@@ -1,3 +1,7 @@
+## 3.1.0.11 (2023-06-14)
+
+`openpyxl`: type `tagname`, `namespace` and `__doc__` ClassVar and params (#10308)
+
 ## 3.1.0.10 (2023-06-13)
 
 Type all openpyxl constants (#10312)
