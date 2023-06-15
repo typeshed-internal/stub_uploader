@@ -1,3 +1,7 @@
+## 3.1.0.12 (2023-06-15)
+
+Type openpyxl incomplete dunders (#10313)
+
 ## 3.1.0.11 (2023-06-14)
 
 `openpyxl`: type `tagname`, `namespace` and `__doc__` ClassVar and params (#10308)
