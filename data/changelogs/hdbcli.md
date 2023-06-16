@@ -1,3 +1,18 @@
+## 2.17.0.0 (2023-06-16)
+
+[stubsabot] Bump hdbcli to 2.17.* (#10320)
+
+Release: https://pypi.org/pypi/hdbcli/2.17.14
+Homepage: https://www.sap.com/
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 2.16.0.0 (2023-04-29)
 
 Update `hdbcli` to `2.16` and mark as completed (#10101)
