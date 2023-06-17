@@ -116,7 +116,6 @@ types-pathlib2
 types-peewee
 types-pep8-naming
 types-pika
-types-pkg_resources
 types-playsound
 types-polib
 types-prettytable
@@ -173,7 +172,6 @@ types-tree-sitter
 types-tree-sitter-languages
 types-ttkthemes
 types-typed-ast
-types-typing-extensions
 types-tzlocal
 types-ujson
 types-untangle
