@@ -20,6 +20,7 @@ types-Pygments
 types-Routes
 types-SQLAlchemy
 types-Send2Trash
+types-WebOb
 types-Werkzeug
 types-aiofiles
 types-annoy
