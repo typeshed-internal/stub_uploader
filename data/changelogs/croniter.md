@@ -1,3 +1,14 @@
+## 1.4.0.0 (2023-06-21)
+
+Bump croniter to 1.4 (#10341)
+
+Also require `bytes` for all `hash_id`s for consistency, even
+if some methods might work with other types as well. But
+using other types might hint at some inconsistent type
+usage and be a source of possible bugs.
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 1.3.2.9 (2023-04-13)
 
 Delete allowlist for croniter (#10041)
