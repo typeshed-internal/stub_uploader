@@ -1,3 +1,11 @@
+## 23.2.0.1 (2023-06-21)
+
+Add missing constants to `OpenSSL/crypto.pyi` (#10345)
+
+Adds typing for missing constants `TYPE_DH` and `TYPE_EC`
+
+See https://github.com/pyca/pyopenssl/blob/main/src/OpenSSL/crypto.py#L94-L95
+
 ## 23.2.0.0 (2023-06-01)
 
 [stubsabot] Bump pyOpenSSL to 23.2.* (#10235)
