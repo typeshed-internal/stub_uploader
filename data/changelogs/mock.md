@@ -1,3 +1,9 @@
+## 5.0.0.7 (2023-06-21)
+
+[mock] take an iterable of calls for assert_has_awaits(#10337)
+
+use ParamSpec in patch in mock stubs (#10338)
+
 ## 5.0.0.6 (2023-03-27)
 
 Add defaults for third-party stubs M-O (#9956)
