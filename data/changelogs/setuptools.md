@@ -1,3 +1,12 @@
+## 68.0.0.0 (2023-06-21)
+
+Bump setuptools to 68.0 (#10339)
+
+* Any -> Incomplete in a few files
+* Bump setuptools to 68.0.*
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 67.8.0.0 (2023-05-20)
 
 [stubsabot] Bump setuptools to 67.8.* (#10194)
