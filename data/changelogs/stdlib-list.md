@@ -1,3 +1,11 @@
+## 0.8.3.3 (2023-06-23)
+
+[stubsabot] Mark stdlib-list as obsolete since 0.9.0 (#10348)
+
+Release: https://pypi.org/pypi/stdlib-list/0.9.0
+Homepage: https://pypi.org/project/stdlib-list/
+Diff: https://github.com/pypi/stdlib-list/compare/v0.8.0...v0.9.0
+
 ## 0.8.3.2 (2023-03-28)
 
 Add defaults for third-party stubs Q-T (#9959)
