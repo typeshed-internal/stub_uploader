@@ -1,3 +1,9 @@
+## 2.2.0.0 (2023-06-23)
+
+Bump mysqlclient to 2.2 (#10353)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 2.1.5.7 (2023-03-27)
 
 Add defaults for third-party stubs M-O (#9956)
