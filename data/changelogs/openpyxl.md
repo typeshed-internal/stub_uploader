@@ -1,3 +1,7 @@
+## 3.1.0.13 (2023-06-24)
+
+Bump pyright to 1.1.315 and fix openpyxl tests (#10356)
+
 ## 3.1.0.12 (2023-06-15)
 
 Type openpyxl incomplete dunders (#10313)
