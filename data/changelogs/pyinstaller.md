@@ -1,3 +1,33 @@
+## 5.13.0.0 (2023-06-25)
+
+[stubsabot] Bump pyinstaller to 5.13.* (#10357)
+
+* [stubsabot] Bump pyinstaller to 5.13.*
+
+Release: https://pypi.org/pypi/pyinstaller/5.13.0
+Homepage: https://www.pyinstaller.org/
+Diff: https://github.com/pyinstaller/pyinstaller/compare/v5.12.0...v5.13.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 1 public Python file has been added: `PyInstaller/hooks/pre_safe_import_module/hook-distutils.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 4 files included in typeshed's stubs have been modified or renamed: `PyInstaller/__init__.py`, `PyInstaller/building/api.py`, `PyInstaller/building/build_main.py`, `PyInstaller/compat.py`.
+ - Total lines of Python code added: 962.
+ - Total lines of Python code deleted: 648.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+* Update compat.pyi
+
+---------
+
+Co-authored-by: stubsabot <>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 5.12.0.0 (2023-06-09)
 
 [stubsabot] Bump pyinstaller to 5.12.* (#10287)
