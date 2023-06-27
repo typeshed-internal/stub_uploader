@@ -1,3 +1,18 @@
+## 1.6.0.0 (2023-06-27)
+
+[stubsabot] Bump tree-sitter-languages to 1.6.* (#10364)
+
+Release: https://pypi.org/pypi/tree-sitter-languages/1.6.1
+Homepage: https://github.com/grantjenks/py-tree-sitter-languages
+Diff: https://github.com/grantjenks/py-tree-sitter-languages/compare/v1.5.0...v1.6.1
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `tree_sitter_languages/__init__.py`.
+ - Total lines of Python code added: 68.
+ - Total lines of Python code deleted: 5.
+
 ## 1.5.0.2 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)

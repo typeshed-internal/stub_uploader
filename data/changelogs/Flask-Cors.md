@@ -1,3 +1,18 @@
+## 4.0.0.0 (2023-06-27)
+
+[stubsabot] Bump Flask-Cors to 4.0.* (#10363)
+
+Release: https://pypi.org/pypi/Flask-Cors/4.0.0
+Homepage: https://github.com/corydolphin/flask-cors
+Diff: https://github.com/corydolphin/flask-cors/compare/3.0.10...v4.0.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 5 files included in typeshed's stubs have been modified or renamed: `flask_cors/__init__.py`, `flask_cors/core.py`, `flask_cors/decorator.py`, `flask_cors/extension.py`, `flask_cors/version.py`.
+ - Total lines of Python code added: 50.
+ - Total lines of Python code deleted: 41.
+
 ## 3.0.10.5 (2023-05-10)
 
 Add `partial_stub` metadata field (#10157)
