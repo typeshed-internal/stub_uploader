@@ -1,3 +1,7 @@
+## 5.13.0.1 (2023-06-27)
+
+[PyInstaller] TOCs are not often lists of TOCs (#10366)
+
 ## 5.13.0.0 (2023-06-25)
 
 [stubsabot] Bump pyinstaller to 5.13.* (#10357)
