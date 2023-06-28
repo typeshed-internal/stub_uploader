@@ -1,3 +1,12 @@
+## 1.3.7.4 (2023-06-28)
+
+[stubsabot] Mark flake8-plugin-utils as obsolete since 1.3.3 (#10373)
+
+Release: https://pypi.org/pypi/flake8-plugin-utils/1.3.3
+Homepage: https://pypi.org/project/flake8-plugin-utils
+
+Co-authored-by: stubsabot <>
+
 ## 1.3.7.3 (2023-05-10)
 
 Add `partial_stub` metadata field (#10157)
