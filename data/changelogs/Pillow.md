@@ -1,3 +1,7 @@
+## 9.5.0.5 (2023-06-28)
+
+[PIL] Make return type of PyDecoder.decode a tuple (#10381)
+
 ## 9.5.0.4 (2023-05-10)
 
 Add `partial_stub` metadata field (#10157)
