@@ -1,3 +1,7 @@
+## 1.1.0.0 (2023-06-28)
+
+Bump PyMySQL to `1.1.*` (#10376)
+
 ## 1.0.19.7 (2023-05-10)
 
 Add `partial_stub` metadata field (#10157)
