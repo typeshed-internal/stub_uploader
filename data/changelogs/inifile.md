@@ -1,3 +1,7 @@
+## 0.4.0.2 (2023-06-29)
+
+Stricter pyright checks for `inifile` (#10382)
+
 ## 0.4.0.1 (2023-06-08)
 
 inifile: add missing attributes (#10273)

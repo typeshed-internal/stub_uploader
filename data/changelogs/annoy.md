@@ -1,3 +1,13 @@
+## 1.17.8.4 (2023-06-29)
+
+[stubsabot] Mark annoy as obsolete since 1.17.1 (#10374)
+
+Release: https://pypi.org/pypi/annoy/1.17.1
+Homepage: https://github.com/spotify/annoy
+Diff: https://github.com/spotify/annoy/compare/v1.17.0...v1.17.1
+
+Co-authored-by: stubsabot <>
+
 ## 1.17.8.3 (2023-03-27)
 
 Add defaults for third-party stubs A-D (#9952)
