@@ -1,3 +1,7 @@
+## 4.6.0.1 (2023-07-01)
+
+Use proper return types for `__await__` methods in `redis.asyncio.client` (#10379)
+
 ## 4.6.0.0 (2023-06-27)
 
 Bump redis to 4.6.0 (#10360)
