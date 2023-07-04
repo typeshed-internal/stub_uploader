@@ -1,3 +1,7 @@
+## 68.0.0.1 (2023-07-04)
+
+Bring back a few setuptools._distutils files (#10401)
+
 ## 68.0.0.0 (2023-06-21)
 
 Bump setuptools to 68.0 (#10339)
