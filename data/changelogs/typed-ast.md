@@ -1,3 +1,7 @@
+## 1.5.8.7 (2023-07-05)
+
+Mark `types-typed-ast` as no longer updated (#10410)
+
 ## 1.5.8.6 (2023-03-28)
 
 Add defaults for third-party stubs Q-T (#9959)
