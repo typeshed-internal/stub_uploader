@@ -1,3 +1,7 @@
+## 9.5.0.6 (2023-07-05)
+
+Pillow: Add `tuple[int, int]` to `_Color` TypeAlias (#10407)
+
 ## 9.5.0.5 (2023-06-28)
 
 [PIL] Make return type of PyDecoder.decode a tuple (#10381)
