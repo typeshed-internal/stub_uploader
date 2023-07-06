@@ -1,3 +1,14 @@
+## 10.0.0.0 (2023-07-06)
+
+Bump Pillow to 10.0.* (#10411)
+
+[Pillow] Replace `Any` with `Incomplete` (#10409)
+
+[Pillow] Update TiffImagePlugin for Python 3.11 (#10399)
+
+Also type the methods forwarded from Fraction and replace
+`Any` with `Incomplete`.
+
 ## 9.5.0.6 (2023-07-05)
 
 Pillow: Add `tuple[int, int]` to `_Color` TypeAlias (#10407)

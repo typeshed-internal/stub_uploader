@@ -1,3 +1,11 @@
+## 3.5.2.11 (2023-07-06)
+
+stripe: add shipping_rate type (#10323)
+
+* add shipping_rate type
+
+* remove redundant method
+
 ## 3.5.2.10 (2023-05-10)
 
 Add `partial_stub` metadata field (#10157)
