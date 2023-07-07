@@ -1,3 +1,7 @@
+## 2.4.7.3 (2023-07-07)
+
+Mark contextvars stubs as no longer updated (#10419)
+
 ## 2.4.7.2 (2023-03-27)
 
 contextvars: widen return value of ContextVar.get(default) (#9953)
