@@ -1,3 +1,9 @@
+## 4.0.0.5 (2023-07-08)
+
+Remove `SQLAlchemy` stubs (#10389)
+
+Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
+
 ## 4.0.0.4 (2023-05-10)
 
 Add `partial_stub` metadata field (#10157)
