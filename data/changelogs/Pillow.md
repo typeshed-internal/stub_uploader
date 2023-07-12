@@ -1,3 +1,7 @@
+## 10.0.0.1 (2023-07-12)
+
+Pillow: mark MAX_IMAGE_PIXELS as non-final (#10445)
+
 ## 10.0.0.0 (2023-07-06)
 
 Bump Pillow to 10.0.* (#10411)
