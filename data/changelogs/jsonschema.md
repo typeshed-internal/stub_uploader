@@ -1,3 +1,9 @@
+## 4.17.0.9 (2023-07-13)
+
+[jsonschema] Use `Incomplete` instead of `Any` (#10451)
+
+Replace `Any` with `Incomplete`
+
 ## 4.17.0.8 (2023-05-10)
 
 Add `partial_stub` metadata field (#10157)
