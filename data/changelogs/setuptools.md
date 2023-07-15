@@ -1,3 +1,7 @@
+## 68.0.0.2 (2023-07-15)
+
+Add stubs for `pkg_resources._vendor.packaging` (#10423)
+
 ## 68.0.0.1 (2023-07-04)
 
 Bring back a few setuptools._distutils files (#10401)
