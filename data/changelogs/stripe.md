@@ -1,3 +1,7 @@
+## 3.5.2.13 (2023-07-15)
+
+[stripe] Add type for PaymentLink (#10461)
+
 ## 3.5.2.12 (2023-07-06)
 
 Stripe: add shipping_rate to `__init__.py` (#10416)
