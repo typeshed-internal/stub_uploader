@@ -1,3 +1,7 @@
+## 3.1.0.14 (2023-07-19)
+
+Type openpyxl `functions` module and its usages (#10322)
+
 ## 3.1.0.13 (2023-06-24)
 
 Bump pyright to 1.1.315 and fix openpyxl tests (#10356)

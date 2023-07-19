@@ -1,3 +1,9 @@
+## 5.1.0.0 (2023-07-19)
+
+Add a more precise signature for `AsyncMock.reset_mock()` (#10481)
+
+Update `mock` to `5.1.*` (#10472)
+
 ## 5.0.0.7 (2023-06-21)
 
 [mock] take an iterable of calls for assert_has_awaits(#10337)

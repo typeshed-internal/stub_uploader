@@ -1,3 +1,7 @@
+## 3.0.0.0 (2023-07-19)
+
+Update `python-crontab` to `3.0.*` (#10475)
+
 ## 2.7.0.6 (2023-02-22)
 
 Update `Unused` parameters in `stubs/` (#9704)
