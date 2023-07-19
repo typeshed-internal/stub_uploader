@@ -1,3 +1,18 @@
+## 1.7.0.0 (2023-07-19)
+
+[stubsabot] Bump tree-sitter-languages to 1.7.* (#10474)
+
+Release: https://pypi.org/pypi/tree-sitter-languages/1.7.0
+Homepage: https://github.com/grantjenks/py-tree-sitter-languages
+Diff: https://github.com/grantjenks/py-tree-sitter-languages/compare/v1.6.1...v1.7.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `tree_sitter_languages/__init__.py`.
+ - Total lines of Python code added: 3.
+ - Total lines of Python code deleted: 1.
+
 ## 1.6.0.0 (2023-06-27)
 
 [stubsabot] Bump tree-sitter-languages to 1.6.* (#10364)
