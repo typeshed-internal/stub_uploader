@@ -1,3 +1,7 @@
+## 3.0.0.1 (2023-07-20)
+
+Add a few more upstream_repository URLs (#10489)
+
 ## 3.0.0.0 (2023-07-19)
 
 Update `python-crontab` to `3.0.*` (#10475)

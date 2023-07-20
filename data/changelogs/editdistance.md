@@ -1,3 +1,7 @@
+## 0.6.3.5 (2023-07-20)
+
+Add a few more upstream_repository URLs (#10489)
+
 ## 0.6.3.4 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)

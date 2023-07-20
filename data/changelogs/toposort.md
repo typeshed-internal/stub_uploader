@@ -1,3 +1,7 @@
+## 1.10.0.1 (2023-07-20)
+
+Add a few more upstream_repository URLs (#10489)
+
 ## 1.10.0.0 (2023-02-26)
 
 [stubsabot] Bump toposort to 1.10 (#9816)

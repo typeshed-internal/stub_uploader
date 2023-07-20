@@ -1,3 +1,7 @@
+## 0.9.8.12 (2023-07-20)
+
+Add a few more upstream_repository URLs (#10489)
+
 ## 0.9.8.11 (2023-03-28)
 
 Add defaults to third-party stubs U-Z (#9971)

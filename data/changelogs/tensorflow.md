@@ -1,3 +1,7 @@
+## 2.12.0.6 (2023-07-20)
+
+Add a few more upstream_repository URLs (#10489)
+
 ## 2.12.0.5 (2023-06-08)
 
 Tensorflow losses (#10264)

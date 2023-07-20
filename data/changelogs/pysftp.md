@@ -1,3 +1,7 @@
+## 0.2.17.6 (2023-07-20)
+
+Add a few more upstream_repository URLs (#10489)
+
 ## 0.2.17.5 (2023-03-29)
 
 Remove unnecessary ellipsis expressions (#9976)
