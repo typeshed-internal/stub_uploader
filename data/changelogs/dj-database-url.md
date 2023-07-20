@@ -1,3 +1,9 @@
+## 1.3.0.4 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 1.3.0.3 (2023-05-11)
 
 Bump `mypy` to `1.3.0` (#10173)

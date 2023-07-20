@@ -1,3 +1,9 @@
+## 23.0.0.1 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 23.0.0.0 (2023-06-07)
 
 add boltons (#8892)

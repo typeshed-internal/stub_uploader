@@ -1,3 +1,9 @@
+## 4.17.0.10 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 4.17.0.9 (2023-07-13)
 
 [jsonschema] Use `Incomplete` instead of `Any` (#10451)

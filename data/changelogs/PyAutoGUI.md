@@ -1,3 +1,9 @@
+## 0.9.3.7 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 0.9.3.6 (2023-05-25)
 
 Update pyautogui (#10209)

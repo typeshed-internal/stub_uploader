@@ -1,3 +1,9 @@
+## 2023.6.3.1 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 2023.6.3.0 (2023-06-04)
 
 [stubsabot] Bump regex to 2023.6.3 (#10252)

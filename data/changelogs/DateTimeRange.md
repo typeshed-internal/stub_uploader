@@ -1,3 +1,9 @@
+## 2.0.0.6 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 2.0.0.5 (2023-03-29)
 
 Remove unnecessary ellipsis expressions (#9976)

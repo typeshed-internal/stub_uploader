@@ -1,3 +1,9 @@
+## 1.3.7.5 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 1.3.7.4 (2023-06-28)
 
 [stubsabot] Mark flake8-plugin-utils as obsolete since 1.3.3 (#10373)

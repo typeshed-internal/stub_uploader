@@ -1,3 +1,9 @@
+## 0.13.2.8 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 0.13.2.7 (2023-04-17)
 
 `keyboard` : Update `stubtest_allowlist` and add comments for missing defaults (#9965)

@@ -1,3 +1,9 @@
+## 2.11.0.15 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 2.11.0.14 (2023-06-04)
 
 `distutils` package was removed in 3.12 (#10249)

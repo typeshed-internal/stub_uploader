@@ -1,3 +1,9 @@
+## 5.13.0.2 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 5.13.0.1 (2023-06-27)
 
 [PyInstaller] TOCs are not often lists of TOCs (#10366)

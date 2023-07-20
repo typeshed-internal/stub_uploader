@@ -1,3 +1,9 @@
+## 2.0.0.9 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 2.0.0.8 (2023-05-16)
 
 Mark `invoke` as obsolete since `2.1.2` (#10100)

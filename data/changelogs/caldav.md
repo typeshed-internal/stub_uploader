@@ -1,3 +1,13 @@
+## 1.3.0.0 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
+Update `caldav` to `1.3.*` (#10485)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 1.2.0.2 (2023-05-10)
 
 Add `partial_stub` metadata field (#10157)

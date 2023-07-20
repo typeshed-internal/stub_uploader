@@ -1,3 +1,9 @@
+## 306.0.0.3 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 306.0.0.2 (2023-05-28)
 
 pywin32: add `HANDLEType` class (#10032)

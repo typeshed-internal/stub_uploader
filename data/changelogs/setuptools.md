@@ -1,3 +1,9 @@
+## 68.0.0.3 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 68.0.0.2 (2023-07-15)
 
 Add stubs for `pkg_resources._vendor.packaging` (#10423)

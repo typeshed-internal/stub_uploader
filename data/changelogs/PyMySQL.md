@@ -1,3 +1,9 @@
+## 1.1.0.1 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 1.1.0.0 (2023-06-28)
 
 Bump PyMySQL to `1.1.*` (#10376)

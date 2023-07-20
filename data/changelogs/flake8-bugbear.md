@@ -1,3 +1,9 @@
+## 23.7.10.1 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 23.7.10.0 (2023-07-11)
 
 [stubsabot] Bump flake8-bugbear to 23.7.10 (#10434)

@@ -1,3 +1,9 @@
+## 1.36.0.9 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 1.36.0.8 (2023-04-27)
 
 influxdb-client: fix stubtest (#10090)

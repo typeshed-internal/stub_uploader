@@ -1,3 +1,9 @@
+## 3.0.0.6 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 3.0.0.5 (2023-03-27)
 
 Add defaults for third-party stubs E-H (#9954)

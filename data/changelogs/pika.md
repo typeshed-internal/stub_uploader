@@ -1,3 +1,9 @@
+## 1.3.0.11 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 1.3.0.10 (2023-03-29)
 
 Add default values to `pika.spec` (#9973)

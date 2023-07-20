@@ -1,3 +1,9 @@
+## 0.4.15.12 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 0.4.15.11 (2023-03-30)
 
 colorama.winterm: ClassVar -> Final for WinColor and WinStyle (#9983)

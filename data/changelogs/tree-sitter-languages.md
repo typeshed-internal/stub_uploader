@@ -1,3 +1,9 @@
+## 1.7.0.1 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 1.7.0.0 (2023-07-19)
 
 [stubsabot] Bump tree-sitter-languages to 1.7.* (#10474)

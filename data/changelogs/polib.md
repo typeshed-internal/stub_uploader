@@ -1,3 +1,9 @@
+## 1.2.0.1 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 1.2.0.0 (2023-02-24)
 
 [stubsabot] Bump polib to 1.2.* (#9804)

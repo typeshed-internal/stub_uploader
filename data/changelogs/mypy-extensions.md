@@ -1,3 +1,9 @@
+## 1.0.0.4 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 1.0.0.3 (2023-02-22)
 
 Update `Unused` parameters in `stubs/` (#9704)

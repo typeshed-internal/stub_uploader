@@ -1,3 +1,9 @@
+## 5.0.1.1 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 5.0.1.0 (2023-05-16)
 
 Bump `tzlocal` to `5.0.1` (#10188)

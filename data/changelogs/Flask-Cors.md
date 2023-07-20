@@ -1,3 +1,9 @@
+## 4.0.0.1 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 4.0.0.0 (2023-06-27)
 
 [stubsabot] Bump Flask-Cors to 4.0.* (#10363)

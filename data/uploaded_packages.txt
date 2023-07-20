@@ -150,6 +150,7 @@ types-python-xlib
 types-pytz
 types-pyvmomi
 types-pywin32
+types-qrcode
 types-redis
 types-regex
 types-requests

@@ -1,3 +1,9 @@
+## 23.1.0.5 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 23.1.0.4 (2023-06-07)
 
 [aiofiles] Use file mode alias from _typeshed (#10233)

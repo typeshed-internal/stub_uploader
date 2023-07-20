@@ -1,3 +1,9 @@
+## 0.1.0.9 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 0.1.0.8 (2023-05-26)
 
 Update pyscreeze stubs (#10223)

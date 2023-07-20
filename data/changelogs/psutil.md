@@ -1,3 +1,9 @@
+## 5.9.5.16 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 5.9.5.15 (2023-06-12)
 
 psutil: import platform-specific 'pio' definitions (#10305)

@@ -1,3 +1,9 @@
+## 2.4.10.6 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 2.4.10.5 (2023-05-10)
 
 Add `partial_stub` metadata field (#10157)

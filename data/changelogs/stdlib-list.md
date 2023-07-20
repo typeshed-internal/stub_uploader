@@ -1,3 +1,9 @@
+## 0.8.3.4 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 0.8.3.3 (2023-06-23)
 
 [stubsabot] Mark stdlib-list as obsolete since 0.9.0 (#10348)

@@ -1,3 +1,9 @@
+## 4.6.0.3 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 4.6.0.2 (2023-07-04)
 
 Redis: Add missing types for id in xadd (#10403)

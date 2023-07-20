@@ -1,3 +1,9 @@
+## 6.0.12.11 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 6.0.12.10 (2023-05-22)
 
 [PyYAML] Improve dump/serialize types (#10196)

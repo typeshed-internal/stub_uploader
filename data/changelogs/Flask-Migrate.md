@@ -1,3 +1,9 @@
+## 4.0.0.6 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 4.0.0.5 (2023-07-08)
 
 Remove `SQLAlchemy` stubs (#10389)

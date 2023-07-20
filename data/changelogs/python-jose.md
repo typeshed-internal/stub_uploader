@@ -1,3 +1,9 @@
+## 3.3.4.8 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 3.3.4.7 (2023-04-13)
 
 Style: prefer `type[Foo | Bar]` over `type[Foo] | type[Bar]` (#10039)

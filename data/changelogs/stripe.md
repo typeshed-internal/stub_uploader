@@ -1,3 +1,9 @@
+## 3.5.2.14 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 3.5.2.13 (2023-07-15)
 
 [stripe] Add type for PaymentLink (#10461)

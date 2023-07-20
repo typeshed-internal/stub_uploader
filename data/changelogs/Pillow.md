@@ -1,3 +1,9 @@
+## 10.0.0.2 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 10.0.0.1 (2023-07-12)
 
 Pillow: mark MAX_IMAGE_PIXELS as non-final (#10445)

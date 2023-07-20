@@ -1,3 +1,9 @@
+## 1.5.0.3 (2023-07-20)
+
+Add an upstream_repository field to METADATA.toml (#10487)
+
+Closes: #10478
+
 ## 1.5.0.2 (2023-03-24)
 
 [zstd] Add ZSTD_(max_)threads_count methods (#9938)
