@@ -119,6 +119,7 @@ types-pep8-naming
 types-pexpect
 types-pika
 types-playsound
+types-pluggy
 types-polib
 types-prettytable
 types-protobuf
