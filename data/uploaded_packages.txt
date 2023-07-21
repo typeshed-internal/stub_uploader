@@ -155,6 +155,7 @@ types-redis
 types-regex
 types-requests
 types-retry
+types-s2clientprotocol
 types-scribe
 types-selenium
 types-setuptools
