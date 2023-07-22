@@ -1,3 +1,9 @@
+## 4.23.0.2 (2023-07-22)
+
+Pretend `_EnumTypeWrapper` inherits from `type` (#10203)
+
+Pretend `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper` inherits from `type`. It doesn't really, but this makes type checkers stop complaining when you use it as a metaclass, which is the only reason the class exists.
+
 ## 4.23.0.1 (2023-05-10)
 
 Add `partial_stub` metadata field (#10157)
