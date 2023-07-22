@@ -45,6 +45,7 @@ types-characteristic
 types-chardet
 types-chevron
 types-click
+types-click-default-group
 types-click-spinner
 types-colorama
 types-commonmark
@@ -81,6 +82,7 @@ types-futures
 types-gdb
 types-geoip2
 types-google-cloud-ndb
+types-greenlet
 types-hdbcli
 types-html5lib
 types-httplib2
