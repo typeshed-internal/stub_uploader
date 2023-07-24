@@ -180,6 +180,7 @@ types-tree-sitter-languages
 types-ttkthemes
 types-typed-ast
 types-tzlocal
+types-uWSGI
 types-ujson
 types-untangle
 types-urllib3
