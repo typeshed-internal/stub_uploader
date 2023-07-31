@@ -1,3 +1,7 @@
+## 3.1.0.0 (2023-07-31)
+
+Update pyflakes stubs for v3.1.* (#10518)
+
 ## 3.0.0.5 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
