@@ -1,3 +1,9 @@
+## 2.2.0.0 (2023-07-31)
+
+Bump google-cloud-ndb to 2.2.* (#10521)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 2.1.0.8 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
