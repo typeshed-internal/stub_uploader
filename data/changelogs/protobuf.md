@@ -1,3 +1,7 @@
+## 4.23.0.3 (2023-08-07)
+
+Add missing stubs in google.protobuf.message_factory module (#10537)
+
 ## 4.23.0.2 (2023-07-22)
 
 Pretend `_EnumTypeWrapper` inherits from `type` (#10203)
