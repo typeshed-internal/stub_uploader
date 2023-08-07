@@ -1,3 +1,23 @@
+## 2.16.0.0 (2023-08-07)
+
+[stubsabot] Bump Pygments to 2.16.* (#10536)
+
+Release: https://pypi.org/pypi/Pygments/2.16.1
+Homepage: https://pygments.org
+Repository: https://github.com/pygments/pygments
+Changelog: https://github.com/pygments/pygments/blob/master/CHANGES
+Diff: https://github.com/pygments/pygments/compare/2.15.1...2.16.1
+
+Stubsabot analysis of the diff between the two releases:
+ - 12 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 6 files included in typeshed's stubs have been modified or renamed: `pygments/__init__.py`, `pygments/formatters/img.py`, `pygments/lexer.py`, `pygments/sphinxext.py`, `pygments/styles/__init__.py`, `pygments/token.py`.
+ - Total lines of Python code added: 2942.
+ - Total lines of Python code deleted: 477.
+
+Co-authored-by: stubsabot <>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 2.15.0.2 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
