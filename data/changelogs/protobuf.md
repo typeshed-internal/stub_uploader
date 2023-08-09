@@ -1,3 +1,13 @@
+## 4.24.0.0 (2023-08-09)
+
+[stubsabot] Bump protobuf to 4.24.* (#10545)
+
+Release: https://pypi.org/pypi/protobuf/4.24.0
+Homepage: https://developers.google.com/protocol-buffers/
+
+Co-authored-by: stubsabot <>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 4.23.0.3 (2023-08-07)
 
 Add missing stubs in google.protobuf.message_factory module (#10537)
