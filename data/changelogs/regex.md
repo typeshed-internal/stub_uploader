@@ -1,3 +1,16 @@
+## 2023.8.8.0 (2023-08-10)
+
+[stubsabot] Bump regex to 2023.8.8 (#10553)
+
+Release: https://pypi.org/pypi/regex/2023.8.8
+Homepage: https://github.com/mrabarnett/mrab-regex
+Repository: https://github.com/mrabarnett/mrab-regex
+Diff: https://github.com/mrabarnett/mrab-regex/compare/2023.6.3...2023.8.8
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 15.
+ - Total lines of Python code deleted: 10.
+
 ## 2023.6.3.1 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

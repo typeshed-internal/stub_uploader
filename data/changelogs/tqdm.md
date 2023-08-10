@@ -1,3 +1,21 @@
+## 4.66.0.0 (2023-08-10)
+
+[stubsabot] Bump tqdm to 4.66.* (#10552)
+
+Release: https://pypi.org/pypi/tqdm/4.66.0
+Repository: https://github.com/tqdm/tqdm
+Diff: https://github.com/tqdm/tqdm/compare/v4.65.2...v4.66.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 1 public Python file has been added: `tests/tests_utils.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 6 files included in typeshed's stubs have been modified or renamed: `tqdm/cli.py`, `tqdm/contrib/discord.py`, `tqdm/contrib/slack.py`, `tqdm/contrib/telegram.py`, `tqdm/std.py`, `tqdm/utils.py`.
+ - Total lines of Python code added: 274.
+ - Total lines of Python code deleted: 182.
+
+Co-authored-by: stubsabot <>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 4.65.0.2 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
