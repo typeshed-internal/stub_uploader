@@ -1,3 +1,7 @@
+## 1.0.0.5 (2023-08-12)
+
+Improve `__(r)or__` signatures for TypedDict classes (#10565)
+
 ## 1.0.0.4 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
