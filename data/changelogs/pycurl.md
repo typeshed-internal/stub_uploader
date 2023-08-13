@@ -1,3 +1,9 @@
+## 7.45.2.5 (2023-08-13)
+
+Fill in all missing `upstream_repository` fields (#10571)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 7.45.2.4 (2023-03-29)
 
 Fix a default in `pycurl` and update `apt_dependencies` (#9961)

@@ -1,3 +1,9 @@
+## 0.2.16.7 (2023-08-13)
+
+Fill in all missing `upstream_repository` fields (#10571)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 0.2.16.6 (2023-02-21)
 
 Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)

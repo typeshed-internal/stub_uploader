@@ -1,3 +1,9 @@
+## 4.12.0.6 (2023-08-13)
+
+Fill in all missing `upstream_repository` fields (#10571)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 4.12.0.5 (2023-05-10)
 
 Add `partial_stub` metadata field (#10157)

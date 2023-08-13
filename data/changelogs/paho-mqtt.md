@@ -1,3 +1,9 @@
+## 1.6.0.7 (2023-08-13)
+
+Fill in all missing `upstream_repository` fields (#10571)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 1.6.0.6 (2023-03-27)
 
 Add default values for third-party stubs beginning with 'P' (#9957)

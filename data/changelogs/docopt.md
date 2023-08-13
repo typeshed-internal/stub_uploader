@@ -1,3 +1,9 @@
+## 0.6.11.4 (2023-08-13)
+
+Fill in all missing `upstream_repository` fields (#10571)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 0.6.11.3 (2023-03-04)
 
 docopt: add exception types (#9839)

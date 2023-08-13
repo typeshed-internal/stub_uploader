@@ -1,3 +1,9 @@
+## 0.5.10.9 (2023-08-13)
+
+Fill in all missing `upstream_repository` fields (#10571)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 0.5.10.8 (2023-03-28)
 
 Add default values to `JACK-Client` (#9964)

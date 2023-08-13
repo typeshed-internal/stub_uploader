@@ -1,3 +1,9 @@
+## 12.1.4.5 (2023-08-13)
+
+Fill in all missing `upstream_repository` fields (#10571)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 12.1.4.4 (2023-03-14)
 
 Fix typos in `extra_description` fields (#9883)

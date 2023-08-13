@@ -1,3 +1,9 @@
+## 2023.3.0.1 (2023-08-13)
+
+Fill in all missing `upstream_repository` fields (#10571)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 2023.3.0.0 (2023-03-30)
 
 [stubsabot] Bump pytz to 2023.3 (#9984)

@@ -1,3 +1,9 @@
+## 1.7.7.13 (2023-08-13)
+
+Fill in all missing `upstream_repository` fields (#10571)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 1.7.7.12 (2023-05-01)
 
 Remove unnecessary F821 noqas (#10123)
