@@ -1,3 +1,7 @@
+## 306.0.0.4 (2023-08-14)
+
+pywin32: Fix PyNETRESOURCE descriptor members wrongly marked as readonly (#10574)
+
 ## 306.0.0.3 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
