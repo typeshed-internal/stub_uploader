@@ -1,3 +1,7 @@
+## 3.1.0.16 (2023-08-14)
+
+Make `openpyxl` stubtest-complete (#10570)
+
 ## 3.1.0.15 (2023-07-20)
 
 Add a few more upstream_repository URLs (#10489)
