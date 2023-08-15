@@ -1,3 +1,11 @@
+## 3.1.0.17 (2023-08-15)
+
+openpyxl: Class attributes set explicitly as another class' (#10549)
+
+openpyxl: Make common alias for visibility literal string union (#10562)
+
+Complete openpyxl title type annotations (#10563)
+
 ## 3.1.0.16 (2023-08-14)
 
 Make `openpyxl` stubtest-complete (#10570)
