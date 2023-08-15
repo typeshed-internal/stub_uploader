@@ -180,6 +180,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "click",
     "cryptography",
     "numpy",
+    "referencing",
     "torch",
     "urllib3",
 }
