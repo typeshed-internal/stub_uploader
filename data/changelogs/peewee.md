@@ -1,3 +1,7 @@
+## 3.16.0.2 (2023-08-15)
+
+Update peewee for 3.16.3 (#10580)
+
 ## 3.16.0.1 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
