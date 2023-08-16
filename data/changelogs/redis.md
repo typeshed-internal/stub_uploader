@@ -1,3 +1,7 @@
+## 4.6.0.4 (2023-08-16)
+
+[stubsabot] Mark redis as obsolete since 5.0.0 (#10587)
+
 ## 4.6.0.3 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

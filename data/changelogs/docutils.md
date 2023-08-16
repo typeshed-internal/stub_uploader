@@ -1,3 +1,7 @@
+## 0.20.0.3 (2023-08-16)
+
+Docutils frontend fix (#10569)
+
 ## 0.20.0.2 (2023-08-13)
 
 Fill in all missing `upstream_repository` fields (#10571)
