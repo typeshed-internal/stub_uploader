@@ -1,3 +1,20 @@
+## 68.1.0.0 (2023-08-16)
+
+[stubsabot] Bump setuptools to 68.1.* (#10588)
+
+Release: https://pypi.org/pypi/setuptools/68.1.0
+Homepage: https://github.com/pypa/setuptools
+Repository: https://github.com/pypa/setuptools
+Changelog: https://setuptools.pypa.io/en/stable/history.html
+Diff: https://github.com/pypa/setuptools/compare/v68.0.0...v68.1.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 42 files included in typeshed's stubs have been modified or renamed.
+ - Total lines of Python code added: 3401.
+ - Total lines of Python code deleted: 2264.
+
 ## 68.0.0.3 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
