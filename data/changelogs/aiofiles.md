@@ -1,3 +1,7 @@
+## 23.2.0.0 (2023-08-16)
+
+Bump aiofiles to 23.2.* (#10584)
+
 ## 23.1.0.5 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

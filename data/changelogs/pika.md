@@ -1,3 +1,15 @@
+## 1.3.0.12 (2023-08-16)
+
+Bump `pyright` version (#10591)
+
+Release: https://github.com/microsoft/pyright/releases/tag/1.1.323
+
+Fix types-pika to work with the latest pyright version.
+
+---------
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 1.3.0.11 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

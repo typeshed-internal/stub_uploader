@@ -1,3 +1,9 @@
+## 1.37.0.0 (2023-08-16)
+
+Bump influxdb-client to 1.37.* (#10585)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 1.36.0.9 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
