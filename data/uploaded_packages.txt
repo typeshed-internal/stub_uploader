@@ -184,6 +184,7 @@ types-uWSGI
 types-ujson
 types-untangle
 types-urllib3
+types-usersettings
 types-vobject
 types-waitress
 types-whatthepatch
