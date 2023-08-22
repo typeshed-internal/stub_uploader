@@ -1,3 +1,11 @@
+## 4.6.0.5 (2023-08-22)
+
+redis: Improve typing of xadd/xdel (#10531)
+
+typing copied from
+https://redis-py.readthedocs.io/en/stable/commands.html#redis.commands.cluster.RedisClusterCommands.xadd
+https://redis-py.readthedocs.io/en/stable/commands.html#redis.commands.cluster.RedisClusterCommands.xdel
+
 ## 4.6.0.4 (2023-08-16)
 
 [stubsabot] Mark redis as obsolete since 5.0.0 (#10587)
