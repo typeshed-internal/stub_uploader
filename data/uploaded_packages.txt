@@ -188,6 +188,7 @@ types-usersettings
 types-vobject
 types-waitress
 types-whatthepatch
+types-workalendar
 types-xmltodict
 types-xxhash
 types-zstd
