@@ -1,3 +1,7 @@
+## 3.2.0.0 (2023-08-27)
+
+Update `ibm-db` to `3.2.*` (#10622)
+
 ## 3.1.0.3 (2023-08-13)
 
 Fill in all missing `upstream_repository` fields (#10571)
