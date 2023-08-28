@@ -1,3 +1,7 @@
+## 4.66.0.2 (2023-08-28)
+
+Consistently use `Generic` as the last base class (#10610)
+
 ## 4.66.0.1 (2023-08-11)
 
 Fix stubtest for `tqdm` (#10560)

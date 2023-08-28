@@ -1,3 +1,7 @@
+## 2.12.0.7 (2023-08-28)
+
+Consistently use `Generic` as the last base class (#10610)
+
 ## 2.12.0.6 (2023-07-20)
 
 Add a few more upstream_repository URLs (#10489)
