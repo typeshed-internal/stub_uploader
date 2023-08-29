@@ -1,3 +1,16 @@
+## 4.1.0.0 (2023-08-29)
+
+[stubsabot] Bump singledispatch to 4.1.* (#10624)
+
+Release: https://pypi.org/pypi/singledispatch/4.1.0
+Homepage: https://github.com/jaraco/singledispatch
+Repository: https://github.com/jaraco/singledispatch
+Diff: https://github.com/jaraco/singledispatch/compare/v4.0.0...v4.1.0
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 174.
+ - Total lines of Python code deleted: 434.
+
 ## 4.0.0.2 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
