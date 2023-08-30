@@ -1,3 +1,7 @@
+## 68.1.0.1 (2023-08-30)
+
+setuptools: add various missing objects and annotations (#10639)
+
 ## 68.1.0.0 (2023-08-16)
 
 [stubsabot] Bump setuptools to 68.1.* (#10588)
