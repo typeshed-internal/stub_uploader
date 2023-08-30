@@ -1,3 +1,12 @@
+## 4.22.0.0 (2023-08-30)
+
+[stubsabot] Bump braintree to 4.22.* (#10631)
+
+Release: https://pypi.org/pypi/braintree/4.22.0
+Homepage: https://developer.paypal.com/braintree/docs/reference/overview
+Repository: https://github.com/braintree/braintree_python
+Diff: https://github.com/braintree/braintree_python/compare/4.21.0...4.22.0
+
 ## 4.21.0.1 (2023-08-13)
 
 Fill in all missing `upstream_repository` fields (#10571)
