@@ -99,6 +99,7 @@ types-jwt
 types-kazoo
 types-keyboard
 types-ldap3
+types-libsass
 types-maxminddb
 types-mock
 types-mypy-extensions
