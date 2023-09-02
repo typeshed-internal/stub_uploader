@@ -1,3 +1,11 @@
+## 5.1.0.2 (2023-09-02)
+
+Update `unittest.mock` to 3.12 (#10650)
+
+And harmonise some annotations between the stdlib `unittest.mock` module and the third-party `mock` backport package.
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 5.1.0.1 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
