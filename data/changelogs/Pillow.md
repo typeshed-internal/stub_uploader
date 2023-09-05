@@ -1,3 +1,7 @@
+## 10.0.0.3 (2023-09-05)
+
+[Pillow] Fix typing of FreeTypeFont.getlength (#10663)
+
 ## 10.0.0.2 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
