@@ -1,3 +1,20 @@
+## 68.2.0.0 (2023-09-07)
+
+[stubsabot] Bump setuptools to 68.2.* (#10674)
+
+Release: https://pypi.org/pypi/setuptools/68.2.0
+Homepage: https://github.com/pypa/setuptools
+Repository: https://github.com/pypa/setuptools
+Changelog: https://setuptools.pypa.io/en/stable/history.html
+Diff: https://github.com/pypa/setuptools/compare/v68.1.2...v68.2.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 1 public Python file has been added: `setuptools/tests/test_core_metadata.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 7 files included in typeshed's stubs have been modified or renamed: `setuptools/__init__.py`, `setuptools/command/editable_wheel.py`, `setuptools/command/egg_info.py`, `setuptools/depends.py`, `setuptools/dist.py`, `setuptools/monkey.py`, `setuptools/namespaces.py`.
+ - Total lines of Python code added: 1051.
+ - Total lines of Python code deleted: 682.
+
 ## 68.1.0.1 (2023-08-30)
 
 setuptools: add various missing objects and annotations (#10639)
