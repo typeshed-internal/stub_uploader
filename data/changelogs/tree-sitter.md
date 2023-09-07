@@ -1,3 +1,7 @@
+## 0.20.1.5 (2023-09-07)
+
+Pin `tree-sitter` to 0.20.1 (#10677)
+
 ## 0.20.1.4 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
