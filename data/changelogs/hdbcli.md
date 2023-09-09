@@ -1,3 +1,7 @@
+## 2.18.0.0 (2023-09-09)
+
+[stubsabot] Bump hdbcli to 2.18.* (#10687)
+
 ## 2.17.0.1 (2023-08-13)
 
 Fill in all missing `upstream_repository` fields (#10571)
