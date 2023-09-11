@@ -157,6 +157,7 @@ types-qrcode
 types-redis
 types-regex
 types-requests
+types-requests-oauthlib
 types-retry
 types-s2clientprotocol
 types-scribe
