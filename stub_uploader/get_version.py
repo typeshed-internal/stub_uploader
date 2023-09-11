@@ -86,7 +86,6 @@ def compute_incremented_version(
     if version_base.post is not None:
         version_base = Version(f"{version_base.base_version}.{version_base.post}")
 
-    # Look up the base version and specificity in METADATA.toml.
     specificity = len(version_base.release)
 
     if max_published.epoch > 0 or version_base.epoch > 0:
