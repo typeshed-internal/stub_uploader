@@ -52,6 +52,7 @@ def ensure_specificity(ver: list[int], specificity: int) -> None:
 
 POST_SPEC_RE = re.compile(r"^(.*)\.post(\d+)$")
 
+
 def compute_incremented_version(
     version_spec: str, published_versions: list[Version]
 ) -> Version:
