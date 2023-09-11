@@ -43,6 +43,7 @@ def test_compute_incremented_version() -> None:
     empty_list: list[str] = []
     assert _incremented_ver("1", empty_list) == "1.0.0.0"
     assert _incremented_ver("1.2", empty_list) == "1.2.0.0"
+    assert _incremented_ver("1.2.post3", empty_list) == "1.2.3.0"
 
     # published greater than version spec
     assert _incremented_ver("1.2", ["1.3.0.4"]) == "1.3.0.5"
@@ -52,6 +53,7 @@ def test_compute_incremented_version() -> None:
     assert _incremented_ver("1.1", ["1.2.3.4.5"]) == "1.2.3.4.6"
     assert _incremented_ver("1.4.40", ["1.4.50"]) == "1.4.50.1"
     assert _incremented_ver("1.4.0.40", ["1.4.0.50"]) == "1.4.0.50.1"
+    assert _incremented_ver("1.2.post3", ["1.2.3.4"]) == "1.2.3.5"
 
     # published less than version spec
     assert _incremented_ver("1.2", ["1.1.0.4"]) == "1.2.0.0"
@@ -59,6 +61,7 @@ def test_compute_incremented_version() -> None:
     assert _incremented_ver("1.1", ["0.9"]) == "1.1.0.0"
     assert _incremented_ver("1.2.3", ["1.1.0.17"]) == "1.2.3.0"
     assert _incremented_ver("1.2.3.4", ["1.1.0.17"]) == "1.2.3.4.0"
+    assert _incremented_ver("1.2.post3", ["1.1.0.17"]) == "1.2.3.0"
 
     # published equals version spec
     assert _incremented_ver("1.1", ["1.1"]) == "1.1.0.1"
