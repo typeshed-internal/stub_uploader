@@ -1,3 +1,7 @@
+## 4.6.0.6 (2023-09-12)
+
+[redis] Don't recommend uninstalling types-redis (#10694)
+
 ## 4.6.0.5 (2023-08-22)
 
 redis: Improve typing of xadd/xdel (#10531)
