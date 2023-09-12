@@ -1,3 +1,9 @@
+## 2.2.0.1 (2023-09-12)
+
+Always install `six` when stubtesting `types-google-cloud-ndb` (#10704)
+
+Fixes #10703
+
 ## 2.2.0.0 (2023-07-31)
 
 Bump google-cloud-ndb to 2.2.* (#10521)
