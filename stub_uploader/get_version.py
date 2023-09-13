@@ -58,7 +58,7 @@ def compute_incremented_version(
     # need revisiting.
     max_published = max(published_versions, default=Version("0"))
 
-    # Parse and massage the base version. if necessary. Usually, the base version is
+    # Parse and massage the base version if necessary. Usually, the base version is
     # just the version_spec without any trailing `.*`. But if the version_spec is a
     # post version, we append the post version to the base version:
     #   1.2.post3 -> 1.2.3
