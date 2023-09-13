@@ -12,7 +12,6 @@ distribution information.
 
 from __future__ import annotations
 
-import re
 from typing import Any
 
 import requests
@@ -50,9 +49,6 @@ def ensure_specificity(ver: list[int], specificity: int) -> None:
     ver.extend([0] * (specificity - len(ver)))
 
 
-POST_SPEC_RE = re.compile(r"^(.*)\.post(\d+)$")
-
-
 def compute_incremented_version(
     version_spec: str, published_versions: list[Version]
 ) -> Version:
@@ -62,34 +58,26 @@ def compute_incremented_version(
     # need revisiting.
     max_published = max(published_versions, default=Version("0"))
 
-    # The second thing we try to do (but don't guarantee), is that the incremented
-    # version will satisfy the version_spec (defined precisely by the `compatible`
-    # specifier below). This allows users to have expectations of what a stub package
-    # will contain based on the upstream version they're targeting.
-    m = POST_SPEC_RE.match(version_spec)
-    if m:
-        compatible = SpecifierSet(f"=={m.group(1)}.{m.group(2)}.*")
-    elif version_spec.endswith(".*"):
-        compatible = SpecifierSet(f"=={version_spec}")
-    else:
-        compatible = SpecifierSet(f"=={version_spec}.*")
-
-    # Massage the base version. Usually, the base version is just the version_spec
-    # without any trailing `.*`. But if the version_spec is a post version, we append
-    # the post version to the base version:
+    # Parse and massage the base version. if necessary. Usually, the base version is
+    # just the version_spec without any trailing `.*`. But if the version_spec is a
+    # post version, we append the post version to the base version:
     #   1.2.post3 -> 1.2.3
     # This is necessary, since structured post versions (e.g. `1.2.post3.4`) are not
     # supported by PEP 440.
     version_base = Version(version_spec.removesuffix(".*"))
-    if version_base.pre is not None:
-        raise NotImplementedError("Pre-releases in versions are not supported")
-    if version_base.post is not None:
-        version_base = Version(f"{version_base.base_version}.{version_base.post}")
-
-    specificity = len(version_base.release)
-
     if max_published.epoch > 0 or version_base.epoch > 0:
         raise NotImplementedError("Epochs in versions are not supported")
+    elif version_base.is_prerelease or version_base.is_devrelease:
+        raise NotImplementedError("Pre- and dev-releases in versions are not supported")
+    elif version_base.is_postrelease:
+        version_base = Version(f"{version_base.base_version}.{version_base.post}")
+
+    # The second thing we try to do (but don't guarantee), is that the incremented
+    # version will satisfy the version_spec (defined precisely by the `compatible`
+    # specifier below). This allows users to have expectations of what a stub package
+    # will contain based on the upstream version they're targeting.
+    compatible = SpecifierSet(f"=={version_base.base_version}.*")
+    specificity = len(version_base.release)
 
     # We'll try to bump the fourth part of the release. So e.g. if our version_spec is
     # 1.1, we'll release 1.1.0.0, 1.1.0.1, 1.1.0.2, ...
