@@ -1,3 +1,7 @@
+## 2.9.21.12 (2023-09-13)
+
+psycopg2: Add missing modules, add annotations (#10630)
+
 ## 2.9.21.11 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
