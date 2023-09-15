@@ -1,3 +1,7 @@
+## 2.9.21.13 (2023-09-15)
+
+Fix `psycopg2.sql.SQL.join` annotation (#10716)
+
 ## 2.9.21.12 (2023-09-13)
 
 psycopg2: Add missing modules, add annotations (#10630)
