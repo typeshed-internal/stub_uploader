@@ -1,3 +1,11 @@
+## 2023.3.1.0 (2023-09-17)
+
+[stubsabot] Bump pytz to 2023.3.post1 (#10673)
+
+Release: https://pypi.org/pypi/pytz/2023.3.post1
+Homepage: http://pythonhosted.org/pytz
+Repository: https://github.com/stub42/pytz
+
 ## 2023.3.0.1 (2023-08-13)
 
 Fill in all missing `upstream_repository` fields (#10571)
