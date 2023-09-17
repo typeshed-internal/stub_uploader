@@ -58,21 +58,26 @@ def compute_incremented_version(
     # need revisiting.
     max_published = max(published_versions, default=Version("0"))
 
+    # Parse and massage the base version if necessary. Usually, the base version is
+    # just the version_spec without any trailing `.*`. But if the version_spec is a
+    # post version, we append the post version to the base version:
+    #   1.2.post3 -> 1.2.3
+    # This is necessary, since structured post versions (e.g. `1.2.post3.4`) are not
+    # supported by PEP 440.
+    version_base = Version(version_spec.removesuffix(".*"))
+    if max_published.epoch > 0 or version_base.epoch > 0:
+        raise NotImplementedError("Epochs in versions are not supported")
+    elif version_base.is_prerelease or version_base.is_devrelease:
+        raise NotImplementedError("Pre- and dev-releases in versions are not supported")
+    elif version_base.is_postrelease:
+        version_base = Version(f"{version_base.base_version}.{version_base.post}")
+
     # The second thing we try to do (but don't guarantee), is that the incremented
     # version will satisfy the version_spec (defined precisely by the `compatible`
     # specifier below). This allows users to have expectations of what a stub package
     # will contain based on the upstream version they're targeting.
-    if version_spec.endswith(".*"):
-        compatible = SpecifierSet(f"=={version_spec}")
-    else:
-        compatible = SpecifierSet(f"=={version_spec}.*")
-
-    # Look up the base version and specificity in METADATA.toml.
-    version_base = Version(version_spec.removesuffix(".*"))
+    compatible = SpecifierSet(f"=={version_base.base_version}.*")
     specificity = len(version_base.release)
-
-    if max_published.epoch > 0 or version_base.epoch > 0:
-        raise NotImplementedError("Epochs in versions are not supported")
 
     # We'll try to bump the fourth part of the release. So e.g. if our version_spec is
     # 1.1, we'll release 1.1.0.0, 1.1.0.1, 1.1.0.2, ...
