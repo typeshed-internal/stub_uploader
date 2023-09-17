@@ -1,3 +1,28 @@
+## 23.9.16.0 (2023-09-17)
+
+[stubsabot] Bump flake8-bugbear to 23.9.16 (#10720)
+
+Release: https://pypi.org/pypi/flake8-bugbear/23.9.16
+Homepage: https://github.com/PyCQA/flake8-bugbear
+Repository: https://github.com/PyCQA/flake8-bugbear
+Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+Diff: https://github.com/PyCQA/flake8-bugbear/compare/23.7.10...23.9.16
+
+Stubsabot analysis of the diff between the two releases:
+ - 1 public Python file has been added: `tests/b902_extended.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `bugbear.py`.
+ - Total lines of Python code added: 352.
+ - Total lines of Python code deleted: 286.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 23.7.10.1 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
