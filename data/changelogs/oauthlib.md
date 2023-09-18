@@ -1,3 +1,7 @@
+## 3.2.0.10 (2023-09-18)
+
+oauthlib: Update types for RequestValidator to match implementation (#10725)
+
 ## 3.2.0.9 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
