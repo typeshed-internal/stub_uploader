@@ -1,3 +1,7 @@
+## 0.9.0.0 (2023-09-19)
+
+Update `netaddr` to `0.9.0` (#10732)
+
 ## 0.8.0.9 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
