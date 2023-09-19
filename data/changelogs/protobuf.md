@@ -1,3 +1,7 @@
+## 4.24.0.2 (2023-09-19)
+
+Update protobufs to support new generated messages (#10717)
+
 ## 4.24.0.1 (2023-08-13)
 
 Fill in all missing `upstream_repository` fields (#10571)
