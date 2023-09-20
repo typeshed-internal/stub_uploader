@@ -1,3 +1,9 @@
+## 2.31.0.3 (2023-09-20)
+
+requests: type RequestException members (not Any) (#8989)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 2.31.0.2 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
