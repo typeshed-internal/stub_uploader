@@ -1,3 +1,7 @@
+## 2023.3.1.1 (2023-09-20)
+
+[pytz] Add BaseTzInfo private attributes (#10733)
+
 ## 2023.3.1.0 (2023-09-17)
 
 [stubsabot] Bump pytz to 2023.3.post1 (#10673)
