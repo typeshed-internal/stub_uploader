@@ -109,7 +109,7 @@ class Metadata:
     def requires_python(self) -> str | None:
         req = self.data.get("requires_python", None)
         verify_requires_python(req)
-        assert type(req) in (str, type(None))
+        assert isinstance(req, (str, type(None)))
         return req
 
 
