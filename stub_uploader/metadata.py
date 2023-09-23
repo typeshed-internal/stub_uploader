@@ -109,6 +109,7 @@ class Metadata:
     def requires_python(self) -> str | None:
         req = self.data.get("requires_python", None)
         verify_requires_python(req)
+        assert type(req) in (str, type(None))
         return req
 
 
@@ -347,12 +348,17 @@ def recursive_verify(metadata: Metadata, typeshed_dir: str) -> set[str]:
     _verify(metadata)
     return _verified
 
+
 def verify_requires_python(requires_python: str | None) -> None:
     if requires_python is None:
         return
     try:
         specifier = Specifier(requires_python)
     except InvalidSpecifier as e:
-        raise InvalidRequires(f"Invalid requires_python specifier: {requires_python}") from e
+        raise InvalidRequires(
+            f"Invalid requires_python specifier: {requires_python}"
+        ) from e
     if specifier.operator != ">=":
-        raise InvalidRequires(f"Expected requires_python to be a '>=' specifier: {requires_python}")
+        raise InvalidRequires(
+            f"Expected requires_python to be a '>=' specifier: {requires_python}"
+        )
