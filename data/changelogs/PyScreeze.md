@@ -1,3 +1,7 @@
+## 0.1.0.10 (2023-09-23)
+
+Update pyscreeze methods reusing `locateAll` (#10741)
+
 ## 0.1.0.9 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

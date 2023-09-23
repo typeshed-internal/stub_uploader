@@ -1,3 +1,7 @@
+## 3.1.0.20 (2023-09-23)
+
+Complete openpyxl metaclasses (#10736)
+
 ## 3.1.0.19 (2023-09-11)
 
 openpyxl: Typed `from_tree` methods (#10602)

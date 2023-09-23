@@ -1,3 +1,9 @@
+## 4.19.0.0 (2023-09-23)
+
+Bump jsonschema to 4.19.* (#10583)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 4.17.0.10 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

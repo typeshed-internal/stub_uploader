@@ -1,3 +1,7 @@
+## 2.31.0.4 (2023-09-23)
+
+[requests] Improve exception class constructors (#10740)
+
 ## 2.31.0.3 (2023-09-20)
 
 requests: type RequestException members (not Any) (#8989)

@@ -1,3 +1,19 @@
+## 0.9.0.1 (2023-09-23)
+
+stdlib/xml/sax: Add type annotations (#10606)
+
+* stdlib/xml/sax: Type annotations for commonly used methods.
+
+* stdlib/xml/sax: More annotations.
+
+It turns out SAX's definition of a "qname" is exactly the opposite of
+ElementTree's. With that understanding, let's annotate the Attributes*Impl
+classes too.
+
+* stdlib/xml/sax: I better understand what AttributesNSImpl is doing now.
+
+* Update third-party library stubs to agree with the new SAX annotations.
+
 ## 0.9.0.0 (2023-09-19)
 
 Update `netaddr` to `0.9.0` (#10732)

@@ -1,3 +1,7 @@
+## 4.6.0.7 (2023-09-23)
+
+Add overloads to redis.asyncio.Redis (#10742)
+
 ## 4.6.0.6 (2023-09-12)
 
 [redis] Don't recommend uninstalling types-redis (#10694)
