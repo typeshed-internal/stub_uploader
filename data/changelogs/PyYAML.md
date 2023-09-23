@@ -1,3 +1,7 @@
+## 6.0.12.12 (2023-09-23)
+
+[PyYAML] type the whole Emitter class (#10750)
+
 ## 6.0.12.11 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
