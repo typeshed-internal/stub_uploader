@@ -20,6 +20,7 @@ class TypeshedData:
     mypy_version: str
     pyright_version: str
     pytype_version: str
+    oldest_supported_python: str
 
 
 def read_typeshed_data(typeshed_dir: Path) -> TypeshedData:
@@ -27,10 +28,12 @@ def read_typeshed_data(typeshed_dir: Path) -> TypeshedData:
         pyproject = toml_load(f)
     with (typeshed_dir / REQUIREMENTS).open() as f:
         requirements = parse_requirements(f)
+    typeshed_table = pyproject["tool"]["typeshed"]
     return TypeshedData(
         mypy_version=requirements["mypy"],
-        pyright_version=pyproject["tool"]["typeshed"]["pyright_version"],
+        pyright_version=typeshed_table["pyright_version"],
         pytype_version=requirements["pytype"],
+        oldest_supported_python=typeshed_table["oldest_supported_python"],
     )
 
 

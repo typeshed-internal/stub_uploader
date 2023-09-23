@@ -21,6 +21,7 @@ from stub_uploader.metadata import (
     sort_by_dependency,
     strip_types_prefix,
     verify_external_req,
+    verify_requires_python,
     verify_typeshed_req,
 )
 from stub_uploader.ts_data import read_typeshed_data
@@ -155,3 +156,13 @@ def test_read_typeshed_data() -> None:
     assert re.match(r"^\d+\.\d+\.\d+$", ts_data.mypy_version)
     assert re.match(r"^\d+\.\d+\.\d+$", ts_data.pyright_version)
     assert re.match(r"^\d+\.\d+\.\d+$", ts_data.pytype_version)
+    assert re.match(r"^\d+\.\d+$", ts_data.oldest_supported_python)
+
+def test_verify_requires_python() -> None:
+    verify_requires_python(">=3.10")
+
+    with pytest.raises(InvalidRequires, match="Invalid requires_python specifier"):
+        verify_requires_python(">=fake")
+
+    with pytest.raises(InvalidRequires, match="Expected requires_python to be a '>=' specifier"):
+        verify_requires_python("==3.10")
