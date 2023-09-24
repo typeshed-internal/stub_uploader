@@ -1,3 +1,7 @@
+## 2.9.21.14 (2023-09-24)
+
+Complete psycopg2 (#10760)
+
 ## 2.9.21.13 (2023-09-15)
 
 Fix `psycopg2.sql.SQL.join` annotation (#10716)
