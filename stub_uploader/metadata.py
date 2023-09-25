@@ -108,8 +108,8 @@ class Metadata:
     @property
     def requires_python(self) -> str | None:
         req = self.data.get("requires_python", None)
-        verify_requires_python(req)
         assert isinstance(req, (str, type(None)))
+        verify_requires_python(req)
         return req
 
 
