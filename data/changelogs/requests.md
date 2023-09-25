@@ -1,3 +1,7 @@
+## 2.31.0.5 (2023-09-25)
+
+[requests] Allow PreparedRequest for RequestException(request=...) (#10767)
+
 ## 2.31.0.4 (2023-09-23)
 
 [requests] Improve exception class constructors (#10740)

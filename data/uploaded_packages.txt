@@ -6,6 +6,7 @@ types-Flask
 types-Flask-Cors
 types-Flask-Migrate
 types-Flask-SQLAlchemy
+types-Flask-SocketIO
 types-JACK-Client
 types-Jinja2
 types-Markdown
