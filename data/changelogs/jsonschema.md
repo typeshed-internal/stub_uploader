@@ -1,3 +1,7 @@
+## 4.19.0.3 (2023-09-25)
+
+Declare that `types-jsonschema` requires Python 3.8+ (#10775)
+
 ## 4.19.0.0 (2023-09-23)
 
 Bump jsonschema to 4.19.* (#10583)
