@@ -75,6 +75,7 @@ setup(name=name,
       packages={packages},
       package_data={package_data},
       license="Apache-2.0 license",
+      python_requires="{requires_python}",
       classifiers=[
           "License :: OSI Approved :: Apache Software License",
           "Programming Language :: Python :: 3",
@@ -251,6 +252,11 @@ def generate_setup_file(
     package_data = collect_setup_entries(build_data.stub_dir)
     if metadata.partial:
         add_partial_marker(package_data, build_data.stub_dir)
+    requires_python = (
+        metadata.requires_python
+        if metadata.requires_python is not None
+        else f">={ts_data.oldest_supported_python}"
+    )
     return SETUP_TEMPLATE.format(
         distribution=build_data.distribution,
         stub_distribution=metadata.stub_distribution,
@@ -261,6 +267,7 @@ def generate_setup_file(
         requires=all_requirements,
         packages=list(package_data.keys()),
         package_data=package_data,
+        requires_python=requires_python,
     )
 
 

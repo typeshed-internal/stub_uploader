@@ -14,6 +14,7 @@ from typing import Any, Optional
 import requests
 import tomli
 from packaging.requirements import Requirement
+from packaging.specifiers import Specifier, InvalidSpecifier
 
 from .const import META, THIRD_PARTY_NAMESPACE, TYPES_PREFIX, UPLOADED_PATH
 
@@ -103,6 +104,13 @@ class Metadata:
     @property
     def partial(self) -> bool:
         return self.data.get("partial_stub", False)
+
+    @property
+    def requires_python(self) -> str | None:
+        req = self.data.get("requires_python", None)
+        assert isinstance(req, (str, type(None)))
+        verify_requires_python(req)
+        return req
 
 
 def read_metadata(typeshed_dir: str, distribution: str) -> Metadata:
@@ -339,3 +347,18 @@ def recursive_verify(metadata: Metadata, typeshed_dir: str) -> set[str]:
 
     _verify(metadata)
     return _verified
+
+
+def verify_requires_python(requires_python: str | None) -> None:
+    if requires_python is None:
+        return
+    try:
+        specifier = Specifier(requires_python)
+    except InvalidSpecifier as e:
+        raise InvalidRequires(
+            f"Invalid requires_python specifier: {requires_python}"
+        ) from e
+    if specifier.operator != ">=":
+        raise InvalidRequires(
+            f"Expected requires_python to be a '>=' specifier: {requires_python}"
+        )
