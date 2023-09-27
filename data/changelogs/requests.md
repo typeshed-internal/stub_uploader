@@ -1,3 +1,7 @@
+## 2.31.0.6 (2023-09-27)
+
+[requests] loosen HTTPError constructor (#10776)
+
 ## 2.31.0.5 (2023-09-25)
 
 [requests] Allow PreparedRequest for RequestException(request=...) (#10767)
