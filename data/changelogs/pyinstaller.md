@@ -1,3 +1,7 @@
+## 6.0.0.0 (2023-09-29)
+
+Bump pyinstaller to 6.0.* (#10800)
+
 ## 5.13.0.2 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

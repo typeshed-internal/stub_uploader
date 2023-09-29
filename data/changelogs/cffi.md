@@ -1,3 +1,12 @@
+## 1.16.0.0 (2023-09-29)
+
+[stubsabot] Bump cffi to 1.16.* (#10799)
+
+Release: https://pypi.org/pypi/cffi/1.16.0
+Homepage: http://cffi.readthedocs.org
+Repository: https://foss.heptapod.net/pypy/cffi
+Changelog: https://cffi.readthedocs.io/en/latest/whatsnew.html
+
 ## 1.15.1.15 (2023-08-13)
 
 Fill in all missing `upstream_repository` fields (#10571)

@@ -21,6 +21,7 @@ types-Pygments
 types-Routes
 types-SQLAlchemy
 types-Send2Trash
+types-WTForms
 types-WebOb
 types-Werkzeug
 types-aiofiles
