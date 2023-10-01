@@ -1,3 +1,9 @@
+## 2.31.0.7 (2023-10-01)
+
+Remove stubs for `urllib3` (#10812)
+
+Both types-requests and types-influxdb-client now depend on urllib3>=2 instead of types-urllib3. That in turn means that types-caldav, types-slumber and types-requests-oauthlib all depend indirectly on urllib3>=2, since all three stubs packages depend on types-requests.
+
 ## 2.31.0.6 (2023-09-27)
 
 [requests] loosen HTTPError constructor (#10776)
