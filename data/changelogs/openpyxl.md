@@ -1,3 +1,7 @@
+## 3.1.0.21 (2023-10-02)
+
+Remove redundant `NoReturn` union in openpyxl (#10819)
+
 ## 3.1.0.20 (2023-09-23)
 
 Complete openpyxl metaclasses (#10736)
