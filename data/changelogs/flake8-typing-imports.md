@@ -1,3 +1,19 @@
+## 1.15.0.0 (2023-10-03)
+
+[stubsabot] Bump flake8-typing-imports to 1.15.* (#10827)
+
+Release: https://pypi.org/pypi/flake8-typing-imports/1.15.0
+Homepage: https://github.com/asottile/flake8-typing-imports
+Repository: https://github.com/asottile/flake8-typing-imports
+Diff: https://github.com/asottile/flake8-typing-imports/compare/v1.14.0...v1.15.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `flake8_typing_imports.py`.
+ - Total lines of Python code added: 288.
+ - Total lines of Python code deleted: 1651.
+
 ## 1.14.0.3 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
