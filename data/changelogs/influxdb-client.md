@@ -1,3 +1,19 @@
+## 1.38.0.0 (2023-10-03)
+
+[stubsabot] Bump influxdb-client to 1.38.* (#10826)
+
+Release: https://pypi.org/pypi/influxdb-client/1.38.0
+Homepage: https://github.com/influxdata/influxdb-client-python
+Repository: https://github.com/influxdata/influxdb-client-python
+Diff: https://github.com/influxdata/influxdb-client-python/compare/v1.37.0...v1.38.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 3 files included in typeshed's stubs have been modified or renamed: `influxdb_client/_sync/rest.py`, `influxdb_client/client/write/dataframe_serializer.py`, `influxdb_client/version.py`.
+ - Total lines of Python code added: 13.
+ - Total lines of Python code deleted: 12.
+
 ## 1.37.0.1 (2023-10-01)
 
 Remove stubs for `urllib3` (#10812)
