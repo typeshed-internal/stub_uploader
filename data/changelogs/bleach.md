@@ -1,3 +1,13 @@
+## 6.0.0.5 (2023-10-04)
+
+[bleach] Add html5lib_shim.Filter__init__/__iter__ (#10835)
+
+The missing __init__ method caused `Filter` to be incompatible
+with the `_Filter` protocol, preventing valid initialization of
+`Cleaner` instances.
+
+Closes: #10834
+
 ## 6.0.0.4 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
