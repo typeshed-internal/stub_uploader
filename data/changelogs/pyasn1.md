@@ -1,3 +1,7 @@
+## 0.5.0.0 (2023-10-04)
+
+Bump pyasn1 to 0.5.* (#10801)
+
 ## 0.4.0.6 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

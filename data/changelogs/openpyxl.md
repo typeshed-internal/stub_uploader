@@ -1,3 +1,7 @@
+## 3.1.0.22 (2023-10-04)
+
+Type all `@property` in openpyxl (#10787)
+
 ## 3.1.0.21 (2023-10-02)
 
 Remove redundant `NoReturn` union in openpyxl (#10819)
