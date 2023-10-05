@@ -1,3 +1,18 @@
+## 5.1.0.0 (2023-10-05)
+
+[stubsabot] Bump tzlocal to 5.1 (#10836)
+
+Release: https://pypi.org/pypi/tzlocal/5.1
+Repository: https://github.com/regebro/tzlocal
+Diff: https://github.com/regebro/tzlocal/compare/5.0.1...5.1
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `tzlocal/windows_tz.py`.
+ - Total lines of Python code added: 39.
+ - Total lines of Python code deleted: 15.
+
 ## 5.0.1.1 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
