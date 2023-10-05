@@ -1,3 +1,7 @@
+## 2.31.0.8 (2023-10-05)
+
+`types-requests`, `types-influxdb-client`: add note to the PyPI readme about the `urllib3` pin (#10839)
+
 ## 2.31.0.7 (2023-10-01)
 
 Remove stubs for `urllib3` (#10812)

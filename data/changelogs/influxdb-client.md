@@ -1,3 +1,7 @@
+## 1.38.0.1 (2023-10-05)
+
+`types-requests`, `types-influxdb-client`: add note to the PyPI readme about the `urllib3` pin (#10839)
+
 ## 1.38.0.0 (2023-10-03)
 
 [stubsabot] Bump influxdb-client to 1.38.* (#10826)
