@@ -266,10 +266,7 @@ def generate_setup_file(
         distribution=build_data.distribution,
         stub_distribution=metadata.stub_distribution,
         long_description=generate_long_description(
-            build_data.distribution,
-            commit,
-            ts_data,
-            metadata,
+            build_data.distribution, commit, ts_data, metadata
         ),
         version=version,
         requires=all_requirements,
@@ -280,10 +277,7 @@ def generate_setup_file(
 
 
 def generate_long_description(
-    distribution: str,
-    commit: str,
-    ts_data: TypeshedData,
-    metadata: Metadata,
+    distribution: str, commit: str, ts_data: TypeshedData, metadata: Metadata
 ) -> str:
     extra_description = metadata.extra_description.strip()
     parts: list[str] = []
