@@ -108,7 +108,7 @@ PyCharm, etc. to check code that uses
 `{distribution}`.
 
 This version of `{stub_distribution}` aims to provide accurate annotations
-for `{distribution_range_supported}`.
+for `{distribution}=={typeshed_version_pin}`.
 The source for this package can be found at
 https://github.com/python/typeshed/tree/main/stubs/{distribution}. All fixes for
 types and metadata should be contributed there.
@@ -270,7 +270,6 @@ def generate_setup_file(
             commit,
             ts_data,
             metadata,
-            version,
         ),
         version=version,
         requires=all_requirements,
@@ -285,7 +284,6 @@ def generate_long_description(
     commit: str,
     ts_data: TypeshedData,
     metadata: Metadata,
-    version: str,
 ) -> str:
     extra_description = metadata.extra_description.strip()
     parts: list[str] = []
@@ -295,16 +293,12 @@ def generate_long_description(
     else:
         formatted_distribution = f"`{distribution}`"
 
-    distribution_range_supported = (
-        f"{distribution}>={'.'.join(version.split('.')[:-1])}"
-    )
-
     parts.append(
         DESCRIPTION_INTRO_TEMPLATE.format(
             distribution=distribution,
             formatted_distribution=formatted_distribution,
             stub_distribution=metadata.stub_distribution,
-            distribution_range_supported=distribution_range_supported,
+            typeshed_version_pin=metadata.version_spec,
         )
     )
     if extra_description:
