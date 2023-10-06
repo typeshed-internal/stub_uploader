@@ -5,6 +5,7 @@ import graphlib
 import os
 import re
 import tarfile
+import urllib.parse
 from collections.abc import Generator, Iterable
 from glob import glob
 from pathlib import Path
@@ -111,6 +112,21 @@ class Metadata:
         assert isinstance(req, (str, type(None)))
         verify_requires_python(req)
         return req
+
+    @functools.cached_property
+    def upstream_repository(self) -> str | None:
+        ts_upstream_repo = self.data.get("upstream_repository")
+        if not isinstance(ts_upstream_repo, str):
+            # either typeshed doesn't list it for these stubs,
+            # or it gives a non-str for the field (bad!)
+            return None
+        try:
+            parsed_url = urllib.parse.urlsplit(ts_upstream_repo)
+        except ValueError:
+            return None
+        if parsed_url.scheme != "https":
+            return None
+        return ts_upstream_repo
 
 
 def read_metadata(typeshed_dir: str, distribution: str) -> Metadata:

@@ -3,13 +3,14 @@
 from io import StringIO
 import os
 import tempfile
+from typing import Any
 
 import pytest
 from packaging.version import Version
 
 from stub_uploader.build_wheel import collect_setup_entries
 from stub_uploader.get_version import compute_incremented_version, ensure_specificity
-from stub_uploader.metadata import _UploadedPackages, strip_types_prefix
+from stub_uploader.metadata import _UploadedPackages, strip_types_prefix, Metadata
 from stub_uploader.ts_data import parse_requirements
 
 
@@ -179,3 +180,21 @@ def test_parse_requirements__parsed_packages(name: str, version: str) -> None:
 def test_parse_requirements__skipped_packages(name: str) -> None:
     requirements = parse_requirements(StringIO(_REQUIREMENTS_TXT))
     assert name not in requirements, f"package {name} was not skipped"
+
+
+@pytest.mark.parametrize(
+    "data,expected",
+    [
+        ({}, None),
+        ({"upstream_repository": 12345}, None),
+        ({"upstream_repository": "https://[].foo.com"}, None),
+        (
+            {"upstream_repository": "https://github.com/psf/requests"},
+            "https://github.com/psf/requests",
+        ),
+    ],
+)
+def test_upstream_repo_validation(data: dict[str, Any], expected: str | None) -> None:
+    m = Metadata("foo", data)
+    assert m.upstream_repository == expected
+    assert type(m.upstream_repository) is type(expected)
