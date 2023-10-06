@@ -1,3 +1,9 @@
+## 6.0.0.1 (2023-10-06)
+
+PyInstaller: List ignored `building` sub-modules explicitly for stubtest (#10845)
+
+This prevents stubtest from ignoring errors in modules that are stubbed.
+
 ## 6.0.0.0 (2023-09-29)
 
 Bump pyinstaller to 6.0.* (#10800)
