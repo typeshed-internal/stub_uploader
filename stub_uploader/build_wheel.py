@@ -98,13 +98,18 @@ package if you use this or a newer version.
 DESCRIPTION_INTRO_TEMPLATE = """
 ## Typing stubs for {distribution}
 
-This is a PEP 561 type stub package for the `{distribution}` package. It
-can be used by type-checking tools like
+This is a [PEP 561](https://peps.python.org/pep-0561/)
+type stub package for the {formatted_distribution} package.
+It can be used by type-checking tools like
 [mypy](https://github.com/python/mypy/),
 [pyright](https://github.com/microsoft/pyright),
 [pytype](https://github.com/google/pytype/),
 PyCharm, etc. to check code that uses
-`{distribution}`. The source for this package can be found at
+`{distribution}`.
+
+This version of `{stub_distribution}` aims to provide accurate annotations
+for `{distribution_range_supported}`.
+The source for this package can be found at
 https://github.com/python/typeshed/tree/main/stubs/{distribution}. All fixes for
 types and metadata should be contributed there.
 """.strip()
@@ -261,7 +266,11 @@ def generate_setup_file(
         distribution=build_data.distribution,
         stub_distribution=metadata.stub_distribution,
         long_description=generate_long_description(
-            build_data.distribution, commit, ts_data, metadata
+            build_data.distribution,
+            commit,
+            ts_data,
+            metadata,
+            version,
         ),
         version=version,
         requires=all_requirements,
@@ -272,11 +281,32 @@ def generate_setup_file(
 
 
 def generate_long_description(
-    distribution: str, commit: str, ts_data: TypeshedData, metadata: Metadata
+    distribution: str,
+    commit: str,
+    ts_data: TypeshedData,
+    metadata: Metadata,
+    version: str,
 ) -> str:
     extra_description = metadata.extra_description.strip()
     parts: list[str] = []
-    parts.append(DESCRIPTION_INTRO_TEMPLATE.format(distribution=distribution))
+
+    if metadata.upstream_repository is not None:
+        formatted_distribution = f"[`{distribution}`]({metadata.upstream_repository})"
+    else:
+        formatted_distribution = f"`{distribution}`"
+
+    distribution_range_supported = (
+        f"{distribution}>={'.'.join(version.split('.')[:-1])}"
+    )
+
+    parts.append(
+        DESCRIPTION_INTRO_TEMPLATE.format(
+            distribution=distribution,
+            formatted_distribution=formatted_distribution,
+            stub_distribution=metadata.stub_distribution,
+            distribution_range_supported=distribution_range_supported,
+        )
+    )
     if extra_description:
         parts.append(extra_description)
     if metadata.obsolete_since:

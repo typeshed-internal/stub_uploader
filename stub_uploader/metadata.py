@@ -112,6 +112,10 @@ class Metadata:
         verify_requires_python(req)
         return req
 
+    @property
+    def upstream_repository(self) -> str | None:
+        return self.data.get("upstream_repository")
+
 
 def read_metadata(typeshed_dir: str, distribution: str) -> Metadata:
     """Parse metadata from file."""
