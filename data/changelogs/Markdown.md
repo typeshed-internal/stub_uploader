@@ -1,3 +1,20 @@
+## 3.5.0.0 (2023-10-07)
+
+[stubsabot] Bump Markdown to 3.5.* (#10851)
+
+Release: https://pypi.org/pypi/Markdown/3.5
+Homepage: https://Python-Markdown.github.io/
+Repository: https://github.com/Python-Markdown/markdown
+Changelog: https://github.com/Python-Markdown/markdown/blob/master/docs/change_log/index.md
+Diff: https://github.com/Python-Markdown/markdown/compare/3.4.4...3.5
+
+Stubsabot analysis of the diff between the two releases:
+ - 2 public Python files have been added: `scripts/gen_ref_nav.py`, `scripts/griffe_extensions.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 30 files included in typeshed's stubs have been modified or renamed.
+ - Total lines of Python code added: 1958.
+ - Total lines of Python code deleted: 1067.
+
 ## 3.4.2.10 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

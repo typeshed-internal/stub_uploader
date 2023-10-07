@@ -1,3 +1,19 @@
+## 6.1.0.0 (2023-10-07)
+
+[stubsabot] Bump bleach to 6.1.* (#10852)
+
+Release: https://pypi.org/pypi/bleach/6.1.0
+Homepage: https://github.com/mozilla/bleach
+Repository: https://github.com/mozilla/bleach
+Diff: https://github.com/mozilla/bleach/compare/v6.0.0...v6.1.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 3 files included in typeshed's stubs have been modified or renamed: `bleach/__init__.py`, `bleach/html5lib_shim.py`, `bleach/linkifier.py`.
+ - Total lines of Python code added: 41.
+ - Total lines of Python code deleted: 14.
+
 ## 6.0.0.5 (2023-10-04)
 
 [bleach] Add html5lib_shim.Filter__init__/__iter__ (#10835)
