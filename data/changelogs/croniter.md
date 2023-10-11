@@ -1,3 +1,16 @@
+## 2.0.0.0 (2023-10-11)
+
+[stubsabot] Bump croniter to 2.0.* (#10863)
+
+Release: https://pypi.org/pypi/croniter/2.0.0
+Homepage: http://github.com/kiorky/croniter
+Repository: https://github.com/kiorky/croniter
+Diff: https://github.com/kiorky/croniter/compare/1.4.1...2.0.0
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 13.
+ - Total lines of Python code deleted: 8.
+
 ## 1.4.0.1 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

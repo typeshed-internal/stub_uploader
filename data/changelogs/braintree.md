@@ -1,3 +1,19 @@
+## 4.23.0.0 (2023-10-11)
+
+[stubsabot] Bump braintree to 4.23.* (#10864)
+
+Release: https://pypi.org/pypi/braintree/4.23.0
+Homepage: https://developer.paypal.com/braintree/docs/reference/overview
+Repository: https://github.com/braintree/braintree_python
+Diff: https://github.com/braintree/braintree_python/compare/4.22.0...4.23.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 3 files included in typeshed's stubs have been modified or renamed: `braintree/resource.py`, `braintree/util/generator.py`, `braintree/version.py`.
+ - Total lines of Python code added: 37.
+ - Total lines of Python code deleted: 9.
+
 ## 4.22.0.0 (2023-08-30)
 
 [stubsabot] Bump braintree to 4.22.* (#10631)
