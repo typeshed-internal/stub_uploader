@@ -1,3 +1,12 @@
+## 2.12.0.3 (2023-10-13)
+
+aws-xray-sdk: update and remove spurious re-exports (#10874)
+
+Fixes #10873
+
+Remove some obsolete compatibility functions that are no longer in the latest
+release, and stop re-exporting symbols that clearly weren't meant to be re-exported.
+
 ## 2.12.0.2 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
