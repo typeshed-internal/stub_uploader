@@ -40,9 +40,11 @@ class Metadata:
 
     @property
     def stub_distribution(self) -> str:
-        return self.data.get(
+        distribution = self.data.get(
             "stub_distribution", TYPES_PREFIX + self._alleged_upstream_distribution
         )
+        assert isinstance(distribution, str)
+        return distribution
 
     @property
     def version_spec(self) -> str:
@@ -88,23 +90,33 @@ class Metadata:
 
     @property
     def extra_description(self) -> str:
-        return self.data.get("extra_description", "")
+        description = self.data.get("extra_description", "")
+        assert isinstance(description, str)
+        return description
 
     @property
-    def obsolete_since(self) -> Optional[str]:
-        return self.data.get("obsolete_since")
+    def obsolete_since(self) -> str | None:
+        obsolete = self.data.get("obsolete_since")
+        assert isinstance(obsolete, (str, type(None)))
+        return obsolete
 
     @property
     def no_longer_updated(self) -> bool:
-        return self.data.get("no_longer_updated", False)
+        updated = self.data.get("no_longer_updated", False)
+        assert isinstance(updated, bool)
+        return updated
 
     @property
     def upload(self) -> bool:
-        return self.data.get("upload", True)
+        upload = self.data.get("upload", True)
+        assert isinstance(upload, bool)
+        return upload
 
     @property
     def partial(self) -> bool:
-        return self.data.get("partial_stub", False)
+        partial = self.data.get("partial_stub", False)
+        assert isinstance(partial, bool)
+        return partial
 
     @property
     def requires_python(self) -> str | None:
