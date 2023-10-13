@@ -1,3 +1,10 @@
+## 2.31.0.9 (2023-10-13)
+
+[requests] Allow HTTPError.response to be None (#10875)
+
+This aligns with the definition in requests, but means that user code might
+need additional assertions to ensure that `HTTPError.response` is not `None`.
+
 ## 2.31.0.8 (2023-10-05)
 
 `types-requests`, `types-influxdb-client`: add note to the PyPI readme about the `urllib3` pin (#10839)
