@@ -1,3 +1,19 @@
+## 6.1.0.0 (2023-10-14)
+
+[stubsabot] Bump pyinstaller to 6.1.* (#10885)
+
+Release: https://pypi.org/pypi/pyinstaller/6.1.0
+Homepage: https://www.pyinstaller.org/
+Repository: https://github.com/pyinstaller/pyinstaller
+Diff: https://github.com/pyinstaller/pyinstaller/compare/v6.0.0...v6.1.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 2 public Python files have been added: `tests/functional/modules/pyi_import_main/hooks/hook-PyInstaller.py`, `tests/functional/modules/pyi_import_main/hooks/hook-pytest.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 5 files included in typeshed's stubs have been modified or renamed: `PyInstaller/__init__.py`, `PyInstaller/building/api.py`, `PyInstaller/building/build_main.py`, `PyInstaller/depend/analysis.py`, `PyInstaller/utils/hooks/__init__.py`.
+ - Total lines of Python code added: 122.
+ - Total lines of Python code deleted: 22.
+
 ## 6.0.0.1 (2023-10-06)
 
 PyInstaller: List ignored `building` sub-modules explicitly for stubtest (#10845)
