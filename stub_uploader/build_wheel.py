@@ -148,7 +148,7 @@ def find_stub_files(top: str) -> list[str]:
                     subprocess.run(["git", "check-ignore", file], cwd=top).returncode
                     != 0
                 ):
-                    raise ValueError(f"Only stub files are allowed, not {file}")
+                    raise ValueError(f"Only stub files are allowed, not {file!r}")
     return sorted(result)
 
 
@@ -218,7 +218,7 @@ def collect_setup_entries(base_dir: str) -> dict[str, list[str]]:
                         ).returncode
                         != 0
                     ):
-                        raise ValueError(f"Only stub files are allowed: {entry}")
+                        raise ValueError(f"Only stub files are allowed, not {entry!r}")
                 continue
             entry = entry.split(".")[0] + SUFFIX
             # Module -> package transformation is done while copying.
