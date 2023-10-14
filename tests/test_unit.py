@@ -108,7 +108,9 @@ def test_collect_setup_entries() -> None:
 
 def test_collect_setup_entries_bogusfile() -> None:
     stubs = os.path.join("data", "test_typeshed", "stubs")
-    with pytest.raises(ValueError, match="Only stub files are allowed: bogusfile.txt"):
+    with pytest.raises(
+        ValueError, match="Only stub files are allowed, not 'bogusfile.txt'"
+    ):
         collect_setup_entries(os.path.join(stubs, "bogusfiles"))
 
     # Make sure gitignored files aren't collected, nor do they crash function
