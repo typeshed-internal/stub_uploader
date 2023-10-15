@@ -1,3 +1,7 @@
+## 306.0.0.5 (2023-10-15)
+
+pywin32: Annotate `win32com.client.constants` (#10888)
+
 ## 306.0.0.4 (2023-08-14)
 
 pywin32: Fix PyNETRESOURCE descriptor members wrongly marked as readonly (#10574)
