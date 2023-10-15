@@ -1,9 +1,9 @@
 name: Periodic update of stubs from typeshed to PyPI
 
 on:
-  # Triggers the workflow every three hours starting midnight UTC.
+  # Triggers the workflow each day at 02:00 UTC.
   schedule:
-    - cron: 0 */3 * * *
+    - cron: 0 2 * * *
   # If needed, allows to run this workflow manually from the Actions tab
   workflow_dispatch:
 
