@@ -1,3 +1,7 @@
+## 5.9.5.17 (2023-10-16)
+
+psutil: updates (#10894)
+
 ## 5.9.5.16 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

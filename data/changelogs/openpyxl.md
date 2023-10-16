@@ -1,3 +1,7 @@
+## 3.1.0.23 (2023-10-16)
+
+Typed openpyxl colors descriptors (#10882)
+
 ## 3.1.0.22 (2023-10-04)
 
 Type all `@property` in openpyxl (#10787)
