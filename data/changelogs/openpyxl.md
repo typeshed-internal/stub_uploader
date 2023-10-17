@@ -1,3 +1,9 @@
+## 3.1.0.24 (2023-10-17)
+
+openpyxl: Various minor improvements / previous PR fixes (#10896)
+
+openpyxl: type `__iter__` dunders (#10883)
+
 ## 3.1.0.23 (2023-10-16)
 
 Typed openpyxl colors descriptors (#10882)

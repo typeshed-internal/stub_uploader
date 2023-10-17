@@ -1,3 +1,7 @@
+## 10.1.0.0 (2023-10-17)
+
+Bump Pillow to 10.1.* (#10897)
+
 ## 10.0.0.3 (2023-09-05)
 
 [Pillow] Fix typing of FreeTypeFont.getlength (#10663)
