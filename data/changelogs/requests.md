@@ -1,3 +1,7 @@
+## 2.31.0.10 (2023-10-18)
+
+requests: annotate `utils.get_encoding_from_headers()` (#10901)
+
 ## 2.31.0.9 (2023-10-13)
 
 [requests] Allow HTTPError.response to be None (#10875)
