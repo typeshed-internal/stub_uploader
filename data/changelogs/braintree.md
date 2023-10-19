@@ -1,3 +1,7 @@
+## 4.23.0.1 (2023-10-19)
+
+Improve stubs for `braintree.environment` (#10907)
+
 ## 4.23.0.0 (2023-10-11)
 
 [stubsabot] Bump braintree to 4.23.* (#10864)
