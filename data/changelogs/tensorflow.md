@@ -1,3 +1,10 @@
+## 2.12.0.8 (2023-10-23)
+
+Update mypy-protobuf (#10914)
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 2.12.0.7 (2023-08-28)
 
 Consistently use `Generic` as the last base class (#10610)

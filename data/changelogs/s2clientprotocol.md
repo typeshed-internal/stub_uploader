@@ -1,3 +1,7 @@
+## 5.0.0.2 (2023-10-23)
+
+Check  `*_pb2.pyi` files again (#10909)
+
 ## 5.0.0.1 (2023-07-22)
 
 Add `upstream_repository` to metadata for `s2clientprotocol` (#10500)

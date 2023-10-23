@@ -1,3 +1,10 @@
+## 4.24.0.3 (2023-10-23)
+
+Update mypy-protobuf (#10914)
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 4.24.0.2 (2023-09-19)
 
 Update protobufs to support new generated messages (#10717)
