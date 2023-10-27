@@ -1,3 +1,7 @@
+## 10.0.1.11 (2023-10-27)
+
+Remove many redundant inheritances from `Generic[]` (#10933)
+
 ## 10.0.1.10 (2023-08-13)
 
 Fill in all missing `upstream_repository` fields (#10571)

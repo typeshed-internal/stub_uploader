@@ -1,3 +1,7 @@
+## 2.9.13.15 (2023-10-27)
+
+Remove many redundant inheritances from `Generic[]` (#10933)
+
 ## 2.9.13.14 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

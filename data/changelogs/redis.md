@@ -1,3 +1,7 @@
+## 4.6.0.8 (2023-10-27)
+
+Remove many redundant inheritances from `Generic[]` (#10933)
+
 ## 4.6.0.7 (2023-09-23)
 
 Add overloads to redis.asyncio.Redis (#10742)

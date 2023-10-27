@@ -1,3 +1,7 @@
+## 1.8.0.3 (2023-10-27)
+
+Finish stubs for `webob.cookies` and improve `samesite` type (#10927)
+
 ## 1.8.0.2 (2023-08-13)
 
 Fill in all missing `upstream_repository` fields (#10571)

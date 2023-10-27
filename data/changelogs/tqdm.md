@@ -1,3 +1,7 @@
+## 4.66.0.3 (2023-10-27)
+
+Remove many redundant inheritances from `Generic[]` (#10933)
+
 ## 4.66.0.2 (2023-08-28)
 
 Consistently use `Generic` as the last base class (#10610)
