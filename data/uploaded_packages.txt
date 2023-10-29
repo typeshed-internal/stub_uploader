@@ -126,6 +126,7 @@ types-pika
 types-playsound
 types-pluggy
 types-polib
+types-portpicker
 types-prettytable
 types-protobuf
 types-psutil
@@ -164,6 +165,7 @@ types-requests-oauthlib
 types-retry
 types-s2clientprotocol
 types-scribe
+types-seaborn
 types-selenium
 types-setuptools
 types-simplejson

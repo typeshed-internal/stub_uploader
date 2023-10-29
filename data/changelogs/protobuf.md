@@ -1,3 +1,9 @@
+## 4.24.0.4 (2023-10-29)
+
+Enable ruff's isort rules on files generated using mypy-protobuf (#10939)
+
+Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
+
 ## 4.24.0.3 (2023-10-23)
 
 Update mypy-protobuf (#10914)

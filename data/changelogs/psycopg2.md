@@ -1,3 +1,12 @@
+## 2.9.21.15 (2023-10-29)
+
+psycopg2: Fix missing `Protocol` base class in file protocols (#10943)
+
+This is an error I introduced in #10630 because I didn't know protocols
+need to be explicitly inherited from in other protocol subclasses.
+
+The added test shows the change. Basically these protocols were unusable.
+
 ## 2.9.21.14 (2023-09-24)
 
 Complete psycopg2 (#10760)

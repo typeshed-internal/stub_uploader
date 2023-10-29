@@ -1,3 +1,9 @@
+## 306.0.0.6 (2023-10-29)
+
+Type `pywin32`'s `win32.win32print.StartDocPrinter` method (#10898)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 306.0.0.5 (2023-10-15)
 
 pywin32: Annotate `win32com.client.constants` (#10888)
