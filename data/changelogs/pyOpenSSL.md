@@ -1,3 +1,19 @@
+## 23.3.0.0 (2023-10-30)
+
+Bump pyOpenSSL to 23.3.* (#10936)
+
+Release: https://pypi.org/pypi/pyOpenSSL/23.3.0
+Homepage: https://pyopenssl.org/
+Repository: https://github.com/pyca/pyopenssl
+Diff: https://github.com/pyca/pyopenssl/compare/23.2.0...23.3.0
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 414.
+ - Total lines of Python code deleted: 717.
+
+---
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 23.2.0.2 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
