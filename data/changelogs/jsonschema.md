@@ -1,3 +1,11 @@
+## 4.19.0.4 (2023-10-31)
+
+jsonschema: move addionalItems (#10955)
+
+https://github.com/python-jsonschema/jsonschema/commit/daa40b3eaf55f72f6154f9a48e557d895617b24a
+
+Fixes #10953
+
 ## 4.19.0.3 (2023-09-25)
 
 Declare that `types-jsonschema` requires Python 3.8+ (#10775)
