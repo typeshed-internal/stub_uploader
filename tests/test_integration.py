@@ -50,7 +50,7 @@ def test_build_wheel(distribution: str) -> None:
     "distribution", os.listdir(os.path.join(TYPESHED, THIRD_PARTY_NAMESPACE))
 )
 def test_version_increment(distribution: str) -> None:
-    get_version.determine_incremented_version(read_metadata(TYPESHED, distribution))
+    get_version.determine_stub_version(read_metadata(TYPESHED, distribution))
 
 
 def test_unvalidated_properties() -> None:

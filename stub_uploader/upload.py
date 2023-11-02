@@ -4,7 +4,7 @@ import os
 import subprocess
 
 from stub_uploader import build_wheel
-from stub_uploader.get_version import determine_incremented_version
+from stub_uploader.get_version import determine_stub_version
 from stub_uploader.update_changelog import update_changelog
 from stub_uploader.metadata import (
     read_metadata,
@@ -29,7 +29,7 @@ def upload(
         metadata = read_metadata(typeshed_dir, distribution)
         recursive_verify(metadata, typeshed_dir)
 
-        version = determine_incremented_version(metadata)
+        version = determine_stub_version(metadata)
         if commit:
             update_changelog(
                 typeshed_dir, commit, distribution, version, dry_run=dry_run
