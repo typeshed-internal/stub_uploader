@@ -142,13 +142,12 @@ def find_stub_files(top: str) -> list[str]:
                     name.isidentifier()
                 ), "All file names must be valid Python modules"
                 result.append(os.path.relpath(os.path.join(root, file), top))
-            elif not file.endswith((".md", ".rst")):
-                # Allow having README docs, as some stubs have these (e.g. click).
-                if (
-                    subprocess.run(["git", "check-ignore", file], cwd=top).returncode
-                    != 0
-                ):
-                    raise ValueError(f"Only stub files are allowed, not {file!r}")
+            elif file == "py.typed" or file.endswith((".md", ".rst")):
+                pass  # Allow having README docs, as some stubs have these.
+            elif subprocess.run(["git", "check-ignore", file], cwd=top).returncode == 0:
+                pass  # Allow gitignored files.
+            else:
+                raise ValueError(f"Only stub files are allowed, not {file!r}")
     return sorted(result)
 
 
