@@ -171,8 +171,11 @@ def copy_stubs(base_dir: str, dst: str) -> None:
             if entry == TESTS_NAMESPACE:
                 # Don't package tests for the stubs
                 continue
-            stub_dir = os.path.join(dst, entry + SUFFIX)
-            shutil.copytree(os.path.join(base_dir, entry), stub_dir)
+            # Don't append the suffix if already present
+            stub_dir = os.path.join(
+                dst, entry if entry.endswith(SUFFIX) else entry + SUFFIX
+            )
+            shutil.copytree(os.path.join(base_dir, entry), stub_dir, dirs_exist_ok=True)
 
         # We add original METADATA file in case some type-checking tool will want
         # to use it. Note that since it is not easy to package it outside of a package,
