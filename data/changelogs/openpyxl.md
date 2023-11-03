@@ -1,3 +1,9 @@
+## 3.1.0.25 (2023-11-03)
+
+openpyxl TypeGuards and comparison dunders (#10962)
+
+openpyxl: Type usages of `PIL` and `zipfile` (#10706)
+
 ## 3.1.0.24 (2023-10-17)
 
 openpyxl: Various minor improvements / previous PR fixes (#10896)

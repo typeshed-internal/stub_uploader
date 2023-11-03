@@ -1,3 +1,7 @@
+## 3.5.0.1 (2023-11-03)
+
+Various improvements to `Markdown` stubs (#10963)
+
 ## 3.5.0.0 (2023-10-07)
 
 [stubsabot] Bump Markdown to 3.5.* (#10851)

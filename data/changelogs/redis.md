@@ -1,3 +1,7 @@
+## 4.6.0.9 (2023-11-03)
+
+Add retry_on_error params for redis stub (#10961)
+
 ## 4.6.0.8 (2023-10-27)
 
 Remove many redundant inheritances from `Generic[]` (#10933)

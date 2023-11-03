@@ -1,3 +1,7 @@
+## 3.5.2.15 (2023-11-03)
+
+[stubsabot] Mark stripe as obsolete since 7.1.0 (#8490)
+
 ## 3.5.2.14 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
