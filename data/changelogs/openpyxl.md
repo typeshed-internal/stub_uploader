@@ -1,3 +1,7 @@
+## 3.1.0.26 (2023-11-04)
+
+xml.etree: Fix `tag` param in `__init__` (#10968)
+
 ## 3.1.0.25 (2023-11-03)
 
 openpyxl TypeGuards and comparison dunders (#10962)

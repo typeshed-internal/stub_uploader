@@ -1,3 +1,28 @@
+## 2.2.0.0 (2023-11-04)
+
+[stubsabot] Bump flake8-builtins to 2.2.* (#10975)
+
+Release: https://pypi.org/pypi/flake8-builtins/2.2.0
+Homepage: https://github.com/gforcada/flake8-builtins
+Repository: https://github.com/gforcada/flake8-builtins
+Changelog: https://github.com/gforcada/flake8-builtins/blob/main/CHANGES.rst
+Diff: https://github.com/gforcada/flake8-builtins/compare/2.1.0...2.2.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `flake8_builtins.py`.
+ - Total lines of Python code added: 34.
+ - Total lines of Python code deleted: 86.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 2.1.0.3 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
