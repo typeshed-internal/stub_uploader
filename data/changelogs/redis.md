@@ -1,3 +1,7 @@
+## 4.6.0.10 (2023-11-07)
+
+Remove redundant inheritances from `Generic` and various `typing` protocols (#10981)
+
 ## 4.6.0.9 (2023-11-03)
 
 Add retry_on_error params for redis stub (#10961)

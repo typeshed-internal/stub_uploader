@@ -1,3 +1,7 @@
+## 4.66.0.4 (2023-11-07)
+
+Remove redundant inheritances from `Generic` and various `typing` protocols (#10981)
+
 ## 4.66.0.3 (2023-10-27)
 
 Remove many redundant inheritances from `Generic[]` (#10933)
