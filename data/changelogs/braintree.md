@@ -1,3 +1,19 @@
+## 4.24.0.0 (2023-11-08)
+
+[stubsabot] Bump braintree to 4.24.* (#10993)
+
+Release: https://pypi.org/pypi/braintree/4.24.0
+Homepage: https://developer.paypal.com/braintree/docs/reference/overview
+Repository: https://github.com/braintree/braintree_python
+Diff: https://github.com/braintree/braintree_python/compare/4.23.0...4.24.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 4 public Python files have been added: `braintree/meta_checkout_card.py`, `braintree/meta_checkout_token.py`, `tests/unit/test_meta_checkout_card.py`, `tests/unit/test_meta_checkout_token.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 7 files included in typeshed's stubs have been modified or renamed: `braintree/payment_instrument_type.py`, `braintree/payment_method.py`, `braintree/transaction.py`, `braintree/us_bank_account_verification.py`, `braintree/version.py`, `braintree/webhook_notification.py`, `braintree/webhook_testing_gateway.py`.
+ - Total lines of Python code added: 738.
+ - Total lines of Python code deleted: 49.
+
 ## 4.23.0.1 (2023-10-19)
 
 Improve stubs for `braintree.environment` (#10907)
