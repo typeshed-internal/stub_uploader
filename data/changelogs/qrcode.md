@@ -1,3 +1,7 @@
+## 7.4.0.1 (2023-11-09)
+
+Bump flake8-pyi to 23.11.0 (#10997)
+
 ## 7.4.0.0 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

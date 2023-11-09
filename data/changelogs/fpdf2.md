@@ -1,3 +1,7 @@
+## 2.7.4.4 (2023-11-09)
+
+Bump flake8-pyi to 23.11.0 (#10997)
+
 ## 2.7.4.3 (2023-10-27)
 
 Remove many redundant inheritances from `Generic[]` (#10933)

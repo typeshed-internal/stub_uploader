@@ -1,3 +1,7 @@
+## 2.12.0.10 (2023-11-09)
+
+Bump flake8-pyi to 23.11.0 (#10997)
+
 ## 2.12.0.9 (2023-10-29)
 
 Enable ruff's isort rules on files generated using mypy-protobuf (#10939)
