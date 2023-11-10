@@ -1,3 +1,7 @@
+## 2.16.0.1 (2023-11-10)
+
+Add types for `pygments.lex`. (#10998)
+
 ## 2.16.0.0 (2023-08-07)
 
 [stubsabot] Bump Pygments to 2.16.* (#10536)
