@@ -1,3 +1,7 @@
+## 6.1.0.1 (2023-11-11)
+
+third-party: make some protocol params pos-only (#11006)
+
 ## 6.1.0.0 (2023-10-07)
 
 [stubsabot] Bump bleach to 6.1.* (#10852)

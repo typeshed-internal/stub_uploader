@@ -1,3 +1,7 @@
+## 1.8.0.4 (2023-11-11)
+
+third-party: make some protocol params pos-only (#11006)
+
 ## 1.8.0.3 (2023-10-27)
 
 Finish stubs for `webob.cookies` and improve `samesite` type (#10927)

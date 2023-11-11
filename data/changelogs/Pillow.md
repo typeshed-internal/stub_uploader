@@ -1,3 +1,7 @@
+## 10.1.0.2 (2023-11-11)
+
+third-party: make some protocol params pos-only (#11006)
+
 ## 10.1.0.1 (2023-11-09)
 
 Bump flake8-pyi to 23.11.0 (#10997)

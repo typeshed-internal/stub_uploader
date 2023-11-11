@@ -1,3 +1,11 @@
+## 0.1.29.0 (2023-11-11)
+
+Pin PyScreeze more tightly (#11017)
+
+To stop the "stubtest failed" bot opening a new issue every night until we have a chance to look at the stubtest failures (stubsabot will just open a PR instead)
+
+Closes #11016
+
 ## 0.1.0.10 (2023-09-23)
 
 Update pyscreeze methods reusing `locateAll` (#10741)

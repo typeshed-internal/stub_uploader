@@ -1,3 +1,7 @@
+## 3.1.0.1 (2023-11-11)
+
+third-party: make some protocol params pos-only (#11006)
+
 ## 3.1.0.0 (2023-10-12)
 
 Bump WTForms to 3.1.* (#10868)
