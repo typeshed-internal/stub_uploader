@@ -1,3 +1,7 @@
+## 0.1.30.0 (2023-11-14)
+
+Bump PyScreeze to 0.1.30 (#11025)
+
 ## 0.1.29.0 (2023-11-11)
 
 Pin PyScreeze more tightly (#11017)
