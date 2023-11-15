@@ -1,3 +1,7 @@
+## 0.20.1.6 (2023-11-15)
+
+[stubsabot] Mark tree-sitter as obsolete since 0.20.3 (#10681)
+
 ## 0.20.1.5 (2023-09-07)
 
 Pin `tree-sitter` to 0.20.1 (#10677)

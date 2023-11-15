@@ -1,3 +1,9 @@
+## 2.9.21.16 (2023-11-15)
+
+psycopg2: Accept `Composable` for `cursor.mogrify` (#11028)
+
+Signed-off-by: Anders Kaseorg <andersk@mit.edu>
+
 ## 2.9.21.15 (2023-10-29)
 
 psycopg2: Fix missing `Protocol` base class in file protocols (#10943)
