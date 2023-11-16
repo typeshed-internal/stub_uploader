@@ -1,3 +1,7 @@
+## 3.5.0.3 (2023-11-16)
+
+Various improvements to `Markdown` stubs (#10972)
+
 ## 3.5.0.2 (2023-11-15)
 
 markdown: Accept legacy `Pattern` in `inlinePatterns` registry (#11027)

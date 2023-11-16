@@ -1,3 +1,7 @@
+## 2.7.6.0 (2023-11-16)
+
+[fpdf2] add compatibility with fpdf2 2.7.6 (#10932)
+
 ## 2.7.4.4 (2023-11-09)
 
 Bump flake8-pyi to 23.11.0 (#10997)

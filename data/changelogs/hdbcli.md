@@ -1,3 +1,7 @@
+## 2.18.0.1 (2023-11-16)
+
+Improve hdbcli types (#10969)
+
 ## 2.18.0.0 (2023-09-09)
 
 [stubsabot] Bump hdbcli to 2.18.* (#10687)

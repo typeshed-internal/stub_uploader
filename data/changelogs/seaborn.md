@@ -1,3 +1,7 @@
+## 0.13.0.3 (2023-11-16)
+
+Complete `seaborn` stubs and mark as strict (#10974)
+
 ## 0.13.0.2 (2023-11-09)
 
 Bump flake8-pyi to 23.11.0 (#10997)
