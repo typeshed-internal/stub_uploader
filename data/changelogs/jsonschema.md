@@ -1,3 +1,9 @@
+## 4.20.0.0 (2023-11-18)
+
+[jsonschema] Bump to 4.20.* (#11036)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 4.19.0.4 (2023-10-31)
 
 jsonschema: move addionalItems (#10955)
