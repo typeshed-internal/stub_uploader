@@ -125,7 +125,7 @@ pytype {ts_data.pytype_version}.
 class BuildData:
     def __init__(self, typeshed_dir: str, distribution: str) -> None:
         self.distribution = distribution
-        self.stub_dir = os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE, distribution)
+        self.stub_dir = Path(typeshed_dir) / THIRD_PARTY_NAMESPACE / distribution
 
 
 def find_stub_files(top: str) -> list[str]:
@@ -152,40 +152,36 @@ def find_stub_files(top: str) -> list[str]:
     return sorted(result)
 
 
-def copy_stubs(base_dir: str, dst: str) -> None:
+def copy_stubs(base_dir: Path, dst: Path) -> None:
     """Copy stubs for given distribution to the build directory.
 
     For packages change name by appending "-stubs" suffix (PEP 561),
     also convert modules to trivial packages with a single __init__.pyi.
     """
-    for entry in os.listdir(base_dir):
-        if os.path.isfile(os.path.join(base_dir, entry)):
-            if not entry.endswith(".pyi"):
+    for entry in base_dir.iterdir():
+        if entry.is_file():
+            if entry.suffix != ".pyi":
                 continue
-            stub_dir = os.path.join(dst, entry.split(".")[0] + SUFFIX)
-            os.makedirs(stub_dir, exist_ok=True)
-            shutil.copy(
-                os.path.join(base_dir, entry), os.path.join(stub_dir, "__init__.pyi")
-            )
+            stub_dir = dst / (entry.stem + SUFFIX)
+            stub_dir.mkdir(exist_ok=True)
+            shutil.copy(entry, stub_dir / "__init__.pyi")
         else:
-            if entry == TESTS_NAMESPACE:
+            if entry.name == TESTS_NAMESPACE:
                 # Don't package tests for the stubs
                 continue
             # Don't append the suffix if already present
-            stub_dir = os.path.join(
-                dst, entry if entry.endswith(SUFFIX) else entry + SUFFIX
-            )
-            shutil.copytree(os.path.join(base_dir, entry), stub_dir, dirs_exist_ok=True)
+            stub_dir = dst / ensure_suffix(entry.name, SUFFIX)
+            shutil.copytree(entry, stub_dir, dirs_exist_ok=True)
 
         # We add original METADATA file in case some type-checking tool will want
         # to use it. Note that since it is not easy to package it outside of a package,
         # we copy it to every package in given distribution.
-        if os.path.isfile(os.path.join(base_dir, META)):
-            shutil.copy(os.path.join(base_dir, META), stub_dir)
-        else:
-            upper_dir = os.path.dirname(base_dir)
-            assert os.path.isfile(os.path.join(upper_dir, META))
-            shutil.copy(os.path.join(upper_dir, META), stub_dir)
+        shutil.copy(base_dir / META, stub_dir)
+
+
+def ensure_suffix(s: str, suffix: str) -> str:
+    """Ensure that a string ends with a suffix."""
+    return s if s.endswith(suffix) else s + suffix
 
 
 def copy_changelog(distribution: str, dst: str) -> None:
@@ -257,9 +253,9 @@ def generate_setup_file(
     all_requirements = [
         str(req) for req in metadata.requires_typeshed + metadata.requires_external
     ]
-    package_data = collect_setup_entries(build_data.stub_dir)
+    package_data = collect_setup_entries(str(build_data.stub_dir))
     if metadata.partial:
-        add_partial_marker(package_data, build_data.stub_dir)
+        add_partial_marker(package_data, str(build_data.stub_dir))
     requires_python = (
         metadata.requires_python
         if metadata.requires_python is not None
@@ -345,7 +341,7 @@ def main(
     metadata = read_metadata(typeshed_dir, distribution)
     with open(os.path.join(tmpdir, "setup.py"), "w") as f:
         f.write(generate_setup_file(build_data, ts_data, metadata, version, commit))
-    copy_stubs(build_data.stub_dir, tmpdir)
+    copy_stubs(build_data.stub_dir, Path(tmpdir))
     copy_changelog(distribution, tmpdir)
     current_dir = os.getcwd()
     os.chdir(tmpdir)
