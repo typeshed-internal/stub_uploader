@@ -66,6 +66,7 @@ types-editdistance
 types-emoji
 types-entrypoints
 types-enum34
+types-fanstatic
 types-fb303
 types-filelock
 types-first

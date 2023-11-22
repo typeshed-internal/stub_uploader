@@ -1,3 +1,7 @@
+## 0.13.0.4 (2023-11-22)
+
+seaborn: fix and complete `seaborn.regression` (#11043)
+
 ## 0.13.0.3 (2023-11-16)
 
 Complete `seaborn` stubs and mark as strict (#10974)

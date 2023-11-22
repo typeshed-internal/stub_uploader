@@ -1,3 +1,7 @@
+## 0.5.10.10 (2023-11-22)
+
+third-party stubs: Add several missing `__del__` methods (#11054)
+
 ## 0.5.10.9 (2023-08-13)
 
 Fill in all missing `upstream_repository` fields (#10571)

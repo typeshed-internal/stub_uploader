@@ -1,3 +1,7 @@
+## 3.5.0.11 (2023-11-22)
+
+third-party stubs: Add several missing `__del__` methods (#11054)
+
 ## 3.5.0.10 (2023-09-01)
 
 `_CField` as a generic descriptor protocol (#10595)
