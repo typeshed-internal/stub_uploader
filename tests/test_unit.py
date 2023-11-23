@@ -74,10 +74,15 @@ def test_compute_stub_version() -> None:
 
     # published equals version spec
     assert _stub_ver("1.1", ["1.1"]) == f"1.1.0.{STUB_V}"
-    assert _stub_ver("1.1", ["1.1.0.4"]) == f"1.1.0.{STUB_V}"
-    assert _stub_ver("1.1", ["1.1.3.4"]) == f"1.1.3.{STUB_V}"
-    assert _stub_ver("1.2.3.4", ["1.2.3.4.5"]) == f"1.2.3.4.{STUB_V}"
+    assert _stub_ver("1.1", ["1.1.0.19991204"]) == f"1.1.0.{STUB_V}"
+    assert _stub_ver("1.1", ["1.1.3.19991204"]) == f"1.1.3.{STUB_V}"
+    assert _stub_ver("1.2.3.4", ["1.2.3.4.19991204"]) == f"1.2.3.4.{STUB_V}"
     assert _stub_ver("1.2.3.4.5", ["1.2.3.4.5"]) == f"1.2.3.4.5.{STUB_V}"
+
+    # test with multiple published versions
+    assert (
+        _stub_ver("1.2", ["1.1.0.7", "1.2.0.7", "1.3.0.19991204"]) == f"1.3.0.{STUB_V}"
+    )
 
 
 def test_collect_setup_entries() -> None:

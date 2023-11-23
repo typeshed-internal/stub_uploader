@@ -111,12 +111,14 @@ def compute_stub_version(
     new_version_parts = [*base_version_parts[:-1], int(date.strftime("%Y%m%d"))]
     new_version = Version(".".join(map(str, new_version_parts)))
     assert new_version > max_published
-    assert_compatibility(version_base, new_version, is_compatible)
+    assert_compatibility(
+        version_base=version_base, new_version=new_version, is_compatible=is_compatible
+    )
     return new_version
 
 
 def assert_compatibility(
-    version_base: Version, new_version: Version, is_compatible: bool
+    *, version_base: Version, new_version: Version, is_compatible: bool
 ) -> None:
     compatible = SpecifierSet(f"=={version_base.base_version}.*")
     if is_compatible:
@@ -126,8 +128,9 @@ def assert_compatibility(
 
 
 def determine_stub_version(metadata: Metadata) -> str:
+    today = datetime.datetime.now(datetime.UTC).date()
     published_stub_versions = fetch_pypi_versions(metadata.stub_distribution)
     version = compute_stub_version(
-        metadata.version_spec, published_stub_versions, datetime.date.today()
+        metadata.version_spec, published_stub_versions, today
     )
     return str(version)
