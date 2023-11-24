@@ -1,3 +1,7 @@
+## 0.10.0.10 (2023-11-24)
+
+Third-party stubs: remove unused `type: ignore`s (#11063)
+
 ## 0.10.0.9 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

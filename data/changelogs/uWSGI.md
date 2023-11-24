@@ -1,3 +1,7 @@
+## 2.0.0.1 (2023-11-24)
+
+Third-party stubs: remove unused `type: ignore`s (#11063)
+
 ## 2.0.0.0 (2023-07-24)
 
 Adds stubs for uWSGI (#10432)

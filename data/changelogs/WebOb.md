@@ -1,3 +1,9 @@
+## 1.8.0.5 (2023-11-24)
+
+Fix typos in docs and comments (#11064)
+
+Third-party stubs: remove unused `type: ignore`s (#11063)
+
 ## 1.8.0.4 (2023-11-11)
 
 third-party: make some protocol params pos-only (#11006)

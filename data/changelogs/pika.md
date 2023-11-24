@@ -1,3 +1,7 @@
+## 1.3.0.15 (2023-11-24)
+
+Third-party stubs: remove unused `type: ignore`s (#11063)
+
 ## 1.3.0.14 (2023-11-09)
 
 Bump flake8-pyi to 23.11.0 (#10997)

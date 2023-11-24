@@ -1,3 +1,9 @@
+## 0.13.0.5 (2023-11-24)
+
+Fix typos in docs and comments (#11064)
+
+Third-party stubs: remove unused `type: ignore`s (#11063)
+
 ## 0.13.0.4 (2023-11-22)
 
 seaborn: fix and complete `seaborn.regression` (#11043)

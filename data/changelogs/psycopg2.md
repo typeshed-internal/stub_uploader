@@ -1,3 +1,7 @@
+## 2.9.21.17 (2023-11-24)
+
+Third-party stubs: remove unused `type: ignore`s (#11063)
+
 ## 2.9.21.16 (2023-11-15)
 
 psycopg2: Accept `Composable` for `cursor.mogrify` (#11028)

@@ -1,3 +1,7 @@
+## 3.3.0.1 (2023-11-24)
+
+Third-party stubs: remove unused `type: ignore`s (#11063)
+
 ## 3.3.0.0 (2023-07-31)
 
 Bump paramiko to 3.3.* (#10522)

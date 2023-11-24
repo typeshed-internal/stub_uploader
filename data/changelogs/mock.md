@@ -1,3 +1,7 @@
+## 5.1.0.3 (2023-11-24)
+
+Third-party stubs: remove unused `type: ignore`s (#11063)
+
 ## 5.1.0.2 (2023-09-02)
 
 Update `unittest.mock` to 3.12 (#10650)

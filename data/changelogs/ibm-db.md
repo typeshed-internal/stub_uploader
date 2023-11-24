@@ -1,3 +1,7 @@
+## 3.2.0.1 (2023-11-24)
+
+ibm-db: Add SQL_ATTR_TXN_ISOLATION (#11060)
+
 ## 3.2.0.0 (2023-08-27)
 
 Update `ibm-db` to `3.2.*` (#10622)

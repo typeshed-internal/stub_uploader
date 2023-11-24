@@ -1,3 +1,10 @@
+## 2.17.0.0 (2023-11-24)
+
+Bump pygments to 2.17 (#11051)
+
+* Add some previously missing lexers.
+* Improve lexer type annotations.
+
 ## 2.16.0.1 (2023-11-10)
 
 Add types for `pygments.lex`. (#10998)

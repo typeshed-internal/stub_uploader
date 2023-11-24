@@ -1,3 +1,7 @@
+## 3.1.0.2 (2023-11-24)
+
+Fix typos in docs and comments (#11064)
+
 ## 3.1.0.1 (2023-11-11)
 
 third-party: make some protocol params pos-only (#11006)

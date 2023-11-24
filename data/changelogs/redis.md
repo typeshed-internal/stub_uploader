@@ -1,3 +1,7 @@
+## 4.6.0.11 (2023-11-24)
+
+redis: remove unused `type: ignore`s (#11062)
+
 ## 4.6.0.10 (2023-11-07)
 
 Remove redundant inheritances from `Generic` and various `typing` protocols (#10981)

@@ -1,3 +1,7 @@
+## 4.66.0.5 (2023-11-24)
+
+Third-party stubs: remove unused `type: ignore`s (#11063)
+
 ## 4.66.0.4 (2023-11-07)
 
 Remove redundant inheritances from `Generic` and various `typing` protocols (#10981)
