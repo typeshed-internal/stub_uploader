@@ -1,3 +1,9 @@
+## 3.3.0.2 (2023-11-25)
+
+Added paramiko3.2 PKey and PublicBlob methods (#11067)
+
+Addded missing paramiko methods from https://docs.paramiko.org/en/latest/api/keys.html#paramiko.pkey.PKey
+
 ## 3.3.0.1 (2023-11-24)
 
 Third-party stubs: remove unused `type: ignore`s (#11063)
