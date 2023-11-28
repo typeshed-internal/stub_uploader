@@ -1,3 +1,7 @@
+## 2.9.21.18 (2023-11-28)
+
+psycopg2: fix range annotations (#11071)
+
 ## 2.9.21.17 (2023-11-24)
 
 Third-party stubs: remove unused `type: ignore`s (#11063)
