@@ -1,3 +1,9 @@
+## 69.0.0.0 (2023-11-29)
+
+Bump setuptools to 69.0.* (#11069)
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 68.2.0.2 (2023-11-24)
 
 Third-party stubs: remove unused `type: ignore`s (#11063)
