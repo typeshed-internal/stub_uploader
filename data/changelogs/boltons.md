@@ -1,3 +1,7 @@
+## 23.1.0.0 (2023-11-30)
+
+Bump boltons to 23.1.* (#11083)
+
 ## 23.0.0.2 (2023-11-22)
 
 third-party stubs: Add several missing `__del__` methods (#11054)

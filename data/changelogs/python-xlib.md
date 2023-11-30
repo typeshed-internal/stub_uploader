@@ -1,3 +1,9 @@
+## 0.33.0.15 (2023-11-30)
+
+Use `ConvertibleToInt`/`ConvertibleToFloat` in many third-party stubs (#11022)
+
+Note: this may make the latest version of certain stubs packages incompatible with older versions of mypy and pyright.
+
 ## 0.33.0.14 (2023-11-09)
 
 Bump flake8-pyi to 23.11.0 (#10997)

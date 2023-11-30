@@ -1,3 +1,9 @@
+## 2.9.21.19 (2023-11-30)
+
+Use `ConvertibleToInt`/`ConvertibleToFloat` in many third-party stubs (#11022)
+
+Note: this may make the latest version of certain stubs packages incompatible with older versions of mypy and pyright.
+
 ## 2.9.21.18 (2023-11-28)
 
 psycopg2: fix range annotations (#11071)

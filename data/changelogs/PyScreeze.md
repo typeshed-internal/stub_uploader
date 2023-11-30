@@ -1,3 +1,9 @@
+## 0.1.30.1 (2023-11-30)
+
+Use `ConvertibleToInt`/`ConvertibleToFloat` in many third-party stubs (#11022)
+
+Note: this may make the latest version of certain stubs packages incompatible with older versions of mypy and pyright.
+
 ## 0.1.30.0 (2023-11-14)
 
 Bump PyScreeze to 0.1.30 (#11025)

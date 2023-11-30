@@ -1,3 +1,9 @@
+## 0.5.0.1 (2023-11-30)
+
+Use `ConvertibleToInt`/`ConvertibleToFloat` in many third-party stubs (#11022)
+
+Note: this may make the latest version of certain stubs packages incompatible with older versions of mypy and pyright.
+
 ## 0.5.0.0 (2023-10-04)
 
 Bump pyasn1 to 0.5.* (#10801)
