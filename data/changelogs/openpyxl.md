@@ -1,3 +1,7 @@
+## 3.1.0.30 (2023-12-02)
+
+openpyxl: type `to_tree` methods (#10967)
+
 ## 3.1.0.29 (2023-11-30)
 
 Use `ConvertibleToInt`/`ConvertibleToFloat` in many third-party stubs (#11022)
