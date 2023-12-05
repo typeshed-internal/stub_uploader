@@ -1,3 +1,7 @@
+## 3.1.0.31 (2023-12-05)
+
+Openpyxl: Various improvements (#11092)
+
 ## 3.1.0.30 (2023-12-02)
 
 openpyxl: type `to_tree` methods (#10967)

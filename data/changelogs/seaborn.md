@@ -1,3 +1,7 @@
+## 0.13.0.6 (2023-12-05)
+
+seaborn: complete and fix axisgrid module (#11096)
+
 ## 0.13.0.5 (2023-11-24)
 
 Fix typos in docs and comments (#11064)
