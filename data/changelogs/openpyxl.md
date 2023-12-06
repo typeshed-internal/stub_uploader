@@ -1,3 +1,7 @@
+## 3.1.0.32 (2023-12-06)
+
+openpyxl: Type styleable descriptors (#11103)
+
 ## 3.1.0.31 (2023-12-05)
 
 Openpyxl: Various improvements (#11092)
