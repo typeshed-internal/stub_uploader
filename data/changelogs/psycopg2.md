@@ -1,3 +1,9 @@
+## 2.9.21.20 (2023-12-07)
+
+psycopg2: improve `cursor_factory` params (#11085)
+
+fix(psycopg2): fix copy_expert signature (#11099)
+
 ## 2.9.21.19 (2023-11-30)
 
 Use `ConvertibleToInt`/`ConvertibleToFloat` in many third-party stubs (#11022)

@@ -84,6 +84,7 @@ types-frozendict
 types-futures
 types-gdb
 types-geoip2
+types-gevent
 types-google-cloud-ndb
 types-greenlet
 types-hdbcli
