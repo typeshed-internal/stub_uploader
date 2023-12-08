@@ -1,3 +1,7 @@
+## 306.0.0.7 (2023-12-08)
+
+Fix `pywin32`'s `PyCBitmap.GetBitmapBits` method (#11108)
+
 ## 306.0.0.6 (2023-10-29)
 
 Type `pywin32`'s `win32.win32print.StartDocPrinter` method (#10898)
