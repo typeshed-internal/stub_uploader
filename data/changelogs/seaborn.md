@@ -1,3 +1,9 @@
+## 0.13.0.7 (2023-12-11)
+
+seaborn: complete the distributions module (#11131)
+
+seaborn: mark simple deprecations (#11130)
+
 ## 0.13.0.6 (2023-12-05)
 
 seaborn: complete and fix axisgrid module (#11096)
