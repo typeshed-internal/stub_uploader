@@ -1,3 +1,7 @@
+## 5.9.0.0 (2023-12-12)
+
+[stubsabot] Bump ujson to 5.9.* (#11143)
+
 ## 5.8.0.1 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
