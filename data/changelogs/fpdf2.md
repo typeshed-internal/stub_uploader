@@ -1,3 +1,9 @@
+## 2.7.7.0 (2023-12-13)
+
+Bump fpdf2 to 2.7.7 (#11149)
+
+Closes: #11145
+
 ## 2.7.6.1 (2023-11-24)
 
 Third-party stubs: remove unused `type: ignore`s (#11063)
