@@ -1,3 +1,10 @@
+## 2.19.0.0 (2023-12-14)
+
+[stubsabot] Bump hdbcli to 2.19.* (#11157)
+
+Release: https://pypi.org/pypi/hdbcli/2.19.18
+Homepage: https://www.sap.com/
+
 ## 2.18.0.1 (2023-11-16)
 
 Improve hdbcli types (#10969)
