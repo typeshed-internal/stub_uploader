@@ -109,6 +109,7 @@ types-mock
 types-mypy-extensions
 types-mysqlclient
 types-netaddr
+types-networkx
 types-nmap
 types-oauthlib
 types-openpyxl
