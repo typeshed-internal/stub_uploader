@@ -1,3 +1,7 @@
+## 6.3.0.0 (2023-12-18)
+
+Bump pyinstaller to 6.3.* (#11175)
+
 ## 6.2.0.1 (2023-11-24)
 
 Third-party stubs: remove unused `type: ignore`s (#11063)
