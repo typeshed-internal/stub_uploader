@@ -1,5 +1,6 @@
 """Unit tests for simple helpers should go here."""
 
+import datetime
 from io import StringIO
 import os
 import tempfile
@@ -9,7 +10,7 @@ import pytest
 from packaging.version import Version
 
 from stub_uploader.build_wheel import collect_setup_entries
-from stub_uploader.get_version import compute_incremented_version, ensure_specificity
+from stub_uploader.get_version import compute_stub_version, ensure_specificity
 from stub_uploader.metadata import _UploadedPackages, strip_types_prefix, Metadata
 from stub_uploader.ts_data import parse_requirements
 
@@ -34,45 +35,54 @@ def test_ensure_specificity() -> None:
     assert ver == [1, 2, 3, 4, 5]
 
 
-def _incremented_ver(ver: str, published: list[str]) -> str:
+STUB_DATE = datetime.date(2024, 9, 12)
+STUB_V = STUB_DATE.strftime("%Y%m%d")
+FUTURE_V = "20240913"
+
+
+def _stub_ver(ver: str, published: list[str]) -> str:
     published_vers = [Version(v) for v in published]
-    return str(compute_incremented_version(ver, published_vers))
+    return str(compute_stub_version(ver, published_vers, STUB_DATE))
 
 
-def test_compute_incremented_version() -> None:
+def test_compute_stub_version() -> None:
     # never before published version
     empty_list: list[str] = []
-    assert _incremented_ver("1", empty_list) == "1.0.0.0"
-    assert _incremented_ver("1.2", empty_list) == "1.2.0.0"
-    assert _incremented_ver("1.2.post3", empty_list) == "1.2.3.0"
+    assert _stub_ver("1", empty_list) == f"1.0.0.{STUB_V}"
+    assert _stub_ver("1.2", empty_list) == f"1.2.0.{STUB_V}"
+    assert _stub_ver("1.2.post3", empty_list) == f"1.2.3.{STUB_V}"
 
     # published greater than version spec
-    assert _incremented_ver("1.2", ["1.3.0.4"]) == "1.3.0.5"
-    assert _incremented_ver("1.1", ["1.2.0.1"]) == "1.2.0.2"
-    assert _incremented_ver("1.1", ["1.2"]) == "1.2.0.1"
-    assert _incremented_ver("1.1", ["1.2.3"]) == "1.2.3.1"
-    assert _incremented_ver("1.1", ["1.2.3.4.5"]) == "1.2.3.4.6"
-    assert _incremented_ver("1.4.40", ["1.4.50"]) == "1.4.50.1"
-    assert _incremented_ver("1.4.0.40", ["1.4.0.50"]) == "1.4.0.50.1"
-    assert _incremented_ver("1.2.post3", ["1.2.3.4"]) == "1.2.3.5"
+    assert _stub_ver("1.1", ["1.2"]) == f"1.2.0.{STUB_V}"
+    assert _stub_ver("1.1", ["1.2.3"]) == f"1.2.3.{STUB_V}"
+    assert _stub_ver("1.2", ["1.3.0.4"]) == f"1.3.0.{STUB_V}"
+    assert _stub_ver("1.1", ["1.2.3.4.5"]) == f"1.2.3.4.{STUB_V}"
+    assert _stub_ver("1.4.40", ["1.4.50"]) == f"1.4.50.{STUB_V}"
+    assert _stub_ver("1.4.0.40", ["1.4.0.50"]) == f"1.4.0.50.{STUB_V}"
+    assert _stub_ver("1.2.post3", ["1.2.3.4"]) == f"1.2.3.{STUB_V}"
 
     # published less than version spec
-    assert _incremented_ver("1.2", ["1.1.0.4"]) == "1.2.0.0"
-    assert _incremented_ver("1", ["0.9"]) == "1.0.0.0"
-    assert _incremented_ver("1.1", ["0.9"]) == "1.1.0.0"
-    assert _incremented_ver("1.2.3", ["1.1.0.17"]) == "1.2.3.0"
-    assert _incremented_ver("1.2.3.4", ["1.1.0.17"]) == "1.2.3.4.0"
-    assert _incremented_ver("1.2.post3", ["1.1.0.17"]) == "1.2.3.0"
+    assert _stub_ver("1.2", ["1.1.0.4"]) == f"1.2.0.{STUB_V}"
+    assert _stub_ver("1", ["0.9"]) == f"1.0.0.{STUB_V}"
+    assert _stub_ver("1.1", ["0.9"]) == f"1.1.0.{STUB_V}"
+    assert _stub_ver("1.2.3", ["1.1.0.70"]) == f"1.2.3.{STUB_V}"
+    assert _stub_ver("1.2.3", [f"1.1.0.{STUB_V}"]) == f"1.2.3.{STUB_V}"
+    assert _stub_ver("1.2.3", [f"1.1.0.{FUTURE_V}"]) == f"1.2.3.{STUB_V}"
+    assert _stub_ver("1.2.3.4", ["1.1.0.17"]) == f"1.2.3.4.{STUB_V}"
+    assert _stub_ver("1.2.post3", ["1.1.0.17"]) == f"1.2.3.{STUB_V}"
+    assert _stub_ver("1.2.3", ["1.1.0.21000101"]) == f"1.2.3.{STUB_V}"
 
     # published equals version spec
-    assert _incremented_ver("1.1", ["1.1"]) == "1.1.0.1"
-    assert _incremented_ver("1.1", ["1.1.0.4"]) == "1.1.0.5"
-    assert _incremented_ver("1.1", ["1.1.3.4"]) == "1.1.3.5"
-    assert _incremented_ver("1.2.3.4", ["1.2.3.4.5"]) == "1.2.3.4.6"
-    assert _incremented_ver("1.2.3.4.5", ["1.2.3.4.5"]) == "1.2.3.4.5.1"
+    assert _stub_ver("1.1", ["1.1"]) == f"1.1.0.{STUB_V}"
+    assert _stub_ver("1.1", ["1.1.0.19991204"]) == f"1.1.0.{STUB_V}"
+    assert _stub_ver("1.1", ["1.1.3.19991204"]) == f"1.1.3.{STUB_V}"
+    assert _stub_ver("1.2.3.4", ["1.2.3.4.19991204"]) == f"1.2.3.4.{STUB_V}"
+    assert _stub_ver("1.2.3.4.5", ["1.2.3.4.5"]) == f"1.2.3.4.5.{STUB_V}"
 
-    # test that we do the max version right
-    assert _incremented_ver("1.2", ["1.1.0.7", "1.2.0.7", "1.3.0.7"]) == "1.3.0.8"
+    # test with multiple published versions
+    assert (
+        _stub_ver("1.2", ["1.1.0.7", "1.2.0.7", "1.3.0.19991204"]) == f"1.3.0.{STUB_V}"
+    )
 
 
 def test_collect_setup_entries() -> None:
