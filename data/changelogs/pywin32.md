@@ -1,3 +1,7 @@
+## 306.0.0.8 (2023-12-19)
+
+pywin32 annotations improvements (#11177)
+
 ## 306.0.0.7 (2023-12-08)
 
 Fix `pywin32`'s `PyCBitmap.GetBitmapBits` method (#11108)

@@ -1,3 +1,7 @@
+## 0.9.0.2 (2023-12-19)
+
+Review `SupportsInt` and `SupportsFloat` usages in 3rd-party stubs (#11003)
+
 ## 0.9.0.1 (2023-09-23)
 
 stdlib/xml/sax: Add type annotations (#10606)

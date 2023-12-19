@@ -1,3 +1,12 @@
+## 4.25.0.0 (2023-12-19)
+
+[stubsabot] Bump braintree to 4.25.* (#11182)
+
+Release: https://pypi.org/pypi/braintree/4.25.0
+Homepage: https://developer.paypal.com/braintree/docs/reference/overview
+Repository: https://github.com/braintree/braintree_python
+Diff: https://github.com/braintree/braintree_python/compare/4.24.0...4.25.0
+
 ## 4.24.0.0 (2023-11-08)
 
 [stubsabot] Bump braintree to 4.24.* (#10993)

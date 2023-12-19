@@ -1,3 +1,7 @@
+## 0.13.0.8 (2023-12-19)
+
+seaborn: Complete the categorical module (#11170)
+
 ## 0.13.0.7 (2023-12-11)
 
 seaborn: complete the distributions module (#11131)

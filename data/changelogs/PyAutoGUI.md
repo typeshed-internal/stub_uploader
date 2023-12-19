@@ -1,3 +1,7 @@
+## 0.9.3.8 (2023-12-19)
+
+Review `SupportsInt` and `SupportsFloat` usages in 3rd-party stubs (#11003)
+
 ## 0.9.3.7 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
