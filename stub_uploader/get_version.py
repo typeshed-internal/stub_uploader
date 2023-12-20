@@ -112,7 +112,7 @@ def compute_stub_version(
     new_version = Version(".".join(map(str, new_version_parts)))
     assert (
         new_version > max_published
-    ), f"new version {new_version} > published version {max_published}"
+    ), f"new version {new_version} <= published version {max_published}"
     assert_compatibility(
         version_base=version_base, new_version=new_version, is_compatible=is_compatible
     )
