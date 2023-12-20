@@ -31,8 +31,6 @@ def upload(
 def upload_distribution(
     typeshed_dir: str, distribution: str, commit: str | None, *, dry_run: bool
 ) -> None:
-    already_uploaded = False
-
     print(f"Building stubs for {distribution}... ", end="")
     metadata = read_metadata(typeshed_dir, distribution)
     recursive_verify(metadata, typeshed_dir)
@@ -42,6 +40,8 @@ def upload_distribution(
     except AlreadyUploadedError as e:
         version = str(e.version)
         already_uploaded = True
+    else:
+        already_uploaded = False
 
     if commit:
         update_changelog(

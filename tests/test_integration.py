@@ -3,6 +3,8 @@ Integration tests for build scripts. These should not change
 anything on PyPI, but can make PyPI queries and may expect
 a typeshed checkout side by side.
 """
+from datetime import date
+import datetime
 import os
 from pathlib import Path
 import re
@@ -53,8 +55,8 @@ def test_build_wheel(distribution: str) -> None:
 def test_version_increment(distribution: str) -> None:
     try:
         get_version.determine_stub_version(read_metadata(TYPESHED, distribution))
-    except AlreadyUploadedError:
-        pass
+    except AlreadyUploadedError as exc:
+        assert exc.version.release[-1] == datetime.date.today().strftime("%Y%m%d")
 
 
 def test_unvalidated_properties() -> None:
