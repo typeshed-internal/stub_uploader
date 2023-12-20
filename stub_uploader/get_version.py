@@ -30,6 +30,12 @@ RETRY_ON = [429, 500, 502, 503, 504]
 TIMEOUT = 3
 
 
+class AlreadyUploadedError(Exception):
+    def __init__(self, version: Version) -> None:
+        super().__init__(f"Version {version} was already uploaded")
+        self.version = version
+
+
 def fetch_pypi_versions(distribution: str) -> list[Version]:
     assert distribution.startswith(TYPES_PREFIX)
     url = URL_TEMPLATE.format(distribution)
@@ -110,10 +116,14 @@ def compute_stub_version(
     ensure_specificity(base_version_parts, stub_specificity)
     new_version_parts = [*base_version_parts[:-1], int(date.strftime("%Y%m%d"))]
     new_version = Version(".".join(map(str, new_version_parts)))
-    assert new_version > max_published
     assert_compatibility(
         version_base=version_base, new_version=new_version, is_compatible=is_compatible
     )
+    if new_version == max_published:
+        raise AlreadyUploadedError(new_version)
+    assert (
+        new_version > max_published
+    ), f"new version {new_version} <= published version {max_published}"
     return new_version
 
 

@@ -4,7 +4,7 @@ import os
 import subprocess
 
 from stub_uploader import build_wheel
-from stub_uploader.get_version import determine_stub_version
+from stub_uploader.get_version import AlreadyUploadedError, determine_stub_version
 from stub_uploader.update_changelog import update_changelog
 from stub_uploader.metadata import (
     read_metadata,
@@ -25,24 +25,43 @@ def upload(
     print("Building and uploading stubs for:", ", ".join(distributions))
     print()
     for distribution in to_upload:
-        print(f"Building stubs for {distribution}... ", end="")
-        metadata = read_metadata(typeshed_dir, distribution)
-        recursive_verify(metadata, typeshed_dir)
+        upload_distribution(typeshed_dir, distribution, commit, dry_run=dry_run)
 
+
+def upload_distribution(
+    typeshed_dir: str, distribution: str, commit: str | None, *, dry_run: bool
+) -> None:
+    print(f"Building stubs for {distribution}... ", end="")
+    metadata = read_metadata(typeshed_dir, distribution)
+    recursive_verify(metadata, typeshed_dir)
+
+    try:
         version = determine_stub_version(metadata)
-        if commit:
-            update_changelog(
-                typeshed_dir, commit, distribution, version, dry_run=dry_run
-            )
+    except AlreadyUploadedError as e:
+        version = str(e.version)
+        already_uploaded = True
+    else:
+        already_uploaded = False
 
-        temp_dir = build_wheel.main(typeshed_dir, distribution, version)
-        print(f"ok, version {version}")
+    if commit:
+        update_changelog(
+            typeshed_dir,
+            commit,
+            distribution,
+            version,
+            dry_run=dry_run or already_uploaded,
+        )
 
-        print(f"Uploading stubs for {distribution}... ", end="")
-        if dry_run or not metadata.upload:
-            print(f"skipped")
-        else:
-            subprocess.run(["twine", "upload", os.path.join(temp_dir, "*")], check=True)
-            uploaded_packages.add(distribution)
-            print(f"ok")
-        print()
+    temp_dir = build_wheel.main(typeshed_dir, distribution, version)
+    print(f"ok, version {version}")
+
+    print(f"Uploading stubs for {distribution}... ", end="")
+    if dry_run or not metadata.upload:
+        print("skipped")
+    elif already_uploaded:
+        print("already uploaded, skipped")
+    else:
+        subprocess.run(["twine", "upload", os.path.join(temp_dir, "*")], check=True)
+        uploaded_packages.add(distribution)
+        print("ok")
+    print()
