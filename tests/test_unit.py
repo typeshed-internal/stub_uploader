@@ -10,7 +10,11 @@ import pytest
 from packaging.version import Version
 
 from stub_uploader.build_wheel import collect_setup_entries
-from stub_uploader.get_version import compute_stub_version, ensure_specificity
+from stub_uploader.get_version import (
+    AlreadyUploadedError,
+    compute_stub_version,
+    ensure_specificity,
+)
 from stub_uploader.metadata import _UploadedPackages, strip_types_prefix, Metadata
 from stub_uploader.ts_data import parse_requirements
 
@@ -83,6 +87,11 @@ def test_compute_stub_version() -> None:
     assert (
         _stub_ver("1.2", ["1.1.0.7", "1.2.0.7", "1.3.0.19991204"]) == f"1.3.0.{STUB_V}"
     )
+
+
+def test_compute_stub_version__already_uploaded() -> None:
+    with pytest.raises(AlreadyUploadedError):
+        _stub_ver("1.2.*", ["1.2.0.1", f"1.2.0.{STUB_V}"])
 
 
 def test_collect_setup_entries() -> None:

@@ -13,6 +13,7 @@ from packaging.version import Version
 
 from stub_uploader import build_wheel, get_version
 from stub_uploader.const import THIRD_PARTY_NAMESPACE
+from stub_uploader.get_version import AlreadyUploadedError
 from stub_uploader.metadata import (
     InvalidRequires,
     Metadata,
@@ -50,7 +51,10 @@ def test_build_wheel(distribution: str) -> None:
     "distribution", os.listdir(os.path.join(TYPESHED, THIRD_PARTY_NAMESPACE))
 )
 def test_version_increment(distribution: str) -> None:
-    get_version.determine_stub_version(read_metadata(TYPESHED, distribution))
+    try:
+        get_version.determine_stub_version(read_metadata(TYPESHED, distribution))
+    except AlreadyUploadedError:
+        pass
 
 
 def test_unvalidated_properties() -> None:
