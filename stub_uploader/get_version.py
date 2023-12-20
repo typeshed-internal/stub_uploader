@@ -110,7 +110,9 @@ def compute_stub_version(
     ensure_specificity(base_version_parts, stub_specificity)
     new_version_parts = [*base_version_parts[:-1], int(date.strftime("%Y%m%d"))]
     new_version = Version(".".join(map(str, new_version_parts)))
-    assert new_version > max_published
+    assert (
+        new_version > max_published
+    ), f"new version {new_version} > published version {max_published}"
     assert_compatibility(
         version_base=version_base, new_version=new_version, is_compatible=is_compatible
     )
