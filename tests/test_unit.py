@@ -11,7 +11,6 @@ from packaging.version import Version
 
 from stub_uploader.build_wheel import collect_setup_entries
 from stub_uploader.get_version import (
-    AlreadyUploadedError,
     compute_stub_version,
     ensure_specificity,
 )
@@ -39,59 +38,65 @@ def test_ensure_specificity() -> None:
     assert ver == [1, 2, 3, 4, 5]
 
 
-STUB_DATE = datetime.date(2024, 9, 12)
-STUB_V = STUB_DATE.strftime("%Y%m%d")
-FUTURE_V = "20240913"
+TODAY = datetime.date(2024, 9, 12)
+TODAY_V = TODAY.strftime("%Y%m%d")
+TOMORROW_V = "20240913"
+IN_TWO_DAYS_V = "20240914"
 
 
 def _stub_ver(ver: str, published: list[str]) -> str:
     published_vers = [Version(v) for v in published]
-    return str(compute_stub_version(ver, published_vers, STUB_DATE))
+    return str(compute_stub_version(ver, published_vers, TODAY))
 
 
 def test_compute_stub_version() -> None:
     # never before published version
     empty_list: list[str] = []
-    assert _stub_ver("1", empty_list) == f"1.0.0.{STUB_V}"
-    assert _stub_ver("1.2", empty_list) == f"1.2.0.{STUB_V}"
-    assert _stub_ver("1.2.post3", empty_list) == f"1.2.3.{STUB_V}"
+    assert _stub_ver("1", empty_list) == f"1.0.0.{TODAY_V}"
+    assert _stub_ver("1.2", empty_list) == f"1.2.0.{TODAY_V}"
+    assert _stub_ver("1.2.post3", empty_list) == f"1.2.3.{TODAY_V}"
 
     # published greater than version spec
-    assert _stub_ver("1.1", ["1.2"]) == f"1.2.0.{STUB_V}"
-    assert _stub_ver("1.1", ["1.2.3"]) == f"1.2.3.{STUB_V}"
-    assert _stub_ver("1.2", ["1.3.0.4"]) == f"1.3.0.{STUB_V}"
-    assert _stub_ver("1.1", ["1.2.3.4.5"]) == f"1.2.3.4.{STUB_V}"
-    assert _stub_ver("1.4.40", ["1.4.50"]) == f"1.4.50.{STUB_V}"
-    assert _stub_ver("1.4.0.40", ["1.4.0.50"]) == f"1.4.0.50.{STUB_V}"
-    assert _stub_ver("1.2.post3", ["1.2.3.4"]) == f"1.2.3.{STUB_V}"
+    assert _stub_ver("1.1", ["1.2"]) == f"1.2.0.{TODAY_V}"
+    assert _stub_ver("1.1", ["1.2.3"]) == f"1.2.3.{TODAY_V}"
+    assert _stub_ver("1.2", ["1.3.0.4"]) == f"1.3.0.{TODAY_V}"
+    assert _stub_ver("1.1", ["1.2.3.4.5"]) == f"1.2.3.4.{TODAY_V}"
+    assert _stub_ver("1.4.40", ["1.4.50"]) == f"1.4.50.{TODAY_V}"
+    assert _stub_ver("1.4.0.40", ["1.4.0.50"]) == f"1.4.0.50.{TODAY_V}"
+    assert _stub_ver("1.2.post3", ["1.2.3.4"]) == f"1.2.3.{TODAY_V}"
 
     # published less than version spec
-    assert _stub_ver("1.2", ["1.1.0.4"]) == f"1.2.0.{STUB_V}"
-    assert _stub_ver("1", ["0.9"]) == f"1.0.0.{STUB_V}"
-    assert _stub_ver("1.1", ["0.9"]) == f"1.1.0.{STUB_V}"
-    assert _stub_ver("1.2.3", ["1.1.0.70"]) == f"1.2.3.{STUB_V}"
-    assert _stub_ver("1.2.3", [f"1.1.0.{STUB_V}"]) == f"1.2.3.{STUB_V}"
-    assert _stub_ver("1.2.3", [f"1.1.0.{FUTURE_V}"]) == f"1.2.3.{STUB_V}"
-    assert _stub_ver("1.2.3.4", ["1.1.0.17"]) == f"1.2.3.4.{STUB_V}"
-    assert _stub_ver("1.2.post3", ["1.1.0.17"]) == f"1.2.3.{STUB_V}"
-    assert _stub_ver("1.2.3", ["1.1.0.21000101"]) == f"1.2.3.{STUB_V}"
+    assert _stub_ver("1.2", ["1.1.0.4"]) == f"1.2.0.{TODAY_V}"
+    assert _stub_ver("1", ["0.9"]) == f"1.0.0.{TODAY_V}"
+    assert _stub_ver("1.1", ["0.9"]) == f"1.1.0.{TODAY_V}"
+    assert _stub_ver("1.2.3", ["1.1.0.70"]) == f"1.2.3.{TODAY_V}"
+    assert _stub_ver("1.2.3", [f"1.1.0.{TODAY_V}"]) == f"1.2.3.{TODAY_V}"
+    assert _stub_ver("1.2.3", [f"1.1.0.{TOMORROW_V}"]) == f"1.2.3.{TODAY_V}"
+    assert _stub_ver("1.2.3.4", ["1.1.0.17"]) == f"1.2.3.4.{TODAY_V}"
+    assert _stub_ver("1.2.post3", ["1.1.0.17"]) == f"1.2.3.{TODAY_V}"
+    assert _stub_ver("1.2.3", ["1.1.0.21000101"]) == f"1.2.3.{TODAY_V}"
 
     # published equals version spec
-    assert _stub_ver("1.1", ["1.1"]) == f"1.1.0.{STUB_V}"
-    assert _stub_ver("1.1", ["1.1.0.19991204"]) == f"1.1.0.{STUB_V}"
-    assert _stub_ver("1.1", ["1.1.3.19991204"]) == f"1.1.3.{STUB_V}"
-    assert _stub_ver("1.2.3.4", ["1.2.3.4.19991204"]) == f"1.2.3.4.{STUB_V}"
-    assert _stub_ver("1.2.3.4.5", ["1.2.3.4.5"]) == f"1.2.3.4.5.{STUB_V}"
+    assert _stub_ver("1.1", ["1.1"]) == f"1.1.0.{TODAY_V}"
+    assert _stub_ver("1.1", ["1.1.0.19991204"]) == f"1.1.0.{TODAY_V}"
+    assert _stub_ver("1.1", ["1.1.3.19991204"]) == f"1.1.3.{TODAY_V}"
+    assert _stub_ver("1.2.3.4", ["1.2.3.4.19991204"]) == f"1.2.3.4.{TODAY_V}"
+    assert _stub_ver("1.2.3.4.5", ["1.2.3.4.5"]) == f"1.2.3.4.5.{TODAY_V}"
 
     # test with multiple published versions
     assert (
-        _stub_ver("1.2", ["1.1.0.7", "1.2.0.7", "1.3.0.19991204"]) == f"1.3.0.{STUB_V}"
+        _stub_ver("1.2", ["1.1.0.7", "1.2.0.7", "1.3.0.19991204"]) == f"1.3.0.{TODAY_V}"
     )
 
-
-def test_compute_stub_version__already_uploaded() -> None:
-    with pytest.raises(AlreadyUploadedError):
-        _stub_ver("1.2.*", ["1.2.0.1", f"1.2.0.{STUB_V}"])
+    # today's package was already uploaded
+    assert (
+        _stub_ver("1.2.*", ["1.2.0.1", f"1.2.0.{TODAY_V}", f"1.2.0.{TOMORROW_V}"])
+        == f"1.2.0.{IN_TWO_DAYS_V}"
+    )
+    assert (
+        _stub_ver("1.2.*", [f"1.1.0.{TODAY_V}", f"1.1.0.{TOMORROW_V}"])
+        == f"1.2.0.{TODAY_V}"
+    )
 
 
 def test_collect_setup_entries() -> None:
