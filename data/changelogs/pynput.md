@@ -1,3 +1,7 @@
+## 1.7.5.20231222 (2023-12-22)
+
+Bump mypy (and a few other test dependencies) (#11196)
+
 ## 1.7.5.7 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

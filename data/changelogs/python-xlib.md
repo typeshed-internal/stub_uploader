@@ -1,3 +1,7 @@
+## 0.33.0.20231222 (2023-12-22)
+
+Bump mypy (and a few other test dependencies) (#11196)
+
 ## 0.33.0.15 (2023-11-30)
 
 Use `ConvertibleToInt`/`ConvertibleToFloat` in many third-party stubs (#11022)
