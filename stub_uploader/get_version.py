@@ -30,12 +30,6 @@ RETRY_ON = [429, 500, 502, 503, 504]
 TIMEOUT = 3
 
 
-class AlreadyUploadedError(Exception):
-    def __init__(self, version: Version) -> None:
-        super().__init__(f"Version {version} was already uploaded")
-        self.version = version
-
-
 def fetch_pypi_versions(distribution: str) -> list[Version]:
     assert distribution.startswith(TYPES_PREFIX)
     url = URL_TEMPLATE.format(distribution)
@@ -102,29 +96,46 @@ def compute_stub_version(
 
         # But can't keep versioning compatible with upstream...
         is_compatible = False
+        base_version_changed = True
 
     elif version_base.release > max_published.release[:specificity]:
         # For example, version_base=1.2, max_published=1.1.0.4, return 1.2.0.YYYYMMDD
         base_version_parts = list(version_base.release)
+        base_version_changed = True
 
     else:
         assert version_base.release == max_published.release[:specificity]
         # For example, version_base=1.1, max_published=1.1.0.YYYYMMDD (old),
         # return 1.1.0.YYYYMMDD (today)
         base_version_parts = list(max_published.release)
+        base_version_changed = False
 
     ensure_specificity(base_version_parts, stub_specificity)
-    new_version_parts = [*base_version_parts[:-1], int(date.strftime("%Y%m%d"))]
+    unused_date = find_unused_date(max_published, base_version_changed, date)
+    new_version_parts = [*base_version_parts[:-1], unused_date.strftime("%Y%m%d")]
     new_version = Version(".".join(map(str, new_version_parts)))
     assert_compatibility(
         version_base=version_base, new_version=new_version, is_compatible=is_compatible
     )
-    if new_version == max_published:
-        raise AlreadyUploadedError(new_version)
     assert (
         new_version > max_published
     ), f"new version {new_version} <= published version {max_published}"
     return new_version
+
+
+def find_unused_date(
+    max_published: Version, base_version_changed: bool, date: datetime.date
+) -> datetime.date:
+    # If the base version changed, we should always be able to use the current date.
+    if base_version_changed:
+        return date
+
+    # Make sure that the last published release is not unreasonable large.
+    assert int(date.strftime("%Y%m%d")) + 14 > max_published.release[-1]
+
+    while int(date.strftime("%Y%m%d")) <= max_published.release[-1]:
+        date = date + datetime.timedelta(days=1)
+    return date
 
 
 def assert_compatibility(

@@ -3,7 +3,6 @@ Integration tests for build scripts. These should not change
 anything on PyPI, but can make PyPI queries and may expect
 a typeshed checkout side by side.
 """
-import datetime
 import os
 from pathlib import Path
 import re
@@ -14,7 +13,6 @@ from packaging.version import Version
 
 from stub_uploader import build_wheel, get_version
 from stub_uploader.const import THIRD_PARTY_NAMESPACE
-from stub_uploader.get_version import AlreadyUploadedError
 from stub_uploader.metadata import (
     InvalidRequires,
     Metadata,
@@ -52,10 +50,7 @@ def test_build_wheel(distribution: str) -> None:
     "distribution", os.listdir(os.path.join(TYPESHED, THIRD_PARTY_NAMESPACE))
 )
 def test_version_increment(distribution: str) -> None:
-    try:
-        get_version.determine_stub_version(read_metadata(TYPESHED, distribution))
-    except AlreadyUploadedError as exc:
-        assert str(exc.version.release[-1]) == datetime.date.today().strftime("%Y%m%d")
+    get_version.determine_stub_version(read_metadata(TYPESHED, distribution))
 
 
 def test_unvalidated_properties() -> None:
