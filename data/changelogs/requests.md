@@ -1,3 +1,7 @@
+## 2.31.0.20231231 (2023-12-31)
+
+requests: Use the `Any` trick in `HTTPError` (#11207)
+
 ## 2.31.0.10 (2023-10-18)
 
 requests: annotate `utils.get_encoding_from_headers()` (#10901)
