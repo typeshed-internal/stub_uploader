@@ -1,3 +1,9 @@
+## 0.13.0.20240101 (2024-01-01)
+
+Pin seaborn to 0.13.0 (#11213)
+
+Closes #11212
+
 ## 0.13.0.8 (2023-12-19)
 
 seaborn: Complete the categorical module (#11170)
