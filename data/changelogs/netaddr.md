@@ -1,3 +1,9 @@
+## 0.10.0.20240102 (2024-01-02)
+
+netaddr: Bump to 0.10.* (#11215)
+
+Closes #11211
+
 ## 0.9.0.2 (2023-12-19)
 
 Review `SupportsInt` and `SupportsFloat` usages in 3rd-party stubs (#11003)
