@@ -1,3 +1,7 @@
+## 3.4.0.20240103 (2024-01-03)
+
+Update type hints for paramiko 3.4 (#11218)
+
 ## 3.3.0.2 (2023-11-25)
 
 Added paramiko3.2 PKey and PublicBlob methods (#11067)
