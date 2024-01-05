@@ -1,3 +1,7 @@
+## 1.7.7.20240105 (2024-01-05)
+
+Fix passlib.utils.handlers.TruncateMixin.using (#11229)
+
 ## 1.7.7.13 (2023-08-13)
 
 Fill in all missing `upstream_repository` fields (#10571)

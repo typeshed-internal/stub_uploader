@@ -1,3 +1,7 @@
+## 4.8.0.20240105 (2024-01-05)
+
+fix pexpect delaybeforesend_type (#11221)
+
 ## 4.8.0.2 (2023-11-10)
 
 Support for pexpect.spawn(..., logfile=sys.stdout) (#10976)

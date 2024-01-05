@@ -1,3 +1,9 @@
+## 3.2.0.20240105 (2024-01-05)
+
+Add support for the refresh_token grant type (RefreshTokenGrant) (#11… (#11206)
+
+Add support for the refresh_token grant type (RefreshTokenGrant).
+
 ## 3.2.0.10 (2023-09-18)
 
 oauthlib: Update types for RequestValidator to match implementation (#10725)
