@@ -1,3 +1,7 @@
+## 0.10.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 0.10.0.20240102 (2024-01-02)
 
 netaddr: Bump to 0.10.* (#11215)

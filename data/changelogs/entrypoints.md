@@ -1,3 +1,7 @@
+## 0.4.1.20240106 (2024-01-06)
+
+Remove Python 3.7 branches (#11238)
+
 ## 0.4.1.4 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

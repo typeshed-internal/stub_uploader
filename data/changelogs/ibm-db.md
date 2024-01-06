@@ -1,3 +1,7 @@
+## 3.2.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 3.2.0.1 (2023-11-24)
 
 ibm-db: Add SQL_ATTR_TXN_ISOLATION (#11060)

@@ -1,3 +1,7 @@
+## 0.33.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 0.33.0.20231222 (2023-12-22)
 
 Bump mypy (and a few other test dependencies) (#11196)

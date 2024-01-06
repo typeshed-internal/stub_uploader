@@ -1,3 +1,9 @@
+## 4.24.0.20240106 (2024-01-06)
+
+Bump various test dependencies (#11249)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 4.24.0.4 (2023-10-29)
 
 Enable ruff's isort rules on files generated using mypy-protobuf (#10939)

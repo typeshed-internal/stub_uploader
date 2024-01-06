@@ -1,3 +1,7 @@
+## 23.3.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 23.3.0.0 (2023-10-30)
 
 Bump pyOpenSSL to 23.3.* (#10936)

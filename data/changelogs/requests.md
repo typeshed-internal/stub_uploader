@@ -1,3 +1,7 @@
+## 2.31.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 2.31.0.20231231 (2023-12-31)
 
 requests: Use the `Any` trick in `HTTPError` (#11207)

@@ -1,3 +1,7 @@
+## 4.8.0.20240106 (2024-01-06)
+
+Fix timeout argument on pexpect spawn class constructor (#11239) (#11240)
+
 ## 4.8.0.20240105 (2024-01-05)
 
 fix pexpect delaybeforesend_type (#11221)

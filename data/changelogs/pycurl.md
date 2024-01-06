@@ -1,3 +1,7 @@
+## 7.45.2.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 7.45.2.5 (2023-08-13)
 
 Fill in all missing `upstream_repository` fields (#10571)

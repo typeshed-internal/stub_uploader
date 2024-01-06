@@ -1,3 +1,9 @@
+## 2.9.21.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
+Remove Python 3.7 branches (#11238)
+
 ## 2.9.21.20 (2023-12-07)
 
 psycopg2: improve `cursor_factory` params (#11085)

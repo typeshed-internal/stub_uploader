@@ -1,3 +1,7 @@
+## 1.7.7.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 1.7.7.20240105 (2024-01-05)
 
 Fix passlib.utils.handlers.TruncateMixin.using (#11229)

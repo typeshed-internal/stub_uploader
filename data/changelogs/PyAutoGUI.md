@@ -1,3 +1,7 @@
+## 0.9.3.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 0.9.3.8 (2023-12-19)
 
 Review `SupportsInt` and `SupportsFloat` usages in 3rd-party stubs (#11003)

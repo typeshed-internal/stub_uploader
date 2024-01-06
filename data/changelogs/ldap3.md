@@ -1,3 +1,7 @@
+## 2.9.13.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 2.9.13.15 (2023-10-27)
 
 Remove many redundant inheritances from `Generic[]` (#10933)

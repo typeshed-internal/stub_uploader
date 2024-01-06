@@ -1,3 +1,7 @@
+## 0.20.1.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 0.20.1.6 (2023-11-15)
 
 [stubsabot] Mark tree-sitter as obsolete since 0.20.3 (#10681)

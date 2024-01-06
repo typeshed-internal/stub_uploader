@@ -1,3 +1,7 @@
+## 3.1.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 3.1.0.2 (2023-11-24)
 
 Fix typos in docs and comments (#11064)

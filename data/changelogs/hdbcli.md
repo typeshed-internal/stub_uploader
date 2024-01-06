@@ -1,3 +1,7 @@
+## 2.19.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 2.19.0.0 (2023-12-14)
 
 [stubsabot] Bump hdbcli to 2.19.* (#11157)

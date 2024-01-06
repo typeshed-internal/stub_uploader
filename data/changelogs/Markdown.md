@@ -1,3 +1,7 @@
+## 3.5.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 3.5.0.3 (2023-11-16)
 
 Various improvements to `Markdown` stubs (#10972)

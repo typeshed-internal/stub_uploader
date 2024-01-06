@@ -1,3 +1,7 @@
+## 69.0.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 69.0.0.0 (2023-11-29)
 
 Bump setuptools to 69.0.* (#11069)

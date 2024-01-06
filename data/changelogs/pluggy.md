@@ -1,3 +1,9 @@
+## 1.2.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
+Remove Python 3.7 branches (#11238)
+
 ## 1.2.0.2 (2023-08-27)
 
 [stubsabot] Mark pluggy as obsolete since 1.3.0 (#10618)

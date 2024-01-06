@@ -1,3 +1,7 @@
+## 3.4.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 3.4.0.20240103 (2024-01-03)
 
 Update type hints for paramiko 3.4 (#11218)

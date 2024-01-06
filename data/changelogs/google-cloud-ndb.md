@@ -1,3 +1,7 @@
+## 2.2.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 2.2.0.1 (2023-09-12)
 
 Always install `six` when stubtesting `types-google-cloud-ndb` (#10704)

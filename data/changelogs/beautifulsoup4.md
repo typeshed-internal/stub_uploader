@@ -1,3 +1,7 @@
+## 4.12.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 4.12.0.7 (2023-10-27)
 
 Remove many redundant inheritances from `Generic[]` (#10933)

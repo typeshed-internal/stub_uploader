@@ -1,3 +1,23 @@
+## 3.2.0.20240106 (2024-01-06)
+
+[stubsabot] Bump pyflakes to 3.2.* (#11252)
+
+Release: https://pypi.org/pypi/pyflakes/3.2.0
+Homepage: https://github.com/PyCQA/pyflakes
+Repository: https://github.com/PyCQA/pyflakes
+Diff: https://github.com/PyCQA/pyflakes/compare/3.1.0...3.2.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 2 files included in typeshed's stubs have been modified or renamed: `pyflakes/__init__.py`, `pyflakes/checker.py`.
+ - Total lines of Python code added: 20.
+ - Total lines of Python code deleted: 1.
+
+Update typing_extensions imports in third-party stubs (#11245)
+
+Remove Python 3.7 branches (#11238)
+
 ## 3.1.0.1 (2023-11-24)
 
 Third-party stubs: remove unused `type: ignore`s (#11063)

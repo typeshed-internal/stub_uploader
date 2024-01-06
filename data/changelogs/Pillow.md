@@ -1,3 +1,7 @@
+## 10.1.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 10.1.0.2 (2023-11-11)
 
 third-party: make some protocol params pos-only (#11006)

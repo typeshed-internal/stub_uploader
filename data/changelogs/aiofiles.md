@@ -1,3 +1,7 @@
+## 23.2.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 23.2.0.0 (2023-08-16)
 
 Bump aiofiles to 23.2.* (#10584)

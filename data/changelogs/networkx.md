@@ -1,3 +1,7 @@
+## 3.1.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 3.1.0.20231220 (2023-12-20)
 
 Add some missing networkx annotations (#11181)

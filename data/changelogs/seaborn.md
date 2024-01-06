@@ -1,3 +1,7 @@
+## 0.13.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 0.13.0.20240101 (2024-01-01)
 
 Pin seaborn to 0.13.0 (#11213)

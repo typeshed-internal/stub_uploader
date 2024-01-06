@@ -1,3 +1,7 @@
+## 0.14.2.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 0.14.2.5 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

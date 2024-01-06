@@ -1,3 +1,7 @@
+## 4.6.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 4.6.0.11 (2023-11-24)
 
 redis: remove unused `type: ignore`s (#11062)

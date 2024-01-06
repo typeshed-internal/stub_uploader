@@ -1,3 +1,7 @@
+## 4.0.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 4.0.0.2 (2023-11-24)
 
 Third-party stubs: remove unused `type: ignore`s (#11063)

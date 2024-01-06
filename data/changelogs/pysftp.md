@@ -1,3 +1,7 @@
+## 0.2.17.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 0.2.17.6 (2023-07-20)
 
 Add a few more upstream_repository URLs (#10489)

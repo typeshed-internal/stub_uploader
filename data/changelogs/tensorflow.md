@@ -1,3 +1,7 @@
+## 2.12.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 2.12.0.10 (2023-11-09)
 
 Bump flake8-pyi to 23.11.0 (#10997)

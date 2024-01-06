@@ -1,3 +1,7 @@
+## 2023.12.25.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 2023.12.25.20231225 (2023-12-25)
 
 [stubsabot] Bump regex to 2023.12.25 (#11198)

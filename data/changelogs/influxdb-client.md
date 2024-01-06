@@ -1,3 +1,7 @@
+## 1.38.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 1.38.0.1 (2023-10-05)
 
 `types-requests`, `types-influxdb-client`: add note to the PyPI readme about the `urllib3` pin (#10839)

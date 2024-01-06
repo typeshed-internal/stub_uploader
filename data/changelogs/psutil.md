@@ -1,3 +1,7 @@
+## 5.9.5.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 5.9.5.17 (2023-10-16)
 
 psutil: updates (#10894)

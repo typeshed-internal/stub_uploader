@@ -1,3 +1,9 @@
+## 6.3.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
+Remove Python 3.7 branches (#11238)
+
 ## 6.3.0.20240105 (2024-01-05)
 
 Drop support for Python 3.7 (#11234)

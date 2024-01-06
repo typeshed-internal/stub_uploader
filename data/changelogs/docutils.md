@@ -1,3 +1,7 @@
+## 0.20.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 0.20.0.3 (2023-08-16)
 
 Docutils frontend fix (#10569)

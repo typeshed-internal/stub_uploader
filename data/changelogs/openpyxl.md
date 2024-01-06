@@ -1,3 +1,11 @@
+## 3.1.0.20240106 (2024-01-06)
+
+Bump various test dependencies (#11249)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
+Remove Python 3.7 branches (#11238)
+
 ## 3.1.0.32 (2023-12-06)
 
 openpyxl: Type styleable descriptors (#11103)

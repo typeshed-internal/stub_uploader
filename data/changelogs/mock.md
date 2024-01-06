@@ -1,3 +1,9 @@
+## 5.1.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
+Remove Python 3.7 branches (#11238)
+
 ## 5.1.0.3 (2023-11-24)
 
 Third-party stubs: remove unused `type: ignore`s (#11063)

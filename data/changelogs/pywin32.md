@@ -1,3 +1,7 @@
+## 306.0.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 306.0.0.8 (2023-12-19)
 
 pywin32 annotations improvements (#11177)

@@ -1,3 +1,7 @@
+## 2.17.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 2.17.0.0 (2023-11-24)
 
 Bump pygments to 2.17 (#11051)

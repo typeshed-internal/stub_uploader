@@ -1,3 +1,7 @@
+## 0.5.10.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 0.5.10.10 (2023-11-22)
 
 third-party stubs: Add several missing `__del__` methods (#11054)

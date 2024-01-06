@@ -1,3 +1,7 @@
+## 2.0.0.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 2.0.0.0 (2023-10-11)
 
 [stubsabot] Bump croniter to 2.0.* (#10863)

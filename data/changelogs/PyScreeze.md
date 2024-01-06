@@ -1,3 +1,7 @@
+## 0.1.30.20240106 (2024-01-06)
+
+Update typing_extensions imports in third-party stubs (#11245)
+
 ## 0.1.30.1 (2023-11-30)
 
 Use `ConvertibleToInt`/`ConvertibleToFloat` in many third-party stubs (#11022)
