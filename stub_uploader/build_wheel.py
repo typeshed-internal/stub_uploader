@@ -31,8 +31,6 @@ from pathlib import Path
 from textwrap import dedent
 from typing import Optional
 
-from genericpath import isfile
-
 from stub_uploader.const import (
     CHANGELOG_PATH,
     META,
