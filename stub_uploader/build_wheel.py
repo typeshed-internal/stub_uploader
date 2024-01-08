@@ -29,6 +29,7 @@ import sys
 import tempfile
 from pathlib import Path
 from textwrap import dedent
+from turtle import st
 from typing import Optional
 
 from stub_uploader.const import (
@@ -228,32 +229,38 @@ def collect_package_data(base_path: Path) -> PackageData:
     """
     package_data: dict[str, list[str]] = {}
     for entry in base_path.iterdir():
-        if entry.name == META:
-            # Metadata file entry is added at the end.
+        if is_ignored_distribution_file(entry):
             continue
-        if entry.is_file():
-            if entry.suffix != ".pyi":
-                if entry.suffix not in (".md", ".rst"):
-                    if (
-                        subprocess.run(
-                            ["git", "check-ignore", entry.name], cwd=str(base_path)
-                        ).returncode
-                        != 0
-                    ):
-                        raise ValueError(
-                            f"Only stub files are allowed, not {entry.name!r}"
-                        )
-                continue
-            pkg_name = entry.stem + SUFFIX
+        elif entry.is_file() and entry.suffix == ".pyi":
+            pkg_name = entry.stem
             # Module -> package transformation is done while copying.
-            package_data[pkg_name] = ["__init__.pyi"]
+            stub_files = ["__init__.pyi"]
+        elif entry.is_dir():
+            pkg_name = entry.name
+            stub_files = find_stub_files(str(entry))
         else:
-            if entry.name == TESTS_NAMESPACE:
-                continue
-            pkg_name = entry.name + SUFFIX
-            package_data[pkg_name] = find_stub_files(str(entry))
-        package_data[pkg_name].append(META)
+            raise ValueError(f"Only stub files are allowed, not {entry.name!r}")
+        package_data[pkg_name + SUFFIX] = [*stub_files, META]
     return PackageData(base_path, package_data)
+
+
+def is_ignored_distribution_file(entry: Path) -> bool:
+    if entry.is_file():
+        if entry.name == META:
+            return True
+        if entry.suffix in (".md", ".rst"):
+            return True
+        if (
+            subprocess.run(
+                ["git", "check-ignore", entry.name], cwd=str(entry.parent)
+            ).returncode
+            == 0
+        ):
+            return True
+    elif entry.is_dir():
+        if entry.name == TESTS_NAMESPACE:
+            return True
+    return False
 
 
 def add_partial_markers(pkg_data: PackageData) -> None:
