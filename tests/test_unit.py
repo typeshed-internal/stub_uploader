@@ -1,20 +1,18 @@
 """Unit tests for simple helpers should go here."""
 
 import datetime
-from io import StringIO
 import os
 import tempfile
+from io import StringIO
+from pathlib import Path
 from typing import Any
 
 import pytest
 from packaging.version import Version
 
-from stub_uploader.build_wheel import collect_setup_entries
-from stub_uploader.get_version import (
-    compute_stub_version,
-    ensure_specificity,
-)
-from stub_uploader.metadata import _UploadedPackages, strip_types_prefix, Metadata
+from stub_uploader.build_wheel import collect_package_data
+from stub_uploader.get_version import compute_stub_version, ensure_specificity
+from stub_uploader.metadata import Metadata, _UploadedPackages, strip_types_prefix
 from stub_uploader.ts_data import parse_requirements
 
 
@@ -99,13 +97,17 @@ def test_compute_stub_version() -> None:
     )
 
 
-def test_collect_setup_entries() -> None:
-    stubs = os.path.join("data", "test_typeshed", "stubs")
-    entries = collect_setup_entries(os.path.join(stubs, "singlefilepkg"))
-    assert entries == ({"singlefilepkg-stubs": ["__init__.pyi", "METADATA.toml"]})
+def test_collect_package_data() -> None:
+    stubs = Path("data") / "test_typeshed" / "stubs"
+    pkg_data = collect_package_data(stubs / "singlefilepkg")
+    assert pkg_data.top_level_packages == ["singlefilepkg-stubs"]
+    assert pkg_data.package_data == (
+        {"singlefilepkg-stubs": ["__init__.pyi", "METADATA.toml"]}
+    )
 
-    entries = collect_setup_entries(os.path.join(stubs, "multifilepkg"))
-    assert entries == (
+    pkg_data = collect_package_data(stubs / "multifilepkg")
+    assert pkg_data.top_level_packages == ["multifilepkg-stubs"]
+    assert pkg_data.package_data == (
         {
             "multifilepkg-stubs": [
                 "__init__.pyi",
@@ -119,8 +121,9 @@ def test_collect_setup_entries() -> None:
         }
     )
 
-    entries = collect_setup_entries(os.path.join(stubs, "nspkg"))
-    assert entries == (
+    pkg_data = collect_package_data(stubs / "nspkg")
+    assert pkg_data.top_level_packages == ["nspkg-stubs"]
+    assert pkg_data.package_data == (
         {
             "nspkg-stubs": [
                 os.path.join("innerpkg", "__init__.pyi"),
@@ -130,25 +133,25 @@ def test_collect_setup_entries() -> None:
     )
 
 
-def test_collect_setup_entries_bogusfile() -> None:
-    stubs = os.path.join("data", "test_typeshed", "stubs")
+def test_collect_package_data_bogusfile() -> None:
+    stubs = Path("data") / "test_typeshed" / "stubs"
     with pytest.raises(
         ValueError, match="Only stub files are allowed, not 'bogusfile.txt'"
     ):
-        collect_setup_entries(os.path.join(stubs, "bogusfiles"))
+        collect_package_data(stubs / "bogusfiles")
 
     # Make sure gitignored files aren't collected, nor do they crash function
     with open(os.path.join(stubs, "singlefilepkg", ".METADATA.toml.swp"), "w"):
         pass
-    entries = collect_setup_entries(os.path.join(stubs, "singlefilepkg"))
-    assert len(entries["singlefilepkg-stubs"]) == 2
+    pkg_data = collect_package_data(stubs / "singlefilepkg")
+    assert len(pkg_data.package_data["singlefilepkg-stubs"]) == 2
 
     with open(
         os.path.join(stubs, "multifilepkg", "multifilepkg", ".METADATA.toml.swp"), "w"
     ):
         pass
-    entries = collect_setup_entries(os.path.join(stubs, "multifilepkg"))
-    assert len(entries["multifilepkg-stubs"]) == 7
+    pkg_data = collect_package_data(stubs / "multifilepkg")
+    assert len(pkg_data.package_data["multifilepkg-stubs"]) == 7
 
 
 def test_uploaded_packages() -> None:
