@@ -245,7 +245,7 @@ def collect_package_data(base_path: Path) -> PackageData:
                             f"Only stub files are allowed, not {entry.name!r}"
                         )
                 continue
-            pkg_name = entry.name.split(".")[0] + SUFFIX
+            pkg_name = entry.stem + SUFFIX
             # Module -> package transformation is done while copying.
             package_data[pkg_name] = ["__init__.pyi"]
         else:
