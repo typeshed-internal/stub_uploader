@@ -29,7 +29,6 @@ import sys
 import tempfile
 from pathlib import Path
 from textwrap import dedent
-from turtle import st
 from typing import Optional
 
 from stub_uploader.const import (
