@@ -231,7 +231,6 @@ def collect_package_data(base_path: Path) -> PackageData:
         if entry.name == META:
             # Metadata file entry is added at the end.
             continue
-        original_entry = entry
         if entry.is_file():
             if entry.suffix != ".pyi":
                 if entry.suffix not in (".md", ".rst"):
@@ -252,7 +251,7 @@ def collect_package_data(base_path: Path) -> PackageData:
             if entry.name == TESTS_NAMESPACE:
                 continue
             pkg_name = entry.name + SUFFIX
-            package_data[pkg_name] = find_stub_files(str(original_entry))
+            package_data[pkg_name] = find_stub_files(str(entry))
         package_data[pkg_name].append(META)
     return PackageData(base_path, package_data)
 
