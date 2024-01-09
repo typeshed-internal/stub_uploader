@@ -1,3 +1,7 @@
+## 0.23.0.20240109 (2024-01-09)
+
+Bump libsass to 0.23.* (#11253)
+
 ## 0.22.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)
