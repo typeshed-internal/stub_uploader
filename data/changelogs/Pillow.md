@@ -1,3 +1,7 @@
+## 10.2.0.20240111 (2024-01-11)
+
+[Pillow] Update to 10.2.* (#11232)
+
 ## 10.1.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)
