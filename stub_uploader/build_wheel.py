@@ -23,11 +23,11 @@ This file also contains some helper functions related to wheel validation and up
 import argparse
 import os
 import os.path
-from pathlib import Path
 import shutil
 import subprocess
 import sys
 import tempfile
+from pathlib import Path
 from textwrap import dedent
 from typing import Optional
 
@@ -128,6 +128,30 @@ class BuildData:
         self.stub_dir = Path(typeshed_dir) / THIRD_PARTY_NAMESPACE / distribution
 
 
+class PackageData:
+    """Information about the packages of a distribution and their contents."""
+
+    def __init__(self, base_path: Path, package_data: dict[str, list[str]]) -> None:
+        self.base_path = base_path
+        self.package_data = package_data
+
+    @property
+    def top_level_packages(self) -> list[str]:
+        """Top level package names.
+
+        These are the packages that are not subpackages of any other package
+        and includes namespace packages.
+        """
+        return list(self.package_data.keys())
+
+    def add_file(self, package: str, filename: str, file_contents: str) -> None:
+        """Add a file to a package."""
+        entry_path = self.base_path / package
+        entry_path.mkdir(exist_ok=True)
+        (entry_path / filename).write_text(file_contents)
+        self.package_data[package].append(filename)
+
+
 def find_stub_files(top: str) -> list[str]:
     """Find all stub files for a given package, relative to package root.
 
@@ -197,49 +221,44 @@ def copy_changelog(distribution: str, dst: str) -> None:
         pass  # Ignore missing changelogs
 
 
-def collect_setup_entries(base_dir: str) -> dict[str, list[str]]:
+def collect_package_data(base_path: Path) -> PackageData:
     """Generate package data for a setuptools.setup() call.
 
     This reflects the transformations done during copying in copy_stubs().
     """
     package_data: dict[str, list[str]] = {}
-    for entry in os.listdir(base_dir):
-        if entry == META:
+    for entry in base_path.iterdir():
+        if entry.name == META:
             # Metadata file entry is added at the end.
             continue
-        original_entry = entry
-        if os.path.isfile(os.path.join(base_dir, entry)):
-            if not entry.endswith(".pyi"):
-                if not entry.endswith((".md", ".rst")):
+        if entry.is_file():
+            if entry.suffix != ".pyi":
+                if entry.suffix not in (".md", ".rst"):
                     if (
                         subprocess.run(
-                            ["git", "check-ignore", entry], cwd=base_dir
+                            ["git", "check-ignore", entry.name], cwd=str(base_path)
                         ).returncode
                         != 0
                     ):
-                        raise ValueError(f"Only stub files are allowed, not {entry!r}")
+                        raise ValueError(
+                            f"Only stub files are allowed, not {entry.name!r}"
+                        )
                 continue
-            entry = entry.split(".")[0] + SUFFIX
+            pkg_name = entry.stem + SUFFIX
             # Module -> package transformation is done while copying.
-            package_data[entry] = ["__init__.pyi"]
+            package_data[pkg_name] = ["__init__.pyi"]
         else:
-            if entry == TESTS_NAMESPACE:
+            if entry.name == TESTS_NAMESPACE:
                 continue
-            entry += SUFFIX
-            package_data[entry] = find_stub_files(
-                os.path.join(base_dir, original_entry)
-            )
-        package_data[entry].append(META)
-    return package_data
+            pkg_name = entry.name + SUFFIX
+            package_data[pkg_name] = find_stub_files(str(entry))
+        package_data[pkg_name].append(META)
+    return PackageData(base_path, package_data)
 
 
-def add_partial_marker(package_data: dict[str, list[str]], stub_dir: str) -> None:
-    for entry, files in package_data.items():
-        entry_path = os.path.join(stub_dir, entry)
-        os.makedirs(entry_path, exist_ok=True)
-        with open(os.path.join(entry_path, "py.typed"), "w") as py_typed:
-            py_typed.write("partial\n")
-        files.append("py.typed")
+def add_partial_markers(pkg_data: PackageData) -> None:
+    for package in pkg_data.top_level_packages:
+        pkg_data.add_file(package, "py.typed", "partial\n")
 
 
 def generate_setup_file(
@@ -253,9 +272,9 @@ def generate_setup_file(
     all_requirements = [
         str(req) for req in metadata.requires_typeshed + metadata.requires_external
     ]
-    package_data = collect_setup_entries(str(build_data.stub_dir))
+    pkg_data = collect_package_data(build_data.stub_dir)
     if metadata.partial:
-        add_partial_marker(package_data, str(build_data.stub_dir))
+        add_partial_markers(pkg_data)
     requires_python = (
         metadata.requires_python
         if metadata.requires_python is not None
@@ -269,8 +288,8 @@ def generate_setup_file(
         ),
         version=version,
         requires=all_requirements,
-        packages=list(package_data.keys()),
-        package_data=package_data,
+        packages=pkg_data.top_level_packages,
+        package_data=pkg_data.package_data,
         requires_python=requires_python,
     )
 
