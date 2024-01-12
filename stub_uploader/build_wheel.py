@@ -135,21 +135,71 @@ class PackageData:
         self.base_path = base_path
         self.package_data = package_data
 
+    def package_path(self, package_name: str) -> Path:
+        """Return the path of a given package name.
+
+        The package name can use dotted notation to address sub-packages.
+        The top-level package name can optionally include the "-stubs" suffix.
+        """
+        split_name = package_name.split(".")
+        if split_name[0].endswith(SUFFIX):
+            split_name[0] = split_name[0][: -len(SUFFIX)]
+        return self.base_path.joinpath(*split_name)
+
+    def is_single_file_package(self, package_name: str) -> bool:
+        filename = package_name.split("-")[0] + ".pyi"
+        return (self.base_path / filename).exists()
+
     @property
     def top_level_packages(self) -> list[str]:
         """Top level package names.
 
-        These are the packages that are not subpackages of any other package
-        and includes namespace packages.
+        These are the packages that are not sub-packages of any other package
+        and includes namespace packages. Their name includes the "-stubs"
+        suffix.
         """
         return list(self.package_data.keys())
 
+    @property
+    def top_level_non_namespace_packages(self) -> list[str]:
+        """Top level non-namespace package names.
+
+        This will return all packages that are not subpackages of any other
+        package, other than namespace packages in dotted notation, e.g. if
+        "flying" is a top level namespace package, and "circus" is a
+        non-namespace sub-package, this will return ["flying.circus"].
+        """
+        packages: list[str] = []
+        for top_level in self.top_level_packages:
+            if self.is_single_file_package(top_level):
+                packages.append(top_level)
+            else:
+                packages.extend(self._find_non_namespace_sub_packages(top_level))
+        return packages
+
+    def _find_non_namespace_sub_packages(self, package: str) -> list[str]:
+        path = self.package_path(package)
+        if is_namespace_package(path):
+            sub_packages: list[str] = []
+            for entry in path.iterdir():
+                if entry.is_dir():
+                    sub_name = package + "." + entry.name
+                    sub_packages.extend(self._find_non_namespace_sub_packages(sub_name))
+            return sub_packages
+        else:
+            return [package]
+
     def add_file(self, package: str, filename: str, file_contents: str) -> None:
         """Add a file to a package."""
-        entry_path = self.base_path / package
+        top_level = package.split(".")[0]
+        entry_path = self.package_path(package)
         entry_path.mkdir(exist_ok=True)
         (entry_path / filename).write_text(file_contents)
-        self.package_data[package].append(filename)
+        self.package_data[top_level].append(filename)
+
+
+def is_namespace_package(path: Path) -> bool:
+    return not (path / "__init__.pyi").exists()
 
 
 def find_stub_files(top: str) -> list[str]:
@@ -165,6 +215,8 @@ def find_stub_files(top: str) -> list[str]:
                 assert (
                     name.isidentifier()
                 ), "All file names must be valid Python modules"
+                result.append(os.path.relpath(os.path.join(root, file), top))
+            elif file == "py.typed":
                 result.append(os.path.relpath(os.path.join(root, file), top))
             elif not file.endswith((".md", ".rst")):
                 # Allow having README docs, as some stubs have these (e.g. click).
@@ -257,7 +309,7 @@ def collect_package_data(base_path: Path) -> PackageData:
 
 
 def add_partial_markers(pkg_data: PackageData) -> None:
-    for package in pkg_data.top_level_packages:
+    for package in pkg_data.top_level_non_namespace_packages:
         pkg_data.add_file(package, "py.typed", "partial\n")
 
 
