@@ -1,3 +1,9 @@
+## 12.1.4.20240113 (2024-01-13)
+
+Fix inconsistencies in gdb stubs (#11227)
+
+See #11225
+
 ## 12.1.4.5 (2023-08-13)
 
 Fill in all missing `upstream_repository` fields (#10571)
