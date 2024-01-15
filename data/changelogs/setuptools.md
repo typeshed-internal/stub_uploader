@@ -1,3 +1,7 @@
+## 69.0.0.20240115 (2024-01-15)
+
+Fix types for `setuptools._distutils.ccompiler.CCompiler.compile` (#11275)
+
 ## 69.0.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

@@ -58,6 +58,7 @@ types-cryptography
 types-dataclasses
 types-dateparser
 types-decorator
+types-defusedxml
 types-dj-database-url
 types-dockerfile-parse
 types-docopt

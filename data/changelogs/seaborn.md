@@ -1,3 +1,7 @@
+## 0.13.1.20240115 (2024-01-15)
+
+seaborn: Update and complete the relational module (#11214)
+
 ## 0.13.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

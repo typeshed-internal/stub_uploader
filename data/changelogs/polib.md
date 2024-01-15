@@ -1,3 +1,7 @@
+## 1.2.0.20240115 (2024-01-15)
+
+[polib] Fix POEntry.msgstr_plural annotation (#11273)
+
 ## 1.2.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)
