@@ -26,6 +26,7 @@ types-WebOb
 types-Werkzeug
 types-aiofiles
 types-annoy
+types-antlr4-python3-runtime
 types-appdirs
 types-atomicwrites
 types-attrs
