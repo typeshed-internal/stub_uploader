@@ -1,3 +1,7 @@
+## 4.21.0.20240118 (2024-01-18)
+
+[stubsabot] Bump jsonschema to 4.21.* (#11281)
+
 ## 4.20.0.20240105 (2024-01-05)
 
 Drop support for Python 3.7 (#11234)
