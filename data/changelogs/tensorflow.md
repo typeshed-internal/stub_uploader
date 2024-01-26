@@ -1,3 +1,7 @@
+## 2.12.0.20240126 (2024-01-26)
+
+Add `convert_to_tensor` to `tensorflow` (#11292)
+
 ## 2.12.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)
