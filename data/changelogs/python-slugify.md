@@ -1,3 +1,16 @@
+## 8.0.2.20240127 (2024-01-27)
+
+[stubsabot] Mark python-slugify as obsolete since 8.0.2 (#11316)
+
+Release: https://pypi.org/pypi/python-slugify/8.0.2
+Homepage: https://github.com/un33k/python-slugify
+Repository: https://github.com/un33k/python-slugify
+Diff: https://github.com/un33k/python-slugify/compare/v8.0.1...v8.0.2
+
+---------
+
+Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
+
 ## 8.0.0.3 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

@@ -1,3 +1,9 @@
+## 1.3.0.20240127 (2024-01-27)
+
+Update mypy issue reference to duplicated original issue (#11320)
+
+See https://github.com/python/mypy/issues/13975#issuecomment-1912484800
+
 ## 1.3.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)
