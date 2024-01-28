@@ -1,3 +1,7 @@
+## 306.0.0.20240128 (2024-01-28)
+
+pywin32: Use PEP 570 positional-only argument syntax and fix arguments (#11321)
+
 ## 306.0.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)
