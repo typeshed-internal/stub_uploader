@@ -6,7 +6,6 @@ This is used by scheduled GitHub auto-upload action to only upload
 modified stub packages.
 """
 
-
 import argparse
 import os
 import subprocess
