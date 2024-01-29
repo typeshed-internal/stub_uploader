@@ -1,3 +1,7 @@
+## 2.31.0.20240125 (2024-01-25)
+
+Add parameter type to PreparedRequest.prepare_content_length (#11304)
+
 ## 2.31.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

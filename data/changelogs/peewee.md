@@ -1,3 +1,7 @@
+## 3.17.0.20240118 (2024-01-18)
+
+Added some typings to peewee stubs (#11284)
+
 ## 3.17.0.0 (2023-10-17)
 
 Bump peewee to 3.17.* (#10895)

@@ -1,3 +1,7 @@
+## 3.4.0.20240120 (2024-01-20)
+
+Re-export ChannelFile from paramiko (#11290)
+
 ## 3.4.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

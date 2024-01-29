@@ -1,3 +1,7 @@
+## 10.2.0.20240125 (2024-01-25)
+
+Add a number of properties to PIL.ImageStat.Stat (#11303)
+
 ## 10.2.0.20240111 (2024-01-11)
 
 [Pillow] Update to 10.2.* (#11232)

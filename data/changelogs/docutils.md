@@ -1,3 +1,17 @@
+## 0.20.0.20240126 (2024-01-26)
+
+Add docutils.nodes.system_message and .BackLinkable
+
+Add stubs for docutils.nodes.system_message and docutils.nodes.BackLinkable
+
+Ad docutils.nodes.raw and docutils.nodes.Inline (#11312)
+
+## 0.20.0.20240125 (2024-01-25)
+
+Add type stubs for docutils.nodes.literal_block and docutils.nodes.Fi… (#11308)
+
+Add substitution_defs to docutils.nodes.document (#11307)
+
 ## 0.20.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

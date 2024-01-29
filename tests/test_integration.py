@@ -3,6 +3,7 @@ Integration tests for build scripts. These should not change
 anything on PyPI, but can make PyPI queries and may expect
 a typeshed checkout side by side.
 """
+
 import os
 from pathlib import Path
 import re

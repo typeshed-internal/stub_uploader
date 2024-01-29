@@ -1,3 +1,7 @@
+## 2.9.21.20240118 (2024-01-18)
+
+psycopg2: Add ReplicationCursor.consume_stream (#11283)
+
 ## 2.9.21.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

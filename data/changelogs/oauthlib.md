@@ -1,3 +1,7 @@
+## 3.2.0.20240124 (2024-01-24)
+
+[oauthlib] Fix return types of `Client` methods (#9908)
+
 ## 3.2.0.20240105 (2024-01-05)
 
 Add support for the refresh_token grant type (RefreshTokenGrant) (#11… (#11206)

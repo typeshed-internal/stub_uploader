@@ -1,3 +1,7 @@
+## 1.8.0.20240128 (2024-01-28)
+
+WebOb: CacheControl descriptors are always allowed to accept `None` (#11288)
+
 ## 1.8.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)
