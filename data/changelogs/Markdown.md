@@ -1,3 +1,7 @@
+## 3.5.0.20240129 (2024-01-29)
+
+markdown: Restore wrongly deleted DoubleTagPattern (#11335)
+
 ## 3.5.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)
