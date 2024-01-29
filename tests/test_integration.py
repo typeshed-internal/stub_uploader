@@ -28,6 +28,7 @@ from stub_uploader.metadata import (
 from stub_uploader.ts_data import read_typeshed_data
 
 TYPESHED = "../typeshed"
+THIRD_PARTY_PATH = Path(TYPESHED) / THIRD_PARTY_NAMESPACE
 
 
 def test_fetch_pypi_versions() -> None:
@@ -37,9 +38,7 @@ def test_fetch_pypi_versions() -> None:
     assert not get_version.fetch_pypi_versions("types-nonexistent-distribution")
 
 
-@pytest.mark.parametrize(
-    "distribution", os.listdir(os.path.join(TYPESHED, THIRD_PARTY_NAMESPACE))
-)
+@pytest.mark.parametrize("distribution", os.listdir(THIRD_PARTY_PATH))
 def test_build_wheel(distribution: str) -> None:
     """Check that we can build wheels for all distributions."""
     tmp_dir = build_wheel.main(TYPESHED, distribution, version="1.1.1")
@@ -47,9 +46,7 @@ def test_build_wheel(distribution: str) -> None:
     assert list(os.listdir(tmp_dir))  # check it is not empty
 
 
-@pytest.mark.parametrize(
-    "distribution", os.listdir(os.path.join(TYPESHED, THIRD_PARTY_NAMESPACE))
-)
+@pytest.mark.parametrize("distribution", os.listdir(THIRD_PARTY_PATH))
 def test_version_increment(distribution: str) -> None:
     get_version.determine_stub_version(read_metadata(TYPESHED, distribution))
 
@@ -145,9 +142,7 @@ def test_dependency_order_single() -> None:
     ]
 
 
-@pytest.mark.parametrize(
-    "distribution", os.listdir(os.path.join(TYPESHED, THIRD_PARTY_NAMESPACE))
-)
+@pytest.mark.parametrize("distribution", os.listdir(THIRD_PARTY_PATH))
 def test_recursive_verify(distribution: str) -> None:
     recursive_verify(read_metadata(TYPESHED, distribution), TYPESHED)
 
@@ -170,3 +165,35 @@ def test_verify_requires_python() -> None:
         InvalidRequires, match="Expected requires_python to be a '>=' specifier"
     ):
         verify_requires_python("==3.10")
+
+
+@pytest.mark.parametrize(
+    "distribution,expected_packages",
+    [
+        ("pytz", ["pytz-stubs"]),
+        ("Pillow", ["PIL-stubs"]),
+        ("protobuf", ["google-stubs"]),
+        ("google-cloud-ndb", ["google-stubs"]),
+    ],
+)
+def test_pkg_data_top_level_packages(
+    distribution: str, expected_packages: list[str]
+) -> None:
+    pkg_data = build_wheel.collect_package_data(THIRD_PARTY_PATH / distribution)
+    assert pkg_data.top_level_packages == expected_packages
+
+
+@pytest.mark.parametrize(
+    "distribution,expected_packages",
+    [
+        ("pytz", ["pytz-stubs"]),
+        ("Pillow", ["PIL-stubs"]),
+        ("protobuf", ["google-stubs.protobuf"]),
+        ("google-cloud-ndb", ["google-stubs.cloud.ndb"]),
+    ],
+)
+def test_pkg_data_non_namespace_packages(
+    distribution: str, expected_packages: list[str]
+) -> None:
+    pkg_data = build_wheel.collect_package_data(THIRD_PARTY_PATH / distribution)
+    assert pkg_data.top_level_non_namespace_packages == expected_packages
