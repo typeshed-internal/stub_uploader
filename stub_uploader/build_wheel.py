@@ -141,10 +141,10 @@ class PackageData:
         The package name can use dotted notation to address sub-packages.
         The top-level package name can optionally include the "-stubs" suffix.
         """
-        split_name = package_name.split(".")
-        if split_name[0].endswith(SUFFIX):
-            split_name[0] = split_name[0][: -len(SUFFIX)]
-        return self.base_path.joinpath(*split_name)
+        top_level, *sub_packages = package_name.split(".")
+        if top_level.endswith(SUFFIX):
+            top_level = top_level[: -len(SUFFIX)]
+        return self.base_path.joinpath(top_level, *sub_packages)
 
     def is_single_file_package(self, package_name: str) -> bool:
         filename = package_name.split("-")[0] + ".pyi"
