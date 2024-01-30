@@ -1,3 +1,7 @@
+## 0.13.2.20240130 (2024-01-30)
+
+[stubsabot] Bump seaborn to 0.13.2 (#11317)
+
 ## 0.13.1.20240115 (2024-01-15)
 
 seaborn: Update and complete the relational module (#11214)

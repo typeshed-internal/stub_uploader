@@ -1,3 +1,7 @@
+## 306.0.0.20240130 (2024-01-30)
+
+pywin32: Remove reference to stubgen dll analysis issue (#11323)
+
 ## 306.0.0.20240128 (2024-01-28)
 
 pywin32: Use PEP 570 positional-only argument syntax and fix arguments (#11321)
