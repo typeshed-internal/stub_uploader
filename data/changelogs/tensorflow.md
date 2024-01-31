@@ -1,3 +1,7 @@
+## 2.12.0.20240131 (2024-01-31)
+
+`tensorflow`: fix `tensorflow.VariableSynchronization` (#11330)
+
 ## 2.12.0.20240126 (2024-01-26)
 
 Add `convert_to_tensor` to `tensorflow` (#11292)

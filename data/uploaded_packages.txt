@@ -18,6 +18,7 @@ types-PyMySQL
 types-PyScreeze
 types-PyYAML
 types-Pygments
+types-RPi.GPIO
 types-Routes
 types-SQLAlchemy
 types-Send2Trash
