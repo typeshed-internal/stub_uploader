@@ -1,3 +1,10 @@
+## 0.20.0.20240201 (2024-02-01)
+
+[docutils] Add remaining node classes and functions (#11255)
+
+Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 0.20.0.20240126 (2024-01-26)
 
 Add docutils.nodes.system_message and .BackLinkable

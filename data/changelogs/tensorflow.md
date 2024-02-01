@@ -1,3 +1,13 @@
+## 2.12.0.20240201 (2024-02-01)
+
+`tensorflow`: Add some functions from the config module (#11325)
+
+`tensorflow`: Add (and rename) aliases (#11324)
+
+`tensorflow`: add some tensorflow functions (#11326)
+
+`tensorflow`: add `tensorflow.math.reduce_variance` (#11328)
+
 ## 2.12.0.20240131 (2024-01-31)
 
 `tensorflow`: fix `tensorflow.VariableSynchronization` (#11330)

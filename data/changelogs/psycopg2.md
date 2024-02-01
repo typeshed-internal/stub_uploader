@@ -1,3 +1,9 @@
+## 2.9.21.20240201 (2024-02-01)
+
+issue-11282: psycopg2 ReplicationConnection.cursor() return type (#11298)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 2.9.21.20240118 (2024-01-18)
 
 psycopg2: Add ReplicationCursor.consume_stream (#11283)

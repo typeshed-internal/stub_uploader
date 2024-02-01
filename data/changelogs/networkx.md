@@ -1,3 +1,7 @@
+## 3.2.1.20240201 (2024-02-01)
+
+Bump networkx to 3.2.1 (#11336)
+
 ## 3.1.0.20240116 (2024-01-16)
 
 Add more networkx annotations for networkx.algorithms.dag (#11224)
