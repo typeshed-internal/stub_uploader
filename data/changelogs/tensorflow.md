@@ -1,3 +1,7 @@
+## 2.12.0.20240202 (2024-02-02)
+
+`tensorflow`: add `tf.train.CheckpointOptions` and other `tf.train` members. (#11327)
+
 ## 2.12.0.20240201 (2024-02-01)
 
 `tensorflow`: Add some functions from the config module (#11325)
