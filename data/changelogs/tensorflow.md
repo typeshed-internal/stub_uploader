@@ -1,3 +1,7 @@
+## 2.15.0.20240204 (2024-02-04)
+
+`tensorflow`: bump version to 2.15 (#11352)
+
 ## 2.12.0.20240202 (2024-02-02)
 
 `tensorflow`: add `tf.train.CheckpointOptions` and other `tf.train` members. (#11327)
