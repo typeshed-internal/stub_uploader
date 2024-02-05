@@ -1,3 +1,7 @@
+## 4.25.0.20240205 (2024-02-05)
+
+A new shade of Black (#11362)
+
 ## 4.25.0.0 (2023-12-19)
 
 [stubsabot] Bump braintree to 4.25.* (#11182)

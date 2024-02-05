@@ -1,3 +1,7 @@
+## 1.3.0.20240205 (2024-02-05)
+
+A new shade of Black (#11362)
+
 ## 1.3.0.20240127 (2024-01-27)
 
 Update mypy issue reference to duplicated original issue (#11320)

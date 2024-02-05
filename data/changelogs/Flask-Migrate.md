@@ -1,3 +1,7 @@
+## 4.0.0.20240205 (2024-02-05)
+
+A new shade of Black (#11362)
+
 ## 4.0.0.7 (2023-11-10)
 
 Complete Flask-Migrate and mark as Strict (#10971)

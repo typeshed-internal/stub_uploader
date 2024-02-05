@@ -1,3 +1,7 @@
+## 2.9.13.20240205 (2024-02-05)
+
+A new shade of Black (#11362)
+
 ## 2.9.13.20240119 (2024-01-19)
 
 ldap3: Connection: auto_bind also supports booleans (#11289)

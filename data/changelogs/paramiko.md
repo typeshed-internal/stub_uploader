@@ -1,3 +1,7 @@
+## 3.4.0.20240205 (2024-02-05)
+
+A new shade of Black (#11362)
+
 ## 3.4.0.20240120 (2024-01-20)
 
 Re-export ChannelFile from paramiko (#11290)

@@ -1,3 +1,7 @@
+## 2.49.18.20240205 (2024-02-05)
+
+A new shade of Black (#11362)
+
 ## 2.49.18.9 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

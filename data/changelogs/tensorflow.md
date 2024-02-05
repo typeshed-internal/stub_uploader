@@ -1,3 +1,9 @@
+## 2.15.0.20240205 (2024-02-05)
+
+`tensorflow` fix `tensorflow.data.Dataset`'s zip (#11357)
+
+A new shade of Black (#11362)
+
 ## 2.15.0.20240204 (2024-02-04)
 
 `tensorflow`: bump version to 2.15 (#11352)

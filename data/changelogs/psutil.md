@@ -1,3 +1,7 @@
+## 5.9.5.20240205 (2024-02-05)
+
+A new shade of Black (#11362)
+
 ## 5.9.5.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)
