@@ -1,3 +1,7 @@
+## 10.2.0.20240206 (2024-02-06)
+
+Type `obj` parameter of `PIL.Image.fromarray` (#11176)
+
 ## 10.2.0.20240125 (2024-01-25)
 
 Add a number of properties to PIL.ImageStat.Stat (#11303)

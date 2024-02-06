@@ -1,3 +1,7 @@
+## 2.15.0.20240206 (2024-02-06)
+
+`tensorflow`: Add `tensorflow.keras.callbacks` module (#11332)
+
 ## 2.15.0.20240205 (2024-02-05)
 
 `tensorflow` fix `tensorflow.data.Dataset`'s zip (#11357)

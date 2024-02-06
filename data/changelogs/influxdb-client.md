@@ -1,3 +1,11 @@
+## 1.39.0.20240206 (2024-02-06)
+
+influx-db: fix flake8 (#11365)
+
+Bump influxdb-client to 1.39.* (#11116)
+
+Type a few task-related items
+
 ## 1.38.0.20240205 (2024-02-05)
 
 A new shade of Black (#11362)
