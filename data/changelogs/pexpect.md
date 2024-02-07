@@ -1,3 +1,7 @@
+## 4.9.0.20240207 (2024-02-07)
+
+Bump pexpect to 4.9 (#11287)
+
 ## 4.8.0.20240106 (2024-01-06)
 
 Fix timeout argument on pexpect spawn class constructor (#11239) (#11240)

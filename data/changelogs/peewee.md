@@ -1,3 +1,9 @@
+## 3.17.0.20240207 (2024-02-07)
+
+Pin peewee more tightly for stubtest (#11372)
+
+Fixes  #11367
+
 ## 3.17.0.20240118 (2024-01-18)
 
 Added some typings to peewee stubs (#11284)
