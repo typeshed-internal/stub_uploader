@@ -29,5 +29,5 @@ jobs:
         TWINE_PASSWORD: ${{ secrets.TYPESHED_BOT_API_TOKEN }}
       run: |
         cd data/empty_package
-        python -m build --wheel ${{ github.event.inputs.increment }}
+        STUB_VERSION_INCREMENT=${{ github.event.inputs.increment }} python -m build --wheel --no-isolation
         twine upload dist/*
