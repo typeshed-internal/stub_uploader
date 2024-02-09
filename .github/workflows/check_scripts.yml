@@ -9,10 +9,10 @@ jobs:
     name: Check formatting with black
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - run: pip install -r requirements.txt
       - run: |
           black --version
@@ -22,10 +22,10 @@ jobs:
     name: Check stub_uploader with mypy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/setup-python@v4
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - run: pip install -r requirements.txt
       - run: mypy --strict -p stub_uploader -p tests
 
@@ -34,15 +34,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       - name: Checkout main
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           path: main
       - name: Checkout typeshed
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: python/typeshed
           path: typeshed
