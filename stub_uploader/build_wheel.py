@@ -422,8 +422,9 @@ def main(
     copy_changelog(distribution, tmpdir)
     current_dir = os.getcwd()
     os.chdir(tmpdir)
-    subprocess.run([sys.executable, "setup.py", "bdist_wheel"])
-    subprocess.run([sys.executable, "setup.py", "sdist"])
+    subprocess.run(
+        [sys.executable, "-m", "build", "--sdist", "--wheel", "--no-isolation"]
+    )
     os.chdir(current_dir)
     return f"{tmpdir}/dist"
 

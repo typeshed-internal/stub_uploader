@@ -1,8 +1,8 @@
-import sys
+import os
 
 from setuptools import setup
 
-increment = int(sys.argv.pop())
+increment = os.environ["PACKAGE_VERSION_INCREMENT"]
 name = "types-tsbot-empty"
 description = "Empty typing stubs for testing typeshed/PyPI auto-upload"
 
