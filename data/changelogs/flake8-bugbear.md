@@ -1,3 +1,7 @@
+## 24.2.6.20240209 (2024-02-09)
+
+[stubsabot] Bump flake8-bugbear to 24.2.6 (#11379)
+
 ## 24.1.17.20240201 (2024-02-01)
 
 [stubsabot] Bump flake8-bugbear to 24.1.17 (#11278)
