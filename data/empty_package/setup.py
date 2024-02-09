@@ -2,7 +2,7 @@ import os
 
 from setuptools import setup
 
-increment = os.environ["STUB_VERSION_INCREMENT"]
+increment = os.environ["PACKAGE_VERSION_INCREMENT"]
 name = "types-tsbot-empty"
 description = "Empty typing stubs for testing typeshed/PyPI auto-upload"
 
