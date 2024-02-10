@@ -1,3 +1,7 @@
+## 3.2.1.20240210 (2024-02-10)
+
+Fix networkx stub; location of subgraph_view, etc. (#11385)
+
 ## 3.2.1.20240205 (2024-02-05)
 
 A new shade of Black (#11362)
