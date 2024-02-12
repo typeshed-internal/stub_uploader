@@ -1,3 +1,24 @@
+## 1.40.0.20240212 (2024-02-12)
+
+[stubsabot] Bump influxdb-client to 1.40.* (#11406)
+
+Release: https://pypi.org/pypi/influxdb-client/1.40.0
+Homepage: https://github.com/influxdata/influxdb-client-python
+Repository: https://github.com/influxdata/influxdb-client-python
+Diff: https://github.com/influxdata/influxdb-client-python/compare/v1.39.0...v1.40.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 4 files included in typeshed's stubs have been modified or renamed: `influxdb_client/_sync/rest.py`, `influxdb_client/client/write/point.py`, `influxdb_client/client/write_api.py`, `influxdb_client/version.py`.
+ - Total lines of Python code added: 133.
+ - Total lines of Python code deleted: 4.
+
+---------
+
+Co-authored-by: stubsabot <>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 1.39.0.20240206 (2024-02-06)
 
 influx-db: fix flake8 (#11365)

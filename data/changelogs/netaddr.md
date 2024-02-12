@@ -1,3 +1,9 @@
+## 1.0.0.20240212 (2024-02-12)
+
+netaddr: Bump to version 1.0 (#11401)
+
+Closes #11395
+
 ## 0.10.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

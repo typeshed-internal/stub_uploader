@@ -1,3 +1,7 @@
+## 6.4.0.20240212 (2024-02-12)
+
+[stubsabot] Bump pyinstaller to 6.4.* (#11398)
+
 ## 6.3.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)
