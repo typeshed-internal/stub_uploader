@@ -1,3 +1,11 @@
+## 10.2.0.20240213 (2024-02-13)
+
+Pillow: Allow float(s) for cutoff param of autocontrast (#11409)
+
+Pillow: ImageOps.autocontrast can set low and high cutoffs separately (#11408)
+
+ImageOps.autocontrast can set low and high cutoffs separately
+
 ## 10.2.0.20240206 (2024-02-06)
 
 Type `obj` parameter of `PIL.Image.fromarray` (#11176)
