@@ -1,3 +1,7 @@
+## 69.1.0.20240215 (2024-02-15)
+
+Bump setuptools to 69.1.* (#11423)
+
 ## 69.0.0.20240125 (2024-01-25)
 
 Add missing `long_description_content_type` kwarg to setuptools (#11309)
