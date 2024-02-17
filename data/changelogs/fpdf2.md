@@ -1,3 +1,9 @@
+## 2.7.8.20240217 (2024-02-17)
+
+Update fpdf2 to 2.7.8 (#11410)
+
+Closes: #11407
+
 ## 2.7.7.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

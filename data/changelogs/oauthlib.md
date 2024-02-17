@@ -1,3 +1,7 @@
+## 3.2.0.20240217 (2024-02-17)
+
+oauthlib: Fix annotations for `oauthlib.oauth2.RequestValidator` (#11417)
+
 ## 3.2.0.20240124 (2024-01-24)
 
 [oauthlib] Fix return types of `Client` methods (#9908)

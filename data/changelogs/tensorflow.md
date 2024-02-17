@@ -1,3 +1,9 @@
+## 2.15.0.20240217 (2024-02-17)
+
+`tensorflow` Add `tensorflow.summary` module  (#11358)
+
+Partially derived from https://github.com/hmc-cs-mdrissi/tensorflow_stubs/blob/main/stubs/tensorflow/summary.pyi
+
 ## 2.15.0.20240206 (2024-02-06)
 
 `tensorflow`: Add `tensorflow.keras.callbacks` module (#11332)

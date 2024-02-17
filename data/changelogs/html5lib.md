@@ -1,3 +1,7 @@
+## 1.1.11.20240217 (2024-02-17)
+
+html5lib: Additional types (#11411)
+
 ## 1.1.11.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)
