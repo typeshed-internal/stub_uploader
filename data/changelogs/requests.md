@@ -1,3 +1,26 @@
+## 2.31.0.20240218 (2024-02-18)
+
+requests: Allow passing None header values (#11370)
+
+https://github.com/python/typeshed/pull/7773 changed
+`requests.session.Session` methods to accept None for header values, but
+didn't do quite the same for the functions in `requests.api`.  I think
+this was a mistake.  The functions in `requests.api` just pass through
+the `headers` argument without doing anything in particular to it.
+
+Furthermore, it's useful to be able to pass None as a header value:
+because `requests.utils.default_headers` sets an `Accept-Encoding`
+header by default, the easiest way to send a request with no
+`Accept-Encoding` header is something like `requests.get(url,
+headers={"Accept-Encoding": None})`.  It's annoying to have to construct
+a `Session` just to pass type-checking.
+
+It's a little confusing for the type alias to be called
+`_HeadersUpdateMapping` in `requests.sessions` but `_HeadersMapping` in
+`requests.api`; this is because the latter name was already used in
+other type stubs (`tensorflow.keras.callbacks`), so it seemed best to
+avoid breaking API.
+
 ## 2.31.0.20240125 (2024-01-25)
 
 Add parameter type to PreparedRequest.prepare_content_length (#11304)

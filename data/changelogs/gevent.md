@@ -1,3 +1,16 @@
+## 24.2.0.20240218 (2024-02-18)
+
+[stubsabot] Bump gevent to 24.2.* (#11425)
+
+Release: https://pypi.org/pypi/gevent/24.2.1
+Homepage: http://www.gevent.org/
+Repository: https://github.com/gevent/gevent
+Diff: https://github.com/gevent/gevent/compare/23.9.1...24.2.1
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 4.
+ - Total lines of Python code deleted: 4.
+
 ## 23.9.0.20240205 (2024-02-05)
 
 A new shade of Black (#11362)

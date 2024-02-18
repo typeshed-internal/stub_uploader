@@ -1,3 +1,9 @@
+## 2.9.21.20240218 (2024-02-18)
+
+psycopg2: make Range generic (#11435)
+
+And some other small fixes
+
 ## 2.9.21.20240201 (2024-02-01)
 
 issue-11282: psycopg2 ReplicationConnection.cursor() return type (#11298)

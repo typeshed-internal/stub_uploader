@@ -115,6 +115,7 @@ types-netaddr
 types-networkx
 types-nmap
 types-oauthlib
+types-olefile
 types-openpyxl
 types-openssl-python
 types-opentracing

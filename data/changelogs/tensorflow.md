@@ -1,3 +1,33 @@
+## 2.15.0.20240218 (2024-02-18)
+
+`tensorflow`: add `tf.linalg` module (#11386)
+
+Taken from:
+https://github.com/hmc-cs-mdrissi/tensorflow_stubs/blob/main/stubs/tensorflow/linalg.pyi
+
+`tensorflow`: add `tf.ones`, `tf.zeros`, `tf.zeros_like` and `tf.ones_like` functions (#11368)
+
+`tensorflow` add `tf.random` module (#11359)
+
+Partially from Mehdi Drissi's stubs.
+
+`tensorflow`: Add members from `tensorflow.keras.metrics` (#11329)
+
+Partially taken from: https://github.com/hmc-cs-mdrissi/tensorflow_stubs/blob/main/stubs/tensorflow/keras/metrics.pyi
+
+`tensorflow`: add `tf.distribute.experimental.coordinator.RemoteValue` (#11349)
+
+`tensorflow`: add `tf.strings` module (#11380)
+
+Partially taken from:
+https://github.com/hmc-cs-mdrissi/tensorflow_stubs/blob/main/stubs/tensorflow/strings.pyi
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
+`tensorflow`: Add some `tf.raw_ops` members. (#11387)
+
+https://github.com/hmc-cs-mdrissi/tensorflow_stubs/blob/main/stubs/tensorflow/raw_ops.pyi
+
 ## 2.15.0.20240217 (2024-02-17)
 
 `tensorflow` Add `tensorflow.summary` module  (#11358)

@@ -1,3 +1,10 @@
+## 1.1.0.20240218 (2024-02-18)
+
+[stubsabot] Bump netaddr to 1.1.* (#11424)
+
+Co-authored-by: stubsabot <>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 1.0.0.20240212 (2024-02-12)
 
 netaddr: Bump to version 1.0 (#11401)

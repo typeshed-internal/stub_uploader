@@ -1,3 +1,10 @@
+## 4.6.0.20240218 (2024-02-18)
+
+fix(redis): make xadd fields use SupportsItems (#10780)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 4.6.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

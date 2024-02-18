@@ -1,3 +1,10 @@
+## 3.19.0.20240218 (2024-02-18)
+
+Mark simplejson as completed (#9211)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 3.19.0.2 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)
