@@ -1,3 +1,10 @@
+## 1.2.0.20240219 (2024-02-19)
+
+[stubsabot] Bump netaddr to 1.2.* (#11437)
+
+Co-authored-by: stubsabot <>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 1.1.0.20240218 (2024-02-18)
 
 [stubsabot] Bump netaddr to 1.1.* (#11424)
