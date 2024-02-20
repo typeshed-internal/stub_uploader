@@ -1,3 +1,9 @@
+## 3.1.0.20240220 (2024-02-20)
+
+openpyxl: Add stubtest allowlist entry (#11449)
+
+Fixes #11448
+
 ## 3.1.0.20240205 (2024-02-05)
 
 A new shade of Black (#11362)
