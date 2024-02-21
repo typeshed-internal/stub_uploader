@@ -1,3 +1,11 @@
+## 1.1.11.20240221 (2024-02-21)
+
+html5lib: Add various types (#11429)
+
+I started out investigating comments in #11411 and ended up adding a few other
+types that were reasonably obvious from the source code. For reference:
+https://github.com/html5lib/html5lib-python/tree/master/html5lib
+
 ## 1.1.11.20240217 (2024-02-17)
 
 html5lib: Additional types (#11411)
