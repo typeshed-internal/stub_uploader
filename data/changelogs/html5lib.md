@@ -1,3 +1,10 @@
+## 1.1.11.20240222 (2024-02-22)
+
+Complete stubs for `bleach` (#9314)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 1.1.11.20240221 (2024-02-21)
 
 html5lib: Add various types (#11429)

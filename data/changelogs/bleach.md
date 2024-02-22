@@ -1,3 +1,10 @@
+## 6.1.0.20240222 (2024-02-22)
+
+Complete stubs for `bleach` (#9314)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 6.1.0.1 (2023-11-11)
 
 third-party: make some protocol params pos-only (#11006)
