@@ -1,3 +1,7 @@
+## 69.1.0.20240223 (2024-02-23)
+
+Improve typing of `sysconfig.get_config_var(s)` (#11454)
+
 ## 69.1.0.20240217 (2024-02-17)
 
 fix: typo on setuptools (#11432)
