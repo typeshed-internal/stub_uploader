@@ -1,3 +1,7 @@
+## 0.20.0.20240227 (2024-02-27)
+
+Improve type annotations in 'docutils.node.document' (#11468)
+
 ## 0.20.0.20240201 (2024-02-01)
 
 [docutils] Add remaining node classes and functions (#11255)
