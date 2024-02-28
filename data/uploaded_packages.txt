@@ -107,6 +107,7 @@ types-kazoo
 types-keyboard
 types-ldap3
 types-libsass
+types-lzstring
 types-maxminddb
 types-mock
 types-mypy-extensions

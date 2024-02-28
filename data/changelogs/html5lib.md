@@ -1,3 +1,11 @@
+## 1.1.11.20240228 (2024-02-28)
+
+html5lib: Fix type alias (#11480)
+
+Pretty sure this is what I meant to write in the first place.
+
+Fixes #11478
+
 ## 1.1.11.20240222 (2024-02-22)
 
 Complete stubs for `bleach` (#9314)
