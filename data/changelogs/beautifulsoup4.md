@@ -1,3 +1,13 @@
+## 4.12.0.20240229 (2024-02-29)
+
+bs4: Make `Tag.attrs` more permissive (#11487)
+
+Make `Tag.attrs` more permissive to be in line with actual code
+
+`Tag.attrs` is a dict can technically have `list[str]` as a valid value, not just `str`. Making the value type a union with `Any` allows `list[str]` to be valid in a type checker's eyes if a user narrows it.
+
+Based on discussion in, and fixes, #8755.
+
 ## 4.12.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

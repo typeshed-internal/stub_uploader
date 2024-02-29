@@ -1,3 +1,7 @@
+## 69.1.0.20240229 (2024-02-29)
+
+`pkg_resources`: Reorder names to be closer to implementation (#11493)
+
 ## 69.1.0.20240223 (2024-02-23)
 
 Improve typing of `sysconfig.get_config_var(s)` (#11454)
