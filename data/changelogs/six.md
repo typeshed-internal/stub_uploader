@@ -1,3 +1,9 @@
+## 1.16.21.20240301 (2024-03-01)
+
+Enable nearly all pyupgrade rules (except on test cases) (#11499)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 1.16.21.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

@@ -1,3 +1,11 @@
+## 3.1.0.20240301 (2024-03-01)
+
+Update `pyright` version to 1.1.350 (#11501)
+
+If you're reading about this commit in an auto-generated changelog: this is an internal change that should have no impact on how these stubs are understood by static-analysis tools such as type checkers or IDEs
+
+Fix invalid noqa comments and poorly formatted type ignores (#11497)
+
 ## 3.1.0.20240220 (2024-02-20)
 
 openpyxl: Add stubtest allowlist entry (#11449)

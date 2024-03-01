@@ -1,3 +1,7 @@
+## 24.2.0.20240301 (2024-03-01)
+
+Fix invalid noqa comments and poorly formatted type ignores (#11497)
+
 ## 24.2.0.20240218 (2024-02-18)
 
 [stubsabot] Bump gevent to 24.2.* (#11425)

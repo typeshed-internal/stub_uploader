@@ -1,3 +1,7 @@
+## 1.4.0.20240301 (2024-03-01)
+
+Fix invalid noqa comments and poorly formatted type ignores (#11497)
+
 ## 1.4.0.1 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

@@ -1,3 +1,7 @@
+## 3.1.0.20240301 (2024-03-01)
+
+Fix invalid noqa comments and poorly formatted type ignores (#11497)
+
 ## 3.1.0.20240205 (2024-02-05)
 
 A new shade of Black (#11362)

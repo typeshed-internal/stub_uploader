@@ -1,3 +1,9 @@
+## 2.15.0.20240301 (2024-03-01)
+
+`tensorflow`: add `tensorflow.autodiff` (#11442)
+
+`tensorflow`: add `tensorflow.autograph` (#11443)
+
 ## 2.15.0.20240218 (2024-02-18)
 
 `tensorflow`: add `tf.linalg` module (#11386)

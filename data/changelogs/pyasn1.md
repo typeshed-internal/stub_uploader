@@ -1,3 +1,9 @@
+## 0.5.0.20240301 (2024-03-01)
+
+Update `pyright` version to 1.1.350 (#11501)
+
+If you're reading about this commit in an auto-generated changelog: this is an internal change that should have no impact on how these stubs are understood by static-analysis tools such as type checkers or IDEs
+
 ## 0.5.0.20240205 (2024-02-05)
 
 A new shade of Black (#11362)

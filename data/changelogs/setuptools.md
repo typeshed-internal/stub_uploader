@@ -1,3 +1,11 @@
+## 69.1.0.20240301 (2024-03-01)
+
+`setuptools` & `pkg_resources`: Complete `VendorImporter` class (#11495)
+
+`pkg_resources`: don't ignore "missing symbol from stub" in stubtest (#11494)
+
+Fix invalid noqa comments and poorly formatted type ignores (#11497)
+
 ## 69.1.0.20240229 (2024-02-29)
 
 `pkg_resources`: Reorder names to be closer to implementation (#11493)

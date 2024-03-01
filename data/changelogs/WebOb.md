@@ -1,3 +1,9 @@
+## 1.8.0.20240301 (2024-03-01)
+
+WebOb: Complete the stubs and activate stricter pyright config (#11460)
+
+Fix invalid noqa comments and poorly formatted type ignores (#11497)
+
 ## 1.8.0.20240128 (2024-01-28)
 
 WebOb: CacheControl descriptors are always allowed to accept `None` (#11288)

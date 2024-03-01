@@ -1,3 +1,7 @@
+## 1.4.0.20240301 (2024-03-01)
+
+Fix invalid noqa comments and poorly formatted type ignores (#11497)
+
 ## 1.4.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)
