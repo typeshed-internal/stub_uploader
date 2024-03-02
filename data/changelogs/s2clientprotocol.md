@@ -1,3 +1,9 @@
+## 5.0.0.20240302 (2024-03-02)
+
+Add pyupgrade check outdated-version-block (UP036) (#11509)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 5.0.0.3 (2023-10-29)
 
 Enable ruff's isort rules on files generated using mypy-protobuf (#10939)

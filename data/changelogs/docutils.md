@@ -1,3 +1,9 @@
+## 0.20.0.20240302 (2024-03-02)
+
+improve type annotations in 'docutils.readers' (#11490)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 0.20.0.20240227 (2024-02-27)
 
 Improve type annotations in 'docutils.node.document' (#11468)

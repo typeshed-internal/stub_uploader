@@ -1,3 +1,11 @@
+## 69.1.0.20240302 (2024-03-02)
+
+`pkg_resources`: Remove type-only `_Importer` class (#11512)
+
+`pkg_resources`: Types from assignments and aliases (#11511)
+
+Override `pkg_resources.ZipProvider.loader` type (#11514)
+
 ## 69.1.0.20240301 (2024-03-01)
 
 `setuptools` & `pkg_resources`: Complete `VendorImporter` class (#11495)

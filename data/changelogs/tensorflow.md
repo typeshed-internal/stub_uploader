@@ -1,3 +1,19 @@
+## 2.15.0.20240302 (2024-03-02)
+
+`tensorflow`: add `tensorflow.bitwise` (#11440)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
+`tensorflow`: add `tensorflow.audio` (#11441)
+
+`tensorflow`: add `tensorflow.keras.activations` members (#11444)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
+Add pyupgrade check outdated-version-block (UP036) (#11509)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 2.15.0.20240301 (2024-03-01)
 
 `tensorflow`: add `tensorflow.autodiff` (#11442)

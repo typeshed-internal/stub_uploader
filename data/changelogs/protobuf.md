@@ -1,3 +1,9 @@
+## 4.24.0.20240302 (2024-03-02)
+
+Add pyupgrade check outdated-version-block (UP036) (#11509)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 4.24.0.20240106 (2024-01-06)
 
 Bump various test dependencies (#11249)
