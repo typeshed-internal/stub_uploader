@@ -1,3 +1,11 @@
+## 0.20.0.20240303 (2024-03-03)
+
+improve type annotations in 'docutils.readers.doctree' (#11492)
+
+improve type annotations in 'docutils.parsers.rst.roles' (#11481)
+
+Co-authored-by: daniel.eades <daniel.eades@seebyte.com>
+
 ## 0.20.0.20240302 (2024-03-02)
 
 improve type annotations in 'docutils.readers' (#11490)

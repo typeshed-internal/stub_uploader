@@ -1,3 +1,11 @@
+## 2.15.0.20240303 (2024-03-03)
+
+`tensorflow`: add partial `tf.nn` module. (#11388)
+
+Some derived from:
+https://github.com/hmc-cs-mdrissi/tensorflow_stubs/blob/main/stubs/tensorflow/summary.pyi
+https://github.com/hmc-cs-mdrissi/tensorflow_stubs/blob/main/stubs/tensorflow/nn.pyi
+
 ## 2.15.0.20240302 (2024-03-02)
 
 `tensorflow`: add `tensorflow.bitwise` (#11440)
