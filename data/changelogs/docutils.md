@@ -1,3 +1,7 @@
+## 0.20.0.20240304 (2024-03-04)
+
+improve type annotations in 'docutils.parsers.rst.states.Inliner' (#11473)
+
 ## 0.20.0.20240303 (2024-03-03)
 
 improve type annotations in 'docutils.readers.doctree' (#11492)
