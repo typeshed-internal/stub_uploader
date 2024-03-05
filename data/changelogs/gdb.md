@@ -1,3 +1,7 @@
+## 12.1.4.20240305 (2024-03-05)
+
+Add VERSION to gdb stubs (#11529)
+
 ## 12.1.4.20240113 (2024-01-13)
 
 Fix inconsistencies in gdb stubs (#11227)
