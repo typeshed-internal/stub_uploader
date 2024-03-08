@@ -1,3 +1,9 @@
+## 3.1.0.20240308 (2024-03-08)
+
+`openpyxl`: Simpler leftover changes from the `microsoft/python-type-stubs` merge (#11534)
+
+Add `@deprecated` decorator to `openpyxl` (#11535)
+
 ## 3.1.0.20240301 (2024-03-01)
 
 Update `pyright` version to 1.1.350 (#11501)

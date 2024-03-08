@@ -1,3 +1,19 @@
+## 2.13.0.20240308 (2024-03-08)
+
+[stubsabot] Bump aws-xray-sdk to 2.13.* (#11536)
+
+Release: https://pypi.org/pypi/aws-xray-sdk/2.13.0
+Homepage: https://github.com/aws/aws-xray-sdk-python
+Repository: https://github.com/aws/aws-xray-sdk-python
+Diff: https://github.com/aws/aws-xray-sdk-python/compare/2.12.1...2.13.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 1 public Python file has been added: `tests/ext/sqlalchemy_core/test_dburl.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `aws_xray_sdk/version.py`.
+ - Total lines of Python code added: 65.
+ - Total lines of Python code deleted: 14.
+
 ## 2.12.0.3 (2023-10-13)
 
 aws-xray-sdk: update and remove spurious re-exports (#10874)

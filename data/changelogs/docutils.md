@@ -1,3 +1,9 @@
+## 0.20.0.20240308 (2024-03-08)
+
+improve type annotations in 'docutils.parsers.rst.tableparser' (#11530)
+
+Co-authored-by: daniel.eades <daniel.eades@seebyte.com>
+
 ## 0.20.0.20240304 (2024-03-04)
 
 improve type annotations in 'docutils.parsers.rst.states.Inliner' (#11473)

@@ -1,3 +1,7 @@
+## 69.1.0.20240308 (2024-03-08)
+
+`pkg_resources`: Remove stray `Any`s and use more `Self` & `NoReturn` types (#11528)
+
 ## 69.1.0.20240302 (2024-03-02)
 
 `pkg_resources`: Remove type-only `_Importer` class (#11512)
