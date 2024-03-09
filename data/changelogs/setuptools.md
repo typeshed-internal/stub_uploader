@@ -1,3 +1,9 @@
+## 69.1.0.20240309 (2024-03-09)
+
+Use strict pyright configs for `pkg_resources` (#11538)
+
+`pkg_resources`: Updates from upstream typing merge (#11455)
+
 ## 69.1.0.20240308 (2024-03-08)
 
 `pkg_resources`: Remove stray `Any`s and use more `Self` & `NoReturn` types (#11528)

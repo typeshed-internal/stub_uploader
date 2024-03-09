@@ -1,3 +1,11 @@
+## 0.20.0.20240309 (2024-03-09)
+
+improve type annotations in 'docutils.utils' (#11526)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
+Improve type annotations in 'docutils.parsers.rst' (#11523)
+
 ## 0.20.0.20240308 (2024-03-08)
 
 improve type annotations in 'docutils.parsers.rst.tableparser' (#11530)
