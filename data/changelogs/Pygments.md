@@ -1,3 +1,14 @@
+## 2.17.0.20240310 (2024-03-10)
+
+`docutils`: Use `ClassVar` for `Directive` class variables (#11550)
+
+These are intended to be set as class variables, in subclasses of Directive, rather
+than instance variables.
+
+See also:
+- https://docutils.sourceforge.io/docs/howto/rst-directives.html#the-directive-class
+- https://docutils.sourceforge.io/docs/howto/rst-directives.html#admonitions
+
 ## 2.17.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

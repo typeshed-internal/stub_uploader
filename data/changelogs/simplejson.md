@@ -1,3 +1,9 @@
+## 3.19.0.20240310 (2024-03-10)
+
+Bump mypy to 1.9, add to json.encoder, small fixups (#11549)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 3.19.0.20240218 (2024-02-18)
 
 Mark simplejson as completed (#9211)

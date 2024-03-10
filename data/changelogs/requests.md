@@ -1,3 +1,9 @@
+## 2.31.0.20240310 (2024-03-10)
+
+Bump mypy to 1.9, add to json.encoder, small fixups (#11549)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 2.31.0.20240218 (2024-02-18)
 
 requests: Allow passing None header values (#11370)

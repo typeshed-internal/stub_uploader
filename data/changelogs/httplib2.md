@@ -1,3 +1,9 @@
+## 0.22.0.20240310 (2024-03-10)
+
+Bump mypy to 1.9, add to json.encoder, small fixups (#11549)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 0.22.0.2 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

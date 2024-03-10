@@ -1,3 +1,9 @@
+## 8.0.2.20240310 (2024-03-10)
+
+Bump mypy to 1.9, add to json.encoder, small fixups (#11549)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 8.0.2.20240127 (2024-01-27)
 
 [stubsabot] Mark python-slugify as obsolete since 8.0.2 (#11316)

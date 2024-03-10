@@ -1,3 +1,11 @@
+## 69.1.0.20240310 (2024-03-10)
+
+`pkg_resources`: Make `_InstallerType` stricter and generic (#11527)
+
+Bump mypy to 1.9, add to json.encoder, small fixups (#11549)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 69.1.0.20240309 (2024-03-09)
 
 Use strict pyright configs for `pkg_resources` (#11538)

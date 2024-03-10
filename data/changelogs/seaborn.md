@@ -1,3 +1,9 @@
+## 0.13.2.20240310 (2024-03-10)
+
+Bump mypy to 1.9, add to json.encoder, small fixups (#11549)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 0.13.2.20240205 (2024-02-05)
 
 A new shade of Black (#11362)

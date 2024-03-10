@@ -1,3 +1,9 @@
+## 1.16.21.20240310 (2024-03-10)
+
+Bump mypy to 1.9, add to json.encoder, small fixups (#11549)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 1.16.21.20240301 (2024-03-01)
 
 Enable nearly all pyupgrade rules (except on test cases) (#11499)

@@ -1,3 +1,9 @@
+## 306.0.0.20240310 (2024-03-10)
+
+Bump mypy to 1.9, add to json.encoder, small fixups (#11549)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 306.0.0.20240130 (2024-01-30)
 
 pywin32: Remove reference to stubgen dll analysis issue (#11323)
