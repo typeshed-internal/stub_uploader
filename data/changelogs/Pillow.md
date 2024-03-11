@@ -1,3 +1,7 @@
+## 10.2.0.20240311 (2024-03-11)
+
+Use PEP 570 syntax in third party stubs (#11554)
+
 ## 10.2.0.20240213 (2024-02-13)
 
 Pillow: Allow float(s) for cutoff param of autocontrast (#11409)

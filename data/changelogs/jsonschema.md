@@ -1,3 +1,7 @@
+## 4.21.0.20240311 (2024-03-11)
+
+Use PEP 570 syntax in third party stubs (#11554)
+
 ## 4.21.0.20240118 (2024-01-18)
 
 [stubsabot] Bump jsonschema to 4.21.* (#11281)

@@ -1,3 +1,7 @@
+## 3.4.0.20240311 (2024-03-11)
+
+Use PEP 570 syntax in third party stubs (#11554)
+
 ## 3.4.0.20240205 (2024-02-05)
 
 A new shade of Black (#11362)

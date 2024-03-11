@@ -1,3 +1,7 @@
+## 2.9.21.20240311 (2024-03-11)
+
+Use PEP 570 syntax in third party stubs (#11554)
+
 ## 2.9.21.20240218 (2024-02-18)
 
 psycopg2: make Range generic (#11435)

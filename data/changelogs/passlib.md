@@ -1,3 +1,7 @@
+## 1.7.7.20240311 (2024-03-11)
+
+Make stubtest pass on libsass/passlib/redis/tree-sitter if you're using Python 3.12 (#11561)
+
 ## 1.7.7.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

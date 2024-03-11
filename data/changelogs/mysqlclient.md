@@ -1,3 +1,7 @@
+## 2.2.0.20240311 (2024-03-11)
+
+Use PEP 570 syntax in third party stubs (#11554)
+
 ## 2.2.0.1 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

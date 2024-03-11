@@ -1,3 +1,7 @@
+## 24.0.0.20240311 (2024-03-11)
+
+Use PEP 570 syntax in third party stubs (#11554)
+
 ## 24.0.0.20240228 (2024-02-28)
 
 pyOpenSSL: Add DTLS_* constants (#11486)

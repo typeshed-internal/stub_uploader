@@ -1,3 +1,9 @@
+## 24.2.0.20240311 (2024-03-11)
+
+Use Python 3.11 for third-party stubtest in CI (#11562)
+
+Use PEP 570 syntax in third party stubs (#11554)
+
 ## 24.2.0.20240310 (2024-03-10)
 
 Bump mypy to 1.9, add to json.encoder, small fixups (#11549)

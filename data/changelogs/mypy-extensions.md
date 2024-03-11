@@ -1,3 +1,7 @@
+## 1.0.0.20240311 (2024-03-11)
+
+Use PEP 570 syntax in third party stubs (#11554)
+
 ## 1.0.0.5 (2023-08-12)
 
 Improve `__(r)or__` signatures for TypedDict classes (#10565)

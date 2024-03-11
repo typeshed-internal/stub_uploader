@@ -1,3 +1,7 @@
+## 5.1.0.20240311 (2024-03-11)
+
+Use PEP 570 syntax in third party stubs (#11554)
+
 ## 5.1.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

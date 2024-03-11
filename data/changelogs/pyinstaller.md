@@ -1,3 +1,9 @@
+## 6.5.0.20240311 (2024-03-11)
+
+Bump pyinstaller to 6.5.* (#11563)
+
+Use PEP 570 syntax in third party stubs (#11554)
+
 ## 6.4.0.20240212 (2024-02-12)
 
 [stubsabot] Bump pyinstaller to 6.4.* (#11398)

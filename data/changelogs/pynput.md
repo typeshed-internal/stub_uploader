@@ -1,3 +1,7 @@
+## 1.7.5.20240311 (2024-03-11)
+
+Use Python 3.11 for third-party stubtest in CI (#11562)
+
 ## 1.7.5.20240205 (2024-02-05)
 
 A new shade of Black (#11362)

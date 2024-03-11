@@ -1,3 +1,7 @@
+## 6.0.12.20240311 (2024-03-11)
+
+Use PEP 570 syntax in third party stubs (#11554)
+
 ## 6.0.12.12 (2023-09-23)
 
 [PyYAML] type the whole Emitter class (#10750)

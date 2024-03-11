@@ -1,3 +1,11 @@
+## 1.8.0.20240311 (2024-03-11)
+
+Replace Flake8 checks with Ruff (except for flake8-pyi) (#11496)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
+Use PEP 570 syntax in third party stubs (#11554)
+
 ## 1.8.0.20240301 (2024-03-01)
 
 WebOb: Complete the stubs and activate stricter pyright config (#11460)

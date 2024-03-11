@@ -1,3 +1,7 @@
+## 3.1.0.20240311 (2024-03-11)
+
+Use PEP 570 syntax in third party stubs (#11554)
+
 ## 3.1.0.20240308 (2024-03-08)
 
 `openpyxl`: Simpler leftover changes from the `microsoft/python-type-stubs` merge (#11534)

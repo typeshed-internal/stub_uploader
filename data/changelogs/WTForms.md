@@ -1,3 +1,7 @@
+## 3.1.0.20240311 (2024-03-11)
+
+Use PEP 570 syntax in third party stubs (#11554)
+
 ## 3.1.0.20240301 (2024-03-01)
 
 Fix invalid noqa comments and poorly formatted type ignores (#11497)

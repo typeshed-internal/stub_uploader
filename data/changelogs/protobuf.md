@@ -1,3 +1,7 @@
+## 4.24.0.20240311 (2024-03-11)
+
+Use PEP 570 syntax in third party stubs (#11554)
+
 ## 4.24.0.20240302 (2024-03-02)
 
 Add pyupgrade check outdated-version-block (UP036) (#11509)

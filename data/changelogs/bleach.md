@@ -1,3 +1,7 @@
+## 6.1.0.20240311 (2024-03-11)
+
+Use PEP 570 syntax in third party stubs (#11554)
+
 ## 6.1.0.20240222 (2024-02-22)
 
 Complete stubs for `bleach` (#9314)

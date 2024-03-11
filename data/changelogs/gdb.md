@@ -1,3 +1,7 @@
+## 12.1.4.20240311 (2024-03-11)
+
+Use PEP 570 syntax in third party stubs (#11554)
+
 ## 12.1.4.20240305 (2024-03-05)
 
 Add VERSION to gdb stubs (#11529)

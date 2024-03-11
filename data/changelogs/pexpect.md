@@ -1,3 +1,7 @@
+## 4.9.0.20240311 (2024-03-11)
+
+Use PEP 570 syntax in third party stubs (#11554)
+
 ## 4.9.0.20240207 (2024-02-07)
 
 Bump pexpect to 4.9 (#11287)

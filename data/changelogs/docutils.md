@@ -1,3 +1,7 @@
+## 0.20.0.20240311 (2024-03-11)
+
+Use PEP 570 syntax in third party stubs (#11554)
+
 ## 0.20.0.20240310 (2024-03-10)
 
 `docutils`: Use `ClassVar` for `Directive` class variables (#11550)

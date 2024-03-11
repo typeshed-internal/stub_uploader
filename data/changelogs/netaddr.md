@@ -1,3 +1,7 @@
+## 1.2.0.20240311 (2024-03-11)
+
+Use PEP 570 syntax in third party stubs (#11554)
+
 ## 1.2.0.20240219 (2024-02-19)
 
 [stubsabot] Bump netaddr to 1.2.* (#11437)
