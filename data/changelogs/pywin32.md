@@ -1,3 +1,9 @@
+## 306.0.0.20240312 (2024-03-12)
+
+Add deprecation decorator and comments for pywin32 (#11570)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 306.0.0.20240310 (2024-03-10)
 
 Bump mypy to 1.9, add to json.encoder, small fixups (#11549)
