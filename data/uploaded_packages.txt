@@ -147,6 +147,7 @@ types-pycocotools
 types-pycurl
 types-pyfarmhash
 types-pyflakes
+types-pygit2
 types-pyinstaller
 types-pyjks
 types-pymssql

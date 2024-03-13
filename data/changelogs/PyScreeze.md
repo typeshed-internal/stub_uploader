@@ -1,3 +1,7 @@
+## 0.1.30.20240313 (2024-03-13)
+
+Make stubtest work on pyscreeze if you're using py312 (#11582)
+
 ## 0.1.30.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

@@ -1,3 +1,12 @@
+## 3.2.1.20240313 (2024-03-13)
+
+networkx: add another overload to OutEdgeView.__call__(). (#11578)
+
+It's common to call the 'edges' property of a DiGraph with an 'nbunch'
+argument and no other arguments (see the Examples section of
+https://networkx.org/documentation/stable/reference/classes/generated/networkx.DiGraph.out_edges.html).
+None of the existing overloads allow this.
+
 ## 3.2.1.20240210 (2024-02-10)
 
 Fix networkx stub; location of subgraph_view, etc. (#11385)

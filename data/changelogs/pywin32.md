@@ -1,3 +1,11 @@
+## 306.0.0.20240313 (2024-03-13)
+
+`pywin32`: Correctly reference `TimeType` aka `pywintypes.datetime` (#11577)
+
+* Correctly reference TimeType
+
+* PyUnicode is UnicodeType
+
 ## 306.0.0.20240312 (2024-03-12)
 
 Add deprecation decorator and comments for pywin32 (#11570)
