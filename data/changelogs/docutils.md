@@ -1,3 +1,12 @@
+## 0.20.0.20240314 (2024-03-14)
+
+improve type annotations in 'docutils.statemachine' (#11469)
+
+improve type annotations in 'docutils.parsers.rst.directives.misc' (#11524)
+
+Co-authored-by: daniel.eades <daniel.eades@seebyte.com>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 0.20.0.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)

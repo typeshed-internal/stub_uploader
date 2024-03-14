@@ -1,3 +1,23 @@
+## 2.15.0.20240314 (2024-03-14)
+
+`tensorflow`: Add `tensorflow.keras.models.Model` (#11334)
+
+Based on:
+
+- https://github.com/hmc-cs-mdrissi/tensorflow_stubs/blob/main/stubs/tensorflow/saved_model/__init__.pyi
+- https://github.com/hmc-cs-mdrissi/tensorflow_stubs/blob/main/stubs/tensorflow/types/experimental.pyi
+
+`tensorflow`: Add missing members to the `tensorflow.keras.layers` module. (#11333)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+Co-authored-by: Rebecca Chen <rechen@google.com>
+
+`tensorflow` add `tensorflow.saved_model` (#11439)
+
+Based on:
+- https://github.com/hmc-cs-mdrissi/tensorflow_stubs/blob/main/stubs/tensorflow/saved_model/__init__.pyi
+- https://github.com/hmc-cs-mdrissi/tensorflow_stubs/blob/main/stubs/tensorflow/types/experimental.pyi
+
 ## 2.15.0.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)
