@@ -1,3 +1,9 @@
+## 2.9.0.20240315 (2024-03-15)
+
+[stubsabot] Bump python-dateutil to 2.9.* (#11518)
+
+Co-authored-by: stubsabot <>
+
 ## 2.8.19.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)

@@ -1,3 +1,7 @@
+## 1.4.0.20240315 (2024-03-15)
+
+Bump requests-oauthlib to 1.4.* (#11601)
+
 ## 1.3.0.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)

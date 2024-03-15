@@ -1,3 +1,7 @@
+## 24.2.0.20240315 (2024-03-15)
+
+chore(deps): update pytype and pyright (#11595)
+
 ## 24.2.0.20240311 (2024-03-11)
 
 Use Python 3.11 for third-party stubtest in CI (#11562)
