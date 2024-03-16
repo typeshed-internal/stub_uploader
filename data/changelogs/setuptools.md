@@ -1,3 +1,7 @@
+## 69.2.0.20240316 (2024-03-16)
+
+Bump setuptools to 69.2.* (#11603)
+
 ## 69.1.0.20240310 (2024-03-10)
 
 `pkg_resources`: Make `_InstallerType` stricter and generic (#11527)

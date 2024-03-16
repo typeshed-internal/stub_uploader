@@ -1,3 +1,7 @@
+## 1.41.0.20240316 (2024-03-16)
+
+Bump influxdb-client to 1.41.* (#11608)
+
 ## 1.40.0.20240212 (2024-02-12)
 
 [stubsabot] Bump influxdb-client to 1.40.* (#11406)

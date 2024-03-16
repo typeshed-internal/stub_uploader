@@ -1,3 +1,7 @@
+## 0.20.0.20240316 (2024-03-16)
+
+improve type annotations in 'docutils.utils.Reporter' (#11521)
+
 ## 0.20.0.20240315 (2024-03-15)
 
 improve type annotations in 'docutils.parsers.rst.directives' (#11597)

@@ -1,3 +1,7 @@
+## 3.6.0.20240316 (2024-03-16)
+
+[Markdown] Bump to 3.6.* (#11607)
+
 ## 3.5.0.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)

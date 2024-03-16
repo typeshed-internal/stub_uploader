@@ -1,3 +1,7 @@
+## 2.9.0.20240316 (2024-03-16)
+
+python-dateutil: respect inheritance on relativedelta.__rsub__ (#11462) (#11463)
+
 ## 2.9.0.20240315 (2024-03-15)
 
 [stubsabot] Bump python-dateutil to 2.9.* (#11518)

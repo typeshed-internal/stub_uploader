@@ -1,3 +1,7 @@
+## 5.9.5.20240316 (2024-03-16)
+
+[psutil] add settable info property (#10275)
+
 ## 5.9.5.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)
