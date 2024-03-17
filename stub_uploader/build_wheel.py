@@ -189,12 +189,9 @@ class PackageData:
         else:
             return [package]
 
-    def add_file(self, package: str, filename: str, file_contents: str) -> None:
-        """Add a file to a package."""
+    def add_file(self, package: str, filename: str) -> None:
+        """Add a file to a top-level package."""
         top_level = package.split(".")[0]
-        entry_path = self.package_path(package)
-        entry_path.mkdir(exist_ok=True)
-        (entry_path / filename).write_text(file_contents)
         self.package_data[top_level].append(filename)
 
 
@@ -292,7 +289,10 @@ def collect_package_data(base_path: Path) -> PackageData:
         else:
             raise ValueError(f"Only stub files are allowed, not {entry.name!r}")
         package_data[pkg_name + SUFFIX] = [*stub_files, META]
-    return PackageData(base_path, package_data)
+    pkg_data = PackageData(base_path, package_data)
+    for package in pkg_data.top_level_non_namespace_packages:
+        pkg_data.add_file(package, "py.typed")
+    return pkg_data
 
 
 def is_ignored_distribution_file(entry: Path) -> bool:
@@ -314,14 +314,10 @@ def is_ignored_distribution_file(entry: Path) -> bool:
     return False
 
 
-def add_partial_markers(pkg_data: PackageData) -> None:
-    for package in pkg_data.top_level_non_namespace_packages:
-        pkg_data.add_file(package, "py.typed", "partial\n")
-
-
 def generate_setup_file(
-    build_data: BuildData,
     ts_data: TypeshedData,
+    build_data: BuildData,
+    pkg_data: PackageData,
     metadata: Metadata,
     version: str,
     commit: str,
@@ -330,9 +326,6 @@ def generate_setup_file(
     all_requirements = [
         str(req) for req in metadata.requires_typeshed + metadata.requires_external
     ]
-    pkg_data = collect_package_data(build_data.stub_dir)
-    if metadata.partial:
-        add_partial_markers(pkg_data)
     requires_python = (
         metadata.requires_python
         if metadata.requires_python is not None
@@ -393,6 +386,13 @@ def generate_long_description(
     return "\n\n".join(parts)
 
 
+def create_py_typed(metadata: Metadata, pkg_data: PackageData) -> None:
+    """Create py.typed files as necessary in the typeshed directory."""
+    for package in pkg_data.top_level_non_namespace_packages:
+        entry_path = pkg_data.package_path(package)
+        (entry_path / "py.typed").write_text("partial\n" if metadata.partial else "")
+
+
 def main(
     typeshed_dir: str, distribution: str, version: str, build_dir: Optional[str] = None
 ) -> str:
@@ -404,20 +404,28 @@ def main(
     created after uploading it.
     """
     ts_data = read_typeshed_data(Path(typeshed_dir))
+    # TODO: Merge BuildData and PackageData and encapsulate MetaData.
+    # See also https://github.com/typeshed-internal/stub_uploader/issues/123.
     build_data = BuildData(typeshed_dir, distribution)
+    metadata = read_metadata(typeshed_dir, distribution)
+    pkg_data = collect_package_data(build_data.stub_dir)
     if build_dir:
         tmpdir = build_dir
     else:
         tmpdir = tempfile.mkdtemp()
-    commit = subprocess.run(
+    commit = subprocess.run(  # TODO: Move into TypeshedData.
         ["git", "rev-parse", "HEAD"],
         capture_output=True,
         text=True,
         cwd=typeshed_dir,
     ).stdout.strip()
-    metadata = read_metadata(typeshed_dir, distribution)
     with open(os.path.join(tmpdir, "setup.py"), "w") as f:
-        f.write(generate_setup_file(build_data, ts_data, metadata, version, commit))
+        f.write(
+            generate_setup_file(
+                ts_data, build_data, pkg_data, metadata, version, commit
+            )
+        )
+    create_py_typed(metadata, pkg_data)
     copy_stubs(build_data.stub_dir, Path(tmpdir))
     copy_changelog(distribution, tmpdir)
     current_dir = os.getcwd()
