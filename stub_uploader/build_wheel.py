@@ -202,6 +202,7 @@ class PackageData:
     def add_file(self, package: str, filename: str) -> None:
         """Add a file to a top-level package."""
         top_level, *sub_packages = package.split(".")
+        assert top_level.endswith(SUFFIX)
         path = Path(*sub_packages, filename)
         self.package_data[top_level].append(str(path))
 
