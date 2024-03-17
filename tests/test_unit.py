@@ -102,7 +102,7 @@ def test_collect_package_data() -> None:
     pkg_data = collect_package_data(stubs / "singlefilepkg")
     assert pkg_data.top_level_packages == ["singlefilepkg-stubs"]
     assert pkg_data.package_data == (
-        {"singlefilepkg-stubs": ["__init__.pyi", "METADATA.toml"]}
+        {"singlefilepkg-stubs": ["__init__.pyi", "METADATA.toml", "py.typed"]}
     )
 
     pkg_data = collect_package_data(stubs / "multifilepkg")
@@ -117,6 +117,7 @@ def test_collect_package_data() -> None:
                 os.path.join("c", "d.pyi"),
                 os.path.join("c", "e.pyi"),
                 "METADATA.toml",
+                "py.typed",
             ]
         }
     )
@@ -128,6 +129,7 @@ def test_collect_package_data() -> None:
             "nspkg-stubs": [
                 os.path.join("innerpkg", "__init__.pyi"),
                 "METADATA.toml",
+                os.path.join("innerpkg", "py.typed"),
             ]
         }
     )
@@ -144,14 +146,27 @@ def test_collect_package_data_bogusfile() -> None:
     with open(os.path.join(stubs, "singlefilepkg", ".METADATA.toml.swp"), "w"):
         pass
     pkg_data = collect_package_data(stubs / "singlefilepkg")
-    assert len(pkg_data.package_data["singlefilepkg-stubs"]) == 2
+    assert set(pkg_data.package_data["singlefilepkg-stubs"]) == {
+        "__init__.pyi",
+        "py.typed",
+        "METADATA.toml",
+    }
 
     with open(
         os.path.join(stubs, "multifilepkg", "multifilepkg", ".METADATA.toml.swp"), "w"
     ):
         pass
     pkg_data = collect_package_data(stubs / "multifilepkg")
-    assert len(pkg_data.package_data["multifilepkg-stubs"]) == 7
+    assert set(pkg_data.package_data["multifilepkg-stubs"]) == {
+        "__init__.pyi",
+        "a.pyi",
+        "b.pyi",
+        "c/__init__.pyi",
+        "c/d.pyi",
+        "c/e.pyi",
+        "py.typed",
+        "METADATA.toml",
+    }
 
 
 def test_uploaded_packages() -> None:
