@@ -1,3 +1,10 @@
+## 1.14.0.20240317 (2024-03-17)
+
+pygit2: Workaround python/mypy#16972 (#11584)
+
+To fix the signatures of `clone_repository` and `init_repository` as
+seen by type checkers.
+
 ## 1.14.0.20240313 (2024-03-13)
 
 pygit2: Add missing Repository fields (#11579)

@@ -1,3 +1,11 @@
+## 69.2.0.20240317 (2024-03-17)
+
+Add `distutils` as a top-level package included with `types-setuptools` (#10948)
+
+`setuptools`&`distutils`: `setup` returns a `Distribution` (#11617)
+
+`setup` returns a `Distribution`
+
 ## 69.2.0.20240316 (2024-03-16)
 
 Bump setuptools to 69.2.* (#11603)

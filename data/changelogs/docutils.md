@@ -1,3 +1,7 @@
+## 0.20.0.20240317 (2024-03-17)
+
+improve type annotations in 'docutils.nodes.Element' (#11539)
+
 ## 0.20.0.20240316 (2024-03-16)
 
 improve type annotations in 'docutils.utils.Reporter' (#11521)
