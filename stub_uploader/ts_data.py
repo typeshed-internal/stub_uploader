@@ -3,13 +3,14 @@ Information about typeshed.
 """
 
 from __future__ import annotations
+
 import argparse
 from collections.abc import Iterable
 from dataclasses import dataclass, fields
-from packaging.requirements import Requirement
 from pathlib import Path
-from tomli import load as toml_load
 
+from packaging.requirements import Requirement
+from tomli import load as toml_load
 
 REQUIREMENTS = "requirements-tests.txt"
 PYPROJECT = "pyproject.toml"
@@ -31,7 +32,7 @@ def read_typeshed_data(typeshed_dir: Path) -> TypeshedData:
     typeshed_table = pyproject["tool"]["typeshed"]
     return TypeshedData(
         mypy_version=requirements["mypy"],
-        pyright_version=typeshed_table["pyright_version"],
+        pyright_version=requirements["pyright"],
         pytype_version=requirements["pytype"],
         oldest_supported_python=typeshed_table["oldest_supported_python"],
     )
