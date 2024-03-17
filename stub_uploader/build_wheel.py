@@ -29,7 +29,6 @@ import sys
 import tempfile
 from pathlib import Path
 from textwrap import dedent
-from typing import Optional
 
 from stub_uploader.const import (
     CHANGELOG_PATH,
@@ -135,8 +134,8 @@ class PackageData:
         self.base_path = base_path
         self.package_data = package_data
 
-    def package_path(self, package_name: str) -> Path:
-        """Return the path of a given package name.
+    def package_source_path(self, package_name: str) -> Path:
+        """Return the relative path of a given package name in the typeshed directory.
 
         The package name can use dotted notation to address sub-packages.
         The top-level package name can optionally include the "-stubs" suffix.
@@ -144,7 +143,18 @@ class PackageData:
         top_level, *sub_packages = package_name.split(".")
         if top_level.endswith(SUFFIX):
             top_level = top_level[: -len(SUFFIX)]
-        return self.base_path.joinpath(top_level, *sub_packages)
+        return Path(top_level, *sub_packages)
+
+    def package_build_path(self, package_name: str) -> Path:
+        """Return the relative path of a given package name in the build directory.
+
+        The package name can use dotted notation to address sub-packages.
+        The top-level package name will include the "-stubs" suffix.
+        """
+        top_level, *sub_packages = package_name.split(".")
+        if not top_level.endswith(SUFFIX):
+            top_level += SUFFIX
+        return Path(top_level, *sub_packages)
 
     def is_single_file_package(self, package_name: str) -> bool:
         filename = package_name.split("-")[0] + ".pyi"
@@ -167,7 +177,7 @@ class PackageData:
         This will return all packages that are not subpackages of any other
         package, other than namespace packages in dotted notation, e.g. if
         "flying" is a top level namespace package, and "circus" is a
-        non-namespace sub-package, this will return ["flying.circus"].
+        non-namespace sub-package, this will return ["flying-stubs.circus"].
         """
         packages: list[str] = []
         for top_level in self.top_level_packages:
@@ -178,7 +188,7 @@ class PackageData:
         return packages
 
     def _find_non_namespace_sub_packages(self, package: str) -> list[str]:
-        path = self.package_path(package)
+        path = self.base_path / self.package_source_path(package)
         if is_namespace_package(path):
             sub_packages: list[str] = []
             for entry in path.iterdir():
@@ -255,6 +265,13 @@ def copy_stubs(base_dir: Path, dst: Path) -> None:
 def ensure_suffix(s: str, suffix: str) -> str:
     """Ensure that a string ends with a suffix."""
     return s if s.endswith(suffix) else s + suffix
+
+
+def create_py_typed(metadata: Metadata, pkg_data: PackageData, dst: Path) -> None:
+    """Create py.typed files as necessary."""
+    for package in pkg_data.top_level_non_namespace_packages:
+        py_typed_path = dst / pkg_data.package_build_path(package) / "py.typed"
+        py_typed_path.write_text("partial\n" if metadata.partial else "")
 
 
 def copy_changelog(distribution: str, dst: str) -> None:
@@ -386,15 +403,8 @@ def generate_long_description(
     return "\n\n".join(parts)
 
 
-def create_py_typed(metadata: Metadata, pkg_data: PackageData) -> None:
-    """Create py.typed files as necessary in the typeshed directory."""
-    for package in pkg_data.top_level_non_namespace_packages:
-        entry_path = pkg_data.package_path(package)
-        (entry_path / "py.typed").write_text("partial\n" if metadata.partial else "")
-
-
 def main(
-    typeshed_dir: str, distribution: str, version: str, build_dir: Optional[str] = None
+    typeshed_dir: str, distribution: str, version: str, build_dir: str | None = None
 ) -> str:
     """Generate a wheel for a third-party distribution in typeshed.
 
@@ -425,8 +435,8 @@ def main(
                 ts_data, build_data, pkg_data, metadata, version, commit
             )
         )
-    create_py_typed(metadata, pkg_data)
     copy_stubs(build_data.stub_dir, Path(tmpdir))
+    create_py_typed(metadata, pkg_data, Path(tmpdir))
     copy_changelog(distribution, tmpdir)
     current_dir = os.getcwd()
     os.chdir(tmpdir)
