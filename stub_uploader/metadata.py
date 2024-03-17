@@ -221,6 +221,8 @@ EXTERNAL_REQ_ALLOWLIST = {
     "referencing",
     "torch",
     "urllib3",
+    "django-stubs",
+    "djangorestframework-stubs",
 }
 
 
