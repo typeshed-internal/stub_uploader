@@ -1,3 +1,7 @@
+## 1.3.0.20240318 (2024-03-18)
+
+Use `Final = ...` instead of `Final[Literal]` (#11623)
+
 ## 1.3.0.20240205 (2024-02-05)
 
 A new shade of Black (#11362)

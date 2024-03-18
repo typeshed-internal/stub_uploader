@@ -1,3 +1,7 @@
+## 2.0.0.20240318 (2024-03-18)
+
+Use `Final = ...` instead of `Final[Literal]` (#11623)
+
 ## 2.0.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)
