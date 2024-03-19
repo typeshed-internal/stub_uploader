@@ -1,3 +1,7 @@
+## 306.0.0.20240319 (2024-03-19)
+
+Improved pywin32 error and exception classes (#11613)
+
 ## 306.0.0.20240313 (2024-03-13)
 
 `pywin32`: Correctly reference `TimeType` aka `pywintypes.datetime` (#11577)
