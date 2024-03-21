@@ -1,3 +1,7 @@
+## 2.20.0.20240321 (2024-03-21)
+
+[stubsabot] Bump hdbcli to 2.20.* (#11628)
+
 ## 2.19.0.20240310 (2024-03-10)
 
 Bump mypy to 1.9, add to json.encoder, small fixups (#11549)

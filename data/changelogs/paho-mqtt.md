@@ -1,3 +1,7 @@
+## 1.6.0.20240321 (2024-03-21)
+
+Mark types-paho-mqtt as obsolete since v2.0.0 (#11635)
+
 ## 1.6.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)
