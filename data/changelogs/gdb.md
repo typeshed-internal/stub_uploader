@@ -1,3 +1,7 @@
+## 12.1.4.20240322 (2024-03-22)
+
+Overload gdb.execute return type (#11638)
+
 ## 12.1.4.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)
