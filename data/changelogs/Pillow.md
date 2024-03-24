@@ -1,3 +1,7 @@
+## 10.2.0.20240324 (2024-03-24)
+
+[Pillow] Annotate ImageSequence.pyi (#11625)
+
 ## 10.2.0.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)

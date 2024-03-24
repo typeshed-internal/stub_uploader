@@ -1,3 +1,19 @@
+## 2.0.0.20240324 (2024-03-24)
+
+[stubsabot] Bump requests-oauthlib to 2.0.* (#11649)
+
+Release: https://pypi.org/pypi/requests-oauthlib/2.0.0
+Homepage: https://github.com/requests/requests-oauthlib
+Repository: https://github.com/requests/requests-oauthlib
+Diff: https://github.com/requests/requests-oauthlib/compare/v1.4.0...v2.0.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 1 public Python file has been added: `tests/examples/__init__.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `requests_oauthlib/__init__.py`.
+ - Total lines of Python code added: 2.
+ - Total lines of Python code deleted: 4.
+
 ## 1.4.0.20240315 (2024-03-15)
 
 Bump requests-oauthlib to 1.4.* (#11601)
