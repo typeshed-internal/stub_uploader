@@ -29,7 +29,6 @@ import sys
 import tempfile
 from pathlib import Path
 from textwrap import dedent
-from typing import Optional
 
 from stub_uploader.const import (
     CHANGELOG_PATH,
@@ -135,8 +134,8 @@ class PackageData:
         self.base_path = base_path
         self.package_data = package_data
 
-    def package_path(self, package_name: str) -> Path:
-        """Return the path of a given package name.
+    def package_source_path(self, package_name: str) -> Path:
+        """Return the relative path of a given package name in the typeshed directory.
 
         The package name can use dotted notation to address sub-packages.
         The top-level package name can optionally include the "-stubs" suffix.
@@ -144,7 +143,18 @@ class PackageData:
         top_level, *sub_packages = package_name.split(".")
         if top_level.endswith(SUFFIX):
             top_level = top_level[: -len(SUFFIX)]
-        return self.base_path.joinpath(top_level, *sub_packages)
+        return Path(top_level, *sub_packages)
+
+    def package_build_path(self, package_name: str) -> Path:
+        """Return the relative path of a given package name in the build directory.
+
+        The package name can use dotted notation to address sub-packages.
+        The top-level package name will include the "-stubs" suffix.
+        """
+        top_level, *sub_packages = package_name.split(".")
+        if not top_level.endswith(SUFFIX):
+            top_level += SUFFIX
+        return Path(top_level, *sub_packages)
 
     def is_single_file_package(self, package_name: str) -> bool:
         filename = package_name.split("-")[0] + ".pyi"
@@ -167,7 +177,7 @@ class PackageData:
         This will return all packages that are not subpackages of any other
         package, other than namespace packages in dotted notation, e.g. if
         "flying" is a top level namespace package, and "circus" is a
-        non-namespace sub-package, this will return ["flying.circus"].
+        non-namespace sub-package, this will return ["flying-stubs.circus"].
         """
         packages: list[str] = []
         for top_level in self.top_level_packages:
@@ -178,7 +188,7 @@ class PackageData:
         return packages
 
     def _find_non_namespace_sub_packages(self, package: str) -> list[str]:
-        path = self.package_path(package)
+        path = self.base_path / self.package_source_path(package)
         if is_namespace_package(path):
             sub_packages: list[str] = []
             for entry in path.iterdir():
@@ -189,13 +199,12 @@ class PackageData:
         else:
             return [package]
 
-    def add_file(self, package: str, filename: str, file_contents: str) -> None:
-        """Add a file to a package."""
-        top_level = package.split(".")[0]
-        entry_path = self.package_path(package)
-        entry_path.mkdir(exist_ok=True)
-        (entry_path / filename).write_text(file_contents)
-        self.package_data[top_level].append(filename)
+    def add_file(self, package: str, filename: str) -> None:
+        """Add a file to a top-level package."""
+        top_level, *sub_packages = package.split(".")
+        assert top_level.endswith(SUFFIX)
+        path = Path(*sub_packages, filename)
+        self.package_data[top_level].append(str(path))
 
 
 def is_namespace_package(path: Path) -> bool:
@@ -260,6 +269,13 @@ def ensure_suffix(s: str, suffix: str) -> str:
     return s if s.endswith(suffix) else s + suffix
 
 
+def create_py_typed(metadata: Metadata, pkg_data: PackageData, dst: Path) -> None:
+    """Create py.typed files as necessary."""
+    for package in pkg_data.top_level_non_namespace_packages:
+        py_typed_path = dst / pkg_data.package_build_path(package) / "py.typed"
+        py_typed_path.write_text("partial\n" if metadata.partial else "")
+
+
 def copy_changelog(distribution: str, dst: str) -> None:
     """Copy changelog to the build directory."""
     try:
@@ -292,7 +308,10 @@ def collect_package_data(base_path: Path) -> PackageData:
         else:
             raise ValueError(f"Only stub files are allowed, not {entry.name!r}")
         package_data[pkg_name + SUFFIX] = [*stub_files, META]
-    return PackageData(base_path, package_data)
+    pkg_data = PackageData(base_path, package_data)
+    for package in pkg_data.top_level_non_namespace_packages:
+        pkg_data.add_file(package, "py.typed")
+    return pkg_data
 
 
 def is_ignored_distribution_file(entry: Path) -> bool:
@@ -314,14 +333,10 @@ def is_ignored_distribution_file(entry: Path) -> bool:
     return False
 
 
-def add_partial_markers(pkg_data: PackageData) -> None:
-    for package in pkg_data.top_level_non_namespace_packages:
-        pkg_data.add_file(package, "py.typed", "partial\n")
-
-
 def generate_setup_file(
-    build_data: BuildData,
     ts_data: TypeshedData,
+    build_data: BuildData,
+    pkg_data: PackageData,
     metadata: Metadata,
     version: str,
     commit: str,
@@ -330,9 +345,6 @@ def generate_setup_file(
     all_requirements = [
         str(req) for req in metadata.requires_typeshed + metadata.requires_external
     ]
-    pkg_data = collect_package_data(build_data.stub_dir)
-    if metadata.partial:
-        add_partial_markers(pkg_data)
     requires_python = (
         metadata.requires_python
         if metadata.requires_python is not None
@@ -394,7 +406,7 @@ def generate_long_description(
 
 
 def main(
-    typeshed_dir: str, distribution: str, version: str, build_dir: Optional[str] = None
+    typeshed_dir: str, distribution: str, version: str, build_dir: str | None = None
 ) -> str:
     """Generate a wheel for a third-party distribution in typeshed.
 
@@ -404,21 +416,29 @@ def main(
     created after uploading it.
     """
     ts_data = read_typeshed_data(Path(typeshed_dir))
+    # TODO: Merge BuildData and PackageData and encapsulate MetaData.
+    # See also https://github.com/typeshed-internal/stub_uploader/issues/123
     build_data = BuildData(typeshed_dir, distribution)
+    metadata = read_metadata(typeshed_dir, distribution)
+    pkg_data = collect_package_data(build_data.stub_dir)
     if build_dir:
         tmpdir = build_dir
     else:
         tmpdir = tempfile.mkdtemp()
-    commit = subprocess.run(
+    commit = subprocess.run(  # TODO: Move into TypeshedData.
         ["git", "rev-parse", "HEAD"],
         capture_output=True,
         text=True,
         cwd=typeshed_dir,
     ).stdout.strip()
-    metadata = read_metadata(typeshed_dir, distribution)
     with open(os.path.join(tmpdir, "setup.py"), "w") as f:
-        f.write(generate_setup_file(build_data, ts_data, metadata, version, commit))
+        f.write(
+            generate_setup_file(
+                ts_data, build_data, pkg_data, metadata, version, commit
+            )
+        )
     copy_stubs(build_data.stub_dir, Path(tmpdir))
+    create_py_typed(metadata, pkg_data, Path(tmpdir))
     copy_changelog(distribution, tmpdir)
     current_dir = os.getcwd()
     os.chdir(tmpdir)
