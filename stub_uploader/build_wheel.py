@@ -417,7 +417,7 @@ def main(
     """
     ts_data = read_typeshed_data(Path(typeshed_dir))
     # TODO: Merge BuildData and PackageData and encapsulate MetaData.
-    # See also https://github.com/typeshed-internal/stub_uploader/issues/123.
+    # See also https://github.com/typeshed-internal/stub_uploader/issues/123
     build_data = BuildData(typeshed_dir, distribution)
     metadata = read_metadata(typeshed_dir, distribution)
     pkg_data = collect_package_data(build_data.stub_dir)
