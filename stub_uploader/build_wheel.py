@@ -339,9 +339,9 @@ def generate_setup_file(
     pkg_data: PackageData,
     metadata: Metadata,
     version: str,
-    commit: str,
 ) -> str:
     """Auto-generate a setup.py file for given distribution using a template."""
+    commit = ts_data.read_current_commit()
     all_requirements = [
         str(req) for req in metadata.requires_typeshed + metadata.requires_external
     ]
@@ -422,30 +422,19 @@ def main(
     metadata = read_metadata(typeshed_dir, distribution)
     pkg_data = collect_package_data(build_data.stub_dir)
     if build_dir:
-        tmpdir = build_dir
+        tmpdir = Path(build_dir)
     else:
-        tmpdir = tempfile.mkdtemp()
-    commit = subprocess.run(  # TODO: Move into TypeshedData.
-        ["git", "rev-parse", "HEAD"],
-        capture_output=True,
-        text=True,
-        cwd=typeshed_dir,
-    ).stdout.strip()
-    with open(os.path.join(tmpdir, "setup.py"), "w") as f:
-        f.write(
-            generate_setup_file(
-                ts_data, build_data, pkg_data, metadata, version, commit
-            )
-        )
-    copy_stubs(build_data.stub_dir, Path(tmpdir))
-    create_py_typed(metadata, pkg_data, Path(tmpdir))
-    copy_changelog(distribution, tmpdir)
-    current_dir = os.getcwd()
-    os.chdir(tmpdir)
-    subprocess.run(
-        [sys.executable, "-m", "build", "--sdist", "--wheel", "--no-isolation"]
+        tmpdir = Path(tempfile.mkdtemp())
+    (tmpdir / "setup.py").write_text(
+        generate_setup_file(ts_data, build_data, pkg_data, metadata, version)
     )
-    os.chdir(current_dir)
+    copy_stubs(build_data.stub_dir, tmpdir)
+    create_py_typed(metadata, pkg_data, tmpdir)
+    copy_changelog(distribution, str(tmpdir))
+    subprocess.run(
+        [sys.executable, "-m", "build", "--sdist", "--wheel", "--no-isolation"],
+        cwd=tmpdir,
+    )
     return f"{tmpdir}/dist"
 
 
