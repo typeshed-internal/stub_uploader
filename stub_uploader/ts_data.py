@@ -8,6 +8,7 @@ import argparse
 from collections.abc import Iterable
 from dataclasses import dataclass, fields
 from pathlib import Path
+import subprocess
 
 from packaging.requirements import Requirement
 from tomli import load as toml_load
@@ -18,19 +19,29 @@ PYPROJECT = "pyproject.toml"
 
 @dataclass
 class TypeshedData:
+    typeshed_path: Path
     mypy_version: str
     pyright_version: str
     pytype_version: str
     oldest_supported_python: str
 
+    def read_current_commit(self) -> str:
+        return subprocess.run(
+            ["git", "rev-parse", "HEAD"],
+            capture_output=True,
+            text=True,
+            cwd=self.typeshed_path,
+        ).stdout.strip()
 
-def read_typeshed_data(typeshed_dir: Path) -> TypeshedData:
-    with (typeshed_dir / PYPROJECT).open("rb") as f:
+
+def read_typeshed_data(typeshed_path: Path) -> TypeshedData:
+    with (typeshed_path / PYPROJECT).open("rb") as f:
         pyproject = toml_load(f)
-    with (typeshed_dir / REQUIREMENTS).open() as f:
+    with (typeshed_path / REQUIREMENTS).open() as f:
         requirements = parse_requirements(f)
     typeshed_table = pyproject["tool"]["typeshed"]
     return TypeshedData(
+        typeshed_path=typeshed_path,
         mypy_version=requirements["mypy"],
         pyright_version=requirements["pyright"],
         pytype_version=requirements["pytype"],
