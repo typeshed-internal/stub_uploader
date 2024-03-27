@@ -1,3 +1,7 @@
+## 1.2.0.20240327 (2024-03-27)
+
+polib: Fix POEntry.occurrences (#11661)
+
 ## 1.2.0.20240115 (2024-01-15)
 
 [polib] Fix POEntry.msgstr_plural annotation (#11273)

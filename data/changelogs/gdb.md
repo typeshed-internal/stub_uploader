@@ -1,3 +1,10 @@
+## 12.1.4.20240327 (2024-03-27)
+
+Run gdb stubtests (#11644)
+
+The gdb package is only available inside gdb and cannot be installed externally through e.g. pip.
+Run the stubtest inside gdb.
+
 ## 12.1.4.20240322 (2024-03-22)
 
 Overload gdb.execute return type (#11638)

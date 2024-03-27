@@ -1,3 +1,7 @@
+## 1.7.7.20240327 (2024-03-27)
+
+Improve passlib.totp types (#11660)
+
 ## 1.7.7.20240311 (2024-03-11)
 
 Make stubtest pass on libsass/passlib/redis/tree-sitter if you're using Python 3.12 (#11561)
