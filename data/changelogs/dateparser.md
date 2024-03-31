@@ -1,3 +1,7 @@
+## 1.1.4.20240331 (2024-03-31)
+
+Remove bare Incomplete annotations in third-party stubs (#11671)
+
 ## 1.1.4.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

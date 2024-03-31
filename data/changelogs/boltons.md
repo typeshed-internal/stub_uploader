@@ -1,3 +1,7 @@
+## 23.1.0.20240331 (2024-03-31)
+
+Remove bare Incomplete annotations in third-party stubs (#11671)
+
 ## 23.1.0.20240310 (2024-03-10)
 
 Bump mypy to 1.9, add to json.encoder, small fixups (#11549)

@@ -1,3 +1,7 @@
+## 2.20.0.20240331 (2024-03-31)
+
+Remove bare Incomplete annotations in third-party stubs (#11671)
+
 ## 2.20.0.20240321 (2024-03-21)
 
 [stubsabot] Bump hdbcli to 2.20.* (#11628)

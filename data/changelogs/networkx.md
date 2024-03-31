@@ -1,3 +1,7 @@
+## 3.2.1.20240331 (2024-03-31)
+
+Remove bare Incomplete annotations in third-party stubs (#11671)
+
 ## 3.2.1.20240313 (2024-03-13)
 
 networkx: add another overload to OutEdgeView.__call__(). (#11578)

@@ -1,3 +1,7 @@
+## 2.7.8.20240331 (2024-03-31)
+
+Remove bare Incomplete annotations in third-party stubs (#11671)
+
 ## 2.7.8.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)

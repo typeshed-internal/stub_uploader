@@ -1,3 +1,9 @@
+## 0.20.0.20240331 (2024-03-31)
+
+Remove bare Incomplete annotations in third-party stubs (#11671)
+
+Add annotations to docutils.parsers.rst.directives.parts (#11667)
+
 ## 0.20.0.20240317 (2024-03-17)
 
 improve type annotations in 'docutils.nodes.Element' (#11539)

@@ -1,3 +1,7 @@
+## 10.2.0.20240331 (2024-03-31)
+
+Remove bare Incomplete annotations in third-party stubs (#11671)
+
 ## 10.2.0.20240324 (2024-03-24)
 
 [Pillow] Annotate ImageSequence.pyi (#11625)

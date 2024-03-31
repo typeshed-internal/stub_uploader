@@ -1,3 +1,7 @@
+## 0.10.0.20240331 (2024-03-31)
+
+Remove bare Incomplete annotations in third-party stubs (#11671)
+
 ## 0.10.0.10 (2023-11-24)
 
 Third-party stubs: remove unused `type: ignore`s (#11063)

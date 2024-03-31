@@ -1,3 +1,7 @@
+## 306.0.0.20240331 (2024-03-31)
+
+Various pywin32 improvements (#11616)
+
 ## 306.0.0.20240319 (2024-03-19)
 
 Improved pywin32 error and exception classes (#11613)
