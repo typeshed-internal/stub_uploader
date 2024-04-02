@@ -1,3 +1,7 @@
+## 3.1.0.20240402 (2024-04-02)
+
+`openpyxl`: Add `_WorkbookChild` / `ReadOnlyWorksheet` / `Workbook` annotations (#11677)
+
 ## 3.1.0.20240331 (2024-03-31)
 
 Remove bare Incomplete annotations in third-party stubs (#11671)

@@ -1,3 +1,7 @@
+## 2.31.0.20240402 (2024-04-02)
+
+requests: annotate RequestsCookieJar (#11656)
+
 ## 2.31.0.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)

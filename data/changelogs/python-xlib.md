@@ -1,3 +1,7 @@
+## 0.33.0.20240402 (2024-04-02)
+
+python-xlib: use `_typeshed.Unused` (#11691)
+
 ## 0.33.0.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)

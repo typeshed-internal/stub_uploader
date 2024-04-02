@@ -1,3 +1,13 @@
+## 4.28.0.20240402 (2024-04-02)
+
+braintree: Cleanup overzealous reexports from non `__init__` modules (#11692)
+
+braintree: Use `Final` for string constants (#11680)
+
+braintree: Replace usages of `Any` (#11679)
+
+stubtest-complete & Bump braintree to 4.28.* (#11678)
+
 ## 4.25.0.20240331 (2024-03-31)
 
 Remove bare Incomplete annotations in third-party stubs (#11671)
