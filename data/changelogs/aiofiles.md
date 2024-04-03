@@ -1,3 +1,7 @@
+## 23.2.0.20240403 (2024-04-03)
+
+[aiofiles] Annotate AiofilesContextManagerTempDir (#11705)
+
 ## 23.2.0.20240331 (2024-03-31)
 
 Remove bare Incomplete annotations in third-party stubs (#11671)

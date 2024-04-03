@@ -1,3 +1,7 @@
+## 2.31.0.20240403 (2024-04-03)
+
+requests: remove a `type: ignore` (#11704)
+
 ## 2.31.0.20240402 (2024-04-02)
 
 requests: annotate RequestsCookieJar (#11656)
