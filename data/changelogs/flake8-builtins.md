@@ -1,3 +1,10 @@
+## 2.4.0.20240404 (2024-04-04)
+
+[stubsabot] Bump flake8-builtins to 2.4.* (#11697)
+
+Co-authored-by: stubsabot <>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 2.3.0.20240331 (2024-03-31)
 
 Update flake8-builtins to 2.3.* (#11669)
