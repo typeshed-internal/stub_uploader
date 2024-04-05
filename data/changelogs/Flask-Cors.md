@@ -1,3 +1,7 @@
+## 4.0.0.20240405 (2024-04-05)
+
+Improve `flask-cors` stubs (#11708)
+
 ## 4.0.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)
