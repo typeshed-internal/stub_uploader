@@ -211,6 +211,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "Flask",
     "Flask-SQLAlchemy",
     "MarkupSafe",
+    "Pillow",
     "Werkzeug",
     "arrow",
     "click",
