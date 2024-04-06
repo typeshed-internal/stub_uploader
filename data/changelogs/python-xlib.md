@@ -1,3 +1,7 @@
+## 0.33.0.20240406 (2024-04-06)
+
+Depend on Pillow instead of types-Pillow (#11720)
+
 ## 0.33.0.20240402 (2024-04-02)
 
 python-xlib: use `_typeshed.Unused` (#11691)

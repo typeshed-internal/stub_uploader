@@ -1,3 +1,7 @@
+## 2.7.8.20240406 (2024-04-06)
+
+Depend on Pillow instead of types-Pillow (#11720)
+
 ## 2.7.8.20240331 (2024-03-31)
 
 Remove bare Incomplete annotations in third-party stubs (#11671)

@@ -1,3 +1,7 @@
+## 0.9.3.20240406 (2024-04-06)
+
+Depend on Pillow instead of types-Pillow (#11720)
+
 ## 0.9.3.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

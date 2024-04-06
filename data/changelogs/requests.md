@@ -1,3 +1,7 @@
+## 2.31.0.20240406 (2024-04-06)
+
+requests: export `packages` and `utils` (#11723)
+
 ## 2.31.0.20240403 (2024-04-03)
 
 requests: remove a `type: ignore` (#11704)

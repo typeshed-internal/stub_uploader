@@ -1,3 +1,7 @@
+## 0.1.30.20240406 (2024-04-06)
+
+Depend on Pillow instead of types-Pillow (#11720)
+
 ## 0.1.30.20240313 (2024-03-13)
 
 Make stubtest work on pyscreeze if you're using py312 (#11582)

@@ -1,3 +1,7 @@
+## 0.20.0.20240406 (2024-04-06)
+
+docutils: Correct 'parsers.rst.directives.format_values' (#11719)
+
 ## 0.20.0.20240331 (2024-03-31)
 
 Remove bare Incomplete annotations in third-party stubs (#11671)
