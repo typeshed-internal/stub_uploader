@@ -1,3 +1,7 @@
+## 0.33.0.20240407 (2024-04-07)
+
+[python-xlib] Use a protocol for PIL.Image.Image argument (#11722)
+
 ## 0.33.0.20240406 (2024-04-06)
 
 Depend on Pillow instead of types-Pillow (#11720)
