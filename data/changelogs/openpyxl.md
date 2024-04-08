@@ -1,3 +1,7 @@
+## 3.1.0.20240408 (2024-04-08)
+
+openpyxl: Reduce false-positives in `Worksheet.__getitem__` (#11717)
+
 ## 3.1.0.20240402 (2024-04-02)
 
 `openpyxl`: Add `_WorkbookChild` / `ReadOnlyWorksheet` / `Workbook` annotations (#11677)

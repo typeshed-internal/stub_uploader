@@ -1,3 +1,7 @@
+## 4.24.0.20240408 (2024-04-08)
+
+Bump protobuf to v24.4 and update generator script (#11693)
+
 ## 4.24.0.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)

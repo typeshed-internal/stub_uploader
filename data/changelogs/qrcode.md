@@ -1,3 +1,7 @@
+## 7.4.0.20240408 (2024-04-08)
+
+[qrcode] Add various annotations (#11726)
+
 ## 7.4.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

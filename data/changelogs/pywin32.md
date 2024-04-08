@@ -1,3 +1,9 @@
+## 306.0.0.20240408 (2024-04-08)
+
+pywin32: Improve SHGetPropertyStoreFromParsingName type definition (#11654)
+
+Improve SHGetPropertyStoreFromParsingName type definition
+
 ## 306.0.0.20240331 (2024-03-31)
 
 Various pywin32 improvements (#11616)

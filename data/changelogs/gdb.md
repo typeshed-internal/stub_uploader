@@ -1,3 +1,7 @@
+## 12.1.4.20240408 (2024-04-08)
+
+[gdb] Add __r{add,sub,mul,truediv,mod}__ for gdb.Value (#11707)
+
 ## 12.1.4.20240401 (2024-04-01)
 
 Update GDB stubs to 12.1 (#11665)

@@ -43,6 +43,7 @@ types-boto
 types-braintree
 types-cachetools
 types-caldav
+types-capturer
 types-certifi
 types-cffi
 types-characteristic
