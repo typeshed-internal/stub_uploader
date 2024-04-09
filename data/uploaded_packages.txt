@@ -97,6 +97,7 @@ types-httplib2
 types-humanfriendly
 types-hvac
 types-ibm-db
+types-icalendar
 types-influxdb-client
 types-inifile
 types-invoke
