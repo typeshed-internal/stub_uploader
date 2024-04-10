@@ -1,3 +1,7 @@
+## 4.25.0.20240410 (2024-04-10)
+
+Bump protobuf to v25.3 (#11694)
+
 ## 4.24.0.20240408 (2024-04-08)
 
 Bump protobuf to v24.4 and update generator script (#11693)
