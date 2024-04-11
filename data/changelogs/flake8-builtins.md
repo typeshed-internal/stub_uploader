@@ -1,3 +1,20 @@
+## 2.5.0.20240411 (2024-04-11)
+
+[stubsabot] Bump flake8-builtins to 2.5.* (#11739)
+
+Release: https://pypi.org/pypi/flake8-builtins/2.5.0
+Homepage: https://github.com/gforcada/flake8-builtins
+Repository: https://github.com/gforcada/flake8-builtins
+Changelog: https://github.com/gforcada/flake8-builtins/blob/main/CHANGES.rst
+Diff: https://github.com/gforcada/flake8-builtins/compare/2.4.0...2.5.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `flake8_builtins.py`.
+ - Total lines of Python code added: 5.
+ - Total lines of Python code deleted: 1.
+
 ## 2.4.0.20240404 (2024-04-04)
 
 [stubsabot] Bump flake8-builtins to 2.4.* (#11697)
