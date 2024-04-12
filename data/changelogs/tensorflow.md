@@ -1,3 +1,7 @@
+## 2.15.0.20240412 (2024-04-12)
+
+Bump flake8-pyi to 24.4.0 (#11745)
+
 ## 2.15.0.20240411 (2024-04-11)
 
 Bump mypy-protobuf in sync_tensorflow script and improve generation scripts (#11740)

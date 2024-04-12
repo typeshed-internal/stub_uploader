@@ -170,6 +170,7 @@ types-pytz
 types-pyvmomi
 types-pywin32
 types-pyxdg
+types-qrbill
 types-qrcode
 types-redis
 types-regex
