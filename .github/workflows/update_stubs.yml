@@ -7,6 +7,9 @@ on:
   # If needed, allows to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+env:
+  FORCE_COLOR: 1
+
 jobs:
   build-and-upload:
     runs-on: ubuntu-latest

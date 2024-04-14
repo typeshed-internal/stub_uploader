@@ -244,6 +244,8 @@ def extract_sdist_requires(
         file.write(resp.raw.read())
 
     with tarfile.open(archive_path) as file_in:
+        if hasattr(tarfile, "data_filter"):
+            file_in.extraction_filter = tarfile.data_filter
         file_in.extractall(tmpdir)
 
     # Only a single folder with "<package-version>.egg-info/requires.txt" in the archive should exist
