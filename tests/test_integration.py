@@ -130,15 +130,21 @@ def test_recursive_verify_single() -> None:
     m = read_metadata(TYPESHED, "six")
     assert recursive_verify(m, TYPESHED) == {"types-six"}
 
-    m = read_metadata(TYPESHED, "tzlocal")
-    assert recursive_verify(m, TYPESHED) == {"types-tzlocal", "types-pytz"}
+    m = read_metadata(TYPESHED, "requests-oauthlib")
+    assert recursive_verify(m, TYPESHED) == {
+        "types-requests-oauthlib",
+        "types-requests",
+        "types-oauthlib",
+    }
 
 
 def test_dependency_order_single() -> None:
-    assert list(sort_by_dependency(TYPESHED, ["tzlocal"])) == ["tzlocal"]
-    assert list(sort_by_dependency(TYPESHED, ["tzlocal", "pytz"])) == [
-        "pytz",
-        "tzlocal",
+    assert list(sort_by_dependency(TYPESHED, ["requests-oauthlib"])) == [
+        "requests-oauthlib"
+    ]
+    assert list(sort_by_dependency(TYPESHED, ["requests-oauthlib", "oauthlib"])) == [
+        "oauthlib",
+        "requests-oauthlib",
     ]
 
 
