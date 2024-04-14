@@ -9,6 +9,9 @@ on:
         required: true
         default: 0
 
+env:
+  FORCE_COLOR: 1
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
