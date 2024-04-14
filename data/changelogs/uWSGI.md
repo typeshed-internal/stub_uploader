@@ -1,3 +1,9 @@
+## 2.0.0.20240414 (2024-04-14)
+
+uwsgi: remove unused allowlist entry (#11754)
+
+Also wow, some of the logs that come from uwsgi are quite interesting
+
 ## 2.0.0.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)
