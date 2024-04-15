@@ -1,3 +1,9 @@
+## 69.5.0.20240415 (2024-04-15)
+
+Ensure that distutils and setuptools._distutils stay consistent (#11758)
+
+Update setuptools to 69.5.* (#11756)
+
 ## 69.2.0.20240317 (2024-03-17)
 
 Add `distutils` as a top-level package included with `types-setuptools` (#10948)

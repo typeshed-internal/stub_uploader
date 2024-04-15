@@ -1,3 +1,7 @@
+## 10.2.0.20240415 (2024-04-15)
+
+[stubsabot] Mark Pillow as obsolete since 10.3.0 (#11698)
+
 ## 10.2.0.20240406 (2024-04-06)
 
 Depend on Pillow instead of types-Pillow (#11720)
