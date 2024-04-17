@@ -1,3 +1,9 @@
+## 2.15.0.20240417 (2024-04-17)
+
+Remove remaining bare `Incomplete`s (#11768)
+
+Enable Y065
+
 ## 2.15.0.20240412 (2024-04-12)
 
 Bump flake8-pyi to 24.4.0 (#11745)

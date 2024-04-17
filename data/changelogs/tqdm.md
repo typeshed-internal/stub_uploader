@@ -1,3 +1,9 @@
+## 4.66.0.20240417 (2024-04-17)
+
+Remove remaining bare `Incomplete`s (#11768)
+
+Enable Y065
+
 ## 4.66.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

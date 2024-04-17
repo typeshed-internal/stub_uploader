@@ -1,3 +1,9 @@
+## 4.25.0.20240417 (2024-04-17)
+
+Remove remaining bare `Incomplete`s (#11768)
+
+Enable Y065
+
 ## 4.25.0.20240410 (2024-04-10)
 
 Bump protobuf to v25.3 (#11694)

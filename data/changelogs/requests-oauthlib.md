@@ -1,3 +1,9 @@
+## 2.0.0.20240417 (2024-04-17)
+
+Remove remaining bare `Incomplete`s (#11768)
+
+Enable Y065
+
 ## 2.0.0.20240324 (2024-03-24)
 
 [stubsabot] Bump requests-oauthlib to 2.0.* (#11649)

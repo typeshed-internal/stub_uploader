@@ -1,3 +1,9 @@
+## 6.6.0.20240417 (2024-04-17)
+
+Remove remaining bare `Incomplete`s (#11768)
+
+Enable Y065
+
 ## 6.6.0.20240415 (2024-04-15)
 
 Bump pyinstaller to 6.6.* (#11764)

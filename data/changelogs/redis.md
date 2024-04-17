@@ -1,3 +1,9 @@
+## 4.6.0.20240417 (2024-04-17)
+
+Remove remaining bare `Incomplete`s (#11768)
+
+Enable Y065
+
 ## 4.6.0.20240409 (2024-04-09)
 
 Rework redis/asyncio/{connection,sentinel}.pyi (#10370)

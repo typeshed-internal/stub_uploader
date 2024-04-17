@@ -1,3 +1,9 @@
+## 24.0.0.20240417 (2024-04-17)
+
+Remove remaining bare `Incomplete`s (#11768)
+
+Enable Y065
+
 ## 24.0.0.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)
