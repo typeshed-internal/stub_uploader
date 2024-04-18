@@ -1,3 +1,7 @@
+## 2.20.0.20240418 (2024-04-18)
+
+Update Ruff and enable F821 in stubs (#11771)
+
 ## 2.20.0.20240331 (2024-03-31)
 
 Remove bare Incomplete annotations in third-party stubs (#11671)

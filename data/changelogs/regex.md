@@ -1,3 +1,7 @@
+## 2024.4.16.20240418 (2024-04-18)
+
+[stubsabot] Bump regex to 2024.4.16 (#11773)
+
 ## 2023.12.25.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)
