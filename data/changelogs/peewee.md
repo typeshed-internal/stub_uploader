@@ -1,3 +1,7 @@
+## 3.17.3.20240420 (2024-04-20)
+
+Bump peewee to 3.17.3 and fix stubtest entries (#11787)
+
 ## 3.17.0.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)

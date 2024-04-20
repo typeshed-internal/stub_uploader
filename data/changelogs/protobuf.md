@@ -1,3 +1,9 @@
+## 5.26.0.20240420 (2024-04-20)
+
+Bump protobuf to 5.26.* (#11784)
+
+Also update generate_proto_stubs script
+
 ## 4.25.0.20240417 (2024-04-17)
 
 Remove remaining bare `Incomplete`s (#11768)

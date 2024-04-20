@@ -1,3 +1,7 @@
+## 1.2.0.20240420 (2024-04-20)
+
+Bump dateparser to 1.2.* (#11786)
+
 ## 1.1.4.20240331 (2024-03-31)
 
 Remove bare Incomplete annotations in third-party stubs (#11671)
