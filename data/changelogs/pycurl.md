@@ -1,3 +1,7 @@
+## 7.45.3.20240421 (2024-04-21)
+
+Bump pycurl to 7.45.3, update platform tests (#11792)
+
 ## 7.45.2.20240417 (2024-04-17)
 
 Remove remaining bare `Incomplete`s (#11768)

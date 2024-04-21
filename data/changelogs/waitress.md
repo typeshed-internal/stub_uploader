@@ -1,3 +1,7 @@
+## 2.1.4.20240421 (2024-04-21)
+
+`waitress`: stubtest-complete and update usage of Any (#11796)
+
 ## 2.1.4.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

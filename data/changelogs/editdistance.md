@@ -1,3 +1,7 @@
+## 0.8.0.20240421 (2024-04-21)
+
+Bump editdistance to 0.8.* (#11795)
+
 ## 0.6.3.5 (2023-07-20)
 
 Add a few more upstream_repository URLs (#10489)
