@@ -1,3 +1,7 @@
+## 5.26.0.20240422 (2024-04-22)
+
+Simplify protoc install in protobuf generation scripts (#11785)
+
 ## 5.26.0.20240420 (2024-04-20)
 
 Bump protobuf to 5.26.* (#11784)

@@ -1,3 +1,7 @@
+## 2.15.0.20240422 (2024-04-22)
+
+Simplify protoc install in protobuf generation scripts (#11785)
+
 ## 2.15.0.20240417 (2024-04-17)
 
 Remove remaining bare `Incomplete`s (#11768)
