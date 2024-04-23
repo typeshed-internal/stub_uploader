@@ -1,3 +1,7 @@
+## 3.4.0.20240423 (2024-04-23)
+
+paramiko: Replace str with FileDescriptorOrPath in many locations (#11800)
+
 ## 3.4.0.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)

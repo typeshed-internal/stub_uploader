@@ -1,3 +1,7 @@
+## 24.0.0.20240423 (2024-04-23)
+
+Bump boltons to 24.0.* (#11804)
+
 ## 23.1.0.20240331 (2024-03-31)
 
 Remove bare Incomplete annotations in third-party stubs (#11671)

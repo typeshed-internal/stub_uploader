@@ -1,3 +1,10 @@
+## 1.7.5.20240423 (2024-04-23)
+
+Add precise values for enum members where possible (#11299)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
+
 ## 1.7.5.20240311 (2024-03-11)
 
 Use Python 3.11 for third-party stubtest in CI (#11562)

@@ -1,3 +1,7 @@
+## 3.0.0.20240423 (2024-04-23)
+
+Bump waitress to 3.0.* (#11803)
+
 ## 2.1.4.20240421 (2024-04-21)
 
 `waitress`: stubtest-complete and update usage of Any (#11796)

@@ -1,3 +1,10 @@
+## 2.7.8.20240423 (2024-04-23)
+
+Add precise values for enum members where possible (#11299)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
+
 ## 2.7.8.20240406 (2024-04-06)
 
 Depend on Pillow instead of types-Pillow (#11720)

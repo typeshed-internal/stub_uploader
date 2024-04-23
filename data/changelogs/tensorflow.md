@@ -1,3 +1,7 @@
+## 2.16.0.20240423 (2024-04-23)
+
+Bump tensorflow to 2.16.* (#11696)
+
 ## 2.15.0.20240422 (2024-04-22)
 
 Simplify protoc install in protobuf generation scripts (#11785)

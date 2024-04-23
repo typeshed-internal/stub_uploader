@@ -1,3 +1,10 @@
+## 1.3.0.20240423 (2024-04-23)
+
+Add precise values for enum members where possible (#11299)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
+
 ## 1.3.0.20240318 (2024-03-18)
 
 Use `Final = ...` instead of `Final[Literal]` (#11623)

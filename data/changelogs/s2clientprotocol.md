@@ -1,3 +1,9 @@
+## 5.0.0.20240423 (2024-04-23)
+
+Create script to generate s2clientprotocol protobuf stubs (#11772)
+
+Regenerate using mypy-protobuf 3.6
+
 ## 5.0.0.20240302 (2024-03-02)
 
 Add pyupgrade check outdated-version-block (UP036) (#11509)

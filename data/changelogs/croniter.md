@@ -1,3 +1,7 @@
+## 2.0.0.20240423 (2024-04-23)
+
+croniter: add new `encoding` parameter to `is_valid` (#11808)
+
 ## 2.0.0.20240321 (2024-03-21)
 
 [croniter] Update to 2.0.3 (#11631)

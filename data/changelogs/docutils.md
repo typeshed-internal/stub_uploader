@@ -1,3 +1,7 @@
+## 0.21.0.20240423 (2024-04-23)
+
+Bump docutils to 0.21.* (#11805)
+
 ## 0.20.0.20240406 (2024-04-06)
 
 docutils: Correct 'parsers.rst.directives.format_values' (#11719)
