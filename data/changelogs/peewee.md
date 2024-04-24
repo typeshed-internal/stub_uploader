@@ -1,3 +1,10 @@
+## 3.17.3.20240424 (2024-04-24)
+
+Add peewee `playhouse.flask_utils` stubs (#11731)
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
+
 ## 3.17.3.20240420 (2024-04-20)
 
 Bump peewee to 3.17.3 and fix stubtest entries (#11787)

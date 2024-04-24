@@ -1,3 +1,7 @@
+## 3.2.1.20240424 (2024-04-24)
+
+Annotate a few NetworkX algorithm types (#11811)
+
 ## 3.2.1.20240331 (2024-03-31)
 
 Remove bare Incomplete annotations in third-party stubs (#11671)

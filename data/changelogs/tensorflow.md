@@ -1,3 +1,7 @@
+## 2.16.0.20240424 (2024-04-24)
+
+Fix stubtest errors in tensorflow with `keras>=3.3.2` (#11817)
+
 ## 2.16.0.20240423 (2024-04-23)
 
 Bump tensorflow to 2.16.* (#11696)
