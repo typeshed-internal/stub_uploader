@@ -1,3 +1,7 @@
+## 0.23.0.20240425 (2024-04-25)
+
+Bump pyright to v1.1.360 (#11810)
+
 ## 0.23.0.20240311 (2024-03-11)
 
 Make stubtest pass on libsass/passlib/redis/tree-sitter if you're using Python 3.12 (#11561)

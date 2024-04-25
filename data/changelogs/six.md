@@ -1,3 +1,7 @@
+## 1.16.21.20240425 (2024-04-25)
+
+Introduce SupportsContainsAndGetItem (#11827)
+
 ## 1.16.21.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)

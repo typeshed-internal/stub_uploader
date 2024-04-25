@@ -1,3 +1,7 @@
+## 3.2.1.20240425 (2024-04-25)
+
+[networkx] Fix incremental_closeness_centrality argument type (#11828)
+
 ## 3.2.1.20240424 (2024-04-24)
 
 Annotate a few NetworkX algorithm types (#11811)

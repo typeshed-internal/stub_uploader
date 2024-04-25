@@ -1,3 +1,7 @@
+## 24.2.0.20240425 (2024-04-25)
+
+Bump pyright to v1.1.360 (#11810)
+
 ## 24.2.0.20240315 (2024-03-15)
 
 chore(deps): update pytype and pyright (#11595)

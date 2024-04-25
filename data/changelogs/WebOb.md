@@ -1,3 +1,7 @@
+## 1.8.0.20240425 (2024-04-25)
+
+Bump pyright to v1.1.360 (#11810)
+
 ## 1.8.0.20240311 (2024-03-11)
 
 Replace Flake8 checks with Ruff (except for flake8-pyi) (#11496)

@@ -1,3 +1,7 @@
+## 5.1.0.20240425 (2024-04-25)
+
+Bump pyright to v1.1.360 (#11810)
+
 ## 5.1.0.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)

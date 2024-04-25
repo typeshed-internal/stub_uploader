@@ -1,3 +1,7 @@
+## 1.1.0.20240425 (2024-04-25)
+
+Bump pyright to v1.1.360 (#11810)
+
 ## 1.1.0.1 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

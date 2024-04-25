@@ -1,3 +1,9 @@
+## 2.0.0.20240425 (2024-04-25)
+
+Bump pyright to v1.1.360 (#11810)
+
+Disable uwsgi, pyaudio, jack-client stubtest on macOS (#11821)
+
 ## 2.0.0.20240414 (2024-04-14)
 
 uwsgi: remove unused allowlist entry (#11754)

@@ -1,3 +1,7 @@
+## 1.42.0.20240425 (2024-04-25)
+
+Introduce SupportsContainsAndGetItem (#11827)
+
 ## 1.42.0.20240423 (2024-04-23)
 
 Add precise values for enum members where possible (#11299)

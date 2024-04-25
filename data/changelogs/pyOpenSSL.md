@@ -1,3 +1,11 @@
+## 24.1.0.20240425 (2024-04-25)
+
+Bump OpenSSL to 24.1.* (#11816)
+
+Mark a few classes and functions as deprecated
+
+Closes: #11812
+
 ## 24.0.0.20240417 (2024-04-17)
 
 Remove remaining bare `Incomplete`s (#11768)
