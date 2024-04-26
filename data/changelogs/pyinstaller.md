@@ -1,3 +1,7 @@
+## 6.6.0.20240426 (2024-04-26)
+
+pyinstaller: allow `Splash(text_pos = None)` (#11835)
+
 ## 6.6.0.20240417 (2024-04-17)
 
 Remove remaining bare `Incomplete`s (#11768)
