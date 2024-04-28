@@ -1,3 +1,7 @@
+## 2.16.0.20240428 (2024-04-28)
+
+Fix stubtest for TensorFlow with latest keras release (#11838)
+
 ## 2.16.0.20240424 (2024-04-24)
 
 Fix stubtest errors in tensorflow with `keras>=3.3.2` (#11817)

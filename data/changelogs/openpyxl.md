@@ -1,3 +1,7 @@
+## 3.1.0.20240428 (2024-04-28)
+
+`openpyxl`: Use duck typing for workbook sheets (#11718)
+
 ## 3.1.0.20240425 (2024-04-25)
 
 Bump pyright to v1.1.360 (#11810)
