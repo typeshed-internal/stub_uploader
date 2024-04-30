@@ -1,3 +1,17 @@
+## 2024.4.28.20240430 (2024-04-30)
+
+[stubsabot] Bump regex to 2024.4.28 (#11842)
+
+Release: https://pypi.org/pypi/regex/2024.4.28
+Homepage: https://github.com/mrabarnett/mrab-regex
+Repository: https://github.com/mrabarnett/mrab-regex
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex
+Diff: https://github.com/mrabarnett/mrab-regex/compare/2024.4.16...2024.4.28
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 10.
+ - Total lines of Python code deleted: 7.
+
 ## 2024.4.16.20240423 (2024-04-23)
 
 Add precise values for enum members where possible (#11299)
