@@ -1,3 +1,21 @@
+## 4.22.0.20240501 (2024-05-01)
+
+[stubsabot] Bump jsonschema to 4.22.* (#11850)
+
+Release: https://pypi.org/pypi/jsonschema/4.22.0
+Homepage: https://github.com/python-jsonschema/jsonschema
+Repository: https://github.com/python-jsonschema/jsonschema
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/jsonschema
+Changelog: https://github.com/python-jsonschema/jsonschema/blob/main/CHANGELOG.rst
+Diff: https://github.com/python-jsonschema/jsonschema/compare/v4.21.1...v4.22.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 3 public Python files have been added: `jsonschema/benchmarks/const_vs_enum.py`, `jsonschema/benchmarks/useless_applicator_schemas.py`, `jsonschema/benchmarks/useless_keywords.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 6 files included in typeshed's stubs have been modified or renamed: `jsonschema/_format.py`, `jsonschema/_types.py`, `jsonschema/_utils.py`, `jsonschema/exceptions.py`, `jsonschema/protocols.py`, `jsonschema/validators.py`.
+ - Total lines of Python code added: 313.
+ - Total lines of Python code deleted: 21.
+
 ## 4.21.0.20240331 (2024-03-31)
 
 Remove bare Incomplete annotations in third-party stubs (#11671)

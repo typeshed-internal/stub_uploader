@@ -1,3 +1,7 @@
+## 7.0.0.20240501 (2024-05-01)
+
+ Improve docker api types (#11846)
+
 ## 7.0.0.20240430 (2024-04-30)
 
 Add types to docker/context (#11818)
