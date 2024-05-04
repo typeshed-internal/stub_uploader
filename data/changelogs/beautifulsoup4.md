@@ -1,3 +1,7 @@
+## 4.12.0.20240504 (2024-05-04)
+
+Add indent argument to HTMLFormatter and XMLFormatter inits (#11855)
+
 ## 4.12.0.20240229 (2024-02-29)
 
 bs4: Make `Tag.attrs` more permissive (#11487)
