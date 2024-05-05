@@ -204,6 +204,7 @@ types-typed-ast
 types-tzlocal
 types-uWSGI
 types-ujson
+types-unidiff
 types-untangle
 types-urllib3
 types-usersettings
