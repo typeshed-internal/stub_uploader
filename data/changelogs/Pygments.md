@@ -1,3 +1,29 @@
+## 2.18.0.20240506 (2024-05-06)
+
+[stubsabot] Bump Pygments to 2.18.* (#11861)
+
+Release: https://pypi.org/pypi/Pygments/2.18.0
+Homepage: https://pygments.org
+Repository: https://github.com/pygments/pygments
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Pygments
+Changelog: https://github.com/pygments/pygments/blob/master/CHANGES
+Diff: https://github.com/pygments/pygments/compare/2.17.2...2.18.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 5 public Python files have been added: `pygments/lexers/mojo.py`, `pygments/lexers/soong.py`, `pygments/lexers/tact.py`, `pygments/lexers/typst.py`, `pygments/styles/coffee.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 36 files included in typeshed's stubs have been modified or renamed.
+ - Total lines of Python code added: 4858.
+ - Total lines of Python code deleted: 2467.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 2.17.0.20240310 (2024-03-10)
 
 `docutils`: Use `ClassVar` for `Directive` class variables (#11550)

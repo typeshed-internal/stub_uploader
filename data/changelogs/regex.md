@@ -1,3 +1,14 @@
+## 2024.4.28.20240506 (2024-05-06)
+
+regex: improve Pattern annotations (#11862)
+
+- Corrected types for `pos` and `endpos` arguments to `int | None = None`
+- Corrected type for `timeout` argument to `float | None = None`
+- Added default value `None` for `concurrent` and `timeout` parameters
+- Added default value `0` for `maxsplit` parameter
+- Added `partial` parameter where applicable
+- Removed invalid `flags` parameter from `sub` methods
+
 ## 2024.4.28.20240430 (2024-04-30)
 
 [stubsabot] Bump regex to 2024.4.28 (#11842)

@@ -1,3 +1,7 @@
+## 7.0.0.20240506 (2024-05-06)
+
+Improve types in docker models (#11859)
+
 ## 7.0.0.20240503 (2024-05-03)
 
 [docker-py] Add return type for building a Docker image (#11851)
