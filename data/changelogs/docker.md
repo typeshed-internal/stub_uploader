@@ -1,3 +1,17 @@
+## 7.0.0.20240507 (2024-05-07)
+
+Add return type to Docker Container.stop (#11869)
+
+We can see at
+https://github.com/docker/docker-py/blob/b6464dbed92b14b2c61d5ee49805fce041a3e083/docker/models/containers.py#L452
+that this returns the return value of `self.client.api.stop`.
+
+We can see at
+https://github.com/docker/docker-py/blob/b6464dbed92b14b2c61d5ee49805fce041a3e083/docker/api/container.py#L1187
+that this returns None.
+
+Add return type to Docker Container.remove (#11868)
+
 ## 7.0.0.20240506 (2024-05-06)
 
 Improve types in docker models (#11859)
