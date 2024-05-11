@@ -1,3 +1,7 @@
+## 3.1.0.20240511 (2024-05-11)
+
+[stubsabot] Bump wurlitzer to 3.1.* (#11848)
+
 ## 3.0.0.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)

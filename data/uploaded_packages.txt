@@ -75,6 +75,7 @@ types-fanstatic
 types-fb303
 types-filelock
 types-first
+types-flake8
 types-flake8-2020
 types-flake8-bugbear
 types-flake8-builtins

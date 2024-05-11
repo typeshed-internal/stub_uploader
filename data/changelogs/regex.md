@@ -1,3 +1,17 @@
+## 2024.5.10.20240511 (2024-05-11)
+
+[stubsabot] Bump regex to 2024.5.10 (#11894)
+
+Release: https://pypi.org/pypi/regex/2024.5.10
+Homepage: https://github.com/mrabarnett/mrab-regex
+Repository: https://github.com/mrabarnett/mrab-regex
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex
+Diff: https://github.com/mrabarnett/mrab-regex/compare/2024.4.28...2024.5.10
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 6.
+ - Total lines of Python code deleted: 4.
+
 ## 2024.4.28.20240506 (2024-05-06)
 
 regex: improve Pattern annotations (#11862)

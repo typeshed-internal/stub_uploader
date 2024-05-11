@@ -1,3 +1,7 @@
+## 10.2.0.20240511 (2024-05-11)
+
+Add typehints for `open` in `PIL.WallImageFile` (#11887)
+
 ## 10.2.0.20240423 (2024-04-23)
 
 Add precise values for enum members where possible (#11299)

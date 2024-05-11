@@ -1,3 +1,7 @@
+## 4.12.0.20240511 (2024-05-11)
+
+stubs: [BeautifulSoup] fix incomplete type specs for formatter (#11885)
+
 ## 4.12.0.20240504 (2024-05-04)
 
 Add indent argument to HTMLFormatter and XMLFormatter inits (#11855)

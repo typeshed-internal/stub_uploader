@@ -1,3 +1,9 @@
+## 5.9.5.20240511 (2024-05-11)
+
+stubs: change psutil's Process.wait timeout argument to float (#11883)
+
+Fixes #11866
+
 ## 5.9.5.20240423 (2024-04-23)
 
 Add precise values for enum members where possible (#11299)

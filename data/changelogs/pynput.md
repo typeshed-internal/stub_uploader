@@ -1,3 +1,9 @@
+## 1.7.6.20240511 (2024-05-11)
+
+Pin pynput more tightly (#11897)
+
+Fixes  #11896
+
 ## 1.7.5.20240423 (2024-04-23)
 
 Add precise values for enum members where possible (#11299)

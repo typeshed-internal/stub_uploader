@@ -1,3 +1,7 @@
+## 7.0.0.20240511 (2024-05-11)
+
+Add some types to Docker ContainerCollection parameters (#11857)
+
 ## 7.0.0.20240507 (2024-05-07)
 
 Add return type to Docker Container.stop (#11869)
