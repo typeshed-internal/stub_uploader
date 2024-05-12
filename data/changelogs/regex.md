@@ -1,3 +1,7 @@
+## 2024.5.10.20240512 (2024-05-12)
+
+regex: functions do not accept any buffer for pattern (#11899)
+
 ## 2024.5.10.20240511 (2024-05-11)
 
 [stubsabot] Bump regex to 2024.5.10 (#11894)
