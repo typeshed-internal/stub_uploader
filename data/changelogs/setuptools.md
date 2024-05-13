@@ -1,3 +1,9 @@
+## 69.5.0.20240513 (2024-05-13)
+
+Avoid using new `_typeshed` protocol in `pkg_resources` for now (#11909)
+
+Use protocols instead of `importlib.abc.Loader/MetaPathFinder/PathEntryFinder` (#11890)
+
 ## 69.5.0.20240423 (2024-04-23)
 
 Add precise values for enum members where possible (#11299)

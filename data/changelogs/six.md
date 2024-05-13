@@ -1,3 +1,9 @@
+## 1.16.21.20240513 (2024-05-13)
+
+Replace types._Cell with types.CellType (#11904)
+
+Closes #11901
+
 ## 1.16.21.20240425 (2024-04-25)
 
 Introduce SupportsContainsAndGetItem (#11827)
