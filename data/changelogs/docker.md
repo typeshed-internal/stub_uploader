@@ -1,3 +1,7 @@
+## 7.0.0.20240515 (2024-05-15)
+
+Add a number of types to docker.models.containers (#11912)
+
 ## 7.0.0.20240513 (2024-05-13)
 
 Add many types to docker.api.container (#11911)

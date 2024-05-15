@@ -1,3 +1,17 @@
+## 5.10.0.20240515 (2024-05-15)
+
+[stubsabot] Bump ujson to 5.10.* (#11915)
+
+Release: https://pypi.org/pypi/ujson/5.10.0
+Homepage: https://github.com/ultrajson/ultrajson
+Repository: https://github.com/ultrajson/ultrajson
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/ujson
+Diff: https://github.com/ultrajson/ultrajson/compare/5.9.0...5.10.0
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 0.
+ - Total lines of Python code deleted: 0.
+
 ## 5.9.0.0 (2023-12-12)
 
 [stubsabot] Bump ujson to 5.9.* (#11143)

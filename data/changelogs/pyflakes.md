@@ -1,3 +1,7 @@
+## 3.2.0.20240515 (2024-05-15)
+
+[pyflakes] add backwards compatibility module (#11910)
+
 ## 3.2.0.20240106 (2024-01-06)
 
 [stubsabot] Bump pyflakes to 3.2.* (#11252)
