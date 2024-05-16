@@ -1,3 +1,7 @@
+## 2.0.0.20240516 (2024-05-16)
+
+uWSGI: Makes stubtest_allowlist_darwin more resilient against CI flakyness (#11819)
+
 ## 2.0.0.20240425 (2024-04-25)
 
 Bump pyright to v1.1.360 (#11810)

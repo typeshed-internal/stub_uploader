@@ -1,3 +1,9 @@
+## 2024.5.15.20240516 (2024-05-16)
+
+[stubsabot] Bump regex to 2024.5.15 (#11918)
+
+Co-authored-by: stubsabot <>
+
 ## 2024.5.10.20240512 (2024-05-12)
 
 regex: functions do not accept any buffer for pattern (#11899)

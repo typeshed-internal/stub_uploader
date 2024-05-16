@@ -1,3 +1,7 @@
+## 0.2.16.20240516 (2024-05-16)
+
+uWSGI: Makes stubtest_allowlist_darwin more resilient against CI flakyness (#11819)
+
 ## 0.2.16.20240425 (2024-04-25)
 
 Disable uwsgi, pyaudio, jack-client stubtest on macOS (#11821)

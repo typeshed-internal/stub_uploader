@@ -1,3 +1,10 @@
+## 5.9.5.20240516 (2024-05-16)
+
+Update dependency pyright to v1.1.363 (#11919)
+
+Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
+
 ## 5.9.5.20240511 (2024-05-11)
 
 stubs: change psutil's Process.wait timeout argument to float (#11883)
