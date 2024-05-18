@@ -1,3 +1,7 @@
+## 3.2.1.20240518 (2024-05-18)
+
+add networkx.topological_generations (#11927)
+
 ## 3.2.1.20240425 (2024-04-25)
 
 [networkx] Fix incremental_closeness_centrality argument type (#11828)

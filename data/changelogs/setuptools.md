@@ -1,3 +1,7 @@
+## 69.5.0.20240518 (2024-05-18)
+
+`distutils`: improve boolean parameters with int defaults (#11928)
+
 ## 69.5.0.20240513 (2024-05-13)
 
 Avoid using new `_typeshed` protocol in `pkg_resources` for now (#11909)
