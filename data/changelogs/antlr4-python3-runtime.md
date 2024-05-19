@@ -1,3 +1,7 @@
+## 4.13.0.20240519 (2024-05-19)
+
+Use assignment instead of annotation in third party enums (#11957)
+
 ## 4.13.0.20240331 (2024-03-31)
 
 Remove bare Incomplete annotations in third-party stubs (#11671)

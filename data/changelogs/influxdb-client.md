@@ -1,3 +1,7 @@
+## 1.43.0.20240519 (2024-05-19)
+
+[influxdb-client] Update to 1.43.* (#11954)
+
 ## 1.42.0.20240425 (2024-04-25)
 
 Introduce SupportsContainsAndGetItem (#11827)

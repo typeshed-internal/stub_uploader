@@ -1,3 +1,9 @@
+## 2024.5.15.20240519 (2024-05-19)
+
+Mark pos-only __class_getitem__ args (#11970)
+
+Use assignment instead of annotation in third party enums (#11957)
+
 ## 2024.5.15.20240516 (2024-05-16)
 
 [stubsabot] Bump regex to 2024.5.15 (#11918)

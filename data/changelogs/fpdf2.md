@@ -1,3 +1,9 @@
+## 2.7.9.20240519 (2024-05-19)
+
+Use assignment instead of annotation in third party enums (#11957)
+
+[fpdf2] Update to 2.7.9 (#11953)
+
 ## 2.7.8.20240423 (2024-04-23)
 
 Add precise values for enum members where possible (#11299)

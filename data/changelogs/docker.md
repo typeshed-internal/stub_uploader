@@ -1,3 +1,31 @@
+## 7.0.0.20240519 (2024-05-19)
+
+Fix type of Docker BuildError.build_log (#11917)
+
+In working this out I also had a go at changing the json_stream
+functions used to create every BuildError in docker-py.
+
+There are two `BuildError`s raised in docker-py, both in
+https://github.com/docker/docker-py/blob/b6464dbed92b14b2c61d5ee49805fce041a3e083/docker/models/images.py#L304-L315
+
+```python
+result_stream, internal_stream = itertools.tee(json_stream(resp))
+for chunk in internal_stream:
+    if 'error' in chunk:
+        raise BuildError(chunk['error'], result_stream)
+    if 'stream' in chunk:
+        match = re.search(
+            r'(^Successfully built |sha256:)([0-9a-f]+)$',
+            chunk['stream']
+        )
+        if match:
+            image_id = match.group(2)
+    last_event = chunk
+if image_id:
+    return (self.get(image_id), result_stream)
+raise BuildError(last_event or 'Unknown', result_stream)
+```
+
 ## 7.0.0.20240515 (2024-05-15)
 
 Add a number of types to docker.models.containers (#11912)

@@ -1,3 +1,9 @@
+## 69.5.0.20240519 (2024-05-19)
+
+Make `distutils.dist.Distribution.get_command_obj` not return `None` by default (#11950)
+
+`distutils` & `setuptools`: Complete `sub_commands` `ClassVar` typing (#11951)
+
 ## 69.5.0.20240518 (2024-05-18)
 
 `distutils`: improve boolean parameters with int defaults (#11928)
