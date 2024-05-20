@@ -1,3 +1,7 @@
+## 1.15.0.20240520 (2024-05-20)
+
+Bump pygit2 to 1.15 and fix enums (#11983)
+
 ## 1.14.0.20240317 (2024-03-17)
 
 pygit2: Workaround python/mypy#16972 (#11584)

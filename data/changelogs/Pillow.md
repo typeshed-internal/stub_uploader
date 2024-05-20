@@ -1,3 +1,7 @@
+## 10.2.0.20240520 (2024-05-20)
+
+Use assignments for enums in pillow (#11959)
+
 ## 10.2.0.20240511 (2024-05-11)
 
 Add typehints for `open` in `PIL.WallImageFile` (#11887)
