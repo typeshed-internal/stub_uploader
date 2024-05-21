@@ -1,3 +1,17 @@
+## 2.32.0.20240521 (2024-05-21)
+
+[stubsabot] Bump requests to 2.32.* (#11991)
+
+Release: https://pypi.org/pypi/requests/2.32.1
+Homepage: https://requests.readthedocs.io
+Repository: https://github.com/psf/requests
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/requests
+Diff: https://github.com/psf/requests/compare/v2.31.0...v2.32.1
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 486.
+ - Total lines of Python code deleted: 131.
+
 ## 2.31.0.20240406 (2024-04-06)
 
 requests: export `packages` and `utils` (#11723)
