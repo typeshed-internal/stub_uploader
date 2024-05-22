@@ -1,3 +1,7 @@
+## 0.14.0.20240522 (2024-05-22)
+
+[stubsabot] Bump pep8-naming to 0.14.* (#11924)
+
 ## 0.13.0.5 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

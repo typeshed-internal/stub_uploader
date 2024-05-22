@@ -1,3 +1,9 @@
+## 69.5.0.20240522 (2024-05-22)
+
+`distutils` & `setuptools`: Relax path related params (#11948)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 69.5.0.20240519 (2024-05-19)
 
 Make `distutils.dist.Distribution.get_command_obj` not return `None` by default (#11950)
