@@ -1,3 +1,9 @@
+## 2.32.0.20240523 (2024-05-23)
+
+[requests] Update to 2.32.2 (#12000)
+
+Also replace some `Any` annotations with `Incomplete` and use `Final` in `requests.__version__`.
+
 ## 2.32.0.20240521 (2024-05-21)
 
 [stubsabot] Bump requests to 2.32.* (#11991)

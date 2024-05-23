@@ -1,3 +1,7 @@
+## 7.0.0.20240523 (2024-05-23)
+
+Add types for Docker client from_env kwargs (#11989)
+
 ## 7.0.0.20240519 (2024-05-19)
 
 Fix type of Docker BuildError.build_log (#11917)

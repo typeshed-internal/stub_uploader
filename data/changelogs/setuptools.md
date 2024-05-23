@@ -1,3 +1,9 @@
+## 70.0.0.20240523 (2024-05-23)
+
+Make `shutil.rmtree.onexc` parameter optional (#12002)
+
+Bump setuptools to 70.0 (#11994)
+
 ## 69.5.0.20240522 (2024-05-22)
 
 `distutils` & `setuptools`: Relax path related params (#11948)

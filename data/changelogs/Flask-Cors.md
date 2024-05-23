@@ -1,3 +1,7 @@
+## 4.0.0.20240523 (2024-05-23)
+
+[Flask-Cors] accepts flask blueprints (#11995)
+
 ## 4.0.0.20240405 (2024-04-05)
 
 Improve `flask-cors` stubs (#11708)
