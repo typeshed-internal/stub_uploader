@@ -1,3 +1,9 @@
+## 1.1.0.20240524 (2024-05-24)
+
+Update PyMySQL to 1.1.1 (#12001)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 1.1.0.20240425 (2024-04-25)
 
 Bump pyright to v1.1.360 (#11810)

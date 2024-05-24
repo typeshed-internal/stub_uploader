@@ -1,3 +1,7 @@
+## 3.1.0.20240524 (2024-05-24)
+
+Bump python-crontab to 3.1.* (#12008)
+
 ## 3.0.0.20240417 (2024-04-17)
 
 Remove remaining bare `Incomplete`s (#11768)

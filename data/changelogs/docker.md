@@ -1,3 +1,7 @@
+## 7.0.0.20240524 (2024-05-24)
+
+Add types to parameters for Docker Network.disconnect (#12007)
+
 ## 7.0.0.20240523 (2024-05-23)
 
 Add types for Docker client from_env kwargs (#11989)

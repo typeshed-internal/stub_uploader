@@ -1,3 +1,7 @@
+## 70.0.0.20240524 (2024-05-24)
+
+Small fix for pkg_resources StrPath (#12015)
+
 ## 70.0.0.20240523 (2024-05-23)
 
 Make `shutil.rmtree.onexc` parameter optional (#12002)
