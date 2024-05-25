@@ -177,6 +177,7 @@ types-qrbill
 types-qrcode
 types-redis
 types-regex
+types-reportlab
 types-requests
 types-requests-oauthlib
 types-retry
