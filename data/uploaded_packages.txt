@@ -186,6 +186,7 @@ types-scribe
 types-seaborn
 types-selenium
 types-setuptools
+types-shapely
 types-simplejson
 types-singledispatch
 types-six
