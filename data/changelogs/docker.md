@@ -1,3 +1,7 @@
+## 7.0.0.20240527 (2024-05-27)
+
+Add return type for Docker Container wait (#12036)
+
 ## 7.0.0.20240524 (2024-05-24)
 
 Add types to parameters for Docker Network.disconnect (#12007)

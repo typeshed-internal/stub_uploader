@@ -1,3 +1,7 @@
+## 3.5.0.20240527 (2024-05-27)
+
+pyserial: serial: serialutil.pyi: fix excuslive float -> bool (#12035)
+
 ## 3.5.0.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)
