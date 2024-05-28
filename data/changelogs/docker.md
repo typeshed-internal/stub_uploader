@@ -1,3 +1,7 @@
+## 7.0.0.20240528 (2024-05-28)
+
+Add keyword argument types to `docker.models.containers.Container.wait()` (#12037)
+
 ## 7.0.0.20240527 (2024-05-27)
 
 Add return type for Docker Container wait (#12036)
