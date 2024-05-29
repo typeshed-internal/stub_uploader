@@ -1,3 +1,7 @@
+## 7.0.0.20240529 (2024-05-29)
+
+Add types to docker.models.containers.Container.logs (#12044)
+
 ## 7.0.0.20240528 (2024-05-28)
 
 Add keyword argument types to `docker.models.containers.Container.wait()` (#12037)
