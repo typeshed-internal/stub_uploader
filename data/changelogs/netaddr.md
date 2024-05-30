@@ -1,3 +1,7 @@
+## 1.3.0.20240530 (2024-05-30)
+
+Bump netaddr to version 1.3 (#12057)
+
 ## 1.2.0.20240331 (2024-03-31)
 
 Remove bare Incomplete annotations in third-party stubs (#11671)
