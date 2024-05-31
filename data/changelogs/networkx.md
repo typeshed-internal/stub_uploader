@@ -1,3 +1,7 @@
+## 3.2.1.20240531 (2024-05-31)
+
+[networks] Fix some functions requiring DiGraph objects (#12066)
+
 ## 3.2.1.20240518 (2024-05-18)
 
 add networkx.topological_generations (#11927)
