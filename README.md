@@ -38,9 +38,9 @@ logs to figure out the issue. If the token is expired, generate a new token on P
 
 ### Daily update of stubs from typeshed to PyPI
 
-[This](https://github.com/typeshed-internal/stub_uploader/actions?query=workflow%3A%22Daily+update+of+stubs+from+typeshed+to+PyPI%22)
+[This](https://github.com/typeshed-internal/stub_uploader/actions?query=workflow%3A%22Periodic+update+of+stubs+from+typeshed+to+PyPI%22)
 is the main action for automatically updating the stub packages. It is scheduled to run on a regular
-basis (currently every three hours). Note that GitHub cron scheduling is not very precise, and can schedule
+basis (currently daily). Note that GitHub cron scheduling is not very precise, and can schedule
 action several minutes late. If necessary, it can be run manually by clicking on "Run workflow".
 The action will fetch typeshed repository, take the diff from last successfully updated typeshed commit,
 and check if anything is changed in `/stubs` directory. If yes, it will build and upload corresponding
