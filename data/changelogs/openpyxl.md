@@ -1,3 +1,9 @@
+## 3.1.2.20240601 (2024-06-01)
+
+pin `openpyxl` to 3.1.2 (#12072)
+
+helps with #12059
+
 ## 3.1.0.20240428 (2024-04-28)
 
 `openpyxl`: Use duck typing for workbook sheets (#11718)

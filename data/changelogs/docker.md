@@ -1,3 +1,9 @@
+## 7.1.0.20240601 (2024-06-01)
+
+[docker] Annotate Container.stop() (#12052)
+
+Update docker to 7.1.x (#12068)
+
 ## 7.0.0.20240529 (2024-05-29)
 
 Add types to docker.models.containers.Container.logs (#12044)

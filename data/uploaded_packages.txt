@@ -118,6 +118,7 @@ types-maxminddb
 types-mock
 types-mypy-extensions
 types-mysqlclient
+types-nanoid
 types-netaddr
 types-networkx
 types-nmap
