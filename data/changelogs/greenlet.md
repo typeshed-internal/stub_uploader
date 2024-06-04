@@ -1,3 +1,7 @@
+## 3.0.0.20240604 (2024-06-04)
+
+greenlet: Adds missing `__version__` variable (#12089)
+
 ## 3.0.0.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)
