@@ -1,3 +1,7 @@
+## 2.14.0.20240606 (2024-06-06)
+
+[stubsabot] Bump aws-xray-sdk to 2.14.* (#12096)
+
 ## 2.13.0.20240423 (2024-04-23)
 
 Add precise values for enum members where possible (#11299)
