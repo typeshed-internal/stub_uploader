@@ -222,6 +222,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "referencing",
     "torch",
     "urllib3",
+    "tree-sitter",
 }
 
 
