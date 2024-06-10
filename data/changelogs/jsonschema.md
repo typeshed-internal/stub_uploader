@@ -1,3 +1,7 @@
+## 4.22.0.20240610 (2024-06-10)
+
+Ensure stubtest gets an older version of `webcolors` when testing `jsonschema` in CI (#12115)
+
 ## 4.22.0.20240501 (2024-05-01)
 
 [stubsabot] Bump jsonschema to 4.22.* (#11850)
