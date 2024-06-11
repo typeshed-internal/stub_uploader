@@ -221,6 +221,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "pandas-stubs",
     "referencing",
     "torch",
+    "tree-sitter",
     "urllib3",
 }
 
