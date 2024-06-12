@@ -1,3 +1,7 @@
+## 1.10.0.20240612 (2024-06-12)
+
+Remove `tree-sitter` (#12118)
+
 ## 1.10.0.20240201 (2024-02-01)
 
 [stubsabot] Bump tree-sitter-languages to 1.10.* (#11228)
