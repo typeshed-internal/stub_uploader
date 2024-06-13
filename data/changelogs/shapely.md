@@ -1,3 +1,9 @@
+## 2.0.0.20240613 (2024-06-13)
+
+Upgrade to latest 3.12 and 3.13 versions for stubtest (#12131)
+
+Bump flake8-pyi to 24.6.0 (#12132)
+
 ## 2.0.0.20240602 (2024-06-02)
 
 Update shapely enums (#12078)
