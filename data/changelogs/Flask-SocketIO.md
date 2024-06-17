@@ -1,3 +1,7 @@
+## 5.3.0.20240617 (2024-06-17)
+
+Flask-SocketIO: fix type hints (#12140)
+
 ## 5.3.0.20240331 (2024-03-31)
 
 Remove bare Incomplete annotations in third-party stubs (#11671)

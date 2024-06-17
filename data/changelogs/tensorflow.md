@@ -1,3 +1,7 @@
+## 2.16.0.20240617 (2024-06-17)
+
+Replace `np.float_` alias removed in numpy 2.0 (#12138)
+
 ## 2.16.0.20240606 (2024-06-06)
 
 Add stubs for tf.math.angle to math.pyi (#12099)

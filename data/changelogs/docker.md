@@ -1,3 +1,7 @@
+## 7.1.0.20240617 (2024-06-17)
+
+[docker] Add a number of types to docker.models.containers.Container (#12077)
+
 ## 7.1.0.20240601 (2024-06-01)
 
 [docker] Annotate Container.stop() (#12052)
