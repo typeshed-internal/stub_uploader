@@ -1,3 +1,9 @@
+## 0.13.2.20240618 (2024-06-18)
+
+Pin various stubs to numpy to < 2 (#12152)
+
+Fixes #12146
+
 ## 0.13.2.20240417 (2024-04-17)
 
 Remove remaining bare `Incomplete`s (#11768)

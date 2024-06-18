@@ -1,3 +1,9 @@
+## 2.0.0.20240618 (2024-06-18)
+
+Pin various stubs to numpy to < 2 (#12152)
+
+Fixes #12146
+
 ## 2.0.0.20240613 (2024-06-13)
 
 Upgrade to latest 3.12 and 3.13 versions for stubtest (#12131)

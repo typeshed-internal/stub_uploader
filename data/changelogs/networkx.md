@@ -1,3 +1,9 @@
+## 3.2.1.20240618 (2024-06-18)
+
+Pin various stubs to numpy to < 2 (#12152)
+
+Fixes #12146
+
 ## 3.2.1.20240531 (2024-05-31)
 
 [networks] Fix some functions requiring DiGraph objects (#12066)

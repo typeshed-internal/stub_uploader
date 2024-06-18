@@ -1,3 +1,9 @@
+## 2.16.0.20240618 (2024-06-18)
+
+Pin various stubs to numpy to < 2 (#12152)
+
+Fixes #12146
+
 ## 2.16.0.20240617 (2024-06-17)
 
 Replace `np.float_` alias removed in numpy 2.0 (#12138)
