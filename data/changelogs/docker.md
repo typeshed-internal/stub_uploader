@@ -1,3 +1,10 @@
+## 7.1.0.20240621 (2024-06-21)
+
+Add some types for Docker.api.network.NetworkApiMixing.create_network parameters (#12156)
+
+See implementation at
+https://github.com/docker/docker-py/blob/a3652028b1ead708bd9191efb286f909ba6c2a49/docker/api/network.py#L40
+
 ## 7.1.0.20240617 (2024-06-17)
 
 [docker] Add a number of types to docker.models.containers.Container (#12077)

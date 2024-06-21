@@ -1,3 +1,11 @@
+## 6.0.0.20240621 (2024-06-21)
+
+psutil: deprecate `Process.connections` (#12174)
+
+Bump psutil to 6.0.* (#12167)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## 5.9.5.20240516 (2024-05-16)
 
 Update dependency pyright to v1.1.363 (#11919)

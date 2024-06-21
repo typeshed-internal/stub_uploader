@@ -1,3 +1,13 @@
+## 3.1.4.20240621 (2024-06-21)
+
+[openpyxl] Update to 3.1.4 (#12142)
+
+Also make sequence types generic
+
+[openpyxl] Fix key of Worksheet.row_dimensions (#12143)
+
+Closes: #11845
+
 ## 3.1.2.20240601 (2024-06-01)
 
 pin `openpyxl` to 3.1.2 (#12072)

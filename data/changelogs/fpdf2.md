@@ -1,3 +1,10 @@
+## 2.7.9.20240621 (2024-06-21)
+
+fpdf2: improve `text_align` types and `.table()` method signature (#12123)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 2.7.9.20240519 (2024-05-19)
 
 Use assignment instead of annotation in third party enums (#11957)
