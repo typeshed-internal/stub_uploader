@@ -1,3 +1,7 @@
+## 2.32.0.20240622 (2024-06-22)
+
+requests: Fix Response.content return type to include None (#12180)
+
 ## 2.32.0.20240602 (2024-06-02)
 
 [requests] Update to 2.32.3 (#12060)
