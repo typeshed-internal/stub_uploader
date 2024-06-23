@@ -1,3 +1,7 @@
+## 23.2.0.20240623 (2024-06-23)
+
+Add missing delete on close arg for `aiofiles.NamedTemporaryFile`  (#12110)
+
 ## 23.2.0.20240403 (2024-04-03)
 
 [aiofiles] Annotate AiofilesContextManagerTempDir (#11705)
