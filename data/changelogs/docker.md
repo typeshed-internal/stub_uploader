@@ -1,3 +1,7 @@
+## 7.1.0.20240624 (2024-06-24)
+
+Use more specific types for Docker create_network (#12187)
+
 ## 7.1.0.20240621 (2024-06-21)
 
 Add some types for Docker.api.network.NetworkApiMixing.create_network parameters (#12156)
