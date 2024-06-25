@@ -1,3 +1,13 @@
+## 7.1.0.20240625 (2024-06-25)
+
+Add more specific types to Docker network inspect/get equivalent methods (#12188)
+
+Add types for container and net_id parameters in docker/api/network (#12042)
+
+Add parameter types to docker's NetworkCollection create (#12190)
+
+Add more precise types in docker.types.containers (#12191)
+
 ## 7.1.0.20240624 (2024-06-24)
 
 Use more specific types for Docker create_network (#12187)

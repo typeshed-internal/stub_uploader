@@ -1,3 +1,7 @@
+## 70.1.0.20240625 (2024-06-25)
+
+[setuptools] Update to 71.1.* (#12176)
+
 ## 70.0.0.20240524 (2024-05-24)
 
 Small fix for pkg_resources StrPath (#12015)
