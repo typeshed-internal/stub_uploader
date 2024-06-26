@@ -1,3 +1,7 @@
+## 0.47.0.20240626 (2024-06-26)
+
+Updated olefile types (#12097)
+
 ## 0.47.0.20240301 (2024-03-01)
 
 Fix invalid noqa comments and poorly formatted type ignores (#11497)

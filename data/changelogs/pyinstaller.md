@@ -1,3 +1,7 @@
+## 6.8.0.20240626 (2024-06-26)
+
+Bump pyinstaller to 6.8.* (#12198)
+
 ## 6.6.0.20240426 (2024-04-26)
 
 pyinstaller: allow `Splash(text_pos = None)` (#11835)

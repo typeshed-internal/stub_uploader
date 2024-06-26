@@ -1,3 +1,13 @@
+## 7.1.0.20240626 (2024-06-26)
+
+Add more keyword argument types for Docker pull (#12210)
+
+Add parameter types to docker.models.images.ImageCollection.build (#12196)
+
+Introduce stubs-only module `docker._types`.
+
+Add return types to docker container run (#12206)
+
 ## 7.1.0.20240625 (2024-06-25)
 
 Add more specific types to Docker network inspect/get equivalent methods (#12188)

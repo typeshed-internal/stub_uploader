@@ -1,3 +1,7 @@
+## 24.1.0.20240626 (2024-06-26)
+
+[aiofiles] Update to 24.1 (#12207)
+
 ## 23.2.0.20240623 (2024-06-23)
 
 Add missing delete on close arg for `aiofiles.NamedTemporaryFile`  (#12110)
