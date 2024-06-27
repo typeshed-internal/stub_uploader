@@ -216,6 +216,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "arrow",
     "click",
     "cryptography",
+    "django-stubs",
     "matplotlib",
     "numpy",
     "pandas-stubs",
