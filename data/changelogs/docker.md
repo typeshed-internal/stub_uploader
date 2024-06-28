@@ -1,3 +1,11 @@
+## 7.1.0.20240628 (2024-06-28)
+
+Add kwarg types to Docker container run and create (#12216)
+
+Add Container wait return type at Docker model layer (#12217)
+
+Also, improve type for the API layer. Previously, the type accounted for a 404 response. However, in the 404 case, a `docker.errors.NotFound` exception is raised.
+
 ## 7.1.0.20240626 (2024-06-26)
 
 Add more keyword argument types for Docker pull (#12210)
