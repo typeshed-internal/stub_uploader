@@ -1,3 +1,7 @@
+## 7.1.0.20240629 (2024-06-29)
+
+Allow users of docker run, create to not give name/version (#12234)
+
 ## 7.1.0.20240628 (2024-06-28)
 
 Add kwarg types to Docker container run and create (#12216)
