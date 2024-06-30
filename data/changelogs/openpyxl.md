@@ -1,3 +1,7 @@
+## 3.1.5.20240630 (2024-06-30)
+
+Bump openpyxl to 3.1.5 (#12238)
+
 ## 3.1.4.20240626 (2024-06-26)
 
 Copy `openpyxl`'s `Worksheet.__getitem__()` and `.__iter__()` to `ReadOnlyWorksheet` (#12202)
