@@ -1,3 +1,7 @@
+## 4.2.2.20240701 (2024-07-01)
+
+Bump reportlab to 4.2.2 (#12227)
+
 ## 4.2.0.20240627 (2024-06-27)
 
 Add upstream_repository for reportlab (#12223)
