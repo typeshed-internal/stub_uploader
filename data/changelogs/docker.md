@@ -1,3 +1,9 @@
+## 7.1.0.20240703 (2024-07-03)
+
+Specify stream type of Docker logs (#12214)
+
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 7.1.0.20240629 (2024-06-29)
 
 Allow users of docker run, create to not give name/version (#12234)

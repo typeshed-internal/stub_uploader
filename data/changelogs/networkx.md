@@ -1,3 +1,7 @@
+## 3.2.1.20240703 (2024-07-03)
+
+add stubs for networx.has_path (#12252)
+
 ## 3.2.1.20240618 (2024-06-18)
 
 Pin various stubs to numpy to < 2 (#12152)

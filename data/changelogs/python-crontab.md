@@ -1,3 +1,7 @@
+## 3.2.0.20240703 (2024-07-03)
+
+[stubsabot] Bump python-crontab to 3.2.* (#12253)
+
 ## 3.1.0.20240524 (2024-05-24)
 
 Bump python-crontab to 3.1.* (#12008)
