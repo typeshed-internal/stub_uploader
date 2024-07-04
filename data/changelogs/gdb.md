@@ -1,3 +1,7 @@
+## 12.1.4.20240704 (2024-07-04)
+
+Add `global_context` keyword to `gdb.parse_and_eval` in GDB stub (#12269)
+
 ## 12.1.4.20240408 (2024-04-08)
 
 [gdb] Add __r{add,sub,mul,truediv,mod}__ for gdb.Value (#11707)

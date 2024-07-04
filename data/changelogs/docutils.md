@@ -1,3 +1,7 @@
+## 0.21.0.20240704 (2024-07-04)
+
+Expand docutils.parsters.rst.states (#12226)
+
 ## 0.21.0.20240423 (2024-04-23)
 
 Bump docutils to 0.21.* (#11805)
