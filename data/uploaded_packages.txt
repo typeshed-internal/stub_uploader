@@ -193,6 +193,7 @@ types-singledispatch
 types-six
 types-slumber
 types-stdlib-list
+types-str2bool
 types-stripe
 types-tabulate
 types-tensorflow
