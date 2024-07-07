@@ -1,3 +1,7 @@
+## 0.6.3.20240707 (2024-07-07)
+
+`is_lazy_fixture` in `pytest-lazy-fixture` is a `TypeIs` function (#12285)
+
 ## 0.6.3.20240310 (2024-03-10)
 
 Bump mypy to 1.9, add to json.encoder, small fixups (#11549)
