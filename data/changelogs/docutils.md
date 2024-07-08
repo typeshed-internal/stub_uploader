@@ -1,3 +1,7 @@
+## 0.21.0.20240708 (2024-07-08)
+
+remove generic 'context' from 'docutils.parsers.rst.RSTState' (#12291)
+
 ## 0.21.0.20240704 (2024-07-04)
 
 Expand docutils.parsters.rst.states (#12226)
