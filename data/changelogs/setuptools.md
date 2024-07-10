@@ -1,3 +1,28 @@
+## 70.3.0.20240710 (2024-07-10)
+
+[stubsabot] Bump setuptools to 70.3.* (#12308)
+
+Release: https://pypi.org/pypi/setuptools/70.3.0
+Repository: https://github.com/pypa/setuptools
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/setuptools
+Changelog: https://setuptools.pypa.io/en/stable/history.html
+Diff: https://github.com/pypa/setuptools/compare/v70.2.0...v70.3.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `setuptools/_distutils/sysconfig.py`.
+ - Total lines of Python code added: 35.
+ - Total lines of Python code deleted: 2.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 70.2.0.20240704 (2024-07-04)
 
 Bump setuptools to 70.2.* (#12261)

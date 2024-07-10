@@ -1,3 +1,7 @@
+## 0.21.0.20240710 (2024-07-10)
+
+improve type annotations in 'docutils.parsers.rst.states' (#11545)
+
 ## 0.21.0.20240708 (2024-07-08)
 
 remove generic 'context' from 'docutils.parsers.rst.RSTState' (#12291)

@@ -1,3 +1,9 @@
+## 6.9.0.20240710 (2024-07-10)
+
+[stubsabot] Bump pyinstaller to 6.9.* (#12289)
+
+Co-authored-by: stubsabot <>
+
 ## 6.8.0.20240626 (2024-06-26)
 
 Bump pyinstaller to 6.8.* (#12198)
