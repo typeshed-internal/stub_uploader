@@ -115,7 +115,8 @@ types and metadata should be contributed there.
 
 DESCRIPTION_OUTRO_TEMPLATE = """
 See https://github.com/python/typeshed/blob/main/README.md for more details.
-This package was generated from typeshed commit `{commit}` and was tested
+This package was generated from typeshed commit
+[`{commit}`](https://github.com/python/typeshed/commit/{commit}) and was tested
 with mypy {ts_data.mypy_version}, pyright {ts_data.pyright_version}, and
 pytype {ts_data.pytype_version}.
 """.strip()
