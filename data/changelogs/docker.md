@@ -1,3 +1,7 @@
+## 7.1.0.20240711 (2024-07-11)
+
+[docker] Update ports type annotation (#12284)
+
 ## 7.1.0.20240703 (2024-07-03)
 
 Specify stream type of Docker logs (#12214)
