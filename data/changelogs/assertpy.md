@@ -1,3 +1,11 @@
+## 1.1.0.20240712 (2024-07-12)
+
+Update assertpy/string.pyi to correct type of pattern arg (#12235)
+
+The methods requires the pattern arg to be of type str, not Pattern.
+
+Signed-off-by: BJ Hargrave <bj@hargrave.dev>
+
 ## 1.1.0.20240703 (2024-07-03)
 
 Update assertpy/extracting.pyi so that kwargs are not required (#12229)

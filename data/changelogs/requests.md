@@ -1,3 +1,9 @@
+## 2.32.0.20240712 (2024-07-12)
+
+requests: Add connection property (type HTTPAdapter) to the Response class (#12279)
+
+The `Response` instance is built by `HTTPAdapter`. When built, a property called `connection` is added to the `Response` that points back to the `HTTPAdapter` that created it. For example, this is used in the `requests` library's `HTTPDigestAuth` class to remake requests with credentials after authorization is requested by a server.
+
 ## 2.32.0.20240622 (2024-06-22)
 
 requests: Fix Response.content return type to include None (#12180)
