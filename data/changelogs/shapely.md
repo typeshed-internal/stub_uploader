@@ -1,3 +1,9 @@
+## 2.0.0.20240714 (2024-07-14)
+
+Fix stubtest for shapely (#12339)
+
+Fixes #12338
+
 ## 2.0.0.20240618 (2024-06-18)
 
 Pin various stubs to numpy to < 2 (#12152)
