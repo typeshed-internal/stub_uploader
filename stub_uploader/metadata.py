@@ -215,14 +215,14 @@ EXTERNAL_REQ_ALLOWLIST = {
     "arrow",
     "click",
     "cryptography",
+    "django-stubs",
+    "djangorestframework-stubs",
     "matplotlib",
     "numpy",
     "pandas-stubs",
     "referencing",
     "torch",
     "urllib3",
-    "django-stubs",
-    "djangorestframework-stubs",
 }
 
 
