@@ -12,7 +12,7 @@ TBD
 
 ## Typeshed Data
 
-To ensure that a compromised typeshed repository can't lead to copromised
+To ensure that a compromised typeshed repository can't lead to compromised
 stub packages, all typeshed data is verified by the stub uploader before
 building packages. The stub uploader ensures that only stub and metadata
 files are added to the stub packages. This also means that no code from the
