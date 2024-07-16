@@ -32,3 +32,10 @@ allowed:
   upstream package, this does not introduce an additional security liability.
 * Dependencies that are explicitly allowlisted in the stub uploader. These
   dependencies are vetted to be from a trusted source.
+
+## PyPI Uploads
+
+Stub packages are uploaded to PyPI by the PyPI user
+[typeshed_bot](https://pypi.org/user/typeshed_bot/) using an API token.
+The packages are owned solely by that user, so that no other user can
+upload new versions of the packages, in case an account gets compromised.
