@@ -8,7 +8,15 @@ stub packages, this could have significant security implications.
 
 ## Maintainers
 
-TBD
+Only a small number of typeshed maintainers have commit rights for this
+repository to minimize the attack vector in case of hacked accounts. This
+is also the reason that this repository is part of a separate GitHub
+organization and not the [python](https://github.com/python) or
+[psf](https://github.com/psf) organizations, like typeshed is.
+
+Typeshed maintainers without commit right are still considered maintainers
+of the stub uploader and are encouraged to manage issues and send and review
+pull requests.
 
 ## Typeshed Data
 
