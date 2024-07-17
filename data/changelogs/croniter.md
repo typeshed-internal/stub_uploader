@@ -1,3 +1,7 @@
+## 2.0.5.20240717 (2024-07-17)
+
+Pin `croniter` to 2.0.5 (#12356)
+
 ## 2.0.0.20240423 (2024-04-23)
 
 croniter: add new `encoding` parameter to `is_valid` (#11808)

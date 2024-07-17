@@ -1,3 +1,7 @@
+## 5.4.0.20240717 (2024-07-17)
+
+Bump cachetools to 5.4.* (#12353)
+
 ## 5.3.0.7 (2023-10-27)
 
 Remove many redundant inheritances from `Generic[]` (#10933)
