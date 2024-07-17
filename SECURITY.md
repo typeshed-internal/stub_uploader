@@ -14,7 +14,7 @@ is also the reason that this repository is part of a separate GitHub
 organization and not the [python](https://github.com/python) or
 [psf](https://github.com/psf) organizations, like typeshed is.
 
-Typeshed maintainers without commit right are still considered maintainers
+Typeshed maintainers without commit rights are still considered maintainers
 of the stub uploader and are encouraged to manage issues and send and review
 pull requests.
 
