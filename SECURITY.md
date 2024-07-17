@@ -47,3 +47,7 @@ Stub packages are uploaded to PyPI by the PyPI user
 [typeshed_bot](https://pypi.org/user/typeshed_bot/) using an API token.
 The packages are owned solely by that user, so that no other user can
 upload new versions of the packages, in case an account gets compromised.
+
+## Reporting a Vulnerability
+
+To report an issue, go to https://github.com/typeshed-internal/stub_uploader/security. We commit to respond to any issue within 14 days and promptly fix any problems.
