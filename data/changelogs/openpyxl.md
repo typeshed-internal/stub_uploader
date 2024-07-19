@@ -1,3 +1,9 @@
+## 3.1.5.20240719 (2024-07-19)
+
+Openpyxl fixes for worksheet and image. (#12363)
+
+Add dimensions for openpyxl Image. (#12362)
+
 ## 3.1.5.20240630 (2024-06-30)
 
 Bump openpyxl to 3.1.5 (#12238)
