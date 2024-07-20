@@ -1,3 +1,7 @@
+## 7.1.0.20240720 (2024-07-20)
+
+[docker] Add restart_policy type annotation to Container model (#12366)
+
 ## 7.1.0.20240711 (2024-07-11)
 
 [docker] Update ports type annotation (#12284)
