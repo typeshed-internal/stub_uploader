@@ -222,6 +222,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "numpy",
     "pandas-stubs",
     "referencing",
+    "setuptools",
     "torch",
     "tree-sitter",
     "urllib3",
