@@ -29,7 +29,7 @@ modules must be imported.
 
 ## Dependencies
 
-Another possible attack vector are dependencies of stub packages.
+Another possible attack vector is dependencies of stub packages.
 A compromised dependency can have a similar effect to when a stub package
 gets compromised directly. Therefore, only certain dependencies are
 allowed:
@@ -46,7 +46,8 @@ allowed:
 Stub packages are uploaded to PyPI by the PyPI user
 [typeshed_bot](https://pypi.org/user/typeshed_bot/) using an API token.
 The packages are owned solely by that user, so that no other user can
-upload new versions of the packages, in case an account gets compromised.
+upload new versions of the packages, in case the account of a
+maintainer becomes compromised.
 
 ## Reporting a Vulnerability
 
