@@ -45,8 +45,8 @@ allowed:
 
 Stub packages are uploaded to PyPI by the PyPI user
 [typeshed_bot](https://pypi.org/user/typeshed_bot/) using an API token.
-The packages are owned solely by that user, so that no other user can
-upload new versions of the packages, in case the account of a
+The packages are owned solely by that user, so that no other PyPI user can
+upload new versions of the packages, in case the PyPI account of a
 maintainer becomes compromised.
 
 ## Reporting a Vulnerability
