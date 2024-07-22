@@ -1,3 +1,7 @@
+## 3.17.6.20240722 (2024-07-22)
+
+add some missing or incorrect types to peewee (#12251)
+
 ## 3.17.6.20240712 (2024-07-12)
 
 [stubsabot] Bump peewee to 3.17.6 (#12290)
