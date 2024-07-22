@@ -1,4 +1,4 @@
-# stub_uploader
+# Typeshed Stub Uploader
 
 [![Build status](https://github.com/typeshed-internal/stub_uploader/actions/workflows/check_scripts.yml/badge.svg)](https://github.com/typeshed-internal/stub_uploader/actions/workflows/check_scripts.yml)
 [![Upload status](https://github.com/typeshed-internal/stub_uploader/actions/workflows/update_stubs.yml/badge.svg)](https://github.com/typeshed-internal/stub_uploader/actions/workflows/update_stubs.yml)
@@ -60,3 +60,7 @@ and entering `.*` will select all packages.
 Note that this action also sorts packages in the dependency order, but it doesn't update the typeshed commit. It may update
 [list of uploaded packages](https://github.com/typeshed-internal/stub_uploader/blob/main/data/uploaded_packages.txt)
 if this is the first time the package is uploaded.
+
+## Security Implications
+
+Please see the [SECURITY.md](./SECURITY.md) document for more information.
