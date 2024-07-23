@@ -1,3 +1,7 @@
+## 71.1.0.20240723 (2024-07-23)
+
+Bump setuptools to 71.1.* and mark `pkg_resources` as obsolete (#12397)
+
 ## 71.0.0.20240722 (2024-07-22)
 
 Bump setuptools to 71.0.* (#12381)

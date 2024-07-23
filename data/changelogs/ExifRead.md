@@ -1,3 +1,9 @@
+## 3.0.0.20240723 (2024-07-23)
+
+ExifRead: Fix `Reader.__iter__()` (#12402)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 3.0.0.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)
