@@ -1,3 +1,9 @@
+## 0.21.0.20240724 (2024-07-24)
+
+Add type annotations for 'docutils.writers.latex2e.Babel' (#12394)
+
+Add docutils.utils.roman (#12393)
+
 ## 0.21.0.20240711 (2024-07-11)
 
 Docutils: wrong type: SystemMessage vs system_message (#12314)

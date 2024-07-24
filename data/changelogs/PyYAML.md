@@ -1,3 +1,7 @@
+## 6.0.12.20240724 (2024-07-24)
+
+Improve `yaml/constructor.pyi` types (#12404)
+
 ## 6.0.12.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)

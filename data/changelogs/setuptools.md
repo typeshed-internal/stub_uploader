@@ -1,3 +1,9 @@
+## 71.1.0.20240724 (2024-07-24)
+
+`setuptools` & `distutils`: `ClassVar` mutables (and tuples) (#12403)
+
+`distutils`: Type `execute` using `TypeVarTuple` (#12405)
+
 ## 71.1.0.20240723 (2024-07-23)
 
 Bump setuptools to 71.1.* and mark `pkg_resources` as obsolete (#12397)

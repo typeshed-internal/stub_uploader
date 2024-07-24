@@ -1,3 +1,7 @@
+## 0.23.0.20240724 (2024-07-24)
+
+`setuptools` & `distutils`: `ClassVar` mutables (and tuples) (#12403)
+
 ## 0.23.0.20240425 (2024-04-25)
 
 Bump pyright to v1.1.360 (#11810)
