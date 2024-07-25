@@ -1,3 +1,7 @@
+## 4.29.0.20240725 (2024-07-25)
+
+Bump braintree to 4.29.* (#12421)
+
 ## 4.28.0.20240405 (2024-04-05)
 
 Braintree: `PaymentMethodNonce.three_d_secure_info` can be `None` (#11711)
