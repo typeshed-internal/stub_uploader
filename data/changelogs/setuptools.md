@@ -1,3 +1,9 @@
+## 71.1.0.20240726 (2024-07-26)
+
+Setuptools stubs update from merging upstream (#12400)
+
+Replace bare Any in setuptools (#12406)
+
 ## 71.1.0.20240724 (2024-07-24)
 
 `setuptools` & `distutils`: `ClassVar` mutables (and tuples) (#12403)
