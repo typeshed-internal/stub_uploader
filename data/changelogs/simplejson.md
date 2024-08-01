@@ -1,3 +1,9 @@
+## 3.19.0.20240801 (2024-08-01)
+
+Allow `simplejson` encoding arguments to be `None`. (#12466)
+
+Allow None in encoding parameter.
+
 ## 3.19.0.20240310 (2024-03-10)
 
 Bump mypy to 1.9, add to json.encoder, small fixups (#11549)
