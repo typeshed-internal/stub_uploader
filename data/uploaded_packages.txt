@@ -22,6 +22,7 @@ types-RPi.GPIO
 types-Routes
 types-SQLAlchemy
 types-Send2Trash
+types-TgCrypto
 types-WTForms
 types-WebOb
 types-Werkzeug
