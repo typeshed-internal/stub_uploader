@@ -1,3 +1,7 @@
+## 2.0.0.20240804 (2024-08-04)
+
+Remove numpy version pin for several stubs(#12476)
+
 ## 2.0.0.20240714 (2024-07-14)
 
 Fix stubtest for shapely (#12339)

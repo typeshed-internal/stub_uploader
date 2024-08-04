@@ -1,3 +1,7 @@
+## 2.16.0.20240804 (2024-08-04)
+
+Remove numpy version pin for several stubs(#12476)
+
 ## 2.16.0.20240627 (2024-06-27)
 
 [tensorflow] Pin keras to 3.3.* (#12221)
