@@ -73,7 +73,7 @@ setup(name=name,
       install_requires={requires},
       packages={packages},
       package_data={package_data},
-      license="Apache-2.0 license",
+      license="Apache-2.0",
       python_requires="{requires_python}",
       classifiers=[
           "License :: OSI Approved :: Apache Software License",
