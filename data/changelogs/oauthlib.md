@@ -1,3 +1,7 @@
+## 3.2.0.20240806 (2024-08-06)
+
+Bump mypy to 1.11.1 (#12463)
+
 ## 3.2.0.20240217 (2024-02-17)
 
 oauthlib: Fix annotations for `oauthlib.oauth2.RequestValidator` (#11417)

@@ -1,3 +1,7 @@
+## 7.1.0.20240806 (2024-08-06)
+
+Bump mypy to 1.11.1 (#12463)
+
 ## 7.1.0.20240720 (2024-07-20)
 
 [docker] Add restart_policy type annotation to Container model (#12366)

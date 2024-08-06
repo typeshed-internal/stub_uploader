@@ -1,3 +1,7 @@
+## 2.0.0.20240806 (2024-08-06)
+
+Bump mypy to 1.11.1 (#12463)
+
 ## 2.0.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

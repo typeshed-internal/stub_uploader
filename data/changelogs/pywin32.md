@@ -1,3 +1,7 @@
+## 306.0.0.20240806 (2024-08-06)
+
+Bump mypy to 1.11.1 (#12463)
+
 ## 306.0.0.20240408 (2024-04-08)
 
 pywin32: Improve SHGetPropertyStoreFromParsingName type definition (#11654)

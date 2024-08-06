@@ -1,3 +1,7 @@
+## 3.1.5.20240806 (2024-08-06)
+
+Bump mypy to 1.11.1 (#12463)
+
 ## 3.1.5.20240719 (2024-07-19)
 
 Openpyxl fixes for worksheet and image. (#12363)

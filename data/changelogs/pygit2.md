@@ -1,3 +1,7 @@
+## 1.15.0.20240806 (2024-08-06)
+
+Add reexport to RemoteCallbacks in pygit2 (#12483)
+
 ## 1.15.0.20240714 (2024-07-14)
 
 Bump pygit2 to 1.15.* (#12319)

@@ -1,3 +1,7 @@
+## 71.1.0.20240806 (2024-08-06)
+
+Bump mypy to 1.11.1 (#12463)
+
 ## 71.1.0.20240726 (2024-07-26)
 
 Setuptools stubs update from merging upstream (#12400)
