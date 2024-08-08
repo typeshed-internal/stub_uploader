@@ -1,3 +1,7 @@
+## 6.0.12.20240808 (2024-08-08)
+
+[PyYAML] stubtest: Ignore auto-generated methods (#12497)
+
 ## 6.0.12.20240724 (2024-07-24)
 
 Improve `yaml/constructor.pyi` types (#12404)
