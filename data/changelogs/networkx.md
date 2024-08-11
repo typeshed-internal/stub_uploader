@@ -1,3 +1,7 @@
+## 3.2.1.20240811 (2024-08-11)
+
+networkx: Fix stubtest errors and remove numpy version pin (#12477)
+
 ## 3.2.1.20240806 (2024-08-06)
 
 Bump mypy to 1.11.1 (#12463)

@@ -1,3 +1,7 @@
+## 1.2.0.20240811 (2024-08-11)
+
+Fix type hint for `msgctxt` parameter in `polib` (#12506)
+
 ## 1.2.0.20240327 (2024-03-27)
 
 polib: Fix POEntry.occurrences (#11661)
