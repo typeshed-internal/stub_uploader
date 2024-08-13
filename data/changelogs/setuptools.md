@@ -1,3 +1,9 @@
+## 71.1.0.20240813 (2024-08-13)
+
+Use Generator instead of Iterator for 3rd-party context managers (#12481)
+
+`distutils` & `setuptools`: all possible dynamic command method overloads (#12507)
+
 ## 71.1.0.20240806 (2024-08-06)
 
 Bump mypy to 1.11.1 (#12463)

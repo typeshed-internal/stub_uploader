@@ -1,3 +1,7 @@
+## 4.23.0.20240813 (2024-08-13)
+
+Use Generator instead of Iterator for 3rd-party context managers (#12481)
+
 ## 4.23.0.20240712 (2024-07-12)
 
 [jsonschema] Update to 4.23.* (#12301)

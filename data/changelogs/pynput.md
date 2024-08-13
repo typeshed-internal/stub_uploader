@@ -1,3 +1,7 @@
+## 1.7.7.20240813 (2024-08-13)
+
+Use Generator instead of Iterator for 3rd-party context managers (#12481)
+
 ## 1.7.7.20240601 (2024-06-01)
 
 Bump pynput to 1.7.7 (#12069)

@@ -1,3 +1,7 @@
+## 1.15.0.20240813 (2024-08-13)
+
+Use Generator instead of Iterator for 3rd-party context managers (#12481)
+
 ## 1.15.0.20240806 (2024-08-06)
 
 Add reexport to RemoteCallbacks in pygit2 (#12483)

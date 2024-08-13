@@ -1,3 +1,9 @@
+## 2.17.0.20240813 (2024-08-13)
+
+Use Generator instead of Iterator for 3rd-party context managers (#12481)
+
+Bump tensorflow to 2.17.* (#12512)
+
 ## 2.16.0.20240804 (2024-08-04)
 
 Remove numpy version pin for several stubs(#12476)

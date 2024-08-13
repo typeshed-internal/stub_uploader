@@ -1,3 +1,7 @@
+## 3.17.6.20240813 (2024-08-13)
+
+Use Generator instead of Iterator for 3rd-party context managers (#12481)
+
 ## 3.17.6.20240806 (2024-08-06)
 
 Bump mypy to 1.11.1 (#12463)

@@ -1,3 +1,7 @@
+## 2.7.9.20240813 (2024-08-13)
+
+Use Generator instead of Iterator for 3rd-party context managers (#12481)
+
 ## 2.7.9.20240621 (2024-06-21)
 
 fpdf2: improve `text_align` types and `.table()` method signature (#12123)

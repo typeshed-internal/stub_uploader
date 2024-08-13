@@ -1,3 +1,7 @@
+## 3.2.1.20240813 (2024-08-13)
+
+Add graph attribute to networkx.Graph (#12505)
+
 ## 3.2.1.20240811 (2024-08-11)
 
 networkx: Fix stubtest errors and remove numpy version pin (#12477)
