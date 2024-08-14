@@ -58,6 +58,7 @@ types-colorama
 types-commonmark
 types-console-menu
 types-contextvars
+types-corus
 types-croniter
 types-cryptography
 types-dataclasses
