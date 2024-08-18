@@ -1,3 +1,7 @@
+## 71.1.0.20240818 (2024-08-18)
+
+Update incorrect or incomplete constants in distutils (#12536)
+
 ## 71.1.0.20240813 (2024-08-13)
 
 Use Generator instead of Iterator for 3rd-party context managers (#12481)
