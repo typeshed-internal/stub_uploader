@@ -1,3 +1,7 @@
+## 0.13.2.20240820 (2024-08-20)
+
+Pin numpy in various stubs (#12554)
+
 ## 0.13.2.20240813 (2024-08-13)
 
 Use Generator instead of Iterator for 3rd-party context managers (#12481)

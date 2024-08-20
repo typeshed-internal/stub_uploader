@@ -1,3 +1,7 @@
+## 0.5.10.20240820 (2024-08-20)
+
+Pin numpy in various stubs (#12554)
+
 ## 0.5.10.20240425 (2024-04-25)
 
 Disable uwsgi, pyaudio, jack-client stubtest on macOS (#11821)

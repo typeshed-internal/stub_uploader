@@ -1,3 +1,7 @@
+## 2.0.0.20240820 (2024-08-20)
+
+Pin numpy in various stubs (#12554)
+
 ## 2.0.0.20240804 (2024-08-04)
 
 Remove numpy version pin for several stubs(#12476)

@@ -1,3 +1,7 @@
+## 3.2.1.20240820 (2024-08-20)
+
+Pin numpy in various stubs (#12554)
+
 ## 3.2.1.20240813 (2024-08-13)
 
 Add graph attribute to networkx.Graph (#12505)
