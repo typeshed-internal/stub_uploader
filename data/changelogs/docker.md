@@ -1,3 +1,7 @@
+## 7.1.0.20240821 (2024-08-21)
+
+chunk_size parameter of get_image accepts None (#12560)
+
 ## 7.1.0.20240806 (2024-08-06)
 
 Bump mypy to 1.11.1 (#12463)

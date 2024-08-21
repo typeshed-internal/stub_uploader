@@ -1,3 +1,10 @@
+## 72.2.0.20240821 (2024-08-21)
+
+Bump setuptools to 72.2.* (#12461)
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## 71.1.0.20240818 (2024-08-18)
 
 Update incorrect or incomplete constants in distutils (#12536)

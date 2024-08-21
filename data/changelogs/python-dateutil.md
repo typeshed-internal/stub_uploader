@@ -1,3 +1,7 @@
+## 2.9.0.20240821 (2024-08-21)
+
+Fix types for python-dateutil's relativedelta (#12561)
+
 ## 2.9.0.20240316 (2024-03-16)
 
 python-dateutil: respect inheritance on relativedelta.__rsub__ (#11462) (#11463)
