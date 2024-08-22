@@ -1,3 +1,11 @@
+## 3.7.0.20240822 (2024-08-22)
+
+Bump Markdown to 3.7.* (#12565)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 3.6.0.20240316 (2024-03-16)
 
 [Markdown] Bump to 3.6.* (#11607)

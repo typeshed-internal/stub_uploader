@@ -1,3 +1,7 @@
+## 306.0.0.20240822 (2024-08-22)
+
+Using precise code for `pyright: ignore` and re-enabling various pyright tests (#12576)
+
 ## 306.0.0.20240806 (2024-08-06)
 
 Bump mypy to 1.11.1 (#12463)

@@ -1,3 +1,9 @@
+## 1.0.1.20240822 (2024-08-22)
+
+[stubsabot] Bump PyScreeze to 1.0.1 (#12566)
+
+Co-authored-by: stubsabot <>
+
 ## 0.1.30.20240406 (2024-04-06)
 
 Depend on Pillow instead of types-Pillow (#11720)

@@ -1,3 +1,7 @@
+## 1.8.0.20240822 (2024-08-22)
+
+Using precise code for `pyright: ignore` and re-enabling various pyright tests (#12576)
+
 ## 1.8.0.20240520 (2024-05-20)
 
 Add 3.13 to our CI (#11926)

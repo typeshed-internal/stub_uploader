@@ -1,3 +1,7 @@
+## 10.2.0.20240822 (2024-08-22)
+
+Using precise code for `pyright: ignore` and re-enabling various pyright tests (#12576)
+
 ## 10.2.0.20240520 (2024-05-20)
 
 Use assignments for enums in pillow (#11959)

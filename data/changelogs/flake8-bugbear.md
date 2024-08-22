@@ -1,3 +1,7 @@
+## 24.8.19.20240822 (2024-08-22)
+
+[stubsabot] Bump flake8-bugbear to 24.8.19 (#12567)
+
 ## 24.4.26.20240428 (2024-04-28)
 
 [stubsabot] Bump flake8-bugbear to 24.4.26 (#11836)

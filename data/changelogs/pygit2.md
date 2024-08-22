@@ -1,3 +1,7 @@
+## 1.15.0.20240822 (2024-08-22)
+
+Using precise code for `pyright: ignore` and re-enabling various pyright tests (#12576)
+
 ## 1.15.0.20240813 (2024-08-13)
 
 Use Generator instead of Iterator for 3rd-party context managers (#12481)
