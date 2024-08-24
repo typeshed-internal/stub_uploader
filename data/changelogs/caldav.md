@@ -1,3 +1,7 @@
+## 1.3.0.20240824 (2024-08-24)
+
+Resolve some stubtest allowlist entries by marking params as keyword-only (#12581)
+
 ## 1.3.0.20240331 (2024-03-31)
 
 Remove bare Incomplete annotations in third-party stubs (#11671)

@@ -1,3 +1,7 @@
+## 0.6.0.20240824 (2024-08-24)
+
+Resolve some stubtest allowlist entries by marking params as keyword-only (#12581)
+
 ## 0.6.0.20240402 (2024-04-02)
 
 Bump pyasn1 to 0.6.* (#11681)
