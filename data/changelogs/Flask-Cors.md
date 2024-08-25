@@ -1,3 +1,7 @@
+## 4.0.0.20240825 (2024-08-25)
+
+Add missing constants to flask-cors stubs (#12585)
+
 ## 4.0.0.20240806 (2024-08-06)
 
 Bump mypy to 1.11.1 (#12463)
