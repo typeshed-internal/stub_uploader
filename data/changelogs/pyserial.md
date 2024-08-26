@@ -1,3 +1,7 @@
+## 3.5.0.20240826 (2024-08-26)
+
+pyserial: Replace IO classes with protocols (#12572)
+
 ## 3.5.0.20240527 (2024-05-27)
 
 pyserial: serial: serialutil.pyi: fix excuslive float -> bool (#12035)
