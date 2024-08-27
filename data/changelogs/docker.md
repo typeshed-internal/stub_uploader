@@ -1,3 +1,7 @@
+## 7.1.0.20240827 (2024-08-27)
+
+[docker-py] Fix 'volumes' argument type hint for 'run' and 'create' functions in containers.pyi (#12594)
+
 ## 7.1.0.20240821 (2024-08-21)
 
 chunk_size parameter of get_image accepts None (#12560)
