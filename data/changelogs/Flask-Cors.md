@@ -1,3 +1,7 @@
+## 4.0.0.20240828 (2024-08-28)
+
+[Flask-Cors] Mark constants using `Final` (#12596)
+
 ## 4.0.0.20240825 (2024-08-25)
 
 Add missing constants to flask-cors stubs (#12585)
