@@ -1,3 +1,7 @@
+## 74.0.0.20240831 (2024-08-31)
+
+distutils: expose `Command.dry_run` + make `0|1` attrs `bool` (#12607)
+
 ## 74.0.0.20240830 (2024-08-30)
 
 Bump setuptools to 74.0.* (#12599)
