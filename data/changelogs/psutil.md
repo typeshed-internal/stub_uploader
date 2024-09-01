@@ -1,3 +1,7 @@
+## 6.0.0.20240901 (2024-09-01)
+
+Fix types for psutil.cpu_* functions (#12602)
+
 ## 6.0.0.20240621 (2024-06-21)
 
 psutil: deprecate `Process.connections` (#12174)
