@@ -1,3 +1,9 @@
+## 3.0.0.20240902 (2024-09-02)
+
+[stubsabot] Bump python-datemath to 3.0.* (#12583)
+
+Co-authored-by: stubsabot <>
+
 ## 1.5.0.4 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

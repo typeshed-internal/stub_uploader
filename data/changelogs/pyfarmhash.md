@@ -1,3 +1,9 @@
+## 0.4.0.20240902 (2024-09-02)
+
+[stubsabot] Bump pyfarmhash to 0.4.* (#12597)
+
+Co-authored-by: stubsabot <>
+
 ## 0.3.1.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)

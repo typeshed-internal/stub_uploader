@@ -1,3 +1,9 @@
+## 5.0.0.20240902 (2024-09-02)
+
+[stubsabot] Bump Flask-Cors to 5.0.* (#12609)
+
+Co-authored-by: stubsabot <>
+
 ## 4.0.0.20240828 (2024-08-28)
 
 [Flask-Cors] Mark constants using `Final` (#12596)
