@@ -8,6 +8,7 @@ types-Flask-Migrate
 types-Flask-SQLAlchemy
 types-Flask-SocketIO
 types-JACK-Client
+types-Jetson.GPIO
 types-Jinja2
 types-Markdown
 types-MarkupSafe
