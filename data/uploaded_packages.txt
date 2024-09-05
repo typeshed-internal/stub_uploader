@@ -223,6 +223,7 @@ types-waitress
 types-whatthepatch
 types-workalendar
 types-wurlitzer
+types-xdgenvpy
 types-xmltodict
 types-xxhash
 types-zstd

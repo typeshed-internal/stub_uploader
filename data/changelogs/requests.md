@@ -1,3 +1,7 @@
+## 2.32.0.20240905 (2024-09-05)
+
+Add hint for requests.models.Response.raw (#12616)
+
 ## 2.32.0.20240712 (2024-07-12)
 
 requests: Add connection property (type HTTPAdapter) to the Response class (#12279)
