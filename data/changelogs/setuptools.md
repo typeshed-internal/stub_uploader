@@ -1,3 +1,12 @@
+## 74.1.0.20240906 (2024-09-06)
+
+[setuptools] Update to 74.1.* (#12614)
+
+---------
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## 74.0.0.20240831 (2024-08-31)
 
 distutils: expose `Command.dry_run` + make `0|1` attrs `bool` (#12607)

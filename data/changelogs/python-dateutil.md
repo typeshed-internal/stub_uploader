@@ -1,3 +1,7 @@
+## 2.9.0.20240906 (2024-09-06)
+
+[python-dateutil] Add `dateutil.parser.UnknownTimezoneWarning`. (#12620)
+
 ## 2.9.0.20240821 (2024-08-21)
 
 Fix types for python-dateutil's relativedelta (#12561)
