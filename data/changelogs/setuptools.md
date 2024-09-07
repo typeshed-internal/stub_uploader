@@ -1,3 +1,7 @@
+## 74.1.0.20240907 (2024-09-07)
+
+distutils: add missing generated attributes (#12467)
+
 ## 74.1.0.20240906 (2024-09-06)
 
 [setuptools] Update to 74.1.* (#12614)

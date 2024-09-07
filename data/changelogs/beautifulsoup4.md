@@ -1,3 +1,7 @@
+## 4.12.0.20240907 (2024-09-07)
+
+beautifulsoup4: Accept void_element_close_prefix=None (#12621)
+
 ## 4.12.0.20240511 (2024-05-11)
 
 stubs: [BeautifulSoup] fix incomplete type specs for formatter (#11885)

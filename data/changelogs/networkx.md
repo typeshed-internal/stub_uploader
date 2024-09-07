@@ -1,3 +1,17 @@
+## 3.2.1.20240907 (2024-09-07)
+
+Fix networkx `DiDegreeView.__call__()` can return `int` (#12472)
+
+Fix networkx `DiDegreeView.__call__()`
+
+`DiDegreeView.__call__()` can return an integer if a single node is specified, as is also documented in the docstrings of the method:
+
+https://github.com/networkx/networkx/blob/89718e0514bded93ded5b00aed755a4474c1dc6f/networkx/classes/digraph.py#L1198-L1199
+
+Implementation:
+
+https://github.com/networkx/networkx/blob/89718e0514bded93ded5b00aed755a4474c1dc6f/networkx/classes/reportviews.py#L436-L437
+
 ## 3.2.1.20240820 (2024-08-20)
 
 Pin numpy in various stubs (#12554)

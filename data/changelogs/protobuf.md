@@ -1,3 +1,7 @@
+## 5.27.0.20240907 (2024-09-07)
+
+Update MergeFrom annotations in protobuf containers.pyi (#12623)
+
 ## 5.27.0.20240626 (2024-06-26)
 
 Bump protobuf to 5.27.* (#12197)

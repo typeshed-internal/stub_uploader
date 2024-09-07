@@ -1,3 +1,9 @@
+## 2.32.0.20240907 (2024-09-07)
+
+requests: Session.adapters is a mapping of Adapters (#12473)
+
+Signed-off-by: Stephen Finucane <stephen@that.guru>
+
 ## 2.32.0.20240905 (2024-09-05)
 
 Add hint for requests.models.Response.raw (#12616)

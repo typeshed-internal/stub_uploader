@@ -1,3 +1,9 @@
+## 0.21.0.20240907 (2024-09-07)
+
+Fix type of `transform` argument of `docutils.nodes.pending.__init__` (#12459)
+
+add type stubs for 'docutils.parsers.rst.directives.references' (#12442)
+
 ## 0.21.0.20240724 (2024-07-24)
 
 Add type annotations for 'docutils.writers.latex2e.Babel' (#12394)

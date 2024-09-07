@@ -1,3 +1,7 @@
+## 1.45.0.20240907 (2024-09-07)
+
+[influxdb-client] Use SupportsContainsAndGetItem (#12612)
+
 ## 1.45.0.20240814 (2024-08-14)
 
 [stubsabot] Bump influxdb-client to 1.45.* (#12519)
