@@ -1,3 +1,7 @@
+## 2.2.0.20240911 (2024-09-11)
+
+mysqlclient: Annotate Connect() return type (#12633)
+
 ## 2.2.0.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)
