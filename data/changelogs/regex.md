@@ -1,3 +1,25 @@
+## 2024.9.11.20240912 (2024-09-12)
+
+[stubsabot] Bump regex to 2024.9.11 (#12641)
+
+Release: https://pypi.org/pypi/regex/2024.9.11
+Homepage: https://github.com/mrabarnett/mrab-regex
+Repository: https://github.com/mrabarnett/mrab-regex
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex
+Diff: https://github.com/mrabarnett/mrab-regex/compare/2024.7.24...2024.9.11
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 7.
+ - Total lines of Python code deleted: 3.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 2024.7.24.20240726 (2024-07-26)
 
 [stubsabot] Bump regex to 2024.7.24 (#12424)
