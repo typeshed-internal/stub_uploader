@@ -1,3 +1,7 @@
+## 0.6.0.20240913 (2024-09-13)
+
+[pyasn1] Remove items removed from 0.6.1 (#12646)
+
 ## 0.6.0.20240824 (2024-08-24)
 
 Resolve some stubtest allowlist entries by marking params as keyword-only (#12581)

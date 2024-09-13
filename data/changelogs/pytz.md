@@ -1,3 +1,7 @@
+## 2024.2.0.20240913 (2024-09-13)
+
+[stubsabot] Bump pytz to 2024.2 (#12639)
+
 ## 2024.1.0.20240417 (2024-04-17)
 
 Remove remaining bare `Incomplete`s (#11768)

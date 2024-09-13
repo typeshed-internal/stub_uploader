@@ -1,3 +1,9 @@
+## 3.0.1.20240913 (2024-09-13)
+
+[python-datemath] Pin and mark as obsolete (#12645)
+
+Closes: #12640
+
 ## 3.0.0.20240902 (2024-09-02)
 
 [stubsabot] Bump python-datemath to 3.0.* (#12583)
