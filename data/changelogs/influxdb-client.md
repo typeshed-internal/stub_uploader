@@ -1,3 +1,7 @@
+## 1.45.0.20240915 (2024-09-15)
+
+[stubsabot] Mark influxdb-client as obsolete since 1.46.0 (#12655)
+
 ## 1.45.0.20240907 (2024-09-07)
 
 [influxdb-client] Use SupportsContainsAndGetItem (#12612)
