@@ -1,3 +1,13 @@
+## 75.1.0.20240917 (2024-09-17)
+
+[stubsabot] Bump setuptools to 75.1.* (#12670)
+
+Co-authored-by: stubsabot <>
+
+[setuptools] Bump to 75.0.* (#12668)
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 74.1.0.20240907 (2024-09-07)
 
 distutils: add missing generated attributes (#12467)

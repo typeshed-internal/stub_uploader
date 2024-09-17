@@ -1,3 +1,7 @@
+## 6.0.12.20240917 (2024-09-17)
+
+PyYAML: correct return type of `construct_scalar()` (#12664)
+
 ## 6.0.12.20240808 (2024-08-08)
 
 [PyYAML] stubtest: Ignore auto-generated methods (#12497)

@@ -117,6 +117,7 @@ types-kazoo
 types-keyboard
 types-ldap3
 types-libsass
+types-lupa
 types-lzstring
 types-maxminddb
 types-mock
