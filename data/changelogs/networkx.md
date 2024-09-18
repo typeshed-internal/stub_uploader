@@ -1,3 +1,7 @@
+## 3.2.1.20240918 (2024-09-18)
+
+ fix: weight parameter type for networkx.algorithms.shortest_paths (#12663)
+
 ## 3.2.1.20240907 (2024-09-07)
 
 Fix networkx `DiDegreeView.__call__()` can return `int` (#12472)

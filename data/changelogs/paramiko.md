@@ -1,3 +1,7 @@
+## 3.5.0.20240918 (2024-09-18)
+
+Bump paramiko to 3.5.* (#12672)
+
 ## 3.4.0.20240423 (2024-04-23)
 
 paramiko: Replace str with FileDescriptorOrPath in many locations (#11800)

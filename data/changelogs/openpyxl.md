@@ -1,3 +1,7 @@
+## 3.1.5.20240918 (2024-09-18)
+
+`openpyxl`: fix `Worksheet.values` annotation (#12674)
+
 ## 3.1.5.20240822 (2024-08-22)
 
 Using precise code for `pyright: ignore` and re-enabling various pyright tests (#12576)
