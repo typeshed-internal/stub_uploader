@@ -1,3 +1,7 @@
+## 2.7.9.20240919 (2024-09-19)
+
+fix: fpdf2: Allow `"BI"` for `_FontStyle` in `fpdf.pyi` (#12677)
+
 ## 2.7.9.20240813 (2024-08-13)
 
 Use Generator instead of Iterator for 3rd-party context managers (#12481)
