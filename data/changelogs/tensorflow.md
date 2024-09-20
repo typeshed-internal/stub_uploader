@@ -1,3 +1,7 @@
+## 2.17.0.20240920 (2024-09-20)
+
+Rewrote protobuf generation scripts in Python (#12527)
+
 ## 2.17.0.20240820 (2024-08-20)
 
 Pin numpy in various stubs (#12554)

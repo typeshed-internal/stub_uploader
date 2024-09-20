@@ -1,3 +1,7 @@
+## 5.27.0.20240920 (2024-09-20)
+
+Rewrote protobuf generation scripts in Python (#12527)
+
 ## 5.27.0.20240907 (2024-09-07)
 
 Update MergeFrom annotations in protobuf containers.pyi (#12623)

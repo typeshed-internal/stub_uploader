@@ -1,3 +1,7 @@
+## 5.0.0.20240920 (2024-09-20)
+
+Rewrote protobuf generation scripts in Python (#12527)
+
 ## 5.0.0.20240423 (2024-04-23)
 
 Create script to generate s2clientprotocol protobuf stubs (#11772)
