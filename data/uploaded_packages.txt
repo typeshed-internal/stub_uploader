@@ -173,6 +173,7 @@ types-python-datemath
 types-python-dateutil
 types-python-gflags
 types-python-http-client
+types-python-jenkins
 types-python-jose
 types-python-nmap
 types-python-slugify

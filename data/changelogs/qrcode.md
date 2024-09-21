@@ -1,3 +1,7 @@
+## 7.4.0.20240921 (2024-09-21)
+
+Complete coverage for the qrcode package (#12675)
+
 ## 7.4.0.20240408 (2024-04-08)
 
 [qrcode] Add various annotations (#11726)
