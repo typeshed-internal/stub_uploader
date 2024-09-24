@@ -1,3 +1,9 @@
+## 2.22.0.20240924 (2024-09-24)
+
+[stubsabot] Bump hdbcli to 2.22.* (#12676)
+
+Co-authored-by: stubsabot <>
+
 ## 2.21.0.20240621 (2024-06-21)
 
 Bump hdbcli to 2.21.* (#12179)

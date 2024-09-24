@@ -1,3 +1,7 @@
+## 5.28.0.20240924 (2024-09-24)
+
+Bump protobuf to 5.28.* (#12689)
+
 ## 5.27.0.20240920 (2024-09-20)
 
 Rewrote protobuf generation scripts in Python (#12527)

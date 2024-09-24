@@ -1,3 +1,9 @@
+## 3.1.0.20240924 (2024-09-24)
+
+[stubsabot] Bump greenlet to 3.1.* (#12636)
+
+Co-authored-by: stubsabot <>
+
 ## 3.0.0.20240604 (2024-06-04)
 
 greenlet: Adds missing `__version__` variable (#12089)
