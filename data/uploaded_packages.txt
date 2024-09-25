@@ -112,6 +112,7 @@ types-ipaddress
 types-itsdangerous
 types-jmespath
 types-jsonschema
+types-jwcrypto
 types-jwt
 types-kazoo
 types-keyboard
