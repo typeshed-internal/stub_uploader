@@ -1,3 +1,20 @@
+## 4.30.0.20240926 (2024-09-26)
+
+[stubsabot] Bump braintree to 4.30.* (#12681)
+
+Release: https://pypi.org/pypi/braintree/4.30.0
+Homepage: https://developer.paypal.com/braintree/docs/reference/overview
+Repository: https://github.com/braintree/braintree_python
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/braintree
+Diff: https://github.com/braintree/braintree_python/compare/4.29.0...4.30.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 4 files included in typeshed's stubs have been modified or renamed: `braintree/error_codes.py`, `braintree/transaction.py`, `braintree/version.py`, `braintree/webhook_testing_gateway.py`.
+ - Total lines of Python code added: 317.
+ - Total lines of Python code deleted: 278.
+
 ## 4.29.0.20240725 (2024-07-25)
 
 Bump braintree to 4.29.* (#12421)
