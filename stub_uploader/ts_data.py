@@ -8,9 +8,11 @@ import argparse
 from collections.abc import Iterable
 from dataclasses import dataclass, fields
 from pathlib import Path
+import re
 import subprocess
 
 from packaging.requirements import Requirement
+from packaging.version import Version
 from tomli import load as toml_load
 
 REQUIREMENTS = "requirements-tests.txt"
@@ -20,9 +22,9 @@ PYPROJECT = "pyproject.toml"
 @dataclass
 class TypeshedData:
     typeshed_path: Path
-    mypy_version: str
-    pyright_version: str
-    pytype_version: str
+    mypy_version: Version
+    pyright_version: Version
+    pytype_version: Version
     oldest_supported_python: str
 
     def read_current_commit(self) -> str:
@@ -40,11 +42,13 @@ def read_typeshed_data(typeshed_path: Path) -> TypeshedData:
     with (typeshed_path / REQUIREMENTS).open() as f:
         requirements = parse_requirements(f)
     typeshed_table = pyproject["tool"]["typeshed"]
+    if not re.match(r"^\d+\.\d+$", typeshed_table["oldest_supported_python"]):
+        raise ValueError("Invalid oldest_supported_python in pyproject.toml")
     return TypeshedData(
         typeshed_path=typeshed_path,
-        mypy_version=requirements["mypy"],
-        pyright_version=requirements["pyright"],
-        pytype_version=requirements["pytype"],
+        mypy_version=Version(requirements["mypy"]),
+        pyright_version=Version(requirements["pyright"]),
+        pytype_version=Version(requirements["pytype"]),
         oldest_supported_python=typeshed_table["oldest_supported_python"],
     )
 
