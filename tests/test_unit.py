@@ -13,7 +13,7 @@ from packaging.version import Version
 from stub_uploader.build_wheel import collect_package_data
 from stub_uploader.get_version import compute_stub_version, ensure_specificity
 from stub_uploader.metadata import Metadata, _UploadedPackages, strip_types_prefix
-from stub_uploader.ts_data import parse_requirements
+from stub_uploader.ts_data import TypeshedData, parse_requirements, read_typeshed_data
 
 
 def test_strip_types_prefix() -> None:
@@ -188,6 +188,13 @@ def test_uploaded_packages() -> None:
             assert f.read() == "types-SqLaLcHeMy\ntypes-six"
 
 
+def _build_pyproject(oldest_supported_python: str | None = "3.10") -> str:
+    pp = "[tool.typeshed]\n"
+    if oldest_supported_python is not None:
+        pp += f'oldest_supported_python = "{oldest_supported_python}"\n'
+    return pp
+
+
 _REQUIREMENTS_TXT = """# This is a comment
 
 pkg1==1.2
@@ -197,6 +204,67 @@ multispec==3.4.5,>3.4.5
 range>=1.2.3
 no_version
 """
+
+
+def _build_requirements(
+    *,
+    mypy: str | None = "1.11.1",
+    pyright: str | None = "1.1.381",
+    pytype: str
+    | None = '2024.9.13; platform_system != "Windows" and python_version < "3.13"',
+) -> str:
+    req = _REQUIREMENTS_TXT
+    if mypy is not None:
+        req += f"\nmypy=={mypy}"
+    if pyright is not None:
+        req += f"\npyright=={pyright}"
+    if pytype is not None:
+        req += f"\npytype=={pytype}"
+    return req
+
+
+def _test_typeshed_data(pyproject: str, requirements: str) -> TypeshedData:
+    with tempfile.TemporaryDirectory() as td:
+        temp_path = Path(td)
+        (temp_path / "pyproject.toml").write_text(pyproject)
+        (temp_path / "requirements-tests.txt").write_text(requirements)
+        return read_typeshed_data(temp_path)
+
+
+def test_read_typeshed_data__success() -> None:
+    pp = _build_pyproject(oldest_supported_python="3.10")
+    req = _build_requirements(mypy="1.11.1")
+    data = _test_typeshed_data(pp, req)
+    assert data.oldest_supported_python == "3.10"
+    assert data.mypy_version == Version("1.11.1")
+
+
+def test_read_typeshed_data__oldest_python_missing() -> None:
+    pp = _build_pyproject(oldest_supported_python=None)
+    req = _build_requirements(mypy=None)
+    with pytest.raises(KeyError, match="oldest_supported_python"):
+        _test_typeshed_data(pp, req)
+
+
+def test_read_typeshed_data__oldest_python_invalid() -> None:
+    pp = _build_pyproject(oldest_supported_python="3.12invalid")
+    req = _build_requirements(mypy=None)
+    with pytest.raises(ValueError, match="oldest_supported_python"):
+        _test_typeshed_data(pp, req)
+
+
+def test_read_typeshed_data__type_checkers_missing() -> None:
+    pp = _build_pyproject()
+    req = _build_requirements(mypy=None)
+    with pytest.raises(KeyError, match="mypy"):
+        _test_typeshed_data(pp, req)
+
+
+def test_read_typeshed_data__invalid_type_checker_version() -> None:
+    pp = _build_pyproject()
+    req = _build_requirements(mypy="1.2.2invalid")
+    with pytest.raises(ValueError, match="mypy"):
+        _test_typeshed_data(pp, req)
 
 
 @pytest.mark.parametrize(
