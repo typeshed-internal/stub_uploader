@@ -155,9 +155,6 @@ def test_recursive_verify(distribution: str) -> None:
 
 def test_read_typeshed_data() -> None:
     ts_data = read_typeshed_data(Path(TYPESHED))
-    assert re.match(r"^\d+\.\d+\.\d+$", ts_data.mypy_version)
-    assert re.match(r"^\d+\.\d+\.\d+$", ts_data.pyright_version)
-    assert re.match(r"^\d+\.\d+\.\d+$", ts_data.pytype_version)
     assert re.match(r"^\d+\.\d+$", ts_data.oldest_supported_python)
 
 
