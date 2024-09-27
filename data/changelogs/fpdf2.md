@@ -1,3 +1,7 @@
+## 2.7.9.20240927 (2024-09-27)
+
+[fpdf2] fix link type to support internal links (#12695)
+
 ## 2.7.9.20240919 (2024-09-19)
 
 fix: fpdf2: Allow `"BI"` for `_FontStyle` in `fpdf.pyi` (#12677)
