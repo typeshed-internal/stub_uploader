@@ -1,3 +1,7 @@
+## 3.5.0.20240928 (2024-09-28)
+
+paramiko: add `ProxyCommand` to `_SocketLike` (#12697)
+
 ## 3.5.0.20240918 (2024-09-18)
 
 Bump paramiko to 3.5.* (#12672)
