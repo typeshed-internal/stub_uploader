@@ -1,3 +1,7 @@
+## 3.0.0.20241001 (2024-10-01)
+
+Use `Mapping` for local Python namespace parameters (#12705)
+
 ## 3.0.0.20240423 (2024-04-23)
 
 Bump waitress to 3.0.* (#11803)
