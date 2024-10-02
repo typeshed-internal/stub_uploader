@@ -214,7 +214,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "Pillow",
     "Werkzeug",
     "arrow",
-    "backports.zoneinfo",
+    "backports.zoneinfo",  # Remove after we drop Python 3.8 support.
     "click",
     "cryptography",
     "django-stubs",
