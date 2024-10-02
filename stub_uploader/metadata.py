@@ -214,6 +214,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "Pillow",
     "Werkzeug",
     "arrow",
+    "backports.zoneinfo",
     "click",
     "cryptography",
     "django-stubs",
@@ -289,7 +290,7 @@ def verify_external_req(
 
     if req.name not in EXTERNAL_REQ_ALLOWLIST and not _unsafe_ignore_allowlist:
         raise InvalidRequires(
-            f"Expected dependency {req} to be present in the allowlist"
+            f"Expected dependency {req.name} to be present in the allowlist"
         )
 
     resp = requests.get(f"https://pypi.org/pypi/{upstream_distribution}/json")
