@@ -120,6 +120,7 @@ types-ldap3
 types-libsass
 types-lupa
 types-lzstring
+types-m3u8
 types-maxminddb
 types-mock
 types-mypy-extensions

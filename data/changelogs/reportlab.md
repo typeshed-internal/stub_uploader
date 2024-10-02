@@ -1,3 +1,20 @@
+## 4.2.5.20241002 (2024-10-02)
+
+[stubsabot] Bump reportlab to 4.2.5 (#12719)
+
+Release: https://pypi.org/pypi/reportlab/4.2.5
+Homepage: https://www.reportlab.com/
+Repository: https://github.com/MrBitBucket/reportlab-mirror
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/reportlab
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 4.2.4.20240930 (2024-09-30)
 
 Bump reportlab to 4.2.4 (#12701)
