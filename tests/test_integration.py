@@ -83,7 +83,9 @@ def test_verify_external_req() -> None:
         Requirement("mypy-extensions"), "mypy", _unsafe_ignore_allowlist=True
     )
 
-    with pytest.raises(InvalidRequires, match="to be present in the allowlist"):
+    with pytest.raises(
+        InvalidRequires, match="to be present in the stub_uploader allowlist"
+    ):
         verify_external_req(Requirement("typing-extensions"), "mypy")
 
     m = Metadata("pandas", {"version": "0.1", "requires": ["numpy"]})
