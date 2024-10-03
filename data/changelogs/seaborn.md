@@ -1,3 +1,7 @@
+## 0.13.2.20241003 (2024-10-03)
+
+Support environment markers in requires fields (#12711)
+
 ## 0.13.2.20240820 (2024-08-20)
 
 Pin numpy in various stubs (#12554)

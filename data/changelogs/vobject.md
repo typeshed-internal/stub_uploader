@@ -1,3 +1,7 @@
+## 0.9.8.20241003 (2024-10-03)
+
+Update vobject (#12721)
+
 ## 0.9.8.20240310 (2024-03-10)
 
 Bump mypy to 1.9, add to json.encoder, small fixups (#11549)

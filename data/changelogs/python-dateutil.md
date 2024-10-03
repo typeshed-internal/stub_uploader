@@ -1,3 +1,7 @@
+## 2.9.0.20241003 (2024-10-03)
+
+dateutil: Enable failing test (#11612)
+
 ## 2.9.0.20240906 (2024-09-06)
 
 [python-dateutil] Add `dateutil.parser.UnknownTimezoneWarning`. (#12620)
