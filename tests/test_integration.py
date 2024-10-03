@@ -189,8 +189,8 @@ def test_pkg_data_top_level_packages(
 @pytest.mark.parametrize(
     "distribution,expected_packages",
     [
+        ("fpdf2", ["fpdf-stubs"]),
         ("pytz", ["pytz-stubs"]),
-        ("Pillow", ["PIL-stubs"]),
         ("protobuf", ["google-stubs.protobuf"]),
         ("google-cloud-ndb", ["google-stubs.cloud.ndb"]),
     ],
