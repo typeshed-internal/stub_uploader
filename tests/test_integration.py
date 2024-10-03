@@ -173,8 +173,8 @@ def test_verify_requires_python() -> None:
 @pytest.mark.parametrize(
     "distribution,expected_packages",
     [
+        ("fpdf2", ["fpdf-stubs"]),
         ("pytz", ["pytz-stubs"]),
-        ("Pillow", ["PIL-stubs"]),
         ("protobuf", ["google-stubs"]),
         ("google-cloud-ndb", ["google-stubs"]),
     ],
