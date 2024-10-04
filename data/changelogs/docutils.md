@@ -1,3 +1,13 @@
+## 0.21.0.20241004 (2024-10-04)
+
+add type annotations for 'docutils.parsers.rst.directives.admonitions' (#12396)
+
+add type annotations to docutils.writers (#12420)
+
+Co-authored-by: daniel.eades <daniel.eades@seebyte.com>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+Co-authored-by: James Addison <55152140+jayaddison@users.noreply.github.com>
+
 ## 0.21.0.20240907 (2024-09-07)
 
 Fix type of `transform` argument of `docutils.nodes.pending.__init__` (#12459)

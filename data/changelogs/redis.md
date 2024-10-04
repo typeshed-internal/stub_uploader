@@ -1,3 +1,7 @@
+## 4.6.0.20241004 (2024-10-04)
+
+Add missing ssl related arguments to Redis from_url method (#12166)
+
 ## 4.6.0.20240903 (2024-09-03)
 
 Redis: Correct ExpiryT alias (#12611)
