@@ -1,3 +1,9 @@
+## 0.21.0.20241005 (2024-10-05)
+
+improve type annotations in 'docutils.frontend' (#12735)
+
+Co-authored-by: daniel.eades <daniel.eades@seebyte.com>
+
 ## 0.21.0.20241004 (2024-10-04)
 
 add type annotations for 'docutils.parsers.rst.directives.admonitions' (#12396)
