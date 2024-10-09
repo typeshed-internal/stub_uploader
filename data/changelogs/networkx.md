@@ -1,3 +1,7 @@
+## 3.3.0.20241009 (2024-10-09)
+
+Bump networkx to 3.3 (#11727)
+
 ## 3.2.1.20240918 (2024-09-18)
 
  fix: weight parameter type for networkx.algorithms.shortest_paths (#12663)

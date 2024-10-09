@@ -1,3 +1,7 @@
+## 1.16.21.20241009 (2024-10-09)
+
+Allowlist `six.create_bound_method.__code__` (Fix daily test failure) (#12759)
+
 ## 1.16.21.20240513 (2024-05-13)
 
 Replace types._Cell with types.CellType (#11904)

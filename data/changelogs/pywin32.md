@@ -1,3 +1,7 @@
+## 307.0.0.20241009 (2024-10-09)
+
+Bump pywin32 to 307 (#12742)
+
 ## 306.0.0.20240822 (2024-08-22)
 
 Using precise code for `pyright: ignore` and re-enabling various pyright tests (#12576)
