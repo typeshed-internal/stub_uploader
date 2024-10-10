@@ -107,7 +107,7 @@ PyCharm, etc. to check code that uses
 `{distribution}`.
 
 This version of `{stub_distribution}` aims to provide accurate annotations
-for `{distribution}=={typeshed_version_pin}`.
+for `{distribution}{typeshed_version_spec}`.
 The source for this package can be found at
 https://github.com/python/typeshed/tree/main/stubs/{distribution}. All fixes for
 types and metadata should be contributed there.
@@ -381,7 +381,7 @@ def generate_long_description(
             distribution=distribution,
             formatted_distribution=formatted_distribution,
             stub_distribution=metadata.stub_distribution,
-            typeshed_version_pin=metadata.version_spec,
+            typeshed_version_spec=metadata.version_spec,
         )
     )
     if extra_description:

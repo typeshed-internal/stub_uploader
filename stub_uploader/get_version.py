@@ -16,7 +16,7 @@ import datetime
 from typing import Any
 
 import requests
-from packaging.specifiers import SpecifierSet
+from packaging.specifiers import Specifier, SpecifierSet
 from packaging.version import Version
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
@@ -51,7 +51,7 @@ def ensure_specificity(ver: list[int], specificity: int) -> None:
 
 
 def compute_stub_version(
-    version_spec: str, published_versions: list[Version], date: datetime.date
+    version_spec: Specifier, published_versions: list[Version], date: datetime.date
 ) -> Version:
     # The most important postcondition is that the incremented version is greater than
     # all published versions. This ensures that users who don't pin get the most
@@ -65,7 +65,7 @@ def compute_stub_version(
     #   1.2.post3 -> 1.2.3
     # This is necessary, since structured post versions (e.g. `1.2.post3.4`) are not
     # supported by PEP 440.
-    version_base = Version(version_spec.removesuffix(".*"))
+    version_base = Version(version_spec.version.removesuffix(".*"))
     if max_published.epoch > 0 or version_base.epoch > 0:
         raise NotImplementedError("Epochs in versions are not supported")
     elif version_base.is_prerelease or version_base.is_devrelease:

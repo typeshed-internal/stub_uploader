@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import Any
 
 import pytest
+from packaging.specifiers import Specifier
 from packaging.version import Version
 
 from stub_uploader.build_wheel import collect_package_data
@@ -44,7 +45,10 @@ IN_TWO_DAYS_V = "20240914"
 
 def _stub_ver(ver: str, published: list[str]) -> str:
     published_vers = [Version(v) for v in published]
-    return str(compute_stub_version(ver, published_vers, TODAY))
+    if ver[0].isdigit():
+        ver = f"=={ver}"
+    spec = Specifier(ver)
+    return str(compute_stub_version(spec, published_vers, TODAY))
 
 
 def test_compute_stub_version() -> None:
@@ -53,6 +57,8 @@ def test_compute_stub_version() -> None:
     assert _stub_ver("1", empty_list) == f"1.0.0.{TODAY_V}"
     assert _stub_ver("1.2", empty_list) == f"1.2.0.{TODAY_V}"
     assert _stub_ver("1.2.post3", empty_list) == f"1.2.3.{TODAY_V}"
+    assert _stub_ver("~=1.2", empty_list) == f"1.2.0.{TODAY_V}"
+    assert _stub_ver("~=1.2.3", empty_list) == f"1.2.3.{TODAY_V}"
 
     # published greater than version spec
     assert _stub_ver("1.1", ["1.2"]) == f"1.2.0.{TODAY_V}"
@@ -62,6 +68,8 @@ def test_compute_stub_version() -> None:
     assert _stub_ver("1.4.40", ["1.4.50"]) == f"1.4.50.{TODAY_V}"
     assert _stub_ver("1.4.0.40", ["1.4.0.50"]) == f"1.4.0.50.{TODAY_V}"
     assert _stub_ver("1.2.post3", ["1.2.3.4"]) == f"1.2.3.{TODAY_V}"
+    assert _stub_ver("~=1.2", ["1.3.0.4"]) == f"1.3.0.{TODAY_V}"
+    assert _stub_ver("~=1.2.3", ["1.2.4.40"]) == f"1.2.4.{TODAY_V}"
 
     # published less than version spec
     assert _stub_ver("1.2", ["1.1.0.4"]) == f"1.2.0.{TODAY_V}"
@@ -73,6 +81,8 @@ def test_compute_stub_version() -> None:
     assert _stub_ver("1.2.3.4", ["1.1.0.17"]) == f"1.2.3.4.{TODAY_V}"
     assert _stub_ver("1.2.post3", ["1.1.0.17"]) == f"1.2.3.{TODAY_V}"
     assert _stub_ver("1.2.3", ["1.1.0.21000101"]) == f"1.2.3.{TODAY_V}"
+    assert _stub_ver("~=1.2", ["1.1.0.40"]) == f"1.2.0.{TODAY_V}"
+    assert _stub_ver("~=1.2.3", ["1.2.2.40"]) == f"1.2.3.{TODAY_V}"
 
     # published equals version spec
     assert _stub_ver("1.1", ["1.1"]) == f"1.1.0.{TODAY_V}"
@@ -80,6 +90,7 @@ def test_compute_stub_version() -> None:
     assert _stub_ver("1.1", ["1.1.3.19991204"]) == f"1.1.3.{TODAY_V}"
     assert _stub_ver("1.2.3.4", ["1.2.3.4.19991204"]) == f"1.2.3.4.{TODAY_V}"
     assert _stub_ver("1.2.3.4.5", ["1.2.3.4.5"]) == f"1.2.3.4.5.{TODAY_V}"
+    assert _stub_ver("~=1.2.3", ["1.2.3.40"]) == f"1.2.3.{TODAY_V}"
 
     # test with multiple published versions
     assert (
@@ -94,6 +105,10 @@ def test_compute_stub_version() -> None:
     assert (
         _stub_ver("1.2.*", [f"1.1.0.{TODAY_V}", f"1.1.0.{TOMORROW_V}"])
         == f"1.2.0.{TODAY_V}"
+    )
+    assert (
+        _stub_ver("~=1.2.3", [f"1.2.3.{TODAY_V}", f"1.2.3.{TOMORROW_V}"])
+        == f"1.2.3.{IN_TWO_DAYS_V}"
     )
 
 

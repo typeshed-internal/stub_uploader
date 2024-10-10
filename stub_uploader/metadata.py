@@ -47,12 +47,16 @@ class Metadata:
         return distribution
 
     @property
-    def version_spec(self) -> str:
+    def version_spec(self) -> Specifier:
         # The "version" field in METADATA.toml isn't actually a version, it's more
         # like a specifier, e.g. we allow it to contain wildcards.
         version = self.data["version"]
         assert isinstance(version, str)
-        return version
+        if version[0].isdigit():
+            version = f"=={version}"
+        spec = Specifier(version)
+        assert spec.operator in {"==", "~="}
+        return spec
 
     @property
     def _unvalidated_requires(self) -> list[Requirement]:
