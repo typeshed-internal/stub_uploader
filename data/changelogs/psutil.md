@@ -1,3 +1,11 @@
+## 6.0.0.20241011 (2024-10-11)
+
+update psutil.Process.parent() return type (#12767)
+
+per `psutil.Process.parent()`'s docstring, it may return `None`.
+
+https://github.com/giampaolo/psutil/blob/0a71d0e404ddaab32b5222351fd2292802e3b131/psutil/__init__.py#L574
+
 ## 6.0.0.20240901 (2024-09-01)
 
 Fix types for psutil.cpu_* functions (#12602)

@@ -1,3 +1,11 @@
+## 2.8.1.20241011 (2024-10-11)
+
+Bump fpdf2 to 2.8.1 (#12753)
+
+Closes: #12738
+
+[fpdf2] Add actual NamedTuple defaults (#12768)
+
 ## 2.7.9.20240927 (2024-09-27)
 
 [fpdf2] fix link type to support internal links (#12695)
