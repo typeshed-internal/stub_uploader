@@ -1,3 +1,7 @@
+## 24.10.0.20241012 (2024-10-12)
+
+Bump gevent to 24.10.* (#12779)
+
 ## 24.2.0.20241003 (2024-10-03)
 
 gevent: remove unused allowlist entry (#12726)

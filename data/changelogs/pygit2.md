@@ -1,3 +1,7 @@
+## 1.15.0.20241012 (2024-10-12)
+
+[stubsabot] Mark pygit2 as obsolete since 1.16.0 (#12785)
+
 ## 1.15.0.20240822 (2024-08-22)
 
 Using precise code for `pyright: ignore` and re-enabling various pyright tests (#12576)
