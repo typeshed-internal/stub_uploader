@@ -1,3 +1,9 @@
+## 1.16.0.20241013 (2024-10-13)
+
+[stubsabot] Bump flake8-typing-imports to 1.16.* (#12784)
+
+Co-authored-by: stubsabot <>
+
 ## 1.15.0.0 (2023-10-03)
 
 [stubsabot] Bump flake8-typing-imports to 1.15.* (#10827)
