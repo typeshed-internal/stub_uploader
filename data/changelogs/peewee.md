@@ -1,3 +1,7 @@
+## 3.17.6.20241014 (2024-10-14)
+
+[peewee] Some methods return `Self` (#12788)
+
 ## 3.17.6.20240813 (2024-08-13)
 
 Use Generator instead of Iterator for 3rd-party context managers (#12481)

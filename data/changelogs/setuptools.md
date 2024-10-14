@@ -1,3 +1,9 @@
+## 75.1.0.20241014 (2024-10-14)
+
+Correct types for `setuptools.setup` (#12791)
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 75.1.0.20240917 (2024-09-17)
 
 [stubsabot] Bump setuptools to 75.1.* (#12670)
