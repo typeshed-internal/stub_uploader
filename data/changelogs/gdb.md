@@ -1,3 +1,9 @@
+## 15.0.0.20241015 (2024-10-15)
+
+Bump gdb to 15.0.* (#12804)
+
+Closes: #12777
+
 ## 12.1.4.20240704 (2024-07-04)
 
 Add `global_context` keyword to `gdb.parse_and_eval` in GDB stub (#12269)
