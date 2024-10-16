@@ -1,3 +1,7 @@
+## 2.32.0.20241016 (2024-10-16)
+
+remove unneeded Iterable base class from CookieJar (#12812)
+
 ## 2.32.0.20240914 (2024-09-14)
 
 Correct requests `cookies` argument (#12654)
