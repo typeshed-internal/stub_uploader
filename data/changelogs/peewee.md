@@ -1,3 +1,7 @@
+## 3.17.7.20241017 (2024-10-17)
+
+[stubsabot] Bump peewee to 3.17.7 (#12820)
+
 ## 3.17.6.20241014 (2024-10-14)
 
 [peewee] Some methods return `Self` (#12788)
