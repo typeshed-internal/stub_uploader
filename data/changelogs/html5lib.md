@@ -1,3 +1,9 @@
+## 1.1.11.20241018 (2024-10-18)
+
+Add a return to html5lib.HTMLSerializer.serialize() (#12838)
+
+Signed-off-by: Mike Fiedler <miketheman@gmail.com>
+
 ## 1.1.11.20240806 (2024-08-06)
 
 Bump mypy to 1.11.1 (#12463)

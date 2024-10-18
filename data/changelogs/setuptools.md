@@ -1,3 +1,20 @@
+## 75.2.0.20241018 (2024-10-18)
+
+[stubsabot] Bump setuptools to 75.2.* (#12829)
+
+Release: https://pypi.org/pypi/setuptools/75.2.0
+Repository: https://github.com/pypa/setuptools
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/setuptools
+Changelog: https://setuptools.pypa.io/en/stable/history.html
+Diff: https://github.com/pypa/setuptools/compare/v75.1.1...v75.2.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 2 files included in typeshed's stubs have been modified or renamed: `setuptools/build_meta.py`, `setuptools/dist.py`.
+ - Total lines of Python code added: 103.
+ - Total lines of Python code deleted: 41.
+
 ## 75.1.0.20241014 (2024-10-14)
 
 Correct types for `setuptools.setup` (#12791)
