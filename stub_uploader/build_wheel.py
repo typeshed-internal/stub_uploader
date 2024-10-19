@@ -385,6 +385,7 @@ def generate_long_description(
             formatted_distribution=formatted_distribution,
             stub_distribution=metadata.stub_distribution,
             typeshed_version_spec=metadata.version_spec,
+            ts_data=ts_data,
         )
     )
     if extra_description:
@@ -405,7 +406,9 @@ def generate_long_description(
         )
     if metadata.partial:
         parts.append(PARTIAL_STUBS_DESCRIPTION)
-    parts.append(DESCRIPTION_OUTRO_TEMPLATE.format(commit=commit, ts_data=ts_data))
+    parts.append(
+        DESCRIPTION_OUTRO_TEMPLATE.format(distribution=distribution, commit=commit)
+    )
     return "\n\n".join(parts)
 
 
