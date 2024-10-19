@@ -50,8 +50,9 @@ def ensure_specificity(ver: list[int], specificity: int) -> None:
     ver.extend([0] * (specificity - len(ver)))
 
 
+# `today` can be passed as an argument for testing purposes.
 def compute_stub_version(
-    version_spec: Specifier, published_versions: list[Version], date: datetime.date
+    version_spec: Specifier, published_versions: list[Version], today: datetime.date
 ) -> Version:
     # The most important postcondition is that the incremented version is greater than
     # all published versions. This ensures that users who don't pin get the most
@@ -111,7 +112,7 @@ def compute_stub_version(
         base_version_changed = False
 
     ensure_specificity(base_version_parts, stub_specificity)
-    unused_date = find_unused_date(max_published, base_version_changed, date)
+    unused_date = find_unused_date(max_published, base_version_changed, today)
     new_version_parts = [*base_version_parts[:-1], unused_date.strftime("%Y%m%d")]
     new_version = Version(".".join(map(str, new_version_parts)))
     assert_compatibility(
@@ -123,19 +124,25 @@ def compute_stub_version(
     return new_version
 
 
+# `today` can be passed as an argument for testing purposes.
 def find_unused_date(
-    max_published: Version, base_version_changed: bool, date: datetime.date
+    max_published: Version, base_version_changed: bool, today: datetime.date
 ) -> datetime.date:
+    # Is not necessarily a date in case the package predates the switch
+    # to the current versioning scheme.
+    last_date = max_published.release[-1]
+
     # If the base version changed, we should always be able to use the current date.
     if base_version_changed:
-        return date
+        return today
 
     # Make sure that the last published release is not unreasonable large.
-    assert int(date.strftime("%Y%m%d")) + 14 > max_published.release[-1]
+    assert int(today.strftime("%Y%m%d")) + 14 > last_date
 
-    while int(date.strftime("%Y%m%d")) <= max_published.release[-1]:
-        date = date + datetime.timedelta(days=1)
-    return date
+    new_date = today
+    while int(new_date.strftime("%Y%m%d")) <= last_date:
+        new_date += datetime.timedelta(days=1)
+    return new_date
 
 
 def assert_compatibility(
