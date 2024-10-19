@@ -97,7 +97,8 @@ def compute_stub_version(
 
         # But can't keep versioning compatible with upstream...
         is_compatible = False
-        base_version_changed = True
+        # We also use the latest stub version as the base version, not the version_spec.
+        base_version_changed = False
 
     elif version_base.release > max_published.release[:specificity]:
         # For example, version_base=1.2, max_published=1.1.0.4, return 1.2.0.YYYYMMDD

@@ -110,6 +110,7 @@ def test_compute_stub_version() -> None:
         _stub_ver("~=1.2.3", [f"1.2.3.{TODAY_V}", f"1.2.3.{TOMORROW_V}"])
         == f"1.2.3.{IN_TWO_DAYS_V}"
     )
+    assert _stub_ver("~=1.2.3", [f"1.4.0.{TODAY_V}"]) == f"1.4.0.{TOMORROW_V}"
 
 
 def test_collect_package_data() -> None:
