@@ -121,7 +121,7 @@ for more details. The source for this package can be found in the
 directory.
 
 This package was generated from typeshed commit
-[`{commit}`](https://github.com/python/typeshed/commit/{commit})
+[`{commit}`](https://github.com/python/typeshed/commit/{commit}).
 """.strip()
 
 
