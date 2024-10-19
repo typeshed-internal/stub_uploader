@@ -103,22 +103,26 @@ It can be used by type-checking tools like
 [mypy](https://github.com/python/mypy/),
 [pyright](https://github.com/microsoft/pyright),
 [pytype](https://github.com/google/pytype/),
-PyCharm, etc. to check code that uses
-`{distribution}`.
-
-This version of `{stub_distribution}` aims to provide accurate annotations
-for `{distribution}{typeshed_version_spec}`.
-The source for this package can be found at
-https://github.com/python/typeshed/tree/main/stubs/{distribution}. All fixes for
-types and metadata should be contributed there.
+[Pyre](https://pyre-check.org/),
+PyCharm, etc. to check code that uses `{distribution}`. This version of
+`{stub_distribution}` aims to provide accurate annotations for
+`{distribution}{typeshed_version_spec}`.
 """.strip()
 
 DESCRIPTION_OUTRO_TEMPLATE = """
-See https://github.com/python/typeshed/blob/main/README.md for more details.
-This package was generated from typeshed commit
-[`{commit}`](https://github.com/python/typeshed/commit/{commit}) and was tested
-with mypy {ts_data.mypy_version}, pyright {ts_data.pyright_version}, and
-pytype {ts_data.pytype_version}.
+This package is part of the [typeshed project](https://github.com/python/typeshed).
+All fixes for types and metadata should be contributed there.
+See [the README](https://github.com/python/typeshed/blob/main/README.md)
+for more details. The source for this package can be found in the
+[`stubs/{distribution}`](https://github.com/python/typeshed/tree/main/stubs/{distribution})
+directory.
+
+This package was tested with
+mypy {ts_data.mypy_version},
+pyright {ts_data.pyright_version},
+and pytype {ts_data.pytype_version}.
+It was generated from typeshed commit
+[`{commit}`](https://github.com/python/typeshed/commit/{commit}).
 """.strip()
 
 
@@ -402,7 +406,13 @@ def generate_long_description(
         )
     if metadata.partial:
         parts.append(PARTIAL_STUBS_DESCRIPTION)
-    parts.append(DESCRIPTION_OUTRO_TEMPLATE.format(commit=commit, ts_data=ts_data))
+    parts.append(
+        DESCRIPTION_OUTRO_TEMPLATE.format(
+            distribution=distribution,
+            commit=commit,
+            ts_data=ts_data,
+        )
+    )
     return "\n\n".join(parts)
 
 
