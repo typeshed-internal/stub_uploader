@@ -1,3 +1,11 @@
+## 75.2.0.20241019 (2024-10-19)
+
+Replace Any with Incomplete in distutils (#12842)
+
+distutils: Add some return types for setuptools to pass ANN201 (#12841)
+
+Add missing defaults to setuptools/_distutils (#12839)
+
 ## 75.2.0.20241018 (2024-10-18)
 
 [stubsabot] Bump setuptools to 75.2.* (#12829)
