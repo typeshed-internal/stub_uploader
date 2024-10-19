@@ -107,18 +107,21 @@ PyCharm, etc. to check code that uses
 `{distribution}`.
 
 This version of `{stub_distribution}` aims to provide accurate annotations
-for `{distribution}{typeshed_version_spec}`.
-The source for this package can be found at
-https://github.com/python/typeshed/tree/main/stubs/{distribution}. All fixes for
-types and metadata should be contributed there.
+for `{distribution}{typeshed_version_spec}` and was tested
+with mypy {ts_data.mypy_version}, pyright {ts_data.pyright_version}, and
+pytype {ts_data.pytype_version}.
 """.strip()
 
 DESCRIPTION_OUTRO_TEMPLATE = """
-See https://github.com/python/typeshed/blob/main/README.md for more details.
+This package is part of the [typeshed project](https://github.com/python/typeshed).
+All fixes for types and metadata should be contributed there.
+See [the README](https://github.com/python/typeshed/blob/main/README.md)
+for more details. The source for this package can be found in the
+[`stubs/{distribution}`](https://github.com/python/typeshed/tree/main/stubs/{distribution})
+directory.
+
 This package was generated from typeshed commit
-[`{commit}`](https://github.com/python/typeshed/commit/{commit}) and was tested
-with mypy {ts_data.mypy_version}, pyright {ts_data.pyright_version}, and
-pytype {ts_data.pytype_version}.
+[`{commit}`](https://github.com/python/typeshed/commit/{commit})
 """.strip()
 
 
