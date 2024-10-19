@@ -103,13 +103,10 @@ It can be used by type-checking tools like
 [mypy](https://github.com/python/mypy/),
 [pyright](https://github.com/microsoft/pyright),
 [pytype](https://github.com/google/pytype/),
-PyCharm, etc. to check code that uses
-`{distribution}`.
-
-This version of `{stub_distribution}` aims to provide accurate annotations
-for `{distribution}{typeshed_version_spec}` and was tested
-with mypy {ts_data.mypy_version}, pyright {ts_data.pyright_version}, and
-pytype {ts_data.pytype_version}.
+[Pyre](https://pyre-check.org/),
+PyCharm, etc. to check code that uses `{distribution}`. This version of
+`{stub_distribution}` aims to provide accurate annotations for
+`{distribution}{typeshed_version_spec}`.
 """.strip()
 
 DESCRIPTION_OUTRO_TEMPLATE = """
@@ -120,7 +117,11 @@ for more details. The source for this package can be found in the
 [`stubs/{distribution}`](https://github.com/python/typeshed/tree/main/stubs/{distribution})
 directory.
 
-This package was generated from typeshed commit
+This package was tested with
+mypy {ts_data.mypy_version},
+pyright {ts_data.pyright_version},
+and pytype {ts_data.pytype_version}.
+It was generated from typeshed commit
 [`{commit}`](https://github.com/python/typeshed/commit/{commit}).
 """.strip()
 
@@ -385,7 +386,6 @@ def generate_long_description(
             formatted_distribution=formatted_distribution,
             stub_distribution=metadata.stub_distribution,
             typeshed_version_spec=metadata.version_spec,
-            ts_data=ts_data,
         )
     )
     if extra_description:
@@ -407,7 +407,11 @@ def generate_long_description(
     if metadata.partial:
         parts.append(PARTIAL_STUBS_DESCRIPTION)
     parts.append(
-        DESCRIPTION_OUTRO_TEMPLATE.format(distribution=distribution, commit=commit)
+        DESCRIPTION_OUTRO_TEMPLATE.format(
+            distribution=distribution,
+            commit=commit,
+            ts_data=ts_data,
+        )
     )
     return "\n\n".join(parts)
 
