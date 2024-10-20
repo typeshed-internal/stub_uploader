@@ -1,3 +1,7 @@
+## 3.1.5.20241020 (2024-10-20)
+
+Update mypy to 1.12.0 (#12859)
+
 ## 3.1.5.20240918 (2024-09-18)
 
 `openpyxl`: fix `Worksheet.values` annotation (#12674)

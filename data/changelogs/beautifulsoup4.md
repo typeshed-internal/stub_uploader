@@ -1,3 +1,7 @@
+## 4.12.0.20241020 (2024-10-20)
+
+Improve typing for BS4 element.Tag's `get` and `get_attribute_list`. (#12840)
+
 ## 4.12.0.20240907 (2024-09-07)
 
 beautifulsoup4: Accept void_element_close_prefix=None (#12621)
