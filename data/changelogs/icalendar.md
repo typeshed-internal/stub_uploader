@@ -1,3 +1,7 @@
+## 6.0.1.20241022 (2024-10-22)
+
+Use compatible version marker for icalendar (#12831)
+
 ## 6.0.0.20241015 (2024-10-15)
 
 Bump icalendar to 6.0.1 (#12802)

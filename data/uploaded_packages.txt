@@ -127,6 +127,7 @@ types-mypy-extensions
 types-mysqlclient
 types-nanoid
 types-netaddr
+types-netifaces
 types-networkx
 types-nmap
 types-oauthlib

@@ -1,3 +1,7 @@
+## 6.1.0.20241022 (2024-10-22)
+
+Bump psutil to 6.1.* (#12868)
+
 ## 6.0.0.20241011 (2024-10-11)
 
 update psutil.Process.parent() return type (#12767)

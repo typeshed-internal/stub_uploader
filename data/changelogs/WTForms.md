@@ -1,3 +1,11 @@
+## 3.2.1.20241022 (2024-10-22)
+
+Bump WTForms to ~= 3.2.1 (#12867)
+
+Bump WTForms to 3.2.* (#12865)
+
+Add missing `__all__` declarations
+
 ## 3.1.0.20240425 (2024-04-25)
 
 Bump pyright to v1.1.360 (#11810)
