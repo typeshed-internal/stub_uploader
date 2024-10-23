@@ -1,3 +1,7 @@
+## 3.2.1.20241023 (2024-10-23)
+
+WTForms: Fix incorrect `Form` constructor return type for pyright (#12875)
+
 ## 3.2.1.20241022 (2024-10-22)
 
 Bump WTForms to ~= 3.2.1 (#12867)
