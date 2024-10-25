@@ -1,3 +1,9 @@
+## 3.2.1.20241025 (2024-10-25)
+
+WTForms: Form errors no longer use `None` as a special key (#12877)
+
+This also fixes incorrect `error` attributes on `FieldList`/`FormField`
+
 ## 3.2.1.20241023 (2024-10-23)
 
 WTForms: Fix incorrect `Form` constructor return type for pyright (#12875)

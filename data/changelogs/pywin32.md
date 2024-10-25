@@ -1,3 +1,7 @@
+## 308.0.0.20241025 (2024-10-25)
+
+Allow pywin32 to use `pywin.mfc.DocTemplate` in lieu of `PyCDocTemplate` (#12888)
+
 ## 308.0.0.20241015 (2024-10-15)
 
 Bump pywin32 to 308.* (#12799)

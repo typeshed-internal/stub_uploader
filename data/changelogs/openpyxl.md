@@ -1,3 +1,9 @@
+## 3.1.5.20241025 (2024-10-25)
+
+Fix linting issues (#12898)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## 3.1.5.20241020 (2024-10-20)
 
 Update mypy to 1.12.0 (#12859)

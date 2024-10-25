@@ -1,3 +1,9 @@
+## 75.2.0.20241025 (2024-10-25)
+
+setuptools & distutils: Add more recent MSVCCompiler from _msvccompiler (#12887)
+
+Add `install_data` in `distutils-stubs` from `setuptools` (#12889)
+
 ## 75.2.0.20241019 (2024-10-19)
 
 Replace Any with Incomplete in distutils (#12842)
