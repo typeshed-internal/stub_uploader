@@ -1,3 +1,14 @@
+## 5.0.0.20241029 (2024-10-29)
+
+Use `lib/ts_utils` for `scripts/sync_protobuf` (#12913)
+
+- Simplified `download_file` error handling (400+ return codes already raised errors!)
+- Moved `update_metadata` from `scripts/sync_protobuf/_utils.py` to `lib/ts_utils/metadata.py`
+- Improved `update_metadata` to support any key (values unvalidated atm) and return the modified dictionary
+- Updated `scripts/stubsabot.py` to use `update_metadata`
+- Updated `scripts/sync_protobuf/*` to use  `lib/ts_utils`
+- Updated `scripts/sync_protobuf/tensorflow.py` and `scripts/sync_protobuf/google_protobuf.py` to use the version directly from the `METADATA.toml` file
+
 ## 5.0.0.20240920 (2024-09-20)
 
 Rewrote protobuf generation scripts in Python (#12527)

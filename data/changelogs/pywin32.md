@@ -1,3 +1,7 @@
+## 308.0.0.20241029 (2024-10-29)
+
+Add `win32com.gen_py` (#12901)
+
 ## 308.0.0.20241025 (2024-10-25)
 
 Allow pywin32 to use `pywin.mfc.DocTemplate` in lieu of `PyCDocTemplate` (#12888)
