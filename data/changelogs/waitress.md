@@ -1,3 +1,7 @@
+## 3.0.1.20241030 (2024-10-30)
+
+[waitress] Update to 3.0.1 (#12917)
+
 ## 3.0.0.20241001 (2024-10-01)
 
 Use `Mapping` for local Python namespace parameters (#12705)
