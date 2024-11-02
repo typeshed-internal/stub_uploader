@@ -1,3 +1,10 @@
+## 6.1.0.20241102 (2024-11-02)
+
+Update type for psutil.cpu_count (#12941)
+
+The function can return None:
+https://github.com/giampaolo/psutil/blame/567438cd3eb4334486d88ba90aa14c65755b61cd/psutil/__init__.py#L1665-L1667
+
 ## 6.1.0.20241022 (2024-10-22)
 
 Bump psutil to 6.1.* (#12868)
