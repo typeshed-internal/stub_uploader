@@ -1,3 +1,7 @@
+## 2.3.0.20241103 (2024-11-03)
+
+Fix type annotations for google-cloud-ndb (#12943)
+
 ## 2.3.0.20240813 (2024-08-13)
 
 Use Generator instead of Iterator for 3rd-party context managers (#12481)

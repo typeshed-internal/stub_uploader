@@ -1,3 +1,10 @@
+## 1.1.0.20241103 (2024-11-03)
+
+Improve pymysql stubs (#12942)
+
+Co-authored-by: Shamil <ashm.tech@proton.me>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 1.1.0.20240524 (2024-05-24)
 
 Update PyMySQL to 1.1.1 (#12001)
