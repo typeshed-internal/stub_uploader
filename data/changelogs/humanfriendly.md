@@ -1,3 +1,11 @@
+## 10.0.1.20241105 (2024-11-05)
+
+remove unused io-related allowlist entries (#12955)
+
+fallout from https://github.com/python/typeshed/pull/12947
+
+fixes https://github.com/python/typeshed/issues/12954
+
 ## 10.0.1.11 (2023-10-27)
 
 Remove many redundant inheritances from `Generic[]` (#10933)

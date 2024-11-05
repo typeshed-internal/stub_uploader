@@ -1,3 +1,11 @@
+## 1.16.21.20241105 (2024-11-05)
+
+remove unused io-related allowlist entries (#12955)
+
+fallout from https://github.com/python/typeshed/pull/12947
+
+fixes https://github.com/python/typeshed/issues/12954
+
 ## 1.16.21.20241009 (2024-10-09)
 
 Allowlist `six.create_bound_method.__code__` (Fix daily test failure) (#12759)

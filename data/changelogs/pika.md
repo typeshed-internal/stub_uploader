@@ -1,3 +1,11 @@
+## 1.3.0.20241105 (2024-11-05)
+
+remove unused io-related allowlist entries (#12955)
+
+fallout from https://github.com/python/typeshed/pull/12947
+
+fixes https://github.com/python/typeshed/issues/12954
+
 ## 1.3.0.20240423 (2024-04-23)
 
 Add precise values for enum members where possible (#11299)

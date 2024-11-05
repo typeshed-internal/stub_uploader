@@ -1,3 +1,7 @@
+## 75.3.0.20241105 (2024-11-05)
+
+Bump setuptools to 75.3.* (#12928)
+
 ## 75.2.0.20241025 (2024-10-25)
 
 setuptools & distutils: Add more recent MSVCCompiler from _msvccompiler (#12887)
