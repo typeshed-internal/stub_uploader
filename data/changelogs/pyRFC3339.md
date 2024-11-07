@@ -1,3 +1,7 @@
+## 2.0.1.20241107 (2024-11-07)
+
+Update pyRFC3339 to 2.0.1 (#12960)
+
 ## 1.1.1.5 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

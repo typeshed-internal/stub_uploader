@@ -1,3 +1,9 @@
+## 75.3.0.20241107 (2024-11-07)
+
+Improve path-related type hints for `setuptools.Extension()` and `distutils.CCompiler()` (#12958)
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 75.3.0.20241105 (2024-11-05)
 
 Bump setuptools to 75.3.* (#12928)

@@ -1,3 +1,7 @@
+## 1.3.0.20241107 (2024-11-07)
+
+[stubsabot] Mark caldav as obsolete since 1.4.0 (#12957)
+
 ## 1.3.0.20240824 (2024-08-24)
 
 Resolve some stubtest allowlist entries by marking params as keyword-only (#12581)
