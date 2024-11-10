@@ -231,6 +231,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "torch",
     "tree-sitter",
     "urllib3",
+    "pyproj",
 }
 
 
