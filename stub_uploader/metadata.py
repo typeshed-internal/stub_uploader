@@ -226,6 +226,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "matplotlib",
     "numpy",
     "pandas-stubs",
+    "pyproj",
     "referencing",
     "setuptools",
     "torch",
