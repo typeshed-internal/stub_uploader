@@ -1,3 +1,7 @@
+## 0.13.2.20241112 (2024-11-12)
+
+Remove numpy pins from several stubs (#12993)
+
 ## 0.13.2.20241003 (2024-10-03)
 
 Support environment markers in requires fields (#12711)

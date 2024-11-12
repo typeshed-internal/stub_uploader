@@ -1,3 +1,7 @@
+## 0.5.10.20241112 (2024-11-12)
+
+Remove numpy pins from several stubs (#12993)
+
 ## 0.5.10.20240822 (2024-08-22)
 
 Using precise code for `pyright: ignore` and re-enabling various pyright tests (#12576)

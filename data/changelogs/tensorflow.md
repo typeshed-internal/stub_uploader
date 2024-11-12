@@ -1,3 +1,7 @@
+## 2.18.0.20241112 (2024-11-12)
+
+Remove numpy pins from several stubs (#12993)
+
 ## 2.18.0.20241030 (2024-10-30)
 
 Bump tensorflow to ~=2.18.0 (#12916)

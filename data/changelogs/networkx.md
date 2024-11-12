@@ -1,3 +1,7 @@
+## 3.3.0.20241112 (2024-11-12)
+
+Remove numpy pins from several stubs (#12993)
+
 ## 3.3.0.20241020 (2024-10-20)
 
 Update mypy to 1.12.0 (#12859)

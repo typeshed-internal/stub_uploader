@@ -1,3 +1,7 @@
+## 75.3.0.20241112 (2024-11-12)
+
+`setuptools._distutils._msvccompiler.MSVCCompiler` non-None ClassVars (#12995)
+
 ## 75.3.0.20241107 (2024-11-07)
 
 Improve path-related type hints for `setuptools.Extension()` and `distutils.CCompiler()` (#12958)
