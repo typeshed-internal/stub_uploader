@@ -1,3 +1,9 @@
+## 24.1.0.20241113 (2024-11-13)
+
+Bump boltons to 24.1.* (#12970)
+
+Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
+
 ## 24.0.0.20240423 (2024-04-23)
 
 Bump boltons to 24.0.* (#11804)
