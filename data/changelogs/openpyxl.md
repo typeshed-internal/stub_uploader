@@ -1,3 +1,7 @@
+## 3.1.5.20241114 (2024-11-14)
+
+Support Writeable Zipfile on workbook.save (#13009)
+
 ## 3.1.5.20241025 (2024-10-25)
 
 Fix linting issues (#12898)
