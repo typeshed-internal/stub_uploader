@@ -1,3 +1,7 @@
+## 3.4.2.20241115 (2024-11-15)
+
+Update networkx stubs for 3.4.2 (#13001)
+
 ## 3.3.0.20241112 (2024-11-12)
 
 Remove numpy pins from several stubs (#12993)

@@ -1,3 +1,7 @@
+## 75.4.0.20241115 (2024-11-15)
+
+Update setuptools to 75.4.* (#13002)
+
 ## 75.3.0.20241112 (2024-11-12)
 
 `setuptools._distutils._msvccompiler.MSVCCompiler` non-None ClassVars (#12995)
