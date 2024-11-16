@@ -1,3 +1,28 @@
+## 75.5.0.20241116 (2024-11-16)
+
+[stubsabot] Bump setuptools to 75.5.* (#13017)
+
+Release: https://pypi.org/pypi/setuptools/75.5.0
+Repository: https://github.com/pypa/setuptools
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/setuptools
+Changelog: https://setuptools.pypa.io/en/stable/history.html
+Diff: https://github.com/pypa/setuptools/compare/v75.4.0...v75.5.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `setuptools/config/pyprojecttoml.py`.
+ - Total lines of Python code added: 0.
+ - Total lines of Python code deleted: 20.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 75.4.0.20241115 (2024-11-15)
 
 Update setuptools to 75.4.* (#13002)
