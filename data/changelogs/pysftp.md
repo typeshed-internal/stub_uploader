@@ -1,3 +1,7 @@
+## 0.2.17.20241117 (2024-11-17)
+
+[pysftp] Logging attribute can be bool or str (#13018)
+
 ## 0.2.17.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)
