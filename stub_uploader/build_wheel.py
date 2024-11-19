@@ -432,16 +432,23 @@ def main(
     build_data = BuildData(typeshed_dir, distribution)
     metadata = read_metadata(typeshed_dir, distribution)
     pkg_data = collect_package_data(build_data.stub_dir)
+
     if build_dir:
         tmpdir = Path(build_dir)
     else:
         tmpdir = Path(tempfile.mkdtemp())
+
     (tmpdir / "setup.py").write_text(
         generate_setup_file(ts_data, build_data, pkg_data, metadata, version)
     )
     copy_stubs(build_data.stub_dir, tmpdir)
     create_py_typed(metadata, pkg_data, tmpdir)
     copy_changelog(distribution, str(tmpdir))
+
+    print(f"\033[0;33mRunning '{sys.executable} -m build --no-isolation' in {tmpdir}")
+    print()
+    subprocess.run(["pip freeze | egrep 'build|twine'"], shell=True)
+    print("\033[0m")
     subprocess.run(
         [sys.executable, "-m", "build", "--sdist", "--wheel", "--no-isolation"],
         cwd=tmpdir,
