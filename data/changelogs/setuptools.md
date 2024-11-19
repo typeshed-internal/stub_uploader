@@ -1,3 +1,7 @@
+## 75.5.0.20241119 (2024-11-19)
+
+Update setuptools return types (#12991)
+
 ## 75.5.0.20241116 (2024-11-16)
 
 [stubsabot] Bump setuptools to 75.5.* (#13017)
