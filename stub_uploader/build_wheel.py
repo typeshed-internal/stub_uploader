@@ -346,7 +346,6 @@ def generate_setup_file(
     version: str,
 ) -> str:
     """Auto-generate a setup.py file for given distribution using a template."""
-    commit = ts_data.read_current_commit()
     all_requirements = [
         str(req) for req in metadata.requires_typeshed + metadata.requires_external
     ]
@@ -359,7 +358,7 @@ def generate_setup_file(
         distribution=build_data.distribution,
         stub_distribution=metadata.stub_distribution,
         long_description=generate_long_description(
-            build_data.distribution, commit, ts_data, metadata
+            build_data.distribution, ts_data, metadata
         ),
         version=version,
         requires=all_requirements,
@@ -370,8 +369,10 @@ def generate_setup_file(
 
 
 def generate_long_description(
-    distribution: str, commit: str, ts_data: TypeshedData, metadata: Metadata
+    distribution: str, ts_data: TypeshedData, metadata: Metadata
 ) -> str:
+    commit = ts_data.read_current_commit()
+
     extra_description = metadata.extra_description.strip()
     parts: list[str] = []
 
@@ -441,9 +442,12 @@ def main(
     )
     copy_stubs(build_data.stub_dir, tmpdir)
     create_py_typed(metadata, pkg_data, tmpdir)
+    (tmpdir / "README.md").write_text(
+        generate_long_description(distribution, ts_data, metadata)
+    )
     copy_changelog(distribution, str(tmpdir))
     subprocess.run(
-        [sys.executable, "-m", "build", "--sdist", "--wheel", "--no-isolation"],
+        [sys.executable, "-m", "build", "--no-isolation"],
         cwd=tmpdir,
     )
     return f"{tmpdir}/dist"
