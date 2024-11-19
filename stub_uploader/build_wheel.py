@@ -443,7 +443,7 @@ def main(
     create_py_typed(metadata, pkg_data, tmpdir)
     copy_changelog(distribution, str(tmpdir))
     subprocess.run(
-        [sys.executable, "-m", "build", "--sdist", "--wheel", "--no-isolation"],
+        [sys.executable, "-m", "build", "--no-isolation"],
         cwd=tmpdir,
     )
     return f"{tmpdir}/dist"
