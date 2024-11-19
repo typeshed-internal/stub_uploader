@@ -281,14 +281,16 @@ def create_py_typed(metadata: Metadata, pkg_data: PackageData, dst: Path) -> Non
         py_typed_path.write_text("partial\n" if metadata.partial else "")
 
 
-def copy_changelog(distribution: str, dst: str) -> None:
+def copy_license(ts_data: TypeshedData, dst: Path) -> None:
+    """Copy the license file from the typeshed repository to the build directory."""
+    shutil.copy(ts_data.typeshed_path / "LICENSE", dst / "LICENSE")
+
+
+def copy_changelog(distribution: str, dst: Path) -> None:
     """Copy changelog to the build directory."""
     try:
-        shutil.copy(
-            os.path.join(CHANGELOG_PATH, f"{distribution}.md"),
-            os.path.join(dst, CHANGELOG),
-        )
-        with open(os.path.join(dst, "MANIFEST.in"), "a") as f:
+        shutil.copy(CHANGELOG_PATH / f"{distribution}.md", dst / CHANGELOG)
+        with open(dst / "MANIFEST.in", "a") as f:
             f.write(f"include {CHANGELOG}\n")
     except FileNotFoundError:
         pass  # Ignore missing changelogs
@@ -447,7 +449,8 @@ def main(
     (tmpdir / "README.md").write_text(
         generate_long_description(distribution, ts_data, metadata)
     )
-    copy_changelog(distribution, str(tmpdir))
+    copy_license(ts_data, tmpdir)
+    copy_changelog(distribution, tmpdir)
 
     print(f"\033[0;33mRunning '{sys.executable} -m build --no-isolation' in {tmpdir}")
     print()
