@@ -1,3 +1,7 @@
+## 75.5.0.20241122 (2024-11-20)
+
+setuptools & distutils: more accurate spawn method (#13036)
+
 ## 75.5.0.20241119 (2024-11-19)
 
 Update setuptools return types (#12991)
