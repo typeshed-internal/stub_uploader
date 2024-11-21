@@ -1,3 +1,9 @@
+## 308.0.0.20241121 (2024-11-21)
+
+Fix pywin32 GetClipboardData return type (#13046)
+
+Fixes #12825
+
 ## 308.0.0.20241029 (2024-10-29)
 
 Add `win32com.gen_py` (#12901)
