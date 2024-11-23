@@ -1,3 +1,7 @@
+## 6.2.0.20241123 (2024-11-23)
+
+[bleach] Update to 6.2.* (#12927)
+
 ## 6.1.0.20240331 (2024-03-31)
 
 Remove bare Incomplete annotations in third-party stubs (#11671)
