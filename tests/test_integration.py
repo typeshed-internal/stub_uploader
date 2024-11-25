@@ -114,6 +114,17 @@ def test_verify_external_req() -> None:
     with pytest.raises(InvalidRequires, match="no upstream distribution on PyPI"):
         m.requires_external
 
+    # Check differing runtime and stub dependencies
+    verify_external_req(Requirement("pandas-stubs"), "geopandas")
+    with pytest.raises(
+        InvalidRequires,
+        match=(
+            r"Expected dependency pandas to be present in the stub_uploader allowlist"
+            r"\. Did you mean pandas-stubs\?"
+        ),
+    ):
+        verify_external_req(Requirement("pandas"), "geopandas")
+
 
 def test_dependency_order() -> None:
     """Test sort_by_dependency correctly sorts all packages by dependency."""

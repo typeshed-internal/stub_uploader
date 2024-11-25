@@ -234,6 +234,13 @@ EXTERNAL_REQ_ALLOWLIST = {
     "urllib3",
 }
 
+# Runtime requirements corresponding to the external requirements list above.
+EXTERNAL_RUNTIME_REQ_MAP = {
+    "django-stubs": "django",
+    "djangorestframework-stubs": "djangorestframework",
+    "pandas-stubs": "pandas",
+}
+
 
 def validate_response(resp: requests.Response, req: Requirement) -> None:
     if resp.status_code != 200:
@@ -294,9 +301,13 @@ def verify_external_req(
         )
 
     if req.name not in EXTERNAL_REQ_ALLOWLIST and not _unsafe_ignore_allowlist:
-        raise InvalidRequires(
-            f"Expected dependency {req.name} to be present in the stub_uploader allowlist"
-        )
+        msg = f"Expected dependency {req.name} to be present in the stub_uploader allowlist"
+        if req.name in EXTERNAL_RUNTIME_REQ_MAP.values():
+            maybe = next(
+                k for k, v in EXTERNAL_RUNTIME_REQ_MAP.items() if v == req.name
+            )
+            msg += f". Did you mean {maybe}?"
+        raise InvalidRequires(msg)
 
     resp = requests.get(f"https://pypi.org/pypi/{upstream_distribution}/json")
     validate_response(resp, req)
@@ -306,7 +317,10 @@ def verify_external_req(
     # broken by new releases of upstream packages, even if they do not match the version spec we
     # have for the upstream distribution.
 
-    if req_canonical_name in [
+    runtime_req_name = EXTERNAL_RUNTIME_REQ_MAP.get(req.name, req.name)
+    runtime_req_canonical_name = canonical_name(runtime_req_name)
+
+    if runtime_req_canonical_name in [
         canonical_name(Requirement(r).name)
         for r in (data["info"].get("requires_dist") or [])
     ]:
@@ -322,11 +336,11 @@ def verify_external_req(
     )
     if not (
         sdist_data
-        and req_canonical_name
+        and runtime_req_canonical_name
         in [canonical_name(r.name) for r in extract_sdist_requires(sdist_data, req)]
     ):
         raise InvalidRequires(
-            f"Expected dependency {req} to be listed in {upstream_distribution}'s "
+            f"Expected dependency {runtime_req_name} to be listed in {upstream_distribution}'s "
             + "requires_dist or the sdist's *.egg-info/requires.txt"
         )
 
