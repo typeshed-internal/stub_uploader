@@ -1,3 +1,7 @@
+## 75.6.0.20241126 (2024-11-26)
+
+Bump setuptools to 75.6.* (#13089)
+
 ## 75.5.0.20241122 (2024-11-20)
 
 setuptools & distutils: more accurate spawn method (#13036)

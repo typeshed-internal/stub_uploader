@@ -1,3 +1,7 @@
+## 3.1.5.20241126 (2024-11-26)
+
+openpyxl: `Cell | MergedCell` annotations (#13092)
+
 ## 3.1.5.20241114 (2024-11-14)
 
 Support Writeable Zipfile on workbook.save (#13009)
