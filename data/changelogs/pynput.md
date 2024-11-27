@@ -1,3 +1,7 @@
+## 1.7.7.20241127 (2024-11-27)
+
+Remove obsolete OptExcInfo from sys (#13117)
+
 ## 1.7.7.20240813 (2024-08-13)
 
 Use Generator instead of Iterator for 3rd-party context managers (#12481)
