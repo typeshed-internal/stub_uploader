@@ -1,3 +1,7 @@
+## 6.1.0.20241128 (2024-11-28)
+
+[icalendar] Update to 6.1.* (#13109)
+
 ## 6.0.1.20241022 (2024-10-22)
 
 Use compatible version marker for icalendar (#12831)

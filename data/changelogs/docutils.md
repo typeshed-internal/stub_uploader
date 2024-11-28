@@ -1,3 +1,7 @@
+## 0.21.0.20241128 (2024-11-28)
+
+Generate `docutils.core` and type `publish_parts`'s return type (#13118)
+
 ## 0.21.0.20241005 (2024-10-05)
 
 improve type annotations in 'docutils.frontend' (#12735)

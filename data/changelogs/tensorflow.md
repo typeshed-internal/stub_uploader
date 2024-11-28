@@ -1,3 +1,7 @@
+## 2.18.0.20241128 (2024-11-28)
+
+Pin `keras` to `3.6.*` when stubtesting `tensorflow` (#13137)
+
 ## 2.18.0.20241112 (2024-11-12)
 
 Remove numpy pins from several stubs (#12993)

@@ -1,3 +1,7 @@
+## 308.0.0.20241128 (2024-11-28)
+
+Add pywin32's isapi.install (#13119)
+
 ## 308.0.0.20241121 (2024-11-21)
 
 Fix pywin32 GetClipboardData return type (#13046)
