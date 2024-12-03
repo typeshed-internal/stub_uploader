@@ -1,3 +1,7 @@
+## 1.3.0.20241203 (2024-12-03)
+
+[pika] Use protocol for _Credentials (#13159)
+
 ## 1.3.0.20241105 (2024-11-05)
 
 remove unused io-related allowlist entries (#12955)

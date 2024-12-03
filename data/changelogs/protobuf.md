@@ -1,3 +1,7 @@
+## 5.28.3.20241203 (2024-12-03)
+
+Add `google.protobuf.runtime_version` (#13161)
+
 ## 5.28.3.20241030 (2024-10-30)
 
 Bump tensorflow to ~=2.18.0 (#12916)
