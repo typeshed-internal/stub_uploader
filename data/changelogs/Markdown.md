@@ -1,3 +1,7 @@
+## 3.7.0.20241204 (2024-12-04)
+
+Use _ReadableStream from codecs (#13167)
+
 ## 3.7.0.20240822 (2024-08-22)
 
 Bump Markdown to 3.7.* (#12565)

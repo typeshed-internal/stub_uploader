@@ -1,3 +1,7 @@
+## 0.13.2.20241204 (2024-12-04)
+
+Fix todo in seaborn algorithms (#13186)
+
 ## 0.13.2.20241112 (2024-11-12)
 
 Remove numpy pins from several stubs (#12993)

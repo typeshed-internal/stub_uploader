@@ -1,3 +1,7 @@
+## 4.0.0.20241204 (2024-12-04)
+
+Use SupportsFlush from typeshed to fix TODO (#13166)
+
 ## 4.0.0.20240311 (2024-03-11)
 
 Use Python 3.11 for third-party stubtest in CI (#11562)

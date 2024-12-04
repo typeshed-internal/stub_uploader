@@ -1,3 +1,9 @@
+## 3.2.0.20241204 (2024-12-04)
+
+Remove obsolete todo from `ibm_db.pyi` (#13170)
+
+The `SQL_ATTR_CONFIG_KEYWORDS_MAXLEN` attr is already there on line 100
+
 ## 3.2.0.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)

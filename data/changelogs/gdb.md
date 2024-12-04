@@ -1,3 +1,25 @@
+## 15.0.0.20241204 (2024-12-04)
+
+Fixes for `gdb` stubs (#13169)
+
+* gdb: Clarify a comment
+* gdb: Fix gdb.unwinder.Unwinder.__call__ argument. It takes a gdb.PendingFrame, not a gdb.Frame.
+* gdb: Unwinders may implement a proto without subclassing gdb.unwinder.Unwinder
+* gdb: Fix Breakpoint.__init__
+
+ 1. `line` should be `int|str`, not just `int` (IDK what a string means,
+    but that it can be a string is clear if you read
+    py-breakpoint.c:bppy_init().
+ 2. `type` argument should be able to be passed to the "location" form,
+    not just the "spec" form, even if
+    https://sourceware.org/gdb/current/onlinedocs/gdb.html/Breakpoints-In-Python.html
+    neglects to mention it (don't worry, I'll be submitting a patch to fix
+    the doc soon).
+ 3. Fix the positional argument order (based on GDB's sources, it isn't
+    really documented)
+ 4. Use more `@overloads` to enforce that at least 1 of `function`,
+    `label`, or `line` are given in the location form.
+
 ## 15.0.0.20241015 (2024-10-15)
 
 Bump gdb to 15.0.* (#12804)
