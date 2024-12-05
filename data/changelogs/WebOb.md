@@ -1,3 +1,7 @@
+## 1.8.0.20241205 (2024-12-05)
+
+WebOb: Fixes `webob.exc.status_map` (#13195)
+
 ## 1.8.0.20240822 (2024-08-22)
 
 Using precise code for `pyright: ignore` and re-enabling various pyright tests (#12576)

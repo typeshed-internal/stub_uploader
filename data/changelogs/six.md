@@ -1,3 +1,25 @@
+## 1.17.0.20241205 (2024-12-05)
+
+[stubsabot] Bump six to 1.17.* (#13197)
+
+Release: https://pypi.org/pypi/six/1.17.0
+Homepage: https://github.com/benjaminp/six
+Repository: https://github.com/benjaminp/six
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/six
+Diff: https://github.com/benjaminp/six/compare/1.16.0...1.17.0
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 29.
+ - Total lines of Python code deleted: 11.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 1.16.21.20241105 (2024-11-05)
 
 remove unused io-related allowlist entries (#12955)
