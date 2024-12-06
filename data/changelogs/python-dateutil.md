@@ -1,3 +1,7 @@
+## 2.9.0.20241206 (2024-12-06)
+
+Use union instead of overloads in dateutil (#13184)
+
 ## 2.9.0.20241003 (2024-10-03)
 
 dateutil: Enable failing test (#11612)
