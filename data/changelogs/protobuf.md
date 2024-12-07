@@ -1,3 +1,7 @@
+## 5.29.1.20241207 (2024-12-07)
+
+Bump protobuf to ~=5.29.1 (#13209)
+
 ## 5.28.3.20241203 (2024-12-03)
 
 Add `google.protobuf.runtime_version` (#13161)

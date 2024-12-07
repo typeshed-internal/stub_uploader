@@ -1,3 +1,7 @@
+## 0.9.0.20241207 (2024-12-07)
+
+Improve annotation for `tabular_data` parameter of `tabulate.tabulate` (#13178)
+
 ## 0.9.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)
