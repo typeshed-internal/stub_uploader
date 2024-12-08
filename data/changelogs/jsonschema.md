@@ -1,3 +1,7 @@
+## 4.23.0.20241208 (2024-12-08)
+
+Unpin webcolors in jsonschema (#13215)
+
 ## 4.23.0.20240813 (2024-08-13)
 
 Use Generator instead of Iterator for 3rd-party context managers (#12481)
