@@ -1,3 +1,19 @@
+## 2.23.0.20241212 (2024-12-12)
+
+[stubsabot] Bump hdbcli to 2.23.* (#13228)
+
+Release: https://pypi.org/pypi/hdbcli/2.23.24
+Homepage: https://www.sap.com/
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/hdbcli
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 2.22.0.20240924 (2024-09-24)
 
 [stubsabot] Bump hdbcli to 2.22.* (#12676)
