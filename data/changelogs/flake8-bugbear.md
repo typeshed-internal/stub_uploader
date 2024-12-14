@@ -1,3 +1,29 @@
+## 24.12.12.20241214 (2024-12-14)
+
+[stubsabot] Bump flake8-bugbear to 24.12.12 (#13235)
+
+Release: https://pypi.org/pypi/flake8-bugbear/24.12.12
+Homepage: https://github.com/PyCQA/flake8-bugbear
+Repository: https://github.com/PyCQA/flake8-bugbear
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-bugbear
+Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+Diff: https://github.com/PyCQA/flake8-bugbear/compare/24.10.31...24.12.12
+
+Stubsabot analysis of the diff between the two releases:
+ - 9 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `bugbear.py`.
+ - Total lines of Python code added: 595.
+ - Total lines of Python code deleted: 43.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 24.10.31.20241103 (2024-11-03)
 
 [stubsabot] Bump flake8-bugbear to 24.10.31 (#12938)
