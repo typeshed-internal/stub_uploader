@@ -1,3 +1,11 @@
+## 0.9.9.20241219 (2024-12-19)
+
+[vobject] Replace `typing.Any` with `_typeshed.Incomplete` (#13265)
+
+[vobject] Update to 0.9.9 (#13263)
+
+Update repository URL
+
 ## 0.9.8.20241003 (2024-10-03)
 
 Update vobject (#12721)
