@@ -1,3 +1,7 @@
+## 4.67.0.20241220 (2024-12-20)
+
+Fix tqdm.asyncio type inconsistency (#13259)
+
 ## 4.67.0.20241119 (2024-11-19)
 
 Update tqdm to 4.67.* (#13004)
