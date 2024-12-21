@@ -1,3 +1,7 @@
+## 0.23.0.20241221 (2024-12-21)
+
+Update to mypy 1.14 (#13272)
+
 ## 0.23.0.20240724 (2024-07-24)
 
 `setuptools` & `distutils`: `ClassVar` mutables (and tuples) (#12403)

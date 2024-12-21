@@ -1,3 +1,7 @@
+## 6.0.12.20241221 (2024-12-21)
+
+Update to mypy 1.14 (#13272)
+
 ## 6.0.12.20240917 (2024-09-17)
 
 PyYAML: correct return type of `construct_scalar()` (#12664)

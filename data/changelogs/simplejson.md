@@ -1,3 +1,7 @@
+## 3.19.0.20241221 (2024-12-21)
+
+Update to mypy 1.14 (#13272)
+
 ## 3.19.0.20240801 (2024-08-01)
 
 Allow `simplejson` encoding arguments to be `None`. (#12466)

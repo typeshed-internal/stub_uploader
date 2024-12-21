@@ -1,3 +1,7 @@
+## 0.22.0.20241221 (2024-12-21)
+
+Update to mypy 1.14 (#13272)
+
 ## 0.22.0.20240310 (2024-03-10)
 
 Bump mypy to 1.9, add to json.encoder, small fixups (#11549)

@@ -1,3 +1,7 @@
+## 3.5.0.20241221 (2024-12-21)
+
+Update to mypy 1.14 (#13272)
+
 ## 3.5.0.20240826 (2024-08-26)
 
 pyserial: Replace IO classes with protocols (#12572)

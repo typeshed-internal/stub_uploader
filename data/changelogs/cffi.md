@@ -1,3 +1,7 @@
+## 1.16.0.20241221 (2024-12-21)
+
+Update to mypy 1.14 (#13272)
+
 ## 1.16.0.20240331 (2024-03-31)
 
 Remove bare Incomplete annotations in third-party stubs (#11671)

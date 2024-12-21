@@ -1,3 +1,7 @@
+## 4.1.0.20241221 (2024-12-21)
+
+Update to mypy 1.14 (#13272)
+
 ## 4.1.0.0 (2023-08-29)
 
 [stubsabot] Bump singledispatch to 4.1.* (#10624)

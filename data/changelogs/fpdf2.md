@@ -1,3 +1,7 @@
+## 2.8.1.20241221 (2024-12-21)
+
+Update to mypy 1.14 (#13272)
+
 ## 2.8.1.20241204 (2024-12-04)
 
 [fpdf2] Tighten FPDF.fonts annotation (#13168)

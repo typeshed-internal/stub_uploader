@@ -1,3 +1,7 @@
+## 1.10.0.20241221 (2024-12-21)
+
+Update to mypy 1.14 (#13272)
+
 ## 1.10.0.1 (2023-07-20)
 
 Add a few more upstream_repository URLs (#10489)

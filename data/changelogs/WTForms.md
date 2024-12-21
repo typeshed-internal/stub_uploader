@@ -1,3 +1,7 @@
+## 3.2.1.20241221 (2024-12-21)
+
+Update to mypy 1.14 (#13272)
+
 ## 3.2.1.20241025 (2024-10-25)
 
 WTForms: Form errors no longer use `None` as a special key (#12877)

@@ -1,3 +1,7 @@
+## 1.2.0.20241221 (2024-12-21)
+
+Update to mypy 1.14 (#13272)
+
 ## 1.2.0.20240811 (2024-08-11)
 
 Fix type hint for `msgctxt` parameter in `polib` (#12506)

@@ -1,3 +1,7 @@
+## 1.0.2.20241221 (2024-12-21)
+
+Update to mypy 1.14 (#13272)
+
 ## 1.0.2.5 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

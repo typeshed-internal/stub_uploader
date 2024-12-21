@@ -1,3 +1,7 @@
+## 1.7.7.20241221 (2024-12-21)
+
+Update to mypy 1.14 (#13272)
+
 ## 1.7.7.20241127 (2024-11-27)
 
 Remove obsolete OptExcInfo from sys (#13117)

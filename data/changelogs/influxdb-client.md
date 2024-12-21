@@ -1,3 +1,7 @@
+## 1.45.0.20241221 (2024-12-21)
+
+Update to mypy 1.14 (#13272)
+
 ## 1.45.0.20240915 (2024-09-15)
 
 [stubsabot] Mark influxdb-client as obsolete since 1.46.0 (#12655)

@@ -1,3 +1,7 @@
+## 2.2.0.20241221 (2024-12-21)
+
+Update to mypy 1.14 (#13272)
+
 ## 2.2.0.20240911 (2024-09-11)
 
 mysqlclient: Annotate Connect() return type (#12633)

@@ -1,3 +1,7 @@
+## 4.67.0.20241221 (2024-12-21)
+
+Update to mypy 1.14 (#13272)
+
 ## 4.67.0.20241220 (2024-12-20)
 
 Fix tqdm.asyncio type inconsistency (#13259)

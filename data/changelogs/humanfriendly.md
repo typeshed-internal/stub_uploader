@@ -1,3 +1,7 @@
+## 10.0.1.20241221 (2024-12-21)
+
+Update to mypy 1.14 (#13272)
+
 ## 10.0.1.20241105 (2024-11-05)
 
 remove unused io-related allowlist entries (#12955)
