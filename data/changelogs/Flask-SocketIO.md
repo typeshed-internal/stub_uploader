@@ -1,3 +1,7 @@
+## 5.4.0.20241224 (2024-12-24)
+
+Flask-socketio 5.5 + add type of kwargs (#13271)
+
 ## 5.4.0.20241002 (2024-10-02)
 
 [stubsabot] Bump Flask-SocketIO to 5.4.* (#12712)
