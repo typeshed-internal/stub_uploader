@@ -1,3 +1,7 @@
+## 3.1.5.20241225 (2024-12-25)
+
+Add `__hash__` for a bunch of types that set it to None (#13286)
+
 ## 3.1.5.20241126 (2024-11-26)
 
 openpyxl: `Cell | MergedCell` annotations (#13092)

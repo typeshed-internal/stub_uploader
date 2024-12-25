@@ -1,3 +1,9 @@
+## 24.11.0.20241225 (2024-12-25)
+
+gevent: remove unused allowlist entry (#13301)
+
+Fixes #13300
+
 ## 24.11.0.20241221 (2024-12-21)
 
 Update to mypy 1.14 (#13272)
