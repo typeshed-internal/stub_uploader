@@ -1,3 +1,17 @@
+## 5.5.0.20241227 (2024-12-27)
+
+[stubsabot] Bump Flask-SocketIO to 5.5.* (#13288)
+
+Release: https://pypi.org/pypi/Flask-SocketIO/5.5.0
+Homepage: https://github.com/miguelgrinberg/flask-socketio
+Repository: https://github.com/miguelgrinberg/flask-socketio
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Flask-SocketIO
+Diff: https://github.com/miguelgrinberg/flask-socketio/compare/v5.4.1...v5.5.0
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 28.
+ - Total lines of Python code deleted: 23.
+
 ## 5.4.0.20241224 (2024-12-24)
 
 Flask-socketio 5.5 + add type of kwargs (#13271)

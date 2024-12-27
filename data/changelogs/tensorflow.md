@@ -1,3 +1,7 @@
+## 2.18.0.20241227 (2024-12-27)
+
+Enable Ruff PGH rules (#13304)
+
 ## 2.18.0.20241128 (2024-11-28)
 
 Pin `keras` to `3.6.*` when stubtesting `tensorflow` (#13137)
