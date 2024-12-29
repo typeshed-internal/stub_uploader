@@ -1,3 +1,7 @@
+## 3.17.8.20241229 (2024-12-29)
+
+Add return type for get_tables() in peewee (#13230)
+
 ## 3.17.8.20241221 (2024-12-21)
 
 Update to mypy 1.14 (#13272)

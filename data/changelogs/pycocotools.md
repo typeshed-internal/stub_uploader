@@ -1,3 +1,10 @@
+## 2.0.0.20241229 (2024-12-29)
+
+Fix todo in pycocotools (#13182)
+
+Adds numpy types.
+All the types were already there as comments.
+
 ## 2.0.0.20240806 (2024-08-06)
 
 Bump mypy to 1.11.1 (#12463)

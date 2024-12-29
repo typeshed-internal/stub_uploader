@@ -1,3 +1,4 @@
+types-Authlib
 types-D3DShot
 types-DateTimeRange
 types-Deprecated
@@ -55,7 +56,9 @@ types-chardet
 types-chevron
 types-click
 types-click-default-group
+types-click-log
 types-click-spinner
+types-click-web
 types-colorama
 types-commonmark
 types-console-menu
@@ -68,6 +71,7 @@ types-dateparser
 types-decorator
 types-defusedxml
 types-dj-database-url
+types-django-import-export
 types-docker
 types-dockerfile-parse
 types-docopt
@@ -126,6 +130,7 @@ types-mock
 types-mypy-extensions
 types-mysqlclient
 types-nanoid
+types-nanoleafapi
 types-netaddr
 types-netifaces
 types-networkx

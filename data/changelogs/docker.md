@@ -1,3 +1,10 @@
+## 7.1.0.20241229 (2024-12-29)
+
+Fix missed type hints in docker containers.pyi (#13136)
+
+Previously, `Container.exec_run` and `Container.get_archive` missed type hints on `cmd` and `path` arguments, respectively.
+Added type hints based on docstring.
+
 ## 7.1.0.20240827 (2024-08-27)
 
 [docker-py] Fix 'volumes' argument type hint for 'run' and 'create' functions in containers.pyi (#12594)
