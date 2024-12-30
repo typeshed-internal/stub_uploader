@@ -1,3 +1,7 @@
+## 6.0.12.20241230 (2024-12-30)
+
+fix(yaml): SafeConstructor.construct_scalar accept `MappingNode` (#13340)
+
 ## 6.0.12.20241221 (2024-12-21)
 
 Update to mypy 1.14 (#13272)

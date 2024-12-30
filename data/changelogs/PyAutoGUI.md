@@ -1,3 +1,9 @@
+## 0.9.3.20241230 (2024-12-30)
+
+pyAutoGui: Correct Return Type of position() to Match Actual Behavior (#11267)
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 0.9.3.20240406 (2024-04-06)
 
 Depend on Pillow instead of types-Pillow (#11720)

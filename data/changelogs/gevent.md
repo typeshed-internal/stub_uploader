@@ -1,3 +1,9 @@
+## 24.11.0.20241230 (2024-12-30)
+
+fix gevent.select.poll (#13335)
+
+fixes #13330
+
 ## 24.11.0.20241225 (2024-12-25)
 
 gevent: remove unused allowlist entry (#13301)
