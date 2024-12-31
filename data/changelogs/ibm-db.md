@@ -1,3 +1,17 @@
+## 3.2.5.20241231 (2024-12-31)
+
+[stubsabot] Bump ibm-db to 3.2.5 (#13348)
+
+Release: https://pypi.org/pypi/ibm-db/3.2.5
+Homepage: http://pypi.python.org/pypi/ibm_db/
+Repository: https://github.com/ibmdb/python-ibmdb
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/ibm-db
+Diff: https://github.com/ibmdb/python-ibmdb/compare/v3.2.4...v3.2.5
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 13.
+ - Total lines of Python code deleted: 9.
+
 ## 3.2.4.20241216 (2024-12-16)
 
 Bump ibm-db to 3.2.4 (#13251)
