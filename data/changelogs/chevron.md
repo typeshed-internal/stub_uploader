@@ -1,3 +1,7 @@
+## 0.14.2.20250103 (2025-01-03)
+
+Enable Ruff EXE (flake8-executable) (#13346)
+
 ## 0.14.2.20240310 (2024-03-10)
 
 Bump mypy to 1.9, add to json.encoder, small fixups (#11549)
