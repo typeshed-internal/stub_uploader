@@ -1,3 +1,7 @@
+## 75.8.0.20250110 (2025-01-10)
+
+Bump setuptools to 75.8.* (#13367)
+
 ## 75.6.0.20241223 (2024-12-23)
 
 setuptools: Remove problematic private module compat (#13280)
