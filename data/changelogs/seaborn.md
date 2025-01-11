@@ -1,3 +1,7 @@
+## 0.13.2.20250111 (2025-01-11)
+
+Officially drop Python 3.8 support (#13386)
+
 ## 0.13.2.20241204 (2024-12-04)
 
 Fix todo in seaborn algorithms (#13186)

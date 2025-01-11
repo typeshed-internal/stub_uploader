@@ -1,3 +1,7 @@
+## 2.0.0.20250111 (2025-01-11)
+
+Officially drop Python 3.8 support (#13386)
+
 ## 2.0.0.20241229 (2024-12-29)
 
 Fix todo in pycocotools (#13182)
