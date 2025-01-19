@@ -1,3 +1,9 @@
+## 2.0.0.20250119 (2025-01-19)
+
+requests-oauthlib: decoding can be None (#13404)
+
+it is passed along to oauthlib where the default there is None
+
 ## 2.0.0.20240417 (2024-04-17)
 
 Remove remaining bare `Incomplete`s (#11768)
