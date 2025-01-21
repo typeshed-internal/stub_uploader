@@ -1,3 +1,10 @@
+## 5.1.8.20250121 (2025-01-21)
+
+Improve [Async]ContextDecorator type hinting (#13416)
+
+Updated annotations allow access to `__wrapped__` on
+decorated callables without complaints from typecheckers.
+
 ## 5.1.8.20240310 (2024-03-10)
 
 Bump mypy to 1.9, add to json.encoder, small fixups (#11549)
