@@ -1,3 +1,7 @@
+## 3.5.0.20250124 (2025-01-24)
+
+pyserial: make serial.threaded.ReaderThread generic in the type of Protocol (#13425)
+
 ## 3.5.0.20241221 (2024-12-21)
 
 Update to mypy 1.14 (#13272)
