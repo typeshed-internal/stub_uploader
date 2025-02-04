@@ -1,3 +1,12 @@
+## 4.12.0.20250204 (2025-02-04)
+
+[stubsabot] Mark beautifulsoup4 as obsolete since 4.13.0 (#13455)
+
+Release: https://pypi.org/pypi/beautifulsoup4/4.13.0
+Homepage: https://www.crummy.com/software/BeautifulSoup/bs4/
+Repository: https://git.launchpad.net/beautifulsoup/tree
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/beautifulsoup4
+
 ## 4.12.0.20241020 (2024-10-20)
 
 Improve typing for BS4 element.Tag's `get` and `get_attribute_list`. (#12840)
