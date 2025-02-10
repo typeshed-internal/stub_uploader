@@ -1,3 +1,7 @@
+## 75.8.0.20250210 (2025-02-10)
+
+Update `pathname` param of `setuptools._distutils.util.convert_path` (#13483)
+
 ## 75.8.0.20250110 (2025-01-10)
 
 Bump setuptools to 75.8.* (#13367)

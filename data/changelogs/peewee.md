@@ -1,3 +1,7 @@
+## 3.17.9.20250210 (2025-02-10)
+
+Bump peewee to 3.17.9 (#13475)
+
 ## 3.17.8.20241229 (2024-12-29)
 
 Add return type for get_tables() in peewee (#13230)

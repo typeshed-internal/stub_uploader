@@ -1,3 +1,9 @@
+## 6.12.0.20250210 (2025-02-10)
+
+[stubsabot] Bump pyinstaller to 6.12.* (#13479)
+
+Co-authored-by: stubsabot <>
+
 ## 6.11.0.20250130 (2025-01-30)
 
 Upgrade Black and Ruff (#13443)
