@@ -5,17 +5,17 @@ import graphlib
 import os
 import re
 import tarfile
+import tempfile
 import urllib.parse
 from collections.abc import Generator, Iterable
 from glob import glob
 from pathlib import Path
-import tempfile
 from typing import Any, Optional
 
 import requests
 import tomli
 from packaging.requirements import Requirement
-from packaging.specifiers import Specifier, InvalidSpecifier
+from packaging.specifiers import InvalidSpecifier, Specifier
 
 from .const import META, THIRD_PARTY_NAMESPACE, TYPES_PREFIX, UPLOADED_PATH
 
@@ -318,6 +318,10 @@ def verify_external_req(
     # have for the upstream distribution.
 
     runtime_req_name = EXTERNAL_RUNTIME_REQ_MAP.get(req.name, req.name)
+
+    if runtime_req_name == upstream_distribution:
+        return  # Ok! Allow `types-foo` to require `foo`
+
     runtime_req_canonical_name = canonical_name(runtime_req_name)
 
     if runtime_req_canonical_name in [
