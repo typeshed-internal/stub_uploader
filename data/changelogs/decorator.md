@@ -1,3 +1,15 @@
+## 5.1.8.20250215 (2025-02-15)
+
+Revert "Improve [Async]ContextDecorator type hinting (#13416)" (#13436)
+
+This reverts commit 57d7c4334b64856fda6f6e8f992b101ddafe2f57.
+
+The attempted fix loses all type overload information during type
+inferencing, so postpone fixing the issue until we have a solution
+which doesn't impose such a dramatic loss in functionality.
+
+Reopens #13403
+
 ## 5.1.8.20250121 (2025-01-21)
 
 Improve [Async]ContextDecorator type hinting (#13416)
