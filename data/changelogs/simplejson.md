@@ -1,3 +1,9 @@
+## 3.20.0.20250218 (2025-02-18)
+
+[stubsabot] Bump simplejson to 3.20.* (#13505)
+
+Co-authored-by: stubsabot <>
+
 ## 3.19.0.20241221 (2024-12-21)
 
 Update to mypy 1.14 (#13272)

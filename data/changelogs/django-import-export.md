@@ -1,3 +1,9 @@
+## 4.3.0.20250218 (2025-02-18)
+
+[stubsabot] Bump django-import-export to 4.3.* (#13460)
+
+Co-authored-by: stubsabot <>
+
 ## 3.3.0.20250204 (2025-02-04)
 
 Bump django-import-export to 4.3.4 (#13414)
