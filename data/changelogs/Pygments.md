@@ -1,3 +1,7 @@
+## 2.19.0.20250219 (2025-02-19)
+
+pygments: Fix return type of pygments.lexers.guess_lexer_for_filename (#13515)
+
 ## 2.19.0.20250107 (2025-01-07)
 
 [stubsabot] Bump Pygments to 2.19.* (#13370)
