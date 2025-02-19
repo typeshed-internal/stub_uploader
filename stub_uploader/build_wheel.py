@@ -216,22 +216,17 @@ def is_namespace_package(path: Path) -> bool:
     return not (path / "__init__.pyi").exists()
 
 
-def find_stub_files(top: str) -> list[str]:
-    """Find all stub files for a given package, relative to package root.
+def validate_only_stub_files(top: str) -> None:
+    """Check all stub files for a given package, relative to package root.
 
-    Raise if we find any unknown file extensions during collection.
+    Raise if we find any unknown file extensions or invalid names.
     """
-    result: list[str] = []
-    for root, _, files in os.walk(top):
+    for _, _, files in os.walk(top):
         for file in files:
             if file.endswith(".pyi"):
                 name, _ = os.path.splitext(file)
-                assert (
-                    name.isidentifier()
-                ), "All file names must be valid Python modules"
-                result.append(os.path.relpath(os.path.join(root, file), top))
-            elif file == "py.typed":
-                result.append(os.path.relpath(os.path.join(root, file), top))
+                if not (name.isidentifier()):
+                    raise ValueError("All file names must be valid Python modules")
             elif not file.endswith((".md", ".rst")):
                 # Allow having README docs, as some stubs have these (e.g. click).
                 if (
@@ -239,7 +234,6 @@ def find_stub_files(top: str) -> list[str]:
                     != 0
                 ):
                     raise ValueError(f"Only stub files are allowed, not {file!r}")
-    return sorted(result)
 
 
 def copy_stubs(base_dir: Path, dst: Path) -> None:
@@ -307,18 +301,13 @@ def collect_package_data(base_path: Path) -> PackageData:
             continue
         elif entry.is_file() and entry.suffix == ".pyi":
             pkg_name = entry.stem
-            # Module -> package transformation is done while copying.
-            stub_files = ["__init__.pyi"]
         elif entry.is_dir():
             pkg_name = entry.name
-            stub_files = find_stub_files(str(entry))
+            validate_only_stub_files(str(entry))
         else:
             raise ValueError(f"Only stub files are allowed, not {entry.name!r}")
-        package_data[pkg_name + SUFFIX] = [*stub_files, META]
-    pkg_data = PackageData(base_path, package_data)
-    for package in pkg_data.top_level_non_namespace_packages:
-        pkg_data.add_file(package, "py.typed")
-    return pkg_data
+        package_data[pkg_name + SUFFIX] = [META]
+    return PackageData(base_path, package_data)
 
 
 def is_ignored_distribution_file(entry: Path) -> bool:
