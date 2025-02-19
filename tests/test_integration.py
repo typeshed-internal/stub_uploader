@@ -82,6 +82,8 @@ def test_verify_external_req() -> None:
     verify_external_req(
         Requirement("mypy-extensions"), "mypy", _unsafe_ignore_allowlist=True
     )
+    # Check that types-foo can depend on foo
+    verify_external_req(Requirement("setuptools"), "setuptools")
 
     with pytest.raises(
         InvalidRequires, match="to be present in the stub_uploader allowlist"
