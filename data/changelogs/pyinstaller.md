@@ -1,3 +1,7 @@
+## 6.12.0.20250223 (2025-02-23)
+
+Fix typo in PyInstaller type alias (#13525)
+
 ## 6.12.0.20250210 (2025-02-10)
 
 [stubsabot] Bump pyinstaller to 6.12.* (#13479)
