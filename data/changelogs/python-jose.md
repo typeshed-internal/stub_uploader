@@ -1,3 +1,7 @@
+## 3.4.0.20250224 (2025-02-24)
+
+Bump python-jose to 3.4.* (#13522)
+
 ## 3.3.4.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

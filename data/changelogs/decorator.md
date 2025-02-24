@@ -1,3 +1,24 @@
+## 5.2.0.20250224 (2025-02-24)
+
+[stubsabot] Bump decorator to 5.2.* (#13526)
+
+Release: https://pypi.org/pypi/decorator/5.2.0
+Repository: https://github.com/micheles/decorator
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/decorator
+Diff: https://github.com/micheles/decorator/compare/5.1.1...5.2.0
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 36.
+ - Total lines of Python code deleted: 50.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 5.1.8.20250215 (2025-02-15)
 
 Revert "Improve [Async]ContextDecorator type hinting (#13416)" (#13436)

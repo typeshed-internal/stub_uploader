@@ -104,6 +104,7 @@ types-gevent
 types-google-cloud-ndb
 types-greenlet
 types-hdbcli
+types-hnswlib
 types-html5lib
 types-httplib2
 types-humanfriendly
