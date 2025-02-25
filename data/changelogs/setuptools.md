@@ -1,3 +1,7 @@
+## 75.8.0.20250225 (2025-02-25)
+
+`setuptools._distutils` typing improvements from merging types upstream (#13534)
+
 ## 75.8.0.20250210 (2025-02-10)
 
 Update `pathname` param of `setuptools._distutils.util.convert_path` (#13483)
