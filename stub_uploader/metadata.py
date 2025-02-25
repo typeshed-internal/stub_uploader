@@ -234,8 +234,8 @@ EXTERNAL_REQ_ALLOWLIST = {
     "urllib3",
 }
 
-# Map of external stub packages to their runtime equivalent. typeshed stubs
-# will depend on the stubs package,
+# Map of external stub packages to their runtime equivalent. We check that
+# the stubs actually depend on their runtime package.
 EXTERNAL_RUNTIME_REQ_MAP = {
     "django-stubs": "django",
     "djangorestframework-stubs": "djangorestframework",
