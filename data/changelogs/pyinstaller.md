@@ -1,3 +1,9 @@
+## 6.12.0.20250226 (2025-02-26)
+
+PyInstaller: Complete types in build_main.pyi (#13528)
+
+Co-authored-by: sobolevn <mail@sobolevn.me>
+
 ## 6.12.0.20250223 (2025-02-23)
 
 Fix typo in PyInstaller type alias (#13525)

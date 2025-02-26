@@ -1,3 +1,7 @@
+## 1.8.0.20250226 (2025-02-26)
+
+WebOb: Fix various issues and refactor some things (#13487)
+
 ## 1.8.0.20241221 (2024-12-21)
 
 Update to mypy 1.14 (#13272)
