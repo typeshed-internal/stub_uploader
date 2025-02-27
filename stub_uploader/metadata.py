@@ -227,6 +227,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "numpy",
     "pandas-stubs",
     "pyproj",
+    "pytest",
     "referencing",
     "setuptools",
     "torch",
