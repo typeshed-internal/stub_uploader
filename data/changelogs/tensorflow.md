@@ -1,3 +1,7 @@
+## 2.18.0.20250227 (2025-02-27)
+
+`tensorflow`: add a few TensorFlow functions (#13364)
+
 ## 2.18.0.20241227 (2024-12-27)
 
 Enable Ruff PGH rules (#13304)

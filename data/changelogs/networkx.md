@@ -1,3 +1,9 @@
+## 3.4.2.20250227 (2025-02-27)
+
+[networkx] Add annotations for `MultiDiGraph` (#13319)
+
+Extract NetworkX types from docstrings (#13458)
+
 ## 3.4.2.20241227 (2024-12-27)
 
 Enable Ruff PGH rules (#13304)
