@@ -1,3 +1,7 @@
+## 2.18.0.20250228 (2025-02-28)
+
+`tensorflow`: Allow `tf.Tensor` to be used in `__getitem__` (#13549)
+
 ## 2.18.0.20250227 (2025-02-27)
 
 `tensorflow`: add a few TensorFlow functions (#13364)

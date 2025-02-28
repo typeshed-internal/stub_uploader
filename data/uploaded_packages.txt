@@ -70,6 +70,7 @@ types-dataclasses
 types-dateparser
 types-decorator
 types-defusedxml
+types-dirhash
 types-dj-database-url
 types-django-import-export
 types-docker
