@@ -1,3 +1,7 @@
+## 2.18.0.20250301 (2025-03-01)
+
+`tensorflow`: Change `Tensor.__bool__` return from `NoReturn` to `bool` (#13562)
+
 ## 2.18.0.20250228 (2025-02-28)
 
 `tensorflow`: Allow `tf.Tensor` to be used in `__getitem__` (#13549)

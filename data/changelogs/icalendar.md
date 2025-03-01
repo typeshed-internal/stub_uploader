@@ -1,3 +1,7 @@
+## 6.1.0.20250301 (2025-03-01)
+
+Fix conflicting imports (#13561)
+
 ## 6.1.0.20250119 (2025-01-19)
 
 icalendar: fix arg name (#13407)

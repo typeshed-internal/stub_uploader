@@ -1,3 +1,7 @@
+## 6.12.0.20250301 (2025-03-01)
+
+Fix `pyinstaller.utils.hooks.collect_entry_point` return type (#13111)
+
 ## 6.12.0.20250226 (2025-02-26)
 
 PyInstaller: Complete types in build_main.pyi (#13528)

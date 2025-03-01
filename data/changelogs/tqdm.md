@@ -1,3 +1,7 @@
+## 4.67.0.20250301 (2025-03-01)
+
+fix yield type of `tqdm.as_completed` (#13557)
+
 ## 4.67.0.20250228 (2025-02-28)
 
 tqdm: Improve wrapattr (#13361)

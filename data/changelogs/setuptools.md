@@ -1,3 +1,7 @@
+## 75.8.2.20250301 (2025-03-01)
+
+[setuptools] Update to 75.8.2 (#13563)
+
 ## 75.8.0.20250225 (2025-02-25)
 
 `setuptools._distutils` typing improvements from merging types upstream (#13534)
