@@ -234,8 +234,8 @@ EXTERNAL_REQ_ALLOWLIST = {
     "urllib3",
 }
 
-# Map of external stub packages to their runtime equivalent. We check that
-# the stubs actually depend on their runtime package.
+# Map of external stub packages to their runtime equivalent.
+# We check that the stubs actually depend on their runtime package.
 EXTERNAL_RUNTIME_REQ_MAP = {
     "django-stubs": "django",
     "djangorestframework-stubs": "djangorestframework",
@@ -282,6 +282,7 @@ def extract_sdist_requires(
 def verify_external_req(
     req: Requirement,
     upstream_distribution: Optional[str],
+    *,
     _unsafe_ignore_allowlist: bool = False,  # used for tests
 ) -> None:
     """Verify that a non-typeshed dependency is valid.
@@ -313,6 +314,7 @@ def verify_external_req_name(req: Requirement) -> None:
 
 def verify_external_req_in_allowlist(
     req: Requirement,
+    *,
     _unsafe_ignore_allowlist: bool = False,  # used for tests
 ) -> None:
     if req.name not in EXTERNAL_REQ_ALLOWLIST and not _unsafe_ignore_allowlist:
