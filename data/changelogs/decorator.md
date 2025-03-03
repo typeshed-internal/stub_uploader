@@ -1,3 +1,43 @@
+## 5.2.0.20250224 (2025-02-24)
+
+[stubsabot] Bump decorator to 5.2.* (#13526)
+
+Release: https://pypi.org/pypi/decorator/5.2.0
+Repository: https://github.com/micheles/decorator
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/decorator
+Diff: https://github.com/micheles/decorator/compare/5.1.1...5.2.0
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 36.
+ - Total lines of Python code deleted: 50.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
+## 5.1.8.20250215 (2025-02-15)
+
+Revert "Improve [Async]ContextDecorator type hinting (#13416)" (#13436)
+
+This reverts commit 57d7c4334b64856fda6f6e8f992b101ddafe2f57.
+
+The attempted fix loses all type overload information during type
+inferencing, so postpone fixing the issue until we have a solution
+which doesn't impose such a dramatic loss in functionality.
+
+Reopens #13403
+
+## 5.1.8.20250121 (2025-01-21)
+
+Improve [Async]ContextDecorator type hinting (#13416)
+
+Updated annotations allow access to `__wrapped__` on
+decorated callables without complaints from typecheckers.
+
 ## 5.1.8.20240310 (2024-03-10)
 
 Bump mypy to 1.9, add to json.encoder, small fixups (#11549)

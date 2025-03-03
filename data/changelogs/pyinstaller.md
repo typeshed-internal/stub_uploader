@@ -1,3 +1,27 @@
+## 6.12.0.20250301 (2025-03-01)
+
+Fix `pyinstaller.utils.hooks.collect_entry_point` return type (#13111)
+
+## 6.12.0.20250226 (2025-02-26)
+
+PyInstaller: Complete types in build_main.pyi (#13528)
+
+Co-authored-by: sobolevn <mail@sobolevn.me>
+
+## 6.12.0.20250223 (2025-02-23)
+
+Fix typo in PyInstaller type alias (#13525)
+
+## 6.12.0.20250210 (2025-02-10)
+
+[stubsabot] Bump pyinstaller to 6.12.* (#13479)
+
+Co-authored-by: stubsabot <>
+
+## 6.11.0.20250130 (2025-01-30)
+
+Upgrade Black and Ruff (#13443)
+
 ## 6.11.0.20241028 (2024-10-28)
 
 Bump pyinstaller to 6.11.* (#12911)

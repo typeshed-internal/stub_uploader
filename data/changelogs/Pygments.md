@@ -1,3 +1,25 @@
+## 2.19.0.20250219 (2025-02-19)
+
+pygments: Fix return type of pygments.lexers.guess_lexer_for_filename (#13515)
+
+## 2.19.0.20250107 (2025-01-07)
+
+[stubsabot] Bump Pygments to 2.19.* (#13370)
+
+Release: https://pypi.org/pypi/Pygments/2.19.0
+Homepage: https://pygments.org
+Repository: https://github.com/pygments/pygments
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Pygments
+Changelog: https://github.com/pygments/pygments/blob/master/CHANGES
+Diff: https://github.com/pygments/pygments/compare/2.18.0...2.19.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 9 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 36 files included in typeshed's stubs have been modified or renamed.
+ - Total lines of Python code added: 2960.
+ - Total lines of Python code deleted: 694.
+
 ## 2.18.0.20240506 (2024-05-06)
 
 [stubsabot] Bump Pygments to 2.18.* (#11861)

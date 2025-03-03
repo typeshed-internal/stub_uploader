@@ -1,3 +1,15 @@
+## 2.18.0.20250301 (2025-03-01)
+
+`tensorflow`: Change `Tensor.__bool__` return from `NoReturn` to `bool` (#13562)
+
+## 2.18.0.20250228 (2025-02-28)
+
+`tensorflow`: Allow `tf.Tensor` to be used in `__getitem__` (#13549)
+
+## 2.18.0.20250227 (2025-02-27)
+
+`tensorflow`: add a few TensorFlow functions (#13364)
+
 ## 2.18.0.20241227 (2024-12-27)
 
 Enable Ruff PGH rules (#13304)

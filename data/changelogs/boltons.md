@@ -1,3 +1,13 @@
+## 25.0.0.20250223 (2025-02-23)
+
+Updates to boltons types (#13517)
+
+## 25.0.0.20250210 (2025-02-10)
+
+Bump boltons to 25.0.* (#13481)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## 24.1.0.20241221 (2024-12-21)
 
 Update to mypy 1.14 (#13272)

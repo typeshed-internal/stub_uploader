@@ -1,3 +1,7 @@
+## 0.9.9.20250228 (2025-02-28)
+
+Fix constructor args for two vobject classes (#13360)
+
 ## 0.9.9.20241219 (2024-12-19)
 
 [vobject] Replace `typing.Any` with `_typeshed.Incomplete` (#13265)

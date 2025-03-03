@@ -112,7 +112,7 @@ def test_verify_external_req() -> None:
     m = Metadata("gdb", {"version": "0.1", "requires": []})
     assert m.requires_external == []
 
-    m = Metadata("gdb", {"version": "0.1", "requires": ["something"]})
+    m = Metadata("gdb", {"version": "0.1", "requires": ["cryptography"]})
     with pytest.raises(InvalidRequires, match="no upstream distribution on PyPI"):
         m.requires_external
 

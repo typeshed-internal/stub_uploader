@@ -1,3 +1,11 @@
+## 308.0.0.20250128 (2025-01-28)
+
+Have `win32gui.SystemParametersInfo` return `Any` (#13438)
+
+## 308.0.0.20250124 (2025-01-24)
+
+pywin32: type `Get*` functions in win32api (#13430)
+
 ## 308.0.0.20241221 (2024-12-21)
 
 Update to mypy 1.14 (#13272)

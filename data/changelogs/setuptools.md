@@ -1,3 +1,19 @@
+## 75.8.2.20250301 (2025-03-01)
+
+[setuptools] Update to 75.8.2 (#13563)
+
+## 75.8.0.20250225 (2025-02-25)
+
+`setuptools._distutils` typing improvements from merging types upstream (#13534)
+
+## 75.8.0.20250210 (2025-02-10)
+
+Update `pathname` param of `setuptools._distutils.util.convert_path` (#13483)
+
+## 75.8.0.20250110 (2025-01-10)
+
+Bump setuptools to 75.8.* (#13367)
+
 ## 75.6.0.20241223 (2024-12-23)
 
 setuptools: Remove problematic private module compat (#13280)

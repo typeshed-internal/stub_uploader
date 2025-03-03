@@ -1,3 +1,7 @@
+## 2.32.0.20250301 (2025-03-01)
+
+Fix conflicting imports (#13561)
+
 ## 2.32.0.20241016 (2024-10-16)
 
 remove unneeded Iterable base class from CookieJar (#12812)
