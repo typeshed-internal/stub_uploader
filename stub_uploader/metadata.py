@@ -292,7 +292,9 @@ def verify_external_req(
 
     verify_external_req_not_in_typeshed(req)
     verify_external_req_name(req)
-    verify_external_req_in_allowlist(req, _unsafe_ignore_allowlist)
+    verify_external_req_in_allowlist(
+        req, _unsafe_ignore_allowlist=_unsafe_ignore_allowlist
+    )
     verify_external_req_stubs_require_its_runtime(req, upstream_distribution)
 
 
