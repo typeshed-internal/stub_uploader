@@ -5,17 +5,17 @@ import graphlib
 import os
 import re
 import tarfile
+import tempfile
 import urllib.parse
 from collections.abc import Generator, Iterable
 from glob import glob
 from pathlib import Path
-import tempfile
 from typing import Any, Optional
 
 import requests
 import tomli
 from packaging.requirements import Requirement
-from packaging.specifiers import Specifier, InvalidSpecifier
+from packaging.specifiers import InvalidSpecifier, Specifier
 
 from .const import META, THIRD_PARTY_NAMESPACE, TYPES_PREFIX, UPLOADED_PATH
 
@@ -348,11 +348,12 @@ def verify_external_req_stubs_require_its_runtime(
     # broken by new releases of upstream packages, even if they do not match the version spec we
     # have for the upstream distribution.
 
-    runtime_req_name = EXTERNAL_RUNTIME_REQ_MAP.get(req.name, req.name)
-
-    if not runtime_in_upstream_requires(
-        req, data
-    ) and not runtime_in_upstream_sdist_requires(req, data):
+    if not (
+        req.name == upstream_distribution  # Allow `types-foo` to require `foo`
+        or runtime_in_upstream_requires(req, data)
+        or runtime_in_upstream_sdist_requires(req, data)
+    ):
+        runtime_req_name = EXTERNAL_RUNTIME_REQ_MAP.get(req.name, req.name)
         raise InvalidRequires(
             f"Expected dependency {runtime_req_name} to be listed in {upstream_distribution}'s "
             + "requires_dist or the sdist's *.egg-info/requires.txt"
