@@ -1,3 +1,7 @@
+## 24.11.0.20250304 (2025-03-04)
+
+Enable Ruff PLR (Pylint Refactor) (#13307)
+
 ## 24.11.0.20241230 (2024-12-30)
 
 fix gevent.select.poll (#13335)

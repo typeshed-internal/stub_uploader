@@ -1,3 +1,7 @@
+## 2.18.0.20250304 (2025-03-04)
+
+Enable Ruff PLC (Pylint Convention) (#13306)
+
 ## 2.18.0.20250301 (2025-03-01)
 
 `tensorflow`: Change `Tensor.__bool__` return from `NoReturn` to `bool` (#13562)

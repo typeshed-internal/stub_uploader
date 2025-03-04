@@ -1,3 +1,7 @@
+## 3.5.0.20250304 (2025-03-04)
+
+Enable Ruff PLC (Pylint Convention) (#13306)
+
 ## 3.5.0.20250130 (2025-01-30)
 
 Upgrade Black and Ruff (#13443)

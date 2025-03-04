@@ -1,3 +1,9 @@
+## 25.0.0.20250304 (2025-03-04)
+
+Drop flake8-noqa and remove workarounds to work with Ruff (#13571)
+
+Enable Ruff PLC (Pylint Convention) (#13306)
+
 ## 25.0.0.20250223 (2025-02-23)
 
 Updates to boltons types (#13517)

@@ -1,3 +1,7 @@
+## 1.7.8.20250304 (2025-03-04)
+
+Enable Ruff PLC (Pylint Convention) (#13306)
+
 ## 1.7.8.20250301 (2025-03-01)
 
 [stubsabot] Bump pynput to 1.7.8 (#13565)

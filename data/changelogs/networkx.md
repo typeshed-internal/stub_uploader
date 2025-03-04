@@ -1,3 +1,9 @@
+## 3.4.2.20250304 (2025-03-04)
+
+Add edges() override in MultiGraph to support the "keys" argument (#13567)
+
+Enable Ruff PLC (Pylint Convention) (#13306)
+
 ## 3.4.2.20250227 (2025-02-27)
 
 [networkx] Add annotations for `MultiDiGraph` (#13319)

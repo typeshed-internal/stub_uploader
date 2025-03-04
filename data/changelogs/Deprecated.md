@@ -1,3 +1,7 @@
+## 1.2.15.20250304 (2025-03-04)
+
+[Deprecated]: fix missing extra_stacklevel kwarg for deprecated() (#13573)
+
 ## 1.2.15.20241117 (2024-11-17)
 
 [Deprecated] Update to 1.2.15 (#13020)

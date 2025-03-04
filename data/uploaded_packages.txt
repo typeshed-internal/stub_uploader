@@ -236,6 +236,7 @@ types-urllib3
 types-usersettings
 types-vobject
 types-waitress
+types-watchpoints
 types-whatthepatch
 types-workalendar
 types-wurlitzer
