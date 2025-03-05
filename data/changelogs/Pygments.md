@@ -1,3 +1,7 @@
+## 2.19.0.20250305 (2025-03-05)
+
+Remove `setuptools/pkg_resources` (#13369)
+
 ## 2.19.0.20250219 (2025-02-19)
 
 pygments: Fix return type of pygments.lexers.guess_lexer_for_filename (#13515)

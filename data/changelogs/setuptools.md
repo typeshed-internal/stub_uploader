@@ -1,3 +1,7 @@
+## 75.8.2.20250305 (2025-03-05)
+
+Remove `setuptools/pkg_resources` (#13369)
+
 ## 75.8.2.20250301 (2025-03-01)
 
 [setuptools] Update to 75.8.2 (#13563)

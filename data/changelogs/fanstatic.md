@@ -1,3 +1,7 @@
+## 1.4.0.20250305 (2025-03-05)
+
+Remove `setuptools/pkg_resources` (#13369)
+
 ## 1.4.0.20240310 (2024-03-10)
 
 Bump mypy to 1.9, add to json.encoder, small fixups (#11549)
