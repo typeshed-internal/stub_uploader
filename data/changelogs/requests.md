@@ -1,3 +1,7 @@
+## 2.32.0.20250306 (2025-03-06)
+
+Update tools versions in `stubtest` workflow (#13582)
+
 ## 2.32.0.20250301 (2025-03-01)
 
 Fix conflicting imports (#13561)

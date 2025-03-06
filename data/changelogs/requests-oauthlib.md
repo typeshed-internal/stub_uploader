@@ -1,3 +1,7 @@
+## 2.0.0.20250306 (2025-03-06)
+
+Fix: OAuth1 type hints to include realm parameter (#13579)
+
 ## 2.0.0.20250119 (2025-01-19)
 
 requests-oauthlib: decoding can be None (#13404)

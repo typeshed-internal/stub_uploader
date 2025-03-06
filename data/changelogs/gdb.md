@@ -1,3 +1,7 @@
+## 15.0.0.20250306 (2025-03-06)
+
+Update tools versions in `stubtest` workflow (#13582)
+
 ## 15.0.0.20241204 (2024-12-04)
 
 Fixes for `gdb` stubs (#13169)
