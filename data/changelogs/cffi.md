@@ -1,3 +1,7 @@
+## 1.16.0.20250307 (2025-03-07)
+
+Fix parameter type annotations in `_cffi_backend` stub. (#13590)
+
 ## 1.16.0.20241221 (2024-12-21)
 
 Update to mypy 1.14 (#13272)

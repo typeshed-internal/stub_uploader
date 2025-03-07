@@ -1,3 +1,7 @@
+## 1.5.0.20250307 (2025-03-07)
+
+[stubsabot] Bump fanstatic to 1.5.* (#13586)
+
 ## 1.4.0.20250305 (2025-03-05)
 
 Remove `setuptools/pkg_resources` (#13369)
