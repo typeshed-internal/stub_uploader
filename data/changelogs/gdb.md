@@ -1,3 +1,9 @@
+## 15.0.0.20250308 (2025-03-08)
+
+Remove LD_LIBRARY_PATH before running gdb (#13594)
+
+Suggestion by @peace-maker
+
 ## 15.0.0.20250306 (2025-03-06)
 
 Update tools versions in `stubtest` workflow (#13582)

@@ -1,3 +1,11 @@
+## 6.12.0.20250308 (2025-03-08)
+
+PyInstaller: Complete types in splash.pyi (#13568)
+
+---------
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 6.12.0.20250301 (2025-03-01)
 
 Fix `pyinstaller.utils.hooks.collect_entry_point` return type (#13111)
