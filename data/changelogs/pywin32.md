@@ -1,3 +1,7 @@
+## 309.0.0.20250311 (2025-03-11)
+
+Bump pywin32 to 309 (#13607)
+
 ## 308.0.0.20250128 (2025-01-28)
 
 Have `win32gui.SystemParametersInfo` return `Any` (#13438)
