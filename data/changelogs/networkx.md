@@ -1,3 +1,7 @@
+## 3.4.2.20250312 (2025-03-12)
+
+[networkx] Fix argument type of node_connected_component (#13612)
+
 ## 3.4.2.20250304 (2025-03-04)
 
 Add edges() override in MultiGraph to support the "keys" argument (#13567)
