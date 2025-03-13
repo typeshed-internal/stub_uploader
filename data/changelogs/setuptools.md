@@ -1,3 +1,7 @@
+## 76.0.0.20250313 (2025-03-13)
+
+Bump setuptools to 76.0.0 (#13614)
+
 ## 75.8.2.20250305 (2025-03-05)
 
 Remove `setuptools/pkg_resources` (#13369)
