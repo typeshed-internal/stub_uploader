@@ -5,7 +5,7 @@ tomli
 
 # build and upload
 build
-setuptools
+setuptools >= 69.0.0
 twine
 wheel
 
