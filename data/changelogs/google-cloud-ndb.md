@@ -1,3 +1,7 @@
+## 2.3.0.20250317 (2025-03-17)
+
+[google-cloud-ndb] Remove unncessary stubtest requirements (#13631)
+
 ## 2.3.0.20241103 (2024-11-03)
 
 Fix type annotations for google-cloud-ndb (#12943)
