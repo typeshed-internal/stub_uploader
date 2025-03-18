@@ -1,3 +1,7 @@
+## 2.8.2.20250318 (2025-03-18)
+
+[fpdf2] Make fpdf.fonts.Glyph a dataclass (#13645)
+
 ## 2.8.2.20241223 (2024-12-23)
 
 [fpdf2] Update to 2.8.2 (#13264)

@@ -1,3 +1,10 @@
+## 2025.1.0.20250318 (2025-03-18)
+
+Make BaseTzInfo inherited methods pos-only (#13650)
+
+These methods are already positional-only in `datetime.tzinfo`. Leaving
+them pos-or-kw fail stubtest when running with Python 3.13.
+
 ## 2025.1.0.20250204 (2025-02-04)
 
 Bump pytz to 2025.1 (#13449)

@@ -1,3 +1,10 @@
+## 3.1.0.20250318 (2025-03-18)
+
+[greenlet] Fix for Python 3.13 (#13648)
+
+`get_tstate_trash_delete_nesting()` is not available
+on Python 3.13.
+
 ## 3.1.0.20241221 (2024-12-21)
 
 Update to mypy 1.14 (#13272)

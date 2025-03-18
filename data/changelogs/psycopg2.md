@@ -1,3 +1,12 @@
+## 2.9.21.20250318 (2025-03-18)
+
+Fix various argument of extension modules (#13651)
+
+* Mark various positional-only arguments: These are all positional-only
+  arguments in C code using the `METH_O` flag.
+* Remove various `*args, **kwargs` arguments that are using the
+  `METH_NOARGS` flag in C.
+
 ## 2.9.21.20250121 (2025-01-21)
 
 [psycopg2] Fix file argument types (#13418)

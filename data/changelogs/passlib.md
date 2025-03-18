@@ -1,3 +1,9 @@
+## 1.7.7.20250318 (2025-03-18)
+
+[passlib] Fix for Python 3.13 (#13649)
+
+`passlib.hosts.host_context` is not present on Python 3.13.
+
 ## 1.7.7.20241221 (2024-12-21)
 
 Update to mypy 1.14 (#13272)
