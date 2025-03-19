@@ -1,3 +1,12 @@
+## 1.17.0.20250319 (2025-03-19)
+
+[cffi] Fix a few argument types for C code (#13661)
+
+* CLibrary.close_lib() doesn't take any arguments.
+* FFI.typeof() only takes positional arguments.
+
+[cffi] Bump to 1.17.* (#13653)
+
 ## 1.16.0.20250318 (2025-03-18)
 
 [cffi] Update repository URL (#13652)

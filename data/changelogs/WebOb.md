@@ -1,3 +1,7 @@
+## 1.8.0.20250319 (2025-03-19)
+
+[WebOb] Add cgi_FieldStorage.make_file on Python 3.13+ (#13654)
+
 ## 1.8.0.20250226 (2025-02-26)
 
 WebOb: Fix various issues and refactor some things (#13487)

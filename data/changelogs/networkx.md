@@ -1,3 +1,7 @@
+## 3.4.2.20250319 (2025-03-19)
+
+[networkx] Fix a few annotations in AtlasView and Graph (#13656)
+
 ## 3.4.2.20250312 (2025-03-12)
 
 [networkx] Fix argument type of node_connected_component (#13612)

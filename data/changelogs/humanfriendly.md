@@ -1,3 +1,11 @@
+## 10.0.1.20250319 (2025-03-19)
+
+Mark humanfriendly as no longer updated (#13665)
+
+Cf. #13662
+
+[CI] Run stubtest with Python 3.13 (#13638)
+
 ## 10.0.1.20241221 (2024-12-21)
 
 Update to mypy 1.14 (#13272)

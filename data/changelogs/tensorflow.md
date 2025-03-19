@@ -1,3 +1,7 @@
+## 2.18.0.20250319 (2025-03-19)
+
+[CI] Run stubtest with Python 3.13 (#13638)
+
 ## 2.18.0.20250304 (2025-03-04)
 
 Enable Ruff PLC (Pylint Convention) (#13306)
