@@ -1,3 +1,7 @@
+## 5.5.0.20250321 (2025-03-21)
+
+Fix incorrect default value for callback (#13678)
+
 ## 5.5.0.20241227 (2024-12-27)
 
 [stubsabot] Bump Flask-SocketIO to 5.5.* (#13288)

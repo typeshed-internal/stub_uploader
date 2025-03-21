@@ -1,3 +1,9 @@
+## 6.1.2.20250321 (2025-03-21)
+
+[icalendar] Update to 6.1.2 (#13672)
+
+Finish icalendar.prop annotations
+
 ## 6.1.0.20250301 (2025-03-01)
 
 Fix conflicting imports (#13561)

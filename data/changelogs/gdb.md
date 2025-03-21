@@ -1,3 +1,9 @@
+## 15.0.0.20250321 (2025-03-21)
+
+[gdb] Remove unused import (#13682)
+
+Unblocks #13680
+
 ## 15.0.0.20250308 (2025-03-08)
 
 Remove LD_LIBRARY_PATH before running gdb (#13594)
