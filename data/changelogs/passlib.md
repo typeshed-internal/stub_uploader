@@ -1,3 +1,9 @@
+## 1.7.7.20250322 (2025-03-22)
+
+Improve `passlib.apache` (#13689)
+
+Improve `passlib.pwd` (#13690)
+
 ## 1.7.7.20250319 (2025-03-19)
 
 [CI] Run stubtest with Python 3.13 (#13638)

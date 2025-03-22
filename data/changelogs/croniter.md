@@ -1,3 +1,9 @@
+## 5.0.1.20250322 (2025-03-22)
+
+Update croniter repository URL (#13698)
+
+Cf. #13260 pallets-eco/croniter#144
+
 ## 5.0.1.20241205 (2024-12-05)
 
 [croniter] Update to 5.0.1 (#12926)

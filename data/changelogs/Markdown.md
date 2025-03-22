@@ -1,3 +1,7 @@
+## 3.7.0.20250322 (2025-03-22)
+
+Clarify sequences for `markdown` stubs (#13686)
+
 ## 3.7.0.20241204 (2024-12-04)
 
 Use _ReadableStream from codecs (#13167)
