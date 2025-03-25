@@ -1,3 +1,7 @@
+## 2.24.0.20250325 (2025-03-25)
+
+Bump hdbcli to 2.24.* (#13705)
+
 ## 2.23.0.20250318 (2025-03-18)
 
 Fix various argument of extension modules (#13651)
