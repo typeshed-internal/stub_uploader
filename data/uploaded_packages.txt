@@ -242,6 +242,7 @@ types-whatthepatch
 types-workalendar
 types-wurlitzer
 types-xdgenvpy
+types-xlrd
 types-xmltodict
 types-xxhash
 types-zstd

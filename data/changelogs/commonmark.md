@@ -1,3 +1,7 @@
+## 0.9.2.20250326 (2025-03-26)
+
+Improve stubs for `commonmark` (#13681)
+
 ## 0.9.2.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

@@ -1,3 +1,9 @@
+## 2025.2.0.20250326 (2025-03-26)
+
+[stubsabot] Bump pytz to 2025.2 (#13720)
+
+Add `__all__` (#13704)
+
 ## 2025.1.0.20250318 (2025-03-18)
 
 Make BaseTzInfo inherited methods pos-only (#13650)

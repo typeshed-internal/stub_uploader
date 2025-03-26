@@ -1,3 +1,7 @@
+## 25.0.0.20250326 (2025-03-26)
+
+Add `__all__` (#13704)
+
 ## 25.0.0.20250304 (2025-03-04)
 
 Drop flake8-noqa and remove workarounds to work with Ruff (#13571)

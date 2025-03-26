@@ -1,3 +1,7 @@
+## 2.0.0.20250326 (2025-03-26)
+
+Add `__all__` (#13704)
+
 ## 2.0.0.20250202 (2025-02-02)
 
 shapely: Fix tuple length of `CoordinateSequence` items (#13435)
