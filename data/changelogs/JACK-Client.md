@@ -1,3 +1,9 @@
+## 0.5.10.20250328 (2025-03-28)
+
+Restore JACK-Client macOS stubtest (#13721)
+
+Restore JACK-Client macOS tests
+
 ## 0.5.10.20241112 (2024-11-12)
 
 Remove numpy pins from several stubs (#12993)

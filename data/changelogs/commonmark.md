@@ -1,3 +1,7 @@
+## 0.9.2.20250328 (2025-03-28)
+
+Complete stubs for `commonmark` (#13724)
+
 ## 0.9.2.20250326 (2025-03-26)
 
 Improve stubs for `commonmark` (#13681)

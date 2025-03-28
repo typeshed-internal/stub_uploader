@@ -1,3 +1,7 @@
+## 2.32.0.20250328 (2025-03-28)
+
+[requests] Remove Session.redirect_cache (#13723)
+
 ## 2.32.0.20250306 (2025-03-06)
 
 Update tools versions in `stubtest` workflow (#13582)

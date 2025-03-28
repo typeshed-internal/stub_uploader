@@ -1,3 +1,12 @@
+## 77.0.2.20250328 (2025-03-28)
+
+[setuptools] Update to 77.0.2 (#13685)
+
+---------
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 76.0.0.20250313 (2025-03-13)
 
 Bump setuptools to 76.0.0 (#13614)
