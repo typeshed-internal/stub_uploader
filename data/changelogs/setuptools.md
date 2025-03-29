@@ -1,3 +1,11 @@
+## 78.1.0.20250329 (2025-03-29)
+
+Update setuptools to 78.1.0 (#13734)
+
+---------
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## 77.0.2.20250328 (2025-03-28)
 
 [setuptools] Update to 77.0.2 (#13685)

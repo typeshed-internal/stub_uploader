@@ -1,3 +1,7 @@
+## 0.9.2.20250330 (2025-03-29)
+
+Mark commonmark as no_longer_updated (#13726)
+
 ## 0.9.2.20250328 (2025-03-28)
 
 Complete stubs for `commonmark` (#13724)
