@@ -5,9 +5,8 @@ tomli
 
 # build and upload
 build
-setuptools
+setuptools >= 77.0.3
 twine
-wheel
 
 # tests
 mypy
