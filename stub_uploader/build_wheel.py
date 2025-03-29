@@ -76,7 +76,6 @@ setup(name=name,
       license="Apache-2.0",
       python_requires="{requires_python}",
       classifiers=[
-          "License :: OSI Approved :: Apache Software License",
           "Programming Language :: Python :: 3",
           "Typing :: Stubs Only",
       ]
