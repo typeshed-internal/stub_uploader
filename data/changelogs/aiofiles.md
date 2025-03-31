@@ -1,3 +1,9 @@
+## 24.1.0.20250326 (2025-03-26)
+
+Add `__all__` (#13704)
+
+[aiofiles] Fix the file argument type in AsyncBase (#13717)
+
 ## 24.1.0.20241221 (2024-12-21)
 
 Update to mypy 1.14 (#13272)

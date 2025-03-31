@@ -1,3 +1,23 @@
+## 2.18.0.20250319 (2025-03-19)
+
+[CI] Run stubtest with Python 3.13 (#13638)
+
+## 2.18.0.20250304 (2025-03-04)
+
+Enable Ruff PLC (Pylint Convention) (#13306)
+
+## 2.18.0.20250301 (2025-03-01)
+
+`tensorflow`: Change `Tensor.__bool__` return from `NoReturn` to `bool` (#13562)
+
+## 2.18.0.20250228 (2025-02-28)
+
+`tensorflow`: Allow `tf.Tensor` to be used in `__getitem__` (#13549)
+
+## 2.18.0.20250227 (2025-02-27)
+
+`tensorflow`: add a few TensorFlow functions (#13364)
+
 ## 2.18.0.20241227 (2024-12-27)
 
 Enable Ruff PGH rules (#13304)

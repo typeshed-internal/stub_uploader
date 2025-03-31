@@ -1,3 +1,19 @@
+## 1.2.0.20250114 (2025-01-14)
+
+Allow Path in polib.pofile() (#13396)
+
+* Allow PathLike in polib.pofile()
+
+* Add missing import
+
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+* Update type to pathlib.Path
+
+---------
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## 1.2.0.20241221 (2024-12-21)
 
 Update to mypy 1.14 (#13272)

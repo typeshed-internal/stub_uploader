@@ -5,17 +5,17 @@ import graphlib
 import os
 import re
 import tarfile
+import tempfile
 import urllib.parse
 from collections.abc import Generator, Iterable
 from glob import glob
 from pathlib import Path
-import tempfile
 from typing import Any, Optional
 
 import requests
 import tomli
 from packaging.requirements import Requirement
-from packaging.specifiers import Specifier, InvalidSpecifier
+from packaging.specifiers import InvalidSpecifier, Specifier
 
 from .const import META, THIRD_PARTY_NAMESPACE, TYPES_PREFIX, UPLOADED_PATH
 
@@ -197,7 +197,7 @@ def verify_typeshed_req(req: Requirement) -> None:
     if not req.name.startswith(TYPES_PREFIX):
         raise InvalidRequires(f"Expected dependency {req} to start with {TYPES_PREFIX}")
 
-    if not canonical_name(req.name) in uploaded_packages.read():
+    if canonical_name(req.name) not in uploaded_packages.read():
         raise InvalidRequires(
             f"Expected dependency {req} to be uploaded from stub_uploader"
         )
@@ -227,6 +227,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "numpy",
     "pandas-stubs",
     "pyproj",
+    "pytest",
     "referencing",
     "setuptools",
     "torch",
@@ -234,7 +235,8 @@ EXTERNAL_REQ_ALLOWLIST = {
     "urllib3",
 }
 
-# Runtime requirements corresponding to the external requirements list above.
+# Map of external stub packages to their runtime equivalent.
+# We check that the stubs actually depend on their runtime package.
 EXTERNAL_RUNTIME_REQ_MAP = {
     "django-stubs": "django",
     "djangorestframework-stubs": "djangorestframework",
@@ -242,7 +244,7 @@ EXTERNAL_RUNTIME_REQ_MAP = {
 }
 
 
-def validate_response(resp: requests.Response, req: Requirement) -> None:
+def validate_pypi_response(resp: requests.Response, req: Requirement) -> None:
     if resp.status_code != 200:
         raise InvalidRequires(
             f"Expected dependency {req} to be accessible on PyPI, but got {resp.status_code}"
@@ -256,7 +258,7 @@ def extract_sdist_requires(
     archive_path = Path(tmpdir, sdist_data["filename"])
 
     resp = requests.get(sdist_data["url"], stream=True)
-    validate_response(resp, req)
+    validate_pypi_response(resp, req)
     with open(archive_path, "wb") as file:
         file.write(resp.raw.read())
 
@@ -281,25 +283,43 @@ def extract_sdist_requires(
 def verify_external_req(
     req: Requirement,
     upstream_distribution: Optional[str],
+    *,
     _unsafe_ignore_allowlist: bool = False,  # used for tests
 ) -> None:
-    req_canonical_name = canonical_name(req.name)
+    """Verify that a non-typeshed dependency is valid.
 
+    Raise InvalidRequires if the dependency is invalid.
+    """
+
+    verify_external_req_not_in_typeshed(req)
+    verify_external_req_name(req)
+    verify_external_req_in_allowlist(
+        req, _unsafe_ignore_allowlist=_unsafe_ignore_allowlist
+    )
+    verify_external_req_stubs_require_its_runtime(req, upstream_distribution)
+
+
+def verify_external_req_not_in_typeshed(req: Requirement) -> None:
+    req_canonical_name = canonical_name(req.name)
     if req_canonical_name in uploaded_packages.read():
         raise InvalidRequires(
             f"Expected dependency {req} to not be uploaded from stub_uploader"
         )
+
+
+def verify_external_req_name(req: Requirement) -> None:
     if req.name.startswith(TYPES_PREFIX):
         # technically this could be allowed, but it's very suspicious
         raise InvalidRequires(
             f"Expected dependency {req} to not start with {TYPES_PREFIX}"
         )
 
-    if upstream_distribution is None:
-        raise InvalidRequires(
-            f"There is no upstream distribution on PyPI, so cannot verify {req}"
-        )
 
+def verify_external_req_in_allowlist(
+    req: Requirement,
+    *,
+    _unsafe_ignore_allowlist: bool = False,  # used for tests
+) -> None:
     if req.name not in EXTERNAL_REQ_ALLOWLIST and not _unsafe_ignore_allowlist:
         msg = f"Expected dependency {req.name} to be present in the stub_uploader allowlist"
         if req.name in EXTERNAL_RUNTIME_REQ_MAP.values():
@@ -309,9 +329,39 @@ def verify_external_req(
             msg += f". Did you mean {maybe}?"
         raise InvalidRequires(msg)
 
+
+def verify_external_req_stubs_require_its_runtime(
+    req: Requirement, upstream_distribution: str | None
+) -> None:
+    """Verify that an external stubs package requires its runtime package."""
+
+    if upstream_distribution is None:
+        raise InvalidRequires(
+            f"There is no upstream distribution on PyPI, so cannot verify {req}"
+        )
+
     resp = requests.get(f"https://pypi.org/pypi/{upstream_distribution}/json")
-    validate_response(resp, req)
+    validate_pypi_response(resp, req)
     data: dict[str, Any] = resp.json()
+
+    # TODO: PyPI doesn't seem to have version specific requires_dist. This does mean we can be
+    # broken by new releases of upstream packages, even if they do not match the version spec we
+    # have for the upstream distribution.
+
+    if not (
+        req.name == upstream_distribution  # Allow `types-foo` to require `foo`
+        or runtime_in_upstream_requires(req, data)
+        or runtime_in_upstream_sdist_requires(req, data)
+    ):
+        runtime_req_name = EXTERNAL_RUNTIME_REQ_MAP.get(req.name, req.name)
+        raise InvalidRequires(
+            f"Expected dependency {runtime_req_name} to be listed in {upstream_distribution}'s "
+            + "requires_dist or the sdist's *.egg-info/requires.txt"
+        )
+
+
+def runtime_in_upstream_requires(req: Requirement, data: dict[str, Any]) -> bool:
+    """Return whether an external stubs package depends on its runtime package."""
 
     # TODO: PyPI doesn't seem to have version specific requires_dist. This does mean we can be
     # broken by new releases of upstream packages, even if they do not match the version spec we
@@ -320,11 +370,17 @@ def verify_external_req(
     runtime_req_name = EXTERNAL_RUNTIME_REQ_MAP.get(req.name, req.name)
     runtime_req_canonical_name = canonical_name(runtime_req_name)
 
-    if runtime_req_canonical_name in [
-        canonical_name(Requirement(r).name)
-        for r in (data["info"].get("requires_dist") or [])
-    ]:
-        return  # Ok!
+    requires_dist = data["info"].get("requires_dist") or []
+    return runtime_req_canonical_name in [
+        canonical_name(Requirement(r).name) for r in requires_dist
+    ]
+
+
+def runtime_in_upstream_sdist_requires(req: Requirement, data: dict[str, Any]) -> bool:
+    """Return whether an external stubs package depends on its runtime package."""
+
+    runtime_req_name = EXTERNAL_RUNTIME_REQ_MAP.get(req.name, req.name)
+    runtime_req_canonical_name = canonical_name(runtime_req_name)
 
     sdist_data: dict[str, Any] | None = next(
         (
@@ -334,15 +390,11 @@ def verify_external_req(
         ),
         None,
     )
-    if not (
-        sdist_data
-        and runtime_req_canonical_name
-        in [canonical_name(r.name) for r in extract_sdist_requires(sdist_data, req)]
-    ):
-        raise InvalidRequires(
-            f"Expected dependency {runtime_req_name} to be listed in {upstream_distribution}'s "
-            + "requires_dist or the sdist's *.egg-info/requires.txt"
-        )
+    if sdist_data is None:
+        return False
+    return runtime_req_canonical_name in [
+        canonical_name(r.name) for r in extract_sdist_requires(sdist_data, req)
+    ]
 
 
 def sort_by_dependency(

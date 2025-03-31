@@ -1,3 +1,15 @@
+## 2.32.0.20250328 (2025-03-28)
+
+[requests] Remove Session.redirect_cache (#13723)
+
+## 2.32.0.20250306 (2025-03-06)
+
+Update tools versions in `stubtest` workflow (#13582)
+
+## 2.32.0.20250301 (2025-03-01)
+
+Fix conflicting imports (#13561)
+
 ## 2.32.0.20241016 (2024-10-16)
 
 remove unneeded Iterable base class from CookieJar (#12812)

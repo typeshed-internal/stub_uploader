@@ -1,3 +1,7 @@
+## 4.5.0.20250223 (2025-02-23)
+
+Bump zxcvbn to 4.5.* (#13521)
+
 ## 4.4.1.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

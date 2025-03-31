@@ -52,35 +52,40 @@ SETUP_TEMPLATE = dedent(
     """
 from setuptools import setup
 
-name = "{stub_distribution}"
-description = "Typing stubs for {distribution}"
-long_description = '''
-{long_description}
-'''.lstrip()
-
-setup(name=name,
-      version="{version}",
-      description=description,
-      long_description=long_description,
-      long_description_content_type="text/markdown",
-      url="https://github.com/python/typeshed",
-      project_urls={{
-          "GitHub": "https://github.com/python/typeshed",
-          "Changes": "https://github.com/typeshed-internal/stub_uploader/blob/main/data/changelogs/{distribution}.md",
-          "Issue tracker": "https://github.com/python/typeshed/issues",
-          "Chat": "https://gitter.im/python/typing",
-      }},
-      install_requires={requires},
-      packages={packages},
-      package_data={package_data},
-      license="Apache-2.0",
-      python_requires="{requires_python}",
-      classifiers=[
-          "License :: OSI Approved :: Apache Software License",
-          "Programming Language :: Python :: 3",
-          "Typing :: Stubs Only",
-      ]
+setup(package_data={package_data})
+"""
 )
+
+PYPROJECT_TEMPLATE = dedent(
+    """
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools>=77.0.3"]
+
+[project]
+name = "{stub_distribution}"
+version = "{version}"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+description = "Typing stubs for {distribution}"
+readme = {{ text = \"\"\"\\\n{long_description}\n\"\"\", content-type = "text/markdown" }}
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Typing :: Stubs Only",
+]
+requires-python = "{requires_python}"
+dependencies = {requires}
+
+[project.urls]
+"Homepage" = "https://github.com/python/typeshed"
+"GitHub" = "https://github.com/python/typeshed"
+"Changes" = "https://github.com/typeshed-internal/stub_uploader/blob/main/data/changelogs/{distribution}.md"
+"Issue tracker" = "https://github.com/python/typeshed/issues"
+"Chat" = "https://gitter.im/python/typing"
+
+[tool.setuptools]
+packages = {packages}
+include-package-data = false
 """
 ).lstrip()
 
@@ -329,7 +334,12 @@ def is_ignored_distribution_file(entry: Path) -> bool:
     return False
 
 
-def generate_setup_file(
+def generate_setup_file(pkg_data: PackageData) -> str:
+    """Auto-generate a setup.py file for given distribution using a template."""
+    return SETUP_TEMPLATE.format(package_data=pkg_data.package_data)
+
+
+def generate_pyproject_file(
     ts_data: TypeshedData,
     build_data: BuildData,
     pkg_data: PackageData,
@@ -345,7 +355,7 @@ def generate_setup_file(
         if metadata.requires_python is not None
         else f">={ts_data.oldest_supported_python}"
     )
-    return SETUP_TEMPLATE.format(
+    return PYPROJECT_TEMPLATE.format(
         distribution=build_data.distribution,
         stub_distribution=metadata.stub_distribution,
         long_description=generate_long_description(
@@ -354,7 +364,6 @@ def generate_setup_file(
         version=version,
         requires=all_requirements,
         packages=pkg_data.top_level_packages,
-        package_data=pkg_data.package_data,
         requires_python=requires_python,
     )
 
@@ -430,8 +439,9 @@ def main(
     else:
         tmpdir = Path(tempfile.mkdtemp())
 
-    (tmpdir / "setup.py").write_text(
-        generate_setup_file(ts_data, build_data, pkg_data, metadata, version)
+    (tmpdir / "setup.py").write_text(generate_setup_file(pkg_data))
+    (tmpdir / "pyproject.toml").write_text(
+        generate_pyproject_file(ts_data, build_data, pkg_data, metadata, version)
     )
     copy_stubs(build_data.stub_dir, tmpdir)
     create_py_typed(metadata, pkg_data, tmpdir)

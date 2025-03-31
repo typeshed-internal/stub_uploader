@@ -1,3 +1,16 @@
+## 2024.11.6.20250318 (2025-03-18)
+
+Fix various argument of extension modules (#13651)
+
+* Mark various positional-only arguments: These are all positional-only
+  arguments in C code using the `METH_O` flag.
+* Remove various `*args, **kwargs` arguments that are using the
+  `METH_NOARGS` flag in C.
+
+## 2024.11.6.20250305 (2025-03-05)
+
+Enable Ruff PLE (Pylint Error) (#13305)
+
 ## 2024.11.6.20241221 (2024-12-21)
 
 Update to mypy 1.14 (#13272)

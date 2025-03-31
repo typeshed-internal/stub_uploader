@@ -1,3 +1,7 @@
+## 3.1.5.20250306 (2025-03-06)
+
+Update tools versions in `stubtest` workflow (#13582)
+
 ## 3.1.5.20241225 (2024-12-25)
 
 Add `__hash__` for a bunch of types that set it to None (#13286)

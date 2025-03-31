@@ -1,3 +1,15 @@
+## 3.17.9.20250308 (2025-03-08)
+
+Mark database parameters in Peewee as optional (#13442)
+
+Peewee injects database arguments using a decorator whenever a model
+or query has a bound connection. Passing the argument is therefore not
+required, even for some function parameters without default values.
+
+## 3.17.9.20250210 (2025-02-10)
+
+Bump peewee to 3.17.9 (#13475)
+
 ## 3.17.8.20241229 (2024-12-29)
 
 Add return type for get_tables() in peewee (#13230)

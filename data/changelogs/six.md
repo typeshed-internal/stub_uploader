@@ -1,3 +1,7 @@
+## 1.17.0.20250304 (2025-03-04)
+
+Drop flake8-noqa and remove workarounds to work with Ruff (#13571)
+
 ## 1.17.0.20241205 (2024-12-05)
 
 [stubsabot] Bump six to 1.17.* (#13197)

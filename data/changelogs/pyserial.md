@@ -1,3 +1,19 @@
+## 3.5.0.20250326 (2025-03-26)
+
+Add `__all__` (#13704)
+
+## 3.5.0.20250304 (2025-03-04)
+
+Enable Ruff PLC (Pylint Convention) (#13306)
+
+## 3.5.0.20250130 (2025-01-30)
+
+Upgrade Black and Ruff (#13443)
+
+## 3.5.0.20250124 (2025-01-24)
+
+pyserial: make serial.threaded.ReaderThread generic in the type of Protocol (#13425)
+
 ## 3.5.0.20241221 (2024-12-21)
 
 Update to mypy 1.14 (#13272)

@@ -1,3 +1,7 @@
+## 3.2.1.20250304 (2025-03-04)
+
+Enable Ruff PLC (Pylint Convention) (#13306)
+
 ## 3.2.1.20241221 (2024-12-21)
 
 Update to mypy 1.14 (#13272)

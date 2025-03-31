@@ -70,6 +70,7 @@ types-dataclasses
 types-dateparser
 types-decorator
 types-defusedxml
+types-dirhash
 types-dj-database-url
 types-django-import-export
 types-docker
@@ -99,10 +100,12 @@ types-frozendict
 types-futures
 types-gdb
 types-geoip2
+types-geopandas
 types-gevent
 types-google-cloud-ndb
 types-greenlet
 types-hdbcli
+types-hnswlib
 types-html5lib
 types-httplib2
 types-humanfriendly
@@ -173,6 +176,7 @@ types-pyinstaller
 types-pyjks
 types-pymssql
 types-pynput
+types-pyperclip
 types-pyserial
 types-pysftp
 types-pytest-lazy-fixture
@@ -198,6 +202,7 @@ types-reportlab
 types-requests
 types-requests-oauthlib
 types-retry
+types-rfc3339-validator
 types-s2clientprotocol
 types-scribe
 types-seaborn
@@ -232,10 +237,12 @@ types-urllib3
 types-usersettings
 types-vobject
 types-waitress
+types-watchpoints
 types-whatthepatch
 types-workalendar
 types-wurlitzer
 types-xdgenvpy
+types-xlrd
 types-xmltodict
 types-xxhash
 types-zstd

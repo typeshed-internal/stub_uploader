@@ -1,3 +1,15 @@
+## 4.67.0.20250319 (2025-03-19)
+
+[CI] Run stubtest with Python 3.13 (#13638)
+
+## 4.67.0.20250301 (2025-03-01)
+
+fix yield type of `tqdm.as_completed` (#13557)
+
+## 4.67.0.20250228 (2025-02-28)
+
+tqdm: Improve wrapattr (#13361)
+
 ## 4.67.0.20241221 (2024-12-21)
 
 Update to mypy 1.14 (#13272)

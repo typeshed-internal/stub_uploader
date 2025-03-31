@@ -1,3 +1,23 @@
+## 3.4.2.20250319 (2025-03-19)
+
+[networkx] Fix a few annotations in AtlasView and Graph (#13656)
+
+## 3.4.2.20250312 (2025-03-12)
+
+[networkx] Fix argument type of node_connected_component (#13612)
+
+## 3.4.2.20250304 (2025-03-04)
+
+Add edges() override in MultiGraph to support the "keys" argument (#13567)
+
+Enable Ruff PLC (Pylint Convention) (#13306)
+
+## 3.4.2.20250227 (2025-02-27)
+
+[networkx] Add annotations for `MultiDiGraph` (#13319)
+
+Extract NetworkX types from docstrings (#13458)
+
 ## 3.4.2.20241227 (2024-12-27)
 
 Enable Ruff PGH rules (#13304)

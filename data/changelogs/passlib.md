@@ -1,3 +1,25 @@
+## 1.7.7.20250326 (2025-03-26)
+
+Improve `passlib.win32` (#13711)
+
+[passlib] Add ___all__, improve passlib.hosts (#13712)
+
+## 1.7.7.20250322 (2025-03-22)
+
+Improve `passlib.apache` (#13689)
+
+Improve `passlib.pwd` (#13690)
+
+## 1.7.7.20250319 (2025-03-19)
+
+[CI] Run stubtest with Python 3.13 (#13638)
+
+## 1.7.7.20250318 (2025-03-18)
+
+[passlib] Fix for Python 3.13 (#13649)
+
+`passlib.hosts.host_context` is not present on Python 3.13.
+
 ## 1.7.7.20241221 (2024-12-21)
 
 Update to mypy 1.14 (#13272)

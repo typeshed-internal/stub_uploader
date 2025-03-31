@@ -1,3 +1,11 @@
+## 5.29.1.20250315 (2025-03-15)
+
+[protobuf] Add missing properties for class FieldDescriptor (#13625)
+
+## 5.29.1.20250208 (2025-02-08)
+
+Bump mypy to 1.15.0 (#13473)
+
 ## 5.29.1.20241207 (2024-12-07)
 
 Bump protobuf to ~=5.29.1 (#13209)

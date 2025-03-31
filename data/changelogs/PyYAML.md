@@ -1,3 +1,7 @@
+## 6.0.12.20250326 (2025-03-26)
+
+Add `__all__` (#13704)
+
 ## 6.0.12.20241230 (2024-12-30)
 
 fix(yaml): SafeConstructor.construct_scalar accept `MappingNode` (#13340)

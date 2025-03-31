@@ -1,3 +1,19 @@
+## 15.0.0.20250321 (2025-03-21)
+
+[gdb] Remove unused import (#13682)
+
+Unblocks #13680
+
+## 15.0.0.20250308 (2025-03-08)
+
+Remove LD_LIBRARY_PATH before running gdb (#13594)
+
+Suggestion by @peace-maker
+
+## 15.0.0.20250306 (2025-03-06)
+
+Update tools versions in `stubtest` workflow (#13582)
+
 ## 15.0.0.20241204 (2024-12-04)
 
 Fixes for `gdb` stubs (#13169)

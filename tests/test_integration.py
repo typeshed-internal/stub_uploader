@@ -82,6 +82,8 @@ def test_verify_external_req() -> None:
     verify_external_req(
         Requirement("mypy-extensions"), "mypy", _unsafe_ignore_allowlist=True
     )
+    # Check that types-foo can depend on foo
+    verify_external_req(Requirement("setuptools"), "setuptools")
 
     with pytest.raises(
         InvalidRequires, match="to be present in the stub_uploader allowlist"
@@ -110,7 +112,7 @@ def test_verify_external_req() -> None:
     m = Metadata("gdb", {"version": "0.1", "requires": []})
     assert m.requires_external == []
 
-    m = Metadata("gdb", {"version": "0.1", "requires": ["something"]})
+    m = Metadata("gdb", {"version": "0.1", "requires": ["cryptography"]})
     with pytest.raises(InvalidRequires, match="no upstream distribution on PyPI"):
         m.requires_external
 

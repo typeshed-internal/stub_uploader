@@ -1,3 +1,29 @@
+## 6.1.3.20250329 (2025-03-29)
+
+icalendar: update (#13737)
+
+Fixes #13735
+
+## 6.1.2.20250321 (2025-03-21)
+
+[icalendar] Update to 6.1.2 (#13672)
+
+Finish icalendar.prop annotations
+
+## 6.1.0.20250301 (2025-03-01)
+
+Fix conflicting imports (#13561)
+
+## 6.1.0.20250119 (2025-01-19)
+
+icalendar: fix arg name (#13407)
+
+Fixes #13406
+
+## 6.1.0.20250111 (2025-01-11)
+
+Officially drop Python 3.8 support (#13386)
+
 ## 6.1.0.20241128 (2024-11-28)
 
 [icalendar] Update to 6.1.* (#13109)

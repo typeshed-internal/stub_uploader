@@ -1,3 +1,9 @@
+## 4.1.0.20250112 (2025-01-12)
+
+[stubsabot] Bump Flask-Migrate to 4.1.* (#13392)
+
+Co-authored-by: stubsabot <>
+
 ## 4.0.0.20241204 (2024-12-04)
 
 Use SupportsFlush from typeshed to fix TODO (#13166)
