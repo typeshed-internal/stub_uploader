@@ -1,3 +1,11 @@
+## 3.1.0.20250401 (2025-04-01)
+
+Add `__all__` part 2 (#13719)
+
+---------
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 3.1.0.20250318 (2025-03-18)
 
 [greenlet] Fix for Python 3.13 (#13648)

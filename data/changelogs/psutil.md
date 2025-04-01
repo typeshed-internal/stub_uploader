@@ -1,3 +1,11 @@
+## 7.0.0.20250401 (2025-04-01)
+
+Add `__all__` part 2 (#13719)
+
+---------
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 7.0.0.20250218 (2025-02-18)
 
 Update psutil to 7.0.* (#13507)

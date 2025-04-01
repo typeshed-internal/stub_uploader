@@ -1,3 +1,11 @@
+## 4.67.0.20250401 (2025-04-01)
+
+Add `__all__` part 2 (#13719)
+
+---------
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 4.67.0.20250319 (2025-03-19)
 
 [CI] Run stubtest with Python 3.13 (#13638)

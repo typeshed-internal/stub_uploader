@@ -1,3 +1,11 @@
+## 3.2.1.20250401 (2025-04-01)
+
+Add `__all__` part 2 (#13719)
+
+---------
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 3.2.1.20250304 (2025-03-04)
 
 Enable Ruff PLC (Pylint Convention) (#13306)

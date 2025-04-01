@@ -1,3 +1,11 @@
+## 1.0.2.20250401 (2025-04-01)
+
+Add `__all__` part 2 (#13719)
+
+---------
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 1.0.2.20241221 (2024-12-21)
 
 Update to mypy 1.14 (#13272)

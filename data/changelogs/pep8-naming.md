@@ -1,3 +1,7 @@
+## 0.14.0.20250401 (2025-04-01)
+
+Complete stubs for `pep8-naming` (#13741)
+
 ## 0.14.0.20240522 (2024-05-22)
 
 [stubsabot] Bump pep8-naming to 0.14.* (#11924)

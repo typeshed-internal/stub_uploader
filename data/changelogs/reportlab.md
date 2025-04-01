@@ -1,3 +1,11 @@
+## 4.3.1.20250401 (2025-04-01)
+
+Add `__all__` part 2 (#13719)
+
+---------
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 4.3.1.20250219 (2025-02-19)
 
 Bump reportlab to 4.3.1 (#13510)

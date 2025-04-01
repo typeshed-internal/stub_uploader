@@ -1,3 +1,11 @@
+## 1.7.7.20250401 (2025-04-01)
+
+Add `__all__` part 2 (#13719)
+
+---------
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 1.7.7.20250326 (2025-03-26)
 
 Improve `passlib.win32` (#13711)

@@ -1,3 +1,7 @@
+## 0.5.10.20250401 (2025-04-01)
+
+[JACK-Client] All METADATA_ constants are sometimes available on Linux (#13639)
+
 ## 0.5.10.20250328 (2025-03-28)
 
 Restore JACK-Client macOS stubtest (#13721)

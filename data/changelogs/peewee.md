@@ -1,3 +1,11 @@
+## 3.17.9.20250401 (2025-04-01)
+
+Add `__all__` part 2 (#13719)
+
+---------
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 3.17.9.20250308 (2025-03-08)
 
 Mark database parameters in Peewee as optional (#13442)
