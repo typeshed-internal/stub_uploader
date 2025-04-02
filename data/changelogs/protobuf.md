@@ -1,3 +1,7 @@
+## 5.29.1.20250402 (2025-04-02)
+
+Bump ruff to 0.11.2 (#13757)
+
 ## 5.29.1.20250315 (2025-03-15)
 
 [protobuf] Add missing properties for class FieldDescriptor (#13625)
