@@ -117,15 +117,38 @@ def test_collect_package_data() -> None:
     stubs = Path("data") / "test_typeshed" / "stubs"
     pkg_data = collect_package_data(stubs / "singlefilepkg")
     assert pkg_data.top_level_packages == ["singlefilepkg-stubs"]
-    assert pkg_data.package_data == ({"singlefilepkg-stubs": ["METADATA.toml"]})
+    assert pkg_data.package_data == (
+        {"singlefilepkg-stubs": ["__init__.pyi", "METADATA.toml", "py.typed"]}
+    )
 
     pkg_data = collect_package_data(stubs / "multifilepkg")
     assert pkg_data.top_level_packages == ["multifilepkg-stubs"]
-    assert pkg_data.package_data == ({"multifilepkg-stubs": ["METADATA.toml"]})
+    assert pkg_data.package_data == (
+        {
+            "multifilepkg-stubs": [
+                "__init__.pyi",
+                "a.pyi",
+                "b.pyi",
+                os.path.join("c", "__init__.pyi"),
+                os.path.join("c", "d.pyi"),
+                os.path.join("c", "e.pyi"),
+                "METADATA.toml",
+                "py.typed",
+            ]
+        }
+    )
 
     pkg_data = collect_package_data(stubs / "nspkg")
     assert pkg_data.top_level_packages == ["nspkg-stubs"]
-    assert pkg_data.package_data == ({"nspkg-stubs": ["METADATA.toml"]})
+    assert pkg_data.package_data == (
+        {
+            "nspkg-stubs": [
+                os.path.join("innerpkg", "__init__.pyi"),
+                "METADATA.toml",
+                os.path.join("innerpkg", "py.typed"),
+            ]
+        }
+    )
 
 
 def test_collect_package_data_bogusfile() -> None:
@@ -139,14 +162,27 @@ def test_collect_package_data_bogusfile() -> None:
     with open(os.path.join(stubs, "singlefilepkg", ".METADATA.toml.swp"), "w"):
         pass
     pkg_data = collect_package_data(stubs / "singlefilepkg")
-    assert set(pkg_data.package_data["singlefilepkg-stubs"]) == {"METADATA.toml"}
+    assert set(pkg_data.package_data["singlefilepkg-stubs"]) == {
+        "__init__.pyi",
+        "py.typed",
+        "METADATA.toml",
+    }
 
     with open(
         os.path.join(stubs, "multifilepkg", "multifilepkg", ".METADATA.toml.swp"), "w"
     ):
         pass
     pkg_data = collect_package_data(stubs / "multifilepkg")
-    assert set(pkg_data.package_data["multifilepkg-stubs"]) == {"METADATA.toml"}
+    assert set(pkg_data.package_data["multifilepkg-stubs"]) == {
+        "__init__.pyi",
+        "a.pyi",
+        "b.pyi",
+        "c/__init__.pyi",
+        "c/d.pyi",
+        "c/e.pyi",
+        "py.typed",
+        "METADATA.toml",
+    }
 
 
 def test_uploaded_packages() -> None:
