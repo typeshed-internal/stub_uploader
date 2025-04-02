@@ -231,9 +231,9 @@ def find_stub_files(top: str) -> list[str]:
         for file in files:
             if file.endswith(".pyi"):
                 name, _ = os.path.splitext(file)
-                assert (
-                    name.isidentifier()
-                ), "All file names must be valid Python modules"
+                assert name.isidentifier(), (
+                    "All file names must be valid Python modules"
+                )
                 result.append(os.path.relpath(os.path.join(root, file), top))
             elif file == "py.typed":
                 result.append(os.path.relpath(os.path.join(root, file), top))
@@ -448,7 +448,7 @@ def main(
     if build_dir:
         tmpdir = Path(build_dir)
     else:
-        tmpdir = Path(tempfile.mkdtemp())
+        tmpdir = Path(tempfile.mkdtemp(prefix="stub-uploader-"))
 
     (tmpdir / "setup.py").write_text(generate_setup_file(pkg_data))
     (tmpdir / "pyproject.toml").write_text(
