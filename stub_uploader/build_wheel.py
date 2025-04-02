@@ -448,7 +448,7 @@ def main(
     if build_dir:
         tmpdir = Path(build_dir)
     else:
-        tmpdir = Path(tempfile.mkdtemp())
+        tmpdir = Path(tempfile.mkdtemp(prefix="stub-uploader-"))
 
     (tmpdir / "setup.py").write_text(generate_setup_file(pkg_data))
     (tmpdir / "pyproject.toml").write_text(
