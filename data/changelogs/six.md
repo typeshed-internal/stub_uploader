@@ -1,3 +1,7 @@
+## 1.17.0.20250403 (2025-04-03)
+
+Remove Python 3.8 exclusive branches (#13772)
+
 ## 1.17.0.20250304 (2025-03-04)
 
 Drop flake8-noqa and remove workarounds to work with Ruff (#13571)

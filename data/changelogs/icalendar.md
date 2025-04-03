@@ -1,3 +1,7 @@
+## 6.1.3.20250403 (2025-04-03)
+
+Remove Python 3.8 exclusive branches (#13772)
+
 ## 6.1.3.20250329 (2025-03-29)
 
 icalendar: update (#13737)

@@ -1,3 +1,7 @@
+## 1.0.0.20250403 (2025-04-03)
+
+Remove Python 3.8 exclusive branches (#13772)
+
 ## 1.0.0.20240311 (2024-03-11)
 
 Use PEP 570 syntax in third party stubs (#11554)

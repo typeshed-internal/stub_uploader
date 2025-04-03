@@ -1,3 +1,7 @@
+## 2024.11.6.20250403 (2025-04-03)
+
+Remove Python 3.8 exclusive branches (#13772)
+
 ## 2024.11.6.20250318 (2025-03-18)
 
 Fix various argument of extension modules (#13651)
