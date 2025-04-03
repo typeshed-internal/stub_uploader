@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import os
 import subprocess
 
 from stub_uploader import build_wheel
@@ -47,7 +46,7 @@ def upload_distribution(
     if dry_run or not metadata.upload:
         print("skipped")
     else:
-        subprocess.run(["twine", "upload", os.path.join(temp_dir, "*")], check=True)
+        subprocess.run(["twine", "upload", str(temp_dir / "*")], check=True)
         uploaded_packages.add(distribution)
         print("ok")
     print()
