@@ -36,6 +36,7 @@ types-assertpy
 types-atheris
 types-atomicwrites
 types-attrs
+types-auth0-python
 types-aws-xray-sdk
 types-babel
 types-backports

@@ -1,3 +1,25 @@
+## 1.5.6.7.20250404 (2025-04-04)
+
+[stubsabot] Bump zstd to 1.5.6.7 (#13780)
+
+Release: https://pypi.org/pypi/zstd/1.5.6.7
+Homepage: https://github.com/sergey-dryabzhinsky/python-zstd
+Repository: https://github.com/sergey-dryabzhinsky/python-zstd
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/zstd
+Diff: https://github.com/sergey-dryabzhinsky/python-zstd/compare/v1.5.6.6...v1.5.6.7
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 4.
+ - Total lines of Python code deleted: 3.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 1.5.6.6.20250306 (2025-03-06)
 
 [stubsabot] Bump zstd to 1.5.6.6 (#13584)
