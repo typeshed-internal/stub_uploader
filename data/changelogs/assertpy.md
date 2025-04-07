@@ -1,3 +1,9 @@
+## 1.1.0.20250407 (2025-04-07)
+
+Mark internal stuff in allowlist for `assertpy` (#13802)
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 1.1.0.20240712 (2024-07-12)
 
 Update assertpy/string.pyi to correct type of pattern arg (#12235)
