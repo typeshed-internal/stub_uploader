@@ -1,3 +1,7 @@
+## 1.2.0.20250408 (2025-04-08)
+
+Improve `dateparser` (#13796)
+
 ## 1.2.0.20250208 (2025-02-08)
 
 Fix stubtest for `dateparser` (#13474)

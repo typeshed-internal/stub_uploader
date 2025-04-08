@@ -1,3 +1,9 @@
+## 3.2.0.20250408 (2025-04-08)
+
+Improve `oauthlib.oauth2.rfc6749` (#13793)
+
+Improve `oauthlib` (#13794)
+
 ## 3.2.0.20250403 (2025-04-03)
 
 Improve stubs for `oauthlib.oauth2.rfc6749` (#13752)
