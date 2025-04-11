@@ -1,3 +1,9 @@
+## 6.0.0.20250411 (2025-04-11)
+
+Update croniter to 6.0.0 (#13548)
+
+Make class `croniter` generic over `ret_type` and tighten return types for some methods.
+
 ## 5.0.1.20250322 (2025-03-22)
 
 Update croniter repository URL (#13698)
