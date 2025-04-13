@@ -1,3 +1,29 @@
+## 3.8.0.20250413 (2025-04-13)
+
+[stubsabot] Bump Markdown to 3.8.* (#13819)
+
+Release: https://pypi.org/pypi/Markdown/3.8
+Homepage: https://Python-Markdown.github.io/
+Repository: https://github.com/Python-Markdown/markdown
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Markdown
+Changelog: https://python-markdown.github.io/changelog/
+Diff: https://github.com/Python-Markdown/markdown/compare/3.7...3.8
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 12 files included in typeshed's stubs have been modified or renamed.
+ - Total lines of Python code added: 730.
+ - Total lines of Python code deleted: 103.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 3.7.0.20250322 (2025-03-22)
 
 Clarify sequences for `markdown` stubs (#13686)

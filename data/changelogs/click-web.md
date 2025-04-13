@@ -1,3 +1,7 @@
+## 0.8.0.20250413 (2025-04-13)
+
+Import names from typing directly rather than importing module (#13761)
+
 ## 0.8.0.20250412 (2025-04-12)
 
 Complete stubs for `click-web` (#13806)

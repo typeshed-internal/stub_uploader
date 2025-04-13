@@ -1,3 +1,7 @@
+## 1.2.0.20250413 (2025-04-13)
+
+Import names from typing directly rather than importing module (#13761)
+
 ## 1.2.0.20250322 (2025-03-22)
 
 Add `__all__` to `click-default-group` (#13694)

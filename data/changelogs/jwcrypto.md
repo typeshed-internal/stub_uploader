@@ -1,3 +1,7 @@
+## 1.5.0.20250413 (2025-04-13)
+
+jwcrypto: type most of the rest of `JWT` and `JWKSet.generate` function (#13807)
+
 ## 1.5.0.20250326 (2025-03-26)
 
 Improve `jwcrypto` (#13715)

@@ -1,3 +1,7 @@
+## 5.0.0.20250413 (2025-04-13)
+
+Mark `Flask-Cors` as complete (#13820)
+
 ## 5.0.0.20240902 (2024-09-02)
 
 [stubsabot] Bump Flask-Cors to 5.0.* (#12609)
