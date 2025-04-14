@@ -430,7 +430,7 @@ def generate_long_description(
 
 def main(
     typeshed_dir: str, distribution: str, version: str, build_dir: str | None = None
-) -> str:
+) -> Path:
     """Generate a wheel for a third-party distribution in typeshed.
 
     Return the path to directory where wheel is created.
@@ -470,7 +470,7 @@ def main(
         [sys.executable, "-m", "build", "--no-isolation"],
         cwd=tmpdir,
     )
-    return f"{tmpdir}/dist"
+    return Path(tmpdir) / "dist"
 
 
 if __name__ == "__main__":
@@ -480,7 +480,7 @@ if __name__ == "__main__":
     parser.add_argument("distribution", help="Third-party distribution to build")
     parser.add_argument("version", help="New stub version")
     args = parser.parse_args()
-    print(
-        "Wheel is built in:",
-        main(args.typeshed_dir, args.distribution, args.version, args.build_dir),
+    build_path = main(
+        args.typeshed_dir, args.distribution, args.version, args.build_dir
     )
+    print(f"Wheel is built in: {build_path}")

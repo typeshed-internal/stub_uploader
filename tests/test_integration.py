@@ -6,6 +6,8 @@ a typeshed checkout side by side.
 
 import os
 from pathlib import Path
+from tempfile import TemporaryDirectory
+from zipfile import ZipFile
 
 import pytest
 from packaging.requirements import Requirement
@@ -40,9 +42,33 @@ def test_fetch_pypi_versions() -> None:
 @pytest.mark.parametrize("distribution", os.listdir(THIRD_PARTY_PATH))
 def test_build_wheel(distribution: str) -> None:
     """Check that we can build wheels for all distributions."""
-    tmp_dir = build_wheel.main(TYPESHED, distribution, version="1.1.1")
-    assert tmp_dir.endswith("/dist")
-    assert list(os.listdir(tmp_dir))  # check it is not empty
+    with TemporaryDirectory(prefix="stub-uploader-") as tmp_dir:
+        build_path = build_wheel.main(
+            TYPESHED, distribution, version="1.1.1", build_dir=tmp_dir
+        )
+        assert build_path.name == "dist"
+        assert list(build_path.iterdir())  # check it is not empty
+
+
+@pytest.mark.parametrize(
+    "distribution,file_list",
+    [
+        ("flake8", [Path("flake8-stubs") / "checker.pyi"]),
+        ("protobuf", [Path("google-stubs") / "protobuf" / "__init__.pyi"]),
+    ],
+)
+def test_build_wheel_files(distribution: str, file_list: list[Path]) -> None:
+    """Assert that a wheel contains certain files."""
+    with TemporaryDirectory(prefix="stub-uploader-") as tmp_dir:
+        build_path = build_wheel.main(
+            TYPESHED, distribution, version="1.1.1", build_dir=tmp_dir
+        )
+        wheels = list(build_path.glob("*.whl"))
+        assert len(wheels) == 1
+        with ZipFile(wheels[0], "r") as zip_file:
+            zip_file.extractall(build_path)
+        for file_path in file_list:
+            assert build_path.joinpath(file_path).exists()
 
 
 @pytest.mark.parametrize("distribution", os.listdir(THIRD_PARTY_PATH))
