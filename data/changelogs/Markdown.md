@@ -1,3 +1,7 @@
+## 3.8.0.20250415 (2025-04-15)
+
+Annotate `markdown.util.get_installed_extensions` (#13822)
+
 ## 3.8.0.20250413 (2025-04-13)
 
 [stubsabot] Bump Markdown to 3.8.* (#13819)

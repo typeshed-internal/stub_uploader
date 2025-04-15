@@ -1,3 +1,7 @@
+## 2.5.0.20250415 (2025-04-15)
+
+Complete `flake8-builtins` (#13824)
+
 ## 2.5.0.20240411 (2024-04-11)
 
 [stubsabot] Bump flake8-builtins to 2.5.* (#11739)
