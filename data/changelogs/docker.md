@@ -1,3 +1,7 @@
+## 7.1.0.20250416 (2025-04-16)
+
+Improve `docker.utils` (#13808)
+
 ## 7.1.0.20241229 (2024-12-29)
 
 Fix missed type hints in docker containers.pyi (#13136)
