@@ -1,3 +1,9 @@
+## 6.13.0.20250417 (2025-04-17)
+
+Bump pyinstaller to 6.13.* (#13843)
+
+Add all classes in `stubs/pyinstaller/PyInstaller/utils/win32/versioninfo.pyi` (#13833)
+
 ## 6.12.0.20250308 (2025-03-08)
 
 PyInstaller: Complete types in splash.pyi (#13568)

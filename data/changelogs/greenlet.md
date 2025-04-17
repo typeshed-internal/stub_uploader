@@ -1,3 +1,26 @@
+## 3.2.0.20250417 (2025-04-17)
+
+[stubsabot] Bump greenlet to 3.2.* (#13836)
+
+Release: https://pypi.org/pypi/greenlet/3.2.0
+Homepage: https://greenlet.readthedocs.io/
+Repository: https://github.com/python-greenlet/greenlet
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/greenlet
+Changelog: https://greenlet.readthedocs.io/en/latest/changes.html
+Diff: https://github.com/python-greenlet/greenlet/compare/3.1.1...3.2.0
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 29.
+ - Total lines of Python code deleted: 18.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 3.1.0.20250401 (2025-04-01)
 
 Add `__all__` part 2 (#13719)

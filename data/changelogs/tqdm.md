@@ -1,3 +1,7 @@
+## 4.67.0.20250417 (2025-04-17)
+
+[tqdm] Add return type to tqdm.asyncio.gather (#13839)
+
 ## 4.67.0.20250404 (2025-04-04)
 
 Enable Ruff flake8-todos (TD) (#13748)
