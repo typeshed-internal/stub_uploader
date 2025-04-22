@@ -1,3 +1,9 @@
+## 79.0.0.20250422 (2025-04-22)
+
+[stubsabot] Bump setuptools to 79.0.* (#13860)
+
+Co-authored-by: stubsabot <>
+
 ## 78.1.0.20250329 (2025-03-29)
 
 Update setuptools to 78.1.0 (#13734)
