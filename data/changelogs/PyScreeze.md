@@ -1,3 +1,7 @@
+## 1.0.1.20250425 (2025-04-25)
+
+[PyScreeze] Fix locateCenterOnScreen optional arguments (#13852)
+
 ## 1.0.1.20240822 (2024-08-22)
 
 [stubsabot] Bump PyScreeze to 1.0.1 (#12566)

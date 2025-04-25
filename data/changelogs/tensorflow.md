@@ -1,3 +1,7 @@
+## 2.18.0.20250425 (2025-04-25)
+
+[tensorflow] Fix literal value for `pad` function (#13877)
+
 ## 2.18.0.20250404 (2025-04-04)
 
 Enable Ruff flake8-todos (TD) (#13748)

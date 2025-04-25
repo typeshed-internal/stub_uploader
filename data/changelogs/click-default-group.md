@@ -1,3 +1,7 @@
+## 1.2.0.20250425 (2025-04-25)
+
+Expand args and kwargs for `click_default_group` methods (#13873)
+
 ## 1.2.0.20250413 (2025-04-13)
 
 Import names from typing directly rather than importing module (#13761)

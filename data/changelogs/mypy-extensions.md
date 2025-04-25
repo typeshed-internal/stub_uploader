@@ -1,3 +1,9 @@
+## 1.1.0.20250425 (2025-04-25)
+
+Update `mypy_extensions` deprecation messages (#13876)
+
+CC @AlexWaygood
+
 ## 1.1.0.20250424 (2025-04-24)
 
 Deprecate several things in `mypy_extensions` (#13874)

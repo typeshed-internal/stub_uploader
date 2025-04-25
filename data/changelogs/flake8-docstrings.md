@@ -1,3 +1,7 @@
+## 1.7.0.20250425 (2025-04-25)
+
+Complete `flake8-docstrings` (#13872)
+
 ## 1.7.0.3 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

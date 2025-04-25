@@ -1,3 +1,10 @@
+## 4.9.0.20250425 (2025-04-25)
+
+[auth0-python] Add async functions to AsyncAuth0 (#13799)
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 4.9.0.20250416 (2025-04-16)
 
 auth0-python solve stubtest_allowlist entries (#13827)
