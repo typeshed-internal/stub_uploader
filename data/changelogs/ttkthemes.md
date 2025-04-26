@@ -1,3 +1,7 @@
+## 3.2.4.20250426 (2025-04-26)
+
+Complete `ttkthemes` (#13858)
+
 ## 3.2.4.6 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

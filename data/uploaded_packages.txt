@@ -105,6 +105,7 @@ types-geopandas
 types-gevent
 types-google-cloud-ndb
 types-greenlet
+types-grpcio
 types-hdbcli
 types-hnswlib
 types-html5lib

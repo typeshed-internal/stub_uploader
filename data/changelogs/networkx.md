@@ -1,3 +1,7 @@
+## 3.4.2.20250426 (2025-04-26)
+
+Fix generics in NetworkX (#13864)
+
 ## 3.4.2.20250319 (2025-03-19)
 
 [networkx] Fix a few annotations in AtlasView and Graph (#13656)
