@@ -1,3 +1,7 @@
+## 2.14.0.20250428 (2025-04-28)
+
+Add None to SubsegmentContextManager.__enter__ return type (#13892)
+
 ## 2.14.0.20240606 (2024-06-06)
 
 [stubsabot] Bump aws-xray-sdk to 2.14.* (#12096)

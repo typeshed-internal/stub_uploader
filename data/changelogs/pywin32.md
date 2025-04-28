@@ -1,3 +1,7 @@
+## 310.0.0.20250428 (2025-04-28)
+
+Fix return type of win32wnet.WNetOpenEnum (#13890)
+
 ## 310.0.0.20250426 (2025-04-26)
 
 pywin32: Fix various arguments (#13846)
