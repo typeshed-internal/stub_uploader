@@ -1,3 +1,7 @@
+## 2.3.0.20250429 (2025-04-29)
+
+[hvac] Clarify and improve some annotations (#13886)
+
 ## 2.3.0.20240621 (2024-06-21)
 
 Bump hvac to 2.3.* (#12168)

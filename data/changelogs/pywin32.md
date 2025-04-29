@@ -1,3 +1,7 @@
+## 310.0.0.20250429 (2025-04-29)
+
+Improve `pywin32.isapi` (#13889)
+
 ## 310.0.0.20250428 (2025-04-28)
 
 Fix return type of win32wnet.WNetOpenEnum (#13890)
