@@ -198,6 +198,7 @@ types-pywin32
 types-pyxdg
 types-qrbill
 types-qrcode
+types-ratelimit
 types-redis
 types-regex
 types-reportlab
