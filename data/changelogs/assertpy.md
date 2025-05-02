@@ -1,3 +1,10 @@
+## 1.1.0.20250502 (2025-05-02)
+
+Correct type of `kwargs` in `assertpy.exception.ExceptionMixin.when_called_with` (#13903)
+
+The keys of `kwargs` dicts are always strings, the type hint is for the values,
+which in this case could be anything.
+
 ## 1.1.0.20250407 (2025-04-07)
 
 Mark internal stuff in allowlist for `assertpy` (#13802)
