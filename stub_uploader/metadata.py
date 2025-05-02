@@ -225,6 +225,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "matplotlib",
     "numpy",
     "pandas-stubs",
+    "pygobject-stubs",
     "pyproj",
     "pytest",
     "referencing",
@@ -240,6 +241,7 @@ EXTERNAL_RUNTIME_REQ_MAP = {
     "django-stubs": "django",
     "djangorestframework-stubs": "djangorestframework",
     "pandas-stubs": "pandas",
+    "pygobject-stubs": "pygobject",
 }
 
 
