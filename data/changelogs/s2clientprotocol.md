@@ -1,3 +1,7 @@
+## 5.0.0.20250503 (2025-05-03)
+
+Mention rerunning sync_protobuf scripts (#13924)
+
 ## 5.0.0.20241030 (2024-10-30)
 
 Bump tensorflow to ~=2.18.0 (#12916)

@@ -1,3 +1,11 @@
+## 6.30.2.20250503 (2025-05-03)
+
+Bump protobuf to ~=6.30.2 (#13922)
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
+Mention rerunning sync_protobuf scripts (#13924)
+
 ## 5.29.1.20250402 (2025-04-02)
 
 Bump ruff to 0.11.2 (#13757)

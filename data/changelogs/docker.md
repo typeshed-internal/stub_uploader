@@ -1,3 +1,9 @@
+## 7.1.0.20250503 (2025-05-03)
+
+Improve `docker.types` (#13809)
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+
 ## 7.1.0.20250416 (2025-04-16)
 
 Improve `docker.utils` (#13808)

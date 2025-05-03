@@ -1,3 +1,7 @@
+## 2.18.0.20250503 (2025-05-03)
+
+Mention rerunning sync_protobuf scripts (#13924)
+
 ## 2.18.0.20250425 (2025-04-25)
 
 [tensorflow] Fix literal value for `pad` function (#13877)
