@@ -222,6 +222,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "cryptography",
     "django-stubs",
     "djangorestframework-stubs",
+    "asgiref",
     "matplotlib",
     "numpy",
     "pandas-stubs",
