@@ -218,6 +218,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "Pillow",
     "Werkzeug",
     "arrow",
+    "asgiref",
     "click",
     "cryptography",
     "django-stubs",
