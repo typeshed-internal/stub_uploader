@@ -1,3 +1,7 @@
+## 5.0.0.20250506 (2025-05-06)
+
+Run Black on *_pb2 files (#13930)
+
 ## 5.0.0.20250503 (2025-05-03)
 
 Mention rerunning sync_protobuf scripts (#13924)

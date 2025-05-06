@@ -106,6 +106,10 @@ types-gevent
 types-google-cloud-ndb
 types-greenlet
 types-grpcio
+types-grpcio-channelz
+types-grpcio-health-checking
+types-grpcio-reflection
+types-grpcio-status
 types-hdbcli
 types-hnswlib
 types-html5lib

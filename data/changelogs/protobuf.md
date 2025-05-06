@@ -1,3 +1,9 @@
+## 6.30.2.20250506 (2025-05-06)
+
+Run Black on *_pb2 files (#13930)
+
+stubtest-complete grpcio plugins (#13932)
+
 ## 6.30.2.20250503 (2025-05-03)
 
 Bump protobuf to ~=6.30.2 (#13922)

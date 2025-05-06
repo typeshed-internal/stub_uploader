@@ -1,3 +1,7 @@
+## 3.1.5.20250506 (2025-05-06)
+
+Openpyxl: type cell values (#13929)
+
 ## 3.1.5.20250306 (2025-03-06)
 
 Update tools versions in `stubtest` workflow (#13582)
