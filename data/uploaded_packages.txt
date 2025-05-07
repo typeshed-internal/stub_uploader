@@ -43,6 +43,7 @@ types-backports
 types-backports.ssl_match_hostname
 types-backports_abc
 types-beautifulsoup4
+types-binaryornot
 types-bleach
 types-boltons
 types-boto

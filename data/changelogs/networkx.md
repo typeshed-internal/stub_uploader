@@ -1,3 +1,7 @@
+## 3.4.2.20250507 (2025-05-07)
+
+networkx: Most nodelist params are collections (#13945)
+
 ## 3.4.2.20250426 (2025-04-26)
 
 Fix generics in NetworkX (#13864)
