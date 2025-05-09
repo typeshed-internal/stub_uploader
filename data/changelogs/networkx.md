@@ -1,3 +1,7 @@
+## 3.4.2.20250509 (2025-05-09)
+
+networkx: add all missing `__all__` (#13956)
+
 ## 3.4.2.20250507 (2025-05-07)
 
 networkx: Most nodelist params are collections (#13945)
