@@ -1,3 +1,11 @@
+## 1.0.1.20250510 (2025-05-10)
+
+[geopandas] Fix CI tests in some circumstances (#13978)
+
+Add "libproj-dev" and "proj-bin" to apt_dependencies.
+These packages are necessary to build the pyproj
+dependency if a pre-built wheel is not available.
+
 ## 1.0.1.20250404 (2025-04-04)
 
 Enable Ruff flake8-todos (TD) (#13748)
