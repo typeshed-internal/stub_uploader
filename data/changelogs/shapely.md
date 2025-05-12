@@ -1,3 +1,7 @@
+## 2.1.0.20250512 (2025-05-12)
+
+Fix annotations of shapely.constructive.make_valid (#13913)
+
 ## 2.1.0.20250418 (2025-04-18)
 
 Bump shapely to 2.1.* (#13847)
