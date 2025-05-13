@@ -1,3 +1,7 @@
+## 1.2.0.20250513 (2025-05-13)
+
+[click_default_group] default_cmd_name argument should be named default (#14023)
+
 ## 1.2.0.20250425 (2025-04-25)
 
 Expand args and kwargs for `click_default_group` methods (#13873)

@@ -1,3 +1,7 @@
+## 4.67.0.20250513 (2025-05-13)
+
+tqdm: Fix return type of `async for` loop (#14028)
+
 ## 4.67.0.20250417 (2025-04-17)
 
 [tqdm] Add return type to tqdm.asyncio.gather (#13839)

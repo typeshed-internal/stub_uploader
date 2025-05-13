@@ -1,3 +1,7 @@
+## 3.4.2.20250513 (2025-05-13)
+
+networkx: `ignore_missing_stub = false` (#13968)
+
 ## 3.4.2.20250509 (2025-05-09)
 
 networkx: add all missing `__all__` (#13956)
