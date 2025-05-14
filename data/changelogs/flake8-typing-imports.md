@@ -1,3 +1,7 @@
+## 1.16.0.20250514 (2025-05-14)
+
+Replace incomplete module markers (#14030)
+
 ## 1.16.0.20241013 (2024-10-13)
 
 [stubsabot] Bump flake8-typing-imports to 1.16.* (#12784)

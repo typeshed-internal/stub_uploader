@@ -1,3 +1,9 @@
+## 3.2.0.20250514 (2025-05-14)
+
+Improve `oauthlib.oauth2.rfc6749` (#13965)
+
+Improve `oauthlib.openid.connect.core` (#13966)
+
 ## 3.2.0.20250408 (2025-04-08)
 
 Improve `oauthlib.oauth2.rfc6749` (#13793)

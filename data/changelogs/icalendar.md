@@ -1,3 +1,7 @@
+## 6.2.0.20250514 (2025-05-14)
+
+Bump icalendar to 6.2.* (#13963)
+
 ## 6.1.3.20250403 (2025-04-03)
 
 Remove Python 3.8 exclusive branches (#13772)

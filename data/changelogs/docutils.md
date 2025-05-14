@@ -1,3 +1,7 @@
+## 0.21.0.20250514 (2025-05-14)
+
+Replace incomplete module markers (#14030)
+
 ## 0.21.0.20241128 (2024-11-28)
 
 Generate `docutils.core` and type `publish_parts`'s return type (#13118)

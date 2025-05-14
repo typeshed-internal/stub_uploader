@@ -1,3 +1,7 @@
+## 6.2.0.20250514 (2025-05-14)
+
+Fix regression in definition of `bleach.sanitizer._Filter` (#14041)
+
 ## 6.2.0.20250512 (2025-05-12)
 
 Complete `bleach` (#13969)

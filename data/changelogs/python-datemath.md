@@ -1,3 +1,7 @@
+## 3.0.1.20250514 (2025-05-14)
+
+Replace incomplete module markers (#14030)
+
 ## 3.0.1.20240913 (2024-09-13)
 
 [python-datemath] Pin and mark as obsolete (#12645)

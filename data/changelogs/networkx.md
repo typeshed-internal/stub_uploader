@@ -1,3 +1,7 @@
+## 3.4.2.20250514 (2025-05-14)
+
+networkx: consistent `Unknown | None = None` (#14027)
+
 ## 3.4.2.20250513 (2025-05-13)
 
 networkx: `ignore_missing_stub = false` (#13968)

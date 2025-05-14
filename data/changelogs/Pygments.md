@@ -1,3 +1,7 @@
+## 2.19.0.20250514 (2025-05-14)
+
+Replace incomplete module markers (#14030)
+
 ## 2.19.0.20250305 (2025-03-05)
 
 Remove `setuptools/pkg_resources` (#13369)
