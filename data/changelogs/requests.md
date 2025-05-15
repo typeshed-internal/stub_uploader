@@ -1,3 +1,7 @@
+## 2.32.0.20250515 (2025-05-15)
+
+[requests] Add a _JSON type alias (#14064)
+
 ## 2.32.0.20250328 (2025-03-28)
 
 [requests] Remove Session.redirect_cache (#13723)

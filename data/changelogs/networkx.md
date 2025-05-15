@@ -1,3 +1,9 @@
+## 3.4.2.20250515 (2025-05-15)
+
+Update nx_pylab.pyi: allow node_color to be a list of strings as well (#14057)
+
+networkx: type `is_*` and  `has_*` functions (#14054)
+
 ## 3.4.2.20250514 (2025-05-14)
 
 networkx: consistent `Unknown | None = None` (#14027)

@@ -1,3 +1,7 @@
+## 4.4.0.20250515 (2025-05-15)
+
+reportlab: canvas.getPageNumber() returns int (#14066)
+
 ## 4.4.0.20250429 (2025-04-29)
 
 Bump reportlab to 4.4.* (#13857)
