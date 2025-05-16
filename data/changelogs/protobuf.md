@@ -1,3 +1,7 @@
+## 6.30.2.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 6.30.2.20250506 (2025-05-06)
 
 Run Black on *_pb2 files (#13930)

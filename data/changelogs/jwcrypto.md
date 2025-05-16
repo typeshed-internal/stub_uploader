@@ -1,3 +1,7 @@
+## 1.5.0.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 1.5.0.20250514 (2025-05-14)
 
 jwcrypto: Fix export_to_pem password argument (#14037)

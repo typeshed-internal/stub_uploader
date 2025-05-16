@@ -1,3 +1,7 @@
+## 4.35.0.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 4.35.0.20250506 (2025-05-06)
 
 Bump braintree to 4.35.* (#13914)

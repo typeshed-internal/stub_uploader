@@ -1,3 +1,7 @@
+## 1.1.11.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 1.1.11.20241018 (2024-10-18)
 
 Add a return to html5lib.HTMLSerializer.serialize() (#12838)

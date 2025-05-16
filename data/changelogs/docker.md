@@ -1,3 +1,7 @@
+## 7.1.0.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 7.1.0.20250503 (2025-05-03)
 
 Improve `docker.types` (#13809)

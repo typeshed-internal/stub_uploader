@@ -1,3 +1,7 @@
+## 1.3.0.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 1.3.0.20250401 (2025-04-01)
 
 Improve `pika` (#13739)

@@ -1,3 +1,9 @@
+## 4.4.1.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
+Update reportlab to 4.4.1 (#14073)
+
 ## 4.4.0.20250515 (2025-05-15)
 
 reportlab: canvas.getPageNumber() returns int (#14066)

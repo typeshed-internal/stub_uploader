@@ -1,3 +1,7 @@
+## 0.7.0.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 0.7.0.20240218 (2024-02-18)
 
 defusedxml.ElementTree: use`Element` from ElementTree instead of minidom (#11305)

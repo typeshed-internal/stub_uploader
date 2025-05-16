@@ -1,3 +1,7 @@
+## 4.12.0.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 4.12.0.20250204 (2025-02-04)
 
 [stubsabot] Mark beautifulsoup4 as obsolete since 4.13.0 (#13455)

@@ -1,3 +1,7 @@
+## 0.9.9.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 0.9.9.20250228 (2025-02-28)
 
 Fix constructor args for two vobject classes (#13360)

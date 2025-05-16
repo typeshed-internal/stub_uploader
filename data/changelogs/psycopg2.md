@@ -1,3 +1,7 @@
+## 2.9.21.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 2.9.21.20250318 (2025-03-18)
 
 Fix various argument of extension modules (#13651)

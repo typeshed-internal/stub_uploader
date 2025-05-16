@@ -1,3 +1,7 @@
+## 2025.2.0.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 2025.2.0.20250326 (2025-03-26)
 
 [stubsabot] Bump pytz to 2025.2 (#13720)

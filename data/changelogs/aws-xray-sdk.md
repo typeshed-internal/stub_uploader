@@ -1,3 +1,7 @@
+## 2.14.0.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 2.14.0.20250428 (2025-04-28)
 
 Add None to SubsegmentContextManager.__enter__ return type (#13892)

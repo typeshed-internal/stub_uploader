@@ -1,3 +1,7 @@
+## 1.2.0.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 1.2.0.20250408 (2025-04-08)
 
 Improve `dateparser` (#13796)

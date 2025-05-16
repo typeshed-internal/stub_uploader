@@ -1,3 +1,7 @@
+## 4.13.0.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 4.13.0.20240519 (2024-05-19)
 
 Use assignment instead of annotation in third party enums (#11957)

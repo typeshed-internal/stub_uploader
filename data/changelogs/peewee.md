@@ -1,3 +1,7 @@
+## 3.18.1.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 3.18.1.20250512 (2025-05-12)
 
 [stubsabot] Bump peewee to 3.18.1 (#13910)

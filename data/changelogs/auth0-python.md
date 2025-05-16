@@ -1,3 +1,7 @@
+## 4.9.0.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 4.9.0.20250425 (2025-04-25)
 
 [auth0-python] Add async functions to AsyncAuth0 (#13799)

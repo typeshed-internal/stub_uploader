@@ -1,3 +1,7 @@
+## 2.4.10.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 2.4.10.6 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

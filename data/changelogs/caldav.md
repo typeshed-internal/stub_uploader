@@ -1,3 +1,7 @@
+## 1.3.0.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 1.3.0.20241107 (2024-11-07)
 
 [stubsabot] Mark caldav as obsolete since 1.4.0 (#12957)

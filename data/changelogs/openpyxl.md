@@ -1,3 +1,7 @@
+## 3.1.5.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 3.1.5.20250506 (2025-05-06)
 
 Openpyxl: type cell values (#13929)

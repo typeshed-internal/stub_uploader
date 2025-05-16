@@ -1,3 +1,7 @@
+## 0.6.0.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 0.6.0.20250208 (2025-02-08)
 
 Bump mypy to 1.15.0 (#13473)

@@ -1,3 +1,7 @@
+## 2.8.3.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 2.8.3.20250426 (2025-04-26)
 
 [fpdf2] Update to 2.8.3 (#13871)

@@ -1,3 +1,7 @@
+## 6.0.12.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 6.0.12.20250402 (2025-04-02)
 
 Bump ruff to 0.11.2 (#13757)

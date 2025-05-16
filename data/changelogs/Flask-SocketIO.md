@@ -1,3 +1,7 @@
+## 5.5.0.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 5.5.0.20250321 (2025-03-21)
 
 Fix incorrect default value for callback (#13678)

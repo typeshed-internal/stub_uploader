@@ -1,3 +1,7 @@
+## 0.13.2.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 0.13.2.20250111 (2025-01-11)
 
 Officially drop Python 3.8 support (#13386)

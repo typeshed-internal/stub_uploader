@@ -1,3 +1,7 @@
+## 1.1.0.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 1.1.0.20241103 (2024-11-03)
 
 Improve pymysql stubs (#12942)

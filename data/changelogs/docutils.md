@@ -1,3 +1,7 @@
+## 0.21.0.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 0.21.0.20250514 (2025-05-14)
 
 Replace incomplete module markers (#14030)

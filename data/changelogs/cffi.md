@@ -1,3 +1,7 @@
+## 1.17.0.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 1.17.0.20250326 (2025-03-26)
 
 Improve `cffi` (#13710)

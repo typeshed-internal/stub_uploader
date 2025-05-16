@@ -1,3 +1,7 @@
+## 3.5.0.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 3.5.0.20240928 (2024-09-28)
 
 paramiko: add `ProxyCommand` to `_SocketLike` (#12697)

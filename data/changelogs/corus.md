@@ -1,3 +1,7 @@
+## 0.10.0.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 0.10.0.20250413 (2025-04-13)
 
 Import names from typing directly rather than importing module (#13761)

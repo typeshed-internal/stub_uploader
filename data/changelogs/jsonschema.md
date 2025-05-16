@@ -1,3 +1,7 @@
+## 4.23.0.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 4.23.0.20241208 (2024-12-08)
 
 Unpin webcolors in jsonschema (#13215)

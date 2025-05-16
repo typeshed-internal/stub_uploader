@@ -1,3 +1,7 @@
+## 2.9.0.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 2.9.0.20241206 (2024-12-06)
 
 Use union instead of overloads in dateutil (#13184)

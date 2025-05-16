@@ -1,3 +1,7 @@
+## 2.0.0.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 2.0.0.20250306 (2025-03-06)
 
 Fix: OAuth1 type hints to include realm parameter (#13579)

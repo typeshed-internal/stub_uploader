@@ -1,3 +1,7 @@
+## 24.1.0.20250516 (2025-05-16)
+
+Replace `Incomplete | None = None` in third party stubs (#14063)
+
 ## 24.1.0.20250326 (2025-03-26)
 
 Add `__all__` (#13704)

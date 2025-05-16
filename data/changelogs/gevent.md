@@ -1,3 +1,7 @@
+## 25.4.0.20250516 (2025-05-16)
+
+gevent: Remove remaining uses of `Incomplete` (#14072)
+
 ## 25.4.0.20250512 (2025-05-12)
 
 Bump gevent to 25.4.*  (#13885)
