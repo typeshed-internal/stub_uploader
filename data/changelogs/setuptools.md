@@ -1,3 +1,9 @@
+## 80.8.0.20250521 (2025-05-21)
+
+[stubsabot] Bump setuptools to 80.8.* (#14110)
+
+Co-authored-by: stubsabot <>
+
 ## 80.7.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)
