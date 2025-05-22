@@ -1,3 +1,7 @@
+## 1.8.0.20250522 (2025-05-22)
+
+[webob-stubs] Fix _Serializer protocol  (#14116)
+
 ## 1.8.0.20250319 (2025-03-19)
 
 [WebOb] Add cgi_FieldStorage.make_file on Python 3.13+ (#13654)
