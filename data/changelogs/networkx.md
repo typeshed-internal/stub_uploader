@@ -1,3 +1,7 @@
+## 3.4.2.20250523 (2025-05-23)
+
+networkx: Add symbols from python-type-stubs (#14084)
+
 ## 3.4.2.20250515 (2025-05-15)
 
 Update nx_pylab.pyi: allow node_color to be a list of strings as well (#14057)

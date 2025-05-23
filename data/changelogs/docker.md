@@ -1,3 +1,7 @@
+## 7.1.0.20250523 (2025-05-23)
+
+Expand type stubs for Docker container device read/write bps/iops (#14092)
+
 ## 7.1.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)

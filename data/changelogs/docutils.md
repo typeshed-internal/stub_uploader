@@ -1,3 +1,13 @@
+## 0.21.0.20250523 (2025-05-23)
+
+Add `visit_*` and `depart_*` methods to `docutils` visitor classes (#13928)
+
+Improve languages dirs for `docutils` (#14124)
+
+Improve `docutils.utils` (#14122)
+
+Expand docutils.core.Publisher.get_settings types (#14112)
+
 ## 0.21.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)

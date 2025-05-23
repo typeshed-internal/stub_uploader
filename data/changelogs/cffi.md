@@ -1,3 +1,7 @@
+## 1.17.0.20250523 (2025-05-23)
+
+Fix some of the typing for CFFI's out of line mode (#14090)
+
 ## 1.17.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)
