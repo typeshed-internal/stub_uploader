@@ -1,3 +1,7 @@
+## 1.0.0.20250525 (2025-05-25)
+
+Update `grpcio` stub to import `grpc.aio` (#14132)
+
 ## 1.0.0.20250506 (2025-05-06)
 
 Extract grpcio plugins (#13896)
