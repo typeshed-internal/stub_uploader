@@ -1,3 +1,7 @@
+## 0.21.0.20250526 (2025-05-26)
+
+Bump flake8-pyi to 25.5.0 (#14140)
+
 ## 0.21.0.20250525 (2025-05-25)
 
 Improve `docutils` LanguageImporter's (#14130)
