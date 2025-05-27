@@ -1,3 +1,11 @@
+## 0.10.0.20250527 (2025-05-27)
+
+[corus] set `no_longer_updated` (#14160)
+
+Revert "Remove corus stubs" (#14158)
+
+Remove corus stubs (#14153)
+
 ## 0.10.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)

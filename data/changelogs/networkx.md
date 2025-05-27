@@ -1,3 +1,7 @@
+## 3.4.2.20250527 (2025-05-27)
+
+Bump `importlib` to 3.14 (#14138)
+
 ## 3.4.2.20250523 (2025-05-23)
 
 networkx: Add symbols from python-type-stubs (#14084)

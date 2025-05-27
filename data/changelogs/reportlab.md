@@ -1,3 +1,7 @@
+## 4.4.1.20250527 (2025-05-27)
+
+reportlab: add some types for canvas (#14152)
+
 ## 4.4.1.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)
