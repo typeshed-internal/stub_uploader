@@ -1,3 +1,7 @@
+## 4.24.0.20250528 (2025-05-28)
+
+Bump jsonschema to 4.24.* (#14166)
+
 ## 4.23.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)

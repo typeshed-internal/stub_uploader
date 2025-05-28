@@ -1,3 +1,7 @@
+## 0.33.0.20250528 (2025-05-28)
+
+Remove old compatibility alias `_BufferWithLen` (#14151)
+
 ## 0.33.0.20240407 (2024-04-07)
 
 [python-xlib] Use a protocol for PIL.Image.Image argument (#11722)

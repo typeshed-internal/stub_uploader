@@ -1,3 +1,7 @@
+## 1.0.1.20250528 (2025-05-28)
+
+[geopandas] Unblock CI (#14178)
+
 ## 1.0.1.20250510 (2025-05-10)
 
 [geopandas] Fix CI tests in some circumstances (#13978)
