@@ -1,3 +1,7 @@
+## 1.0.2.20250529 (2025-05-29)
+
+Improve `jmespath` (#14176)
+
 ## 1.0.2.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)
