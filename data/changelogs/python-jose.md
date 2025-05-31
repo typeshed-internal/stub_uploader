@@ -1,3 +1,7 @@
+## 3.5.0.20250531 (2025-05-31)
+
+Bump python-jose to 3.5.* (#14193)
+
 ## 3.4.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)
