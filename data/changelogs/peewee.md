@@ -1,3 +1,9 @@
+## 3.18.1.20250601 (2025-06-01)
+
+[peewee] Mark field_type as ClassVar (#14203)
+
+Should help with #14194
+
 ## 3.18.1.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)

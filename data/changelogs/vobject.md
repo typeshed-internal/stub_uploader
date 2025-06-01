@@ -1,3 +1,9 @@
+## 0.9.9.20250601 (2025-06-01)
+
+[vobject] Partly annotate validate methods (#14205)
+
+Should help with #14194
+
 ## 0.9.9.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)

@@ -1,3 +1,9 @@
+## 1.2.0.20250601 (2025-06-01)
+
+[dateparser] Improve parse-related annotations (#14199)
+
+Add a `# type: ignore`. Helps with #14194
+
 ## 1.2.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)

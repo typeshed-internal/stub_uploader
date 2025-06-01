@@ -1,3 +1,7 @@
+## 7.0.0.20250601 (2025-06-01)
+
+[psutil]: Add missing `__dir__` method to `psutil.Popen` (#14207)
+
 ## 7.0.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)

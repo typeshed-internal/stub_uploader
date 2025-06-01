@@ -1,3 +1,13 @@
+## 1.7.7.20250601 (2025-06-01)
+
+[passlib] Small changes (#14204)
+
+* Add a few `Self` return annotations.
+* Add a few `# type: ignore[override]`.
+* Add a few `@deprecated` annotations.
+
+Should help with #14194
+
 ## 1.7.7.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)

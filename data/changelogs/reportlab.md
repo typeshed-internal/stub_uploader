@@ -1,3 +1,9 @@
+## 4.4.1.20250601 (2025-06-01)
+
+[reportlab] Add # type: ignores (#14202)
+
+Helps with #14194
+
 ## 4.4.1.20250527 (2025-05-27)
 
 reportlab: add some types for canvas (#14152)

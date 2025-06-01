@@ -1,3 +1,9 @@
+## 1.0.1.20250601 (2025-06-01)
+
+[geopandas] Add a # type: ignore (#14200)
+
+Should help with #14194
+
 ## 1.0.1.20250528 (2025-05-28)
 
 [geopandas] Unblock CI (#14178)
