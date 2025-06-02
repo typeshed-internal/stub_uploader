@@ -1,3 +1,10 @@
+## 4.4.1.20250602 (2025-06-02)
+
+Update mypy to 1.16.0 (#14194)
+
+Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 4.4.1.20250601 (2025-06-01)
 
 [reportlab] Add # type: ignores (#14202)

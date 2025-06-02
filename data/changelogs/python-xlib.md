@@ -1,3 +1,10 @@
+## 0.33.0.20250602 (2025-06-02)
+
+Update mypy to 1.16.0 (#14194)
+
+Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 0.33.0.20250528 (2025-05-28)
 
 Remove old compatibility alias `_BufferWithLen` (#14151)

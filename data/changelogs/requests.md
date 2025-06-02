@@ -1,3 +1,10 @@
+## 2.32.0.20250602 (2025-06-02)
+
+Update mypy to 1.16.0 (#14194)
+
+Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+
 ## 2.32.0.20250515 (2025-05-15)
 
 [requests] Add a _JSON type alias (#14064)
