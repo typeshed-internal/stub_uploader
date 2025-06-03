@@ -1,3 +1,7 @@
+## 1.0.0.20250603 (2025-06-03)
+
+Improve grpcio serializer/deserializer types (#14093)
+
 ## 1.0.0.20250525 (2025-05-25)
 
 Update `grpcio` stub to import `grpc.aio` (#14132)
