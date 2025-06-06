@@ -1,3 +1,9 @@
+## 24.1.0.20250606 (2025-06-06)
+
+aiofiles: add type for `executor` parameter (#14226)
+
+Fix partially unknown executor
+
 ## 24.1.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)
