@@ -1,3 +1,7 @@
+## 1.5.0.20250608 (2025-06-08)
+
+[Authlib] Fix stubtest for latest Python 3.13 patch release (#14233)
+
 ## 1.5.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)
