@@ -1,3 +1,7 @@
+## 3.5.0.20250610 (2025-06-10)
+
+[networkx] Correct argument type for from_nested_tuple (#14218)
+
 ## 3.5.0.20250531 (2025-05-31)
 
 Bump networkx to 3.5 (#14196)
