@@ -1,3 +1,9 @@
+## 6.14.0.20250611 (2025-06-11)
+
+[stubsabot] Bump pyinstaller to 6.14.* (#14217)
+
+Co-authored-by: stubsabot <>
+
 ## 6.13.0.20250417 (2025-04-17)
 
 Bump pyinstaller to 6.13.* (#13843)
