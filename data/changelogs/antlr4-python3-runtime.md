@@ -1,3 +1,7 @@
+## 4.13.0.20250613 (2025-06-13)
+
+[antlr4-python3-runtime] Remove `ignore_missing_stub` flag (#14270)
+
 ## 4.13.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)
