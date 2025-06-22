@@ -1,3 +1,7 @@
+## 0.28.0.20250622 (2025-06-22)
+
+[pyxdg] Remove from pyrightconfig (#14309)
+
 ## 0.28.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

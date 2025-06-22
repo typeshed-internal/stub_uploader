@@ -1,3 +1,7 @@
+## 2.4.10.20250622 (2025-06-22)
+
+[opentracing] Add missing stubs (#14274)
+
 ## 2.4.10.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)

@@ -1,3 +1,7 @@
+## 0.7.3.20250622 (2025-06-22)
+
+[slumber] Remove allowlist and correct kwargs type (#14266)
+
 ## 0.7.3.5 (2023-07-20)
 
 Add an upstream_repository field to METADATA.toml (#10487)

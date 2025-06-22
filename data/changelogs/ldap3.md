@@ -1,3 +1,7 @@
+## 2.9.13.20250622 (2025-06-22)
+
+[ldap3] Add missing stubs (#14271)
+
 ## 2.9.13.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)

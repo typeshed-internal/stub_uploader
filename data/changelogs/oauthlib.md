@@ -1,3 +1,7 @@
+## 3.3.0.20250622 (2025-06-22)
+
+Bump oauthlib to 3.3.* (#14300)
+
 ## 3.2.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)

@@ -1,3 +1,7 @@
+## 0.22.0.20250622 (2025-06-22)
+
+[httplib2] Improve stubs (#14249)
+
 ## 0.22.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)
