@@ -1,3 +1,9 @@
+## 6.0.0.20250626 (2025-06-26)
+
+croniter: fix typo (#14337)
+
+Had to stare at this stub for a while to notice the bug...
+
 ## 6.0.0.20250411 (2025-04-11)
 
 Update croniter to 6.0.0 (#13548)
