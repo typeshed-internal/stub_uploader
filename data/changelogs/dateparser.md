@@ -1,3 +1,7 @@
+## 1.2.2.20250627 (2025-06-27)
+
+[dateparser] Update to `~=1.2.2` (#14346)
+
 ## 1.2.0.20250601 (2025-06-01)
 
 [dateparser] Improve parse-related annotations (#14199)
