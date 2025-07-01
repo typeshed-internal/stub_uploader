@@ -1,3 +1,9 @@
+## 2.5.0.20250701 (2025-07-01)
+
+[stubsabot] Bump lupa to 2.5.* (#14279)
+
+Co-authored-by: stubsabot <>
+
 ## 2.4.0.20250112 (2025-01-12)
 
 [stubsabot] Bump lupa to 2.4.* (#13391)

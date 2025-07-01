@@ -1,3 +1,11 @@
+## 4.37.0.20250701 (2025-07-01)
+
+[braintree] Bump to 4.37.* (#14344)
+
+* `CustomerRecommendationsPayload`: Add `session_id` attribute
+
+* `CustomerRecommendationsPayload`: Represent overloaded constructor
+
 ## 4.36.0.20250531 (2025-05-31)
 
 Bump braintree to 4.36.* (#14192)

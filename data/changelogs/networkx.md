@@ -1,3 +1,7 @@
+## 3.5.0.20250701 (2025-07-01)
+
+[networkx] completed type annotation for `equivalence_classes` (#14352)
+
 ## 3.5.0.20250610 (2025-06-10)
 
 [networkx] Correct argument type for from_nested_tuple (#14218)
