@@ -1,3 +1,7 @@
+## 3.3.0.20250703 (2025-07-03)
+
+Make Mapping.get(default) more constrained (#14360)
+
 ## 3.3.0.20250622 (2025-06-22)
 
 Bump oauthlib to 3.3.* (#14300)

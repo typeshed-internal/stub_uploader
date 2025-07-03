@@ -1,3 +1,7 @@
+## 1.8.0.20250703 (2025-07-03)
+
+Make Mapping.get(default) more constrained (#14360)
+
 ## 1.8.0.20250522 (2025-05-22)
 
 [webob-stubs] Fix _Serializer protocol  (#14116)

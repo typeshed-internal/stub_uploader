@@ -1,3 +1,7 @@
+## 25.0.0.20250703 (2025-07-03)
+
+Make Mapping.get(default) more constrained (#14360)
+
 ## 25.0.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)

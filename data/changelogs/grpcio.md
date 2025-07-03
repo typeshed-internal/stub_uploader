@@ -1,3 +1,7 @@
+## 1.0.0.20250703 (2025-07-03)
+
+Make Mapping.get(default) more constrained (#14360)
+
 ## 1.0.0.20250603 (2025-06-03)
 
 Improve grpcio serializer/deserializer types (#14093)

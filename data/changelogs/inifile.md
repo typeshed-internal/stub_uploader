@@ -1,3 +1,7 @@
+## 0.4.0.20250703 (2025-07-03)
+
+Make Mapping.get(default) more constrained (#14360)
+
 ## 0.4.0.20240310 (2024-03-10)
 
 Bump mypy to 1.9, add to json.encoder, small fixups (#11549)
