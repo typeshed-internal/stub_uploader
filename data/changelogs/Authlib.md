@@ -1,3 +1,7 @@
+## 1.5.2.20250704 (2025-07-04)
+
+[Authlib] Update to 1.5.2 (#13840)
+
 ## 1.5.0.20250608 (2025-06-08)
 
 [Authlib] Fix stubtest for latest Python 3.13 patch release (#14233)
