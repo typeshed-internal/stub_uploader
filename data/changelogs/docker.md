@@ -1,3 +1,7 @@
+## 7.1.0.20250705 (2025-07-05)
+
+[docker] load() accepts bytes streams (#14366)
+
 ## 7.1.0.20250523 (2025-05-23)
 
 Expand type stubs for Docker container device read/write bps/iops (#14092)
