@@ -1,3 +1,9 @@
+## 24.1.0.20250708 (2025-07-08)
+
+[aiofiles] Remove from pyrightconfig (#14310)
+
+Fix AiofilesContextManagerTempDir type argument (#14349)
+
 ## 24.1.0.20250606 (2025-06-06)
 
 aiofiles: add type for `executor` parameter (#14226)

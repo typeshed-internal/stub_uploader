@@ -1,3 +1,9 @@
+## 4.24.0.20250708 (2025-07-08)
+
+[jsonschema] Add missing stubs (#14264)
+
+Update `jsonschema.protocols.Validator.__init__` (#14327)
+
 ## 4.24.0.20250528 (2025-05-28)
 
 Bump jsonschema to 4.24.* (#14166)

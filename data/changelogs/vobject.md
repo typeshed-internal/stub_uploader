@@ -1,3 +1,7 @@
+## 0.9.9.20250708 (2025-07-08)
+
+[vobject] Improve stubs (#14299)
+
 ## 0.9.9.20250601 (2025-06-01)
 
 [vobject] Partly annotate validate methods (#14205)

@@ -1,3 +1,7 @@
+## 3.8.0.20250708 (2025-07-08)
+
+[Markdown] Add missing stubs (#14285)
+
 ## 3.8.0.20250415 (2025-04-15)
 
 Annotate `markdown.util.get_installed_extensions` (#13822)

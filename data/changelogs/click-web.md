@@ -1,3 +1,7 @@
+## 0.8.0.20250708 (2025-07-08)
+
+[click-web] Remove from pyrightconfig (#14312)
+
 ## 0.8.0.20250511 (2025-05-11)
 
 [click-web] Fixes after click 8.2.0 release (#14001)

@@ -1,3 +1,9 @@
+## 0.22.0.20250708 (2025-07-08)
+
+[flake8-simplify] Complete stubs (#14259)
+
+[stubsabot] Bump flake8-simplify to 0.22.* (#14210)
+
 ## 0.21.0.0 (2023-09-24)
 
 [stubsabot] Bump flake8-simplify to 0.21.* (#10755)

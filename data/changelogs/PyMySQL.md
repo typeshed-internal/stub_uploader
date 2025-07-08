@@ -1,3 +1,7 @@
+## 1.1.0.20250708 (2025-07-08)
+
+[PyMySQL] Add missing stubs (#14335)
+
 ## 1.1.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)

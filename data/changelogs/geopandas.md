@@ -1,3 +1,7 @@
+## 1.1.1.20250708 (2025-07-08)
+
+Bump geopandas stubs to version 1.1.1 (#14244)
+
 ## 1.0.1.20250601 (2025-06-01)
 
 [geopandas] Add a # type: ignore (#14200)

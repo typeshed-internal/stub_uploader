@@ -1,3 +1,9 @@
+## 3.3.0.20250708 (2025-07-08)
+
+[oauthlib] Add missing stubs (#14301)
+
+[oauthlib] Fix type on body argument of oauthlib.oauth1.Client.sign() (#14295)
+
 ## 3.3.0.20250703 (2025-07-03)
 
 Make Mapping.get(default) more constrained (#14360)

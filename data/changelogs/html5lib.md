@@ -1,3 +1,9 @@
+## 1.1.11.20250708 (2025-07-08)
+
+[html5lib] Minimal pyright fix for HTMLParser.__init__ (#14251)
+
+[html5lib] Improve stubs (#14278)
+
 ## 1.1.11.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)

@@ -1,3 +1,7 @@
+## 3.1.0.20250708 (2025-07-08)
+
+[wurlitzer] Remove from pyrightconfig (#14292)
+
 ## 3.1.0.20240511 (2024-05-11)
 
 [stubsabot] Bump wurlitzer to 3.1.* (#11848)

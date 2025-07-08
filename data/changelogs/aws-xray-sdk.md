@@ -1,3 +1,9 @@
+## 2.14.0.20250708 (2025-07-08)
+
+[aws-xray-sdk] Improve stubs (#14277)
+
+[aws-xray-sdk] Add missing stubs (#14276)
+
 ## 2.14.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)

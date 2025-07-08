@@ -125,6 +125,7 @@ types-invoke
 types-ipaddress
 types-itsdangerous
 types-jmespath
+types-jsonnet
 types-jsonschema
 types-jwcrypto
 types-jwt

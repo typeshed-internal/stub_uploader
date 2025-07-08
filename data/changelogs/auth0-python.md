@@ -1,3 +1,7 @@
+## 4.10.0.20250708 (2025-07-08)
+
+[auth0-python] Bump to 4.10.* (#14261)
+
 ## 4.9.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)

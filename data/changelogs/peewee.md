@@ -1,3 +1,7 @@
+## 3.18.1.20250708 (2025-07-08)
+
+[peewee] Fix type for field operations (#14275)
+
 ## 3.18.1.20250601 (2025-06-01)
 
 [peewee] Mark field_type as ClassVar (#14203)

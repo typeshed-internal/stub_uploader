@@ -1,3 +1,7 @@
+## 3.2.0.20250708 (2025-07-08)
+
+[python-crontab] Remove from pyrightconfig (#14322)
+
 ## 3.2.0.20240703 (2024-07-03)
 
 [stubsabot] Bump python-crontab to 3.2.* (#12253)

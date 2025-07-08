@@ -1,3 +1,7 @@
+## 2.0.0.20250708 (2025-07-08)
+
+[dockerfile-parse] Use `Final` for constants (#14258)
+
 ## 2.0.0.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

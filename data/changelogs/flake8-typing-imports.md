@@ -1,3 +1,7 @@
+## 1.16.0.20250708 (2025-07-08)
+
+[flake8-typing-imports] Complete stubs (#14262)
+
 ## 1.16.0.20250514 (2025-05-14)
 
 Replace incomplete module markers (#14030)
