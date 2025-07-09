@@ -1,3 +1,7 @@
+## 3.5.0.20250709 (2025-07-09)
+
+networkx: All return types from python-type-stubs (#14256)
+
 ## 3.5.0.20250701 (2025-07-01)
 
 [networkx] completed type annotation for `equivalence_classes` (#14352)
