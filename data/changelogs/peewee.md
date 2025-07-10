@@ -1,3 +1,28 @@
+## 3.18.2.20250710 (2025-07-10)
+
+[stubsabot] Bump peewee to 3.18.2 (#14385)
+
+Release: https://pypi.org/pypi/peewee/3.18.2
+Homepage: https://github.com/coleifer/peewee/
+Repository: https://github.com/coleifer/peewee
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/peewee
+Diff: https://github.com/coleifer/peewee/compare/3.18.1...3.18.2
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `peewee.py`.
+ - Total lines of Python code added: 5.
+ - Total lines of Python code deleted: 3.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 3.18.1.20250708 (2025-07-08)
 
 [peewee] Fix type for field operations (#14275)

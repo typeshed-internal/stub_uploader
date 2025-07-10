@@ -1,3 +1,7 @@
+## 0.21.0.20250710 (2025-07-10)
+
+[docutils] Fix issue with `*_path` params (#14383)
+
 ## 0.21.0.20250708 (2025-07-08)
 
 [docutils] Add missing stubs for `readers` dir (#14242)

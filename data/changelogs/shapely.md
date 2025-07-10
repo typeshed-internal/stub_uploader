@@ -1,3 +1,7 @@
+## 2.1.0.20250710 (2025-07-10)
+
+Fix shapely for 2.1 release (#14230)
+
 ## 2.1.0.20250708 (2025-07-08)
 
 Fix shapely return types coming from numpy ufuncs (#14231)
