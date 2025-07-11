@@ -1,3 +1,7 @@
+## 1.0.2.20250711 (2025-07-11)
+
+[jmespath] Remove from pyrightconfig (#14378)
+
 ## 1.0.2.20250529 (2025-05-29)
 
 Improve `jmespath` (#14176)

@@ -1,3 +1,7 @@
+## 1.1.0.20250711 (2025-07-11)
+
+[PyMySQL] Fix issue with import constants attributes (#14393)
+
 ## 1.1.0.20250708 (2025-07-08)
 
 [PyMySQL] Add missing stubs (#14335)

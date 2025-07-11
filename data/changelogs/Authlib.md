@@ -1,3 +1,9 @@
+## 1.6.0.20250711 (2025-07-11)
+
+[Authlib] Mark as partial again (#14394)
+
+Some integrations are missing from the stubs
+
 ## 1.6.0.20250708 (2025-07-08)
 
 [Authlib] Add missing stubs (#14368)
