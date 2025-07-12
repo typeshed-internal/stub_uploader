@@ -53,6 +53,7 @@ types-caldav
 types-capturer
 types-certifi
 types-cffi
+types-channels
 types-characteristic
 types-chardet
 types-chevron

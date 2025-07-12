@@ -1,3 +1,7 @@
+## 3.5.0.20250712 (2025-07-12)
+
+Correct type hints for networkx/algorithms/flow/mincost.pyi (#14395)
+
 ## 3.5.0.20250709 (2025-07-09)
 
 networkx: All return types from python-type-stubs (#14256)
