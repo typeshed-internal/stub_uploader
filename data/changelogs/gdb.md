@@ -1,3 +1,7 @@
+## 15.0.0.20250713 (2025-07-13)
+
+[gdb] Complete stubs for `gdb.dap` (#14269)
+
 ## 15.0.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)
