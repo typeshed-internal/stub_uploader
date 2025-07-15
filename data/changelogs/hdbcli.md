@@ -1,3 +1,9 @@
+## 2.25.0.20250715 (2025-07-15)
+
+[hdbcli] Clarify `holdability` possible values (#14410)
+
+[stubsabot] Bump hdbcli to 2.25.* (#13668)
+
 ## 2.24.0.20250325 (2025-03-25)
 
 Bump hdbcli to 2.24.* (#13705)

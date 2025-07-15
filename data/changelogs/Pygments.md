@@ -1,3 +1,7 @@
+## 2.19.0.20250715 (2025-07-15)
+
+RawTokenFormatter always returns bytes (#14412)
+
 ## 2.19.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)
