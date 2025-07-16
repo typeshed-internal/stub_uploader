@@ -226,17 +226,12 @@ def _build_requirements(
     *,
     mypy: str | None = "1.11.1",
     pyright: str | None = "1.1.381",
-    pytype: (
-        str | None
-    ) = '2024.9.13; platform_system != "Windows" and python_version < "3.13"',
 ) -> str:
     req = _REQUIREMENTS_TXT
     if mypy is not None:
         req += f"\nmypy=={mypy}"
     if pyright is not None:
         req += f"\npyright=={pyright}"
-    if pytype is not None:
-        req += f"\npytype=={pytype}"
     return req
 
 

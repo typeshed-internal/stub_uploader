@@ -2,13 +2,8 @@
 Basic script to generate a wheel for a third-party distribution in typeshed.
 
 This generates a PEP 561 types stub package using METADATA.toml file for a given
-distribution in typeshed stubs. Such package
-can be used by type-checking tools like
-[mypy](https://github.com/python/mypy/),
-[pyright](https://github.com/microsoft/pyright),
-[pytype](https://github.com/google/pytype/),
-PyCharm, etc. to check code that uses
-the corresponding runtime Python package.
+distribution in typeshed stubs. Such package can be used by type checkers
+to check code that uses the corresponding runtime Python package.
 
 The generated wheel includes all type stubs (*.pyi files) and the METADATA.toml
 itself, no other files can be included.
@@ -102,14 +97,9 @@ package if you use this or a newer version.
 DESCRIPTION_INTRO_TEMPLATE = """
 ## Typing stubs for {distribution}
 
-This is a [PEP 561](https://peps.python.org/pep-0561/)
-type stub package for the {formatted_distribution} package.
-It can be used by type-checking tools like
-[mypy](https://github.com/python/mypy/),
-[pyright](https://github.com/microsoft/pyright),
-[pytype](https://github.com/google/pytype/),
-[Pyre](https://pyre-check.org/),
-PyCharm, etc. to check code that uses `{distribution}`. This version of
+This is a [PEP 561](https://peps.python.org/pep-0561/) type stub package for
+the {formatted_distribution} package. It can be used by type checkers
+to check code that uses `{distribution}`. This version of
 `{stub_distribution}` aims to provide accurate annotations for
 `{distribution}{typeshed_version_spec}`.
 """.strip()
@@ -122,10 +112,9 @@ for more details. The source for this package can be found in the
 [`stubs/{distribution}`](https://github.com/python/typeshed/tree/main/stubs/{distribution})
 directory.
 
-This package was tested with
-mypy {ts_data.mypy_version},
-pyright {ts_data.pyright_version},
-and pytype {ts_data.pytype_version}.
+This package was tested with the following type checkers:
+* [mypy](https://github.com/python/mypy/) {ts_data.mypy_version}
+* [pyright](https://github.com/microsoft/pyright) {ts_data.pyright_version}
 It was generated from typeshed commit
 [`{commit}`](https://github.com/python/typeshed/commit/{commit}).
 """.strip()
