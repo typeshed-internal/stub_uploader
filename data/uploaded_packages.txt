@@ -167,6 +167,7 @@ types-pika
 types-playsound
 types-pluggy
 types-polib
+types-pony
 types-portpicker
 types-prettytable
 types-protobuf

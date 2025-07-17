@@ -1,3 +1,17 @@
+## 6.1.0.20250717 (2025-07-17)
+
+[stubsabot] Bump cachetools to 6.1.* (#14291)
+
+Release: https://pypi.org/pypi/cachetools/6.1.0
+Homepage: https://github.com/tkem/cachetools/
+Repository: https://github.com/tkem/cachetools
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/cachetools
+Diff: https://github.com/tkem/cachetools/compare/v6.0.0...v6.1.0
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 194.
+ - Total lines of Python code deleted: 87.
+
 ## 6.0.0.20250525 (2025-05-25)
 
 Bump cachetools to 6.0.* (#14131)
