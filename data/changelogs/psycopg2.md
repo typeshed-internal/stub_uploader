@@ -1,3 +1,7 @@
+## 2.9.21.20250718 (2025-07-18)
+
+psycopg2: Add types to RealDictCursor.execute (#14427)
+
 ## 2.9.21.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)
