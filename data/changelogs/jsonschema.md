@@ -1,3 +1,7 @@
+## 4.25.0.20250720 (2025-07-20)
+
+[stubsabot] Bump jsonschema to 4.25.* (#14430)
+
 ## 4.24.0.20250708 (2025-07-08)
 
 [jsonschema] Add missing stubs (#14264)
