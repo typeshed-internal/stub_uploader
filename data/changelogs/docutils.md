@@ -1,3 +1,7 @@
+## 0.21.0.20250722 (2025-07-22)
+
+[docutils] Add missing stubs for `writers` dir (#14223)
+
 ## 0.21.0.20250715 (2025-07-15)
 
 [docutils] Add missing stubs for `transforms` dir (#14234)
