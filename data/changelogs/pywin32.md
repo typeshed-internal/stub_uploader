@@ -1,3 +1,7 @@
+## 311.0.0.20250723 (2025-07-23)
+
+Bump pywin32 to 311.* (#14437)
+
 ## 310.0.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)
