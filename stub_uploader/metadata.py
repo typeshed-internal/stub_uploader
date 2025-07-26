@@ -234,6 +234,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "torch",
     "tree-sitter",
     "urllib3",
+    "websockets",
 }
 
 # Map of external stub packages to their runtime equivalent.
