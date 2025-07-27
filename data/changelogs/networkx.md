@@ -1,3 +1,9 @@
+## 3.5.0.20250727 (2025-07-27)
+
+networkx: improve the cycles module (#14459)
+
+networkx: improve the distance_measures module (#14461)
+
 ## 3.5.0.20250712 (2025-07-12)
 
 Correct type hints for networkx/algorithms/flow/mincost.pyi (#14395)

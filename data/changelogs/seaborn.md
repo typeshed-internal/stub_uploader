@@ -1,3 +1,7 @@
+## 0.13.2.20250727 (2025-07-27)
+
+seaborn: improve the matrix module (#14464)
+
 ## 0.13.2.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)

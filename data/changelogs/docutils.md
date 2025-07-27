@@ -1,3 +1,7 @@
+## 0.21.0.20250727 (2025-07-27)
+
+[docutils] Fix type of standalone.Reader.document (#14447)
+
 ## 0.21.0.20250722 (2025-07-22)
 
 [docutils] Add missing stubs for `writers` dir (#14223)

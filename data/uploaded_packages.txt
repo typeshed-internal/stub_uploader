@@ -256,5 +256,6 @@ types-xdgenvpy
 types-xlrd
 types-xmltodict
 types-xxhash
+types-yt-dlp
 types-zstd
 types-zxcvbn
