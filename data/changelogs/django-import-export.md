@@ -1,3 +1,7 @@
+## 4.3.0.20250728 (2025-07-28)
+
+Remove pytype workarounds from third-party stubs (#14471)
+
 ## 4.3.0.20250218 (2025-02-18)
 
 [stubsabot] Bump django-import-export to 4.3.* (#13460)

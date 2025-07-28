@@ -1,3 +1,7 @@
+## 2.18.0.20250728 (2025-07-28)
+
+Remove pytype workarounds from third-party stubs (#14471)
+
 ## 2.18.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)

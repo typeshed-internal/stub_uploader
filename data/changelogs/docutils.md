@@ -1,3 +1,9 @@
+## 0.21.0.20250728 (2025-07-28)
+
+[docutils] Add missing stubs (#14438)
+
+Type inline_text in stubs/docutils/docutils/parsers/rst/states.pyi (#14467)
+
 ## 0.21.0.20250727 (2025-07-27)
 
 [docutils] Fix type of standalone.Reader.document (#14447)

@@ -1,3 +1,7 @@
+## 3.5.0.20250728 (2025-07-28)
+
+Remove pytype workarounds from third-party stubs (#14471)
+
 ## 3.5.0.20250727 (2025-07-27)
 
 networkx: improve the cycles module (#14459)

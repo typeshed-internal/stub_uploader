@@ -1,3 +1,7 @@
+## 311.0.0.20250728 (2025-07-28)
+
+[pywin32] Update `LookupAccountSid` to accept `None` for `systemName` (#14484)
+
 ## 311.0.0.20250723 (2025-07-23)
 
 Bump pywin32 to 311.* (#14437)
