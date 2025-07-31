@@ -1,3 +1,7 @@
+## 311.0.0.20250731 (2025-07-31)
+
+Type stub for `win32com.server` (#14492)
+
 ## 311.0.0.20250728 (2025-07-28)
 
 [pywin32] Update `LookupAccountSid` to accept `None` for `systemName` (#14484)
