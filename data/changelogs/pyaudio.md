@@ -1,3 +1,10 @@
+## 0.2.16.20250801 (2025-08-01)
+
+Split `tool.stubtest.platforms` metadata key (#13746)
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## 0.2.16.20240516 (2024-05-16)
 
 uWSGI: Makes stubtest_allowlist_darwin more resilient against CI flakyness (#11819)

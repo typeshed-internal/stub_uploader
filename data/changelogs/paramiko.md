@@ -1,3 +1,10 @@
+## 3.5.0.20250801 (2025-08-01)
+
+Split `tool.stubtest.platforms` metadata key (#13746)
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## 3.5.0.20250708 (2025-07-08)
 
 [paramiko] Add missing stubs (#14363)

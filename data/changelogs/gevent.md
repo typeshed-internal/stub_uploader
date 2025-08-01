@@ -1,3 +1,10 @@
+## 25.4.0.20250801 (2025-08-01)
+
+Split `tool.stubtest.platforms` metadata key (#13746)
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## 25.4.0.20250516 (2025-05-16)
 
 gevent: Remove remaining uses of `Incomplete` (#14072)

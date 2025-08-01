@@ -1,3 +1,10 @@
+## 1.17.0.20250801 (2025-08-01)
+
+Split `tool.stubtest.platforms` metadata key (#13746)
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## 1.17.0.20250523 (2025-05-23)
 
 Fix some of the typing for CFFI's out of line mode (#14090)

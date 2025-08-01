@@ -1,3 +1,10 @@
+## 0.13.2.20250801 (2025-08-01)
+
+Split `tool.stubtest.platforms` metadata key (#13746)
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## 0.13.2.20240310 (2024-03-10)
 
 Bump mypy to 1.9, add to json.encoder, small fixups (#11549)

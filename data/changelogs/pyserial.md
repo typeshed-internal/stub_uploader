@@ -1,3 +1,10 @@
+## 3.5.0.20250801 (2025-08-01)
+
+Split `tool.stubtest.platforms` metadata key (#13746)
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## 3.5.0.20250326 (2025-03-26)
 
 Add `__all__` (#13704)

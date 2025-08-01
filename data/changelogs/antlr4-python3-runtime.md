@@ -1,3 +1,10 @@
+## 4.13.0.20250801 (2025-08-01)
+
+Split `tool.stubtest.platforms` metadata key (#13746)
+
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## 4.13.0.20250613 (2025-06-13)
 
 [antlr4-python3-runtime] Remove `ignore_missing_stub` flag (#14270)
