@@ -1,3 +1,7 @@
+## 1.17.0.20250805 (2025-08-05)
+
+Make `FFI.buffer` implement buffer protocol, mark dunder methods as positional-only (#14505)
+
 ## 1.17.0.20250801 (2025-08-01)
 
 Split `tool.stubtest.platforms` metadata key (#13746)

@@ -1,3 +1,7 @@
+## 0.2.17.20250805 (2025-08-05)
+
+[pysftp] Pin `paramiko~=3.0` when running stubtest (#14526)
+
 ## 0.2.17.20241117 (2024-11-17)
 
 [pysftp] Logging attribute can be bool or str (#13018)
