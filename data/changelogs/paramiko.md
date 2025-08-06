@@ -1,3 +1,9 @@
+## 4.0.0.20250806 (2025-08-06)
+
+[paramiko] Update to 4.0.* (#14527)
+
+Closes: #14524
+
 ## 3.5.0.20250801 (2025-08-01)
 
 Split `tool.stubtest.platforms` metadata key (#13746)
