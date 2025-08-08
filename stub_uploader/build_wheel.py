@@ -115,6 +115,7 @@ directory.
 This package was tested with the following type checkers:
 * [mypy](https://github.com/python/mypy/) {ts_data.mypy_version}
 * [pyright](https://github.com/microsoft/pyright) {ts_data.pyright_version}
+
 It was generated from typeshed commit
 [`{commit}`](https://github.com/python/typeshed/commit/{commit}).
 """.strip()
