@@ -15,6 +15,7 @@ from stub_uploader.build_wheel import collect_package_data
 from stub_uploader.get_version import compute_stub_version, ensure_specificity
 from stub_uploader.metadata import Metadata, _UploadedPackages, strip_types_prefix
 from stub_uploader.ts_data import TypeshedData, parse_requirements, read_typeshed_data
+from stub_uploader.update_changelog import process_git_log
 
 
 def test_strip_types_prefix() -> None:
@@ -322,3 +323,25 @@ def test_upstream_repo_validation(data: dict[str, Any], expected: str | None) ->
     m = Metadata("foo", data)
     assert m.upstream_repository == expected
     assert type(m.upstream_repository) is type(expected)
+
+
+def test_process_git_log() -> None:
+    git_log = """
+commit 126768408a69b7a3a09b7d3992970b289f92937e
+
+    Replace `Incomplete | None = None` in third party stubs (#14063)
+
+commit 337fd828e819988af2d3600283d8068bbbab7f50
+
+    Bump setuptools to 80.7.* (#14069)
+"""
+    expected_entry = f"""\
+## 80.7.0.{TODAY_V} ({TODAY:%Y-%m-%d})
+
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+
+Bump setuptools to 80.7.* ([#14069](https://github.com/python/typeshed/pull/14069))
+
+"""
+    actual_entry = process_git_log(git_log, f"80.7.0.{TODAY_V}", TODAY)
+    assert actual_entry == expected_entry
