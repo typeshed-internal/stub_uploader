@@ -1,3 +1,7 @@
+## 0.13.2.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 0.13.2.20250728 (2025-07-28)
 
 Remove pytype workarounds from third-party stubs (#14471)

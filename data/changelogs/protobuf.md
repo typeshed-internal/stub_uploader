@@ -1,3 +1,9 @@
+## 6.30.2.20250809 (2025-08-09)
+
+Fix dunder-method positional-only parameter discrepancies in third-party stubs (#14529)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 6.30.2.20250703 (2025-07-03)
 
 Make Mapping.get(default) more constrained (#14360)

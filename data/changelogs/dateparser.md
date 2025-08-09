@@ -1,3 +1,7 @@
+## 1.2.2.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 1.2.2.20250627 (2025-06-27)
 
 [dateparser] Update to `~=1.2.2` (#14346)

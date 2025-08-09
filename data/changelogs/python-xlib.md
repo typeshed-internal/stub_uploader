@@ -1,3 +1,7 @@
+## 0.33.0.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 0.33.0.20250602 (2025-06-02)
 
 Update mypy to 1.16.0 (#14194)

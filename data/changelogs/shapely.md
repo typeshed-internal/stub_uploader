@@ -1,3 +1,7 @@
+## 2.1.0.20250809 (2025-08-09)
+
+Fix dunder-method positional-only parameter discrepancies in third-party stubs (#14529)
+
 ## 2.1.0.20250710 (2025-07-10)
 
 Fix shapely for 2.1 release (#14230)

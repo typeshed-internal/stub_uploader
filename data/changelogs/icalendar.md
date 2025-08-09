@@ -1,3 +1,7 @@
+## 6.3.1.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 6.3.1.20250521 (2025-05-21)
 
 [icalendar] Update to 6.3.1 (#14105)

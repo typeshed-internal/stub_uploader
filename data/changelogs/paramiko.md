@@ -1,3 +1,7 @@
+## 4.0.0.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 4.0.0.20250806 (2025-08-06)
 
 [paramiko] Update to 4.0.* (#14527)

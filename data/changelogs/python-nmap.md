@@ -1,3 +1,7 @@
+## 0.7.1.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 0.7.1.20240106 (2024-01-06)
 
 Update typing_extensions imports in third-party stubs (#11245)

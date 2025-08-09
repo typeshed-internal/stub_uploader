@@ -1,3 +1,9 @@
+## 1.3.0.20250809 (2025-08-09)
+
+Fix dunder-method positional-only parameter discrepancies in third-party stubs (#14529)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 1.3.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)

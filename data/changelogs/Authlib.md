@@ -1,3 +1,7 @@
+## 1.6.0.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 1.6.0.20250711 (2025-07-11)
 
 [Authlib] Mark as partial again (#14394)

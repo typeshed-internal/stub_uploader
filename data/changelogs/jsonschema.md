@@ -1,3 +1,7 @@
+## 4.25.0.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 4.25.0.20250720 (2025-07-20)
 
 [stubsabot] Bump jsonschema to 4.25.* (#14430)

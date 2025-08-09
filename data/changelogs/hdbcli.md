@@ -1,3 +1,7 @@
+## 2.25.0.20250809 (2025-08-09)
+
+Fix dunder-method positional-only parameter discrepancies in third-party stubs (#14529)
+
 ## 2.25.0.20250715 (2025-07-15)
 
 [hdbcli] Clarify `holdability` possible values (#14410)

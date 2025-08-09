@@ -1,3 +1,9 @@
+## 1.17.0.20250809 (2025-08-09)
+
+Fix dunder-method positional-only parameter discrepancies in third-party stubs (#14529)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 1.17.0.20250805 (2025-08-05)
 
 Make `FFI.buffer` implement buffer protocol, mark dunder methods as positional-only (#14505)

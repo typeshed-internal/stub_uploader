@@ -1,3 +1,7 @@
+## 2025.7.34.20250809 (2025-08-09)
+
+[stubsabot] Bump regex to 2025.7.34 (#14497)
+
 ## 2024.11.6.20250403 (2025-04-03)
 
 Remove Python 3.8 exclusive branches (#13772)

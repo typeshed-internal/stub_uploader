@@ -1,3 +1,7 @@
+## 1.1.1.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 1.1.1.20250708 (2025-07-08)
 
 Bump geopandas stubs to version 1.1.1 (#14244)

@@ -1,3 +1,7 @@
+## 2.18.0.20250809 (2025-08-09)
+
+tensorflow: Add Tensor.__array__ method. (#14342)
+
 ## 2.18.0.20250728 (2025-07-28)
 
 Remove pytype workarounds from third-party stubs (#14471)

@@ -1,3 +1,7 @@
+## 6.15.0.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 6.15.0.20250805 (2025-08-05)
 
 [pyinstaller] Update to 6.15.* (#14521)

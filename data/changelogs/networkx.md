@@ -1,3 +1,11 @@
+## 3.5.0.20250809 (2025-08-09)
+
+networkx: complete the components module (#14507)
+
+networkx: improve the shortest_paths.weighted module (#14508)
+
+Complete networkx/graph.pyi. #14499 (#14509)
+
 ## 3.5.0.20250728 (2025-07-28)
 
 Remove pytype workarounds from third-party stubs (#14471)

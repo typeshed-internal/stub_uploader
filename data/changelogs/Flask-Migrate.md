@@ -1,3 +1,7 @@
+## 4.1.0.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 4.1.0.20250112 (2025-01-12)
 
 [stubsabot] Bump Flask-Migrate to 4.1.* (#13392)

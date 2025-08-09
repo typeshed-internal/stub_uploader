@@ -1,3 +1,7 @@
+## 4.5.0.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 4.5.0.20250223 (2025-02-23)
 
 Bump zxcvbn to 4.5.* (#13521)

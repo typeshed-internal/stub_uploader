@@ -1,3 +1,7 @@
+## 2.8.3.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 2.8.3.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)

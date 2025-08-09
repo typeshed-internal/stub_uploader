@@ -1,3 +1,7 @@
+## 2.0.0.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 2.0.0.20250111 (2025-01-11)
 
 Officially drop Python 3.8 support (#13386)

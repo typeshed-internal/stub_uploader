@@ -1,3 +1,7 @@
+## 0.7.0.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 0.7.0.20250708 (2025-07-08)
 
 [defusedxml] Add missing stubs (#14265)

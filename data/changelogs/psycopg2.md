@@ -1,3 +1,9 @@
+## 2.9.21.20250809 (2025-08-09)
+
+Fix dunder-method positional-only parameter discrepancies in third-party stubs (#14529)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 2.9.21.20250718 (2025-07-18)
 
 psycopg2: Add types to RealDictCursor.execute (#14427)

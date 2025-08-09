@@ -1,3 +1,7 @@
+## 3.3.0.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 3.3.0.20250708 (2025-07-08)
 
 [oauthlib] Add missing stubs (#14301)

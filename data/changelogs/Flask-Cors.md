@@ -1,3 +1,7 @@
+## 6.0.0.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 6.0.0.20250520 (2025-05-20)
 
 Bump Flask-Cors to 6.0.* (#14097)

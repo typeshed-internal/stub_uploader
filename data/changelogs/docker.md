@@ -1,3 +1,7 @@
+## 7.1.0.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 7.1.0.20250705 (2025-07-05)
 
 [docker] load() accepts bytes streams (#14366)

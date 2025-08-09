@@ -1,3 +1,7 @@
+## 4.1.0.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 4.1.0.20250326 (2025-03-26)
 
 Add `__all__` (#13704)

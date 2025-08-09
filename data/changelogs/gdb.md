@@ -1,3 +1,9 @@
+## 15.0.0.20250809 (2025-08-09)
+
+Fix dunder-method positional-only parameter discrepancies in third-party stubs (#14529)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 15.0.0.20250801 (2025-08-01)
 
 Split `tool.stubtest.platforms` metadata key (#13746)

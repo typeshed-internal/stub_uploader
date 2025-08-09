@@ -1,3 +1,9 @@
+## 0.21.0.20250809 (2025-08-09)
+
+[docutils] Add return types for a few docutils table methods (#14493)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 0.21.0.20250728 (2025-07-28)
 
 [docutils] Add missing stubs (#14438)

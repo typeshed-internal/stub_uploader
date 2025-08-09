@@ -1,3 +1,7 @@
+## 1.5.0.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 1.5.0.20250307 (2025-03-07)
 
 [stubsabot] Bump fanstatic to 1.5.* (#13586)

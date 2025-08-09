@@ -1,3 +1,7 @@
+## 1.0.2.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 1.0.2.20250711 (2025-07-11)
 
 [jmespath] Remove from pyrightconfig (#14378)

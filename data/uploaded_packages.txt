@@ -75,6 +75,7 @@ types-decorator
 types-defusedxml
 types-dirhash
 types-dj-database-url
+types-django-filter
 types-django-import-export
 types-docker
 types-dockerfile-parse

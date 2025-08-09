@@ -1,3 +1,7 @@
+## 6.2.0.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 6.2.0.20250514 (2025-05-14)
 
 Fix regression in definition of `bleach.sanitizer._Filter` (#14041)

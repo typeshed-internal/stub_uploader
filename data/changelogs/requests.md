@@ -1,3 +1,7 @@
+## 2.32.4.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 2.32.4.20250611 (2025-06-11)
 
 [requests] Update to 2.32.4 (#14254)

@@ -1,3 +1,9 @@
+## 4.38.0.20250809 (2025-08-09)
+
+Fix dunder-method positional-only parameter discrepancies in third-party stubs (#14529)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 4.38.0.20250807 (2025-08-07)
 
 [braintree] Update to 4.38.* (#14534)

@@ -1,3 +1,7 @@
+## 3.2.0.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 3.2.0.20250417 (2025-04-17)
 
 [stubsabot] Bump greenlet to 3.2.* (#13836)

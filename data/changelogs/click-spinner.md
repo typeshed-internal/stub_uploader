@@ -1,3 +1,7 @@
+## 0.1.13.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 0.1.13.20250510 (2025-05-10)
 
 click-spinner: Replace `Any` return type (#13970)

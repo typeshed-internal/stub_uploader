@@ -1,3 +1,7 @@
+## 1.1.11.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 1.1.11.20250708 (2025-07-08)
 
 [html5lib] Minimal pyright fix for HTMLParser.__init__ (#14251)

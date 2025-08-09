@@ -1,3 +1,7 @@
+## 2.19.0.20250809 (2025-08-09)
+
+Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+
 ## 2.19.0.20250715 (2025-07-15)
 
 RawTokenFormatter always returns bytes (#14412)
