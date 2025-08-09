@@ -62,7 +62,8 @@ def update_changelog(
     if not log:
         print(f"{distribution}: Changelog unchanged")
         return
-    new_entry = process_git_log(log, version)
+    today = datetime.date.today()
+    new_entry = process_git_log(log, version, today)
 
     changelog = os.path.join(CHANGELOG_PATH, f"{distribution}.md")
     try:
@@ -84,8 +85,7 @@ def update_changelog(
         f.write(new_entry + old_entries)
 
 
-def process_git_log(log: str, version: str) -> str:
-    today = datetime.date.today()
+def process_git_log(log: str, version: str, today: datetime.date) -> str:
     entry = f"## {version} ({today:%Y-%m-%d})\n"
     for line in log.splitlines():
         if line.strip() == "":
@@ -96,6 +96,10 @@ def process_git_log(log: str, version: str) -> str:
         else:
             pass  # Ignore header entries.
     entry += "\n"
+    # Create hyperlinks for PR numbers.
+    entry = re.sub(
+        r"\(#(\d+)\)", r"([#\1](https://github.com/python/typeshed/pull/\1))", entry
+    )
     # Strip multiple empty lines.
     return re.sub("\n\n+", "\n\n", entry)
 
