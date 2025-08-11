@@ -334,6 +334,8 @@ commit 126768408a69b7a3a09b7d3992970b289f92937e
 commit 337fd828e819988af2d3600283d8068bbbab7f50
 
     Bump setuptools to 80.7.* (#14069)
+    
+    Body text #12345 python/typeshed#12345 https://example.com/#123
 """
     expected_entry = f"""\
 ## 80.7.0.{TODAY_V} ({TODAY:%Y-%m-%d})
@@ -341,6 +343,8 @@ commit 337fd828e819988af2d3600283d8068bbbab7f50
 Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
 Bump setuptools to 80.7.* ([#14069](https://github.com/python/typeshed/pull/14069))
+
+Body text #12345 python/typeshed#12345 https://example.com/#123
 
 """
     actual_entry = process_git_log(git_log, f"80.7.0.{TODAY_V}", TODAY)
