@@ -1,3 +1,13 @@
+## 3.5.0.20250812 (2025-08-12)
+
+networkx: annotate the linalg module ([#14551](https://github.com/python/typeshed/pull/14551))
+
+networkx: improve the multigraph module ([#14506](https://github.com/python/typeshed/pull/14506))
+
+networkx: complete the astar and generic modules in shortest_paths ([#14550](https://github.com/python/typeshed/pull/14550))
+
+networkx: improve the nx_agraph module ([#14554](https://github.com/python/typeshed/pull/14554))
+
 ## 3.5.0.20250809 (2025-08-09)
 
 networkx: complete the components module (#14507)

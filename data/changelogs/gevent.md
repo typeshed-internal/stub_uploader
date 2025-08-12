@@ -1,3 +1,7 @@
+## 25.4.0.20250812 (2025-08-12)
+
+gevent: Use a `TypeVarTuple` in `gevent.baseserver.BaseServer` ([#11138](https://github.com/python/typeshed/pull/11138))
+
 ## 25.4.0.20250809 (2025-08-09)
 
 Fix dunder-method positional-only parameter discrepancies in third-party stubs (#14529)

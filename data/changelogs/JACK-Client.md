@@ -1,3 +1,7 @@
+## 0.5.10.20250812 (2025-08-12)
+
+[JACK-Client] UUIDs are represented as ints ([#14559](https://github.com/python/typeshed/pull/14559))
+
 ## 0.5.10.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)

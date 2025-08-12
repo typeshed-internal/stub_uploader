@@ -1,3 +1,7 @@
+## 16.3.0.20250812 (2025-08-12)
+
+Update GDB stubs to 16.3 ([#13923](https://github.com/python/typeshed/pull/13923))
+
 ## 15.0.0.20250809 (2025-08-09)
 
 Fix dunder-method positional-only parameter discrepancies in third-party stubs (#14529)
