@@ -1,3 +1,7 @@
+## 2.8.4.20250813 (2025-08-13)
+
+[fpdf2] Update to 2.8.4 ([#14563](https://github.com/python/typeshed/pull/14563))
+
 ## 2.8.3.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
