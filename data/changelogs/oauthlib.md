@@ -1,3 +1,7 @@
+## 3.3.0.20250814 (2025-08-14)
+
+[oauthlib] Fix create_token_response() body argument type ([#14570](https://github.com/python/typeshed/pull/14570))
+
 ## 3.3.0.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)

@@ -1,3 +1,7 @@
+## 0.22.0.20250814 (2025-08-14)
+
+[docutils] Bump to 0.22.* ([#14500](https://github.com/python/typeshed/pull/14500))
+
 ## 0.21.0.20250809 (2025-08-09)
 
 [docutils] Add return types for a few docutils table methods (#14493)

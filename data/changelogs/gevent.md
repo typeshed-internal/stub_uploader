@@ -1,3 +1,7 @@
+## 25.4.0.20250814 (2025-08-14)
+
+Remove a superflous allowlist entry ([#14571](https://github.com/python/typeshed/pull/14571))
+
 ## 25.4.0.20250812 (2025-08-12)
 
 gevent: Use a `TypeVarTuple` in `gevent.baseserver.BaseServer` ([#11138](https://github.com/python/typeshed/pull/11138))
