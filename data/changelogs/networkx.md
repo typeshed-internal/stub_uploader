@@ -1,3 +1,7 @@
+## 3.5.0.20250816 (2025-08-16)
+
+complete  networkx/digraph.pyi addresses #14499 follows #14509 ([#14569](https://github.com/python/typeshed/pull/14569))
+
 ## 3.5.0.20250812 (2025-08-12)
 
 networkx: annotate the linalg module ([#14551](https://github.com/python/typeshed/pull/14551))
