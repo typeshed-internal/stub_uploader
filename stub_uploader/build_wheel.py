@@ -1,7 +1,7 @@
 """
 Basic script to generate a wheel for a third-party distribution in typeshed.
 
-This generates a PEP 561 types stub package using METADATA.toml file for a given
+This generates a stub package using METADATA.toml file for a given
 distribution in typeshed stubs. Such package can be used by type checkers
 to check code that uses the corresponding runtime Python package.
 
@@ -39,7 +39,7 @@ CHANGELOG = "CHANGELOG.md"
 SUFFIX = "-stubs"
 
 PARTIAL_STUBS_DESCRIPTION = """
-This stub package is marked as [partial](https://peps.python.org/pep-0561/#partial-stub-packages).
+This stub package is marked as [partial](https://typing.python.org/en/latest/spec/distributing.html#partial-stub-packages).
 If you find that annotations are missing, feel free to contribute and help complete them.
 """.lstrip()
 
@@ -97,8 +97,8 @@ package if you use this or a newer version.
 DESCRIPTION_INTRO_TEMPLATE = """
 ## Typing stubs for {distribution}
 
-This is a [PEP 561](https://peps.python.org/pep-0561/) type stub package for
-the {formatted_distribution} package. It can be used by type checkers
+This is a [type stub package](https://typing.python.org/en/latest/tutorials/external_libraries.html)
+for the {formatted_distribution} package. It can be used by type checkers
 to check code that uses `{distribution}`. This version of
 `{stub_distribution}` aims to provide accurate annotations for
 `{distribution}{typeshed_version_spec}`.
@@ -240,7 +240,7 @@ def find_stub_files(top: str) -> list[str]:
 def copy_stubs(base_dir: Path, dst: Path) -> None:
     """Copy stubs for given distribution to the build directory.
 
-    For packages change name by appending "-stubs" suffix (PEP 561),
+    For packages change name by appending "-stubs" suffix (per the typing spec),
     also convert modules to trivial packages with a single __init__.pyi.
     """
     for entry in base_dir.iterdir():
