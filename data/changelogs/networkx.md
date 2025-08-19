@@ -1,3 +1,9 @@
+## 3.5.0.20250819 (2025-08-19)
+
+networkx: complete the layout module ([#14580](https://github.com/python/typeshed/pull/14580))
+
+networkx: (almost) complete the nx_pylab module ([#14579](https://github.com/python/typeshed/pull/14579))
+
 ## 3.5.0.20250816 (2025-08-16)
 
 complete  networkx/digraph.pyi addresses #14499 follows #14509 ([#14569](https://github.com/python/typeshed/pull/14569))

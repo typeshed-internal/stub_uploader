@@ -1,3 +1,7 @@
+## 3.0.0.20250819 (2025-08-19)
+
+[flake8-builtins] Update to 3.0.* ([#14587](https://github.com/python/typeshed/pull/14587))
+
 ## 2.5.0.20250415 (2025-04-15)
 
 Complete `flake8-builtins` (#13824)
