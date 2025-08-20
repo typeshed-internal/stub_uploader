@@ -1,3 +1,7 @@
+## 1.8.0.20250820 (2025-08-20)
+
+Loosen `Mapping.update()` overloads a little ([#14593](https://github.com/python/typeshed/pull/14593))
+
 ## 1.8.0.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
