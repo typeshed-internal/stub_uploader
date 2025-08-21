@@ -1,3 +1,7 @@
+## 4.25.1.20250821 (2025-08-21)
+
+Update jsonschema stubs to track latest changes ([#14591](https://github.com/python/typeshed/pull/14591))
+
 ## 4.25.0.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)

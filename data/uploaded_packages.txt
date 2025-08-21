@@ -60,6 +60,7 @@ types-chevron
 types-click
 types-click-default-group
 types-click-log
+types-click-shell
 types-click-spinner
 types-click-web
 types-colorama

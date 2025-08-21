@@ -1,3 +1,7 @@
+## 4.0.0.20250821 (2025-08-21)
+
+[paramiko] Fix keepalive parameter type from int to float ([#14596](https://github.com/python/typeshed/pull/14596))
+
 ## 4.0.0.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)

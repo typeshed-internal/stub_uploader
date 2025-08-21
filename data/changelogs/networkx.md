@@ -1,3 +1,13 @@
+## 3.5.0.20250821 (2025-08-21)
+
+networkx Final and Literal from python-type-stubs ([#14601](https://github.com/python/typeshed/pull/14601))
+
+Correct type annotations on NetworkX DiGraphs ([#14595](https://github.com/python/typeshed/pull/14595))
+
+Add detailed stubs for networkx.drawing.nx_pydot ([#14594](https://github.com/python/typeshed/pull/14594))
+
+networkx: complete the nx_latex module ([#14581](https://github.com/python/typeshed/pull/14581))
+
 ## 3.5.0.20250819 (2025-08-19)
 
 networkx: complete the layout module ([#14580](https://github.com/python/typeshed/pull/14580))
