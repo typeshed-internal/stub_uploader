@@ -1,3 +1,7 @@
+## 4.0.0.20250822 (2025-08-22)
+
+Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+
 ## 4.0.0.20250821 (2025-08-21)
 
 [paramiko] Fix keepalive parameter type from int to float ([#14596](https://github.com/python/typeshed/pull/14596))

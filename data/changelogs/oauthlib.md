@@ -1,3 +1,7 @@
+## 3.3.0.20250822 (2025-08-22)
+
+Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+
 ## 3.3.0.20250814 (2025-08-14)
 
 [oauthlib] Fix create_token_response() body argument type ([#14570](https://github.com/python/typeshed/pull/14570))

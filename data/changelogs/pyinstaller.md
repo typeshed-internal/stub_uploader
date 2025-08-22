@@ -1,3 +1,7 @@
+## 6.15.0.20250822 (2025-08-22)
+
+Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+
 ## 6.15.0.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)

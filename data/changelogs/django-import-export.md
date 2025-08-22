@@ -1,3 +1,7 @@
+## 4.3.0.20250822 (2025-08-22)
+
+Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+
 ## 4.3.0.20250728 (2025-07-28)
 
 Remove pytype workarounds from third-party stubs (#14471)

@@ -1,3 +1,7 @@
+## 4.10.0.20250822 (2025-08-22)
+
+Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+
 ## 4.10.0.20250708 (2025-07-08)
 
 [auth0-python] Bump to 4.10.* (#14261)

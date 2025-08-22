@@ -1,3 +1,7 @@
+## 2.8.4.20250822 (2025-08-22)
+
+Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+
 ## 2.8.4.20250813 (2025-08-13)
 
 [fpdf2] Update to 2.8.4 ([#14563](https://github.com/python/typeshed/pull/14563))

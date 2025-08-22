@@ -1,3 +1,7 @@
+## 3.20.0.20250822 (2025-08-22)
+
+Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+
 ## 3.20.0.20250326 (2025-03-26)
 
 Add `__all__` (#13704)

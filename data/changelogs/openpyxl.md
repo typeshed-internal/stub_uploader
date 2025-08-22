@@ -1,3 +1,9 @@
+## 3.1.5.20250822 (2025-08-22)
+
+Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+
+Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+
 ## 3.1.5.20250821 (2025-08-21)
 
 Upgrade to mypy 1.17.1 ([#14598](https://github.com/python/typeshed/pull/14598))

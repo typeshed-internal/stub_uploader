@@ -1,3 +1,7 @@
+## 5.10.0.20250822 (2025-08-22)
+
+[ujson] Mark as obsolete since 5.11.0 ([#14607](https://github.com/python/typeshed/pull/14607))
+
 ## 5.10.0.20250326 (2025-03-26)
 
 Improve `ujson` (#13700)

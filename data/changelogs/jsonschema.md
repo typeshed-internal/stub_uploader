@@ -1,3 +1,7 @@
+## 4.25.1.20250822 (2025-08-22)
+
+Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+
 ## 4.25.1.20250821 (2025-08-21)
 
 Update jsonschema stubs to track latest changes ([#14591](https://github.com/python/typeshed/pull/14591))

@@ -1,3 +1,7 @@
+## 1.3.0.20250822 (2025-08-22)
+
+Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+
 ## 1.3.0.20240530 (2024-05-30)
 
 Bump netaddr to version 1.3 (#12057)

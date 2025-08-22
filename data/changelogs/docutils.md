@@ -1,3 +1,9 @@
+## 0.22.0.20250822 (2025-08-22)
+
+Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+
+Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+
 ## 0.22.0.20250814 (2025-08-14)
 
 [docutils] Bump to 0.22.* ([#14500](https://github.com/python/typeshed/pull/14500))

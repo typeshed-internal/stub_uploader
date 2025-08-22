@@ -1,3 +1,9 @@
+## 1.8.0.20250822 (2025-08-22)
+
+Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+
+Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+
 ## 1.8.0.20250820 (2025-08-20)
 
 Loosen `Mapping.update()` overloads a little ([#14593](https://github.com/python/typeshed/pull/14593))

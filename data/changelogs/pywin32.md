@@ -1,3 +1,7 @@
+## 311.0.0.20250822 (2025-08-22)
+
+Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+
 ## 311.0.0.20250809 (2025-08-09)
 
 Fix dunder-method positional-only parameter discrepancies in third-party stubs (#14529)

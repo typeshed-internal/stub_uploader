@@ -1,3 +1,7 @@
+## 2.5.0.20250822 (2025-08-22)
+
+Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+
 ## 2.5.0.20250821 (2025-08-21)
 
 [lupa] Improve Lua table annotations ([#14359](https://github.com/python/typeshed/pull/14359))
