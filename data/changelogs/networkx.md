@@ -1,3 +1,11 @@
+## 3.5.0.20250823 (2025-08-23)
+
+fix up some C signatures ([#14624](https://github.com/python/typeshed/pull/14624))
+
+a few issues exposed after https://github.com/python/mypy/pull/18259 was merged
+
+networkx: fix and complete functions related to the dot interface ([#14600](https://github.com/python/typeshed/pull/14600))
+
 ## 3.5.0.20250822 (2025-08-22)
 
 Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
