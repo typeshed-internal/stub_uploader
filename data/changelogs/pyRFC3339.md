@@ -1,3 +1,7 @@
+## 2.0.1.20250825 (2025-08-25)
+
+[stubsabot] Mark pyRFC3339 as obsolete since 2.1.0 ([#14633](https://github.com/python/typeshed/pull/14633))
+
 ## 2.0.1.20241107 (2024-11-07)
 
 Update pyRFC3339 to 2.0.1 (#12960)

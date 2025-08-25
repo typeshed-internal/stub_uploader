@@ -1,3 +1,7 @@
+## 1.6.2.20250825 (2025-08-25)
+
+[Authlib] Update to 1.6.2 ([#14635](https://github.com/python/typeshed/pull/14635))
+
 ## 1.6.0.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
