@@ -1,3 +1,9 @@
+## 3.5.0.20250827 (2025-08-27)
+
+networkx: complete the link_analysis algorithms module ([#14627](https://github.com/python/typeshed/pull/14627))
+
+networkx: (almost) complete the traversal algorithms module ([#14628](https://github.com/python/typeshed/pull/14628))
+
 ## 3.5.0.20250823 (2025-08-23)
 
 fix up some C signatures ([#14624](https://github.com/python/typeshed/pull/14624))

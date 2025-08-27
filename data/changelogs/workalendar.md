@@ -1,3 +1,7 @@
+## 17.0.0.20250827 (2025-08-27)
+
+[workalendar] Improve stubs ([#14639](https://github.com/python/typeshed/pull/14639))
+
 ## 17.0.0.20250602 (2025-06-02)
 
 Update mypy to 1.16.0 (#14194)

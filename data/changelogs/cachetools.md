@@ -1,3 +1,7 @@
+## 6.2.0.20250827 (2025-08-27)
+
+[cachetools] Update to 6.2.* ([#14644](https://github.com/python/typeshed/pull/14644))
+
 ## 6.1.0.20250717 (2025-07-17)
 
 [stubsabot] Bump cachetools to 6.1.* (#14291)

@@ -67,6 +67,7 @@ types-colorama
 types-commonmark
 types-console-menu
 types-contextvars
+types-convertdate
 types-corus
 types-croniter
 types-cryptography
@@ -186,6 +187,7 @@ types-pyflakes
 types-pygit2
 types-pyinstaller
 types-pyjks
+types-pyluach
 types-pymssql
 types-pynput
 types-pyperclip
