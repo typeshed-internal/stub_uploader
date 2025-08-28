@@ -16,8 +16,10 @@ types-MarkupSafe
 types-Pillow
 types-PyAutoGUI
 types-PyJWT
+types-PyMeeus
 types-PyMySQL
 types-PyScreeze
+types-PySocks
 types-PyYAML
 types-Pygments
 types-RPi.GPIO
@@ -137,6 +139,7 @@ types-kazoo
 types-keyboard
 types-ldap3
 types-libsass
+types-lunardate
 types-lupa
 types-lzstring
 types-m3u8
