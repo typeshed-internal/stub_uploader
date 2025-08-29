@@ -1,3 +1,7 @@
+## 2025.8.27.20250829 (2025-08-29)
+
+[stubsabot] Bump yt-dlp to 2025.8.27 ([#14654](https://github.com/python/typeshed/pull/14654))
+
 ## 2025.8.22.20250824 (2025-08-24)
 
 [stubsabot] Bump yt-dlp to 2025.8.22 ([#14629](https://github.com/python/typeshed/pull/14629))

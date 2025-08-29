@@ -1,3 +1,9 @@
+## 3.5.0.20250829 (2025-08-29)
+
+networkx: Add all_simple_path target typing in simple_paths.pyi ([#14656](https://github.com/python/typeshed/pull/14656))
+
+Adds typing for the target argument of all_simple_paths and all_simple_edge_paths, which per the documentation take either a single node or an iterable of nodes.
+
 ## 3.5.0.20250827 (2025-08-27)
 
 networkx: complete the link_analysis algorithms module ([#14627](https://github.com/python/typeshed/pull/14627))

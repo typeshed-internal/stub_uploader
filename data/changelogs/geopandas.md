@@ -1,3 +1,7 @@
+## 1.1.1.20250829 (2025-08-29)
+
+[geopandas] Some @final methods are overridden ([#14657](https://github.com/python/typeshed/pull/14657))
+
 ## 1.1.1.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
