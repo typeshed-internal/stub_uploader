@@ -1,3 +1,7 @@
+## 3.5.0.20250830 (2025-08-30)
+
+networkx: Add return types to algorithms/approximation/clique.pyi ([#14660](https://github.com/python/typeshed/pull/14660))
+
 ## 3.5.0.20250829 (2025-08-29)
 
 networkx: Add all_simple_path target typing in simple_paths.pyi ([#14656](https://github.com/python/typeshed/pull/14656))
