@@ -1,3 +1,7 @@
+## 0.30.0.20250831 (2025-08-31)
+
+[httplib2] Update to 0.30.* ([#14665](https://github.com/python/typeshed/pull/14665))
+
 ## 0.22.0.20250622 (2025-06-22)
 
 [httplib2] Improve stubs (#14249)
