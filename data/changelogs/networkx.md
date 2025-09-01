@@ -1,3 +1,9 @@
+## 3.5.0.20250901 (2025-09-01)
+
+networkx: Fix incompletes in connectivity/connectivity ([#14661](https://github.com/python/typeshed/pull/14661))
+
+networkx: Update approximation/connectivity.pyi ([#14662](https://github.com/python/typeshed/pull/14662))
+
 ## 3.5.0.20250830 (2025-08-30)
 
 networkx: Add return types to algorithms/approximation/clique.pyi ([#14660](https://github.com/python/typeshed/pull/14660))
