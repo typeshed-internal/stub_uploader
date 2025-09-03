@@ -1,3 +1,25 @@
+## 2025.9.1.20250903 (2025-09-03)
+
+[stubsabot] Bump regex to 2025.9.1 ([#14668](https://github.com/python/typeshed/pull/14668))
+
+Release: https://pypi.org/pypi/regex/2025.9.1
+Homepage: https://github.com/mrabarnett/mrab-regex
+Repository: https://github.com/mrabarnett/mrab-regex
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex
+Diff: https://github.com/mrabarnett/mrab-regex/compare/2025.8.29...2025.9.1
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 9.
+ - Total lines of Python code deleted: 4.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 2025.8.29.20250831 (2025-08-31)
 
 [stubsabot] Bump regex to 2025.8.29 ([#14663](https://github.com/python/typeshed/pull/14663))
