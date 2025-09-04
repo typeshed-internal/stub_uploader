@@ -219,6 +219,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "Werkzeug",
     "arrow",
     "asgiref",
+    "beautifulsoup4",
     "click",
     "cryptography",
     "django-stubs",
