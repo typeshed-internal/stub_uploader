@@ -1,3 +1,7 @@
+## 3.9.0.20250906 (2025-09-06)
+
+[Markdown] Update to 3.9.* ([#14676](https://github.com/python/typeshed/pull/14676))
+
 ## 3.8.0.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
