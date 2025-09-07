@@ -1,3 +1,7 @@
+## 7.1.0.20250907 (2025-09-07)
+
+[docker] Add default value for `detach` parameter of `ContainerCollection.create` ([#14666](https://github.com/python/typeshed/pull/14666))
+
 ## 7.1.0.20250822 (2025-08-22)
 
 Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))

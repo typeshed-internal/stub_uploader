@@ -1,3 +1,7 @@
+## 0.15.0.20250907 (2025-09-07)
+
+[stubsabot] Bump xmltodict to 0.15.* ([#14679](https://github.com/python/typeshed/pull/14679))
+
 ## 0.14.0.20241009 (2024-10-09)
 
 [stubsabot] Bump xmltodict to 0.14.* (#12757)
