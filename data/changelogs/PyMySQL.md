@@ -1,3 +1,9 @@
+## 1.1.0.20250909 (2025-09-09)
+
+[PyMySQL] Add stub for `SSCursor.read_next` ([#14670](https://github.com/python/typeshed/pull/14670))
+
+[PyMySQL] Improve `Connection.__init__` overloads & add missing types ([#14684](https://github.com/python/typeshed/pull/14684))
+
 ## 1.1.0.20250822 (2025-08-22)
 
 Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
