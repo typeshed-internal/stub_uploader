@@ -1,3 +1,7 @@
+## 2.32.4.20250913 (2025-09-13)
+
+[requests] Allow "connect" timeout to be `None` in timeout configuration tuple ([#14700](https://github.com/python/typeshed/pull/14700))
+
 ## 2.32.4.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
