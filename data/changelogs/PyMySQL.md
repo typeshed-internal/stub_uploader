@@ -1,3 +1,7 @@
+## 1.1.0.20250914 (2025-09-14)
+
+Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
+
 ## 1.1.0.20250909 (2025-09-09)
 
 [PyMySQL] Add stub for `SSCursor.read_next` ([#14670](https://github.com/python/typeshed/pull/14670))

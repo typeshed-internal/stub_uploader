@@ -1,3 +1,7 @@
+## 25.1.0.20250914 (2025-09-14)
+
+Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
+
 ## 25.1.0.20250815 (2025-08-15)
 
 [django-filter] Improve constructor param types and add missing re-exports ([#14556](https://github.com/python/typeshed/pull/14556))

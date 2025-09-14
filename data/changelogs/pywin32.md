@@ -1,3 +1,7 @@
+## 311.0.0.20250914 (2025-09-14)
+
+Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
+
 ## 311.0.0.20250822 (2025-08-22)
 
 Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))

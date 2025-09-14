@@ -1,3 +1,7 @@
+## 1.0.0.20250914 (2025-09-14)
+
+Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
+
 ## 1.0.0.20250703 (2025-07-03)
 
 Make Mapping.get(default) more constrained (#14360)

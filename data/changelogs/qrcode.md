@@ -1,3 +1,7 @@
+## 8.2.0.20250914 (2025-09-14)
+
+Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
+
 ## 8.2.0.20250506 (2025-05-06)
 
 Bump qrcode to 8.2.* (#13918)
