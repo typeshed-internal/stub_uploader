@@ -1,3 +1,7 @@
+## 2.9.21.20250915 (2025-09-15)
+
+Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
+
 ## 2.9.21.20250809 (2025-08-09)
 
 Fix dunder-method positional-only parameter discrepancies in third-party stubs (#14529)

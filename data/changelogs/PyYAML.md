@@ -1,3 +1,7 @@
+## 6.0.12.20250915 (2025-09-15)
+
+Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
+
 ## 6.0.12.20250822 (2025-08-22)
 
 Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))

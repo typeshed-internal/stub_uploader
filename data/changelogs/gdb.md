@@ -1,3 +1,7 @@
+## 16.3.0.20250915 (2025-09-15)
+
+Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
+
 ## 16.3.0.20250812 (2025-08-12)
 
 Update GDB stubs to 16.3 ([#13923](https://github.com/python/typeshed/pull/13923))

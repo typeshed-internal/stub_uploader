@@ -1,3 +1,7 @@
+## 2.2.0.20250915 (2025-09-15)
+
+Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
+
 ## 2.2.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)

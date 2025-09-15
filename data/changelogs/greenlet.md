@@ -1,3 +1,7 @@
+## 3.2.0.20250915 (2025-09-15)
+
+Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
+
 ## 3.2.0.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
