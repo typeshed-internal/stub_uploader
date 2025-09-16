@@ -1,3 +1,7 @@
+## 1.1.0.20250916 (2025-09-16)
+
+[PyMySQL] Fix stubs for `pymysql.connections.Connection.__init__` ([#14724](https://github.com/python/typeshed/pull/14724))
+
 ## 1.1.0.20250914 (2025-09-14)
 
 Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))

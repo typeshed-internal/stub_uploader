@@ -1,3 +1,7 @@
+## 4.9.0.20250916 (2025-09-16)
+
+[pexpect] SpawnBase.delayafterread is allowed to be None ([#14728](https://github.com/python/typeshed/pull/14728))
+
 ## 4.9.0.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)

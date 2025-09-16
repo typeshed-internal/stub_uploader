@@ -1,3 +1,10 @@
+## 7.1.0.20250916 (2025-09-16)
+
+Fix docker mount source type ([#14726](https://github.com/python/typeshed/pull/14726))
+
+The source of a mount can be None e.g. if the type is tmpfs.
+The parse_mount_string also sets source=None in some cases
+
 ## 7.1.0.20250907 (2025-09-07)
 
 [docker] Add default value for `detach` parameter of `ContainerCollection.create` ([#14666](https://github.com/python/typeshed/pull/14666))
