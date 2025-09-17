@@ -1,3 +1,7 @@
+## 1.1.11.20250917 (2025-09-17)
+
+[html5lib] Add annotations for impliedTagToken function ([#14709](https://github.com/python/typeshed/pull/14709))
+
 ## 1.1.11.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)

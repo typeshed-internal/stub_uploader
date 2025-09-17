@@ -1,3 +1,7 @@
+## 2.1.0.20250917 (2025-09-17)
+
+shapely: fix array dtype in geometry functions return type ([#14730](https://github.com/python/typeshed/pull/14730))
+
 ## 2.1.0.20250915 (2025-09-15)
 
 Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
