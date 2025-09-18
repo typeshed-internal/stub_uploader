@@ -1,3 +1,7 @@
+## 3.5.0.20250918 (2025-09-18)
+
+Fix regression in DiDegreeView ([#14732](https://github.com/python/typeshed/pull/14732))
+
 ## 3.5.0.20250914 (2025-09-14)
 
 Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))

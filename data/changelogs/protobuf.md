@@ -1,3 +1,9 @@
+## 6.32.1.20250918 (2025-09-18)
+
+Add `is_required` / `is_repeated` properties to `FieldDescriptor` ([#14703](https://github.com/python/typeshed/pull/14703))
+
+Update protobuf to ~=6.32.1 ([#14707](https://github.com/python/typeshed/pull/14707))
+
 ## 6.30.2.20250914 (2025-09-14)
 
 Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
