@@ -1,3 +1,7 @@
+## 1.6.4.20250919 (2025-09-19)
+
+[Authlib] Update to 1.6.4 ([#14736](https://github.com/python/typeshed/pull/14736))
+
 ## 1.6.2.20250914 (2025-09-14)
 
 Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))

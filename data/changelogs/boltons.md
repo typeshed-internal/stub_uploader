@@ -1,3 +1,7 @@
+## 25.0.0.20250919 (2025-09-19)
+
+Fix type of data return by `boltons.strutils.int_ranges_from_int_list` ([#14740](https://github.com/python/typeshed/pull/14740))
+
 ## 25.0.0.20250822 (2025-08-22)
 
 Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))

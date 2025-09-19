@@ -1,3 +1,9 @@
+## 3.5.0.20250919 (2025-09-19)
+
+[serial] Update stubtest comment ([#14739](https://github.com/python/typeshed/pull/14739))
+
+Cf. #14718
+
 ## 3.5.0.20250914 (2025-09-14)
 
 Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))

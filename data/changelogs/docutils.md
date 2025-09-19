@@ -1,3 +1,7 @@
+## 0.22.0.20250919 (2025-09-19)
+
+[docutils] Extend applicable types to _ContentModelCategory ([#14719](https://github.com/python/typeshed/pull/14719))
+
 ## 0.22.0.20250914 (2025-09-14)
 
 Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
