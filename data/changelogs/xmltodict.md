@@ -1,3 +1,9 @@
+## 1.0.1.20250920 (2025-09-20)
+
+[xmltodict] stub improvements and update to 1.0.1 ([#14695](https://github.com/python/typeshed/pull/14695))
+
+[xmltodict] Update to 1.0.* ([#14712](https://github.com/python/typeshed/pull/14712))
+
 ## 0.15.0.20250907 (2025-09-07)
 
 [stubsabot] Bump xmltodict to 0.15.* ([#14679](https://github.com/python/typeshed/pull/14679))

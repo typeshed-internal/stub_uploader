@@ -1,3 +1,7 @@
+## 1.6.4.20250920 (2025-09-20)
+
+Added annotation for fetch_request_token of OAuth1Client class ([#14711](https://github.com/python/typeshed/pull/14711))
+
 ## 1.6.4.20250919 (2025-09-19)
 
 [Authlib] Update to 1.6.4 ([#14736](https://github.com/python/typeshed/pull/14736))

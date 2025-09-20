@@ -1,3 +1,14 @@
+## 16.3.0.20250920 (2025-09-20)
+
+[gdb] Update ThreadExitedEvent parent class for 17.0 ([#14729](https://github.com/python/typeshed/pull/14729)) ([#14744](https://github.com/python/typeshed/pull/14744))
+
+Even though the parent thread for `ThreadExitedEvent` won't change from
+`Event` to `ThreadEvent` until 17.0 is released, this actually makes
+type checking work better in practice for all released versions that
+support `ThreadExitedEvent` because at run time `ThreadExitedEvent` has
+the lone attribute, `inferior_thread`, that it would have inherited from
+`ThreadEvent`.
+
 ## 16.3.0.20250915 (2025-09-15)
 
 Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
