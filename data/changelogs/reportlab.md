@@ -1,3 +1,7 @@
+## 4.4.4.20250923 (2025-09-23)
+
+[reportlab] Update to 4.4.4 ([#14762](https://github.com/python/typeshed/pull/14762))
+
 ## 4.4.1.20250914 (2025-09-14)
 
 Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))

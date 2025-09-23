@@ -117,6 +117,7 @@ types-grpcio-channelz
 types-grpcio-health-checking
 types-grpcio-reflection
 types-grpcio-status
+types-gunicorn
 types-hdbcli
 types-hnswlib
 types-html5lib

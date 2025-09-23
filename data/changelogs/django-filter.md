@@ -1,3 +1,7 @@
+## 25.1.0.20250923 (2025-09-23)
+
+[django-filter] Improve stubtest comment ([#14738](https://github.com/python/typeshed/pull/14738))
+
 ## 25.1.0.20250914 (2025-09-14)
 
 Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
