@@ -1,3 +1,7 @@
+## 0.22.2.20250924 (2025-09-24)
+
+[stubsabot] Bump docutils to 0.22.2 ([#14765](https://github.com/python/typeshed/pull/14765))
+
 ## 0.22.1.20250923 (2025-09-23)
 
 [docutils] Update to 0.22.1 ([#14737](https://github.com/python/typeshed/pull/14737))

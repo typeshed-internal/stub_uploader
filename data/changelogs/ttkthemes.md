@@ -1,3 +1,7 @@
+## 3.2.4.20250924 (2025-09-24)
+
+[tkinter] Remove a few type aliases ([#14742](https://github.com/python/typeshed/pull/14742))
+
 ## 3.2.4.20250426 (2025-04-26)
 
 Complete `ttkthemes` (#13858)
