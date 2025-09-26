@@ -1,3 +1,7 @@
+## 7.45.7.20250926 (2025-09-26)
+
+[pycurl] Update to 7.45.7 ([#14781](https://github.com/python/typeshed/pull/14781))
+
 ## 7.45.6.20250801 (2025-08-01)
 
 Split `tool.stubtest.platforms` metadata key (#13746)
