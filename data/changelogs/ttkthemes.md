@@ -1,3 +1,9 @@
+## 3.2.4.20250927 (2025-09-27)
+
+[tkinter] Remove _ScreenUnits alias ([#14782](https://github.com/python/typeshed/pull/14782))
+
+Inspired by https://github.com/python/typeshed/pull/14742#pullrequestreview-3241268005
+
 ## 3.2.4.20250924 (2025-09-24)
 
 [tkinter] Remove a few type aliases ([#14742](https://github.com/python/typeshed/pull/14742))
