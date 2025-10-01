@@ -1,3 +1,7 @@
+## 1.0.0.20251001 (2025-10-01)
+
+[grpcio] ServerInterceptor and GenericRpcHandler should not be generic ([#14785](https://github.com/python/typeshed/pull/14785))
+
 ## 1.0.0.20250914 (2025-09-14)
 
 Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))

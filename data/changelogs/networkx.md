@@ -1,3 +1,7 @@
+## 3.5.0.20251001 (2025-10-01)
+
+networkx: Add type annotation to all `G` params ([#14796](https://github.com/python/typeshed/pull/14796))
+
 ## 3.5.0.20250918 (2025-09-18)
 
 Fix regression in DiDegreeView ([#14732](https://github.com/python/typeshed/pull/14732))

@@ -1,3 +1,7 @@
+## 3.5.0.20251001 (2025-10-01)
+
+pyserial: Update type yielded by grep from tuple to ListPortInfo ([#14807](https://github.com/python/typeshed/pull/14807))
+
 ## 3.5.0.20250919 (2025-09-19)
 
 [serial] Update stubtest comment ([#14739](https://github.com/python/typeshed/pull/14739))
