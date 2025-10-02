@@ -1,3 +1,7 @@
+## 2.1.11.20251002 (2025-10-02)
+
+Pin `Jetson.GPIO` to 2.1.11 ([#14814](https://github.com/python/typeshed/pull/14814))
+
 ## 2.1.11.20250827 (2025-08-27)
 
 [Jetson.GPIO] Update to ~=2.1.11 ([#14647](https://github.com/python/typeshed/pull/14647))
