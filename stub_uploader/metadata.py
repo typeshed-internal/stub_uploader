@@ -376,9 +376,9 @@ def runtime_in_upstream_requires(req: Requirement, data: dict[str, Any]) -> bool
     runtime_req_canonical_name = canonical_name(runtime_req_name)
 
     requires_dist = data["info"].get("requires_dist") or []
-    return runtime_req_canonical_name in [
+    return runtime_req_canonical_name in {
         canonical_name(Requirement(r).name) for r in requires_dist
-    ]
+    }
 
 
 def runtime_in_upstream_sdist_requires(req: Requirement, data: dict[str, Any]) -> bool:
@@ -397,9 +397,9 @@ def runtime_in_upstream_sdist_requires(req: Requirement, data: dict[str, Any]) -
     )
     if sdist_data is None:
         return False
-    return runtime_req_canonical_name in [
+    return runtime_req_canonical_name in {
         canonical_name(r.name) for r in extract_sdist_requires(sdist_data, req)
-    ]
+    }
 
 
 def sort_by_dependency(
