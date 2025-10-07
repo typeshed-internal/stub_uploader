@@ -1,3 +1,7 @@
+## 25.2.0.20251007 (2025-10-07)
+
+[stubsabot] Bump django-filter to 25.2.* ([#14836](https://github.com/python/typeshed/pull/14836))
+
 ## 25.1.0.20250923 (2025-09-23)
 
 [django-filter] Improve stubtest comment ([#14738](https://github.com/python/typeshed/pull/14738))
