@@ -262,6 +262,7 @@ types-workalendar
 types-wurlitzer
 types-xdgenvpy
 types-xlrd
+types-xmldiff
 types-xmltodict
 types-xxhash
 types-yt-dlp

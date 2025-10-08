@@ -1,3 +1,28 @@
+## 0.4.0.20251008 (2025-10-08)
+
+[stubsabot] Bump flake8-rst-docstrings to 0.4.* ([#14843](https://github.com/python/typeshed/pull/14843))
+
+Release: https://pypi.org/pypi/flake8-rst-docstrings/0.4.0
+Homepage: https://github.com/peterjc/flake8-rst-docstrings
+Repository: https://github.com/peterjc/flake8-rst-docstrings
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-rst-docstrings
+Diff: https://github.com/peterjc/flake8-rst-docstrings/compare/v0.3.1...v0.4.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `flake8_rst_docstrings.py`.
+ - Total lines of Python code added: 32.
+ - Total lines of Python code deleted: 36.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 0.3.0.20250425 (2025-04-25)
 
 Mark `flake8-rst-docstrings` as complete (#13867)

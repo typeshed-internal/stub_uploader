@@ -1,3 +1,7 @@
+## 311.0.0.20251008 (2025-10-08)
+
+pywin32: fill in the type of win32.win32pipe.GetNamedPipeInfo ([#14846](https://github.com/python/typeshed/pull/14846))
+
 ## 311.0.0.20250915 (2025-09-15)
 
 Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))

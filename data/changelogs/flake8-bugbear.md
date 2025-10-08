@@ -1,3 +1,7 @@
+## 24.12.12.20251008 (2025-10-08)
+
+Stubtest: Ignore attrs-generated props ([#14845](https://github.com/python/typeshed/pull/14845))
+
 ## 24.12.12.20250416 (2025-04-16)
 
 Improve `flake8-bugbear` (#13829)
