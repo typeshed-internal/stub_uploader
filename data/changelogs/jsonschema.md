@@ -1,3 +1,7 @@
+## 4.25.1.20251009 (2025-10-09)
+
+[jsonschema] _Error.context cannot be None ([#14853](https://github.com/python/typeshed/pull/14853))
+
 ## 4.25.1.20251008 (2025-10-08)
 
 Stubtest: Ignore attrs-generated props ([#14845](https://github.com/python/typeshed/pull/14845))

@@ -260,6 +260,7 @@ types-watchpoints
 types-whatthepatch
 types-workalendar
 types-wurlitzer
+types-www-authenticate
 types-xdgenvpy
 types-xlrd
 types-xmldiff

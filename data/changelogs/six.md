@@ -1,3 +1,7 @@
+## 1.17.0.20251009 (2025-10-09)
+
+Update comments for `operator.itemgetter.__call__` generic following mypy 1.11 fix ([#13489](https://github.com/python/typeshed/pull/13489))
+
 ## 1.17.0.20250515 (2025-05-15)
 
 Bump `urllib.request` to 3.14 (#14062)

@@ -1,3 +1,7 @@
+## 7.1.0.20251009 (2025-10-09)
+
+[docker] Fix some incomplete types ([#14817](https://github.com/python/typeshed/pull/14817))
+
 ## 7.1.0.20250916 (2025-09-16)
 
 Fix docker mount source type ([#14726](https://github.com/python/typeshed/pull/14726))

@@ -1,3 +1,7 @@
+## 1.0.0.20251009 (2025-10-09)
+
+grpcio: improve client interceptors ([#14831](https://github.com/python/typeshed/pull/14831))
+
 ## 1.0.0.20251001 (2025-10-01)
 
 [grpcio] ServerInterceptor and GenericRpcHandler should not be generic ([#14785](https://github.com/python/typeshed/pull/14785))

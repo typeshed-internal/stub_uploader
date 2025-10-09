@@ -1,3 +1,7 @@
+## 2025.9.26.20251009 (2025-10-09)
+
+[yt-dlp] Check common code in extractor subpackage with stubtest ([#14682](https://github.com/python/typeshed/pull/14682))
+
 ## 2025.9.26.20250928 (2025-09-28)
 
 [stubsabot] Bump yt-dlp to 2025.9.26 ([#14798](https://github.com/python/typeshed/pull/14798))
