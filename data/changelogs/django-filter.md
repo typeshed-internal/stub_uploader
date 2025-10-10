@@ -1,3 +1,7 @@
+## 25.2.0.20251010 (2025-10-10)
+
+[django-filter] Broaden OrderingFilter fields parameter type ([#14856](https://github.com/python/typeshed/pull/14856))
+
 ## 25.2.0.20251007 (2025-10-07)
 
 [stubsabot] Bump django-filter to 25.2.* ([#14836](https://github.com/python/typeshed/pull/14836))
