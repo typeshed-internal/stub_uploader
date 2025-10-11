@@ -1,3 +1,7 @@
+## 1.17.0.20251011 (2025-10-11)
+
+[stubsabot] Bump flake8-typing-imports to 1.17.* ([#14857](https://github.com/python/typeshed/pull/14857))
+
 ## 1.16.0.20250708 (2025-07-08)
 
 [flake8-typing-imports] Complete stubs (#14262)
