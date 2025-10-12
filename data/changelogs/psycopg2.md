@@ -1,3 +1,7 @@
+## 2.9.21.20251012 (2025-10-12)
+
+[psycopg2] Update to 2.9.11 ([#14864](https://github.com/python/typeshed/pull/14864))
+
 ## 2.9.21.20250915 (2025-09-15)
 
 Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
