@@ -1,3 +1,7 @@
+## 1.1.11.20251014 (2025-10-14)
+
+[html5lib] Add annotations for several functions in htmll5parser.py ([#14859](https://github.com/python/typeshed/pull/14859))
+
 ## 1.1.11.20250917 (2025-09-17)
 
 [html5lib] Add annotations for impliedTagToken function ([#14709](https://github.com/python/typeshed/pull/14709))
