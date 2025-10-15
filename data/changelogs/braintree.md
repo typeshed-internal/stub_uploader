@@ -1,3 +1,7 @@
+## 4.39.0.20251015 (2025-10-15)
+
+[braintree] Update to 4.39 ([#14872](https://github.com/python/typeshed/pull/14872))
+
 ## 4.38.0.20250809 (2025-08-09)
 
 Fix dunder-method positional-only parameter discrepancies in third-party stubs (#14529)
