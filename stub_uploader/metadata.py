@@ -237,6 +237,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "tree-sitter",
     "urllib3",
     "websockets",
+    "wsproto",
 }
 
 # Map of external stub packages to their runtime equivalent.
