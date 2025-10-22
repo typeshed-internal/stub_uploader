@@ -1,3 +1,7 @@
+## 6.2.0.20251022 (2025-10-22)
+
+cachetools: precise typing for decorators and cached(); expose cache_info/cache_clear and fix keys signatures ([#14770](https://github.com/python/typeshed/pull/14770))
+
 ## 6.2.0.20250827 (2025-08-27)
 
 [cachetools] Update to 6.2.* ([#14644](https://github.com/python/typeshed/pull/14644))
