@@ -1,3 +1,7 @@
+## 25.10.21.20251024 (2025-10-24)
+
+[flake8-bugbear] Update to 25.10.21 ([#14912](https://github.com/python/typeshed/pull/14912))
+
 ## 24.12.12.20251008 (2025-10-08)
 
 Stubtest: Ignore attrs-generated props ([#14845](https://github.com/python/typeshed/pull/14845))
