@@ -1,3 +1,7 @@
+## 4.40.0.20251025 (2025-10-25)
+
+[braintree] Update to 4.40.* ([#14914](https://github.com/python/typeshed/pull/14914))
+
 ## 4.39.0.20251015 (2025-10-15)
 
 [braintree] Update to 4.39 ([#14872](https://github.com/python/typeshed/pull/14872))
