@@ -1,3 +1,20 @@
+## 2.6.0.20251026 (2025-10-26)
+
+[stubsabot] Bump lupa to 2.6.* ([#14919](https://github.com/python/typeshed/pull/14919))
+
+Release: https://pypi.org/pypi/lupa/2.6
+Homepage: https://github.com/scoder/lupa
+Repository: https://github.com/scoder/lupa
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/lupa
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 2.5.0.20250915 (2025-09-15)
 
 Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
