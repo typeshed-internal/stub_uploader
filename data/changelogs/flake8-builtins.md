@@ -1,3 +1,7 @@
+## 3.1.0.20251027 (2025-10-27)
+
+[stubsabot] Bump flake8-builtins to 3.1.* ([#14922](https://github.com/python/typeshed/pull/14922))
+
 ## 3.0.0.20250819 (2025-08-19)
 
 [flake8-builtins] Update to 3.0.* ([#14587](https://github.com/python/typeshed/pull/14587))

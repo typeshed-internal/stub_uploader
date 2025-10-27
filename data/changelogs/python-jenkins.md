@@ -1,3 +1,7 @@
+## 1.8.3.20251027 (2025-10-27)
+
+[python-jenkins] Improve `get_jobs` and `get_all_jobs` return type ([#14547](https://github.com/python/typeshed/pull/14547))
+
 ## 1.8.3.20250805 (2025-08-05)
 
 Bump python-jenkins to 1.8.3 (#14520)
