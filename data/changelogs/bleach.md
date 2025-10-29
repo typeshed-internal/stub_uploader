@@ -1,3 +1,7 @@
+## 6.3.0.20251029 (2025-10-29)
+
+[stubsabot] Bump bleach to 6.3.* ([#14932](https://github.com/python/typeshed/pull/14932))
+
 ## 6.2.0.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
