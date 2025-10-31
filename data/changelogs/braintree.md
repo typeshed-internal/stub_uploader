@@ -1,3 +1,13 @@
+## 4.40.0.20251031 (2025-10-31)
+
+Tighten the return type in braintree.PaymentMethod.find() ([#14916](https://github.com/python/typeshed/pull/14916))
+
+Annotate braintree's ClientToken and ClientTokenGateway ([#14926](https://github.com/python/typeshed/pull/14926))
+
+Annotate braintree's Address and AddressGateway classes ([#14927](https://github.com/python/typeshed/pull/14927))
+
+Annotate braintree's Subscription and Transaction methods ([#14917](https://github.com/python/typeshed/pull/14917))
+
 ## 4.40.0.20251025 (2025-10-25)
 
 [braintree] Update to 4.40.* ([#14914](https://github.com/python/typeshed/pull/14914))

@@ -1,3 +1,7 @@
+## 2.8.4.20251031 (2025-10-31)
+
+[fpdf2] Annotate drawing methods ([#14923](https://github.com/python/typeshed/pull/14923))
+
 ## 2.8.4.20250822 (2025-08-22)
 
 Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))

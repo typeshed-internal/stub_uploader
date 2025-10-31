@@ -1,3 +1,7 @@
+## 2025.10.22.20251031 (2025-10-31)
+
+[yt-dlp] Update to 2025.10.22 ([#14924](https://github.com/python/typeshed/pull/14924))
+
 ## 2025.9.26.20251009 (2025-10-09)
 
 [yt-dlp] Check common code in extractor subpackage with stubtest ([#14682](https://github.com/python/typeshed/pull/14682))
