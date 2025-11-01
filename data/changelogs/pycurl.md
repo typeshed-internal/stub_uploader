@@ -1,3 +1,7 @@
+## 7.45.7.20251101 (2025-11-01)
+
+Annotate pycurl's getinfo() and getinfo_raw() ([#14929](https://github.com/python/typeshed/pull/14929))
+
 ## 7.45.7.20250926 (2025-09-26)
 
 [pycurl] Update to 7.45.7 ([#14781](https://github.com/python/typeshed/pull/14781))

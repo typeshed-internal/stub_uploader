@@ -1,3 +1,7 @@
+## 5.2.0.20251101 (2025-11-01)
+
+[decorator] Fix FunctionMaker attributes ([#14909](https://github.com/python/typeshed/pull/14909))
+
 ## 5.2.0.20250324 (2025-03-24)
 
 Improve `decorator` (#13703)

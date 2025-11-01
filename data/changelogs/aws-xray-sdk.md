@@ -1,3 +1,7 @@
+## 2.15.0.20251101 (2025-11-01)
+
+[aws-xray-sdk] Update to 2.15.* ([#14955](https://github.com/python/typeshed/pull/14955))
+
 ## 2.14.0.20250708 (2025-07-08)
 
 [aws-xray-sdk] Improve stubs (#14277)

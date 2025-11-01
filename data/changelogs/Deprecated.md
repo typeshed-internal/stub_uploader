@@ -1,3 +1,7 @@
+## 1.3.1.20251101 (2025-11-01)
+
+[Deprecated] Update to ~=1.3.1 ([#14954](https://github.com/python/typeshed/pull/14954))
+
 ## 1.2.15.20250304 (2025-03-04)
 
 [Deprecated]: fix missing extra_stacklevel kwarg for deprecated() (#13573)
