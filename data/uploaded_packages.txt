@@ -228,6 +228,7 @@ types-seaborn
 types-selenium
 types-setuptools
 types-shapely
+types-simple-websocket
 types-simplejson
 types-singledispatch
 types-six

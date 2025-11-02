@@ -1,3 +1,7 @@
+## 25.9.0.20251102 (2025-11-02)
+
+[gevent]: Bump gevent to 25.9.* ([#14871](https://github.com/python/typeshed/pull/14871))
+
 ## 25.4.0.20250915 (2025-09-15)
 
 Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))

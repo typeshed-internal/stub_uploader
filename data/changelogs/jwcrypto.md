@@ -1,3 +1,15 @@
+## 1.5.0.20251102 (2025-11-02)
+
+[jwcrypto] Work around stubtest issues ([#14961](https://github.com/python/typeshed/pull/14961))
+
+See https://github.com/python/mypy/issues/20160 for details.
+
+Closes: #14893
+
+---------
+
+Co-authored-by: Semyon Moroz <donbarbos@proton.me>
+
 ## 1.5.0.20250516 (2025-05-16)
 
 Replace `Incomplete | None = None` in third party stubs (#14063)
