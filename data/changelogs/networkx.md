@@ -1,3 +1,7 @@
+## 3.5.0.20251104 (2025-11-04)
+
+Merge networkx Graph classes from python-type-stubs and address a few recent issues ([#14597](https://github.com/python/typeshed/pull/14597))
+
 ## 3.5.0.20251001 (2025-10-01)
 
 networkx: Add type annotation to all `G` params ([#14796](https://github.com/python/typeshed/pull/14796))
