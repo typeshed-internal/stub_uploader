@@ -1,3 +1,7 @@
+## 6.32.1.20251105 (2025-11-05)
+
+Amend annotation for `asyncio.Protocol.__slots__` ([#14980](https://github.com/python/typeshed/pull/14980))
+
 ## 6.32.1.20250918 (2025-09-18)
 
 Add `is_required` / `is_repeated` properties to `FieldDescriptor` ([#14703](https://github.com/python/typeshed/pull/14703))

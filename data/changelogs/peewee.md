@@ -1,3 +1,9 @@
+## 3.18.3.20251105 (2025-11-05)
+
+[stubsabot] Bump peewee to 3.18.3 ([#14976](https://github.com/python/typeshed/pull/14976))
+
+Co-authored-by: stubsabot <>
+
 ## 3.18.2.20250710 (2025-07-10)
 
 [stubsabot] Bump peewee to 3.18.2 (#14385)
