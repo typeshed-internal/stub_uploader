@@ -1,3 +1,7 @@
+## 1.6.0.20251106 (2025-11-06)
+
+[stubsabot] Bump fanstatic to 1.6.* ([#14981](https://github.com/python/typeshed/pull/14981))
+
 ## 1.5.0.20250822 (2025-08-22)
 
 Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))

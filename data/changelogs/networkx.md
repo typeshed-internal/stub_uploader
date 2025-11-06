@@ -1,3 +1,9 @@
+## 3.5.0.20251106 (2025-11-06)
+
+Add annotations to `networkx.algorithms.approximation.treewidth` ([#14983](https://github.com/python/typeshed/pull/14983))
+
+networkx: fix link argument deprecation warning ([#14982](https://github.com/python/typeshed/pull/14982))
+
 ## 3.5.0.20251104 (2025-11-04)
 
 Merge networkx Graph classes from python-type-stubs and address a few recent issues ([#14597](https://github.com/python/typeshed/pull/14597))

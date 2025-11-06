@@ -1,3 +1,7 @@
+## 3.10.0.20251106 (2025-11-06)
+
+[Markdown] Update to 3.10.* ([#14978](https://github.com/python/typeshed/pull/14978))
+
 ## 3.9.0.20250906 (2025-09-06)
 
 [Markdown] Update to 3.9.* ([#14676](https://github.com/python/typeshed/pull/14676))
