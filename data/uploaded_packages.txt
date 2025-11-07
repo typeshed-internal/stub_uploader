@@ -258,6 +258,7 @@ types-usersettings
 types-vobject
 types-waitress
 types-watchpoints
+types-webencodings
 types-whatthepatch
 types-workalendar
 types-wurlitzer
