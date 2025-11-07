@@ -1,3 +1,7 @@
+## 6.3.2.20251107 (2025-11-07)
+
+[stubsabot] Bump icalendar to 6.3.2 ([#14985](https://github.com/python/typeshed/pull/14985))
+
 ## 6.3.1.20250914 (2025-09-14)
 
 Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
