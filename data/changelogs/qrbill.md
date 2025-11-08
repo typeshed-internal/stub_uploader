@@ -1,3 +1,7 @@
+## 1.2.0.20251108 (2025-11-08)
+
+[qrbill] Update to 1.2.* ([#14987](https://github.com/python/typeshed/pull/14987))
+
 ## 1.1.0.20241221 (2024-12-21)
 
 Update to mypy 1.14 (#13272)

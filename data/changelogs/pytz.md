@@ -1,3 +1,7 @@
+## 2025.2.0.20251108 (2025-11-08)
+
+[pytz] Annotate parameter fill_iter ([#14989](https://github.com/python/typeshed/pull/14989))
+
 ## 2025.2.0.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)

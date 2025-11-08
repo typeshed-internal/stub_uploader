@@ -66,6 +66,7 @@ types-click-shell
 types-click-spinner
 types-click-web
 types-colorama
+types-colorful
 types-commonmark
 types-console-menu
 types-contextvars

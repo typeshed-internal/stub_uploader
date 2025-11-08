@@ -1,3 +1,7 @@
+## 2.9.0.20251108 (2025-11-08)
+
+[python-dateutil] add some missing parameter types ([#14992](https://github.com/python/typeshed/pull/14992))
+
 ## 2.9.0.20251008 (2025-10-08)
 
 python-dateutil: add overload to rrulestr ([#14815](https://github.com/python/typeshed/pull/14815))
