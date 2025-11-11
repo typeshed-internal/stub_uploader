@@ -249,6 +249,7 @@ types-tree-sitter
 types-tree-sitter-languages
 types-ttkthemes
 types-typed-ast
+types-tzdata
 types-tzlocal
 types-uWSGI
 types-ujson

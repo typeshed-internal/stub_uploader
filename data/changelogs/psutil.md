@@ -1,3 +1,7 @@
+## 7.0.0.20251111 (2025-11-11)
+
+[psutil] Use Incomplete instead of Any ([#15010](https://github.com/python/typeshed/pull/15010))
+
 ## 7.0.0.20251001 (2025-10-01)
 
 [psutil] Add `cache_clear` to `psutil.process_iter` typing ([#14803](https://github.com/python/typeshed/pull/14803))

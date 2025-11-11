@@ -1,3 +1,7 @@
+## 3.3.0.20251111 (2025-11-11)
+
+[ttkthemes] Update to 3.3.* ([#15009](https://github.com/python/typeshed/pull/15009))
+
 ## 3.2.4.20250927 (2025-09-27)
 
 [tkinter] Remove _ScreenUnits alias ([#14782](https://github.com/python/typeshed/pull/14782))
