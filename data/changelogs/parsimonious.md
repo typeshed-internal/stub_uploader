@@ -1,3 +1,7 @@
+## 0.11.0.20251114 (2025-11-14)
+
+[parsimonious] Update to 0.11.* ([#15021](https://github.com/python/typeshed/pull/15021))
+
 ## 0.10.0.20250822 (2025-08-22)
 
 Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
