@@ -90,6 +90,7 @@ types-editdistance
 types-emoji
 types-entrypoints
 types-enum34
+types-et_xmlfile
 types-fanstatic
 types-fb303
 types-filelock

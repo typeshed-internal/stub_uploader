@@ -1,3 +1,7 @@
+## 0.22.3.20251115 (2025-11-15)
+
+[docutils] Update to 0.22.3 ([#14993](https://github.com/python/typeshed/pull/14993))
+
 ## 0.22.2.20251006 (2025-10-06)
 
 docutils: docutils.nodes.Node.next_node can return `None` ([#14833](https://github.com/python/typeshed/pull/14833))

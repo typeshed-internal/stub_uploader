@@ -1,3 +1,7 @@
+## 2025.11.12.20251115 (2025-11-15)
+
+[yt-dlp] Update to 2025.11.12 ([#15025](https://github.com/python/typeshed/pull/15025))
+
 ## 2025.10.22.20251031 (2025-10-31)
 
 [yt-dlp] Update to 2025.10.22 ([#14924](https://github.com/python/typeshed/pull/14924))

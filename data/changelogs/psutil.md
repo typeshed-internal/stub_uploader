@@ -1,3 +1,7 @@
+## 7.0.0.20251115 (2025-11-15)
+
+[psutil] Complete Windows stubs ([#15015](https://github.com/python/typeshed/pull/15015))
+
 ## 7.0.0.20251111 (2025-11-11)
 
 [psutil] Use Incomplete instead of Any ([#15010](https://github.com/python/typeshed/pull/15010))

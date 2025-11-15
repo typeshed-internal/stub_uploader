@@ -1,3 +1,7 @@
+## 3.3.0.20251115 (2025-11-15)
+
+[python-crontab] fill in incompletes ([#15026](https://github.com/python/typeshed/pull/15026))
+
 ## 3.3.0.20250715 (2025-07-15)
 
 [stubsabot] Bump python-crontab to 3.3.* (#14409)

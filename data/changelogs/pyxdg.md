@@ -1,3 +1,7 @@
+## 0.28.0.20251115 (2025-11-15)
+
+[pyxdg] Annotate Incompletes and fix getFiles return annotation ([#15028](https://github.com/python/typeshed/pull/15028))
+
 ## 0.28.0.20250622 (2025-06-22)
 
 [pyxdg] Remove from pyrightconfig (#14309)

@@ -1,3 +1,12 @@
+## 1.1.11.20251115 (2025-11-15)
+
+[html5lib] Annotate more ([#14994](https://github.com/python/typeshed/pull/14994))
+
+* Import `webencodings` to use `Encoding` class instead of `Protocol`
+* Make `_inputstream.BufferedStream`, `filters.base.Filter`, `_utils.MethodDispatcher` generic
+* Fix incorrect types in `_ihatexml.pyi`
+* Add types for some attributes/methods
+
 ## 1.1.11.20251014 (2025-10-14)
 
 [html5lib] Add annotations for several functions in htmll5parser.py ([#14859](https://github.com/python/typeshed/pull/14859))

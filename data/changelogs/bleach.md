@@ -1,3 +1,12 @@
+## 6.3.0.20251115 (2025-11-15)
+
+[html5lib] Annotate more ([#14994](https://github.com/python/typeshed/pull/14994))
+
+* Import `webencodings` to use `Encoding` class instead of `Protocol`
+* Make `_inputstream.BufferedStream`, `filters.base.Filter`, `_utils.MethodDispatcher` generic
+* Fix incorrect types in `_ihatexml.pyi`
+* Add types for some attributes/methods
+
 ## 6.3.0.20251029 (2025-10-29)
 
 [stubsabot] Bump bleach to 6.3.* ([#14932](https://github.com/python/typeshed/pull/14932))

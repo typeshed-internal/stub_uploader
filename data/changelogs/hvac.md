@@ -1,3 +1,7 @@
+## 2.4.0.20251115 (2025-11-15)
+
+[hvac] remove most Incompletes ([#15029](https://github.com/python/typeshed/pull/15029))
+
 ## 2.4.0.20251101 (2025-11-01)
 
 [hvac] Update to 2.4.* ([#14953](https://github.com/python/typeshed/pull/14953))
