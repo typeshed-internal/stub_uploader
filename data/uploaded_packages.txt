@@ -187,6 +187,7 @@ types-pyRFC3339
 types-pyasn1
 types-pyaudio
 types-pycocotools
+types-pycountry
 types-pycurl
 types-pyfarmhash
 types-pyflakes

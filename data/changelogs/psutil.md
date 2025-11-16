@@ -1,3 +1,9 @@
+## 7.0.0.20251116 (2025-11-16)
+
+[psutil] Annotate few common attributes ([#15031](https://github.com/python/typeshed/pull/15031))
+
+[psutil] Complete OSX stubs ([#15030](https://github.com/python/typeshed/pull/15030))
+
 ## 7.0.0.20251115 (2025-11-15)
 
 [psutil] Complete Windows stubs ([#15015](https://github.com/python/typeshed/pull/15015))
