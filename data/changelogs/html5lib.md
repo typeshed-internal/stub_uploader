@@ -1,3 +1,7 @@
+## 1.1.11.20251117 (2025-11-17)
+
+[html5lib] Improve serializer ([#15036](https://github.com/python/typeshed/pull/15036))
+
 ## 1.1.11.20251115 (2025-11-15)
 
 [html5lib] Annotate more ([#14994](https://github.com/python/typeshed/pull/14994))
