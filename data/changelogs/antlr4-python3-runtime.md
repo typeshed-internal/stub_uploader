@@ -1,3 +1,7 @@
+## 4.13.0.20251118 (2025-11-18)
+
+[antlr4-python3-runtime] Fixed multiple Incomplete ([#15038](https://github.com/python/typeshed/pull/15038))
+
 ## 4.13.0.20250822 (2025-08-22)
 
 Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
