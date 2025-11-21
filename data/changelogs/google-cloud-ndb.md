@@ -1,3 +1,7 @@
+## 2.3.0.20251121 (2025-11-21)
+
+[google-cloud-ndb] Use Incomplete instead of Any ([#15055](https://github.com/python/typeshed/pull/15055))
+
 ## 2.3.0.20250317 (2025-03-17)
 
 [google-cloud-ndb] Remove unncessary stubtest requirements (#13631)

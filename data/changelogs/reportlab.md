@@ -1,3 +1,7 @@
+## 4.4.5.20251121 (2025-11-21)
+
+[reportlab] Update to 4.4.5 ([#15056](https://github.com/python/typeshed/pull/15056))
+
 ## 4.4.4.20250926 (2025-09-26)
 
 fixed: reportlab - incorrect type on function parameter ([#14777](https://github.com/python/typeshed/pull/14777))

@@ -1,3 +1,7 @@
+## 2.9.13.20251121 (2025-11-21)
+
+[ldap3] Use Incomplete instead of Any ([#15054](https://github.com/python/typeshed/pull/15054))
+
 ## 2.9.13.20250622 (2025-06-22)
 
 [ldap3] Add missing stubs (#14271)

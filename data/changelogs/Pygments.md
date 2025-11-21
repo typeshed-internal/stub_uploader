@@ -1,3 +1,7 @@
+## 2.19.0.20251121 (2025-11-21)
+
+[Pygments] Use Incomplete instead of Any ([#15053](https://github.com/python/typeshed/pull/15053))
+
 ## 2.19.0.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
