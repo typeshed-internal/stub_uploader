@@ -1,18 +1,18 @@
 ## 5.5.0.20250809 (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
 ## 5.5.0.20250516 (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs (#14063)
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
 ## 5.5.0.20250321 (2025-03-21)
 
-Fix incorrect default value for callback (#13678)
+Fix incorrect default value for callback ([#13678](https://github.com/python/typeshed/pull/13678))
 
 ## 5.5.0.20241227 (2024-12-27)
 
-[stubsabot] Bump Flask-SocketIO to 5.5.* (#13288)
+[stubsabot] Bump Flask-SocketIO to 5.5.* ([#13288](https://github.com/python/typeshed/pull/13288))
 
 Release: https://pypi.org/pypi/Flask-SocketIO/5.5.0
 Homepage: https://github.com/miguelgrinberg/flask-socketio
@@ -26,11 +26,11 @@ Stubsabot analysis of the diff between the two releases:
 
 ## 5.4.0.20241224 (2024-12-24)
 
-Flask-socketio 5.5 + add type of kwargs (#13271)
+Flask-socketio 5.5 + add type of kwargs ([#13271](https://github.com/python/typeshed/pull/13271))
 
 ## 5.4.0.20241002 (2024-10-02)
 
-[stubsabot] Bump Flask-SocketIO to 5.4.* (#12712)
+[stubsabot] Bump Flask-SocketIO to 5.4.* ([#12712](https://github.com/python/typeshed/pull/12712))
 
 Release: https://pypi.org/pypi/Flask-SocketIO/5.4.0
 Homepage: https://github.com/miguelgrinberg/flask-socketio
@@ -52,23 +52,23 @@ Co-authored-by: stubsabot <>
 
 ## 5.3.0.20240617 (2024-06-17)
 
-Flask-SocketIO: fix type hints (#12140)
+Flask-SocketIO: fix type hints ([#12140](https://github.com/python/typeshed/pull/12140))
 
 ## 5.3.0.20240331 (2024-03-31)
 
-Remove bare Incomplete annotations in third-party stubs (#11671)
+Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
 
 ## 5.3.0.20240311 (2024-03-11)
 
-Use PEP 570 syntax in third party stubs (#11554)
+Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
 ## 5.3.0.20240106 (2024-01-06)
 
-Update typing_extensions imports in third-party stubs (#11245)
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 5.3.0.0 (2023-09-25)
 
-Add stubs for Flask-SocketIO (#10735)
+Add stubs for Flask-SocketIO ([#10735](https://github.com/python/typeshed/pull/10735))
 
 Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
 

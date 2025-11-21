@@ -10,88 +10,88 @@ Add missing defaults to third-party stubs ([#14617](https://github.com/python/ty
 
 ## 24.1.0.20250809 (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
 ## 24.1.0.20250801 (2025-08-01)
 
-Split `tool.stubtest.platforms` metadata key (#13746)
+Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
 Co-authored-by: Avasam <samuel.06@hotmail.com>
 Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
 ## 24.1.0.20250708 (2025-07-08)
 
-[aiofiles] Remove from pyrightconfig (#14310)
+[aiofiles] Remove from pyrightconfig ([#14310](https://github.com/python/typeshed/pull/14310))
 
-Fix AiofilesContextManagerTempDir type argument (#14349)
+Fix AiofilesContextManagerTempDir type argument ([#14349](https://github.com/python/typeshed/pull/14349))
 
 ## 24.1.0.20250606 (2025-06-06)
 
-aiofiles: add type for `executor` parameter (#14226)
+aiofiles: add type for `executor` parameter ([#14226](https://github.com/python/typeshed/pull/14226))
 
 Fix partially unknown executor
 
 ## 24.1.0.20250516 (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs (#14063)
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
 ## 24.1.0.20250326 (2025-03-26)
 
-Add `__all__` (#13704)
+Add `__all__` ([#13704](https://github.com/python/typeshed/pull/13704))
 
-[aiofiles] Fix the file argument type in AsyncBase (#13717)
+[aiofiles] Fix the file argument type in AsyncBase ([#13717](https://github.com/python/typeshed/pull/13717))
 
 ## 24.1.0.20241221 (2024-12-21)
 
-Update to mypy 1.14 (#13272)
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
 ## 24.1.0.20240626 (2024-06-26)
 
-[aiofiles] Update to 24.1 (#12207)
+[aiofiles] Update to 24.1 ([#12207](https://github.com/python/typeshed/pull/12207))
 
 ## 23.2.0.20240623 (2024-06-23)
 
-Add missing delete on close arg for `aiofiles.NamedTemporaryFile`  (#12110)
+Add missing delete on close arg for `aiofiles.NamedTemporaryFile`  ([#12110](https://github.com/python/typeshed/pull/12110))
 
 ## 23.2.0.20240403 (2024-04-03)
 
-[aiofiles] Annotate AiofilesContextManagerTempDir (#11705)
+[aiofiles] Annotate AiofilesContextManagerTempDir ([#11705](https://github.com/python/typeshed/pull/11705))
 
 ## 23.2.0.20240331 (2024-03-31)
 
-Remove bare Incomplete annotations in third-party stubs (#11671)
+Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
 
 ## 23.2.0.20240311 (2024-03-11)
 
-Use PEP 570 syntax in third party stubs (#11554)
+Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
 ## 23.2.0.20240310 (2024-03-10)
 
-Bump mypy to 1.9, add to json.encoder, small fixups (#11549)
+Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
 
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 23.2.0.20240106 (2024-01-06)
 
-Update typing_extensions imports in third-party stubs (#11245)
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 23.2.0.0 (2023-08-16)
 
-Bump aiofiles to 23.2.* (#10584)
+Bump aiofiles to 23.2.* ([#10584](https://github.com/python/typeshed/pull/10584))
 
 ## 23.1.0.5 (2023-07-20)
 
-Add an upstream_repository field to METADATA.toml (#10487)
+Add an upstream_repository field to METADATA.toml ([#10487](https://github.com/python/typeshed/pull/10487))
 
 Closes: #10478
 
 ## 23.1.0.4 (2023-06-07)
 
-[aiofiles] Use file mode alias from _typeshed (#10233)
+[aiofiles] Use file mode alias from _typeshed ([#10233](https://github.com/python/typeshed/pull/10233))
 
 ## 23.1.0.3 (2023-05-22)
 
-add typing support to more aiofiles wrapped functions (#10175)
+add typing support to more aiofiles wrapped functions ([#10175](https://github.com/python/typeshed/pull/10175))
 
 add stubs for missing functions:
 
@@ -102,38 +102,38 @@ add stubs for missing functions:
 
 ## 23.1.0.2 (2023-04-29)
 
-aiofiles: use ReadableBuffer (#10105)
+aiofiles: use ReadableBuffer ([#10105](https://github.com/python/typeshed/pull/10105))
 
 Part of #9006
 
 ## 23.1.0.1 (2023-03-27)
 
-Add defaults for third-party stubs A-D (#9952)
+Add defaults for third-party stubs A-D ([#9952](https://github.com/python/typeshed/pull/9952))
 
 ## 23.1.0.0 (2023-03-09)
 
-Update `aiofiles` for v23.1.* (#9711)
+Update `aiofiles` for v23.1.* ([#9711](https://github.com/python/typeshed/pull/9711))
 
 Co-authored-by: Mehdi Drissi <mdrissi@snapchat.com>
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 22.1.0.9 (2023-02-21)
 
-Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
+Stubtest settings: change `ignore_missing_stub` default to `false` ([#9779](https://github.com/python/typeshed/pull/9779))
 
 If you're reading about this commit from an autogenerated changelog entry, this should have no user-visible impact on how the stubs are interpreted by a type checker; it's just an internal change to how typeshed's tests work.
 
 ## 22.1.0.8 (2023-02-15)
 
-Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+Use `typing_extensions.Self` instead of `_typeshed.Self` ([#9702](https://github.com/python/typeshed/pull/9702))
 
 ## 22.1.0.7 (2023-02-09)
 
-Use `_typeshed.FileDescriptorOrPath` in stubs (#9695)
+Use `_typeshed.FileDescriptorOrPath` in stubs ([#9695](https://github.com/python/typeshed/pull/9695))
 
 ## 22.1.0.6 (2023-01-18)
 
-Improve pre-commit config (#9563)
+Improve pre-commit config ([#9563](https://github.com/python/typeshed/pull/9563))
 
 - Add a few more hooks. These are all very fast, and I've found them useful in other projects:
   - Autofixes:
@@ -151,41 +151,41 @@ Improve pre-commit config (#9563)
 
 ## 22.1.0.5 (2023-01-18)
 
-Replace `Any` with `Incomplete` in many places (#9558)
+Replace `Any` with `Incomplete` in many places ([#9558](https://github.com/python/typeshed/pull/9558))
 
 ## 22.1.0.4 (2022-11-26)
 
-Add aiofiles.os.scandir (#9280)
+Add aiofiles.os.scandir ([#9280](https://github.com/python/typeshed/pull/9280))
 
 ## 22.1.0.3 (2022-11-13)
 
-Complete stubtest for `aiofiles` + fix on Windows (#9184)
+Complete stubtest for `aiofiles` + fix on Windows ([#9184](https://github.com/python/typeshed/pull/9184))
 
 ## 22.1.0.2 (2022-11-08)
 
-Fix and allow classes with missing metaclasses (#9136)
+Fix and allow classes with missing metaclasses ([#9136](https://github.com/python/typeshed/pull/9136))
 
 ## 22.1.0.1 (2022-11-05)
 
-Remove `aiofiles/tempfile/temptypes.pyi` from pyright exclude (#9104)
+Remove `aiofiles/tempfile/temptypes.pyi` from pyright exclude ([#9104](https://github.com/python/typeshed/pull/9104))
 
 ## 22.1.0 (2022-09-09)
 
-[stubsabot] Bump aiofiles to 22.1.* (#8714)
+[stubsabot] Bump aiofiles to 22.1.* ([#8714](https://github.com/python/typeshed/pull/8714))
 
 Co-authored-by: stubsabot <>
 
 ## 0.8.11 (2022-08-29)
 
-Delete some unused `# noqa` comments (#8639)
+Delete some unused `# noqa` comments ([#8639](https://github.com/python/typeshed/pull/8639))
 
 ## 0.8.10 (2022-07-18)
 
-Run `pycln` as a pre-commit hook in CI (#8304)
+Run `pycln` as a pre-commit hook in CI ([#8304](https://github.com/python/typeshed/pull/8304))
 
 ## 0.8.9 (2022-07-06)
 
-Add missing aiofiles.tempfile classes (#7523)
+Add missing aiofiles.tempfile classes ([#7523](https://github.com/python/typeshed/pull/7523))
 
 Fixes: #6524
 
@@ -194,23 +194,23 @@ Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
 
 ## 0.8.8 (2022-04-16)
 
-Third-party stubs: import from `collections.abc` where possible (#7637)
+Third-party stubs: import from `collections.abc` where possible ([#7637](https://github.com/python/typeshed/pull/7637))
 
 ## 0.8.7 (2022-04-16)
 
-Use `TypeAlias` where possible for type aliases (#7630)
+Use `TypeAlias` where possible for type aliases ([#7630](https://github.com/python/typeshed/pull/7630))
 
 ## 0.8.6 (2022-03-29)
 
-Remove unneeded `# noqa` comments, fix broken `# noqa` comments (#7561)
+Remove unneeded `# noqa` comments, fix broken `# noqa` comments ([#7561](https://github.com/python/typeshed/pull/7561))
 
 ## 0.8.5 (2022-03-16)
 
-Use PEP 604 syntax wherever possible (#7493)
+Use PEP 604 syntax wherever possible ([#7493](https://github.com/python/typeshed/pull/7493))
 
 ## 0.8.4 (2022-03-07)
 
-Improve open overloads when mode is a literal union (#7428)
+Improve open overloads when mode is a literal union ([#7428](https://github.com/python/typeshed/pull/7428))
 
 As pointed out by @gvanrossum in https://github.com/python/typing/issues/1096
 
@@ -234,35 +234,35 @@ Co-authored-by: hauntsaninja <>
 
 ## 0.8.3 (2022-01-13)
 
-Add stubs for aiofiles.os.path (#6787)
+Add stubs for aiofiles.os.path ([#6787](https://github.com/python/typeshed/pull/6787))
 
 ## 0.8.2 (2022-01-08)
 
-Use lowercase `type` everywhere (#6853)
+Use lowercase `type` everywhere ([#6853](https://github.com/python/typeshed/pull/6853))
 
 ## 0.8.0 (2022-01-02)
 
-Add missing functions and keyword arguments to aiofiles.os (#6785)
+Add missing functions and keyword arguments to aiofiles.os ([#6785](https://github.com/python/typeshed/pull/6785))
 
 Co-authored-by: Akuli <akuviljanen17@gmail.com>
 
 ## 0.7.3 (2021-12-28)
 
-Use PEP 585 syntax wherever possible (#6717)
+Use PEP 585 syntax wherever possible ([#6717](https://github.com/python/typeshed/pull/6717))
 
 ## 0.7.2 (2021-12-26)
 
-Enable stubtest for aiofiles (#6698)
+Enable stubtest for aiofiles ([#6698](https://github.com/python/typeshed/pull/6698))
 
 ## 0.7.1 (2021-12-25)
 
-Add a 'stubtest' flag to METADATA.toml (#6687)
+Add a 'stubtest' flag to METADATA.toml ([#6687](https://github.com/python/typeshed/pull/6687))
 
 Co-authored-by: Akuli <akuviljanen17@gmail.com>
 
 ## 0.7.0 (2021-10-12)
 
-Update remaining versions for third-party stubs (#6094)
+Update remaining versions for third-party stubs ([#6094](https://github.com/python/typeshed/pull/6094))
 
 Also remove the python2 markers of packages that don't list Python 2
 as supported in the latest version.

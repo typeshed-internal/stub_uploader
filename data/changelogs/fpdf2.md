@@ -12,149 +12,149 @@ Add __slots__ to third-party packages using stubdefaulter ([#14619](https://gith
 
 ## 2.8.3.20250809 (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
 ## 2.8.3.20250516 (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs (#14063)
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
 ## 2.8.3.20250426 (2025-04-26)
 
-[fpdf2] Update to 2.8.3 (#13871)
+[fpdf2] Update to 2.8.3 ([#13871](https://github.com/python/typeshed/pull/13871))
 
 ## 2.8.2.20250318 (2025-03-18)
 
-[fpdf2] Make fpdf.fonts.Glyph a dataclass (#13645)
+[fpdf2] Make fpdf.fonts.Glyph a dataclass ([#13645](https://github.com/python/typeshed/pull/13645))
 
 ## 2.8.2.20241223 (2024-12-23)
 
-[fpdf2] Update to 2.8.2 (#13264)
+[fpdf2] Update to 2.8.2 ([#13264](https://github.com/python/typeshed/pull/13264))
 
 ## 2.8.1.20241221 (2024-12-21)
 
-Update to mypy 1.14 (#13272)
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
 ## 2.8.1.20241204 (2024-12-04)
 
-[fpdf2] Tighten FPDF.fonts annotation (#13168)
+[fpdf2] Tighten FPDF.fonts annotation ([#13168](https://github.com/python/typeshed/pull/13168))
 
 ## 2.8.1.20241011 (2024-10-11)
 
-Bump fpdf2 to 2.8.1 (#12753)
+Bump fpdf2 to 2.8.1 ([#12753](https://github.com/python/typeshed/pull/12753))
 
 Closes: #12738
 
-[fpdf2] Add actual NamedTuple defaults (#12768)
+[fpdf2] Add actual NamedTuple defaults ([#12768](https://github.com/python/typeshed/pull/12768))
 
 ## 2.7.9.20240927 (2024-09-27)
 
-[fpdf2] fix link type to support internal links (#12695)
+[fpdf2] fix link type to support internal links ([#12695](https://github.com/python/typeshed/pull/12695))
 
 ## 2.7.9.20240919 (2024-09-19)
 
-fix: fpdf2: Allow `"BI"` for `_FontStyle` in `fpdf.pyi` (#12677)
+fix: fpdf2: Allow `"BI"` for `_FontStyle` in `fpdf.pyi` ([#12677](https://github.com/python/typeshed/pull/12677))
 
 ## 2.7.9.20240813 (2024-08-13)
 
-Use Generator instead of Iterator for 3rd-party context managers (#12481)
+Use Generator instead of Iterator for 3rd-party context managers ([#12481](https://github.com/python/typeshed/pull/12481))
 
 ## 2.7.9.20240621 (2024-06-21)
 
-fpdf2: improve `text_align` types and `.table()` method signature (#12123)
+fpdf2: improve `text_align` types and `.table()` method signature ([#12123](https://github.com/python/typeshed/pull/12123))
 
 Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
 ## 2.7.9.20240519 (2024-05-19)
 
-Use assignment instead of annotation in third party enums (#11957)
+Use assignment instead of annotation in third party enums ([#11957](https://github.com/python/typeshed/pull/11957))
 
-[fpdf2] Update to 2.7.9 (#11953)
+[fpdf2] Update to 2.7.9 ([#11953](https://github.com/python/typeshed/pull/11953))
 
 ## 2.7.8.20240423 (2024-04-23)
 
-Add precise values for enum members where possible (#11299)
+Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
 
 Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
 ## 2.7.8.20240406 (2024-04-06)
 
-Depend on Pillow instead of types-Pillow (#11720)
+Depend on Pillow instead of types-Pillow ([#11720](https://github.com/python/typeshed/pull/11720))
 
 ## 2.7.8.20240331 (2024-03-31)
 
-Remove bare Incomplete annotations in third-party stubs (#11671)
+Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
 
 ## 2.7.8.20240311 (2024-03-11)
 
-Use PEP 570 syntax in third party stubs (#11554)
+Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
 ## 2.7.8.20240310 (2024-03-10)
 
-Bump mypy to 1.9, add to json.encoder, small fixups (#11549)
+Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
 
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 2.7.8.20240217 (2024-02-17)
 
-Update fpdf2 to 2.7.8 (#11410)
+Update fpdf2 to 2.7.8 ([#11410](https://github.com/python/typeshed/pull/11410))
 
 Closes: #11407
 
 ## 2.7.7.20240106 (2024-01-06)
 
-Update typing_extensions imports in third-party stubs (#11245)
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 2.7.7.0 (2023-12-13)
 
-Bump fpdf2 to 2.7.7 (#11149)
+Bump fpdf2 to 2.7.7 ([#11149](https://github.com/python/typeshed/pull/11149))
 
 Closes: #11145
 
 ## 2.7.6.1 (2023-11-24)
 
-Third-party stubs: remove unused `type: ignore`s (#11063)
+Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
 
 ## 2.7.6.0 (2023-11-16)
 
-[fpdf2] add compatibility with fpdf2 2.7.6 (#10932)
+[fpdf2] add compatibility with fpdf2 2.7.6 ([#10932](https://github.com/python/typeshed/pull/10932))
 
 ## 2.7.4.4 (2023-11-09)
 
-Bump flake8-pyi to 23.11.0 (#10997)
+Bump flake8-pyi to 23.11.0 ([#10997](https://github.com/python/typeshed/pull/10997))
 
 ## 2.7.4.3 (2023-10-27)
 
-Remove many redundant inheritances from `Generic[]` (#10933)
+Remove many redundant inheritances from `Generic[]` ([#10933](https://github.com/python/typeshed/pull/10933))
 
 ## 2.7.4.2 (2023-07-20)
 
-Add an upstream_repository field to METADATA.toml (#10487)
+Add an upstream_repository field to METADATA.toml ([#10487](https://github.com/python/typeshed/pull/10487))
 
 Closes: #10478
 
 ## 2.7.4.1 (2023-05-10)
 
-Fix return type of FPDF.output() (#10166)
+Fix return type of FPDF.output() ([#10166](https://github.com/python/typeshed/pull/10166))
 
 ## 2.7.4.0 (2023-05-03)
 
-[fpdf2] Update stubs for fpdf 2.7.4 (#10136)
+[fpdf2] Update stubs for fpdf 2.7.4 ([#10136](https://github.com/python/typeshed/pull/10136))
 
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 2.7.1.0 (2023-05-03)
 
-[fpdf2] Update to 2.7.1 (#9978)
+[fpdf2] Update to 2.7.1 ([#9978](https://github.com/python/typeshed/pull/9978))
 
 ## 2.6.1.10 (2023-03-27)
 
-Add defaults for third-party stubs E-H (#9954)
+Add defaults for third-party stubs E-H ([#9954](https://github.com/python/typeshed/pull/9954))
 
 ## 2.6.1.9 (2023-02-22)
 
-Update `Unused` parameters in `stubs/` (#9704)
+Update `Unused` parameters in `stubs/` ([#9704](https://github.com/python/typeshed/pull/9704))
 
 * Update _Unused TypeAlias
 
@@ -164,47 +164,47 @@ Update `Unused` parameters in `stubs/` (#9704)
 
 ## 2.6.1.8 (2023-02-21)
 
-Integrate requirements-stubtest.txt into METADATA.toml (#9778)
+Integrate requirements-stubtest.txt into METADATA.toml ([#9778](https://github.com/python/typeshed/pull/9778))
 
 ## 2.6.1.7 (2023-02-21)
 
-Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
+Stubtest settings: change `ignore_missing_stub` default to `false` ([#9779](https://github.com/python/typeshed/pull/9779))
 
 If you're reading about this commit from an autogenerated changelog entry, this should have no user-visible impact on how the stubs are interpreted by a type checker; it's just an internal change to how typeshed's tests work.
 
 ## 2.6.1.6 (2023-02-15)
 
-Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+Use `typing_extensions.Self` instead of `_typeshed.Self` ([#9702](https://github.com/python/typeshed/pull/9702))
 
 ## 2.6.1.5 (2023-02-09)
 
-[fpdf2] FPDF.add_font() accepts PurePaths (#9699)
+[fpdf2] FPDF.add_font() accepts PurePaths ([#9699](https://github.com/python/typeshed/pull/9699))
 
 ## 2.6.1.4 (2023-02-09)
 
-Fix Any subclassing in `fpdf2` (#9536)
+Fix Any subclassing in `fpdf2` ([#9536](https://github.com/python/typeshed/pull/9536))
 
 ## 2.6.1.3 (2023-02-07)
 
-Bump mypy to 1.0 (#9684)
+Bump mypy to 1.0 ([#9684](https://github.com/python/typeshed/pull/9684))
 
 ## 2.6.1.2 (2023-01-18)
 
-[fpdf2] Restore string default values (#9562)
+[fpdf2] Restore string default values ([#9562](https://github.com/python/typeshed/pull/9562))
 
 Cf. #9546
 
 ## 2.6.1.1 (2023-01-18)
 
-Replace `Any` with `Incomplete` in many places (#9558)
+Replace `Any` with `Incomplete` in many places ([#9558](https://github.com/python/typeshed/pull/9558))
 
 ## 2.6.1.0 (2023-01-17)
 
-Update fpdf2 stubs to 2.6.1 (#9546)
+Update fpdf2 stubs to 2.6.1 ([#9546](https://github.com/python/typeshed/pull/9546))
 
 ## 2.6.0.5 (2023-01-14)
 
-Pin `fpdf2` stubs to 2.6.0 (#9535)
+Pin `fpdf2` stubs to 2.6.0 ([#9535](https://github.com/python/typeshed/pull/9535))
 
 They will need some updates to become compatible with `fpdf2` 2.6.1.
 
@@ -212,58 +212,58 @@ Closes #9524
 
 ## 2.6.0.4 (2022-12-25)
 
-fpdf:annotation of dash_pattern, line_width, text_mode (#9387)
+fpdf:annotation of dash_pattern, line_width, text_mode ([#9387](https://github.com/python/typeshed/pull/9387))
 
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 2.6.0.3 (2022-12-13)
 
-Fpdf2: annotate more graphics_state properties (#9337)
+Fpdf2: annotate more graphics_state properties ([#9337](https://github.com/python/typeshed/pull/9337))
 
 ## 2.6.0.2 (2022-12-05)
 
-fpdf:annotation of underline, font_style, font_streching (#9327)
+fpdf:annotation of underline, font_style, font_streching ([#9327](https://github.com/python/typeshed/pull/9327))
 
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 2.6.0.1 (2022-12-01)
 
-fpdf2: annotate draw_color, fill_color, text_color (#9282)
+fpdf2: annotate draw_color, fill_color, text_color ([#9282](https://github.com/python/typeshed/pull/9282))
 
 ## 2.6.0.0 (2022-11-23)
 
-Update fpdf2 stubs to 2.6 (#9236)
+Update fpdf2 stubs to 2.6 ([#9236](https://github.com/python/typeshed/pull/9236))
 
-Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
+Mark first argument of `__[get|set|del]attr__` as `str` ([#9245](https://github.com/python/typeshed/pull/9245))
 
 ## 2.5.4.3 (2022-10-14)
 
-Add return types to fpdf.drawing (#8891)
+Add return types to fpdf.drawing ([#8891](https://github.com/python/typeshed/pull/8891))
 
 Co-authored-by: Akuli <akuviljanen17@gmail.com>
 Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
 ## 2.5.4.2 (2022-10-06)
 
-`fpdf2`: complete stubs (#8855)
+`fpdf2`: complete stubs ([#8855](https://github.com/python/typeshed/pull/8855))
 
 ## 2.5.4.1 (2022-10-04)
 
-`fpdf2`: Add missing files (#8836)
+`fpdf2`: Add missing files ([#8836](https://github.com/python/typeshed/pull/8836))
 
 ## 2.5.4 (2022-09-11)
 
-Update `fdpf2` stubs for v2.5.7 (#8721)
+Update `fdpf2` stubs for v2.5.7 ([#8721](https://github.com/python/typeshed/pull/8721))
 
 Co-authored-by: Akuli <akuviljanen17@gmail.com>
 
 ## 2.5.3 (2022-08-30)
 
-`fpdf2`: Remove redundant `str | Literal['DEPRECATED']` union (#8650)
+`fpdf2`: Remove redundant `str | Literal['DEPRECATED']` union ([#8650](https://github.com/python/typeshed/pull/8650))
 
 ## 2.5.2 (2022-08-17)
 
-fpdf2: fix for 2.5.6 changes (#8546)
+fpdf2: fix for 2.5.6 changes ([#8546](https://github.com/python/typeshed/pull/8546))
 
 Life is much easier when upstream has some annotations
 
@@ -271,11 +271,11 @@ Fixes #8545
 
 ## 2.5.1 (2022-07-04)
 
-Fix size parameter of FPDF.set_font_size (#8234)
+Fix size parameter of FPDF.set_font_size ([#8234](https://github.com/python/typeshed/pull/8234))
 
 ## 2.5.0 (2022-06-29)
 
-Bump fpdf2 to 2.5.* (#8173)
+Bump fpdf2 to 2.5.* ([#8173](https://github.com/python/typeshed/pull/8173))
 
 Co-authored-by: hauntsaninja <>
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
@@ -283,42 +283,42 @@ Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.gi
 
 ## 2.4.9 (2022-06-26)
 
-fpdf2: improve types (#8176)
+fpdf2: improve types ([#8176](https://github.com/python/typeshed/pull/8176))
 
 Co-authored-by: hauntsaninja <>
 
 ## 2.4.8 (2022-04-16)
 
-Use `TypeAlias` where possible for type aliases (#7630)
+Use `TypeAlias` where possible for type aliases ([#7630](https://github.com/python/typeshed/pull/7630))
 
 ## 2.4.7 (2022-02-10)
 
-fpdf2: Correct annotations of @contextmanager methods (#7172)
+fpdf2: Correct annotations of @contextmanager methods ([#7172](https://github.com/python/typeshed/pull/7172))
 
 ## 2.4.5 (2021-12-28)
 
-Use PEP 585 syntax wherever possible (#6717)
+Use PEP 585 syntax wherever possible ([#6717](https://github.com/python/typeshed/pull/6717))
 
 ## 2.4.4 (2021-12-23)
 
-Fix third-party issues found by stubtest (#6667)
+Fix third-party issues found by stubtest ([#6667](https://github.com/python/typeshed/pull/6667))
 
 ## 2.4.3 (2021-12-21)
 
-Add some missing attributes and types to FPDF (#6618)
+Add some missing attributes and types to FPDF ([#6618](https://github.com/python/typeshed/pull/6618))
 
 ## 2.4.2 (2021-11-26)
 
-Add mypy error codes to '# type: ignore' comments (#6379)
+Add mypy error codes to '# type: ignore' comments ([#6379](https://github.com/python/typeshed/pull/6379))
 
 ## 2.4.1 (2021-11-16)
 
-Improve fpdf.image_parsing (#6313)
+Improve fpdf.image_parsing ([#6313](https://github.com/python/typeshed/pull/6313))
 
 * Annotate more attributes, arguments, and return types.
 * Add "dims" argument to get_img_info(), added in 2.4.6.
 
 ## 2.4.0 (2021-11-10)
 
-Add stubs for fpdf2 (#6252)
+Add stubs for fpdf2 ([#6252](https://github.com/python/typeshed/pull/6252))
 

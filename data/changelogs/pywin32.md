@@ -16,114 +16,114 @@ Add missing defaults to third-party stubs ([#14617](https://github.com/python/ty
 
 ## 311.0.0.20250809 (2025-08-09)
 
-Fix dunder-method positional-only parameter discrepancies in third-party stubs (#14529)
+Fix dunder-method positional-only parameter discrepancies in third-party stubs ([#14529](https://github.com/python/typeshed/pull/14529))
 
 ## 311.0.0.20250801 (2025-08-01)
 
-Split `tool.stubtest.platforms` metadata key (#13746)
+Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
 Co-authored-by: Avasam <samuel.06@hotmail.com>
 Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
 ## 311.0.0.20250731 (2025-07-31)
 
-Type stub for `win32com.server` (#14492)
+Type stub for `win32com.server` ([#14492](https://github.com/python/typeshed/pull/14492))
 
 ## 311.0.0.20250728 (2025-07-28)
 
-[pywin32] Update `LookupAccountSid` to accept `None` for `systemName` (#14484)
+[pywin32] Update `LookupAccountSid` to accept `None` for `systemName` ([#14484](https://github.com/python/typeshed/pull/14484))
 
 ## 311.0.0.20250723 (2025-07-23)
 
-Bump pywin32 to 311.* (#14437)
+Bump pywin32 to 311.* ([#14437](https://github.com/python/typeshed/pull/14437))
 
 ## 310.0.0.20250516 (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs (#14063)
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
 ## 310.0.0.20250429 (2025-04-29)
 
-Improve `pywin32.isapi` (#13889)
+Improve `pywin32.isapi` ([#13889](https://github.com/python/typeshed/pull/13889))
 
 ## 310.0.0.20250428 (2025-04-28)
 
-Fix return type of win32wnet.WNetOpenEnum (#13890)
+Fix return type of win32wnet.WNetOpenEnum ([#13890](https://github.com/python/typeshed/pull/13890))
 
 ## 310.0.0.20250426 (2025-04-26)
 
-pywin32: Fix various arguments (#13846)
+pywin32: Fix various arguments ([#13846](https://github.com/python/typeshed/pull/13846))
 
 ## 310.0.0.20250319 (2025-03-19)
 
-Bump pywin32 to 310.* (#13667)
+Bump pywin32 to 310.* ([#13667](https://github.com/python/typeshed/pull/13667))
 
 ## 309.0.0.20250311 (2025-03-11)
 
-Bump pywin32 to 309 (#13607)
+Bump pywin32 to 309 ([#13607](https://github.com/python/typeshed/pull/13607))
 
 ## 308.0.0.20250128 (2025-01-28)
 
-Have `win32gui.SystemParametersInfo` return `Any` (#13438)
+Have `win32gui.SystemParametersInfo` return `Any` ([#13438](https://github.com/python/typeshed/pull/13438))
 
 ## 308.0.0.20250124 (2025-01-24)
 
-pywin32: type `Get*` functions in win32api (#13430)
+pywin32: type `Get*` functions in win32api ([#13430](https://github.com/python/typeshed/pull/13430))
 
 ## 308.0.0.20241221 (2024-12-21)
 
-Update to mypy 1.14 (#13272)
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
 ## 308.0.0.20241128 (2024-11-28)
 
-Add pywin32's isapi.install (#13119)
+Add pywin32's isapi.install ([#13119](https://github.com/python/typeshed/pull/13119))
 
 ## 308.0.0.20241121 (2024-11-21)
 
-Fix pywin32 GetClipboardData return type (#13046)
+Fix pywin32 GetClipboardData return type ([#13046](https://github.com/python/typeshed/pull/13046))
 
 Fixes #12825
 
 ## 308.0.0.20241029 (2024-10-29)
 
-Add `win32com.gen_py` (#12901)
+Add `win32com.gen_py` ([#12901](https://github.com/python/typeshed/pull/12901))
 
 ## 308.0.0.20241025 (2024-10-25)
 
-Allow pywin32 to use `pywin.mfc.DocTemplate` in lieu of `PyCDocTemplate` (#12888)
+Allow pywin32 to use `pywin.mfc.DocTemplate` in lieu of `PyCDocTemplate` ([#12888](https://github.com/python/typeshed/pull/12888))
 
 ## 308.0.0.20241015 (2024-10-15)
 
-Bump pywin32 to 308.* (#12799)
+Bump pywin32 to 308.* ([#12799](https://github.com/python/typeshed/pull/12799))
 
 ## 307.0.0.20241009 (2024-10-09)
 
-Bump pywin32 to 307 (#12742)
+Bump pywin32 to 307 ([#12742](https://github.com/python/typeshed/pull/12742))
 
 ## 306.0.0.20240822 (2024-08-22)
 
-Using precise code for `pyright: ignore` and re-enabling various pyright tests (#12576)
+Using precise code for `pyright: ignore` and re-enabling various pyright tests ([#12576](https://github.com/python/typeshed/pull/12576))
 
 ## 306.0.0.20240806 (2024-08-06)
 
-Bump mypy to 1.11.1 (#12463)
+Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
 
 ## 306.0.0.20240408 (2024-04-08)
 
-pywin32: Improve SHGetPropertyStoreFromParsingName type definition (#11654)
+pywin32: Improve SHGetPropertyStoreFromParsingName type definition ([#11654](https://github.com/python/typeshed/pull/11654))
 
 Improve SHGetPropertyStoreFromParsingName type definition
 
 ## 306.0.0.20240331 (2024-03-31)
 
-Various pywin32 improvements (#11616)
+Various pywin32 improvements ([#11616](https://github.com/python/typeshed/pull/11616))
 
 ## 306.0.0.20240319 (2024-03-19)
 
-Improved pywin32 error and exception classes (#11613)
+Improved pywin32 error and exception classes ([#11613](https://github.com/python/typeshed/pull/11613))
 
 ## 306.0.0.20240313 (2024-03-13)
 
-`pywin32`: Correctly reference `TimeType` aka `pywintypes.datetime` (#11577)
+`pywin32`: Correctly reference `TimeType` aka `pywintypes.datetime` ([#11577](https://github.com/python/typeshed/pull/11577))
 
 * Correctly reference TimeType
 
@@ -131,59 +131,59 @@ Improved pywin32 error and exception classes (#11613)
 
 ## 306.0.0.20240312 (2024-03-12)
 
-Add deprecation decorator and comments for pywin32 (#11570)
+Add deprecation decorator and comments for pywin32 ([#11570](https://github.com/python/typeshed/pull/11570))
 
 Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
 ## 306.0.0.20240310 (2024-03-10)
 
-Bump mypy to 1.9, add to json.encoder, small fixups (#11549)
+Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
 
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 306.0.0.20240130 (2024-01-30)
 
-pywin32: Remove reference to stubgen dll analysis issue (#11323)
+pywin32: Remove reference to stubgen dll analysis issue ([#11323](https://github.com/python/typeshed/pull/11323))
 
 ## 306.0.0.20240128 (2024-01-28)
 
-pywin32: Use PEP 570 positional-only argument syntax and fix arguments (#11321)
+pywin32: Use PEP 570 positional-only argument syntax and fix arguments ([#11321](https://github.com/python/typeshed/pull/11321))
 
 ## 306.0.0.20240106 (2024-01-06)
 
-Update typing_extensions imports in third-party stubs (#11245)
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 306.0.0.8 (2023-12-19)
 
-pywin32 annotations improvements (#11177)
+pywin32 annotations improvements ([#11177](https://github.com/python/typeshed/pull/11177))
 
 ## 306.0.0.7 (2023-12-08)
 
-Fix `pywin32`'s `PyCBitmap.GetBitmapBits` method (#11108)
+Fix `pywin32`'s `PyCBitmap.GetBitmapBits` method ([#11108](https://github.com/python/typeshed/pull/11108))
 
 ## 306.0.0.6 (2023-10-29)
 
-Type `pywin32`'s `win32.win32print.StartDocPrinter` method (#10898)
+Type `pywin32`'s `win32.win32print.StartDocPrinter` method ([#10898](https://github.com/python/typeshed/pull/10898))
 
 Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
 ## 306.0.0.5 (2023-10-15)
 
-pywin32: Annotate `win32com.client.constants` (#10888)
+pywin32: Annotate `win32com.client.constants` ([#10888](https://github.com/python/typeshed/pull/10888))
 
 ## 306.0.0.4 (2023-08-14)
 
-pywin32: Fix PyNETRESOURCE descriptor members wrongly marked as readonly (#10574)
+pywin32: Fix PyNETRESOURCE descriptor members wrongly marked as readonly ([#10574](https://github.com/python/typeshed/pull/10574))
 
 ## 306.0.0.3 (2023-07-20)
 
-Add an upstream_repository field to METADATA.toml (#10487)
+Add an upstream_repository field to METADATA.toml ([#10487](https://github.com/python/typeshed/pull/10487))
 
 Closes: #10478
 
 ## 306.0.0.2 (2023-05-28)
 
-pywin32: add `HANDLEType` class (#10032)
+pywin32: add `HANDLEType` class ([#10032](https://github.com/python/typeshed/pull/10032))
 
 per http://timgolden.me.uk/pywin32-docs/PyHANDLE.html these objects actually have methods, they are not ints
 
@@ -191,55 +191,55 @@ Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 306.0.0.1 (2023-03-27)
 
-Add default values for third-party stubs beginning with 'P' (#9957)
+Add default values for third-party stubs beginning with 'P' ([#9957](https://github.com/python/typeshed/pull/9957))
 
 ## 306.0.0.0 (2023-03-26)
 
-Bump pywin32 to 306.* (#9945)
+Bump pywin32 to 306.* ([#9945](https://github.com/python/typeshed/pull/9945))
 
 Release: https://pypi.org/pypi/pywin32/306
 Homepage: https://github.com/mhammond/pywin32
 
 ## 305.0.0.11 (2023-03-22)
 
-Add missing types to `pywin32.win32api` (#9920)
+Add missing types to `pywin32.win32api` ([#9920](https://github.com/python/typeshed/pull/9920))
 
 Co-authored-by: Francesc Elies <francesc.elies@mbbm-ast.com>
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 305.0.0.10 (2023-03-09)
 
-[pywin32] win32gui.FindWindowEx parameters __ClassName and __WindowName are optional (#9859)
+[pywin32] win32gui.FindWindowEx parameters __ClassName and __WindowName are optional ([#9859](https://github.com/python/typeshed/pull/9859))
 
 ## 305.0.0.9 (2023-02-21)
 
-Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
+Stubtest settings: change `ignore_missing_stub` default to `false` ([#9779](https://github.com/python/typeshed/pull/9779))
 
 If you're reading about this commit from an autogenerated changelog entry, this should have no user-visible impact on how the stubs are interpreted by a type checker; it's just an internal change to how typeshed's tests work.
 
 ## 305.0.0.8 (2023-02-15)
 
-Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+Use `typing_extensions.Self` instead of `_typeshed.Self` ([#9702](https://github.com/python/typeshed/pull/9702))
 
 ## 305.0.0.7 (2023-01-17)
 
-Reenable flake8-pyi's Y011 and Y015 (#9551)
+Reenable flake8-pyi's Y011 and Y015 ([#9551](https://github.com/python/typeshed/pull/9551))
 
 ## 305.0.0.6 (2023-01-13)
 
-Allowlist-only fixes for stubtest on Windows (#9522)
+Allowlist-only fixes for stubtest on Windows ([#9522](https://github.com/python/typeshed/pull/9522))
 
 ## 305.0.0.5 (2022-12-28)
 
-Check for unused `pyright: ignore` and differentiate from mypy ignores (#9397)
+Check for unused `pyright: ignore` and differentiate from mypy ignores ([#9397](https://github.com/python/typeshed/pull/9397))
 
 ## 305.0.0.4 (2022-12-07)
 
-3rd-party stubtest: run on Python 3.10 (#9342)
+3rd-party stubtest: run on Python 3.10 ([#9342](https://github.com/python/typeshed/pull/9342))
 
 ## 305.0.0.3 (2022-12-06)
 
-More pywin32 stub completion (#9308)
+More pywin32 stub completion ([#9308](https://github.com/python/typeshed/pull/9308))
 
 Completed based on usage of the following libraries in mypy_primer:
 - apprise
@@ -256,34 +256,34 @@ Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 305.0.0.2 (2022-11-23)
 
-Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
+Mark first argument of `__[get|set|del]attr__` as `str` ([#9245](https://github.com/python/typeshed/pull/9245))
 
 ## 305.0.0.1 (2022-11-11)
 
-Add the ability to run third-party stubtest on Windows or MacOS when needed (#8923)
+Add the ability to run third-party stubtest on Windows or MacOS when needed ([#8923](https://github.com/python/typeshed/pull/8923))
 
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
 ## 305.0.0.0 (2022-11-10)
 
-Update pywin32 to 305 (#9153)
+Update pywin32 to 305 ([#9153](https://github.com/python/typeshed/pull/9153))
 
 ## 304.0.0.6 (2022-11-10)
 
-Update pywin32 to mypy 0.990 (#9124)
+Update pywin32 to mypy 0.990 ([#9124](https://github.com/python/typeshed/pull/9124))
 
 ## 304.0.0.5 (2022-11-09)
 
-Annotate known magic-method return types (#9131)
+Annotate known magic-method return types ([#9131](https://github.com/python/typeshed/pull/9131))
 
 ## 304.0.0.4 (2022-11-05)
 
-pywin32: Improve some types (#9089)
+pywin32: Improve some types ([#9089](https://github.com/python/typeshed/pull/9089))
 
 ## 304.0.0.3 (2022-10-31)
 
-pywin32 stubs update (#9040)
+pywin32 stubs update ([#9040](https://github.com/python/typeshed/pull/9040))
 
 boolean methods
 win32gui_struct
@@ -291,17 +291,17 @@ MonitorFromRect, FindWindow, FindWindowEx, GetWindowPlacement, GetMenuItemRect
 
 ## 304.0.0.2 (2022-10-19)
 
-pywin32: Remove IID that doesn't exist at runtime (#8930)
+pywin32: Remove IID that doesn't exist at runtime ([#8930](https://github.com/python/typeshed/pull/8930))
 
 Remove IID that doesn't exist at runtime
 
 ## 304.0.0.1 (2022-10-07)
 
-pywin32: Complete modules using stubgen & stubtest (#8866)
+pywin32: Complete modules using stubgen & stubtest ([#8866](https://github.com/python/typeshed/pull/8866))
 
 Complete modules using stubgen & stubtest
 
 ## 304.0.0.0 (2022-10-03)
 
-Add `pywin32` type stubs from microsoft/python-type-stubs and mhammond/pywin32  (#8825)
+Add `pywin32` type stubs from microsoft/python-type-stubs and mhammond/pywin32  ([#8825](https://github.com/python/typeshed/pull/8825))
 

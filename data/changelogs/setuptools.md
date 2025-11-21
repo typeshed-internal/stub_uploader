@@ -4,30 +4,30 @@ Add missing defaults to third-party stubs ([#14617](https://github.com/python/ty
 
 ## 80.9.0.20250809 (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
 ## 80.9.0.20250801 (2025-08-01)
 
-Split `tool.stubtest.platforms` metadata key (#13746)
+Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
 Co-authored-by: Avasam <samuel.06@hotmail.com>
 Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
 ## 80.9.0.20250529 (2025-05-29)
 
-Bump setuptools to 80.9.* (#14179)
+Bump setuptools to 80.9.* ([#14179](https://github.com/python/typeshed/pull/14179))
 
 ## 80.8.0.20250521 (2025-05-21)
 
-[stubsabot] Bump setuptools to 80.8.* (#14110)
+[stubsabot] Bump setuptools to 80.8.* ([#14110](https://github.com/python/typeshed/pull/14110))
 
 Co-authored-by: stubsabot <>
 
 ## 80.7.0.20250516 (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs (#14063)
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-Bump setuptools to 80.7.* (#14069)
+Bump setuptools to 80.7.* ([#14069](https://github.com/python/typeshed/pull/14069))
 
 ---------
 
@@ -35,29 +35,29 @@ Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
 
 ## 80.4.0.20250511 (2025-05-11)
 
-[stubsabot] Bump setuptools to 80.4.* (#13980)
+[stubsabot] Bump setuptools to 80.4.* ([#13980](https://github.com/python/typeshed/pull/13980))
 
 ## 80.3.0.20250505 (2025-05-05)
 
-Bump setuptools to 80.3.* (#13938)
+Bump setuptools to 80.3.* ([#13938](https://github.com/python/typeshed/pull/13938))
 
 ## 80.1.0.20250503 (2025-05-03)
 
-Bump setuptools to 80.1.* (#13915)
+Bump setuptools to 80.1.* ([#13915](https://github.com/python/typeshed/pull/13915))
 
 ## 80.0.0.20250429 (2025-04-29)
 
-Bump setuptools to 80.0.* (#13898)
+Bump setuptools to 80.0.* ([#13898](https://github.com/python/typeshed/pull/13898))
 
 ## 79.0.0.20250422 (2025-04-22)
 
-[stubsabot] Bump setuptools to 79.0.* (#13860)
+[stubsabot] Bump setuptools to 79.0.* ([#13860](https://github.com/python/typeshed/pull/13860))
 
 Co-authored-by: stubsabot <>
 
 ## 78.1.0.20250329 (2025-03-29)
 
-Update setuptools to 78.1.0 (#13734)
+Update setuptools to 78.1.0 ([#13734](https://github.com/python/typeshed/pull/13734))
 
 ---------
 
@@ -65,7 +65,7 @@ Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.gi
 
 ## 77.0.2.20250328 (2025-03-28)
 
-[setuptools] Update to 77.0.2 (#13685)
+[setuptools] Update to 77.0.2 ([#13685](https://github.com/python/typeshed/pull/13685))
 
 ---------
 
@@ -74,47 +74,47 @@ Co-authored-by: Avasam <samuel.06@hotmail.com>
 
 ## 76.0.0.20250313 (2025-03-13)
 
-Bump setuptools to 76.0.0 (#13614)
+Bump setuptools to 76.0.0 ([#13614](https://github.com/python/typeshed/pull/13614))
 
 ## 75.8.2.20250305 (2025-03-05)
 
-Remove `setuptools/pkg_resources` (#13369)
+Remove `setuptools/pkg_resources` ([#13369](https://github.com/python/typeshed/pull/13369))
 
 ## 75.8.2.20250301 (2025-03-01)
 
-[setuptools] Update to 75.8.2 (#13563)
+[setuptools] Update to 75.8.2 ([#13563](https://github.com/python/typeshed/pull/13563))
 
 ## 75.8.0.20250225 (2025-02-25)
 
-`setuptools._distutils` typing improvements from merging types upstream (#13534)
+`setuptools._distutils` typing improvements from merging types upstream ([#13534](https://github.com/python/typeshed/pull/13534))
 
 ## 75.8.0.20250210 (2025-02-10)
 
-Update `pathname` param of `setuptools._distutils.util.convert_path` (#13483)
+Update `pathname` param of `setuptools._distutils.util.convert_path` ([#13483](https://github.com/python/typeshed/pull/13483))
 
 ## 75.8.0.20250110 (2025-01-10)
 
-Bump setuptools to 75.8.* (#13367)
+Bump setuptools to 75.8.* ([#13367](https://github.com/python/typeshed/pull/13367))
 
 ## 75.6.0.20241223 (2024-12-23)
 
-setuptools: Remove problematic private module compat (#13280)
+setuptools: Remove problematic private module compat ([#13280](https://github.com/python/typeshed/pull/13280))
 
 ## 75.6.0.20241126 (2024-11-26)
 
-Bump setuptools to 75.6.* (#13089)
+Bump setuptools to 75.6.* ([#13089](https://github.com/python/typeshed/pull/13089))
 
 ## 75.5.0.20241122 (2024-11-20)
 
-setuptools & distutils: more accurate spawn method (#13036)
+setuptools & distutils: more accurate spawn method ([#13036](https://github.com/python/typeshed/pull/13036))
 
 ## 75.5.0.20241119 (2024-11-19)
 
-Update setuptools return types (#12991)
+Update setuptools return types ([#12991](https://github.com/python/typeshed/pull/12991))
 
 ## 75.5.0.20241116 (2024-11-16)
 
-[stubsabot] Bump setuptools to 75.5.* (#13017)
+[stubsabot] Bump setuptools to 75.5.* ([#13017](https://github.com/python/typeshed/pull/13017))
 
 Release: https://pypi.org/pypi/setuptools/75.5.0
 Repository: https://github.com/pypa/setuptools
@@ -139,39 +139,39 @@ Co-authored-by: stubsabot <>
 
 ## 75.4.0.20241115 (2024-11-15)
 
-Update setuptools to 75.4.* (#13002)
+Update setuptools to 75.4.* ([#13002](https://github.com/python/typeshed/pull/13002))
 
 ## 75.3.0.20241112 (2024-11-12)
 
-`setuptools._distutils._msvccompiler.MSVCCompiler` non-None ClassVars (#12995)
+`setuptools._distutils._msvccompiler.MSVCCompiler` non-None ClassVars ([#12995](https://github.com/python/typeshed/pull/12995))
 
 ## 75.3.0.20241107 (2024-11-07)
 
-Improve path-related type hints for `setuptools.Extension()` and `distutils.CCompiler()` (#12958)
+Improve path-related type hints for `setuptools.Extension()` and `distutils.CCompiler()` ([#12958](https://github.com/python/typeshed/pull/12958))
 
 Co-authored-by: Avasam <samuel.06@hotmail.com>
 
 ## 75.3.0.20241105 (2024-11-05)
 
-Bump setuptools to 75.3.* (#12928)
+Bump setuptools to 75.3.* ([#12928](https://github.com/python/typeshed/pull/12928))
 
 ## 75.2.0.20241025 (2024-10-25)
 
-setuptools & distutils: Add more recent MSVCCompiler from _msvccompiler (#12887)
+setuptools & distutils: Add more recent MSVCCompiler from _msvccompiler ([#12887](https://github.com/python/typeshed/pull/12887))
 
-Add `install_data` in `distutils-stubs` from `setuptools` (#12889)
+Add `install_data` in `distutils-stubs` from `setuptools` ([#12889](https://github.com/python/typeshed/pull/12889))
 
 ## 75.2.0.20241019 (2024-10-19)
 
-Replace Any with Incomplete in distutils (#12842)
+Replace Any with Incomplete in distutils ([#12842](https://github.com/python/typeshed/pull/12842))
 
-distutils: Add some return types for setuptools to pass ANN201 (#12841)
+distutils: Add some return types for setuptools to pass ANN201 ([#12841](https://github.com/python/typeshed/pull/12841))
 
-Add missing defaults to setuptools/_distutils (#12839)
+Add missing defaults to setuptools/_distutils ([#12839](https://github.com/python/typeshed/pull/12839))
 
 ## 75.2.0.20241018 (2024-10-18)
 
-[stubsabot] Bump setuptools to 75.2.* (#12829)
+[stubsabot] Bump setuptools to 75.2.* ([#12829](https://github.com/python/typeshed/pull/12829))
 
 Release: https://pypi.org/pypi/setuptools/75.2.0
 Repository: https://github.com/pypa/setuptools
@@ -188,27 +188,27 @@ Stubsabot analysis of the diff between the two releases:
 
 ## 75.1.0.20241014 (2024-10-14)
 
-Correct types for `setuptools.setup` (#12791)
+Correct types for `setuptools.setup` ([#12791](https://github.com/python/typeshed/pull/12791))
 
 Co-authored-by: Avasam <samuel.06@hotmail.com>
 
 ## 75.1.0.20240917 (2024-09-17)
 
-[stubsabot] Bump setuptools to 75.1.* (#12670)
+[stubsabot] Bump setuptools to 75.1.* ([#12670](https://github.com/python/typeshed/pull/12670))
 
 Co-authored-by: stubsabot <>
 
-[setuptools] Bump to 75.0.* (#12668)
+[setuptools] Bump to 75.0.* ([#12668](https://github.com/python/typeshed/pull/12668))
 
 Co-authored-by: Avasam <samuel.06@hotmail.com>
 
 ## 74.1.0.20240907 (2024-09-07)
 
-distutils: add missing generated attributes (#12467)
+distutils: add missing generated attributes ([#12467](https://github.com/python/typeshed/pull/12467))
 
 ## 74.1.0.20240906 (2024-09-06)
 
-[setuptools] Update to 74.1.* (#12614)
+[setuptools] Update to 74.1.* ([#12614](https://github.com/python/typeshed/pull/12614))
 
 ---------
 
@@ -217,60 +217,60 @@ Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.gi
 
 ## 74.0.0.20240831 (2024-08-31)
 
-distutils: expose `Command.dry_run` + make `0|1` attrs `bool` (#12607)
+distutils: expose `Command.dry_run` + make `0|1` attrs `bool` ([#12607](https://github.com/python/typeshed/pull/12607))
 
 ## 74.0.0.20240830 (2024-08-30)
 
-Bump setuptools to 74.0.* (#12599)
+Bump setuptools to 74.0.* ([#12599](https://github.com/python/typeshed/pull/12599))
 
 ## 73.0.0.20240822 (2024-08-22)
 
-Bump setuptools to 73.0.* (#12564)
+Bump setuptools to 73.0.* ([#12564](https://github.com/python/typeshed/pull/12564))
 
 ## 72.2.0.20240821 (2024-08-21)
 
-Bump setuptools to 72.2.* (#12461)
+Bump setuptools to 72.2.* ([#12461](https://github.com/python/typeshed/pull/12461))
 
 Co-authored-by: Avasam <samuel.06@hotmail.com>
 Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
 ## 71.1.0.20240818 (2024-08-18)
 
-Update incorrect or incomplete constants in distutils (#12536)
+Update incorrect or incomplete constants in distutils ([#12536](https://github.com/python/typeshed/pull/12536))
 
 ## 71.1.0.20240813 (2024-08-13)
 
-Use Generator instead of Iterator for 3rd-party context managers (#12481)
+Use Generator instead of Iterator for 3rd-party context managers ([#12481](https://github.com/python/typeshed/pull/12481))
 
-`distutils` & `setuptools`: all possible dynamic command method overloads (#12507)
+`distutils` & `setuptools`: all possible dynamic command method overloads ([#12507](https://github.com/python/typeshed/pull/12507))
 
 ## 71.1.0.20240806 (2024-08-06)
 
-Bump mypy to 1.11.1 (#12463)
+Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
 
 ## 71.1.0.20240726 (2024-07-26)
 
-Setuptools stubs update from merging upstream (#12400)
+Setuptools stubs update from merging upstream ([#12400](https://github.com/python/typeshed/pull/12400))
 
-Replace bare Any in setuptools (#12406)
+Replace bare Any in setuptools ([#12406](https://github.com/python/typeshed/pull/12406))
 
 ## 71.1.0.20240724 (2024-07-24)
 
-`setuptools` & `distutils`: `ClassVar` mutables (and tuples) (#12403)
+`setuptools` & `distutils`: `ClassVar` mutables (and tuples) ([#12403](https://github.com/python/typeshed/pull/12403))
 
-`distutils`: Type `execute` using `TypeVarTuple` (#12405)
+`distutils`: Type `execute` using `TypeVarTuple` ([#12405](https://github.com/python/typeshed/pull/12405))
 
 ## 71.1.0.20240723 (2024-07-23)
 
-Bump setuptools to 71.1.* and mark `pkg_resources` as obsolete (#12397)
+Bump setuptools to 71.1.* and mark `pkg_resources` as obsolete ([#12397](https://github.com/python/typeshed/pull/12397))
 
 ## 71.0.0.20240722 (2024-07-22)
 
-Bump setuptools to 71.0.* (#12381)
+Bump setuptools to 71.0.* ([#12381](https://github.com/python/typeshed/pull/12381))
 
 ## 70.3.0.20240710 (2024-07-10)
 
-[stubsabot] Bump setuptools to 70.3.* (#12308)
+[stubsabot] Bump setuptools to 70.3.* ([#12308](https://github.com/python/typeshed/pull/12308))
 
 Release: https://pypi.org/pypi/setuptools/70.3.0
 Repository: https://github.com/pypa/setuptools
@@ -295,152 +295,152 @@ Co-authored-by: stubsabot <>
 
 ## 70.2.0.20240704 (2024-07-04)
 
-Bump setuptools to 70.2.* (#12261)
+Bump setuptools to 70.2.* ([#12261](https://github.com/python/typeshed/pull/12261))
 
 ## 70.1.0.20240627 (2024-06-27)
 
-Update setuptools to v70.1.1 (#12215)
+Update setuptools to v70.1.1 ([#12215](https://github.com/python/typeshed/pull/12215))
 
 ## 70.1.0.20240625 (2024-06-25)
 
-[setuptools] Update to 71.1.* (#12176)
+[setuptools] Update to 71.1.* ([#12176](https://github.com/python/typeshed/pull/12176))
 
 ## 70.0.0.20240524 (2024-05-24)
 
-Small fix for pkg_resources StrPath (#12015)
+Small fix for pkg_resources StrPath ([#12015](https://github.com/python/typeshed/pull/12015))
 
 ## 70.0.0.20240523 (2024-05-23)
 
-Make `shutil.rmtree.onexc` parameter optional (#12002)
+Make `shutil.rmtree.onexc` parameter optional ([#12002](https://github.com/python/typeshed/pull/12002))
 
-Bump setuptools to 70.0 (#11994)
+Bump setuptools to 70.0 ([#11994](https://github.com/python/typeshed/pull/11994))
 
 ## 69.5.0.20240522 (2024-05-22)
 
-`distutils` & `setuptools`: Relax path related params (#11948)
+`distutils` & `setuptools`: Relax path related params ([#11948](https://github.com/python/typeshed/pull/11948))
 
 Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
 ## 69.5.0.20240519 (2024-05-19)
 
-Make `distutils.dist.Distribution.get_command_obj` not return `None` by default (#11950)
+Make `distutils.dist.Distribution.get_command_obj` not return `None` by default ([#11950](https://github.com/python/typeshed/pull/11950))
 
-`distutils` & `setuptools`: Complete `sub_commands` `ClassVar` typing (#11951)
+`distutils` & `setuptools`: Complete `sub_commands` `ClassVar` typing ([#11951](https://github.com/python/typeshed/pull/11951))
 
 ## 69.5.0.20240518 (2024-05-18)
 
-`distutils`: improve boolean parameters with int defaults (#11928)
+`distutils`: improve boolean parameters with int defaults ([#11928](https://github.com/python/typeshed/pull/11928))
 
 ## 69.5.0.20240513 (2024-05-13)
 
-Avoid using new `_typeshed` protocol in `pkg_resources` for now (#11909)
+Avoid using new `_typeshed` protocol in `pkg_resources` for now ([#11909](https://github.com/python/typeshed/pull/11909))
 
-Use protocols instead of `importlib.abc.Loader/MetaPathFinder/PathEntryFinder` (#11890)
+Use protocols instead of `importlib.abc.Loader/MetaPathFinder/PathEntryFinder` ([#11890](https://github.com/python/typeshed/pull/11890))
 
 ## 69.5.0.20240423 (2024-04-23)
 
-Add precise values for enum members where possible (#11299)
+Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
 
 Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
 ## 69.5.0.20240415 (2024-04-15)
 
-Ensure that distutils and setuptools._distutils stay consistent (#11758)
+Ensure that distutils and setuptools._distutils stay consistent ([#11758](https://github.com/python/typeshed/pull/11758))
 
-Update setuptools to 69.5.* (#11756)
+Update setuptools to 69.5.* ([#11756](https://github.com/python/typeshed/pull/11756))
 
 ## 69.2.0.20240317 (2024-03-17)
 
-Add `distutils` as a top-level package included with `types-setuptools` (#10948)
+Add `distutils` as a top-level package included with `types-setuptools` ([#10948](https://github.com/python/typeshed/pull/10948))
 
-`setuptools`&`distutils`: `setup` returns a `Distribution` (#11617)
+`setuptools`&`distutils`: `setup` returns a `Distribution` ([#11617](https://github.com/python/typeshed/pull/11617))
 
 `setup` returns a `Distribution`
 
 ## 69.2.0.20240316 (2024-03-16)
 
-Bump setuptools to 69.2.* (#11603)
+Bump setuptools to 69.2.* ([#11603](https://github.com/python/typeshed/pull/11603))
 
 ## 69.1.0.20240310 (2024-03-10)
 
-`pkg_resources`: Make `_InstallerType` stricter and generic (#11527)
+`pkg_resources`: Make `_InstallerType` stricter and generic ([#11527](https://github.com/python/typeshed/pull/11527))
 
-Bump mypy to 1.9, add to json.encoder, small fixups (#11549)
+Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
 
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 69.1.0.20240309 (2024-03-09)
 
-Use strict pyright configs for `pkg_resources` (#11538)
+Use strict pyright configs for `pkg_resources` ([#11538](https://github.com/python/typeshed/pull/11538))
 
-`pkg_resources`: Updates from upstream typing merge (#11455)
+`pkg_resources`: Updates from upstream typing merge ([#11455](https://github.com/python/typeshed/pull/11455))
 
 ## 69.1.0.20240308 (2024-03-08)
 
-`pkg_resources`: Remove stray `Any`s and use more `Self` & `NoReturn` types (#11528)
+`pkg_resources`: Remove stray `Any`s and use more `Self` & `NoReturn` types ([#11528](https://github.com/python/typeshed/pull/11528))
 
 ## 69.1.0.20240302 (2024-03-02)
 
-`pkg_resources`: Remove type-only `_Importer` class (#11512)
+`pkg_resources`: Remove type-only `_Importer` class ([#11512](https://github.com/python/typeshed/pull/11512))
 
-`pkg_resources`: Types from assignments and aliases (#11511)
+`pkg_resources`: Types from assignments and aliases ([#11511](https://github.com/python/typeshed/pull/11511))
 
-Override `pkg_resources.ZipProvider.loader` type (#11514)
+Override `pkg_resources.ZipProvider.loader` type ([#11514](https://github.com/python/typeshed/pull/11514))
 
 ## 69.1.0.20240301 (2024-03-01)
 
-`setuptools` & `pkg_resources`: Complete `VendorImporter` class (#11495)
+`setuptools` & `pkg_resources`: Complete `VendorImporter` class ([#11495](https://github.com/python/typeshed/pull/11495))
 
-`pkg_resources`: don't ignore "missing symbol from stub" in stubtest (#11494)
+`pkg_resources`: don't ignore "missing symbol from stub" in stubtest ([#11494](https://github.com/python/typeshed/pull/11494))
 
-Fix invalid noqa comments and poorly formatted type ignores (#11497)
+Fix invalid noqa comments and poorly formatted type ignores ([#11497](https://github.com/python/typeshed/pull/11497))
 
 ## 69.1.0.20240229 (2024-02-29)
 
-`pkg_resources`: Reorder names to be closer to implementation (#11493)
+`pkg_resources`: Reorder names to be closer to implementation ([#11493](https://github.com/python/typeshed/pull/11493))
 
 ## 69.1.0.20240223 (2024-02-23)
 
-Improve typing of `sysconfig.get_config_var(s)` (#11454)
+Improve typing of `sysconfig.get_config_var(s)` ([#11454](https://github.com/python/typeshed/pull/11454))
 
 ## 69.1.0.20240217 (2024-02-17)
 
-fix: typo on setuptools (#11432)
+fix: typo on setuptools ([#11432](https://github.com/python/typeshed/pull/11432))
 
 ## 69.1.0.20240215 (2024-02-15)
 
-Bump setuptools to 69.1.* (#11423)
+Bump setuptools to 69.1.* ([#11423](https://github.com/python/typeshed/pull/11423))
 
 ## 69.0.0.20240125 (2024-01-25)
 
-Add missing `long_description_content_type` kwarg to setuptools (#11309)
+Add missing `long_description_content_type` kwarg to setuptools ([#11309](https://github.com/python/typeshed/pull/11309))
 
 ## 69.0.0.20240115 (2024-01-15)
 
-Fix types for `setuptools._distutils.ccompiler.CCompiler.compile` (#11275)
+Fix types for `setuptools._distutils.ccompiler.CCompiler.compile` ([#11275](https://github.com/python/typeshed/pull/11275))
 
 ## 69.0.0.20240106 (2024-01-06)
 
-Update typing_extensions imports in third-party stubs (#11245)
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 69.0.0.0 (2023-11-29)
 
-Bump setuptools to 69.0.* (#11069)
+Bump setuptools to 69.0.* ([#11069](https://github.com/python/typeshed/pull/11069))
 
 Co-authored-by: Avasam <samuel.06@hotmail.com>
 
 ## 68.2.0.2 (2023-11-24)
 
-Third-party stubs: remove unused `type: ignore`s (#11063)
+Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
 
 ## 68.2.0.1 (2023-11-09)
 
-Bump flake8-pyi to 23.11.0 (#10997)
+Bump flake8-pyi to 23.11.0 ([#10997](https://github.com/python/typeshed/pull/10997))
 
 ## 68.2.0.0 (2023-09-07)
 
-[stubsabot] Bump setuptools to 68.2.* (#10674)
+[stubsabot] Bump setuptools to 68.2.* ([#10674](https://github.com/python/typeshed/pull/10674))
 
 Release: https://pypi.org/pypi/setuptools/68.2.0
 Homepage: https://github.com/pypa/setuptools
@@ -457,11 +457,11 @@ Stubsabot analysis of the diff between the two releases:
 
 ## 68.1.0.1 (2023-08-30)
 
-setuptools: add various missing objects and annotations (#10639)
+setuptools: add various missing objects and annotations ([#10639](https://github.com/python/typeshed/pull/10639))
 
 ## 68.1.0.0 (2023-08-16)
 
-[stubsabot] Bump setuptools to 68.1.* (#10588)
+[stubsabot] Bump setuptools to 68.1.* ([#10588](https://github.com/python/typeshed/pull/10588))
 
 Release: https://pypi.org/pypi/setuptools/68.1.0
 Homepage: https://github.com/pypa/setuptools
@@ -478,21 +478,21 @@ Stubsabot analysis of the diff between the two releases:
 
 ## 68.0.0.3 (2023-07-20)
 
-Add an upstream_repository field to METADATA.toml (#10487)
+Add an upstream_repository field to METADATA.toml ([#10487](https://github.com/python/typeshed/pull/10487))
 
 Closes: #10478
 
 ## 68.0.0.2 (2023-07-15)
 
-Add stubs for `pkg_resources._vendor.packaging` (#10423)
+Add stubs for `pkg_resources._vendor.packaging` ([#10423](https://github.com/python/typeshed/pull/10423))
 
 ## 68.0.0.1 (2023-07-04)
 
-Bring back a few setuptools._distutils files (#10401)
+Bring back a few setuptools._distutils files ([#10401](https://github.com/python/typeshed/pull/10401))
 
 ## 68.0.0.0 (2023-06-21)
 
-Bump setuptools to 68.0 (#10339)
+Bump setuptools to 68.0 ([#10339](https://github.com/python/typeshed/pull/10339))
 
 * Any -> Incomplete in a few files
 * Bump setuptools to 68.0.*
@@ -501,7 +501,7 @@ Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 67.8.0.0 (2023-05-20)
 
-[stubsabot] Bump setuptools to 67.8.* (#10194)
+[stubsabot] Bump setuptools to 67.8.* ([#10194](https://github.com/python/typeshed/pull/10194))
 
 Release: https://pypi.org/pypi/setuptools/67.8.0
 Homepage: https://github.com/pypa/setuptools
@@ -521,19 +521,19 @@ Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 67.7.0.3 (2023-05-19)
 
-Don't ignore missing stubs in setuptools (#10058)
+Don't ignore missing stubs in setuptools ([#10058](https://github.com/python/typeshed/pull/10058))
 
 ## 67.7.0.2 (2023-05-10)
 
-Add `partial_stub` metadata field (#10157)
+Add `partial_stub` metadata field ([#10157](https://github.com/python/typeshed/pull/10157))
 
 ## 67.7.0.1 (2023-05-01)
 
-Avoid unnecessary forward refs in class definitions (#10124)
+Avoid unnecessary forward refs in class definitions ([#10124](https://github.com/python/typeshed/pull/10124))
 
 ## 67.7.0.0 (2023-04-22)
 
-setuptools: bump to 67.7 (#10069)
+setuptools: bump to 67.7 ([#10069](https://github.com/python/typeshed/pull/10069))
 
 Fixes #10067
 
@@ -541,23 +541,23 @@ Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 67.6.0.8 (2023-04-17)
 
-Add missing exception classes in `setuptools.errors` (#10057)
+Add missing exception classes in `setuptools.errors` ([#10057](https://github.com/python/typeshed/pull/10057))
 
 Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
 
 ## 67.6.0.7 (2023-04-04)
 
-`google-cloud-ndb`, `paramiko`, `setuptools`: remove unnecessary `= ...`s (#10011)
+`google-cloud-ndb`, `paramiko`, `setuptools`: remove unnecessary `= ...`s ([#10011](https://github.com/python/typeshed/pull/10011))
 
 ## 67.6.0.6 (2023-03-28)
 
-Add defaults for third-party stubs Q-T (#9959)
+Add defaults for third-party stubs Q-T ([#9959](https://github.com/python/typeshed/pull/9959))
 
 ## 67.6.0.5 (2023-03-17)
 
-distutils/setuptools: Don't use wildcards for allowlist entries (#9900)
+distutils/setuptools: Don't use wildcards for allowlist entries ([#9900](https://github.com/python/typeshed/pull/9900))
 
-Fill out more annotations for `distutils` & `setuptools` dist (#9895)
+Fill out more annotations for `distutils` & `setuptools` dist ([#9895](https://github.com/python/typeshed/pull/9895))
 
 Signed-off-by: Henry Schreiner <henryschreineriii@gmail.com>
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
@@ -565,34 +565,34 @@ Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
 ## 67.6.0.4 (2023-03-17)
 
-[setuptools] Fully annotate Extension.__init__ (#9899)
+[setuptools] Fully annotate Extension.__init__ ([#9899](https://github.com/python/typeshed/pull/9899))
 
 Add defaults to distutils.Extension.__init__
 
 ## 67.6.0.3 (2023-03-17)
 
-[distutils] Add generated methods to Distribution (#9896)
+[distutils] Add generated methods to Distribution ([#9896](https://github.com/python/typeshed/pull/9896))
 
 ## 67.6.0.2 (2023-03-16)
 
-`distutils.command.build_ext`: add more annotations to `get_ext_*` methods (#9894)
+`distutils.command.build_ext`: add more annotations to `get_ext_*` methods ([#9894](https://github.com/python/typeshed/pull/9894))
 
 Signed-off-by: Henry Schreiner <henryschreineriii@gmail.com>
 
-Add missing `distribution` attribute to `distutils.cmd.Command` (#9893)
+Add missing `distribution` attribute to `distutils.cmd.Command` ([#9893](https://github.com/python/typeshed/pull/9893))
 
 Signed-off-by: Henry Schreiner <henryschreineriii@gmail.com>
 
 ## 67.6.0.1 (2023-03-16)
 
-Add remaining types to setuptools.build_meta (#9890)
+Add remaining types to setuptools.build_meta ([#9890](https://github.com/python/typeshed/pull/9890))
 
 Signed-off-by: Henry Schreiner <henryschreineriii@gmail.com>
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 67.6.0.0 (2023-03-09)
 
-[stubsabot] Bump setuptools to 67.6.* (#9858)
+[stubsabot] Bump setuptools to 67.6.* ([#9858](https://github.com/python/typeshed/pull/9858))
 
 Release: https://pypi.org/pypi/setuptools/67.6.0
 Homepage: https://github.com/pypa/setuptools
@@ -608,11 +608,11 @@ Stubsabot analysis of the diff between the two releases:
 
 ## 67.5.0.0 (2023-03-06)
 
-Update pkg_resources-stubs for use in pytype_test (#9747)
+Update pkg_resources-stubs for use in pytype_test ([#9747](https://github.com/python/typeshed/pull/9747))
 
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-[stubsabot] Bump setuptools to 67.5.* (#9841)
+[stubsabot] Bump setuptools to 67.5.* ([#9841](https://github.com/python/typeshed/pull/9841))
 
 Release: https://pypi.org/pypi/setuptools/67.5.0
 Homepage: https://github.com/pypa/setuptools
@@ -628,15 +628,15 @@ Stubsabot analysis of the diff between the two releases:
 
 ## 67.4.0.3 (2023-02-26)
 
-Remove most of `setuptools._distutils` (#9795)
+Remove most of `setuptools._distutils` ([#9795](https://github.com/python/typeshed/pull/9795))
 
 ## 67.4.0.2 (2023-02-26)
 
-Improve many `__(a)exit__` annotations (#9696)
+Improve many `__(a)exit__` annotations ([#9696](https://github.com/python/typeshed/pull/9696))
 
 ## 67.4.0.1 (2023-02-22)
 
-Update `Unused` parameters in `stubs/` (#9704)
+Update `Unused` parameters in `stubs/` ([#9704](https://github.com/python/typeshed/pull/9704))
 
 * Update _Unused TypeAlias
 
@@ -646,7 +646,7 @@ Update `Unused` parameters in `stubs/` (#9704)
 
 ## 67.4.0.0 (2023-02-22)
 
-[stubsabot] Bump setuptools to 67.4.* (#9794)
+[stubsabot] Bump setuptools to 67.4.* ([#9794](https://github.com/python/typeshed/pull/9794))
 
 Release: https://pypi.org/pypi/setuptools/67.4.0
 Homepage: https://github.com/pypa/setuptools
@@ -659,25 +659,25 @@ Stubsabot analysis of the diff between the two releases:
 
 ## 67.3.0.2 (2023-02-21)
 
-Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
+Stubtest settings: change `ignore_missing_stub` default to `false` ([#9779](https://github.com/python/typeshed/pull/9779))
 
 If you're reading about this commit from an autogenerated changelog entry, this should have no user-visible impact on how the stubs are interpreted by a type checker; it's just an internal change to how typeshed's tests work.
 
 ## 67.3.0.1 (2023-02-15)
 
-Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+Use `typing_extensions.Self` instead of `_typeshed.Self` ([#9702](https://github.com/python/typeshed/pull/9702))
 
 ## 67.3.0.0 (2023-02-15)
 
-[stubsabot] Bump setuptools to 67.3.* (#9738)
+[stubsabot] Bump setuptools to 67.3.* ([#9738](https://github.com/python/typeshed/pull/9738))
 
 ## 67.2.0.1 (2023-02-09)
 
-Use `_typeshed.FileDescriptorOrPath` in stubs (#9695)
+Use `_typeshed.FileDescriptorOrPath` in stubs ([#9695](https://github.com/python/typeshed/pull/9695))
 
 ## 67.2.0.0 (2023-02-08)
 
-[stubsabot] Bump setuptools to 67.2.* (#9691)
+[stubsabot] Bump setuptools to 67.2.* ([#9691](https://github.com/python/typeshed/pull/9691))
 
 Release: https://pypi.org/pypi/setuptools/67.2.0
 Homepage: https://github.com/pypa/setuptools
@@ -701,39 +701,39 @@ Co-authored-by: stubsabot <>
 
 ## 67.1.0.2 (2023-02-07)
 
-Enable flake8-pyi's Y037 (#9686)
+Enable flake8-pyi's Y037 ([#9686](https://github.com/python/typeshed/pull/9686))
 
 ## 67.1.0.1 (2023-02-07)
 
-Bump mypy to 1.0 (#9684)
+Bump mypy to 1.0 ([#9684](https://github.com/python/typeshed/pull/9684))
 
 ## 67.1.0.0 (2023-02-03)
 
-Update setuptools to 67.1 (#9664)
+Update setuptools to 67.1 ([#9664](https://github.com/python/typeshed/pull/9664))
 
 Replace some instances of `Any` with `Incomplete` or proper types.
 
 ## 65.7.0.4 (2023-02-02)
 
-setuptools: add pkg_resources.Requirement.url (#9657)
+setuptools: add pkg_resources.Requirement.url ([#9657](https://github.com/python/typeshed/pull/9657))
 
 Co-authored-by: Shantanu <12621235+hauntsaninja@users.noreply.github.com>
 
 ## 65.7.0.3 (2023-01-18)
 
-Replace `Any` with `Incomplete` in many places (#9565)
+Replace `Any` with `Incomplete` in many places ([#9565](https://github.com/python/typeshed/pull/9565))
 
 ## 65.7.0.2 (2023-01-18)
 
-Replace `Any` with `Incomplete` in many places (#9558)
+Replace `Any` with `Incomplete` in many places ([#9558](https://github.com/python/typeshed/pull/9558))
 
 ## 65.7.0.1 (2023-01-13)
 
-Fix setuptools stubtest on windows (#9521)
+Fix setuptools stubtest on windows ([#9521](https://github.com/python/typeshed/pull/9521))
 
 ## 65.7.0.0 (2023-01-12)
 
-[stubsabot] Bump setuptools to 65.7.* (#9504)
+[stubsabot] Bump setuptools to 65.7.* ([#9504](https://github.com/python/typeshed/pull/9504))
 
 Release: https://pypi.org/pypi/setuptools/65.7.0
 Homepage: https://github.com/pypa/setuptools
@@ -742,13 +742,13 @@ Diff: https://github.com/pypa/setuptools/compare/v65.6.3...v65.7.0
 
 ## 65.6.0.3 (2023-01-05)
 
-Add `types-docutils` as a dependency of `types-setuptools` (#9460)
+Add `types-docutils` as a dependency of `types-setuptools` ([#9460](https://github.com/python/typeshed/pull/9460))
 
 Remove the need for subclassing `Any`
 
 ## 65.6.0.2 (2022-12-06)
 
-More pywin32 stub completion (#9308)
+More pywin32 stub completion ([#9308](https://github.com/python/typeshed/pull/9308))
 
 Completed based on usage of the following libraries in mypy_primer:
 - apprise
@@ -765,11 +765,11 @@ Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 65.6.0.1 (2022-11-23)
 
-Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
+Mark first argument of `__[get|set|del]attr__` as `str` ([#9245](https://github.com/python/typeshed/pull/9245))
 
 ## 65.6.0.0 (2022-11-20)
 
-[stubsabot] Bump setuptools to 65.6.* (#9227)
+[stubsabot] Bump setuptools to 65.6.* ([#9227](https://github.com/python/typeshed/pull/9227))
 
 Release: https://pypi.org/pypi/setuptools/65.6.0
 Homepage: https://github.com/pypa/setuptools
@@ -788,24 +788,24 @@ Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 65.5.0.3 (2022-11-12)
 
-Remove `setuptools._distutils.command.bdst_msi` (#9174)
+Remove `setuptools._distutils.command.bdst_msi` ([#9174](https://github.com/python/typeshed/pull/9174))
 
 It does not exist
 
 ## 65.5.0.2 (2022-10-24)
 
-Fix `pkg_resources.split_sections` (#8975)
+Fix `pkg_resources.split_sections` ([#8975](https://github.com/python/typeshed/pull/8975))
 
 This function is currently documented as returning a list of lines as
 the 2nd pair value.  It does not return plain str here.
 
 ## 65.5.0.1 (2022-10-16)
 
-Remove empty `__init__` methods from classes with 0 parents (#8907)
+Remove empty `__init__` methods from classes with 0 parents ([#8907](https://github.com/python/typeshed/pull/8907))
 
 ## 65.5.0.0 (2022-10-15)
 
-[stubsabot] Bump setuptools to 65.5.* (#8900)
+[stubsabot] Bump setuptools to 65.5.* ([#8900](https://github.com/python/typeshed/pull/8900))
 
 Release: https://pypi.org/pypi/setuptools/65.5.0
 Homepage: https://github.com/pypa/setuptools
@@ -829,7 +829,7 @@ Co-authored-by: stubsabot <>
 
 ## 65.4.0.0 (2022-09-30)
 
-[stubsabot] Bump setuptools to 65.4.* (#8811)
+[stubsabot] Bump setuptools to 65.4.* ([#8811](https://github.com/python/typeshed/pull/8811))
 
 Release: https://pypi.org/pypi/setuptools/65.4.0
 Homepage: https://github.com/pypa/setuptools
@@ -838,43 +838,43 @@ Diff: https://github.com/pypa/setuptools/compare/v65.3.0...v65.4.0
 
 ## 65.3.0 (2022-08-26)
 
-[stubsabot] Bump setuptools to 65.3.* (#8620)
+[stubsabot] Bump setuptools to 65.3.* ([#8620](https://github.com/python/typeshed/pull/8620))
 
 ## 65.1.0 (2022-08-19)
 
-Update setuptools to 65.1.* (#8565)
+Update setuptools to 65.1.* ([#8565](https://github.com/python/typeshed/pull/8565))
 
 Fixes #8563
 
 ## 64.0.1 (2022-08-13)
 
-setuptools: fix stubtest (#8540)
+setuptools: fix stubtest ([#8540](https://github.com/python/typeshed/pull/8540))
 
 Fixes #8539
 
 ## 64.0.0 (2022-08-12)
 
-[stubsabot] Bump setuptools to 64.0.* (#8534)
+[stubsabot] Bump setuptools to 64.0.* ([#8534](https://github.com/python/typeshed/pull/8534))
 
 ## 63.4.1 (2022-08-11)
 
-setuptools: delete _distutils.command.check.HAS_DOCUTILS (#8529)
+setuptools: delete _distutils.command.check.HAS_DOCUTILS ([#8529](https://github.com/python/typeshed/pull/8529))
 
 Fixes #8527
 
 ## 63.4.0 (2022-08-05)
 
-[stubsabot] Bump setuptools to 63.4.* (#8493)
+[stubsabot] Bump setuptools to 63.4.* ([#8493](https://github.com/python/typeshed/pull/8493))
 
 Co-authored-by: stubsabot <>
 
 ## 63.2.3 (2022-08-03)
 
-Remove redundant `__str__` methods (#8475)
+Remove redundant `__str__` methods ([#8475](https://github.com/python/typeshed/pull/8475))
 
 ## 63.2.2 (2022-07-28)
 
-Fix todo in setuptools.command.test (#8416)
+Fix todo in setuptools.command.test ([#8416](https://github.com/python/typeshed/pull/8416))
 
 With https://github.com/python/mypy/pull/10884 merged and released, this should be safe to re-enable per the todo comment.
 
@@ -882,37 +882,37 @@ https://github.com/pypa/setuptools/blob/main/setuptools/command/test.py#L117
 
 ## 63.2.1 (2022-07-20)
 
-Update setuptools stubs (#8345)
+Update setuptools stubs ([#8345](https://github.com/python/typeshed/pull/8345))
 
 setuptools now vendors `distutils` as `setuptools._distutils`.
 
 ## 63.2.0 (2022-07-15)
 
-[stubsabot] Bump setuptools to 63.2.* (#8301)
+[stubsabot] Bump setuptools to 63.2.* ([#8301](https://github.com/python/typeshed/pull/8301))
 
 Co-authored-by: hauntsaninja <>
 
 ## 62.6.1 (2022-07-11)
 
-Remove Python 3.6 branches from typeshed (#8269)
+Remove Python 3.6 branches from typeshed ([#8269](https://github.com/python/typeshed/pull/8269))
 
 ## 62.6.0 (2022-07-08)
 
-[stubsabot] Bump setuptools to 62.6.* (#8224)
+[stubsabot] Bump setuptools to 62.6.* ([#8224](https://github.com/python/typeshed/pull/8224))
 
 Most of setuptools.config is not included as the module is deprecated.
 
 ## 57.4.18 (2022-06-26)
 
-Third-party stubs: audit `Callable[<parameters>, None]` annotations (#8175)
+Third-party stubs: audit `Callable[<parameters>, None]` annotations ([#8175](https://github.com/python/typeshed/pull/8175))
 
 ## 57.4.17 (2022-05-26)
 
-Third-party stubs: fix several fictitious type aliases (#7958)
+Third-party stubs: fix several fictitious type aliases ([#7958](https://github.com/python/typeshed/pull/7958))
 
 ## 57.4.16 (2022-05-25)
 
-pkg_resources: Fix unconstrained TypeVars (#7941)
+pkg_resources: Fix unconstrained TypeVars ([#7941](https://github.com/python/typeshed/pull/7941))
 
 https://github.com/pypa/setuptools/blob/499c468a57d240e5bb450bdb6daedc3e559541dd/pkg_resources/__init__.py#L1049
 
@@ -920,66 +920,66 @@ Part of #7928
 
 ## 57.4.15 (2022-05-22)
 
-More setuptools.command.easy_install definitions. (#7145)
+More setuptools.command.easy_install definitions. ([#7145](https://github.com/python/typeshed/pull/7145))
 
 Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
 Co-authored-by: Akuli <akuviljanen17@gmail.com>
 
 ## 57.4.14 (2022-04-16)
 
-Third-party stubs: import from `collections.abc` where possible (#7637)
+Third-party stubs: import from `collections.abc` where possible ([#7637](https://github.com/python/typeshed/pull/7637))
 
 ## 57.4.13 (2022-04-16)
 
-Use `TypeAlias` where possible for type aliases (#7630)
+Use `TypeAlias` where possible for type aliases ([#7630](https://github.com/python/typeshed/pull/7630))
 
 ## 57.4.12 (2022-04-05)
 
-Mark many attributes as read-only properties (#7591)
+Mark many attributes as read-only properties ([#7591](https://github.com/python/typeshed/pull/7591))
 
 ## 57.4.11 (2022-03-16)
 
-Use PEP 604 syntax wherever possible (#7493)
+Use PEP 604 syntax wherever possible ([#7493](https://github.com/python/typeshed/pull/7493))
 
 ## 57.4.10 (2022-03-08)
 
-Widen the `cmdclass` parameter of `setuptools.setup` (#7458)
+Widen the `cmdclass` parameter of `setuptools.setup` ([#7458](https://github.com/python/typeshed/pull/7458))
 
 ## 57.4.9 (2022-02-07)
 
-Improve some in-place BinOp methods (#7149)
+Improve some in-place BinOp methods ([#7149](https://github.com/python/typeshed/pull/7149))
 
 ## 57.4.8 (2022-01-30)
 
-Reduce use of `Any` in equality methods (#7081)
+Reduce use of `Any` in equality methods ([#7081](https://github.com/python/typeshed/pull/7081))
 
 Co-authored-by: Akuli <akuviljanen17@gmail.com>
 
 ## 57.4.7 (2022-01-08)
 
-Use lowercase `type` everywhere (#6853)
+Use lowercase `type` everywhere ([#6853](https://github.com/python/typeshed/pull/6853))
 
 ## 57.4.5 (2021-12-28)
 
-Use PEP 585 syntax wherever possible (#6717)
+Use PEP 585 syntax wherever possible ([#6717](https://github.com/python/typeshed/pull/6717))
 
 ## 57.4.4 (2021-11-26)
 
-Add mypy error codes to '# type: ignore' comments (#6379)
+Add mypy error codes to '# type: ignore' comments ([#6379](https://github.com/python/typeshed/pull/6379))
 
 ## 57.4.3 (2021-11-23)
 
-Reduce use of deprecated `typing` aliases (#6358)
+Reduce use of deprecated `typing` aliases ([#6358](https://github.com/python/typeshed/pull/6358))
 
 ## 57.4.2 (2021-10-15)
 
-Use lowercase tuple where possible (#6170)
+Use lowercase tuple where possible ([#6170](https://github.com/python/typeshed/pull/6170))
 
 ## 57.4.1 (2021-10-12)
 
-Add star to all non-0.1 versions (#6146)
+Add star to all non-0.1 versions ([#6146](https://github.com/python/typeshed/pull/6146))
 
 ## 57.4.0 (2021-09-19)
 
-Add setuptools stubs (#5762)
+Add setuptools stubs ([#5762](https://github.com/python/typeshed/pull/5762))
 
