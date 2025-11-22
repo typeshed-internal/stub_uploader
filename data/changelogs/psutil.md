@@ -1,3 +1,7 @@
+## 7.1.1.20251122 (2025-11-22)
+
+[psutil] Bump psutil to 7.1.1 ([#14873](https://github.com/python/typeshed/pull/14873))
+
 ## 7.0.0.20251116 (2025-11-16)
 
 [psutil] Annotate few common attributes ([#15031](https://github.com/python/typeshed/pull/15031))
