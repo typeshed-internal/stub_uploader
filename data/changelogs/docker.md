@@ -1,3 +1,11 @@
+## 7.1.0.20251125 (2025-11-25)
+
+[docker-py] Fix `Container.top()` return type ([#15067](https://github.com/python/typeshed/pull/15067))
+
+[docker-py] Add `str` type to `named` parameter in `Image.save()` method ([#15068](https://github.com/python/typeshed/pull/15068))
+
+[docker-py] Add some return types to `DockerClient` method ([#15069](https://github.com/python/typeshed/pull/15069))
+
 ## 7.1.0.20251009 (2025-10-09)
 
 [docker] Fix some incomplete types ([#14817](https://github.com/python/typeshed/pull/14817))

@@ -1,3 +1,7 @@
+## 7.1.3.20251125 (2025-11-25)
+
+[psutil] Update to 7.1.3 ([#15074](https://github.com/python/typeshed/pull/15074))
+
 ## 7.1.1.20251122 (2025-11-22)
 
 [psutil] Bump psutil to 7.1.1 ([#14873](https://github.com/python/typeshed/pull/14873))
