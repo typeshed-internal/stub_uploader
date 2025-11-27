@@ -1,3 +1,7 @@
+## 7.1.0.20251127 (2025-11-27)
+
+[docker-py] Fix the type of `Model` and `Collection` `client` attribute ([#15083](https://github.com/python/typeshed/pull/15083))
+
 ## 7.1.0.20251125 (2025-11-25)
 
 [docker-py] Fix `Container.top()` return type ([#15067](https://github.com/python/typeshed/pull/15067))

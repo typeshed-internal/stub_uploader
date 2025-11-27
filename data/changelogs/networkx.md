@@ -1,3 +1,7 @@
+## 3.6.0.20251127 (2025-11-27)
+
+[networkx] Update to 3.6 ([#15086](https://github.com/python/typeshed/pull/15086))
+
 ## 3.5.0.20251106 (2025-11-06)
 
 Add annotations to `networkx.algorithms.approximation.treewidth` ([#14983](https://github.com/python/typeshed/pull/14983))

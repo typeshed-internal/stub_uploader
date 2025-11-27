@@ -1,3 +1,7 @@
+## 7.1.3.20251127 (2025-11-27)
+
+[psutil] Complete AIX ([#15088](https://github.com/python/typeshed/pull/15088))
+
 ## 7.1.3.20251125 (2025-11-25)
 
 [psutil] Update to 7.1.3 ([#15074](https://github.com/python/typeshed/pull/15074))
