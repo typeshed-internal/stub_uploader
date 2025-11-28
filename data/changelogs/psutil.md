@@ -1,3 +1,7 @@
+## 7.1.3.20251128 (2025-11-28)
+
+[psutil] Complete SunOS ([#15089](https://github.com/python/typeshed/pull/15089))
+
 ## 7.1.3.20251127 (2025-11-27)
 
 [psutil] Complete AIX ([#15088](https://github.com/python/typeshed/pull/15088))
