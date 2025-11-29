@@ -1,3 +1,7 @@
+## 7.1.3.20251129 (2025-11-29)
+
+[psutil] Complete BSD ([#15090](https://github.com/python/typeshed/pull/15090))
+
 ## 7.1.3.20251128 (2025-11-28)
 
 [psutil] Complete SunOS ([#15089](https://github.com/python/typeshed/pull/15089))

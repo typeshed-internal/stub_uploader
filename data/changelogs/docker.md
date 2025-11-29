@@ -1,3 +1,7 @@
+## 7.1.0.20251129 (2025-11-29)
+
+[docker-py] Add some missing types ([#15084](https://github.com/python/typeshed/pull/15084))
+
 ## 7.1.0.20251127 (2025-11-27)
 
 [docker-py] Fix the type of `Model` and `Collection` `client` attribute ([#15083](https://github.com/python/typeshed/pull/15083))
