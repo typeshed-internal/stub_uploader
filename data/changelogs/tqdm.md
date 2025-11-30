@@ -1,26 +1,26 @@
 ## 4.67.0.20250809 (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
 ## 4.67.0.20250516 (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs (#14063)
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
 ## 4.67.0.20250513 (2025-05-13)
 
-tqdm: Fix return type of `async for` loop (#14028)
+tqdm: Fix return type of `async for` loop ([#14028](https://github.com/python/typeshed/pull/14028))
 
 ## 4.67.0.20250417 (2025-04-17)
 
-[tqdm] Add return type to tqdm.asyncio.gather (#13839)
+[tqdm] Add return type to tqdm.asyncio.gather ([#13839](https://github.com/python/typeshed/pull/13839))
 
 ## 4.67.0.20250404 (2025-04-04)
 
-Enable Ruff flake8-todos (TD) (#13748)
+Enable Ruff flake8-todos (TD) ([#13748](https://github.com/python/typeshed/pull/13748))
 
 ## 4.67.0.20250401 (2025-04-01)
 
-Add `__all__` part 2 (#13719)
+Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
 
 ---------
 
@@ -28,61 +28,61 @@ Co-authored-by: Avasam <samuel.06@hotmail.com>
 
 ## 4.67.0.20250319 (2025-03-19)
 
-[CI] Run stubtest with Python 3.13 (#13638)
+[CI] Run stubtest with Python 3.13 ([#13638](https://github.com/python/typeshed/pull/13638))
 
 ## 4.67.0.20250301 (2025-03-01)
 
-fix yield type of `tqdm.as_completed` (#13557)
+fix yield type of `tqdm.as_completed` ([#13557](https://github.com/python/typeshed/pull/13557))
 
 ## 4.67.0.20250228 (2025-02-28)
 
-tqdm: Improve wrapattr (#13361)
+tqdm: Improve wrapattr ([#13361](https://github.com/python/typeshed/pull/13361))
 
 ## 4.67.0.20241221 (2024-12-21)
 
-Update to mypy 1.14 (#13272)
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
 ## 4.67.0.20241220 (2024-12-20)
 
-Fix tqdm.asyncio type inconsistency (#13259)
+Fix tqdm.asyncio type inconsistency ([#13259](https://github.com/python/typeshed/pull/13259))
 
 ## 4.67.0.20241119 (2024-11-19)
 
-Update tqdm to 4.67.* (#13004)
+Update tqdm to 4.67.* ([#13004](https://github.com/python/typeshed/pull/13004))
 
 ## 4.66.0.20240417 (2024-04-17)
 
-Remove remaining bare `Incomplete`s (#11768)
+Remove remaining bare `Incomplete`s ([#11768](https://github.com/python/typeshed/pull/11768))
 
 Enable Y065
 
 ## 4.66.0.20240106 (2024-01-06)
 
-Update typing_extensions imports in third-party stubs (#11245)
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 4.66.0.5 (2023-11-24)
 
-Third-party stubs: remove unused `type: ignore`s (#11063)
+Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
 
 ## 4.66.0.4 (2023-11-07)
 
-Remove redundant inheritances from `Generic` and various `typing` protocols (#10981)
+Remove redundant inheritances from `Generic` and various `typing` protocols ([#10981](https://github.com/python/typeshed/pull/10981))
 
 ## 4.66.0.3 (2023-10-27)
 
-Remove many redundant inheritances from `Generic[]` (#10933)
+Remove many redundant inheritances from `Generic[]` ([#10933](https://github.com/python/typeshed/pull/10933))
 
 ## 4.66.0.2 (2023-08-28)
 
-Consistently use `Generic` as the last base class (#10610)
+Consistently use `Generic` as the last base class ([#10610](https://github.com/python/typeshed/pull/10610))
 
 ## 4.66.0.1 (2023-08-11)
 
-Fix stubtest for `tqdm` (#10560)
+Fix stubtest for `tqdm` ([#10560](https://github.com/python/typeshed/pull/10560))
 
 ## 4.66.0.0 (2023-08-10)
 
-[stubsabot] Bump tqdm to 4.66.* (#10552)
+[stubsabot] Bump tqdm to 4.66.* ([#10552](https://github.com/python/typeshed/pull/10552))
 
 Release: https://pypi.org/pypi/tqdm/4.66.0
 Repository: https://github.com/tqdm/tqdm
@@ -100,43 +100,43 @@ Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 4.65.0.2 (2023-07-20)
 
-Add an upstream_repository field to METADATA.toml (#10487)
+Add an upstream_repository field to METADATA.toml ([#10487](https://github.com/python/typeshed/pull/10487))
 
 Closes: #10478
 
 ## 4.65.0.1 (2023-03-28)
 
-Add defaults for third-party stubs Q-T (#9959)
+Add defaults for third-party stubs Q-T ([#9959](https://github.com/python/typeshed/pull/9959))
 
 ## 4.65.0.0 (2023-03-04)
 
-Update `tqdm` stubs to 4.65.* (#9840)
+Update `tqdm` stubs to 4.65.* ([#9840](https://github.com/python/typeshed/pull/9840))
 
 ## 4.64.7.16 (2023-02-26)
 
-Improve many `__(a)exit__` annotations (#9696)
+Improve many `__(a)exit__` annotations ([#9696](https://github.com/python/typeshed/pull/9696))
 
 ## 4.64.7.15 (2023-02-21)
 
-Integrate requirements-stubtest.txt into METADATA.toml (#9778)
+Integrate requirements-stubtest.txt into METADATA.toml ([#9778](https://github.com/python/typeshed/pull/9778))
 
 ## 4.64.7.14 (2023-02-21)
 
-Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
+Stubtest settings: change `ignore_missing_stub` default to `false` ([#9779](https://github.com/python/typeshed/pull/9779))
 
 If you're reading about this commit from an autogenerated changelog entry, this should have no user-visible impact on how the stubs are interpreted by a type checker; it's just an internal change to how typeshed's tests work.
 
 ## 4.64.7.13 (2023-02-15)
 
-Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+Use `typing_extensions.Self` instead of `_typeshed.Self` ([#9702](https://github.com/python/typeshed/pull/9702))
 
 ## 4.64.7.12 (2023-02-07)
 
-Complete stubtest and fix `Any` subclassing in `tqdm` (#9525)
+Complete stubtest and fix `Any` subclassing in `tqdm` ([#9525](https://github.com/python/typeshed/pull/9525))
 
 ## 4.64.7.11 (2023-01-18)
 
-Improve pre-commit config (#9563)
+Improve pre-commit config ([#9563](https://github.com/python/typeshed/pull/9563))
 
 - Add a few more hooks. These are all very fast, and I've found them useful in other projects:
   - Autofixes:
@@ -154,61 +154,61 @@ Improve pre-commit config (#9563)
 
 ## 4.64.7.10 (2023-01-13)
 
-Fix some Any subclassing in tqdm (#9505)
+Fix some Any subclassing in tqdm ([#9505](https://github.com/python/typeshed/pull/9505))
 
 ## 4.64.7.9 (2022-11-23)
 
-tqdm: Add missing tqdm.monitor class variable (#9249)
+tqdm: Add missing tqdm.monitor class variable ([#9249](https://github.com/python/typeshed/pull/9249))
 
 Co-authored-by: Gabriel Smith <gabriel.smith@precisionot.com>
 
 ## 4.64.7.3 (2022-11-11)
 
-tqdm: allow `disable=None` in `tqdm.__init__` (#9154)
+tqdm: allow `disable=None` in `tqdm.__init__` ([#9154](https://github.com/python/typeshed/pull/9154))
 
 ## 4.64.7.2 (2022-11-08)
 
-Fix and allow classes with missing metaclasses (#9136)
+Fix and allow classes with missing metaclasses ([#9136](https://github.com/python/typeshed/pull/9136))
 
 ## 4.64.7.1 (2022-10-16)
 
-Remove empty `__init__` methods from classes with 0 parents (#8907)
+Remove empty `__init__` methods from classes with 0 parents ([#8907](https://github.com/python/typeshed/pull/8907))
 
 ## 4.64.7 (2022-09-27)
 
-Bump mypy to 0.981 (#8796)
+Bump mypy to 0.981 ([#8796](https://github.com/python/typeshed/pull/8796))
 
 ## 4.64.6 (2022-08-24)
 
-tqdm: All `leave` arguments can be `None` (#8603)
+tqdm: All `leave` arguments can be `None` ([#8603](https://github.com/python/typeshed/pull/8603))
 
 All `leave` arguments are optional in tqdm.
 
 ## 4.64.5 (2022-08-18)
 
-Support extras in stubtest_third_party.py (#8467)
+Support extras in stubtest_third_party.py ([#8467](https://github.com/python/typeshed/pull/8467))
 
 ## 4.64.4 (2022-07-15)
 
-`tqdm`: Add `__all__` to `__init__.pyi` and submodules (#8308)
+`tqdm`: Add `__all__` to `__init__.pyi` and submodules ([#8308](https://github.com/python/typeshed/pull/8308))
 
 Fixes #8307
 
 ## 4.64.3 (2022-07-15)
 
-`tqdm`: Improve a few `__init__` methods (#8246)
+`tqdm`: Improve a few `__init__` methods ([#8246](https://github.com/python/typeshed/pull/8246))
 
 ## 4.64.2 (2022-07-12)
 
-Import `Match` and `Pattern` from `re`, not `typing` (#8277)
+Import `Match` and `Pattern` from `re`, not `typing` ([#8277](https://github.com/python/typeshed/pull/8277))
 
 ## 4.64.1 (2022-07-07)
 
-Improve `tqdm.contrib.logging` context managers (#8251)
+Improve `tqdm.contrib.logging` context managers ([#8251](https://github.com/python/typeshed/pull/8251))
 
 ## 4.64.0 (2022-07-05)
 
-Add stubs for `tqdm` (#8235)
+Add stubs for `tqdm` ([#8235](https://github.com/python/typeshed/pull/8235))
 
 Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
