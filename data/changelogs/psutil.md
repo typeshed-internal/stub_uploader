@@ -1,3 +1,7 @@
+## 7.1.3.20251130 (2025-11-30)
+
+[psutil] Complete Linux ([#15093](https://github.com/python/typeshed/pull/15093))
+
 ## 7.1.3.20251129 (2025-11-29)
 
 [psutil] Complete BSD ([#15090](https://github.com/python/typeshed/pull/15090))
