@@ -1,3 +1,29 @@
+## 25.11.29.20251201 (2025-12-01)
+
+[stubsabot] Bump flake8-bugbear to 25.11.29 ([#15096](https://github.com/python/typeshed/pull/15096))
+
+Release: https://pypi.org/pypi/flake8-bugbear/25.11.29
+Homepage: https://github.com/PyCQA/flake8-bugbear
+Repository: https://github.com/PyCQA/flake8-bugbear
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-bugbear
+Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+Diff: https://github.com/PyCQA/flake8-bugbear/compare/25.10.21...25.11.29
+
+Stubsabot analysis of the diff between the two releases:
+ - 1 public Python file has been added: `tests/eval_files/b043.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `bugbear.py`.
+ - Total lines of Python code added: 97.
+ - Total lines of Python code deleted: 3.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 25.10.21.20251024 (2025-10-24)
 
 [flake8-bugbear] Update to 25.10.21 ([#14912](https://github.com/python/typeshed/pull/14912))
