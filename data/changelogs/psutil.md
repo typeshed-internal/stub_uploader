@@ -1,3 +1,7 @@
+## 7.1.3.20251202 (2025-12-02)
+
+[psutil] Complete common POSIX logic ([#15094](https://github.com/python/typeshed/pull/15094))
+
 ## 7.1.3.20251130 (2025-11-30)
 
 [psutil] Complete Linux ([#15093](https://github.com/python/typeshed/pull/15093))

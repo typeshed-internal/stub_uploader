@@ -1,3 +1,9 @@
+## 7.1.0.20251202 (2025-12-02)
+
+Fix docker exec types ([#15097](https://github.com/python/typeshed/pull/15097))
+
+[docker-py] Add fallback `exec_start` overload ([#15098](https://github.com/python/typeshed/pull/15098))
+
 ## 7.1.0.20251129 (2025-11-29)
 
 [docker-py] Add some missing types ([#15084](https://github.com/python/typeshed/pull/15084))
