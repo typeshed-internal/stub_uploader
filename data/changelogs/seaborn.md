@@ -1,3 +1,7 @@
+## 0.13.2.20251203 (2025-12-03)
+
+Pin dependencies on pandas-stubs to < 2.3.3.251201 ([#15100](https://github.com/python/typeshed/pull/15100))
+
 ## 0.13.2.20250914 (2025-09-14)
 
 Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))

@@ -1,3 +1,7 @@
+## 1.1.1.20251203 (2025-12-03)
+
+Pin dependencies on pandas-stubs to < 2.3.3.251201 ([#15100](https://github.com/python/typeshed/pull/15100))
+
 ## 1.1.1.20250829 (2025-08-29)
 
 [geopandas] Some @final methods are overridden ([#14657](https://github.com/python/typeshed/pull/14657))
