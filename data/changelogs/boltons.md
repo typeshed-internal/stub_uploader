@@ -10,81 +10,81 @@ Add missing defaults to third-party stubs ([#14617](https://github.com/python/ty
 
 ## 25.0.0.20250809 (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
 ## 25.0.0.20250703 (2025-07-03)
 
-Make Mapping.get(default) more constrained (#14360)
+Make Mapping.get(default) more constrained ([#14360](https://github.com/python/typeshed/pull/14360))
 
 ## 25.0.0.20250516 (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs (#14063)
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
 ## 25.0.0.20250326 (2025-03-26)
 
-Add `__all__` (#13704)
+Add `__all__` ([#13704](https://github.com/python/typeshed/pull/13704))
 
 ## 25.0.0.20250304 (2025-03-04)
 
-Drop flake8-noqa and remove workarounds to work with Ruff (#13571)
+Drop flake8-noqa and remove workarounds to work with Ruff ([#13571](https://github.com/python/typeshed/pull/13571))
 
-Enable Ruff PLC (Pylint Convention) (#13306)
+Enable Ruff PLC (Pylint Convention) ([#13306](https://github.com/python/typeshed/pull/13306))
 
 ## 25.0.0.20250223 (2025-02-23)
 
-Updates to boltons types (#13517)
+Updates to boltons types ([#13517](https://github.com/python/typeshed/pull/13517))
 
 ## 25.0.0.20250210 (2025-02-10)
 
-Bump boltons to 25.0.* (#13481)
+Bump boltons to 25.0.* ([#13481](https://github.com/python/typeshed/pull/13481))
 
 Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
 ## 24.1.0.20241221 (2024-12-21)
 
-Update to mypy 1.14 (#13272)
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
 ## 24.1.0.20241113 (2024-11-13)
 
-Bump boltons to 24.1.* (#12970)
+Bump boltons to 24.1.* ([#12970](https://github.com/python/typeshed/pull/12970))
 
 Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
 ## 24.0.0.20240423 (2024-04-23)
 
-Bump boltons to 24.0.* (#11804)
+Bump boltons to 24.0.* ([#11804](https://github.com/python/typeshed/pull/11804))
 
 ## 23.1.0.20240331 (2024-03-31)
 
-Remove bare Incomplete annotations in third-party stubs (#11671)
+Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
 
 ## 23.1.0.20240310 (2024-03-10)
 
-Bump mypy to 1.9, add to json.encoder, small fixups (#11549)
+Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
 
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 23.1.0.20240106 (2024-01-06)
 
-Update typing_extensions imports in third-party stubs (#11245)
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 23.1.0.0 (2023-11-30)
 
-Bump boltons to 23.1.* (#11083)
+Bump boltons to 23.1.* ([#11083](https://github.com/python/typeshed/pull/11083))
 
 ## 23.0.0.2 (2023-11-22)
 
-third-party stubs: Add several missing `__del__` methods (#11054)
+third-party stubs: Add several missing `__del__` methods ([#11054](https://github.com/python/typeshed/pull/11054))
 
 ## 23.0.0.1 (2023-07-20)
 
-Add an upstream_repository field to METADATA.toml (#10487)
+Add an upstream_repository field to METADATA.toml ([#10487](https://github.com/python/typeshed/pull/10487))
 
 Closes: #10478
 
 ## 23.0.0.0 (2023-06-07)
 
-add boltons (#8892)
+add boltons ([#8892](https://github.com/python/typeshed/pull/8892))
 
 Co-authored-by: Andrey Maslennikov <andrew.maslennikov@gmail.com>
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>

@@ -18,55 +18,55 @@ Add __slots__ to third-party packages using stubdefaulter ([#14619](https://gith
 
 ## 6.30.2.20250809 (2025-08-09)
 
-Fix dunder-method positional-only parameter discrepancies in third-party stubs (#14529)
+Fix dunder-method positional-only parameter discrepancies in third-party stubs ([#14529](https://github.com/python/typeshed/pull/14529))
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
 ## 6.30.2.20250703 (2025-07-03)
 
-Make Mapping.get(default) more constrained (#14360)
+Make Mapping.get(default) more constrained ([#14360](https://github.com/python/typeshed/pull/14360))
 
 ## 6.30.2.20250516 (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs (#14063)
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
 ## 6.30.2.20250506 (2025-05-06)
 
-Run Black on *_pb2 files (#13930)
+Run Black on *_pb2 files ([#13930](https://github.com/python/typeshed/pull/13930))
 
-stubtest-complete grpcio plugins (#13932)
+stubtest-complete grpcio plugins ([#13932](https://github.com/python/typeshed/pull/13932))
 
 ## 6.30.2.20250503 (2025-05-03)
 
-Bump protobuf to ~=6.30.2 (#13922)
+Bump protobuf to ~=6.30.2 ([#13922](https://github.com/python/typeshed/pull/13922))
 
 Co-authored-by: Avasam <samuel.06@hotmail.com>
 
-Mention rerunning sync_protobuf scripts (#13924)
+Mention rerunning sync_protobuf scripts ([#13924](https://github.com/python/typeshed/pull/13924))
 
 ## 5.29.1.20250402 (2025-04-02)
 
-Bump ruff to 0.11.2 (#13757)
+Bump ruff to 0.11.2 ([#13757](https://github.com/python/typeshed/pull/13757))
 
 ## 5.29.1.20250315 (2025-03-15)
 
-[protobuf] Add missing properties for class FieldDescriptor (#13625)
+[protobuf] Add missing properties for class FieldDescriptor ([#13625](https://github.com/python/typeshed/pull/13625))
 
 ## 5.29.1.20250208 (2025-02-08)
 
-Bump mypy to 1.15.0 (#13473)
+Bump mypy to 1.15.0 ([#13473](https://github.com/python/typeshed/pull/13473))
 
 ## 5.29.1.20241207 (2024-12-07)
 
-Bump protobuf to ~=5.29.1 (#13209)
+Bump protobuf to ~=5.29.1 ([#13209](https://github.com/python/typeshed/pull/13209))
 
 ## 5.28.3.20241203 (2024-12-03)
 
-Add `google.protobuf.runtime_version` (#13161)
+Add `google.protobuf.runtime_version` ([#13161](https://github.com/python/typeshed/pull/13161))
 
 ## 5.28.3.20241030 (2024-10-30)
 
-Bump tensorflow to ~=2.18.0 (#12916)
+Bump tensorflow to ~=2.18.0 ([#12916](https://github.com/python/typeshed/pull/12916))
 
 * Tensorflow proto script update
 
@@ -76,7 +76,7 @@ Bump tensorflow to ~=2.18.0 (#12916)
 
 ## 5.28.3.20241029 (2024-10-29)
 
-Use `lib/ts_utils` for `scripts/sync_protobuf` (#12913)
+Use `lib/ts_utils` for `scripts/sync_protobuf` ([#12913](https://github.com/python/typeshed/pull/12913))
 
 - Simplified `download_file` error handling (400+ return codes already raised errors!)
 - Moved `update_metadata` from `scripts/sync_protobuf/_utils.py` to `lib/ts_utils/metadata.py`
@@ -87,86 +87,86 @@ Use `lib/ts_utils` for `scripts/sync_protobuf` (#12913)
 
 ## 5.28.0.20240924 (2024-09-24)
 
-Bump protobuf to 5.28.* (#12689)
+Bump protobuf to 5.28.* ([#12689](https://github.com/python/typeshed/pull/12689))
 
 ## 5.27.0.20240920 (2024-09-20)
 
-Rewrote protobuf generation scripts in Python (#12527)
+Rewrote protobuf generation scripts in Python ([#12527](https://github.com/python/typeshed/pull/12527))
 
 ## 5.27.0.20240907 (2024-09-07)
 
-Update MergeFrom annotations in protobuf containers.pyi (#12623)
+Update MergeFrom annotations in protobuf containers.pyi ([#12623](https://github.com/python/typeshed/pull/12623))
 
 ## 5.27.0.20240626 (2024-06-26)
 
-Bump protobuf to 5.27.* (#12197)
+Bump protobuf to 5.27.* ([#12197](https://github.com/python/typeshed/pull/12197))
 
 ## 5.26.0.20240422 (2024-04-22)
 
-Simplify protoc install in protobuf generation scripts (#11785)
+Simplify protoc install in protobuf generation scripts ([#11785](https://github.com/python/typeshed/pull/11785))
 
 ## 5.26.0.20240420 (2024-04-20)
 
-Bump protobuf to 5.26.* (#11784)
+Bump protobuf to 5.26.* ([#11784](https://github.com/python/typeshed/pull/11784))
 
 Also update generate_proto_stubs script
 
 ## 4.25.0.20240417 (2024-04-17)
 
-Remove remaining bare `Incomplete`s (#11768)
+Remove remaining bare `Incomplete`s ([#11768](https://github.com/python/typeshed/pull/11768))
 
 Enable Y065
 
 ## 4.25.0.20240410 (2024-04-10)
 
-Bump protobuf to v25.3 (#11694)
+Bump protobuf to v25.3 ([#11694](https://github.com/python/typeshed/pull/11694))
 
 ## 4.24.0.20240408 (2024-04-08)
 
-Bump protobuf to v24.4 and update generator script (#11693)
+Bump protobuf to v24.4 and update generator script ([#11693](https://github.com/python/typeshed/pull/11693))
 
 ## 4.24.0.20240311 (2024-03-11)
 
-Use PEP 570 syntax in third party stubs (#11554)
+Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
 ## 4.24.0.20240302 (2024-03-02)
 
-Add pyupgrade check outdated-version-block (UP036) (#11509)
+Add pyupgrade check outdated-version-block (UP036) ([#11509](https://github.com/python/typeshed/pull/11509))
 
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 4.24.0.20240106 (2024-01-06)
 
-Bump various test dependencies (#11249)
+Bump various test dependencies ([#11249](https://github.com/python/typeshed/pull/11249))
 
-Update typing_extensions imports in third-party stubs (#11245)
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 4.24.0.4 (2023-10-29)
 
-Enable ruff's isort rules on files generated using mypy-protobuf (#10939)
+Enable ruff's isort rules on files generated using mypy-protobuf ([#10939](https://github.com/python/typeshed/pull/10939))
 
 Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
 
 ## 4.24.0.3 (2023-10-23)
 
-Update mypy-protobuf (#10914)
+Update mypy-protobuf ([#10914](https://github.com/python/typeshed/pull/10914))
 
 Co-authored-by: Avasam <samuel.06@hotmail.com>
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 4.24.0.2 (2023-09-19)
 
-Update protobufs to support new generated messages (#10717)
+Update protobufs to support new generated messages ([#10717](https://github.com/python/typeshed/pull/10717))
 
 ## 4.24.0.1 (2023-08-13)
 
-Fill in all missing `upstream_repository` fields (#10571)
+Fill in all missing `upstream_repository` fields ([#10571](https://github.com/python/typeshed/pull/10571))
 
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 4.24.0.0 (2023-08-09)
 
-[stubsabot] Bump protobuf to 4.24.* (#10545)
+[stubsabot] Bump protobuf to 4.24.* ([#10545](https://github.com/python/typeshed/pull/10545))
 
 Release: https://pypi.org/pypi/protobuf/4.24.0
 Homepage: https://developers.google.com/protocol-buffers/
@@ -176,56 +176,56 @@ Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 4.23.0.3 (2023-08-07)
 
-Add missing stubs in google.protobuf.message_factory module (#10537)
+Add missing stubs in google.protobuf.message_factory module ([#10537](https://github.com/python/typeshed/pull/10537))
 
 ## 4.23.0.2 (2023-07-22)
 
-Pretend `_EnumTypeWrapper` inherits from `type` (#10203)
+Pretend `_EnumTypeWrapper` inherits from `type` ([#10203](https://github.com/python/typeshed/pull/10203))
 
 Pretend `google.protobuf.internal.enum_type_wrapper._EnumTypeWrapper` inherits from `type`. It doesn't really, but this makes type checkers stop complaining when you use it as a metaclass, which is the only reason the class exists.
 
 ## 4.23.0.1 (2023-05-10)
 
-Add `partial_stub` metadata field (#10157)
+Add `partial_stub` metadata field ([#10157](https://github.com/python/typeshed/pull/10157))
 
 ## 4.23.0.0 (2023-05-09)
 
-[stubsabot] Bump protobuf to 4.23.* (#10158)
+[stubsabot] Bump protobuf to 4.23.* ([#10158](https://github.com/python/typeshed/pull/10158))
 
 Release: https://pypi.org/pypi/protobuf/4.23.0
 Homepage: https://developers.google.com/protocol-buffers/
 
 ## 4.22.0.2 (2023-04-04)
 
-Various improvements to non-generated `protobuf` stubs (#10010)
+Various improvements to non-generated `protobuf` stubs ([#10010](https://github.com/python/typeshed/pull/10010))
 
 ## 4.22.0.1 (2023-04-03)
 
-Fix return type of protobuf.ScalarMap.get() (#9996)
+Fix return type of protobuf.ScalarMap.get() ([#9996](https://github.com/python/typeshed/pull/9996))
 
 ## 4.22.0.0 (2023-02-28)
 
-Update protobuf for v4.22 (#9824)
+Update protobuf for v4.22 ([#9824](https://github.com/python/typeshed/pull/9824))
 
 ## 4.21.0.7 (2023-02-21)
 
-Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
+Stubtest settings: change `ignore_missing_stub` default to `false` ([#9779](https://github.com/python/typeshed/pull/9779))
 
 If you're reading about this commit from an autogenerated changelog entry, this should have no user-visible impact on how the stubs are interpreted by a type checker; it's just an internal change to how typeshed's tests work.
 
 ## 4.21.0.6 (2023-02-15)
 
-Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+Use `typing_extensions.Self` instead of `_typeshed.Self` ([#9702](https://github.com/python/typeshed/pull/9702))
 
 ## 4.21.0.5 (2023-02-07)
 
-Improve pyright verification of third-party test cases in CI (#9650)
+Improve pyright verification of third-party test cases in CI ([#9650](https://github.com/python/typeshed/pull/9650))
 
 Co-authored-by: Avasam <samuel.06@hotmail.com>
 
 ## 4.21.0.4 (2023-02-02)
 
-Manual changes of `Any` union to `Incomplete` in stubs folder (#9566)
+Manual changes of `Any` union to `Incomplete` in stubs folder ([#9566](https://github.com/python/typeshed/pull/9566))
 
 - ClassVar[Any | None]
 - Missed previous changes due to alias
@@ -233,21 +233,21 @@ Manual changes of `Any` union to `Incomplete` in stubs folder (#9566)
 
 ## 4.21.0.3 (2023-01-18)
 
-Replace `Any` with `Incomplete` in many places (#9558)
+Replace `Any` with `Incomplete` in many places ([#9558](https://github.com/python/typeshed/pull/9558))
 
 ## 4.21.0.2 (2022-12-05)
 
-`protobuf`: Annotate `well_known_types.pyi` (#9323)
+`protobuf`: Annotate `well_known_types.pyi` ([#9323](https://github.com/python/typeshed/pull/9323))
 
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 4.21.0.1 (2022-11-28)
 
-Improve annotations for `__instancecheck__`, `__subclasscheck__` (#9291)
+Improve annotations for `__instancecheck__`, `__subclasscheck__` ([#9291](https://github.com/python/typeshed/pull/9291))
 
 ## 4.21.0.0 (2022-11-25)
 
-Bump protobuf to 4.21.*; delete `google/__init__.pyi` (#8360)
+Bump protobuf to 4.21.*; delete `google/__init__.pyi` ([#8360](https://github.com/python/typeshed/pull/8360))
 
 This major version bump of the stubs package deletes google/__init__.py, which does not exist at runtime, and caused problems for several users. Mypy now has --namespace-packages enabled by default, which should hopefully mean that this causes minimal pain.
 
@@ -255,11 +255,11 @@ Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 3.20.4.6 (2022-11-23)
 
-protobuf: Add some return types (#9259)
+protobuf: Add some return types ([#9259](https://github.com/python/typeshed/pull/9259))
 
 ## 3.20.4.5 (2022-11-14)
 
-Improve `ast` types; revert several "redundant numeric union" changes from #7906 (#9130)
+Improve `ast` types; revert several "redundant numeric union" changes from #7906 ([#9130](https://github.com/python/typeshed/pull/9130))
 
 * Adapt number types in ast
 
@@ -272,37 +272,37 @@ Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
 
 ## 3.20.4.4 (2022-11-09)
 
-Annotate known magic-method return types (#9131)
+Annotate known magic-method return types ([#9131](https://github.com/python/typeshed/pull/9131))
 
 ## 3.20.4.3 (2022-11-08)
 
-Fix and allow classes with missing metaclasses (#9136)
+Fix and allow classes with missing metaclasses ([#9136](https://github.com/python/typeshed/pull/9136))
 
 ## 3.20.4.2 (2022-10-25)
 
-google.protobuf: Add an __init__ stub to fix type checking (#8982)
+google.protobuf: Add an __init__ stub to fix type checking ([#8982](https://github.com/python/typeshed/pull/8982))
 
 ## 3.20.4.1 (2022-10-21)
 
-Bump mypy-protobuf to 3.4.0 (#8951)
+Bump mypy-protobuf to 3.4.0 ([#8951](https://github.com/python/typeshed/pull/8951))
 
-`types-protobuf`: Bump the rev of protobuf supported to 4.21.8 (#8937)
+`types-protobuf`: Bump the rev of protobuf supported to 4.21.8 ([#8937](https://github.com/python/typeshed/pull/8937))
 
 ## 3.20.4 (2022-09-19)
 
-Fix protobuf stubtest errors (#8758)
+Fix protobuf stubtest errors ([#8758](https://github.com/python/typeshed/pull/8758))
 
 ## 3.20.3 (2022-09-15)
 
-protobuf: fix stubtest errors (#8735)
+protobuf: fix stubtest errors ([#8735](https://github.com/python/typeshed/pull/8735))
 
 ## 3.20.2 (2022-09-08)
 
-[protobuf] MessageToJson indent parameter can be None (#8705)
+[protobuf] MessageToJson indent parameter can be None ([#8705](https://github.com/python/typeshed/pull/8705))
 
 ## 3.20.1 (2022-08-26)
 
-Bump to mypy-protobuf 3.3.0 (#8612)
+Bump to mypy-protobuf 3.3.0 ([#8612](https://github.com/python/typeshed/pull/8612))
 
 * Bump to mypy-protobuf 3.3.0
 
@@ -310,7 +310,7 @@ Bump to mypy-protobuf 3.3.0 (#8612)
 
 ## 3.20.0 (2022-08-25)
 
-Bump protobuf to 3.20.1 (#8609)
+Bump protobuf to 3.20.1 ([#8609](https://github.com/python/typeshed/pull/8609))
 
 There are even newer versions available (4.*), but I had found a bug
 in it which prevented it from working with mypy-protobuf. For now,
@@ -318,78 +318,78 @@ sticking to just 3.20.1
 
 ## 3.19.22 (2022-06-16)
 
-`protobuf`: Delete some `__new__` and `__init__` methods (#8088)
+`protobuf`: Delete some `__new__` and `__init__` methods ([#8088](https://github.com/python/typeshed/pull/8088))
 
 ## 3.19.21 (2022-05-21)
 
-Simplify and correct many numeric unions (#7906)
+Simplify and correct many numeric unions ([#7906](https://github.com/python/typeshed/pull/7906))
 
 Unblocks PyCQA/flake8-pyi#222
 
 ## 3.19.20 (2022-05-10)
 
-Remove explicit inheritance from `object` (#7819)
+Remove explicit inheritance from `object` ([#7819](https://github.com/python/typeshed/pull/7819))
 
 ## 3.19.19 (2022-05-09)
 
-Use `str` instead of `Text` (#7812)
+Use `str` instead of `Text` ([#7812](https://github.com/python/typeshed/pull/7812))
 
 ## 3.19.18 (2022-04-20)
 
-Use `TypeAlias` for type aliases where possible, part II (#7667)
+Use `TypeAlias` for type aliases where possible, part II ([#7667](https://github.com/python/typeshed/pull/7667))
 
 ## 3.19.17 (2022-04-16)
 
-Third-party stubs: import from `collections.abc` where possible (#7637)
+Third-party stubs: import from `collections.abc` where possible ([#7637](https://github.com/python/typeshed/pull/7637))
 
 ## 3.19.16 (2022-04-16)
 
-Use `TypeAlias` where possible for type aliases (#7630)
+Use `TypeAlias` where possible for type aliases ([#7630](https://github.com/python/typeshed/pull/7630))
 
 ## 3.19.15 (2022-03-21)
 
-Revert "Remove google/__init__.pyi (#6106)" (#7522)
+Revert "Remove google/__init__.pyi ([#6106](https://github.com/python/typeshed/pull/6106))" ([#7522](https://github.com/python/typeshed/pull/7522))
 
 This reverts commit a11a6643a7599c352ae11ac1b08dc5f3d71b106c.
 
 ## 3.19.14 (2022-03-21)
 
-Remove google/__init__.pyi (#6106)
+Remove google/__init__.pyi ([#6106](https://github.com/python/typeshed/pull/6106))
 
 Since google is a namespace package, it won't have an init.
 Depends on https://github.com/typeshed-internal/stub_uploader/pull/33
 
 ## 3.19.13 (2022-03-17)
 
-Use PEP 604 syntax in non-autogenerated protobuf stubs (#7506)
+Use PEP 604 syntax in non-autogenerated protobuf stubs ([#7506](https://github.com/python/typeshed/pull/7506))
 
 ## 3.19.12 (2022-02-11)
 
-protobuf doesn't support Python 2 anymore (#7176)
+protobuf doesn't support Python 2 anymore ([#7176](https://github.com/python/typeshed/pull/7176))
 
 Remove Python-2-only package "futures"
 
 ## 3.19.11 (2022-02-08)
 
-protobuf: Bring back Message.Extensions (#7154)
+protobuf: Bring back Message.Extensions ([#7154](https://github.com/python/typeshed/pull/7154))
 
 ## 3.19.10 (2022-02-07)
 
-Improve a bunch of `__(deep)copy__` methods (#7148)
+Improve a bunch of `__(deep)copy__` methods ([#7148](https://github.com/python/typeshed/pull/7148))
 
 ## 3.19.9 (2022-02-04)
 
-Makes `DESCRIPTOR` non nullable again (#7125)
+Makes `DESCRIPTOR` non nullable again ([#7125](https://github.com/python/typeshed/pull/7125))
 
 Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
 ## 3.19.8 (2022-02-02)
 
-Add/fix types to a bunch of non-generated protobuf files (#7017)
+Add/fix types to a bunch of non-generated protobuf files ([#7017](https://github.com/python/typeshed/pull/7017))
 
 ## 3.19.7 (2022-01-29)
 
-Use relax_strict_optional_primitives on protobuf generated code (#7038)
+Use relax_strict_optional_primitives on protobuf generated code ([#7038](https://github.com/python/typeshed/pull/7038))
 
 Per the suggestion in https://github.com/dropbox/mypy-protobuf/issues/344
 This generates more permissive constructors (which protobuf itself actually
@@ -401,19 +401,19 @@ projects can make individual decisions (defaulting to less permissive).
 
 ## 3.19.6 (2022-01-24)
 
-Bump to mypy-protobuf 3.2.0 (#7013)
+Bump to mypy-protobuf 3.2.0 ([#7013](https://github.com/python/typeshed/pull/7013))
 
 ## 3.19.5 (2022-01-20)
 
-Remove nearly all `__str__` and `__repr__` methods from typeshed (#6968)
+Remove nearly all `__str__` and `__repr__` methods from typeshed ([#6968](https://github.com/python/typeshed/pull/6968))
 
 ## 3.19.4 (2022-01-19)
 
-Use `_typeshed.Self` in `protobuf/google/protobuf/message.pyi` (#6955)
+Use `_typeshed.Self` in `protobuf/google/protobuf/message.pyi` ([#6955](https://github.com/python/typeshed/pull/6955))
 
-Use PEP 585 syntax in Python 2, `protobuf` & `_ast` stubs, where possible (#6949)
+Use PEP 585 syntax in Python 2, `protobuf` & `_ast` stubs, where possible ([#6949](https://github.com/python/typeshed/pull/6949))
 
-Flatten stubtest_allowlist for protobuf generated files (#6944)
+Flatten stubtest_allowlist for protobuf generated files ([#6944](https://github.com/python/typeshed/pull/6944))
 
 I added stubtest testing for generated files within mypy-protobuf.
 There are many ways in which the protobuf code is doing *weird*
@@ -423,23 +423,23 @@ so that this one can focus on the non-generated files.
 
 ## 3.19.0 (2022-01-10)
 
-Bump protobuf to 3.19.2 (#6879)
+Bump protobuf to 3.19.2 ([#6879](https://github.com/python/typeshed/pull/6879))
 
 ## 3.18.3 (2022-01-03)
 
-Add google.protobuf.internal.api_implementation (#6802)
+Add google.protobuf.internal.api_implementation ([#6802](https://github.com/python/typeshed/pull/6802))
 
 ## 3.18.2 (2021-11-27)
 
-Improve stubs for sequence types (#6386)
+Improve stubs for sequence types ([#6386](https://github.com/python/typeshed/pull/6386))
 
 ## 3.18.1 (2021-11-21)
 
-Fix MutableMapping overrides (#6352)
+Fix MutableMapping overrides ([#6352](https://github.com/python/typeshed/pull/6352))
 
 ## 3.18.0 (2021-10-13)
 
-Bump protobuf stub to 3.18.1 and mypy-protobuf 3.0.0 (#6157)
+Bump protobuf stub to 3.18.1 and mypy-protobuf 3.0.0 ([#6157](https://github.com/python/typeshed/pull/6157))
 
 * Bump protobuf stub to 3.18.1 and mypy-protobuf 3.0.0
 
@@ -449,5 +449,5 @@ The arg was removed in protobuf 3.18
 
 ## 3.17.5 (2021-10-12)
 
-Add star to all non-0.1 versions (#6146)
+Add star to all non-0.1 versions ([#6146](https://github.com/python/typeshed/pull/6146))
 

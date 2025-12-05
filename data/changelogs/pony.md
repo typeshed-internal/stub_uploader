@@ -4,5 +4,5 @@ Add __slots__ to third-party packages using stubdefaulter ([#14619](https://gith
 
 ## 0.7.0.20250717 (2025-07-17)
 
-Add pony stubs (#14361)
+Add pony stubs ([#14361](https://github.com/python/typeshed/pull/14361))
 
