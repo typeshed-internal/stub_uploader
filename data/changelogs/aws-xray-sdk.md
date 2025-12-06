@@ -1,3 +1,7 @@
+## 2.15.0.20251206 (2025-12-06)
+
+Align type of aws_xra_sdk.core.xray_recorder stub with lib ([#15107](https://github.com/python/typeshed/pull/15107))
+
 ## 2.15.0.20251111 (2025-11-11)
 
 [aws-xray-sdk] Annotate more ([#15004](https://github.com/python/typeshed/pull/15004))

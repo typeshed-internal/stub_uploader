@@ -1,3 +1,9 @@
+## 3.3.0.20251206 (2025-12-06)
+
+[stubsabot] Bump greenlet to 3.3.* ([#15106](https://github.com/python/typeshed/pull/15106))
+
+Co-authored-by: stubsabot <>
+
 ## 3.2.0.20250915 (2025-09-15)
 
 Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
