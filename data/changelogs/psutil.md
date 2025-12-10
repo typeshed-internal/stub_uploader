@@ -1,3 +1,7 @@
+## 7.1.3.20251210 (2025-12-10)
+
+[psutil] add overloads for cpu_affinity ([#15112](https://github.com/python/typeshed/pull/15112))
+
 ## 7.1.3.20251202 (2025-12-02)
 
 [psutil] Complete common POSIX logic ([#15094](https://github.com/python/typeshed/pull/15094))

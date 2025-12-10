@@ -1,3 +1,7 @@
+## 6.32.1.20251210 (2025-12-10)
+
+[protobuf] Update annotations in internal/containers.pyi ([#15117](https://github.com/python/typeshed/pull/15117))
+
 ## 6.32.1.20251105 (2025-11-05)
 
 Amend annotation for `asyncio.Protocol.__slots__` ([#14980](https://github.com/python/typeshed/pull/14980))

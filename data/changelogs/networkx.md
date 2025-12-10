@@ -1,3 +1,7 @@
+## 3.6.1.20251210 (2025-12-10)
+
+[networkx] Update to 3.6.1 ([#15123](https://github.com/python/typeshed/pull/15123))
+
 ## 3.6.0.20251127 (2025-11-27)
 
 [networkx] Update to 3.6 ([#15086](https://github.com/python/typeshed/pull/15086))
