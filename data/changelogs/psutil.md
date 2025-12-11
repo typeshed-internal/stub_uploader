@@ -1,3 +1,7 @@
+## 7.1.3.20251211 (2025-12-11)
+
+[psutil] Use more strict pyright settings ([#15109](https://github.com/python/typeshed/pull/15109))
+
 ## 7.1.3.20251210 (2025-12-10)
 
 [psutil] add overloads for cpu_affinity ([#15112](https://github.com/python/typeshed/pull/15112))
