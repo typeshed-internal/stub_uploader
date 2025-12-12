@@ -1,3 +1,7 @@
+## 3.6.1.20251212 (2025-12-12)
+
+[networkx] add stubs for `networkx.utils.union_find.UnionFind` ([#15126](https://github.com/python/typeshed/pull/15126))
+
 ## 3.6.1.20251210 (2025-12-10)
 
 [networkx] Update to 3.6.1 ([#15123](https://github.com/python/typeshed/pull/15123))
