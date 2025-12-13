@@ -12,25 +12,25 @@ Co-authored-by: Semyon Moroz <donbarbos@proton.me>
 
 ## 1.5.0.20250516 (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs (#14063)
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
 ## 1.5.0.20250514 (2025-05-14)
 
-jwcrypto: Fix export_to_pem password argument (#14037)
+jwcrypto: Fix export_to_pem password argument ([#14037](https://github.com/python/typeshed/pull/14037))
 
 ## 1.5.0.20250413 (2025-04-13)
 
-jwcrypto: type most of the rest of `JWT` and `JWKSet.generate` function (#13807)
+jwcrypto: type most of the rest of `JWT` and `JWKSet.generate` function ([#13807](https://github.com/python/typeshed/pull/13807))
 
 ## 1.5.0.20250326 (2025-03-26)
 
-Improve `jwcrypto` (#13715)
+Improve `jwcrypto` ([#13715](https://github.com/python/typeshed/pull/13715))
 
 ## 1.5.0.20241221 (2024-12-21)
 
-Update to mypy 1.14 (#13272)
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
 ## 1.5.0.20240925 (2024-09-25)
 
-Add basic jwcrypto stubs (#12687)
+Add basic jwcrypto stubs ([#12687](https://github.com/python/typeshed/pull/12687))
 

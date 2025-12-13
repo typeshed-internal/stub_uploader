@@ -1,20 +1,20 @@
 ## 3.2.7 (2022-06-09)
 
-filelock: mark as obsolete since 3.3.0 (#8043)
+filelock: mark as obsolete since 3.3.0 ([#8043](https://github.com/python/typeshed/pull/8043))
 
 ## 3.2.6 (2022-05-21)
 
-Simplify and correct many numeric unions (#7906)
+Simplify and correct many numeric unions ([#7906](https://github.com/python/typeshed/pull/7906))
 
 Unblocks PyCQA/flake8-pyi#222
 
 ## 3.2.5 (2022-01-20)
 
-Remove nearly all `__str__` and `__repr__` methods from typeshed (#6968)
+Remove nearly all `__str__` and `__repr__` methods from typeshed ([#6968](https://github.com/python/typeshed/pull/6968))
 
 ## 3.2.4 (2022-01-10)
 
-Always use `_typeshed.Self`, where applicable (#6880)
+Always use `_typeshed.Self`, where applicable ([#6880](https://github.com/python/typeshed/pull/6880))
 
 * Always use `_typeshed.Self`, where applicable
 
@@ -48,15 +48,15 @@ Source code here: https://github.com/psf/requests/blob/d718e753834b84018014a23d6
 
 ## 3.2.3 (2022-01-08)
 
-Use lowercase `type` everywhere (#6853)
+Use lowercase `type` everywhere ([#6853](https://github.com/python/typeshed/pull/6853))
 
 ## 3.2.1 (2021-10-12)
 
-Add star to all non-0.1 versions (#6146)
+Add star to all non-0.1 versions ([#6146](https://github.com/python/typeshed/pull/6146))
 
 ## 3.2.0 (2021-09-30)
 
-Unbreak CI (#6093)
+Unbreak CI ([#6093](https://github.com/python/typeshed/pull/6093))
 
 * Temporarily remove `cachetools` stubs. They will be added back soon, and meanwhile they will continue to be available on pypi.
 
