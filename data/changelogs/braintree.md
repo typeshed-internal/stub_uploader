@@ -1,3 +1,7 @@
+## 4.41.0.20251214 (2025-12-14)
+
+[braintree] Update to 4.41.* ([#15130](https://github.com/python/typeshed/pull/15130))
+
 ## 4.40.0.20251031 (2025-10-31)
 
 Tighten the return type in braintree.PaymentMethod.find() ([#14916](https://github.com/python/typeshed/pull/14916))

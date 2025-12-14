@@ -1,3 +1,7 @@
+## 1.1.1.20251214 (2025-12-14)
+
+[geopandas] Unpin pandas-stubs ([#15134](https://github.com/python/typeshed/pull/15134))
+
 ## 1.1.1.20251203 (2025-12-03)
 
 Pin dependencies on pandas-stubs to < 2.3.3.251201 ([#15100](https://github.com/python/typeshed/pull/15100))

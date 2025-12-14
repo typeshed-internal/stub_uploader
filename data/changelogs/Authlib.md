@@ -1,3 +1,9 @@
+## 1.6.6.20251214 (2025-12-14)
+
+[Authlib] Update to 1.6.6 ([#15131](https://github.com/python/typeshed/pull/15131))
+
+Remove outdated allowlist entries ([#15133](https://github.com/python/typeshed/pull/15133))
+
 ## 1.6.5.20251005 (2025-10-05)
 
 [Authlib] Update to 1.6.5 ([#14830](https://github.com/python/typeshed/pull/14830))
