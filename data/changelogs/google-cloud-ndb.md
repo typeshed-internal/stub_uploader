@@ -1,3 +1,28 @@
+## 2.4.0.20251217 (2025-12-17)
+
+[stubsabot] Bump google-cloud-ndb to 2.4.* ([#15137](https://github.com/python/typeshed/pull/15137))
+
+Release: https://pypi.org/pypi/google-cloud-ndb/2.4.0
+Homepage: https://github.com/googleapis/python-ndb
+Repository: https://github.com/googleapis/python-ndb
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/google-cloud-ndb
+Diff: https://github.com/googleapis/python-ndb/compare/v2.3.4...v2.4.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 3 files included in typeshed's stubs have been modified or renamed: `google/cloud/ndb/_datastore_api.py`, `google/cloud/ndb/_datastore_query.py`, `google/cloud/ndb/version.py`.
+ - Total lines of Python code added: 38.
+ - Total lines of Python code deleted: 29.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 2.3.0.20251121 (2025-11-21)
 
 [google-cloud-ndb] Use Incomplete instead of Any ([#15055](https://github.com/python/typeshed/pull/15055))
