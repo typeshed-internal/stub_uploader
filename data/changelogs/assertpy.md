@@ -1,3 +1,7 @@
+## 1.1.0.20251219 (2025-12-19)
+
+[assertpy] Replace or explain `Any`s ([#15144](https://github.com/python/typeshed/pull/15144))
+
 ## 1.1.0.20250502 (2025-05-02)
 
 Correct type of `kwargs` in `assertpy.exception.ExceptionMixin.when_called_with` (#13903)
