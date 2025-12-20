@@ -1,3 +1,7 @@
+## 3.6.1.20251220 (2025-12-20)
+
+[networkx] Update usages of `SupportsGetItem` that should be more restrictive ([#14795](https://github.com/python/typeshed/pull/14795))
+
 ## 3.6.1.20251212 (2025-12-12)
 
 [networkx] add stubs for `networkx.utils.union_find.UnionFind` ([#15126](https://github.com/python/typeshed/pull/15126))

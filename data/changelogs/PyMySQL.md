@@ -1,3 +1,7 @@
+## 1.1.0.20251220 (2025-12-20)
+
+[PyMySQL] Add Cursor.warning_count attribute ([#15150](https://github.com/python/typeshed/pull/15150))
+
 ## 1.1.0.20250916 (2025-09-16)
 
 [PyMySQL] Fix stubs for `pymysql.connections.Connection.__init__` ([#14724](https://github.com/python/typeshed/pull/14724))

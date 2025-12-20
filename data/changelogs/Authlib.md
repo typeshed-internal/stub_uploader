@@ -1,3 +1,13 @@
+## 1.6.6.20251220 (2025-12-20)
+
+[Authlib] Update return types ([#15153](https://github.com/python/typeshed/pull/15153))
+
+* Remove return types for not implemented methods
+* Add some obvious return types
+* Fix some incorrect types found
+
+[Authlib] Add integrations dirs ([#15147](https://github.com/python/typeshed/pull/15147))
+
 ## 1.6.6.20251214 (2025-12-14)
 
 [Authlib] Update to 1.6.6 ([#15131](https://github.com/python/typeshed/pull/15131))
