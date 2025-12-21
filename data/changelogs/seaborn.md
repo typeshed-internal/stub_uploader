@@ -1,3 +1,7 @@
+## 0.13.2.20251221 (2025-12-21)
+
+Change whis type to support tuple ([#15156](https://github.com/python/typeshed/pull/15156))
+
 ## 0.13.2.20251214 (2025-12-14)
 
 [seaborn] Unpin pandas-stubs ([#15135](https://github.com/python/typeshed/pull/15135))

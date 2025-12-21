@@ -1,3 +1,9 @@
+## 80.9.0.20251221 (2025-12-21)
+
+[setuptools] setuptools._distutils`: spawn functions should match each other + add overload based on `search_path` param ([#15154](https://github.com/python/typeshed/pull/15154))
+
+[setuptools] Fully typed setup method ([#15146](https://github.com/python/typeshed/pull/15146))
+
 ## 80.9.0.20250822 (2025-08-22)
 
 Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))

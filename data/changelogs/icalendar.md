@@ -1,3 +1,7 @@
+## 6.3.2.20251221 (2025-12-21)
+
+[icalendar] Remove duplicate entry from `__all__` in `icalendar` ([#15158](https://github.com/python/typeshed/pull/15158))
+
 ## 6.3.2.20251107 (2025-11-07)
 
 [stubsabot] Bump icalendar to 6.3.2 ([#14985](https://github.com/python/typeshed/pull/14985))
