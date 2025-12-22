@@ -1,3 +1,7 @@
+## 6.3.2.20251222 (2025-12-22)
+
+[icalendar] Use stricter pyright settings ([#15159](https://github.com/python/typeshed/pull/15159))
+
 ## 6.3.2.20251221 (2025-12-21)
 
 [icalendar] Remove duplicate entry from `__all__` in `icalendar` ([#15158](https://github.com/python/typeshed/pull/15158))
