@@ -1,3 +1,7 @@
+## 4.4.7.20251223 (2025-12-23)
+
+[stubsabot] Bump reportlab to 4.4.7 ([#15162](https://github.com/python/typeshed/pull/15162))
+
 ## 4.4.6.20251212 (2025-12-12)
 
 [stubsabot] Bump reportlab to 4.4.6 ([#15125](https://github.com/python/typeshed/pull/15125))

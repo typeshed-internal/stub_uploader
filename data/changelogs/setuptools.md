@@ -1,3 +1,7 @@
+## 80.9.0.20251223 (2025-12-23)
+
+[setuptools] `setuptools.setup` Complete partially `Unknown` method and fix `Command` type variance issue ([#15161](https://github.com/python/typeshed/pull/15161))
+
 ## 80.9.0.20251221 (2025-12-21)
 
 [setuptools] setuptools._distutils`: spawn functions should match each other + add overload based on `search_path` param ([#15154](https://github.com/python/typeshed/pull/15154))
