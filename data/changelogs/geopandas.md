@@ -1,3 +1,7 @@
+## 1.1.2.20251224 (2025-12-24)
+
+[geopandas] Update to 1.1.2 ([#15170](https://github.com/python/typeshed/pull/15170))
+
 ## 1.1.1.20251214 (2025-12-14)
 
 [geopandas] Unpin pandas-stubs ([#15134](https://github.com/python/typeshed/pull/15134))
