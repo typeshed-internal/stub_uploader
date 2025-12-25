@@ -1,45 +1,45 @@
 ## 2.0.0.20250809 (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
 ## 2.0.0.20250801 (2025-08-01)
 
-Split `tool.stubtest.platforms` metadata key (#13746)
+Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
 Co-authored-by: Avasam <samuel.06@hotmail.com>
 Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
 ## 2.0.0.20240516 (2024-05-16)
 
-uWSGI: Makes stubtest_allowlist_darwin more resilient against CI flakyness (#11819)
+uWSGI: Makes stubtest_allowlist_darwin more resilient against CI flakyness ([#11819](https://github.com/python/typeshed/pull/11819))
 
 ## 2.0.0.20240425 (2024-04-25)
 
-Bump pyright to v1.1.360 (#11810)
+Bump pyright to v1.1.360 ([#11810](https://github.com/python/typeshed/pull/11810))
 
-Disable uwsgi, pyaudio, jack-client stubtest on macOS (#11821)
+Disable uwsgi, pyaudio, jack-client stubtest on macOS ([#11821](https://github.com/python/typeshed/pull/11821))
 
 ## 2.0.0.20240414 (2024-04-14)
 
-uwsgi: remove unused allowlist entry (#11754)
+uwsgi: remove unused allowlist entry ([#11754](https://github.com/python/typeshed/pull/11754))
 
 Also wow, some of the logs that come from uwsgi are quite interesting
 
 ## 2.0.0.20240311 (2024-03-11)
 
-Use PEP 570 syntax in third party stubs (#11554)
+Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
 ## 2.0.0.20240106 (2024-01-06)
 
-Update typing_extensions imports in third-party stubs (#11245)
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 2.0.0.1 (2023-11-24)
 
-Third-party stubs: remove unused `type: ignore`s (#11063)
+Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
 
 ## 2.0.0.0 (2023-07-24)
 
-Adds stubs for uWSGI (#10432)
+Adds stubs for uWSGI ([#10432](https://github.com/python/typeshed/pull/10432))
 
 This adds stubs for the uWSGI Python API.
 
