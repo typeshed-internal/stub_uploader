@@ -1,3 +1,7 @@
+## 25.2.0.20251228 (2025-12-28)
+
+[django-filter] Fix BaseFilterSet.filter_for_lookup return type ([#15171](https://github.com/python/typeshed/pull/15171))
+
 ## 25.2.0.20251010 (2025-10-10)
 
 [django-filter] Broaden OrderingFilter fields parameter type ([#14856](https://github.com/python/typeshed/pull/14856))

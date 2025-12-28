@@ -1,3 +1,7 @@
+## 25.9.0.20251228 (2025-12-28)
+
+[psutil] Update to 7.2.0 ([#15173](https://github.com/python/typeshed/pull/15173))
+
 ## 25.9.0.20251102 (2025-11-02)
 
 [gevent]: Bump gevent to 25.9.* ([#14871](https://github.com/python/typeshed/pull/14871))

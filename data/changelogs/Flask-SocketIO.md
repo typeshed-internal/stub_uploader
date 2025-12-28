@@ -1,3 +1,7 @@
+## 5.6.0.20251228 (2025-12-28)
+
+Bump Flask-SocketIO to 5.6.* ([#15180](https://github.com/python/typeshed/pull/15180))
+
 ## 5.5.0.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)

@@ -1,3 +1,7 @@
+## 7.2.0.20251228 (2025-12-28)
+
+[psutil] Update to 7.2.0 ([#15173](https://github.com/python/typeshed/pull/15173))
+
 ## 7.1.3.20251211 (2025-12-11)
 
 [psutil] Use more strict pyright settings ([#15109](https://github.com/python/typeshed/pull/15109))
