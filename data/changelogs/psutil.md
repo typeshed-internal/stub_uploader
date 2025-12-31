@@ -1,3 +1,20 @@
+## 7.2.1.20251231 (2025-12-31)
+
+[stubsabot] Bump psutil to 7.2.1 ([#15192](https://github.com/python/typeshed/pull/15192))
+
+Release: https://pypi.org/pypi/psutil/7.2.1
+Homepage: https://github.com/giampaolo/psutil
+Repository: https://github.com/giampaolo/psutil
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/psutil
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 7.2.0.20251228 (2025-12-28)
 
 [psutil] Update to 7.2.0 ([#15173](https://github.com/python/typeshed/pull/15173))
