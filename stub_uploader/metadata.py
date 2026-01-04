@@ -459,7 +459,8 @@ def runtime_in_upstream_group_requires(req: Requirement, data: dict[str, Any]) -
         return False
 
     return runtime_req_canonical_name in {
-        canonical_name(r.name) for r in extract_sdist_pyproject_requires(sdist_data, req)
+        canonical_name(r.name)
+        for r in extract_sdist_pyproject_requires(sdist_data, req)
     }
 
 
