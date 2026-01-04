@@ -304,17 +304,6 @@ def extract_sdist_pyproject_requires(
     pyproject = Path(matches[0])
     data = tomli.loads(pyproject.read_text())
 
-    project = data.get("project", {})
-
-    # --- [project.dependencies] (PEP 621) ---
-    for dep in project.get("dependencies", []) or []:
-        yield Requirement(dep)
-
-    # --- [project.optional-dependencies] (PEP 621) ---
-    for deps in (project.get("optional-dependencies", {}) or {}).values():
-        for dep in deps:
-            yield Requirement(dep)
-
     # --- [dependency-groups] (PEP 735) ---
     for deps in (data.get("dependency-groups", {}) or {}).values():
         for dep in deps:
