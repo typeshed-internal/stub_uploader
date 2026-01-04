@@ -10,10 +10,10 @@ from dataclasses import dataclass, fields
 from pathlib import Path
 import re
 import subprocess
+import tomllib
 
 from packaging.requirements import Requirement
 from packaging.version import Version
-from tomli import load as toml_load
 
 REQUIREMENTS = "requirements-tests.txt"
 PYPROJECT = "pyproject.toml"
@@ -37,7 +37,7 @@ class TypeshedData:
 
 def read_typeshed_data(typeshed_path: Path) -> TypeshedData:
     with (typeshed_path / PYPROJECT).open("rb") as f:
-        pyproject = toml_load(f)
+        pyproject = tomllib.load(f)
     with (typeshed_path / REQUIREMENTS).open() as f:
         requirements = parse_requirements(f)
     typeshed_table = pyproject["tool"]["typeshed"]
