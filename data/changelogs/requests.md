@@ -1,3 +1,7 @@
+## 2.32.4.20260107 (2026-01-07)
+
+[requests] requests.exceptions.JSONDecodeError inherits from json.JSONDecodeError ([#15168](https://github.com/python/typeshed/pull/15168))
+
 ## 2.32.4.20250913 (2025-09-13)
 
 [requests] Allow "connect" timeout to be `None` in timeout configuration tuple ([#14700](https://github.com/python/typeshed/pull/14700))
