@@ -1,3 +1,7 @@
+## 0.30.0.20260108 (2026-01-08)
+
+[flake8-simplify] Update to 0.30.* ([#15212](https://github.com/python/typeshed/pull/15212))
+
 ## 0.22.0.20250708 (2025-07-08)
 
 [flake8-simplify] Complete stubs (#14259)
