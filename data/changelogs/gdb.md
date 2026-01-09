@@ -1,3 +1,9 @@
+## 16.3.0.20260109 (2026-01-09)
+
+Update mypy to 1.19.1 ([#15235](https://github.com/python/typeshed/pull/15235))
+
+Skip gdb stubtest for now
+
 ## 16.3.0.20250920 (2025-09-20)
 
 [gdb] Update ThreadExitedEvent parent class for 17.0 ([#14729](https://github.com/python/typeshed/pull/14729)) ([#14744](https://github.com/python/typeshed/pull/14744))

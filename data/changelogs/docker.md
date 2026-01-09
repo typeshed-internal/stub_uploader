@@ -1,3 +1,7 @@
+## 7.1.0.20260109 (2026-01-09)
+
+[docker] Fix `Container.attach()` return type ([#15155](https://github.com/python/typeshed/pull/15155))
+
 ## 7.1.0.20251202 (2025-12-02)
 
 Fix docker exec types ([#15097](https://github.com/python/typeshed/pull/15097))

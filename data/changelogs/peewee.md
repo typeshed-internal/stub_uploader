@@ -1,3 +1,28 @@
+## 3.19.0.20260109 (2026-01-09)
+
+[stubsabot] Bump peewee to 3.19.0 ([#15230](https://github.com/python/typeshed/pull/15230))
+
+Release: https://pypi.org/pypi/peewee/3.19.0
+Repository: https://github.com/coleifer/peewee
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/peewee
+Changelog: https://github.com/coleifer/peewee/blob/master/CHANGELOG.md
+Diff: https://github.com/coleifer/peewee/compare/3.18.3...3.19.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 1 public Python file has been added: `playhouse/_pysqlite/__init__.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `peewee.py`.
+ - Total lines of Python code added: 86.
+ - Total lines of Python code deleted: 121.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 3.18.3.20251105 (2025-11-05)
 
 [stubsabot] Bump peewee to 3.18.3 ([#14976](https://github.com/python/typeshed/pull/14976))

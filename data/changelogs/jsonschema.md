@@ -1,3 +1,29 @@
+## 4.26.0.20260109 (2026-01-09)
+
+[stubsabot] Bump jsonschema to ~=4.26.0 ([#15231](https://github.com/python/typeshed/pull/15231))
+
+Release: https://pypi.org/pypi/jsonschema/4.26.0
+Homepage: https://github.com/python-jsonschema/jsonschema
+Repository: https://github.com/python-jsonschema/jsonschema
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/jsonschema
+Changelog: https://github.com/python-jsonschema/jsonschema/blob/main/CHANGELOG.rst
+Diff: https://github.com/python-jsonschema/jsonschema/compare/v4.25.1...v4.26.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 1 public Python file has been added: `jsonschema/benchmarks/import_benchmark.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 4 files included in typeshed's stubs have been modified or renamed: `jsonschema/_format.py`, `jsonschema/_types.py`, `jsonschema/_typing.py`, `jsonschema/validators.py`.
+ - Total lines of Python code added: 48.
+ - Total lines of Python code deleted: 26.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 4.25.1.20251009 (2025-10-09)
 
 [jsonschema] _Error.context cannot be None ([#14853](https://github.com/python/typeshed/pull/14853))
