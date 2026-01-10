@@ -1,3 +1,10 @@
+## 1.5.7.3.20260110 (2026-01-10)
+
+[zstd] Update to ~=1.5.7.3 ([#15242](https://github.com/python/typeshed/pull/15242))
+
+Closes: #15239
+Diff: https://github.com/sergey-dryabzhinsky/python-zstd/compare/v1.5.7.1...v1.5.7.3
+
 ## 1.5.7.1.20250708 (2025-07-08)
 
 [zstd] Update to 1.5.7.1 (#14250)
