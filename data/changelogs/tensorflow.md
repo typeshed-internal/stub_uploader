@@ -1,3 +1,9 @@
+## 2.18.0.20260113 (2026-01-13)
+
+[tensorflow]: Add a few missing elements ([#15265](https://github.com/python/typeshed/pull/15265))
+
+[tensorflow]: Add `tf.split` ([#14890](https://github.com/python/typeshed/pull/14890))
+
 ## 2.18.0.20251008 (2025-10-08)
 
 `tensorflow`: add missing re-export ([#14816](https://github.com/python/typeshed/pull/14816))

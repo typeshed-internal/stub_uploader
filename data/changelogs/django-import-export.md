@@ -1,3 +1,7 @@
+## 4.4.0.20260113 (2026-01-13)
+
+[django-import-export] Update to 4.4.* ([#15256](https://github.com/python/typeshed/pull/15256))
+
 ## 4.3.0.20250822 (2025-08-22)
 
 Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))

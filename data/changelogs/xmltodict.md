@@ -1,3 +1,7 @@
+## 1.0.1.20260113 (2026-01-13)
+
+[xmltodict] Fix false positive for namespaces with None values ([#15245](https://github.com/python/typeshed/pull/15245))
+
 ## 1.0.1.20250920 (2025-09-20)
 
 [xmltodict] stub improvements and update to 1.0.1 ([#14695](https://github.com/python/typeshed/pull/14695))
