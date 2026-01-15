@@ -1,3 +1,7 @@
+## 0.31.1.20260115 (2026-01-15)
+
+[httplib2] Update to 0.31.1 ([#15278](https://github.com/python/typeshed/pull/15278))
+
 ## 0.31.0.20250913 (2025-09-13)
 
 [stubsabot] Bump httplib2 to 0.31.* ([#14698](https://github.com/python/typeshed/pull/14698))
