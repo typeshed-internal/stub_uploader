@@ -1,49 +1,49 @@
 ## 1.45.0.20241221 (2024-12-21)
 
-Update to mypy 1.14 (#13272)
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
 ## 1.45.0.20240915 (2024-09-15)
 
-[stubsabot] Mark influxdb-client as obsolete since 1.46.0 (#12655)
+[stubsabot] Mark influxdb-client as obsolete since 1.46.0 ([#12655](https://github.com/python/typeshed/pull/12655))
 
 ## 1.45.0.20240907 (2024-09-07)
 
-[influxdb-client] Use SupportsContainsAndGetItem (#12612)
+[influxdb-client] Use SupportsContainsAndGetItem ([#12612](https://github.com/python/typeshed/pull/12612))
 
 ## 1.45.0.20240814 (2024-08-14)
 
-[stubsabot] Bump influxdb-client to 1.45.* (#12519)
+[stubsabot] Bump influxdb-client to 1.45.* ([#12519](https://github.com/python/typeshed/pull/12519))
 
 ## 1.44.0.20240626 (2024-06-26)
 
-[influxdb] Update to 1.44 (#12209)
+[influxdb] Update to 1.44 ([#12209](https://github.com/python/typeshed/pull/12209))
 
 ## 1.43.0.20240519 (2024-05-19)
 
-[influxdb-client] Update to 1.43.* (#11954)
+[influxdb-client] Update to 1.43.* ([#11954](https://github.com/python/typeshed/pull/11954))
 
 ## 1.42.0.20240425 (2024-04-25)
 
-Introduce SupportsContainsAndGetItem (#11827)
+Introduce SupportsContainsAndGetItem ([#11827](https://github.com/python/typeshed/pull/11827))
 
 ## 1.42.0.20240423 (2024-04-23)
 
-Add precise values for enum members where possible (#11299)
+Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
 
 Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
 ## 1.42.0.20240419 (2024-04-19)
 
-[stubsabot] Bump influxdb-client to 1.42.* (#11779)
+[stubsabot] Bump influxdb-client to 1.42.* ([#11779](https://github.com/python/typeshed/pull/11779))
 
 ## 1.41.0.20240316 (2024-03-16)
 
-Bump influxdb-client to 1.41.* (#11608)
+Bump influxdb-client to 1.41.* ([#11608](https://github.com/python/typeshed/pull/11608))
 
 ## 1.40.0.20240212 (2024-02-12)
 
-[stubsabot] Bump influxdb-client to 1.40.* (#11406)
+[stubsabot] Bump influxdb-client to 1.40.* ([#11406](https://github.com/python/typeshed/pull/11406))
 
 Release: https://pypi.org/pypi/influxdb-client/1.40.0
 Homepage: https://github.com/influxdata/influxdb-client-python
@@ -64,27 +64,27 @@ Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 1.39.0.20240206 (2024-02-06)
 
-influx-db: fix flake8 (#11365)
+influx-db: fix flake8 ([#11365](https://github.com/python/typeshed/pull/11365))
 
-Bump influxdb-client to 1.39.* (#11116)
+Bump influxdb-client to 1.39.* ([#11116](https://github.com/python/typeshed/pull/11116))
 
 Type a few task-related items
 
 ## 1.38.0.20240205 (2024-02-05)
 
-A new shade of Black (#11362)
+A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
 
 ## 1.38.0.20240106 (2024-01-06)
 
-Update typing_extensions imports in third-party stubs (#11245)
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 1.38.0.1 (2023-10-05)
 
-`types-requests`, `types-influxdb-client`: add note to the PyPI readme about the `urllib3` pin (#10839)
+`types-requests`, `types-influxdb-client`: add note to the PyPI readme about the `urllib3` pin ([#10839](https://github.com/python/typeshed/pull/10839))
 
 ## 1.38.0.0 (2023-10-03)
 
-[stubsabot] Bump influxdb-client to 1.38.* (#10826)
+[stubsabot] Bump influxdb-client to 1.38.* ([#10826](https://github.com/python/typeshed/pull/10826))
 
 Release: https://pypi.org/pypi/influxdb-client/1.38.0
 Homepage: https://github.com/influxdata/influxdb-client-python
@@ -100,61 +100,61 @@ Stubsabot analysis of the diff between the two releases:
 
 ## 1.37.0.1 (2023-10-01)
 
-Remove stubs for `urllib3` (#10812)
+Remove stubs for `urllib3` ([#10812](https://github.com/python/typeshed/pull/10812))
 
 Both types-requests and types-influxdb-client now depend on urllib3>=2 instead of types-urllib3. That in turn means that types-caldav, types-slumber and types-requests-oauthlib all depend indirectly on urllib3>=2, since all three stubs packages depend on types-requests.
 
 ## 1.37.0.0 (2023-08-16)
 
-Bump influxdb-client to 1.37.* (#10585)
+Bump influxdb-client to 1.37.* ([#10585](https://github.com/python/typeshed/pull/10585))
 
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 1.36.0.9 (2023-07-20)
 
-Add an upstream_repository field to METADATA.toml (#10487)
+Add an upstream_repository field to METADATA.toml ([#10487](https://github.com/python/typeshed/pull/10487))
 
 Closes: #10478
 
 ## 1.36.0.8 (2023-04-27)
 
-influxdb-client: fix stubtest (#10090)
+influxdb-client: fix stubtest ([#10090](https://github.com/python/typeshed/pull/10090))
 
 ## 1.36.0.7 (2023-03-27)
 
-Add defaults for third-party stubs I-L (#9955)
+Add defaults for third-party stubs I-L ([#9955](https://github.com/python/typeshed/pull/9955))
 
 ## 1.36.0.6 (2023-02-26)
 
-Improve many `__(a)exit__` annotations (#9696)
+Improve many `__(a)exit__` annotations ([#9696](https://github.com/python/typeshed/pull/9696))
 
 ## 1.36.0.5 (2023-02-24)
 
-Fix stubtest for `influxdb-client` (#9808)
+Fix stubtest for `influxdb-client` ([#9808](https://github.com/python/typeshed/pull/9808))
 
 Fixes #9805
 
 ## 1.36.0.4 (2023-02-21)
 
-Integrate requirements-stubtest.txt into METADATA.toml (#9778)
+Integrate requirements-stubtest.txt into METADATA.toml ([#9778](https://github.com/python/typeshed/pull/9778))
 
 ## 1.36.0.3 (2023-02-21)
 
-Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
+Stubtest settings: change `ignore_missing_stub` default to `false` ([#9779](https://github.com/python/typeshed/pull/9779))
 
 If you're reading about this commit from an autogenerated changelog entry, this should have no user-visible impact on how the stubs are interpreted by a type checker; it's just an internal change to how typeshed's tests work.
 
 ## 1.36.0.2 (2023-02-15)
 
-Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+Use `typing_extensions.Self` instead of `_typeshed.Self` ([#9702](https://github.com/python/typeshed/pull/9702))
 
 ## 1.36.0.1 (2023-02-07)
 
-Bump mypy to 1.0 (#9684)
+Bump mypy to 1.0 ([#9684](https://github.com/python/typeshed/pull/9684))
 
 ## 1.36.0.0 (2023-01-27)
 
-[stubsabot] Bump influxdb-client to 1.36.* (#9594)
+[stubsabot] Bump influxdb-client to 1.36.* ([#9594](https://github.com/python/typeshed/pull/9594))
 
 Release: https://pypi.org/pypi/influxdb-client/1.36.0
 Homepage: https://github.com/influxdata/influxdb-client-python
@@ -169,13 +169,13 @@ Stubsabot analysis of the diff between the two releases:
 
 ## 1.35.0.2 (2023-01-14)
 
-Allow influxdb-client to be completely tested by stubtest (#9529)
+Allow influxdb-client to be completely tested by stubtest ([#9529](https://github.com/python/typeshed/pull/9529))
 
 ## 1.35.0.1 (2023-01-02)
 
-[influxdb-client] Annotate Point and partially client classes (#9442)
+[influxdb-client] Annotate Point and partially client classes ([#9442](https://github.com/python/typeshed/pull/9442))
 
 ## 1.35.0.0 (2022-12-31)
 
-Add stubs for influxdb-client (#9429)
+Add stubs for influxdb-client ([#9429](https://github.com/python/typeshed/pull/9429))
 

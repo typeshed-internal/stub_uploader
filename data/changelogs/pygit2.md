@@ -1,53 +1,53 @@
 ## 1.15.0.20250319 (2025-03-19)
 
-[CI] Run stubtest with Python 3.13 (#13638)
+[CI] Run stubtest with Python 3.13 ([#13638](https://github.com/python/typeshed/pull/13638))
 
 ## 1.15.0.20241020 (2024-10-20)
 
-Update mypy to 1.12.0 (#12859)
+Update mypy to 1.12.0 ([#12859](https://github.com/python/typeshed/pull/12859))
 
 ## 1.15.0.20241012 (2024-10-12)
 
-[stubsabot] Mark pygit2 as obsolete since 1.16.0 (#12785)
+[stubsabot] Mark pygit2 as obsolete since 1.16.0 ([#12785](https://github.com/python/typeshed/pull/12785))
 
 ## 1.15.0.20240822 (2024-08-22)
 
-Using precise code for `pyright: ignore` and re-enabling various pyright tests (#12576)
+Using precise code for `pyright: ignore` and re-enabling various pyright tests ([#12576](https://github.com/python/typeshed/pull/12576))
 
 ## 1.15.0.20240813 (2024-08-13)
 
-Use Generator instead of Iterator for 3rd-party context managers (#12481)
+Use Generator instead of Iterator for 3rd-party context managers ([#12481](https://github.com/python/typeshed/pull/12481))
 
 ## 1.15.0.20240806 (2024-08-06)
 
-Add reexport to RemoteCallbacks in pygit2 (#12483)
+Add reexport to RemoteCallbacks in pygit2 ([#12483](https://github.com/python/typeshed/pull/12483))
 
 ## 1.15.0.20240714 (2024-07-14)
 
-Bump pygit2 to 1.15.* (#12319)
+Bump pygit2 to 1.15.* ([#12319](https://github.com/python/typeshed/pull/12319))
 
 ## 1.15.0.20240708 (2024-07-08)
 
-Pin pygit2 to 1.15.0 (#12293)
+Pin pygit2 to 1.15.0 ([#12293](https://github.com/python/typeshed/pull/12293))
 
 Fixes #12292
 
 ## 1.15.0.20240520 (2024-05-20)
 
-Bump pygit2 to 1.15 and fix enums (#11983)
+Bump pygit2 to 1.15 and fix enums ([#11983](https://github.com/python/typeshed/pull/11983))
 
 ## 1.14.0.20240317 (2024-03-17)
 
-pygit2: Workaround python/mypy#16972 (#11584)
+pygit2: Workaround python/mypy#16972 ([#11584](https://github.com/python/typeshed/pull/11584))
 
 To fix the signatures of `clone_repository` and `init_repository` as
 seen by type checkers.
 
 ## 1.14.0.20240313 (2024-03-13)
 
-pygit2: Add missing Repository fields (#11579)
+pygit2: Add missing Repository fields ([#11579](https://github.com/python/typeshed/pull/11579))
 
-Add stubs for pygit2 (#11374)
+Add stubs for pygit2 ([#11374](https://github.com/python/typeshed/pull/11374))
 
 The upstream library is very tricky to type (likely requires nontrivial
 refactoring), and only contains partial type information, but stubs are
