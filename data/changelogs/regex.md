@@ -1,3 +1,7 @@
+## 2026.1.15.20260116 (2026-01-16)
+
+[stubsabot] Bump regex to 2026.1.15 ([#15281](https://github.com/python/typeshed/pull/15281))
+
 ## 2025.11.3.20251106 (2025-11-06)
 
 [stubsabot] Bump regex to 2025.11.3 ([#14977](https://github.com/python/typeshed/pull/14977))

@@ -1,3 +1,7 @@
+## 7.2.1.20260116 (2026-01-16)
+
+[psutil] Annotate Popen.__init__ method ([#15186](https://github.com/python/typeshed/pull/15186))
+
 ## 7.2.1.20251231 (2025-12-31)
 
 [stubsabot] Bump psutil to 7.2.1 ([#15192](https://github.com/python/typeshed/pull/15192))

@@ -1,3 +1,7 @@
+## 2.0.0.20260116 (2026-01-16)
+
+[Send2Trash] Update to 2.0.* ([#15202](https://github.com/python/typeshed/pull/15202))
+
 ## 1.8.2.7 (2023-07-25)
 
 Complete send2trash stubs (#10504)

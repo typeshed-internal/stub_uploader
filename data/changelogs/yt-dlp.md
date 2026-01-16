@@ -1,3 +1,7 @@
+## 2025.12.8.20260116 (2026-01-16)
+
+[yt-dlp] Make _Params["playlist_items"] a str ([#15287](https://github.com/python/typeshed/pull/15287))
+
 ## 2025.12.8.20251210 (2025-12-10)
 
 [yt-dlp] Update to 2025.12.08 ([#15122](https://github.com/python/typeshed/pull/15122))

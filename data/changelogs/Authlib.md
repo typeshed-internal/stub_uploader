@@ -1,3 +1,7 @@
+## 1.6.6.20260116 (2026-01-16)
+
+[Authlib] Annotate more ([#15203](https://github.com/python/typeshed/pull/15203))
+
 ## 1.6.6.20251220 (2025-12-20)
 
 [Authlib] Update return types ([#15153](https://github.com/python/typeshed/pull/15153))

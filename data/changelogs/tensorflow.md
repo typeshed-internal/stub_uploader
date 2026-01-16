@@ -1,3 +1,7 @@
+## 2.18.0.20260116 (2026-01-16)
+
+`tensorflow`: add `tf.keras.metrics.MeanSquaredError` ([#15282](https://github.com/python/typeshed/pull/15282))
+
 ## 2.18.0.20260113 (2026-01-13)
 
 [tensorflow]: Add a few missing elements ([#15265](https://github.com/python/typeshed/pull/15265))
