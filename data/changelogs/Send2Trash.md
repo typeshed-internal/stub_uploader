@@ -1,3 +1,7 @@
+## 2.1.0.20260117 (2026-01-17)
+
+[stubsabot] Bump Send2Trash to 2.1.* ([#15197](https://github.com/python/typeshed/pull/15197))
+
 ## 2.0.0.20260116 (2026-01-16)
 
 [Send2Trash] Update to 2.0.* ([#15202](https://github.com/python/typeshed/pull/15202))
