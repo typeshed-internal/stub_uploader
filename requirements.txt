@@ -1,7 +1,6 @@
 # scripts
 packaging
 requests < 2.30.0
-tomli
 
 # build and upload
 build

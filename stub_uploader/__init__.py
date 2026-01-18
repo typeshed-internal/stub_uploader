@@ -1,3 +1,3 @@
 import sys
 
-assert sys.version_info >= (3, 9)
+assert sys.version_info >= (3, 11)

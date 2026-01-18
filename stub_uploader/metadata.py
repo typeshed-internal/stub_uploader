@@ -6,6 +6,7 @@ import os
 import re
 import tarfile
 import tempfile
+import tomllib
 import urllib.parse
 from collections.abc import Generator, Iterable
 from glob import glob
@@ -13,7 +14,6 @@ from pathlib import Path
 from typing import Any, Optional
 
 import requests
-import tomli
 from packaging.requirements import Requirement
 from packaging.specifiers import InvalidSpecifier, Specifier
 
@@ -150,7 +150,7 @@ def read_metadata(typeshed_dir: str, distribution: str) -> Metadata:
     assert not distribution.startswith(TYPES_PREFIX)
     path = os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE, distribution, META)
     with open(path, "rb") as f:
-        data = tomli.load(f)
+        data = tomllib.load(f)
     return Metadata(distribution=distribution, data=data)
 
 
