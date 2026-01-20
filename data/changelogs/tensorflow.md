@@ -1,3 +1,9 @@
+## 2.18.0.20260120 (2026-01-20)
+
+[tensorflow]: Add `tf.tile` ([#15300](https://github.com/python/typeshed/pull/15300))
+
+`tensorflow`: add `Activation`, `GlobalAveragePooling2D` and `MaxPool2D` layers ([#15302](https://github.com/python/typeshed/pull/15302))
+
 ## 2.18.0.20260116 (2026-01-16)
 
 `tensorflow`: add `tf.keras.metrics.MeanSquaredError` ([#15282](https://github.com/python/typeshed/pull/15282))
