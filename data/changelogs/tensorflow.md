@@ -1,3 +1,7 @@
+## 2.18.0.20260121 (2026-01-21)
+
+[tensorflow] Fix `tf.tile` ([#15306](https://github.com/python/typeshed/pull/15306))
+
 ## 2.18.0.20260120 (2026-01-20)
 
 [tensorflow]: Add `tf.tile` ([#15300](https://github.com/python/typeshed/pull/15300))
