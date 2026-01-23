@@ -1,3 +1,11 @@
+## 2025.12.8.20260116 (2026-01-16)
+
+[yt-dlp] Make _Params["playlist_items"] a str ([#15287](https://github.com/python/typeshed/pull/15287))
+
+## 2025.12.8.20251210 (2025-12-10)
+
+[yt-dlp] Update to 2025.12.08 ([#15122](https://github.com/python/typeshed/pull/15122))
+
 ## 2025.11.12.20251115 (2025-11-15)
 
 [yt-dlp] Update to 2025.11.12 ([#15025](https://github.com/python/typeshed/pull/15025))
@@ -66,9 +74,9 @@ Add missing defaults to third-party stubs ([#14617](https://github.com/python/ty
 
 ## 2025.7.21.20250728 (2025-07-28)
 
-Fully annotate `yt-dlp` (#14481)
+Fully annotate `yt-dlp` ([#14481](https://github.com/python/typeshed/pull/14481))
 
 ## 2025.7.21.20250727 (2025-07-27)
 
-Add yt-dlp stubs (#14216)
+Add yt-dlp stubs ([#14216](https://github.com/python/typeshed/pull/14216))
 

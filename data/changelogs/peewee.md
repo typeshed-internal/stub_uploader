@@ -1,3 +1,28 @@
+## 3.19.0.20260109 (2026-01-09)
+
+[stubsabot] Bump peewee to 3.19.0 ([#15230](https://github.com/python/typeshed/pull/15230))
+
+Release: https://pypi.org/pypi/peewee/3.19.0
+Repository: https://github.com/coleifer/peewee
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/peewee
+Changelog: https://github.com/coleifer/peewee/blob/master/CHANGELOG.md
+Diff: https://github.com/coleifer/peewee/compare/3.18.3...3.19.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 1 public Python file has been added: `playhouse/_pysqlite/__init__.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `peewee.py`.
+ - Total lines of Python code added: 86.
+ - Total lines of Python code deleted: 121.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 3.18.3.20251105 (2025-11-05)
 
 [stubsabot] Bump peewee to 3.18.3 ([#14976](https://github.com/python/typeshed/pull/14976))
@@ -6,7 +31,7 @@ Co-authored-by: stubsabot <>
 
 ## 3.18.2.20250710 (2025-07-10)
 
-[stubsabot] Bump peewee to 3.18.2 (#14385)
+[stubsabot] Bump peewee to 3.18.2 ([#14385](https://github.com/python/typeshed/pull/14385))
 
 Release: https://pypi.org/pypi/peewee/3.18.2
 Homepage: https://github.com/coleifer/peewee/
@@ -31,29 +56,29 @@ Co-authored-by: stubsabot <>
 
 ## 3.18.1.20250708 (2025-07-08)
 
-[peewee] Fix type for field operations (#14275)
+[peewee] Fix type for field operations ([#14275](https://github.com/python/typeshed/pull/14275))
 
 ## 3.18.1.20250601 (2025-06-01)
 
-[peewee] Mark field_type as ClassVar (#14203)
+[peewee] Mark field_type as ClassVar ([#14203](https://github.com/python/typeshed/pull/14203))
 
 Should help with #14194
 
 ## 3.18.1.20250516 (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs (#14063)
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
 ## 3.18.1.20250512 (2025-05-12)
 
-[stubsabot] Bump peewee to 3.18.1 (#13910)
+[stubsabot] Bump peewee to 3.18.1 ([#13910](https://github.com/python/typeshed/pull/13910))
 
 ## 3.18.0.20250501 (2025-05-01)
 
-[stubsabot] Bump peewee to 3.18.0 (#13907)
+[stubsabot] Bump peewee to 3.18.0 ([#13907](https://github.com/python/typeshed/pull/13907))
 
 ## 3.17.9.20250401 (2025-04-01)
 
-Add `__all__` part 2 (#13719)
+Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
 
 ---------
 
@@ -61,7 +86,7 @@ Co-authored-by: Avasam <samuel.06@hotmail.com>
 
 ## 3.17.9.20250308 (2025-03-08)
 
-Mark database parameters in Peewee as optional (#13442)
+Mark database parameters in Peewee as optional ([#13442](https://github.com/python/typeshed/pull/13442))
 
 Peewee injects database arguments using a decorator whenever a model
 or query has a bound connection. Passing the argument is therefore not
@@ -69,43 +94,43 @@ required, even for some function parameters without default values.
 
 ## 3.17.9.20250210 (2025-02-10)
 
-Bump peewee to 3.17.9 (#13475)
+Bump peewee to 3.17.9 ([#13475](https://github.com/python/typeshed/pull/13475))
 
 ## 3.17.8.20241229 (2024-12-29)
 
-Add return type for get_tables() in peewee (#13230)
+Add return type for get_tables() in peewee ([#13230](https://github.com/python/typeshed/pull/13230))
 
 ## 3.17.8.20241221 (2024-12-21)
 
-Update to mypy 1.14 (#13272)
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
 ## 3.17.8.20241117 (2024-11-17)
 
-Bump peewee to 3.17.8 (#13014)
+Bump peewee to 3.17.8 ([#13014](https://github.com/python/typeshed/pull/13014))
 
 ## 3.17.7.20241017 (2024-10-17)
 
-[stubsabot] Bump peewee to 3.17.7 (#12820)
+[stubsabot] Bump peewee to 3.17.7 ([#12820](https://github.com/python/typeshed/pull/12820))
 
 ## 3.17.6.20241014 (2024-10-14)
 
-[peewee] Some methods return `Self` (#12788)
+[peewee] Some methods return `Self` ([#12788](https://github.com/python/typeshed/pull/12788))
 
 ## 3.17.6.20240813 (2024-08-13)
 
-Use Generator instead of Iterator for 3rd-party context managers (#12481)
+Use Generator instead of Iterator for 3rd-party context managers ([#12481](https://github.com/python/typeshed/pull/12481))
 
 ## 3.17.6.20240806 (2024-08-06)
 
-Bump mypy to 1.11.1 (#12463)
+Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
 
 ## 3.17.6.20240722 (2024-07-22)
 
-add some missing or incorrect types to peewee (#12251)
+add some missing or incorrect types to peewee ([#12251](https://github.com/python/typeshed/pull/12251))
 
 ## 3.17.6.20240712 (2024-07-12)
 
-[stubsabot] Bump peewee to 3.17.6 (#12290)
+[stubsabot] Bump peewee to 3.17.6 ([#12290](https://github.com/python/typeshed/pull/12290))
 
 Release: https://pypi.org/pypi/peewee/3.17.6
 Homepage: https://github.com/coleifer/peewee/
@@ -122,50 +147,50 @@ Stubsabot analysis of the diff between the two releases:
 
 ## 3.17.5.20240626 (2024-06-26)
 
-Bump peewee to 3.17.5 (#12201)
+Bump peewee to 3.17.5 ([#12201](https://github.com/python/typeshed/pull/12201))
 
 ## 3.17.3.20240424 (2024-04-24)
 
-Add peewee `playhouse.flask_utils` stubs (#11731)
+Add peewee `playhouse.flask_utils` stubs ([#11731](https://github.com/python/typeshed/pull/11731))
 
 Co-authored-by: Avasam <samuel.06@hotmail.com>
 Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
 ## 3.17.3.20240420 (2024-04-20)
 
-Bump peewee to 3.17.3 and fix stubtest entries (#11787)
+Bump peewee to 3.17.3 and fix stubtest entries ([#11787](https://github.com/python/typeshed/pull/11787))
 
 ## 3.17.0.20240311 (2024-03-11)
 
-Use PEP 570 syntax in third party stubs (#11554)
+Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
 ## 3.17.0.20240207 (2024-02-07)
 
-Pin peewee more tightly for stubtest (#11372)
+Pin peewee more tightly for stubtest ([#11372](https://github.com/python/typeshed/pull/11372))
 
 Fixes  #11367
 
 ## 3.17.0.20240118 (2024-01-18)
 
-Added some typings to peewee stubs (#11284)
+Added some typings to peewee stubs ([#11284](https://github.com/python/typeshed/pull/11284))
 
 ## 3.17.0.0 (2023-10-17)
 
-Bump peewee to 3.17.* (#10895)
+Bump peewee to 3.17.* ([#10895](https://github.com/python/typeshed/pull/10895))
 
 ## 3.16.0.2 (2023-08-15)
 
-Update peewee for 3.16.3 (#10580)
+Update peewee for 3.16.3 ([#10580](https://github.com/python/typeshed/pull/10580))
 
 ## 3.16.0.1 (2023-07-20)
 
-Add an upstream_repository field to METADATA.toml (#10487)
+Add an upstream_repository field to METADATA.toml ([#10487](https://github.com/python/typeshed/pull/10487))
 
 Closes: #10478
 
 ## 3.16.0.0 (2023-02-28)
 
-Update peewee stubs to v3.16 (#9827)
+Update peewee stubs to v3.16 ([#9827](https://github.com/python/typeshed/pull/9827))
 
 Bump peewee to 3.16.*
 
@@ -184,39 +209,39 @@ Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 3.15.0.8 (2023-02-26)
 
-Improve many `__(a)exit__` annotations (#9696)
+Improve many `__(a)exit__` annotations ([#9696](https://github.com/python/typeshed/pull/9696))
 
 ## 3.15.0.7 (2023-02-21)
 
-Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
+Stubtest settings: change `ignore_missing_stub` default to `false` ([#9779](https://github.com/python/typeshed/pull/9779))
 
 If you're reading about this commit from an autogenerated changelog entry, this should have no user-visible impact on how the stubs are interpreted by a type checker; it's just an internal change to how typeshed's tests work.
 
 ## 3.15.0.6 (2023-02-15)
 
-Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+Use `typing_extensions.Self` instead of `_typeshed.Self` ([#9702](https://github.com/python/typeshed/pull/9702))
 
 ## 3.15.0.5 (2022-11-23)
 
-Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
+Mark first argument of `__[get|set|del]attr__` as `str` ([#9245](https://github.com/python/typeshed/pull/9245))
 
 ## 3.15.0.4 (2022-11-13)
 
-Make peewee stubs compatible with peewee 3.15.4 (#9176)
+Make peewee stubs compatible with peewee 3.15.4 ([#9176](https://github.com/python/typeshed/pull/9176))
 
 ## 3.15.0.3 (2022-11-09)
 
-All `__nonzero__` are methods that return `bool` (#9139)
+All `__nonzero__` are methods that return `bool` ([#9139](https://github.com/python/typeshed/pull/9139))
 
 ## 3.15.0.2 (2022-11-09)
 
-Annotate known magic-method return types (#9131)
+Annotate known magic-method return types ([#9131](https://github.com/python/typeshed/pull/9131))
 
 ## 3.15.0.1 (2022-11-08)
 
-Fix and allow classes with missing metaclasses (#9136)
+Fix and allow classes with missing metaclasses ([#9136](https://github.com/python/typeshed/pull/9136))
 
 ## 3.15.0.0 (2022-10-04)
 
-Add auto-generated peewee stubs (#8834)
+Add auto-generated peewee stubs ([#8834](https://github.com/python/typeshed/pull/8834))
 

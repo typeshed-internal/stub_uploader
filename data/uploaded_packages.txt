@@ -90,6 +90,7 @@ types-editdistance
 types-emoji
 types-entrypoints
 types-enum34
+types-ephem
 types-et_xmlfile
 types-fanstatic
 types-fb303
@@ -182,6 +183,7 @@ types-prettytable
 types-protobuf
 types-psutil
 types-psycopg2
+types-punq
 types-pyOpenSSL
 types-pyRFC3339
 types-pyasn1

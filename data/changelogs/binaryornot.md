@@ -1,4 +1,4 @@
 ## 0.4.0.20250507 (2025-05-07)
 
-Add binaryornot stubs (#13920)
+Add binaryornot stubs ([#13920](https://github.com/python/typeshed/pull/13920))
 

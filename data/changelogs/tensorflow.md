@@ -1,3 +1,23 @@
+## 2.18.0.20260121 (2026-01-21)
+
+[tensorflow] Fix `tf.tile` ([#15306](https://github.com/python/typeshed/pull/15306))
+
+## 2.18.0.20260120 (2026-01-20)
+
+[tensorflow]: Add `tf.tile` ([#15300](https://github.com/python/typeshed/pull/15300))
+
+`tensorflow`: add `Activation`, `GlobalAveragePooling2D` and `MaxPool2D` layers ([#15302](https://github.com/python/typeshed/pull/15302))
+
+## 2.18.0.20260116 (2026-01-16)
+
+`tensorflow`: add `tf.keras.metrics.MeanSquaredError` ([#15282](https://github.com/python/typeshed/pull/15282))
+
+## 2.18.0.20260113 (2026-01-13)
+
+[tensorflow]: Add a few missing elements ([#15265](https://github.com/python/typeshed/pull/15265))
+
+[tensorflow]: Add `tf.split` ([#14890](https://github.com/python/typeshed/pull/14890))
+
 ## 2.18.0.20251008 (2025-10-08)
 
 `tensorflow`: add missing re-export ([#14816](https://github.com/python/typeshed/pull/14816))
@@ -8,71 +28,71 @@ Remove @override annotations ([#14806](https://github.com/python/typeshed/pull/1
 
 ## 2.18.0.20250809 (2025-08-09)
 
-tensorflow: Add Tensor.__array__ method. (#14342)
+tensorflow: Add Tensor.__array__ method. ([#14342](https://github.com/python/typeshed/pull/14342))
 
 ## 2.18.0.20250728 (2025-07-28)
 
-Remove pytype workarounds from third-party stubs (#14471)
+Remove pytype workarounds from third-party stubs ([#14471](https://github.com/python/typeshed/pull/14471))
 
 ## 2.18.0.20250516 (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs (#14063)
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
 ## 2.18.0.20250514 (2025-05-14)
 
-Replace incomplete module markers (#14030)
+Replace incomplete module markers ([#14030](https://github.com/python/typeshed/pull/14030))
 
 ## 2.18.0.20250506 (2025-05-06)
 
-Run Black on *_pb2 files (#13930)
+Run Black on *_pb2 files ([#13930](https://github.com/python/typeshed/pull/13930))
 
 ## 2.18.0.20250503 (2025-05-03)
 
-Mention rerunning sync_protobuf scripts (#13924)
+Mention rerunning sync_protobuf scripts ([#13924](https://github.com/python/typeshed/pull/13924))
 
 ## 2.18.0.20250425 (2025-04-25)
 
-[tensorflow] Fix literal value for `pad` function (#13877)
+[tensorflow] Fix literal value for `pad` function ([#13877](https://github.com/python/typeshed/pull/13877))
 
 ## 2.18.0.20250404 (2025-04-04)
 
-Enable Ruff flake8-todos (TD) (#13748)
+Enable Ruff flake8-todos (TD) ([#13748](https://github.com/python/typeshed/pull/13748))
 
 ## 2.18.0.20250319 (2025-03-19)
 
-[CI] Run stubtest with Python 3.13 (#13638)
+[CI] Run stubtest with Python 3.13 ([#13638](https://github.com/python/typeshed/pull/13638))
 
 ## 2.18.0.20250304 (2025-03-04)
 
-Enable Ruff PLC (Pylint Convention) (#13306)
+Enable Ruff PLC (Pylint Convention) ([#13306](https://github.com/python/typeshed/pull/13306))
 
 ## 2.18.0.20250301 (2025-03-01)
 
-`tensorflow`: Change `Tensor.__bool__` return from `NoReturn` to `bool` (#13562)
+`tensorflow`: Change `Tensor.__bool__` return from `NoReturn` to `bool` ([#13562](https://github.com/python/typeshed/pull/13562))
 
 ## 2.18.0.20250228 (2025-02-28)
 
-`tensorflow`: Allow `tf.Tensor` to be used in `__getitem__` (#13549)
+`tensorflow`: Allow `tf.Tensor` to be used in `__getitem__` ([#13549](https://github.com/python/typeshed/pull/13549))
 
 ## 2.18.0.20250227 (2025-02-27)
 
-`tensorflow`: add a few TensorFlow functions (#13364)
+`tensorflow`: add a few TensorFlow functions ([#13364](https://github.com/python/typeshed/pull/13364))
 
 ## 2.18.0.20241227 (2024-12-27)
 
-Enable Ruff PGH rules (#13304)
+Enable Ruff PGH rules ([#13304](https://github.com/python/typeshed/pull/13304))
 
 ## 2.18.0.20241128 (2024-11-28)
 
-Pin `keras` to `3.6.*` when stubtesting `tensorflow` (#13137)
+Pin `keras` to `3.6.*` when stubtesting `tensorflow` ([#13137](https://github.com/python/typeshed/pull/13137))
 
 ## 2.18.0.20241112 (2024-11-12)
 
-Remove numpy pins from several stubs (#12993)
+Remove numpy pins from several stubs ([#12993](https://github.com/python/typeshed/pull/12993))
 
 ## 2.18.0.20241030 (2024-10-30)
 
-Bump tensorflow to ~=2.18.0 (#12916)
+Bump tensorflow to ~=2.18.0 ([#12916](https://github.com/python/typeshed/pull/12916))
 
 * Tensorflow proto script update
 
@@ -82,7 +102,7 @@ Bump tensorflow to ~=2.18.0 (#12916)
 
 ## 2.17.1.20241029 (2024-10-29)
 
-Use `lib/ts_utils` for `scripts/sync_protobuf` (#12913)
+Use `lib/ts_utils` for `scripts/sync_protobuf` ([#12913](https://github.com/python/typeshed/pull/12913))
 
 - Simplified `download_file` error handling (400+ return codes already raised errors!)
 - Moved `update_metadata` from `scripts/sync_protobuf/_utils.py` to `lib/ts_utils/metadata.py`
@@ -93,85 +113,85 @@ Use `lib/ts_utils` for `scripts/sync_protobuf` (#12913)
 
 ## 2.17.0.20240920 (2024-09-20)
 
-Rewrote protobuf generation scripts in Python (#12527)
+Rewrote protobuf generation scripts in Python ([#12527](https://github.com/python/typeshed/pull/12527))
 
 ## 2.17.0.20240820 (2024-08-20)
 
-Pin numpy in various stubs (#12554)
+Pin numpy in various stubs ([#12554](https://github.com/python/typeshed/pull/12554))
 
 ## 2.17.0.20240813 (2024-08-13)
 
-Use Generator instead of Iterator for 3rd-party context managers (#12481)
+Use Generator instead of Iterator for 3rd-party context managers ([#12481](https://github.com/python/typeshed/pull/12481))
 
-Bump tensorflow to 2.17.* (#12512)
+Bump tensorflow to 2.17.* ([#12512](https://github.com/python/typeshed/pull/12512))
 
 ## 2.16.0.20240804 (2024-08-04)
 
-Remove numpy version pin for several stubs(#12476)
+Remove numpy version pin for several stubs([#12476](https://github.com/python/typeshed/pull/12476))
 
 ## 2.16.0.20240627 (2024-06-27)
 
-[tensorflow] Pin keras to 3.3.* (#12221)
+[tensorflow] Pin keras to 3.3.* ([#12221](https://github.com/python/typeshed/pull/12221))
 
 ## 2.16.0.20240618 (2024-06-18)
 
-Pin various stubs to numpy to < 2 (#12152)
+Pin various stubs to numpy to < 2 ([#12152](https://github.com/python/typeshed/pull/12152))
 
 Fixes #12146
 
 ## 2.16.0.20240617 (2024-06-17)
 
-Replace `np.float_` alias removed in numpy 2.0 (#12138)
+Replace `np.float_` alias removed in numpy 2.0 ([#12138](https://github.com/python/typeshed/pull/12138))
 
 ## 2.16.0.20240606 (2024-06-06)
 
-Add stubs for tf.math.angle to math.pyi (#12099)
+Add stubs for tf.math.angle to math.pyi ([#12099](https://github.com/python/typeshed/pull/12099))
 
 ## 2.16.0.20240428 (2024-04-28)
 
-Fix stubtest for TensorFlow with latest keras release (#11838)
+Fix stubtest for TensorFlow with latest keras release ([#11838](https://github.com/python/typeshed/pull/11838))
 
 ## 2.16.0.20240424 (2024-04-24)
 
-Fix stubtest errors in tensorflow with `keras>=3.3.2` (#11817)
+Fix stubtest errors in tensorflow with `keras>=3.3.2` ([#11817](https://github.com/python/typeshed/pull/11817))
 
 ## 2.16.0.20240423 (2024-04-23)
 
-Bump tensorflow to 2.16.* (#11696)
+Bump tensorflow to 2.16.* ([#11696](https://github.com/python/typeshed/pull/11696))
 
 ## 2.15.0.20240422 (2024-04-22)
 
-Simplify protoc install in protobuf generation scripts (#11785)
+Simplify protoc install in protobuf generation scripts ([#11785](https://github.com/python/typeshed/pull/11785))
 
 ## 2.15.0.20240417 (2024-04-17)
 
-Remove remaining bare `Incomplete`s (#11768)
+Remove remaining bare `Incomplete`s ([#11768](https://github.com/python/typeshed/pull/11768))
 
 Enable Y065
 
 ## 2.15.0.20240412 (2024-04-12)
 
-Bump flake8-pyi to 24.4.0 (#11745)
+Bump flake8-pyi to 24.4.0 ([#11745](https://github.com/python/typeshed/pull/11745))
 
 ## 2.15.0.20240411 (2024-04-11)
 
-Bump mypy-protobuf in sync_tensorflow script and improve generation scripts (#11740)
+Bump mypy-protobuf in sync_tensorflow script and improve generation scripts ([#11740](https://github.com/python/typeshed/pull/11740))
 
 ## 2.15.0.20240314 (2024-03-14)
 
-`tensorflow`: Add `tensorflow.keras.models.Model` (#11334)
+`tensorflow`: Add `tensorflow.keras.models.Model` ([#11334](https://github.com/python/typeshed/pull/11334))
 
 Based on:
 
 - https://github.com/hmc-cs-mdrissi/tensorflow_stubs/blob/main/stubs/tensorflow/saved_model/__init__.pyi
 - https://github.com/hmc-cs-mdrissi/tensorflow_stubs/blob/main/stubs/tensorflow/types/experimental.pyi
 
-`tensorflow`: Add missing members to the `tensorflow.keras.layers` module. (#11333)
+`tensorflow`: Add missing members to the `tensorflow.keras.layers` module. ([#11333](https://github.com/python/typeshed/pull/11333))
 
 Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 Co-authored-by: Rebecca Chen <rechen@google.com>
 
-`tensorflow` add `tensorflow.saved_model` (#11439)
+`tensorflow` add `tensorflow.saved_model` ([#11439](https://github.com/python/typeshed/pull/11439))
 
 Based on:
 - https://github.com/hmc-cs-mdrissi/tensorflow_stubs/blob/main/stubs/tensorflow/saved_model/__init__.pyi
@@ -179,11 +199,11 @@ Based on:
 
 ## 2.15.0.20240311 (2024-03-11)
 
-Use PEP 570 syntax in third party stubs (#11554)
+Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
 ## 2.15.0.20240303 (2024-03-03)
 
-`tensorflow`: add partial `tf.nn` module. (#11388)
+`tensorflow`: add partial `tf.nn` module. ([#11388](https://github.com/python/typeshed/pull/11388))
 
 Some derived from:
 https://github.com/hmc-cs-mdrissi/tensorflow_stubs/blob/main/stubs/tensorflow/summary.pyi
@@ -191,136 +211,136 @@ https://github.com/hmc-cs-mdrissi/tensorflow_stubs/blob/main/stubs/tensorflow/nn
 
 ## 2.15.0.20240302 (2024-03-02)
 
-`tensorflow`: add `tensorflow.bitwise` (#11440)
+`tensorflow`: add `tensorflow.bitwise` ([#11440](https://github.com/python/typeshed/pull/11440))
 
 Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
-`tensorflow`: add `tensorflow.audio` (#11441)
+`tensorflow`: add `tensorflow.audio` ([#11441](https://github.com/python/typeshed/pull/11441))
 
-`tensorflow`: add `tensorflow.keras.activations` members (#11444)
+`tensorflow`: add `tensorflow.keras.activations` members ([#11444](https://github.com/python/typeshed/pull/11444))
 
 Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
-Add pyupgrade check outdated-version-block (UP036) (#11509)
+Add pyupgrade check outdated-version-block (UP036) ([#11509](https://github.com/python/typeshed/pull/11509))
 
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 2.15.0.20240301 (2024-03-01)
 
-`tensorflow`: add `tensorflow.autodiff` (#11442)
+`tensorflow`: add `tensorflow.autodiff` ([#11442](https://github.com/python/typeshed/pull/11442))
 
-`tensorflow`: add `tensorflow.autograph` (#11443)
+`tensorflow`: add `tensorflow.autograph` ([#11443](https://github.com/python/typeshed/pull/11443))
 
 ## 2.15.0.20240218 (2024-02-18)
 
-`tensorflow`: add `tf.linalg` module (#11386)
+`tensorflow`: add `tf.linalg` module ([#11386](https://github.com/python/typeshed/pull/11386))
 
 Taken from:
 https://github.com/hmc-cs-mdrissi/tensorflow_stubs/blob/main/stubs/tensorflow/linalg.pyi
 
-`tensorflow`: add `tf.ones`, `tf.zeros`, `tf.zeros_like` and `tf.ones_like` functions (#11368)
+`tensorflow`: add `tf.ones`, `tf.zeros`, `tf.zeros_like` and `tf.ones_like` functions ([#11368](https://github.com/python/typeshed/pull/11368))
 
-`tensorflow` add `tf.random` module (#11359)
+`tensorflow` add `tf.random` module ([#11359](https://github.com/python/typeshed/pull/11359))
 
 Partially from Mehdi Drissi's stubs.
 
-`tensorflow`: Add members from `tensorflow.keras.metrics` (#11329)
+`tensorflow`: Add members from `tensorflow.keras.metrics` ([#11329](https://github.com/python/typeshed/pull/11329))
 
 Partially taken from: https://github.com/hmc-cs-mdrissi/tensorflow_stubs/blob/main/stubs/tensorflow/keras/metrics.pyi
 
-`tensorflow`: add `tf.distribute.experimental.coordinator.RemoteValue` (#11349)
+`tensorflow`: add `tf.distribute.experimental.coordinator.RemoteValue` ([#11349](https://github.com/python/typeshed/pull/11349))
 
-`tensorflow`: add `tf.strings` module (#11380)
+`tensorflow`: add `tf.strings` module ([#11380](https://github.com/python/typeshed/pull/11380))
 
 Partially taken from:
 https://github.com/hmc-cs-mdrissi/tensorflow_stubs/blob/main/stubs/tensorflow/strings.pyi
 
 Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
-`tensorflow`: Add some `tf.raw_ops` members. (#11387)
+`tensorflow`: Add some `tf.raw_ops` members. ([#11387](https://github.com/python/typeshed/pull/11387))
 
 https://github.com/hmc-cs-mdrissi/tensorflow_stubs/blob/main/stubs/tensorflow/raw_ops.pyi
 
 ## 2.15.0.20240217 (2024-02-17)
 
-`tensorflow` Add `tensorflow.summary` module  (#11358)
+`tensorflow` Add `tensorflow.summary` module  ([#11358](https://github.com/python/typeshed/pull/11358))
 
 Partially derived from https://github.com/hmc-cs-mdrissi/tensorflow_stubs/blob/main/stubs/tensorflow/summary.pyi
 
 ## 2.15.0.20240206 (2024-02-06)
 
-`tensorflow`: Add `tensorflow.keras.callbacks` module (#11332)
+`tensorflow`: Add `tensorflow.keras.callbacks` module ([#11332](https://github.com/python/typeshed/pull/11332))
 
 ## 2.15.0.20240205 (2024-02-05)
 
-`tensorflow` fix `tensorflow.data.Dataset`'s zip (#11357)
+`tensorflow` fix `tensorflow.data.Dataset`'s zip ([#11357](https://github.com/python/typeshed/pull/11357))
 
-A new shade of Black (#11362)
+A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
 
 ## 2.15.0.20240204 (2024-02-04)
 
-`tensorflow`: bump version to 2.15 (#11352)
+`tensorflow`: bump version to 2.15 ([#11352](https://github.com/python/typeshed/pull/11352))
 
 ## 2.12.0.20240202 (2024-02-02)
 
-`tensorflow`: add `tf.train.CheckpointOptions` and other `tf.train` members. (#11327)
+`tensorflow`: add `tf.train.CheckpointOptions` and other `tf.train` members. ([#11327](https://github.com/python/typeshed/pull/11327))
 
 ## 2.12.0.20240201 (2024-02-01)
 
-`tensorflow`: Add some functions from the config module (#11325)
+`tensorflow`: Add some functions from the config module ([#11325](https://github.com/python/typeshed/pull/11325))
 
-`tensorflow`: Add (and rename) aliases (#11324)
+`tensorflow`: Add (and rename) aliases ([#11324](https://github.com/python/typeshed/pull/11324))
 
-`tensorflow`: add some tensorflow functions (#11326)
+`tensorflow`: add some tensorflow functions ([#11326](https://github.com/python/typeshed/pull/11326))
 
-`tensorflow`: add `tensorflow.math.reduce_variance` (#11328)
+`tensorflow`: add `tensorflow.math.reduce_variance` ([#11328](https://github.com/python/typeshed/pull/11328))
 
 ## 2.12.0.20240131 (2024-01-31)
 
-`tensorflow`: fix `tensorflow.VariableSynchronization` (#11330)
+`tensorflow`: fix `tensorflow.VariableSynchronization` ([#11330](https://github.com/python/typeshed/pull/11330))
 
 ## 2.12.0.20240126 (2024-01-26)
 
-Add `convert_to_tensor` to `tensorflow` (#11292)
+Add `convert_to_tensor` to `tensorflow` ([#11292](https://github.com/python/typeshed/pull/11292))
 
 ## 2.12.0.20240106 (2024-01-06)
 
-Update typing_extensions imports in third-party stubs (#11245)
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 2.12.0.10 (2023-11-09)
 
-Bump flake8-pyi to 23.11.0 (#10997)
+Bump flake8-pyi to 23.11.0 ([#10997](https://github.com/python/typeshed/pull/10997))
 
 ## 2.12.0.9 (2023-10-29)
 
-Enable ruff's isort rules on files generated using mypy-protobuf (#10939)
+Enable ruff's isort rules on files generated using mypy-protobuf ([#10939](https://github.com/python/typeshed/pull/10939))
 
 Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
 
 ## 2.12.0.8 (2023-10-23)
 
-Update mypy-protobuf (#10914)
+Update mypy-protobuf ([#10914](https://github.com/python/typeshed/pull/10914))
 
 Co-authored-by: Avasam <samuel.06@hotmail.com>
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 2.12.0.7 (2023-08-28)
 
-Consistently use `Generic` as the last base class (#10610)
+Consistently use `Generic` as the last base class ([#10610](https://github.com/python/typeshed/pull/10610))
 
 ## 2.12.0.6 (2023-07-20)
 
-Add a few more upstream_repository URLs (#10489)
+Add a few more upstream_repository URLs ([#10489](https://github.com/python/typeshed/pull/10489))
 
 ## 2.12.0.5 (2023-06-08)
 
-Tensorflow losses (#10264)
+Tensorflow losses ([#10264](https://github.com/python/typeshed/pull/10264))
 
 Co-authored-by: Mehdi Drissi <mdrissi@snapchat.com>
 
 ## 2.12.0.4 (2023-05-22)
 
-Add core tensorflow.data stubs (#10122)
+Add core tensorflow.data stubs ([#10122](https://github.com/python/typeshed/pull/10122))
 
 Co-authored-by: Mehdi Drissi <mdrissi@snapchat.com>
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
@@ -328,22 +348,22 @@ Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
 ## 2.12.0.3 (2023-05-10)
 
-Add `partial_stub` metadata field (#10157)
+Add `partial_stub` metadata field ([#10157](https://github.com/python/typeshed/pull/10157))
 
 ## 2.12.0.2 (2023-04-27)
 
-tensorflow: feature columns (#10052)
+tensorflow: feature columns ([#10052](https://github.com/python/typeshed/pull/10052))
 
 Co-authored-by: Mehdi Drissi <mdrissi@snapchat.com>
 Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
 ## 2.12.0.1 (2023-04-27)
 
-tensorflow: Add legacy optimizers (#9997)
+tensorflow: Add legacy optimizers ([#9997](https://github.com/python/typeshed/pull/9997))
 
 ## 2.12.0.0 (2023-03-23)
 
-[stubsabot] Bump tensorflow to 2.12.* (#9926)
+[stubsabot] Bump tensorflow to 2.12.* ([#9926](https://github.com/python/typeshed/pull/9926))
 
 Release: https://pypi.org/pypi/tensorflow/2.12.0
 Homepage: https://www.tensorflow.org/
@@ -354,7 +374,7 @@ If stubtest fails for this PR:
 
 ## 2.11.0.8 (2023-03-15)
 
-Tensorflow protobuf stubs (#9873)
+Tensorflow protobuf stubs ([#9873](https://github.com/python/typeshed/pull/9873))
 
 Co-authored-by: Mehdi Drissi <mdrissi@snapchat.com>
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
@@ -362,34 +382,34 @@ Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
 ## 2.11.0.7 (2023-03-09)
 
-Tensorflow keras layer (#9707)
+Tensorflow keras layer ([#9707](https://github.com/python/typeshed/pull/9707))
 
 Co-authored-by: Mehdi Drissi <mdrissi@snapchat.com>
 
 ## 2.11.0.6 (2023-02-24)
 
-Fix some typos in comments (#9802)
+Fix some typos in comments ([#9802](https://github.com/python/typeshed/pull/9802))
 
 ## 2.11.0.5 (2023-02-21)
 
-Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
+Stubtest settings: change `ignore_missing_stub` default to `false` ([#9779](https://github.com/python/typeshed/pull/9779))
 
 If you're reading about this commit from an autogenerated changelog entry, this should have no user-visible impact on how the stubs are interpreted by a type checker; it's just an internal change to how typeshed's tests work.
 
 ## 2.11.0.4 (2023-02-15)
 
-Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+Use `typing_extensions.Self` instead of `_typeshed.Self` ([#9702](https://github.com/python/typeshed/pull/9702))
 
 ## 2.11.0.3 (2023-02-01)
 
-Tensorflow: Add more stubs (#9560)
+Tensorflow: Add more stubs ([#9560](https://github.com/python/typeshed/pull/9560))
 
 Co-authored-by: Mehdi Drissi <mdrissi@snapchat.com>
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 2.11.0.2 (2023-01-18)
 
-Improve pre-commit config (#9563)
+Improve pre-commit config ([#9563](https://github.com/python/typeshed/pull/9563))
 
 - Add a few more hooks. These are all very fast, and I've found them useful in other projects:
   - Autofixes:
@@ -407,17 +427,17 @@ Improve pre-commit config (#9563)
 
 ## 2.11.0.1 (2023-01-17)
 
-Reenable flake8-pyi's Y011 and Y015 (#9551)
+Reenable flake8-pyi's Y011 and Y015 ([#9551](https://github.com/python/typeshed/pull/9551))
 
 ## 2.11.0.0 (2023-01-15)
 
-Update tensorflow to 2.11 (#9543)
+Update tensorflow to 2.11 ([#9543](https://github.com/python/typeshed/pull/9543))
 
 Co-authored-by: Mehdi Drissi <mdrissi@snapchat.com>
 
 ## 2.10.0.0 (2023-01-14)
 
-Initial tensorflow stubs (#8974)
+Initial tensorflow stubs ([#8974](https://github.com/python/typeshed/pull/8974))
 
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 

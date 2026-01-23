@@ -1,14 +1,20 @@
+## 3.3.0.20251206 (2025-12-06)
+
+[stubsabot] Bump greenlet to 3.3.* ([#15106](https://github.com/python/typeshed/pull/15106))
+
+Co-authored-by: stubsabot <>
+
 ## 3.2.0.20250915 (2025-09-15)
 
 Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
 
 ## 3.2.0.20250809 (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
 ## 3.2.0.20250417 (2025-04-17)
 
-[stubsabot] Bump greenlet to 3.2.* (#13836)
+[stubsabot] Bump greenlet to 3.2.* ([#13836](https://github.com/python/typeshed/pull/13836))
 
 Release: https://pypi.org/pypi/greenlet/3.2.0
 Homepage: https://greenlet.readthedocs.io/
@@ -31,7 +37,7 @@ Co-authored-by: stubsabot <>
 
 ## 3.1.0.20250401 (2025-04-01)
 
-Add `__all__` part 2 (#13719)
+Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
 
 ---------
 
@@ -39,40 +45,40 @@ Co-authored-by: Avasam <samuel.06@hotmail.com>
 
 ## 3.1.0.20250318 (2025-03-18)
 
-[greenlet] Fix for Python 3.13 (#13648)
+[greenlet] Fix for Python 3.13 ([#13648](https://github.com/python/typeshed/pull/13648))
 
 `get_tstate_trash_delete_nesting()` is not available
 on Python 3.13.
 
 ## 3.1.0.20241221 (2024-12-21)
 
-Update to mypy 1.14 (#13272)
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
 ## 3.1.0.20240924 (2024-09-24)
 
-[stubsabot] Bump greenlet to 3.1.* (#12636)
+[stubsabot] Bump greenlet to 3.1.* ([#12636](https://github.com/python/typeshed/pull/12636))
 
 Co-authored-by: stubsabot <>
 
 ## 3.0.0.20240604 (2024-06-04)
 
-greenlet: Adds missing `__version__` variable (#12089)
+greenlet: Adds missing `__version__` variable ([#12089](https://github.com/python/typeshed/pull/12089))
 
 ## 3.0.0.20240311 (2024-03-11)
 
-Use PEP 570 syntax in third party stubs (#11554)
+Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
 ## 3.0.0.20240106 (2024-01-06)
 
-Update typing_extensions imports in third-party stubs (#11245)
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 3.0.0.0 (2023-10-04)
 
-Bump greenlet to 3.0.* (#10833)
+Bump greenlet to 3.0.* ([#10833](https://github.com/python/typeshed/pull/10833))
 
 ## 2.0.0.0 (2023-07-22)
 
-Add stubs for greenlet (#10463)
+Add stubs for greenlet ([#10463](https://github.com/python/typeshed/pull/10463))
 
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 

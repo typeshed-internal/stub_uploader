@@ -1,3 +1,64 @@
+## 7.2.1.20260116 (2026-01-16)
+
+[psutil] Annotate Popen.__init__ method ([#15186](https://github.com/python/typeshed/pull/15186))
+
+## 7.2.1.20251231 (2025-12-31)
+
+[stubsabot] Bump psutil to 7.2.1 ([#15192](https://github.com/python/typeshed/pull/15192))
+
+Release: https://pypi.org/pypi/psutil/7.2.1
+Homepage: https://github.com/giampaolo/psutil
+Repository: https://github.com/giampaolo/psutil
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/psutil
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
+## 7.2.0.20251228 (2025-12-28)
+
+[psutil] Update to 7.2.0 ([#15173](https://github.com/python/typeshed/pull/15173))
+
+## 7.1.3.20251211 (2025-12-11)
+
+[psutil] Use more strict pyright settings ([#15109](https://github.com/python/typeshed/pull/15109))
+
+## 7.1.3.20251210 (2025-12-10)
+
+[psutil] add overloads for cpu_affinity ([#15112](https://github.com/python/typeshed/pull/15112))
+
+## 7.1.3.20251202 (2025-12-02)
+
+[psutil] Complete common POSIX logic ([#15094](https://github.com/python/typeshed/pull/15094))
+
+## 7.1.3.20251130 (2025-11-30)
+
+[psutil] Complete Linux ([#15093](https://github.com/python/typeshed/pull/15093))
+
+## 7.1.3.20251129 (2025-11-29)
+
+[psutil] Complete BSD ([#15090](https://github.com/python/typeshed/pull/15090))
+
+## 7.1.3.20251128 (2025-11-28)
+
+[psutil] Complete SunOS ([#15089](https://github.com/python/typeshed/pull/15089))
+
+## 7.1.3.20251127 (2025-11-27)
+
+[psutil] Complete AIX ([#15088](https://github.com/python/typeshed/pull/15088))
+
+## 7.1.3.20251125 (2025-11-25)
+
+[psutil] Update to 7.1.3 ([#15074](https://github.com/python/typeshed/pull/15074))
+
+## 7.1.1.20251122 (2025-11-22)
+
+[psutil] Bump psutil to 7.1.1 ([#14873](https://github.com/python/typeshed/pull/14873))
+
 ## 7.0.0.20251116 (2025-11-16)
 
 [psutil] Annotate few common attributes ([#15031](https://github.com/python/typeshed/pull/15031))
@@ -24,22 +85,22 @@ Add missing defaults to third-party stubs ([#14617](https://github.com/python/ty
 
 ## 7.0.0.20250801 (2025-08-01)
 
-Split `tool.stubtest.platforms` metadata key (#13746)
+Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
 Co-authored-by: Avasam <samuel.06@hotmail.com>
 Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
 ## 7.0.0.20250601 (2025-06-01)
 
-[psutil]: Add missing `__dir__` method to `psutil.Popen` (#14207)
+[psutil]: Add missing `__dir__` method to `psutil.Popen` ([#14207](https://github.com/python/typeshed/pull/14207))
 
 ## 7.0.0.20250516 (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs (#14063)
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
 ## 7.0.0.20250401 (2025-04-01)
 
-Add `__all__` part 2 (#13719)
+Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
 
 ---------
 
@@ -47,26 +108,26 @@ Co-authored-by: Avasam <samuel.06@hotmail.com>
 
 ## 7.0.0.20250218 (2025-02-18)
 
-Update psutil to 7.0.* (#13507)
+Update psutil to 7.0.* ([#13507](https://github.com/python/typeshed/pull/13507))
 
 ## 6.1.0.20241221 (2024-12-21)
 
-Update to mypy 1.14 (#13272)
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
 ## 6.1.0.20241102 (2024-11-02)
 
-Update type for psutil.cpu_count (#12941)
+Update type for psutil.cpu_count ([#12941](https://github.com/python/typeshed/pull/12941))
 
 The function can return None:
 https://github.com/giampaolo/psutil/blame/567438cd3eb4334486d88ba90aa14c65755b61cd/psutil/__init__.py#L1665-L1667
 
 ## 6.1.0.20241022 (2024-10-22)
 
-Bump psutil to 6.1.* (#12868)
+Bump psutil to 6.1.* ([#12868](https://github.com/python/typeshed/pull/12868))
 
 ## 6.0.0.20241011 (2024-10-11)
 
-update psutil.Process.parent() return type (#12767)
+update psutil.Process.parent() return type ([#12767](https://github.com/python/typeshed/pull/12767))
 
 per `psutil.Process.parent()`'s docstring, it may return `None`.
 
@@ -74,87 +135,87 @@ https://github.com/giampaolo/psutil/blob/0a71d0e404ddaab32b5222351fd2292802e3b13
 
 ## 6.0.0.20240901 (2024-09-01)
 
-Fix types for psutil.cpu_* functions (#12602)
+Fix types for psutil.cpu_* functions ([#12602](https://github.com/python/typeshed/pull/12602))
 
 ## 6.0.0.20240621 (2024-06-21)
 
-psutil: deprecate `Process.connections` (#12174)
+psutil: deprecate `Process.connections` ([#12174](https://github.com/python/typeshed/pull/12174))
 
-Bump psutil to 6.0.* (#12167)
+Bump psutil to 6.0.* ([#12167](https://github.com/python/typeshed/pull/12167))
 
 Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
 ## 5.9.5.20240516 (2024-05-16)
 
-Update dependency pyright to v1.1.363 (#11919)
+Update dependency pyright to v1.1.363 ([#11919](https://github.com/python/typeshed/pull/11919))
 
 Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
 Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
 ## 5.9.5.20240511 (2024-05-11)
 
-stubs: change psutil's Process.wait timeout argument to float (#11883)
+stubs: change psutil's Process.wait timeout argument to float ([#11883](https://github.com/python/typeshed/pull/11883))
 
 Fixes #11866
 
 ## 5.9.5.20240423 (2024-04-23)
 
-Add precise values for enum members where possible (#11299)
+Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
 
 Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
 ## 5.9.5.20240316 (2024-03-16)
 
-[psutil] add settable info property (#10275)
+[psutil] add settable info property ([#10275](https://github.com/python/typeshed/pull/10275))
 
 ## 5.9.5.20240311 (2024-03-11)
 
-Use PEP 570 syntax in third party stubs (#11554)
+Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
 ## 5.9.5.20240205 (2024-02-05)
 
-A new shade of Black (#11362)
+A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
 
 ## 5.9.5.20240106 (2024-01-06)
 
-Update typing_extensions imports in third-party stubs (#11245)
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 5.9.5.17 (2023-10-16)
 
-psutil: updates (#10894)
+psutil: updates ([#10894](https://github.com/python/typeshed/pull/10894))
 
 ## 5.9.5.16 (2023-07-20)
 
-Add an upstream_repository field to METADATA.toml (#10487)
+Add an upstream_repository field to METADATA.toml ([#10487](https://github.com/python/typeshed/pull/10487))
 
 Closes: #10478
 
 ## 5.9.5.15 (2023-06-12)
 
-psutil: import platform-specific 'pio' definitions (#10305)
+psutil: import platform-specific 'pio' definitions ([#10305](https://github.com/python/typeshed/pull/10305))
 
 ## 5.9.5.14 (2023-06-12)
 
-psutil: declare return type of io_counters() (#10303)
+psutil: declare return type of io_counters() ([#10303](https://github.com/python/typeshed/pull/10303))
 
 ## 5.9.5.13 (2023-06-01)
 
-[psutil] Fix cpu_percent return type when percpu is True (#10238)
+[psutil] Fix cpu_percent return type when percpu is True ([#10238](https://github.com/python/typeshed/pull/10238))
 
 ## 5.9.5.12 (2023-04-20)
 
-psutil: fix stubtest (#10065)
+psutil: fix stubtest ([#10065](https://github.com/python/typeshed/pull/10065))
 
 Fixes #10059
 
 ## 5.9.5.11 (2023-03-27)
 
-Add default values for third-party stubs beginning with 'P' (#9957)
+Add default values for third-party stubs beginning with 'P' ([#9957](https://github.com/python/typeshed/pull/9957))
 
 ## 5.9.5.10 (2023-03-08)
 
-psutil: sconn.pid can be None (#9853)
+psutil: sconn.pid can be None ([#9853](https://github.com/python/typeshed/pull/9853))
 
 Found out about this the hard way.
 
@@ -162,37 +223,37 @@ The code path that allows None is here: https://github.com/giampaolo/psutil/blob
 
 ## 5.9.5.9 (2023-02-26)
 
-Improve many `__(a)exit__` annotations (#9696)
+Improve many `__(a)exit__` annotations ([#9696](https://github.com/python/typeshed/pull/9696))
 
 ## 5.9.5.8 (2023-02-21)
 
-Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
+Stubtest settings: change `ignore_missing_stub` default to `false` ([#9779](https://github.com/python/typeshed/pull/9779))
 
 If you're reading about this commit from an autogenerated changelog entry, this should have no user-visible impact on how the stubs are interpreted by a type checker; it's just an internal change to how typeshed's tests work.
 
 ## 5.9.5.7 (2023-02-15)
 
-Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+Use `typing_extensions.Self` instead of `_typeshed.Self` ([#9702](https://github.com/python/typeshed/pull/9702))
 
-Bump pyright to 1.1.294; improve `psutil` stubs (#9739)
+Bump pyright to 1.1.294; improve `psutil` stubs ([#9739](https://github.com/python/typeshed/pull/9739))
 
 Partially type psfullmem
 
 ## 5.9.5.6 (2023-01-18)
 
-Replace `Any` with `Incomplete` in many places (#9558)
+Replace `Any` with `Incomplete` in many places ([#9558](https://github.com/python/typeshed/pull/9558))
 
 ## 5.9.5.5 (2022-11-13)
 
-Run stubtest for psutil on all platforms (#9169)
+Run stubtest for psutil on all platforms ([#9169](https://github.com/python/typeshed/pull/9169))
 
 ## 5.9.5.4 (2022-10-20)
 
-`psutil`: Fix `win_service_iter()` return type to allow iterating over its result (#8932)
+`psutil`: Fix `win_service_iter()` return type to allow iterating over its result ([#8932](https://github.com/python/typeshed/pull/8932))
 
 ## 5.9.5.3 (2022-10-19)
 
-psutil: add snicstats.flags (#8928)
+psutil: add snicstats.flags ([#8928](https://github.com/python/typeshed/pull/8928))
 
 Fixes #8927
 
@@ -200,59 +261,59 @@ See https://github.com/giampaolo/psutil/commit/70eecaf44d61f2cabcd22ffb407b90424
 
 ## 5.9.5.2 (2022-10-15)
 
-Use `Incomplete` instead of `Any` in `__getattr__` (#8903)
+Use `Incomplete` instead of `Any` in `__getattr__` ([#8903](https://github.com/python/typeshed/pull/8903))
 
 ## 5.9.5.1 (2022-10-03)
 
-psutil: Improve types for disk_io_counters() and net_io_counters() (#8829)
+psutil: Improve types for disk_io_counters() and net_io_counters() ([#8829](https://github.com/python/typeshed/pull/8829))
 
 ## 5.9.5 (2022-08-08)
 
-psutil: improve svmem types (#8503)
+psutil: improve svmem types ([#8503](https://github.com/python/typeshed/pull/8503))
 
 ## 5.9.4 (2022-08-08)
 
-psutil: types for virtual_memory (#8501)
+psutil: types for virtual_memory ([#8501](https://github.com/python/typeshed/pull/8501))
 
 ## 5.9.3 (2022-07-30)
 
-Remove or move several `TypeAlias` declarations (#8444)
+Remove or move several `TypeAlias` declarations ([#8444](https://github.com/python/typeshed/pull/8444))
 
 ## 5.9.2 (2022-07-19)
 
-Third-party stubs: enforce CamelCase for type alias names (#8256)
+Third-party stubs: enforce CamelCase for type alias names ([#8256](https://github.com/python/typeshed/pull/8256))
 
 Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
 ## 5.9.1 (2022-07-04)
 
-Third-party stubs: audit more `Callable[<parameters>, Any]` annotations (#8233)
+Third-party stubs: audit more `Callable[<parameters>, Any]` annotations ([#8233](https://github.com/python/typeshed/pull/8233))
 
 ## 5.9.0 (2022-07-01)
 
-[stubsabot] Bump psutil to 5.9.* (#8213)
+[stubsabot] Bump psutil to 5.9.* ([#8213](https://github.com/python/typeshed/pull/8213))
 
 Co-authored-by: hauntsaninja <>
 
 ## 5.8.23 (2022-06-06)
 
-Always use `TypeAlias` when assigning to `Any` (#8021)
+Always use `TypeAlias` when assigning to `Any` ([#8021](https://github.com/python/typeshed/pull/8021))
 
 ## 5.8.22 (2022-04-16)
 
-Third-party stubs: import from `collections.abc` where possible (#7637)
+Third-party stubs: import from `collections.abc` where possible ([#7637](https://github.com/python/typeshed/pull/7637))
 
 ## 5.8.21 (2022-04-16)
 
-Use `TypeAlias` where possible for type aliases (#7630)
+Use `TypeAlias` where possible for type aliases ([#7630](https://github.com/python/typeshed/pull/7630))
 
 ## 5.8.20 (2022-01-31)
 
-Upgrade black version (#7089)
+Upgrade black version ([#7089](https://github.com/python/typeshed/pull/7089))
 
 ## 5.8.19 (2022-01-10)
 
-Always use `_typeshed.Self`, where applicable (#6880)
+Always use `_typeshed.Self`, where applicable ([#6880](https://github.com/python/typeshed/pull/6880))
 
 * Always use `_typeshed.Self`, where applicable
 
@@ -286,51 +347,51 @@ Source code here: https://github.com/psf/requests/blob/d718e753834b84018014a23d6
 
 ## 5.8.17 (2021-12-28)
 
-Use PEP 585 syntax wherever possible (#6717)
+Use PEP 585 syntax wherever possible ([#6717](https://github.com/python/typeshed/pull/6717))
 
 ## 5.8.16 (2021-12-23)
 
-fix typing for psutil sconn (#6669)
+fix typing for psutil sconn ([#6669](https://github.com/python/typeshed/pull/6669))
 
 ## 5.8.15 (2021-11-23)
 
-Reduce use of deprecated `typing` aliases (#6358)
+Reduce use of deprecated `typing` aliases ([#6358](https://github.com/python/typeshed/pull/6358))
 
 ## 5.8.14 (2021-11-08)
 
-Process.status returns a status string (#6245)
+Process.status returns a status string ([#6245](https://github.com/python/typeshed/pull/6245))
 
 Typed STATUS_* constants using Literal
 
 ## 5.8.13 (2021-10-12)
 
-Add star to all non-0.1 versions (#6146)
+Add star to all non-0.1 versions ([#6146](https://github.com/python/typeshed/pull/6146))
 
 ## 5.8.12 (2021-10-07)
 
-Add missing annotations for psutil (#6124)
+Add missing annotations for psutil ([#6124](https://github.com/python/typeshed/pull/6124))
 
 ## 5.8.11 (2021-10-07)
 
-Improves `psutil` (#6103)
+Improves `psutil` ([#6103](https://github.com/python/typeshed/pull/6103))
 
 Add a few items and annotations to psutil
 
 ## 5.8.10 (2021-10-05)
 
-Add several missing type annotations to `psutil._common` (#6104)
+Add several missing type annotations to `psutil._common` ([#6104](https://github.com/python/typeshed/pull/6104))
 
 ## 5.8.9 (2021-10-05)
 
-Properly export types from psutil._compat (#6112)
+Properly export types from psutil._compat ([#6112](https://github.com/python/typeshed/pull/6112))
 
 ## 5.8.8 (2021-09-25)
 
-Improves `Popen` types in `psutil` (#6074)
+Improves `Popen` types in `psutil` ([#6074](https://github.com/python/typeshed/pull/6074))
 
 ## 5.8.7 (2021-09-25)
 
-Further improvements to `psutil` (#6072)
+Further improvements to `psutil` ([#6072](https://github.com/python/typeshed/pull/6072))
 
 Adds types to the following functions:
 - `psutil.environ()`
@@ -341,21 +402,21 @@ Adds types to the following functions:
 
 ## 5.8.6 (2021-09-24)
 
-Further annotations for the psutil module (#6066)
+Further annotations for the psutil module ([#6066](https://github.com/python/typeshed/pull/6066))
 
 ## 5.8.5 (2021-09-10)
 
-Annotate more NamedTuples for psutil (#6021)
+Annotate more NamedTuples for psutil ([#6021](https://github.com/python/typeshed/pull/6021))
 
 ## 5.8.4 (2021-09-09)
 
-Annotate several NamedTuples in psutil (#6016)
+Annotate several NamedTuples in psutil ([#6016](https://github.com/python/typeshed/pull/6016))
 
-Annotate more methods of psutil.Process (#6012)
+Annotate more methods of psutil.Process ([#6012](https://github.com/python/typeshed/pull/6012))
 
 ## 5.8.3 (2021-09-06)
 
-Improves `psutil/_common.pyi` (#6010)
+Improves `psutil/_common.pyi` ([#6010](https://github.com/python/typeshed/pull/6010))
 
 * Improves `psutil/_common.pyi`
 
@@ -372,12 +433,12 @@ We can go deeper in the next iteration(s).
 
 ## 5.8.2 (2021-09-06)
 
-Adds more missing `ContextManager` types (#6007)
+Adds more missing `ContextManager` types ([#6007](https://github.com/python/typeshed/pull/6007))
 
 1. https://github.com/giampaolo/psutil/blob/c3e63b4dd59f1724a7fa29371e53dfa7f46cbcd3/psutil/_psbsd.py#L571
 2. https://github.com/giampaolo/psutil/blob/c3e63b4dd59f1724a7fa29371e53dfa7f46cbcd3/psutil/_psosx.py#L365
 
 ## 5.8.1 (2021-09-05)
 
-Fix return type of Process.oneshot() (#6006)
+Fix return type of Process.oneshot() ([#6006](https://github.com/python/typeshed/pull/6006))
 

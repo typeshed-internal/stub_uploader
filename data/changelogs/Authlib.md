@@ -1,3 +1,23 @@
+## 1.6.6.20260116 (2026-01-16)
+
+[Authlib] Annotate more ([#15203](https://github.com/python/typeshed/pull/15203))
+
+## 1.6.6.20251220 (2025-12-20)
+
+[Authlib] Update return types ([#15153](https://github.com/python/typeshed/pull/15153))
+
+* Remove return types for not implemented methods
+* Add some obvious return types
+* Fix some incorrect types found
+
+[Authlib] Add integrations dirs ([#15147](https://github.com/python/typeshed/pull/15147))
+
+## 1.6.6.20251214 (2025-12-14)
+
+[Authlib] Update to 1.6.6 ([#15131](https://github.com/python/typeshed/pull/15131))
+
+Remove outdated allowlist entries ([#15133](https://github.com/python/typeshed/pull/15133))
+
 ## 1.6.5.20251005 (2025-10-05)
 
 [Authlib] Update to 1.6.5 ([#14830](https://github.com/python/typeshed/pull/14830))
@@ -20,45 +40,45 @@ Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
 
 ## 1.6.0.20250809 (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
 ## 1.6.0.20250711 (2025-07-11)
 
-[Authlib] Mark as partial again (#14394)
+[Authlib] Mark as partial again ([#14394](https://github.com/python/typeshed/pull/14394))
 
 Some integrations are missing from the stubs
 
 ## 1.6.0.20250708 (2025-07-08)
 
-[Authlib] Add missing stubs (#14368)
+[Authlib] Add missing stubs ([#14368](https://github.com/python/typeshed/pull/14368))
 
 ## 1.6.0.20250705 (2025-07-05)
 
-Bump Authlib to ~=1.6.0 (#14364)
+Bump Authlib to ~=1.6.0 ([#14364](https://github.com/python/typeshed/pull/14364))
 
 ## 1.5.2.20250704 (2025-07-04)
 
-[Authlib] Update to 1.5.2 (#13840)
+[Authlib] Update to 1.5.2 ([#13840](https://github.com/python/typeshed/pull/13840))
 
 ## 1.5.0.20250608 (2025-06-08)
 
-[Authlib] Fix stubtest for latest Python 3.13 patch release (#14233)
+[Authlib] Fix stubtest for latest Python 3.13 patch release ([#14233](https://github.com/python/typeshed/pull/14233))
 
 ## 1.5.0.20250516 (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs (#14063)
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
 ## 1.5.0.20250416 (2025-04-16)
 
-Update authlib to 1.5.* (#13540)
+Update authlib to 1.5.* ([#13540](https://github.com/python/typeshed/pull/13540))
 
 ## 1.4.0.20250408 (2025-04-08)
 
-Improve `Authlib` (#13801)
+Improve `Authlib` ([#13801](https://github.com/python/typeshed/pull/13801))
 
 ## 1.4.0.20241230 (2024-12-30)
 
-[stubsabot] Bump Authlib to 1.4.* (#13329)
+[stubsabot] Bump Authlib to 1.4.* ([#13329](https://github.com/python/typeshed/pull/13329))
 
 Release: https://pypi.org/pypi/Authlib/1.4.0
 Repository: https://github.com/lepture/authlib
@@ -74,7 +94,7 @@ Stubsabot analysis of the diff between the two releases:
 
 ## 1.3.0.20241229 (2024-12-29)
 
-Authlib (v2) (#13140)
+Authlib (v2) ([#13140](https://github.com/python/typeshed/pull/13140))
 
 Co-authored-by: Brian Villemarette <brian.villemarette@trucesoftware.com>
 Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>

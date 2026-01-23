@@ -1,132 +1,132 @@
 ## 10.2.0.20240822 (2024-08-22)
 
-Using precise code for `pyright: ignore` and re-enabling various pyright tests (#12576)
+Using precise code for `pyright: ignore` and re-enabling various pyright tests ([#12576](https://github.com/python/typeshed/pull/12576))
 
 ## 10.2.0.20240520 (2024-05-20)
 
-Use assignments for enums in pillow (#11959)
+Use assignments for enums in pillow ([#11959](https://github.com/python/typeshed/pull/11959))
 
 ## 10.2.0.20240511 (2024-05-11)
 
-Add typehints for `open` in `PIL.WallImageFile` (#11887)
+Add typehints for `open` in `PIL.WallImageFile` ([#11887](https://github.com/python/typeshed/pull/11887))
 
 ## 10.2.0.20240423 (2024-04-23)
 
-Add precise values for enum members where possible (#11299)
+Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
 
 Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
 ## 10.2.0.20240415 (2024-04-15)
 
-[stubsabot] Mark Pillow as obsolete since 10.3.0 (#11698)
+[stubsabot] Mark Pillow as obsolete since 10.3.0 ([#11698](https://github.com/python/typeshed/pull/11698))
 
 ## 10.2.0.20240406 (2024-04-06)
 
-Depend on Pillow instead of types-Pillow (#11720)
+Depend on Pillow instead of types-Pillow ([#11720](https://github.com/python/typeshed/pull/11720))
 
 ## 10.2.0.20240331 (2024-03-31)
 
-Remove bare Incomplete annotations in third-party stubs (#11671)
+Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
 
 ## 10.2.0.20240324 (2024-03-24)
 
-[Pillow] Annotate ImageSequence.pyi (#11625)
+[Pillow] Annotate ImageSequence.pyi ([#11625](https://github.com/python/typeshed/pull/11625))
 
 ## 10.2.0.20240311 (2024-03-11)
 
-Use PEP 570 syntax in third party stubs (#11554)
+Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
 ## 10.2.0.20240213 (2024-02-13)
 
-Pillow: Allow float(s) for cutoff param of autocontrast (#11409)
+Pillow: Allow float(s) for cutoff param of autocontrast ([#11409](https://github.com/python/typeshed/pull/11409))
 
-Pillow: ImageOps.autocontrast can set low and high cutoffs separately (#11408)
+Pillow: ImageOps.autocontrast can set low and high cutoffs separately ([#11408](https://github.com/python/typeshed/pull/11408))
 
 ImageOps.autocontrast can set low and high cutoffs separately
 
 ## 10.2.0.20240206 (2024-02-06)
 
-Type `obj` parameter of `PIL.Image.fromarray` (#11176)
+Type `obj` parameter of `PIL.Image.fromarray` ([#11176](https://github.com/python/typeshed/pull/11176))
 
 ## 10.2.0.20240125 (2024-01-25)
 
-Add a number of properties to PIL.ImageStat.Stat (#11303)
+Add a number of properties to PIL.ImageStat.Stat ([#11303](https://github.com/python/typeshed/pull/11303))
 
 ## 10.2.0.20240111 (2024-01-11)
 
-[Pillow] Update to 10.2.* (#11232)
+[Pillow] Update to 10.2.* ([#11232](https://github.com/python/typeshed/pull/11232))
 
 ## 10.1.0.20240106 (2024-01-06)
 
-Update typing_extensions imports in third-party stubs (#11245)
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 10.1.0.2 (2023-11-11)
 
-third-party: make some protocol params pos-only (#11006)
+third-party: make some protocol params pos-only ([#11006](https://github.com/python/typeshed/pull/11006))
 
 ## 10.1.0.1 (2023-11-09)
 
-Bump flake8-pyi to 23.11.0 (#10997)
+Bump flake8-pyi to 23.11.0 ([#10997](https://github.com/python/typeshed/pull/10997))
 
 ## 10.1.0.0 (2023-10-17)
 
-Bump Pillow to 10.1.* (#10897)
+Bump Pillow to 10.1.* ([#10897](https://github.com/python/typeshed/pull/10897))
 
 ## 10.0.0.3 (2023-09-05)
 
-[Pillow] Fix typing of FreeTypeFont.getlength (#10663)
+[Pillow] Fix typing of FreeTypeFont.getlength ([#10663](https://github.com/python/typeshed/pull/10663))
 
 ## 10.0.0.2 (2023-07-20)
 
-Add an upstream_repository field to METADATA.toml (#10487)
+Add an upstream_repository field to METADATA.toml ([#10487](https://github.com/python/typeshed/pull/10487))
 
 Closes: #10478
 
 ## 10.0.0.1 (2023-07-12)
 
-Pillow: mark MAX_IMAGE_PIXELS as non-final (#10445)
+Pillow: mark MAX_IMAGE_PIXELS as non-final ([#10445](https://github.com/python/typeshed/pull/10445))
 
 ## 10.0.0.0 (2023-07-06)
 
-Bump Pillow to 10.0.* (#10411)
+Bump Pillow to 10.0.* ([#10411](https://github.com/python/typeshed/pull/10411))
 
-[Pillow] Replace `Any` with `Incomplete` (#10409)
+[Pillow] Replace `Any` with `Incomplete` ([#10409](https://github.com/python/typeshed/pull/10409))
 
-[Pillow] Update TiffImagePlugin for Python 3.11 (#10399)
+[Pillow] Update TiffImagePlugin for Python 3.11 ([#10399](https://github.com/python/typeshed/pull/10399))
 
 Also type the methods forwarded from Fraction and replace
 `Any` with `Incomplete`.
 
 ## 9.5.0.6 (2023-07-05)
 
-Pillow: Add `tuple[int, int]` to `_Color` TypeAlias (#10407)
+Pillow: Add `tuple[int, int]` to `_Color` TypeAlias ([#10407](https://github.com/python/typeshed/pull/10407))
 
 ## 9.5.0.5 (2023-06-28)
 
-[PIL] Make return type of PyDecoder.decode a tuple (#10381)
+[PIL] Make return type of PyDecoder.decode a tuple ([#10381](https://github.com/python/typeshed/pull/10381))
 
 ## 9.5.0.4 (2023-05-10)
 
-Add `partial_stub` metadata field (#10157)
+Add `partial_stub` metadata field ([#10157](https://github.com/python/typeshed/pull/10157))
 
 ## 9.5.0.3 (2023-05-10)
 
-[Pillow] Add all missing items (#10114)
+[Pillow] Add all missing items ([#10114](https://github.com/python/typeshed/pull/10114))
 
 ## 9.5.0.2 (2023-04-26)
 
-Add a return type for `PIL.Image.load` (#9466)
+Add a return type for `PIL.Image.load` ([#9466](https://github.com/python/typeshed/pull/9466))
 
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 9.5.0.1 (2023-04-17)
 
-[Pillow] Add Base and GPS enums in PIL.ExifTags (#10051)
+[Pillow] Add Base and GPS enums in PIL.ExifTags ([#10051](https://github.com/python/typeshed/pull/10051))
 
 ## 9.5.0.0 (2023-04-14)
 
-Bump Pillow to 9.5.* (#10046)
+Bump Pillow to 9.5.* ([#10046](https://github.com/python/typeshed/pull/10046))
 
 Release: https://pypi.org/pypi/Pillow/9.5.0
 Homepage: https://python-pillow.org
@@ -135,19 +135,19 @@ Diff: https://github.com/python-pillow/Pillow/compare/9.4.0...9.5.0
 
 ## 9.4.0.19 (2023-03-28)
 
-Delete some unnecessary type aliases in tkinter (#9970)
+Delete some unnecessary type aliases in tkinter ([#9970](https://github.com/python/typeshed/pull/9970))
 
 ## 9.4.0.18 (2023-03-27)
 
-Add default values for third-party stubs beginning with 'P' (#9957)
+Add default values for third-party stubs beginning with 'P' ([#9957](https://github.com/python/typeshed/pull/9957))
 
 ## 9.4.0.17 (2023-02-26)
 
-Improve many `__(a)exit__` annotations (#9696)
+Improve many `__(a)exit__` annotations ([#9696](https://github.com/python/typeshed/pull/9696))
 
 ## 9.4.0.16 (2023-02-22)
 
-Update `Unused` parameters in `stubs/` (#9704)
+Update `Unused` parameters in `stubs/` ([#9704](https://github.com/python/typeshed/pull/9704))
 
 * Update _Unused TypeAlias
 
@@ -157,91 +157,91 @@ Update `Unused` parameters in `stubs/` (#9704)
 
 ## 9.4.0.15 (2023-02-21)
 
-Integrate requirements-stubtest.txt into METADATA.toml (#9778)
+Integrate requirements-stubtest.txt into METADATA.toml ([#9778](https://github.com/python/typeshed/pull/9778))
 
 ## 9.4.0.14 (2023-02-21)
 
-Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
+Stubtest settings: change `ignore_missing_stub` default to `false` ([#9779](https://github.com/python/typeshed/pull/9779))
 
 If you're reading about this commit from an autogenerated changelog entry, this should have no user-visible impact on how the stubs are interpreted by a type checker; it's just an internal change to how typeshed's tests work.
 
 ## 9.4.0.13 (2023-02-18)
 
-Add types for PIL.ImageTk (#9733)
+Add types for PIL.ImageTk ([#9733](https://github.com/python/typeshed/pull/9733))
 
 ## 9.4.0.12 (2023-02-15)
 
-Use `typing_extensions.Self` instead of `_typeshed.Self` (#9702)
+Use `typing_extensions.Self` instead of `_typeshed.Self` ([#9702](https://github.com/python/typeshed/pull/9702))
 
 ## 9.4.0.11 (2023-02-14)
 
-Add comments when subclassing Any (#9732)
+Add comments when subclassing Any ([#9732](https://github.com/python/typeshed/pull/9732))
 
 ## 9.4.0.10 (2023-02-09)
 
-Pillow: Add missing enums from 9.1.0 (#9698)
+Pillow: Add missing enums from 9.1.0 ([#9698](https://github.com/python/typeshed/pull/9698))
 
 ## 9.4.0.9 (2023-02-09)
 
-Use `_typeshed.FileDescriptorOrPath` in stubs (#9695)
+Use `_typeshed.FileDescriptorOrPath` in stubs ([#9695](https://github.com/python/typeshed/pull/9695))
 
 ## 9.4.0.8 (2023-02-07)
 
-Enable flake8-pyi's Y037 (#9686)
+Enable flake8-pyi's Y037 ([#9686](https://github.com/python/typeshed/pull/9686))
 
 ## 9.4.0.7 (2023-02-06)
 
-Use `OSError` instead of `IOError` (#9683)
+Use `OSError` instead of `IOError` ([#9683](https://github.com/python/typeshed/pull/9683))
 
 ## 9.4.0.6 (2023-02-01)
 
-Bump black to 23.1.0 (#9647)
+Bump black to 23.1.0 ([#9647](https://github.com/python/typeshed/pull/9647))
 
 ## 9.4.0.5 (2023-01-18)
 
-Replace `Any` with `Incomplete` in many places (#9565)
+Replace `Any` with `Incomplete` in many places ([#9565](https://github.com/python/typeshed/pull/9565))
 
 ## 9.4.0.4 (2023-01-18)
 
-Replace `Any` with `Incomplete` in many places (#9558)
+Replace `Any` with `Incomplete` in many places ([#9558](https://github.com/python/typeshed/pull/9558))
 
 ## 9.4.0.3 (2023-01-17)
 
-`types-Pillow`: Allow stubtest to validate `PIL.FpxImagePlugin` and `PIL.MicImagePlugin` (#9531)
+`types-Pillow`: Allow stubtest to validate `PIL.FpxImagePlugin` and `PIL.MicImagePlugin` ([#9531](https://github.com/python/typeshed/pull/9531))
 
 ## 9.4.0.2 (2023-01-14)
 
-Update various comments now non-types dependencies are allowed (#9527)
+Update various comments now non-types dependencies are allowed ([#9527](https://github.com/python/typeshed/pull/9527))
 
 ## 9.4.0.1 (2023-01-13)
 
-Allowlist-only fixes for stubtest on Windows (#9522)
+Allowlist-only fixes for stubtest on Windows ([#9522](https://github.com/python/typeshed/pull/9522))
 
 ## 9.4.0.0 (2023-01-05)
 
-Bump Pillow to 9.4 (#9453)
+Bump Pillow to 9.4 ([#9453](https://github.com/python/typeshed/pull/9453))
 
 Closes #9448
 
 ## 9.3.0.4 (2022-12-05)
 
-PIL: fix image convert palette type (#9331)
+PIL: fix image convert palette type ([#9331](https://github.com/python/typeshed/pull/9331))
 
 ## 9.3.0.3 (2022-12-05)
 
-PIL: add optimize param to save (#9328)
+PIL: add optimize param to save ([#9328](https://github.com/python/typeshed/pull/9328))
 
 ## 9.3.0.2 (2022-11-23)
 
-Mark first argument of `__[get|set|del]attr__` as `str` (#9245)
+Mark first argument of `__[get|set|del]attr__` as `str` ([#9245](https://github.com/python/typeshed/pull/9245))
 
 ## 9.3.0.1 (2022-11-09)
 
-Annotate known magic-method return types (#9131)
+Annotate known magic-method return types ([#9131](https://github.com/python/typeshed/pull/9131))
 
 ## 9.3.0.0 (2022-10-30)
 
-[stubsabot] Bump Pillow to 9.3.* (#9039)
+[stubsabot] Bump Pillow to 9.3.* ([#9039](https://github.com/python/typeshed/pull/9039))
 
 Release: https://pypi.org/pypi/Pillow/9.3.0
 Homepage: https://python-pillow.org
@@ -262,36 +262,36 @@ Co-authored-by: stubsabot <>
 
 ## 9.2.2.2 (2022-10-15)
 
-Use `Incomplete` instead of `Any` in `__getattr__` (#8903)
+Use `Incomplete` instead of `Any` in `__getattr__` ([#8903](https://github.com/python/typeshed/pull/8903))
 
 ## 9.2.2.1 (2022-10-10)
 
-Allow PIL.Image.MAX_IMAGE_PIXELS to be None (#8876)
+Allow PIL.Image.MAX_IMAGE_PIXELS to be None ([#8876](https://github.com/python/typeshed/pull/8876))
 
 `_decompression_bomb_check()` explicitly checks for `None` and handles it as "unlimited".
 
 ## 9.2.2 (2022-09-20)
 
-fix: pillow.ImageDraw.textlength may return float (#8773)
+fix: pillow.ImageDraw.textlength may return float ([#8773](https://github.com/python/typeshed/pull/8773))
 
 ## 9.2.1 (2022-07-29)
 
-[pillow] add new `PIL.Image` enums (#8419)
+[pillow] add new `PIL.Image` enums ([#8419](https://github.com/python/typeshed/pull/8419))
 
 Co-authored-by: Shantanu <12621235+hauntsaninja@users.noreply.github.com>
 
 ## 9.2.0 (2022-07-04)
 
-[stubsabot] Bump Pillow to 9.2.* (#8226)
+[stubsabot] Bump Pillow to 9.2.* ([#8226](https://github.com/python/typeshed/pull/8226))
 
-Improve`_Color` type alias of `PIL.Image` (#8210)
+Improve`_Color` type alias of `PIL.Image` ([#8210](https://github.com/python/typeshed/pull/8210))
 
 Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 9.0.20 (2022-06-17)
 
-Fix `box` parameter type of `Pillow.PIL.Image.paste` (#8090)
+Fix `box` parameter type of `Pillow.PIL.Image.paste` ([#8090](https://github.com/python/typeshed/pull/8090))
 
 When executing `img.paste(cropped, box=(10.5, 10.5))`:
 TypeError: 'float' object cannot be interpreted as an integer
@@ -300,73 +300,73 @@ So the `box` parameter's type should be not `tuple[float, float]` but `tuple[int
 
 ## 9.0.19 (2022-05-27)
 
-Pillow: change `_Mode` type alias to `str` (#7967)
+Pillow: change `_Mode` type alias to `str` ([#7967](https://github.com/python/typeshed/pull/7967))
 
 ## 9.0.18 (2022-05-26)
 
-Pillow: Add missing image modes to `_Mode` type alias in `Image.pyi` stub (issue #7956) (#7960)
+Pillow: Add missing image modes to `_Mode` type alias in `Image.pyi` stub (issue #7956) ([#7960](https://github.com/python/typeshed/pull/7960))
 
 ## 9.0.17 (2022-05-26)
 
-Third-party stubs: fix several fictitious type aliases (#7958)
+Third-party stubs: fix several fictitious type aliases ([#7958](https://github.com/python/typeshed/pull/7958))
 
 ## 9.0.16 (2022-05-25)
 
-`Pillow`: use union type for `Image.paste` (#7893)
+`Pillow`: use union type for `Image.paste` ([#7893](https://github.com/python/typeshed/pull/7893))
 
 ## 9.0.15 (2022-05-08)
 
-#7805: Ensure all references to mode are Literals, not str. (#7807)
+#7805: Ensure all references to mode are Literals, not str. ([#7807](https://github.com/python/typeshed/pull/7807))
 
 ## 9.0.14 (2022-04-27)
 
-Add various missing generic arguments (#7702)
+Add various missing generic arguments ([#7702](https://github.com/python/typeshed/pull/7702))
 
 Co-authored-by: Akuli <akuviljanen17@gmail.com>
 
 ## 9.0.13 (2022-04-16)
 
-Third-party stubs: import from `collections.abc` where possible (#7637)
+Third-party stubs: import from `collections.abc` where possible ([#7637](https://github.com/python/typeshed/pull/7637))
 
 ## 9.0.12 (2022-04-16)
 
-Use `TypeAlias` where possible for type aliases (#7630)
+Use `TypeAlias` where possible for type aliases ([#7630](https://github.com/python/typeshed/pull/7630))
 
 ## 9.0.11 (2022-04-05)
 
-Replace Union with union operator (#7596)
+Replace Union with union operator ([#7596](https://github.com/python/typeshed/pull/7596))
 
 ## 9.0.10 (2022-04-05)
 
-Mark many attributes as read-only properties (#7591)
+Mark many attributes as read-only properties ([#7591](https://github.com/python/typeshed/pull/7591))
 
 ## 9.0.9 (2022-04-01)
 
-Third-party stubs: Improve several `__exit__` methods (#7575)
+Third-party stubs: Improve several `__exit__` methods ([#7575](https://github.com/python/typeshed/pull/7575))
 
 ## 9.0.8 (2022-03-19)
 
-Use PEP 604 syntax wherever possible, part II (#7514)
+Use PEP 604 syntax wherever possible, part II ([#7514](https://github.com/python/typeshed/pull/7514))
 
 Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
 ## 9.0.7 (2022-03-16)
 
-Use PEP 604 syntax wherever possible (#7493)
+Use PEP 604 syntax wherever possible ([#7493](https://github.com/python/typeshed/pull/7493))
 
 ## 9.0.6 (2022-02-03)
 
-Improve `__enter__` & constructor methods (#7114)
+Improve `__enter__` & constructor methods ([#7114](https://github.com/python/typeshed/pull/7114))
 
 ## 9.0.5 (2022-01-22)
 
-fix incorrect tuple[T] (#6996)
+fix incorrect tuple[T] ([#6996](https://github.com/python/typeshed/pull/6996))
 
 Found from PyCQA/flake8-pyi#135.
 
 ## 9.0.4 (2022-01-10)
 
-Always use `_typeshed.Self`, where applicable (#6880)
+Always use `_typeshed.Self`, where applicable ([#6880](https://github.com/python/typeshed/pull/6880))
 
 * Always use `_typeshed.Self`, where applicable
 
@@ -400,50 +400,50 @@ Source code here: https://github.com/psf/requests/blob/d718e753834b84018014a23d6
 
 ## 9.0.3 (2022-01-08)
 
-Use lowercase `type` everywhere (#6853)
+Use lowercase `type` everywhere ([#6853](https://github.com/python/typeshed/pull/6853))
 
 ## 9.0.2 (2022-01-07)
 
-Pillow: Image fixes (#6848)
+Pillow: Image fixes ([#6848](https://github.com/python/typeshed/pull/6848))
 
 * Fix return type of `Image.transform()`.
 * Add animation attributes to `Image`.
 
 ## 9.0.0 (2022-01-05)
 
-Upgrade stubs to Pillow 9 (#6795)
+Upgrade stubs to Pillow 9 ([#6795](https://github.com/python/typeshed/pull/6795))
 
 Co-authored-by: Akuli <akuviljanen17@gmail.com>
 
 ## 8.3.11 (2021-12-28)
 
-Use PEP 585 syntax wherever possible (#6717)
+Use PEP 585 syntax wherever possible ([#6717](https://github.com/python/typeshed/pull/6717))
 
 ## 8.3.10 (2021-12-23)
 
-Remove PIL.__main__ (#6665)
+Remove PIL.__main__ ([#6665](https://github.com/python/typeshed/pull/6665))
 
 ## 8.3.9 (2021-12-21)
 
-correct border= and fill= kwargs for ImageOps.expand (#6641)
+correct border= and fill= kwargs for ImageOps.expand ([#6641](https://github.com/python/typeshed/pull/6641))
 
 ## 8.3.8 (2021-11-26)
 
-Add mypy error codes to '# type: ignore' comments (#6379)
+Add mypy error codes to '# type: ignore' comments ([#6379](https://github.com/python/typeshed/pull/6379))
 
 ## 8.3.7 (2021-10-12)
 
-Add star to all non-0.1 versions (#6146)
+Add star to all non-0.1 versions ([#6146](https://github.com/python/typeshed/pull/6146))
 
 ## 8.3.6 (2021-10-11)
 
-Annotate PIL.ImageColor (#6151)
+Annotate PIL.ImageColor ([#6151](https://github.com/python/typeshed/pull/6151))
 
 ## 8.3.5 (2021-10-11)
 
-Color arguments also take (r,g,b,a) tuples  (#6148)
+Color arguments also take (r,g,b,a) tuples  ([#6148](https://github.com/python/typeshed/pull/6148))
 
 ## 8.3.4 (2021-09-06)
 
-Fix type of stroke_width parameter in Pillow's ImageDraw.*text* functions (#6008)
+Fix type of stroke_width parameter in Pillow's ImageDraw.*text* functions ([#6008](https://github.com/python/typeshed/pull/6008))
 
