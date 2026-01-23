@@ -302,12 +302,30 @@ def extract_sdist_pyproject_requires(
     if not matches:
         return
     pyproject = Path(matches[0])
-    data = tomli.loads(pyproject.read_text())
+    data = tomllib.loads(pyproject.read_text())
 
     # --- [dependency-groups] (PEP 735) ---
-    for deps in (data.get("dependency-groups", {}) or {}).values():
+    groups = data.get("dependency-groups", {})
+    if not isinstance(groups, dict):
+        return
+    for deps in groups.values():
+        if not isinstance(deps, list):
+            continue
         for dep in deps:
-            yield Requirement(dep)
+            if isinstance(dep, str):
+                yield Requirement(dep)
+
+
+def get_latest_sdist_data(pypi_data: dict[str, Any]) -> dict[str, Any] | None:
+    """Return metadata for the latest sdist entry from PyPI API response."""
+    return next(
+        (
+            url_data
+            for url_data in reversed(pypi_data["urls"])
+            if url_data["packagetype"] == "sdist"
+        ),
+        None,
+    )
 
 
 def verify_external_req(
@@ -413,16 +431,10 @@ def runtime_in_upstream_sdist_requires(req: Requirement, data: dict[str, Any]) -
     runtime_req_name = EXTERNAL_RUNTIME_REQ_MAP.get(req.name, req.name)
     runtime_req_canonical_name = canonical_name(runtime_req_name)
 
-    sdist_data: dict[str, Any] | None = next(
-        (
-            url_data
-            for url_data in reversed(data["urls"])
-            if url_data["packagetype"] == "sdist"
-        ),
-        None,
-    )
+    sdist_data = get_latest_sdist_data(data)
     if sdist_data is None:
         return False
+
     return runtime_req_canonical_name in {
         canonical_name(r.name) for r in extract_sdist_requires(sdist_data, req)
     }
@@ -436,14 +448,7 @@ def runtime_in_upstream_group_requires(req: Requirement, data: dict[str, Any]) -
     runtime_req_name = EXTERNAL_RUNTIME_REQ_MAP.get(req.name, req.name)
     runtime_req_canonical_name = canonical_name(runtime_req_name)
 
-    sdist_data = next(
-        (
-            url_data
-            for url_data in reversed(data["urls"])
-            if url_data["packagetype"] == "sdist"
-        ),
-        None,
-    )
+    sdist_data = get_latest_sdist_data(data)
     if sdist_data is None:
         return False
 
