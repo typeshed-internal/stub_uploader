@@ -257,9 +257,7 @@ def validate_pypi_response(resp: requests.Response, req: Requirement) -> None:
         )
 
 
-def extract_sdist_requires(
-    sdist_data: dict[str, str], req: Requirement
-) -> Generator[Requirement, None, None]:
+def temp_archive_path(sdist_data: dict[str, str], req: Requirement) -> str:
     tmpdir = tempfile.mkdtemp()
     archive_path = Path(tmpdir, sdist_data["filename"])
 
@@ -273,6 +271,14 @@ def extract_sdist_requires(
             file_in.extraction_filter = tarfile.data_filter
         file_in.extractall(tmpdir)
 
+    return tmpdir
+
+
+def extract_sdist_requires(
+    sdist_data: dict[str, str], req: Requirement
+) -> Generator[Requirement, None, None]:
+    tmpdir = temp_archive_path(sdist_data, req)
+
     # Only a single folder with "<package-version>.egg-info/requires.txt" in the archive should exist
     # but this supports possible edge-cases and doesn't require knowing any variable name in the path.
     requires_filepath = Path(tmpdir, "*", "*.egg-info", "requires.txt")
@@ -284,6 +290,42 @@ def extract_sdist_requires(
             # Skip empty lines and extras
             if line[0] not in {"\n", "["}:
                 yield Requirement(line)
+
+
+def extract_sdist_pyproject_requires(
+    sdist_data: dict[str, str], req: Requirement
+) -> Generator[Requirement, None, None]:
+    tmpdir = temp_archive_path(sdist_data, req)
+
+    # Find and process only the first pyproject.toml we come across:
+    matches = list(Path(tmpdir).rglob("pyproject.toml"))
+    if not matches:
+        return
+    pyproject = Path(matches[0])
+    data = tomllib.loads(pyproject.read_text())
+
+    # --- [dependency-groups] (PEP 735) ---
+    groups = data.get("dependency-groups", {})
+    if not isinstance(groups, dict):
+        return
+    for deps in groups.values():
+        if not isinstance(deps, list):
+            continue
+        for dep in deps:
+            if isinstance(dep, str):
+                yield Requirement(dep)
+
+
+def get_latest_sdist_data(pypi_data: dict[str, Any]) -> dict[str, Any] | None:
+    """Return metadata for the latest sdist entry from PyPI API response."""
+    return next(
+        (
+            url_data
+            for url_data in reversed(pypi_data["urls"])
+            if url_data["packagetype"] == "sdist"
+        ),
+        None,
+    )
 
 
 def verify_external_req(
@@ -358,11 +400,12 @@ def verify_external_req_stubs_require_its_runtime(
         req.name == upstream_distribution  # Allow `types-foo` to require `foo`
         or runtime_in_upstream_requires(req, data)
         or runtime_in_upstream_sdist_requires(req, data)
+        or runtime_in_upstream_group_requires(req, data)
     ):
         runtime_req_name = EXTERNAL_RUNTIME_REQ_MAP.get(req.name, req.name)
         raise InvalidRequires(
             f"Expected dependency {runtime_req_name} to be listed in {upstream_distribution}'s "
-            + "requires_dist or the sdist's *.egg-info/requires.txt"
+            + "requires_dist, the sdist's *.egg-info/requires.txt or pyproject.toml"
         )
 
 
@@ -388,18 +431,30 @@ def runtime_in_upstream_sdist_requires(req: Requirement, data: dict[str, Any]) -
     runtime_req_name = EXTERNAL_RUNTIME_REQ_MAP.get(req.name, req.name)
     runtime_req_canonical_name = canonical_name(runtime_req_name)
 
-    sdist_data: dict[str, Any] | None = next(
-        (
-            url_data
-            for url_data in reversed(data["urls"])
-            if url_data["packagetype"] == "sdist"
-        ),
-        None,
-    )
+    sdist_data = get_latest_sdist_data(data)
     if sdist_data is None:
         return False
+
     return runtime_req_canonical_name in {
         canonical_name(r.name) for r in extract_sdist_requires(sdist_data, req)
+    }
+
+
+# Dependency groups (PEP 735) are not exposed via PyPI JSON or requires_dist.
+# The only reliable way to detect them is by inspecting pyproject.toml in the sdist.
+def runtime_in_upstream_group_requires(req: Requirement, data: dict[str, Any]) -> bool:
+    """Return whether an external stubs package depends on its runtime package."""
+
+    runtime_req_name = EXTERNAL_RUNTIME_REQ_MAP.get(req.name, req.name)
+    runtime_req_canonical_name = canonical_name(runtime_req_name)
+
+    sdist_data = get_latest_sdist_data(data)
+    if sdist_data is None:
+        return False
+
+    return runtime_req_canonical_name in {
+        canonical_name(r.name)
+        for r in extract_sdist_pyproject_requires(sdist_data, req)
     }
 
 
