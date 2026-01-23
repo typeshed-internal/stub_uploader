@@ -4,19 +4,19 @@ Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
 
 ## 8.2.0.20250506 (2025-05-06)
 
-Bump qrcode to 8.2.* (#13918)
+Bump qrcode to 8.2.* ([#13918](https://github.com/python/typeshed/pull/13918))
 
 ## 8.1.0.20250404 (2025-04-04)
 
-[stubsabot] Bump qrcode to 8.1.* (#13779)
+[stubsabot] Bump qrcode to 8.1.* ([#13779](https://github.com/python/typeshed/pull/13779))
 
 ## 8.0.0.20241004 (2024-10-04)
 
-Remove Pillow stubs (#12732)
+Remove Pillow stubs ([#12732](https://github.com/python/typeshed/pull/12732))
 
 ## 8.0.0.20241002 (2024-10-02)
 
-[stubsabot] Bump qrcode to 8.0.* (#12718)
+[stubsabot] Bump qrcode to 8.0.* ([#12718](https://github.com/python/typeshed/pull/12718))
 
 Release: https://pypi.org/pypi/qrcode/8.0
 Homepage: https://github.com/lincolnloop/python-qrcode
@@ -41,25 +41,25 @@ Co-authored-by: stubsabot <>
 
 ## 7.4.0.20240921 (2024-09-21)
 
-Complete coverage for the qrcode package (#12675)
+Complete coverage for the qrcode package ([#12675](https://github.com/python/typeshed/pull/12675))
 
 ## 7.4.0.20240408 (2024-04-08)
 
-[qrcode] Add various annotations (#11726)
+[qrcode] Add various annotations ([#11726](https://github.com/python/typeshed/pull/11726))
 
 ## 7.4.0.20240106 (2024-01-06)
 
-Update typing_extensions imports in third-party stubs (#11245)
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 7.4.0.1 (2023-11-09)
 
-Bump flake8-pyi to 23.11.0 (#10997)
+Bump flake8-pyi to 23.11.0 ([#10997](https://github.com/python/typeshed/pull/10997))
 
 ## 7.4.0.0 (2023-07-20)
 
-Add an upstream_repository field to METADATA.toml (#10487)
+Add an upstream_repository field to METADATA.toml ([#10487](https://github.com/python/typeshed/pull/10487))
 
 Closes: #10478
 
-Add stubs for qrcode (#10380)
+Add stubs for qrcode ([#10380](https://github.com/python/typeshed/pull/10380))
 

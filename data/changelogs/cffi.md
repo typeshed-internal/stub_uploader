@@ -14,69 +14,69 @@ Add missing defaults to third-party stubs ([#14617](https://github.com/python/ty
 
 ## 1.17.0.20250809 (2025-08-09)
 
-Fix dunder-method positional-only parameter discrepancies in third-party stubs (#14529)
+Fix dunder-method positional-only parameter discrepancies in third-party stubs ([#14529](https://github.com/python/typeshed/pull/14529))
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs (#14545)
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
 ## 1.17.0.20250805 (2025-08-05)
 
-Make `FFI.buffer` implement buffer protocol, mark dunder methods as positional-only (#14505)
+Make `FFI.buffer` implement buffer protocol, mark dunder methods as positional-only ([#14505](https://github.com/python/typeshed/pull/14505))
 
 ## 1.17.0.20250801 (2025-08-01)
 
-Split `tool.stubtest.platforms` metadata key (#13746)
+Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
 Co-authored-by: Avasam <samuel.06@hotmail.com>
 Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
 ## 1.17.0.20250523 (2025-05-23)
 
-Fix some of the typing for CFFI's out of line mode (#14090)
+Fix some of the typing for CFFI's out of line mode ([#14090](https://github.com/python/typeshed/pull/14090))
 
 ## 1.17.0.20250516 (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs (#14063)
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
 ## 1.17.0.20250326 (2025-03-26)
 
-Improve `cffi` (#13710)
+Improve `cffi` ([#13710](https://github.com/python/typeshed/pull/13710))
 
 ## 1.17.0.20250319 (2025-03-19)
 
-[cffi] Fix a few argument types for C code (#13661)
+[cffi] Fix a few argument types for C code ([#13661](https://github.com/python/typeshed/pull/13661))
 
 * CLibrary.close_lib() doesn't take any arguments.
 * FFI.typeof() only takes positional arguments.
 
-[cffi] Bump to 1.17.* (#13653)
+[cffi] Bump to 1.17.* ([#13653](https://github.com/python/typeshed/pull/13653))
 
 ## 1.16.0.20250318 (2025-03-18)
 
-[cffi] Update repository URL (#13652)
+[cffi] Update repository URL ([#13652](https://github.com/python/typeshed/pull/13652))
 
 ## 1.16.0.20250307 (2025-03-07)
 
-Fix parameter type annotations in `_cffi_backend` stub. (#13590)
+Fix parameter type annotations in `_cffi_backend` stub. ([#13590](https://github.com/python/typeshed/pull/13590))
 
 ## 1.16.0.20241221 (2024-12-21)
 
-Update to mypy 1.14 (#13272)
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
 ## 1.16.0.20240331 (2024-03-31)
 
-Remove bare Incomplete annotations in third-party stubs (#11671)
+Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
 
 ## 1.16.0.20240311 (2024-03-11)
 
-Use PEP 570 syntax in third party stubs (#11554)
+Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
 ## 1.16.0.20240106 (2024-01-06)
 
-Update typing_extensions imports in third-party stubs (#11245)
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 1.16.0.0 (2023-09-29)
 
-[stubsabot] Bump cffi to 1.16.* (#10799)
+[stubsabot] Bump cffi to 1.16.* ([#10799](https://github.com/python/typeshed/pull/10799))
 
 Release: https://pypi.org/pypi/cffi/1.16.0
 Homepage: http://cffi.readthedocs.org
@@ -85,85 +85,85 @@ Changelog: https://cffi.readthedocs.io/en/latest/whatsnew.html
 
 ## 1.15.1.15 (2023-08-13)
 
-Fill in all missing `upstream_repository` fields (#10571)
+Fill in all missing `upstream_repository` fields ([#10571](https://github.com/python/typeshed/pull/10571))
 
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 1.15.1.14 (2023-06-04)
 
-`distutils` package was removed in 3.12 (#10249)
+`distutils` package was removed in 3.12 ([#10249](https://github.com/python/typeshed/pull/10249))
 
 ## 1.15.1.13 (2023-04-27)
 
-cffi: improve getitem and setitem (#9968)
+cffi: improve getitem and setitem ([#9968](https://github.com/python/typeshed/pull/9968))
 
 Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
 ## 1.15.1.12 (2023-04-13)
 
-[cffi] dlopen(None) works when platform != win32 (#10042)
+[cffi] dlopen(None) works when platform != win32 ([#10042](https://github.com/python/typeshed/pull/10042))
 
 ## 1.15.1.11 (2023-04-06)
 
-cffi: fix FFI.string signature (#10012)
+cffi: fix FFI.string signature ([#10012](https://github.com/python/typeshed/pull/10012))
 
 Keeps _cffi_backend.pyi consistent with api.pyi
 
 ## 1.15.1.10 (2023-03-27)
 
-Add defaults for third-party stubs A-D (#9952)
+Add defaults for third-party stubs A-D ([#9952](https://github.com/python/typeshed/pull/9952))
 
 ## 1.15.1.9 (2023-03-27)
 
-[cffi] add some return types (#9949)
+[cffi] add some return types ([#9949](https://github.com/python/typeshed/pull/9949))
 
 ## 1.15.1.8 (2023-03-23)
 
-[cffi] cast source can be an int too  (#9930)
+[cffi] cast source can be an int too  ([#9930](https://github.com/python/typeshed/pull/9930))
 
 [cffi] cast source can be an int too
 
 Co-authored-by: Francesc Elies <francesc.elies@mbbm-ast.com>
 
-Add alternate type for cffi's from_buffer (#9925)
+Add alternate type for cffi's from_buffer ([#9925](https://github.com/python/typeshed/pull/9925))
 
 ## 1.15.1.7 (2023-02-26)
 
-Improve many `__(a)exit__` annotations (#9696)
+Improve many `__(a)exit__` annotations ([#9696](https://github.com/python/typeshed/pull/9696))
 
 ## 1.15.1.6 (2023-02-21)
 
-Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
+Stubtest settings: change `ignore_missing_stub` default to `false` ([#9779](https://github.com/python/typeshed/pull/9779))
 
 If you're reading about this commit from an autogenerated changelog entry, this should have no user-visible impact on how the stubs are interpreted by a type checker; it's just an internal change to how typeshed's tests work.
 
 ## 1.15.1.5 (2023-02-07)
 
-Bump mypy to 1.0 (#9684)
+Bump mypy to 1.0 ([#9684](https://github.com/python/typeshed/pull/9684))
 
 ## 1.15.1.4 (2023-01-18)
 
-Replace `Any` with `Incomplete` in many places (#9558)
+Replace `Any` with `Incomplete` in many places ([#9558](https://github.com/python/typeshed/pull/9558))
 
 ## 1.15.1.3 (2022-11-13)
 
-`cffi`: run stubtest on Windows (#9178)
+`cffi`: run stubtest on Windows ([#9178](https://github.com/python/typeshed/pull/9178))
 
 ## 1.15.1.2 (2022-11-09)
 
-All `__nonzero__` are methods that return `bool` (#9139)
+All `__nonzero__` are methods that return `bool` ([#9139](https://github.com/python/typeshed/pull/9139))
 
 ## 1.15.1.1 (2022-11-09)
 
-Annotate known magic-method return types (#9131)
+Annotate known magic-method return types ([#9131](https://github.com/python/typeshed/pull/9131))
 
 ## 1.15.1 (2022-09-27)
 
-Bump mypy to 0.981 (#8796)
+Bump mypy to 0.981 ([#8796](https://github.com/python/typeshed/pull/8796))
 
 ## 1.15.0 (2022-09-15)
 
-Add type stubs for cffi (#8736)
+Add type stubs for cffi ([#8736](https://github.com/python/typeshed/pull/8736))
 
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 

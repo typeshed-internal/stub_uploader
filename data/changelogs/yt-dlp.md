@@ -74,9 +74,9 @@ Add missing defaults to third-party stubs ([#14617](https://github.com/python/ty
 
 ## 2025.7.21.20250728 (2025-07-28)
 
-Fully annotate `yt-dlp` (#14481)
+Fully annotate `yt-dlp` ([#14481](https://github.com/python/typeshed/pull/14481))
 
 ## 2025.7.21.20250727 (2025-07-27)
 
-Add yt-dlp stubs (#14216)
+Add yt-dlp stubs ([#14216](https://github.com/python/typeshed/pull/14216))
 

@@ -31,5 +31,5 @@ Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
 
 ## 25.1.0.20250809 (2025-08-09)
 
-[django-filter] Add type stubs (#14540)
+[django-filter] Add type stubs ([#14540](https://github.com/python/typeshed/pull/14540))
 

@@ -1,6 +1,6 @@
 ## 2.0.9 (2022-06-09)
 
-frozendict: mark as obsolete since 2.2.0 (#8044)
+frozendict: mark as obsolete since 2.2.0 ([#8044](https://github.com/python/typeshed/pull/8044))
 
 It has shipped with a py.typed file since v.2.2.0 in January: https://github.com/Marco-Sulla/python-frozendict/commit/7fcdd3aa990aa323fbcecea4b33733468c97cc27
 
@@ -10,23 +10,23 @@ Co-authored-by: hauntsaninja <>
 
 ## 2.0.8 (2022-04-16)
 
-Third-party stubs: import from `collections.abc` where possible (#7637)
+Third-party stubs: import from `collections.abc` where possible ([#7637](https://github.com/python/typeshed/pull/7637))
 
 ## 2.0.7 (2022-03-06)
 
-Upgrade to stubtest with dunder pos only reverted (#7442)
+Upgrade to stubtest with dunder pos only reverted ([#7442](https://github.com/python/typeshed/pull/7442))
 
 ## 2.0.6 (2022-02-22)
 
-Correct several positional-only differences in third-party stubs (#7352)
+Correct several positional-only differences in third-party stubs ([#7352](https://github.com/python/typeshed/pull/7352))
 
 ## 2.0.5 (2022-01-20)
 
-Remove nearly all `__str__` and `__repr__` methods from typeshed (#6968)
+Remove nearly all `__str__` and `__repr__` methods from typeshed ([#6968](https://github.com/python/typeshed/pull/6968))
 
 ## 2.0.4 (2022-01-10)
 
-Always use `_typeshed.Self`, where applicable (#6880)
+Always use `_typeshed.Self`, where applicable ([#6880](https://github.com/python/typeshed/pull/6880))
 
 * Always use `_typeshed.Self`, where applicable
 
@@ -60,15 +60,15 @@ Source code here: https://github.com/psf/requests/blob/d718e753834b84018014a23d6
 
 ## 2.0.3 (2022-01-08)
 
-Use lowercase `type` everywhere (#6853)
+Use lowercase `type` everywhere ([#6853](https://github.com/python/typeshed/pull/6853))
 
 ## 2.0.1 (2021-10-15)
 
-Use lowercase tuple where possible (#6170)
+Use lowercase tuple where possible ([#6170](https://github.com/python/typeshed/pull/6170))
 
 ## 2.0.0 (2021-10-12)
 
-Update remaining versions for third-party stubs (#6094)
+Update remaining versions for third-party stubs ([#6094](https://github.com/python/typeshed/pull/6094))
 
 Also remove the python2 markers of packages that don't list Python 2
 as supported in the latest version.

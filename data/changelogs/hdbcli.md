@@ -4,21 +4,21 @@ Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github
 
 ## 2.25.0.20250809 (2025-08-09)
 
-Fix dunder-method positional-only parameter discrepancies in third-party stubs (#14529)
+Fix dunder-method positional-only parameter discrepancies in third-party stubs ([#14529](https://github.com/python/typeshed/pull/14529))
 
 ## 2.25.0.20250715 (2025-07-15)
 
-[hdbcli] Clarify `holdability` possible values (#14410)
+[hdbcli] Clarify `holdability` possible values ([#14410](https://github.com/python/typeshed/pull/14410))
 
-[stubsabot] Bump hdbcli to 2.25.* (#13668)
+[stubsabot] Bump hdbcli to 2.25.* ([#13668](https://github.com/python/typeshed/pull/13668))
 
 ## 2.24.0.20250325 (2025-03-25)
 
-Bump hdbcli to 2.24.* (#13705)
+Bump hdbcli to 2.24.* ([#13705](https://github.com/python/typeshed/pull/13705))
 
 ## 2.23.0.20250318 (2025-03-18)
 
-Fix various argument of extension modules (#13651)
+Fix various argument of extension modules ([#13651](https://github.com/python/typeshed/pull/13651))
 
 * Mark various positional-only arguments: These are all positional-only
   arguments in C code using the `METH_O` flag.
@@ -27,11 +27,11 @@ Fix various argument of extension modules (#13651)
 
 ## 2.23.0.20241221 (2024-12-21)
 
-Update to mypy 1.14 (#13272)
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
 ## 2.23.0.20241212 (2024-12-12)
 
-[stubsabot] Bump hdbcli to 2.23.* (#13228)
+[stubsabot] Bump hdbcli to 2.23.* ([#13228](https://github.com/python/typeshed/pull/13228))
 
 Release: https://pypi.org/pypi/hdbcli/2.23.24
 Homepage: https://www.sap.com/
@@ -47,60 +47,60 @@ Co-authored-by: stubsabot <>
 
 ## 2.22.0.20240924 (2024-09-24)
 
-[stubsabot] Bump hdbcli to 2.22.* (#12676)
+[stubsabot] Bump hdbcli to 2.22.* ([#12676](https://github.com/python/typeshed/pull/12676))
 
 Co-authored-by: stubsabot <>
 
 ## 2.21.0.20240621 (2024-06-21)
 
-Bump hdbcli to 2.21.* (#12179)
+Bump hdbcli to 2.21.* ([#12179](https://github.com/python/typeshed/pull/12179))
 
 ## 2.20.0.20240418 (2024-04-18)
 
-Update Ruff and enable F821 in stubs (#11771)
+Update Ruff and enable F821 in stubs ([#11771](https://github.com/python/typeshed/pull/11771))
 
 ## 2.20.0.20240331 (2024-03-31)
 
-Remove bare Incomplete annotations in third-party stubs (#11671)
+Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
 
 ## 2.20.0.20240321 (2024-03-21)
 
-[stubsabot] Bump hdbcli to 2.20.* (#11628)
+[stubsabot] Bump hdbcli to 2.20.* ([#11628](https://github.com/python/typeshed/pull/11628))
 
 ## 2.19.0.20240310 (2024-03-10)
 
-Bump mypy to 1.9, add to json.encoder, small fixups (#11549)
+Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
 
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 2.19.0.20240106 (2024-01-06)
 
-Update typing_extensions imports in third-party stubs (#11245)
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 2.19.0.0 (2023-12-14)
 
-[stubsabot] Bump hdbcli to 2.19.* (#11157)
+[stubsabot] Bump hdbcli to 2.19.* ([#11157](https://github.com/python/typeshed/pull/11157))
 
 Release: https://pypi.org/pypi/hdbcli/2.19.18
 Homepage: https://www.sap.com/
 
 ## 2.18.0.1 (2023-11-16)
 
-Improve hdbcli types (#10969)
+Improve hdbcli types ([#10969](https://github.com/python/typeshed/pull/10969))
 
 ## 2.18.0.0 (2023-09-09)
 
-[stubsabot] Bump hdbcli to 2.18.* (#10687)
+[stubsabot] Bump hdbcli to 2.18.* ([#10687](https://github.com/python/typeshed/pull/10687))
 
 ## 2.17.0.1 (2023-08-13)
 
-Fill in all missing `upstream_repository` fields (#10571)
+Fill in all missing `upstream_repository` fields ([#10571](https://github.com/python/typeshed/pull/10571))
 
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 2.17.0.0 (2023-06-16)
 
-[stubsabot] Bump hdbcli to 2.17.* (#10320)
+[stubsabot] Bump hdbcli to 2.17.* ([#10320](https://github.com/python/typeshed/pull/10320))
 
 Release: https://pypi.org/pypi/hdbcli/2.17.14
 Homepage: https://www.sap.com/
@@ -115,46 +115,46 @@ Co-authored-by: stubsabot <>
 
 ## 2.16.0.0 (2023-04-29)
 
-Update `hdbcli` to `2.16` and mark as completed (#10101)
+Update `hdbcli` to `2.16` and mark as completed ([#10101](https://github.com/python/typeshed/pull/10101))
 
 ## 2.15.0.4 (2023-04-24)
 
-hdbcli: Fix wrong connection argument name (#10070)
+hdbcli: Fix wrong connection argument name ([#10070](https://github.com/python/typeshed/pull/10070))
 
 The name should be `user` and not `username`
 
 ## 2.15.0.3 (2023-04-13)
 
-Style: prefer `type[Foo | Bar]` over `type[Foo] | type[Bar]` (#10039)
+Style: prefer `type[Foo | Bar]` over `type[Foo] | type[Bar]` ([#10039](https://github.com/python/typeshed/pull/10039))
 
 ## 2.15.0.2 (2023-03-28)
 
-Ran stubdefaulter for `hdbcli` (#9962)
+Ran stubdefaulter for `hdbcli` ([#9962](https://github.com/python/typeshed/pull/9962))
 
 ## 2.15.0.1 (2023-02-21)
 
-Stubtest settings: change `ignore_missing_stub` default to `false` (#9779)
+Stubtest settings: change `ignore_missing_stub` default to `false` ([#9779](https://github.com/python/typeshed/pull/9779))
 
 If you're reading about this commit from an autogenerated changelog entry, this should have no user-visible impact on how the stubs are interpreted by a type checker; it's just an internal change to how typeshed's tests work.
 
 ## 2.15.0.0 (2022-12-16)
 
-[stubsabot] Bump hdbcli to 2.15.* (#9369)
+[stubsabot] Bump hdbcli to 2.15.* ([#9369](https://github.com/python/typeshed/pull/9369))
 
 Release: https://pypi.org/pypi/hdbcli/2.15.17
 Homepage: https://www.sap.com/
 
 ## 2.14.1.1 (2022-11-03)
 
-Mark `hdbcli` as complete (#8904)
+Mark `hdbcli` as complete ([#8904](https://github.com/python/typeshed/pull/8904))
 
 ## 2.14.1 (2022-09-27)
 
-Bump mypy to 0.981 (#8796)
+Bump mypy to 0.981 ([#8796](https://github.com/python/typeshed/pull/8796))
 
 ## 2.14.0 (2022-09-23)
 
-[stubsabot] Bump hdbcli to 2.14.* (#8783)
+[stubsabot] Bump hdbcli to 2.14.* ([#8783](https://github.com/python/typeshed/pull/8783))
 
 Release: https://pypi.org/pypi/hdbcli/2.14.18
 Homepage: https://www.sap.com/
@@ -169,33 +169,33 @@ Co-authored-by: stubsabot <>
 
 ## 2.13.0 (2022-06-29)
 
-[stubsabot] Bump hdbcli to 2.13.* (#8206)
+[stubsabot] Bump hdbcli to 2.13.* ([#8206](https://github.com/python/typeshed/pull/8206))
 
 Co-authored-by: hauntsaninja <>
 
 ## 2.10.7 (2022-04-16)
 
-Third-party stubs: import from `collections.abc` where possible (#7637)
+Third-party stubs: import from `collections.abc` where possible ([#7637](https://github.com/python/typeshed/pull/7637))
 
 ## 2.10.6 (2022-04-16)
 
-Use `TypeAlias` where possible for type aliases (#7630)
+Use `TypeAlias` where possible for type aliases ([#7630](https://github.com/python/typeshed/pull/7630))
 
 ## 2.10.5 (2022-01-20)
 
-Use the Literal["foo", "bar"] syntax consistently (#6984)
+Use the Literal["foo", "bar"] syntax consistently ([#6984](https://github.com/python/typeshed/pull/6984))
 
 ## 2.10.4 (2022-01-08)
 
-Use lowercase `type` everywhere (#6853)
+Use lowercase `type` everywhere ([#6853](https://github.com/python/typeshed/pull/6853))
 
 ## 2.10.2 (2021-12-28)
 
-Use PEP 585 syntax wherever possible (#6717)
+Use PEP 585 syntax wherever possible ([#6717](https://github.com/python/typeshed/pull/6717))
 
 ## 2.10.1 (2021-12-17)
 
-Use stubtest 0.920 (#6589)
+Use stubtest 0.920 ([#6589](https://github.com/python/typeshed/pull/6589))
 
 Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
@@ -204,7 +204,7 @@ Co-authored-by: Akuli <akuviljanen17@gmail.com>
 
 ## 2.10.0 (2021-12-09)
 
-Add stubs for hdbcli (#6550)
+Add stubs for hdbcli ([#6550](https://github.com/python/typeshed/pull/6550))
 
 hdbcli is the python dbapi for SAP HANA. Not all methods/attributes are 100% compatible with PEP 249.
 
