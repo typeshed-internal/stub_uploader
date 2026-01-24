@@ -1,3 +1,7 @@
+## 2.9.0.20260124 (2026-01-24)
+
+[python-dateutil] Add missing annotation to 'tag' in rebuild.py ([#15196](https://github.com/python/typeshed/pull/15196))
+
 ## 2.9.0.20251115 (2025-11-15)
 
 [python-dateutil] Add missing parameter annotations ([#14996](https://github.com/python/typeshed/pull/14996))

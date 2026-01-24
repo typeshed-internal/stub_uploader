@@ -1,3 +1,28 @@
+## 1.1.0.20260124 (2026-01-24)
+
+[stubsabot] Bump jmespath to 1.1.* ([#15315](https://github.com/python/typeshed/pull/15315))
+
+Release: https://pypi.org/pypi/jmespath/1.1.0
+Homepage: https://github.com/jmespath/jmespath.py
+Repository: https://github.com/jmespath/jmespath.py
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/jmespath
+Diff: https://github.com/jmespath/jmespath.py/compare/1.0.1...1.1.0
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 3 files included in typeshed's stubs have been modified or renamed: `jmespath/__init__.py`, `jmespath/functions.py`, `jmespath/parser.py`.
+ - Total lines of Python code added: 40.
+ - Total lines of Python code deleted: 128.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 1.0.2.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))

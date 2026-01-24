@@ -1,3 +1,9 @@
+## 80.10.0.20260124 (2026-01-24)
+
+[stubsabot] Bump setuptools to 80.10.* ([#15312](https://github.com/python/typeshed/pull/15312))
+
+Co-authored-by: stubsabot <>
+
 ## 80.9.0.20251223 (2025-12-23)
 
 [setuptools] `setuptools.setup` Complete partially `Unknown` method and fix `Command` type variance issue ([#15161](https://github.com/python/typeshed/pull/15161))
