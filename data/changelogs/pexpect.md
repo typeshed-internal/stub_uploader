@@ -1,3 +1,7 @@
+## 4.9.0.20260127 (2026-01-27)
+
+[pexpect] Accept `dict` for `env` parameter, not just `os.environ` ([#15270](https://github.com/python/typeshed/pull/15270))
+
 ## 4.9.0.20250916 (2025-09-16)
 
 [pexpect] SpawnBase.delayafterread is allowed to be None ([#14728](https://github.com/python/typeshed/pull/14728))
