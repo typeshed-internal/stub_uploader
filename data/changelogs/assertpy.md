@@ -1,3 +1,7 @@
+## 1.1.0.20260128 (2026-01-28)
+
+[assertpy] Accept extensions with additional parameters ([#15329](https://github.com/python/typeshed/pull/15329))
+
 ## 1.1.0.20251219 (2025-12-19)
 
 [assertpy] Replace or explain `Any`s ([#15144](https://github.com/python/typeshed/pull/15144))
