@@ -4,7 +4,7 @@ requests < 2.30.0
 
 # build and upload
 build
-setuptools >= 77.0.3
+setuptools >= 82.0.1
 twine
 
 # tests

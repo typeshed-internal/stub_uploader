@@ -43,14 +43,6 @@ This stub package is marked as [partial](https://typing.python.org/en/latest/spe
 If you find that annotations are missing, feel free to contribute and help complete them.
 """.lstrip()
 
-SETUP_TEMPLATE = dedent(
-    """
-from setuptools import setup
-
-setup(package_data={package_data})
-"""
-)
-
 PYPROJECT_TEMPLATE = dedent(
     """
 [build-system]
@@ -81,6 +73,9 @@ dependencies = {requires}
 [tool.setuptools]
 packages = {packages}
 include-package-data = false
+
+[tool.setuptools.package-data]
+{package_data}
 """
 ).lstrip()
 
@@ -335,11 +330,6 @@ def is_ignored_distribution_file(entry: Path) -> bool:
     return False
 
 
-def generate_setup_file(pkg_data: PackageData) -> str:
-    """Auto-generate a setup.py file for given distribution using a template."""
-    return SETUP_TEMPLATE.format(package_data=pkg_data.package_data)
-
-
 def generate_pyproject_file(
     ts_data: TypeshedData,
     build_data: BuildData,
@@ -356,6 +346,7 @@ def generate_pyproject_file(
         if metadata.requires_python is not None
         else f">={ts_data.oldest_supported_python}"
     )
+    package_data = [f"{k!r} = {v!r}" for k, v in pkg_data.package_data.items()]
     return PYPROJECT_TEMPLATE.format(
         distribution=build_data.distribution,
         stub_distribution=metadata.stub_distribution,
@@ -366,6 +357,7 @@ def generate_pyproject_file(
         requires=all_requirements,
         packages=pkg_data.top_level_packages,
         requires_python=requires_python,
+        package_data="\n".join(package_data),
     )
 
 
@@ -440,7 +432,6 @@ def main(
     else:
         tmpdir = Path(tempfile.mkdtemp(prefix="stub-uploader-"))
 
-    (tmpdir / "setup.py").write_text(generate_setup_file(pkg_data))
     (tmpdir / "pyproject.toml").write_text(
         generate_pyproject_file(ts_data, build_data, pkg_data, metadata, version)
     )
