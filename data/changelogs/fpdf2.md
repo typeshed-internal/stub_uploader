@@ -1,3 +1,7 @@
+## 2.8.4.20260130 (2026-01-30)
+
+Update outdated upstream_repository fields ([#15334](https://github.com/python/typeshed/pull/15334))
+
 ## 2.8.4.20251031 (2025-10-31)
 
 [fpdf2] Annotate drawing methods ([#14923](https://github.com/python/typeshed/pull/14923))

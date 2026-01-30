@@ -1,3 +1,7 @@
+## 1.3.1.20260130 (2026-01-30)
+
+Update outdated upstream_repository fields ([#15334](https://github.com/python/typeshed/pull/15334))
+
 ## 1.3.1.20251101 (2025-11-01)
 
 [Deprecated] Update to ~=1.3.1 ([#14954](https://github.com/python/typeshed/pull/14954))

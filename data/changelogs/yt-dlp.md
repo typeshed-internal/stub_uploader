@@ -1,3 +1,7 @@
+## 2025.12.8.20260130 (2026-01-30)
+
+[yt-dlp] Fix YoutubeDL.YoutubeDL.download return value ([#15336](https://github.com/python/typeshed/pull/15336))
+
 ## 2025.12.8.20260116 (2026-01-16)
 
 [yt-dlp] Make _Params["playlist_items"] a str ([#15287](https://github.com/python/typeshed/pull/15287))

@@ -1,3 +1,7 @@
+## 3.3.0.20260130 (2026-01-30)
+
+Update outdated upstream_repository fields ([#15334](https://github.com/python/typeshed/pull/15334))
+
 ## 3.3.0.20251111 (2025-11-11)
 
 [ttkthemes] Update to 3.3.* ([#15009](https://github.com/python/typeshed/pull/15009))

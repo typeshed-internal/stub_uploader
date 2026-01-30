@@ -1,3 +1,7 @@
+## 1.3.0.20260130 (2026-01-30)
+
+Update outdated upstream_repository fields ([#15334](https://github.com/python/typeshed/pull/15334))
+
 ## 1.3.0.20251108 (2025-11-08)
 
 [netaddr]: Annotate missing parameter types ([#14990](https://github.com/python/typeshed/pull/14990))

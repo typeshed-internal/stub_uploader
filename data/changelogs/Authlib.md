@@ -1,3 +1,7 @@
+## 1.6.6.20260130 (2026-01-30)
+
+Update outdated upstream_repository fields ([#15334](https://github.com/python/typeshed/pull/15334))
+
 ## 1.6.6.20260116 (2026-01-16)
 
 [Authlib] Annotate more ([#15203](https://github.com/python/typeshed/pull/15203))
