@@ -1,3 +1,7 @@
+## 2026.1.29.20260131 (2026-01-31)
+
+[yt-dlp] Update to 2026.01.29 ([#15343](https://github.com/python/typeshed/pull/15343))
+
 ## 2025.12.8.20260130 (2026-01-30)
 
 [yt-dlp] Fix YoutubeDL.YoutubeDL.download return value ([#15336](https://github.com/python/typeshed/pull/15336))
