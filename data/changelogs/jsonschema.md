@@ -1,3 +1,7 @@
+## 4.26.0.20260202 (2026-02-02)
+
+[jsonschema] Fix type `_Error.validator` ([#15353](https://github.com/python/typeshed/pull/15353))
+
 ## 4.26.0.20260109 (2026-01-09)
 
 [stubsabot] Bump jsonschema to ~=4.26.0 ([#15231](https://github.com/python/typeshed/pull/15231))

@@ -1,3 +1,10 @@
+## 4.67.2.20260202 (2026-02-02)
+
+[tqdm] Update to 4.67.2 ([#15348](https://github.com/python/typeshed/pull/15348))
+
+Closes: #15347
+Diff: https://github.com/tqdm/tqdm/compare/v4.67.1...v4.67.2
+
 ## 4.67.0.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))

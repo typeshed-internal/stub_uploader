@@ -1,3 +1,7 @@
+## 2026.1.31.20260202 (2026-02-02)
+
+[yt-dlp] Update to 2026.01.31 ([#15354](https://github.com/python/typeshed/pull/15354))
+
 ## 2026.1.29.20260131 (2026-01-31)
 
 [yt-dlp] Update to 2026.01.29 ([#15343](https://github.com/python/typeshed/pull/15343))
