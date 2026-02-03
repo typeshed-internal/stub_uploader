@@ -1,3 +1,7 @@
+## 16.3.0.20260203 (2026-02-03)
+
+[gdb] `Value.address` can be `None` ([#15355](https://github.com/python/typeshed/pull/15355))
+
 ## 16.3.0.20260109 (2026-01-09)
 
 Update mypy to 1.19.1 ([#15235](https://github.com/python/typeshed/pull/15235))
