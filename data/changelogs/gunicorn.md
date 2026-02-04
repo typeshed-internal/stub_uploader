@@ -1,3 +1,7 @@
+## 25.0.0.20260204 (2026-02-04)
+
+[gunicorn] Update to 25.0.* ([#15363](https://github.com/python/typeshed/pull/15363))
+
 ## 24.1.0.20260127 (2026-01-27)
 
 [gunicorn] Revert * to patch version ([#15327](https://github.com/python/typeshed/pull/15327))
