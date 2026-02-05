@@ -1,3 +1,24 @@
+## 4.67.3.20260205 (2026-02-05)
+
+[stubsabot] Bump tqdm to 4.67.3 ([#15366](https://github.com/python/typeshed/pull/15366))
+
+Release: https://pypi.org/pypi/tqdm/4.67.3
+Repository: https://github.com/tqdm/tqdm
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/tqdm
+Diff: https://github.com/tqdm/tqdm/compare/v4.67.2...v4.67.3
+
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 0.
+ - Total lines of Python code deleted: 0.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 4.67.2.20260202 (2026-02-02)
 
 [tqdm] Update to 4.67.2 ([#15348](https://github.com/python/typeshed/pull/15348))
