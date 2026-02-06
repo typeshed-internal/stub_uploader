@@ -13,6 +13,7 @@ from pathlib import Path
 
 from stub_uploader.const import CHANGELOG_PATH
 
+_SCOPE_PREFIX_RE = re.compile(r"^\s*(\([^)]*\)|\[[^\]]*\])\s*:?\s*")
 THIRD_PARTY_NAMESPACE = "stubs"
 
 
@@ -63,7 +64,7 @@ def update_changelog(
         print(f"{distribution}: Changelog unchanged")
         return
     today = datetime.date.today()
-    new_entry = process_git_log(log, version, today)
+    new_entry = process_git_log(log, distribution, version, today)
 
     changelog = os.path.join(CHANGELOG_PATH, f"{distribution}.md")
     try:
@@ -85,16 +86,39 @@ def update_changelog(
         f.write(new_entry + old_entries)
 
 
-def process_git_log(log: str, version: str, today: datetime.date) -> str:
-    entry = f"## {version} ({today:%Y-%m-%d})\n"
-    for line in log.splitlines():
+def process_git_log(
+    log: str, distribution: str, version: str, today: datetime.date
+) -> str:
+    entry = f"## [{version}](https://pypi.org/project/types-{distribution}/{version}/) ({today:%Y-%m-%d})\n"
+    lines = log.splitlines()
+    is_title = True
+    for i, line in enumerate(lines):
         if line.strip() == "":
             entry += "\n"
-        elif line.startswith("    "):
-            # Proper git log lines start with four spaces.
-            entry += f"{line.rstrip()[4:]}\n"
+            continue
+
+        # Proper git log lines start with four spaces.
+        if not line.startswith("    "):
+            is_title = True
+            continue  # Ignore header entries.
+
+        if is_title:
+            # Remove scope prefix: (), ():, [], []:
+            title = _SCOPE_PREFIX_RE.sub("", line.rstrip()[4:])
+            entry += f"* {title}\n"
+            is_title = False
         else:
-            pass  # Ignore header entries.
+            # Decide whether to add ' \'
+            next_line = lines[i + 1] if i + 1 < len(lines) else ""
+            add_backslash = (
+                next_line.strip() != ""
+                and next_line.startswith("    ")
+                and not next_line.lstrip().startswith(("* ", "- ", "+ ", "1. "))
+            )
+            if add_backslash and not line.rstrip().endswith("\\"):
+                line += " \\"
+            entry += f"{line.rstrip()}\n"
+
     entry += "\n"
     # Create hyperlinks for PR numbers.
     entry = re.sub(
