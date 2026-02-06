@@ -1,3 +1,7 @@
+## 1.3.0.20260206 (2026-02-06)
+
+[dateparser] Update to ~=1.3.0 ([#15376](https://github.com/python/typeshed/pull/15376))
+
 ## 1.2.2.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
