@@ -1,3 +1,27 @@
+## 1.6.7.20260208 (2026-02-08)
+
+[stubsabot] Bump Authlib to 1.6.7 ([#15382](https://github.com/python/typeshed/pull/15382))
+
+Release: https://pypi.org/pypi/Authlib/1.6.7
+Repository: https://github.com/authlib/authlib
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Authlib
+Diff: https://github.com/authlib/authlib/compare/v1.6.6...v1.6.7
+
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 5 files included in typeshed's stubs have been modified or renamed: `authlib/consts.py`, `authlib/jose/__init__.py`, `authlib/oauth2/rfc9101/authorization_server.py`, `authlib/oidc/core/grants/util.py`, `authlib/oidc/core/userinfo.py`.
+ - Total lines of Python code added: 37.
+ - Total lines of Python code deleted: 12.
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 1.6.6.20260130 (2026-01-30)
 
 Update outdated upstream_repository fields ([#15334](https://github.com/python/typeshed/pull/15334))
