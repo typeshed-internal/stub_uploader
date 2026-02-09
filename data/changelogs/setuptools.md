@@ -1,3 +1,7 @@
+## 81.0.0.20260209 (2026-02-09)
+
+[setuptools] Update to 81.0.* ([#15387](https://github.com/python/typeshed/pull/15387))
+
 ## 80.10.0.20260124 (2026-01-24)
 
 [stubsabot] Bump setuptools to 80.10.* ([#15312](https://github.com/python/typeshed/pull/15312))
