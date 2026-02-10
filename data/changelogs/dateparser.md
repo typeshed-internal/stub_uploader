@@ -1,3 +1,14 @@
+## 1.3.0.20260210 (2026-02-10)
+
+[dateparser] Improve stubs ([#15393](https://github.com/python/typeshed/pull/15393))
+
+* Functions with `settings` params actually accepts `Settings` (or
+  `dict` only if has `@apply_settings` decorator)
+* Use `TypeVar` for date params that are used as return objects
+* Use `collections.abc.Set` instead of `set` since there is an
+  `isinstance` check specifically for `collections.abc.Set`
+* Annotated many other parameters
+
 ## 1.3.0.20260206 (2026-02-06)
 
 [dateparser] Update to ~=1.3.0 ([#15376](https://github.com/python/typeshed/pull/15376))

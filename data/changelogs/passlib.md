@@ -1,3 +1,7 @@
+## 1.7.7.20260210 (2026-02-10)
+
+[passlib] Fix stubtest ([#15404](https://github.com/python/typeshed/pull/15404))
+
 ## 1.7.7.20250602 (2025-06-02)
 
 Update mypy to 1.16.0 ([#14194](https://github.com/python/typeshed/pull/14194))

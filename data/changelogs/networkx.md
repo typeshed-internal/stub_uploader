@@ -1,3 +1,7 @@
+## 3.6.1.20260210 (2026-02-10)
+
+Officially remove Python 3.9 support ([#15360](https://github.com/python/typeshed/pull/15360))
+
 ## 3.6.1.20251220 (2025-12-20)
 
 [networkx] Update usages of `SupportsGetItem` that should be more restrictive ([#14795](https://github.com/python/typeshed/pull/14795))

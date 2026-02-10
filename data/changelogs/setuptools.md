@@ -1,3 +1,9 @@
+## 82.0.0.20260210 (2026-02-10)
+
+[setuptools] Add missing compilers ([#15394](https://github.com/python/typeshed/pull/15394))
+
+[stubsabot] Bump setuptools to 82.0.* ([#15396](https://github.com/python/typeshed/pull/15396))
+
 ## 81.0.0.20260209 (2026-02-09)
 
 [setuptools] Update to 81.0.* ([#15387](https://github.com/python/typeshed/pull/15387))
