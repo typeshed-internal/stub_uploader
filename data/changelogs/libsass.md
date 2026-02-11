@@ -1,3 +1,9 @@
+## 0.23.0.20260211 (2026-02-11)
+
+[libsass] Mark as no longer updated ([#15413](https://github.com/python/typeshed/pull/15413))
+
+Fix stubtest setuptools dependency
+
 ## 0.23.0.20250401 (2025-04-01)
 
 Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))

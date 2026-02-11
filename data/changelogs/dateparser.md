@@ -1,3 +1,7 @@
+## 1.3.0.20260211 (2026-02-11)
+
+[dateparser] Annotate a few return and argument types ([#15411](https://github.com/python/typeshed/pull/15411))
+
 ## 1.3.0.20260210 (2026-02-10)
 
 [dateparser] Improve stubs ([#15393](https://github.com/python/typeshed/pull/15393))
