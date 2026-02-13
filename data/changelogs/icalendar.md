@@ -1,3 +1,7 @@
+## 6.3.2.20260213 (2026-02-13)
+
+[stubsabot] Mark icalendar as obsolete since 7.0.0 ([#15419](https://github.com/python/typeshed/pull/15419))
+
 ## 6.3.2.20251222 (2025-12-22)
 
 [icalendar] Use stricter pyright settings ([#15159](https://github.com/python/typeshed/pull/15159))

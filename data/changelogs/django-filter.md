@@ -1,3 +1,7 @@
+## 25.2.0.20260213 (2026-02-13)
+
+[django-filter] fix return type for MultipleChoiceFilter.get_filter_predicate ([#15418](https://github.com/python/typeshed/pull/15418))
+
 ## 25.2.0.20251228 (2025-12-28)
 
 [django-filter] Fix BaseFilterSet.filter_for_lookup return type ([#15171](https://github.com/python/typeshed/pull/15171))
