@@ -1,3 +1,7 @@
+## 1.6.8.20260215 (2026-02-15)
+
+[stubsabot] Bump Authlib to 1.6.8 ([#15429](https://github.com/python/typeshed/pull/15429))
+
 ## 1.6.7.20260208 (2026-02-08)
 
 [stubsabot] Bump Authlib to 1.6.7 ([#15382](https://github.com/python/typeshed/pull/15382))

@@ -1,3 +1,7 @@
+## 4.4.9.20260215 (2026-02-15)
+
+[reportlab] Add more annotations for lib ([#15426](https://github.com/python/typeshed/pull/15426))
+
 ## 4.4.9.20260117 (2026-01-17)
 
 [reportlab] Update to 4.4.9 ([#15290](https://github.com/python/typeshed/pull/15290))

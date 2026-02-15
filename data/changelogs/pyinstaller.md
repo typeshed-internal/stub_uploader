@@ -1,3 +1,7 @@
+## 6.19.0.20260215 (2026-02-15)
+
+[stubsabot] Bump pyinstaller to 6.19.* ([#15428](https://github.com/python/typeshed/pull/15428))
+
 ## 6.18.0.20260115 (2026-01-15)
 
 [pyinstaller] Update to 6.18.* ([#15279](https://github.com/python/typeshed/pull/15279))
