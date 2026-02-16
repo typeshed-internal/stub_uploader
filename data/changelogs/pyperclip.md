@@ -1,3 +1,7 @@
+## 1.11.0.20260216 (2026-02-16)
+
+[stubsabot] Bump pyperclip to 1.11.* ([#14745](https://github.com/python/typeshed/pull/14745))
+
 ## 1.9.0.20250801 (2025-08-01)
 
 Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
