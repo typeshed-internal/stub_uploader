@@ -1,3 +1,7 @@
+## 1.1.0.20260221 (2026-02-21)
+
+[assertpy] Remove spurious `Iterable` from star arguments ([#15441](https://github.com/python/typeshed/pull/15441))
+
 ## 1.1.0.20260128 (2026-01-28)
 
 [assertpy] Accept extensions with additional parameters ([#15329](https://github.com/python/typeshed/pull/15329))

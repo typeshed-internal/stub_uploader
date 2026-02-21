@@ -1,3 +1,7 @@
+## 4.4.10.20260221 (2026-02-21)
+
+[reportlab] Add more annotations for pdfbase ([#15431](https://github.com/python/typeshed/pull/15431))
+
 ## 4.4.10.20260216 (2026-02-16)
 
 [reportlab] Update to 4.4.10 ([#15421](https://github.com/python/typeshed/pull/15421))

@@ -1,3 +1,7 @@
+## 2.8.4.20260221 (2026-02-21)
+
+[stubsabot] Mark fpdf2 as obsolete since 2.8.6 ([#14944](https://github.com/python/typeshed/pull/14944))
+
 ## 2.8.4.20260130 (2026-01-30)
 
 Update outdated upstream_repository fields ([#15334](https://github.com/python/typeshed/pull/15334))

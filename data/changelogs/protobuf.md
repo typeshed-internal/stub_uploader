@@ -1,3 +1,7 @@
+## 6.32.1.20260221 (2026-02-21)
+
+[protobuf] Add missing encoder and sizer exports ([#15422](https://github.com/python/typeshed/pull/15422))
+
 ## 6.32.1.20251210 (2025-12-10)
 
 [protobuf] Update annotations in internal/containers.pyi ([#15117](https://github.com/python/typeshed/pull/15117))
