@@ -1,3 +1,9 @@
+## 4.0.0.20260222 (2026-02-22)
+
+[peewee] Update to 4.0.0 ([#15445](https://github.com/python/typeshed/pull/15445))
+
+* Add default values
+
 ## 3.19.0.20260109 (2026-01-09)
 
 [stubsabot] Bump peewee to 3.19.0 ([#15230](https://github.com/python/typeshed/pull/15230))
