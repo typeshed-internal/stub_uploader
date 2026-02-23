@@ -1,3 +1,7 @@
+## 0.22.3.20260223 (2026-02-23)
+
+Add missing __slots__ to third-party packages ([#15454](https://github.com/python/typeshed/pull/15454))
+
 ## 0.22.3.20251115 (2025-11-15)
 
 [docutils] Update to 0.22.3 ([#14993](https://github.com/python/typeshed/pull/14993))

@@ -1,3 +1,7 @@
+## 0.5.10.20260223 (2026-02-23)
+
+Add missing __slots__ to third-party packages ([#15454](https://github.com/python/typeshed/pull/15454))
+
 ## 0.5.10.20250812 (2025-08-12)
 
 [JACK-Client] UUIDs are represented as ints ([#14559](https://github.com/python/typeshed/pull/14559))

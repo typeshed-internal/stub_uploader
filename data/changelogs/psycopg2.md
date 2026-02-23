@@ -1,3 +1,7 @@
+## 2.9.21.20260223 (2026-02-23)
+
+Add missing __slots__ to third-party packages ([#15454](https://github.com/python/typeshed/pull/15454))
+
 ## 2.9.21.20251012 (2025-10-12)
 
 [psycopg2] Update to 2.9.11 ([#14864](https://github.com/python/typeshed/pull/14864))

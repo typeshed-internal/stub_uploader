@@ -1,3 +1,7 @@
+## 6.3.2.20260223 (2026-02-23)
+
+Add missing __slots__ to third-party packages ([#15454](https://github.com/python/typeshed/pull/15454))
+
 ## 6.3.2.20260213 (2026-02-13)
 
 [stubsabot] Mark icalendar as obsolete since 7.0.0 ([#15419](https://github.com/python/typeshed/pull/15419))

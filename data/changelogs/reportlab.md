@@ -1,3 +1,9 @@
+## 4.4.10.20260223 (2026-02-23)
+
+[reportlab] Add more annotations for pdfgen ([#15452](https://github.com/python/typeshed/pull/15452))
+
+[reportlab] Use TypeIs for utils ([#15451](https://github.com/python/typeshed/pull/15451))
+
 ## 4.4.10.20260221 (2026-02-21)
 
 [reportlab] Add more annotations for pdfbase ([#15431](https://github.com/python/typeshed/pull/15431))

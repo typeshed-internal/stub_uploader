@@ -1,3 +1,9 @@
+## 4.0.0.20260223 (2026-02-23)
+
+[peewee] Annotate return types ([#15450](https://github.com/python/typeshed/pull/15450))
+
+Add __slots__
+
 ## 4.0.0.20260222 (2026-02-22)
 
 [peewee] Update to 4.0.0 ([#15445](https://github.com/python/typeshed/pull/15445))

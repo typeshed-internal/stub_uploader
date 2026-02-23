@@ -1,3 +1,7 @@
+## 2.4.0.20260223 (2026-02-23)
+
+Add missing __slots__ to third-party packages ([#15454](https://github.com/python/typeshed/pull/15454))
+
 ## 2.4.0.20251217 (2025-12-17)
 
 [stubsabot] Bump google-cloud-ndb to 2.4.* ([#15137](https://github.com/python/typeshed/pull/15137))
