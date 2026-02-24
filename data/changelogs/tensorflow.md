@@ -1,3 +1,7 @@
+## 2.18.0.20260224 (2026-02-24)
+
+[tensorflow] Add __slots__ ([#15459](https://github.com/python/typeshed/pull/15459))
+
 ## 2.18.0.20260121 (2026-01-21)
 
 [tensorflow] Fix `tf.tile` ([#15306](https://github.com/python/typeshed/pull/15306))
