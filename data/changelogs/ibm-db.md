@@ -1,3 +1,7 @@
+## 3.2.8.20260225 (2026-02-25)
+
+[stubsabot] Bump ibm-db to 3.2.8 ([#14685](https://github.com/python/typeshed/pull/14685))
+
 ## 3.2.6.20250311 (2025-03-11)
 
 [stubsabot] Bump ibm-db to 3.2.6 ([#13610](https://github.com/python/typeshed/pull/13610))
