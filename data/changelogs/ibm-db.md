@@ -1,3 +1,7 @@
+## 3.2.8.20260226 (2026-02-26)
+
+[ibm-db] Add stubs for `ibm_db_ctx` ([#15463](https://github.com/python/typeshed/pull/15463))
+
 ## 3.2.8.20260225 (2026-02-25)
 
 [stubsabot] Bump ibm-db to 3.2.8 ([#14685](https://github.com/python/typeshed/pull/14685))
