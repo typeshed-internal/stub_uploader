@@ -1,3 +1,10 @@
+## 3.2.8.20260228 (2026-02-28)
+
+[ibm-db] Mark constants as `Final` ([#15465](https://github.com/python/typeshed/pull/15465))
+
+* Set literal values for hard-coded constants
+* Add missing `__version__`
+
 ## 3.2.8.20260226 (2026-02-26)
 
 [ibm-db] Add stubs for `ibm_db_ctx` ([#15463](https://github.com/python/typeshed/pull/15463))
