@@ -75,6 +75,7 @@ types-corus
 types-croniter
 types-cryptography
 types-dataclasses
+types-datauri
 types-dateparser
 types-decorator
 types-defusedxml
