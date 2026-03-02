@@ -1,3 +1,11 @@
+## 2.9.0.20260302 (2026-03-02)
+
+[python-dateutil] Make `dateutil.parser.parse(fuzzy_with_tokens=True)` return a tuple ([#15474](https://github.com/python/typeshed/pull/15474))
+
+Co-authored-by: ellieayla <1447600+me@users.noreply.github.com>
+Co-authored-by: Semyon Moroz <donbarbos@proton.me>
+Co-authored-by: Brian Schubert <brianm.schubert@gmail.com>
+
 ## 2.9.0.20260124 (2026-01-24)
 
 [python-dateutil] Add missing annotation to 'tag' in rebuild.py ([#15196](https://github.com/python/typeshed/pull/15196))
