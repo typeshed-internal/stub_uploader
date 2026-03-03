@@ -1,3 +1,7 @@
+## 4.67.3.20260303 (2026-03-03)
+
+[tqdm] Add `thread_map` and `process_map` type hints ([#15460](https://github.com/python/typeshed/pull/15460))
+
 ## 4.67.3.20260205 (2026-02-05)
 
 [stubsabot] Bump tqdm to 4.67.3 ([#15366](https://github.com/python/typeshed/pull/15366))

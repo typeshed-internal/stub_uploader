@@ -1,3 +1,7 @@
+## 3.6.1.20260303 (2026-03-03)
+
+[networkx] Graph/MultiGraph inherited methods return Self ([#15453](https://github.com/python/typeshed/pull/15453))
+
 ## 3.6.1.20260210 (2026-02-10)
 
 Officially remove Python 3.9 support ([#15360](https://github.com/python/typeshed/pull/15360))
