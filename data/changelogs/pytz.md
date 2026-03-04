@@ -1,3 +1,7 @@
+## 2026.1.1.20260304 (2026-03-04)
+
+[stubsabot] Bump pytz to 2026.1.post1 ([#15483](https://github.com/python/typeshed/pull/15483))
+
 ## 2025.2.0.20251108 (2025-11-08)
 
 [pytz] Annotate parameter fill_iter ([#14989](https://github.com/python/typeshed/pull/14989))
