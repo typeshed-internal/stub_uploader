@@ -1,3 +1,7 @@
+## 2.9.0.20260305 (2026-03-05)
+
+[python-dateutil] Complete stubs ([#15476](https://github.com/python/typeshed/pull/15476))
+
 ## 2.9.0.20260302 (2026-03-02)
 
 [python-dateutil] Make `dateutil.parser.parse(fuzzy_with_tokens=True)` return a tuple ([#15474](https://github.com/python/typeshed/pull/15474))
