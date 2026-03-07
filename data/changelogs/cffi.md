@@ -1,3 +1,7 @@
+## 1.17.0.20260307 (2026-03-07)
+
+[cffi] Accept floats in `cast` ([#15487](https://github.com/python/typeshed/pull/15487))
+
 ## 1.17.0.20250915 (2025-09-15)
 
 Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
