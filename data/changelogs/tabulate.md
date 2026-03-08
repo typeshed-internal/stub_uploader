@@ -1,3 +1,7 @@
+## 0.10.0.20260308 (2026-03-08)
+
+[tabulate] Update to 0.10.* ([#15491](https://github.com/python/typeshed/pull/15491))
+
 ## 0.9.0.20241207 (2024-12-07)
 
 Improve annotation for `tabular_data` parameter of `tabulate.tabulate` ([#13178](https://github.com/python/typeshed/pull/13178))
