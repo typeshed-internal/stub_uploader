@@ -226,6 +226,7 @@ types-regex
 types-reportlab
 types-requests
 types-requests-oauthlib
+types-resampy
 types-retry
 types-rfc3339-validator
 types-s2clientprotocol
