@@ -1,3 +1,7 @@
+## 1.1.3.20260311 (2026-03-11)
+
+[stubsabot] Bump geopandas to 1.1.3 ([#15499](https://github.com/python/typeshed/pull/15499))
+
 ## 1.1.2.20260120 (2026-01-20)
 
 [geopandas] Add lz4 and zstd compression to to_parquet ([#15195](https://github.com/python/typeshed/pull/15195))
