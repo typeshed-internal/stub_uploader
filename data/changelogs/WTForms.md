@@ -1,3 +1,7 @@
+## 3.2.1.20260312 (2026-03-12)
+
+[wtforms] Fix variance issues with SelectField.choices ([#15503](https://github.com/python/typeshed/pull/15503))
+
 ## 3.2.1.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
