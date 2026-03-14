@@ -1,3 +1,7 @@
+## 2026.3.13.20260314 (2026-03-14)
+
+[stubsabot] Bump yt-dlp to 2026.3.13 ([#15509](https://github.com/python/typeshed/pull/15509))
+
 ## 2026.3.3.20260304 (2026-03-04)
 
 [stubsabot] Bump yt-dlp to 2026.3.3 ([#15484](https://github.com/python/typeshed/pull/15484))
