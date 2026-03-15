@@ -1,3 +1,7 @@
+## 2.0.0.20260315 (2026-03-15)
+
+[stubsabot] Bump cffi to 2.0.* ([#14689](https://github.com/python/typeshed/pull/14689))
+
 ## 1.17.0.20260307 (2026-03-07)
 
 [cffi] Accept floats in `cast` ([#15487](https://github.com/python/typeshed/pull/15487))
