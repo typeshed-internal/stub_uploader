@@ -47,7 +47,7 @@ PYPROJECT_TEMPLATE = dedent(
     """
 [build-system]
 build-backend = "setuptools.build_meta"
-requires = ["setuptools>=77.0.3"]
+requires = ["setuptools>=82.0.1"]
 
 [project]
 name = "{stub_distribution}"
