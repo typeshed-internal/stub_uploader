@@ -1,3 +1,7 @@
+## 3.0.1.20260316 (2026-03-16)
+
+Fix `Final` literal values in various third-party stubs ([#15521](https://github.com/python/typeshed/pull/15521))
+
 ## 3.0.1.20250801 (2025-08-01)
 
 Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))

@@ -1,3 +1,7 @@
+## 0.22.3.20260316 (2026-03-16)
+
+Fix `Final` literal values in various third-party stubs ([#15521](https://github.com/python/typeshed/pull/15521))
+
 ## 0.22.3.20260223 (2026-02-23)
 
 Add missing __slots__ to third-party packages ([#15454](https://github.com/python/typeshed/pull/15454))

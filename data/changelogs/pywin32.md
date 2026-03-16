@@ -1,3 +1,7 @@
+## 311.0.0.20260316 (2026-03-16)
+
+[pywin32] Mark stub-only NamedTuples as `@type_check_only` ([#15514](https://github.com/python/typeshed/pull/15514))
+
 ## 311.0.0.20251008 (2025-10-08)
 
 pywin32: fill in the type of win32.win32pipe.GetNamedPipeInfo ([#14846](https://github.com/python/typeshed/pull/14846))

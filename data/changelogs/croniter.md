@@ -1,3 +1,9 @@
+## 6.2.2.20260316 (2026-03-16)
+
+[stubsabot] Bump croniter to 6.2.2 ([#15520](https://github.com/python/typeshed/pull/15520))
+
+[croniter] Update to 6.2.0 ([#15511](https://github.com/python/typeshed/pull/15511))
+
 ## 6.0.0.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))

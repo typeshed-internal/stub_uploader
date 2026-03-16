@@ -1,3 +1,7 @@
+## 7.45.7.20260316 (2026-03-16)
+
+Fix `Final` literal values in various third-party stubs ([#15521](https://github.com/python/typeshed/pull/15521))
+
 ## 7.45.7.20251101 (2025-11-01)
 
 Annotate pycurl's getinfo() and getinfo_raw() ([#14929](https://github.com/python/typeshed/pull/14929))

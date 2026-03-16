@@ -1,3 +1,7 @@
+## 3.1.5.20260316 (2026-03-16)
+
+Fix `Final` literal values in various third-party stubs ([#15521](https://github.com/python/typeshed/pull/15521))
+
 ## 3.1.5.20250919 (2025-09-19)
 
 [openpyxl] Fix stubs for openpyxl.descriptors.sequence.UniqueSequence.seq_types ([#14725](https://github.com/python/typeshed/pull/14725))
