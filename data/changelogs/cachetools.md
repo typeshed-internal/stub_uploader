@@ -1,3 +1,9 @@
+## 6.2.0.20260317 (2026-03-17)
+
+[cachetools] Add `@type_check_only` to stub-only private classes ([#15516](https://github.com/python/typeshed/pull/15516))
+
+Also unify duplicated `_CacheInfo` definitions
+
 ## 6.2.0.20251022 (2025-10-22)
 
 cachetools: precise typing for decorators and cached(); expose cache_info/cache_clear and fix keys signatures ([#14770](https://github.com/python/typeshed/pull/14770))

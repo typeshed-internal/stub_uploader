@@ -1,3 +1,7 @@
+## 311.0.0.20260317 (2026-03-17)
+
+[pywin32] Add parameters for incomplete functions ([#15512](https://github.com/python/typeshed/pull/15512))
+
 ## 311.0.0.20260316 (2026-03-16)
 
 [pywin32] Mark stub-only NamedTuples as `@type_check_only` ([#15514](https://github.com/python/typeshed/pull/15514))
