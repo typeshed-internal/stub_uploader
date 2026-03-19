@@ -1,3 +1,7 @@
+## 0.6.0.20260319 (2026-03-19)
+
+[pyasn1] Fix componentType to accept Asn1Type in SequenceOf ([#15442](https://github.com/python/typeshed/pull/15442))
+
 ## 0.6.0.20250914 (2025-09-14)
 
 Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
