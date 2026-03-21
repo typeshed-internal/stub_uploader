@@ -1,3 +1,7 @@
+## 3.6.1.20260321 (2026-03-21)
+
+[networkx] Enhance annotation for Networkx.Graph.add_weighted_edges_from ([#15528](https://github.com/python/typeshed/pull/15528))
+
 ## 3.6.1.20260303 (2026-03-03)
 
 [networkx] Graph/MultiGraph inherited methods return Self ([#15453](https://github.com/python/typeshed/pull/15453))

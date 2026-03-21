@@ -1,3 +1,7 @@
+## 4.3.0.20260321 (2026-03-21)
+
+[channels] Relax django-stubs dependency ([#15524](https://github.com/python/typeshed/pull/15524))
+
 ## 4.3.0.20250822 (2025-08-22)
 
 Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
