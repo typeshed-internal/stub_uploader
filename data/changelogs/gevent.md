@@ -1,3 +1,7 @@
+## 25.9.0.20260322 (2026-03-22)
+
+Add `@type_check_only` to stub-only private classes in various third-party stubs ([#15535](https://github.com/python/typeshed/pull/15535))
+
 ## 25.9.0.20251228 (2025-12-28)
 
 [psutil] Update to 7.2.0 ([#15173](https://github.com/python/typeshed/pull/15173))

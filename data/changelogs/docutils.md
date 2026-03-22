@@ -1,3 +1,7 @@
+## 0.22.3.20260322 (2026-03-22)
+
+Add `@type_check_only` to stub-only private classes in various third-party stubs ([#15535](https://github.com/python/typeshed/pull/15535))
+
 ## 0.22.3.20260316 (2026-03-16)
 
 Fix `Final` literal values in various third-party stubs ([#15521](https://github.com/python/typeshed/pull/15521))

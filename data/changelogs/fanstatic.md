@@ -1,3 +1,7 @@
+## 1.7.0.20260322 (2026-03-22)
+
+[stubsabot] Bump fanstatic to 1.7.* ([#15534](https://github.com/python/typeshed/pull/15534))
+
 ## 1.6.0.20251106 (2025-11-06)
 
 [stubsabot] Bump fanstatic to 1.6.* ([#14981](https://github.com/python/typeshed/pull/14981))

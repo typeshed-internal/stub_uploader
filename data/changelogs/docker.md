@@ -1,3 +1,7 @@
+## 7.1.0.20260322 (2026-03-22)
+
+Add `@type_check_only` to stub-only private classes in various third-party stubs ([#15535](https://github.com/python/typeshed/pull/15535))
+
 ## 7.1.0.20260109 (2026-01-09)
 
 [docker] Fix `Container.attach()` return type ([#15155](https://github.com/python/typeshed/pull/15155))

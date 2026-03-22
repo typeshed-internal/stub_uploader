@@ -1,3 +1,7 @@
+## 2.8.4.20260322 (2026-03-22)
+
+Add `@type_check_only` to stub-only private classes in various third-party stubs ([#15535](https://github.com/python/typeshed/pull/15535))
+
 ## 2.8.4.20260221 (2026-02-21)
 
 [stubsabot] Mark fpdf2 as obsolete since 2.8.6 ([#14944](https://github.com/python/typeshed/pull/14944))
