@@ -1,3 +1,7 @@
+## 311.0.0.20260323 (2026-03-23)
+
+[pywin32] Improve win32com ([#15527](https://github.com/python/typeshed/pull/15527))
+
 ## 311.0.0.20260317 (2026-03-17)
 
 [pywin32] Add parameters for incomplete functions ([#15512](https://github.com/python/typeshed/pull/15512))

@@ -1,3 +1,7 @@
+## 2.9.0.20260323 (2026-03-23)
+
+[python-dateutil] Add missing `gettz` cache control methods ([#15537](https://github.com/python/typeshed/pull/15537))
+
 ## 2.9.0.20260305 (2026-03-05)
 
 [python-dateutil] Complete stubs ([#15476](https://github.com/python/typeshed/pull/15476))
