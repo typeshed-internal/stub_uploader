@@ -1,3 +1,7 @@
+## 3.3.0.20260324 (2026-03-24)
+
+[oauthlib] Use Incomplete instead of Any ([#15547](https://github.com/python/typeshed/pull/15547))
+
 ## 3.3.0.20250822 (2025-08-22)
 
 Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))

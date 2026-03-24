@@ -1,3 +1,10 @@
+## 2.32.4.20260324 (2026-03-24)
+
+[requests] Add `requests.compat.JSONDecodeError` ([#15545](https://github.com/python/typeshed/pull/15545))
+
+Also add a comment that `JSONDecodeError` may be imported from
+`simplejson` if that is installed.
+
 ## 2.32.4.20260107 (2026-01-07)
 
 [requests] requests.exceptions.JSONDecodeError inherits from json.JSONDecodeError ([#15168](https://github.com/python/typeshed/pull/15168))

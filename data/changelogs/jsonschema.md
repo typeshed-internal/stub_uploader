@@ -1,3 +1,7 @@
+## 4.26.0.20260324 (2026-03-24)
+
+[jsonschema] Mark RefResolver as deprecated ([#15546](https://github.com/python/typeshed/pull/15546))
+
 ## 4.26.0.20260202 (2026-02-02)
 
 [jsonschema] Fix type `_Error.validator` ([#15353](https://github.com/python/typeshed/pull/15353))
