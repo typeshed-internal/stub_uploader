@@ -1,3 +1,7 @@
+## 4.4.0.20260325 (2026-03-25)
+
+[django-import-export]: Fix ForeignKeyWidget.__init__ argument types ([#15552](https://github.com/python/typeshed/pull/15552))
+
 ## 4.4.0.20260113 (2026-01-13)
 
 [django-import-export] Update to 4.4.* ([#15256](https://github.com/python/typeshed/pull/15256))

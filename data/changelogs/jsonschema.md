@@ -1,3 +1,11 @@
+## 4.26.0.20260325 (2026-03-25)
+
+[jsonschema] Fix RefResolver store parameter type ([#15542](https://github.com/python/typeshed/pull/15542))
+
+Change URIDict to use MutableMapping[str, Any] as the value type
+throughout, consistent with the actual runtime behavior where store
+values are schema documents (JSON objects), not plain strings.
+
 ## 4.26.0.20260324 (2026-03-24)
 
 [jsonschema] Mark RefResolver as deprecated ([#15546](https://github.com/python/typeshed/pull/15546))
