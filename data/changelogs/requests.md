@@ -1,3 +1,7 @@
+## 2.33.0.20260327 (2026-03-27)
+
+[stubsabot] Bump requests to ~=2.33.0 ([#15556](https://github.com/python/typeshed/pull/15556))
+
 ## 2.32.4.20260324 (2026-03-24)
 
 [requests] Add `requests.compat.JSONDecodeError` ([#15545](https://github.com/python/typeshed/pull/15545))
