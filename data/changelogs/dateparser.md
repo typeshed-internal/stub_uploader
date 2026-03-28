@@ -1,3 +1,7 @@
+## 1.4.0.20260328 (2026-03-28)
+
+[dateparser] Update to 1.4.0 ([#15562](https://github.com/python/typeshed/pull/15562))
+
 ## 1.3.0.20260323 (2026-03-23)
 
 [dateparser] Fix return type of `search_dates` ([#15539](https://github.com/python/typeshed/pull/15539))

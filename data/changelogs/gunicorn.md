@@ -1,3 +1,7 @@
+## 25.3.0.20260328 (2026-03-28)
+
+[gunicorn] Update to 25.3.0 ([#15563](https://github.com/python/typeshed/pull/15563))
+
 ## 25.2.0.20260326 (2026-03-26)
 
 [gunicorn] Update to 25.2.0 ([#15555](https://github.com/python/typeshed/pull/15555))
