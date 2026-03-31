@@ -1,3 +1,7 @@
+## 2.0.0.20260331 (2026-03-31)
+
+[uWSGI] Use a `TypeVarTuple` in `uwsgidecorators.thread` ([#11128](https://github.com/python/typeshed/pull/11128))
+
 ## 2.0.0.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))

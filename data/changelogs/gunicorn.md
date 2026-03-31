@@ -1,3 +1,9 @@
+## 25.3.0.20260331 (2026-03-31)
+
+[gunicorn] Add precise return type for asgi.protocol:BodyReceiver.receive ([#15567](https://github.com/python/typeshed/pull/15567))
+
+[gunicorn] Add precise return types for most of CommandHandlers methods ([#15568](https://github.com/python/typeshed/pull/15568))
+
 ## 25.3.0.20260328 (2026-03-28)
 
 [gunicorn] Update to 25.3.0 ([#15563](https://github.com/python/typeshed/pull/15563))
