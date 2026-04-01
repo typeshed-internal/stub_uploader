@@ -77,7 +77,9 @@ def test_version_increment(distribution: str) -> None:
 
 
 def test_unvalidated_properties() -> None:
-    m = Metadata("fake", {"version": "0.1", "dependencies": ["numpy", "types-six>=0.1"]})
+    m = Metadata(
+        "fake", {"version": "0.1", "dependencies": ["numpy", "types-six>=0.1"]}
+    )
     assert [r.name for r in m._unvalidated_dependencies] == ["numpy", "types-six"]
     assert [r.name for r in m._unvalidated_dependencies_external] == ["numpy"]
     assert [r.name for r in m._unvalidated_dependencies_typeshed] == ["types-six"]

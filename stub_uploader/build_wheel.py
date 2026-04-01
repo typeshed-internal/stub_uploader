@@ -339,7 +339,8 @@ def generate_pyproject_file(
 ) -> str:
     """Auto-generate a setup.py file for given distribution using a template."""
     all_requirements = [
-        str(req) for req in metadata.dependencies_typeshed + metadata.dependencies_external
+        str(req)
+        for req in metadata.dependencies_typeshed + metadata.dependencies_external
     ]
     requires_python = (
         metadata.requires_python

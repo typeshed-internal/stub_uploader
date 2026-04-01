@@ -66,7 +66,9 @@ class Metadata:
     def _unvalidated_dependencies_typeshed(self) -> list[Requirement]:
         typeshed = uploaded_packages.read()
         return [
-            r for r in self._unvalidated_dependencies if canonical_name(r.name) in typeshed
+            r
+            for r in self._unvalidated_dependencies
+            if canonical_name(r.name) in typeshed
         ]
 
     @functools.cached_property
