@@ -61,7 +61,7 @@ classifiers = [
   "Typing :: Stubs Only",
 ]
 requires-python = "{requires_python}"
-dependencies = {requires}
+dependencies = {dependencies}
 
 [project.urls]
 "Homepage" = "https://github.com/python/typeshed"
@@ -339,7 +339,8 @@ def generate_pyproject_file(
 ) -> str:
     """Auto-generate a setup.py file for given distribution using a template."""
     all_requirements = [
-        str(req) for req in metadata.requires_typeshed + metadata.requires_external
+        str(req)
+        for req in metadata.dependencies_typeshed + metadata.dependencies_external
     ]
     requires_python = (
         metadata.requires_python
@@ -354,7 +355,7 @@ def generate_pyproject_file(
             build_data.distribution, ts_data, metadata
         ),
         version=version,
-        requires=all_requirements,
+        dependencies=all_requirements,
         packages=pkg_data.top_level_packages,
         requires_python=requires_python,
         package_data="\n".join(package_data),

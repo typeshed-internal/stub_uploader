@@ -59,35 +59,41 @@ class Metadata:
         return spec
 
     @property
-    def _unvalidated_requires(self) -> list[Requirement]:
-        return [Requirement(req) for req in self.data.get("requires", [])]
+    def _unvalidated_dependencies(self) -> list[Requirement]:
+        return [
+            Requirement(req)
+            # TODO: once typeshed migrates from requires to dependencies too, remove fallback on `requires`
+            for req in self.data.get("dependencies", self.data.get("requires", []))
+        ]
 
     @property
-    def _unvalidated_requires_typeshed(self) -> list[Requirement]:
+    def _unvalidated_dependencies_typeshed(self) -> list[Requirement]:
         typeshed = uploaded_packages.read()
         return [
-            r for r in self._unvalidated_requires if canonical_name(r.name) in typeshed
+            r
+            for r in self._unvalidated_dependencies
+            if canonical_name(r.name) in typeshed
         ]
 
     @functools.cached_property
-    def requires_typeshed(self) -> list[Requirement]:
-        reqs = self._unvalidated_requires_typeshed
+    def dependencies_typeshed(self) -> list[Requirement]:
+        reqs = self._unvalidated_dependencies_typeshed
         for req in reqs:
             verify_typeshed_req(req)
         return reqs
 
     @property
-    def _unvalidated_requires_external(self) -> list[Requirement]:
+    def _unvalidated_dependencies_external(self) -> list[Requirement]:
         typeshed = uploaded_packages.read()
         return [
             r
-            for r in self._unvalidated_requires
+            for r in self._unvalidated_dependencies
             if canonical_name(r.name) not in typeshed
         ]
 
     @functools.cached_property
-    def requires_external(self) -> list[Requirement]:
-        reqs = self._unvalidated_requires_external
+    def dependencies_external(self) -> list[Requirement]:
+        reqs = self._unvalidated_dependencies_external
         for req in reqs:
             verify_external_req(req, self.upstream_distribution)
         return reqs
@@ -472,11 +478,11 @@ def sort_by_dependency(
         metadata = read_metadata(typeshed_dir, dist)
         ts.add(
             metadata.stub_distribution,
-            # Use _unvalidated_requires instead of requires_typeshed, in case we're uploading
+            # Use _unvalidated_dependencies instead of dependencies_typeshed, in case we're uploading
             # a new package B that depends on another new package A. Sorting topologically means
             # that the A will be in uploaded_packages.txt by the time it comes to verify and
             # upload B.
-            *[r.name for r in metadata._unvalidated_requires],
+            *[r.name for r in metadata._unvalidated_dependencies],
         )
         dist_map[metadata.stub_distribution] = dist
 
@@ -495,7 +501,7 @@ def sort_by_dependency(
 
 
 def recursive_verify(metadata: Metadata, typeshed_dir: str) -> set[str]:
-    # While metadata.requires_typeshed and metadata.requires_external will perform validation on the
+    # While metadata.dependencies_typeshed and metadata.dependencies_external will perform validation on the
     # stub distribution itself, it seems useful to be able to validate the transitive typeshed
     # dependency graph for a stub distribution
     _verified: set[str] = set()
@@ -505,12 +511,12 @@ def recursive_verify(metadata: Metadata, typeshed_dir: str) -> set[str]:
             return
         _verified.add(metadata.stub_distribution)
 
-        # calling these checks metadata's requires
-        assert isinstance(metadata.requires_typeshed, list)
-        assert isinstance(metadata.requires_external, list)
+        # calling these checks metadata's dependencies
+        assert isinstance(metadata.dependencies_typeshed, list)
+        assert isinstance(metadata.dependencies_external, list)
 
         # and recursively verify all our internal dependencies as well
-        for req in metadata.requires_typeshed:
+        for req in metadata.dependencies_typeshed:
             _verify(read_metadata(typeshed_dir, strip_types_prefix(req.name)))
 
     _verify(metadata)
