@@ -60,7 +60,11 @@ class Metadata:
 
     @property
     def _unvalidated_dependencies(self) -> list[Requirement]:
-        return [Requirement(req) for req in self.data.get("dependencies", [])]
+        return [
+            Requirement(req)
+            # TODO: once typeshed migrates from requires to dependencies too, remove fallback on `requires`
+            for req in self.data.get("dependencies", self.data.get("requires", []))
+        ]
 
     @property
     def _unvalidated_dependencies_typeshed(self) -> list[Requirement]:
