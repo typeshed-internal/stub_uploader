@@ -1,3 +1,7 @@
+## 4.13.0.20260402 (2026-04-02)
+
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+
 ## 4.13.0.20251118 (2025-11-18)
 
 [antlr4-python3-runtime] Fixed multiple Incomplete ([#15038](https://github.com/python/typeshed/pull/15038))

@@ -1,3 +1,7 @@
+## 1.2.0.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
 ## 1.2.0.20250513 (2025-05-13)
 
 [click_default_group] default_cmd_name argument should be named default ([#14023](https://github.com/python/typeshed/pull/14023))

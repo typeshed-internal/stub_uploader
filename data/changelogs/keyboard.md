@@ -1,3 +1,9 @@
+## 0.13.2.20260402 (2026-04-02)
+
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+
 ## 0.13.2.20250801 (2025-08-01)
 
 Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))

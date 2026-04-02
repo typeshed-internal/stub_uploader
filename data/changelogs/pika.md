@@ -1,3 +1,11 @@
+## 1.3.0.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+
 ## 1.3.0.20250914 (2025-09-14)
 
 Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))

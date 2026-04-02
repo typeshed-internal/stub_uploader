@@ -1,3 +1,7 @@
+## 311.0.0.20260402 (2026-04-02)
+
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+
 ## 311.0.0.20260323 (2026-03-23)
 
 [pywin32] Improve win32com ([#15527](https://github.com/python/typeshed/pull/15527))

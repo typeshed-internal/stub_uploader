@@ -1,3 +1,11 @@
+## 82.0.0.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+
 ## 82.0.0.20260210 (2026-02-10)
 
 [setuptools] Add missing compilers ([#15394](https://github.com/python/typeshed/pull/15394))

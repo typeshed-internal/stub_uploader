@@ -1,3 +1,7 @@
+## 2.9.0.20260402 (2026-04-02)
+
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+
 ## 2.9.0.20260323 (2026-03-23)
 
 [python-dateutil] Add missing `gettz` cache control methods ([#15537](https://github.com/python/typeshed/pull/15537))

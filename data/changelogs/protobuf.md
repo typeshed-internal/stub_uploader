@@ -1,3 +1,7 @@
+## 7.34.1.20260402 (2026-04-02)
+
+[protobuf] Bump to 7.34.1 and improve type coverage ([#15569](https://github.com/python/typeshed/pull/15569))
+
 ## 6.32.1.20260221 (2026-02-21)
 
 [protobuf] Add missing encoder and sizer exports ([#15422](https://github.com/python/typeshed/pull/15422))

@@ -1,3 +1,7 @@
+## 25.2.0.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
 ## 25.2.0.20260213 (2026-02-13)
 
 [django-filter] fix return type for MultipleChoiceFilter.get_filter_predicate ([#15418](https://github.com/python/typeshed/pull/15418))

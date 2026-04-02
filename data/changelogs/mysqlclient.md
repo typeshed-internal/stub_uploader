@@ -1,3 +1,7 @@
+## 2.2.0.20260402 (2026-04-02)
+
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+
 ## 2.2.0.20250915 (2025-09-15)
 
 Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))

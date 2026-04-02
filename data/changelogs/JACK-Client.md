@@ -1,3 +1,9 @@
+## 0.5.10.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+
 ## 0.5.10.20260223 (2026-02-23)
 
 Add missing __slots__ to third-party packages ([#15454](https://github.com/python/typeshed/pull/15454))

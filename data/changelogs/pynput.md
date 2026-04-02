@@ -1,3 +1,7 @@
+## 1.8.1.20260402 (2026-04-02)
+
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+
 ## 1.8.1.20250809 (2025-08-09)
 
 Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))

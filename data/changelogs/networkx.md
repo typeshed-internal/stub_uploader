@@ -1,3 +1,9 @@
+## 3.6.1.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+
 ## 3.6.1.20260321 (2026-03-21)
 
 [networkx] Enhance annotation for Networkx.Graph.add_weighted_edges_from ([#15528](https://github.com/python/typeshed/pull/15528))

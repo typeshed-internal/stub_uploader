@@ -1,3 +1,7 @@
+## 5.0.0.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
 ## 5.0.0.20250506 (2025-05-06)
 
 Run Black on *_pb2 files ([#13930](https://github.com/python/typeshed/pull/13930))

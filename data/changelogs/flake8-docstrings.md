@@ -1,3 +1,7 @@
+## 1.7.0.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
 ## 1.7.0.20250425 (2025-04-25)
 
 Complete `flake8-docstrings` ([#13872](https://github.com/python/typeshed/pull/13872))

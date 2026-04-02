@@ -1,3 +1,7 @@
+## 1.8.3.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
 ## 1.8.3.20251027 (2025-10-27)
 
 [python-jenkins] Improve `get_jobs` and `get_all_jobs` return type ([#14547](https://github.com/python/typeshed/pull/14547))

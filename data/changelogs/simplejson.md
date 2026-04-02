@@ -1,3 +1,7 @@
+## 3.20.0.20260402 (2026-04-02)
+
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+
 ## 3.20.0.20250822 (2025-08-22)
 
 Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))

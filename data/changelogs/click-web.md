@@ -1,3 +1,7 @@
+## 0.8.0.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
 ## 0.8.0.20250708 (2025-07-08)
 
 [click-web] Remove from pyrightconfig ([#14312](https://github.com/python/typeshed/pull/14312))

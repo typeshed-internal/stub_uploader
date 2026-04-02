@@ -1,3 +1,7 @@
+## 0.31.2.20260402 (2026-04-02)
+
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+
 ## 0.31.2.20260125 (2026-01-25)
 
 [stubsabot] Bump httplib2 to 0.31.2 ([#15318](https://github.com/python/typeshed/pull/15318))

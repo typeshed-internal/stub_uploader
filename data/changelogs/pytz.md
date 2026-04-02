@@ -1,3 +1,7 @@
+## 2026.1.1.20260402 (2026-04-02)
+
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+
 ## 2026.1.1.20260304 (2026-03-04)
 
 [stubsabot] Bump pytz to 2026.1.post1 ([#15483](https://github.com/python/typeshed/pull/15483))

@@ -1,3 +1,9 @@
+## 1.1.3.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+
 ## 1.1.3.20260311 (2026-03-11)
 
 [stubsabot] Bump geopandas to 1.1.3 ([#15499](https://github.com/python/typeshed/pull/15499))

@@ -1,3 +1,9 @@
+## 5.6.0.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+
 ## 5.6.0.20251228 (2025-12-28)
 
 Bump Flask-SocketIO to 5.6.* ([#15180](https://github.com/python/typeshed/pull/15180))

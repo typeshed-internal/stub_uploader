@@ -1,3 +1,7 @@
+## 2.1.0.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
 ## 2.1.0.20250917 (2025-09-17)
 
 shapely: fix array dtype in geometry functions return type ([#14730](https://github.com/python/typeshed/pull/14730))

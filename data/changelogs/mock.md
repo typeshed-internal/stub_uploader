@@ -1,3 +1,7 @@
+## 5.2.0.20260402 (2026-04-02)
+
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+
 ## 5.2.0.20250924 (2025-09-24)
 
 [mock] Sync _ANY type with unittest.mock ([#14772](https://github.com/python/typeshed/pull/14772))

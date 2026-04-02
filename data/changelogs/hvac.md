@@ -1,3 +1,7 @@
+## 2.4.0.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
 ## 2.4.0.20251115 (2025-11-15)
 
 [hvac] remove most Incompletes ([#15029](https://github.com/python/typeshed/pull/15029))

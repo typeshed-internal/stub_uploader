@@ -1,3 +1,7 @@
+## 0.7.3.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
 ## 0.7.3.20250622 (2025-06-22)
 
 [slumber] Remove allowlist and correct kwargs type ([#14266](https://github.com/python/typeshed/pull/14266))

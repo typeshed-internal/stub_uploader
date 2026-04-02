@@ -1,3 +1,7 @@
+## 25.0.0.20260402 (2026-04-02)
+
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+
 ## 25.0.0.20250919 (2025-09-19)
 
 Fix type of data return by `boltons.strutils.int_ranges_from_int_list` ([#14740](https://github.com/python/typeshed/pull/14740))

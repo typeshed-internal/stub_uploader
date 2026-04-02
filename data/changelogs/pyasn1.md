@@ -1,3 +1,7 @@
+## 0.6.0.20260402 (2026-04-02)
+
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+
 ## 0.6.0.20260319 (2026-03-19)
 
 [pyasn1] Fix componentType to accept Asn1Type in SequenceOf ([#15442](https://github.com/python/typeshed/pull/15442))

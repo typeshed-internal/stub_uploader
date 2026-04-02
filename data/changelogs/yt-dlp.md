@@ -1,3 +1,9 @@
+## 2026.3.17.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+
 ## 2026.3.17.20260318 (2026-03-18)
 
 [stubsabot] Bump yt-dlp to 2026.3.17 ([#15522](https://github.com/python/typeshed/pull/15522))

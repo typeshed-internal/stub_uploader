@@ -1,3 +1,7 @@
+## 3.3.0.20260402 (2026-04-02)
+
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+
 ## 3.3.0.20260130 (2026-01-30)
 
 Update outdated upstream_repository fields ([#15334](https://github.com/python/typeshed/pull/15334))

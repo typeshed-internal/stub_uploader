@@ -1,3 +1,7 @@
+## 4.4.0.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
 ## 4.4.0.20260325 (2026-03-25)
 
 [django-import-export]: Fix ForeignKeyWidget.__init__ argument types ([#15552](https://github.com/python/typeshed/pull/15552))

@@ -1,3 +1,9 @@
+## 4.67.3.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+
 ## 4.67.3.20260303 (2026-03-03)
 
 [tqdm] Add `thread_map` and `process_map` type hints ([#15460](https://github.com/python/typeshed/pull/15460))

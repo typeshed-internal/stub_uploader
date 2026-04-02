@@ -1,3 +1,7 @@
+## 3.1.0.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
 ## 3.1.0.20251027 (2025-10-27)
 
 [stubsabot] Bump flake8-builtins to 3.1.* ([#14922](https://github.com/python/typeshed/pull/14922))

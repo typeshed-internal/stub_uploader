@@ -1,3 +1,7 @@
+## 0.7.0.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
 ## 0.7.0.20260322 (2026-03-22)
 
 Add `@type_check_only` to stub-only private classes in various third-party stubs ([#15535](https://github.com/python/typeshed/pull/15535))

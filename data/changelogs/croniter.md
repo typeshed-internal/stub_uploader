@@ -1,3 +1,7 @@
+## 6.2.2.20260402 (2026-04-02)
+
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+
 ## 6.2.2.20260316 (2026-03-16)
 
 [stubsabot] Bump croniter to 6.2.2 ([#15520](https://github.com/python/typeshed/pull/15520))

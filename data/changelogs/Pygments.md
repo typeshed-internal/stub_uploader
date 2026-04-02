@@ -1,3 +1,7 @@
+## 2.19.0.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
 ## 2.19.0.20251121 (2025-11-21)
 
 [Pygments] Use Incomplete instead of Any ([#15053](https://github.com/python/typeshed/pull/15053))

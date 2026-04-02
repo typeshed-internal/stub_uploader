@@ -1,3 +1,7 @@
+## 0.30.0.20260402 (2026-04-02)
+
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+
 ## 0.30.0.20260108 (2026-01-08)
 
 [flake8-simplify] Update to 0.30.* ([#15212](https://github.com/python/typeshed/pull/15212))

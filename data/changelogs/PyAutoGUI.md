@@ -1,3 +1,7 @@
+## 0.9.3.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
 ## 0.9.3.20241230 (2024-12-30)
 
 pyAutoGui: Correct Return Type of position() to Match Actual Behavior ([#11267](https://github.com/python/typeshed/pull/11267))

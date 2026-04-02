@@ -1,3 +1,9 @@
+## 6.3.2.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+
 ## 6.3.2.20260223 (2026-02-23)
 
 Add missing __slots__ to third-party packages ([#15454](https://github.com/python/typeshed/pull/15454))

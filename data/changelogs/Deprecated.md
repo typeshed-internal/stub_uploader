@@ -1,3 +1,7 @@
+## 1.3.1.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
 ## 1.3.1.20260130 (2026-01-30)
 
 Update outdated upstream_repository fields ([#15334](https://github.com/python/typeshed/pull/15334))

@@ -1,3 +1,9 @@
+## 7.3.0.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+
 ## 7.3.0.20250622 (2025-06-22)
 
 Bump flake8 to 7.3.* ([#14315](https://github.com/python/typeshed/pull/14315))

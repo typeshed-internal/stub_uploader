@@ -1,3 +1,7 @@
+## 4.42.0.20260402 (2026-04-02)
+
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+
 ## 4.42.0.20260204 (2026-02-04)
 
 [braintree] Update to 4.42.* ([#15362](https://github.com/python/typeshed/pull/15362))

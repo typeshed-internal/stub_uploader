@@ -1,3 +1,7 @@
+## 2.9.13.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
 ## 2.9.13.20260319 (2026-03-19)
 
 [pyasn1] Fix componentType to accept Asn1Type in SequenceOf ([#15442](https://github.com/python/typeshed/pull/15442))

@@ -1,3 +1,7 @@
+## 1.5.0.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
 ## 1.5.0.20251102 (2025-11-02)
 
 [jwcrypto] Work around stubtest issues ([#14961](https://github.com/python/typeshed/pull/14961))

@@ -1,3 +1,9 @@
+## 1.7.0.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+
 ## 1.7.0.20260322 (2026-03-22)
 
 [stubsabot] Bump fanstatic to 1.7.* ([#15534](https://github.com/python/typeshed/pull/15534))

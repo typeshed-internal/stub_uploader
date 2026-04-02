@@ -1,3 +1,7 @@
+## 1.1.11.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
 ## 1.1.11.20251117 (2025-11-17)
 
 [html5lib] Improve serializer ([#15036](https://github.com/python/typeshed/pull/15036))

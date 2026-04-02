@@ -1,3 +1,7 @@
+## 0.4.0.20260402 (2026-04-02)
+
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+
 ## 0.4.0.20251008 (2025-10-08)
 
 [stubsabot] Bump flake8-rst-docstrings to 0.4.* ([#14843](https://github.com/python/typeshed/pull/14843))

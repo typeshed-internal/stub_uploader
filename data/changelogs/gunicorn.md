@@ -1,3 +1,9 @@
+## 25.3.0.20260402 (2026-04-02)
+
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+
 ## 25.3.0.20260331 (2026-03-31)
 
 [gunicorn] Add precise return type for asgi.protocol:BodyReceiver.receive ([#15567](https://github.com/python/typeshed/pull/15567))
