@@ -1,3 +1,7 @@
+## 7.1.0.20260403 (2026-04-03)
+
+[docker] Add missing type annotations in docker.types ([#15566](https://github.com/python/typeshed/pull/15566))
+
 ## 7.1.0.20260402 (2026-04-02)
 
 Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))

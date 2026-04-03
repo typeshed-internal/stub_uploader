@@ -1,3 +1,7 @@
+## 7.34.1.20260403 (2026-04-03)
+
+[protobuf] `UnknownFieldSet.__getitem__ takes only positional arguments ([#15599](https://github.com/python/typeshed/pull/15599))
+
 ## 7.34.1.20260402 (2026-04-02)
 
 [protobuf] Bump to 7.34.1 and improve type coverage ([#15569](https://github.com/python/typeshed/pull/15569))
