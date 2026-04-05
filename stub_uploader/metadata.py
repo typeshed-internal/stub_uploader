@@ -42,7 +42,10 @@ class Metadata:
     def stub_distribution(self) -> str:
         distribution = self.data.get(
             # TODO: once typeshed migrates from underscores to dashes too, remove fallback
-            "stub-distribution", self.data.get("stub_distribution", TYPES_PREFIX + self._alleged_upstream_distribution)
+            "stub-distribution",
+            self.data.get(
+                "stub_distribution", TYPES_PREFIX + self._alleged_upstream_distribution
+            ),
         )
         assert isinstance(distribution, str)
         return distribution
@@ -102,7 +105,9 @@ class Metadata:
     @property
     def extra_description(self) -> str:
         # TODO: once typeshed migrates from underscores to dashes too, remove fallback
-        description = self.data.get("extra-description", self.data.get("extra_description", ""))
+        description = self.data.get(
+            "extra-description", self.data.get("extra_description", "")
+        )
         assert isinstance(description, str)
         return description
 
@@ -116,7 +121,9 @@ class Metadata:
     @property
     def no_longer_updated(self) -> bool:
         # TODO: once typeshed migrates from underscores to dashes too, remove fallback
-        updated = self.data.get("no-longer-updated", self.data.get("no_longer_updated", False))
+        updated = self.data.get(
+            "no-longer-updated", self.data.get("no_longer_updated", False)
+        )
         assert isinstance(updated, bool)
         return updated
 
@@ -144,7 +151,9 @@ class Metadata:
     @functools.cached_property
     def upstream_repository(self) -> str | None:
         # TODO: once typeshed migrates from underscores to dashes too, remove fallback
-        ts_upstream_repo = self.data.get("upstream-repository", self.data.get("upstream_repository"))
+        ts_upstream_repo = self.data.get(
+            "upstream-repository", self.data.get("upstream_repository")
+        )
         if not isinstance(ts_upstream_repo, str):
             # either typeshed doesn't list it for these stubs,
             # or it gives a non-str for the field (bad!)

@@ -42,7 +42,9 @@ def read_typeshed_data(typeshed_path: Path) -> TypeshedData:
         requirements = parse_requirements(f)
     typeshed_table = pyproject["tool"]["typeshed"]
     # TODO: once typeshed migrates from underscores to dashes too, remove fallback
-    oldest_supported_python = typeshed_table.get("oldest-supported-python", typeshed_table["oldest_supported_python"])
+    oldest_supported_python = typeshed_table.get(
+        "oldest-supported-python", typeshed_table["oldest_supported_python"]
+    )
     if not re.match(r"^\d+\.\d+$", oldest_supported_python):
         raise ValueError("Invalid oldest-supported-python in pyproject.toml")
     return TypeshedData(
