@@ -1,3 +1,9 @@
+## 2.20.0.20260405 (2026-04-05)
+
+[Pygments] Check for missing stubs outside omitted subpackages ([#15606](https://github.com/python/typeshed/pull/15606))
+
+[Pygments] Update to 2.20.0 ([#15605](https://github.com/python/typeshed/pull/15605))
+
 ## 2.19.0.20260402 (2026-04-02)
 
 Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
