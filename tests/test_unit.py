@@ -311,10 +311,10 @@ def test_parse_requirements__skipped_packages(name: str) -> None:
     "data,expected",
     [
         ({}, None),
-        ({"upstream_repository": 12345}, None),
-        ({"upstream_repository": "https://[].foo.com"}, None),
+        ({"upstream-repository": 12345}, None),
+        ({"upstream-repository": "https://[].foo.com"}, None),
         (
-            {"upstream_repository": "https://github.com/psf/requests"},
+            {"upstream-repository": "https://github.com/psf/requests"},
             "https://github.com/psf/requests",
         ),
     ],
