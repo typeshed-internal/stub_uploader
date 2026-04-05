@@ -202,11 +202,11 @@ def test_read_typeshed_data() -> None:
 def test_verify_requires_python() -> None:
     verify_requires_python(">=3.10")
 
-    with pytest.raises(InvalidRequires, match="Invalid requires_python specifier"):
+    with pytest.raises(InvalidRequires, match="Invalid requires-python specifier"):
         verify_requires_python(">=fake")
 
     with pytest.raises(
-        InvalidRequires, match="Expected requires_python to be a '>=' specifier"
+        InvalidRequires, match="Expected requires-python to be a '>=' specifier"
     ):
         verify_requires_python("==3.10")
 
