@@ -208,7 +208,7 @@ def test_uploaded_packages() -> None:
 def _build_pyproject(oldest_supported_python: str | None = "3.10") -> str:
     pp = "[tool.typeshed]\n"
     if oldest_supported_python is not None:
-        pp += f'oldest_supported_python = "{oldest_supported_python}"\n'
+        pp += f'oldest-supported-python = "{oldest_supported_python}"\n'
     return pp
 
 
@@ -255,14 +255,14 @@ def test_read_typeshed_data__success() -> None:
 def test_read_typeshed_data__oldest_python_missing() -> None:
     pp = _build_pyproject(oldest_supported_python=None)
     req = _build_requirements(mypy=None)
-    with pytest.raises(KeyError, match="oldest_supported_python"):
+    with pytest.raises(ValueError, match="oldest-supported-python"):
         _test_typeshed_data(pp, req)
 
 
 def test_read_typeshed_data__oldest_python_invalid() -> None:
     pp = _build_pyproject(oldest_supported_python="3.12invalid")
     req = _build_requirements(mypy=None)
-    with pytest.raises(ValueError, match="oldest_supported_python"):
+    with pytest.raises(ValueError, match="oldest-supported-python"):
         _test_typeshed_data(pp, req)
 
 
@@ -311,10 +311,10 @@ def test_parse_requirements__skipped_packages(name: str) -> None:
     "data,expected",
     [
         ({}, None),
-        ({"upstream_repository": 12345}, None),
-        ({"upstream_repository": "https://[].foo.com"}, None),
+        ({"upstream-repository": 12345}, None),
+        ({"upstream-repository": "https://[].foo.com"}, None),
         (
-            {"upstream_repository": "https://github.com/psf/requests"},
+            {"upstream-repository": "https://github.com/psf/requests"},
             "https://github.com/psf/requests",
         ),
     ],
