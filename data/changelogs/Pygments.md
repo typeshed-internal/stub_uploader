@@ -1,3 +1,9 @@
+## 2.20.0.20260406 (2026-04-06)
+
+[Pygments] Complete stubs for `Formatter` ([#15608](https://github.com/python/typeshed/pull/15608))
+
+[Pygments] Cleanup metaclass workarounds for mypy<1.1 ([#15607](https://github.com/python/typeshed/pull/15607))
+
 ## 2.20.0.20260405 (2026-04-05)
 
 [Pygments] Check for missing stubs outside omitted subpackages ([#15606](https://github.com/python/typeshed/pull/15606))
