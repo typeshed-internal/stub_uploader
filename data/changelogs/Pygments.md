@@ -1,3 +1,9 @@
+## 2.20.0.20260407 (2026-04-07)
+
+[Pygments] Complete stubs for `filter` and `filters` modules ([#15616](https://github.com/python/typeshed/pull/15616))
+
+[Pygments] Complete stubs for various modules ([#15610](https://github.com/python/typeshed/pull/15610))
+
 ## 2.20.0.20260406 (2026-04-06)
 
 [Pygments] Complete stubs for `Formatter` ([#15608](https://github.com/python/typeshed/pull/15608))
