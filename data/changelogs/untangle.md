@@ -1,3 +1,7 @@
+## 1.2.0.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 1.2.0.4 (2023-09-23)
 
 stdlib/xml/sax: Add type annotations ([#10606](https://github.com/python/typeshed/pull/10606))

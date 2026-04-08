@@ -1,3 +1,7 @@
+## 7.34.1.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 7.34.1.20260403 (2026-04-03)
 
 [protobuf] `UnknownFieldSet.__getitem__ takes only positional arguments ([#15599](https://github.com/python/typeshed/pull/15599))

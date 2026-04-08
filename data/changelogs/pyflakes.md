@@ -1,3 +1,7 @@
+## 3.4.0.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 3.4.0.20250701 (2025-07-01)
 
 Bump pyflakes to 3.4.* ([#14316](https://github.com/python/typeshed/pull/14316))

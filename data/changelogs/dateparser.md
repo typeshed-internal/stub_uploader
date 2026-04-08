@@ -1,3 +1,7 @@
+## 1.4.0.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 1.4.0.20260328 (2026-03-28)
 
 [dateparser] Update to 1.4.0 ([#15562](https://github.com/python/typeshed/pull/15562))

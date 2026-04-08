@@ -1,3 +1,7 @@
+## 1.0.1.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 1.0.1.20260113 (2026-01-13)
 
 [xmltodict] Fix false positive for namespaces with None values ([#15245](https://github.com/python/typeshed/pull/15245))

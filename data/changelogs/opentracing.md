@@ -1,3 +1,7 @@
+## 2.4.10.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 2.4.10.20250622 (2025-06-22)
 
 [opentracing] Add missing stubs ([#14274](https://github.com/python/typeshed/pull/14274))

@@ -1,3 +1,7 @@
+## 1.17.0.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 1.17.0.20251009 (2025-10-09)
 
 Update comments for `operator.itemgetter.__call__` generic following mypy 1.11 fix ([#13489](https://github.com/python/typeshed/pull/13489))

@@ -1,3 +1,7 @@
+## 0.4.0.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 0.4.0.20240902 (2024-09-02)
 
 [stubsabot] Bump pyfarmhash to 0.4.* ([#12597](https://github.com/python/typeshed/pull/12597))

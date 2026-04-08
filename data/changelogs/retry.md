@@ -1,3 +1,7 @@
+## 0.9.9.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 0.9.9.20250322 (2025-03-22)
 
 Add `__all__` to `retry` ([#13691](https://github.com/python/typeshed/pull/13691))

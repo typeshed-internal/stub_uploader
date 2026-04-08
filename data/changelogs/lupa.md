@@ -1,3 +1,7 @@
+## 2.6.0.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 2.6.0.20251026 (2025-10-26)
 
 [stubsabot] Bump lupa to 2.6.* ([#14919](https://github.com/python/typeshed/pull/14919))

@@ -1,3 +1,7 @@
+## 25.11.29.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 25.11.29.20251201 (2025-12-01)
 
 [stubsabot] Bump flake8-bugbear to 25.11.29 ([#15096](https://github.com/python/typeshed/pull/15096))

@@ -1,3 +1,7 @@
+## 3.0.1.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 3.0.1.20260316 (2026-03-16)
 
 Fix `Final` literal values in various third-party stubs ([#15521](https://github.com/python/typeshed/pull/15521))

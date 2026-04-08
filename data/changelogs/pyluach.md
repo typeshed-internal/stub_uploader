@@ -1,3 +1,7 @@
+## 2.3.0.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 2.3.0.20250911 (2025-09-11)
 
 [pyluach] Update to 2.3.* ([#14692](https://github.com/python/typeshed/pull/14692))

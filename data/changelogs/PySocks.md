@@ -1,3 +1,7 @@
+## 1.7.1.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 1.7.1.20251001 (2025-10-01)
 
 Remove @override annotations ([#14806](https://github.com/python/typeshed/pull/14806))

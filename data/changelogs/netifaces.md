@@ -1,3 +1,7 @@
+## 0.11.0.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 0.11.0.20241025 (2024-10-25)
 
 Fix linting issues ([#12898](https://github.com/python/typeshed/pull/12898))

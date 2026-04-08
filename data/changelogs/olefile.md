@@ -1,3 +1,7 @@
+## 0.47.0.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 0.47.0.20240806 (2024-08-06)
 
 Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))

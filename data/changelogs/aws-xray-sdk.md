@@ -1,3 +1,7 @@
+## 2.15.0.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 2.15.0.20251206 (2025-12-06)
 
 Align type of aws_xra_sdk.core.xray_recorder stub with lib ([#15107](https://github.com/python/typeshed/pull/15107))

@@ -1,3 +1,7 @@
+## 0.6.3.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 0.6.3.20240707 (2024-07-07)
 
 `is_lazy_fixture` in `pytest-lazy-fixture` is a `TypeIs` function ([#12285](https://github.com/python/typeshed/pull/12285))

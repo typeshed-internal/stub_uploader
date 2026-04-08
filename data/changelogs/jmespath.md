@@ -1,3 +1,7 @@
+## 1.1.0.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 1.1.0.20260124 (2026-01-24)
 
 [stubsabot] Bump jmespath to 1.1.* ([#15315](https://github.com/python/typeshed/pull/15315))

@@ -1,3 +1,7 @@
+## 0.22.3.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 0.22.3.20260322 (2026-03-22)
 
 Add `@type_check_only` to stub-only private classes in various third-party stubs ([#15535](https://github.com/python/typeshed/pull/15535))

@@ -1,3 +1,7 @@
+## 1.5.7.3.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 1.5.7.3.20260110 (2026-01-10)
 
 [zstd] Update to ~=1.5.7.3 ([#15242](https://github.com/python/typeshed/pull/15242))

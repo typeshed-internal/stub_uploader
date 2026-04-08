@@ -1,3 +1,7 @@
+## 5.2.0.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 5.2.0.20251101 (2025-11-01)
 
 [decorator] Fix FunctionMaker attributes ([#14909](https://github.com/python/typeshed/pull/14909))

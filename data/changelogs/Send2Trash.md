@@ -1,3 +1,7 @@
+## 2.1.0.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 2.1.0.20260117 (2026-01-17)
 
 [stubsabot] Bump Send2Trash to 2.1.* ([#15197](https://github.com/python/typeshed/pull/15197))

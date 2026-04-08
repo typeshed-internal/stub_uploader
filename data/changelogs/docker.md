@@ -1,3 +1,7 @@
+## 7.1.0.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 7.1.0.20260403 (2026-04-03)
 
 [docker] Add missing type annotations in docker.types ([#15566](https://github.com/python/typeshed/pull/15566))

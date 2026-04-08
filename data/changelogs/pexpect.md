@@ -1,3 +1,7 @@
+## 4.9.0.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 4.9.0.20260127 (2026-01-27)
 
 [pexpect] Accept `dict` for `env` parameter, not just `os.environ` ([#15270](https://github.com/python/typeshed/pull/15270))

@@ -1,3 +1,7 @@
+## 1.17.0.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 1.17.0.20251011 (2025-10-11)
 
 [stubsabot] Bump flake8-typing-imports to 1.17.* ([#14857](https://github.com/python/typeshed/pull/14857))

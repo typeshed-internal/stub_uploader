@@ -1,3 +1,7 @@
+## 2026.4.4.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 2026.4.4.20260405 (2026-04-05)
 
 [regex] Bump to 2026.4.4 ([#15602](https://github.com/python/typeshed/pull/15602))

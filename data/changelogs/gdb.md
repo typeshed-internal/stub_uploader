@@ -1,3 +1,7 @@
+## 16.3.0.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 16.3.0.20260203 (2026-02-03)
 
 [gdb] `Value.address` can be `None` ([#15355](https://github.com/python/typeshed/pull/15355))

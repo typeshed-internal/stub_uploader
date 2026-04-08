@@ -1,3 +1,7 @@
+## 3.0.0.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 3.0.0.20240918 (2024-09-18)
 
 Bump xdgenvpy to 3.0.* ([#12671](https://github.com/python/typeshed/pull/12671))

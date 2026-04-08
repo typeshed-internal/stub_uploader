@@ -1,3 +1,7 @@
+## 1.1.0.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 1.1.0.20260221 (2026-02-21)
 
 [assertpy] Remove spurious `Iterable` from star arguments ([#15441](https://github.com/python/typeshed/pull/15441))

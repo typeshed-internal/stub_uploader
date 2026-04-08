@@ -1,3 +1,7 @@
+## 0.28.0.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 0.28.0.20251115 (2025-11-15)
 
 [pyxdg] Annotate Incompletes and fix getFiles return annotation ([#15028](https://github.com/python/typeshed/pull/15028))

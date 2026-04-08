@@ -1,3 +1,7 @@
+## 2.20.0.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 2.20.0.20260407 (2026-04-07)
 
 [Pygments] Complete stubs for `filter` and `filters` modules ([#15616](https://github.com/python/typeshed/pull/15616))

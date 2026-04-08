@@ -1,3 +1,7 @@
+## 2.0.0.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 2.0.0.20251020 (2025-10-20)
 
 Fix wrong types for xlrd.(Cell.value|Sheet.get_rows) ([#14894](https://github.com/python/typeshed/pull/14894))

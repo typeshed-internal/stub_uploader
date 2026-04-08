@@ -1,3 +1,7 @@
+## 25.1.0.20260408 (2026-04-08)
+
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+
 ## 25.1.0.20251011 (2025-10-11)
 
 [aiofiles] Update to 25.1.* ([#14860](https://github.com/python/typeshed/pull/14860))
