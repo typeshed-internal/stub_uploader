@@ -1,3 +1,7 @@
+## 3.4.0.20260409 (2026-04-09)
+
+[stubsabot] Bump greenlet to 3.4.* ([#15637](https://github.com/python/typeshed/pull/15637))
+
 ## 3.3.0.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

@@ -1,3 +1,7 @@
+## 7.1.0.20260409 (2026-04-09)
+
+[docker] Improve type annotations in api.swarm ([#15629](https://github.com/python/typeshed/pull/15629))
+
 ## 7.1.0.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

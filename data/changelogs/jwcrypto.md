@@ -1,3 +1,10 @@
+## 1.5.7.20260409 (2026-04-09)
+
+[jwcrypto] Update to 1.5.7 ([#15633](https://github.com/python/typeshed/pull/15633))
+
+* Replace some ABCs with concrete types or protocols.
+* Use `LiteralString` in some instances.
+
 ## 1.5.0.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

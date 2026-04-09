@@ -1,3 +1,7 @@
+## 26.4.0.20260409 (2026-04-09)
+
+[stubsabot] Bump gevent to 26.4.* ([#15638](https://github.com/python/typeshed/pull/15638))
+
 ## 25.9.0.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
