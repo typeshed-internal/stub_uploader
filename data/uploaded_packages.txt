@@ -247,6 +247,7 @@ types-stripe
 types-tabulate
 types-tensorflow
 types-termcolor
+types-tinycss2
 types-toml
 types-toposort
 types-tornado

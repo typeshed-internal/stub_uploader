@@ -1,3 +1,7 @@
+## 1.6.10.20260414 (2026-04-14)
+
+[stubsabot] Bump Authlib to 1.6.10 ([#15643](https://github.com/python/typeshed/pull/15643))
+
 ## 1.6.9.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
