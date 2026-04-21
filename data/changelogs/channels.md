@@ -1,3 +1,7 @@
+## 4.3.0.20260421 (2026-04-21)
+
+[channels] Compatibility fixes for django-stubs 6.0.3 ([#15653](https://github.com/python/typeshed/pull/15653))
+
 ## 4.3.0.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
