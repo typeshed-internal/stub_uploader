@@ -1,3 +1,7 @@
+## 2.9.21.20260422 (2026-04-22)
+
+[psycopg2] Bump to 2.9.12 ([#15658](https://github.com/python/typeshed/pull/15658))
+
 ## 2.9.21.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
