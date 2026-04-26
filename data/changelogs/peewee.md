@@ -1,3 +1,7 @@
+## 4.0.1.20260426 (2026-04-26)
+
+[peewee] Update to 4.0.1 ([#15479](https://github.com/python/typeshed/pull/15479))
+
 ## 4.0.0.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
