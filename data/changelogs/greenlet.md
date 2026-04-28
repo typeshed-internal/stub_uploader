@@ -1,3 +1,7 @@
+## 3.5.0.20260428 (2026-04-28)
+
+[greenlet] Bump to 3.5.* ([#15679](https://github.com/python/typeshed/pull/15679))
+
 ## 3.4.0.20260409 (2026-04-09)
 
 [stubsabot] Bump greenlet to 3.4.* ([#15637](https://github.com/python/typeshed/pull/15637))
