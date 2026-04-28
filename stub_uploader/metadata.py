@@ -41,8 +41,7 @@ class Metadata:
     @property
     def stub_distribution(self) -> str:
         distribution = self.data.get(
-            "stub-distribution",
-            TYPES_PREFIX + self._alleged_upstream_distribution
+            "stub-distribution", TYPES_PREFIX + self._alleged_upstream_distribution
         )
         assert isinstance(distribution, str)
         return distribution
@@ -61,10 +60,7 @@ class Metadata:
 
     @property
     def _unvalidated_dependencies(self) -> list[Requirement]:
-        return [
-            Requirement(req)
-            for req in self.data.get("dependencies", [])
-        ]
+        return [Requirement(req) for req in self.data.get("dependencies", [])]
 
     @property
     def _unvalidated_dependencies_typeshed(self) -> list[Requirement]:
