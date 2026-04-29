@@ -1,3 +1,7 @@
+## 2.0.0.20260429 (2026-04-29)
+
+[cffi] Fix `FFI.NULL` to be `CData` ([#15680](https://github.com/python/typeshed/pull/15680))
+
 ## 2.0.0.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
