@@ -41,11 +41,7 @@ class Metadata:
     @property
     def stub_distribution(self) -> str:
         distribution = self.data.get(
-            # TODO: once typeshed migrates from underscores to dashes too, remove fallback
-            "stub-distribution",
-            self.data.get(
-                "stub_distribution", TYPES_PREFIX + self._alleged_upstream_distribution
-            ),
+            "stub-distribution", TYPES_PREFIX + self._alleged_upstream_distribution
         )
         assert isinstance(distribution, str)
         return distribution
@@ -64,11 +60,7 @@ class Metadata:
 
     @property
     def _unvalidated_dependencies(self) -> list[Requirement]:
-        return [
-            Requirement(req)
-            # TODO: once typeshed migrates from requires to dependencies too, remove fallback on `requires`
-            for req in self.data.get("dependencies", self.data.get("requires", []))
-        ]
+        return [Requirement(req) for req in self.data.get("dependencies", [])]
 
     @property
     def _unvalidated_dependencies_typeshed(self) -> list[Requirement]:
@@ -104,26 +96,27 @@ class Metadata:
 
     @property
     def extra_description(self) -> str:
-        # TODO: once typeshed migrates from underscores to dashes too, remove fallback
-        description = self.data.get(
-            "extra-description", self.data.get("extra_description", "")
-        )
+        description = self.data.get("extra-description", "")
         assert isinstance(description, str)
         return description
 
     @property
     def obsolete_since(self) -> str | None:
-        # TODO: once typeshed migrates from underscores to dashes too, remove fallback
-        obsolete = self.data.get("obsolete-since", self.data.get("obsolete_since"))
-        assert isinstance(obsolete, (str, type(None)))
-        return obsolete
+        obsolete = self.data.get("obsolete-since")
+        if obsolete is None:
+            return None
+        # TODO: Remove once typeshed stops using the old format for this field.
+        # See python/typeshed#15682.
+        if isinstance(obsolete, str):
+            return obsolete
+        assert isinstance(obsolete, dict)
+        version = obsolete.get("version")
+        assert isinstance(version, str)
+        return version
 
     @property
     def no_longer_updated(self) -> bool:
-        # TODO: once typeshed migrates from underscores to dashes too, remove fallback
-        updated = self.data.get(
-            "no-longer-updated", self.data.get("no_longer_updated", False)
-        )
+        updated = self.data.get("no-longer-updated", False)
         assert isinstance(updated, bool)
         return updated
 
@@ -135,25 +128,20 @@ class Metadata:
 
     @property
     def partial(self) -> bool:
-        # TODO: once typeshed migrates from underscores to dashes too, remove fallback
-        partial = self.data.get("partial-stub", self.data.get("partial_stub", False))
+        partial = self.data.get("partial-stub", False)
         assert isinstance(partial, bool)
         return partial
 
     @property
     def requires_python(self) -> str | None:
-        # TODO: once typeshed migrates from underscores to dashes too, remove fallback
-        req = self.data.get("requires-python", self.data.get("requires_python", None))
+        req = self.data.get("requires-python")
         assert isinstance(req, (str, type(None)))
         verify_requires_python(req)
         return req
 
     @functools.cached_property
     def upstream_repository(self) -> str | None:
-        # TODO: once typeshed migrates from underscores to dashes too, remove fallback
-        ts_upstream_repo = self.data.get(
-            "upstream-repository", self.data.get("upstream_repository")
-        )
+        ts_upstream_repo = self.data.get("upstream-repository")
         if not isinstance(ts_upstream_repo, str):
             # either typeshed doesn't list it for these stubs,
             # or it gives a non-str for the field (bad!)
