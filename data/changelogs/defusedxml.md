@@ -1,3 +1,7 @@
+## 0.7.0.20260504 (2026-05-04)
+
+Fix return type of ElementTree.iterparse() ([#14213](https://github.com/python/typeshed/pull/14213))
+
 ## 0.7.0.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

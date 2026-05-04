@@ -1,3 +1,7 @@
+## 2.0.0.20260504 (2026-05-04)
+
+[cffi] Fix `FFI.new`'s `init` arg is now Any. ([#15683](https://github.com/python/typeshed/pull/15683))
+
 ## 2.0.0.20260429 (2026-04-29)
 
 [cffi] Fix `FFI.NULL` to be `CData` ([#15680](https://github.com/python/typeshed/pull/15680))
