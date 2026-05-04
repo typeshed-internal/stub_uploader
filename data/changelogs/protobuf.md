@@ -1,3 +1,7 @@
+## 7.34.1.20260503 (2026-05-03)
+
+[protobuf] Add _loaded_options to FileDescriptor ([#15677](https://github.com/python/typeshed/pull/15677))
+
 ## 7.34.1.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

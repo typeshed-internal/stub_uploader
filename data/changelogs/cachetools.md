@@ -1,3 +1,7 @@
+## 7.0.0.20260503 (2026-05-03)
+
+[cachetools] Update to 7.0.* ([#15357](https://github.com/python/typeshed/pull/15357)) ([#15657](https://github.com/python/typeshed/pull/15657))
+
 ## 6.2.0.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

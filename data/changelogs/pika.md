@@ -1,3 +1,7 @@
+## 1.3.0.20260502 (2026-05-02)
+
+[pika] BlockingConnection.process_data_events accepts None ([#15690](https://github.com/python/typeshed/pull/15690))
+
 ## 1.3.0.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

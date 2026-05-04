@@ -1,3 +1,7 @@
+## 6.20.0.20260503 (2026-05-03)
+
+[pyinstaller]: bump pyinstaller to 6.20.* ([#15673](https://github.com/python/typeshed/pull/15673))
+
 ## 6.19.0.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

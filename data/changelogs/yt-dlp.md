@@ -1,3 +1,13 @@
+## 2026.3.17.20260503 (2026-05-03)
+
+[http.cookies] Modernize ([#15266](https://github.com/python/typeshed/pull/15266))
+
+* Inline `_DataType` type alias.
+* Replace `Mapping` with protocols.
+* Replace `list` in argument positions with protocols.
+
+[yt-dlp] Fix some arg types for DateRange ([#15678](https://github.com/python/typeshed/pull/15678))
+
 ## 2026.3.17.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

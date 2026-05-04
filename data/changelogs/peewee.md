@@ -1,3 +1,7 @@
+## 4.0.1.20260503 (2026-05-03)
+
+[peewee] add return type to query.count() and the model._meta attribute ([#15691](https://github.com/python/typeshed/pull/15691))
+
 ## 4.0.1.20260426 (2026-04-26)
 
 [peewee] Update to 4.0.1 ([#15479](https://github.com/python/typeshed/pull/15479))
