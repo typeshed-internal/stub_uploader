@@ -1,3 +1,7 @@
+## 2.0.0.20260506 (2026-05-06)
+
+[cffi] Annotate `_CDataBase.__enter__` return type ([#15701](https://github.com/python/typeshed/pull/15701))
+
 ## 2.0.0.20260504 (2026-05-04)
 
 [cffi] Fix `FFI.new`'s `init` arg is now Any. ([#15683](https://github.com/python/typeshed/pull/15683))
