@@ -1,3 +1,20 @@
+## 2026.2.0.20260506 (2026-05-06)
+
+[stubsabot] Bump pytz to 2026.2 ([#15698](https://github.com/python/typeshed/pull/15698))
+
+Release: https://pypi.org/pypi/pytz/2026.2
+Homepage: http://pythonhosted.org/pytz
+Repository: https://github.com/stub42/pytz
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/pytz
+
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
+
+Note that you will need to close and re-open the PR in order to trigger CI
+
+Co-authored-by: stubsabot <>
+
 ## 2026.1.1.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
