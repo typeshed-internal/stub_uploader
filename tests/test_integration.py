@@ -22,6 +22,7 @@ from stub_uploader.metadata import (
     recursive_verify,
     sort_by_dependency,
     strip_types_prefix,
+    uploaded_packages,
     verify_external_req,
     verify_requires_python,
     verify_typeshed_req,
@@ -78,7 +79,9 @@ def test_version_increment(distribution: str) -> None:
 
 def test_unvalidated_properties() -> None:
     m = Metadata(
-        "fake", {"version": "0.1", "dependencies": ["numpy", "types-six>=0.1"]}
+        "fake",
+        {"version": "0.1", "dependencies": ["numpy", "types-six>=0.1"]},
+        typeshed_pkgs=uploaded_packages.read(),
     )
     assert [r.name for r in m._unvalidated_dependencies] == ["numpy", "types-six"]
     assert [r.name for r in m._unvalidated_dependencies_external] == ["numpy"]
@@ -86,66 +89,86 @@ def test_unvalidated_properties() -> None:
 
 
 def test_verify_typeshed_req() -> None:
+    typeshed_pkgs = uploaded_packages.read()
     # Check that some known dependencies verify as valid.
-    verify_typeshed_req(Requirement("types-six"))
-    verify_typeshed_req(Requirement("types-six==0.1.1"))
-    verify_typeshed_req(Requirement("types-typed-ast"))
-    verify_typeshed_req(Requirement("types-typed-ast>=3.7"))
+    verify_typeshed_req(Requirement("types-six"), typeshed_pkgs)
+    verify_typeshed_req(Requirement("types-six==0.1.1"), typeshed_pkgs)
+    verify_typeshed_req(Requirement("types-typed-ast"), typeshed_pkgs)
+    verify_typeshed_req(Requirement("types-typed-ast>=3.7"), typeshed_pkgs)
 
     with pytest.raises(InvalidRequires, match="to start with types-"):
-        verify_typeshed_req(Requirement("unsupported"))
+        verify_typeshed_req(Requirement("unsupported"), typeshed_pkgs)
 
     with pytest.raises(InvalidRequires, match="to be uploaded from stub_uploader"):
-        verify_typeshed_req(Requirement("types-unknown-xxx"))
+        verify_typeshed_req(Requirement("types-unknown-xxx"), typeshed_pkgs)
 
-    m = Metadata("mypy", {"version": "0.1", "dependencies": ["types-unknown-xxx"]})
+    m = Metadata(
+        "mypy",
+        {"version": "0.1", "dependencies": ["types-unknown-xxx"]},
+        typeshed_pkgs,
+    )
     assert m.dependencies_typeshed == []
 
 
 def test_verify_external_req() -> None:
+    typeshed_pkgs = uploaded_packages.read()
     # Check that some known dependencies verify as valid.
     verify_external_req(
-        Requirement("typing-extensions"), "mypy", _unsafe_ignore_allowlist=True
+        Requirement("typing-extensions"),
+        "mypy",
+        typeshed_pkgs,
+        _unsafe_ignore_allowlist=True,
     )
     verify_external_req(
-        Requirement("mypy-extensions"), "mypy", _unsafe_ignore_allowlist=True
+        Requirement("mypy-extensions"),
+        "mypy",
+        typeshed_pkgs,
+        _unsafe_ignore_allowlist=True,
     )
     # Check that types-foo can depend on foo
-    verify_external_req(Requirement("setuptools"), "setuptools")
+    verify_external_req(Requirement("setuptools"), "setuptools", typeshed_pkgs)
 
     with pytest.raises(
         InvalidRequires, match="to be present in the stub_uploader allowlist"
     ):
-        verify_external_req(Requirement("typing-extensions"), "mypy")
+        verify_external_req(Requirement("typing-extensions"), "mypy", typeshed_pkgs)
 
-    m = Metadata("pandas", {"version": "0.1", "dependencies": ["numpy"]})
+    m = Metadata("pandas", {"version": "0.1", "dependencies": ["numpy"]}, typeshed_pkgs)
     assert [r.name for r in m.dependencies_external] == ["numpy"]
 
     with pytest.raises(InvalidRequires, match="to be listed in mypy's requires_dist"):
-        verify_external_req(Requirement("numpy"), "mypy")
+        verify_external_req(Requirement("numpy"), "mypy", typeshed_pkgs)
 
     with pytest.raises(InvalidRequires, match="to not be uploaded from stub_uploader"):
-        verify_external_req(Requirement("types-typed-ast"), "mypy")
+        verify_external_req(Requirement("types-typed-ast"), "mypy", typeshed_pkgs)
 
     with pytest.raises(InvalidRequires, match="to not start with types-"):
-        verify_external_req(Requirement("types-unknown-xxx"), "mypy")
+        verify_external_req(Requirement("types-unknown-xxx"), "mypy", typeshed_pkgs)
 
-    m = Metadata("mypy", {"version": "0.1", "dependencies": ["numpy"]})
+    m = Metadata("mypy", {"version": "0.1", "dependencies": ["numpy"]}, typeshed_pkgs)
     with pytest.raises(InvalidRequires, match="to be listed in mypy's requires_dist"):
         m.dependencies_external
     with pytest.raises(InvalidRequires, match="to be listed in mypy's requires_dist"):
         recursive_verify(m, TYPESHED)
 
     # TODO: change tests once METADATA.toml specifies whether a dist is on PyPI
-    m = Metadata("gdb", {"version": "0.1", "dependencies": []})
+    m = Metadata(
+        "gdb",
+        {"version": "0.1", "dependencies": []},
+        typeshed_pkgs=uploaded_packages.read(),
+    )
     assert m.dependencies_external == []
 
-    m = Metadata("gdb", {"version": "0.1", "dependencies": ["cryptography"]})
+    m = Metadata(
+        "gdb",
+        {"version": "0.1", "dependencies": ["cryptography"]},
+        typeshed_pkgs=uploaded_packages.read(),
+    )
     with pytest.raises(InvalidRequires, match="no upstream distribution on PyPI"):
         m.dependencies_external
 
     # Check differing runtime and stub dependencies
-    verify_external_req(Requirement("pandas-stubs"), "geopandas")
+    verify_external_req(Requirement("pandas-stubs"), "geopandas", typeshed_pkgs)
     with pytest.raises(
         InvalidRequires,
         match=(
@@ -153,7 +176,7 @@ def test_verify_external_req() -> None:
             r"\. Did you mean pandas-stubs\?"
         ),
     ):
-        verify_external_req(Requirement("pandas"), "geopandas")
+        verify_external_req(Requirement("pandas"), "geopandas", typeshed_pkgs)
 
 
 def test_dependency_order() -> None:

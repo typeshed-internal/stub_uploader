@@ -25,10 +25,13 @@ class InvalidRequires(Exception):
 
 
 class Metadata:
-    def __init__(self, distribution: str, data: dict[str, Any]):
+    def __init__(
+        self, distribution: str, data: dict[str, Any], typeshed_pkgs: set[str]
+    ):
         assert not distribution.startswith(TYPES_PREFIX)
         self._alleged_upstream_distribution = distribution
         self.data = data
+        self.typeshed_pkgs = typeshed_pkgs
 
     @property
     def upstream_distribution(self) -> Optional[str]:
@@ -64,34 +67,32 @@ class Metadata:
 
     @property
     def _unvalidated_dependencies_typeshed(self) -> list[Requirement]:
-        typeshed = uploaded_packages.read()
         return [
             r
             for r in self._unvalidated_dependencies
-            if canonical_name(r.name) in typeshed
+            if canonical_name(r.name) in self.typeshed_pkgs
         ]
 
     @functools.cached_property
     def dependencies_typeshed(self) -> list[Requirement]:
         reqs = self._unvalidated_dependencies_typeshed
         for req in reqs:
-            verify_typeshed_req(req)
+            verify_typeshed_req(req, self.typeshed_pkgs)
         return reqs
 
     @property
     def _unvalidated_dependencies_external(self) -> list[Requirement]:
-        typeshed = uploaded_packages.read()
         return [
             r
             for r in self._unvalidated_dependencies
-            if canonical_name(r.name) not in typeshed
+            if canonical_name(r.name) not in self.typeshed_pkgs
         ]
 
     @functools.cached_property
     def dependencies_external(self) -> list[Requirement]:
         reqs = self._unvalidated_dependencies_external
         for req in reqs:
-            verify_external_req(req, self.upstream_distribution)
+            verify_external_req(req, self.upstream_distribution, self.typeshed_pkgs)
         return reqs
 
     @property
@@ -153,7 +154,9 @@ def read_metadata(typeshed_dir: str, distribution: str) -> Metadata:
     path = os.path.join(typeshed_dir, THIRD_PARTY_NAMESPACE, distribution, META)
     with open(path, "rb") as f:
         data = tomllib.load(f)
-    return Metadata(distribution=distribution, data=data)
+    return Metadata(
+        distribution=distribution, data=data, typeshed_pkgs=uploaded_packages.read()
+    )
 
 
 def canonical_name(name: str) -> str:
@@ -195,11 +198,11 @@ def strip_types_prefix(dependency: str) -> str:
     return dependency.removeprefix(TYPES_PREFIX)
 
 
-def verify_typeshed_req(req: Requirement) -> None:
+def verify_typeshed_req(req: Requirement, typeshed_pkgs: set[str]) -> None:
     if not req.name.startswith(TYPES_PREFIX):
         raise InvalidRequires(f"Expected dependency {req} to start with {TYPES_PREFIX}")
 
-    if canonical_name(req.name) not in uploaded_packages.read():
+    if canonical_name(req.name) not in typeshed_pkgs:
         raise InvalidRequires(
             f"Expected dependency {req} to be uploaded from stub_uploader"
         )
@@ -333,6 +336,7 @@ def get_latest_sdist_data(pypi_data: dict[str, Any]) -> dict[str, Any] | None:
 def verify_external_req(
     req: Requirement,
     upstream_distribution: Optional[str],
+    typeshed_pkgs: set[str],
     *,
     _unsafe_ignore_allowlist: bool = False,  # used for tests
 ) -> None:
@@ -341,7 +345,7 @@ def verify_external_req(
     Raise InvalidRequires if the dependency is invalid.
     """
 
-    verify_external_req_not_in_typeshed(req)
+    verify_external_req_not_in_typeshed(req, typeshed_pkgs)
     verify_external_req_name(req)
     verify_external_req_in_allowlist(
         req, _unsafe_ignore_allowlist=_unsafe_ignore_allowlist
@@ -349,9 +353,11 @@ def verify_external_req(
     verify_external_req_stubs_require_its_runtime(req, upstream_distribution)
 
 
-def verify_external_req_not_in_typeshed(req: Requirement) -> None:
+def verify_external_req_not_in_typeshed(
+    req: Requirement, typeshed_pkgs: set[str]
+) -> None:
     req_canonical_name = canonical_name(req.name)
-    if req_canonical_name in uploaded_packages.read():
+    if req_canonical_name in typeshed_pkgs:
         raise InvalidRequires(
             f"Expected dependency {req} to not be uploaded from stub_uploader"
         )
