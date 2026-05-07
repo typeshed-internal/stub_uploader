@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+from dataclasses import dataclass
 import functools
 import graphlib
 import os
@@ -22,6 +23,41 @@ from .const import META, THIRD_PARTY_NAMESPACE, TYPES_PREFIX, UPLOADED_PATH
 
 class InvalidRequires(Exception):
     pass
+
+
+@dataclass(frozen=True)
+class Dependency:
+    """A wrapper around packaging.requirements.Requirement with additional information."""
+
+    requirement: Requirement
+    is_typeshed_pkg: bool
+
+    def __post_init__(self) -> None:
+        if self.is_typeshed_pkg and not self.canonical_name.startswith(TYPES_PREFIX):
+            raise InvalidRequires(
+                f"Expected dependency {self} to start with {TYPES_PREFIX}"
+            )
+        elif not self.is_typeshed_pkg and self.canonical_name.startswith(TYPES_PREFIX):
+            raise InvalidRequires(
+                f"Expected dependency {self} to not start with {TYPES_PREFIX}"
+            )
+
+    def __str__(self) -> str:
+        return str(self.requirement)
+
+    @property
+    def name(self) -> str:
+        return self.requirement.name
+
+    @property
+    def canonical_name(self) -> str:
+        return canonical_name(self.requirement.name)
+
+    @property
+    def base_name(self) -> str:
+        if self.is_typeshed_pkg:
+            return strip_types_prefix(self.name)
+        return self.name
 
 
 class Metadata:
@@ -62,38 +98,44 @@ class Metadata:
         return spec
 
     @property
-    def _unvalidated_dependencies(self) -> list[Requirement]:
-        return [Requirement(req) for req in self.data.get("dependencies", [])]
+    def _unvalidated_dependencies(self) -> list[Dependency]:
+        def create_dependency(req_s: str) -> Dependency:
+            req = Requirement(req_s)
+            return Dependency(req, canonical_name(req.name) in self.typeshed_pkgs)
 
-    @property
-    def _unvalidated_dependencies_typeshed(self) -> list[Requirement]:
-        return [
-            r
-            for r in self._unvalidated_dependencies
-            if canonical_name(r.name) in self.typeshed_pkgs
-        ]
+        return [create_dependency(req) for req in self.data.get("dependencies", [])]
 
     @functools.cached_property
-    def dependencies_typeshed(self) -> list[Requirement]:
-        reqs = self._unvalidated_dependencies_typeshed
-        for req in reqs:
-            verify_typeshed_req(req, self.typeshed_pkgs)
-        return reqs
+    def dependencies(self) -> list[Dependency]:
+        """All dependencies."""
+        self.validate_dependencies()
+        return self._unvalidated_dependencies
 
-    @property
-    def _unvalidated_dependencies_external(self) -> list[Requirement]:
-        return [
-            r
-            for r in self._unvalidated_dependencies
-            if canonical_name(r.name) not in self.typeshed_pkgs
-        ]
+    def validate_dependencies(self) -> None:
+        for dep in self._unvalidated_dependencies:
+            if not dep.is_typeshed_pkg:
+                verify_external_req(dep.requirement, self.upstream_distribution)
 
-    @functools.cached_property
-    def dependencies_external(self) -> list[Requirement]:
-        reqs = self._unvalidated_dependencies_external
-        for req in reqs:
-            verify_external_req(req, self.upstream_distribution, self.typeshed_pkgs)
-        return reqs
+    def validate_dependencies_recursively(self, typeshed_dir: str) -> set[str]:
+        # While metadata.dependencies_typeshed and metadata.dependencies_external will perform validation on the
+        # stub distribution itself, it seems useful to be able to validate the transitive typeshed
+        # dependency graph for a stub distribution
+        _verified: set[str] = set()
+
+        def _verify(metadata: Metadata) -> None:
+            if metadata.stub_distribution in _verified:
+                return
+            _verified.add(metadata.stub_distribution)
+
+            metadata.validate_dependencies()
+
+            # and recursively verify all our internal dependencies as well
+            for dep in metadata._unvalidated_dependencies:
+                if dep.is_typeshed_pkg:
+                    _verify(read_metadata(typeshed_dir, dep.base_name))
+
+        _verify(self)
+        return _verified
 
     @property
     def extra_description(self) -> str:
@@ -196,20 +238,6 @@ def strip_types_prefix(dependency: str) -> str:
     if not dependency.startswith(TYPES_PREFIX):
         raise ValueError("Expected dependency on a typeshed package")
     return dependency.removeprefix(TYPES_PREFIX)
-
-
-def verify_typeshed_req(req: Requirement, typeshed_pkgs: set[str]) -> None:
-    if not req.name.startswith(TYPES_PREFIX):
-        raise InvalidRequires(f"Expected dependency {req} to start with {TYPES_PREFIX}")
-
-    if canonical_name(req.name) not in typeshed_pkgs:
-        raise InvalidRequires(
-            f"Expected dependency {req} to be uploaded from stub_uploader"
-        )
-
-    # TODO: make sure that if a typeshed distribution depends on other typeshed stubs,
-    # the upstream depends on the upstreams corresponding to those stubs.
-    # See https://github.com/typeshed-internal/stub_uploader/pull/61#discussion_r979327370
 
 
 # Presence in the top 1000 PyPI packages could be a necessary but not sufficient criterion for
@@ -335,8 +363,7 @@ def get_latest_sdist_data(pypi_data: dict[str, Any]) -> dict[str, Any] | None:
 
 def verify_external_req(
     req: Requirement,
-    upstream_distribution: Optional[str],
-    typeshed_pkgs: set[str],
+    upstream_distribution: str | None,
     *,
     _unsafe_ignore_allowlist: bool = False,  # used for tests
 ) -> None:
@@ -345,30 +372,10 @@ def verify_external_req(
     Raise InvalidRequires if the dependency is invalid.
     """
 
-    verify_external_req_not_in_typeshed(req, typeshed_pkgs)
-    verify_external_req_name(req)
     verify_external_req_in_allowlist(
         req, _unsafe_ignore_allowlist=_unsafe_ignore_allowlist
     )
     verify_external_req_stubs_require_its_runtime(req, upstream_distribution)
-
-
-def verify_external_req_not_in_typeshed(
-    req: Requirement, typeshed_pkgs: set[str]
-) -> None:
-    req_canonical_name = canonical_name(req.name)
-    if req_canonical_name in typeshed_pkgs:
-        raise InvalidRequires(
-            f"Expected dependency {req} to not be uploaded from stub_uploader"
-        )
-
-
-def verify_external_req_name(req: Requirement) -> None:
-    if req.name.startswith(TYPES_PREFIX):
-        # technically this could be allowed, but it's very suspicious
-        raise InvalidRequires(
-            f"Expected dependency {req} to not start with {TYPES_PREFIX}"
-        )
 
 
 def verify_external_req_in_allowlist(
@@ -500,29 +507,6 @@ def sort_by_dependency(
     for dist in ordered:
         if dist in distributions:
             yield dist
-
-
-def recursive_verify(metadata: Metadata, typeshed_dir: str) -> set[str]:
-    # While metadata.dependencies_typeshed and metadata.dependencies_external will perform validation on the
-    # stub distribution itself, it seems useful to be able to validate the transitive typeshed
-    # dependency graph for a stub distribution
-    _verified: set[str] = set()
-
-    def _verify(metadata: Metadata) -> None:
-        if metadata.stub_distribution in _verified:
-            return
-        _verified.add(metadata.stub_distribution)
-
-        # calling these checks metadata's dependencies
-        assert isinstance(metadata.dependencies_typeshed, list)
-        assert isinstance(metadata.dependencies_external, list)
-
-        # and recursively verify all our internal dependencies as well
-        for req in metadata.dependencies_typeshed:
-            _verify(read_metadata(typeshed_dir, strip_types_prefix(req.name)))
-
-    _verify(metadata)
-    return _verified
 
 
 def verify_requires_python(requires_python: str | None) -> None:
