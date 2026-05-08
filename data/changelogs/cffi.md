@@ -1,3 +1,9 @@
+## 2.0.0.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 2.0.0.20260506 (2026-05-06)
 
 [cffi] Annotate `_CDataBase.__enter__` return type ([#15701](https://github.com/python/typeshed/pull/15701))

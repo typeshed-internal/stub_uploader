@@ -1,3 +1,9 @@
+## 2.9.21.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 2.9.21.20260422 (2026-04-22)
 
 [psycopg2] Bump to 2.9.12 ([#15658](https://github.com/python/typeshed/pull/15658))

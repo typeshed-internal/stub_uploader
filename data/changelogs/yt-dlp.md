@@ -1,3 +1,9 @@
+## 2026.3.17.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 2026.3.17.20260503 (2026-05-03)
 
 [http.cookies] Modernize ([#15266](https://github.com/python/typeshed/pull/15266))

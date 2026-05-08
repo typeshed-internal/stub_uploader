@@ -1,3 +1,9 @@
+## 1.6.11.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 1.6.11.20260418 (2026-04-18)
 
 [Authlib] Bump to 1.6.11 ([#15647](https://github.com/python/typeshed/pull/15647))

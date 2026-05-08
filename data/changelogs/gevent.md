@@ -1,3 +1,9 @@
+## 26.4.0.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 26.4.0.20260409 (2026-04-09)
 
 [stubsabot] Bump gevent to 26.4.* ([#15638](https://github.com/python/typeshed/pull/15638))

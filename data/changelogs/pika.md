@@ -1,3 +1,9 @@
+## 1.3.0.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 1.3.0.20260502 (2026-05-02)
 
 [pika] BlockingConnection.process_data_events accepts None ([#15690](https://github.com/python/typeshed/pull/15690))

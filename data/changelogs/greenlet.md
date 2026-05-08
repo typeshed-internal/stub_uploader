@@ -1,3 +1,9 @@
+## 3.5.0.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 3.5.0.20260428 (2026-04-28)
 
 [greenlet] Bump to 3.5.* ([#15679](https://github.com/python/typeshed/pull/15679))

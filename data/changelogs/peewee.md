@@ -1,3 +1,9 @@
+## 4.0.1.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 4.0.1.20260503 (2026-05-03)
 
 [peewee] add return type to query.count() and the model._meta attribute ([#15691](https://github.com/python/typeshed/pull/15691))

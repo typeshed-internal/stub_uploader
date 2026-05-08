@@ -1,3 +1,9 @@
+## 2.33.0.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 2.33.0.20260503 (2026-05-03)
 
 [requests] Specify that adapters.HTTPAdapter.close() returns None ([#15684](https://github.com/python/typeshed/pull/15684))

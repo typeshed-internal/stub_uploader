@@ -1,3 +1,9 @@
+## 7.34.1.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 7.34.1.20260503 (2026-05-03)
 
 [protobuf] Add _loaded_options to FileDescriptor ([#15677](https://github.com/python/typeshed/pull/15677))

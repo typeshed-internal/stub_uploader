@@ -1,3 +1,13 @@
+## 2.8.4.20260508 (2026-05-08)
+
+Drop 3.9 support for third-party packages ([#15707](https://github.com/python/typeshed/pull/15707))
+
+Inline some unnecessary type aliases
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 2.8.4.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
