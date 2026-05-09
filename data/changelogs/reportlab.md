@@ -1,3 +1,7 @@
+## 4.5.0.20260509 (2026-05-09)
+
+[reportlab] Update to 4.5.0 ([#15697](https://github.com/python/typeshed/pull/15697))
+
 ## 4.4.10.20260508 (2026-05-08)
 
 Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))

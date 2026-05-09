@@ -1,3 +1,7 @@
+## 7.46.0.20260509 (2026-05-09)
+
+[pycurl] Update to 7.46.0 ([#15695](https://github.com/python/typeshed/pull/15695))
+
 ## 7.45.7.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

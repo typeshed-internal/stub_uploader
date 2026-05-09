@@ -1,3 +1,9 @@
+## 26.0.0.20260509 (2026-05-09)
+
+[gunicorn] Update to 26.0.0 ([#15723](https://github.com/python/typeshed/pull/15723))
+
+Closes: #15702
+
 ## 25.3.0.20260508 (2026-05-08)
 
 Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))

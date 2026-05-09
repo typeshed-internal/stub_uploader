@@ -1,3 +1,7 @@
+## 4.43.0.20260509 (2026-05-09)
+
+[braintree] Update to 4.43.* ([#15699](https://github.com/python/typeshed/pull/15699))
+
 ## 4.42.0.20260508 (2026-05-08)
 
 Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))

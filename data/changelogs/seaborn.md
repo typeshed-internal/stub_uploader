@@ -1,3 +1,7 @@
+## 0.13.2.20260509 (2026-05-09)
+
+Reenable ruff rules UP035, UP036, remove RUF100 ([#15715](https://github.com/python/typeshed/pull/15715))
+
 ## 0.13.2.20260508 (2026-05-08)
 
 Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))

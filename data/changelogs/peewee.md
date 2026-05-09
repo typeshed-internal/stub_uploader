@@ -1,3 +1,7 @@
+## 4.0.5.20260509 (2026-05-09)
+
+[peewee] Update to 4.0.5 ([#15696](https://github.com/python/typeshed/pull/15696))
+
 ## 4.0.1.20260508 (2026-05-08)
 
 Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))

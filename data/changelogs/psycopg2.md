@@ -1,3 +1,7 @@
+## 2.9.21.20260509 (2026-05-09)
+
+[psycopg2] Annotate some connection argument and return types ([#15704](https://github.com/python/typeshed/pull/15704))
+
 ## 2.9.21.20260508 (2026-05-08)
 
 Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
