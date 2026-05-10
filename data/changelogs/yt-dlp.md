@@ -1,3 +1,15 @@
+## 2026.3.17.20260510 (2026-05-10)
+
+[yt-dlp] Make _Params["paths"] a dict[str, str] ([#14998](https://github.com/python/typeshed/pull/14998))
+
+`paths` accepts a dict of output paths (keys: 'home', 'temp', and OUTTMPL_TYPES keys).
+Typing it as `dict[str, str] | None` matches runtime behavior and avoids false positives
+when passing a dict to YoutubeDL params.
+
+---------
+
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## 2026.3.17.20260508 (2026-05-08)
 
 Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))

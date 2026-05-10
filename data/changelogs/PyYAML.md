@@ -1,3 +1,9 @@
+## 6.0.12.20260510 (2026-05-10)
+
+Add missing type hints in pyyaml.constructor ([#15746](https://github.com/python/typeshed/pull/15746))
+
+This is the same as 84682a1d which missed these for some reason.
+
 ## 6.0.12.20260508 (2026-05-08)
 
 Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))

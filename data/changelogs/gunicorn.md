@@ -1,3 +1,11 @@
+## 26.0.0.20260510 (2026-05-10)
+
+[gunicorn] Fully remove eventlet support ([#15740](https://github.com/python/typeshed/pull/15740))
+
+Looks like we already don't need this in the `stubtest-dependencies`
+list anymore.
+See: https://github.com/python/typeshed/pull/15723
+
 ## 26.0.0.20260509 (2026-05-09)
 
 [gunicorn] Update to 26.0.0 ([#15723](https://github.com/python/typeshed/pull/15723))

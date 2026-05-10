@@ -1,3 +1,7 @@
+## 1.4.0.20260510 (2026-05-10)
+
+[pika] Update to 1.4.* ([#15722](https://github.com/python/typeshed/pull/15722))
+
 ## 1.3.0.20260508 (2026-05-08)
 
 Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
