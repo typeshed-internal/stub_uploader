@@ -202,6 +202,7 @@ types-pyluach
 types-pymssql
 types-pynput
 types-pyperclip
+types-pyphen
 types-pyserial
 types-pysftp
 types-pytest-lazy-fixture
