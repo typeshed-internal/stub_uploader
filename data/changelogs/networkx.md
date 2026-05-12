@@ -1,3 +1,7 @@
+## 3.6.1.20260512 (2026-05-12)
+
+[networkx] Add generic type for node and edge data ([#15660](https://github.com/python/typeshed/pull/15660))
+
 ## 3.6.1.20260508 (2026-05-08)
 
 Drop 3.9 support for third-party packages ([#15707](https://github.com/python/typeshed/pull/15707))

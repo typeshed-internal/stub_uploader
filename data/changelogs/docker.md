@@ -1,3 +1,7 @@
+## 7.1.0.20260512 (2026-05-12)
+
+[docker] Remove @override decorators ([#15764](https://github.com/python/typeshed/pull/15764))
+
 ## 7.1.0.20260508 (2026-05-08)
 
 Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))

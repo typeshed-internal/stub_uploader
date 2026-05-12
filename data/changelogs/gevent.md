@@ -1,3 +1,7 @@
+## 26.4.0.20260512 (2026-05-12)
+
+Remove `selector._EventMask` type alias ([#15771](https://github.com/python/typeshed/pull/15771))
+
 ## 26.4.0.20260508 (2026-05-08)
 
 Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
