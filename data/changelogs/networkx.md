@@ -1,3 +1,7 @@
+## 3.6.1.20260513 (2026-05-13)
+
+[networkx] Fully type communicability(_alg) ([#15781](https://github.com/python/typeshed/pull/15781))
+
 ## 3.6.1.20260512 (2026-05-12)
 
 [networkx] Add generic type for node and edge data ([#15660](https://github.com/python/typeshed/pull/15660))

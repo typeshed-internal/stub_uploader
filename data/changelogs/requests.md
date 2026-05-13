@@ -1,3 +1,9 @@
+## 2.33.0.20260513 (2026-05-13)
+
+[requests] Improve type annotations for several HTTPAdapter methods ([#15778](https://github.com/python/typeshed/pull/15778))
+
+[requests] Mark as obsolete since 2.34.0 ([#15775](https://github.com/python/typeshed/pull/15775))
+
 ## 2.33.0.20260508 (2026-05-08)
 
 Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
