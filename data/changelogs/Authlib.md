@@ -1,3 +1,9 @@
+## 1.6.11.20260514 (2026-05-14)
+
+[Authlib] Add default for `generate_token(chars)` ([#15787](https://github.com/python/typeshed/pull/15787))
+
+[Authlib] `add_params_to_qs`, `extract_params`: Fix accepted types ([#15786](https://github.com/python/typeshed/pull/15786))
+
 ## 1.6.11.20260512 (2026-05-12)
 
 [Authlib] Fix JsonWebKey.import_key typing ([#15766](https://github.com/python/typeshed/pull/15766))

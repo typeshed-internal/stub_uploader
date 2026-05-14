@@ -1,3 +1,7 @@
+## 1.0.0.20260514 (2026-05-14)
+
+Allow None return from    grpc.aio.ServerInterceptor.intercept_service ([#15783](https://github.com/python/typeshed/pull/15783))
+
 ## 1.0.0.20260508 (2026-05-08)
 
 Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
