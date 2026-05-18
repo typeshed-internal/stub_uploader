@@ -1,3 +1,7 @@
+## 2026.5.9.20260518 (2026-05-18)
+
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+
 ## 2026.5.9.20260510 (2026-05-10)
 
 [stubsabot] Bump regex to 2026.5.9 ([#15748](https://github.com/python/typeshed/pull/15748))

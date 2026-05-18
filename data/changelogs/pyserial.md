@@ -1,3 +1,7 @@
+## 3.5.0.20260518 (2026-05-18)
+
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+
 ## 3.5.0.20260510 (2026-05-10)
 
 Fix stubs that are identical in different version/platform branches ([#15743](https://github.com/python/typeshed/pull/15743))

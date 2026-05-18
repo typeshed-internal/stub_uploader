@@ -1,3 +1,7 @@
+## 3.10.2.20260518 (2026-05-18)
+
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+
 ## 3.10.2.20260508 (2026-05-08)
 
 Drop 3.9 support for third-party packages ([#15707](https://github.com/python/typeshed/pull/15707))

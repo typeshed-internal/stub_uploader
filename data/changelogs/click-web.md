@@ -1,3 +1,7 @@
+## 0.8.0.20260518 (2026-05-18)
+
+Parametrize `click.types.ParamType` as base class in `click_web.web_click_types` ([#15803](https://github.com/python/typeshed/pull/15803))
+
 ## 0.8.0.20260508 (2026-05-08)
 
 Drop 3.9 support for third-party packages ([#15707](https://github.com/python/typeshed/pull/15707))

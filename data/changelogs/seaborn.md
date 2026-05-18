@@ -1,3 +1,7 @@
+## 0.13.2.20260518 (2026-05-18)
+
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+
 ## 0.13.2.20260509 (2026-05-09)
 
 Reenable ruff rules UP035, UP036, remove RUF100 ([#15715](https://github.com/python/typeshed/pull/15715))

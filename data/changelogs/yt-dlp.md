@@ -1,3 +1,7 @@
+## 2026.3.17.20260518 (2026-05-18)
+
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+
 ## 2026.3.17.20260510 (2026-05-10)
 
 [yt-dlp] Make _Params["paths"] a dict[str, str] ([#14998](https://github.com/python/typeshed/pull/14998))

@@ -1,3 +1,7 @@
+## 1.0.0.20260518 (2026-05-18)
+
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+
 ## 1.0.0.20260514 (2026-05-14)
 
 Allow None return from    grpc.aio.ServerInterceptor.intercept_service ([#15783](https://github.com/python/typeshed/pull/15783))

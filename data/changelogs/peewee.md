@@ -1,3 +1,7 @@
+## 4.0.5.20260518 (2026-05-18)
+
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+
 ## 4.0.5.20260509 (2026-05-09)
 
 [peewee] Update to 4.0.5 ([#15696](https://github.com/python/typeshed/pull/15696))

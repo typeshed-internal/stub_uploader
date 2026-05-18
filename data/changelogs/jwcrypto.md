@@ -1,3 +1,7 @@
+## 1.5.7.20260518 (2026-05-18)
+
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+
 ## 1.5.7.20260513 (2026-05-13)
 
 [jwcrypto] Add `JWK.__hash__` and another `__init__` overload ([#15782](https://github.com/python/typeshed/pull/15782))

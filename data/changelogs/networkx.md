@@ -1,3 +1,7 @@
+## 3.6.1.20260518 (2026-05-18)
+
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+
 ## 3.6.1.20260513 (2026-05-13)
 
 [networkx] Fully type communicability(_alg) ([#15781](https://github.com/python/typeshed/pull/15781))

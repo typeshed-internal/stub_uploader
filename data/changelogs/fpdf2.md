@@ -1,3 +1,7 @@
+## 2.8.4.20260518 (2026-05-18)
+
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+
 ## 2.8.4.20260509 (2026-05-09)
 
 Update mypy to 2.0.0 ([#15716](https://github.com/python/typeshed/pull/15716))

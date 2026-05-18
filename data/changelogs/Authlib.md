@@ -1,3 +1,7 @@
+## 1.6.11.20260518 (2026-05-18)
+
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+
 ## 1.6.11.20260514 (2026-05-14)
 
 [Authlib] Add default for `generate_token(chars)` ([#15787](https://github.com/python/typeshed/pull/15787))
