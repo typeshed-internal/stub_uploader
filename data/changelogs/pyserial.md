@@ -1,3 +1,7 @@
+## 3.5.0.20260519 (2026-05-19)
+
+[pyserial] Fix `read_all` return type to not include `None` ([#15797](https://github.com/python/typeshed/pull/15797))
+
 ## 3.5.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

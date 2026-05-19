@@ -1,3 +1,7 @@
+## 5.2.0.20260519 (2026-05-19)
+
+[decorator] Mark as obsolete since 5.3.0 ([#15806](https://github.com/python/typeshed/pull/15806))
+
 ## 5.2.0.20260508 (2026-05-08)
 
 Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
