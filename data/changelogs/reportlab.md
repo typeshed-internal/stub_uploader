@@ -1,3 +1,7 @@
+## 4.5.1.20260521 (2026-05-21)
+
+[reportlab] Bump to 4.5.1 ([#15808](https://github.com/python/typeshed/pull/15808))
+
 ## 4.5.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

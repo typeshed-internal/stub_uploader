@@ -1,3 +1,17 @@
+## 311.0.0.20260521 (2026-05-21)
+
+[pywin32] Replace Incomplete win32print types ([#15794](https://github.com/python/typeshed/pull/15794))
+
+- Add the missing `DEVMODEType` and `DEVMODEWType` types, these are
+  both aliases to the `PyDEVMODEW` class.
+- Merge the `PyDEVMODE` and `PyDEVMODEW` classes, these are the same
+  class in reality.
+- Fix the type of `TimeType.format` to include the default value for
+  the `format` parameter.
+- Audit all the types in the win32print module, replacing all
+`Incomplete` types with an appropriate `TypedDict`, and using overloads
+to reference the correct version of the type.
+
 ## 311.0.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
