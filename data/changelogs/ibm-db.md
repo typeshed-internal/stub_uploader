@@ -1,3 +1,7 @@
+## 3.2.9.20260522 (2026-05-22)
+
+Bump ibm-db to 3.2.9 ([#15818](https://github.com/python/typeshed/pull/15818))
+
 ## 3.2.8.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
