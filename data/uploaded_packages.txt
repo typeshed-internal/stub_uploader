@@ -141,6 +141,7 @@ types-jsonnet
 types-jsonschema
 types-jwcrypto
 types-jwt
+types-kafka-python
 types-kazoo
 types-keyboard
 types-ldap3
