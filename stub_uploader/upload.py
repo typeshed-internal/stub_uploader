@@ -5,12 +5,7 @@ import subprocess
 from stub_uploader import build_wheel
 from stub_uploader.get_version import determine_stub_version
 from stub_uploader.update_changelog import update_changelog
-from stub_uploader.metadata import (
-    read_metadata,
-    recursive_verify,
-    sort_by_dependency,
-    uploaded_packages,
-)
+from stub_uploader.metadata import read_metadata, sort_by_dependency, uploaded_packages
 
 
 def upload(
@@ -32,7 +27,7 @@ def upload_distribution(
 ) -> None:
     print(f"Building stubs for {distribution}... ", end="")
     metadata = read_metadata(typeshed_dir, distribution)
-    recursive_verify(metadata, typeshed_dir)
+    metadata.validate_dependencies_recursively(typeshed_dir)
 
     version = determine_stub_version(metadata)
 
