@@ -234,6 +234,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "pyproj",
     "pytest",
     "referencing",
+    "requests",
     "setuptools",
     "torch",
     "tree-sitter",
