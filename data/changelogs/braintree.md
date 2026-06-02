@@ -1,3 +1,7 @@
+## 4.44.0.20260602 (2026-06-02)
+
+[braintree] Update to 4.44.* ([#15850](https://github.com/python/typeshed/pull/15850))
+
 ## 4.43.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
