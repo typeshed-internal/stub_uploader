@@ -1,3 +1,7 @@
+## 2.1.0.20260603 (2026-06-03)
+
+[shapely] Type `kwargs` arguments ([#15859](https://github.com/python/typeshed/pull/15859))
+
 ## 2.1.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
