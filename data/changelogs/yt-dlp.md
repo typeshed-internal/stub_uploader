@@ -1,3 +1,7 @@
+## 2026.3.17.20260605 (2026-06-05)
+
+[yt-dlp] Add typing for postprocessor_hooks ([#15810](https://github.com/python/typeshed/pull/15810))
+
 ## 2026.3.17.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
