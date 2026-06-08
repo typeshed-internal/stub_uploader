@@ -1,3 +1,7 @@
+## 4.68.0.20260608 (2026-06-08)
+
+[tqdm] Update to 4.68.* ([#15876](https://github.com/python/typeshed/pull/15876))
+
 ## 4.67.3.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

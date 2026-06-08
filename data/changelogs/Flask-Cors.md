@@ -1,3 +1,7 @@
+## 6.0.3.20260608 (2026-06-08)
+
+[Flask-Cors] Update to 6.0.3 ([#15875](https://github.com/python/typeshed/pull/15875))
+
 ## 6.0.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
