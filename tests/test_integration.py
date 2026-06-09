@@ -172,11 +172,11 @@ def test_recursive_verify_single() -> None:
     m = read_metadata(TYPESHED, "six")
     assert recursive_verify(m, TYPESHED) == {"types-six"}
 
-    m = read_metadata(TYPESHED, "requests-oauthlib")
+    m = read_metadata(TYPESHED, "JACK-Client")
     assert recursive_verify(m, TYPESHED) == {
-        "types-requests-oauthlib",
-        "types-requests",
-        "types-oauthlib",
+        "types-JACK-Client",
+        "types-cffi",  # direct dependency
+        "types-setuptools",  # indirect dependency via types-cffi
     }
 
 
