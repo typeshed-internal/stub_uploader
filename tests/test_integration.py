@@ -174,7 +174,8 @@ def test_recursive_verify_single() -> None:
 
     m = read_metadata(TYPESHED, "JACK-Client")
     assert recursive_verify(m, TYPESHED) == {
-        "types-cffi",
+        "types-JACK-Client",
+        "types-cffi",  # direct dependency
         "types-setuptools",  # indirect dependency via types-cffi
     }
 
