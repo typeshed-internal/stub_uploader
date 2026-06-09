@@ -1,3 +1,11 @@
+## 312.0.0.20260609 (2026-06-09)
+
+Fix type errors in pywin32 using types-pywin32 ([#13844](https://github.com/python/typeshed/pull/13844))
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+[pywin32] Update to 312 ([#15871](https://github.com/python/typeshed/pull/15871))
+
 ## 311.0.0.20260521 (2026-05-21)
 
 [pywin32] Replace Incomplete win32print types ([#15794](https://github.com/python/typeshed/pull/15794))

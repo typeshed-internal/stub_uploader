@@ -1,3 +1,7 @@
+## 6.0.3.20260609 (2026-06-09)
+
+[Flask-Cors] Mark as obsolete since 6.0.4 and pin to 6.0.3 ([#15880](https://github.com/python/typeshed/pull/15880))
+
 ## 6.0.3.20260608 (2026-06-08)
 
 [Flask-Cors] Update to 6.0.3 ([#15875](https://github.com/python/typeshed/pull/15875))
