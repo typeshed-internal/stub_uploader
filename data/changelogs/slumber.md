@@ -1,3 +1,7 @@
+## 0.7.3.20260610 (2026-06-10)
+
+Change dependencies from types-requests to requests ([#15813](https://github.com/python/typeshed/pull/15813))
+
 ## 0.7.3.20260508 (2026-05-08)
 
 Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
