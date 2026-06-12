@@ -29,6 +29,7 @@ types-Send2Trash
 types-TgCrypto
 types-WTForms
 types-WebOb
+types-WebTest
 types-Werkzeug
 types-aiofiles
 types-annoy

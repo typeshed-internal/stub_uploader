@@ -1,3 +1,7 @@
+## 3.6.1.20260612 (2026-06-12)
+
+[networkx] Fix type hints for networkx birank personalization parameters ([#15889](https://github.com/python/typeshed/pull/15889))
+
 ## 3.6.1.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
