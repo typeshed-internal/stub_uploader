@@ -231,6 +231,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "numpy",
     "pandas-stubs",
     "pygobject-stubs",
+    "pynacl",
     "pyproj",
     "pytest",
     "referencing",
