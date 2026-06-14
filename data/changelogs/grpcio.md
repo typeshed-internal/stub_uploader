@@ -1,3 +1,7 @@
+## 1.0.0.20260614 (2026-06-14)
+
+[grpcio] Fix AioRpcError.trailing_metadata and Metadata iteration ([#15899](https://github.com/python/typeshed/pull/15899))
+
 ## 1.0.0.20260607 (2026-06-07)
 
 Add `grpc.experimental.gevent` stubs ([#15839](https://github.com/python/typeshed/pull/15839))
