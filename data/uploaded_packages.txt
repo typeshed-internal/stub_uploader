@@ -234,6 +234,7 @@ types-resampy
 types-retry
 types-rfc3339-validator
 types-s2clientprotocol
+types-scp
 types-scribe
 types-seaborn
 types-selenium

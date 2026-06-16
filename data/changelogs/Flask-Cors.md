@@ -1,3 +1,7 @@
+## 6.0.3.20260616 (2026-06-16)
+
+[Flask-Cors] Update type annotation for origins to also allow Pattern ([#15825](https://github.com/python/typeshed/pull/15825))
+
 ## 6.0.3.20260609 (2026-06-09)
 
 [Flask-Cors] Mark as obsolete since 6.0.4 and pin to 6.0.3 ([#15880](https://github.com/python/typeshed/pull/15880))
