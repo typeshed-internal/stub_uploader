@@ -1,3 +1,7 @@
+## 5.0.0.20260617 (2026-06-17)
+
+[paramiko] Update to 5.0.0 ([#15907](https://github.com/python/typeshed/pull/15907))
+
 ## 4.0.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
