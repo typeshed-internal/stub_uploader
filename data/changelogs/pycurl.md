@@ -1,3 +1,7 @@
+## 7.46.0.20260618 (2026-06-18)
+
+[pycurl] Fill in missing/`Incomplete` annotations ([#15919](https://github.com/python/typeshed/pull/15919))
+
 ## 7.46.0.20260509 (2026-05-09)
 
 [pycurl] Update to 7.46.0 ([#15695](https://github.com/python/typeshed/pull/15695))
