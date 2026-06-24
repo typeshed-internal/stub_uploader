@@ -162,7 +162,7 @@ def test_recursive_verify_single() -> None:
     assert m.validate_dependencies_recursively(TYPESHED) == {"types-six"}
 
     m = read_metadata(TYPESHED, "JACK-Client")
-    assert m.validate_dependencies_recursively(m, TYPESHED) == {
+    assert m.validate_dependencies_recursively(TYPESHED) == {
         "types-JACK-Client",
         "types-cffi",  # direct dependency
         "types-setuptools",  # indirect dependency via types-cffi
