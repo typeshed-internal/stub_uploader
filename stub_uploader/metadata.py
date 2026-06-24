@@ -146,8 +146,16 @@ class Metadata:
     @property
     def obsolete_since(self) -> str | None:
         obsolete = self.data.get("obsolete-since")
-        assert isinstance(obsolete, (str, type(None)))
-        return obsolete
+        if obsolete is None:
+            return None
+        # TODO: Remove once typeshed stops using the old format for this field.
+        # See python/typeshed#15682.
+        if isinstance(obsolete, str):
+            return obsolete
+        assert isinstance(obsolete, dict)
+        version = obsolete.get("version")
+        assert isinstance(version, str)
+        return version
 
     @property
     def no_longer_updated(self) -> bool:
@@ -262,9 +270,11 @@ EXTERNAL_REQ_ALLOWLIST = {
     "numpy",
     "pandas-stubs",
     "pygobject-stubs",
+    "pynacl",
     "pyproj",
     "pytest",
     "referencing",
+    "requests",
     "setuptools",
     "torch",
     "tree-sitter",

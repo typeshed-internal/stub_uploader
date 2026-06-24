@@ -1,3 +1,13 @@
+## 6.4.0.20260607 (2026-06-07)
+
+[stubsabot] Bump bleach to 6.4.* ([#15873](https://github.com/python/typeshed/pull/15873))
+
+## 6.3.0.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 6.3.0.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

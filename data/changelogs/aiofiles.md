@@ -1,3 +1,13 @@
+## 25.1.0.20260518 (2026-05-18)
+
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+
+## 25.1.0.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 25.1.0.20260409 (2026-04-09)
 
 [aiofiles] Add aiofiles.threadpool.wrap ([#15626](https://github.com/python/typeshed/pull/15626))

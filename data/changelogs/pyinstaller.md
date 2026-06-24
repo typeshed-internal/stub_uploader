@@ -1,3 +1,19 @@
+## 6.21.0.20260616 (2026-06-16)
+
+[PyInstaller] Bump to 6.21.* ([#15916](https://github.com/python/typeshed/pull/15916))
+
+[pyinstaller] Expose `PyInstaller.building.splash.Splash._check_tcl_tk_compatibility` ([#15915](https://github.com/python/typeshed/pull/15915))
+
+## 6.20.0.20260518 (2026-05-18)
+
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+
+## 6.20.0.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 6.20.0.20260503 (2026-05-03)
 
 [pyinstaller]: bump pyinstaller to 6.20.* ([#15673](https://github.com/python/typeshed/pull/15673))

@@ -29,6 +29,7 @@ types-Send2Trash
 types-TgCrypto
 types-WTForms
 types-WebOb
+types-WebTest
 types-Werkzeug
 types-aiofiles
 types-annoy
@@ -141,6 +142,7 @@ types-jsonnet
 types-jsonschema
 types-jwcrypto
 types-jwt
+types-kafka-python
 types-kazoo
 types-keyboard
 types-ldap3
@@ -202,6 +204,7 @@ types-pyluach
 types-pymssql
 types-pynput
 types-pyperclip
+types-pyphen
 types-pyserial
 types-pysftp
 types-pytest-lazy-fixture
@@ -231,6 +234,7 @@ types-resampy
 types-retry
 types-rfc3339-validator
 types-s2clientprotocol
+types-scp
 types-scribe
 types-seaborn
 types-selenium

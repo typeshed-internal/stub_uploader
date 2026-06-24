@@ -1,3 +1,37 @@
+## 3.6.1.20260624 (2026-06-24)
+
+[networkx] Fix regression tests ([#15932](https://github.com/python/typeshed/pull/15932))
+
+The latest numpy release uses `type` statements, which were introduced
+in Python 3.12. Therefore, we can't run the regression tests with
+Python 3.10 and 3.11.
+
+## 3.6.1.20260612 (2026-06-12)
+
+[networkx] Fix type hints for networkx birank personalization parameters ([#15889](https://github.com/python/typeshed/pull/15889))
+
+## 3.6.1.20260518 (2026-05-18)
+
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+
+## 3.6.1.20260513 (2026-05-13)
+
+[networkx] Fully type communicability(_alg) ([#15781](https://github.com/python/typeshed/pull/15781))
+
+## 3.6.1.20260512 (2026-05-12)
+
+[networkx] Add generic type for node and edge data ([#15660](https://github.com/python/typeshed/pull/15660))
+
+## 3.6.1.20260508 (2026-05-08)
+
+Drop 3.9 support for third-party packages ([#15707](https://github.com/python/typeshed/pull/15707))
+
+Inline some unnecessary type aliases
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 3.6.1.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

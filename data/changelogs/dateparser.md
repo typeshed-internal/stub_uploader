@@ -1,3 +1,19 @@
+## 1.4.1.20260617 (2026-06-17)
+
+[dateparser] Update to ~=1.4.1 ([#15918](https://github.com/python/typeshed/pull/15918))
+
+Finish `dateparser.parser`
+
+## 1.4.0.20260518 (2026-05-18)
+
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+
+## 1.4.0.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 1.4.0.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

@@ -1,3 +1,21 @@
+## 4.5.1.20260521 (2026-05-21)
+
+[reportlab] Bump to 4.5.1 ([#15808](https://github.com/python/typeshed/pull/15808))
+
+## 4.5.0.20260518 (2026-05-18)
+
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+
+## 4.5.0.20260509 (2026-05-09)
+
+[reportlab] Update to 4.5.0 ([#15697](https://github.com/python/typeshed/pull/15697))
+
+## 4.4.10.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 4.4.10.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

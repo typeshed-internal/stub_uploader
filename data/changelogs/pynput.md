@@ -1,3 +1,21 @@
+## 1.8.1.20260603 (2026-06-03)
+
+[pynput] Fix annotations for event callbacks ([#15857](https://github.com/python/typeshed/pull/15857))
+
+They are designed to accept any number of arguments up to the maximum amount, so `on_click()` and `on_click(x, y)` are both perfectly valid callbacks.
+
+Also fix callback return types. Technically they accept any return type, but as the only effect is returning `False` stops the iteration, then it makes sense to limit it to `bool | None`.
+
+## 1.8.1.20260518 (2026-05-18)
+
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+
+## 1.8.1.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 1.8.1.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

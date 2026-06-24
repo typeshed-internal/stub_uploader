@@ -1,3 +1,27 @@
+## 2.6.0.20260509 (2026-05-09)
+
+Update mypy to 2.0.0 ([#15716](https://github.com/python/typeshed/pull/15716))
+
+* Update mypy to 2.0.0
+
+Remove command line options that are now the default.
+
+* [lupa] Fix incompatible default value errors
+
+* [pdf2] Add `bytearray` to a few argument types
+
+* Try avoiding race conditions
+
+* Reenable an error code that was previously disabled
+
+* Remove --no-incremental
+
+## 2.6.0.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 2.6.0.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

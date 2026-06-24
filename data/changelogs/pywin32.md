@@ -1,3 +1,35 @@
+## 312.0.0.20260609 (2026-06-09)
+
+Fix type errors in pywin32 using types-pywin32 ([#13844](https://github.com/python/typeshed/pull/13844))
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+[pywin32] Update to 312 ([#15871](https://github.com/python/typeshed/pull/15871))
+
+## 311.0.0.20260521 (2026-05-21)
+
+[pywin32] Replace Incomplete win32print types ([#15794](https://github.com/python/typeshed/pull/15794))
+
+- Add the missing `DEVMODEType` and `DEVMODEWType` types, these are
+  both aliases to the `PyDEVMODEW` class.
+- Merge the `PyDEVMODE` and `PyDEVMODEW` classes, these are the same
+  class in reality.
+- Fix the type of `TimeType.format` to include the default value for
+  the `format` parameter.
+- Audit all the types in the win32print module, replacing all
+`Incomplete` types with an appropriate `TypedDict`, and using overloads
+to reference the correct version of the type.
+
+## 311.0.0.20260518 (2026-05-18)
+
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+
+## 311.0.0.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 311.0.0.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

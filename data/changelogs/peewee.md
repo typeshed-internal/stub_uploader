@@ -1,3 +1,17 @@
+## 4.0.5.20260518 (2026-05-18)
+
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+
+## 4.0.5.20260509 (2026-05-09)
+
+[peewee] Update to 4.0.5 ([#15696](https://github.com/python/typeshed/pull/15696))
+
+## 4.0.1.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 4.0.1.20260503 (2026-05-03)
 
 [peewee] add return type to query.count() and the model._meta attribute ([#15691](https://github.com/python/typeshed/pull/15691))

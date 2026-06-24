@@ -1,3 +1,13 @@
+## 4.10.0.20260509 (2026-05-09)
+
+[stubsabot] Mark auth0-python as obsolete since 5.4.0 ([#14697](https://github.com/python/typeshed/pull/14697))
+
+## 4.10.0.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 4.10.0.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

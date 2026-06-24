@@ -1,3 +1,17 @@
+## 7.1.0.20260518 (2026-05-18)
+
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+
+## 7.1.0.20260512 (2026-05-12)
+
+[docker] Remove @override decorators ([#15764](https://github.com/python/typeshed/pull/15764))
+
+## 7.1.0.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 7.1.0.20260409 (2026-04-09)
 
 [docker] Improve type annotations in api.swarm ([#15629](https://github.com/python/typeshed/pull/15629))

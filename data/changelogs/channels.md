@@ -1,3 +1,13 @@
+## 4.3.0.20260518 (2026-05-18)
+
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+
+## 4.3.0.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 4.3.0.20260421 (2026-04-21)
 
 [channels] Compatibility fixes for django-stubs 6.0.3 ([#15653](https://github.com/python/typeshed/pull/15653))

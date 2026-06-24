@@ -1,3 +1,27 @@
+## 26.0.0.20260518 (2026-05-18)
+
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+
+## 26.0.0.20260510 (2026-05-10)
+
+[gunicorn] Fully remove eventlet support ([#15740](https://github.com/python/typeshed/pull/15740))
+
+Looks like we already don't need this in the `stubtest-dependencies`
+list anymore.
+See: https://github.com/python/typeshed/pull/15723
+
+## 26.0.0.20260509 (2026-05-09)
+
+[gunicorn] Update to 26.0.0 ([#15723](https://github.com/python/typeshed/pull/15723))
+
+Closes: #15702
+
+## 25.3.0.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 25.3.0.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

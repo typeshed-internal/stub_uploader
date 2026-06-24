@@ -1,3 +1,17 @@
+## 1.3.1.20260520 (2026-05-20)
+
+[Deprecated] Add default for `SphinxAdapter.__init__` ([#15790](https://github.com/python/typeshed/pull/15790))
+
+## 1.3.1.20260519 (2026-05-19)
+
+[Deprecated] Add default for `DeprecatedParams.__init__` ([#15795](https://github.com/python/typeshed/pull/15795))
+
+## 1.3.1.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 1.3.1.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

@@ -1,3 +1,17 @@
+## 1.5.7.20260518 (2026-05-18)
+
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+
+## 1.5.7.20260513 (2026-05-13)
+
+[jwcrypto] Add `JWK.__hash__` and another `__init__` overload ([#15782](https://github.com/python/typeshed/pull/15782))
+
+## 1.5.7.20260508 (2026-05-08)
+
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+
+Part of #13782
+
 ## 1.5.7.20260409 (2026-04-09)
 
 [jwcrypto] Update to 1.5.7 ([#15633](https://github.com/python/typeshed/pull/15633))
