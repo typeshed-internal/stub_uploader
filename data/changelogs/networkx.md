@@ -1,3 +1,11 @@
+## 3.6.1.20260624 (2026-06-24)
+
+[networkx] Fix regression tests ([#15932](https://github.com/python/typeshed/pull/15932))
+
+The latest numpy release uses `type` statements, which were introduced
+in Python 3.12. Therefore, we can't run the regression tests with
+Python 3.10 and 3.11.
+
 ## 3.6.1.20260612 (2026-06-12)
 
 [networkx] Fix type hints for networkx birank personalization parameters ([#15889](https://github.com/python/typeshed/pull/15889))
