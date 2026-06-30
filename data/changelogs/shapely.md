@@ -1,3 +1,7 @@
+## 2.1.0.20260630 (2026-06-30)
+
+[shapely] Narrower types for geom_type in BaseGeometry subclasses ([#15955](https://github.com/python/typeshed/pull/15955))
+
 ## 2.1.0.20260603 (2026-06-03)
 
 [shapely] Type `kwargs` arguments ([#15859](https://github.com/python/typeshed/pull/15859))

@@ -1,3 +1,7 @@
+## 2026.6.28.20260630 (2026-06-30)
+
+[regex] Bump to 2026.6.28 ([#15964](https://github.com/python/typeshed/pull/15964))
+
 ## 2026.5.9.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

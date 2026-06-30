@@ -1,3 +1,13 @@
+## 4.0.8.20260630 (2026-06-30)
+
+[peewee] Update to 4.0.8 and improve stubs ([#15911](https://github.com/python/typeshed/pull/15911))
+
+* Add typed fields, queries, and update to some of the new APIs
+* Type the field classes
+* Type query results
+* Mark kwargs TypedDicts type_check_only and fix TypedDict import
+* Instead of separating get/set, just override for BigBitField.
+
 ## 4.0.5.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
