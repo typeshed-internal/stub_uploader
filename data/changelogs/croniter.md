@@ -1,3 +1,7 @@
+## 6.2.3.20260704 (2026-07-04)
+
+[croniter] Bump to 6.2.3 ([#15972](https://github.com/python/typeshed/pull/15972))
+
 ## 6.2.2.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
