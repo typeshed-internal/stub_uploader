@@ -1,3 +1,9 @@
+## 83.0.0.20260706 (2026-07-06)
+
+Bump setuptools to 83.0.* ([#15979](https://github.com/python/typeshed/pull/15979))
+
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## 82.0.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
