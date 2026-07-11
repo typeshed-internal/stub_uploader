@@ -1,3 +1,7 @@
+## 6.2.4.20260711 (2026-07-11)
+
+[croniter] Bump to 6.2.4 ([#15995](https://github.com/python/typeshed/pull/15995))
+
 ## 6.2.3.20260704 (2026-07-04)
 
 [croniter] Bump to 6.2.3 ([#15972](https://github.com/python/typeshed/pull/15972))
