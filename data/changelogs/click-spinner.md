@@ -1,3 +1,7 @@
+## 0.1.13.20260712 (2026-07-12)
+
+Structured obsolete_since fields ([#15682](https://github.com/python/typeshed/pull/15682))
+
 ## 0.1.13.20260625 (2026-06-25)
 
 [stubsabot] Mark click-spinner as obsolete since 0.2.0 ([#15936](https://github.com/python/typeshed/pull/15936))

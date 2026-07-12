@@ -1,3 +1,11 @@
+## 1.8.1.20260712 (2026-07-12)
+
+Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))
+
+Class members such as list, type, cursor, Model, and datetime shadow the builtins, classes, or modules referenced by nearby annotations. ty then resolves those annotations to Unknown, which can hide invalid calls in APIs including docker, sqlite3, psycopg2, Markdown, and requests.
+
+Qualify shadowed builtins and use private aliases for colliding imports and classes. This removes 15 stdlib and 120 third-party collision diagnostics under ty 0.0.58, restores the affected public types, and fixes four existing psycopg2 type assertions.
+
 ## 1.8.1.20260603 (2026-06-03)
 
 [pynput] Fix annotations for event callbacks ([#15857](https://github.com/python/typeshed/pull/15857))
