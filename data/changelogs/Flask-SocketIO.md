@@ -1,3 +1,7 @@
+## 5.6.0.20260713 (2026-07-13)
+
+[Flask-SocketIO] Annotate `event` and `room` arguments ([#16009](https://github.com/python/typeshed/pull/16009))
+
 ## 5.6.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

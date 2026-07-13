@@ -1,3 +1,7 @@
+## 26.1.0.20260713 (2026-07-13)
+
+[django-filter] Bump to 26.1.* ([#16008](https://github.com/python/typeshed/pull/16008))
+
 ## 25.2.0.20260508 (2026-05-08)
 
 Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
