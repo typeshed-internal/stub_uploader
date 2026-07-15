@@ -12,7 +12,7 @@ import urllib.parse
 from collections.abc import Generator, Iterable
 from glob import glob
 from pathlib import Path
-from typing import Any, Optional
+from typing import Any, LiteralString, Optional
 
 import requests
 from packaging.requirements import Requirement
@@ -99,20 +99,37 @@ class Metadata:
 
     @property
     def _unvalidated_dependencies(self) -> list[Dependency]:
-        def create_dependency(req_s: str) -> Dependency:
+        return self._create_dependencies("dependencies")
+
+    @property
+    def _unvalidated_optional_dependencies(self) -> list[Dependency]:
+        return self._create_dependencies("optional-dependencies")
+
+    def _create_dependencies(self, field_name: LiteralString) -> list[Dependency]:
+        dependency_names = self.data.get(field_name, [])
+        assert isinstance(dependency_names, list)
+
+        def create_dependency(req_s: object) -> Dependency:
+            assert isinstance(req_s, str)
             req = Requirement(req_s)
             return Dependency(req, canonical_name(req.name) in self.typeshed_pkgs)
 
-        return [create_dependency(req) for req in self.data.get("dependencies", [])]
+        return [create_dependency(req) for req in dependency_names]
 
     @functools.cached_property
     def dependencies(self) -> list[Dependency]:
-        """All dependencies."""
-        self.validate_dependencies()
+        """All non-optional dependencies."""
+        self._validate_dependencies(self._unvalidated_dependencies)
         return self._unvalidated_dependencies
 
-    def validate_dependencies(self) -> None:
-        for dep in self._unvalidated_dependencies:
+    @functools.cached_property
+    def optional_dependencies(self) -> list[Dependency]:
+        """All optional dependencies."""
+        self._validate_dependencies(self._unvalidated_optional_dependencies)
+        return self._unvalidated_optional_dependencies
+
+    def _validate_dependencies(self, dependencies: list[Dependency]) -> None:
+        for dep in dependencies:
             if not dep.is_typeshed_pkg:
                 verify_external_req(dep.requirement, self.upstream_distribution)
 
@@ -127,7 +144,8 @@ class Metadata:
                 return
             _verified.add(metadata.stub_distribution)
 
-            metadata.validate_dependencies()
+            metadata._validate_dependencies(self._unvalidated_dependencies)
+            metadata._validate_dependencies(self._unvalidated_optional_dependencies)
 
             # and recursively verify all our internal dependencies as well
             for dep in metadata._unvalidated_dependencies:
