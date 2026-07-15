@@ -144,8 +144,8 @@ class Metadata:
                 return
             _verified.add(metadata.stub_distribution)
 
-            metadata._validate_dependencies(self._unvalidated_dependencies)
-            metadata._validate_dependencies(self._unvalidated_optional_dependencies)
+            metadata._validate_dependencies(metadata._unvalidated_dependencies)
+            metadata._validate_dependencies(metadata._unvalidated_optional_dependencies)
 
             # and recursively verify all our internal dependencies as well
             for dep in metadata._unvalidated_dependencies:
