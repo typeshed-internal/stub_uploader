@@ -320,7 +320,7 @@ def test_parse_requirements__skipped_packages(name: str) -> None:
     ],
 )
 def test_upstream_repo_validation(data: dict[str, Any], expected: str | None) -> None:
-    m = Metadata("foo", data)
+    m = Metadata("foo", data, set())
     assert m.upstream_repository == expected
     assert type(m.upstream_repository) is type(expected)
 

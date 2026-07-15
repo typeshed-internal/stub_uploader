@@ -337,11 +337,8 @@ def generate_pyproject_file(
     metadata: Metadata,
     version: str,
 ) -> str:
-    """Auto-generate a setup.py file for given distribution using a template."""
-    all_requirements = [
-        str(req)
-        for req in metadata.dependencies_typeshed + metadata.dependencies_external
-    ]
+    """Generate a pyproject.toml file for a given distribution."""
+    dependencies = [str(dep) for dep in metadata.dependencies]
     requires_python = (
         metadata.requires_python
         if metadata.requires_python is not None
@@ -355,7 +352,7 @@ def generate_pyproject_file(
             build_data.distribution, ts_data, metadata
         ),
         version=version,
-        dependencies=all_requirements,
+        dependencies=dependencies,
         packages=pkg_data.top_level_packages,
         requires_python=requires_python,
         package_data="\n".join(package_data),
