@@ -134,7 +134,7 @@ class Metadata:
                 verify_external_req(dep.requirement, self.upstream_distribution)
 
     def validate_dependencies_recursively(self, typeshed_dir: str) -> set[str]:
-        # While metadata.dependencies_typeshed and metadata.dependencies_external will perform validation on the
+        # While metadata.dependencies and metadata.optional_dependencies will perform validation on the
         # stub distribution itself, it seems useful to be able to validate the transitive typeshed
         # dependency graph for a stub distribution
         _verified: set[str] = set()
