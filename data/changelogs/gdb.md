@@ -1,3 +1,12 @@
+## 16.3.0.20260712 (2026-07-12)
+
+[gdb] Allow gdb.Value to take a Buffer plus a Type ([#16006](https://github.com/python/typeshed/pull/16006))
+
+If a type is passed that is not None, it always goes through the
+buffer protocol, which interestingly means you can't pass
+an existing gdb.Value together with a type. You have to use the
+cast method for that purpose.
+
 ## 16.3.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

@@ -1,3 +1,7 @@
+## 0.4.0.20260712 (2026-07-12)
+
+Structured obsolete_since fields ([#15682](https://github.com/python/typeshed/pull/15682))
+
 ## 0.4.0.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

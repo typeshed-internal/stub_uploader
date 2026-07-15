@@ -1,3 +1,7 @@
+## 5.2.0.20260712 (2026-07-12)
+
+Structured obsolete_since fields ([#15682](https://github.com/python/typeshed/pull/15682))
+
 ## 5.2.0.20260519 (2026-05-19)
 
 [decorator] Mark as obsolete since 5.3.0 ([#15806](https://github.com/python/typeshed/pull/15806))

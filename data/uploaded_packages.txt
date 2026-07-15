@@ -203,6 +203,7 @@ types-pyjks
 types-pyluach
 types-pymssql
 types-pynput
+types-pyogrio
 types-pyperclip
 types-pyphen
 types-pyserial

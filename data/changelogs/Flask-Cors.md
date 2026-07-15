@@ -1,3 +1,7 @@
+## 6.0.3.20260712 (2026-07-12)
+
+Structured obsolete_since fields ([#15682](https://github.com/python/typeshed/pull/15682))
+
 ## 6.0.3.20260616 (2026-06-16)
 
 [Flask-Cors] Update type annotation for origins to also allow Pattern ([#15825](https://github.com/python/typeshed/pull/15825))

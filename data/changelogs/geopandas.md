@@ -1,3 +1,9 @@
+## 1.1.4.20260628 (2026-06-28)
+
+[geopandas] Change 'how' parameter type to Literal in overlay ([#15956](https://github.com/python/typeshed/pull/15956))
+
+[geopandas] Bump to 1.1.4 ([#15950](https://github.com/python/typeshed/pull/15950))
+
 ## 1.1.3.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

@@ -1,3 +1,7 @@
+## 1.82.1.20260711 (2026-07-11)
+
+[grpcio] Update to 1.82.1 ([#15986](https://github.com/python/typeshed/pull/15986))
+
 ## 1.0.0.20260614 (2026-06-14)
 
 [grpcio] Fix AioRpcError.trailing_metadata and Metadata iteration ([#15899](https://github.com/python/typeshed/pull/15899))

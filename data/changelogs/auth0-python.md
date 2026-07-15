@@ -1,3 +1,7 @@
+## 4.10.0.20260712 (2026-07-12)
+
+Structured obsolete_since fields ([#15682](https://github.com/python/typeshed/pull/15682))
+
 ## 4.10.0.20260509 (2026-05-09)
 
 [stubsabot] Mark auth0-python as obsolete since 5.4.0 ([#14697](https://github.com/python/typeshed/pull/14697))
