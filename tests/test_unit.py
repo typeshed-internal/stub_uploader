@@ -38,6 +38,7 @@ def test_ensure_specificity() -> None:
     assert ver == [1, 2, 3, 4, 5]
 
 
+DISTRIBUTION = "setuptools"
 TODAY = datetime.date(2024, 9, 12)
 TODAY_V = TODAY.strftime("%Y%m%d")
 TOMORROW_V = "20240913"
@@ -336,16 +337,28 @@ commit 337fd828e819988af2d3600283d8068bbbab7f50
     Bump setuptools to 80.7.* (#14069)
     
     Body text #12345 python/typeshed#12345 https://example.com/#123
+
+commit 58f581cea1a5040a733e6284adf81bf0793ac26a
+
+    [tqdm] Update to 4.67.2 (#15348)
+
+    Closes: #15347
+    Diff: https://github.com/tqdm/tqdm/compare/v4.67.1...v4.67.2
 """
     expected_entry = f"""\
-## 80.7.0.{TODAY_V} ({TODAY:%Y-%m-%d})
+## [80.7.0.{TODAY_V}](https://pypi.org/project/types-{DISTRIBUTION}/80.7.0.{TODAY_V}/) ({TODAY:%Y-%m-%d})
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-Bump setuptools to 80.7.* ([#14069](https://github.com/python/typeshed/pull/14069))
+* Bump setuptools to 80.7.* ([#14069](https://github.com/python/typeshed/pull/14069))
 
-Body text #12345 python/typeshed#12345 https://example.com/#123
+    Body text #12345 python/typeshed#12345 https://example.com/#123
+
+* Update to 4.67.2 ([#15348](https://github.com/python/typeshed/pull/15348))
+
+    Closes: #15347 \\
+    Diff: https://github.com/tqdm/tqdm/compare/v4.67.1...v4.67.2
 
 """
-    actual_entry = process_git_log(git_log, f"80.7.0.{TODAY_V}", TODAY)
+    actual_entry = process_git_log(git_log, DISTRIBUTION, f"80.7.0.{TODAY_V}", TODAY)
     assert actual_entry == expected_entry
