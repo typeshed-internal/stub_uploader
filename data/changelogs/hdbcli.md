@@ -1,3 +1,7 @@
+## 2.29.0.20260716 (2026-07-16)
+
+[hdbcli] Bump to 2.29.* and add async types ([#15332](https://github.com/python/typeshed/pull/15332))
+
 ## 2.25.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
