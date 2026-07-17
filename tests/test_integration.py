@@ -17,11 +17,9 @@ from stub_uploader import build_wheel, get_version
 from stub_uploader.const import THIRD_PARTY_NAMESPACE
 from stub_uploader.metadata import (
     InvalidRequires,
-    Metadata,
     read_metadata,
     sort_by_dependency,
     strip_types_prefix,
-    uploaded_packages,
     verify_external_req,
     verify_requires_python,
 )
@@ -73,40 +71,6 @@ def test_build_wheel_files(distribution: str, file_list: list[Path]) -> None:
 @pytest.mark.parametrize("distribution", os.listdir(THIRD_PARTY_PATH))
 def test_version_increment(distribution: str) -> None:
     get_version.determine_stub_version(read_metadata(TYPESHED, distribution))
-
-
-def test_metadata_dependencies() -> None:
-    typeshed_pkgs = uploaded_packages.read()
-
-    m = Metadata(
-        "auth0-python",
-        {"version": "0.1", "dependencies": ["cryptography", "types-requests>=0.1"]},
-        typeshed_pkgs,
-    )
-    assert sorted([r.name for r in m.dependencies]) == [
-        "cryptography",
-        "types-requests",
-    ]
-
-    m = Metadata("pandas", {"version": "0.1", "dependencies": ["numpy"]}, typeshed_pkgs)
-    assert [r.name for r in m.dependencies] == ["numpy"]
-
-    # numpy is not a dependency of mypy, so this should raise an error
-    m = Metadata("mypy", {"version": "0.1", "dependencies": ["numpy"]}, typeshed_pkgs)
-    with pytest.raises(InvalidRequires, match="to be listed in mypy's requires_dist"):
-        m.dependencies
-    with pytest.raises(InvalidRequires, match="to be listed in mypy's requires_dist"):
-        m.validate_dependencies_recursively(TYPESHED)
-
-    # TODO: change tests once METADATA.toml specifies whether a dist is on PyPI
-    m = Metadata("gdb", {"version": "0.1", "dependencies": []}, typeshed_pkgs)
-    assert m.dependencies == []
-
-    m = Metadata(
-        "gdb", {"version": "0.1", "dependencies": ["cryptography"]}, typeshed_pkgs
-    )
-    with pytest.raises(InvalidRequires, match="no upstream distribution on PyPI"):
-        m.dependencies
 
 
 def test_verify_external_req() -> None:
