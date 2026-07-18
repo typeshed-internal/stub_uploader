@@ -1,3 +1,7 @@
+## [2.4.0.20260718](https://pypi.org/project/types-hvac/2.4.0.20260718/) (2026-07-18)
+
+* Add dynamic attributes and return types ([#16023](https://github.com/python/typeshed/pull/16023))
+
 ## 2.4.0.20260610 (2026-06-10)
 
 Change dependencies from types-requests to requests ([#15813](https://github.com/python/typeshed/pull/15813))
