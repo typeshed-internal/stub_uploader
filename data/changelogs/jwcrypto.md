@@ -1,3 +1,7 @@
+## [1.5.8.20260720](https://pypi.org/project/types-jwcrypto/1.5.8.20260720/) (2026-07-20)
+
+* Update to 1.5.8 ([#16039](https://github.com/python/typeshed/pull/16039))
+
 ## 1.5.7.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

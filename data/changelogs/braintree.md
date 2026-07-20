@@ -1,3 +1,7 @@
+## [4.45.0.20260720](https://pypi.org/project/types-braintree/4.45.0.20260720/) (2026-07-20)
+
+* Update to 4.45.* ([#16040](https://github.com/python/typeshed/pull/16040))
+
 ## 4.44.0.20260602 (2026-06-02)
 
 [braintree] Update to 4.44.* ([#15850](https://github.com/python/typeshed/pull/15850))

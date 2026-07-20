@@ -1,3 +1,7 @@
+## [3.0.0.20260720](https://pypi.org/project/types-xmldiff/3.0.0.20260720/) (2026-07-20)
+
+* Update to 3.0.* ([#16041](https://github.com/python/typeshed/pull/16041))
+
 ## 2.7.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

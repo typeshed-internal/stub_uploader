@@ -1,3 +1,7 @@
+## [4.69.0.20260720](https://pypi.org/project/types-tqdm/4.69.0.20260720/) (2026-07-20)
+
+* Update to 4.69.* ([#16030](https://github.com/python/typeshed/pull/16030))
+
 ## 4.68.0.20260608 (2026-06-08)
 
 [tqdm] Update to 4.68.* ([#15876](https://github.com/python/typeshed/pull/15876))

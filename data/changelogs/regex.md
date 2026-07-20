@@ -1,3 +1,7 @@
+## [2026.7.19.20260720](https://pypi.org/project/types-regex/2026.7.19.20260720/) (2026-07-20)
+
+* Bump to 2026.7.19 ([#16027](https://github.com/python/typeshed/pull/16027))
+
 ## 2026.7.10.20260711 (2026-07-11)
 
 [regex] Bump to 2026.7.10 ([#15996](https://github.com/python/typeshed/pull/15996))

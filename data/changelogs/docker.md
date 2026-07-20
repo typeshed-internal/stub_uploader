@@ -1,3 +1,7 @@
+## [7.2.0.20260720](https://pypi.org/project/types-docker/7.2.0.20260720/) (2026-07-20)
+
+* Update to 7.2.* ([#16029](https://github.com/python/typeshed/pull/16029))
+
 ## 7.1.0.20260712 (2026-07-12)
 
 Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))
