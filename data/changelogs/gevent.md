@@ -1,3 +1,26 @@
+## [26.5.0.20260721](https://pypi.org/project/types-gevent/26.5.0.20260721/) (2026-07-21)
+
+* Bump gevent to 26.5.* ([#15821](https://github.com/python/typeshed/pull/15821))
+
+    Release: https://pypi.org/pypi/gevent/26.5.0 \
+    Homepage: http://www.gevent.org/ \
+    Repository: https://github.com/gevent/gevent \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/gevent \
+    Changelog: https://www.gevent.org/changelog.html \
+    Diff: https://github.com/gevent/gevent/compare/26.4.0...26.5.0
+
+    Stubsabot analysis of the diff between the two releases:
+     - Total lines of Python code added: 40139.
+     - Total lines of Python code deleted: 7.
+
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
+
+    Note that you will need to close and re-open the PR in order to trigger CI
+
+    Co-authored-by: stubsabot <>
+
 ## 26.4.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

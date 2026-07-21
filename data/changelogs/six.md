@@ -1,3 +1,7 @@
+## [1.17.0.20260721](https://pypi.org/project/types-six/1.17.0.20260721/) (2026-07-21)
+
+* convert `callable` assignment to re-export ([#16052](https://github.com/python/typeshed/pull/16052))
+
 ## 1.17.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
