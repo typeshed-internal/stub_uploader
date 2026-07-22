@@ -1,3 +1,7 @@
+## [1.4.0.20260722](https://pypi.org/project/types-pika/1.4.0.20260722/) (2026-07-22)
+
+* Complete adapters.utils ([#16061](https://github.com/python/typeshed/pull/16061))
+
 ## 1.4.0.20260712 (2026-07-12)
 
 Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))

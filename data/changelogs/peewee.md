@@ -1,3 +1,7 @@
+## [4.1.2.20260722](https://pypi.org/project/types-peewee/4.1.2.20260722/) (2026-07-22)
+
+* Update to 4.1.2 ([#16049](https://github.com/python/typeshed/pull/16049))
+
 ## 4.0.8.20260712 (2026-07-12)
 
 Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))

@@ -1,3 +1,7 @@
+## [2026.7.4.20260722](https://pypi.org/project/types-yt-dlp/2026.7.4.20260722/) (2026-07-22)
+
+* Update to 2026.7.4 ([#16044](https://github.com/python/typeshed/pull/16044))
+
 ## 2026.3.17.20260716 (2026-07-16)
 
 Run ty on typeshed stubs in CI ([#16013](https://github.com/python/typeshed/pull/16013))

@@ -1,3 +1,7 @@
+## [7.2.0.20260722](https://pypi.org/project/types-docker/7.2.0.20260722/) (2026-07-22)
+
+* Replace *args and **kwargs with explicit parameters ([#16045](https://github.com/python/typeshed/pull/16045))
+
 ## [7.2.0.20260720](https://pypi.org/project/types-docker/7.2.0.20260720/) (2026-07-20)
 
 * Update to 7.2.* ([#16029](https://github.com/python/typeshed/pull/16029))

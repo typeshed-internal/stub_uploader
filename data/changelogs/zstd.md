@@ -1,3 +1,10 @@
+## [1.5.7.3.20260722](https://pypi.org/project/types-zstd/1.5.7.3.20260722/) (2026-07-22)
+
+* Disable stubtest ([#16057](https://github.com/python/typeshed/pull/16057))
+
+    zstd 1.5.7.2 has been yanked, which is why stubtest \
+    currently fails.
+
 ## 1.5.7.3.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

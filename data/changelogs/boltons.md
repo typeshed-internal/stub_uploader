@@ -1,3 +1,7 @@
+## [26.1.0.20260722](https://pypi.org/project/types-boltons/26.1.0.20260722/) (2026-07-22)
+
+* Update to 26.1.* ([#16058](https://github.com/python/typeshed/pull/16058))
+
 ## 25.0.0.20260612 (2026-06-12)
 
 [boltons] Improve dictutils stubs ([#15879](https://github.com/python/typeshed/pull/15879))
