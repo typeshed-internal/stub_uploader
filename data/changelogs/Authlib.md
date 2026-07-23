@@ -1,3 +1,7 @@
+## [1.7.2.20260723](https://pypi.org/project/types-Authlib/1.7.2.20260723/) (2026-07-23)
+
+* Update to 1.7.2 ([#16069](https://github.com/python/typeshed/pull/16069))
+
 ## [1.7.1.20260722](https://pypi.org/project/types-Authlib/1.7.1.20260722/) (2026-07-22)
 
 * Update to 1.7.1 ([#15741](https://github.com/python/typeshed/pull/15741))

@@ -1,3 +1,7 @@
+## [1.4.0.20260723](https://pypi.org/project/types-pika/1.4.0.20260723/) (2026-07-23)
+
+* Complete adapters ([#16073](https://github.com/python/typeshed/pull/16073))
+
 ## [1.4.0.20260722](https://pypi.org/project/types-pika/1.4.0.20260722/) (2026-07-22)
 
 * Complete adapters.utils ([#16061](https://github.com/python/typeshed/pull/16061))
