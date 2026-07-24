@@ -1,3 +1,7 @@
+## [1.7.2.20260724](https://pypi.org/project/types-Authlib/1.7.2.20260724/) (2026-07-24)
+
+* Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
+
 ## [1.7.2.20260723](https://pypi.org/project/types-Authlib/1.7.2.20260723/) (2026-07-23)
 
 * Update to 1.7.2 ([#16069](https://github.com/python/typeshed/pull/16069))

@@ -1,3 +1,7 @@
+## [1.82.1.20260724](https://pypi.org/project/types-grpcio/1.82.1.20260724/) (2026-07-24)
+
+* Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
+
 ## 1.82.1.20260711 (2026-07-11)
 
 [grpcio] Update to 1.82.1 ([#15986](https://github.com/python/typeshed/pull/15986))

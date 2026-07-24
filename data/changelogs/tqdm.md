@@ -1,3 +1,7 @@
+## [4.69.0.20260724](https://pypi.org/project/types-tqdm/4.69.0.20260724/) (2026-07-24)
+
+* Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
+
 ## [4.69.0.20260720](https://pypi.org/project/types-tqdm/4.69.0.20260720/) (2026-07-20)
 
 * Update to 4.69.* ([#16030](https://github.com/python/typeshed/pull/16030))

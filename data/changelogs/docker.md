@@ -1,3 +1,7 @@
+## [7.2.0.20260724](https://pypi.org/project/types-docker/7.2.0.20260724/) (2026-07-24)
+
+* Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
+
 ## [7.2.0.20260722](https://pypi.org/project/types-docker/7.2.0.20260722/) (2026-07-22)
 
 * Replace *args and **kwargs with explicit parameters ([#16045](https://github.com/python/typeshed/pull/16045))

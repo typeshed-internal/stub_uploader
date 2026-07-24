@@ -1,3 +1,7 @@
+## [3.0.1.20260724](https://pypi.org/project/types-waitress/3.0.1.20260724/) (2026-07-24)
+
+* Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
+
 ## 3.0.1.20260508 (2026-05-08)
 
 Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))

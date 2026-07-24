@@ -1,3 +1,7 @@
+## [2.4.0.20260724](https://pypi.org/project/types-hvac/2.4.0.20260724/) (2026-07-24)
+
+* Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
+
 ## [2.4.0.20260718](https://pypi.org/project/types-hvac/2.4.0.20260718/) (2026-07-18)
 
 * Add dynamic attributes and return types ([#16023](https://github.com/python/typeshed/pull/16023))

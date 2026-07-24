@@ -1,3 +1,7 @@
+## [4.1.0.20260724](https://pypi.org/project/types-simplejson/4.1.0.20260724/) (2026-07-24)
+
+* Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
+
 ## [4.1.0.20260722](https://pypi.org/project/types-simplejson/4.1.0.20260722/) (2026-07-22)
 
 * Update to 4.1.* ([#16046](https://github.com/python/typeshed/pull/16046))

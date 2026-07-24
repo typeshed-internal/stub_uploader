@@ -1,3 +1,7 @@
+## [2026.7.4.20260724](https://pypi.org/project/types-yt-dlp/2026.7.4.20260724/) (2026-07-24)
+
+* Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
+
 ## [2026.7.4.20260722](https://pypi.org/project/types-yt-dlp/2026.7.4.20260722/) (2026-07-22)
 
 * Update to 2026.7.4 ([#16044](https://github.com/python/typeshed/pull/16044))

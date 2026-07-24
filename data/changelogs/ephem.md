@@ -1,3 +1,7 @@
+## [4.2.0.20260724](https://pypi.org/project/types-ephem/4.2.0.20260724/) (2026-07-24)
+
+* Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
+
 ## 4.2.0.20260712 (2026-07-12)
 
 Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))

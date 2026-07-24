@@ -1,3 +1,7 @@
+## [2.8.4.20260724](https://pypi.org/project/types-fpdf2/2.8.4.20260724/) (2026-07-24)
+
+* Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
+
 ## 2.8.4.20260712 (2026-07-12)
 
 Structured obsolete_since fields ([#15682](https://github.com/python/typeshed/pull/15682))

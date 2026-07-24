@@ -1,3 +1,7 @@
+## [312.0.0.20260724](https://pypi.org/project/types-pywin32/312.0.0.20260724/) (2026-07-24)
+
+* Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
+
 ## 312.0.0.20260609 (2026-06-09)
 
 Fix type errors in pywin32 using types-pywin32 ([#13844](https://github.com/python/typeshed/pull/13844))

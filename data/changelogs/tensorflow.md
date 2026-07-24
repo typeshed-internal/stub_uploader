@@ -1,3 +1,7 @@
+## [2.18.0.20260724](https://pypi.org/project/types-tensorflow/2.18.0.20260724/) (2026-07-24)
+
+* Make `name` parameter in some `__getattr__` functions/methods positional-only ([#15819](https://github.com/python/typeshed/pull/15819))
+
 ## 2.18.0.20260712 (2026-07-12)
 
 Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))

@@ -1,3 +1,7 @@
+## [26.1.0.20260724](https://pypi.org/project/types-boltons/26.1.0.20260724/) (2026-07-24)
+
+* Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
+
 ## [26.1.0.20260722](https://pypi.org/project/types-boltons/26.1.0.20260722/) (2026-07-22)
 
 * Update to 26.1.* ([#16058](https://github.com/python/typeshed/pull/16058))

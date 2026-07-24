@@ -1,3 +1,7 @@
+## [83.0.0.20260724](https://pypi.org/project/types-setuptools/83.0.0.20260724/) (2026-07-24)
+
+* Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
+
 ## 83.0.0.20260716 (2026-07-16)
 
 Run ty on typeshed stubs in CI ([#16013](https://github.com/python/typeshed/pull/16013))

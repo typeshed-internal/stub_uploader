@@ -1,3 +1,7 @@
+## [5.0.0.20260724](https://pypi.org/project/types-paramiko/5.0.0.20260724/) (2026-07-24)
+
+* Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
+
 ## 5.0.0.20260617 (2026-06-17)
 
 [paramiko] Update to 5.0.0 ([#15907](https://github.com/python/typeshed/pull/15907))

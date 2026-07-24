@@ -1,3 +1,7 @@
+## [3.6.1.20260724](https://pypi.org/project/types-networkx/3.6.1.20260724/) (2026-07-24)
+
+* Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
+
 ## 3.6.1.20260624 (2026-06-24)
 
 [networkx] Fix regression tests ([#15932](https://github.com/python/typeshed/pull/15932))

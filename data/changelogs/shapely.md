@@ -1,3 +1,7 @@
+## [2.1.0.20260724](https://pypi.org/project/types-shapely/2.1.0.20260724/) (2026-07-24)
+
+* Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
+
 ## 2.1.0.20260630 (2026-06-30)
 
 [shapely] Narrower types for geom_type in BaseGeometry subclasses ([#15955](https://github.com/python/typeshed/pull/15955))

@@ -194,6 +194,7 @@ types-pyasn1
 types-pyaudio
 types-pycocotools
 types-pycountry
+types-pycups
 types-pycurl
 types-pyfarmhash
 types-pyflakes
@@ -225,6 +226,7 @@ types-pywin32
 types-pyxdg
 types-qrbill
 types-qrcode
+types-rasterio
 types-ratelimit
 types-redis
 types-regex

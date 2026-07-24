@@ -1,3 +1,7 @@
+## [1.17.0.20260724](https://pypi.org/project/types-six/1.17.0.20260724/) (2026-07-24)
+
+* Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
+
 ## [1.17.0.20260721](https://pypi.org/project/types-six/1.17.0.20260721/) (2026-07-21)
 
 * convert `callable` assignment to re-export ([#16052](https://github.com/python/typeshed/pull/16052))
