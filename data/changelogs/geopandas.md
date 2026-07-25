@@ -1,3 +1,7 @@
+## [1.1.4.20260725](https://pypi.org/project/types-geopandas/1.1.4.20260725/) (2026-07-25)
+
+* Replace NoReturn with Never ([#16085](https://github.com/python/typeshed/pull/16085))
+
 ## 1.1.4.20260716 (2026-07-16)
 
 Run ty on typeshed stubs in CI ([#16013](https://github.com/python/typeshed/pull/16013))

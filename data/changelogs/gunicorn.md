@@ -1,3 +1,9 @@
+## [26.0.0.20260725](https://pypi.org/project/types-gunicorn/26.0.0.20260725/) (2026-07-25)
+
+* Use precise TypedDicts for ctl and dirty protocols ([#16087](https://github.com/python/typeshed/pull/16087))
+
+* Use TypedDict for proxy_protocol_info ([#16003](https://github.com/python/typeshed/pull/16003))
+
 ## [26.0.0.20260724](https://pypi.org/project/types-gunicorn/26.0.0.20260724/) (2026-07-24)
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))

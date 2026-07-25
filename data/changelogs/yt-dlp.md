@@ -1,3 +1,9 @@
+## [2026.7.4.20260725](https://pypi.org/project/types-yt-dlp/2026.7.4.20260725/) (2026-07-25)
+
+* Remove unused websockets dependency ([#16086](https://github.com/python/typeshed/pull/16086))
+
+* Fix signature of PostProcessor.to_screen ([#16084](https://github.com/python/typeshed/pull/16084))
+
 ## [2026.7.4.20260724](https://pypi.org/project/types-yt-dlp/2026.7.4.20260724/) (2026-07-24)
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))

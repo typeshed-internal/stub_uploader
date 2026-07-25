@@ -1,3 +1,7 @@
+## [1.4.0.20260725](https://pypi.org/project/types-pika/1.4.0.20260725/) (2026-07-25)
+
+* Complete merging stubs ([#16081](https://github.com/python/typeshed/pull/16081))
+
 ## [1.4.0.20260723](https://pypi.org/project/types-pika/1.4.0.20260723/) (2026-07-23)
 
 * Complete adapters ([#16073](https://github.com/python/typeshed/pull/16073))
