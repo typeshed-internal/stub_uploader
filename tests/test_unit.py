@@ -8,12 +8,21 @@ from pathlib import Path
 from typing import Any
 
 import pytest
+from packaging.requirements import Requirement
 from packaging.specifiers import Specifier
 from packaging.version import Version
 
-from stub_uploader.build_wheel import collect_package_data
+from stub_uploader.build_wheel import (
+    collect_package_data,
+    generate_optional_dependencies_table,
+)
 from stub_uploader.get_version import compute_stub_version, ensure_specificity
-from stub_uploader.metadata import Metadata, _UploadedPackages, strip_types_prefix
+from stub_uploader.metadata import (
+    Dependency,
+    Metadata,
+    _UploadedPackages,
+    strip_types_prefix,
+)
 from stub_uploader.ts_data import TypeshedData, parse_requirements, read_typeshed_data
 from stub_uploader.update_changelog import process_git_log
 
@@ -362,3 +371,23 @@ commit 58f581cea1a5040a733e6284adf81bf0793ac26a
 """
     actual_entry = process_git_log(git_log, DISTRIBUTION, f"80.7.0.{TODAY_V}", TODAY)
     assert actual_entry == expected_entry
+
+
+def test_optional_dependencies_table() -> None:
+    actual_table = generate_optional_dependencies_table(
+        [
+            Dependency(Requirement("numpy"), False),
+            Dependency(Requirement("types-requests>=0.1"), True),
+            Dependency(Requirement("pandas-stubs"), False),
+        ]
+    )
+    expected_table = """\
+[project.optional-dependencies]
+all = ['numpy', 'types-requests>=0.1', 'pandas-stubs']
+numpy = ['numpy']
+requests = ['types-requests>=0.1']
+pandas = ['pandas-stubs']\
+"""
+
+    assert generate_optional_dependencies_table([]) == ""
+    assert actual_table == expected_table
