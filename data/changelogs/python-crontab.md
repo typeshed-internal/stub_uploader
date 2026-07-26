@@ -1,3 +1,7 @@
+## [3.3.0.20260726](https://pypi.org/project/types-python-crontab/3.3.0.20260726/) (2026-07-26)
+
+* Add default values ([#16088](https://github.com/python/typeshed/pull/16088))
+
 ## 3.3.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
