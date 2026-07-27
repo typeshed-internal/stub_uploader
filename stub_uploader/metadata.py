@@ -166,10 +166,6 @@ class Metadata:
         obsolete = self.data.get("obsolete-since")
         if obsolete is None:
             return None
-        # TODO: Remove once typeshed stops using the old format for this field.
-        # See python/typeshed#15682.
-        if isinstance(obsolete, str):
-            return obsolete
         assert isinstance(obsolete, dict)
         version = obsolete.get("version")
         assert isinstance(version, str)
