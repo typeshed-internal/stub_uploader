@@ -245,7 +245,7 @@ def _build_requirements(
     if pyright is not None:
         req += f"\npyright=={pyright}"
     if ty is not None:
-        req += f"\nty={ty}"
+        req += f"\nty=={ty}"
     return req
 
 
