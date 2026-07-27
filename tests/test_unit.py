@@ -23,7 +23,12 @@ from stub_uploader.metadata import (
     _UploadedPackages,
     strip_types_prefix,
 )
-from stub_uploader.ts_data import TypeshedData, parse_requirements, read_typeshed_data
+from stub_uploader.ts_data import (
+    TypeChecker,
+    TypeshedData,
+    parse_requirements,
+    read_typeshed_data,
+)
 from stub_uploader.update_changelog import process_git_log
 
 
@@ -262,7 +267,9 @@ def test_read_typeshed_data__success() -> None:
     req = _build_requirements(mypy="1.11.1")
     data = _test_typeshed_data(pp, req)
     assert data.oldest_supported_python == "3.10"
-    assert data.mypy_version == Version("1.11.1")
+    assert data.type_checkers[0] == TypeChecker(
+        "mypy", Version("1.11.1"), "https://github.com/python/mypy/"
+    )
 
 
 def test_read_typeshed_data__oldest_python_missing() -> None:
