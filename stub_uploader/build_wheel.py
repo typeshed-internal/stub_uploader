@@ -22,6 +22,7 @@ import shutil
 import subprocess
 import sys
 import tempfile
+from collections.abc import Iterable
 from pathlib import Path
 from textwrap import dedent
 
@@ -31,7 +32,12 @@ from stub_uploader.const import (
     TESTS_NAMESPACE,
     THIRD_PARTY_NAMESPACE,
 )
-from stub_uploader.metadata import Metadata, read_metadata
+from stub_uploader.metadata import (
+    EXTERNAL_RUNTIME_REQ_MAP,
+    Dependency,
+    Metadata,
+    read_metadata,
+)
 from stub_uploader.ts_data import TypeshedData, read_typeshed_data
 
 CHANGELOG = "CHANGELOG.md"
@@ -62,6 +68,8 @@ classifiers = [
 ]
 requires-python = "{requires_python}"
 dependencies = {dependencies}
+
+{optional_dependencies_table}
 
 [project.urls]
 "Homepage" = "https://github.com/python/typeshed"
@@ -330,6 +338,23 @@ def is_ignored_distribution_file(entry: Path) -> bool:
     return False
 
 
+def generate_optional_dependencies_table(dependencies: Iterable[Dependency]) -> str:
+    """Generate the [project.optional-dependencies] table."""
+    if not dependencies:
+        return ""
+
+    lines = [
+        "[project.optional-dependencies]",
+        f"all = {[str(dep) for dep in dependencies]}",
+    ]
+
+    for dep in dependencies:
+        base_name = EXTERNAL_RUNTIME_REQ_MAP.get(dep.base_name, dep.base_name)
+        lines.append(f"{base_name} = {[str(dep)]}")
+
+    return "\n".join(lines)
+
+
 def generate_pyproject_file(
     ts_data: TypeshedData,
     build_data: BuildData,
@@ -339,6 +364,9 @@ def generate_pyproject_file(
 ) -> str:
     """Generate a pyproject.toml file for a given distribution."""
     dependencies = [str(dep) for dep in metadata.dependencies]
+    optional_dependencies_table = generate_optional_dependencies_table(
+        metadata.optional_dependencies
+    )
     requires_python = (
         metadata.requires_python
         if metadata.requires_python is not None
@@ -353,6 +381,7 @@ def generate_pyproject_file(
         ),
         version=version,
         dependencies=dependencies,
+        optional_dependencies_table=optional_dependencies_table,
         packages=pkg_data.top_level_packages,
         requires_python=requires_python,
         package_data="\n".join(package_data),
