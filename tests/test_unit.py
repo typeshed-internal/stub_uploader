@@ -24,6 +24,7 @@ from stub_uploader.metadata import (
     strip_types_prefix,
 )
 from stub_uploader.ts_data import (
+    TYPE_CHECKERS,
     TypeChecker,
     TypeshedData,
     parse_requirements,
@@ -238,19 +239,13 @@ no_version
 """
 
 
-def _build_requirements(
-    *,
-    mypy: str | None = "1.11.1",
-    pyright: str | None = "1.1.381",
-    ty: str | None = "0.0.59",
-) -> str:
+def _build_requirements(*, mypy: str | None = "1.11.1") -> str:
     req = _REQUIREMENTS_TXT
     if mypy is not None:
         req += f"\nmypy=={mypy}"
-    if pyright is not None:
-        req += f"\npyright=={pyright}"
-    if ty is not None:
-        req += f"\nty=={ty}"
+    for tc in TYPE_CHECKERS:
+        if tc[0] != "mypy":
+            req += f"\n{tc[0]}==1.0.0"
     return req
 
 
