@@ -118,6 +118,7 @@ directory.
 This package was tested with the following type checkers:
 * [mypy](https://github.com/python/mypy/) {ts_data.mypy_version}
 * [pyright](https://github.com/microsoft/pyright) {ts_data.pyright_version}
+* [ty](https://docs.astral.sh/ty/) {ts_data.ty_version}
 
 It was generated from typeshed commit
 [`{commit}`](https://github.com/python/typeshed/commit/{commit}).
@@ -224,9 +225,9 @@ def find_stub_files(top: str) -> list[str]:
         for file in files:
             if file.endswith(".pyi"):
                 name, _ = os.path.splitext(file)
-                assert (
-                    name.isidentifier()
-                ), "All file names must be valid Python modules"
+                assert name.isidentifier(), (
+                    "All file names must be valid Python modules"
+                )
                 result.append(os.path.relpath(os.path.join(root, file), top))
             elif file == "py.typed":
                 result.append(os.path.relpath(os.path.join(root, file), top))
