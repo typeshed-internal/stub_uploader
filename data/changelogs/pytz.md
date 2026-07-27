@@ -1,3 +1,7 @@
+## [2026.3.1.20260727](https://pypi.org/project/types-pytz/2026.3.1.20260727/) (2026-07-27)
+
+* Bump to 2026.3.post1 ([#16091](https://github.com/python/typeshed/pull/16091))
+
 ## 2026.2.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

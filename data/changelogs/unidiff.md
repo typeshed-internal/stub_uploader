@@ -1,3 +1,7 @@
+## [0.7.0.20260727](https://pypi.org/project/types-unidiff/0.7.0.20260727/) (2026-07-27)
+
+* Mark as obsolete since 1.0.0 ([#16090](https://github.com/python/typeshed/pull/16090))
+
 ## 0.7.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
