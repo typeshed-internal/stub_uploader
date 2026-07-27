@@ -49,7 +49,8 @@ This stub package is marked as [partial](https://typing.python.org/en/latest/spe
 If you find that annotations are missing, feel free to contribute and help complete them.
 """.lstrip()
 
-PYPROJECT_TEMPLATE = dedent("""
+PYPROJECT_TEMPLATE = dedent(
+    """
 [build-system]
 build-backend = "setuptools.build_meta"
 requires = ["setuptools>=82.0.1"]
@@ -83,7 +84,8 @@ include-package-data = false
 
 [tool.setuptools.package-data]
 {package_data}
-""").lstrip()
+"""
+).lstrip()
 
 NO_LONGER_UPDATED_TEMPLATE = """
 *Note:* `{stub_distribution}` is unmaintained and won't be updated.
