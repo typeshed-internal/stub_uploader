@@ -1,6 +1,6 @@
 # scripts
 packaging
-requests < 2.30.0
+requests
 
 # build and upload
 build
@@ -13,4 +13,4 @@ pytest
 types-requests
 
 # formatting
-black >= 24.1.1, < 25
+black >= 26.5.1, < 27
