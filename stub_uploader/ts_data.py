@@ -24,6 +24,7 @@ class TypeshedData:
     typeshed_path: Path
     mypy_version: Version
     pyright_version: Version
+    ty_version: Version
     oldest_supported_python: str
 
     def read_current_commit(self) -> str:
@@ -48,6 +49,7 @@ def read_typeshed_data(typeshed_path: Path) -> TypeshedData:
         typeshed_path=typeshed_path,
         mypy_version=Version(requirements["mypy"]),
         pyright_version=Version(requirements["pyright"]),
+        ty_version=Version(requirements["ty"]),
         oldest_supported_python=oldest_supported_python,
     )
 
