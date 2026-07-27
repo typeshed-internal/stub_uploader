@@ -13,4 +13,4 @@ pytest
 types-requests
 
 # formatting
-black >= 24.1.1, < 25
+black >= 26.5.1, < 27
