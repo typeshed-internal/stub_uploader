@@ -1,3 +1,7 @@
+## [6.4.0.20260728](https://pypi.org/project/types-bleach/6.4.0.20260728/) (2026-07-28)
+
+* Use optional-dependencies for third-party packages ([#16089](https://github.com/python/typeshed/pull/16089))
+
 ## 6.4.0.20260607 (2026-06-07)
 
 [stubsabot] Bump bleach to 6.4.* ([#15873](https://github.com/python/typeshed/pull/15873))

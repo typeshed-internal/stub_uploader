@@ -1,3 +1,7 @@
+## [3.6.1.20260728](https://pypi.org/project/types-networkx/3.6.1.20260728/) (2026-07-28)
+
+* Improve type coverage ([#16028](https://github.com/python/typeshed/pull/16028))
+
 ## [3.6.1.20260724](https://pypi.org/project/types-networkx/3.6.1.20260724/) (2026-07-24)
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))

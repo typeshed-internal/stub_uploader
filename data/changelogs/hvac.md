@@ -1,3 +1,9 @@
+## [2.4.0.20260728](https://pypi.org/project/types-hvac/2.4.0.20260728/) (2026-07-28)
+
+* Add argument types for Kv, KvV1, KvV2 & Kubernetes ([#16093](https://github.com/python/typeshed/pull/16093))
+
+    fix(hvac): add argument types for kv & kubernetes
+
 ## [2.4.0.20260724](https://pypi.org/project/types-hvac/2.4.0.20260724/) (2026-07-24)
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))

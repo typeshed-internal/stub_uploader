@@ -1,3 +1,7 @@
+## [5.6.0.20260728](https://pypi.org/project/types-Flask-SocketIO/5.6.0.20260728/) (2026-07-28)
+
+* Use optional-dependencies for third-party packages ([#16089](https://github.com/python/typeshed/pull/16089))
+
 ## 5.6.0.20260713 (2026-07-13)
 
 [Flask-SocketIO] Annotate `event` and `room` arguments ([#16009](https://github.com/python/typeshed/pull/16009))

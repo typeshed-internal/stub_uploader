@@ -1,3 +1,7 @@
+## [0.13.2.20260728](https://pypi.org/project/types-seaborn/0.13.2.20260728/) (2026-07-28)
+
+* Use optional-dependencies for third-party packages ([#16089](https://github.com/python/typeshed/pull/16089))
+
 ## [0.13.2.20260724](https://pypi.org/project/types-seaborn/0.13.2.20260724/) (2026-07-24)
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))

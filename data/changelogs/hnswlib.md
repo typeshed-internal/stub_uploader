@@ -1,3 +1,7 @@
+## [0.8.0.20260728](https://pypi.org/project/types-hnswlib/0.8.0.20260728/) (2026-07-28)
+
+* Use optional-dependencies for third-party packages ([#16089](https://github.com/python/typeshed/pull/16089))
+
 ## 0.8.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

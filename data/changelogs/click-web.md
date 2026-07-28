@@ -1,3 +1,7 @@
+## [0.8.0.20260728](https://pypi.org/project/types-click-web/0.8.0.20260728/) (2026-07-28)
+
+* Use optional-dependencies for third-party packages ([#16089](https://github.com/python/typeshed/pull/16089))
+
 ## 0.8.0.20260518 (2026-05-18)
 
 Parametrize `click.types.ParamType` as base class in `click_web.web_click_types` ([#15803](https://github.com/python/typeshed/pull/15803))

@@ -1,3 +1,7 @@
+## [1.1.4.20260728](https://pypi.org/project/types-geopandas/1.1.4.20260728/) (2026-07-28)
+
+* Use optional-dependencies for third-party packages ([#16089](https://github.com/python/typeshed/pull/16089))
+
 ## [1.1.4.20260725](https://pypi.org/project/types-geopandas/1.1.4.20260725/) (2026-07-25)
 
 * Replace NoReturn with Never ([#16085](https://github.com/python/typeshed/pull/16085))

@@ -1,3 +1,7 @@
+## [1.3.1.20260728](https://pypi.org/project/types-Deprecated/1.3.1.20260728/) (2026-07-28)
+
+* Use optional-dependencies for third-party packages ([#16089](https://github.com/python/typeshed/pull/16089))
+
 ## 1.3.1.20260520 (2026-05-20)
 
 [Deprecated] Add default for `SphinxAdapter.__init__` ([#15790](https://github.com/python/typeshed/pull/15790))

@@ -1,3 +1,7 @@
+## [0.13.0.20260728](https://pypi.org/project/types-pyogrio/0.13.0.20260728/) (2026-07-28)
+
+* Use optional-dependencies for third-party packages ([#16089](https://github.com/python/typeshed/pull/16089))
+
 ## 0.13.0.20260716 (2026-07-16)
 
 Run ty on typeshed stubs in CI ([#16013](https://github.com/python/typeshed/pull/16013))

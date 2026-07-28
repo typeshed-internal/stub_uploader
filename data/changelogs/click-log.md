@@ -1,3 +1,7 @@
+## [0.4.0.20260728](https://pypi.org/project/types-click-log/0.4.0.20260728/) (2026-07-28)
+
+* Use optional-dependencies for third-party packages ([#16089](https://github.com/python/typeshed/pull/16089))
+
 ## 0.4.0.20260508 (2026-05-08)
 
 Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))

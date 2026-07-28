@@ -1,3 +1,7 @@
+## [2.1.0.20260728](https://pypi.org/project/types-shapely/2.1.0.20260728/) (2026-07-28)
+
+* Use optional-dependencies for third-party packages ([#16089](https://github.com/python/typeshed/pull/16089))
+
 ## [2.1.0.20260724](https://pypi.org/project/types-shapely/2.1.0.20260724/) (2026-07-24)
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
