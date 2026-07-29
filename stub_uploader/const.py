@@ -13,7 +13,7 @@ REQUIREMENTS = "requirements-tests.txt"
 PYPROJECT = "pyproject.toml"
 
 TYPE_CHECKERS = [
-    ("mypy", "https://github.com/python/mypy/"),
-    ("pyright", "https://github.com/microsoft/pyright"),
+    ("mypy", "https://www.mypy-lang.org/"),
+    ("pyright", "https://microsoft.github.io/pyright/"),
     ("ty", "https://docs.astral.sh/ty/"),
 ]
