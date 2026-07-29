@@ -16,7 +16,7 @@ from packaging.requirements import Requirement
 from packaging.version import Version
 
 from stub_uploader.const import PYPROJECT, REQUIREMENTS, TYPE_CHECKERS
- 
+
 
 @dataclass
 class TypeChecker:
