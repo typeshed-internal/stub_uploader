@@ -15,17 +15,21 @@ import tomllib
 from packaging.requirements import Requirement
 from packaging.version import Version
 
-REQUIREMENTS = "requirements-tests.txt"
-PYPROJECT = "pyproject.toml"
+from stub_uploader.const import PYPROJECT, REQUIREMENTS, TYPE_CHECKERS
+
+
+@dataclass
+class TypeChecker:
+    name: str
+    version: Version
+    url: str
 
 
 @dataclass
 class TypeshedData:
     typeshed_path: Path
-    mypy_version: Version
-    pyright_version: Version
-    ty_version: Version
     oldest_supported_python: str
+    type_checkers: list[TypeChecker]
 
     def read_current_commit(self) -> str:
         return subprocess.run(
@@ -39,18 +43,22 @@ class TypeshedData:
 def read_typeshed_data(typeshed_path: Path) -> TypeshedData:
     with (typeshed_path / PYPROJECT).open("rb") as f:
         pyproject = tomllib.load(f)
-    with (typeshed_path / REQUIREMENTS).open() as f:
-        requirements = parse_requirements(f)
     typeshed_table = pyproject["tool"]["typeshed"]
     oldest_supported_python = typeshed_table.get("oldest-supported-python", "")
     if not re.match(r"^\d+\.\d+$", oldest_supported_python):
         raise ValueError("Invalid oldest-supported-python in pyproject.toml")
+
+    with (typeshed_path / REQUIREMENTS).open() as f:
+        requirements = parse_requirements(f)
+    type_checkers = [
+        TypeChecker(name, Version(requirements[name]), url)
+        for name, url in TYPE_CHECKERS
+    ]
+
     return TypeshedData(
         typeshed_path=typeshed_path,
-        mypy_version=Version(requirements["mypy"]),
-        pyright_version=Version(requirements["pyright"]),
-        ty_version=Version(requirements["ty"]),
         oldest_supported_python=oldest_supported_python,
+        type_checkers=type_checkers,
     )
 
 

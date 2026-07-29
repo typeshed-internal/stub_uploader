@@ -8,3 +8,12 @@ TYPES_PREFIX = "types-"
 _ROOT = pathlib.Path(__file__).parent.parent
 CHANGELOG_PATH = (_ROOT / "data" / "changelogs").resolve()
 UPLOADED_PATH = str((_ROOT / "data" / "uploaded_packages.txt").resolve())
+
+REQUIREMENTS = "requirements-tests.txt"
+PYPROJECT = "pyproject.toml"
+
+TYPE_CHECKERS = [
+    ("mypy", "https://github.com/python/mypy/"),
+    ("pyright", "https://github.com/microsoft/pyright"),
+    ("ty", "https://docs.astral.sh/ty/"),
+]

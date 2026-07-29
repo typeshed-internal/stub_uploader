@@ -16,6 +16,7 @@ from stub_uploader.build_wheel import (
     collect_package_data,
     generate_optional_dependencies_table,
 )
+from stub_uploader.const import TYPE_CHECKERS
 from stub_uploader.get_version import compute_stub_version, ensure_specificity
 from stub_uploader.metadata import (
     Dependency,
@@ -23,7 +24,12 @@ from stub_uploader.metadata import (
     _UploadedPackages,
     strip_types_prefix,
 )
-from stub_uploader.ts_data import TypeshedData, parse_requirements, read_typeshed_data
+from stub_uploader.ts_data import (
+    TypeChecker,
+    TypeshedData,
+    parse_requirements,
+    read_typeshed_data,
+)
 from stub_uploader.update_changelog import process_git_log
 
 
@@ -233,19 +239,13 @@ no_version
 """
 
 
-def _build_requirements(
-    *,
-    mypy: str | None = "1.11.1",
-    pyright: str | None = "1.1.381",
-    ty: str | None = "0.0.59",
-) -> str:
+def _build_requirements(*, mypy: str | None = "1.11.1") -> str:
     req = _REQUIREMENTS_TXT
     if mypy is not None:
         req += f"\nmypy=={mypy}"
-    if pyright is not None:
-        req += f"\npyright=={pyright}"
-    if ty is not None:
-        req += f"\nty=={ty}"
+    for tc in TYPE_CHECKERS:
+        if tc[0] != "mypy":
+            req += f"\n{tc[0]}==1.0.0"
     return req
 
 
@@ -262,7 +262,9 @@ def test_read_typeshed_data__success() -> None:
     req = _build_requirements(mypy="1.11.1")
     data = _test_typeshed_data(pp, req)
     assert data.oldest_supported_python == "3.10"
-    assert data.mypy_version == Version("1.11.1")
+    assert data.type_checkers[0] == TypeChecker(
+        "mypy", Version("1.11.1"), "https://github.com/python/mypy/"
+    )
 
 
 def test_read_typeshed_data__oldest_python_missing() -> None:
