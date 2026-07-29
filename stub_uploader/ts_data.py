@@ -15,15 +15,8 @@ import tomllib
 from packaging.requirements import Requirement
 from packaging.version import Version
 
-REQUIREMENTS = "requirements-tests.txt"
-PYPROJECT = "pyproject.toml"
-
-TYPE_CHECKERS = [
-    ("mypy", "https://github.com/python/mypy/"),
-    ("pyright", "https://github.com/microsoft/pyright"),
-    ("ty", "https://docs.astral.sh/ty/"),
-]
-
+from stub_uploader.const import PYPROJECT, REQUIREMENTS, TYPE_CHECKERS
+ 
 
 @dataclass
 class TypeChecker:

@@ -16,6 +16,7 @@ from stub_uploader.build_wheel import (
     collect_package_data,
     generate_optional_dependencies_table,
 )
+from stub_uploader.const import TYPE_CHECKERS
 from stub_uploader.get_version import compute_stub_version, ensure_specificity
 from stub_uploader.metadata import (
     Dependency,
@@ -24,7 +25,6 @@ from stub_uploader.metadata import (
     strip_types_prefix,
 )
 from stub_uploader.ts_data import (
-    TYPE_CHECKERS,
     TypeChecker,
     TypeshedData,
     parse_requirements,
