@@ -1,3 +1,18 @@
+## [2.18.0.20260730](https://pypi.org/project/types-tensorflow/2.18.0.20260730/) (2026-07-30)
+
+* Add functions ([#16101](https://github.com/python/typeshed/pull/16101))
+
+    * tf.range
+    * tf.debugging.assert_greater_equal
+    * tf.image.random_crop
+    * tf.map_fn
+    * tf.newaxis
+    * tf.slice
+    * tf.stack
+    * tf.reverse
+
+    Also add type aliases `IntTensorCompatible` and `Signature`.
+
 ## [2.18.0.20260724](https://pypi.org/project/types-tensorflow/2.18.0.20260724/) (2026-07-24)
 
 * Make `name` parameter in some `__getattr__` functions/methods positional-only ([#15819](https://github.com/python/typeshed/pull/15819))

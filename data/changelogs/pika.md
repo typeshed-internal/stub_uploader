@@ -1,3 +1,14 @@
+## [1.4.0.20260730](https://pypi.org/project/types-pika/1.4.0.20260730/) (2026-07-30)
+
+* Remove extra description from METADATA.toml ([#16109](https://github.com/python/typeshed/pull/16109))
+
+* Fix connection parameter for callbacks ([#16106](https://github.com/python/typeshed/pull/16106))
+
+    The callbacks provided to a connection get passed the connection as \
+    first argument. While this was correctly typed as `Self` in the base \
+    `Connection` class, the concrete `Connection` class was used in \
+    sub-classes. Fixed to use `Self` in sub-classes as well.
+
 ## [1.4.0.20260725](https://pypi.org/project/types-pika/1.4.0.20260725/) (2026-07-25)
 
 * Complete merging stubs ([#16081](https://github.com/python/typeshed/pull/16081))
