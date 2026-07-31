@@ -1,3 +1,7 @@
+## [4.70.0.20260731](https://pypi.org/project/types-tqdm/4.70.0.20260731/) (2026-07-31)
+
+* Fix kwargs that were not marked optional ([#16117](https://github.com/python/typeshed/pull/16117))
+
 ## [4.70.0.20260730](https://pypi.org/project/types-tqdm/4.70.0.20260730/) (2026-07-30)
 
 * Bump tqdm to 4.70.* ([#16107](https://github.com/python/typeshed/pull/16107))

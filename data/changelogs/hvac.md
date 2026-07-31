@@ -1,3 +1,9 @@
+## [2.4.0.20260731](https://pypi.org/project/types-hvac/2.4.0.20260731/) (2026-07-31)
+
+* Fix secret dictionary types ([#16114](https://github.com/python/typeshed/pull/16114))
+
+    The secret dict can have any value, e.g. a dict which is then stored as a JSON in vault.
+
 ## [2.4.0.20260728](https://pypi.org/project/types-hvac/2.4.0.20260728/) (2026-07-28)
 
 * Add argument types for Kv, KvV1, KvV2 & Kubernetes ([#16093](https://github.com/python/typeshed/pull/16093))
