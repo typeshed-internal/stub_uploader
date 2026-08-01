@@ -16,12 +16,6 @@
 
 * Restore atheris stubs ([#15140](https://github.com/python/typeshed/pull/15140))
 
-* Remove atheris ([#14212](https://github.com/python/typeshed/pull/14212))
-
-    Closes: #14185
-
-* Mark as no longer updated ([#14187](https://github.com/python/typeshed/pull/14187))
-
 ## [2.3.0.20250306](https://pypi.org/project/types-atheris/2.3.0.20250306/) (2025-03-06)
 
 * Update tools versions in `stubtest` workflow ([#13582](https://github.com/python/typeshed/pull/13582))
