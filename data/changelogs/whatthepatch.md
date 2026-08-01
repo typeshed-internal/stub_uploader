@@ -1,6 +1,6 @@
-## 1.0.2.20260519 (2026-05-19)
+## [1.0.2.20260519](https://pypi.org/project/types-whatthepatch/1.0.2.20260519/) (2026-05-19)
 
-[whatthepatch] Fix `Change.line` type ([#15796](https://github.com/python/typeshed/pull/15796))
+* Fix `Change.line` type ([#15796](https://github.com/python/typeshed/pull/15796))
 
 ## [1.0.2.20260408](https://pypi.org/project/types-whatthepatch/1.0.2.20260408/) (2026-04-08)
 

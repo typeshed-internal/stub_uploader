@@ -98,17 +98,7 @@
 
 * Add `google.protobuf.runtime_version` ([#13161](https://github.com/python/typeshed/pull/13161))
 
-## 5.28.3.20241030 (2024-10-30)
-
-Bump tensorflow to ~=2.18.0 ([#12916](https://github.com/python/typeshed/pull/12916))
-
-* Tensorflow proto script update
-
-* Manual stubtest changes
-
-* Use Path for arg type
-
-## [5.28.3.20241029](https://pypi.org/project/types-protobuf/5.28.3.20241029/) (2024-10-29)
+## [5.28.3.20241030](https://pypi.org/project/types-protobuf/5.28.3.20241030/) (2024-10-30)
 
 * Bump tensorflow to ~=2.18.0 ([#12916](https://github.com/python/typeshed/pull/12916))
 
@@ -117,6 +107,8 @@ Bump tensorflow to ~=2.18.0 ([#12916](https://github.com/python/typeshed/pull/12
     * Manual stubtest changes
 
     * Use Path for arg type
+
+## [5.28.3.20241029](https://pypi.org/project/types-protobuf/5.28.3.20241029/) (2024-10-29)
 
 * Use `lib/ts_utils` for `scripts/sync_protobuf` ([#12913](https://github.com/python/typeshed/pull/12913))
 

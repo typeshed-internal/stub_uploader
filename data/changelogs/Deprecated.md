@@ -6,11 +6,9 @@
 
 * Add default for `SphinxAdapter.__init__` ([#15790](https://github.com/python/typeshed/pull/15790))
 
+## [1.3.1.20260519](https://pypi.org/project/types-Deprecated/1.3.1.20260519/) (2026-05-19)
+
 * Add default for `DeprecatedParams.__init__` ([#15795](https://github.com/python/typeshed/pull/15795))
-
-## 1.3.1.20260519 (2026-05-19)
-
-[Deprecated] Add default for `DeprecatedParams.__init__` ([#15795](https://github.com/python/typeshed/pull/15795))
 
 ## [1.3.1.20260508](https://pypi.org/project/types-Deprecated/1.3.1.20260508/) (2026-05-08)
 
