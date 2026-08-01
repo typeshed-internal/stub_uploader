@@ -2,75 +2,75 @@
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
 
-## 3.4.0.20260518 (2026-05-18)
+## [3.4.0.20260518](https://pypi.org/project/types-pyflakes/3.4.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 3.4.0.20260508 (2026-05-08)
+## [3.4.0.20260508](https://pypi.org/project/types-pyflakes/3.4.0.20260508/) (2026-05-08)
 
-Drop 3.9 support for third-party packages ([#15707](https://github.com/python/typeshed/pull/15707))
+* Drop 3.9 support for third-party packages ([#15707](https://github.com/python/typeshed/pull/15707))
 
-Inline some unnecessary type aliases
+    Inline some unnecessary type aliases
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 3.4.0.20260408 (2026-04-08)
+## [3.4.0.20260408](https://pypi.org/project/types-pyflakes/3.4.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 3.4.0.20250701 (2025-07-01)
+## [3.4.0.20250701](https://pypi.org/project/types-pyflakes/3.4.0.20250701/) (2025-07-01)
 
-Bump pyflakes to 3.4.* ([#14316](https://github.com/python/typeshed/pull/14316))
+* Bump pyflakes to 3.4.* ([#14316](https://github.com/python/typeshed/pull/14316))
 
-## 3.3.2.20250511 (2025-05-11)
+## [3.3.2.20250511](https://pypi.org/project/types-pyflakes/3.3.2.20250511/) (2025-05-11)
 
-Support Python 3.14 ([#13957](https://github.com/python/typeshed/pull/13957))
+* Support Python 3.14 ([#13957](https://github.com/python/typeshed/pull/13957))
 
-## 3.3.2.20250429 (2025-04-29)
+## [3.3.2.20250429](https://pypi.org/project/types-pyflakes/3.3.2.20250429/) (2025-04-29)
 
-Complete `pyflakes` ([#13848](https://github.com/python/typeshed/pull/13848))
+* Complete `pyflakes` ([#13848](https://github.com/python/typeshed/pull/13848))
 
-## 3.3.2.20250402 (2025-04-02)
+## [3.3.2.20250402](https://pypi.org/project/types-pyflakes/3.3.2.20250402/) (2025-04-02)
 
-[pyflakes] Update to 3.3.2 ([#13756](https://github.com/python/typeshed/pull/13756))
+* Update to 3.3.2 ([#13756](https://github.com/python/typeshed/pull/13756))
 
-## 3.3.0.20250401 (2025-04-01)
+## [3.3.0.20250401](https://pypi.org/project/types-pyflakes/3.3.0.20250401/) (2025-04-01)
 
-[pyflakes] Update to 3.3.* ([#13745](https://github.com/python/typeshed/pull/13745))
+* Update to 3.3.* ([#13745](https://github.com/python/typeshed/pull/13745))
 
-## 3.2.0.20240813 (2024-08-13)
+## [3.2.0.20240813](https://pypi.org/project/types-pyflakes/3.2.0.20240813/) (2024-08-13)
 
-Use Generator instead of Iterator for 3rd-party context managers ([#12481](https://github.com/python/typeshed/pull/12481))
+* Use Generator instead of Iterator for 3rd-party context managers ([#12481](https://github.com/python/typeshed/pull/12481))
 
-## 3.2.0.20240515 (2024-05-15)
+## [3.2.0.20240515](https://pypi.org/project/types-pyflakes/3.2.0.20240515/) (2024-05-15)
 
-[pyflakes] add backwards compatibility module ([#11910](https://github.com/python/typeshed/pull/11910))
+* add backwards compatibility module ([#11910](https://github.com/python/typeshed/pull/11910))
 
-## 3.2.0.20240106 (2024-01-06)
+## [3.2.0.20240106](https://pypi.org/project/types-pyflakes/3.2.0.20240106/) (2024-01-06)
 
-[stubsabot] Bump pyflakes to 3.2.* ([#11252](https://github.com/python/typeshed/pull/11252))
+* Bump pyflakes to 3.2.* ([#11252](https://github.com/python/typeshed/pull/11252))
 
-Release: https://pypi.org/pypi/pyflakes/3.2.0
-Homepage: https://github.com/PyCQA/pyflakes
-Repository: https://github.com/PyCQA/pyflakes
-Diff: https://github.com/PyCQA/pyflakes/compare/3.1.0...3.2.0
+    Release: https://pypi.org/pypi/pyflakes/3.2.0 \
+    Homepage: https://github.com/PyCQA/pyflakes \
+    Repository: https://github.com/PyCQA/pyflakes \
+    Diff: https://github.com/PyCQA/pyflakes/compare/3.1.0...3.2.0
 
-Stubsabot analysis of the diff between the two releases:
- - 0 public Python files have been added.
- - 0 files included in typeshed's stubs have been deleted.
- - 2 files included in typeshed's stubs have been modified or renamed: `pyflakes/__init__.py`, `pyflakes/checker.py`.
- - Total lines of Python code added: 20.
- - Total lines of Python code deleted: 1.
+    Stubsabot analysis of the diff between the two releases:
+     - 0 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 2 files included in typeshed's stubs have been modified or renamed: `pyflakes/__init__.py`, `pyflakes/checker.py`.
+     - Total lines of Python code added: 20.
+     - Total lines of Python code deleted: 1.
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-Remove Python 3.7 branches ([#11238](https://github.com/python/typeshed/pull/11238))
+* Remove Python 3.7 branches ([#11238](https://github.com/python/typeshed/pull/11238))
 
-## 3.1.0.1 (2023-11-24)
+## [3.1.0.1](https://pypi.org/project/types-pyflakes/3.1.0.1/) (2023-11-24)
 
-Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
+* Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
 
 ## 3.1.0.0 (2023-07-31)
 

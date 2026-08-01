@@ -6,105 +6,105 @@
 
 * Replace NoReturn with Never ([#16085](https://github.com/python/typeshed/pull/16085))
 
-## 1.1.4.20260716 (2026-07-16)
+## [1.1.4.20260716](https://pypi.org/project/types-geopandas/1.1.4.20260716/) (2026-07-16)
 
-Run ty on typeshed stubs in CI ([#16013](https://github.com/python/typeshed/pull/16013))
+* Run ty on typeshed stubs in CI ([#16013](https://github.com/python/typeshed/pull/16013))
 
-Add a pinned ty check for the standard-library and third-party stubs across Python 3.10-3.14 and the supported target platforms. The runner honors stdlib/VERSIONS, resolves checked-in stub packages and their external dependencies, and avoids duplicate published stub packages that shadow local sources.
+    Add a pinned ty check for the standard-library and third-party stubs across Python 3.10-3.14 and the supported target platforms. The runner honors stdlib/VERSIONS, resolves checked-in stub packages and their external dependencies, and avoids duplicate published stub packages that shadow local sources.
 
-Match pyright's policy for non-actionable override and deprecation diagnostics, add narrowly scoped ignores beside existing checker exceptions, and exclude only the obsolete requests and legacy distutils stubs. Check geopandas, seaborn, and shapely on every target version, with two existing pandas-stubs type-bound exceptions mirrored for ty. Also fix the remaining Windows-only dateutil builtin-name collision discovered by the new check.
+    Match pyright's policy for non-actionable override and deprecation diagnostics, add narrowly scoped ignores beside existing checker exceptions, and exclude only the obsolete requests and legacy distutils stubs. Check geopandas, seaborn, and shapely on every target version, with two existing pandas-stubs type-bound exceptions mirrored for ty. Also fix the remaining Windows-only dateutil builtin-name collision discovered by the new check.
 
-Closes #15999.
+    Closes #15999.
 
-## 1.1.4.20260628 (2026-06-28)
+## [1.1.4.20260628](https://pypi.org/project/types-geopandas/1.1.4.20260628/) (2026-06-28)
 
-[geopandas] Change 'how' parameter type to Literal in overlay ([#15956](https://github.com/python/typeshed/pull/15956))
+* Change 'how' parameter type to Literal in overlay ([#15956](https://github.com/python/typeshed/pull/15956))
 
-[geopandas] Bump to 1.1.4 ([#15950](https://github.com/python/typeshed/pull/15950))
+* Bump to 1.1.4 ([#15950](https://github.com/python/typeshed/pull/15950))
 
-## 1.1.3.20260518 (2026-05-18)
+## [1.1.3.20260518](https://pypi.org/project/types-geopandas/1.1.3.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 1.1.3.20260508 (2026-05-08)
+## [1.1.3.20260508](https://pypi.org/project/types-geopandas/1.1.3.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 1.1.3.20260408 (2026-04-08)
+## [1.1.3.20260408](https://pypi.org/project/types-geopandas/1.1.3.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 1.1.3.20260402 (2026-04-02)
+## [1.1.3.20260402](https://pypi.org/project/types-geopandas/1.1.3.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+* Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
 
-## 1.1.3.20260311 (2026-03-11)
+## [1.1.3.20260311](https://pypi.org/project/types-geopandas/1.1.3.20260311/) (2026-03-11)
 
-[stubsabot] Bump geopandas to 1.1.3 ([#15499](https://github.com/python/typeshed/pull/15499))
+* Bump geopandas to 1.1.3 ([#15499](https://github.com/python/typeshed/pull/15499))
 
-## 1.1.2.20260120 (2026-01-20)
+## [1.1.2.20260120](https://pypi.org/project/types-geopandas/1.1.2.20260120/) (2026-01-20)
 
-[geopandas] Add lz4 and zstd compression to to_parquet ([#15195](https://github.com/python/typeshed/pull/15195))
+* Add lz4 and zstd compression to to_parquet ([#15195](https://github.com/python/typeshed/pull/15195))
 
-## 1.1.2.20251224 (2025-12-24)
+## [1.1.2.20251224](https://pypi.org/project/types-geopandas/1.1.2.20251224/) (2025-12-24)
 
-[geopandas] Update to 1.1.2 ([#15170](https://github.com/python/typeshed/pull/15170))
+* Update to 1.1.2 ([#15170](https://github.com/python/typeshed/pull/15170))
 
-## 1.1.1.20251214 (2025-12-14)
+## [1.1.1.20251214](https://pypi.org/project/types-geopandas/1.1.1.20251214/) (2025-12-14)
 
-[geopandas] Unpin pandas-stubs ([#15134](https://github.com/python/typeshed/pull/15134))
+* Unpin pandas-stubs ([#15134](https://github.com/python/typeshed/pull/15134))
 
-## 1.1.1.20251203 (2025-12-03)
+## [1.1.1.20251203](https://pypi.org/project/types-geopandas/1.1.1.20251203/) (2025-12-03)
 
-Pin dependencies on pandas-stubs to < 2.3.3.251201 ([#15100](https://github.com/python/typeshed/pull/15100))
+* Pin dependencies on pandas-stubs to < 2.3.3.251201 ([#15100](https://github.com/python/typeshed/pull/15100))
 
-## 1.1.1.20250829 (2025-08-29)
+## [1.1.1.20250829](https://pypi.org/project/types-geopandas/1.1.1.20250829/) (2025-08-29)
 
-[geopandas] Some @final methods are overridden ([#14657](https://github.com/python/typeshed/pull/14657))
+* Some @final methods are overridden ([#14657](https://github.com/python/typeshed/pull/14657))
 
-## 1.1.1.20250809 (2025-08-09)
+## [1.1.1.20250809](https://pypi.org/project/types-geopandas/1.1.1.20250809/) (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 1.1.1.20250708 (2025-07-08)
+## [1.1.1.20250708](https://pypi.org/project/types-geopandas/1.1.1.20250708/) (2025-07-08)
 
-Bump geopandas stubs to version 1.1.1 ([#14244](https://github.com/python/typeshed/pull/14244))
+* Bump geopandas stubs to version 1.1.1 ([#14244](https://github.com/python/typeshed/pull/14244))
 
-## 1.0.1.20250601 (2025-06-01)
+## [1.0.1.20250601](https://pypi.org/project/types-geopandas/1.0.1.20250601/) (2025-06-01)
 
-[geopandas] Add a # type: ignore ([#14200](https://github.com/python/typeshed/pull/14200))
+* Add a # type: ignore ([#14200](https://github.com/python/typeshed/pull/14200))
 
-Should help with #14194
+    Should help with #14194
 
-## 1.0.1.20250528 (2025-05-28)
+## [1.0.1.20250528](https://pypi.org/project/types-geopandas/1.0.1.20250528/) (2025-05-28)
 
-[geopandas] Unblock CI ([#14178](https://github.com/python/typeshed/pull/14178))
+* Unblock CI ([#14178](https://github.com/python/typeshed/pull/14178))
 
-## 1.0.1.20250510 (2025-05-10)
+## [1.0.1.20250510](https://pypi.org/project/types-geopandas/1.0.1.20250510/) (2025-05-10)
 
-[geopandas] Fix CI tests in some circumstances ([#13978](https://github.com/python/typeshed/pull/13978))
+* Fix CI tests in some circumstances ([#13978](https://github.com/python/typeshed/pull/13978))
 
-Add "libproj-dev" and "proj-bin" to apt_dependencies.
-These packages are necessary to build the pyproj
-dependency if a pre-built wheel is not available.
+    Add "libproj-dev" and "proj-bin" to apt_dependencies. \
+    These packages are necessary to build the pyproj \
+    dependency if a pre-built wheel is not available.
 
-## 1.0.1.20250404 (2025-04-04)
+## [1.0.1.20250404](https://pypi.org/project/types-geopandas/1.0.1.20250404/) (2025-04-04)
 
-Enable Ruff flake8-todos (TD) ([#13748](https://github.com/python/typeshed/pull/13748))
+* Enable Ruff flake8-todos (TD) ([#13748](https://github.com/python/typeshed/pull/13748))
 
-## 1.0.1.20250310 (2025-03-10)
+## [1.0.1.20250310](https://pypi.org/project/types-geopandas/1.0.1.20250310/) (2025-03-10)
 
-Fix override issue in GeoDataFrame.astype return type ([#13606](https://github.com/python/typeshed/pull/13606))
+* Fix override issue in GeoDataFrame.astype return type ([#13606](https://github.com/python/typeshed/pull/13606))
 
-## 1.0.1.20250304 (2025-03-04)
+## [1.0.1.20250304](https://pypi.org/project/types-geopandas/1.0.1.20250304/) (2025-03-04)
 
-Drop flake8-noqa and remove workarounds to work with Ruff ([#13571](https://github.com/python/typeshed/pull/13571))
+* Drop flake8-noqa and remove workarounds to work with Ruff ([#13571](https://github.com/python/typeshed/pull/13571))
 
-## 1.0.1.20250120 (2025-01-20)
+## [1.0.1.20250120](https://pypi.org/project/types-geopandas/1.0.1.20250120/) (2025-01-20)
 
-Add geopandas stubs ([#12990](https://github.com/python/typeshed/pull/12990))
+* Add geopandas stubs ([#12990](https://github.com/python/typeshed/pull/12990))
 

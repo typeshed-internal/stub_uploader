@@ -1,20 +1,20 @@
-## 0.30.0.20260408 (2026-04-08)
+## [0.30.0.20260408](https://pypi.org/project/types-flake8-simplify/0.30.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 0.30.0.20260402 (2026-04-02)
+## [0.30.0.20260402](https://pypi.org/project/types-flake8-simplify/0.30.0.20260402/) (2026-04-02)
 
-Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-## 0.30.0.20260108 (2026-01-08)
+## [0.30.0.20260108](https://pypi.org/project/types-flake8-simplify/0.30.0.20260108/) (2026-01-08)
 
-[flake8-simplify] Update to 0.30.* ([#15212](https://github.com/python/typeshed/pull/15212))
+* Update to 0.30.* ([#15212](https://github.com/python/typeshed/pull/15212))
 
-## 0.22.0.20250708 (2025-07-08)
+## [0.22.0.20250708](https://pypi.org/project/types-flake8-simplify/0.22.0.20250708/) (2025-07-08)
 
-[flake8-simplify] Complete stubs ([#14259](https://github.com/python/typeshed/pull/14259))
+* Complete stubs ([#14259](https://github.com/python/typeshed/pull/14259))
 
-[stubsabot] Bump flake8-simplify to 0.22.* ([#14210](https://github.com/python/typeshed/pull/14210))
+* Bump flake8-simplify to 0.22.* ([#14210](https://github.com/python/typeshed/pull/14210))
 
 ## 0.21.0.0 (2023-09-24)
 

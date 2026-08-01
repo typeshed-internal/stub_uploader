@@ -1,129 +1,129 @@
-## 3.5.0.20260712 (2026-07-12)
+## [3.5.0.20260712](https://pypi.org/project/types-pyserial/3.5.0.20260712/) (2026-07-12)
 
-Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))
+* Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))
 
-Class members such as list, type, cursor, Model, and datetime shadow the builtins, classes, or modules referenced by nearby annotations. ty then resolves those annotations to Unknown, which can hide invalid calls in APIs including docker, sqlite3, psycopg2, Markdown, and requests.
+    Class members such as list, type, cursor, Model, and datetime shadow the builtins, classes, or modules referenced by nearby annotations. ty then resolves those annotations to Unknown, which can hide invalid calls in APIs including docker, sqlite3, psycopg2, Markdown, and requests.
 
-Qualify shadowed builtins and use private aliases for colliding imports and classes. This removes 15 stdlib and 120 third-party collision diagnostics under ty 0.0.58, restores the affected public types, and fixes four existing psycopg2 type assertions.
+    Qualify shadowed builtins and use private aliases for colliding imports and classes. This removes 15 stdlib and 120 third-party collision diagnostics under ty 0.0.58, restores the affected public types, and fixes four existing psycopg2 type assertions.
 
-## 3.5.0.20260519 (2026-05-19)
+## [3.5.0.20260519](https://pypi.org/project/types-pyserial/3.5.0.20260519/) (2026-05-19)
 
-[pyserial] Fix `read_all` return type to not include `None` ([#15797](https://github.com/python/typeshed/pull/15797))
+* Fix `read_all` return type to not include `None` ([#15797](https://github.com/python/typeshed/pull/15797))
 
-## 3.5.0.20260518 (2026-05-18)
+## [3.5.0.20260518](https://pypi.org/project/types-pyserial/3.5.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 3.5.0.20260510 (2026-05-10)
+## [3.5.0.20260510](https://pypi.org/project/types-pyserial/3.5.0.20260510/) (2026-05-10)
 
-Fix stubs that are identical in different version/platform branches ([#15743](https://github.com/python/typeshed/pull/15743))
+* Fix stubs that are identical in different version/platform branches ([#15743](https://github.com/python/typeshed/pull/15743))
 
-I wrote an experimental flake8-pyi check that alerts if multiple
-version/platform branches contain the same definition, because I
-noticed a few of my 3.15 PRs ended up with code like that.
+    I wrote an experimental flake8-pyi check that alerts if multiple \
+    version/platform branches contain the same definition, because I \
+    noticed a few of my 3.15 PRs ended up with code like that.
 
-I'm not sure this should always be changed; in some complicated cases
-it's clearer to repeat the definition. But this PR changes some places
-where it seemed to be a win to do so.
+    I'm not sure this should always be changed; in some complicated cases \
+    it's clearer to repeat the definition. But this PR changes some places \
+    where it seemed to be a win to do so.
 
-The most dubious is the asyncio one. BaseChildWatcher was the same in
-both branches; I added `@deprecated` in the branch where its child
-classes are deprecated. Even though BaseChildWatcher itself did not
-emit any deprecation warnings in 3.13, it was slated for removal,
-so it makes sense for type checkers to warn on any usage.
+    The most dubious is the asyncio one. BaseChildWatcher was the same in \
+    both branches; I added `@deprecated` in the branch where its child \
+    classes are deprecated. Even though BaseChildWatcher itself did not \
+    emit any deprecation warnings in 3.13, it was slated for removal, \
+    so it makes sense for type checkers to warn on any usage.
 
-## 3.5.0.20260508 (2026-05-08)
+## [3.5.0.20260508](https://pypi.org/project/types-pyserial/3.5.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 3.5.0.20260408 (2026-04-08)
+## [3.5.0.20260408](https://pypi.org/project/types-pyserial/3.5.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 3.5.0.20260402 (2026-04-02)
+## [3.5.0.20260402](https://pypi.org/project/types-pyserial/3.5.0.20260402/) (2026-04-02)
 
-Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+* Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
 
-## 3.5.0.20251001 (2025-10-01)
+## [3.5.0.20251001](https://pypi.org/project/types-pyserial/3.5.0.20251001/) (2025-10-01)
 
-pyserial: Update type yielded by grep from tuple to ListPortInfo ([#14807](https://github.com/python/typeshed/pull/14807))
+* pyserial: Update type yielded by grep from tuple to ListPortInfo ([#14807](https://github.com/python/typeshed/pull/14807))
 
-## 3.5.0.20250919 (2025-09-19)
+## [3.5.0.20250919](https://pypi.org/project/types-pyserial/3.5.0.20250919/) (2025-09-19)
 
-[serial] Update stubtest comment ([#14739](https://github.com/python/typeshed/pull/14739))
+* Update stubtest comment ([#14739](https://github.com/python/typeshed/pull/14739))
 
-Cf. #14718
+    Cf. #14718
 
-## 3.5.0.20250914 (2025-09-14)
+## [3.5.0.20250914](https://pypi.org/project/types-pyserial/3.5.0.20250914/) (2025-09-14)
 
-Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
+* Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
 
-## 3.5.0.20250822 (2025-08-22)
+## [3.5.0.20250822](https://pypi.org/project/types-pyserial/3.5.0.20250822/) (2025-08-22)
 
-Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+* Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
 
-## 3.5.0.20250809 (2025-08-09)
+## [3.5.0.20250809](https://pypi.org/project/types-pyserial/3.5.0.20250809/) (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 3.5.0.20250801 (2025-08-01)
+## [3.5.0.20250801](https://pypi.org/project/types-pyserial/3.5.0.20250801/) (2025-08-01)
 
-Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
+* Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
-Co-authored-by: Avasam <samuel.06@hotmail.com>
-Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com> \
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
-## 3.5.0.20250326 (2025-03-26)
+## [3.5.0.20250326](https://pypi.org/project/types-pyserial/3.5.0.20250326/) (2025-03-26)
 
-Add `__all__` ([#13704](https://github.com/python/typeshed/pull/13704))
+* Add `__all__` ([#13704](https://github.com/python/typeshed/pull/13704))
 
-## 3.5.0.20250304 (2025-03-04)
+## [3.5.0.20250304](https://pypi.org/project/types-pyserial/3.5.0.20250304/) (2025-03-04)
 
-Enable Ruff PLC (Pylint Convention) ([#13306](https://github.com/python/typeshed/pull/13306))
+* Enable Ruff PLC (Pylint Convention) ([#13306](https://github.com/python/typeshed/pull/13306))
 
-## 3.5.0.20250130 (2025-01-30)
+## [3.5.0.20250130](https://pypi.org/project/types-pyserial/3.5.0.20250130/) (2025-01-30)
 
-Upgrade Black and Ruff ([#13443](https://github.com/python/typeshed/pull/13443))
+* Upgrade Black and Ruff ([#13443](https://github.com/python/typeshed/pull/13443))
 
-## 3.5.0.20250124 (2025-01-24)
+## [3.5.0.20250124](https://pypi.org/project/types-pyserial/3.5.0.20250124/) (2025-01-24)
 
-pyserial: make serial.threaded.ReaderThread generic in the type of Protocol ([#13425](https://github.com/python/typeshed/pull/13425))
+* pyserial: make serial.threaded.ReaderThread generic in the type of Protocol ([#13425](https://github.com/python/typeshed/pull/13425))
 
-## 3.5.0.20241221 (2024-12-21)
+## [3.5.0.20241221](https://pypi.org/project/types-pyserial/3.5.0.20241221/) (2024-12-21)
 
-Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
-## 3.5.0.20240826 (2024-08-26)
+## [3.5.0.20240826](https://pypi.org/project/types-pyserial/3.5.0.20240826/) (2024-08-26)
 
-pyserial: Replace IO classes with protocols ([#12572](https://github.com/python/typeshed/pull/12572))
+* pyserial: Replace IO classes with protocols ([#12572](https://github.com/python/typeshed/pull/12572))
 
-## 3.5.0.20240527 (2024-05-27)
+## [3.5.0.20240527](https://pypi.org/project/types-pyserial/3.5.0.20240527/) (2024-05-27)
 
-pyserial: serial: serialutil.pyi: fix excuslive float -> bool ([#12035](https://github.com/python/typeshed/pull/12035))
+* pyserial: serial: serialutil.pyi: fix excuslive float -> bool ([#12035](https://github.com/python/typeshed/pull/12035))
 
-## 3.5.0.20240311 (2024-03-11)
+## [3.5.0.20240311](https://pypi.org/project/types-pyserial/3.5.0.20240311/) (2024-03-11)
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## 3.5.0.20240310 (2024-03-10)
+## [3.5.0.20240310](https://pypi.org/project/types-pyserial/3.5.0.20240310/) (2024-03-10)
 
-Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
+* Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
 
-Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## 3.5.0.20240205 (2024-02-05)
+## [3.5.0.20240205](https://pypi.org/project/types-pyserial/3.5.0.20240205/) (2024-02-05)
 
-A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
+* A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
 
-## 3.5.0.20240106 (2024-01-06)
+## [3.5.0.20240106](https://pypi.org/project/types-pyserial/3.5.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## 3.5.0.11 (2023-11-22)
+## [3.5.0.11](https://pypi.org/project/types-pyserial/3.5.0.11/) (2023-11-22)
 
-third-party stubs: Add several missing `__del__` methods ([#11054](https://github.com/python/typeshed/pull/11054))
+* third-party stubs: Add several missing `__del__` methods ([#11054](https://github.com/python/typeshed/pull/11054))
 
 ## 3.5.0.10 (2023-09-01)
 

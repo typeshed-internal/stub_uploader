@@ -1,87 +1,87 @@
-## 1.4.1.20260617 (2026-06-17)
+## [1.4.1.20260617](https://pypi.org/project/types-dateparser/1.4.1.20260617/) (2026-06-17)
 
-[dateparser] Update to ~=1.4.1 ([#15918](https://github.com/python/typeshed/pull/15918))
+* Update to ~=1.4.1 ([#15918](https://github.com/python/typeshed/pull/15918))
 
-Finish `dateparser.parser`
+    Finish `dateparser.parser`
 
-## 1.4.0.20260518 (2026-05-18)
+## [1.4.0.20260518](https://pypi.org/project/types-dateparser/1.4.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 1.4.0.20260508 (2026-05-08)
+## [1.4.0.20260508](https://pypi.org/project/types-dateparser/1.4.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 1.4.0.20260408 (2026-04-08)
+## [1.4.0.20260408](https://pypi.org/project/types-dateparser/1.4.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 1.4.0.20260328 (2026-03-28)
+## [1.4.0.20260328](https://pypi.org/project/types-dateparser/1.4.0.20260328/) (2026-03-28)
 
-[dateparser] Update to 1.4.0 ([#15562](https://github.com/python/typeshed/pull/15562))
+* Update to 1.4.0 ([#15562](https://github.com/python/typeshed/pull/15562))
 
-## 1.3.0.20260323 (2026-03-23)
+## [1.3.0.20260323](https://pypi.org/project/types-dateparser/1.3.0.20260323/) (2026-03-23)
 
-[dateparser] Fix return type of `search_dates` ([#15539](https://github.com/python/typeshed/pull/15539))
+* Fix return type of `search_dates` ([#15539](https://github.com/python/typeshed/pull/15539))
 
-## 1.3.0.20260211 (2026-02-11)
+## [1.3.0.20260211](https://pypi.org/project/types-dateparser/1.3.0.20260211/) (2026-02-11)
 
-[dateparser] Annotate a few return and argument types ([#15411](https://github.com/python/typeshed/pull/15411))
+* Annotate a few return and argument types ([#15411](https://github.com/python/typeshed/pull/15411))
 
-## 1.3.0.20260210 (2026-02-10)
+## [1.3.0.20260210](https://pypi.org/project/types-dateparser/1.3.0.20260210/) (2026-02-10)
 
-[dateparser] Improve stubs ([#15393](https://github.com/python/typeshed/pull/15393))
+* Improve stubs ([#15393](https://github.com/python/typeshed/pull/15393))
 
-* Functions with `settings` params actually accepts `Settings` (or
-  `dict` only if has `@apply_settings` decorator)
-* Use `TypeVar` for date params that are used as return objects
-* Use `collections.abc.Set` instead of `set` since there is an
-  `isinstance` check specifically for `collections.abc.Set`
-* Annotated many other parameters
+    * Functions with `settings` params actually accepts `Settings` (or \
+      `dict` only if has `@apply_settings` decorator)
+    * Use `TypeVar` for date params that are used as return objects
+    * Use `collections.abc.Set` instead of `set` since there is an \
+      `isinstance` check specifically for `collections.abc.Set`
+    * Annotated many other parameters
 
-## 1.3.0.20260206 (2026-02-06)
+## [1.3.0.20260206](https://pypi.org/project/types-dateparser/1.3.0.20260206/) (2026-02-06)
 
-[dateparser] Update to ~=1.3.0 ([#15376](https://github.com/python/typeshed/pull/15376))
+* Update to ~=1.3.0 ([#15376](https://github.com/python/typeshed/pull/15376))
 
-## 1.2.2.20250809 (2025-08-09)
+## [1.2.2.20250809](https://pypi.org/project/types-dateparser/1.2.2.20250809/) (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 1.2.2.20250627 (2025-06-27)
+## [1.2.2.20250627](https://pypi.org/project/types-dateparser/1.2.2.20250627/) (2025-06-27)
 
-[dateparser] Update to `~=1.2.2` ([#14346](https://github.com/python/typeshed/pull/14346))
+* Update to `~=1.2.2` ([#14346](https://github.com/python/typeshed/pull/14346))
 
-## 1.2.0.20250601 (2025-06-01)
+## [1.2.0.20250601](https://pypi.org/project/types-dateparser/1.2.0.20250601/) (2025-06-01)
 
-[dateparser] Improve parse-related annotations ([#14199](https://github.com/python/typeshed/pull/14199))
+* Improve parse-related annotations ([#14199](https://github.com/python/typeshed/pull/14199))
 
-Add a `# type: ignore`. Helps with #14194
+    Add a `# type: ignore`. Helps with #14194
 
-## 1.2.0.20250516 (2025-05-16)
+## [1.2.0.20250516](https://pypi.org/project/types-dateparser/1.2.0.20250516/) (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## 1.2.0.20250408 (2025-04-08)
+## [1.2.0.20250408](https://pypi.org/project/types-dateparser/1.2.0.20250408/) (2025-04-08)
 
-Improve `dateparser` ([#13796](https://github.com/python/typeshed/pull/13796))
+* Improve `dateparser` ([#13796](https://github.com/python/typeshed/pull/13796))
 
-## 1.2.0.20250208 (2025-02-08)
+## [1.2.0.20250208](https://pypi.org/project/types-dateparser/1.2.0.20250208/) (2025-02-08)
 
-Fix stubtest for `dateparser` ([#13474](https://github.com/python/typeshed/pull/13474))
+* Fix stubtest for `dateparser` ([#13474](https://github.com/python/typeshed/pull/13474))
 
-## 1.2.0.20240420 (2024-04-20)
+## [1.2.0.20240420](https://pypi.org/project/types-dateparser/1.2.0.20240420/) (2024-04-20)
 
-Bump dateparser to 1.2.* ([#11786](https://github.com/python/typeshed/pull/11786))
+* Bump dateparser to 1.2.* ([#11786](https://github.com/python/typeshed/pull/11786))
 
-## 1.1.4.20240331 (2024-03-31)
+## [1.1.4.20240331](https://pypi.org/project/types-dateparser/1.1.4.20240331/) (2024-03-31)
 
-Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
+* Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
 
-## 1.1.4.20240106 (2024-01-06)
+## [1.1.4.20240106](https://pypi.org/project/types-dateparser/1.1.4.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 1.1.4.10 (2023-07-20)
 

@@ -1,26 +1,32 @@
-## 3.1.0.20260630 (2026-06-30)
+## [3.1.0.20260630](https://pypi.org/project/types-atheris/3.1.0.20260630/) (2026-06-30)
 
-[atheris] Update to 3.1.0 ([#15959](https://github.com/python/typeshed/pull/15959))
+* Update to 3.1.0 ([#15959](https://github.com/python/typeshed/pull/15959))
 
-## 3.0.0.20260518 (2026-05-18)
+## [3.0.0.20260518](https://pypi.org/project/types-atheris/3.0.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 3.0.0.20260408 (2026-04-08)
+## [3.0.0.20260408](https://pypi.org/project/types-atheris/3.0.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 3.0.0.20251219 (2025-12-19)
+## [3.0.0.20251219](https://pypi.org/project/types-atheris/3.0.0.20251219/) (2025-12-19)
 
-[atheris] Update to 3.0.* ([#15141](https://github.com/python/typeshed/pull/15141))
+* Update to 3.0.* ([#15141](https://github.com/python/typeshed/pull/15141))
 
-Restore atheris stubs ([#15140](https://github.com/python/typeshed/pull/15140))
+* Restore atheris stubs ([#15140](https://github.com/python/typeshed/pull/15140))
 
-## 2.3.0.20250306 (2025-03-06)
+* Remove atheris ([#14212](https://github.com/python/typeshed/pull/14212))
 
-Update tools versions in `stubtest` workflow ([#13582](https://github.com/python/typeshed/pull/13582))
+    Closes: #14185
 
-## 2.3.0.20240831 (2024-08-31)
+* Mark as no longer updated ([#14187](https://github.com/python/typeshed/pull/14187))
 
-Added types for atheris ([#12462](https://github.com/python/typeshed/pull/12462))
+## [2.3.0.20250306](https://pypi.org/project/types-atheris/2.3.0.20250306/) (2025-03-06)
+
+* Update tools versions in `stubtest` workflow ([#13582](https://github.com/python/typeshed/pull/13582))
+
+## [2.3.0.20240831](https://pypi.org/project/types-atheris/2.3.0.20240831/) (2024-08-31)
+
+* Added types for atheris ([#12462](https://github.com/python/typeshed/pull/12462))
 

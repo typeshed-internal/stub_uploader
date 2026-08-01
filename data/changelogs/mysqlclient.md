@@ -1,49 +1,49 @@
-## 2.2.0.20260508 (2026-05-08)
+## [2.2.0.20260508](https://pypi.org/project/types-mysqlclient/2.2.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 2.2.0.20260408 (2026-04-08)
+## [2.2.0.20260408](https://pypi.org/project/types-mysqlclient/2.2.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 2.2.0.20260402 (2026-04-02)
+## [2.2.0.20260402](https://pypi.org/project/types-mysqlclient/2.2.0.20260402/) (2026-04-02)
 
-Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+* Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
 
-## 2.2.0.20250915 (2025-09-15)
+## [2.2.0.20250915](https://pypi.org/project/types-mysqlclient/2.2.0.20250915/) (2025-09-15)
 
-Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
+* Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
 
-## 2.2.0.20250516 (2025-05-16)
+## [2.2.0.20250516](https://pypi.org/project/types-mysqlclient/2.2.0.20250516/) (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## 2.2.0.20250326 (2025-03-26)
+## [2.2.0.20250326](https://pypi.org/project/types-mysqlclient/2.2.0.20250326/) (2025-03-26)
 
-Add `__all__` ([#13704](https://github.com/python/typeshed/pull/13704))
+* Add `__all__` ([#13704](https://github.com/python/typeshed/pull/13704))
 
-## 2.2.0.20250318 (2025-03-18)
+## [2.2.0.20250318](https://pypi.org/project/types-mysqlclient/2.2.0.20250318/) (2025-03-18)
 
-Fix various argument of extension modules ([#13651](https://github.com/python/typeshed/pull/13651))
+* Fix various argument of extension modules ([#13651](https://github.com/python/typeshed/pull/13651))
 
-* Mark various positional-only arguments: These are all positional-only
-  arguments in C code using the `METH_O` flag.
-* Remove various `*args, **kwargs` arguments that are using the
-  `METH_NOARGS` flag in C.
+    * Mark various positional-only arguments: These are all positional-only \
+      arguments in C code using the `METH_O` flag.
+    * Remove various `*args, **kwargs` arguments that are using the \
+      `METH_NOARGS` flag in C.
 
-## 2.2.0.20241221 (2024-12-21)
+## [2.2.0.20241221](https://pypi.org/project/types-mysqlclient/2.2.0.20241221/) (2024-12-21)
 
-Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
-## 2.2.0.20240911 (2024-09-11)
+## [2.2.0.20240911](https://pypi.org/project/types-mysqlclient/2.2.0.20240911/) (2024-09-11)
 
-mysqlclient: Annotate Connect() return type ([#12633](https://github.com/python/typeshed/pull/12633))
+* mysqlclient: Annotate Connect() return type ([#12633](https://github.com/python/typeshed/pull/12633))
 
-## 2.2.0.20240311 (2024-03-11)
+## [2.2.0.20240311](https://pypi.org/project/types-mysqlclient/2.2.0.20240311/) (2024-03-11)
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
 ## 2.2.0.1 (2023-07-20)
 

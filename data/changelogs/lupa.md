@@ -1,90 +1,90 @@
-## 2.6.0.20260509 (2026-05-09)
+## [2.6.0.20260509](https://pypi.org/project/types-lupa/2.6.0.20260509/) (2026-05-09)
 
-Update mypy to 2.0.0 ([#15716](https://github.com/python/typeshed/pull/15716))
+* Update mypy to 2.0.0 ([#15716](https://github.com/python/typeshed/pull/15716))
 
-* Update mypy to 2.0.0
+    * Update mypy to 2.0.0
 
-Remove command line options that are now the default.
+    Remove command line options that are now the default.
 
-* [lupa] Fix incompatible default value errors
+    * [lupa] Fix incompatible default value errors
 
-* [pdf2] Add `bytearray` to a few argument types
+    * [pdf2] Add `bytearray` to a few argument types
 
-* Try avoiding race conditions
+    * Try avoiding race conditions
 
-* Reenable an error code that was previously disabled
+    * Reenable an error code that was previously disabled
 
-* Remove --no-incremental
+    * Remove --no-incremental
 
-## 2.6.0.20260508 (2026-05-08)
+## [2.6.0.20260508](https://pypi.org/project/types-lupa/2.6.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 2.6.0.20260408 (2026-04-08)
+## [2.6.0.20260408](https://pypi.org/project/types-lupa/2.6.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 2.6.0.20251026 (2025-10-26)
+## [2.6.0.20251026](https://pypi.org/project/types-lupa/2.6.0.20251026/) (2025-10-26)
 
-[stubsabot] Bump lupa to 2.6.* ([#14919](https://github.com/python/typeshed/pull/14919))
+* Bump lupa to 2.6.* ([#14919](https://github.com/python/typeshed/pull/14919))
 
-Release: https://pypi.org/pypi/lupa/2.6
-Homepage: https://github.com/scoder/lupa
-Repository: https://github.com/scoder/lupa
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/lupa
+    Release: https://pypi.org/pypi/lupa/2.6 \
+    Homepage: https://github.com/scoder/lupa \
+    Repository: https://github.com/scoder/lupa \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/lupa
 
-If stubtest fails for this PR:
-- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-- Fix stubtest failures in another PR, then close this PR
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
 
-Note that you will need to close and re-open the PR in order to trigger CI
+    Note that you will need to close and re-open the PR in order to trigger CI
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 2.5.0.20250915 (2025-09-15)
+## [2.5.0.20250915](https://pypi.org/project/types-lupa/2.5.0.20250915/) (2025-09-15)
 
-Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
+* Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
 
-## 2.5.0.20250914 (2025-09-14)
+## [2.5.0.20250914](https://pypi.org/project/types-lupa/2.5.0.20250914/) (2025-09-14)
 
-Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
+* Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
 
-## 2.5.0.20250822 (2025-08-22)
+## [2.5.0.20250822](https://pypi.org/project/types-lupa/2.5.0.20250822/) (2025-08-22)
 
-Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+* Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
 
-## 2.5.0.20250821 (2025-08-21)
+## [2.5.0.20250821](https://pypi.org/project/types-lupa/2.5.0.20250821/) (2025-08-21)
 
-[lupa] Improve Lua table annotations ([#14359](https://github.com/python/typeshed/pull/14359))
+* Improve Lua table annotations ([#14359](https://github.com/python/typeshed/pull/14359))
 
-Support get/set/del from Lua tables.
-Lua table values are all Any because we can't typecheck across language boundaries.
-Support unpack_returned_tuples in the LuaRuntime constructor.
+    Support get/set/del from Lua tables. \
+    Lua table values are all Any because we can't typecheck across language boundaries. \
+    Support unpack_returned_tuples in the LuaRuntime constructor.
 
-## 2.5.0.20250701 (2025-07-01)
+## [2.5.0.20250701](https://pypi.org/project/types-lupa/2.5.0.20250701/) (2025-07-01)
 
-[stubsabot] Bump lupa to 2.5.* ([#14279](https://github.com/python/typeshed/pull/14279))
+* Bump lupa to 2.5.* ([#14279](https://github.com/python/typeshed/pull/14279))
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 2.4.0.20250112 (2025-01-12)
+## [2.4.0.20250112](https://pypi.org/project/types-lupa/2.4.0.20250112/) (2025-01-12)
 
-[stubsabot] Bump lupa to 2.4.* ([#13391](https://github.com/python/typeshed/pull/13391))
+* Bump lupa to 2.4.* ([#13391](https://github.com/python/typeshed/pull/13391))
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 2.3.0.20250111 (2025-01-11)
+## [2.3.0.20250111](https://pypi.org/project/types-lupa/2.3.0.20250111/) (2025-01-11)
 
-[stubsabot] Bump lupa to 2.3.* ([#13383](https://github.com/python/typeshed/pull/13383))
+* Bump lupa to 2.3.* ([#13383](https://github.com/python/typeshed/pull/13383))
 
-Release: https://pypi.org/pypi/lupa/2.3
-Homepage: https://github.com/scoder/lupa
-Repository: https://github.com/scoder/lupa
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/lupa
+    Release: https://pypi.org/pypi/lupa/2.3 \
+    Homepage: https://github.com/scoder/lupa \
+    Repository: https://github.com/scoder/lupa \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/lupa
 
-## 2.2.0.20240917 (2024-09-17)
+## [2.2.0.20240917](https://pypi.org/project/types-lupa/2.2.0.20240917/) (2024-09-17)
 
-Add lupa stubs ([#12650](https://github.com/python/typeshed/pull/12650))
+* Add lupa stubs ([#12650](https://github.com/python/typeshed/pull/12650))
 

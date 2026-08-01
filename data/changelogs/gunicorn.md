@@ -12,87 +12,87 @@
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
 
-## 26.0.0.20260518 (2026-05-18)
+## [26.0.0.20260518](https://pypi.org/project/types-gunicorn/26.0.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 26.0.0.20260510 (2026-05-10)
+## [26.0.0.20260510](https://pypi.org/project/types-gunicorn/26.0.0.20260510/) (2026-05-10)
 
-[gunicorn] Fully remove eventlet support ([#15740](https://github.com/python/typeshed/pull/15740))
+* Fully remove eventlet support ([#15740](https://github.com/python/typeshed/pull/15740))
 
-Looks like we already don't need this in the `stubtest-dependencies`
-list anymore.
-See: https://github.com/python/typeshed/pull/15723
+    Looks like we already don't need this in the `stubtest-dependencies` \
+    list anymore. \
+    See: https://github.com/python/typeshed/pull/15723
 
-## 26.0.0.20260509 (2026-05-09)
+## [26.0.0.20260509](https://pypi.org/project/types-gunicorn/26.0.0.20260509/) (2026-05-09)
 
-[gunicorn] Update to 26.0.0 ([#15723](https://github.com/python/typeshed/pull/15723))
+* Update to 26.0.0 ([#15723](https://github.com/python/typeshed/pull/15723))
 
-Closes: #15702
+    Closes: #15702
 
-## 25.3.0.20260508 (2026-05-08)
+## [25.3.0.20260508](https://pypi.org/project/types-gunicorn/25.3.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 25.3.0.20260408 (2026-04-08)
+## [25.3.0.20260408](https://pypi.org/project/types-gunicorn/25.3.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 25.3.0.20260402 (2026-04-02)
+## [25.3.0.20260402](https://pypi.org/project/types-gunicorn/25.3.0.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-## 25.3.0.20260331 (2026-03-31)
+## [25.3.0.20260331](https://pypi.org/project/types-gunicorn/25.3.0.20260331/) (2026-03-31)
 
-[gunicorn] Add precise return type for asgi.protocol:BodyReceiver.receive ([#15567](https://github.com/python/typeshed/pull/15567))
+* Add precise return type for asgi.protocol:BodyReceiver.receive ([#15567](https://github.com/python/typeshed/pull/15567))
 
-[gunicorn] Add precise return types for most of CommandHandlers methods ([#15568](https://github.com/python/typeshed/pull/15568))
+* Add precise return types for most of CommandHandlers methods ([#15568](https://github.com/python/typeshed/pull/15568))
 
-## 25.3.0.20260328 (2026-03-28)
+## [25.3.0.20260328](https://pypi.org/project/types-gunicorn/25.3.0.20260328/) (2026-03-28)
 
-[gunicorn] Update to 25.3.0 ([#15563](https://github.com/python/typeshed/pull/15563))
+* Update to 25.3.0 ([#15563](https://github.com/python/typeshed/pull/15563))
 
-## 25.2.0.20260326 (2026-03-26)
+## [25.2.0.20260326](https://pypi.org/project/types-gunicorn/25.2.0.20260326/) (2026-03-26)
 
-[gunicorn] Update to 25.2.0 ([#15555](https://github.com/python/typeshed/pull/15555))
+* Update to 25.2.0 ([#15555](https://github.com/python/typeshed/pull/15555))
 
-## 25.1.0.20260215 (2026-02-15)
+## [25.1.0.20260215](https://pypi.org/project/types-gunicorn/25.1.0.20260215/) (2026-02-15)
 
-[gunicorn] Update to 25.1.0 ([#15425](https://github.com/python/typeshed/pull/15425))
+* Update to 25.1.0 ([#15425](https://github.com/python/typeshed/pull/15425))
 
-## 25.0.3.20260211 (2026-02-11)
+## [25.0.3.20260211](https://pypi.org/project/types-gunicorn/25.0.3.20260211/) (2026-02-11)
 
-[stubsabot] Bump gunicorn to 25.0.3 ([#15408](https://github.com/python/typeshed/pull/15408))
+* Bump gunicorn to 25.0.3 ([#15408](https://github.com/python/typeshed/pull/15408))
 
-## 25.0.2.20260210 (2026-02-10)
+## [25.0.2.20260210](https://pypi.org/project/types-gunicorn/25.0.2.20260210/) (2026-02-10)
 
-[gunicorn] Update to 25.0.2 ([#15385](https://github.com/python/typeshed/pull/15385))
+* Update to 25.0.2 ([#15385](https://github.com/python/typeshed/pull/15385))
 
-## 25.0.0.20260204 (2026-02-04)
+## [25.0.0.20260204](https://pypi.org/project/types-gunicorn/25.0.0.20260204/) (2026-02-04)
 
-[gunicorn] Update to 25.0.* ([#15363](https://github.com/python/typeshed/pull/15363))
+* Update to 25.0.* ([#15363](https://github.com/python/typeshed/pull/15363))
 
-## 24.1.0.20260127 (2026-01-27)
+## [24.1.0.20260127](https://pypi.org/project/types-gunicorn/24.1.0.20260127/) (2026-01-27)
 
-[gunicorn] Revert * to patch version ([#15327](https://github.com/python/typeshed/pull/15327))
+* Revert * to patch version ([#15327](https://github.com/python/typeshed/pull/15327))
 
-[gunicorn] Update to 24.1.0 ([#15323](https://github.com/python/typeshed/pull/15323))
+* Update to 24.1.0 ([#15323](https://github.com/python/typeshed/pull/15323))
 
-## 23.0.0.20251031 (2025-10-31)
+## [23.0.0.20251031](https://pypi.org/project/types-gunicorn/23.0.0.20251031/) (2025-10-31)
 
-[gunicorn] Fix type of Arbiter.LISTENERS ([#14945](https://github.com/python/typeshed/pull/14945))
+* Fix type of Arbiter.LISTENERS ([#14945](https://github.com/python/typeshed/pull/14945))
 
-[gunicorn] Add `BaseSocket.sock` ([#14946](https://github.com/python/typeshed/pull/14946))
+* Add `BaseSocket.sock` ([#14946](https://github.com/python/typeshed/pull/14946))
 
-## 23.0.0.20251001 (2025-10-01)
+## [23.0.0.20251001](https://pypi.org/project/types-gunicorn/23.0.0.20251001/) (2025-10-01)
 
-Remove @override annotations ([#14806](https://github.com/python/typeshed/pull/14806))
+* Remove @override annotations ([#14806](https://github.com/python/typeshed/pull/14806))
 
-## 23.0.0.20250923 (2025-09-23)
+## [23.0.0.20250923](https://pypi.org/project/types-gunicorn/23.0.0.20250923/) (2025-09-23)
 
-Add stubs for gunicorn ([#14690](https://github.com/python/typeshed/pull/14690))
+* Add stubs for gunicorn ([#14690](https://github.com/python/typeshed/pull/14690))
 

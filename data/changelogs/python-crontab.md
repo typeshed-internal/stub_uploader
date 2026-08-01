@@ -2,55 +2,55 @@
 
 * Add default values ([#16088](https://github.com/python/typeshed/pull/16088))
 
-## 3.3.0.20260518 (2026-05-18)
+## [3.3.0.20260518](https://pypi.org/project/types-python-crontab/3.3.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 3.3.0.20260508 (2026-05-08)
+## [3.3.0.20260508](https://pypi.org/project/types-python-crontab/3.3.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 3.3.0.20260408 (2026-04-08)
+## [3.3.0.20260408](https://pypi.org/project/types-python-crontab/3.3.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 3.3.0.20260402 (2026-04-02)
+## [3.3.0.20260402](https://pypi.org/project/types-python-crontab/3.3.0.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-## 3.3.0.20251115 (2025-11-15)
+## [3.3.0.20251115](https://pypi.org/project/types-python-crontab/3.3.0.20251115/) (2025-11-15)
 
-[python-crontab] fill in incompletes ([#15026](https://github.com/python/typeshed/pull/15026))
+* fill in incompletes ([#15026](https://github.com/python/typeshed/pull/15026))
 
-## 3.3.0.20250715 (2025-07-15)
+## [3.3.0.20250715](https://pypi.org/project/types-python-crontab/3.3.0.20250715/) (2025-07-15)
 
-[stubsabot] Bump python-crontab to 3.3.* ([#14409](https://github.com/python/typeshed/pull/14409))
+* Bump python-crontab to 3.3.* ([#14409](https://github.com/python/typeshed/pull/14409))
 
-## 3.2.0.20250708 (2025-07-08)
+## [3.2.0.20250708](https://pypi.org/project/types-python-crontab/3.2.0.20250708/) (2025-07-08)
 
-[python-crontab] Remove from pyrightconfig ([#14322](https://github.com/python/typeshed/pull/14322))
+* Remove from pyrightconfig ([#14322](https://github.com/python/typeshed/pull/14322))
 
-## 3.2.0.20240703 (2024-07-03)
+## [3.2.0.20240703](https://pypi.org/project/types-python-crontab/3.2.0.20240703/) (2024-07-03)
 
-[stubsabot] Bump python-crontab to 3.2.* ([#12253](https://github.com/python/typeshed/pull/12253))
+* Bump python-crontab to 3.2.* ([#12253](https://github.com/python/typeshed/pull/12253))
 
-## 3.1.0.20240524 (2024-05-24)
+## [3.1.0.20240524](https://pypi.org/project/types-python-crontab/3.1.0.20240524/) (2024-05-24)
 
-Bump python-crontab to 3.1.* ([#12008](https://github.com/python/typeshed/pull/12008))
+* Bump python-crontab to 3.1.* ([#12008](https://github.com/python/typeshed/pull/12008))
 
-## 3.0.0.20240417 (2024-04-17)
+## [3.0.0.20240417](https://pypi.org/project/types-python-crontab/3.0.0.20240417/) (2024-04-17)
 
-Remove remaining bare `Incomplete`s ([#11768](https://github.com/python/typeshed/pull/11768))
+* Remove remaining bare `Incomplete`s ([#11768](https://github.com/python/typeshed/pull/11768))
 
-Enable Y065
+    Enable Y065
 
-## 3.0.0.20240106 (2024-01-06)
+## [3.0.0.20240106](https://pypi.org/project/types-python-crontab/3.0.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 3.0.0.1 (2023-07-20)
 
