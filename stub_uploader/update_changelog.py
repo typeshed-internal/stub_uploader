@@ -11,10 +11,14 @@ import re
 import subprocess
 from pathlib import Path
 
-from stub_uploader.const import CHANGELOG_PATH
+from stub_uploader.const import CHANGELOG_PATH, THIRD_PARTY_NAMESPACE
 
 _SCOPE_PREFIX_RE = re.compile(r"^\s*(\([^)]*\)|\[[^\]]*\])\s*:?\s*")
-THIRD_PARTY_NAMESPACE = "stubs"
+_FIELD_RE = re.compile(r"^[A-Za-z][A-Za-z0-9 _/-]*:\s+\S")
+
+def _is_metadata_line(line: str) -> bool:
+    line = line.strip()
+    return bool(_FIELD_RE.fullmatch(line))
 
 
 def main() -> None:
@@ -108,14 +112,11 @@ def process_git_log(
             entry += f"* {title}\n"
             is_title = False
         else:
-            # Decide whether to add ' \'
+            # Decide whether to add ' \' (For metadata like 'Key: Value')
             next_line = lines[i + 1] if i + 1 < len(lines) else ""
-            add_backslash = (
-                next_line.strip() != ""
-                and next_line.startswith("    ")
-                and not next_line.lstrip().startswith(("* ", "- ", "+ ", "1. "))
-            )
-            if add_backslash and not line.rstrip().endswith("\\"):
+            current = line[4:].rstrip()
+            next = next_line[4:].rstrip()
+            if _is_metadata_line(current) and _is_metadata_line(next):
                 line += " \\"
             entry += f"{line.rstrip()}\n"
 
