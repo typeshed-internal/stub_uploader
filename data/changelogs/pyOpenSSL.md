@@ -1,58 +1,58 @@
-## 24.1.0.20240722 (2024-07-22)
+## [24.1.0.20240722](https://pypi.org/project/types-pyOpenSSL/24.1.0.20240722/) (2024-07-22)
 
-[stubsabot] Mark pyOpenSSL as obsolete since 24.2.1 ([#12387](https://github.com/python/typeshed/pull/12387))
+* Mark pyOpenSSL as obsolete since 24.2.1 ([#12387](https://github.com/python/typeshed/pull/12387))
 
-Release: https://pypi.org/pypi/pyOpenSSL/24.2.1
-Homepage: https://pyopenssl.org/
-Repository: https://github.com/pyca/pyopenssl
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/pyOpenSSL
-Diff: https://github.com/pyca/pyopenssl/compare/24.1.0...24.2.1
+    Release: https://pypi.org/pypi/pyOpenSSL/24.2.1
+    Homepage: https://pyopenssl.org/
+    Repository: https://github.com/pyca/pyopenssl
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/pyOpenSSL
+    Diff: https://github.com/pyca/pyopenssl/compare/24.1.0...24.2.1
 
-## 24.1.0.20240425 (2024-04-25)
+## [24.1.0.20240425](https://pypi.org/project/types-pyOpenSSL/24.1.0.20240425/) (2024-04-25)
 
-Bump OpenSSL to 24.1.* ([#11816](https://github.com/python/typeshed/pull/11816))
+* Bump OpenSSL to 24.1.* ([#11816](https://github.com/python/typeshed/pull/11816))
 
-Mark a few classes and functions as deprecated
+    Mark a few classes and functions as deprecated
 
-Closes: #11812
+    Closes: #11812
 
-## 24.0.0.20240417 (2024-04-17)
+## [24.0.0.20240417](https://pypi.org/project/types-pyOpenSSL/24.0.0.20240417/) (2024-04-17)
 
-Remove remaining bare `Incomplete`s ([#11768](https://github.com/python/typeshed/pull/11768))
+* Remove remaining bare `Incomplete`s ([#11768](https://github.com/python/typeshed/pull/11768))
 
-Enable Y065
+    Enable Y065
 
-## 24.0.0.20240311 (2024-03-11)
+## [24.0.0.20240311](https://pypi.org/project/types-pyOpenSSL/24.0.0.20240311/) (2024-03-11)
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## 24.0.0.20240228 (2024-02-28)
+## [24.0.0.20240228](https://pypi.org/project/types-pyOpenSSL/24.0.0.20240228/) (2024-02-28)
 
-pyOpenSSL: Add DTLS_* constants ([#11486](https://github.com/python/typeshed/pull/11486))
+* pyOpenSSL: Add DTLS_* constants ([#11486](https://github.com/python/typeshed/pull/11486))
 
-## 24.0.0.20240130 (2024-01-30)
+## [24.0.0.20240130](https://pypi.org/project/types-pyOpenSSL/24.0.0.20240130/) (2024-01-30)
 
-[pyOpenSSL] Update to 24.0.* ([#11338](https://github.com/python/typeshed/pull/11338))
+* Update to 24.0.* ([#11338](https://github.com/python/typeshed/pull/11338))
 
-## 23.3.0.20240106 (2024-01-06)
+## [23.3.0.20240106](https://pypi.org/project/types-pyOpenSSL/23.3.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## 23.3.0.0 (2023-10-30)
+## [23.3.0.0](https://pypi.org/project/types-pyOpenSSL/23.3.0.0/) (2023-10-30)
 
-Bump pyOpenSSL to 23.3.* ([#10936](https://github.com/python/typeshed/pull/10936))
+* Bump pyOpenSSL to 23.3.* ([#10936](https://github.com/python/typeshed/pull/10936))
 
-Release: https://pypi.org/pypi/pyOpenSSL/23.3.0
-Homepage: https://pyopenssl.org/
-Repository: https://github.com/pyca/pyopenssl
-Diff: https://github.com/pyca/pyopenssl/compare/23.2.0...23.3.0
+    Release: https://pypi.org/pypi/pyOpenSSL/23.3.0
+    Homepage: https://pyopenssl.org/
+    Repository: https://github.com/pyca/pyopenssl
+    Diff: https://github.com/pyca/pyopenssl/compare/23.2.0...23.3.0
 
-Stubsabot analysis of the diff between the two releases:
- - Total lines of Python code added: 414.
- - Total lines of Python code deleted: 717.
+    Stubsabot analysis of the diff between the two releases:
+     - Total lines of Python code added: 414.
+     - Total lines of Python code deleted: 717.
 
----
-Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+    ---
+    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
 ## 23.2.0.2 (2023-07-20)
 

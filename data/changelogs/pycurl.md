@@ -1,63 +1,63 @@
-## 7.47.0.20260703 (2026-07-03)
+## [7.47.0.20260703](https://pypi.org/project/types-pycurl/7.47.0.20260703/) (2026-07-03)
 
-[pycurl] Update stubs to 7.47.0 ([#15971](https://github.com/python/typeshed/pull/15971))
+* Update stubs to 7.47.0 ([#15971](https://github.com/python/typeshed/pull/15971))
 
-## 7.46.0.20260618 (2026-06-18)
+## [7.46.0.20260618](https://pypi.org/project/types-pycurl/7.46.0.20260618/) (2026-06-18)
 
-[pycurl] Fill in missing/`Incomplete` annotations ([#15919](https://github.com/python/typeshed/pull/15919))
+* Fill in missing/`Incomplete` annotations ([#15919](https://github.com/python/typeshed/pull/15919))
 
-## 7.46.0.20260509 (2026-05-09)
+## [7.46.0.20260509](https://pypi.org/project/types-pycurl/7.46.0.20260509/) (2026-05-09)
 
-[pycurl] Update to 7.46.0 ([#15695](https://github.com/python/typeshed/pull/15695))
+* Update to 7.46.0 ([#15695](https://github.com/python/typeshed/pull/15695))
 
-## 7.45.7.20260408 (2026-04-08)
+## [7.45.7.20260408](https://pypi.org/project/types-pycurl/7.45.7.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 7.45.7.20260316 (2026-03-16)
+## [7.45.7.20260316](https://pypi.org/project/types-pycurl/7.45.7.20260316/) (2026-03-16)
 
-Fix `Final` literal values in various third-party stubs ([#15521](https://github.com/python/typeshed/pull/15521))
+* Fix `Final` literal values in various third-party stubs ([#15521](https://github.com/python/typeshed/pull/15521))
 
-## 7.45.7.20251101 (2025-11-01)
+## [7.45.7.20251101](https://pypi.org/project/types-pycurl/7.45.7.20251101/) (2025-11-01)
 
-Annotate pycurl's getinfo() and getinfo_raw() ([#14929](https://github.com/python/typeshed/pull/14929))
+* Annotate pycurl's getinfo() and getinfo_raw() ([#14929](https://github.com/python/typeshed/pull/14929))
 
-## 7.45.7.20250926 (2025-09-26)
+## [7.45.7.20250926](https://pypi.org/project/types-pycurl/7.45.7.20250926/) (2025-09-26)
 
-[pycurl] Update to 7.45.7 ([#14781](https://github.com/python/typeshed/pull/14781))
+* Update to 7.45.7 ([#14781](https://github.com/python/typeshed/pull/14781))
 
-## 7.45.6.20250801 (2025-08-01)
+## [7.45.6.20250801](https://pypi.org/project/types-pycurl/7.45.6.20250801/) (2025-08-01)
 
-Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
+* Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
-Co-authored-by: Avasam <samuel.06@hotmail.com>
-Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
-## 7.45.6.20250309 (2025-03-09)
+## [7.45.6.20250309](https://pypi.org/project/types-pycurl/7.45.6.20250309/) (2025-03-09)
 
-Update pycurl to 7.45.6 ([#13600](https://github.com/python/typeshed/pull/13600))
+* Update pycurl to 7.45.6 ([#13600](https://github.com/python/typeshed/pull/13600))
 
-## 7.45.4.20241216 (2024-12-16)
+## [7.45.4.20241216](https://pypi.org/project/types-pycurl/7.45.4.20241216/) (2024-12-16)
 
-Bump pycurl to 7.45.4 ([#13250](https://github.com/python/typeshed/pull/13250))
+* Bump pycurl to 7.45.4 ([#13250](https://github.com/python/typeshed/pull/13250))
 
-## 7.45.3.20240421 (2024-04-21)
+## [7.45.3.20240421](https://pypi.org/project/types-pycurl/7.45.3.20240421/) (2024-04-21)
 
-Bump pycurl to 7.45.3, update platform tests ([#11792](https://github.com/python/typeshed/pull/11792))
+* Bump pycurl to 7.45.3, update platform tests ([#11792](https://github.com/python/typeshed/pull/11792))
 
-## 7.45.2.20240417 (2024-04-17)
+## [7.45.2.20240417](https://pypi.org/project/types-pycurl/7.45.2.20240417/) (2024-04-17)
 
-Remove remaining bare `Incomplete`s ([#11768](https://github.com/python/typeshed/pull/11768))
+* Remove remaining bare `Incomplete`s ([#11768](https://github.com/python/typeshed/pull/11768))
 
-Enable Y065
+    Enable Y065
 
-## 7.45.2.20240311 (2024-03-11)
+## [7.45.2.20240311](https://pypi.org/project/types-pycurl/7.45.2.20240311/) (2024-03-11)
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## 7.45.2.20240106 (2024-01-06)
+## [7.45.2.20240106](https://pypi.org/project/types-pycurl/7.45.2.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 7.45.2.5 (2023-08-13)
 

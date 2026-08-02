@@ -1,205 +1,205 @@
-## 2.33.0.20260712 (2026-07-12)
+## [2.33.0.20260712](https://pypi.org/project/types-requests/2.33.0.20260712/) (2026-07-12)
 
-Structured obsolete_since fields ([#15682](https://github.com/python/typeshed/pull/15682))
+* Structured obsolete_since fields ([#15682](https://github.com/python/typeshed/pull/15682))
 
-Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))
+* Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))
 
-Class members such as list, type, cursor, Model, and datetime shadow the builtins, classes, or modules referenced by nearby annotations. ty then resolves those annotations to Unknown, which can hide invalid calls in APIs including docker, sqlite3, psycopg2, Markdown, and requests.
+    Class members such as list, type, cursor, Model, and datetime shadow the builtins, classes, or modules referenced by nearby annotations. ty then resolves those annotations to Unknown, which can hide invalid calls in APIs including docker, sqlite3, psycopg2, Markdown, and requests.
 
-Qualify shadowed builtins and use private aliases for colliding imports and classes. This removes 15 stdlib and 120 third-party collision diagnostics under ty 0.0.58, restores the affected public types, and fixes four existing psycopg2 type assertions.
+    Qualify shadowed builtins and use private aliases for colliding imports and classes. This removes 15 stdlib and 120 third-party collision diagnostics under ty 0.0.58, restores the affected public types, and fixes four existing psycopg2 type assertions.
 
-## 2.33.0.20260518 (2026-05-18)
+## [2.33.0.20260518](https://pypi.org/project/types-requests/2.33.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 2.33.0.20260513 (2026-05-13)
+## [2.33.0.20260513](https://pypi.org/project/types-requests/2.33.0.20260513/) (2026-05-13)
 
-[requests] Improve type annotations for several HTTPAdapter methods ([#15778](https://github.com/python/typeshed/pull/15778))
+* Improve type annotations for several HTTPAdapter methods ([#15778](https://github.com/python/typeshed/pull/15778))
 
-[requests] Mark as obsolete since 2.34.0 ([#15775](https://github.com/python/typeshed/pull/15775))
+* Mark as obsolete since 2.34.0 ([#15775](https://github.com/python/typeshed/pull/15775))
 
-## 2.33.0.20260508 (2026-05-08)
+## [2.33.0.20260508](https://pypi.org/project/types-requests/2.33.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 2.33.0.20260503 (2026-05-03)
+## [2.33.0.20260503](https://pypi.org/project/types-requests/2.33.0.20260503/) (2026-05-03)
 
-[requests] Specify that adapters.HTTPAdapter.close() returns None ([#15684](https://github.com/python/typeshed/pull/15684))
+* Specify that adapters.HTTPAdapter.close() returns None ([#15684](https://github.com/python/typeshed/pull/15684))
 
-## 2.33.0.20260408 (2026-04-08)
+## [2.33.0.20260408](https://pypi.org/project/types-requests/2.33.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 2.33.0.20260402 (2026-04-02)
+## [2.33.0.20260402](https://pypi.org/project/types-requests/2.33.0.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-## 2.33.0.20260327 (2026-03-27)
+## [2.33.0.20260327](https://pypi.org/project/types-requests/2.33.0.20260327/) (2026-03-27)
 
-[stubsabot] Bump requests to ~=2.33.0 ([#15556](https://github.com/python/typeshed/pull/15556))
+* Bump requests to ~=2.33.0 ([#15556](https://github.com/python/typeshed/pull/15556))
 
-## 2.32.4.20260324 (2026-03-24)
+## [2.32.4.20260324](https://pypi.org/project/types-requests/2.32.4.20260324/) (2026-03-24)
 
-[requests] Add `requests.compat.JSONDecodeError` ([#15545](https://github.com/python/typeshed/pull/15545))
+* Add `requests.compat.JSONDecodeError` ([#15545](https://github.com/python/typeshed/pull/15545))
 
-Also add a comment that `JSONDecodeError` may be imported from
-`simplejson` if that is installed.
+    Also add a comment that `JSONDecodeError` may be imported from
+    `simplejson` if that is installed.
 
-## 2.32.4.20260107 (2026-01-07)
+## [2.32.4.20260107](https://pypi.org/project/types-requests/2.32.4.20260107/) (2026-01-07)
 
-[requests] requests.exceptions.JSONDecodeError inherits from json.JSONDecodeError ([#15168](https://github.com/python/typeshed/pull/15168))
+* requests.exceptions.JSONDecodeError inherits from json.JSONDecodeError ([#15168](https://github.com/python/typeshed/pull/15168))
 
-## 2.32.4.20250913 (2025-09-13)
+## [2.32.4.20250913](https://pypi.org/project/types-requests/2.32.4.20250913/) (2025-09-13)
 
-[requests] Allow "connect" timeout to be `None` in timeout configuration tuple ([#14700](https://github.com/python/typeshed/pull/14700))
+* Allow "connect" timeout to be `None` in timeout configuration tuple ([#14700](https://github.com/python/typeshed/pull/14700))
 
-## 2.32.4.20250809 (2025-08-09)
+## [2.32.4.20250809](https://pypi.org/project/types-requests/2.32.4.20250809/) (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 2.32.4.20250611 (2025-06-11)
+## [2.32.4.20250611](https://pypi.org/project/types-requests/2.32.4.20250611/) (2025-06-11)
 
-[requests] Update to 2.32.4 ([#14254](https://github.com/python/typeshed/pull/14254))
+* Update to 2.32.4 ([#14254](https://github.com/python/typeshed/pull/14254))
 
-## 2.32.0.20250602 (2025-06-02)
+## [2.32.0.20250602](https://pypi.org/project/types-requests/2.32.0.20250602/) (2025-06-02)
 
-Update mypy to 1.16.0 ([#14194](https://github.com/python/typeshed/pull/14194))
+* Update mypy to 1.16.0 ([#14194](https://github.com/python/typeshed/pull/14194))
 
-Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
-Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+    Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
+    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## 2.32.0.20250515 (2025-05-15)
+## [2.32.0.20250515](https://pypi.org/project/types-requests/2.32.0.20250515/) (2025-05-15)
 
-[requests] Add a _JSON type alias ([#14064](https://github.com/python/typeshed/pull/14064))
+* Add a _JSON type alias ([#14064](https://github.com/python/typeshed/pull/14064))
 
-## 2.32.0.20250328 (2025-03-28)
+## [2.32.0.20250328](https://pypi.org/project/types-requests/2.32.0.20250328/) (2025-03-28)
 
-[requests] Remove Session.redirect_cache ([#13723](https://github.com/python/typeshed/pull/13723))
+* Remove Session.redirect_cache ([#13723](https://github.com/python/typeshed/pull/13723))
 
-## 2.32.0.20250306 (2025-03-06)
+## [2.32.0.20250306](https://pypi.org/project/types-requests/2.32.0.20250306/) (2025-03-06)
 
-Update tools versions in `stubtest` workflow ([#13582](https://github.com/python/typeshed/pull/13582))
+* Update tools versions in `stubtest` workflow ([#13582](https://github.com/python/typeshed/pull/13582))
 
-## 2.32.0.20250301 (2025-03-01)
+## [2.32.0.20250301](https://pypi.org/project/types-requests/2.32.0.20250301/) (2025-03-01)
 
-Fix conflicting imports ([#13561](https://github.com/python/typeshed/pull/13561))
+* Fix conflicting imports ([#13561](https://github.com/python/typeshed/pull/13561))
 
-## 2.32.0.20241016 (2024-10-16)
+## [2.32.0.20241016](https://pypi.org/project/types-requests/2.32.0.20241016/) (2024-10-16)
 
-remove unneeded Iterable base class from CookieJar ([#12812](https://github.com/python/typeshed/pull/12812))
+* remove unneeded Iterable base class from CookieJar ([#12812](https://github.com/python/typeshed/pull/12812))
 
-## 2.32.0.20240914 (2024-09-14)
+## [2.32.0.20240914](https://pypi.org/project/types-requests/2.32.0.20240914/) (2024-09-14)
 
-Correct requests `cookies` argument ([#12654](https://github.com/python/typeshed/pull/12654))
+* Correct requests `cookies` argument ([#12654](https://github.com/python/typeshed/pull/12654))
 
-## 2.32.0.20240907 (2024-09-07)
+## [2.32.0.20240907](https://pypi.org/project/types-requests/2.32.0.20240907/) (2024-09-07)
 
-requests: Session.adapters is a mapping of Adapters ([#12473](https://github.com/python/typeshed/pull/12473))
+* requests: Session.adapters is a mapping of Adapters ([#12473](https://github.com/python/typeshed/pull/12473))
 
-Signed-off-by: Stephen Finucane <stephen@that.guru>
+    Signed-off-by: Stephen Finucane <stephen@that.guru>
 
-## 2.32.0.20240905 (2024-09-05)
+## [2.32.0.20240905](https://pypi.org/project/types-requests/2.32.0.20240905/) (2024-09-05)
 
-Add hint for requests.models.Response.raw ([#12616](https://github.com/python/typeshed/pull/12616))
+* Add hint for requests.models.Response.raw ([#12616](https://github.com/python/typeshed/pull/12616))
 
-## 2.32.0.20240712 (2024-07-12)
+## [2.32.0.20240712](https://pypi.org/project/types-requests/2.32.0.20240712/) (2024-07-12)
 
-requests: Add connection property (type HTTPAdapter) to the Response class ([#12279](https://github.com/python/typeshed/pull/12279))
+* requests: Add connection property (type HTTPAdapter) to the Response class ([#12279](https://github.com/python/typeshed/pull/12279))
 
-The `Response` instance is built by `HTTPAdapter`. When built, a property called `connection` is added to the `Response` that points back to the `HTTPAdapter` that created it. For example, this is used in the `requests` library's `HTTPDigestAuth` class to remake requests with credentials after authorization is requested by a server.
+    The `Response` instance is built by `HTTPAdapter`. When built, a property called `connection` is added to the `Response` that points back to the `HTTPAdapter` that created it. For example, this is used in the `requests` library's `HTTPDigestAuth` class to remake requests with credentials after authorization is requested by a server.
 
-## 2.32.0.20240622 (2024-06-22)
+## [2.32.0.20240622](https://pypi.org/project/types-requests/2.32.0.20240622/) (2024-06-22)
 
-requests: Fix Response.content return type to include None ([#12180](https://github.com/python/typeshed/pull/12180))
+* requests: Fix Response.content return type to include None ([#12180](https://github.com/python/typeshed/pull/12180))
 
-## 2.32.0.20240602 (2024-06-02)
+## [2.32.0.20240602](https://pypi.org/project/types-requests/2.32.0.20240602/) (2024-06-02)
 
-[requests] Update to 2.32.3 ([#12060](https://github.com/python/typeshed/pull/12060))
+* Update to 2.32.3 ([#12060](https://github.com/python/typeshed/pull/12060))
 
-## 2.32.0.20240523 (2024-05-23)
+## [2.32.0.20240523](https://pypi.org/project/types-requests/2.32.0.20240523/) (2024-05-23)
 
-[requests] Update to 2.32.2 ([#12000](https://github.com/python/typeshed/pull/12000))
+* Update to 2.32.2 ([#12000](https://github.com/python/typeshed/pull/12000))
 
-Also replace some `Any` annotations with `Incomplete` and use `Final` in `requests.__version__`.
+    Also replace some `Any` annotations with `Incomplete` and use `Final` in `requests.__version__`.
 
-## 2.32.0.20240521 (2024-05-21)
+## [2.32.0.20240521](https://pypi.org/project/types-requests/2.32.0.20240521/) (2024-05-21)
 
-[stubsabot] Bump requests to 2.32.* ([#11991](https://github.com/python/typeshed/pull/11991))
+* Bump requests to 2.32.* ([#11991](https://github.com/python/typeshed/pull/11991))
 
-Release: https://pypi.org/pypi/requests/2.32.1
-Homepage: https://requests.readthedocs.io
-Repository: https://github.com/psf/requests
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/requests
-Diff: https://github.com/psf/requests/compare/v2.31.0...v2.32.1
+    Release: https://pypi.org/pypi/requests/2.32.1
+    Homepage: https://requests.readthedocs.io
+    Repository: https://github.com/psf/requests
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/requests
+    Diff: https://github.com/psf/requests/compare/v2.31.0...v2.32.1
 
-Stubsabot analysis of the diff between the two releases:
- - Total lines of Python code added: 486.
- - Total lines of Python code deleted: 131.
+    Stubsabot analysis of the diff between the two releases:
+     - Total lines of Python code added: 486.
+     - Total lines of Python code deleted: 131.
 
-## 2.31.0.20240406 (2024-04-06)
+## [2.31.0.20240406](https://pypi.org/project/types-requests/2.31.0.20240406/) (2024-04-06)
 
-requests: export `packages` and `utils` ([#11723](https://github.com/python/typeshed/pull/11723))
+* requests: export `packages` and `utils` ([#11723](https://github.com/python/typeshed/pull/11723))
 
-## 2.31.0.20240403 (2024-04-03)
+## [2.31.0.20240403](https://pypi.org/project/types-requests/2.31.0.20240403/) (2024-04-03)
 
-requests: remove a `type: ignore` ([#11704](https://github.com/python/typeshed/pull/11704))
+* requests: remove a `type: ignore` ([#11704](https://github.com/python/typeshed/pull/11704))
 
-## 2.31.0.20240402 (2024-04-02)
+## [2.31.0.20240402](https://pypi.org/project/types-requests/2.31.0.20240402/) (2024-04-02)
 
-requests: annotate RequestsCookieJar ([#11656](https://github.com/python/typeshed/pull/11656))
+* requests: annotate RequestsCookieJar ([#11656](https://github.com/python/typeshed/pull/11656))
 
-## 2.31.0.20240311 (2024-03-11)
+## [2.31.0.20240311](https://pypi.org/project/types-requests/2.31.0.20240311/) (2024-03-11)
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## 2.31.0.20240310 (2024-03-10)
+## [2.31.0.20240310](https://pypi.org/project/types-requests/2.31.0.20240310/) (2024-03-10)
 
-Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
+* Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
 
-Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## 2.31.0.20240218 (2024-02-18)
+## [2.31.0.20240218](https://pypi.org/project/types-requests/2.31.0.20240218/) (2024-02-18)
 
-requests: Allow passing None header values ([#11370](https://github.com/python/typeshed/pull/11370))
+* requests: Allow passing None header values ([#11370](https://github.com/python/typeshed/pull/11370))
 
-https://github.com/python/typeshed/pull/7773 changed
-`requests.session.Session` methods to accept None for header values, but
-didn't do quite the same for the functions in `requests.api`.  I think
-this was a mistake.  The functions in `requests.api` just pass through
-the `headers` argument without doing anything in particular to it.
+    https://github.com/python/typeshed/pull/7773 changed
+    `requests.session.Session` methods to accept None for header values, but
+    didn't do quite the same for the functions in `requests.api`.  I think
+    this was a mistake.  The functions in `requests.api` just pass through
+    the `headers` argument without doing anything in particular to it.
 
-Furthermore, it's useful to be able to pass None as a header value:
-because `requests.utils.default_headers` sets an `Accept-Encoding`
-header by default, the easiest way to send a request with no
-`Accept-Encoding` header is something like `requests.get(url,
-headers={"Accept-Encoding": None})`.  It's annoying to have to construct
-a `Session` just to pass type-checking.
+    Furthermore, it's useful to be able to pass None as a header value:
+    because `requests.utils.default_headers` sets an `Accept-Encoding`
+    header by default, the easiest way to send a request with no
+    `Accept-Encoding` header is something like `requests.get(url,
+    headers={"Accept-Encoding": None})`.  It's annoying to have to construct
+    a `Session` just to pass type-checking.
 
-It's a little confusing for the type alias to be called
-`_HeadersUpdateMapping` in `requests.sessions` but `_HeadersMapping` in
-`requests.api`; this is because the latter name was already used in
-other type stubs (`tensorflow.keras.callbacks`), so it seemed best to
-avoid breaking API.
+    It's a little confusing for the type alias to be called
+    `_HeadersUpdateMapping` in `requests.sessions` but `_HeadersMapping` in
+    `requests.api`; this is because the latter name was already used in
+    other type stubs (`tensorflow.keras.callbacks`), so it seemed best to
+    avoid breaking API.
 
-## 2.31.0.20240125 (2024-01-25)
+## [2.31.0.20240125](https://pypi.org/project/types-requests/2.31.0.20240125/) (2024-01-25)
 
-Add parameter type to PreparedRequest.prepare_content_length ([#11304](https://github.com/python/typeshed/pull/11304))
+* Add parameter type to PreparedRequest.prepare_content_length ([#11304](https://github.com/python/typeshed/pull/11304))
 
-## 2.31.0.20240106 (2024-01-06)
+## [2.31.0.20240106](https://pypi.org/project/types-requests/2.31.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## 2.31.0.20231231 (2023-12-31)
+## [2.31.0.20231231](https://pypi.org/project/types-requests/2.31.0.20231231/) (2023-12-31)
 
-requests: Use the `Any` trick in `HTTPError` ([#11207](https://github.com/python/typeshed/pull/11207))
+* requests: Use the `Any` trick in `HTTPError` ([#11207](https://github.com/python/typeshed/pull/11207))
 
-## 2.31.0.10 (2023-10-18)
+## [2.31.0.10](https://pypi.org/project/types-requests/2.31.0.10/) (2023-10-18)
 
-requests: annotate `utils.get_encoding_from_headers()` ([#10901](https://github.com/python/typeshed/pull/10901))
+* requests: annotate `utils.get_encoding_from_headers()` ([#10901](https://github.com/python/typeshed/pull/10901))
 
 ## 2.31.0.9 (2023-10-13)
 

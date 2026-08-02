@@ -1,21 +1,21 @@
-## 8.0.2.20240310 (2024-03-10)
+## [8.0.2.20240310](https://pypi.org/project/types-python-slugify/8.0.2.20240310/) (2024-03-10)
 
-Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
+* Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
 
-Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## 8.0.2.20240127 (2024-01-27)
+## [8.0.2.20240127](https://pypi.org/project/types-python-slugify/8.0.2.20240127/) (2024-01-27)
 
-[stubsabot] Mark python-slugify as obsolete since 8.0.2 ([#11316](https://github.com/python/typeshed/pull/11316))
+* Mark python-slugify as obsolete since 8.0.2 ([#11316](https://github.com/python/typeshed/pull/11316))
 
-Release: https://pypi.org/pypi/python-slugify/8.0.2
-Homepage: https://github.com/un33k/python-slugify
-Repository: https://github.com/un33k/python-slugify
-Diff: https://github.com/un33k/python-slugify/compare/v8.0.1...v8.0.2
+    Release: https://pypi.org/pypi/python-slugify/8.0.2
+    Homepage: https://github.com/un33k/python-slugify
+    Repository: https://github.com/un33k/python-slugify
+    Diff: https://github.com/un33k/python-slugify/compare/v8.0.1...v8.0.2
 
----------
+    ---------
 
-Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
+    Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
 
 ## 8.0.0.3 (2023-07-20)
 

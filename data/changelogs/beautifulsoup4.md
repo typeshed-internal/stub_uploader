@@ -1,49 +1,49 @@
-## 4.12.0.20250516 (2025-05-16)
+## [4.12.0.20250516](https://pypi.org/project/types-beautifulsoup4/4.12.0.20250516/) (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## 4.12.0.20250204 (2025-02-04)
+## [4.12.0.20250204](https://pypi.org/project/types-beautifulsoup4/4.12.0.20250204/) (2025-02-04)
 
-[stubsabot] Mark beautifulsoup4 as obsolete since 4.13.0 ([#13455](https://github.com/python/typeshed/pull/13455))
+* Mark beautifulsoup4 as obsolete since 4.13.0 ([#13455](https://github.com/python/typeshed/pull/13455))
 
-Release: https://pypi.org/pypi/beautifulsoup4/4.13.0
-Homepage: https://www.crummy.com/software/BeautifulSoup/bs4/
-Repository: https://git.launchpad.net/beautifulsoup/tree
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/beautifulsoup4
+    Release: https://pypi.org/pypi/beautifulsoup4/4.13.0
+    Homepage: https://www.crummy.com/software/BeautifulSoup/bs4/
+    Repository: https://git.launchpad.net/beautifulsoup/tree
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/beautifulsoup4
 
-## 4.12.0.20241020 (2024-10-20)
+## [4.12.0.20241020](https://pypi.org/project/types-beautifulsoup4/4.12.0.20241020/) (2024-10-20)
 
-Improve typing for BS4 element.Tag's `get` and `get_attribute_list`. ([#12840](https://github.com/python/typeshed/pull/12840))
+* Improve typing for BS4 element.Tag's `get` and `get_attribute_list`. ([#12840](https://github.com/python/typeshed/pull/12840))
 
-## 4.12.0.20240907 (2024-09-07)
+## [4.12.0.20240907](https://pypi.org/project/types-beautifulsoup4/4.12.0.20240907/) (2024-09-07)
 
-beautifulsoup4: Accept void_element_close_prefix=None ([#12621](https://github.com/python/typeshed/pull/12621))
+* beautifulsoup4: Accept void_element_close_prefix=None ([#12621](https://github.com/python/typeshed/pull/12621))
 
-## 4.12.0.20240511 (2024-05-11)
+## [4.12.0.20240511](https://pypi.org/project/types-beautifulsoup4/4.12.0.20240511/) (2024-05-11)
 
-stubs: [BeautifulSoup] fix incomplete type specs for formatter ([#11885](https://github.com/python/typeshed/pull/11885))
+* stubs: [BeautifulSoup] fix incomplete type specs for formatter ([#11885](https://github.com/python/typeshed/pull/11885))
 
-## 4.12.0.20240504 (2024-05-04)
+## [4.12.0.20240504](https://pypi.org/project/types-beautifulsoup4/4.12.0.20240504/) (2024-05-04)
 
-Add indent argument to HTMLFormatter and XMLFormatter inits ([#11855](https://github.com/python/typeshed/pull/11855))
+* Add indent argument to HTMLFormatter and XMLFormatter inits ([#11855](https://github.com/python/typeshed/pull/11855))
 
-## 4.12.0.20240229 (2024-02-29)
+## [4.12.0.20240229](https://pypi.org/project/types-beautifulsoup4/4.12.0.20240229/) (2024-02-29)
 
-bs4: Make `Tag.attrs` more permissive ([#11487](https://github.com/python/typeshed/pull/11487))
+* bs4: Make `Tag.attrs` more permissive ([#11487](https://github.com/python/typeshed/pull/11487))
 
-Make `Tag.attrs` more permissive to be in line with actual code
+    Make `Tag.attrs` more permissive to be in line with actual code
 
-`Tag.attrs` is a dict can technically have `list[str]` as a valid value, not just `str`. Making the value type a union with `Any` allows `list[str]` to be valid in a type checker's eyes if a user narrows it.
+    `Tag.attrs` is a dict can technically have `list[str]` as a valid value, not just `str`. Making the value type a union with `Any` allows `list[str]` to be valid in a type checker's eyes if a user narrows it.
 
-Based on discussion in, and fixes, #8755.
+    Based on discussion in, and fixes, #8755.
 
-## 4.12.0.20240106 (2024-01-06)
+## [4.12.0.20240106](https://pypi.org/project/types-beautifulsoup4/4.12.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## 4.12.0.7 (2023-10-27)
+## [4.12.0.7](https://pypi.org/project/types-beautifulsoup4/4.12.0.7/) (2023-10-27)
 
-Remove many redundant inheritances from `Generic[]` ([#10933](https://github.com/python/typeshed/pull/10933))
+* Remove many redundant inheritances from `Generic[]` ([#10933](https://github.com/python/typeshed/pull/10933))
 
 ## 4.12.0.6 (2023-08-13)
 

@@ -2,106 +2,106 @@
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
 
-## 5.0.0.20260617 (2026-06-17)
+## [5.0.0.20260617](https://pypi.org/project/types-paramiko/5.0.0.20260617/) (2026-06-17)
 
-[paramiko] Update to 5.0.0 ([#15907](https://github.com/python/typeshed/pull/15907))
+* Update to 5.0.0 ([#15907](https://github.com/python/typeshed/pull/15907))
 
-## 4.0.0.20260518 (2026-05-18)
+## [4.0.0.20260518](https://pypi.org/project/types-paramiko/4.0.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 4.0.0.20260508 (2026-05-08)
+## [4.0.0.20260508](https://pypi.org/project/types-paramiko/4.0.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 4.0.0.20260408 (2026-04-08)
+## [4.0.0.20260408](https://pypi.org/project/types-paramiko/4.0.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 4.0.0.20260402 (2026-04-02)
+## [4.0.0.20260402](https://pypi.org/project/types-paramiko/4.0.0.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-## 4.0.0.20260322 (2026-03-22)
+## [4.0.0.20260322](https://pypi.org/project/types-paramiko/4.0.0.20260322/) (2026-03-22)
 
-Add `@type_check_only` to stub-only private classes in various third-party stubs ([#15535](https://github.com/python/typeshed/pull/15535))
+* Add `@type_check_only` to stub-only private classes in various third-party stubs ([#15535](https://github.com/python/typeshed/pull/15535))
 
-## 4.0.0.20250822 (2025-08-22)
+## [4.0.0.20250822](https://pypi.org/project/types-paramiko/4.0.0.20250822/) (2025-08-22)
 
-Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+* Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
 
-## 4.0.0.20250821 (2025-08-21)
+## [4.0.0.20250821](https://pypi.org/project/types-paramiko/4.0.0.20250821/) (2025-08-21)
 
-[paramiko] Fix keepalive parameter type from int to float ([#14596](https://github.com/python/typeshed/pull/14596))
+* Fix keepalive parameter type from int to float ([#14596](https://github.com/python/typeshed/pull/14596))
 
-## 4.0.0.20250809 (2025-08-09)
+## [4.0.0.20250809](https://pypi.org/project/types-paramiko/4.0.0.20250809/) (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 4.0.0.20250806 (2025-08-06)
+## [4.0.0.20250806](https://pypi.org/project/types-paramiko/4.0.0.20250806/) (2025-08-06)
 
-[paramiko] Update to 4.0.* ([#14527](https://github.com/python/typeshed/pull/14527))
+* Update to 4.0.* ([#14527](https://github.com/python/typeshed/pull/14527))
 
-Closes: #14524
+    Closes: #14524
 
-## 3.5.0.20250801 (2025-08-01)
+## [3.5.0.20250801](https://pypi.org/project/types-paramiko/3.5.0.20250801/) (2025-08-01)
 
-Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
+* Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
-Co-authored-by: Avasam <samuel.06@hotmail.com>
-Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
-## 3.5.0.20250708 (2025-07-08)
+## [3.5.0.20250708](https://pypi.org/project/types-paramiko/3.5.0.20250708/) (2025-07-08)
 
-[paramiko] Add missing stubs ([#14363](https://github.com/python/typeshed/pull/14363))
+* Add missing stubs ([#14363](https://github.com/python/typeshed/pull/14363))
 
-## 3.5.0.20250516 (2025-05-16)
+## [3.5.0.20250516](https://pypi.org/project/types-paramiko/3.5.0.20250516/) (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## 3.5.0.20240928 (2024-09-28)
+## [3.5.0.20240928](https://pypi.org/project/types-paramiko/3.5.0.20240928/) (2024-09-28)
 
-paramiko: add `ProxyCommand` to `_SocketLike` ([#12697](https://github.com/python/typeshed/pull/12697))
+* paramiko: add `ProxyCommand` to `_SocketLike` ([#12697](https://github.com/python/typeshed/pull/12697))
 
-## 3.5.0.20240918 (2024-09-18)
+## [3.5.0.20240918](https://pypi.org/project/types-paramiko/3.5.0.20240918/) (2024-09-18)
 
-Bump paramiko to 3.5.* ([#12672](https://github.com/python/typeshed/pull/12672))
+* Bump paramiko to 3.5.* ([#12672](https://github.com/python/typeshed/pull/12672))
 
-## 3.4.0.20240423 (2024-04-23)
+## [3.4.0.20240423](https://pypi.org/project/types-paramiko/3.4.0.20240423/) (2024-04-23)
 
-paramiko: Replace str with FileDescriptorOrPath in many locations ([#11800](https://github.com/python/typeshed/pull/11800))
+* paramiko: Replace str with FileDescriptorOrPath in many locations ([#11800](https://github.com/python/typeshed/pull/11800))
 
-## 3.4.0.20240311 (2024-03-11)
+## [3.4.0.20240311](https://pypi.org/project/types-paramiko/3.4.0.20240311/) (2024-03-11)
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## 3.4.0.20240205 (2024-02-05)
+## [3.4.0.20240205](https://pypi.org/project/types-paramiko/3.4.0.20240205/) (2024-02-05)
 
-A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
+* A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
 
-## 3.4.0.20240120 (2024-01-20)
+## [3.4.0.20240120](https://pypi.org/project/types-paramiko/3.4.0.20240120/) (2024-01-20)
 
-Re-export ChannelFile from paramiko ([#11290](https://github.com/python/typeshed/pull/11290))
+* Re-export ChannelFile from paramiko ([#11290](https://github.com/python/typeshed/pull/11290))
 
-## 3.4.0.20240106 (2024-01-06)
+## [3.4.0.20240106](https://pypi.org/project/types-paramiko/3.4.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## 3.4.0.20240103 (2024-01-03)
+## [3.4.0.20240103](https://pypi.org/project/types-paramiko/3.4.0.20240103/) (2024-01-03)
 
-Update type hints for paramiko 3.4 ([#11218](https://github.com/python/typeshed/pull/11218))
+* Update type hints for paramiko 3.4 ([#11218](https://github.com/python/typeshed/pull/11218))
 
-## 3.3.0.2 (2023-11-25)
+## [3.3.0.2](https://pypi.org/project/types-paramiko/3.3.0.2/) (2023-11-25)
 
-Added paramiko3.2 PKey and PublicBlob methods ([#11067](https://github.com/python/typeshed/pull/11067))
+* Added paramiko3.2 PKey and PublicBlob methods ([#11067](https://github.com/python/typeshed/pull/11067))
 
-Addded missing paramiko methods from https://docs.paramiko.org/en/latest/api/keys.html#paramiko.pkey.PKey
+    Addded missing paramiko methods from https://docs.paramiko.org/en/latest/api/keys.html#paramiko.pkey.PKey
 
-## 3.3.0.1 (2023-11-24)
+## [3.3.0.1](https://pypi.org/project/types-paramiko/3.3.0.1/) (2023-11-24)
 
-Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
+* Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
 
 ## 3.3.0.0 (2023-07-31)
 

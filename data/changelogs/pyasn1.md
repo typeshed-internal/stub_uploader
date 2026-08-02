@@ -2,65 +2,65 @@
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
 
-## 0.6.0.20260408 (2026-04-08)
+## [0.6.0.20260408](https://pypi.org/project/types-pyasn1/0.6.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 0.6.0.20260402 (2026-04-02)
+## [0.6.0.20260402](https://pypi.org/project/types-pyasn1/0.6.0.20260402/) (2026-04-02)
 
-Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-## 0.6.0.20260319 (2026-03-19)
+## [0.6.0.20260319](https://pypi.org/project/types-pyasn1/0.6.0.20260319/) (2026-03-19)
 
-[pyasn1] Fix componentType to accept Asn1Type in SequenceOf ([#15442](https://github.com/python/typeshed/pull/15442))
+* Fix componentType to accept Asn1Type in SequenceOf ([#15442](https://github.com/python/typeshed/pull/15442))
 
-## 0.6.0.20250914 (2025-09-14)
+## [0.6.0.20250914](https://pypi.org/project/types-pyasn1/0.6.0.20250914/) (2025-09-14)
 
-Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
+* Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
 
-## 0.6.0.20250516 (2025-05-16)
+## [0.6.0.20250516](https://pypi.org/project/types-pyasn1/0.6.0.20250516/) (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## 0.6.0.20250208 (2025-02-08)
+## [0.6.0.20250208](https://pypi.org/project/types-pyasn1/0.6.0.20250208/) (2025-02-08)
 
-Bump mypy to 1.15.0 ([#13473](https://github.com/python/typeshed/pull/13473))
+* Bump mypy to 1.15.0 ([#13473](https://github.com/python/typeshed/pull/13473))
 
-## 0.6.0.20240913 (2024-09-13)
+## [0.6.0.20240913](https://pypi.org/project/types-pyasn1/0.6.0.20240913/) (2024-09-13)
 
-[pyasn1] Remove items removed from 0.6.1 ([#12646](https://github.com/python/typeshed/pull/12646))
+* Remove items removed from 0.6.1 ([#12646](https://github.com/python/typeshed/pull/12646))
 
-## 0.6.0.20240824 (2024-08-24)
+## [0.6.0.20240824](https://pypi.org/project/types-pyasn1/0.6.0.20240824/) (2024-08-24)
 
-Resolve some stubtest allowlist entries by marking params as keyword-only ([#12581](https://github.com/python/typeshed/pull/12581))
+* Resolve some stubtest allowlist entries by marking params as keyword-only ([#12581](https://github.com/python/typeshed/pull/12581))
 
-## 0.6.0.20240402 (2024-04-02)
+## [0.6.0.20240402](https://pypi.org/project/types-pyasn1/0.6.0.20240402/) (2024-04-02)
 
-Bump pyasn1 to 0.6.* ([#11681](https://github.com/python/typeshed/pull/11681))
+* Bump pyasn1 to 0.6.* ([#11681](https://github.com/python/typeshed/pull/11681))
 
-## 0.5.0.20240301 (2024-03-01)
+## [0.5.0.20240301](https://pypi.org/project/types-pyasn1/0.5.0.20240301/) (2024-03-01)
 
-Update `pyright` version to 1.1.350 ([#11501](https://github.com/python/typeshed/pull/11501))
+* Update `pyright` version to 1.1.350 ([#11501](https://github.com/python/typeshed/pull/11501))
 
-If you're reading about this commit in an auto-generated changelog: this is an internal change that should have no impact on how these stubs are understood by static-analysis tools such as type checkers or IDEs
+    If you're reading about this commit in an auto-generated changelog: this is an internal change that should have no impact on how these stubs are understood by static-analysis tools such as type checkers or IDEs
 
-## 0.5.0.20240205 (2024-02-05)
+## [0.5.0.20240205](https://pypi.org/project/types-pyasn1/0.5.0.20240205/) (2024-02-05)
 
-A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
+* A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
 
-## 0.5.0.20240106 (2024-01-06)
+## [0.5.0.20240106](https://pypi.org/project/types-pyasn1/0.5.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## 0.5.0.20231222 (2023-12-22)
+## [0.5.0.20231222](https://pypi.org/project/types-pyasn1/0.5.0.20231222/) (2023-12-22)
 
-Bump mypy (and a few other test dependencies) ([#11196](https://github.com/python/typeshed/pull/11196))
+* Bump mypy (and a few other test dependencies) ([#11196](https://github.com/python/typeshed/pull/11196))
 
-## 0.5.0.1 (2023-11-30)
+## [0.5.0.1](https://pypi.org/project/types-pyasn1/0.5.0.1/) (2023-11-30)
 
-Use `ConvertibleToInt`/`ConvertibleToFloat` in many third-party stubs ([#11022](https://github.com/python/typeshed/pull/11022))
+* Use `ConvertibleToInt`/`ConvertibleToFloat` in many third-party stubs ([#11022](https://github.com/python/typeshed/pull/11022))
 
-Note: this may make the latest version of certain stubs packages incompatible with older versions of mypy and pyright.
+    Note: this may make the latest version of certain stubs packages incompatible with older versions of mypy and pyright.
 
 ## 0.5.0.0 (2023-10-04)
 

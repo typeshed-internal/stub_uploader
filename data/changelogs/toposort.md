@@ -1,22 +1,22 @@
-## 1.10.0.20260408 (2026-04-08)
+## [1.10.0.20260408](https://pypi.org/project/types-toposort/1.10.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 1.10.0.20250809 (2025-08-09)
+## [1.10.0.20250809](https://pypi.org/project/types-toposort/1.10.0.20250809/) (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 1.10.0.20250401 (2025-04-01)
+## [1.10.0.20250401](https://pypi.org/project/types-toposort/1.10.0.20250401/) (2025-04-01)
 
-Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
+* Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
 
----------
+    ---------
 
-Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com>
 
-## 1.10.0.20241221 (2024-12-21)
+## [1.10.0.20241221](https://pypi.org/project/types-toposort/1.10.0.20241221/) (2024-12-21)
 
-Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
 ## 1.10.0.1 (2023-07-20)
 

@@ -2,86 +2,86 @@
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
 
-## 2.4.0.20260518 (2026-05-18)
+## [2.4.0.20260518](https://pypi.org/project/types-google-cloud-ndb/2.4.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 2.4.0.20260508 (2026-05-08)
+## [2.4.0.20260508](https://pypi.org/project/types-google-cloud-ndb/2.4.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 2.4.0.20260408 (2026-04-08)
+## [2.4.0.20260408](https://pypi.org/project/types-google-cloud-ndb/2.4.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 2.4.0.20260402 (2026-04-02)
+## [2.4.0.20260402](https://pypi.org/project/types-google-cloud-ndb/2.4.0.20260402/) (2026-04-02)
 
-Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+* Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
 
-## 2.4.0.20260223 (2026-02-23)
+## [2.4.0.20260223](https://pypi.org/project/types-google-cloud-ndb/2.4.0.20260223/) (2026-02-23)
 
-Add missing __slots__ to third-party packages ([#15454](https://github.com/python/typeshed/pull/15454))
+* Add missing __slots__ to third-party packages ([#15454](https://github.com/python/typeshed/pull/15454))
 
-## 2.4.0.20251217 (2025-12-17)
+## [2.4.0.20251217](https://pypi.org/project/types-google-cloud-ndb/2.4.0.20251217/) (2025-12-17)
 
-[stubsabot] Bump google-cloud-ndb to 2.4.* ([#15137](https://github.com/python/typeshed/pull/15137))
+* Bump google-cloud-ndb to 2.4.* ([#15137](https://github.com/python/typeshed/pull/15137))
 
-Release: https://pypi.org/pypi/google-cloud-ndb/2.4.0
-Homepage: https://github.com/googleapis/python-ndb
-Repository: https://github.com/googleapis/python-ndb
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/google-cloud-ndb
-Diff: https://github.com/googleapis/python-ndb/compare/v2.3.4...v2.4.0
+    Release: https://pypi.org/pypi/google-cloud-ndb/2.4.0
+    Homepage: https://github.com/googleapis/python-ndb
+    Repository: https://github.com/googleapis/python-ndb
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/google-cloud-ndb
+    Diff: https://github.com/googleapis/python-ndb/compare/v2.3.4...v2.4.0
 
-Stubsabot analysis of the diff between the two releases:
- - 0 public Python files have been added.
- - 0 files included in typeshed's stubs have been deleted.
- - 3 files included in typeshed's stubs have been modified or renamed: `google/cloud/ndb/_datastore_api.py`, `google/cloud/ndb/_datastore_query.py`, `google/cloud/ndb/version.py`.
- - Total lines of Python code added: 38.
- - Total lines of Python code deleted: 29.
+    Stubsabot analysis of the diff between the two releases:
+     - 0 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 3 files included in typeshed's stubs have been modified or renamed: `google/cloud/ndb/_datastore_api.py`, `google/cloud/ndb/_datastore_query.py`, `google/cloud/ndb/version.py`.
+     - Total lines of Python code added: 38.
+     - Total lines of Python code deleted: 29.
 
-If stubtest fails for this PR:
-- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-- Fix stubtest failures in another PR, then close this PR
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
 
-Note that you will need to close and re-open the PR in order to trigger CI
+    Note that you will need to close and re-open the PR in order to trigger CI
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 2.3.0.20251121 (2025-11-21)
+## [2.3.0.20251121](https://pypi.org/project/types-google-cloud-ndb/2.3.0.20251121/) (2025-11-21)
 
-[google-cloud-ndb] Use Incomplete instead of Any ([#15055](https://github.com/python/typeshed/pull/15055))
+* Use Incomplete instead of Any ([#15055](https://github.com/python/typeshed/pull/15055))
 
-## 2.3.0.20250317 (2025-03-17)
+## [2.3.0.20250317](https://pypi.org/project/types-google-cloud-ndb/2.3.0.20250317/) (2025-03-17)
 
-[google-cloud-ndb] Remove unncessary stubtest requirements ([#13631](https://github.com/python/typeshed/pull/13631))
+* Remove unncessary stubtest requirements ([#13631](https://github.com/python/typeshed/pull/13631))
 
-## 2.3.0.20241103 (2024-11-03)
+## [2.3.0.20241103](https://pypi.org/project/types-google-cloud-ndb/2.3.0.20241103/) (2024-11-03)
 
-Fix type annotations for google-cloud-ndb ([#12943](https://github.com/python/typeshed/pull/12943))
+* Fix type annotations for google-cloud-ndb ([#12943](https://github.com/python/typeshed/pull/12943))
 
-## 2.3.0.20240813 (2024-08-13)
+## [2.3.0.20240813](https://pypi.org/project/types-google-cloud-ndb/2.3.0.20240813/) (2024-08-13)
 
-Use Generator instead of Iterator for 3rd-party context managers ([#12481](https://github.com/python/typeshed/pull/12481))
+* Use Generator instead of Iterator for 3rd-party context managers ([#12481](https://github.com/python/typeshed/pull/12481))
 
-## 2.3.0.20240806 (2024-08-06)
+## [2.3.0.20240806](https://pypi.org/project/types-google-cloud-ndb/2.3.0.20240806/) (2024-08-06)
 
-Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
+* Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
 
-## 2.3.0.20240311 (2024-03-11)
+## [2.3.0.20240311](https://pypi.org/project/types-google-cloud-ndb/2.3.0.20240311/) (2024-03-11)
 
-Bump google-cloud-ndb to 2.3.* ([#11566](https://github.com/python/typeshed/pull/11566))
+* Bump google-cloud-ndb to 2.3.* ([#11566](https://github.com/python/typeshed/pull/11566))
 
-## 2.2.0.20240205 (2024-02-05)
+## [2.2.0.20240205](https://pypi.org/project/types-google-cloud-ndb/2.2.0.20240205/) (2024-02-05)
 
-A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
+* A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
 
-## 2.2.0.20240106 (2024-01-06)
+## [2.2.0.20240106](https://pypi.org/project/types-google-cloud-ndb/2.2.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 2.2.0.1 (2023-09-12)
 

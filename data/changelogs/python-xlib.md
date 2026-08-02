@@ -2,76 +2,76 @@
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
 
-## 0.33.0.20260712 (2026-07-12)
+## [0.33.0.20260712](https://pypi.org/project/types-python-xlib/0.33.0.20260712/) (2026-07-12)
 
-Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))
+* Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))
 
-Class members such as list, type, cursor, Model, and datetime shadow the builtins, classes, or modules referenced by nearby annotations. ty then resolves those annotations to Unknown, which can hide invalid calls in APIs including docker, sqlite3, psycopg2, Markdown, and requests.
+    Class members such as list, type, cursor, Model, and datetime shadow the builtins, classes, or modules referenced by nearby annotations. ty then resolves those annotations to Unknown, which can hide invalid calls in APIs including docker, sqlite3, psycopg2, Markdown, and requests.
 
-Qualify shadowed builtins and use private aliases for colliding imports and classes. This removes 15 stdlib and 120 third-party collision diagnostics under ty 0.0.58, restores the affected public types, and fixes four existing psycopg2 type assertions.
+    Qualify shadowed builtins and use private aliases for colliding imports and classes. This removes 15 stdlib and 120 third-party collision diagnostics under ty 0.0.58, restores the affected public types, and fixes four existing psycopg2 type assertions.
 
-## 0.33.0.20260518 (2026-05-18)
+## [0.33.0.20260518](https://pypi.org/project/types-python-xlib/0.33.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 0.33.0.20260508 (2026-05-08)
+## [0.33.0.20260508](https://pypi.org/project/types-python-xlib/0.33.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 0.33.0.20260408 (2026-04-08)
+## [0.33.0.20260408](https://pypi.org/project/types-python-xlib/0.33.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 0.33.0.20250809 (2025-08-09)
+## [0.33.0.20250809](https://pypi.org/project/types-python-xlib/0.33.0.20250809/) (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 0.33.0.20250602 (2025-06-02)
+## [0.33.0.20250602](https://pypi.org/project/types-python-xlib/0.33.0.20250602/) (2025-06-02)
 
-Update mypy to 1.16.0 ([#14194](https://github.com/python/typeshed/pull/14194))
+* Update mypy to 1.16.0 ([#14194](https://github.com/python/typeshed/pull/14194))
 
-Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
-Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+    Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
+    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## 0.33.0.20250528 (2025-05-28)
+## [0.33.0.20250528](https://pypi.org/project/types-python-xlib/0.33.0.20250528/) (2025-05-28)
 
-Remove old compatibility alias `_BufferWithLen` ([#14151](https://github.com/python/typeshed/pull/14151))
+* Remove old compatibility alias `_BufferWithLen` ([#14151](https://github.com/python/typeshed/pull/14151))
 
-## 0.33.0.20240407 (2024-04-07)
+## [0.33.0.20240407](https://pypi.org/project/types-python-xlib/0.33.0.20240407/) (2024-04-07)
 
-[python-xlib] Use a protocol for PIL.Image.Image argument ([#11722](https://github.com/python/typeshed/pull/11722))
+* Use a protocol for PIL.Image.Image argument ([#11722](https://github.com/python/typeshed/pull/11722))
 
-## 0.33.0.20240406 (2024-04-06)
+## [0.33.0.20240406](https://pypi.org/project/types-python-xlib/0.33.0.20240406/) (2024-04-06)
 
-Depend on Pillow instead of types-Pillow ([#11720](https://github.com/python/typeshed/pull/11720))
+* Depend on Pillow instead of types-Pillow ([#11720](https://github.com/python/typeshed/pull/11720))
 
-## 0.33.0.20240402 (2024-04-02)
+## [0.33.0.20240402](https://pypi.org/project/types-python-xlib/0.33.0.20240402/) (2024-04-02)
 
-python-xlib: use `_typeshed.Unused` ([#11691](https://github.com/python/typeshed/pull/11691))
+* python-xlib: use `_typeshed.Unused` ([#11691](https://github.com/python/typeshed/pull/11691))
 
-## 0.33.0.20240311 (2024-03-11)
+## [0.33.0.20240311](https://pypi.org/project/types-python-xlib/0.33.0.20240311/) (2024-03-11)
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## 0.33.0.20240106 (2024-01-06)
+## [0.33.0.20240106](https://pypi.org/project/types-python-xlib/0.33.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## 0.33.0.20231222 (2023-12-22)
+## [0.33.0.20231222](https://pypi.org/project/types-python-xlib/0.33.0.20231222/) (2023-12-22)
 
-Bump mypy (and a few other test dependencies) ([#11196](https://github.com/python/typeshed/pull/11196))
+* Bump mypy (and a few other test dependencies) ([#11196](https://github.com/python/typeshed/pull/11196))
 
-## 0.33.0.15 (2023-11-30)
+## [0.33.0.15](https://pypi.org/project/types-python-xlib/0.33.0.15/) (2023-11-30)
 
-Use `ConvertibleToInt`/`ConvertibleToFloat` in many third-party stubs ([#11022](https://github.com/python/typeshed/pull/11022))
+* Use `ConvertibleToInt`/`ConvertibleToFloat` in many third-party stubs ([#11022](https://github.com/python/typeshed/pull/11022))
 
-Note: this may make the latest version of certain stubs packages incompatible with older versions of mypy and pyright.
+    Note: this may make the latest version of certain stubs packages incompatible with older versions of mypy and pyright.
 
-## 0.33.0.14 (2023-11-09)
+## [0.33.0.14](https://pypi.org/project/types-python-xlib/0.33.0.14/) (2023-11-09)
 
-Bump flake8-pyi to 23.11.0 ([#10997](https://github.com/python/typeshed/pull/10997))
+* Bump flake8-pyi to 23.11.0 ([#10997](https://github.com/python/typeshed/pull/10997))
 
 ## 0.33.0.13 (2023-07-20)
 

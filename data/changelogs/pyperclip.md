@@ -1,25 +1,25 @@
-## 1.11.0.20260508 (2026-05-08)
+## [1.11.0.20260508](https://pypi.org/project/types-pyperclip/1.11.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 1.11.0.20260408 (2026-04-08)
+## [1.11.0.20260408](https://pypi.org/project/types-pyperclip/1.11.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 1.11.0.20260216 (2026-02-16)
+## [1.11.0.20260216](https://pypi.org/project/types-pyperclip/1.11.0.20260216/) (2026-02-16)
 
-[stubsabot] Bump pyperclip to 1.11.* ([#14745](https://github.com/python/typeshed/pull/14745))
+* Bump pyperclip to 1.11.* ([#14745](https://github.com/python/typeshed/pull/14745))
 
-## 1.9.0.20250801 (2025-08-01)
+## [1.9.0.20250801](https://pypi.org/project/types-pyperclip/1.9.0.20250801/) (2025-08-01)
 
-Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
+* Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
-Co-authored-by: Avasam <samuel.06@hotmail.com>
-Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
-## 1.9.0.20250218 (2025-02-18)
+## [1.9.0.20250218](https://pypi.org/project/types-pyperclip/1.9.0.20250218/) (2025-02-18)
 
-Add pyperclip stubs ([#13502](https://github.com/python/typeshed/pull/13502))
+* Add pyperclip stubs ([#13502](https://github.com/python/typeshed/pull/13502))
 

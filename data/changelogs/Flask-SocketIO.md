@@ -2,101 +2,101 @@
 
 * Use optional-dependencies for third-party packages ([#16089](https://github.com/python/typeshed/pull/16089))
 
-## 5.6.0.20260713 (2026-07-13)
+## [5.6.0.20260713](https://pypi.org/project/types-Flask-SocketIO/5.6.0.20260713/) (2026-07-13)
 
-[Flask-SocketIO] Annotate `event` and `room` arguments ([#16009](https://github.com/python/typeshed/pull/16009))
+* Annotate `event` and `room` arguments ([#16009](https://github.com/python/typeshed/pull/16009))
 
-## 5.6.0.20260518 (2026-05-18)
+## [5.6.0.20260518](https://pypi.org/project/types-Flask-SocketIO/5.6.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 5.6.0.20260508 (2026-05-08)
+## [5.6.0.20260508](https://pypi.org/project/types-Flask-SocketIO/5.6.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 5.6.0.20260408 (2026-04-08)
+## [5.6.0.20260408](https://pypi.org/project/types-Flask-SocketIO/5.6.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 5.6.0.20260402 (2026-04-02)
+## [5.6.0.20260402](https://pypi.org/project/types-Flask-SocketIO/5.6.0.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+* Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
 
-## 5.6.0.20251228 (2025-12-28)
+## [5.6.0.20251228](https://pypi.org/project/types-Flask-SocketIO/5.6.0.20251228/) (2025-12-28)
 
-Bump Flask-SocketIO to 5.6.* ([#15180](https://github.com/python/typeshed/pull/15180))
+* Bump Flask-SocketIO to 5.6.* ([#15180](https://github.com/python/typeshed/pull/15180))
 
-## 5.5.0.20250809 (2025-08-09)
+## [5.5.0.20250809](https://pypi.org/project/types-Flask-SocketIO/5.5.0.20250809/) (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 5.5.0.20250516 (2025-05-16)
+## [5.5.0.20250516](https://pypi.org/project/types-Flask-SocketIO/5.5.0.20250516/) (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## 5.5.0.20250321 (2025-03-21)
+## [5.5.0.20250321](https://pypi.org/project/types-Flask-SocketIO/5.5.0.20250321/) (2025-03-21)
 
-Fix incorrect default value for callback ([#13678](https://github.com/python/typeshed/pull/13678))
+* Fix incorrect default value for callback ([#13678](https://github.com/python/typeshed/pull/13678))
 
-## 5.5.0.20241227 (2024-12-27)
+## [5.5.0.20241227](https://pypi.org/project/types-Flask-SocketIO/5.5.0.20241227/) (2024-12-27)
 
-[stubsabot] Bump Flask-SocketIO to 5.5.* ([#13288](https://github.com/python/typeshed/pull/13288))
+* Bump Flask-SocketIO to 5.5.* ([#13288](https://github.com/python/typeshed/pull/13288))
 
-Release: https://pypi.org/pypi/Flask-SocketIO/5.5.0
-Homepage: https://github.com/miguelgrinberg/flask-socketio
-Repository: https://github.com/miguelgrinberg/flask-socketio
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Flask-SocketIO
-Diff: https://github.com/miguelgrinberg/flask-socketio/compare/v5.4.1...v5.5.0
+    Release: https://pypi.org/pypi/Flask-SocketIO/5.5.0
+    Homepage: https://github.com/miguelgrinberg/flask-socketio
+    Repository: https://github.com/miguelgrinberg/flask-socketio
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Flask-SocketIO
+    Diff: https://github.com/miguelgrinberg/flask-socketio/compare/v5.4.1...v5.5.0
 
-Stubsabot analysis of the diff between the two releases:
- - Total lines of Python code added: 28.
- - Total lines of Python code deleted: 23.
+    Stubsabot analysis of the diff between the two releases:
+     - Total lines of Python code added: 28.
+     - Total lines of Python code deleted: 23.
 
-## 5.4.0.20241224 (2024-12-24)
+## [5.4.0.20241224](https://pypi.org/project/types-Flask-SocketIO/5.4.0.20241224/) (2024-12-24)
 
-Flask-socketio 5.5 + add type of kwargs ([#13271](https://github.com/python/typeshed/pull/13271))
+* Flask-socketio 5.5 + add type of kwargs ([#13271](https://github.com/python/typeshed/pull/13271))
 
-## 5.4.0.20241002 (2024-10-02)
+## [5.4.0.20241002](https://pypi.org/project/types-Flask-SocketIO/5.4.0.20241002/) (2024-10-02)
 
-[stubsabot] Bump Flask-SocketIO to 5.4.* ([#12712](https://github.com/python/typeshed/pull/12712))
+* Bump Flask-SocketIO to 5.4.* ([#12712](https://github.com/python/typeshed/pull/12712))
 
-Release: https://pypi.org/pypi/Flask-SocketIO/5.4.0
-Homepage: https://github.com/miguelgrinberg/flask-socketio
-Repository: https://github.com/miguelgrinberg/flask-socketio
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Flask-SocketIO
-Diff: https://github.com/miguelgrinberg/flask-socketio/compare/v5.3.7...v5.4.0
+    Release: https://pypi.org/pypi/Flask-SocketIO/5.4.0
+    Homepage: https://github.com/miguelgrinberg/flask-socketio
+    Repository: https://github.com/miguelgrinberg/flask-socketio
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Flask-SocketIO
+    Diff: https://github.com/miguelgrinberg/flask-socketio/compare/v5.3.7...v5.4.0
 
-Stubsabot analysis of the diff between the two releases:
- - Total lines of Python code added: 40.
- - Total lines of Python code deleted: 11.
+    Stubsabot analysis of the diff between the two releases:
+     - Total lines of Python code added: 40.
+     - Total lines of Python code deleted: 11.
 
-If stubtest fails for this PR:
-- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-- Fix stubtest failures in another PR, then close this PR
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
 
-Note that you will need to close and re-open the PR in order to trigger CI
+    Note that you will need to close and re-open the PR in order to trigger CI
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 5.3.0.20240617 (2024-06-17)
+## [5.3.0.20240617](https://pypi.org/project/types-Flask-SocketIO/5.3.0.20240617/) (2024-06-17)
 
-Flask-SocketIO: fix type hints ([#12140](https://github.com/python/typeshed/pull/12140))
+* Flask-SocketIO: fix type hints ([#12140](https://github.com/python/typeshed/pull/12140))
 
-## 5.3.0.20240331 (2024-03-31)
+## [5.3.0.20240331](https://pypi.org/project/types-Flask-SocketIO/5.3.0.20240331/) (2024-03-31)
 
-Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
+* Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
 
-## 5.3.0.20240311 (2024-03-11)
+## [5.3.0.20240311](https://pypi.org/project/types-Flask-SocketIO/5.3.0.20240311/) (2024-03-11)
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## 5.3.0.20240106 (2024-01-06)
+## [5.3.0.20240106](https://pypi.org/project/types-Flask-SocketIO/5.3.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 5.3.0.0 (2023-09-25)
 

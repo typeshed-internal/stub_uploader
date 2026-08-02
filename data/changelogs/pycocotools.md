@@ -1,51 +1,51 @@
-## 2.0.0.20260518 (2026-05-18)
+## [2.0.0.20260518](https://pypi.org/project/types-pycocotools/2.0.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 2.0.0.20260508 (2026-05-08)
+## [2.0.0.20260508](https://pypi.org/project/types-pycocotools/2.0.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 2.0.0.20260408 (2026-04-08)
+## [2.0.0.20260408](https://pypi.org/project/types-pycocotools/2.0.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 2.0.0.20260402 (2026-04-02)
+## [2.0.0.20260402](https://pypi.org/project/types-pycocotools/2.0.0.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-## 2.0.0.20250822 (2025-08-22)
+## [2.0.0.20250822](https://pypi.org/project/types-pycocotools/2.0.0.20250822/) (2025-08-22)
 
-Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+* Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
 
-## 2.0.0.20250809 (2025-08-09)
+## [2.0.0.20250809](https://pypi.org/project/types-pycocotools/2.0.0.20250809/) (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 2.0.0.20250111 (2025-01-11)
+## [2.0.0.20250111](https://pypi.org/project/types-pycocotools/2.0.0.20250111/) (2025-01-11)
 
-Officially drop Python 3.8 support ([#13386](https://github.com/python/typeshed/pull/13386))
+* Officially drop Python 3.8 support ([#13386](https://github.com/python/typeshed/pull/13386))
 
-## 2.0.0.20241229 (2024-12-29)
+## [2.0.0.20241229](https://pypi.org/project/types-pycocotools/2.0.0.20241229/) (2024-12-29)
 
-Fix todo in pycocotools ([#13182](https://github.com/python/typeshed/pull/13182))
+* Fix todo in pycocotools ([#13182](https://github.com/python/typeshed/pull/13182))
 
-Adds numpy types.
-All the types were already there as comments.
+    Adds numpy types.
+    All the types were already there as comments.
 
-## 2.0.0.20240806 (2024-08-06)
+## [2.0.0.20240806](https://pypi.org/project/types-pycocotools/2.0.0.20240806/) (2024-08-06)
 
-Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
+* Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
 
-## 2.0.0.20240106 (2024-01-06)
+## [2.0.0.20240106](https://pypi.org/project/types-pycocotools/2.0.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## 2.0.0.5 (2023-11-24)
+## [2.0.0.5](https://pypi.org/project/types-pycocotools/2.0.0.5/) (2023-11-24)
 
-Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
+* Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
 
 ## 2.0.0.4 (2023-07-20)
 

@@ -1,37 +1,37 @@
-## 0.4.15.20260508 (2026-05-08)
+## [0.4.15.20260508](https://pypi.org/project/types-colorama/0.4.15.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 0.4.15.20260408 (2026-04-08)
+## [0.4.15.20260408](https://pypi.org/project/types-colorama/0.4.15.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 0.4.15.20250801 (2025-08-01)
+## [0.4.15.20250801](https://pypi.org/project/types-colorama/0.4.15.20250801/) (2025-08-01)
 
-Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
+* Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
-Co-authored-by: Avasam <samuel.06@hotmail.com>
-Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
-## 0.4.15.20240311 (2024-03-11)
+## [0.4.15.20240311](https://pypi.org/project/types-colorama/0.4.15.20240311/) (2024-03-11)
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## 0.4.15.20240310 (2024-03-10)
+## [0.4.15.20240310](https://pypi.org/project/types-colorama/0.4.15.20240310/) (2024-03-10)
 
-Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
+* Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
 
-Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## 0.4.15.20240205 (2024-02-05)
+## [0.4.15.20240205](https://pypi.org/project/types-colorama/0.4.15.20240205/) (2024-02-05)
 
-A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
+* A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
 
-## 0.4.15.20240106 (2024-01-06)
+## [0.4.15.20240106](https://pypi.org/project/types-colorama/0.4.15.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 0.4.15.12 (2023-07-20)
 

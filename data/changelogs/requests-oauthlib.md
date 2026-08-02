@@ -1,82 +1,82 @@
-## 2.0.0.20260610 (2026-06-10)
+## [2.0.0.20260610](https://pypi.org/project/types-requests-oauthlib/2.0.0.20260610/) (2026-06-10)
 
-Change dependencies from types-requests to requests ([#15813](https://github.com/python/typeshed/pull/15813))
+* Change dependencies from types-requests to requests ([#15813](https://github.com/python/typeshed/pull/15813))
 
-## 2.0.0.20260518 (2026-05-18)
+## [2.0.0.20260518](https://pypi.org/project/types-requests-oauthlib/2.0.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 2.0.0.20260508 (2026-05-08)
+## [2.0.0.20260508](https://pypi.org/project/types-requests-oauthlib/2.0.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 2.0.0.20260408 (2026-04-08)
+## [2.0.0.20260408](https://pypi.org/project/types-requests-oauthlib/2.0.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 2.0.0.20260402 (2026-04-02)
+## [2.0.0.20260402](https://pypi.org/project/types-requests-oauthlib/2.0.0.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-## 2.0.0.20250809 (2025-08-09)
+## [2.0.0.20250809](https://pypi.org/project/types-requests-oauthlib/2.0.0.20250809/) (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 2.0.0.20250516 (2025-05-16)
+## [2.0.0.20250516](https://pypi.org/project/types-requests-oauthlib/2.0.0.20250516/) (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## 2.0.0.20250306 (2025-03-06)
+## [2.0.0.20250306](https://pypi.org/project/types-requests-oauthlib/2.0.0.20250306/) (2025-03-06)
 
-Fix: OAuth1 type hints to include realm parameter ([#13579](https://github.com/python/typeshed/pull/13579))
+* Fix: OAuth1 type hints to include realm parameter ([#13579](https://github.com/python/typeshed/pull/13579))
 
-## 2.0.0.20250119 (2025-01-19)
+## [2.0.0.20250119](https://pypi.org/project/types-requests-oauthlib/2.0.0.20250119/) (2025-01-19)
 
-requests-oauthlib: decoding can be None ([#13404](https://github.com/python/typeshed/pull/13404))
+* requests-oauthlib: decoding can be None ([#13404](https://github.com/python/typeshed/pull/13404))
 
-it is passed along to oauthlib where the default there is None
+    it is passed along to oauthlib where the default there is None
 
-## 2.0.0.20240417 (2024-04-17)
+## [2.0.0.20240417](https://pypi.org/project/types-requests-oauthlib/2.0.0.20240417/) (2024-04-17)
 
-Remove remaining bare `Incomplete`s ([#11768](https://github.com/python/typeshed/pull/11768))
+* Remove remaining bare `Incomplete`s ([#11768](https://github.com/python/typeshed/pull/11768))
 
-Enable Y065
+    Enable Y065
 
-## 2.0.0.20240324 (2024-03-24)
+## [2.0.0.20240324](https://pypi.org/project/types-requests-oauthlib/2.0.0.20240324/) (2024-03-24)
 
-[stubsabot] Bump requests-oauthlib to 2.0.* ([#11649](https://github.com/python/typeshed/pull/11649))
+* Bump requests-oauthlib to 2.0.* ([#11649](https://github.com/python/typeshed/pull/11649))
 
-Release: https://pypi.org/pypi/requests-oauthlib/2.0.0
-Homepage: https://github.com/requests/requests-oauthlib
-Repository: https://github.com/requests/requests-oauthlib
-Diff: https://github.com/requests/requests-oauthlib/compare/v1.4.0...v2.0.0
+    Release: https://pypi.org/pypi/requests-oauthlib/2.0.0
+    Homepage: https://github.com/requests/requests-oauthlib
+    Repository: https://github.com/requests/requests-oauthlib
+    Diff: https://github.com/requests/requests-oauthlib/compare/v1.4.0...v2.0.0
 
-Stubsabot analysis of the diff between the two releases:
- - 1 public Python file has been added: `tests/examples/__init__.py`.
- - 0 files included in typeshed's stubs have been deleted.
- - 1 file included in typeshed's stubs has been modified or renamed: `requests_oauthlib/__init__.py`.
- - Total lines of Python code added: 2.
- - Total lines of Python code deleted: 4.
+    Stubsabot analysis of the diff between the two releases:
+     - 1 public Python file has been added: `tests/examples/__init__.py`.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 1 file included in typeshed's stubs has been modified or renamed: `requests_oauthlib/__init__.py`.
+     - Total lines of Python code added: 2.
+     - Total lines of Python code deleted: 4.
 
-## 1.4.0.20240315 (2024-03-15)
+## [1.4.0.20240315](https://pypi.org/project/types-requests-oauthlib/1.4.0.20240315/) (2024-03-15)
 
-Bump requests-oauthlib to 1.4.* ([#11601](https://github.com/python/typeshed/pull/11601))
+* Bump requests-oauthlib to 1.4.* ([#11601](https://github.com/python/typeshed/pull/11601))
 
-## 1.3.0.20240311 (2024-03-11)
+## [1.3.0.20240311](https://pypi.org/project/types-requests-oauthlib/1.3.0.20240311/) (2024-03-11)
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## 1.3.0.20240310 (2024-03-10)
+## [1.3.0.20240310](https://pypi.org/project/types-requests-oauthlib/1.3.0.20240310/) (2024-03-10)
 
-Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
+* Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
 
-Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## 1.3.0.20240106 (2024-01-06)
+## [1.3.0.20240106](https://pypi.org/project/types-requests-oauthlib/1.3.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 1.3.0.1 (2023-10-13)
 

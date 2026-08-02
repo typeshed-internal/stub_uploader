@@ -2,153 +2,153 @@
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
 
-## 2.9.21.20260712 (2026-07-12)
+## [2.9.21.20260712](https://pypi.org/project/types-psycopg2/2.9.21.20260712/) (2026-07-12)
 
-Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))
+* Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))
 
-Class members such as list, type, cursor, Model, and datetime shadow the builtins, classes, or modules referenced by nearby annotations. ty then resolves those annotations to Unknown, which can hide invalid calls in APIs including docker, sqlite3, psycopg2, Markdown, and requests.
+    Class members such as list, type, cursor, Model, and datetime shadow the builtins, classes, or modules referenced by nearby annotations. ty then resolves those annotations to Unknown, which can hide invalid calls in APIs including docker, sqlite3, psycopg2, Markdown, and requests.
 
-Qualify shadowed builtins and use private aliases for colliding imports and classes. This removes 15 stdlib and 120 third-party collision diagnostics under ty 0.0.58, restores the affected public types, and fixes four existing psycopg2 type assertions.
+    Qualify shadowed builtins and use private aliases for colliding imports and classes. This removes 15 stdlib and 120 third-party collision diagnostics under ty 0.0.58, restores the affected public types, and fixes four existing psycopg2 type assertions.
 
-## 2.9.21.20260518 (2026-05-18)
+## [2.9.21.20260518](https://pypi.org/project/types-psycopg2/2.9.21.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 2.9.21.20260509 (2026-05-09)
+## [2.9.21.20260509](https://pypi.org/project/types-psycopg2/2.9.21.20260509/) (2026-05-09)
 
-[psycopg2] Annotate some connection argument and return types ([#15704](https://github.com/python/typeshed/pull/15704))
+* Annotate some connection argument and return types ([#15704](https://github.com/python/typeshed/pull/15704))
 
-## 2.9.21.20260508 (2026-05-08)
+## [2.9.21.20260508](https://pypi.org/project/types-psycopg2/2.9.21.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 2.9.21.20260422 (2026-04-22)
+## [2.9.21.20260422](https://pypi.org/project/types-psycopg2/2.9.21.20260422/) (2026-04-22)
 
-[psycopg2] Bump to 2.9.12 ([#15658](https://github.com/python/typeshed/pull/15658))
+* Bump to 2.9.12 ([#15658](https://github.com/python/typeshed/pull/15658))
 
-## 2.9.21.20260408 (2026-04-08)
+## [2.9.21.20260408](https://pypi.org/project/types-psycopg2/2.9.21.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 2.9.21.20260223 (2026-02-23)
+## [2.9.21.20260223](https://pypi.org/project/types-psycopg2/2.9.21.20260223/) (2026-02-23)
 
-Add missing __slots__ to third-party packages ([#15454](https://github.com/python/typeshed/pull/15454))
+* Add missing __slots__ to third-party packages ([#15454](https://github.com/python/typeshed/pull/15454))
 
-## 2.9.21.20251012 (2025-10-12)
+## [2.9.21.20251012](https://pypi.org/project/types-psycopg2/2.9.21.20251012/) (2025-10-12)
 
-[psycopg2] Update to 2.9.11 ([#14864](https://github.com/python/typeshed/pull/14864))
+* Update to 2.9.11 ([#14864](https://github.com/python/typeshed/pull/14864))
 
-## 2.9.21.20250915 (2025-09-15)
+## [2.9.21.20250915](https://pypi.org/project/types-psycopg2/2.9.21.20250915/) (2025-09-15)
 
-Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
+* Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
 
-## 2.9.21.20250809 (2025-08-09)
+## [2.9.21.20250809](https://pypi.org/project/types-psycopg2/2.9.21.20250809/) (2025-08-09)
 
-Fix dunder-method positional-only parameter discrepancies in third-party stubs ([#14529](https://github.com/python/typeshed/pull/14529))
+* Fix dunder-method positional-only parameter discrepancies in third-party stubs ([#14529](https://github.com/python/typeshed/pull/14529))
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 2.9.21.20250718 (2025-07-18)
+## [2.9.21.20250718](https://pypi.org/project/types-psycopg2/2.9.21.20250718/) (2025-07-18)
 
-psycopg2: Add types to RealDictCursor.execute ([#14427](https://github.com/python/typeshed/pull/14427))
+* psycopg2: Add types to RealDictCursor.execute ([#14427](https://github.com/python/typeshed/pull/14427))
 
-## 2.9.21.20250516 (2025-05-16)
+## [2.9.21.20250516](https://pypi.org/project/types-psycopg2/2.9.21.20250516/) (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## 2.9.21.20250318 (2025-03-18)
+## [2.9.21.20250318](https://pypi.org/project/types-psycopg2/2.9.21.20250318/) (2025-03-18)
 
-Fix various argument of extension modules ([#13651](https://github.com/python/typeshed/pull/13651))
+* Fix various argument of extension modules ([#13651](https://github.com/python/typeshed/pull/13651))
 
-* Mark various positional-only arguments: These are all positional-only
-  arguments in C code using the `METH_O` flag.
-* Remove various `*args, **kwargs` arguments that are using the
-  `METH_NOARGS` flag in C.
+    * Mark various positional-only arguments: These are all positional-only
+      arguments in C code using the `METH_O` flag.
+    * Remove various `*args, **kwargs` arguments that are using the
+      `METH_NOARGS` flag in C.
 
-## 2.9.21.20250121 (2025-01-21)
+## [2.9.21.20250121](https://pypi.org/project/types-psycopg2/2.9.21.20250121/) (2025-01-21)
 
-[psycopg2] Fix file argument types ([#13418](https://github.com/python/typeshed/pull/13418))
+* Fix file argument types ([#13418](https://github.com/python/typeshed/pull/13418))
 
-## 2.9.21.20241019 (2024-10-19)
+## [2.9.21.20241019](https://pypi.org/project/types-psycopg2/2.9.21.20241019/) (2024-10-19)
 
-[psycopg2] Bump to 2.9.10 ([#12835](https://github.com/python/typeshed/pull/12835))
+* Bump to 2.9.10 ([#12835](https://github.com/python/typeshed/pull/12835))
 
-Mark all error codes as `Final`
+    Mark all error codes as `Final`
 
-## 2.9.21.20240819 (2024-08-19)
+## [2.9.21.20240819](https://pypi.org/project/types-psycopg2/2.9.21.20240819/) (2024-08-19)
 
-Forbid extremely long line lengths in non-autogenerated stubs ([#12537](https://github.com/python/typeshed/pull/12537))
+* Forbid extremely long line lengths in non-autogenerated stubs ([#12537](https://github.com/python/typeshed/pull/12537))
 
-Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## 2.9.21.20240417 (2024-04-17)
+## [2.9.21.20240417](https://pypi.org/project/types-psycopg2/2.9.21.20240417/) (2024-04-17)
 
-Remove remaining bare `Incomplete`s ([#11768](https://github.com/python/typeshed/pull/11768))
+* Remove remaining bare `Incomplete`s ([#11768](https://github.com/python/typeshed/pull/11768))
 
-Enable Y065
+    Enable Y065
 
-## 2.9.21.20240311 (2024-03-11)
+## [2.9.21.20240311](https://pypi.org/project/types-psycopg2/2.9.21.20240311/) (2024-03-11)
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## 2.9.21.20240218 (2024-02-18)
+## [2.9.21.20240218](https://pypi.org/project/types-psycopg2/2.9.21.20240218/) (2024-02-18)
 
-psycopg2: make Range generic ([#11435](https://github.com/python/typeshed/pull/11435))
+* psycopg2: make Range generic ([#11435](https://github.com/python/typeshed/pull/11435))
 
-And some other small fixes
+    And some other small fixes
 
-## 2.9.21.20240201 (2024-02-01)
+## [2.9.21.20240201](https://pypi.org/project/types-psycopg2/2.9.21.20240201/) (2024-02-01)
 
-issue-11282: psycopg2 ReplicationConnection.cursor() return type ([#11298](https://github.com/python/typeshed/pull/11298))
+* issue-11282: psycopg2 ReplicationConnection.cursor() return type ([#11298](https://github.com/python/typeshed/pull/11298))
 
-Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
-## 2.9.21.20240118 (2024-01-18)
+## [2.9.21.20240118](https://pypi.org/project/types-psycopg2/2.9.21.20240118/) (2024-01-18)
 
-psycopg2: Add ReplicationCursor.consume_stream ([#11283](https://github.com/python/typeshed/pull/11283))
+* psycopg2: Add ReplicationCursor.consume_stream ([#11283](https://github.com/python/typeshed/pull/11283))
 
-## 2.9.21.20240106 (2024-01-06)
+## [2.9.21.20240106](https://pypi.org/project/types-psycopg2/2.9.21.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-Remove Python 3.7 branches ([#11238](https://github.com/python/typeshed/pull/11238))
+* Remove Python 3.7 branches ([#11238](https://github.com/python/typeshed/pull/11238))
 
-## 2.9.21.20 (2023-12-07)
+## [2.9.21.20](https://pypi.org/project/types-psycopg2/2.9.21.20/) (2023-12-07)
 
-psycopg2: improve `cursor_factory` params ([#11085](https://github.com/python/typeshed/pull/11085))
+* psycopg2: improve `cursor_factory` params ([#11085](https://github.com/python/typeshed/pull/11085))
 
-fix(psycopg2): fix copy_expert signature ([#11099](https://github.com/python/typeshed/pull/11099))
+* fix(psycopg2): fix copy_expert signature ([#11099](https://github.com/python/typeshed/pull/11099))
 
-## 2.9.21.19 (2023-11-30)
+## [2.9.21.19](https://pypi.org/project/types-psycopg2/2.9.21.19/) (2023-11-30)
 
-Use `ConvertibleToInt`/`ConvertibleToFloat` in many third-party stubs ([#11022](https://github.com/python/typeshed/pull/11022))
+* Use `ConvertibleToInt`/`ConvertibleToFloat` in many third-party stubs ([#11022](https://github.com/python/typeshed/pull/11022))
 
-Note: this may make the latest version of certain stubs packages incompatible with older versions of mypy and pyright.
+    Note: this may make the latest version of certain stubs packages incompatible with older versions of mypy and pyright.
 
-## 2.9.21.18 (2023-11-28)
+## [2.9.21.18](https://pypi.org/project/types-psycopg2/2.9.21.18/) (2023-11-28)
 
-psycopg2: fix range annotations ([#11071](https://github.com/python/typeshed/pull/11071))
+* psycopg2: fix range annotations ([#11071](https://github.com/python/typeshed/pull/11071))
 
-## 2.9.21.17 (2023-11-24)
+## [2.9.21.17](https://pypi.org/project/types-psycopg2/2.9.21.17/) (2023-11-24)
 
-Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
+* Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
 
-## 2.9.21.16 (2023-11-15)
+## [2.9.21.16](https://pypi.org/project/types-psycopg2/2.9.21.16/) (2023-11-15)
 
-psycopg2: Accept `Composable` for `cursor.mogrify` ([#11028](https://github.com/python/typeshed/pull/11028))
+* psycopg2: Accept `Composable` for `cursor.mogrify` ([#11028](https://github.com/python/typeshed/pull/11028))
 
-Signed-off-by: Anders Kaseorg <andersk@mit.edu>
+    Signed-off-by: Anders Kaseorg <andersk@mit.edu>
 
-## 2.9.21.15 (2023-10-29)
+## [2.9.21.15](https://pypi.org/project/types-psycopg2/2.9.21.15/) (2023-10-29)
 
-psycopg2: Fix missing `Protocol` base class in file protocols ([#10943](https://github.com/python/typeshed/pull/10943))
+* psycopg2: Fix missing `Protocol` base class in file protocols ([#10943](https://github.com/python/typeshed/pull/10943))
 
-This is an error I introduced in #10630 because I didn't know protocols
-need to be explicitly inherited from in other protocol subclasses.
+    This is an error I introduced in #10630 because I didn't know protocols
+    need to be explicitly inherited from in other protocol subclasses.
 
-The added test shows the change. Basically these protocols were unusable.
+    The added test shows the change. Basically these protocols were unusable.
 
 ## 2.9.21.14 (2023-09-24)
 

@@ -2,56 +2,56 @@
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
 
-## 1.1.0.20260518 (2026-05-18)
+## [1.1.0.20260518](https://pypi.org/project/types-mypy-extensions/1.1.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 1.1.0.20260408 (2026-04-08)
+## [1.1.0.20260408](https://pypi.org/project/types-mypy-extensions/1.1.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 1.1.0.20250425 (2025-04-25)
+## [1.1.0.20250425](https://pypi.org/project/types-mypy-extensions/1.1.0.20250425/) (2025-04-25)
 
-Update `mypy_extensions` deprecation messages ([#13876](https://github.com/python/typeshed/pull/13876))
+* Update `mypy_extensions` deprecation messages ([#13876](https://github.com/python/typeshed/pull/13876))
 
-CC @AlexWaygood
+    CC @AlexWaygood
 
-## 1.1.0.20250424 (2025-04-24)
+## [1.1.0.20250424](https://pypi.org/project/types-mypy-extensions/1.1.0.20250424/) (2025-04-24)
 
-Deprecate several things in `mypy_extensions` ([#13874](https://github.com/python/typeshed/pull/13874))
+* Deprecate several things in `mypy_extensions` ([#13874](https://github.com/python/typeshed/pull/13874))
 
-See https://github.com/python/mypy_extensions/compare/1.0.0...1.1.0 on what was deprecated.
+    See https://github.com/python/mypy_extensions/compare/1.0.0...1.1.0 on what was deprecated.
 
-[stubsabot] Bump mypy-extensions to 1.1.* ([#13868](https://github.com/python/typeshed/pull/13868))
+* Bump mypy-extensions to 1.1.* ([#13868](https://github.com/python/typeshed/pull/13868))
 
-Release: https://pypi.org/pypi/mypy-extensions/1.1.0
-Homepage: https://github.com/python/mypy_extensions
-Repository: https://github.com/python/mypy_extensions
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/mypy-extensions
-Diff: https://github.com/python/mypy_extensions/compare/1.0.0...1.1.0
+    Release: https://pypi.org/pypi/mypy-extensions/1.1.0
+    Homepage: https://github.com/python/mypy_extensions
+    Repository: https://github.com/python/mypy_extensions
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/mypy-extensions
+    Diff: https://github.com/python/mypy_extensions/compare/1.0.0...1.1.0
 
-Stubsabot analysis of the diff between the two releases:
- - 0 public Python files have been added.
- - 0 files included in typeshed's stubs have been deleted.
- - 1 file included in typeshed's stubs has been modified or renamed: `mypy_extensions.py`.
- - Total lines of Python code added: 103.
- - Total lines of Python code deleted: 80.
+    Stubsabot analysis of the diff between the two releases:
+     - 0 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 1 file included in typeshed's stubs has been modified or renamed: `mypy_extensions.py`.
+     - Total lines of Python code added: 103.
+     - Total lines of Python code deleted: 80.
 
-If stubtest fails for this PR:
-- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-- Fix stubtest failures in another PR, then close this PR
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
 
-Note that you will need to close and re-open the PR in order to trigger CI
+    Note that you will need to close and re-open the PR in order to trigger CI
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 1.0.0.20250403 (2025-04-03)
+## [1.0.0.20250403](https://pypi.org/project/types-mypy-extensions/1.0.0.20250403/) (2025-04-03)
 
-Remove Python 3.8 exclusive branches ([#13772](https://github.com/python/typeshed/pull/13772))
+* Remove Python 3.8 exclusive branches ([#13772](https://github.com/python/typeshed/pull/13772))
 
-## 1.0.0.20240311 (2024-03-11)
+## [1.0.0.20240311](https://pypi.org/project/types-mypy-extensions/1.0.0.20240311/) (2024-03-11)
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
 ## 1.0.0.5 (2023-08-12)
 

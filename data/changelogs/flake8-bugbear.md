@@ -1,236 +1,236 @@
-## 25.11.29.20260518 (2026-05-18)
+## [25.11.29.20260518](https://pypi.org/project/types-flake8-bugbear/25.11.29.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 25.11.29.20260408 (2026-04-08)
+## [25.11.29.20260408](https://pypi.org/project/types-flake8-bugbear/25.11.29.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 25.11.29.20251201 (2025-12-01)
+## [25.11.29.20251201](https://pypi.org/project/types-flake8-bugbear/25.11.29.20251201/) (2025-12-01)
 
-[stubsabot] Bump flake8-bugbear to 25.11.29 ([#15096](https://github.com/python/typeshed/pull/15096))
+* Bump flake8-bugbear to 25.11.29 ([#15096](https://github.com/python/typeshed/pull/15096))
 
-Release: https://pypi.org/pypi/flake8-bugbear/25.11.29
-Homepage: https://github.com/PyCQA/flake8-bugbear
-Repository: https://github.com/PyCQA/flake8-bugbear
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-bugbear
-Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
-Diff: https://github.com/PyCQA/flake8-bugbear/compare/25.10.21...25.11.29
+    Release: https://pypi.org/pypi/flake8-bugbear/25.11.29
+    Homepage: https://github.com/PyCQA/flake8-bugbear
+    Repository: https://github.com/PyCQA/flake8-bugbear
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-bugbear
+    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+    Diff: https://github.com/PyCQA/flake8-bugbear/compare/25.10.21...25.11.29
 
-Stubsabot analysis of the diff between the two releases:
- - 1 public Python file has been added: `tests/eval_files/b043.py`.
- - 0 files included in typeshed's stubs have been deleted.
- - 1 file included in typeshed's stubs has been modified or renamed: `bugbear.py`.
- - Total lines of Python code added: 97.
- - Total lines of Python code deleted: 3.
+    Stubsabot analysis of the diff between the two releases:
+     - 1 public Python file has been added: `tests/eval_files/b043.py`.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 1 file included in typeshed's stubs has been modified or renamed: `bugbear.py`.
+     - Total lines of Python code added: 97.
+     - Total lines of Python code deleted: 3.
 
-If stubtest fails for this PR:
-- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-- Fix stubtest failures in another PR, then close this PR
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
 
-Note that you will need to close and re-open the PR in order to trigger CI
+    Note that you will need to close and re-open the PR in order to trigger CI
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 25.10.21.20251024 (2025-10-24)
+## [25.10.21.20251024](https://pypi.org/project/types-flake8-bugbear/25.10.21.20251024/) (2025-10-24)
 
-[flake8-bugbear] Update to 25.10.21 ([#14912](https://github.com/python/typeshed/pull/14912))
+* Update to 25.10.21 ([#14912](https://github.com/python/typeshed/pull/14912))
 
-## 24.12.12.20251008 (2025-10-08)
+## [24.12.12.20251008](https://pypi.org/project/types-flake8-bugbear/24.12.12.20251008/) (2025-10-08)
 
-Stubtest: Ignore attrs-generated props ([#14845](https://github.com/python/typeshed/pull/14845))
+* Stubtest: Ignore attrs-generated props ([#14845](https://github.com/python/typeshed/pull/14845))
 
-## 24.12.12.20250416 (2025-04-16)
+## [24.12.12.20250416](https://pypi.org/project/types-flake8-bugbear/24.12.12.20250416/) (2025-04-16)
 
-Improve `flake8-bugbear` ([#13829](https://github.com/python/typeshed/pull/13829))
+* Improve `flake8-bugbear` ([#13829](https://github.com/python/typeshed/pull/13829))
 
-## 24.12.12.20241214 (2024-12-14)
+## [24.12.12.20241214](https://pypi.org/project/types-flake8-bugbear/24.12.12.20241214/) (2024-12-14)
 
-[stubsabot] Bump flake8-bugbear to 24.12.12 ([#13235](https://github.com/python/typeshed/pull/13235))
+* Bump flake8-bugbear to 24.12.12 ([#13235](https://github.com/python/typeshed/pull/13235))
 
-Release: https://pypi.org/pypi/flake8-bugbear/24.12.12
-Homepage: https://github.com/PyCQA/flake8-bugbear
-Repository: https://github.com/PyCQA/flake8-bugbear
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-bugbear
-Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
-Diff: https://github.com/PyCQA/flake8-bugbear/compare/24.10.31...24.12.12
+    Release: https://pypi.org/pypi/flake8-bugbear/24.12.12
+    Homepage: https://github.com/PyCQA/flake8-bugbear
+    Repository: https://github.com/PyCQA/flake8-bugbear
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-bugbear
+    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+    Diff: https://github.com/PyCQA/flake8-bugbear/compare/24.10.31...24.12.12
 
-Stubsabot analysis of the diff between the two releases:
- - 9 public Python files have been added.
- - 0 files included in typeshed's stubs have been deleted.
- - 1 file included in typeshed's stubs has been modified or renamed: `bugbear.py`.
- - Total lines of Python code added: 595.
- - Total lines of Python code deleted: 43.
+    Stubsabot analysis of the diff between the two releases:
+     - 9 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 1 file included in typeshed's stubs has been modified or renamed: `bugbear.py`.
+     - Total lines of Python code added: 595.
+     - Total lines of Python code deleted: 43.
 
-If stubtest fails for this PR:
-- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-- Fix stubtest failures in another PR, then close this PR
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
 
-Note that you will need to close and re-open the PR in order to trigger CI
+    Note that you will need to close and re-open the PR in order to trigger CI
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 24.10.31.20241103 (2024-11-03)
+## [24.10.31.20241103](https://pypi.org/project/types-flake8-bugbear/24.10.31.20241103/) (2024-11-03)
 
-[stubsabot] Bump flake8-bugbear to 24.10.31 ([#12938](https://github.com/python/typeshed/pull/12938))
+* Bump flake8-bugbear to 24.10.31 ([#12938](https://github.com/python/typeshed/pull/12938))
 
-Release: https://pypi.org/pypi/flake8-bugbear/24.10.31
-Homepage: https://github.com/PyCQA/flake8-bugbear
-Repository: https://github.com/PyCQA/flake8-bugbear
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-bugbear
-Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
-Diff: https://github.com/PyCQA/flake8-bugbear/compare/24.8.19...24.10.31
+    Release: https://pypi.org/pypi/flake8-bugbear/24.10.31
+    Homepage: https://github.com/PyCQA/flake8-bugbear
+    Repository: https://github.com/PyCQA/flake8-bugbear
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-bugbear
+    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+    Diff: https://github.com/PyCQA/flake8-bugbear/compare/24.8.19...24.10.31
 
-Stubsabot analysis of the diff between the two releases:
- - 1 public Python file has been added: `tests/b041.py`.
- - 0 files included in typeshed's stubs have been deleted.
- - 1 file included in typeshed's stubs has been modified or renamed: `bugbear.py`.
- - Total lines of Python code added: 103.
- - Total lines of Python code deleted: 9.
+    Stubsabot analysis of the diff between the two releases:
+     - 1 public Python file has been added: `tests/b041.py`.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 1 file included in typeshed's stubs has been modified or renamed: `bugbear.py`.
+     - Total lines of Python code added: 103.
+     - Total lines of Python code deleted: 9.
 
-If stubtest fails for this PR:
-- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-- Fix stubtest failures in another PR, then close this PR
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
 
-Note that you will need to close and re-open the PR in order to trigger CI
+    Note that you will need to close and re-open the PR in order to trigger CI
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 24.8.19.20240822 (2024-08-22)
+## [24.8.19.20240822](https://pypi.org/project/types-flake8-bugbear/24.8.19.20240822/) (2024-08-22)
 
-[stubsabot] Bump flake8-bugbear to 24.8.19 ([#12567](https://github.com/python/typeshed/pull/12567))
+* Bump flake8-bugbear to 24.8.19 ([#12567](https://github.com/python/typeshed/pull/12567))
 
-## 24.4.26.20240428 (2024-04-28)
+## [24.4.26.20240428](https://pypi.org/project/types-flake8-bugbear/24.4.26.20240428/) (2024-04-28)
 
-[stubsabot] Bump flake8-bugbear to 24.4.26 ([#11836](https://github.com/python/typeshed/pull/11836))
+* Bump flake8-bugbear to 24.4.26 ([#11836](https://github.com/python/typeshed/pull/11836))
 
-Release: https://pypi.org/pypi/flake8-bugbear/24.4.26
-Homepage: https://github.com/PyCQA/flake8-bugbear
-Repository: https://github.com/PyCQA/flake8-bugbear
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-bugbear
-Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
-Diff: https://github.com/PyCQA/flake8-bugbear/compare/24.4.21...24.4.26
+    Release: https://pypi.org/pypi/flake8-bugbear/24.4.26
+    Homepage: https://github.com/PyCQA/flake8-bugbear
+    Repository: https://github.com/PyCQA/flake8-bugbear
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-bugbear
+    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+    Diff: https://github.com/PyCQA/flake8-bugbear/compare/24.4.21...24.4.26
 
-Stubsabot analysis of the diff between the two releases:
- - 0 public Python files have been added.
- - 0 files included in typeshed's stubs have been deleted.
- - 1 file included in typeshed's stubs has been modified or renamed: `bugbear.py`.
- - Total lines of Python code added: 74.
- - Total lines of Python code deleted: 4.
+    Stubsabot analysis of the diff between the two releases:
+     - 0 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 1 file included in typeshed's stubs has been modified or renamed: `bugbear.py`.
+     - Total lines of Python code added: 74.
+     - Total lines of Python code deleted: 4.
 
-## 24.4.21.20240423 (2024-04-23)
+## [24.4.21.20240423](https://pypi.org/project/types-flake8-bugbear/24.4.21.20240423/) (2024-04-23)
 
-[stubsabot] Bump flake8-bugbear to 24.4.21 ([#11806](https://github.com/python/typeshed/pull/11806))
+* Bump flake8-bugbear to 24.4.21 ([#11806](https://github.com/python/typeshed/pull/11806))
 
-Release: https://pypi.org/pypi/flake8-bugbear/24.4.21
-Homepage: https://github.com/PyCQA/flake8-bugbear
-Repository: https://github.com/PyCQA/flake8-bugbear
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-bugbear
-Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
-Diff: https://github.com/PyCQA/flake8-bugbear/compare/24.2.6...24.4.21
+    Release: https://pypi.org/pypi/flake8-bugbear/24.4.21
+    Homepage: https://github.com/PyCQA/flake8-bugbear
+    Repository: https://github.com/PyCQA/flake8-bugbear
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-bugbear
+    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+    Diff: https://github.com/PyCQA/flake8-bugbear/compare/24.2.6...24.4.21
 
-Stubsabot analysis of the diff between the two releases:
- - 0 public Python files have been added.
- - 0 files included in typeshed's stubs have been deleted.
- - 1 file included in typeshed's stubs has been modified or renamed: `bugbear.py`.
- - Total lines of Python code added: 192.
- - Total lines of Python code deleted: 88.
+    Stubsabot analysis of the diff between the two releases:
+     - 0 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 1 file included in typeshed's stubs has been modified or renamed: `bugbear.py`.
+     - Total lines of Python code added: 192.
+     - Total lines of Python code deleted: 88.
 
-## 24.2.6.20240209 (2024-02-09)
+## [24.2.6.20240209](https://pypi.org/project/types-flake8-bugbear/24.2.6.20240209/) (2024-02-09)
 
-[stubsabot] Bump flake8-bugbear to 24.2.6 ([#11379](https://github.com/python/typeshed/pull/11379))
+* Bump flake8-bugbear to 24.2.6 ([#11379](https://github.com/python/typeshed/pull/11379))
 
-## 24.1.17.20240201 (2024-02-01)
+## [24.1.17.20240201](https://pypi.org/project/types-flake8-bugbear/24.1.17.20240201/) (2024-02-01)
 
-[stubsabot] Bump flake8-bugbear to 24.1.17 ([#11278](https://github.com/python/typeshed/pull/11278))
+* Bump flake8-bugbear to 24.1.17 ([#11278](https://github.com/python/typeshed/pull/11278))
 
-Release: https://pypi.org/pypi/flake8-bugbear/24.1.17
-Homepage: https://github.com/PyCQA/flake8-bugbear
-Repository: https://github.com/PyCQA/flake8-bugbear
-Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
-Diff: https://github.com/PyCQA/flake8-bugbear/compare/23.12.2...24.1.17
+    Release: https://pypi.org/pypi/flake8-bugbear/24.1.17
+    Homepage: https://github.com/PyCQA/flake8-bugbear
+    Repository: https://github.com/PyCQA/flake8-bugbear
+    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+    Diff: https://github.com/PyCQA/flake8-bugbear/compare/23.12.2...24.1.17
 
-Stubsabot analysis of the diff between the two releases:
- - 3 public Python files have been added: `tests/b036.py`, `tests/b037.py`, `tests/b038.py`.
- - 0 files included in typeshed's stubs have been deleted.
- - 1 file included in typeshed's stubs has been modified or renamed: `bugbear.py`.
- - Total lines of Python code added: 410.
- - Total lines of Python code deleted: 35.
+    Stubsabot analysis of the diff between the two releases:
+     - 3 public Python files have been added: `tests/b036.py`, `tests/b037.py`, `tests/b038.py`.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 1 file included in typeshed's stubs has been modified or renamed: `bugbear.py`.
+     - Total lines of Python code added: 410.
+     - Total lines of Python code deleted: 35.
 
-If stubtest fails for this PR:
-- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-- Fix stubtest failures in another PR, then close this PR
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
 
-Note that you will need to close and re-open the PR in order to trigger CI
+    Note that you will need to close and re-open the PR in order to trigger CI
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 23.12.2.0 (2023-12-03)
+## [23.12.2.0](https://pypi.org/project/types-flake8-bugbear/23.12.2.0/) (2023-12-03)
 
-[stubsabot] Bump flake8-bugbear to 23.12.2 ([#11097](https://github.com/python/typeshed/pull/11097))
+* Bump flake8-bugbear to 23.12.2 ([#11097](https://github.com/python/typeshed/pull/11097))
 
-Release: https://pypi.org/pypi/flake8-bugbear/23.12.2
-Homepage: https://github.com/PyCQA/flake8-bugbear
-Repository: https://github.com/PyCQA/flake8-bugbear
-Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
-Diff: https://github.com/PyCQA/flake8-bugbear/compare/23.11.28...23.12.2
+    Release: https://pypi.org/pypi/flake8-bugbear/23.12.2
+    Homepage: https://github.com/PyCQA/flake8-bugbear
+    Repository: https://github.com/PyCQA/flake8-bugbear
+    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+    Diff: https://github.com/PyCQA/flake8-bugbear/compare/23.11.28...23.12.2
 
-Stubsabot analysis of the diff between the two releases:
- - 2 public Python files have been added: `scripts/flake8_py_version_check.py`, `tests/b018_nested.py`.
- - 0 files included in typeshed's stubs have been deleted.
- - 1 file included in typeshed's stubs has been modified or renamed: `bugbear.py`.
- - Total lines of Python code added: 180.
- - Total lines of Python code deleted: 29.
+    Stubsabot analysis of the diff between the two releases:
+     - 2 public Python files have been added: `scripts/flake8_py_version_check.py`, `tests/b018_nested.py`.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 1 file included in typeshed's stubs has been modified or renamed: `bugbear.py`.
+     - Total lines of Python code added: 180.
+     - Total lines of Python code deleted: 29.
 
-If stubtest fails for this PR:
-- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-- Fix stubtest failures in another PR, then close this PR
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
 
-Note that you will need to close and re-open the PR in order to trigger CI
+    Note that you will need to close and re-open the PR in order to trigger CI
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 23.11.28.0 (2023-11-30)
+## [23.11.28.0](https://pypi.org/project/types-flake8-bugbear/23.11.28.0/) (2023-11-30)
 
-[stubsabot] Bump flake8-bugbear to 23.11.28 ([#11088](https://github.com/python/typeshed/pull/11088))
+* Bump flake8-bugbear to 23.11.28 ([#11088](https://github.com/python/typeshed/pull/11088))
 
-Release: https://pypi.org/pypi/flake8-bugbear/23.11.28
-Homepage: https://github.com/PyCQA/flake8-bugbear
-Repository: https://github.com/PyCQA/flake8-bugbear
-Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
-Diff: https://github.com/PyCQA/flake8-bugbear/compare/23.11.26...23.11.28
+    Release: https://pypi.org/pypi/flake8-bugbear/23.11.28
+    Homepage: https://github.com/PyCQA/flake8-bugbear
+    Repository: https://github.com/PyCQA/flake8-bugbear
+    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+    Diff: https://github.com/PyCQA/flake8-bugbear/compare/23.11.26...23.11.28
 
-Stubsabot analysis of the diff between the two releases:
- - 0 public Python files have been added.
- - 0 files included in typeshed's stubs have been deleted.
- - 1 file included in typeshed's stubs has been modified or renamed: `bugbear.py`.
- - Total lines of Python code added: 50.
- - Total lines of Python code deleted: 3.
+    Stubsabot analysis of the diff between the two releases:
+     - 0 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 1 file included in typeshed's stubs has been modified or renamed: `bugbear.py`.
+     - Total lines of Python code added: 50.
+     - Total lines of Python code deleted: 3.
 
-## 23.11.26.0 (2023-11-28)
+## [23.11.26.0](https://pypi.org/project/types-flake8-bugbear/23.11.26.0/) (2023-11-28)
 
-[stubsabot] Bump flake8-bugbear to 23.11.26 ([#11075](https://github.com/python/typeshed/pull/11075))
+* Bump flake8-bugbear to 23.11.26 ([#11075](https://github.com/python/typeshed/pull/11075))
 
-Release: https://pypi.org/pypi/flake8-bugbear/23.11.26
-Homepage: https://github.com/PyCQA/flake8-bugbear
-Repository: https://github.com/PyCQA/flake8-bugbear
-Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
-Diff: https://github.com/PyCQA/flake8-bugbear/compare/23.9.16...23.11.26
+    Release: https://pypi.org/pypi/flake8-bugbear/23.11.26
+    Homepage: https://github.com/PyCQA/flake8-bugbear
+    Repository: https://github.com/PyCQA/flake8-bugbear
+    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+    Diff: https://github.com/PyCQA/flake8-bugbear/compare/23.9.16...23.11.26
 
-Stubsabot analysis of the diff between the two releases:
- - 1 public Python file has been added: `tests/b035.py`.
- - 0 files included in typeshed's stubs have been deleted.
- - 1 file included in typeshed's stubs has been modified or renamed: `bugbear.py`.
- - Total lines of Python code added: 175.
- - Total lines of Python code deleted: 61.
+    Stubsabot analysis of the diff between the two releases:
+     - 1 public Python file has been added: `tests/b035.py`.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 1 file included in typeshed's stubs has been modified or renamed: `bugbear.py`.
+     - Total lines of Python code added: 175.
+     - Total lines of Python code deleted: 61.
 
-If stubtest fails for this PR:
-- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-- Fix stubtest failures in another PR, then close this PR
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
 
-Note that you will need to close and re-open the PR in order to trigger CI
+    Note that you will need to close and re-open the PR in order to trigger CI
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
 ## 23.9.16.0 (2023-09-17)
 

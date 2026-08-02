@@ -2,50 +2,50 @@
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
 
-## 3.0.1.20260508 (2026-05-08)
+## [3.0.1.20260508](https://pypi.org/project/types-waitress/3.0.1.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 3.0.1.20260408 (2026-04-08)
+## [3.0.1.20260408](https://pypi.org/project/types-waitress/3.0.1.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 3.0.1.20260316 (2026-03-16)
+## [3.0.1.20260316](https://pypi.org/project/types-waitress/3.0.1.20260316/) (2026-03-16)
 
-Fix `Final` literal values in various third-party stubs ([#15521](https://github.com/python/typeshed/pull/15521))
+* Fix `Final` literal values in various third-party stubs ([#15521](https://github.com/python/typeshed/pull/15521))
 
-## 3.0.1.20250801 (2025-08-01)
+## [3.0.1.20250801](https://pypi.org/project/types-waitress/3.0.1.20250801/) (2025-08-01)
 
-Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
+* Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
-Co-authored-by: Avasam <samuel.06@hotmail.com>
-Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
-## 3.0.1.20241117 (2024-11-17)
+## [3.0.1.20241117](https://pypi.org/project/types-waitress/3.0.1.20241117/) (2024-11-17)
 
-waitress: fixes for latest ([#13027](https://github.com/python/typeshed/pull/13027))
+* waitress: fixes for latest ([#13027](https://github.com/python/typeshed/pull/13027))
 
-## 3.0.1.20241030 (2024-10-30)
+## [3.0.1.20241030](https://pypi.org/project/types-waitress/3.0.1.20241030/) (2024-10-30)
 
-[waitress] Update to 3.0.1 ([#12917](https://github.com/python/typeshed/pull/12917))
+* Update to 3.0.1 ([#12917](https://github.com/python/typeshed/pull/12917))
 
-## 3.0.0.20241001 (2024-10-01)
+## [3.0.0.20241001](https://pypi.org/project/types-waitress/3.0.0.20241001/) (2024-10-01)
 
-Use `Mapping` for local Python namespace parameters ([#12705](https://github.com/python/typeshed/pull/12705))
+* Use `Mapping` for local Python namespace parameters ([#12705](https://github.com/python/typeshed/pull/12705))
 
-## 3.0.0.20240423 (2024-04-23)
+## [3.0.0.20240423](https://pypi.org/project/types-waitress/3.0.0.20240423/) (2024-04-23)
 
-Bump waitress to 3.0.* ([#11803](https://github.com/python/typeshed/pull/11803))
+* Bump waitress to 3.0.* ([#11803](https://github.com/python/typeshed/pull/11803))
 
-## 2.1.4.20240421 (2024-04-21)
+## [2.1.4.20240421](https://pypi.org/project/types-waitress/2.1.4.20240421/) (2024-04-21)
 
-`waitress`: stubtest-complete and update usage of Any ([#11796](https://github.com/python/typeshed/pull/11796))
+* `waitress`: stubtest-complete and update usage of Any ([#11796](https://github.com/python/typeshed/pull/11796))
 
-## 2.1.4.20240106 (2024-01-06)
+## [2.1.4.20240106](https://pypi.org/project/types-waitress/2.1.4.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 2.1.4.9 (2023-07-20)
 
