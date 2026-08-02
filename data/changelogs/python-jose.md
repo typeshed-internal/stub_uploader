@@ -1,28 +1,28 @@
-## [3.5.0.20260408](https://pypi.org/project/types-python-jose/3.5.0.20260408/) (2026-04-08)
+## 3.5.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [3.5.0.20260402](https://pypi.org/project/types-python-jose/3.5.0.20260402/) (2026-04-02)
+## 3.5.0.20260402 (2026-04-02)
 
-* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-* Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
 
-## [3.5.0.20250531](https://pypi.org/project/types-python-jose/3.5.0.20250531/) (2025-05-31)
+## 3.5.0.20250531 (2025-05-31)
 
-* Bump python-jose to 3.5.* ([#14193](https://github.com/python/typeshed/pull/14193))
+Bump python-jose to 3.5.* ([#14193](https://github.com/python/typeshed/pull/14193))
 
-## [3.4.0.20250516](https://pypi.org/project/types-python-jose/3.4.0.20250516/) (2025-05-16)
+## 3.4.0.20250516 (2025-05-16)
 
-* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## [3.4.0.20250224](https://pypi.org/project/types-python-jose/3.4.0.20250224/) (2025-02-24)
+## 3.4.0.20250224 (2025-02-24)
 
-* Bump python-jose to 3.4.* ([#13522](https://github.com/python/typeshed/pull/13522))
+Bump python-jose to 3.4.* ([#13522](https://github.com/python/typeshed/pull/13522))
 
-## [3.3.4.20240106](https://pypi.org/project/types-python-jose/3.3.4.20240106/) (2024-01-06)
+## 3.3.4.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 3.3.4.8 (2023-07-20)
 

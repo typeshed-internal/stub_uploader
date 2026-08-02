@@ -1,24 +1,24 @@
-## [2.0.0.20260508](https://pypi.org/project/types-dockerfile-parse/2.0.0.20260508/) (2026-05-08)
+## 2.0.0.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [2.0.0.20260408](https://pypi.org/project/types-dockerfile-parse/2.0.0.20260408/) (2026-04-08)
+## 2.0.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [2.0.0.20250809](https://pypi.org/project/types-dockerfile-parse/2.0.0.20250809/) (2025-08-09)
+## 2.0.0.20250809 (2025-08-09)
 
-* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## [2.0.0.20250708](https://pypi.org/project/types-dockerfile-parse/2.0.0.20250708/) (2025-07-08)
+## 2.0.0.20250708 (2025-07-08)
 
-* Use `Final` for constants ([#14258](https://github.com/python/typeshed/pull/14258))
+[dockerfile-parse] Use `Final` for constants ([#14258](https://github.com/python/typeshed/pull/14258))
 
-## [2.0.0.20240106](https://pypi.org/project/types-dockerfile-parse/2.0.0.20240106/) (2024-01-06)
+## 2.0.0.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 2.0.0.5 (2023-07-20)
 

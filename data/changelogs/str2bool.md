@@ -1,12 +1,12 @@
-## [1.1.0.20260518](https://pypi.org/project/types-str2bool/1.1.0.20260518/) (2026-05-18)
+## 1.1.0.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [1.1.0.20260408](https://pypi.org/project/types-str2bool/1.1.0.20260408/) (2026-04-08)
+## 1.1.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [1.1.0.20240705](https://pypi.org/project/types-str2bool/1.1.0.20240705/) (2024-07-05)
+## 1.1.0.20240705 (2024-07-05)
 
-* add stub library for str2bool ([#12260](https://github.com/python/typeshed/pull/12260))
+add stub library for str2bool ([#12260](https://github.com/python/typeshed/pull/12260))
 

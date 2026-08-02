@@ -2,246 +2,246 @@
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
 
-## [3.1.5.20260518](https://pypi.org/project/types-openpyxl/3.1.5.20260518/) (2026-05-18)
+## 3.1.5.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [3.1.5.20260508](https://pypi.org/project/types-openpyxl/3.1.5.20260508/) (2026-05-08)
+## 3.1.5.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [3.1.5.20260408](https://pypi.org/project/types-openpyxl/3.1.5.20260408/) (2026-04-08)
+## 3.1.5.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [3.1.5.20260402](https://pypi.org/project/types-openpyxl/3.1.5.20260402/) (2026-04-02)
+## 3.1.5.20260402 (2026-04-02)
 
-* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-* Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
 
-## [3.1.5.20260322](https://pypi.org/project/types-openpyxl/3.1.5.20260322/) (2026-03-22)
+## 3.1.5.20260322 (2026-03-22)
 
-* Add `@type_check_only` to stub-only private classes in various third-party stubs ([#15535](https://github.com/python/typeshed/pull/15535))
+Add `@type_check_only` to stub-only private classes in various third-party stubs ([#15535](https://github.com/python/typeshed/pull/15535))
 
-## [3.1.5.20260316](https://pypi.org/project/types-openpyxl/3.1.5.20260316/) (2026-03-16)
+## 3.1.5.20260316 (2026-03-16)
 
-* Fix `Final` literal values in various third-party stubs ([#15521](https://github.com/python/typeshed/pull/15521))
+Fix `Final` literal values in various third-party stubs ([#15521](https://github.com/python/typeshed/pull/15521))
 
-## [3.1.5.20250919](https://pypi.org/project/types-openpyxl/3.1.5.20250919/) (2025-09-19)
+## 3.1.5.20250919 (2025-09-19)
 
-* Fix stubs for openpyxl.descriptors.sequence.UniqueSequence.seq_types ([#14725](https://github.com/python/typeshed/pull/14725))
+[openpyxl] Fix stubs for openpyxl.descriptors.sequence.UniqueSequence.seq_types ([#14725](https://github.com/python/typeshed/pull/14725))
 
-## [3.1.5.20250914](https://pypi.org/project/types-openpyxl/3.1.5.20250914/) (2025-09-14)
+## 3.1.5.20250914 (2025-09-14)
 
-* Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
+Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
 
-## [3.1.5.20250822](https://pypi.org/project/types-openpyxl/3.1.5.20250822/) (2025-08-22)
+## 3.1.5.20250822 (2025-08-22)
 
-* Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
 
-* Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
 
-## [3.1.5.20250821](https://pypi.org/project/types-openpyxl/3.1.5.20250821/) (2025-08-21)
+## 3.1.5.20250821 (2025-08-21)
 
-* Upgrade to mypy 1.17.1 ([#14598](https://github.com/python/typeshed/pull/14598))
+Upgrade to mypy 1.17.1 ([#14598](https://github.com/python/typeshed/pull/14598))
 
-## [3.1.5.20250809](https://pypi.org/project/types-openpyxl/3.1.5.20250809/) (2025-08-09)
+## 3.1.5.20250809 (2025-08-09)
 
-* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## [3.1.5.20250602](https://pypi.org/project/types-openpyxl/3.1.5.20250602/) (2025-06-02)
+## 3.1.5.20250602 (2025-06-02)
 
-* Update mypy to 1.16.0 ([#14194](https://github.com/python/typeshed/pull/14194))
+Update mypy to 1.16.0 ([#14194](https://github.com/python/typeshed/pull/14194))
 
-    Co-authored-by: Sebastian Rittau <srittau@rittau.biz> \
-    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-* Remove unnecessary overload ([#14201](https://github.com/python/typeshed/pull/14201))
+[openpyxl] Remove unnecessary overload ([#14201](https://github.com/python/typeshed/pull/14201))
 
-## [3.1.5.20250516](https://pypi.org/project/types-openpyxl/3.1.5.20250516/) (2025-05-16)
+## 3.1.5.20250516 (2025-05-16)
 
-* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## [3.1.5.20250506](https://pypi.org/project/types-openpyxl/3.1.5.20250506/) (2025-05-06)
+## 3.1.5.20250506 (2025-05-06)
 
-* Openpyxl: type cell values ([#13929](https://github.com/python/typeshed/pull/13929))
+Openpyxl: type cell values ([#13929](https://github.com/python/typeshed/pull/13929))
 
-## [3.1.5.20250306](https://pypi.org/project/types-openpyxl/3.1.5.20250306/) (2025-03-06)
+## 3.1.5.20250306 (2025-03-06)
 
-* Update tools versions in `stubtest` workflow ([#13582](https://github.com/python/typeshed/pull/13582))
+Update tools versions in `stubtest` workflow ([#13582](https://github.com/python/typeshed/pull/13582))
 
-## [3.1.5.20241225](https://pypi.org/project/types-openpyxl/3.1.5.20241225/) (2024-12-25)
+## 3.1.5.20241225 (2024-12-25)
 
-* Add `__hash__` for a bunch of types that set it to None ([#13286](https://github.com/python/typeshed/pull/13286))
+Add `__hash__` for a bunch of types that set it to None ([#13286](https://github.com/python/typeshed/pull/13286))
 
-## [3.1.5.20241126](https://pypi.org/project/types-openpyxl/3.1.5.20241126/) (2024-11-26)
+## 3.1.5.20241126 (2024-11-26)
 
-* openpyxl: `Cell | MergedCell` annotations ([#13092](https://github.com/python/typeshed/pull/13092))
+openpyxl: `Cell | MergedCell` annotations ([#13092](https://github.com/python/typeshed/pull/13092))
 
-## [3.1.5.20241114](https://pypi.org/project/types-openpyxl/3.1.5.20241114/) (2024-11-14)
+## 3.1.5.20241114 (2024-11-14)
 
-* Support Writeable Zipfile on workbook.save ([#13009](https://github.com/python/typeshed/pull/13009))
+Support Writeable Zipfile on workbook.save ([#13009](https://github.com/python/typeshed/pull/13009))
 
-## [3.1.5.20241025](https://pypi.org/project/types-openpyxl/3.1.5.20241025/) (2024-10-25)
+## 3.1.5.20241025 (2024-10-25)
 
-* Fix linting issues ([#12898](https://github.com/python/typeshed/pull/12898))
+Fix linting issues ([#12898](https://github.com/python/typeshed/pull/12898))
 
-    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
-## [3.1.5.20241020](https://pypi.org/project/types-openpyxl/3.1.5.20241020/) (2024-10-20)
+## 3.1.5.20241020 (2024-10-20)
 
-* Update mypy to 1.12.0 ([#12859](https://github.com/python/typeshed/pull/12859))
+Update mypy to 1.12.0 ([#12859](https://github.com/python/typeshed/pull/12859))
 
-## [3.1.5.20240918](https://pypi.org/project/types-openpyxl/3.1.5.20240918/) (2024-09-18)
+## 3.1.5.20240918 (2024-09-18)
 
-* `openpyxl`: fix `Worksheet.values` annotation ([#12674](https://github.com/python/typeshed/pull/12674))
+`openpyxl`: fix `Worksheet.values` annotation ([#12674](https://github.com/python/typeshed/pull/12674))
 
-## [3.1.5.20240822](https://pypi.org/project/types-openpyxl/3.1.5.20240822/) (2024-08-22)
+## 3.1.5.20240822 (2024-08-22)
 
-* Using precise code for `pyright: ignore` and re-enabling various pyright tests ([#12576](https://github.com/python/typeshed/pull/12576))
+Using precise code for `pyright: ignore` and re-enabling various pyright tests ([#12576](https://github.com/python/typeshed/pull/12576))
 
-## [3.1.5.20240819](https://pypi.org/project/types-openpyxl/3.1.5.20240819/) (2024-08-19)
+## 3.1.5.20240819 (2024-08-19)
 
-* Forbid extremely long line lengths in non-autogenerated stubs ([#12537](https://github.com/python/typeshed/pull/12537))
+Forbid extremely long line lengths in non-autogenerated stubs ([#12537](https://github.com/python/typeshed/pull/12537))
 
-    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## [3.1.5.20240806](https://pypi.org/project/types-openpyxl/3.1.5.20240806/) (2024-08-06)
+## 3.1.5.20240806 (2024-08-06)
 
-* Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
+Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
 
-## [3.1.5.20240719](https://pypi.org/project/types-openpyxl/3.1.5.20240719/) (2024-07-19)
+## 3.1.5.20240719 (2024-07-19)
 
-* Openpyxl fixes for worksheet and image. ([#12363](https://github.com/python/typeshed/pull/12363))
+Openpyxl fixes for worksheet and image. ([#12363](https://github.com/python/typeshed/pull/12363))
 
-* Add dimensions for openpyxl Image. ([#12362](https://github.com/python/typeshed/pull/12362))
+Add dimensions for openpyxl Image. ([#12362](https://github.com/python/typeshed/pull/12362))
 
-## [3.1.5.20240630](https://pypi.org/project/types-openpyxl/3.1.5.20240630/) (2024-06-30)
+## 3.1.5.20240630 (2024-06-30)
 
-* Bump openpyxl to 3.1.5 ([#12238](https://github.com/python/typeshed/pull/12238))
+Bump openpyxl to 3.1.5 ([#12238](https://github.com/python/typeshed/pull/12238))
 
-## [3.1.4.20240626](https://pypi.org/project/types-openpyxl/3.1.4.20240626/) (2024-06-26)
+## 3.1.4.20240626 (2024-06-26)
 
-* Copy `openpyxl`'s `Worksheet.__getitem__()` and `.__iter__()` to `ReadOnlyWorksheet` ([#12202](https://github.com/python/typeshed/pull/12202))
+Copy `openpyxl`'s `Worksheet.__getitem__()` and `.__iter__()` to `ReadOnlyWorksheet` ([#12202](https://github.com/python/typeshed/pull/12202))
 
-## [3.1.4.20240621](https://pypi.org/project/types-openpyxl/3.1.4.20240621/) (2024-06-21)
+## 3.1.4.20240621 (2024-06-21)
 
-* Update to 3.1.4 ([#12142](https://github.com/python/typeshed/pull/12142))
+[openpyxl] Update to 3.1.4 ([#12142](https://github.com/python/typeshed/pull/12142))
 
-    Also make sequence types generic
+Also make sequence types generic
 
-* Fix key of Worksheet.row_dimensions ([#12143](https://github.com/python/typeshed/pull/12143))
+[openpyxl] Fix key of Worksheet.row_dimensions ([#12143](https://github.com/python/typeshed/pull/12143))
 
-    Closes: #11845
+Closes: #11845
 
-## [3.1.2.20240601](https://pypi.org/project/types-openpyxl/3.1.2.20240601/) (2024-06-01)
+## 3.1.2.20240601 (2024-06-01)
 
-* pin `openpyxl` to 3.1.2 ([#12072](https://github.com/python/typeshed/pull/12072))
+pin `openpyxl` to 3.1.2 ([#12072](https://github.com/python/typeshed/pull/12072))
 
-    helps with #12059
+helps with #12059
 
-## [3.1.0.20240428](https://pypi.org/project/types-openpyxl/3.1.0.20240428/) (2024-04-28)
+## 3.1.0.20240428 (2024-04-28)
 
-* `openpyxl`: Use duck typing for workbook sheets ([#11718](https://github.com/python/typeshed/pull/11718))
+`openpyxl`: Use duck typing for workbook sheets ([#11718](https://github.com/python/typeshed/pull/11718))
 
-## [3.1.0.20240425](https://pypi.org/project/types-openpyxl/3.1.0.20240425/) (2024-04-25)
+## 3.1.0.20240425 (2024-04-25)
 
-* Bump pyright to v1.1.360 ([#11810](https://github.com/python/typeshed/pull/11810))
+Bump pyright to v1.1.360 ([#11810](https://github.com/python/typeshed/pull/11810))
 
-## [3.1.0.20240408](https://pypi.org/project/types-openpyxl/3.1.0.20240408/) (2024-04-08)
+## 3.1.0.20240408 (2024-04-08)
 
-* openpyxl: Reduce false-positives in `Worksheet.__getitem__` ([#11717](https://github.com/python/typeshed/pull/11717))
+openpyxl: Reduce false-positives in `Worksheet.__getitem__` ([#11717](https://github.com/python/typeshed/pull/11717))
 
-## [3.1.0.20240402](https://pypi.org/project/types-openpyxl/3.1.0.20240402/) (2024-04-02)
+## 3.1.0.20240402 (2024-04-02)
 
-* `openpyxl`: Add `_WorkbookChild` / `ReadOnlyWorksheet` / `Workbook` annotations ([#11677](https://github.com/python/typeshed/pull/11677))
+`openpyxl`: Add `_WorkbookChild` / `ReadOnlyWorksheet` / `Workbook` annotations ([#11677](https://github.com/python/typeshed/pull/11677))
 
-## [3.1.0.20240331](https://pypi.org/project/types-openpyxl/3.1.0.20240331/) (2024-03-31)
+## 3.1.0.20240331 (2024-03-31)
 
-* Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
+Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
 
-## [3.1.0.20240311](https://pypi.org/project/types-openpyxl/3.1.0.20240311/) (2024-03-11)
+## 3.1.0.20240311 (2024-03-11)
 
-* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## [3.1.0.20240308](https://pypi.org/project/types-openpyxl/3.1.0.20240308/) (2024-03-08)
+## 3.1.0.20240308 (2024-03-08)
 
-* `openpyxl`: Simpler leftover changes from the `microsoft/python-type-stubs` merge ([#11534](https://github.com/python/typeshed/pull/11534))
+`openpyxl`: Simpler leftover changes from the `microsoft/python-type-stubs` merge ([#11534](https://github.com/python/typeshed/pull/11534))
 
-* Add `@deprecated` decorator to `openpyxl` ([#11535](https://github.com/python/typeshed/pull/11535))
+Add `@deprecated` decorator to `openpyxl` ([#11535](https://github.com/python/typeshed/pull/11535))
 
-## [3.1.0.20240301](https://pypi.org/project/types-openpyxl/3.1.0.20240301/) (2024-03-01)
+## 3.1.0.20240301 (2024-03-01)
 
-* Update `pyright` version to 1.1.350 ([#11501](https://github.com/python/typeshed/pull/11501))
+Update `pyright` version to 1.1.350 ([#11501](https://github.com/python/typeshed/pull/11501))
 
-    If you're reading about this commit in an auto-generated changelog: this is an internal change that should have no impact on how these stubs are understood by static-analysis tools such as type checkers or IDEs
+If you're reading about this commit in an auto-generated changelog: this is an internal change that should have no impact on how these stubs are understood by static-analysis tools such as type checkers or IDEs
 
-* Fix invalid noqa comments and poorly formatted type ignores ([#11497](https://github.com/python/typeshed/pull/11497))
+Fix invalid noqa comments and poorly formatted type ignores ([#11497](https://github.com/python/typeshed/pull/11497))
 
-## [3.1.0.20240220](https://pypi.org/project/types-openpyxl/3.1.0.20240220/) (2024-02-20)
+## 3.1.0.20240220 (2024-02-20)
 
-* openpyxl: Add stubtest allowlist entry ([#11449](https://github.com/python/typeshed/pull/11449))
+openpyxl: Add stubtest allowlist entry ([#11449](https://github.com/python/typeshed/pull/11449))
 
-    Fixes #11448
+Fixes #11448
 
-## [3.1.0.20240205](https://pypi.org/project/types-openpyxl/3.1.0.20240205/) (2024-02-05)
+## 3.1.0.20240205 (2024-02-05)
 
-* A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
+A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
 
-## [3.1.0.20240106](https://pypi.org/project/types-openpyxl/3.1.0.20240106/) (2024-01-06)
+## 3.1.0.20240106 (2024-01-06)
 
-* Bump various test dependencies ([#11249](https://github.com/python/typeshed/pull/11249))
+Bump various test dependencies ([#11249](https://github.com/python/typeshed/pull/11249))
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-* Remove Python 3.7 branches ([#11238](https://github.com/python/typeshed/pull/11238))
+Remove Python 3.7 branches ([#11238](https://github.com/python/typeshed/pull/11238))
 
-## [3.1.0.32](https://pypi.org/project/types-openpyxl/3.1.0.32/) (2023-12-06)
+## 3.1.0.32 (2023-12-06)
 
-* openpyxl: Type styleable descriptors ([#11103](https://github.com/python/typeshed/pull/11103))
+openpyxl: Type styleable descriptors ([#11103](https://github.com/python/typeshed/pull/11103))
 
-## [3.1.0.31](https://pypi.org/project/types-openpyxl/3.1.0.31/) (2023-12-05)
+## 3.1.0.31 (2023-12-05)
 
-* Openpyxl: Various improvements ([#11092](https://github.com/python/typeshed/pull/11092))
+Openpyxl: Various improvements ([#11092](https://github.com/python/typeshed/pull/11092))
 
-## [3.1.0.30](https://pypi.org/project/types-openpyxl/3.1.0.30/) (2023-12-02)
+## 3.1.0.30 (2023-12-02)
 
-* openpyxl: type `to_tree` methods ([#10967](https://github.com/python/typeshed/pull/10967))
+openpyxl: type `to_tree` methods ([#10967](https://github.com/python/typeshed/pull/10967))
 
-## [3.1.0.29](https://pypi.org/project/types-openpyxl/3.1.0.29/) (2023-11-30)
+## 3.1.0.29 (2023-11-30)
 
-* Use `ConvertibleToInt`/`ConvertibleToFloat` in many third-party stubs ([#11022](https://github.com/python/typeshed/pull/11022))
+Use `ConvertibleToInt`/`ConvertibleToFloat` in many third-party stubs ([#11022](https://github.com/python/typeshed/pull/11022))
 
-    Note: this may make the latest version of certain stubs packages incompatible with older versions of mypy and pyright.
+Note: this may make the latest version of certain stubs packages incompatible with older versions of mypy and pyright.
 
-## [3.1.0.28](https://pypi.org/project/types-openpyxl/3.1.0.28/) (2023-11-24)
+## 3.1.0.28 (2023-11-24)
 
-* Fix typos in docs and comments ([#11064](https://github.com/python/typeshed/pull/11064))
+Fix typos in docs and comments ([#11064](https://github.com/python/typeshed/pull/11064))
 
-* Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
+Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
 
-## [3.1.0.27](https://pypi.org/project/types-openpyxl/3.1.0.27/) (2023-11-09)
+## 3.1.0.27 (2023-11-09)
 
-* Bump flake8-pyi to 23.11.0 ([#10997](https://github.com/python/typeshed/pull/10997))
+Bump flake8-pyi to 23.11.0 ([#10997](https://github.com/python/typeshed/pull/10997))
 
-## [3.1.0.26](https://pypi.org/project/types-openpyxl/3.1.0.26/) (2023-11-04)
+## 3.1.0.26 (2023-11-04)
 
-* xml.etree: Fix `tag` param in `__init__` ([#10968](https://github.com/python/typeshed/pull/10968))
+xml.etree: Fix `tag` param in `__init__` ([#10968](https://github.com/python/typeshed/pull/10968))
 
-## [3.1.0.25](https://pypi.org/project/types-openpyxl/3.1.0.25/) (2023-11-03)
+## 3.1.0.25 (2023-11-03)
 
-* openpyxl TypeGuards and comparison dunders ([#10962](https://github.com/python/typeshed/pull/10962))
+openpyxl TypeGuards and comparison dunders ([#10962](https://github.com/python/typeshed/pull/10962))
 
-* openpyxl: Type usages of `PIL` and `zipfile` ([#10706](https://github.com/python/typeshed/pull/10706))
+openpyxl: Type usages of `PIL` and `zipfile` ([#10706](https://github.com/python/typeshed/pull/10706))
 
-## [3.1.0.24](https://pypi.org/project/types-openpyxl/3.1.0.24/) (2023-10-17)
+## 3.1.0.24 (2023-10-17)
 
-* openpyxl: Various minor improvements / previous PR fixes ([#10896](https://github.com/python/typeshed/pull/10896))
+openpyxl: Various minor improvements / previous PR fixes ([#10896](https://github.com/python/typeshed/pull/10896))
 
-* openpyxl: type `__iter__` dunders ([#10883](https://github.com/python/typeshed/pull/10883))
+openpyxl: type `__iter__` dunders ([#10883](https://github.com/python/typeshed/pull/10883))
 
 ## 3.1.0.23 (2023-10-16)
 

@@ -1,97 +1,97 @@
-## [25.1.0.20260518](https://pypi.org/project/types-aiofiles/25.1.0.20260518/) (2026-05-18)
+## 25.1.0.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [25.1.0.20260508](https://pypi.org/project/types-aiofiles/25.1.0.20260508/) (2026-05-08)
+## 25.1.0.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [25.1.0.20260409](https://pypi.org/project/types-aiofiles/25.1.0.20260409/) (2026-04-09)
+## 25.1.0.20260409 (2026-04-09)
 
-* Add aiofiles.threadpool.wrap ([#15626](https://github.com/python/typeshed/pull/15626))
+[aiofiles] Add aiofiles.threadpool.wrap ([#15626](https://github.com/python/typeshed/pull/15626))
 
-## [25.1.0.20260408](https://pypi.org/project/types-aiofiles/25.1.0.20260408/) (2026-04-08)
+## 25.1.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [25.1.0.20251011](https://pypi.org/project/types-aiofiles/25.1.0.20251011/) (2025-10-11)
+## 25.1.0.20251011 (2025-10-11)
 
-* Update to 25.1.* ([#14860](https://github.com/python/typeshed/pull/14860))
+[aiofiles] Update to 25.1.* ([#14860](https://github.com/python/typeshed/pull/14860))
 
-## [24.1.0.20250822](https://pypi.org/project/types-aiofiles/24.1.0.20250822/) (2025-08-22)
+## 24.1.0.20250822 (2025-08-22)
 
-* Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
 
-* Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
 
-## [24.1.0.20250809](https://pypi.org/project/types-aiofiles/24.1.0.20250809/) (2025-08-09)
+## 24.1.0.20250809 (2025-08-09)
 
-* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## [24.1.0.20250801](https://pypi.org/project/types-aiofiles/24.1.0.20250801/) (2025-08-01)
+## 24.1.0.20250801 (2025-08-01)
 
-* Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
+Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
-    Co-authored-by: Avasam <samuel.06@hotmail.com> \
-    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
-## [24.1.0.20250708](https://pypi.org/project/types-aiofiles/24.1.0.20250708/) (2025-07-08)
+## 24.1.0.20250708 (2025-07-08)
 
-* Remove from pyrightconfig ([#14310](https://github.com/python/typeshed/pull/14310))
+[aiofiles] Remove from pyrightconfig ([#14310](https://github.com/python/typeshed/pull/14310))
 
-* Fix AiofilesContextManagerTempDir type argument ([#14349](https://github.com/python/typeshed/pull/14349))
+Fix AiofilesContextManagerTempDir type argument ([#14349](https://github.com/python/typeshed/pull/14349))
 
-## [24.1.0.20250606](https://pypi.org/project/types-aiofiles/24.1.0.20250606/) (2025-06-06)
+## 24.1.0.20250606 (2025-06-06)
 
-* aiofiles: add type for `executor` parameter ([#14226](https://github.com/python/typeshed/pull/14226))
+aiofiles: add type for `executor` parameter ([#14226](https://github.com/python/typeshed/pull/14226))
 
-    Fix partially unknown executor
+Fix partially unknown executor
 
-## [24.1.0.20250516](https://pypi.org/project/types-aiofiles/24.1.0.20250516/) (2025-05-16)
+## 24.1.0.20250516 (2025-05-16)
 
-* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## [24.1.0.20250326](https://pypi.org/project/types-aiofiles/24.1.0.20250326/) (2025-03-26)
+## 24.1.0.20250326 (2025-03-26)
 
-* Add `__all__` ([#13704](https://github.com/python/typeshed/pull/13704))
+Add `__all__` ([#13704](https://github.com/python/typeshed/pull/13704))
 
-* Fix the file argument type in AsyncBase ([#13717](https://github.com/python/typeshed/pull/13717))
+[aiofiles] Fix the file argument type in AsyncBase ([#13717](https://github.com/python/typeshed/pull/13717))
 
-## [24.1.0.20241221](https://pypi.org/project/types-aiofiles/24.1.0.20241221/) (2024-12-21)
+## 24.1.0.20241221 (2024-12-21)
 
-* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
-## [24.1.0.20240626](https://pypi.org/project/types-aiofiles/24.1.0.20240626/) (2024-06-26)
+## 24.1.0.20240626 (2024-06-26)
 
-* Update to 24.1 ([#12207](https://github.com/python/typeshed/pull/12207))
+[aiofiles] Update to 24.1 ([#12207](https://github.com/python/typeshed/pull/12207))
 
-## [23.2.0.20240623](https://pypi.org/project/types-aiofiles/23.2.0.20240623/) (2024-06-23)
+## 23.2.0.20240623 (2024-06-23)
 
-* Add missing delete on close arg for `aiofiles.NamedTemporaryFile`  ([#12110](https://github.com/python/typeshed/pull/12110))
+Add missing delete on close arg for `aiofiles.NamedTemporaryFile`  ([#12110](https://github.com/python/typeshed/pull/12110))
 
-## [23.2.0.20240403](https://pypi.org/project/types-aiofiles/23.2.0.20240403/) (2024-04-03)
+## 23.2.0.20240403 (2024-04-03)
 
-* Annotate AiofilesContextManagerTempDir ([#11705](https://github.com/python/typeshed/pull/11705))
+[aiofiles] Annotate AiofilesContextManagerTempDir ([#11705](https://github.com/python/typeshed/pull/11705))
 
-## [23.2.0.20240331](https://pypi.org/project/types-aiofiles/23.2.0.20240331/) (2024-03-31)
+## 23.2.0.20240331 (2024-03-31)
 
-* Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
+Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
 
-## [23.2.0.20240311](https://pypi.org/project/types-aiofiles/23.2.0.20240311/) (2024-03-11)
+## 23.2.0.20240311 (2024-03-11)
 
-* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## [23.2.0.20240310](https://pypi.org/project/types-aiofiles/23.2.0.20240310/) (2024-03-10)
+## 23.2.0.20240310 (2024-03-10)
 
-* Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
+Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
 
-    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## [23.2.0.20240106](https://pypi.org/project/types-aiofiles/23.2.0.20240106/) (2024-01-06)
+## 23.2.0.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 23.2.0.0 (2023-08-16)
 

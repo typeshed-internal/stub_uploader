@@ -1,10 +1,10 @@
-## [0.4.1.20260408](https://pypi.org/project/types-entrypoints/0.4.1.20260408/) (2026-04-08)
+## 0.4.1.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [0.4.1.20240106](https://pypi.org/project/types-entrypoints/0.4.1.20240106/) (2024-01-06)
+## 0.4.1.20240106 (2024-01-06)
 
-* Remove Python 3.7 branches ([#11238](https://github.com/python/typeshed/pull/11238))
+Remove Python 3.7 branches ([#11238](https://github.com/python/typeshed/pull/11238))
 
 ## 0.4.1.4 (2023-07-20)
 

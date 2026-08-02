@@ -1,20 +1,20 @@
-## [0.6.3.20260518](https://pypi.org/project/types-pytest-lazy-fixture/0.6.3.20260518/) (2026-05-18)
+## 0.6.3.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [0.6.3.20260408](https://pypi.org/project/types-pytest-lazy-fixture/0.6.3.20260408/) (2026-04-08)
+## 0.6.3.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [0.6.3.20240707](https://pypi.org/project/types-pytest-lazy-fixture/0.6.3.20240707/) (2024-07-07)
+## 0.6.3.20240707 (2024-07-07)
 
-* `is_lazy_fixture` in `pytest-lazy-fixture` is a `TypeIs` function ([#12285](https://github.com/python/typeshed/pull/12285))
+`is_lazy_fixture` in `pytest-lazy-fixture` is a `TypeIs` function ([#12285](https://github.com/python/typeshed/pull/12285))
 
-## [0.6.3.20240310](https://pypi.org/project/types-pytest-lazy-fixture/0.6.3.20240310/) (2024-03-10)
+## 0.6.3.20240310 (2024-03-10)
 
-* Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
+Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
 
-    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 0.6.3.4 (2023-07-20)
 

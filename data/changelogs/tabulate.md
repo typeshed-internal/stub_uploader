@@ -1,24 +1,24 @@
-## [0.10.0.20260508](https://pypi.org/project/types-tabulate/0.10.0.20260508/) (2026-05-08)
+## 0.10.0.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [0.10.0.20260408](https://pypi.org/project/types-tabulate/0.10.0.20260408/) (2026-04-08)
+## 0.10.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [0.10.0.20260308](https://pypi.org/project/types-tabulate/0.10.0.20260308/) (2026-03-08)
+## 0.10.0.20260308 (2026-03-08)
 
-* Update to 0.10.* ([#15491](https://github.com/python/typeshed/pull/15491))
+[tabulate] Update to 0.10.* ([#15491](https://github.com/python/typeshed/pull/15491))
 
-## [0.9.0.20241207](https://pypi.org/project/types-tabulate/0.9.0.20241207/) (2024-12-07)
+## 0.9.0.20241207 (2024-12-07)
 
-* Improve annotation for `tabular_data` parameter of `tabulate.tabulate` ([#13178](https://github.com/python/typeshed/pull/13178))
+Improve annotation for `tabular_data` parameter of `tabulate.tabulate` ([#13178](https://github.com/python/typeshed/pull/13178))
 
-## [0.9.0.20240106](https://pypi.org/project/types-tabulate/0.9.0.20240106/) (2024-01-06)
+## 0.9.0.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 0.9.0.3 (2023-07-20)
 

@@ -1,16 +1,16 @@
-## [0.20.1.20240311](https://pypi.org/project/types-tree-sitter/0.20.1.20240311/) (2024-03-11)
+## 0.20.1.20240311 (2024-03-11)
 
-* Make stubtest pass on libsass/passlib/redis/tree-sitter if you're using Python 3.12 ([#11561](https://github.com/python/typeshed/pull/11561))
+Make stubtest pass on libsass/passlib/redis/tree-sitter if you're using Python 3.12 ([#11561](https://github.com/python/typeshed/pull/11561))
 
-* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## [0.20.1.20240106](https://pypi.org/project/types-tree-sitter/0.20.1.20240106/) (2024-01-06)
+## 0.20.1.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## [0.20.1.6](https://pypi.org/project/types-tree-sitter/0.20.1.6/) (2023-11-15)
+## 0.20.1.6 (2023-11-15)
 
-* Mark tree-sitter as obsolete since 0.20.3 ([#10681](https://github.com/python/typeshed/pull/10681))
+[stubsabot] Mark tree-sitter as obsolete since 0.20.3 ([#10681](https://github.com/python/typeshed/pull/10681))
 
 ## 0.20.1.5 (2023-09-07)
 

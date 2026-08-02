@@ -1,14 +1,14 @@
-## [2.4.10.20260408](https://pypi.org/project/types-opentracing/2.4.10.20260408/) (2026-04-08)
+## 2.4.10.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [2.4.10.20250622](https://pypi.org/project/types-opentracing/2.4.10.20250622/) (2025-06-22)
+## 2.4.10.20250622 (2025-06-22)
 
-* Add missing stubs ([#14274](https://github.com/python/typeshed/pull/14274))
+[opentracing] Add missing stubs ([#14274](https://github.com/python/typeshed/pull/14274))
 
-## [2.4.10.20250516](https://pypi.org/project/types-opentracing/2.4.10.20250516/) (2025-05-16)
+## 2.4.10.20250516 (2025-05-16)
 
-* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
 ## 2.4.10.6 (2023-07-20)
 

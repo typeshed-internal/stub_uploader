@@ -1,22 +1,22 @@
-## [4.1.0.20260518](https://pypi.org/project/types-singledispatch/4.1.0.20260518/) (2026-05-18)
+## 4.1.0.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [4.1.0.20260408](https://pypi.org/project/types-singledispatch/4.1.0.20260408/) (2026-04-08)
+## 4.1.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [4.1.0.20250809](https://pypi.org/project/types-singledispatch/4.1.0.20250809/) (2025-08-09)
+## 4.1.0.20250809 (2025-08-09)
 
-* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## [4.1.0.20250326](https://pypi.org/project/types-singledispatch/4.1.0.20250326/) (2025-03-26)
+## 4.1.0.20250326 (2025-03-26)
 
-* Add `__all__` ([#13704](https://github.com/python/typeshed/pull/13704))
+Add `__all__` ([#13704](https://github.com/python/typeshed/pull/13704))
 
-## [4.1.0.20241221](https://pypi.org/project/types-singledispatch/4.1.0.20241221/) (2024-12-21)
+## 4.1.0.20241221 (2024-12-21)
 
-* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
 ## 4.1.0.0 (2023-08-29)
 

@@ -1,16 +1,16 @@
-## [0.9.0.20260518](https://pypi.org/project/types-www-authenticate/0.9.0.20260518/) (2026-05-18)
+## 0.9.0.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [0.9.0.20260408](https://pypi.org/project/types-www-authenticate/0.9.0.20260408/) (2026-04-08)
+## 0.9.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [0.9.0.20260130](https://pypi.org/project/types-www-authenticate/0.9.0.20260130/) (2026-01-30)
+## 0.9.0.20260130 (2026-01-30)
 
-* Update outdated upstream_repository fields ([#15334](https://github.com/python/typeshed/pull/15334))
+Update outdated upstream_repository fields ([#15334](https://github.com/python/typeshed/pull/15334))
 
-## [0.9.0.20251009](https://pypi.org/project/types-www-authenticate/0.9.0.20251009/) (2025-10-09)
+## 0.9.0.20251009 (2025-10-09)
 
-* Add stubs ([#14688](https://github.com/python/typeshed/pull/14688))
+[www-authenticate] Add stubs ([#14688](https://github.com/python/typeshed/pull/14688))
 

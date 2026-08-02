@@ -1,30 +1,30 @@
-## [0.4.0.20260518](https://pypi.org/project/types-inifile/0.4.0.20260518/) (2026-05-18)
+## 0.4.0.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [0.4.0.20260508](https://pypi.org/project/types-inifile/0.4.0.20260508/) (2026-05-08)
+## 0.4.0.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [0.4.0.20260408](https://pypi.org/project/types-inifile/0.4.0.20260408/) (2026-04-08)
+## 0.4.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [0.4.0.20250703](https://pypi.org/project/types-inifile/0.4.0.20250703/) (2025-07-03)
+## 0.4.0.20250703 (2025-07-03)
 
-* Make Mapping.get(default) more constrained ([#14360](https://github.com/python/typeshed/pull/14360))
+Make Mapping.get(default) more constrained ([#14360](https://github.com/python/typeshed/pull/14360))
 
-## [0.4.0.20240310](https://pypi.org/project/types-inifile/0.4.0.20240310/) (2024-03-10)
+## 0.4.0.20240310 (2024-03-10)
 
-* Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
+Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
 
-    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## [0.4.0.20240106](https://pypi.org/project/types-inifile/0.4.0.20240106/) (2024-01-06)
+## 0.4.0.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 0.4.0.3 (2023-08-13)
 

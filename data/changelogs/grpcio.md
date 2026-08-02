@@ -6,75 +6,75 @@
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
 
-## [1.82.1.20260711](https://pypi.org/project/types-grpcio/1.82.1.20260711/) (2026-07-11)
+## 1.82.1.20260711 (2026-07-11)
 
-* Update to 1.82.1 ([#15986](https://github.com/python/typeshed/pull/15986))
+[grpcio] Update to 1.82.1 ([#15986](https://github.com/python/typeshed/pull/15986))
 
-## [1.0.0.20260614](https://pypi.org/project/types-grpcio/1.0.0.20260614/) (2026-06-14)
+## 1.0.0.20260614 (2026-06-14)
 
-* Fix AioRpcError.trailing_metadata and Metadata iteration ([#15899](https://github.com/python/typeshed/pull/15899))
+[grpcio] Fix AioRpcError.trailing_metadata and Metadata iteration ([#15899](https://github.com/python/typeshed/pull/15899))
 
-## [1.0.0.20260607](https://pypi.org/project/types-grpcio/1.0.0.20260607/) (2026-06-07)
+## 1.0.0.20260607 (2026-06-07)
 
-* Add `grpc.experimental.gevent` stubs ([#15839](https://github.com/python/typeshed/pull/15839))
+Add `grpc.experimental.gevent` stubs ([#15839](https://github.com/python/typeshed/pull/15839))
 
-## [1.0.0.20260518](https://pypi.org/project/types-grpcio/1.0.0.20260518/) (2026-05-18)
+## 1.0.0.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [1.0.0.20260514](https://pypi.org/project/types-grpcio/1.0.0.20260514/) (2026-05-14)
+## 1.0.0.20260514 (2026-05-14)
 
-* Allow None return from    grpc.aio.ServerInterceptor.intercept_service ([#15783](https://github.com/python/typeshed/pull/15783))
+Allow None return from    grpc.aio.ServerInterceptor.intercept_service ([#15783](https://github.com/python/typeshed/pull/15783))
 
-## [1.0.0.20260508](https://pypi.org/project/types-grpcio/1.0.0.20260508/) (2026-05-08)
+## 1.0.0.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [1.0.0.20260408](https://pypi.org/project/types-grpcio/1.0.0.20260408/) (2026-04-08)
+## 1.0.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [1.0.0.20251009](https://pypi.org/project/types-grpcio/1.0.0.20251009/) (2025-10-09)
+## 1.0.0.20251009 (2025-10-09)
 
-* grpcio: improve client interceptors ([#14831](https://github.com/python/typeshed/pull/14831))
+grpcio: improve client interceptors ([#14831](https://github.com/python/typeshed/pull/14831))
 
-## [1.0.0.20251001](https://pypi.org/project/types-grpcio/1.0.0.20251001/) (2025-10-01)
+## 1.0.0.20251001 (2025-10-01)
 
-* ServerInterceptor and GenericRpcHandler should not be generic ([#14785](https://github.com/python/typeshed/pull/14785))
+[grpcio] ServerInterceptor and GenericRpcHandler should not be generic ([#14785](https://github.com/python/typeshed/pull/14785))
 
-## [1.0.0.20250914](https://pypi.org/project/types-grpcio/1.0.0.20250914/) (2025-09-14)
+## 1.0.0.20250914 (2025-09-14)
 
-* Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
+Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
 
-## [1.0.0.20250703](https://pypi.org/project/types-grpcio/1.0.0.20250703/) (2025-07-03)
+## 1.0.0.20250703 (2025-07-03)
 
-* Make Mapping.get(default) more constrained ([#14360](https://github.com/python/typeshed/pull/14360))
+Make Mapping.get(default) more constrained ([#14360](https://github.com/python/typeshed/pull/14360))
 
-## [1.0.0.20250603](https://pypi.org/project/types-grpcio/1.0.0.20250603/) (2025-06-03)
+## 1.0.0.20250603 (2025-06-03)
 
-* Improve grpcio serializer/deserializer types ([#14093](https://github.com/python/typeshed/pull/14093))
+Improve grpcio serializer/deserializer types ([#14093](https://github.com/python/typeshed/pull/14093))
 
-## [1.0.0.20250525](https://pypi.org/project/types-grpcio/1.0.0.20250525/) (2025-05-25)
+## 1.0.0.20250525 (2025-05-25)
 
-* Update `grpcio` stub to import `grpc.aio` ([#14132](https://github.com/python/typeshed/pull/14132))
+Update `grpcio` stub to import `grpc.aio` ([#14132](https://github.com/python/typeshed/pull/14132))
 
-## [1.0.0.20250506](https://pypi.org/project/types-grpcio/1.0.0.20250506/) (2025-05-06)
+## 1.0.0.20250506 (2025-05-06)
 
-* Extract grpcio plugins ([#13896](https://github.com/python/typeshed/pull/13896))
+Extract grpcio plugins ([#13896](https://github.com/python/typeshed/pull/13896))
 
-* Run Black after grpcio merge ([#13944](https://github.com/python/typeshed/pull/13944))
+Run Black after grpcio merge ([#13944](https://github.com/python/typeshed/pull/13944))
 
-* grpc `_CallIterator` is an iterator ([#13925](https://github.com/python/typeshed/pull/13925))
+grpc `_CallIterator` is an iterator ([#13925](https://github.com/python/typeshed/pull/13925))
 
-* stubtest-complete grpcio plugins ([#13932](https://github.com/python/typeshed/pull/13932))
+stubtest-complete grpcio plugins ([#13932](https://github.com/python/typeshed/pull/13932))
 
-## [1.0.0.20250429](https://pypi.org/project/types-grpcio/1.0.0.20250429/) (2025-04-29)
+## 1.0.0.20250429 (2025-04-29)
 
-* Remove Any in `stubs/grpcio/grpc_status/rpc_status.pyi` ([#13895](https://github.com/python/typeshed/pull/13895))
+Remove Any in `stubs/grpcio/grpc_status/rpc_status.pyi` ([#13895](https://github.com/python/typeshed/pull/13895))
 
-## [1.0.0.20250426](https://pypi.org/project/types-grpcio/1.0.0.20250426/) (2025-04-26)
+## 1.0.0.20250426 (2025-04-26)
 
-* Import gRPC stubs from the grpc-stubs project ([#11204](https://github.com/python/typeshed/pull/11204))
+Import gRPC stubs from the grpc-stubs project ([#11204](https://github.com/python/typeshed/pull/11204))
 

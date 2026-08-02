@@ -1,26 +1,26 @@
-## [10.0.1.20250319](https://pypi.org/project/types-humanfriendly/10.0.1.20250319/) (2025-03-19)
+## 10.0.1.20250319 (2025-03-19)
 
-* Mark humanfriendly as no longer updated ([#13665](https://github.com/python/typeshed/pull/13665))
+Mark humanfriendly as no longer updated ([#13665](https://github.com/python/typeshed/pull/13665))
 
-    Cf. #13662
+Cf. #13662
 
-* Run stubtest with Python 3.13 ([#13638](https://github.com/python/typeshed/pull/13638))
+[CI] Run stubtest with Python 3.13 ([#13638](https://github.com/python/typeshed/pull/13638))
 
-## [10.0.1.20241221](https://pypi.org/project/types-humanfriendly/10.0.1.20241221/) (2024-12-21)
+## 10.0.1.20241221 (2024-12-21)
 
-* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
-## [10.0.1.20241105](https://pypi.org/project/types-humanfriendly/10.0.1.20241105/) (2024-11-05)
+## 10.0.1.20241105 (2024-11-05)
 
-* remove unused io-related allowlist entries ([#12955](https://github.com/python/typeshed/pull/12955))
+remove unused io-related allowlist entries ([#12955](https://github.com/python/typeshed/pull/12955))
 
-    fallout from https://github.com/python/typeshed/pull/12947
+fallout from https://github.com/python/typeshed/pull/12947
 
-    fixes https://github.com/python/typeshed/issues/12954
+fixes https://github.com/python/typeshed/issues/12954
 
-## [10.0.1.11](https://pypi.org/project/types-humanfriendly/10.0.1.11/) (2023-10-27)
+## 10.0.1.11 (2023-10-27)
 
-* Remove many redundant inheritances from `Generic[]` ([#10933](https://github.com/python/typeshed/pull/10933))
+Remove many redundant inheritances from `Generic[]` ([#10933](https://github.com/python/typeshed/pull/10933))
 
 ## 10.0.1.10 (2023-08-13)
 

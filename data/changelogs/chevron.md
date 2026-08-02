@@ -1,20 +1,20 @@
-## [0.14.2.20260408](https://pypi.org/project/types-chevron/0.14.2.20260408/) (2026-04-08)
+## 0.14.2.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [0.14.2.20250103](https://pypi.org/project/types-chevron/0.14.2.20250103/) (2025-01-03)
+## 0.14.2.20250103 (2025-01-03)
 
-* Enable Ruff EXE (flake8-executable) ([#13346](https://github.com/python/typeshed/pull/13346))
+Enable Ruff EXE (flake8-executable) ([#13346](https://github.com/python/typeshed/pull/13346))
 
-## [0.14.2.20240310](https://pypi.org/project/types-chevron/0.14.2.20240310/) (2024-03-10)
+## 0.14.2.20240310 (2024-03-10)
 
-* Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
+Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
 
-    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## [0.14.2.20240106](https://pypi.org/project/types-chevron/0.14.2.20240106/) (2024-01-06)
+## 0.14.2.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 0.14.2.5 (2023-07-20)
 

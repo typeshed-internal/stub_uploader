@@ -1,10 +1,10 @@
-## [2.49.18.20240806](https://pypi.org/project/types-boto/2.49.18.20240806/) (2024-08-06)
+## 2.49.18.20240806 (2024-08-06)
 
-* Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
+Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
 
-## [2.49.18.20240205](https://pypi.org/project/types-boto/2.49.18.20240205/) (2024-02-05)
+## 2.49.18.20240205 (2024-02-05)
 
-* A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
+A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
 
 ## 2.49.18.9 (2023-07-20)
 

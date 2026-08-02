@@ -2,93 +2,93 @@
 
 * Bump to 2026.3.post1 ([#16091](https://github.com/python/typeshed/pull/16091))
 
-## [2026.2.0.20260518](https://pypi.org/project/types-pytz/2026.2.0.20260518/) (2026-05-18)
+## 2026.2.0.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [2026.2.0.20260506](https://pypi.org/project/types-pytz/2026.2.0.20260506/) (2026-05-06)
+## 2026.2.0.20260506 (2026-05-06)
 
-* Bump pytz to 2026.2 ([#15698](https://github.com/python/typeshed/pull/15698))
+[stubsabot] Bump pytz to 2026.2 ([#15698](https://github.com/python/typeshed/pull/15698))
 
-    Release: https://pypi.org/pypi/pytz/2026.2 \
-    Homepage: http://pythonhosted.org/pytz \
-    Repository: https://github.com/stub42/pytz \
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/pytz
+Release: https://pypi.org/pypi/pytz/2026.2
+Homepage: http://pythonhosted.org/pytz
+Repository: https://github.com/stub42/pytz
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/pytz
 
-    If stubtest fails for this PR:
-    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-    - Fix stubtest failures in another PR, then close this PR
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
 
-    Note that you will need to close and re-open the PR in order to trigger CI
+Note that you will need to close and re-open the PR in order to trigger CI
 
-    Co-authored-by: stubsabot <>
+Co-authored-by: stubsabot <>
 
-## [2026.1.1.20260408](https://pypi.org/project/types-pytz/2026.1.1.20260408/) (2026-04-08)
+## 2026.1.1.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [2026.1.1.20260402](https://pypi.org/project/types-pytz/2026.1.1.20260402/) (2026-04-02)
+## 2026.1.1.20260402 (2026-04-02)
 
-* Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
 
-## [2026.1.1.20260304](https://pypi.org/project/types-pytz/2026.1.1.20260304/) (2026-03-04)
+## 2026.1.1.20260304 (2026-03-04)
 
-* Bump pytz to 2026.1.post1 ([#15483](https://github.com/python/typeshed/pull/15483))
+[stubsabot] Bump pytz to 2026.1.post1 ([#15483](https://github.com/python/typeshed/pull/15483))
 
-## [2025.2.0.20251108](https://pypi.org/project/types-pytz/2025.2.0.20251108/) (2025-11-08)
+## 2025.2.0.20251108 (2025-11-08)
 
-* Annotate parameter fill_iter ([#14989](https://github.com/python/typeshed/pull/14989))
+[pytz] Annotate parameter fill_iter ([#14989](https://github.com/python/typeshed/pull/14989))
 
-## [2025.2.0.20250809](https://pypi.org/project/types-pytz/2025.2.0.20250809/) (2025-08-09)
+## 2025.2.0.20250809 (2025-08-09)
 
-* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## [2025.2.0.20250516](https://pypi.org/project/types-pytz/2025.2.0.20250516/) (2025-05-16)
+## 2025.2.0.20250516 (2025-05-16)
 
-* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## [2025.2.0.20250326](https://pypi.org/project/types-pytz/2025.2.0.20250326/) (2025-03-26)
+## 2025.2.0.20250326 (2025-03-26)
 
-* Bump pytz to 2025.2 ([#13720](https://github.com/python/typeshed/pull/13720))
+[stubsabot] Bump pytz to 2025.2 ([#13720](https://github.com/python/typeshed/pull/13720))
 
-* Add `__all__` ([#13704](https://github.com/python/typeshed/pull/13704))
+Add `__all__` ([#13704](https://github.com/python/typeshed/pull/13704))
 
-## [2025.1.0.20250318](https://pypi.org/project/types-pytz/2025.1.0.20250318/) (2025-03-18)
+## 2025.1.0.20250318 (2025-03-18)
 
-* Make BaseTzInfo inherited methods pos-only ([#13650](https://github.com/python/typeshed/pull/13650))
+Make BaseTzInfo inherited methods pos-only ([#13650](https://github.com/python/typeshed/pull/13650))
 
-    These methods are already positional-only in `datetime.tzinfo`. Leaving \
-    them pos-or-kw fail stubtest when running with Python 3.13.
+These methods are already positional-only in `datetime.tzinfo`. Leaving
+them pos-or-kw fail stubtest when running with Python 3.13.
 
-## [2025.1.0.20250204](https://pypi.org/project/types-pytz/2025.1.0.20250204/) (2025-02-04)
+## 2025.1.0.20250204 (2025-02-04)
 
-* Bump pytz to 2025.1 ([#13449](https://github.com/python/typeshed/pull/13449))
+Bump pytz to 2025.1 ([#13449](https://github.com/python/typeshed/pull/13449))
 
-## [2024.2.0.20241221](https://pypi.org/project/types-pytz/2024.2.0.20241221/) (2024-12-21)
+## 2024.2.0.20241221 (2024-12-21)
 
-* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
-## [2024.2.0.20241003](https://pypi.org/project/types-pytz/2024.2.0.20241003/) (2024-10-03)
+## 2024.2.0.20241003 (2024-10-03)
 
-* Fix: pytz: is_dst parameter ([#12723](https://github.com/python/typeshed/pull/12723))
+Fix: pytz: is_dst parameter ([#12723](https://github.com/python/typeshed/pull/12723))
 
-## [2024.2.0.20240913](https://pypi.org/project/types-pytz/2024.2.0.20240913/) (2024-09-13)
+## 2024.2.0.20240913 (2024-09-13)
 
-* Bump pytz to 2024.2 ([#12639](https://github.com/python/typeshed/pull/12639))
+[stubsabot] Bump pytz to 2024.2 ([#12639](https://github.com/python/typeshed/pull/12639))
 
-## [2024.1.0.20240417](https://pypi.org/project/types-pytz/2024.1.0.20240417/) (2024-04-17)
+## 2024.1.0.20240417 (2024-04-17)
 
-* Remove remaining bare `Incomplete`s ([#11768](https://github.com/python/typeshed/pull/11768))
+Remove remaining bare `Incomplete`s ([#11768](https://github.com/python/typeshed/pull/11768))
 
-    Enable Y065
+Enable Y065
 
-## [2024.1.0.20240203](https://pypi.org/project/types-pytz/2024.1.0.20240203/) (2024-02-03)
+## 2024.1.0.20240203 (2024-02-03)
 
-* Bump pytz to 2024.1 ([#11355](https://github.com/python/typeshed/pull/11355))
+[stubsabot] Bump pytz to 2024.1 ([#11355](https://github.com/python/typeshed/pull/11355))
 
-## [2023.4.0.20240130](https://pypi.org/project/types-pytz/2023.4.0.20240130/) (2024-01-30)
+## 2023.4.0.20240130 (2024-01-30)
 
-* Bump pytz to 2023.4 ([#11341](https://github.com/python/typeshed/pull/11341))
+[stubsabot] Bump pytz to 2023.4 ([#11341](https://github.com/python/typeshed/pull/11341))
 
 ## 2023.3.1.1 (2023-09-20)
 

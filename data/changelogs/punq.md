@@ -2,19 +2,19 @@
 
 * Update to 0.8.* ([#16037](https://github.com/python/typeshed/pull/16037))
 
-## [0.7.0.20260518](https://pypi.org/project/types-punq/0.7.0.20260518/) (2026-05-18)
+## 0.7.0.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [0.7.0.20260408](https://pypi.org/project/types-punq/0.7.0.20260408/) (2026-04-08)
+## 0.7.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [0.7.0.20260120](https://pypi.org/project/types-punq/0.7.0.20260120/) (2026-01-20)
+## 0.7.0.20260120 (2026-01-20)
 
-* Add missing return type for `Container.register()` ([#15301](https://github.com/python/typeshed/pull/15301))
+[punq] Add missing return type for `Container.register()` ([#15301](https://github.com/python/typeshed/pull/15301))
 
-## [0.7.0.20260116](https://pypi.org/project/types-punq/0.7.0.20260116/) (2026-01-16)
+## 0.7.0.20260116 (2026-01-16)
 
-* Add type stubs for punq ([#15274](https://github.com/python/typeshed/pull/15274))
+Add type stubs for punq ([#15274](https://github.com/python/typeshed/pull/15274))
 

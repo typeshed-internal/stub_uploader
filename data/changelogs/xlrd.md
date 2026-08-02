@@ -1,28 +1,28 @@
-## [2.0.0.20260518](https://pypi.org/project/types-xlrd/2.0.0.20260518/) (2026-05-18)
+## 2.0.0.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [2.0.0.20260408](https://pypi.org/project/types-xlrd/2.0.0.20260408/) (2026-04-08)
+## 2.0.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [2.0.0.20251020](https://pypi.org/project/types-xlrd/2.0.0.20251020/) (2025-10-20)
+## 2.0.0.20251020 (2025-10-20)
 
-* Fix wrong types for xlrd.(Cell.value|Sheet.get_rows) ([#14894](https://github.com/python/typeshed/pull/14894))
+Fix wrong types for xlrd.(Cell.value|Sheet.get_rows) ([#14894](https://github.com/python/typeshed/pull/14894))
 
-    ---------
+---------
 
-    Co-authored-by: Semyon Moroz <donbarbos@proton.me>
+Co-authored-by: Semyon Moroz <donbarbos@proton.me>
 
-## [2.0.0.20250914](https://pypi.org/project/types-xlrd/2.0.0.20250914/) (2025-09-14)
+## 2.0.0.20250914 (2025-09-14)
 
-* Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
+Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
 
-## [2.0.0.20250822](https://pypi.org/project/types-xlrd/2.0.0.20250822/) (2025-08-22)
+## 2.0.0.20250822 (2025-08-22)
 
-* Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
 
-## [2.0.0.20250326](https://pypi.org/project/types-xlrd/2.0.0.20250326/) (2025-03-26)
+## 2.0.0.20250326 (2025-03-26)
 
-* Add stubs for `xlrd` ([#13676](https://github.com/python/typeshed/pull/13676))
+Add stubs for `xlrd` ([#13676](https://github.com/python/typeshed/pull/13676))
 

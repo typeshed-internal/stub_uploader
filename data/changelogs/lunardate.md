@@ -2,15 +2,15 @@
 
 * Update to 0.3.* ([#16032](https://github.com/python/typeshed/pull/16032))
 
-## [0.2.0.20260518](https://pypi.org/project/types-lunardate/0.2.0.20260518/) (2026-05-18)
+## 0.2.0.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [0.2.0.20260408](https://pypi.org/project/types-lunardate/0.2.0.20260408/) (2026-04-08)
+## 0.2.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [0.2.0.20250828](https://pypi.org/project/types-lunardate/0.2.0.20250828/) (2025-08-28)
+## 0.2.0.20250828 (2025-08-28)
 
-* Add stubs ([#14650](https://github.com/python/typeshed/pull/14650))
+[lunardate] Add stubs ([#14650](https://github.com/python/typeshed/pull/14650))
 

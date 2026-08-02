@@ -1,62 +1,62 @@
-## [7.3.0.20260508](https://pypi.org/project/types-flake8/7.3.0.20260508/) (2026-05-08)
+## 7.3.0.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [7.3.0.20260408](https://pypi.org/project/types-flake8/7.3.0.20260408/) (2026-04-08)
+## 7.3.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [7.3.0.20260402](https://pypi.org/project/types-flake8/7.3.0.20260402/) (2026-04-02)
+## 7.3.0.20260402 (2026-04-02)
 
-* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-## [7.3.0.20250622](https://pypi.org/project/types-flake8/7.3.0.20250622/) (2025-06-22)
+## 7.3.0.20250622 (2025-06-22)
 
-* Bump flake8 to 7.3.* ([#14315](https://github.com/python/typeshed/pull/14315))
+Bump flake8 to 7.3.* ([#14315](https://github.com/python/typeshed/pull/14315))
 
-    Closes #14313
+Closes #14313
 
-## [7.2.0.20250330](https://pypi.org/project/types-flake8/7.2.0.20250330/) (2025-03-30)
+## 7.2.0.20250330 (2025-03-30)
 
-* Bump flake8 to 7.2.* ([#13743](https://github.com/python/typeshed/pull/13743))
+[stubsabot] Bump flake8 to 7.2.* ([#13743](https://github.com/python/typeshed/pull/13743))
 
-## [7.1.0.20241020](https://pypi.org/project/types-flake8/7.1.0.20241020/) (2024-10-20)
+## 7.1.0.20241020 (2024-10-20)
 
-* Update mypy to 1.12.0 ([#12859](https://github.com/python/typeshed/pull/12859))
+Update mypy to 1.12.0 ([#12859](https://github.com/python/typeshed/pull/12859))
 
-## [7.1.0.20240711](https://pypi.org/project/types-flake8/7.1.0.20240711/) (2024-07-11)
+## 7.1.0.20240711 (2024-07-11)
 
-* Improve `Statistic` typing ([#12313](https://github.com/python/typeshed/pull/12313))
+[flake8] Improve `Statistic` typing ([#12313](https://github.com/python/typeshed/pull/12313))
 
-* Add `_write` method to `flake8.formatting.BaseFormatter` ([#12312](https://github.com/python/typeshed/pull/12312))
+Add `_write` method to `flake8.formatting.BaseFormatter` ([#12312](https://github.com/python/typeshed/pull/12312))
 
-    It is very useful for real-life custom formatters. Example: https://github.com/wemake-services/wemake-python-styleguide/blob/470d81174684eb9a175603aec02f0ac6589b8acd/wemake_python_styleguide/formatter.py#L92-L96
+It is very useful for real-life custom formatters. Example: https://github.com/wemake-services/wemake-python-styleguide/blob/470d81174684eb9a175603aec02f0ac6589b8acd/wemake_python_styleguide/formatter.py#L92-L96
 
-    Definition: https://github.com/PyCQA/flake8/blob/65a38c42a7f1a05ff8d99b313160754fc9b7a0d8/src/flake8/formatting/base.py#L173-L178
+Definition: https://github.com/PyCQA/flake8/blob/65a38c42a7f1a05ff8d99b313160754fc9b7a0d8/src/flake8/formatting/base.py#L173-L178
 
-## [7.1.0.20240616](https://pypi.org/project/types-flake8/7.1.0.20240616/) (2024-06-16)
+## 7.1.0.20240616 (2024-06-16)
 
-* Bump flake8 to 7.1.* ([#12139](https://github.com/python/typeshed/pull/12139))
+[stubsabot] Bump flake8 to 7.1.* ([#12139](https://github.com/python/typeshed/pull/12139))
 
-    Release: https://pypi.org/pypi/flake8/7.1.0 \
-    Homepage: https://github.com/pycqa/flake8 \
-    Repository: https://github.com/pycqa/flake8 \
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8 \
-    Diff: https://github.com/pycqa/flake8/compare/7.0.0...7.1.0
+Release: https://pypi.org/pypi/flake8/7.1.0
+Homepage: https://github.com/pycqa/flake8
+Repository: https://github.com/pycqa/flake8
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8
+Diff: https://github.com/pycqa/flake8/compare/7.0.0...7.1.0
 
-    Stubsabot analysis of the diff between the two releases:
-     - Total lines of Python code added: 7.
-     - Total lines of Python code deleted: 3.
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 7.
+ - Total lines of Python code deleted: 3.
 
-## [7.0.0.20240519](https://pypi.org/project/types-flake8/7.0.0.20240519/) (2024-05-19)
+## 7.0.0.20240519 (2024-05-19)
 
-* Use assignment instead of annotation in third party enums ([#11957](https://github.com/python/typeshed/pull/11957))
+Use assignment instead of annotation in third party enums ([#11957](https://github.com/python/typeshed/pull/11957))
 
-## [7.0.0.20240511](https://pypi.org/project/types-flake8/7.0.0.20240511/) (2024-05-11)
+## 7.0.0.20240511 (2024-05-11)
 
-* Add flake8 ([#11676](https://github.com/python/typeshed/pull/11676))
+Add flake8 ([#11676](https://github.com/python/typeshed/pull/11676))
 

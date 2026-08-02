@@ -1,118 +1,118 @@
-## [2.0.0.20260518](https://pypi.org/project/types-cffi/2.0.0.20260518/) (2026-05-18)
+## 2.0.0.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [2.0.0.20260508](https://pypi.org/project/types-cffi/2.0.0.20260508/) (2026-05-08)
+## 2.0.0.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [2.0.0.20260506](https://pypi.org/project/types-cffi/2.0.0.20260506/) (2026-05-06)
+## 2.0.0.20260506 (2026-05-06)
 
-* Annotate `_CDataBase.__enter__` return type ([#15701](https://github.com/python/typeshed/pull/15701))
+[cffi] Annotate `_CDataBase.__enter__` return type ([#15701](https://github.com/python/typeshed/pull/15701))
 
-## [2.0.0.20260504](https://pypi.org/project/types-cffi/2.0.0.20260504/) (2026-05-04)
+## 2.0.0.20260504 (2026-05-04)
 
-* Fix `FFI.new`'s `init` arg is now Any. ([#15683](https://github.com/python/typeshed/pull/15683))
+[cffi] Fix `FFI.new`'s `init` arg is now Any. ([#15683](https://github.com/python/typeshed/pull/15683))
 
-## [2.0.0.20260429](https://pypi.org/project/types-cffi/2.0.0.20260429/) (2026-04-29)
+## 2.0.0.20260429 (2026-04-29)
 
-* Fix `FFI.NULL` to be `CData` ([#15680](https://github.com/python/typeshed/pull/15680))
+[cffi] Fix `FFI.NULL` to be `CData` ([#15680](https://github.com/python/typeshed/pull/15680))
 
-## [2.0.0.20260408](https://pypi.org/project/types-cffi/2.0.0.20260408/) (2026-04-08)
+## 2.0.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [2.0.0.20260402](https://pypi.org/project/types-cffi/2.0.0.20260402/) (2026-04-02)
+## 2.0.0.20260402 (2026-04-02)
 
-* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-## [2.0.0.20260315](https://pypi.org/project/types-cffi/2.0.0.20260315/) (2026-03-15)
+## 2.0.0.20260315 (2026-03-15)
 
-* Bump cffi to 2.0.* ([#14689](https://github.com/python/typeshed/pull/14689))
+[stubsabot] Bump cffi to 2.0.* ([#14689](https://github.com/python/typeshed/pull/14689))
 
-## [1.17.0.20260307](https://pypi.org/project/types-cffi/1.17.0.20260307/) (2026-03-07)
+## 1.17.0.20260307 (2026-03-07)
 
-* Accept floats in `cast` ([#15487](https://github.com/python/typeshed/pull/15487))
+[cffi] Accept floats in `cast` ([#15487](https://github.com/python/typeshed/pull/15487))
 
-## [1.17.0.20250915](https://pypi.org/project/types-cffi/1.17.0.20250915/) (2025-09-15)
+## 1.17.0.20250915 (2025-09-15)
 
-* Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
+Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
 
-## [1.17.0.20250914](https://pypi.org/project/types-cffi/1.17.0.20250914/) (2025-09-14)
+## 1.17.0.20250914 (2025-09-14)
 
-* Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
+Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
 
-## [1.17.0.20250822](https://pypi.org/project/types-cffi/1.17.0.20250822/) (2025-08-22)
+## 1.17.0.20250822 (2025-08-22)
 
-* Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
 
-* Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
 
-## [1.17.0.20250809](https://pypi.org/project/types-cffi/1.17.0.20250809/) (2025-08-09)
+## 1.17.0.20250809 (2025-08-09)
 
-* Fix dunder-method positional-only parameter discrepancies in third-party stubs ([#14529](https://github.com/python/typeshed/pull/14529))
+Fix dunder-method positional-only parameter discrepancies in third-party stubs ([#14529](https://github.com/python/typeshed/pull/14529))
 
-* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## [1.17.0.20250805](https://pypi.org/project/types-cffi/1.17.0.20250805/) (2025-08-05)
+## 1.17.0.20250805 (2025-08-05)
 
-* Make `FFI.buffer` implement buffer protocol, mark dunder methods as positional-only ([#14505](https://github.com/python/typeshed/pull/14505))
+Make `FFI.buffer` implement buffer protocol, mark dunder methods as positional-only ([#14505](https://github.com/python/typeshed/pull/14505))
 
-## [1.17.0.20250801](https://pypi.org/project/types-cffi/1.17.0.20250801/) (2025-08-01)
+## 1.17.0.20250801 (2025-08-01)
 
-* Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
+Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
-    Co-authored-by: Avasam <samuel.06@hotmail.com> \
-    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
-## [1.17.0.20250523](https://pypi.org/project/types-cffi/1.17.0.20250523/) (2025-05-23)
+## 1.17.0.20250523 (2025-05-23)
 
-* Fix some of the typing for CFFI's out of line mode ([#14090](https://github.com/python/typeshed/pull/14090))
+Fix some of the typing for CFFI's out of line mode ([#14090](https://github.com/python/typeshed/pull/14090))
 
-## [1.17.0.20250516](https://pypi.org/project/types-cffi/1.17.0.20250516/) (2025-05-16)
+## 1.17.0.20250516 (2025-05-16)
 
-* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## [1.17.0.20250326](https://pypi.org/project/types-cffi/1.17.0.20250326/) (2025-03-26)
+## 1.17.0.20250326 (2025-03-26)
 
-* Improve `cffi` ([#13710](https://github.com/python/typeshed/pull/13710))
+Improve `cffi` ([#13710](https://github.com/python/typeshed/pull/13710))
 
-## [1.17.0.20250319](https://pypi.org/project/types-cffi/1.17.0.20250319/) (2025-03-19)
+## 1.17.0.20250319 (2025-03-19)
 
-* Fix a few argument types for C code ([#13661](https://github.com/python/typeshed/pull/13661))
+[cffi] Fix a few argument types for C code ([#13661](https://github.com/python/typeshed/pull/13661))
 
-    * CLibrary.close_lib() doesn't take any arguments.
-    * FFI.typeof() only takes positional arguments.
+* CLibrary.close_lib() doesn't take any arguments.
+* FFI.typeof() only takes positional arguments.
 
-* Bump to 1.17.* ([#13653](https://github.com/python/typeshed/pull/13653))
+[cffi] Bump to 1.17.* ([#13653](https://github.com/python/typeshed/pull/13653))
 
-## [1.16.0.20250318](https://pypi.org/project/types-cffi/1.16.0.20250318/) (2025-03-18)
+## 1.16.0.20250318 (2025-03-18)
 
-* Update repository URL ([#13652](https://github.com/python/typeshed/pull/13652))
+[cffi] Update repository URL ([#13652](https://github.com/python/typeshed/pull/13652))
 
-## [1.16.0.20250307](https://pypi.org/project/types-cffi/1.16.0.20250307/) (2025-03-07)
+## 1.16.0.20250307 (2025-03-07)
 
-* Fix parameter type annotations in `_cffi_backend` stub. ([#13590](https://github.com/python/typeshed/pull/13590))
+Fix parameter type annotations in `_cffi_backend` stub. ([#13590](https://github.com/python/typeshed/pull/13590))
 
-## [1.16.0.20241221](https://pypi.org/project/types-cffi/1.16.0.20241221/) (2024-12-21)
+## 1.16.0.20241221 (2024-12-21)
 
-* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
-## [1.16.0.20240331](https://pypi.org/project/types-cffi/1.16.0.20240331/) (2024-03-31)
+## 1.16.0.20240331 (2024-03-31)
 
-* Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
+Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
 
-## [1.16.0.20240311](https://pypi.org/project/types-cffi/1.16.0.20240311/) (2024-03-11)
+## 1.16.0.20240311 (2024-03-11)
 
-* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## [1.16.0.20240106](https://pypi.org/project/types-cffi/1.16.0.20240106/) (2024-01-06)
+## 1.16.0.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 1.16.0.0 (2023-09-29)
 

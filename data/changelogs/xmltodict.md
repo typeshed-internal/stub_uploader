@@ -1,55 +1,55 @@
-## [1.0.1.20260518](https://pypi.org/project/types-xmltodict/1.0.1.20260518/) (2026-05-18)
+## 1.0.1.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [1.0.1.20260508](https://pypi.org/project/types-xmltodict/1.0.1.20260508/) (2026-05-08)
+## 1.0.1.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [1.0.1.20260408](https://pypi.org/project/types-xmltodict/1.0.1.20260408/) (2026-04-08)
+## 1.0.1.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [1.0.1.20260113](https://pypi.org/project/types-xmltodict/1.0.1.20260113/) (2026-01-13)
+## 1.0.1.20260113 (2026-01-13)
 
-* Fix false positive for namespaces with None values ([#15245](https://github.com/python/typeshed/pull/15245))
+[xmltodict] Fix false positive for namespaces with None values ([#15245](https://github.com/python/typeshed/pull/15245))
 
-## [1.0.1.20250920](https://pypi.org/project/types-xmltodict/1.0.1.20250920/) (2025-09-20)
+## 1.0.1.20250920 (2025-09-20)
 
-* stub improvements and update to 1.0.1 ([#14695](https://github.com/python/typeshed/pull/14695))
+[xmltodict] stub improvements and update to 1.0.1 ([#14695](https://github.com/python/typeshed/pull/14695))
 
-* Update to 1.0.* ([#14712](https://github.com/python/typeshed/pull/14712))
+[xmltodict] Update to 1.0.* ([#14712](https://github.com/python/typeshed/pull/14712))
 
-## [0.15.0.20250907](https://pypi.org/project/types-xmltodict/0.15.0.20250907/) (2025-09-07)
+## 0.15.0.20250907 (2025-09-07)
 
-* Bump xmltodict to 0.15.* ([#14679](https://github.com/python/typeshed/pull/14679))
+[stubsabot] Bump xmltodict to 0.15.* ([#14679](https://github.com/python/typeshed/pull/14679))
 
-## [0.14.0.20241009](https://pypi.org/project/types-xmltodict/0.14.0.20241009/) (2024-10-09)
+## 0.14.0.20241009 (2024-10-09)
 
-* Bump xmltodict to 0.14.* ([#12757](https://github.com/python/typeshed/pull/12757))
+[stubsabot] Bump xmltodict to 0.14.* ([#12757](https://github.com/python/typeshed/pull/12757))
 
-    Release: https://pypi.org/pypi/xmltodict/0.14.0 \
-    Homepage: https://github.com/martinblech/xmltodict \
-    Repository: https://github.com/martinblech/xmltodict \
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/xmltodict \
-    Diff: https://github.com/martinblech/xmltodict/compare/v0.13.0...v0.14.0
+Release: https://pypi.org/pypi/xmltodict/0.14.0
+Homepage: https://github.com/martinblech/xmltodict
+Repository: https://github.com/martinblech/xmltodict
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/xmltodict
+Diff: https://github.com/martinblech/xmltodict/compare/v0.13.0...v0.14.0
 
-    Stubsabot analysis of the diff between the two releases:
-     - 1 public Python file has been added: `tests/__init__.py`.
-     - 0 files included in typeshed's stubs have been deleted.
-     - 1 file included in typeshed's stubs has been modified or renamed: `xmltodict.py`.
-     - Total lines of Python code added: 76.
-     - Total lines of Python code deleted: 60.
+Stubsabot analysis of the diff between the two releases:
+ - 1 public Python file has been added: `tests/__init__.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `xmltodict.py`.
+ - Total lines of Python code added: 76.
+ - Total lines of Python code deleted: 60.
 
-    If stubtest fails for this PR:
-    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-    - Fix stubtest failures in another PR, then close this PR
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
 
-    Note that you will need to close and re-open the PR in order to trigger CI
+Note that you will need to close and re-open the PR in order to trigger CI
 
-    Co-authored-by: stubsabot <>
+Co-authored-by: stubsabot <>
 
 ## 0.13.0.3 (2023-07-20)
 

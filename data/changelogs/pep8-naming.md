@@ -1,18 +1,18 @@
-## [0.15.0.20260408](https://pypi.org/project/types-pep8-naming/0.15.0.20260408/) (2026-04-08)
+## 0.15.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [0.15.0.20250501](https://pypi.org/project/types-pep8-naming/0.15.0.20250501/) (2025-05-01)
+## 0.15.0.20250501 (2025-05-01)
 
-* Bump pep8-naming to 0.15.* ([#13908](https://github.com/python/typeshed/pull/13908))
+Bump pep8-naming to 0.15.* ([#13908](https://github.com/python/typeshed/pull/13908))
 
-## [0.14.0.20250401](https://pypi.org/project/types-pep8-naming/0.14.0.20250401/) (2025-04-01)
+## 0.14.0.20250401 (2025-04-01)
 
-* Complete stubs for `pep8-naming` ([#13741](https://github.com/python/typeshed/pull/13741))
+Complete stubs for `pep8-naming` ([#13741](https://github.com/python/typeshed/pull/13741))
 
-## [0.14.0.20240522](https://pypi.org/project/types-pep8-naming/0.14.0.20240522/) (2024-05-22)
+## 0.14.0.20240522 (2024-05-22)
 
-* Bump pep8-naming to 0.14.* ([#11924](https://github.com/python/typeshed/pull/11924))
+[stubsabot] Bump pep8-naming to 0.14.* ([#11924](https://github.com/python/typeshed/pull/11924))
 
 ## 0.13.0.5 (2023-07-20)
 

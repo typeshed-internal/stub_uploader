@@ -1,47 +1,47 @@
-## [0.1.13.20260712](https://pypi.org/project/types-click-spinner/0.1.13.20260712/) (2026-07-12)
+## 0.1.13.20260712 (2026-07-12)
 
-* Structured obsolete_since fields ([#15682](https://github.com/python/typeshed/pull/15682))
+Structured obsolete_since fields ([#15682](https://github.com/python/typeshed/pull/15682))
 
-## [0.1.13.20260625](https://pypi.org/project/types-click-spinner/0.1.13.20260625/) (2026-06-25)
+## 0.1.13.20260625 (2026-06-25)
 
-* Mark click-spinner as obsolete since 0.2.0 ([#15936](https://github.com/python/typeshed/pull/15936))
+[stubsabot] Mark click-spinner as obsolete since 0.2.0 ([#15936](https://github.com/python/typeshed/pull/15936))
 
-    Release: https://pypi.org/pypi/click-spinner/0.2.0 \
-    Homepage: https://github.com/click-contrib/click-spinner \
-    Repository: https://github.com/click-contrib/click-spinner \
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/click-spinner \
-    Diff: https://github.com/click-contrib/click-spinner/compare/v0.1.11...v0.2.0
+Release: https://pypi.org/pypi/click-spinner/0.2.0
+Homepage: https://github.com/click-contrib/click-spinner
+Repository: https://github.com/click-contrib/click-spinner
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/click-spinner
+Diff: https://github.com/click-contrib/click-spinner/compare/v0.1.11...v0.2.0
 
-    Co-authored-by: stubsabot <> \
-    Co-authored-by: Sebastian Rittau <sebastian.rittau@zfutura.de>
+Co-authored-by: stubsabot <>
+Co-authored-by: Sebastian Rittau <sebastian.rittau@zfutura.de>
 
-* Update to 0.1.11 ([#15938](https://github.com/python/typeshed/pull/15938))
+[click-spinner] Update to 0.1.11 ([#15938](https://github.com/python/typeshed/pull/15938))
 
-    Closes: #15937
+Closes: #15937
 
-## [0.1.13.20260408](https://pypi.org/project/types-click-spinner/0.1.13.20260408/) (2026-04-08)
+## 0.1.13.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [0.1.13.20250809](https://pypi.org/project/types-click-spinner/0.1.13.20250809/) (2025-08-09)
+## 0.1.13.20250809 (2025-08-09)
 
-* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## [0.1.13.20250510](https://pypi.org/project/types-click-spinner/0.1.13.20250510/) (2025-05-10)
+## 0.1.13.20250510 (2025-05-10)
 
-* click-spinner: Replace `Any` return type ([#13970](https://github.com/python/typeshed/pull/13970))
+click-spinner: Replace `Any` return type ([#13970](https://github.com/python/typeshed/pull/13970))
 
-## [0.1.13.20240311](https://pypi.org/project/types-click-spinner/0.1.13.20240311/) (2024-03-11)
+## 0.1.13.20240311 (2024-03-11)
 
-* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## [0.1.13.20240106](https://pypi.org/project/types-click-spinner/0.1.13.20240106/) (2024-01-06)
+## 0.1.13.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## [0.1.13.6](https://pypi.org/project/types-click-spinner/0.1.13.6/) (2023-11-11)
+## 0.1.13.6 (2023-11-11)
 
-* third-party: make some protocol params pos-only ([#11006](https://github.com/python/typeshed/pull/11006))
+third-party: make some protocol params pos-only ([#11006](https://github.com/python/typeshed/pull/11006))
 
 ## 0.1.13.5 (2023-07-20)
 

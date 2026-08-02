@@ -1,10 +1,10 @@
-## [3.5.2.20240106](https://pypi.org/project/types-stripe/3.5.2.20240106/) (2024-01-06)
+## 3.5.2.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## [3.5.2.15](https://pypi.org/project/types-stripe/3.5.2.15/) (2023-11-03)
+## 3.5.2.15 (2023-11-03)
 
-* Mark stripe as obsolete since 7.1.0 ([#8490](https://github.com/python/typeshed/pull/8490))
+[stubsabot] Mark stripe as obsolete since 7.1.0 ([#8490](https://github.com/python/typeshed/pull/8490))
 
 ## 3.5.2.14 (2023-07-20)
 

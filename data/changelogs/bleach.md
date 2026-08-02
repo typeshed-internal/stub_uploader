@@ -2,73 +2,73 @@
 
 * Use optional-dependencies for third-party packages ([#16089](https://github.com/python/typeshed/pull/16089))
 
-## [6.4.0.20260607](https://pypi.org/project/types-bleach/6.4.0.20260607/) (2026-06-07)
+## 6.4.0.20260607 (2026-06-07)
 
-* Bump bleach to 6.4.* ([#15873](https://github.com/python/typeshed/pull/15873))
+[stubsabot] Bump bleach to 6.4.* ([#15873](https://github.com/python/typeshed/pull/15873))
 
-## [6.3.0.20260508](https://pypi.org/project/types-bleach/6.3.0.20260508/) (2026-05-08)
+## 6.3.0.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [6.3.0.20260408](https://pypi.org/project/types-bleach/6.3.0.20260408/) (2026-04-08)
+## 6.3.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [6.3.0.20260402](https://pypi.org/project/types-bleach/6.3.0.20260402/) (2026-04-02)
+## 6.3.0.20260402 (2026-04-02)
 
-* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-## [6.3.0.20251115](https://pypi.org/project/types-bleach/6.3.0.20251115/) (2025-11-15)
+## 6.3.0.20251115 (2025-11-15)
 
-* Annotate more ([#14994](https://github.com/python/typeshed/pull/14994))
+[html5lib] Annotate more ([#14994](https://github.com/python/typeshed/pull/14994))
 
-    * Import `webencodings` to use `Encoding` class instead of `Protocol`
-    * Make `_inputstream.BufferedStream`, `filters.base.Filter`, `_utils.MethodDispatcher` generic
-    * Fix incorrect types in `_ihatexml.pyi`
-    * Add types for some attributes/methods
+* Import `webencodings` to use `Encoding` class instead of `Protocol`
+* Make `_inputstream.BufferedStream`, `filters.base.Filter`, `_utils.MethodDispatcher` generic
+* Fix incorrect types in `_ihatexml.pyi`
+* Add types for some attributes/methods
 
-## [6.3.0.20251029](https://pypi.org/project/types-bleach/6.3.0.20251029/) (2025-10-29)
+## 6.3.0.20251029 (2025-10-29)
 
-* Bump bleach to 6.3.* ([#14932](https://github.com/python/typeshed/pull/14932))
+[stubsabot] Bump bleach to 6.3.* ([#14932](https://github.com/python/typeshed/pull/14932))
 
-## [6.2.0.20250809](https://pypi.org/project/types-bleach/6.2.0.20250809/) (2025-08-09)
+## 6.2.0.20250809 (2025-08-09)
 
-* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## [6.2.0.20250514](https://pypi.org/project/types-bleach/6.2.0.20250514/) (2025-05-14)
+## 6.2.0.20250514 (2025-05-14)
 
-* Fix regression in definition of `bleach.sanitizer._Filter` ([#14041](https://github.com/python/typeshed/pull/14041))
+Fix regression in definition of `bleach.sanitizer._Filter` ([#14041](https://github.com/python/typeshed/pull/14041))
 
-## [6.2.0.20250512](https://pypi.org/project/types-bleach/6.2.0.20250512/) (2025-05-12)
+## 6.2.0.20250512 (2025-05-12)
 
-* Complete `bleach` ([#13969](https://github.com/python/typeshed/pull/13969))
+Complete `bleach` ([#13969](https://github.com/python/typeshed/pull/13969))
 
-## [6.2.0.20241123](https://pypi.org/project/types-bleach/6.2.0.20241123/) (2024-11-23)
+## 6.2.0.20241123 (2024-11-23)
 
-* Update to 6.2.* ([#12927](https://github.com/python/typeshed/pull/12927))
+[bleach] Update to 6.2.* ([#12927](https://github.com/python/typeshed/pull/12927))
 
-## [6.1.0.20240331](https://pypi.org/project/types-bleach/6.1.0.20240331/) (2024-03-31)
+## 6.1.0.20240331 (2024-03-31)
 
-* Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
+Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
 
-## [6.1.0.20240311](https://pypi.org/project/types-bleach/6.1.0.20240311/) (2024-03-11)
+## 6.1.0.20240311 (2024-03-11)
 
-* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## [6.1.0.20240222](https://pypi.org/project/types-bleach/6.1.0.20240222/) (2024-02-22)
+## 6.1.0.20240222 (2024-02-22)
 
-* Complete stubs for `bleach` ([#9314](https://github.com/python/typeshed/pull/9314))
+Complete stubs for `bleach` ([#9314](https://github.com/python/typeshed/pull/9314))
 
-    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com> \
-    Co-authored-by: Avasam <samuel.06@hotmail.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Avasam <samuel.06@hotmail.com>
 
-## [6.1.0.1](https://pypi.org/project/types-bleach/6.1.0.1/) (2023-11-11)
+## 6.1.0.1 (2023-11-11)
 
-* third-party: make some protocol params pos-only ([#11006](https://github.com/python/typeshed/pull/11006))
+third-party: make some protocol params pos-only ([#11006](https://github.com/python/typeshed/pull/11006))
 
 ## 6.1.0.0 (2023-10-07)
 

@@ -1,6 +1,6 @@
-## [2.0.0.10](https://pypi.org/project/types-invoke/2.0.0.10/) (2023-10-19)
+## 2.0.0.10 (2023-10-19)
 
-* Bump mypy to 1.6.1 ([#10862](https://github.com/python/typeshed/pull/10862))
+Bump mypy to 1.6.1 ([#10862](https://github.com/python/typeshed/pull/10862))
 
 ## 2.0.0.9 (2023-07-20)
 

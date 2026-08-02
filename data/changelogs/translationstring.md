@@ -1,18 +1,18 @@
-## [1.4.0.20260408](https://pypi.org/project/types-translationstring/1.4.0.20260408/) (2026-04-08)
+## 1.4.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [1.4.0.20250822](https://pypi.org/project/types-translationstring/1.4.0.20250822/) (2025-08-22)
+## 1.4.0.20250822 (2025-08-22)
 
-* Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
 
-## [1.4.0.20250809](https://pypi.org/project/types-translationstring/1.4.0.20250809/) (2025-08-09)
+## 1.4.0.20250809 (2025-08-09)
 
-* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## [1.4.0.20240301](https://pypi.org/project/types-translationstring/1.4.0.20240301/) (2024-03-01)
+## 1.4.0.20240301 (2024-03-01)
 
-* Fix invalid noqa comments and poorly formatted type ignores ([#11497](https://github.com/python/typeshed/pull/11497))
+Fix invalid noqa comments and poorly formatted type ignores ([#11497](https://github.com/python/typeshed/pull/11497))
 
 ## 1.4.0.1 (2023-07-20)
 

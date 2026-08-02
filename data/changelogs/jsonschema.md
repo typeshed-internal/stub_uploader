@@ -1,166 +1,166 @@
-## [4.26.0.20260518](https://pypi.org/project/types-jsonschema/4.26.0.20260518/) (2026-05-18)
+## 4.26.0.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [4.26.0.20260508](https://pypi.org/project/types-jsonschema/4.26.0.20260508/) (2026-05-08)
+## 4.26.0.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [4.26.0.20260408](https://pypi.org/project/types-jsonschema/4.26.0.20260408/) (2026-04-08)
+## 4.26.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [4.26.0.20260402](https://pypi.org/project/types-jsonschema/4.26.0.20260402/) (2026-04-02)
+## 4.26.0.20260402 (2026-04-02)
 
-* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-* Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
 
-## [4.26.0.20260325](https://pypi.org/project/types-jsonschema/4.26.0.20260325/) (2026-03-25)
+## 4.26.0.20260325 (2026-03-25)
 
-* Fix RefResolver store parameter type ([#15542](https://github.com/python/typeshed/pull/15542))
+[jsonschema] Fix RefResolver store parameter type ([#15542](https://github.com/python/typeshed/pull/15542))
 
-    Change URIDict to use MutableMapping[str, Any] as the value type \
-    throughout, consistent with the actual runtime behavior where store \
-    values are schema documents (JSON objects), not plain strings.
+Change URIDict to use MutableMapping[str, Any] as the value type
+throughout, consistent with the actual runtime behavior where store
+values are schema documents (JSON objects), not plain strings.
 
-## [4.26.0.20260324](https://pypi.org/project/types-jsonschema/4.26.0.20260324/) (2026-03-24)
+## 4.26.0.20260324 (2026-03-24)
 
-* Mark RefResolver as deprecated ([#15546](https://github.com/python/typeshed/pull/15546))
+[jsonschema] Mark RefResolver as deprecated ([#15546](https://github.com/python/typeshed/pull/15546))
 
-## [4.26.0.20260202](https://pypi.org/project/types-jsonschema/4.26.0.20260202/) (2026-02-02)
+## 4.26.0.20260202 (2026-02-02)
 
-* Fix type `_Error.validator` ([#15353](https://github.com/python/typeshed/pull/15353))
+[jsonschema] Fix type `_Error.validator` ([#15353](https://github.com/python/typeshed/pull/15353))
 
-## [4.26.0.20260109](https://pypi.org/project/types-jsonschema/4.26.0.20260109/) (2026-01-09)
+## 4.26.0.20260109 (2026-01-09)
 
-* Bump jsonschema to ~=4.26.0 ([#15231](https://github.com/python/typeshed/pull/15231))
+[stubsabot] Bump jsonschema to ~=4.26.0 ([#15231](https://github.com/python/typeshed/pull/15231))
 
-    Release: https://pypi.org/pypi/jsonschema/4.26.0 \
-    Homepage: https://github.com/python-jsonschema/jsonschema \
-    Repository: https://github.com/python-jsonschema/jsonschema \
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/jsonschema \
-    Changelog: https://github.com/python-jsonschema/jsonschema/blob/main/CHANGELOG.rst \
-    Diff: https://github.com/python-jsonschema/jsonschema/compare/v4.25.1...v4.26.0
+Release: https://pypi.org/pypi/jsonschema/4.26.0
+Homepage: https://github.com/python-jsonschema/jsonschema
+Repository: https://github.com/python-jsonschema/jsonschema
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/jsonschema
+Changelog: https://github.com/python-jsonschema/jsonschema/blob/main/CHANGELOG.rst
+Diff: https://github.com/python-jsonschema/jsonschema/compare/v4.25.1...v4.26.0
 
-    Stubsabot analysis of the diff between the two releases:
-     - 1 public Python file has been added: `jsonschema/benchmarks/import_benchmark.py`.
-     - 0 files included in typeshed's stubs have been deleted.
-     - 4 files included in typeshed's stubs have been modified or renamed: `jsonschema/_format.py`, `jsonschema/_types.py`, `jsonschema/_typing.py`, `jsonschema/validators.py`.
-     - Total lines of Python code added: 48.
-     - Total lines of Python code deleted: 26.
+Stubsabot analysis of the diff between the two releases:
+ - 1 public Python file has been added: `jsonschema/benchmarks/import_benchmark.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 4 files included in typeshed's stubs have been modified or renamed: `jsonschema/_format.py`, `jsonschema/_types.py`, `jsonschema/_typing.py`, `jsonschema/validators.py`.
+ - Total lines of Python code added: 48.
+ - Total lines of Python code deleted: 26.
 
-    If stubtest fails for this PR:
-    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-    - Fix stubtest failures in another PR, then close this PR
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
 
-    Note that you will need to close and re-open the PR in order to trigger CI
+Note that you will need to close and re-open the PR in order to trigger CI
 
-    Co-authored-by: stubsabot <>
+Co-authored-by: stubsabot <>
 
-## [4.25.1.20251009](https://pypi.org/project/types-jsonschema/4.25.1.20251009/) (2025-10-09)
+## 4.25.1.20251009 (2025-10-09)
 
-* _Error.context cannot be None ([#14853](https://github.com/python/typeshed/pull/14853))
+[jsonschema] _Error.context cannot be None ([#14853](https://github.com/python/typeshed/pull/14853))
 
-## [4.25.1.20251008](https://pypi.org/project/types-jsonschema/4.25.1.20251008/) (2025-10-08)
+## 4.25.1.20251008 (2025-10-08)
 
-* Stubtest: Ignore attrs-generated props ([#14845](https://github.com/python/typeshed/pull/14845))
+Stubtest: Ignore attrs-generated props ([#14845](https://github.com/python/typeshed/pull/14845))
 
-## [4.25.1.20250822](https://pypi.org/project/types-jsonschema/4.25.1.20250822/) (2025-08-22)
+## 4.25.1.20250822 (2025-08-22)
 
-* Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
 
-## [4.25.1.20250821](https://pypi.org/project/types-jsonschema/4.25.1.20250821/) (2025-08-21)
+## 4.25.1.20250821 (2025-08-21)
 
-* Update jsonschema stubs to track latest changes ([#14591](https://github.com/python/typeshed/pull/14591))
+Update jsonschema stubs to track latest changes ([#14591](https://github.com/python/typeshed/pull/14591))
 
-## [4.25.0.20250809](https://pypi.org/project/types-jsonschema/4.25.0.20250809/) (2025-08-09)
+## 4.25.0.20250809 (2025-08-09)
 
-* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## [4.25.0.20250720](https://pypi.org/project/types-jsonschema/4.25.0.20250720/) (2025-07-20)
+## 4.25.0.20250720 (2025-07-20)
 
-* Bump jsonschema to 4.25.* ([#14430](https://github.com/python/typeshed/pull/14430))
+[stubsabot] Bump jsonschema to 4.25.* ([#14430](https://github.com/python/typeshed/pull/14430))
 
-## [4.24.0.20250708](https://pypi.org/project/types-jsonschema/4.24.0.20250708/) (2025-07-08)
+## 4.24.0.20250708 (2025-07-08)
 
-* Add missing stubs ([#14264](https://github.com/python/typeshed/pull/14264))
+[jsonschema] Add missing stubs ([#14264](https://github.com/python/typeshed/pull/14264))
 
-* Update `jsonschema.protocols.Validator.__init__` ([#14327](https://github.com/python/typeshed/pull/14327))
+Update `jsonschema.protocols.Validator.__init__` ([#14327](https://github.com/python/typeshed/pull/14327))
 
-## [4.24.0.20250528](https://pypi.org/project/types-jsonschema/4.24.0.20250528/) (2025-05-28)
+## 4.24.0.20250528 (2025-05-28)
 
-* Bump jsonschema to 4.24.* ([#14166](https://github.com/python/typeshed/pull/14166))
+Bump jsonschema to 4.24.* ([#14166](https://github.com/python/typeshed/pull/14166))
 
-## [4.23.0.20250516](https://pypi.org/project/types-jsonschema/4.23.0.20250516/) (2025-05-16)
+## 4.23.0.20250516 (2025-05-16)
 
-* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## [4.23.0.20241208](https://pypi.org/project/types-jsonschema/4.23.0.20241208/) (2024-12-08)
+## 4.23.0.20241208 (2024-12-08)
 
-* Unpin webcolors in jsonschema ([#13215](https://github.com/python/typeshed/pull/13215))
+Unpin webcolors in jsonschema ([#13215](https://github.com/python/typeshed/pull/13215))
 
-## [4.23.0.20240813](https://pypi.org/project/types-jsonschema/4.23.0.20240813/) (2024-08-13)
+## 4.23.0.20240813 (2024-08-13)
 
-* Use Generator instead of Iterator for 3rd-party context managers ([#12481](https://github.com/python/typeshed/pull/12481))
+Use Generator instead of Iterator for 3rd-party context managers ([#12481](https://github.com/python/typeshed/pull/12481))
 
-## [4.23.0.20240712](https://pypi.org/project/types-jsonschema/4.23.0.20240712/) (2024-07-12)
+## 4.23.0.20240712 (2024-07-12)
 
-* Update to 4.23.* ([#12301](https://github.com/python/typeshed/pull/12301))
+[jsonschema] Update to 4.23.* ([#12301](https://github.com/python/typeshed/pull/12301))
 
-## [4.22.0.20240610](https://pypi.org/project/types-jsonschema/4.22.0.20240610/) (2024-06-10)
+## 4.22.0.20240610 (2024-06-10)
 
-* Ensure stubtest gets an older version of `webcolors` when testing `jsonschema` in CI ([#12115](https://github.com/python/typeshed/pull/12115))
+Ensure stubtest gets an older version of `webcolors` when testing `jsonschema` in CI ([#12115](https://github.com/python/typeshed/pull/12115))
 
-## [4.22.0.20240501](https://pypi.org/project/types-jsonschema/4.22.0.20240501/) (2024-05-01)
+## 4.22.0.20240501 (2024-05-01)
 
-* Bump jsonschema to 4.22.* ([#11850](https://github.com/python/typeshed/pull/11850))
+[stubsabot] Bump jsonschema to 4.22.* ([#11850](https://github.com/python/typeshed/pull/11850))
 
-    Release: https://pypi.org/pypi/jsonschema/4.22.0 \
-    Homepage: https://github.com/python-jsonschema/jsonschema \
-    Repository: https://github.com/python-jsonschema/jsonschema \
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/jsonschema \
-    Changelog: https://github.com/python-jsonschema/jsonschema/blob/main/CHANGELOG.rst \
-    Diff: https://github.com/python-jsonschema/jsonschema/compare/v4.21.1...v4.22.0
+Release: https://pypi.org/pypi/jsonschema/4.22.0
+Homepage: https://github.com/python-jsonschema/jsonschema
+Repository: https://github.com/python-jsonschema/jsonschema
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/jsonschema
+Changelog: https://github.com/python-jsonschema/jsonschema/blob/main/CHANGELOG.rst
+Diff: https://github.com/python-jsonschema/jsonschema/compare/v4.21.1...v4.22.0
 
-    Stubsabot analysis of the diff between the two releases:
-     - 3 public Python files have been added: `jsonschema/benchmarks/const_vs_enum.py`, `jsonschema/benchmarks/useless_applicator_schemas.py`, `jsonschema/benchmarks/useless_keywords.py`.
-     - 0 files included in typeshed's stubs have been deleted.
-     - 6 files included in typeshed's stubs have been modified or renamed: `jsonschema/_format.py`, `jsonschema/_types.py`, `jsonschema/_utils.py`, `jsonschema/exceptions.py`, `jsonschema/protocols.py`, `jsonschema/validators.py`.
-     - Total lines of Python code added: 313.
-     - Total lines of Python code deleted: 21.
+Stubsabot analysis of the diff between the two releases:
+ - 3 public Python files have been added: `jsonschema/benchmarks/const_vs_enum.py`, `jsonschema/benchmarks/useless_applicator_schemas.py`, `jsonschema/benchmarks/useless_keywords.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 6 files included in typeshed's stubs have been modified or renamed: `jsonschema/_format.py`, `jsonschema/_types.py`, `jsonschema/_utils.py`, `jsonschema/exceptions.py`, `jsonschema/protocols.py`, `jsonschema/validators.py`.
+ - Total lines of Python code added: 313.
+ - Total lines of Python code deleted: 21.
 
-## [4.21.0.20240331](https://pypi.org/project/types-jsonschema/4.21.0.20240331/) (2024-03-31)
+## 4.21.0.20240331 (2024-03-31)
 
-* Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
+Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
 
-## [4.21.0.20240311](https://pypi.org/project/types-jsonschema/4.21.0.20240311/) (2024-03-11)
+## 4.21.0.20240311 (2024-03-11)
 
-* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## [4.21.0.20240118](https://pypi.org/project/types-jsonschema/4.21.0.20240118/) (2024-01-18)
+## 4.21.0.20240118 (2024-01-18)
 
-* Bump jsonschema to 4.21.* ([#11281](https://github.com/python/typeshed/pull/11281))
+[stubsabot] Bump jsonschema to 4.21.* ([#11281](https://github.com/python/typeshed/pull/11281))
 
-## [4.20.0.20240105](https://pypi.org/project/types-jsonschema/4.20.0.20240105/) (2024-01-05)
+## 4.20.0.20240105 (2024-01-05)
 
-* Drop support for Python 3.7 ([#11234](https://github.com/python/typeshed/pull/11234))
+Drop support for Python 3.7 ([#11234](https://github.com/python/typeshed/pull/11234))
 
-## [4.20.0.0](https://pypi.org/project/types-jsonschema/4.20.0.0/) (2023-11-18)
+## 4.20.0.0 (2023-11-18)
 
-* Bump to 4.20.* ([#11036](https://github.com/python/typeshed/pull/11036))
+[jsonschema] Bump to 4.20.* ([#11036](https://github.com/python/typeshed/pull/11036))
 
-    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## [4.19.0.4](https://pypi.org/project/types-jsonschema/4.19.0.4/) (2023-10-31)
+## 4.19.0.4 (2023-10-31)
 
-* jsonschema: move addionalItems ([#10955](https://github.com/python/typeshed/pull/10955))
+jsonschema: move addionalItems ([#10955](https://github.com/python/typeshed/pull/10955))
 
-    https://github.com/python-jsonschema/jsonschema/commit/daa40b3eaf55f72f6154f9a48e557d895617b24a
+https://github.com/python-jsonschema/jsonschema/commit/daa40b3eaf55f72f6154f9a48e557d895617b24a
 
-    Fixes #10953
+Fixes #10953
 
 ## 4.19.0.3 (2023-09-25)
 

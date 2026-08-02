@@ -5,114 +5,114 @@
     zstd 1.5.7.2 has been yanked, which is why stubtest \
     currently fails.
 
-## [1.5.7.3.20260408](https://pypi.org/project/types-zstd/1.5.7.3.20260408/) (2026-04-08)
+## 1.5.7.3.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [1.5.7.3.20260110](https://pypi.org/project/types-zstd/1.5.7.3.20260110/) (2026-01-10)
+## 1.5.7.3.20260110 (2026-01-10)
 
-* Update to ~=1.5.7.3 ([#15242](https://github.com/python/typeshed/pull/15242))
+[zstd] Update to ~=1.5.7.3 ([#15242](https://github.com/python/typeshed/pull/15242))
 
-    Closes: #15239 \
-    Diff: https://github.com/sergey-dryabzhinsky/python-zstd/compare/v1.5.7.1...v1.5.7.3
+Closes: #15239
+Diff: https://github.com/sergey-dryabzhinsky/python-zstd/compare/v1.5.7.1...v1.5.7.3
 
-## [1.5.7.1.20250708](https://pypi.org/project/types-zstd/1.5.7.1.20250708/) (2025-07-08)
+## 1.5.7.1.20250708 (2025-07-08)
 
-* Update to 1.5.7.1 ([#14250](https://github.com/python/typeshed/pull/14250))
+[zstd] Update to 1.5.7.1 ([#14250](https://github.com/python/typeshed/pull/14250))
 
-## [1.5.7.0.20250507](https://pypi.org/project/types-zstd/1.5.7.0.20250507/) (2025-05-07)
+## 1.5.7.0.20250507 (2025-05-07)
 
-* Bump zstd to 1.5.7.0 ([#13946](https://github.com/python/typeshed/pull/13946))
+[stubsabot] Bump zstd to 1.5.7.0 ([#13946](https://github.com/python/typeshed/pull/13946))
 
-## [1.5.6.8.20250506](https://pypi.org/project/types-zstd/1.5.6.8.20250506/) (2025-05-06)
+## 1.5.6.8.20250506 (2025-05-06)
 
-* Bump zstd to 1.5.6.8 ([#13917](https://github.com/python/typeshed/pull/13917))
+[stubsabot] Bump zstd to 1.5.6.8 ([#13917](https://github.com/python/typeshed/pull/13917))
 
-## [1.5.6.7.20250404](https://pypi.org/project/types-zstd/1.5.6.7.20250404/) (2025-04-04)
+## 1.5.6.7.20250404 (2025-04-04)
 
-* Bump zstd to 1.5.6.7 ([#13780](https://github.com/python/typeshed/pull/13780))
+[stubsabot] Bump zstd to 1.5.6.7 ([#13780](https://github.com/python/typeshed/pull/13780))
 
-    Release: https://pypi.org/pypi/zstd/1.5.6.7 \
-    Homepage: https://github.com/sergey-dryabzhinsky/python-zstd \
-    Repository: https://github.com/sergey-dryabzhinsky/python-zstd \
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/zstd \
-    Diff: https://github.com/sergey-dryabzhinsky/python-zstd/compare/v1.5.6.6...v1.5.6.7
+Release: https://pypi.org/pypi/zstd/1.5.6.7
+Homepage: https://github.com/sergey-dryabzhinsky/python-zstd
+Repository: https://github.com/sergey-dryabzhinsky/python-zstd
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/zstd
+Diff: https://github.com/sergey-dryabzhinsky/python-zstd/compare/v1.5.6.6...v1.5.6.7
 
-    Stubsabot analysis of the diff between the two releases:
-     - Total lines of Python code added: 4.
-     - Total lines of Python code deleted: 3.
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 4.
+ - Total lines of Python code deleted: 3.
 
-    If stubtest fails for this PR:
-    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-    - Fix stubtest failures in another PR, then close this PR
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
 
-    Note that you will need to close and re-open the PR in order to trigger CI
+Note that you will need to close and re-open the PR in order to trigger CI
 
-    Co-authored-by: stubsabot <>
+Co-authored-by: stubsabot <>
 
-## [1.5.6.6.20250306](https://pypi.org/project/types-zstd/1.5.6.6.20250306/) (2025-03-06)
+## 1.5.6.6.20250306 (2025-03-06)
 
-* Bump zstd to 1.5.6.6 ([#13584](https://github.com/python/typeshed/pull/13584))
+[stubsabot] Bump zstd to 1.5.6.6 ([#13584](https://github.com/python/typeshed/pull/13584))
 
-    Release: https://pypi.org/pypi/zstd/1.5.6.6 \
-    Homepage: https://github.com/sergey-dryabzhinsky/python-zstd \
-    Repository: https://github.com/sergey-dryabzhinsky/python-zstd \
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/zstd \
-    Diff: https://github.com/sergey-dryabzhinsky/python-zstd/compare/v1.5.6.5...v1.5.6.6
+Release: https://pypi.org/pypi/zstd/1.5.6.6
+Homepage: https://github.com/sergey-dryabzhinsky/python-zstd
+Repository: https://github.com/sergey-dryabzhinsky/python-zstd
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/zstd
+Diff: https://github.com/sergey-dryabzhinsky/python-zstd/compare/v1.5.6.5...v1.5.6.6
 
-    Stubsabot analysis of the diff between the two releases:
-     - Total lines of Python code added: 12.
-     - Total lines of Python code deleted: 11.
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 12.
+ - Total lines of Python code deleted: 11.
 
-    If stubtest fails for this PR:
-    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-    - Fix stubtest failures in another PR, then close this PR
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
 
-    Note that you will need to close and re-open the PR in order to trigger CI
+Note that you will need to close and re-open the PR in order to trigger CI
 
-    Co-authored-by: stubsabot <>
+Co-authored-by: stubsabot <>
 
-## [1.5.6.5.20250304](https://pypi.org/project/types-zstd/1.5.6.5.20250304/) (2025-03-04)
+## 1.5.6.5.20250304 (2025-03-04)
 
-* Bump zstd to 1.5.6.5 ([#13569](https://github.com/python/typeshed/pull/13569))
+[stubsabot] Bump zstd to 1.5.6.5 ([#13569](https://github.com/python/typeshed/pull/13569))
 
-## [1.5.6.4.20250224](https://pypi.org/project/types-zstd/1.5.6.4.20250224/) (2025-02-24)
+## 1.5.6.4.20250224 (2025-02-24)
 
-* Bump zstd to 1.5.6.4 ([#13527](https://github.com/python/typeshed/pull/13527))
+[stubsabot] Bump zstd to 1.5.6.4 ([#13527](https://github.com/python/typeshed/pull/13527))
 
-    Release: https://pypi.org/pypi/zstd/1.5.6.4 \
-    Homepage: https://github.com/sergey-dryabzhinsky/python-zstd \
-    Repository: https://github.com/sergey-dryabzhinsky/python-zstd \
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/zstd \
-    Diff: https://github.com/sergey-dryabzhinsky/python-zstd/compare/v1.5.6.3...v1.5.6.4
+Release: https://pypi.org/pypi/zstd/1.5.6.4
+Homepage: https://github.com/sergey-dryabzhinsky/python-zstd
+Repository: https://github.com/sergey-dryabzhinsky/python-zstd
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/zstd
+Diff: https://github.com/sergey-dryabzhinsky/python-zstd/compare/v1.5.6.3...v1.5.6.4
 
-    Stubsabot analysis of the diff between the two releases:
-     - Total lines of Python code added: 26.
-     - Total lines of Python code deleted: 5.
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 26.
+ - Total lines of Python code deleted: 5.
 
-    If stubtest fails for this PR:
-    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-    - Fix stubtest failures in another PR, then close this PR
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
 
-    Note that you will need to close and re-open the PR in order to trigger CI
+Note that you will need to close and re-open the PR in order to trigger CI
 
-    Co-authored-by: stubsabot <>
+Co-authored-by: stubsabot <>
 
-## [1.5.6.3.20250218](https://pypi.org/project/types-zstd/1.5.6.3.20250218/) (2025-02-18)
+## 1.5.6.3.20250218 (2025-02-18)
 
-* Bump zstd to 1.5.6.3 ([#13506](https://github.com/python/typeshed/pull/13506))
+Bump zstd to 1.5.6.3 ([#13506](https://github.com/python/typeshed/pull/13506))
 
-## [1.5.6.2.20250126](https://pypi.org/project/types-zstd/1.5.6.2.20250126/) (2025-01-26)
+## 1.5.6.2.20250126 (2025-01-26)
 
-* Bump zstd to 1.5.6.2 ([#13434](https://github.com/python/typeshed/pull/13434))
+Bump zstd to 1.5.6.2 ([#13434](https://github.com/python/typeshed/pull/13434))
 
-## [1.5.6.1.20250123](https://pypi.org/project/types-zstd/1.5.6.1.20250123/) (2025-01-23)
+## 1.5.6.1.20250123 (2025-01-23)
 
-* zstd: pin version ([#13428](https://github.com/python/typeshed/pull/13428))
+zstd: pin version ([#13428](https://github.com/python/typeshed/pull/13428))
 
-## [1.5.0.20240311](https://pypi.org/project/types-zstd/1.5.0.20240311/) (2024-03-11)
+## 1.5.0.20240311 (2024-03-11)
 
-* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
 ## 1.5.0.3 (2023-07-20)
 

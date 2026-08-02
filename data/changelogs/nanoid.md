@@ -1,16 +1,16 @@
-## [2.0.0.20260508](https://pypi.org/project/types-nanoid/2.0.0.20260508/) (2026-05-08)
+## 2.0.0.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [2.0.0.20260408](https://pypi.org/project/types-nanoid/2.0.0.20260408/) (2026-04-08)
+## 2.0.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [2.0.0.20240601](https://pypi.org/project/types-nanoid/2.0.0.20240601/) (2024-06-01)
+## 2.0.0.20240601 (2024-06-01)
 
-* add stubs for py-nanoid ([#12074](https://github.com/python/typeshed/pull/12074))
+add stubs for py-nanoid ([#12074](https://github.com/python/typeshed/pull/12074))
 
-    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 

@@ -1,26 +1,26 @@
-## [1.10.0.20250319](https://pypi.org/project/types-tree-sitter-languages/1.10.0.20250319/) (2025-03-19)
+## 1.10.0.20250319 (2025-03-19)
 
-* Run stubtest with Python 3.13 ([#13638](https://github.com/python/typeshed/pull/13638))
+[CI] Run stubtest with Python 3.13 ([#13638](https://github.com/python/typeshed/pull/13638))
 
-## [1.10.0.20240612](https://pypi.org/project/types-tree-sitter-languages/1.10.0.20240612/) (2024-06-12)
+## 1.10.0.20240612 (2024-06-12)
 
-* Remove `tree-sitter` ([#12118](https://github.com/python/typeshed/pull/12118))
+Remove `tree-sitter` ([#12118](https://github.com/python/typeshed/pull/12118))
 
-## [1.10.0.20240201](https://pypi.org/project/types-tree-sitter-languages/1.10.0.20240201/) (2024-02-01)
+## 1.10.0.20240201 (2024-02-01)
 
-* Bump tree-sitter-languages to 1.10.* ([#11228](https://github.com/python/typeshed/pull/11228))
+[stubsabot] Bump tree-sitter-languages to 1.10.* ([#11228](https://github.com/python/typeshed/pull/11228))
 
-    Release: https://pypi.org/pypi/tree-sitter-languages/1.10.0 \
-    Homepage: https://github.com/grantjenks/py-tree-sitter-languages \
-    Repository: https://github.com/grantjenks/py-tree-sitter-languages \
-    Diff: https://github.com/grantjenks/py-tree-sitter-languages/compare/v1.8.0...v1.10.0
+Release: https://pypi.org/pypi/tree-sitter-languages/1.10.0
+Homepage: https://github.com/grantjenks/py-tree-sitter-languages
+Repository: https://github.com/grantjenks/py-tree-sitter-languages
+Diff: https://github.com/grantjenks/py-tree-sitter-languages/compare/v1.8.0...v1.10.0
 
-    Stubsabot analysis of the diff between the two releases:
-     - 0 public Python files have been added.
-     - 0 files included in typeshed's stubs have been deleted.
-     - 1 file included in typeshed's stubs has been modified or renamed: `tree_sitter_languages/__init__.py`.
-     - Total lines of Python code added: 1.
-     - Total lines of Python code deleted: 1.
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 1 file included in typeshed's stubs has been modified or renamed: `tree_sitter_languages/__init__.py`.
+ - Total lines of Python code added: 1.
+ - Total lines of Python code deleted: 1.
 
 ## 1.8.0.0 (2023-10-15)
 

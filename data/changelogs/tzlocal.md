@@ -1,13 +1,13 @@
-## [5.1.0.1](https://pypi.org/project/types-tzlocal/5.1.0.1/) (2023-10-24)
+## 5.1.0.1 (2023-10-24)
 
-* Mark tzlocal as obsolete since 5.2 ([#10921](https://github.com/python/typeshed/pull/10921))
+[stubsabot] Mark tzlocal as obsolete since 5.2 ([#10921](https://github.com/python/typeshed/pull/10921))
 
-    Release: https://pypi.org/pypi/tzlocal/5.2 \
-    Repository: https://github.com/regebro/tzlocal \
-    Changelog: https://github.com/regebro/tzlocal/blob/master/CHANGES.txt \
-    Diff: https://github.com/regebro/tzlocal/compare/5.1...5.2
+Release: https://pypi.org/pypi/tzlocal/5.2
+Repository: https://github.com/regebro/tzlocal
+Changelog: https://github.com/regebro/tzlocal/blob/master/CHANGES.txt
+Diff: https://github.com/regebro/tzlocal/compare/5.1...5.2
 
-    Co-authored-by: stubsabot <>
+Co-authored-by: stubsabot <>
 
 ## 5.1.0.0 (2023-10-05)
 

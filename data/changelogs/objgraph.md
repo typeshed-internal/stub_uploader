@@ -1,17 +1,17 @@
-## [3.6.0.20260508](https://pypi.org/project/types-objgraph/3.6.0.20260508/) (2026-05-08)
+## 3.6.0.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [3.6.0.20260408](https://pypi.org/project/types-objgraph/3.6.0.20260408/) (2026-04-08)
+## 3.6.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [3.6.0.20240907](https://pypi.org/project/types-objgraph/3.6.0.20240907/) (2024-09-07)
+## 3.6.0.20240907 (2024-09-07)
 
-* Add stubs for `objgraph` ([#12608](https://github.com/python/typeshed/pull/12608))
+Add stubs for `objgraph` ([#12608](https://github.com/python/typeshed/pull/12608))
 
-    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com> \
-    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 

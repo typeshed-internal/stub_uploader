@@ -2,90 +2,90 @@
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
 
-## [0.5.10.20260716](https://pypi.org/project/types-JACK-Client/0.5.10.20260716/) (2026-07-16)
+## 0.5.10.20260716 (2026-07-16)
 
-* Run ty on typeshed stubs in CI ([#16013](https://github.com/python/typeshed/pull/16013))
+Run ty on typeshed stubs in CI ([#16013](https://github.com/python/typeshed/pull/16013))
 
-    Add a pinned ty check for the standard-library and third-party stubs across Python 3.10-3.14 and the supported target platforms. The runner honors stdlib/VERSIONS, resolves checked-in stub packages and their external dependencies, and avoids duplicate published stub packages that shadow local sources.
+Add a pinned ty check for the standard-library and third-party stubs across Python 3.10-3.14 and the supported target platforms. The runner honors stdlib/VERSIONS, resolves checked-in stub packages and their external dependencies, and avoids duplicate published stub packages that shadow local sources.
 
-    Match pyright's policy for non-actionable override and deprecation diagnostics, add narrowly scoped ignores beside existing checker exceptions, and exclude only the obsolete requests and legacy distutils stubs. Check geopandas, seaborn, and shapely on every target version, with two existing pandas-stubs type-bound exceptions mirrored for ty. Also fix the remaining Windows-only dateutil builtin-name collision discovered by the new check.
+Match pyright's policy for non-actionable override and deprecation diagnostics, add narrowly scoped ignores beside existing checker exceptions, and exclude only the obsolete requests and legacy distutils stubs. Check geopandas, seaborn, and shapely on every target version, with two existing pandas-stubs type-bound exceptions mirrored for ty. Also fix the remaining Windows-only dateutil builtin-name collision discovered by the new check.
 
-    Closes #15999.
+Closes #15999.
 
-## [0.5.10.20260627](https://pypi.org/project/types-JACK-Client/0.5.10.20260627/) (2026-06-27)
+## 0.5.10.20260627 (2026-06-27)
 
-* Temporarily disable stubtest on darwin ([#15948](https://github.com/python/typeshed/pull/15948))
+[JACK-Client] Temporarily disable stubtest on darwin ([#15948](https://github.com/python/typeshed/pull/15948))
 
-    See https://github.com/python/typeshed/issues/15947 for details.
+See https://github.com/python/typeshed/issues/15947 for details.
 
-    Closes: #15942
+Closes: #15942
 
-## [0.5.10.20260518](https://pypi.org/project/types-JACK-Client/0.5.10.20260518/) (2026-05-18)
+## 0.5.10.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [0.5.10.20260408](https://pypi.org/project/types-JACK-Client/0.5.10.20260408/) (2026-04-08)
+## 0.5.10.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [0.5.10.20260402](https://pypi.org/project/types-JACK-Client/0.5.10.20260402/) (2026-04-02)
+## 0.5.10.20260402 (2026-04-02)
 
-* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-## [0.5.10.20260223](https://pypi.org/project/types-JACK-Client/0.5.10.20260223/) (2026-02-23)
+## 0.5.10.20260223 (2026-02-23)
 
-* Add missing __slots__ to third-party packages ([#15454](https://github.com/python/typeshed/pull/15454))
+Add missing __slots__ to third-party packages ([#15454](https://github.com/python/typeshed/pull/15454))
 
-## [0.5.10.20250812](https://pypi.org/project/types-JACK-Client/0.5.10.20250812/) (2025-08-12)
+## 0.5.10.20250812 (2025-08-12)
 
-* UUIDs are represented as ints ([#14559](https://github.com/python/typeshed/pull/14559))
+[JACK-Client] UUIDs are represented as ints ([#14559](https://github.com/python/typeshed/pull/14559))
 
-## [0.5.10.20250809](https://pypi.org/project/types-JACK-Client/0.5.10.20250809/) (2025-08-09)
+## 0.5.10.20250809 (2025-08-09)
 
-* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## [0.5.10.20250801](https://pypi.org/project/types-JACK-Client/0.5.10.20250801/) (2025-08-01)
+## 0.5.10.20250801 (2025-08-01)
 
-* Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
+Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
-    Co-authored-by: Avasam <samuel.06@hotmail.com> \
-    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
-## [0.5.10.20250401](https://pypi.org/project/types-JACK-Client/0.5.10.20250401/) (2025-04-01)
+## 0.5.10.20250401 (2025-04-01)
 
-* All METADATA_ constants are sometimes available on Linux ([#13639](https://github.com/python/typeshed/pull/13639))
+[JACK-Client] All METADATA_ constants are sometimes available on Linux ([#13639](https://github.com/python/typeshed/pull/13639))
 
-## [0.5.10.20250328](https://pypi.org/project/types-JACK-Client/0.5.10.20250328/) (2025-03-28)
+## 0.5.10.20250328 (2025-03-28)
 
-* Restore JACK-Client macOS stubtest ([#13721](https://github.com/python/typeshed/pull/13721))
+Restore JACK-Client macOS stubtest ([#13721](https://github.com/python/typeshed/pull/13721))
 
-    Restore JACK-Client macOS tests
+Restore JACK-Client macOS tests
 
-## [0.5.10.20241112](https://pypi.org/project/types-JACK-Client/0.5.10.20241112/) (2024-11-12)
+## 0.5.10.20241112 (2024-11-12)
 
-* Remove numpy pins from several stubs ([#12993](https://github.com/python/typeshed/pull/12993))
+Remove numpy pins from several stubs ([#12993](https://github.com/python/typeshed/pull/12993))
 
-## [0.5.10.20240822](https://pypi.org/project/types-JACK-Client/0.5.10.20240822/) (2024-08-22)
+## 0.5.10.20240822 (2024-08-22)
 
-* Using precise code for `pyright: ignore` and re-enabling various pyright tests ([#12576](https://github.com/python/typeshed/pull/12576))
+Using precise code for `pyright: ignore` and re-enabling various pyright tests ([#12576](https://github.com/python/typeshed/pull/12576))
 
-## [0.5.10.20240820](https://pypi.org/project/types-JACK-Client/0.5.10.20240820/) (2024-08-20)
+## 0.5.10.20240820 (2024-08-20)
 
-* Pin numpy in various stubs ([#12554](https://github.com/python/typeshed/pull/12554))
+Pin numpy in various stubs ([#12554](https://github.com/python/typeshed/pull/12554))
 
-## [0.5.10.20240425](https://pypi.org/project/types-JACK-Client/0.5.10.20240425/) (2024-04-25)
+## 0.5.10.20240425 (2024-04-25)
 
-* Disable uwsgi, pyaudio, jack-client stubtest on macOS ([#11821](https://github.com/python/typeshed/pull/11821))
+Disable uwsgi, pyaudio, jack-client stubtest on macOS ([#11821](https://github.com/python/typeshed/pull/11821))
 
-## [0.5.10.20240106](https://pypi.org/project/types-JACK-Client/0.5.10.20240106/) (2024-01-06)
+## 0.5.10.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## [0.5.10.10](https://pypi.org/project/types-JACK-Client/0.5.10.10/) (2023-11-22)
+## 0.5.10.10 (2023-11-22)
 
-* third-party stubs: Add several missing `__del__` methods ([#11054](https://github.com/python/typeshed/pull/11054))
+third-party stubs: Add several missing `__del__` methods ([#11054](https://github.com/python/typeshed/pull/11054))
 
 ## 0.5.10.9 (2023-08-13)
 

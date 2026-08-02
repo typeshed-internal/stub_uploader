@@ -6,199 +6,199 @@
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
 
-## [4.5.1.20260712](https://pypi.org/project/types-reportlab/4.5.1.20260712/) (2026-07-12)
+## 4.5.1.20260712 (2026-07-12)
 
-* Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))
+Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))
 
-    Class members such as list, type, cursor, Model, and datetime shadow the builtins, classes, or modules referenced by nearby annotations. ty then resolves those annotations to Unknown, which can hide invalid calls in APIs including docker, sqlite3, psycopg2, Markdown, and requests.
+Class members such as list, type, cursor, Model, and datetime shadow the builtins, classes, or modules referenced by nearby annotations. ty then resolves those annotations to Unknown, which can hide invalid calls in APIs including docker, sqlite3, psycopg2, Markdown, and requests.
 
-    Qualify shadowed builtins and use private aliases for colliding imports and classes. This removes 15 stdlib and 120 third-party collision diagnostics under ty 0.0.58, restores the affected public types, and fixes four existing psycopg2 type assertions.
+Qualify shadowed builtins and use private aliases for colliding imports and classes. This removes 15 stdlib and 120 third-party collision diagnostics under ty 0.0.58, restores the affected public types, and fixes four existing psycopg2 type assertions.
 
-## [4.5.1.20260521](https://pypi.org/project/types-reportlab/4.5.1.20260521/) (2026-05-21)
+## 4.5.1.20260521 (2026-05-21)
 
-* Bump to 4.5.1 ([#15808](https://github.com/python/typeshed/pull/15808))
+[reportlab] Bump to 4.5.1 ([#15808](https://github.com/python/typeshed/pull/15808))
 
-## [4.5.0.20260518](https://pypi.org/project/types-reportlab/4.5.0.20260518/) (2026-05-18)
+## 4.5.0.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [4.5.0.20260509](https://pypi.org/project/types-reportlab/4.5.0.20260509/) (2026-05-09)
+## 4.5.0.20260509 (2026-05-09)
 
-* Update to 4.5.0 ([#15697](https://github.com/python/typeshed/pull/15697))
+[reportlab] Update to 4.5.0 ([#15697](https://github.com/python/typeshed/pull/15697))
 
-## [4.4.10.20260508](https://pypi.org/project/types-reportlab/4.4.10.20260508/) (2026-05-08)
+## 4.4.10.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [4.4.10.20260408](https://pypi.org/project/types-reportlab/4.4.10.20260408/) (2026-04-08)
+## 4.4.10.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [4.4.10.20260402](https://pypi.org/project/types-reportlab/4.4.10.20260402/) (2026-04-02)
+## 4.4.10.20260402 (2026-04-02)
 
-* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-* Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
 
-## [4.4.10.20260223](https://pypi.org/project/types-reportlab/4.4.10.20260223/) (2026-02-23)
+## 4.4.10.20260223 (2026-02-23)
 
-* Add more annotations for pdfgen ([#15452](https://github.com/python/typeshed/pull/15452))
+[reportlab] Add more annotations for pdfgen ([#15452](https://github.com/python/typeshed/pull/15452))
 
-* Use TypeIs for utils ([#15451](https://github.com/python/typeshed/pull/15451))
+[reportlab] Use TypeIs for utils ([#15451](https://github.com/python/typeshed/pull/15451))
 
-## [4.4.10.20260221](https://pypi.org/project/types-reportlab/4.4.10.20260221/) (2026-02-21)
+## 4.4.10.20260221 (2026-02-21)
 
-* Add more annotations for pdfbase ([#15431](https://github.com/python/typeshed/pull/15431))
+[reportlab] Add more annotations for pdfbase ([#15431](https://github.com/python/typeshed/pull/15431))
 
-## [4.4.10.20260216](https://pypi.org/project/types-reportlab/4.4.10.20260216/) (2026-02-16)
+## 4.4.10.20260216 (2026-02-16)
 
-* Update to 4.4.10 ([#15421](https://github.com/python/typeshed/pull/15421))
+[reportlab] Update to 4.4.10 ([#15421](https://github.com/python/typeshed/pull/15421))
 
-## [4.4.9.20260215](https://pypi.org/project/types-reportlab/4.4.9.20260215/) (2026-02-15)
+## 4.4.9.20260215 (2026-02-15)
 
-* Add more annotations for lib ([#15426](https://github.com/python/typeshed/pull/15426))
+[reportlab] Add more annotations for lib ([#15426](https://github.com/python/typeshed/pull/15426))
 
-## [4.4.9.20260117](https://pypi.org/project/types-reportlab/4.4.9.20260117/) (2026-01-17)
+## 4.4.9.20260117 (2026-01-17)
 
-* Update to 4.4.9 ([#15290](https://github.com/python/typeshed/pull/15290))
+[reportlab] Update to 4.4.9 ([#15290](https://github.com/python/typeshed/pull/15290))
 
-## [4.4.7.20251223](https://pypi.org/project/types-reportlab/4.4.7.20251223/) (2025-12-23)
+## 4.4.7.20251223 (2025-12-23)
 
-* Bump reportlab to 4.4.7 ([#15162](https://github.com/python/typeshed/pull/15162))
+[stubsabot] Bump reportlab to 4.4.7 ([#15162](https://github.com/python/typeshed/pull/15162))
 
-## [4.4.6.20251212](https://pypi.org/project/types-reportlab/4.4.6.20251212/) (2025-12-12)
+## 4.4.6.20251212 (2025-12-12)
 
-* Bump reportlab to 4.4.6 ([#15125](https://github.com/python/typeshed/pull/15125))
+[stubsabot] Bump reportlab to 4.4.6 ([#15125](https://github.com/python/typeshed/pull/15125))
 
-    Co-authored-by: stubsabot <>
+Co-authored-by: stubsabot <>
 
-## [4.4.5.20251121](https://pypi.org/project/types-reportlab/4.4.5.20251121/) (2025-11-21)
+## 4.4.5.20251121 (2025-11-21)
 
-* Update to 4.4.5 ([#15056](https://github.com/python/typeshed/pull/15056))
+[reportlab] Update to 4.4.5 ([#15056](https://github.com/python/typeshed/pull/15056))
 
-## [4.4.4.20250926](https://pypi.org/project/types-reportlab/4.4.4.20250926/) (2025-09-26)
+## 4.4.4.20250926 (2025-09-26)
 
-* fixed: reportlab - incorrect type on function parameter ([#14777](https://github.com/python/typeshed/pull/14777))
+fixed: reportlab - incorrect type on function parameter ([#14777](https://github.com/python/typeshed/pull/14777))
 
-## [4.4.4.20250923](https://pypi.org/project/types-reportlab/4.4.4.20250923/) (2025-09-23)
+## 4.4.4.20250923 (2025-09-23)
 
-* Update to 4.4.4 ([#14762](https://github.com/python/typeshed/pull/14762))
+[reportlab] Update to 4.4.4 ([#14762](https://github.com/python/typeshed/pull/14762))
 
-## [4.4.1.20250914](https://pypi.org/project/types-reportlab/4.4.1.20250914/) (2025-09-14)
+## 4.4.1.20250914 (2025-09-14)
 
-* Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
+Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
 
-## [4.4.1.20250822](https://pypi.org/project/types-reportlab/4.4.1.20250822/) (2025-08-22)
+## 4.4.1.20250822 (2025-08-22)
 
-* Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
 
-## [4.4.1.20250809](https://pypi.org/project/types-reportlab/4.4.1.20250809/) (2025-08-09)
+## 4.4.1.20250809 (2025-08-09)
 
-* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## [4.4.1.20250602](https://pypi.org/project/types-reportlab/4.4.1.20250602/) (2025-06-02)
+## 4.4.1.20250602 (2025-06-02)
 
-* Update mypy to 1.16.0 ([#14194](https://github.com/python/typeshed/pull/14194))
+Update mypy to 1.16.0 ([#14194](https://github.com/python/typeshed/pull/14194))
 
-    Co-authored-by: Sebastian Rittau <srittau@rittau.biz> \
-    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## [4.4.1.20250601](https://pypi.org/project/types-reportlab/4.4.1.20250601/) (2025-06-01)
+## 4.4.1.20250601 (2025-06-01)
 
-* Add # type: ignores ([#14202](https://github.com/python/typeshed/pull/14202))
+[reportlab] Add # type: ignores ([#14202](https://github.com/python/typeshed/pull/14202))
 
-    Helps with #14194
+Helps with #14194
 
-## [4.4.1.20250527](https://pypi.org/project/types-reportlab/4.4.1.20250527/) (2025-05-27)
+## 4.4.1.20250527 (2025-05-27)
 
-* reportlab: add some types for canvas ([#14152](https://github.com/python/typeshed/pull/14152))
+reportlab: add some types for canvas ([#14152](https://github.com/python/typeshed/pull/14152))
 
-## [4.4.1.20250516](https://pypi.org/project/types-reportlab/4.4.1.20250516/) (2025-05-16)
+## 4.4.1.20250516 (2025-05-16)
 
-* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-* Update reportlab to 4.4.1 ([#14073](https://github.com/python/typeshed/pull/14073))
+Update reportlab to 4.4.1 ([#14073](https://github.com/python/typeshed/pull/14073))
 
-## [4.4.0.20250515](https://pypi.org/project/types-reportlab/4.4.0.20250515/) (2025-05-15)
+## 4.4.0.20250515 (2025-05-15)
 
-* reportlab: canvas.getPageNumber() returns int ([#14066](https://github.com/python/typeshed/pull/14066))
+reportlab: canvas.getPageNumber() returns int ([#14066](https://github.com/python/typeshed/pull/14066))
 
-## [4.4.0.20250429](https://pypi.org/project/types-reportlab/4.4.0.20250429/) (2025-04-29)
+## 4.4.0.20250429 (2025-04-29)
 
-* Bump reportlab to 4.4.* ([#13857](https://github.com/python/typeshed/pull/13857))
+Bump reportlab to 4.4.* ([#13857](https://github.com/python/typeshed/pull/13857))
 
-## [4.3.1.20250401](https://pypi.org/project/types-reportlab/4.3.1.20250401/) (2025-04-01)
+## 4.3.1.20250401 (2025-04-01)
 
-* Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
+Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
 
-    ---------
+---------
 
-    Co-authored-by: Avasam <samuel.06@hotmail.com>
+Co-authored-by: Avasam <samuel.06@hotmail.com>
 
-## [4.3.1.20250219](https://pypi.org/project/types-reportlab/4.3.1.20250219/) (2025-02-19)
+## 4.3.1.20250219 (2025-02-19)
 
-* Bump reportlab to 4.3.1 ([#13510](https://github.com/python/typeshed/pull/13510))
+Bump reportlab to 4.3.1 ([#13510](https://github.com/python/typeshed/pull/13510))
 
-## [4.2.5.20250130](https://pypi.org/project/types-reportlab/4.2.5.20250130/) (2025-01-30)
+## 4.2.5.20250130 (2025-01-30)
 
-* Upgrade Black and Ruff ([#13443](https://github.com/python/typeshed/pull/13443))
+Upgrade Black and Ruff ([#13443](https://github.com/python/typeshed/pull/13443))
 
-## [4.2.5.20241221](https://pypi.org/project/types-reportlab/4.2.5.20241221/) (2024-12-21)
+## 4.2.5.20241221 (2024-12-21)
 
-* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
-## [4.2.5.20241002](https://pypi.org/project/types-reportlab/4.2.5.20241002/) (2024-10-02)
+## 4.2.5.20241002 (2024-10-02)
 
-* Bump reportlab to 4.2.5 ([#12719](https://github.com/python/typeshed/pull/12719))
+[stubsabot] Bump reportlab to 4.2.5 ([#12719](https://github.com/python/typeshed/pull/12719))
 
-    Release: https://pypi.org/pypi/reportlab/4.2.5 \
-    Homepage: https://www.reportlab.com/ \
-    Repository: https://github.com/MrBitBucket/reportlab-mirror \
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/reportlab
+Release: https://pypi.org/pypi/reportlab/4.2.5
+Homepage: https://www.reportlab.com/
+Repository: https://github.com/MrBitBucket/reportlab-mirror
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/reportlab
 
-    If stubtest fails for this PR:
-    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-    - Fix stubtest failures in another PR, then close this PR
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
 
-    Note that you will need to close and re-open the PR in order to trigger CI
+Note that you will need to close and re-open the PR in order to trigger CI
 
-    Co-authored-by: stubsabot <>
+Co-authored-by: stubsabot <>
 
-## [4.2.4.20240930](https://pypi.org/project/types-reportlab/4.2.4.20240930/) (2024-09-30)
+## 4.2.4.20240930 (2024-09-30)
 
-* Bump reportlab to 4.2.4 ([#12701](https://github.com/python/typeshed/pull/12701))
+Bump reportlab to 4.2.4 ([#12701](https://github.com/python/typeshed/pull/12701))
 
-## [4.2.2.20240819](https://pypi.org/project/types-reportlab/4.2.2.20240819/) (2024-08-19)
+## 4.2.2.20240819 (2024-08-19)
 
-* Forbid extremely long line lengths in non-autogenerated stubs ([#12537](https://github.com/python/typeshed/pull/12537))
+Forbid extremely long line lengths in non-autogenerated stubs ([#12537](https://github.com/python/typeshed/pull/12537))
 
-    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## [4.2.2.20240806](https://pypi.org/project/types-reportlab/4.2.2.20240806/) (2024-08-06)
+## 4.2.2.20240806 (2024-08-06)
 
-* Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
+Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
 
-## [4.2.2.20240701](https://pypi.org/project/types-reportlab/4.2.2.20240701/) (2024-07-01)
+## 4.2.2.20240701 (2024-07-01)
 
-* Bump reportlab to 4.2.2 ([#12227](https://github.com/python/typeshed/pull/12227))
+Bump reportlab to 4.2.2 ([#12227](https://github.com/python/typeshed/pull/12227))
 
-## [4.2.0.20240627](https://pypi.org/project/types-reportlab/4.2.0.20240627/) (2024-06-27)
+## 4.2.0.20240627 (2024-06-27)
 
-* Add upstream_repository for reportlab ([#12223](https://github.com/python/typeshed/pull/12223))
+Add upstream_repository for reportlab ([#12223](https://github.com/python/typeshed/pull/12223))
 
-    This was found at https://docs.reportlab.com/releases/#reportlab-build-process
+This was found at https://docs.reportlab.com/releases/#reportlab-build-process
 
-* Pin reportlab to version 4.2.0 ([#12220](https://github.com/python/typeshed/pull/12220))
+Pin reportlab to version 4.2.0 ([#12220](https://github.com/python/typeshed/pull/12220))
 
-    Part of #12213
+Part of #12213
 
-## [4.2.0.20240530](https://pypi.org/project/types-reportlab/4.2.0.20240530/) (2024-05-30)
+## 4.2.0.20240530 (2024-05-30)
 
-* reportlab: Add some basic type hints for graphics rendering API ([#12051](https://github.com/python/typeshed/pull/12051))
+reportlab: Add some basic type hints for graphics rendering API ([#12051](https://github.com/python/typeshed/pull/12051))
 
-## [4.2.0.20240525](https://pypi.org/project/types-reportlab/4.2.0.20240525/) (2024-05-25)
+## 4.2.0.20240525 (2024-05-25)
 
-* Adds stubs for reportlab ([#12013](https://github.com/python/typeshed/pull/12013))
+Adds stubs for reportlab ([#12013](https://github.com/python/typeshed/pull/12013))
 

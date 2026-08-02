@@ -21,112 +21,112 @@
 
 * Complete adapters.utils ([#16061](https://github.com/python/typeshed/pull/16061))
 
-## [1.4.0.20260712](https://pypi.org/project/types-pika/1.4.0.20260712/) (2026-07-12)
+## 1.4.0.20260712 (2026-07-12)
 
-* Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))
+Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))
 
-    Class members such as list, type, cursor, Model, and datetime shadow the builtins, classes, or modules referenced by nearby annotations. ty then resolves those annotations to Unknown, which can hide invalid calls in APIs including docker, sqlite3, psycopg2, Markdown, and requests.
+Class members such as list, type, cursor, Model, and datetime shadow the builtins, classes, or modules referenced by nearby annotations. ty then resolves those annotations to Unknown, which can hide invalid calls in APIs including docker, sqlite3, psycopg2, Markdown, and requests.
 
-    Qualify shadowed builtins and use private aliases for colliding imports and classes. This removes 15 stdlib and 120 third-party collision diagnostics under ty 0.0.58, restores the affected public types, and fixes four existing psycopg2 type assertions.
+Qualify shadowed builtins and use private aliases for colliding imports and classes. This removes 15 stdlib and 120 third-party collision diagnostics under ty 0.0.58, restores the affected public types, and fixes four existing psycopg2 type assertions.
 
-## [1.4.0.20260518](https://pypi.org/project/types-pika/1.4.0.20260518/) (2026-05-18)
+## 1.4.0.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [1.4.0.20260510](https://pypi.org/project/types-pika/1.4.0.20260510/) (2026-05-10)
+## 1.4.0.20260510 (2026-05-10)
 
-* Update to 1.4.* ([#15722](https://github.com/python/typeshed/pull/15722))
+[pika] Update to 1.4.* ([#15722](https://github.com/python/typeshed/pull/15722))
 
-## [1.3.0.20260508](https://pypi.org/project/types-pika/1.3.0.20260508/) (2026-05-08)
+## 1.3.0.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [1.3.0.20260502](https://pypi.org/project/types-pika/1.3.0.20260502/) (2026-05-02)
+## 1.3.0.20260502 (2026-05-02)
 
-* BlockingConnection.process_data_events accepts None ([#15690](https://github.com/python/typeshed/pull/15690))
+[pika] BlockingConnection.process_data_events accepts None ([#15690](https://github.com/python/typeshed/pull/15690))
 
-## [1.3.0.20260408](https://pypi.org/project/types-pika/1.3.0.20260408/) (2026-04-08)
+## 1.3.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [1.3.0.20260402](https://pypi.org/project/types-pika/1.3.0.20260402/) (2026-04-02)
+## 1.3.0.20260402 (2026-04-02)
 
-* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-* Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
 
-## [1.3.0.20250914](https://pypi.org/project/types-pika/1.3.0.20250914/) (2025-09-14)
+## 1.3.0.20250914 (2025-09-14)
 
-* Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
+Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
 
-## [1.3.0.20250822](https://pypi.org/project/types-pika/1.3.0.20250822/) (2025-08-22)
+## 1.3.0.20250822 (2025-08-22)
 
-* Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
 
-* Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
 
-## [1.3.0.20250809](https://pypi.org/project/types-pika/1.3.0.20250809/) (2025-08-09)
+## 1.3.0.20250809 (2025-08-09)
 
-* Fix dunder-method positional-only parameter discrepancies in third-party stubs ([#14529](https://github.com/python/typeshed/pull/14529))
+Fix dunder-method positional-only parameter discrepancies in third-party stubs ([#14529](https://github.com/python/typeshed/pull/14529))
 
-* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## [1.3.0.20250516](https://pypi.org/project/types-pika/1.3.0.20250516/) (2025-05-16)
+## 1.3.0.20250516 (2025-05-16)
 
-* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## [1.3.0.20250401](https://pypi.org/project/types-pika/1.3.0.20250401/) (2025-04-01)
+## 1.3.0.20250401 (2025-04-01)
 
-* Improve `pika` ([#13739](https://github.com/python/typeshed/pull/13739))
+Improve `pika` ([#13739](https://github.com/python/typeshed/pull/13739))
 
-## [1.3.0.20241203](https://pypi.org/project/types-pika/1.3.0.20241203/) (2024-12-03)
+## 1.3.0.20241203 (2024-12-03)
 
-* Use protocol for _Credentials ([#13159](https://github.com/python/typeshed/pull/13159))
+[pika] Use protocol for _Credentials ([#13159](https://github.com/python/typeshed/pull/13159))
 
-## [1.3.0.20241105](https://pypi.org/project/types-pika/1.3.0.20241105/) (2024-11-05)
+## 1.3.0.20241105 (2024-11-05)
 
-* remove unused io-related allowlist entries ([#12955](https://github.com/python/typeshed/pull/12955))
+remove unused io-related allowlist entries ([#12955](https://github.com/python/typeshed/pull/12955))
 
-    fallout from https://github.com/python/typeshed/pull/12947
+fallout from https://github.com/python/typeshed/pull/12947
 
-    fixes https://github.com/python/typeshed/issues/12954
+fixes https://github.com/python/typeshed/issues/12954
 
-## [1.3.0.20240423](https://pypi.org/project/types-pika/1.3.0.20240423/) (2024-04-23)
+## 1.3.0.20240423 (2024-04-23)
 
-* Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
+Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
 
-    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com> \
-    Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
-## [1.3.0.20240318](https://pypi.org/project/types-pika/1.3.0.20240318/) (2024-03-18)
+## 1.3.0.20240318 (2024-03-18)
 
-* Use `Final = ...` instead of `Final[Literal]` ([#11623](https://github.com/python/typeshed/pull/11623))
+Use `Final = ...` instead of `Final[Literal]` ([#11623](https://github.com/python/typeshed/pull/11623))
 
-## [1.3.0.20240205](https://pypi.org/project/types-pika/1.3.0.20240205/) (2024-02-05)
+## 1.3.0.20240205 (2024-02-05)
 
-* A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
+A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
 
-## [1.3.0.20240127](https://pypi.org/project/types-pika/1.3.0.20240127/) (2024-01-27)
+## 1.3.0.20240127 (2024-01-27)
 
-* Update mypy issue reference to duplicated original issue ([#11320](https://github.com/python/typeshed/pull/11320))
+Update mypy issue reference to duplicated original issue ([#11320](https://github.com/python/typeshed/pull/11320))
 
-    See https://github.com/python/mypy/issues/13975#issuecomment-1912484800
+See https://github.com/python/mypy/issues/13975#issuecomment-1912484800
 
-## [1.3.0.20240106](https://pypi.org/project/types-pika/1.3.0.20240106/) (2024-01-06)
+## 1.3.0.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## [1.3.0.15](https://pypi.org/project/types-pika/1.3.0.15/) (2023-11-24)
+## 1.3.0.15 (2023-11-24)
 
-* Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
+Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
 
-## [1.3.0.14](https://pypi.org/project/types-pika/1.3.0.14/) (2023-11-09)
+## 1.3.0.14 (2023-11-09)
 
-* Bump flake8-pyi to 23.11.0 ([#10997](https://github.com/python/typeshed/pull/10997))
+Bump flake8-pyi to 23.11.0 ([#10997](https://github.com/python/typeshed/pull/10997))
 
 ## 1.3.0.13 (2023-08-30)
 

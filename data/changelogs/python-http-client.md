@@ -1,16 +1,16 @@
-## [3.3.7.20260518](https://pypi.org/project/types-python-http-client/3.3.7.20260518/) (2026-05-18)
+## 3.3.7.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [3.3.7.20260408](https://pypi.org/project/types-python-http-client/3.3.7.20260408/) (2026-04-08)
+## 3.3.7.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [3.3.7.20250708](https://pypi.org/project/types-python-http-client/3.3.7.20250708/) (2025-07-08)
+## 3.3.7.20250708 (2025-07-08)
 
-* Remove from pyrightconfig ([#14321](https://github.com/python/typeshed/pull/14321))
+[python-http-client] Remove from pyrightconfig ([#14321](https://github.com/python/typeshed/pull/14321))
 
-## [3.3.7.20240910](https://pypi.org/project/types-python-http-client/3.3.7.20240910/) (2024-09-10)
+## 3.3.7.20240910 (2024-09-10)
 
-* Add stubs for `python-http-client` ([#12626](https://github.com/python/typeshed/pull/12626))
+Add stubs for `python-http-client` ([#12626](https://github.com/python/typeshed/pull/12626))
 

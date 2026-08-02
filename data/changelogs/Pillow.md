@@ -1,77 +1,77 @@
-## [10.2.0.20240822](https://pypi.org/project/types-Pillow/10.2.0.20240822/) (2024-08-22)
+## 10.2.0.20240822 (2024-08-22)
 
-* Using precise code for `pyright: ignore` and re-enabling various pyright tests ([#12576](https://github.com/python/typeshed/pull/12576))
+Using precise code for `pyright: ignore` and re-enabling various pyright tests ([#12576](https://github.com/python/typeshed/pull/12576))
 
-## [10.2.0.20240520](https://pypi.org/project/types-Pillow/10.2.0.20240520/) (2024-05-20)
+## 10.2.0.20240520 (2024-05-20)
 
-* Use assignments for enums in pillow ([#11959](https://github.com/python/typeshed/pull/11959))
+Use assignments for enums in pillow ([#11959](https://github.com/python/typeshed/pull/11959))
 
-## [10.2.0.20240511](https://pypi.org/project/types-Pillow/10.2.0.20240511/) (2024-05-11)
+## 10.2.0.20240511 (2024-05-11)
 
-* Add typehints for `open` in `PIL.WallImageFile` ([#11887](https://github.com/python/typeshed/pull/11887))
+Add typehints for `open` in `PIL.WallImageFile` ([#11887](https://github.com/python/typeshed/pull/11887))
 
-## [10.2.0.20240423](https://pypi.org/project/types-Pillow/10.2.0.20240423/) (2024-04-23)
+## 10.2.0.20240423 (2024-04-23)
 
-* Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
+Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
 
-    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com> \
-    Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
-## [10.2.0.20240415](https://pypi.org/project/types-Pillow/10.2.0.20240415/) (2024-04-15)
+## 10.2.0.20240415 (2024-04-15)
 
-* Mark Pillow as obsolete since 10.3.0 ([#11698](https://github.com/python/typeshed/pull/11698))
+[stubsabot] Mark Pillow as obsolete since 10.3.0 ([#11698](https://github.com/python/typeshed/pull/11698))
 
-## [10.2.0.20240406](https://pypi.org/project/types-Pillow/10.2.0.20240406/) (2024-04-06)
+## 10.2.0.20240406 (2024-04-06)
 
-* Depend on Pillow instead of types-Pillow ([#11720](https://github.com/python/typeshed/pull/11720))
+Depend on Pillow instead of types-Pillow ([#11720](https://github.com/python/typeshed/pull/11720))
 
-## [10.2.0.20240331](https://pypi.org/project/types-Pillow/10.2.0.20240331/) (2024-03-31)
+## 10.2.0.20240331 (2024-03-31)
 
-* Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
+Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
 
-## [10.2.0.20240324](https://pypi.org/project/types-Pillow/10.2.0.20240324/) (2024-03-24)
+## 10.2.0.20240324 (2024-03-24)
 
-* Annotate ImageSequence.pyi ([#11625](https://github.com/python/typeshed/pull/11625))
+[Pillow] Annotate ImageSequence.pyi ([#11625](https://github.com/python/typeshed/pull/11625))
 
-## [10.2.0.20240311](https://pypi.org/project/types-Pillow/10.2.0.20240311/) (2024-03-11)
+## 10.2.0.20240311 (2024-03-11)
 
-* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## [10.2.0.20240213](https://pypi.org/project/types-Pillow/10.2.0.20240213/) (2024-02-13)
+## 10.2.0.20240213 (2024-02-13)
 
-* Pillow: Allow float(s) for cutoff param of autocontrast ([#11409](https://github.com/python/typeshed/pull/11409))
+Pillow: Allow float(s) for cutoff param of autocontrast ([#11409](https://github.com/python/typeshed/pull/11409))
 
-* Pillow: ImageOps.autocontrast can set low and high cutoffs separately ([#11408](https://github.com/python/typeshed/pull/11408))
+Pillow: ImageOps.autocontrast can set low and high cutoffs separately ([#11408](https://github.com/python/typeshed/pull/11408))
 
-    ImageOps.autocontrast can set low and high cutoffs separately
+ImageOps.autocontrast can set low and high cutoffs separately
 
-## [10.2.0.20240206](https://pypi.org/project/types-Pillow/10.2.0.20240206/) (2024-02-06)
+## 10.2.0.20240206 (2024-02-06)
 
-* Type `obj` parameter of `PIL.Image.fromarray` ([#11176](https://github.com/python/typeshed/pull/11176))
+Type `obj` parameter of `PIL.Image.fromarray` ([#11176](https://github.com/python/typeshed/pull/11176))
 
-## [10.2.0.20240125](https://pypi.org/project/types-Pillow/10.2.0.20240125/) (2024-01-25)
+## 10.2.0.20240125 (2024-01-25)
 
-* Add a number of properties to PIL.ImageStat.Stat ([#11303](https://github.com/python/typeshed/pull/11303))
+Add a number of properties to PIL.ImageStat.Stat ([#11303](https://github.com/python/typeshed/pull/11303))
 
-## [10.2.0.20240111](https://pypi.org/project/types-Pillow/10.2.0.20240111/) (2024-01-11)
+## 10.2.0.20240111 (2024-01-11)
 
-* Update to 10.2.* ([#11232](https://github.com/python/typeshed/pull/11232))
+[Pillow] Update to 10.2.* ([#11232](https://github.com/python/typeshed/pull/11232))
 
-## [10.1.0.20240106](https://pypi.org/project/types-Pillow/10.1.0.20240106/) (2024-01-06)
+## 10.1.0.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## [10.1.0.2](https://pypi.org/project/types-Pillow/10.1.0.2/) (2023-11-11)
+## 10.1.0.2 (2023-11-11)
 
-* third-party: make some protocol params pos-only ([#11006](https://github.com/python/typeshed/pull/11006))
+third-party: make some protocol params pos-only ([#11006](https://github.com/python/typeshed/pull/11006))
 
-## [10.1.0.1](https://pypi.org/project/types-Pillow/10.1.0.1/) (2023-11-09)
+## 10.1.0.1 (2023-11-09)
 
-* Bump flake8-pyi to 23.11.0 ([#10997](https://github.com/python/typeshed/pull/10997))
+Bump flake8-pyi to 23.11.0 ([#10997](https://github.com/python/typeshed/pull/10997))
 
-## [10.1.0.0](https://pypi.org/project/types-Pillow/10.1.0.0/) (2023-10-17)
+## 10.1.0.0 (2023-10-17)
 
-* Bump Pillow to 10.1.* ([#10897](https://github.com/python/typeshed/pull/10897))
+Bump Pillow to 10.1.* ([#10897](https://github.com/python/typeshed/pull/10897))
 
 ## 10.0.0.3 (2023-09-05)
 

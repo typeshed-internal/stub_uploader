@@ -1,104 +1,104 @@
-## [6.2.4.20260711](https://pypi.org/project/types-croniter/6.2.4.20260711/) (2026-07-11)
+## 6.2.4.20260711 (2026-07-11)
 
-* Bump to 6.2.4 ([#15995](https://github.com/python/typeshed/pull/15995))
+[croniter] Bump to 6.2.4 ([#15995](https://github.com/python/typeshed/pull/15995))
 
-## [6.2.3.20260704](https://pypi.org/project/types-croniter/6.2.3.20260704/) (2026-07-04)
+## 6.2.3.20260704 (2026-07-04)
 
-* Bump to 6.2.3 ([#15972](https://github.com/python/typeshed/pull/15972))
+[croniter] Bump to 6.2.3 ([#15972](https://github.com/python/typeshed/pull/15972))
 
-## [6.2.2.20260518](https://pypi.org/project/types-croniter/6.2.2.20260518/) (2026-05-18)
+## 6.2.2.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [6.2.2.20260508](https://pypi.org/project/types-croniter/6.2.2.20260508/) (2026-05-08)
+## 6.2.2.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [6.2.2.20260408](https://pypi.org/project/types-croniter/6.2.2.20260408/) (2026-04-08)
+## 6.2.2.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [6.2.2.20260402](https://pypi.org/project/types-croniter/6.2.2.20260402/) (2026-04-02)
+## 6.2.2.20260402 (2026-04-02)
 
-* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-## [6.2.2.20260316](https://pypi.org/project/types-croniter/6.2.2.20260316/) (2026-03-16)
+## 6.2.2.20260316 (2026-03-16)
 
-* Bump croniter to 6.2.2 ([#15520](https://github.com/python/typeshed/pull/15520))
+[stubsabot] Bump croniter to 6.2.2 ([#15520](https://github.com/python/typeshed/pull/15520))
 
-* Update to 6.2.0 ([#15511](https://github.com/python/typeshed/pull/15511))
+[croniter] Update to 6.2.0 ([#15511](https://github.com/python/typeshed/pull/15511))
 
-## [6.0.0.20250809](https://pypi.org/project/types-croniter/6.0.0.20250809/) (2025-08-09)
+## 6.0.0.20250809 (2025-08-09)
 
-* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## [6.0.0.20250626](https://pypi.org/project/types-croniter/6.0.0.20250626/) (2025-06-26)
+## 6.0.0.20250626 (2025-06-26)
 
-* croniter: fix typo ([#14337](https://github.com/python/typeshed/pull/14337))
+croniter: fix typo ([#14337](https://github.com/python/typeshed/pull/14337))
 
-    Had to stare at this stub for a while to notice the bug...
+Had to stare at this stub for a while to notice the bug...
 
-## [6.0.0.20250411](https://pypi.org/project/types-croniter/6.0.0.20250411/) (2025-04-11)
+## 6.0.0.20250411 (2025-04-11)
 
-* Update croniter to 6.0.0 ([#13548](https://github.com/python/typeshed/pull/13548))
+Update croniter to 6.0.0 ([#13548](https://github.com/python/typeshed/pull/13548))
 
-    Make class `croniter` generic over `ret_type` and tighten return types for some methods.
+Make class `croniter` generic over `ret_type` and tighten return types for some methods.
 
-## [5.0.1.20250322](https://pypi.org/project/types-croniter/5.0.1.20250322/) (2025-03-22)
+## 5.0.1.20250322 (2025-03-22)
 
-* Update croniter repository URL ([#13698](https://github.com/python/typeshed/pull/13698))
+Update croniter repository URL ([#13698](https://github.com/python/typeshed/pull/13698))
 
-    Cf. #13260 pallets-eco/croniter#144
+Cf. #13260 pallets-eco/croniter#144
 
-## [5.0.1.20241205](https://pypi.org/project/types-croniter/5.0.1.20241205/) (2024-12-05)
+## 5.0.1.20241205 (2024-12-05)
 
-* Update to 5.0.1 ([#12926](https://github.com/python/typeshed/pull/12926))
+[croniter] Update to 5.0.1 ([#12926](https://github.com/python/typeshed/pull/12926))
 
-## [4.0.0.20241030](https://pypi.org/project/types-croniter/4.0.0.20241030/) (2024-10-30)
+## 4.0.0.20241030 (2024-10-30)
 
-* Bump croniter to 4.0.0 ([#12914](https://github.com/python/typeshed/pull/12914))
+[stubsabot] Bump croniter to 4.0.0 ([#12914](https://github.com/python/typeshed/pull/12914))
 
-## [3.0.4.20241027](https://pypi.org/project/types-croniter/3.0.4.20241027/) (2024-10-27)
+## 3.0.4.20241027 (2024-10-27)
 
-* Update to 3.0.4 ([#12909](https://github.com/python/typeshed/pull/12909))
+[croniter] Update to 3.0.4 ([#12909](https://github.com/python/typeshed/pull/12909))
 
-## [3.0.3.20240731](https://pypi.org/project/types-croniter/3.0.3.20240731/) (2024-07-31)
+## 3.0.3.20240731 (2024-07-31)
 
-* Bump croniter to 3.0.3 ([#12443](https://github.com/python/typeshed/pull/12443))
+Bump croniter to 3.0.3 ([#12443](https://github.com/python/typeshed/pull/12443))
 
-## [3.0.0.20240727](https://pypi.org/project/types-croniter/3.0.0.20240727/) (2024-07-27)
+## 3.0.0.20240727 (2024-07-27)
 
-* Pin croniter to 3.0.0 ([#12434](https://github.com/python/typeshed/pull/12434))
+Pin croniter to 3.0.0 ([#12434](https://github.com/python/typeshed/pull/12434))
 
-## [3.0.0.20240726](https://pypi.org/project/types-croniter/3.0.0.20240726/) (2024-07-26)
+## 3.0.0.20240726 (2024-07-26)
 
-* Bump croniter to 3.0.* ([#12422](https://github.com/python/typeshed/pull/12422))
+Bump croniter to 3.0.* ([#12422](https://github.com/python/typeshed/pull/12422))
 
-## [2.0.5.20240722](https://pypi.org/project/types-croniter/2.0.5.20240722/) (2024-07-22)
+## 2.0.5.20240722 (2024-07-22)
 
-* Bump croniter to 2.0.* ([#12364](https://github.com/python/typeshed/pull/12364))
+Bump croniter to 2.0.* ([#12364](https://github.com/python/typeshed/pull/12364))
 
-## [2.0.5.20240717](https://pypi.org/project/types-croniter/2.0.5.20240717/) (2024-07-17)
+## 2.0.5.20240717 (2024-07-17)
 
-* Pin `croniter` to 2.0.5 ([#12356](https://github.com/python/typeshed/pull/12356))
+Pin `croniter` to 2.0.5 ([#12356](https://github.com/python/typeshed/pull/12356))
 
-## [2.0.0.20240423](https://pypi.org/project/types-croniter/2.0.0.20240423/) (2024-04-23)
+## 2.0.0.20240423 (2024-04-23)
 
-* croniter: add new `encoding` parameter to `is_valid` ([#11808](https://github.com/python/typeshed/pull/11808))
+croniter: add new `encoding` parameter to `is_valid` ([#11808](https://github.com/python/typeshed/pull/11808))
 
-## [2.0.0.20240321](https://pypi.org/project/types-croniter/2.0.0.20240321/) (2024-03-21)
+## 2.0.0.20240321 (2024-03-21)
 
-* Update to 2.0.3 ([#11631](https://github.com/python/typeshed/pull/11631))
+[croniter] Update to 2.0.3 ([#11631](https://github.com/python/typeshed/pull/11631))
 
-## [2.0.0.20240318](https://pypi.org/project/types-croniter/2.0.0.20240318/) (2024-03-18)
+## 2.0.0.20240318 (2024-03-18)
 
-* Use `Final = ...` instead of `Final[Literal]` ([#11623](https://github.com/python/typeshed/pull/11623))
+Use `Final = ...` instead of `Final[Literal]` ([#11623](https://github.com/python/typeshed/pull/11623))
 
-## [2.0.0.20240106](https://pypi.org/project/types-croniter/2.0.0.20240106/) (2024-01-06)
+## 2.0.0.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 2.0.0.0 (2023-10-11)
 

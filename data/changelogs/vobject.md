@@ -1,50 +1,50 @@
-## [0.9.9.20260518](https://pypi.org/project/types-vobject/0.9.9.20260518/) (2026-05-18)
+## 0.9.9.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [0.9.9.20260408](https://pypi.org/project/types-vobject/0.9.9.20260408/) (2026-04-08)
+## 0.9.9.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [0.9.9.20250708](https://pypi.org/project/types-vobject/0.9.9.20250708/) (2025-07-08)
+## 0.9.9.20250708 (2025-07-08)
 
-* Improve stubs ([#14299](https://github.com/python/typeshed/pull/14299))
+[vobject] Improve stubs ([#14299](https://github.com/python/typeshed/pull/14299))
 
-## [0.9.9.20250601](https://pypi.org/project/types-vobject/0.9.9.20250601/) (2025-06-01)
+## 0.9.9.20250601 (2025-06-01)
 
-* Partly annotate validate methods ([#14205](https://github.com/python/typeshed/pull/14205))
+[vobject] Partly annotate validate methods ([#14205](https://github.com/python/typeshed/pull/14205))
 
-    Should help with #14194
+Should help with #14194
 
-## [0.9.9.20250516](https://pypi.org/project/types-vobject/0.9.9.20250516/) (2025-05-16)
+## 0.9.9.20250516 (2025-05-16)
 
-* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## [0.9.9.20250228](https://pypi.org/project/types-vobject/0.9.9.20250228/) (2025-02-28)
+## 0.9.9.20250228 (2025-02-28)
 
-* Fix constructor args for two vobject classes ([#13360](https://github.com/python/typeshed/pull/13360))
+Fix constructor args for two vobject classes ([#13360](https://github.com/python/typeshed/pull/13360))
 
-## [0.9.9.20241219](https://pypi.org/project/types-vobject/0.9.9.20241219/) (2024-12-19)
+## 0.9.9.20241219 (2024-12-19)
 
-* Replace `typing.Any` with `_typeshed.Incomplete` ([#13265](https://github.com/python/typeshed/pull/13265))
+[vobject] Replace `typing.Any` with `_typeshed.Incomplete` ([#13265](https://github.com/python/typeshed/pull/13265))
 
-* Update to 0.9.9 ([#13263](https://github.com/python/typeshed/pull/13263))
+[vobject] Update to 0.9.9 ([#13263](https://github.com/python/typeshed/pull/13263))
 
-    Update repository URL
+Update repository URL
 
-## [0.9.8.20241003](https://pypi.org/project/types-vobject/0.9.8.20241003/) (2024-10-03)
+## 0.9.8.20241003 (2024-10-03)
 
-* Update vobject ([#12721](https://github.com/python/typeshed/pull/12721))
+Update vobject ([#12721](https://github.com/python/typeshed/pull/12721))
 
-## [0.9.8.20240310](https://pypi.org/project/types-vobject/0.9.8.20240310/) (2024-03-10)
+## 0.9.8.20240310 (2024-03-10)
 
-* Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
+Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
 
-    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## [0.9.8.20240106](https://pypi.org/project/types-vobject/0.9.8.20240106/) (2024-01-06)
+## 0.9.8.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 0.9.8.12 (2023-07-20)
 

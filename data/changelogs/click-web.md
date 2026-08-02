@@ -2,41 +2,41 @@
 
 * Use optional-dependencies for third-party packages ([#16089](https://github.com/python/typeshed/pull/16089))
 
-## [0.8.0.20260518](https://pypi.org/project/types-click-web/0.8.0.20260518/) (2026-05-18)
+## 0.8.0.20260518 (2026-05-18)
 
-* Parametrize `click.types.ParamType` as base class in `click_web.web_click_types` ([#15803](https://github.com/python/typeshed/pull/15803))
+Parametrize `click.types.ParamType` as base class in `click_web.web_click_types` ([#15803](https://github.com/python/typeshed/pull/15803))
 
-## [0.8.0.20260508](https://pypi.org/project/types-click-web/0.8.0.20260508/) (2026-05-08)
+## 0.8.0.20260508 (2026-05-08)
 
-* Drop 3.9 support for third-party packages ([#15707](https://github.com/python/typeshed/pull/15707))
+Drop 3.9 support for third-party packages ([#15707](https://github.com/python/typeshed/pull/15707))
 
-    Inline some unnecessary type aliases
+Inline some unnecessary type aliases
 
-## [0.8.0.20260408](https://pypi.org/project/types-click-web/0.8.0.20260408/) (2026-04-08)
+## 0.8.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [0.8.0.20260402](https://pypi.org/project/types-click-web/0.8.0.20260402/) (2026-04-02)
+## 0.8.0.20260402 (2026-04-02)
 
-* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-## [0.8.0.20250708](https://pypi.org/project/types-click-web/0.8.0.20250708/) (2025-07-08)
+## 0.8.0.20250708 (2025-07-08)
 
-* Remove from pyrightconfig ([#14312](https://github.com/python/typeshed/pull/14312))
+[click-web] Remove from pyrightconfig ([#14312](https://github.com/python/typeshed/pull/14312))
 
-## [0.8.0.20250511](https://pypi.org/project/types-click-web/0.8.0.20250511/) (2025-05-11)
+## 0.8.0.20250511 (2025-05-11)
 
-* Fixes after click 8.2.0 release ([#14001](https://github.com/python/typeshed/pull/14001))
+[click-web] Fixes after click 8.2.0 release ([#14001](https://github.com/python/typeshed/pull/14001))
 
-## [0.8.0.20250413](https://pypi.org/project/types-click-web/0.8.0.20250413/) (2025-04-13)
+## 0.8.0.20250413 (2025-04-13)
 
-* Import names from typing directly rather than importing module ([#13761](https://github.com/python/typeshed/pull/13761))
+Import names from typing directly rather than importing module ([#13761](https://github.com/python/typeshed/pull/13761))
 
-## [0.8.0.20250412](https://pypi.org/project/types-click-web/0.8.0.20250412/) (2025-04-12)
+## 0.8.0.20250412 (2025-04-12)
 
-* Complete stubs for `click-web` ([#13806](https://github.com/python/typeshed/pull/13806))
+Complete stubs for `click-web` ([#13806](https://github.com/python/typeshed/pull/13806))
 
-## [0.8.0.20241229](https://pypi.org/project/types-click-web/0.8.0.20241229/) (2024-12-29)
+## 0.8.0.20241229 (2024-12-29)
 
-* Add stubs for "click-web" package ([#13208](https://github.com/python/typeshed/pull/13208))
+Add stubs for "click-web" package ([#13208](https://github.com/python/typeshed/pull/13208))
 

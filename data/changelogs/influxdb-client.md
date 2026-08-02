@@ -1,82 +1,82 @@
-## [1.45.0.20241221](https://pypi.org/project/types-influxdb-client/1.45.0.20241221/) (2024-12-21)
+## 1.45.0.20241221 (2024-12-21)
 
-* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
-## [1.45.0.20240915](https://pypi.org/project/types-influxdb-client/1.45.0.20240915/) (2024-09-15)
+## 1.45.0.20240915 (2024-09-15)
 
-* Mark influxdb-client as obsolete since 1.46.0 ([#12655](https://github.com/python/typeshed/pull/12655))
+[stubsabot] Mark influxdb-client as obsolete since 1.46.0 ([#12655](https://github.com/python/typeshed/pull/12655))
 
-## [1.45.0.20240907](https://pypi.org/project/types-influxdb-client/1.45.0.20240907/) (2024-09-07)
+## 1.45.0.20240907 (2024-09-07)
 
-* Use SupportsContainsAndGetItem ([#12612](https://github.com/python/typeshed/pull/12612))
+[influxdb-client] Use SupportsContainsAndGetItem ([#12612](https://github.com/python/typeshed/pull/12612))
 
-## [1.45.0.20240814](https://pypi.org/project/types-influxdb-client/1.45.0.20240814/) (2024-08-14)
+## 1.45.0.20240814 (2024-08-14)
 
-* Bump influxdb-client to 1.45.* ([#12519](https://github.com/python/typeshed/pull/12519))
+[stubsabot] Bump influxdb-client to 1.45.* ([#12519](https://github.com/python/typeshed/pull/12519))
 
-## [1.44.0.20240626](https://pypi.org/project/types-influxdb-client/1.44.0.20240626/) (2024-06-26)
+## 1.44.0.20240626 (2024-06-26)
 
-* Update to 1.44 ([#12209](https://github.com/python/typeshed/pull/12209))
+[influxdb] Update to 1.44 ([#12209](https://github.com/python/typeshed/pull/12209))
 
-## [1.43.0.20240519](https://pypi.org/project/types-influxdb-client/1.43.0.20240519/) (2024-05-19)
+## 1.43.0.20240519 (2024-05-19)
 
-* Update to 1.43.* ([#11954](https://github.com/python/typeshed/pull/11954))
+[influxdb-client] Update to 1.43.* ([#11954](https://github.com/python/typeshed/pull/11954))
 
-## [1.42.0.20240425](https://pypi.org/project/types-influxdb-client/1.42.0.20240425/) (2024-04-25)
+## 1.42.0.20240425 (2024-04-25)
 
-* Introduce SupportsContainsAndGetItem ([#11827](https://github.com/python/typeshed/pull/11827))
+Introduce SupportsContainsAndGetItem ([#11827](https://github.com/python/typeshed/pull/11827))
 
-## [1.42.0.20240423](https://pypi.org/project/types-influxdb-client/1.42.0.20240423/) (2024-04-23)
+## 1.42.0.20240423 (2024-04-23)
 
-* Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
+Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
 
-    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com> \
-    Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
-## [1.42.0.20240419](https://pypi.org/project/types-influxdb-client/1.42.0.20240419/) (2024-04-19)
+## 1.42.0.20240419 (2024-04-19)
 
-* Bump influxdb-client to 1.42.* ([#11779](https://github.com/python/typeshed/pull/11779))
+[stubsabot] Bump influxdb-client to 1.42.* ([#11779](https://github.com/python/typeshed/pull/11779))
 
-## [1.41.0.20240316](https://pypi.org/project/types-influxdb-client/1.41.0.20240316/) (2024-03-16)
+## 1.41.0.20240316 (2024-03-16)
 
-* Bump influxdb-client to 1.41.* ([#11608](https://github.com/python/typeshed/pull/11608))
+Bump influxdb-client to 1.41.* ([#11608](https://github.com/python/typeshed/pull/11608))
 
-## [1.40.0.20240212](https://pypi.org/project/types-influxdb-client/1.40.0.20240212/) (2024-02-12)
+## 1.40.0.20240212 (2024-02-12)
 
-* Bump influxdb-client to 1.40.* ([#11406](https://github.com/python/typeshed/pull/11406))
+[stubsabot] Bump influxdb-client to 1.40.* ([#11406](https://github.com/python/typeshed/pull/11406))
 
-    Release: https://pypi.org/pypi/influxdb-client/1.40.0 \
-    Homepage: https://github.com/influxdata/influxdb-client-python \
-    Repository: https://github.com/influxdata/influxdb-client-python \
-    Diff: https://github.com/influxdata/influxdb-client-python/compare/v1.39.0...v1.40.0
+Release: https://pypi.org/pypi/influxdb-client/1.40.0
+Homepage: https://github.com/influxdata/influxdb-client-python
+Repository: https://github.com/influxdata/influxdb-client-python
+Diff: https://github.com/influxdata/influxdb-client-python/compare/v1.39.0...v1.40.0
 
-    Stubsabot analysis of the diff between the two releases:
-     - 0 public Python files have been added.
-     - 0 files included in typeshed's stubs have been deleted.
-     - 4 files included in typeshed's stubs have been modified or renamed: `influxdb_client/_sync/rest.py`, `influxdb_client/client/write/point.py`, `influxdb_client/client/write_api.py`, `influxdb_client/version.py`.
-     - Total lines of Python code added: 133.
-     - Total lines of Python code deleted: 4.
+Stubsabot analysis of the diff between the two releases:
+ - 0 public Python files have been added.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 4 files included in typeshed's stubs have been modified or renamed: `influxdb_client/_sync/rest.py`, `influxdb_client/client/write/point.py`, `influxdb_client/client/write_api.py`, `influxdb_client/version.py`.
+ - Total lines of Python code added: 133.
+ - Total lines of Python code deleted: 4.
 
-    ---------
+---------
 
-    Co-authored-by: stubsabot <> \
-    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: stubsabot <>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## [1.39.0.20240206](https://pypi.org/project/types-influxdb-client/1.39.0.20240206/) (2024-02-06)
+## 1.39.0.20240206 (2024-02-06)
 
-* influx-db: fix flake8 ([#11365](https://github.com/python/typeshed/pull/11365))
+influx-db: fix flake8 ([#11365](https://github.com/python/typeshed/pull/11365))
 
-* Bump influxdb-client to 1.39.* ([#11116](https://github.com/python/typeshed/pull/11116))
+Bump influxdb-client to 1.39.* ([#11116](https://github.com/python/typeshed/pull/11116))
 
-    Type a few task-related items
+Type a few task-related items
 
-## [1.38.0.20240205](https://pypi.org/project/types-influxdb-client/1.38.0.20240205/) (2024-02-05)
+## 1.38.0.20240205 (2024-02-05)
 
-* A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
+A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
 
-## [1.38.0.20240106](https://pypi.org/project/types-influxdb-client/1.38.0.20240106/) (2024-01-06)
+## 1.38.0.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 1.38.0.1 (2023-10-05)
 

@@ -1,38 +1,38 @@
-## [1.8.3.20260610](https://pypi.org/project/types-python-jenkins/1.8.3.20260610/) (2026-06-10)
+## 1.8.3.20260610 (2026-06-10)
 
-* Change dependencies from types-requests to requests ([#15813](https://github.com/python/typeshed/pull/15813))
+Change dependencies from types-requests to requests ([#15813](https://github.com/python/typeshed/pull/15813))
 
-## [1.8.3.20260518](https://pypi.org/project/types-python-jenkins/1.8.3.20260518/) (2026-05-18)
+## 1.8.3.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [1.8.3.20260508](https://pypi.org/project/types-python-jenkins/1.8.3.20260508/) (2026-05-08)
+## 1.8.3.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [1.8.3.20260408](https://pypi.org/project/types-python-jenkins/1.8.3.20260408/) (2026-04-08)
+## 1.8.3.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [1.8.3.20260402](https://pypi.org/project/types-python-jenkins/1.8.3.20260402/) (2026-04-02)
+## 1.8.3.20260402 (2026-04-02)
 
-* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-## [1.8.3.20251027](https://pypi.org/project/types-python-jenkins/1.8.3.20251027/) (2025-10-27)
+## 1.8.3.20251027 (2025-10-27)
 
-* Improve `get_jobs` and `get_all_jobs` return type ([#14547](https://github.com/python/typeshed/pull/14547))
+[python-jenkins] Improve `get_jobs` and `get_all_jobs` return type ([#14547](https://github.com/python/typeshed/pull/14547))
 
-## [1.8.3.20250805](https://pypi.org/project/types-python-jenkins/1.8.3.20250805/) (2025-08-05)
+## 1.8.3.20250805 (2025-08-05)
 
-* Bump python-jenkins to 1.8.3 ([#14520](https://github.com/python/typeshed/pull/14520))
+Bump python-jenkins to 1.8.3 ([#14520](https://github.com/python/typeshed/pull/14520))
 
-    Co-authored-by: Brian Schubert <brianm.schubert@gmail.com>
+Co-authored-by: Brian Schubert <brianm.schubert@gmail.com>
 
-## [1.8.0.20240921](https://pypi.org/project/types-python-jenkins/1.8.0.20240921/) (2024-09-21)
+## 1.8.0.20240921 (2024-09-21)
 
-* Add stubs for python-jenkins ([#12582](https://github.com/python/typeshed/pull/12582))
+Add stubs for python-jenkins ([#12582](https://github.com/python/typeshed/pull/12582))
 
-    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 

@@ -1,16 +1,16 @@
-## [0.4.0.20260408](https://pypi.org/project/types-pyfarmhash/0.4.0.20260408/) (2026-04-08)
+## 0.4.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [0.4.0.20240902](https://pypi.org/project/types-pyfarmhash/0.4.0.20240902/) (2024-09-02)
+## 0.4.0.20240902 (2024-09-02)
 
-* Bump pyfarmhash to 0.4.* ([#12597](https://github.com/python/typeshed/pull/12597))
+[stubsabot] Bump pyfarmhash to 0.4.* ([#12597](https://github.com/python/typeshed/pull/12597))
 
-    Co-authored-by: stubsabot <>
+Co-authored-by: stubsabot <>
 
-## [0.3.1.20240311](https://pypi.org/project/types-pyfarmhash/0.3.1.20240311/) (2024-03-11)
+## 0.3.1.20240311 (2024-03-11)
 
-* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
 ## 0.3.1.2 (2023-07-20)
 

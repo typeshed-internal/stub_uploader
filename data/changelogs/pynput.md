@@ -1,108 +1,108 @@
-## [1.8.1.20260712](https://pypi.org/project/types-pynput/1.8.1.20260712/) (2026-07-12)
+## 1.8.1.20260712 (2026-07-12)
 
-* Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))
+Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))
 
-    Class members such as list, type, cursor, Model, and datetime shadow the builtins, classes, or modules referenced by nearby annotations. ty then resolves those annotations to Unknown, which can hide invalid calls in APIs including docker, sqlite3, psycopg2, Markdown, and requests.
+Class members such as list, type, cursor, Model, and datetime shadow the builtins, classes, or modules referenced by nearby annotations. ty then resolves those annotations to Unknown, which can hide invalid calls in APIs including docker, sqlite3, psycopg2, Markdown, and requests.
 
-    Qualify shadowed builtins and use private aliases for colliding imports and classes. This removes 15 stdlib and 120 third-party collision diagnostics under ty 0.0.58, restores the affected public types, and fixes four existing psycopg2 type assertions.
+Qualify shadowed builtins and use private aliases for colliding imports and classes. This removes 15 stdlib and 120 third-party collision diagnostics under ty 0.0.58, restores the affected public types, and fixes four existing psycopg2 type assertions.
 
-## [1.8.1.20260603](https://pypi.org/project/types-pynput/1.8.1.20260603/) (2026-06-03)
+## 1.8.1.20260603 (2026-06-03)
 
-* Fix annotations for event callbacks ([#15857](https://github.com/python/typeshed/pull/15857))
+[pynput] Fix annotations for event callbacks ([#15857](https://github.com/python/typeshed/pull/15857))
 
-    They are designed to accept any number of arguments up to the maximum amount, so `on_click()` and `on_click(x, y)` are both perfectly valid callbacks.
+They are designed to accept any number of arguments up to the maximum amount, so `on_click()` and `on_click(x, y)` are both perfectly valid callbacks.
 
-    Also fix callback return types. Technically they accept any return type, but as the only effect is returning `False` stops the iteration, then it makes sense to limit it to `bool | None`.
+Also fix callback return types. Technically they accept any return type, but as the only effect is returning `False` stops the iteration, then it makes sense to limit it to `bool | None`.
 
-## [1.8.1.20260518](https://pypi.org/project/types-pynput/1.8.1.20260518/) (2026-05-18)
+## 1.8.1.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [1.8.1.20260508](https://pypi.org/project/types-pynput/1.8.1.20260508/) (2026-05-08)
+## 1.8.1.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [1.8.1.20260408](https://pypi.org/project/types-pynput/1.8.1.20260408/) (2026-04-08)
+## 1.8.1.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [1.8.1.20260402](https://pypi.org/project/types-pynput/1.8.1.20260402/) (2026-04-02)
+## 1.8.1.20260402 (2026-04-02)
 
-* Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
 
-## [1.8.1.20250809](https://pypi.org/project/types-pynput/1.8.1.20250809/) (2025-08-09)
+## 1.8.1.20250809 (2025-08-09)
 
-* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## [1.8.1.20250801](https://pypi.org/project/types-pynput/1.8.1.20250801/) (2025-08-01)
+## 1.8.1.20250801 (2025-08-01)
 
-* Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
+Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
-    Co-authored-by: Avasam <samuel.06@hotmail.com> \
-    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
-## [1.8.1.20250318](https://pypi.org/project/types-pynput/1.8.1.20250318/) (2025-03-18)
+## 1.8.1.20250318 (2025-03-18)
 
-* Update to 1.8.1 ([#13647](https://github.com/python/typeshed/pull/13647))
+[pynput] Update to 1.8.1 ([#13647](https://github.com/python/typeshed/pull/13647))
 
-## [1.8.0.20250306](https://pypi.org/project/types-pynput/1.8.0.20250306/) (2025-03-06)
+## 1.8.0.20250306 (2025-03-06)
 
-* Bump pynput to 1.8.* ([#13583](https://github.com/python/typeshed/pull/13583))
+Bump pynput to 1.8.* ([#13583](https://github.com/python/typeshed/pull/13583))
 
-## [1.7.8.20250304](https://pypi.org/project/types-pynput/1.7.8.20250304/) (2025-03-04)
+## 1.7.8.20250304 (2025-03-04)
 
-* Enable Ruff PLC (Pylint Convention) ([#13306](https://github.com/python/typeshed/pull/13306))
+Enable Ruff PLC (Pylint Convention) ([#13306](https://github.com/python/typeshed/pull/13306))
 
-## [1.7.8.20250301](https://pypi.org/project/types-pynput/1.7.8.20250301/) (2025-03-01)
+## 1.7.8.20250301 (2025-03-01)
 
-* Bump pynput to 1.7.8 ([#13565](https://github.com/python/typeshed/pull/13565))
+[stubsabot] Bump pynput to 1.7.8 ([#13565](https://github.com/python/typeshed/pull/13565))
 
-## [1.7.7.20241221](https://pypi.org/project/types-pynput/1.7.7.20241221/) (2024-12-21)
+## 1.7.7.20241221 (2024-12-21)
 
-* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
-## [1.7.7.20241127](https://pypi.org/project/types-pynput/1.7.7.20241127/) (2024-11-27)
+## 1.7.7.20241127 (2024-11-27)
 
-* Remove obsolete OptExcInfo from sys ([#13117](https://github.com/python/typeshed/pull/13117))
+Remove obsolete OptExcInfo from sys ([#13117](https://github.com/python/typeshed/pull/13117))
 
-## [1.7.7.20240813](https://pypi.org/project/types-pynput/1.7.7.20240813/) (2024-08-13)
+## 1.7.7.20240813 (2024-08-13)
 
-* Use Generator instead of Iterator for 3rd-party context managers ([#12481](https://github.com/python/typeshed/pull/12481))
+Use Generator instead of Iterator for 3rd-party context managers ([#12481](https://github.com/python/typeshed/pull/12481))
 
-## [1.7.7.20240601](https://pypi.org/project/types-pynput/1.7.7.20240601/) (2024-06-01)
+## 1.7.7.20240601 (2024-06-01)
 
-* Bump pynput to 1.7.7 ([#12069](https://github.com/python/typeshed/pull/12069))
+Bump pynput to 1.7.7 ([#12069](https://github.com/python/typeshed/pull/12069))
 
-## [1.7.6.20240511](https://pypi.org/project/types-pynput/1.7.6.20240511/) (2024-05-11)
+## 1.7.6.20240511 (2024-05-11)
 
-* Pin pynput more tightly ([#11897](https://github.com/python/typeshed/pull/11897))
+Pin pynput more tightly ([#11897](https://github.com/python/typeshed/pull/11897))
 
-    Fixes  #11896
+Fixes  #11896
 
-## [1.7.5.20240423](https://pypi.org/project/types-pynput/1.7.5.20240423/) (2024-04-23)
+## 1.7.5.20240423 (2024-04-23)
 
-* Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
+Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
 
-    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com> \
-    Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
-## [1.7.5.20240311](https://pypi.org/project/types-pynput/1.7.5.20240311/) (2024-03-11)
+## 1.7.5.20240311 (2024-03-11)
 
-* Use Python 3.11 for third-party stubtest in CI ([#11562](https://github.com/python/typeshed/pull/11562))
+Use Python 3.11 for third-party stubtest in CI ([#11562](https://github.com/python/typeshed/pull/11562))
 
-## [1.7.5.20240205](https://pypi.org/project/types-pynput/1.7.5.20240205/) (2024-02-05)
+## 1.7.5.20240205 (2024-02-05)
 
-* A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
+A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
 
-## [1.7.5.20240106](https://pypi.org/project/types-pynput/1.7.5.20240106/) (2024-01-06)
+## 1.7.5.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## [1.7.5.20231222](https://pypi.org/project/types-pynput/1.7.5.20231222/) (2023-12-22)
+## 1.7.5.20231222 (2023-12-22)
 
-* Bump mypy (and a few other test dependencies) ([#11196](https://github.com/python/typeshed/pull/11196))
+Bump mypy (and a few other test dependencies) ([#11196](https://github.com/python/typeshed/pull/11196))
 
 ## 1.7.5.7 (2023-07-20)
 

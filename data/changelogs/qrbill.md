@@ -1,34 +1,34 @@
-## [1.2.0.20260518](https://pypi.org/project/types-qrbill/1.2.0.20260518/) (2026-05-18)
+## 1.2.0.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [1.2.0.20260508](https://pypi.org/project/types-qrbill/1.2.0.20260508/) (2026-05-08)
+## 1.2.0.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [1.2.0.20260408](https://pypi.org/project/types-qrbill/1.2.0.20260408/) (2026-04-08)
+## 1.2.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [1.2.0.20260402](https://pypi.org/project/types-qrbill/1.2.0.20260402/) (2026-04-02)
+## 1.2.0.20260402 (2026-04-02)
 
-* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-* Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
 
-## [1.2.0.20251108](https://pypi.org/project/types-qrbill/1.2.0.20251108/) (2025-11-08)
+## 1.2.0.20251108 (2025-11-08)
 
-* Update to 1.2.* ([#14987](https://github.com/python/typeshed/pull/14987))
+[qrbill] Update to 1.2.* ([#14987](https://github.com/python/typeshed/pull/14987))
 
-## [1.1.0.20241221](https://pypi.org/project/types-qrbill/1.1.0.20241221/) (2024-12-21)
+## 1.1.0.20241221 (2024-12-21)
 
-* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
-## [1.1.0.20240412](https://pypi.org/project/types-qrbill/1.1.0.20240412/) (2024-04-12)
+## 1.1.0.20240412 (2024-04-12)
 
-* Add stubs for qrbill ([#11741](https://github.com/python/typeshed/pull/11741))
+Add stubs for qrbill ([#11741](https://github.com/python/typeshed/pull/11741))
 
-    Co-authored-by: Akuli <akuviljanen17@gmail.com>
+Co-authored-by: Akuli <akuviljanen17@gmail.com>
 

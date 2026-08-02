@@ -6,105 +6,105 @@
 
 * Update to 26.1.* ([#16058](https://github.com/python/typeshed/pull/16058))
 
-## [25.0.0.20260612](https://pypi.org/project/types-boltons/25.0.0.20260612/) (2026-06-12)
+## 25.0.0.20260612 (2026-06-12)
 
-* Improve dictutils stubs ([#15879](https://github.com/python/typeshed/pull/15879))
+[boltons] Improve dictutils stubs ([#15879](https://github.com/python/typeshed/pull/15879))
 
-## [25.0.0.20260518](https://pypi.org/project/types-boltons/25.0.0.20260518/) (2026-05-18)
+## 25.0.0.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [25.0.0.20260508](https://pypi.org/project/types-boltons/25.0.0.20260508/) (2026-05-08)
+## 25.0.0.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [25.0.0.20260408](https://pypi.org/project/types-boltons/25.0.0.20260408/) (2026-04-08)
+## 25.0.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [25.0.0.20260402](https://pypi.org/project/types-boltons/25.0.0.20260402/) (2026-04-02)
+## 25.0.0.20260402 (2026-04-02)
 
-* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-## [25.0.0.20250919](https://pypi.org/project/types-boltons/25.0.0.20250919/) (2025-09-19)
+## 25.0.0.20250919 (2025-09-19)
 
-* Fix type of data return by `boltons.strutils.int_ranges_from_int_list` ([#14740](https://github.com/python/typeshed/pull/14740))
+Fix type of data return by `boltons.strutils.int_ranges_from_int_list` ([#14740](https://github.com/python/typeshed/pull/14740))
 
-## [25.0.0.20250822](https://pypi.org/project/types-boltons/25.0.0.20250822/) (2025-08-22)
+## 25.0.0.20250822 (2025-08-22)
 
-* Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
 
-* Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
 
-## [25.0.0.20250809](https://pypi.org/project/types-boltons/25.0.0.20250809/) (2025-08-09)
+## 25.0.0.20250809 (2025-08-09)
 
-* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## [25.0.0.20250703](https://pypi.org/project/types-boltons/25.0.0.20250703/) (2025-07-03)
+## 25.0.0.20250703 (2025-07-03)
 
-* Make Mapping.get(default) more constrained ([#14360](https://github.com/python/typeshed/pull/14360))
+Make Mapping.get(default) more constrained ([#14360](https://github.com/python/typeshed/pull/14360))
 
-## [25.0.0.20250516](https://pypi.org/project/types-boltons/25.0.0.20250516/) (2025-05-16)
+## 25.0.0.20250516 (2025-05-16)
 
-* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## [25.0.0.20250326](https://pypi.org/project/types-boltons/25.0.0.20250326/) (2025-03-26)
+## 25.0.0.20250326 (2025-03-26)
 
-* Add `__all__` ([#13704](https://github.com/python/typeshed/pull/13704))
+Add `__all__` ([#13704](https://github.com/python/typeshed/pull/13704))
 
-## [25.0.0.20250304](https://pypi.org/project/types-boltons/25.0.0.20250304/) (2025-03-04)
+## 25.0.0.20250304 (2025-03-04)
 
-* Drop flake8-noqa and remove workarounds to work with Ruff ([#13571](https://github.com/python/typeshed/pull/13571))
+Drop flake8-noqa and remove workarounds to work with Ruff ([#13571](https://github.com/python/typeshed/pull/13571))
 
-* Enable Ruff PLC (Pylint Convention) ([#13306](https://github.com/python/typeshed/pull/13306))
+Enable Ruff PLC (Pylint Convention) ([#13306](https://github.com/python/typeshed/pull/13306))
 
-## [25.0.0.20250223](https://pypi.org/project/types-boltons/25.0.0.20250223/) (2025-02-23)
+## 25.0.0.20250223 (2025-02-23)
 
-* Updates to boltons types ([#13517](https://github.com/python/typeshed/pull/13517))
+Updates to boltons types ([#13517](https://github.com/python/typeshed/pull/13517))
 
-## [25.0.0.20250210](https://pypi.org/project/types-boltons/25.0.0.20250210/) (2025-02-10)
+## 25.0.0.20250210 (2025-02-10)
 
-* Bump boltons to 25.0.* ([#13481](https://github.com/python/typeshed/pull/13481))
+Bump boltons to 25.0.* ([#13481](https://github.com/python/typeshed/pull/13481))
 
-    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
-## [24.1.0.20241221](https://pypi.org/project/types-boltons/24.1.0.20241221/) (2024-12-21)
+## 24.1.0.20241221 (2024-12-21)
 
-* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
-## [24.1.0.20241113](https://pypi.org/project/types-boltons/24.1.0.20241113/) (2024-11-13)
+## 24.1.0.20241113 (2024-11-13)
 
-* Bump boltons to 24.1.* ([#12970](https://github.com/python/typeshed/pull/12970))
+Bump boltons to 24.1.* ([#12970](https://github.com/python/typeshed/pull/12970))
 
-    Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
+Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
-## [24.0.0.20240423](https://pypi.org/project/types-boltons/24.0.0.20240423/) (2024-04-23)
+## 24.0.0.20240423 (2024-04-23)
 
-* Bump boltons to 24.0.* ([#11804](https://github.com/python/typeshed/pull/11804))
+Bump boltons to 24.0.* ([#11804](https://github.com/python/typeshed/pull/11804))
 
-## [23.1.0.20240331](https://pypi.org/project/types-boltons/23.1.0.20240331/) (2024-03-31)
+## 23.1.0.20240331 (2024-03-31)
 
-* Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
+Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
 
-## [23.1.0.20240310](https://pypi.org/project/types-boltons/23.1.0.20240310/) (2024-03-10)
+## 23.1.0.20240310 (2024-03-10)
 
-* Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
+Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
 
-    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## [23.1.0.20240106](https://pypi.org/project/types-boltons/23.1.0.20240106/) (2024-01-06)
+## 23.1.0.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## [23.1.0.0](https://pypi.org/project/types-boltons/23.1.0.0/) (2023-11-30)
+## 23.1.0.0 (2023-11-30)
 
-* Bump boltons to 23.1.* ([#11083](https://github.com/python/typeshed/pull/11083))
+Bump boltons to 23.1.* ([#11083](https://github.com/python/typeshed/pull/11083))
 
-## [23.0.0.2](https://pypi.org/project/types-boltons/23.0.0.2/) (2023-11-22)
+## 23.0.0.2 (2023-11-22)
 
-* third-party stubs: Add several missing `__del__` methods ([#11054](https://github.com/python/typeshed/pull/11054))
+third-party stubs: Add several missing `__del__` methods ([#11054](https://github.com/python/typeshed/pull/11054))
 
 ## 23.0.0.1 (2023-07-20)
 

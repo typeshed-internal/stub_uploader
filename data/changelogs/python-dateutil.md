@@ -1,112 +1,112 @@
-## [2.9.0.20260716](https://pypi.org/project/types-python-dateutil/2.9.0.20260716/) (2026-07-16)
+## 2.9.0.20260716 (2026-07-16)
 
-* Run ty on typeshed stubs in CI ([#16013](https://github.com/python/typeshed/pull/16013))
+Run ty on typeshed stubs in CI ([#16013](https://github.com/python/typeshed/pull/16013))
 
-    Add a pinned ty check for the standard-library and third-party stubs across Python 3.10-3.14 and the supported target platforms. The runner honors stdlib/VERSIONS, resolves checked-in stub packages and their external dependencies, and avoids duplicate published stub packages that shadow local sources.
+Add a pinned ty check for the standard-library and third-party stubs across Python 3.10-3.14 and the supported target platforms. The runner honors stdlib/VERSIONS, resolves checked-in stub packages and their external dependencies, and avoids duplicate published stub packages that shadow local sources.
 
-    Match pyright's policy for non-actionable override and deprecation diagnostics, add narrowly scoped ignores beside existing checker exceptions, and exclude only the obsolete requests and legacy distutils stubs. Check geopandas, seaborn, and shapely on every target version, with two existing pandas-stubs type-bound exceptions mirrored for ty. Also fix the remaining Windows-only dateutil builtin-name collision discovered by the new check.
+Match pyright's policy for non-actionable override and deprecation diagnostics, add narrowly scoped ignores beside existing checker exceptions, and exclude only the obsolete requests and legacy distutils stubs. Check geopandas, seaborn, and shapely on every target version, with two existing pandas-stubs type-bound exceptions mirrored for ty. Also fix the remaining Windows-only dateutil builtin-name collision discovered by the new check.
 
-    Closes #15999.
+Closes #15999.
 
-## [2.9.0.20260518](https://pypi.org/project/types-python-dateutil/2.9.0.20260518/) (2026-05-18)
+## 2.9.0.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [2.9.0.20260508](https://pypi.org/project/types-python-dateutil/2.9.0.20260508/) (2026-05-08)
+## 2.9.0.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [2.9.0.20260408](https://pypi.org/project/types-python-dateutil/2.9.0.20260408/) (2026-04-08)
+## 2.9.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [2.9.0.20260402](https://pypi.org/project/types-python-dateutil/2.9.0.20260402/) (2026-04-02)
+## 2.9.0.20260402 (2026-04-02)
 
-* Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
 
-## [2.9.0.20260323](https://pypi.org/project/types-python-dateutil/2.9.0.20260323/) (2026-03-23)
+## 2.9.0.20260323 (2026-03-23)
 
-* Add missing `gettz` cache control methods ([#15537](https://github.com/python/typeshed/pull/15537))
+[python-dateutil] Add missing `gettz` cache control methods ([#15537](https://github.com/python/typeshed/pull/15537))
 
-## [2.9.0.20260305](https://pypi.org/project/types-python-dateutil/2.9.0.20260305/) (2026-03-05)
+## 2.9.0.20260305 (2026-03-05)
 
-* Complete stubs ([#15476](https://github.com/python/typeshed/pull/15476))
+[python-dateutil] Complete stubs ([#15476](https://github.com/python/typeshed/pull/15476))
 
-## [2.9.0.20260302](https://pypi.org/project/types-python-dateutil/2.9.0.20260302/) (2026-03-02)
+## 2.9.0.20260302 (2026-03-02)
 
-* Make `dateutil.parser.parse(fuzzy_with_tokens=True)` return a tuple ([#15474](https://github.com/python/typeshed/pull/15474))
+[python-dateutil] Make `dateutil.parser.parse(fuzzy_with_tokens=True)` return a tuple ([#15474](https://github.com/python/typeshed/pull/15474))
 
-    Co-authored-by: ellieayla <1447600+me@users.noreply.github.com> \
-    Co-authored-by: Semyon Moroz <donbarbos@proton.me> \
-    Co-authored-by: Brian Schubert <brianm.schubert@gmail.com>
+Co-authored-by: ellieayla <1447600+me@users.noreply.github.com>
+Co-authored-by: Semyon Moroz <donbarbos@proton.me>
+Co-authored-by: Brian Schubert <brianm.schubert@gmail.com>
 
-## [2.9.0.20260124](https://pypi.org/project/types-python-dateutil/2.9.0.20260124/) (2026-01-24)
+## 2.9.0.20260124 (2026-01-24)
 
-* Add missing annotation to 'tag' in rebuild.py ([#15196](https://github.com/python/typeshed/pull/15196))
+[python-dateutil] Add missing annotation to 'tag' in rebuild.py ([#15196](https://github.com/python/typeshed/pull/15196))
 
-## [2.9.0.20251115](https://pypi.org/project/types-python-dateutil/2.9.0.20251115/) (2025-11-15)
+## 2.9.0.20251115 (2025-11-15)
 
-* Add missing parameter annotations ([#14996](https://github.com/python/typeshed/pull/14996))
+[python-dateutil] Add missing parameter annotations ([#14996](https://github.com/python/typeshed/pull/14996))
 
-## [2.9.0.20251108](https://pypi.org/project/types-python-dateutil/2.9.0.20251108/) (2025-11-08)
+## 2.9.0.20251108 (2025-11-08)
 
-* add some missing parameter types ([#14992](https://github.com/python/typeshed/pull/14992))
+[python-dateutil] add some missing parameter types ([#14992](https://github.com/python/typeshed/pull/14992))
 
-## [2.9.0.20251008](https://pypi.org/project/types-python-dateutil/2.9.0.20251008/) (2025-10-08)
+## 2.9.0.20251008 (2025-10-08)
 
-* python-dateutil: add overload to rrulestr ([#14815](https://github.com/python/typeshed/pull/14815))
+python-dateutil: add overload to rrulestr ([#14815](https://github.com/python/typeshed/pull/14815))
 
-## [2.9.0.20250822](https://pypi.org/project/types-python-dateutil/2.9.0.20250822/) (2025-08-22)
+## 2.9.0.20250822 (2025-08-22)
 
-* Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
 
-## [2.9.0.20250809](https://pypi.org/project/types-python-dateutil/2.9.0.20250809/) (2025-08-09)
+## 2.9.0.20250809 (2025-08-09)
 
-* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## [2.9.0.20250708](https://pypi.org/project/types-python-dateutil/2.9.0.20250708/) (2025-07-08)
+## 2.9.0.20250708 (2025-07-08)
 
-* Add missing stubs ([#14326](https://github.com/python/typeshed/pull/14326))
+[python-dateutil] Add missing stubs ([#14326](https://github.com/python/typeshed/pull/14326))
 
-## [2.9.0.20250516](https://pypi.org/project/types-python-dateutil/2.9.0.20250516/) (2025-05-16)
+## 2.9.0.20250516 (2025-05-16)
 
-* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## [2.9.0.20241206](https://pypi.org/project/types-python-dateutil/2.9.0.20241206/) (2024-12-06)
+## 2.9.0.20241206 (2024-12-06)
 
-* Use union instead of overloads in dateutil ([#13184](https://github.com/python/typeshed/pull/13184))
+Use union instead of overloads in dateutil ([#13184](https://github.com/python/typeshed/pull/13184))
 
-## [2.9.0.20241003](https://pypi.org/project/types-python-dateutil/2.9.0.20241003/) (2024-10-03)
+## 2.9.0.20241003 (2024-10-03)
 
-* dateutil: Enable failing test ([#11612](https://github.com/python/typeshed/pull/11612))
+dateutil: Enable failing test ([#11612](https://github.com/python/typeshed/pull/11612))
 
-## [2.9.0.20240906](https://pypi.org/project/types-python-dateutil/2.9.0.20240906/) (2024-09-06)
+## 2.9.0.20240906 (2024-09-06)
 
-* Add `dateutil.parser.UnknownTimezoneWarning`. ([#12620](https://github.com/python/typeshed/pull/12620))
+[python-dateutil] Add `dateutil.parser.UnknownTimezoneWarning`. ([#12620](https://github.com/python/typeshed/pull/12620))
 
-## [2.9.0.20240821](https://pypi.org/project/types-python-dateutil/2.9.0.20240821/) (2024-08-21)
+## 2.9.0.20240821 (2024-08-21)
 
-* Fix types for python-dateutil's relativedelta ([#12561](https://github.com/python/typeshed/pull/12561))
+Fix types for python-dateutil's relativedelta ([#12561](https://github.com/python/typeshed/pull/12561))
 
-## [2.9.0.20240316](https://pypi.org/project/types-python-dateutil/2.9.0.20240316/) (2024-03-16)
+## 2.9.0.20240316 (2024-03-16)
 
-* python-dateutil: respect inheritance on relativedelta.__rsub__ ([#11462](https://github.com/python/typeshed/pull/11462)) ([#11463](https://github.com/python/typeshed/pull/11463))
+python-dateutil: respect inheritance on relativedelta.__rsub__ ([#11462](https://github.com/python/typeshed/pull/11462)) ([#11463](https://github.com/python/typeshed/pull/11463))
 
-## [2.9.0.20240315](https://pypi.org/project/types-python-dateutil/2.9.0.20240315/) (2024-03-15)
+## 2.9.0.20240315 (2024-03-15)
 
-* Bump python-dateutil to 2.9.* ([#11518](https://github.com/python/typeshed/pull/11518))
+[stubsabot] Bump python-dateutil to 2.9.* ([#11518](https://github.com/python/typeshed/pull/11518))
 
-    Co-authored-by: stubsabot <>
+Co-authored-by: stubsabot <>
 
-## [2.8.19.20240311](https://pypi.org/project/types-python-dateutil/2.8.19.20240311/) (2024-03-11)
+## 2.8.19.20240311 (2024-03-11)
 
-* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## [2.8.19.20240106](https://pypi.org/project/types-python-dateutil/2.8.19.20240106/) (2024-01-06)
+## 2.8.19.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 2.8.19.14 (2023-07-20)
 

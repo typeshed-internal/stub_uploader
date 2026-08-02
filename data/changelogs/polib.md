@@ -1,54 +1,54 @@
-## [1.2.0.20260518](https://pypi.org/project/types-polib/1.2.0.20260518/) (2026-05-18)
+## 1.2.0.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [1.2.0.20260408](https://pypi.org/project/types-polib/1.2.0.20260408/) (2026-04-08)
+## 1.2.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [1.2.0.20250401](https://pypi.org/project/types-polib/1.2.0.20250401/) (2025-04-01)
+## 1.2.0.20250401 (2025-04-01)
 
-* Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
+Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
 
-    ---------
+---------
 
-    Co-authored-by: Avasam <samuel.06@hotmail.com>
+Co-authored-by: Avasam <samuel.06@hotmail.com>
 
-## [1.2.0.20250114](https://pypi.org/project/types-polib/1.2.0.20250114/) (2025-01-14)
+## 1.2.0.20250114 (2025-01-14)
 
-* Allow Path in polib.pofile() ([#13396](https://github.com/python/typeshed/pull/13396))
+Allow Path in polib.pofile() ([#13396](https://github.com/python/typeshed/pull/13396))
 
-    * Allow PathLike in polib.pofile()
+* Allow PathLike in polib.pofile()
 
-    * Add missing import
+* Add missing import
 
-    * [pre-commit.ci] auto fixes from pre-commit.com hooks
+* [pre-commit.ci] auto fixes from pre-commit.com hooks
 
-    * Update type to pathlib.Path
+* Update type to pathlib.Path
 
-    ---------
+---------
 
-    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
-## [1.2.0.20241221](https://pypi.org/project/types-polib/1.2.0.20241221/) (2024-12-21)
+## 1.2.0.20241221 (2024-12-21)
 
-* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
-## [1.2.0.20240811](https://pypi.org/project/types-polib/1.2.0.20240811/) (2024-08-11)
+## 1.2.0.20240811 (2024-08-11)
 
-* Fix type hint for `msgctxt` parameter in `polib` ([#12506](https://github.com/python/typeshed/pull/12506))
+Fix type hint for `msgctxt` parameter in `polib` ([#12506](https://github.com/python/typeshed/pull/12506))
 
-## [1.2.0.20240327](https://pypi.org/project/types-polib/1.2.0.20240327/) (2024-03-27)
+## 1.2.0.20240327 (2024-03-27)
 
-* polib: Fix POEntry.occurrences ([#11661](https://github.com/python/typeshed/pull/11661))
+polib: Fix POEntry.occurrences ([#11661](https://github.com/python/typeshed/pull/11661))
 
-## [1.2.0.20240115](https://pypi.org/project/types-polib/1.2.0.20240115/) (2024-01-15)
+## 1.2.0.20240115 (2024-01-15)
 
-* Fix POEntry.msgstr_plural annotation ([#11273](https://github.com/python/typeshed/pull/11273))
+[polib] Fix POEntry.msgstr_plural annotation ([#11273](https://github.com/python/typeshed/pull/11273))
 
-## [1.2.0.20240106](https://pypi.org/project/types-polib/1.2.0.20240106/) (2024-01-06)
+## 1.2.0.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 1.2.0.1 (2023-07-20)
 

@@ -1,28 +1,28 @@
-## [3.0.0.20250429](https://pypi.org/project/types-ExifRead/3.0.0.20250429/) (2025-04-29)
+## 3.0.0.20250429 (2025-04-29)
 
-* Mark ExifRead as obsolete ([#13899](https://github.com/python/typeshed/pull/13899))
+Mark ExifRead as obsolete ([#13899](https://github.com/python/typeshed/pull/13899))
 
-## [3.0.0.20240806](https://pypi.org/project/types-ExifRead/3.0.0.20240806/) (2024-08-06)
+## 3.0.0.20240806 (2024-08-06)
 
-* Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
+Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
 
-## [3.0.0.20240723](https://pypi.org/project/types-ExifRead/3.0.0.20240723/) (2024-07-23)
+## 3.0.0.20240723 (2024-07-23)
 
-* ExifRead: Fix `Reader.__iter__()` ([#12402](https://github.com/python/typeshed/pull/12402))
+ExifRead: Fix `Reader.__iter__()` ([#12402](https://github.com/python/typeshed/pull/12402))
 
-    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
-## [3.0.0.20240311](https://pypi.org/project/types-ExifRead/3.0.0.20240311/) (2024-03-11)
+## 3.0.0.20240311 (2024-03-11)
 
-* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## [3.0.0.20240106](https://pypi.org/project/types-ExifRead/3.0.0.20240106/) (2024-01-06)
+## 3.0.0.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## [3.0.0.7](https://pypi.org/project/types-ExifRead/3.0.0.7/) (2023-11-24)
+## 3.0.0.7 (2023-11-24)
 
-* Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
+Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
 
 ## 3.0.0.6 (2023-07-20)
 

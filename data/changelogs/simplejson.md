@@ -6,69 +6,69 @@
 
 * Update to 4.1.* ([#16046](https://github.com/python/typeshed/pull/16046))
 
-## [3.20.0.20260518](https://pypi.org/project/types-simplejson/3.20.0.20260518/) (2026-05-18)
+## 3.20.0.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [3.20.0.20260508](https://pypi.org/project/types-simplejson/3.20.0.20260508/) (2026-05-08)
+## 3.20.0.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [3.20.0.20260408](https://pypi.org/project/types-simplejson/3.20.0.20260408/) (2026-04-08)
+## 3.20.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [3.20.0.20260402](https://pypi.org/project/types-simplejson/3.20.0.20260402/) (2026-04-02)
+## 3.20.0.20260402 (2026-04-02)
 
-* Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
 
-## [3.20.0.20250822](https://pypi.org/project/types-simplejson/3.20.0.20250822/) (2025-08-22)
+## 3.20.0.20250822 (2025-08-22)
 
-* Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
 
-## [3.20.0.20250326](https://pypi.org/project/types-simplejson/3.20.0.20250326/) (2025-03-26)
+## 3.20.0.20250326 (2025-03-26)
 
-* Add `__all__` ([#13704](https://github.com/python/typeshed/pull/13704))
+Add `__all__` ([#13704](https://github.com/python/typeshed/pull/13704))
 
-## [3.20.0.20250318](https://pypi.org/project/types-simplejson/3.20.0.20250318/) (2025-03-18)
+## 3.20.0.20250318 (2025-03-18)
 
-* Fix various argument of extension modules ([#13651](https://github.com/python/typeshed/pull/13651))
+Fix various argument of extension modules ([#13651](https://github.com/python/typeshed/pull/13651))
 
-    * Mark various positional-only arguments: These are all positional-only \
-      arguments in C code using the `METH_O` flag.
-    * Remove various `*args, **kwargs` arguments that are using the \
-      `METH_NOARGS` flag in C.
+* Mark various positional-only arguments: These are all positional-only
+  arguments in C code using the `METH_O` flag.
+* Remove various `*args, **kwargs` arguments that are using the
+  `METH_NOARGS` flag in C.
 
-## [3.20.0.20250218](https://pypi.org/project/types-simplejson/3.20.0.20250218/) (2025-02-18)
+## 3.20.0.20250218 (2025-02-18)
 
-* Bump simplejson to 3.20.* ([#13505](https://github.com/python/typeshed/pull/13505))
+[stubsabot] Bump simplejson to 3.20.* ([#13505](https://github.com/python/typeshed/pull/13505))
 
-    Co-authored-by: stubsabot <>
+Co-authored-by: stubsabot <>
 
-## [3.19.0.20241221](https://pypi.org/project/types-simplejson/3.19.0.20241221/) (2024-12-21)
+## 3.19.0.20241221 (2024-12-21)
 
-* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
-## [3.19.0.20240801](https://pypi.org/project/types-simplejson/3.19.0.20240801/) (2024-08-01)
+## 3.19.0.20240801 (2024-08-01)
 
-* Allow `simplejson` encoding arguments to be `None`. ([#12466](https://github.com/python/typeshed/pull/12466))
+Allow `simplejson` encoding arguments to be `None`. ([#12466](https://github.com/python/typeshed/pull/12466))
 
-    Allow None in encoding parameter.
+Allow None in encoding parameter.
 
-## [3.19.0.20240310](https://pypi.org/project/types-simplejson/3.19.0.20240310/) (2024-03-10)
+## 3.19.0.20240310 (2024-03-10)
 
-* Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
+Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
 
-    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## [3.19.0.20240218](https://pypi.org/project/types-simplejson/3.19.0.20240218/) (2024-02-18)
+## 3.19.0.20240218 (2024-02-18)
 
-* Mark simplejson as completed ([#9211](https://github.com/python/typeshed/pull/9211))
+Mark simplejson as completed ([#9211](https://github.com/python/typeshed/pull/9211))
 
-    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com> \
-    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 3.19.0.2 (2023-07-20)
 

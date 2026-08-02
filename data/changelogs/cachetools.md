@@ -1,62 +1,62 @@
-## [7.0.0.20260713](https://pypi.org/project/types-cachetools/7.0.0.20260713/) (2026-07-13)
+## 7.0.0.20260713 (2026-07-13)
 
-* Mark as obsolete since 7.1.0 ([#15357](https://github.com/python/typeshed/pull/15357))
+[cachetools] Mark as obsolete since 7.1.0 ([#15357](https://github.com/python/typeshed/pull/15357))
 
-## [7.0.0.20260518](https://pypi.org/project/types-cachetools/7.0.0.20260518/) (2026-05-18)
+## 7.0.0.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [7.0.0.20260503](https://pypi.org/project/types-cachetools/7.0.0.20260503/) (2026-05-03)
+## 7.0.0.20260503 (2026-05-03)
 
-* Update to 7.0.* ([#15357](https://github.com/python/typeshed/pull/15357)) ([#15657](https://github.com/python/typeshed/pull/15657))
+[cachetools] Update to 7.0.* ([#15357](https://github.com/python/typeshed/pull/15357)) ([#15657](https://github.com/python/typeshed/pull/15657))
 
-## [6.2.0.20260408](https://pypi.org/project/types-cachetools/6.2.0.20260408/) (2026-04-08)
+## 6.2.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [6.2.0.20260317](https://pypi.org/project/types-cachetools/6.2.0.20260317/) (2026-03-17)
+## 6.2.0.20260317 (2026-03-17)
 
-* Add `@type_check_only` to stub-only private classes ([#15516](https://github.com/python/typeshed/pull/15516))
+[cachetools] Add `@type_check_only` to stub-only private classes ([#15516](https://github.com/python/typeshed/pull/15516))
 
-    Also unify duplicated `_CacheInfo` definitions
+Also unify duplicated `_CacheInfo` definitions
 
-## [6.2.0.20251022](https://pypi.org/project/types-cachetools/6.2.0.20251022/) (2025-10-22)
+## 6.2.0.20251022 (2025-10-22)
 
-* cachetools: precise typing for decorators and cached(); expose cache_info/cache_clear and fix keys signatures ([#14770](https://github.com/python/typeshed/pull/14770))
+cachetools: precise typing for decorators and cached(); expose cache_info/cache_clear and fix keys signatures ([#14770](https://github.com/python/typeshed/pull/14770))
 
-## [6.2.0.20250827](https://pypi.org/project/types-cachetools/6.2.0.20250827/) (2025-08-27)
+## 6.2.0.20250827 (2025-08-27)
 
-* Update to 6.2.* ([#14644](https://github.com/python/typeshed/pull/14644))
+[cachetools] Update to 6.2.* ([#14644](https://github.com/python/typeshed/pull/14644))
 
-## [6.1.0.20250717](https://pypi.org/project/types-cachetools/6.1.0.20250717/) (2025-07-17)
+## 6.1.0.20250717 (2025-07-17)
 
-* Bump cachetools to 6.1.* ([#14291](https://github.com/python/typeshed/pull/14291))
+[stubsabot] Bump cachetools to 6.1.* ([#14291](https://github.com/python/typeshed/pull/14291))
 
-    Release: https://pypi.org/pypi/cachetools/6.1.0 \
-    Homepage: https://github.com/tkem/cachetools/ \
-    Repository: https://github.com/tkem/cachetools \
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/cachetools \
-    Diff: https://github.com/tkem/cachetools/compare/v6.0.0...v6.1.0
+Release: https://pypi.org/pypi/cachetools/6.1.0
+Homepage: https://github.com/tkem/cachetools/
+Repository: https://github.com/tkem/cachetools
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/cachetools
+Diff: https://github.com/tkem/cachetools/compare/v6.0.0...v6.1.0
 
-    Stubsabot analysis of the diff between the two releases:
-     - Total lines of Python code added: 194.
-     - Total lines of Python code deleted: 87.
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 194.
+ - Total lines of Python code deleted: 87.
 
-## [6.0.0.20250525](https://pypi.org/project/types-cachetools/6.0.0.20250525/) (2025-05-25)
+## 6.0.0.20250525 (2025-05-25)
 
-* Bump cachetools to 6.0.* ([#14131](https://github.com/python/typeshed/pull/14131))
+Bump cachetools to 6.0.* ([#14131](https://github.com/python/typeshed/pull/14131))
 
-## [5.5.0.20240820](https://pypi.org/project/types-cachetools/5.5.0.20240820/) (2024-08-20)
+## 5.5.0.20240820 (2024-08-20)
 
-* Bump cachetools to 5.5.* ([#12556](https://github.com/python/typeshed/pull/12556))
+Bump cachetools to 5.5.* ([#12556](https://github.com/python/typeshed/pull/12556))
 
-## [5.4.0.20240717](https://pypi.org/project/types-cachetools/5.4.0.20240717/) (2024-07-17)
+## 5.4.0.20240717 (2024-07-17)
 
-* Bump cachetools to 5.4.* ([#12353](https://github.com/python/typeshed/pull/12353))
+Bump cachetools to 5.4.* ([#12353](https://github.com/python/typeshed/pull/12353))
 
-## [5.3.0.7](https://pypi.org/project/types-cachetools/5.3.0.7/) (2023-10-27)
+## 5.3.0.7 (2023-10-27)
 
-* Remove many redundant inheritances from `Generic[]` ([#10933](https://github.com/python/typeshed/pull/10933))
+Remove many redundant inheritances from `Generic[]` ([#10933](https://github.com/python/typeshed/pull/10933))
 
 ## 5.3.0.6 (2023-07-20)
 

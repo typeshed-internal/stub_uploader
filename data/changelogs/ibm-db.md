@@ -1,73 +1,73 @@
-## [3.2.9.20260522](https://pypi.org/project/types-ibm-db/3.2.9.20260522/) (2026-05-22)
+## 3.2.9.20260522 (2026-05-22)
 
-* Bump ibm-db to 3.2.9 ([#15818](https://github.com/python/typeshed/pull/15818))
+Bump ibm-db to 3.2.9 ([#15818](https://github.com/python/typeshed/pull/15818))
 
-## [3.2.8.20260518](https://pypi.org/project/types-ibm-db/3.2.8.20260518/) (2026-05-18)
+## 3.2.8.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [3.2.8.20260408](https://pypi.org/project/types-ibm-db/3.2.8.20260408/) (2026-04-08)
+## 3.2.8.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [3.2.8.20260228](https://pypi.org/project/types-ibm-db/3.2.8.20260228/) (2026-02-28)
+## 3.2.8.20260228 (2026-02-28)
 
-* Mark constants as `Final` ([#15465](https://github.com/python/typeshed/pull/15465))
+[ibm-db] Mark constants as `Final` ([#15465](https://github.com/python/typeshed/pull/15465))
 
-    * Set literal values for hard-coded constants
-    * Add missing `__version__`
+* Set literal values for hard-coded constants
+* Add missing `__version__`
 
-## [3.2.8.20260226](https://pypi.org/project/types-ibm-db/3.2.8.20260226/) (2026-02-26)
+## 3.2.8.20260226 (2026-02-26)
 
-* Add stubs for `ibm_db_ctx` ([#15463](https://github.com/python/typeshed/pull/15463))
+[ibm-db] Add stubs for `ibm_db_ctx` ([#15463](https://github.com/python/typeshed/pull/15463))
 
-## [3.2.8.20260225](https://pypi.org/project/types-ibm-db/3.2.8.20260225/) (2026-02-25)
+## 3.2.8.20260225 (2026-02-25)
 
-* Bump ibm-db to 3.2.8 ([#14685](https://github.com/python/typeshed/pull/14685))
+[stubsabot] Bump ibm-db to 3.2.8 ([#14685](https://github.com/python/typeshed/pull/14685))
 
-## [3.2.6.20250311](https://pypi.org/project/types-ibm-db/3.2.6.20250311/) (2025-03-11)
+## 3.2.6.20250311 (2025-03-11)
 
-* Bump ibm-db to 3.2.6 ([#13610](https://github.com/python/typeshed/pull/13610))
+[stubsabot] Bump ibm-db to 3.2.6 ([#13610](https://github.com/python/typeshed/pull/13610))
 
-## [3.2.5.20241231](https://pypi.org/project/types-ibm-db/3.2.5.20241231/) (2024-12-31)
+## 3.2.5.20241231 (2024-12-31)
 
-* Bump ibm-db to 3.2.5 ([#13348](https://github.com/python/typeshed/pull/13348))
+[stubsabot] Bump ibm-db to 3.2.5 ([#13348](https://github.com/python/typeshed/pull/13348))
 
-    Release: https://pypi.org/pypi/ibm-db/3.2.5 \
-    Homepage: http://pypi.python.org/pypi/ibm_db/ \
-    Repository: https://github.com/ibmdb/python-ibmdb \
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/ibm-db \
-    Diff: https://github.com/ibmdb/python-ibmdb/compare/v3.2.4...v3.2.5
+Release: https://pypi.org/pypi/ibm-db/3.2.5
+Homepage: http://pypi.python.org/pypi/ibm_db/
+Repository: https://github.com/ibmdb/python-ibmdb
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/ibm-db
+Diff: https://github.com/ibmdb/python-ibmdb/compare/v3.2.4...v3.2.5
 
-    Stubsabot analysis of the diff between the two releases:
-     - Total lines of Python code added: 13.
-     - Total lines of Python code deleted: 9.
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 13.
+ - Total lines of Python code deleted: 9.
 
-## [3.2.4.20241216](https://pypi.org/project/types-ibm-db/3.2.4.20241216/) (2024-12-16)
+## 3.2.4.20241216 (2024-12-16)
 
-* Bump ibm-db to 3.2.4 ([#13251](https://github.com/python/typeshed/pull/13251))
+Bump ibm-db to 3.2.4 ([#13251](https://github.com/python/typeshed/pull/13251))
 
-## [3.2.3.20241212](https://pypi.org/project/types-ibm-db/3.2.3.20241212/) (2024-12-12)
+## 3.2.3.20241212 (2024-12-12)
 
-* pin ibm-db to 3.2.3 ([#13233](https://github.com/python/typeshed/pull/13233))
+pin ibm-db to 3.2.3 ([#13233](https://github.com/python/typeshed/pull/13233))
 
-## [3.2.0.20241204](https://pypi.org/project/types-ibm-db/3.2.0.20241204/) (2024-12-04)
+## 3.2.0.20241204 (2024-12-04)
 
-* Remove obsolete todo from `ibm_db.pyi` ([#13170](https://github.com/python/typeshed/pull/13170))
+Remove obsolete todo from `ibm_db.pyi` ([#13170](https://github.com/python/typeshed/pull/13170))
 
-    The `SQL_ATTR_CONFIG_KEYWORDS_MAXLEN` attr is already there on line 100
+The `SQL_ATTR_CONFIG_KEYWORDS_MAXLEN` attr is already there on line 100
 
-## [3.2.0.20240311](https://pypi.org/project/types-ibm-db/3.2.0.20240311/) (2024-03-11)
+## 3.2.0.20240311 (2024-03-11)
 
-* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## [3.2.0.20240106](https://pypi.org/project/types-ibm-db/3.2.0.20240106/) (2024-01-06)
+## 3.2.0.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## [3.2.0.1](https://pypi.org/project/types-ibm-db/3.2.0.1/) (2023-11-24)
+## 3.2.0.1 (2023-11-24)
 
-* ibm-db: Add SQL_ATTR_TXN_ISOLATION ([#11060](https://github.com/python/typeshed/pull/11060))
+ibm-db: Add SQL_ATTR_TXN_ISOLATION ([#11060](https://github.com/python/typeshed/pull/11060))
 
 ## 3.2.0.0 (2023-08-27)
 

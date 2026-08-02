@@ -1,40 +1,40 @@
-## [4.3.0.20260518](https://pypi.org/project/types-channels/4.3.0.20260518/) (2026-05-18)
+## 4.3.0.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [4.3.0.20260508](https://pypi.org/project/types-channels/4.3.0.20260508/) (2026-05-08)
+## 4.3.0.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [4.3.0.20260421](https://pypi.org/project/types-channels/4.3.0.20260421/) (2026-04-21)
+## 4.3.0.20260421 (2026-04-21)
 
-* Compatibility fixes for django-stubs 6.0.3 ([#15653](https://github.com/python/typeshed/pull/15653))
+[channels] Compatibility fixes for django-stubs 6.0.3 ([#15653](https://github.com/python/typeshed/pull/15653))
 
-## [4.3.0.20260408](https://pypi.org/project/types-channels/4.3.0.20260408/) (2026-04-08)
+## 4.3.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [4.3.0.20260402](https://pypi.org/project/types-channels/4.3.0.20260402/) (2026-04-02)
+## 4.3.0.20260402 (2026-04-02)
 
-* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-* Use `async def` instead of a decorator ([#15590](https://github.com/python/typeshed/pull/15590))
+[channels] Use `async def` instead of a decorator ([#15590](https://github.com/python/typeshed/pull/15590))
 
-## [4.3.0.20260321](https://pypi.org/project/types-channels/4.3.0.20260321/) (2026-03-21)
+## 4.3.0.20260321 (2026-03-21)
 
-* Relax django-stubs dependency ([#15524](https://github.com/python/typeshed/pull/15524))
+[channels] Relax django-stubs dependency ([#15524](https://github.com/python/typeshed/pull/15524))
 
-## [4.3.0.20250822](https://pypi.org/project/types-channels/4.3.0.20250822/) (2025-08-22)
+## 4.3.0.20250822 (2025-08-22)
 
-* Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
 
-## [4.3.0.20250730](https://pypi.org/project/types-channels/4.3.0.20250730/) (2025-07-30)
+## 4.3.0.20250730 (2025-07-30)
 
-* Bump to `4.3.*` ([#14490](https://github.com/python/typeshed/pull/14490))
+[channels] Bump to `4.3.*` ([#14490](https://github.com/python/typeshed/pull/14490))
 
-## [4.2.0.20250712](https://pypi.org/project/types-channels/4.2.0.20250712/) (2025-07-12)
+## 4.2.0.20250712 (2025-07-12)
 
-* Django channels stubs ([#13939](https://github.com/python/typeshed/pull/13939))
+Django channels stubs ([#13939](https://github.com/python/typeshed/pull/13939))
 

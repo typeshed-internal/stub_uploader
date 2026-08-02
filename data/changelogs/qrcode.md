@@ -1,85 +1,85 @@
-## [8.2.0.20260518](https://pypi.org/project/types-qrcode/8.2.0.20260518/) (2026-05-18)
+## 8.2.0.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [8.2.0.20260508](https://pypi.org/project/types-qrcode/8.2.0.20260508/) (2026-05-08)
+## 8.2.0.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [8.2.0.20260408](https://pypi.org/project/types-qrcode/8.2.0.20260408/) (2026-04-08)
+## 8.2.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [8.2.0.20260402](https://pypi.org/project/types-qrcode/8.2.0.20260402/) (2026-04-02)
+## 8.2.0.20260402 (2026-04-02)
 
-* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-* Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
 
-## [8.2.0.20260322](https://pypi.org/project/types-qrcode/8.2.0.20260322/) (2026-03-22)
+## 8.2.0.20260322 (2026-03-22)
 
-* Add `@type_check_only` to stub-only private classes in various third-party stubs ([#15535](https://github.com/python/typeshed/pull/15535))
+Add `@type_check_only` to stub-only private classes in various third-party stubs ([#15535](https://github.com/python/typeshed/pull/15535))
 
-## [8.2.0.20250914](https://pypi.org/project/types-qrcode/8.2.0.20250914/) (2025-09-14)
+## 8.2.0.20250914 (2025-09-14)
 
-* Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
+Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
 
-## [8.2.0.20250506](https://pypi.org/project/types-qrcode/8.2.0.20250506/) (2025-05-06)
+## 8.2.0.20250506 (2025-05-06)
 
-* Bump qrcode to 8.2.* ([#13918](https://github.com/python/typeshed/pull/13918))
+Bump qrcode to 8.2.* ([#13918](https://github.com/python/typeshed/pull/13918))
 
-## [8.1.0.20250404](https://pypi.org/project/types-qrcode/8.1.0.20250404/) (2025-04-04)
+## 8.1.0.20250404 (2025-04-04)
 
-* Bump qrcode to 8.1.* ([#13779](https://github.com/python/typeshed/pull/13779))
+[stubsabot] Bump qrcode to 8.1.* ([#13779](https://github.com/python/typeshed/pull/13779))
 
-## [8.0.0.20241004](https://pypi.org/project/types-qrcode/8.0.0.20241004/) (2024-10-04)
+## 8.0.0.20241004 (2024-10-04)
 
-* Remove Pillow stubs ([#12732](https://github.com/python/typeshed/pull/12732))
+Remove Pillow stubs ([#12732](https://github.com/python/typeshed/pull/12732))
 
-## [8.0.0.20241002](https://pypi.org/project/types-qrcode/8.0.0.20241002/) (2024-10-02)
+## 8.0.0.20241002 (2024-10-02)
 
-* Bump qrcode to 8.0.* ([#12718](https://github.com/python/typeshed/pull/12718))
+[stubsabot] Bump qrcode to 8.0.* ([#12718](https://github.com/python/typeshed/pull/12718))
 
-    Release: https://pypi.org/pypi/qrcode/8.0 \
-    Homepage: https://github.com/lincolnloop/python-qrcode \
-    Repository: https://github.com/lincolnloop/python-qrcode \
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/qrcode \
-    Diff: https://github.com/lincolnloop/python-qrcode/compare/v7.4.2...v8.0
+Release: https://pypi.org/pypi/qrcode/8.0
+Homepage: https://github.com/lincolnloop/python-qrcode
+Repository: https://github.com/lincolnloop/python-qrcode
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/qrcode
+Diff: https://github.com/lincolnloop/python-qrcode/compare/v7.4.2...v8.0
 
-    Stubsabot analysis of the diff between the two releases:
-     - 2 public Python files have been added: `qrcode/compat/png.py`, `qrcode/tests/consts.py`.
-     - 0 files included in typeshed's stubs have been deleted.
-     - 12 files included in typeshed's stubs have been modified or renamed.
-     - Total lines of Python code added: 669.
-     - Total lines of Python code deleted: 727.
+Stubsabot analysis of the diff between the two releases:
+ - 2 public Python files have been added: `qrcode/compat/png.py`, `qrcode/tests/consts.py`.
+ - 0 files included in typeshed's stubs have been deleted.
+ - 12 files included in typeshed's stubs have been modified or renamed.
+ - Total lines of Python code added: 669.
+ - Total lines of Python code deleted: 727.
 
-    If stubtest fails for this PR:
-    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-    - Fix stubtest failures in another PR, then close this PR
+If stubtest fails for this PR:
+- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+- Fix stubtest failures in another PR, then close this PR
 
-    Note that you will need to close and re-open the PR in order to trigger CI
+Note that you will need to close and re-open the PR in order to trigger CI
 
-    Co-authored-by: stubsabot <>
+Co-authored-by: stubsabot <>
 
-## [7.4.0.20240921](https://pypi.org/project/types-qrcode/7.4.0.20240921/) (2024-09-21)
+## 7.4.0.20240921 (2024-09-21)
 
-* Complete coverage for the qrcode package ([#12675](https://github.com/python/typeshed/pull/12675))
+Complete coverage for the qrcode package ([#12675](https://github.com/python/typeshed/pull/12675))
 
-## [7.4.0.20240408](https://pypi.org/project/types-qrcode/7.4.0.20240408/) (2024-04-08)
+## 7.4.0.20240408 (2024-04-08)
 
-* Add various annotations ([#11726](https://github.com/python/typeshed/pull/11726))
+[qrcode] Add various annotations ([#11726](https://github.com/python/typeshed/pull/11726))
 
-## [7.4.0.20240106](https://pypi.org/project/types-qrcode/7.4.0.20240106/) (2024-01-06)
+## 7.4.0.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## [7.4.0.1](https://pypi.org/project/types-qrcode/7.4.0.1/) (2023-11-09)
+## 7.4.0.1 (2023-11-09)
 
-* Bump flake8-pyi to 23.11.0 ([#10997](https://github.com/python/typeshed/pull/10997))
+Bump flake8-pyi to 23.11.0 ([#10997](https://github.com/python/typeshed/pull/10997))
 
 ## 7.4.0.0 (2023-07-20)
 

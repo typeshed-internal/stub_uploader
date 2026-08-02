@@ -1,22 +1,22 @@
-## [0.8.0.20260518](https://pypi.org/project/types-console-menu/0.8.0.20260518/) (2026-05-18)
+## 0.8.0.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [0.8.0.20260408](https://pypi.org/project/types-console-menu/0.8.0.20260408/) (2026-04-08)
+## 0.8.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [0.8.0.20260402](https://pypi.org/project/types-console-menu/0.8.0.20260402/) (2026-04-02)
+## 0.8.0.20260402 (2026-04-02)
 
-* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-## [0.8.0.20250326](https://pypi.org/project/types-console-menu/0.8.0.20250326/) (2025-03-26)
+## 0.8.0.20250326 (2025-03-26)
 
-* Add `__all__` ([#13704](https://github.com/python/typeshed/pull/13704))
+Add `__all__` ([#13704](https://github.com/python/typeshed/pull/13704))
 
-## [0.8.0.20241221](https://pypi.org/project/types-console-menu/0.8.0.20241221/) (2024-12-21)
+## 0.8.0.20241221 (2024-12-21)
 
-* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
 ## 0.8.0.3 (2023-07-20)
 

@@ -1,10 +1,10 @@
-## [2.0.1.20250825](https://pypi.org/project/types-pyRFC3339/2.0.1.20250825/) (2025-08-25)
+## 2.0.1.20250825 (2025-08-25)
 
-* Mark pyRFC3339 as obsolete since 2.1.0 ([#14633](https://github.com/python/typeshed/pull/14633))
+[stubsabot] Mark pyRFC3339 as obsolete since 2.1.0 ([#14633](https://github.com/python/typeshed/pull/14633))
 
-## [2.0.1.20241107](https://pypi.org/project/types-pyRFC3339/2.0.1.20241107/) (2024-11-07)
+## 2.0.1.20241107 (2024-11-07)
 
-* Update pyRFC3339 to 2.0.1 ([#12960](https://github.com/python/typeshed/pull/12960))
+Update pyRFC3339 to 2.0.1 ([#12960](https://github.com/python/typeshed/pull/12960))
 
 ## 1.1.1.5 (2023-07-20)
 

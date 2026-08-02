@@ -6,129 +6,129 @@
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
 
-## [2.1.0.20260630](https://pypi.org/project/types-shapely/2.1.0.20260630/) (2026-06-30)
+## 2.1.0.20260630 (2026-06-30)
 
-* Narrower types for geom_type in BaseGeometry subclasses ([#15955](https://github.com/python/typeshed/pull/15955))
+[shapely] Narrower types for geom_type in BaseGeometry subclasses ([#15955](https://github.com/python/typeshed/pull/15955))
 
-## [2.1.0.20260603](https://pypi.org/project/types-shapely/2.1.0.20260603/) (2026-06-03)
+## 2.1.0.20260603 (2026-06-03)
 
-* Type `kwargs` arguments ([#15859](https://github.com/python/typeshed/pull/15859))
+[shapely] Type `kwargs` arguments ([#15859](https://github.com/python/typeshed/pull/15859))
 
-## [2.1.0.20260518](https://pypi.org/project/types-shapely/2.1.0.20260518/) (2026-05-18)
+## 2.1.0.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [2.1.0.20260508](https://pypi.org/project/types-shapely/2.1.0.20260508/) (2026-05-08)
+## 2.1.0.20260508 (2026-05-08)
 
-* Drop 3.9 support for third-party packages ([#15707](https://github.com/python/typeshed/pull/15707))
+Drop 3.9 support for third-party packages ([#15707](https://github.com/python/typeshed/pull/15707))
 
-    Inline some unnecessary type aliases
+Inline some unnecessary type aliases
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [2.1.0.20260408](https://pypi.org/project/types-shapely/2.1.0.20260408/) (2026-04-08)
+## 2.1.0.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [2.1.0.20260402](https://pypi.org/project/types-shapely/2.1.0.20260402/) (2026-04-02)
+## 2.1.0.20260402 (2026-04-02)
 
-* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-## [2.1.0.20250917](https://pypi.org/project/types-shapely/2.1.0.20250917/) (2025-09-17)
+## 2.1.0.20250917 (2025-09-17)
 
-* shapely: fix array dtype in geometry functions return type ([#14730](https://github.com/python/typeshed/pull/14730))
+shapely: fix array dtype in geometry functions return type ([#14730](https://github.com/python/typeshed/pull/14730))
 
-## [2.1.0.20250915](https://pypi.org/project/types-shapely/2.1.0.20250915/) (2025-09-15)
+## 2.1.0.20250915 (2025-09-15)
 
-* Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
+Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
 
-## [2.1.0.20250914](https://pypi.org/project/types-shapely/2.1.0.20250914/) (2025-09-14)
+## 2.1.0.20250914 (2025-09-14)
 
-* Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
+Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
 
-## [2.1.0.20250822](https://pypi.org/project/types-shapely/2.1.0.20250822/) (2025-08-22)
+## 2.1.0.20250822 (2025-08-22)
 
-* Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
 
-## [2.1.0.20250809](https://pypi.org/project/types-shapely/2.1.0.20250809/) (2025-08-09)
+## 2.1.0.20250809 (2025-08-09)
 
-* Fix dunder-method positional-only parameter discrepancies in third-party stubs ([#14529](https://github.com/python/typeshed/pull/14529))
+Fix dunder-method positional-only parameter discrepancies in third-party stubs ([#14529](https://github.com/python/typeshed/pull/14529))
 
-## [2.1.0.20250710](https://pypi.org/project/types-shapely/2.1.0.20250710/) (2025-07-10)
+## 2.1.0.20250710 (2025-07-10)
 
-* Fix shapely for 2.1 release ([#14230](https://github.com/python/typeshed/pull/14230))
+Fix shapely for 2.1 release ([#14230](https://github.com/python/typeshed/pull/14230))
 
-## [2.1.0.20250708](https://pypi.org/project/types-shapely/2.1.0.20250708/) (2025-07-08)
+## 2.1.0.20250708 (2025-07-08)
 
-* Fix shapely return types coming from numpy ufuncs ([#14231](https://github.com/python/typeshed/pull/14231))
+Fix shapely return types coming from numpy ufuncs ([#14231](https://github.com/python/typeshed/pull/14231))
 
-## [2.1.0.20250512](https://pypi.org/project/types-shapely/2.1.0.20250512/) (2025-05-12)
+## 2.1.0.20250512 (2025-05-12)
 
-* Fix annotations of shapely.constructive.make_valid ([#13913](https://github.com/python/typeshed/pull/13913))
+Fix annotations of shapely.constructive.make_valid ([#13913](https://github.com/python/typeshed/pull/13913))
 
-## [2.1.0.20250418](https://pypi.org/project/types-shapely/2.1.0.20250418/) (2025-04-18)
+## 2.1.0.20250418 (2025-04-18)
 
-* Bump shapely to 2.1.* ([#13847](https://github.com/python/typeshed/pull/13847))
+Bump shapely to 2.1.* ([#13847](https://github.com/python/typeshed/pull/13847))
 
-## [2.0.0.20250404](https://pypi.org/project/types-shapely/2.0.0.20250404/) (2025-04-04)
+## 2.0.0.20250404 (2025-04-04)
 
-* Enable Ruff flake8-todos (TD) ([#13748](https://github.com/python/typeshed/pull/13748))
+Enable Ruff flake8-todos (TD) ([#13748](https://github.com/python/typeshed/pull/13748))
 
-## [2.0.0.20250326](https://pypi.org/project/types-shapely/2.0.0.20250326/) (2025-03-26)
+## 2.0.0.20250326 (2025-03-26)
 
-* Add `__all__` ([#13704](https://github.com/python/typeshed/pull/13704))
+Add `__all__` ([#13704](https://github.com/python/typeshed/pull/13704))
 
-## [2.0.0.20250202](https://pypi.org/project/types-shapely/2.0.0.20250202/) (2025-02-02)
+## 2.0.0.20250202 (2025-02-02)
 
-* shapely: Fix tuple length of `CoordinateSequence` items ([#13435](https://github.com/python/typeshed/pull/13435))
+shapely: Fix tuple length of `CoordinateSequence` items ([#13435](https://github.com/python/typeshed/pull/13435))
 
-    Closes #13422
+Closes #13422
 
-## [2.0.0.20241221](https://pypi.org/project/types-shapely/2.0.0.20241221/) (2024-12-21)
+## 2.0.0.20241221 (2024-12-21)
 
-* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
-## [2.0.0.20241112](https://pypi.org/project/types-shapely/2.0.0.20241112/) (2024-11-12)
+## 2.0.0.20241112 (2024-11-12)
 
-* Remove numpy pins from several stubs ([#12993](https://github.com/python/typeshed/pull/12993))
+Remove numpy pins from several stubs ([#12993](https://github.com/python/typeshed/pull/12993))
 
-## [2.0.0.20240820](https://pypi.org/project/types-shapely/2.0.0.20240820/) (2024-08-20)
+## 2.0.0.20240820 (2024-08-20)
 
-* Pin numpy in various stubs ([#12554](https://github.com/python/typeshed/pull/12554))
+Pin numpy in various stubs ([#12554](https://github.com/python/typeshed/pull/12554))
 
-## [2.0.0.20240804](https://pypi.org/project/types-shapely/2.0.0.20240804/) (2024-08-04)
+## 2.0.0.20240804 (2024-08-04)
 
-* Remove numpy version pin for several stubs([#12476](https://github.com/python/typeshed/pull/12476))
+Remove numpy version pin for several stubs([#12476](https://github.com/python/typeshed/pull/12476))
 
-## [2.0.0.20240714](https://pypi.org/project/types-shapely/2.0.0.20240714/) (2024-07-14)
+## 2.0.0.20240714 (2024-07-14)
 
-* Fix stubtest for shapely ([#12339](https://github.com/python/typeshed/pull/12339))
+Fix stubtest for shapely ([#12339](https://github.com/python/typeshed/pull/12339))
 
-    Fixes #12338
+Fixes #12338
 
-## [2.0.0.20240618](https://pypi.org/project/types-shapely/2.0.0.20240618/) (2024-06-18)
+## 2.0.0.20240618 (2024-06-18)
 
-* Pin various stubs to numpy to < 2 ([#12152](https://github.com/python/typeshed/pull/12152))
+Pin various stubs to numpy to < 2 ([#12152](https://github.com/python/typeshed/pull/12152))
 
-    Fixes #12146
+Fixes #12146
 
-## [2.0.0.20240613](https://pypi.org/project/types-shapely/2.0.0.20240613/) (2024-06-13)
+## 2.0.0.20240613 (2024-06-13)
 
-* Upgrade to latest 3.12 and 3.13 versions for stubtest ([#12131](https://github.com/python/typeshed/pull/12131))
+Upgrade to latest 3.12 and 3.13 versions for stubtest ([#12131](https://github.com/python/typeshed/pull/12131))
 
-* Bump flake8-pyi to 24.6.0 ([#12132](https://github.com/python/typeshed/pull/12132))
+Bump flake8-pyi to 24.6.0 ([#12132](https://github.com/python/typeshed/pull/12132))
 
-## [2.0.0.20240602](https://pypi.org/project/types-shapely/2.0.0.20240602/) (2024-06-02)
+## 2.0.0.20240602 (2024-06-02)
 
-* Update shapely enums ([#12078](https://github.com/python/typeshed/pull/12078))
+Update shapely enums ([#12078](https://github.com/python/typeshed/pull/12078))
 
-## [2.0.0.20240527](https://pypi.org/project/types-shapely/2.0.0.20240527/) (2024-05-27)
+## 2.0.0.20240527 (2024-05-27)
 
-* Fix shapely SupportsRead protocol ([#12038](https://github.com/python/typeshed/pull/12038))
+Fix shapely SupportsRead protocol ([#12038](https://github.com/python/typeshed/pull/12038))
 
-## [2.0.0.20240526](https://pypi.org/project/types-shapely/2.0.0.20240526/) (2024-05-26)
+## 2.0.0.20240526 (2024-05-26)
 
-* Add shapely stubs ([#12033](https://github.com/python/typeshed/pull/12033))
+Add shapely stubs ([#12033](https://github.com/python/typeshed/pull/12033))
 

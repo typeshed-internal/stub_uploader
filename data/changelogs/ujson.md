@@ -1,28 +1,28 @@
-## [5.10.0.20250822](https://pypi.org/project/types-ujson/5.10.0.20250822/) (2025-08-22)
+## 5.10.0.20250822 (2025-08-22)
 
-* Mark as obsolete since 5.11.0 ([#14607](https://github.com/python/typeshed/pull/14607))
+[ujson] Mark as obsolete since 5.11.0 ([#14607](https://github.com/python/typeshed/pull/14607))
 
-## [5.10.0.20250326](https://pypi.org/project/types-ujson/5.10.0.20250326/) (2025-03-26)
+## 5.10.0.20250326 (2025-03-26)
 
-* Improve `ujson` ([#13700](https://github.com/python/typeshed/pull/13700))
+Improve `ujson` ([#13700](https://github.com/python/typeshed/pull/13700))
 
-## [5.10.0.20240515](https://pypi.org/project/types-ujson/5.10.0.20240515/) (2024-05-15)
+## 5.10.0.20240515 (2024-05-15)
 
-* Bump ujson to 5.10.* ([#11915](https://github.com/python/typeshed/pull/11915))
+[stubsabot] Bump ujson to 5.10.* ([#11915](https://github.com/python/typeshed/pull/11915))
 
-    Release: https://pypi.org/pypi/ujson/5.10.0 \
-    Homepage: https://github.com/ultrajson/ultrajson \
-    Repository: https://github.com/ultrajson/ultrajson \
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/ujson \
-    Diff: https://github.com/ultrajson/ultrajson/compare/5.9.0...5.10.0
+Release: https://pypi.org/pypi/ujson/5.10.0
+Homepage: https://github.com/ultrajson/ultrajson
+Repository: https://github.com/ultrajson/ultrajson
+Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/ujson
+Diff: https://github.com/ultrajson/ultrajson/compare/5.9.0...5.10.0
 
-    Stubsabot analysis of the diff between the two releases:
-     - Total lines of Python code added: 0.
-     - Total lines of Python code deleted: 0.
+Stubsabot analysis of the diff between the two releases:
+ - Total lines of Python code added: 0.
+ - Total lines of Python code deleted: 0.
 
-## [5.9.0.0](https://pypi.org/project/types-ujson/5.9.0.0/) (2023-12-12)
+## 5.9.0.0 (2023-12-12)
 
-* Bump ujson to 5.9.* ([#11143](https://github.com/python/typeshed/pull/11143))
+[stubsabot] Bump ujson to 5.9.* ([#11143](https://github.com/python/typeshed/pull/11143))
 
 ## 5.8.0.1 (2023-07-20)
 

@@ -1,34 +1,34 @@
-## [0.9.3.20260508](https://pypi.org/project/types-PyAutoGUI/0.9.3.20260508/) (2026-05-08)
+## 0.9.3.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [0.9.3.20260408](https://pypi.org/project/types-PyAutoGUI/0.9.3.20260408/) (2026-04-08)
+## 0.9.3.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [0.9.3.20260402](https://pypi.org/project/types-PyAutoGUI/0.9.3.20260402/) (2026-04-02)
+## 0.9.3.20260402 (2026-04-02)
 
-* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-## [0.9.3.20241230](https://pypi.org/project/types-PyAutoGUI/0.9.3.20241230/) (2024-12-30)
+## 0.9.3.20241230 (2024-12-30)
 
-* pyAutoGui: Correct Return Type of position() to Match Actual Behavior ([#11267](https://github.com/python/typeshed/pull/11267))
+pyAutoGui: Correct Return Type of position() to Match Actual Behavior ([#11267](https://github.com/python/typeshed/pull/11267))
 
-    Co-authored-by: Avasam <samuel.06@hotmail.com>
+Co-authored-by: Avasam <samuel.06@hotmail.com>
 
-## [0.9.3.20240406](https://pypi.org/project/types-PyAutoGUI/0.9.3.20240406/) (2024-04-06)
+## 0.9.3.20240406 (2024-04-06)
 
-* Depend on Pillow instead of types-Pillow ([#11720](https://github.com/python/typeshed/pull/11720))
+Depend on Pillow instead of types-Pillow ([#11720](https://github.com/python/typeshed/pull/11720))
 
-## [0.9.3.20240106](https://pypi.org/project/types-PyAutoGUI/0.9.3.20240106/) (2024-01-06)
+## 0.9.3.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## [0.9.3.8](https://pypi.org/project/types-PyAutoGUI/0.9.3.8/) (2023-12-19)
+## 0.9.3.8 (2023-12-19)
 
-* Review `SupportsInt` and `SupportsFloat` usages in 3rd-party stubs ([#11003](https://github.com/python/typeshed/pull/11003))
+Review `SupportsInt` and `SupportsFloat` usages in 3rd-party stubs ([#11003](https://github.com/python/typeshed/pull/11003))
 
 ## 0.9.3.7 (2023-07-20)
 

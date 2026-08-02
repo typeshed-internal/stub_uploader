@@ -1,14 +1,14 @@
-## [0.9.9.20260408](https://pypi.org/project/types-retry/0.9.9.20260408/) (2026-04-08)
+## 0.9.9.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [0.9.9.20250322](https://pypi.org/project/types-retry/0.9.9.20250322/) (2025-03-22)
+## 0.9.9.20250322 (2025-03-22)
 
-* Add `__all__` to `retry` ([#13691](https://github.com/python/typeshed/pull/13691))
+Add `__all__` to `retry` ([#13691](https://github.com/python/typeshed/pull/13691))
 
-## [0.9.9.20241221](https://pypi.org/project/types-retry/0.9.9.20241221/) (2024-12-21)
+## 0.9.9.20241221 (2024-12-21)
 
-* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
 ## 0.9.9.4 (2023-07-20)
 

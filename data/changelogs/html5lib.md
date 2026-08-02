@@ -1,96 +1,96 @@
-## [1.1.11.20260518](https://pypi.org/project/types-html5lib/1.1.11.20260518/) (2026-05-18)
+## 1.1.11.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [1.1.11.20260508](https://pypi.org/project/types-html5lib/1.1.11.20260508/) (2026-05-08)
+## 1.1.11.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [1.1.11.20260408](https://pypi.org/project/types-html5lib/1.1.11.20260408/) (2026-04-08)
+## 1.1.11.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [1.1.11.20260402](https://pypi.org/project/types-html5lib/1.1.11.20260402/) (2026-04-02)
+## 1.1.11.20260402 (2026-04-02)
 
-* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-## [1.1.11.20251117](https://pypi.org/project/types-html5lib/1.1.11.20251117/) (2025-11-17)
+## 1.1.11.20251117 (2025-11-17)
 
-* Improve serializer ([#15036](https://github.com/python/typeshed/pull/15036))
+[html5lib] Improve serializer ([#15036](https://github.com/python/typeshed/pull/15036))
 
-## [1.1.11.20251115](https://pypi.org/project/types-html5lib/1.1.11.20251115/) (2025-11-15)
+## 1.1.11.20251115 (2025-11-15)
 
-* Annotate more ([#14994](https://github.com/python/typeshed/pull/14994))
+[html5lib] Annotate more ([#14994](https://github.com/python/typeshed/pull/14994))
 
-    * Import `webencodings` to use `Encoding` class instead of `Protocol`
-    * Make `_inputstream.BufferedStream`, `filters.base.Filter`, `_utils.MethodDispatcher` generic
-    * Fix incorrect types in `_ihatexml.pyi`
-    * Add types for some attributes/methods
+* Import `webencodings` to use `Encoding` class instead of `Protocol`
+* Make `_inputstream.BufferedStream`, `filters.base.Filter`, `_utils.MethodDispatcher` generic
+* Fix incorrect types in `_ihatexml.pyi`
+* Add types for some attributes/methods
 
-## [1.1.11.20251014](https://pypi.org/project/types-html5lib/1.1.11.20251014/) (2025-10-14)
+## 1.1.11.20251014 (2025-10-14)
 
-* Add annotations for several functions in htmll5parser.py ([#14859](https://github.com/python/typeshed/pull/14859))
+[html5lib] Add annotations for several functions in htmll5parser.py ([#14859](https://github.com/python/typeshed/pull/14859))
 
-## [1.1.11.20250917](https://pypi.org/project/types-html5lib/1.1.11.20250917/) (2025-09-17)
+## 1.1.11.20250917 (2025-09-17)
 
-* Add annotations for impliedTagToken function ([#14709](https://github.com/python/typeshed/pull/14709))
+[html5lib] Add annotations for impliedTagToken function ([#14709](https://github.com/python/typeshed/pull/14709))
 
-## [1.1.11.20250809](https://pypi.org/project/types-html5lib/1.1.11.20250809/) (2025-08-09)
+## 1.1.11.20250809 (2025-08-09)
 
-* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## [1.1.11.20250708](https://pypi.org/project/types-html5lib/1.1.11.20250708/) (2025-07-08)
+## 1.1.11.20250708 (2025-07-08)
 
-* Minimal pyright fix for HTMLParser.__init__ ([#14251](https://github.com/python/typeshed/pull/14251))
+[html5lib] Minimal pyright fix for HTMLParser.__init__ ([#14251](https://github.com/python/typeshed/pull/14251))
 
-* Improve stubs ([#14278](https://github.com/python/typeshed/pull/14278))
+[html5lib] Improve stubs ([#14278](https://github.com/python/typeshed/pull/14278))
 
-## [1.1.11.20250516](https://pypi.org/project/types-html5lib/1.1.11.20250516/) (2025-05-16)
+## 1.1.11.20250516 (2025-05-16)
 
-* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## [1.1.11.20241018](https://pypi.org/project/types-html5lib/1.1.11.20241018/) (2024-10-18)
+## 1.1.11.20241018 (2024-10-18)
 
-* Add a return to html5lib.HTMLSerializer.serialize() ([#12838](https://github.com/python/typeshed/pull/12838))
+Add a return to html5lib.HTMLSerializer.serialize() ([#12838](https://github.com/python/typeshed/pull/12838))
 
-    Signed-off-by: Mike Fiedler <miketheman@gmail.com>
+Signed-off-by: Mike Fiedler <miketheman@gmail.com>
 
-## [1.1.11.20240806](https://pypi.org/project/types-html5lib/1.1.11.20240806/) (2024-08-06)
+## 1.1.11.20240806 (2024-08-06)
 
-* Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
+Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
 
-## [1.1.11.20240228](https://pypi.org/project/types-html5lib/1.1.11.20240228/) (2024-02-28)
+## 1.1.11.20240228 (2024-02-28)
 
-* html5lib: Fix type alias ([#11480](https://github.com/python/typeshed/pull/11480))
+html5lib: Fix type alias ([#11480](https://github.com/python/typeshed/pull/11480))
 
-    Pretty sure this is what I meant to write in the first place.
+Pretty sure this is what I meant to write in the first place.
 
-    Fixes #11478
+Fixes #11478
 
-## [1.1.11.20240222](https://pypi.org/project/types-html5lib/1.1.11.20240222/) (2024-02-22)
+## 1.1.11.20240222 (2024-02-22)
 
-* Complete stubs for `bleach` ([#9314](https://github.com/python/typeshed/pull/9314))
+Complete stubs for `bleach` ([#9314](https://github.com/python/typeshed/pull/9314))
 
-    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com> \
-    Co-authored-by: Avasam <samuel.06@hotmail.com>
+Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+Co-authored-by: Avasam <samuel.06@hotmail.com>
 
-## [1.1.11.20240221](https://pypi.org/project/types-html5lib/1.1.11.20240221/) (2024-02-21)
+## 1.1.11.20240221 (2024-02-21)
 
-* html5lib: Add various types ([#11429](https://github.com/python/typeshed/pull/11429))
+html5lib: Add various types ([#11429](https://github.com/python/typeshed/pull/11429))
 
-    I started out investigating comments in #11411 and ended up adding a few other \
-    types that were reasonably obvious from the source code. For reference: \
-    https://github.com/html5lib/html5lib-python/tree/master/html5lib
+I started out investigating comments in #11411 and ended up adding a few other
+types that were reasonably obvious from the source code. For reference:
+https://github.com/html5lib/html5lib-python/tree/master/html5lib
 
-## [1.1.11.20240217](https://pypi.org/project/types-html5lib/1.1.11.20240217/) (2024-02-17)
+## 1.1.11.20240217 (2024-02-17)
 
-* html5lib: Additional types ([#11411](https://github.com/python/typeshed/pull/11411))
+html5lib: Additional types ([#11411](https://github.com/python/typeshed/pull/11411))
 
-## [1.1.11.20240106](https://pypi.org/project/types-html5lib/1.1.11.20240106/) (2024-01-06)
+## 1.1.11.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 1.1.11.15 (2023-07-20)
 

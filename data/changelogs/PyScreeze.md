@@ -1,69 +1,69 @@
-## [1.0.1.20260518](https://pypi.org/project/types-PyScreeze/1.0.1.20260518/) (2026-05-18)
+## 1.0.1.20260518 (2026-05-18)
 
-* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## [1.0.1.20260508](https://pypi.org/project/types-PyScreeze/1.0.1.20260508/) (2026-05-08)
+## 1.0.1.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [1.0.1.20260408](https://pypi.org/project/types-PyScreeze/1.0.1.20260408/) (2026-04-08)
+## 1.0.1.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [1.0.1.20260402](https://pypi.org/project/types-PyScreeze/1.0.1.20260402/) (2026-04-02)
+## 1.0.1.20260402 (2026-04-02)
 
-* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-## [1.0.1.20250801](https://pypi.org/project/types-PyScreeze/1.0.1.20250801/) (2025-08-01)
+## 1.0.1.20250801 (2025-08-01)
 
-* Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
+Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
-    Co-authored-by: Avasam <samuel.06@hotmail.com> \
-    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+Co-authored-by: Avasam <samuel.06@hotmail.com>
+Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
-## [1.0.1.20250425](https://pypi.org/project/types-PyScreeze/1.0.1.20250425/) (2025-04-25)
+## 1.0.1.20250425 (2025-04-25)
 
-* Fix locateCenterOnScreen optional arguments ([#13852](https://github.com/python/typeshed/pull/13852))
+[PyScreeze] Fix locateCenterOnScreen optional arguments ([#13852](https://github.com/python/typeshed/pull/13852))
 
-## [1.0.1.20240822](https://pypi.org/project/types-PyScreeze/1.0.1.20240822/) (2024-08-22)
+## 1.0.1.20240822 (2024-08-22)
 
-* Bump PyScreeze to 1.0.1 ([#12566](https://github.com/python/typeshed/pull/12566))
+[stubsabot] Bump PyScreeze to 1.0.1 ([#12566](https://github.com/python/typeshed/pull/12566))
 
-    Co-authored-by: stubsabot <>
+Co-authored-by: stubsabot <>
 
-## [0.1.30.20240406](https://pypi.org/project/types-PyScreeze/0.1.30.20240406/) (2024-04-06)
+## 0.1.30.20240406 (2024-04-06)
 
-* Depend on Pillow instead of types-Pillow ([#11720](https://github.com/python/typeshed/pull/11720))
+Depend on Pillow instead of types-Pillow ([#11720](https://github.com/python/typeshed/pull/11720))
 
-## [0.1.30.20240313](https://pypi.org/project/types-PyScreeze/0.1.30.20240313/) (2024-03-13)
+## 0.1.30.20240313 (2024-03-13)
 
-* Make stubtest work on pyscreeze if you're using py312 ([#11582](https://github.com/python/typeshed/pull/11582))
+Make stubtest work on pyscreeze if you're using py312 ([#11582](https://github.com/python/typeshed/pull/11582))
 
-## [0.1.30.20240106](https://pypi.org/project/types-PyScreeze/0.1.30.20240106/) (2024-01-06)
+## 0.1.30.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## [0.1.30.1](https://pypi.org/project/types-PyScreeze/0.1.30.1/) (2023-11-30)
+## 0.1.30.1 (2023-11-30)
 
-* Use `ConvertibleToInt`/`ConvertibleToFloat` in many third-party stubs ([#11022](https://github.com/python/typeshed/pull/11022))
+Use `ConvertibleToInt`/`ConvertibleToFloat` in many third-party stubs ([#11022](https://github.com/python/typeshed/pull/11022))
 
-    Note: this may make the latest version of certain stubs packages incompatible with older versions of mypy and pyright.
+Note: this may make the latest version of certain stubs packages incompatible with older versions of mypy and pyright.
 
-## [0.1.30.0](https://pypi.org/project/types-PyScreeze/0.1.30.0/) (2023-11-14)
+## 0.1.30.0 (2023-11-14)
 
-* Bump PyScreeze to 0.1.30 ([#11025](https://github.com/python/typeshed/pull/11025))
+Bump PyScreeze to 0.1.30 ([#11025](https://github.com/python/typeshed/pull/11025))
 
-## [0.1.29.0](https://pypi.org/project/types-PyScreeze/0.1.29.0/) (2023-11-11)
+## 0.1.29.0 (2023-11-11)
 
-* Pin PyScreeze more tightly ([#11017](https://github.com/python/typeshed/pull/11017))
+Pin PyScreeze more tightly ([#11017](https://github.com/python/typeshed/pull/11017))
 
-    To stop the "stubtest failed" bot opening a new issue every night until we have a chance to look at the stubtest failures (stubsabot will just open a PR instead)
+To stop the "stubtest failed" bot opening a new issue every night until we have a chance to look at the stubtest failures (stubsabot will just open a PR instead)
 
-    Closes #11016
+Closes #11016
 
 ## 0.1.0.10 (2023-09-23)
 

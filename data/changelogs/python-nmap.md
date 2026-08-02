@@ -1,20 +1,20 @@
-## [0.7.1.20260508](https://pypi.org/project/types-python-nmap/0.7.1.20260508/) (2026-05-08)
+## 0.7.1.20260508 (2026-05-08)
 
-* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-    Part of #13782
+Part of #13782
 
-## [0.7.1.20260408](https://pypi.org/project/types-python-nmap/0.7.1.20260408/) (2026-04-08)
+## 0.7.1.20260408 (2026-04-08)
 
-* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## [0.7.1.20250809](https://pypi.org/project/types-python-nmap/0.7.1.20250809/) (2025-08-09)
+## 0.7.1.20250809 (2025-08-09)
 
-* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## [0.7.1.20240106](https://pypi.org/project/types-python-nmap/0.7.1.20240106/) (2024-01-06)
+## 0.7.1.20240106 (2024-01-06)
 
-* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 0.7.1.4 (2023-08-13)
 
