@@ -10,10 +10,10 @@
 
 * Bump flake8-rst-docstrings to 0.4.* ([#14843](https://github.com/python/typeshed/pull/14843))
 
-    Release: https://pypi.org/pypi/flake8-rst-docstrings/0.4.0
-    Homepage: https://github.com/peterjc/flake8-rst-docstrings
-    Repository: https://github.com/peterjc/flake8-rst-docstrings
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-rst-docstrings
+    Release: https://pypi.org/pypi/flake8-rst-docstrings/0.4.0 \
+    Homepage: https://github.com/peterjc/flake8-rst-docstrings \
+    Repository: https://github.com/peterjc/flake8-rst-docstrings \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-rst-docstrings \
     Diff: https://github.com/peterjc/flake8-rst-docstrings/compare/v0.3.1...v0.4.0
 
     Stubsabot analysis of the diff between the two releases:

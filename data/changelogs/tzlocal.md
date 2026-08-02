@@ -2,9 +2,9 @@
 
 * Mark tzlocal as obsolete since 5.2 ([#10921](https://github.com/python/typeshed/pull/10921))
 
-    Release: https://pypi.org/pypi/tzlocal/5.2
-    Repository: https://github.com/regebro/tzlocal
-    Changelog: https://github.com/regebro/tzlocal/blob/master/CHANGES.txt
+    Release: https://pypi.org/pypi/tzlocal/5.2 \
+    Repository: https://github.com/regebro/tzlocal \
+    Changelog: https://github.com/regebro/tzlocal/blob/master/CHANGES.txt \
     Diff: https://github.com/regebro/tzlocal/compare/5.1...5.2
 
     Co-authored-by: stubsabot <>

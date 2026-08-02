@@ -54,9 +54,9 @@
 
 * Bump tqdm to 4.67.3 ([#15366](https://github.com/python/typeshed/pull/15366))
 
-    Release: https://pypi.org/pypi/tqdm/4.67.3
-    Repository: https://github.com/tqdm/tqdm
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/tqdm
+    Release: https://pypi.org/pypi/tqdm/4.67.3 \
+    Repository: https://github.com/tqdm/tqdm \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/tqdm \
     Diff: https://github.com/tqdm/tqdm/compare/v4.67.2...v4.67.3
 
     Stubsabot analysis of the diff between the two releases:
@@ -75,7 +75,7 @@
 
 * Update to 4.67.2 ([#15348](https://github.com/python/typeshed/pull/15348))
 
-    Closes: #15347
+    Closes: #15347 \
     Diff: https://github.com/tqdm/tqdm/compare/v4.67.1...v4.67.2
 
 ## [4.67.0.20250809](https://pypi.org/project/types-tqdm/4.67.0.20250809/) (2025-08-09)

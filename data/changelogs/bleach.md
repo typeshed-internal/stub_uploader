@@ -63,7 +63,7 @@
 
 * Complete stubs for `bleach` ([#9314](https://github.com/python/typeshed/pull/9314))
 
-    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com> \
     Co-authored-by: Avasam <samuel.06@hotmail.com>
 
 ## [6.1.0.1](https://pypi.org/project/types-bleach/6.1.0.1/) (2023-11-11)

@@ -72,10 +72,10 @@
 
 * Bump peewee to 3.19.0 ([#15230](https://github.com/python/typeshed/pull/15230))
 
-    Release: https://pypi.org/pypi/peewee/3.19.0
-    Repository: https://github.com/coleifer/peewee
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/peewee
-    Changelog: https://github.com/coleifer/peewee/blob/master/CHANGELOG.md
+    Release: https://pypi.org/pypi/peewee/3.19.0 \
+    Repository: https://github.com/coleifer/peewee \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/peewee \
+    Changelog: https://github.com/coleifer/peewee/blob/master/CHANGELOG.md \
     Diff: https://github.com/coleifer/peewee/compare/3.18.3...3.19.0
 
     Stubsabot analysis of the diff between the two releases:
@@ -103,10 +103,10 @@
 
 * Bump peewee to 3.18.2 ([#14385](https://github.com/python/typeshed/pull/14385))
 
-    Release: https://pypi.org/pypi/peewee/3.18.2
-    Homepage: https://github.com/coleifer/peewee/
-    Repository: https://github.com/coleifer/peewee
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/peewee
+    Release: https://pypi.org/pypi/peewee/3.18.2 \
+    Homepage: https://github.com/coleifer/peewee/ \
+    Repository: https://github.com/coleifer/peewee \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/peewee \
     Diff: https://github.com/coleifer/peewee/compare/3.18.1...3.18.2
 
     Stubsabot analysis of the diff between the two releases:
@@ -202,10 +202,10 @@
 
 * Bump peewee to 3.17.6 ([#12290](https://github.com/python/typeshed/pull/12290))
 
-    Release: https://pypi.org/pypi/peewee/3.17.6
-    Homepage: https://github.com/coleifer/peewee/
-    Repository: https://github.com/coleifer/peewee
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/peewee
+    Release: https://pypi.org/pypi/peewee/3.17.6 \
+    Homepage: https://github.com/coleifer/peewee/ \
+    Repository: https://github.com/coleifer/peewee \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/peewee \
     Diff: https://github.com/coleifer/peewee/compare/3.17.5...3.17.6
 
     Stubsabot analysis of the diff between the two releases:
@@ -223,7 +223,7 @@
 
 * Add peewee `playhouse.flask_utils` stubs ([#11731](https://github.com/python/typeshed/pull/11731))
 
-    Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com> \
     Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
 ## [3.17.3.20240420](https://pypi.org/project/types-peewee/3.17.3.20240420/) (2024-04-20)

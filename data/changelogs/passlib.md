@@ -6,7 +6,7 @@
 
 * Update mypy to 1.16.0 ([#14194](https://github.com/python/typeshed/pull/14194))
 
-    Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
+    Co-authored-by: Sebastian Rittau <srittau@rittau.biz> \
     Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## [1.7.7.20250601](https://pypi.org/project/types-passlib/1.7.7.20250601/) (2025-06-01)

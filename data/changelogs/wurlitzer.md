@@ -28,6 +28,6 @@
 
 * Add `wurlitzer` stubs ([#11459](https://github.com/python/typeshed/pull/11459))
 
-    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com> \
     Co-authored-by: Akuli <akuviljanen17@gmail.com>
 

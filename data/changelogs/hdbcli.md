@@ -51,8 +51,8 @@
 
 * Bump hdbcli to 2.23.* ([#13228](https://github.com/python/typeshed/pull/13228))
 
-    Release: https://pypi.org/pypi/hdbcli/2.23.24
-    Homepage: https://www.sap.com/
+    Release: https://pypi.org/pypi/hdbcli/2.23.24 \
+    Homepage: https://www.sap.com/ \
     Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/hdbcli
 
     If stubtest fails for this PR:
@@ -99,7 +99,7 @@
 
 * Bump hdbcli to 2.19.* ([#11157](https://github.com/python/typeshed/pull/11157))
 
-    Release: https://pypi.org/pypi/hdbcli/2.19.18
+    Release: https://pypi.org/pypi/hdbcli/2.19.18 \
     Homepage: https://www.sap.com/
 
 ## [2.18.0.1](https://pypi.org/project/types-hdbcli/2.18.0.1/) (2023-11-16)

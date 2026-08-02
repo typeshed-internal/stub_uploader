@@ -30,10 +30,10 @@
 
 * Bump google-cloud-ndb to 2.4.* ([#15137](https://github.com/python/typeshed/pull/15137))
 
-    Release: https://pypi.org/pypi/google-cloud-ndb/2.4.0
-    Homepage: https://github.com/googleapis/python-ndb
-    Repository: https://github.com/googleapis/python-ndb
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/google-cloud-ndb
+    Release: https://pypi.org/pypi/google-cloud-ndb/2.4.0 \
+    Homepage: https://github.com/googleapis/python-ndb \
+    Repository: https://github.com/googleapis/python-ndb \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/google-cloud-ndb \
     Diff: https://github.com/googleapis/python-ndb/compare/v2.3.4...v2.4.0
 
     Stubsabot analysis of the diff between the two releases:

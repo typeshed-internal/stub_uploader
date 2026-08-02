@@ -69,7 +69,7 @@
 
 * Update mypy to 1.16.0 ([#14194](https://github.com/python/typeshed/pull/14194))
 
-    Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
+    Co-authored-by: Sebastian Rittau <srittau@rittau.biz> \
     Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## [2.32.0.20250515](https://pypi.org/project/types-requests/2.32.0.20250515/) (2025-05-15)
@@ -130,10 +130,10 @@
 
 * Bump requests to 2.32.* ([#11991](https://github.com/python/typeshed/pull/11991))
 
-    Release: https://pypi.org/pypi/requests/2.32.1
-    Homepage: https://requests.readthedocs.io
-    Repository: https://github.com/psf/requests
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/requests
+    Release: https://pypi.org/pypi/requests/2.32.1 \
+    Homepage: https://requests.readthedocs.io \
+    Repository: https://github.com/psf/requests \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/requests \
     Diff: https://github.com/psf/requests/compare/v2.31.0...v2.32.1
 
     Stubsabot analysis of the diff between the two releases:

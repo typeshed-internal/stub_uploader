@@ -28,7 +28,7 @@
 
 * Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
 
-    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com> \
     Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
 ## [4.6.0.20240417](https://pypi.org/project/types-redis/4.6.0.20240417/) (2024-04-17)
@@ -53,7 +53,7 @@
 
 * fix(redis): make xadd fields use SupportsItems ([#10780](https://github.com/python/typeshed/pull/10780))
 
-    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com> \
     Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
 ## [4.6.0.20240106](https://pypi.org/project/types-redis/4.6.0.20240106/) (2024-01-06)

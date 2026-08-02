@@ -78,7 +78,7 @@
 
 * Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
-    Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com> \
     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
 ## [80.9.0.20250529](https://pypi.org/project/types-setuptools/80.9.0.20250529/) (2025-05-29)
@@ -137,7 +137,7 @@
 
     ---------
 
-    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com> \
     Co-authored-by: Avasam <samuel.06@hotmail.com>
 
 ## [76.0.0.20250313](https://pypi.org/project/types-setuptools/76.0.0.20250313/) (2025-03-13)
@@ -184,10 +184,10 @@
 
 * Bump setuptools to 75.5.* ([#13017](https://github.com/python/typeshed/pull/13017))
 
-    Release: https://pypi.org/pypi/setuptools/75.5.0
-    Repository: https://github.com/pypa/setuptools
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/setuptools
-    Changelog: https://setuptools.pypa.io/en/stable/history.html
+    Release: https://pypi.org/pypi/setuptools/75.5.0 \
+    Repository: https://github.com/pypa/setuptools \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/setuptools \
+    Changelog: https://setuptools.pypa.io/en/stable/history.html \
     Diff: https://github.com/pypa/setuptools/compare/v75.4.0...v75.5.0
 
     Stubsabot analysis of the diff between the two releases:
@@ -241,10 +241,10 @@
 
 * Bump setuptools to 75.2.* ([#12829](https://github.com/python/typeshed/pull/12829))
 
-    Release: https://pypi.org/pypi/setuptools/75.2.0
-    Repository: https://github.com/pypa/setuptools
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/setuptools
-    Changelog: https://setuptools.pypa.io/en/stable/history.html
+    Release: https://pypi.org/pypi/setuptools/75.2.0 \
+    Repository: https://github.com/pypa/setuptools \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/setuptools \
+    Changelog: https://setuptools.pypa.io/en/stable/history.html \
     Diff: https://github.com/pypa/setuptools/compare/v75.1.1...v75.2.0
 
     Stubsabot analysis of the diff between the two releases:
@@ -280,7 +280,7 @@
 
     ---------
 
-    Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com> \
     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
 ## [74.0.0.20240831](https://pypi.org/project/types-setuptools/74.0.0.20240831/) (2024-08-31)
@@ -299,7 +299,7 @@
 
 * Bump setuptools to 72.2.* ([#12461](https://github.com/python/typeshed/pull/12461))
 
-    Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com> \
     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
 ## [71.1.0.20240818](https://pypi.org/project/types-setuptools/71.1.0.20240818/) (2024-08-18)
@@ -340,10 +340,10 @@
 
 * Bump setuptools to 70.3.* ([#12308](https://github.com/python/typeshed/pull/12308))
 
-    Release: https://pypi.org/pypi/setuptools/70.3.0
-    Repository: https://github.com/pypa/setuptools
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/setuptools
-    Changelog: https://setuptools.pypa.io/en/stable/history.html
+    Release: https://pypi.org/pypi/setuptools/70.3.0 \
+    Repository: https://github.com/pypa/setuptools \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/setuptools \
+    Changelog: https://setuptools.pypa.io/en/stable/history.html \
     Diff: https://github.com/pypa/setuptools/compare/v70.2.0...v70.3.0
 
     Stubsabot analysis of the diff between the two releases:
@@ -409,7 +409,7 @@
 
 * Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
 
-    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com> \
     Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
 ## [69.5.0.20240415](https://pypi.org/project/types-setuptools/69.5.0.20240415/) (2024-04-15)

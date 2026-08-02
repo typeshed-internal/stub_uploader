@@ -34,9 +34,9 @@
 
 * Bump psutil to 7.2.1 ([#15192](https://github.com/python/typeshed/pull/15192))
 
-    Release: https://pypi.org/pypi/psutil/7.2.1
-    Homepage: https://github.com/giampaolo/psutil
-    Repository: https://github.com/giampaolo/psutil
+    Release: https://pypi.org/pypi/psutil/7.2.1 \
+    Homepage: https://github.com/giampaolo/psutil \
+    Repository: https://github.com/giampaolo/psutil \
     Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/psutil
 
     If stubtest fails for this PR:
@@ -115,7 +115,7 @@
 
 * Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
-    Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com> \
     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
 ## [7.0.0.20250601](https://pypi.org/project/types-psutil/7.0.0.20250601/) (2025-06-01)
@@ -177,7 +177,7 @@
 
 * Update dependency pyright to v1.1.363 ([#11919](https://github.com/python/typeshed/pull/11919))
 
-    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com>
+    Co-authored-by: renovate[bot] <29139614+renovate[bot]@users.noreply.github.com> \
     Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
 ## [5.9.5.20240511](https://pypi.org/project/types-psutil/5.9.5.20240511/) (2024-05-11)
@@ -190,7 +190,7 @@
 
 * Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
 
-    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com> \
     Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
 ## [5.9.5.20240316](https://pypi.org/project/types-psutil/5.9.5.20240316/) (2024-03-16)

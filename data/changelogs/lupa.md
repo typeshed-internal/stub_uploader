@@ -30,9 +30,9 @@
 
 * Bump lupa to 2.6.* ([#14919](https://github.com/python/typeshed/pull/14919))
 
-    Release: https://pypi.org/pypi/lupa/2.6
-    Homepage: https://github.com/scoder/lupa
-    Repository: https://github.com/scoder/lupa
+    Release: https://pypi.org/pypi/lupa/2.6 \
+    Homepage: https://github.com/scoder/lupa \
+    Repository: https://github.com/scoder/lupa \
     Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/lupa
 
     If stubtest fails for this PR:
@@ -79,9 +79,9 @@
 
 * Bump lupa to 2.3.* ([#13383](https://github.com/python/typeshed/pull/13383))
 
-    Release: https://pypi.org/pypi/lupa/2.3
-    Homepage: https://github.com/scoder/lupa
-    Repository: https://github.com/scoder/lupa
+    Release: https://pypi.org/pypi/lupa/2.3 \
+    Homepage: https://github.com/scoder/lupa \
+    Repository: https://github.com/scoder/lupa \
     Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/lupa
 
 ## [2.2.0.20240917](https://pypi.org/project/types-lupa/2.2.0.20240917/) (2024-09-17)

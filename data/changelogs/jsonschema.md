@@ -38,11 +38,11 @@
 
 * Bump jsonschema to ~=4.26.0 ([#15231](https://github.com/python/typeshed/pull/15231))
 
-    Release: https://pypi.org/pypi/jsonschema/4.26.0
-    Homepage: https://github.com/python-jsonschema/jsonschema
-    Repository: https://github.com/python-jsonschema/jsonschema
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/jsonschema
-    Changelog: https://github.com/python-jsonschema/jsonschema/blob/main/CHANGELOG.rst
+    Release: https://pypi.org/pypi/jsonschema/4.26.0 \
+    Homepage: https://github.com/python-jsonschema/jsonschema \
+    Repository: https://github.com/python-jsonschema/jsonschema \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/jsonschema \
+    Changelog: https://github.com/python-jsonschema/jsonschema/blob/main/CHANGELOG.rst \
     Diff: https://github.com/python-jsonschema/jsonschema/compare/v4.25.1...v4.26.0
 
     Stubsabot analysis of the diff between the two releases:
@@ -118,11 +118,11 @@
 
 * Bump jsonschema to 4.22.* ([#11850](https://github.com/python/typeshed/pull/11850))
 
-    Release: https://pypi.org/pypi/jsonschema/4.22.0
-    Homepage: https://github.com/python-jsonschema/jsonschema
-    Repository: https://github.com/python-jsonschema/jsonschema
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/jsonschema
-    Changelog: https://github.com/python-jsonschema/jsonschema/blob/main/CHANGELOG.rst
+    Release: https://pypi.org/pypi/jsonschema/4.22.0 \
+    Homepage: https://github.com/python-jsonschema/jsonschema \
+    Repository: https://github.com/python-jsonschema/jsonschema \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/jsonschema \
+    Changelog: https://github.com/python-jsonschema/jsonschema/blob/main/CHANGELOG.rst \
     Diff: https://github.com/python-jsonschema/jsonschema/compare/v4.21.1...v4.22.0
 
     Stubsabot analysis of the diff between the two releases:

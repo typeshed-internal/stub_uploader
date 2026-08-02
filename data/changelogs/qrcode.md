@@ -44,10 +44,10 @@
 
 * Bump qrcode to 8.0.* ([#12718](https://github.com/python/typeshed/pull/12718))
 
-    Release: https://pypi.org/pypi/qrcode/8.0
-    Homepage: https://github.com/lincolnloop/python-qrcode
-    Repository: https://github.com/lincolnloop/python-qrcode
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/qrcode
+    Release: https://pypi.org/pypi/qrcode/8.0 \
+    Homepage: https://github.com/lincolnloop/python-qrcode \
+    Repository: https://github.com/lincolnloop/python-qrcode \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/qrcode \
     Diff: https://github.com/lincolnloop/python-qrcode/compare/v7.4.2...v8.0
 
     Stubsabot analysis of the diff between the two releases:

@@ -52,9 +52,9 @@
 
 * Bump pyflakes to 3.2.* ([#11252](https://github.com/python/typeshed/pull/11252))
 
-    Release: https://pypi.org/pypi/pyflakes/3.2.0
-    Homepage: https://github.com/PyCQA/pyflakes
-    Repository: https://github.com/PyCQA/pyflakes
+    Release: https://pypi.org/pypi/pyflakes/3.2.0 \
+    Homepage: https://github.com/PyCQA/pyflakes \
+    Repository: https://github.com/PyCQA/pyflakes \
     Diff: https://github.com/PyCQA/pyflakes/compare/3.1.0...3.2.0
 
     Stubsabot analysis of the diff between the two releases:

@@ -10,11 +10,11 @@
 
 * Bump flake8-bugbear to 25.11.29 ([#15096](https://github.com/python/typeshed/pull/15096))
 
-    Release: https://pypi.org/pypi/flake8-bugbear/25.11.29
-    Homepage: https://github.com/PyCQA/flake8-bugbear
-    Repository: https://github.com/PyCQA/flake8-bugbear
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-bugbear
-    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+    Release: https://pypi.org/pypi/flake8-bugbear/25.11.29 \
+    Homepage: https://github.com/PyCQA/flake8-bugbear \
+    Repository: https://github.com/PyCQA/flake8-bugbear \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-bugbear \
+    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log \
     Diff: https://github.com/PyCQA/flake8-bugbear/compare/25.10.21...25.11.29
 
     Stubsabot analysis of the diff between the two releases:
@@ -48,11 +48,11 @@
 
 * Bump flake8-bugbear to 24.12.12 ([#13235](https://github.com/python/typeshed/pull/13235))
 
-    Release: https://pypi.org/pypi/flake8-bugbear/24.12.12
-    Homepage: https://github.com/PyCQA/flake8-bugbear
-    Repository: https://github.com/PyCQA/flake8-bugbear
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-bugbear
-    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+    Release: https://pypi.org/pypi/flake8-bugbear/24.12.12 \
+    Homepage: https://github.com/PyCQA/flake8-bugbear \
+    Repository: https://github.com/PyCQA/flake8-bugbear \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-bugbear \
+    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log \
     Diff: https://github.com/PyCQA/flake8-bugbear/compare/24.10.31...24.12.12
 
     Stubsabot analysis of the diff between the two releases:
@@ -74,11 +74,11 @@
 
 * Bump flake8-bugbear to 24.10.31 ([#12938](https://github.com/python/typeshed/pull/12938))
 
-    Release: https://pypi.org/pypi/flake8-bugbear/24.10.31
-    Homepage: https://github.com/PyCQA/flake8-bugbear
-    Repository: https://github.com/PyCQA/flake8-bugbear
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-bugbear
-    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+    Release: https://pypi.org/pypi/flake8-bugbear/24.10.31 \
+    Homepage: https://github.com/PyCQA/flake8-bugbear \
+    Repository: https://github.com/PyCQA/flake8-bugbear \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-bugbear \
+    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log \
     Diff: https://github.com/PyCQA/flake8-bugbear/compare/24.8.19...24.10.31
 
     Stubsabot analysis of the diff between the two releases:
@@ -104,11 +104,11 @@
 
 * Bump flake8-bugbear to 24.4.26 ([#11836](https://github.com/python/typeshed/pull/11836))
 
-    Release: https://pypi.org/pypi/flake8-bugbear/24.4.26
-    Homepage: https://github.com/PyCQA/flake8-bugbear
-    Repository: https://github.com/PyCQA/flake8-bugbear
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-bugbear
-    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+    Release: https://pypi.org/pypi/flake8-bugbear/24.4.26 \
+    Homepage: https://github.com/PyCQA/flake8-bugbear \
+    Repository: https://github.com/PyCQA/flake8-bugbear \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-bugbear \
+    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log \
     Diff: https://github.com/PyCQA/flake8-bugbear/compare/24.4.21...24.4.26
 
     Stubsabot analysis of the diff between the two releases:
@@ -122,11 +122,11 @@
 
 * Bump flake8-bugbear to 24.4.21 ([#11806](https://github.com/python/typeshed/pull/11806))
 
-    Release: https://pypi.org/pypi/flake8-bugbear/24.4.21
-    Homepage: https://github.com/PyCQA/flake8-bugbear
-    Repository: https://github.com/PyCQA/flake8-bugbear
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-bugbear
-    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+    Release: https://pypi.org/pypi/flake8-bugbear/24.4.21 \
+    Homepage: https://github.com/PyCQA/flake8-bugbear \
+    Repository: https://github.com/PyCQA/flake8-bugbear \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8-bugbear \
+    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log \
     Diff: https://github.com/PyCQA/flake8-bugbear/compare/24.2.6...24.4.21
 
     Stubsabot analysis of the diff between the two releases:
@@ -144,10 +144,10 @@
 
 * Bump flake8-bugbear to 24.1.17 ([#11278](https://github.com/python/typeshed/pull/11278))
 
-    Release: https://pypi.org/pypi/flake8-bugbear/24.1.17
-    Homepage: https://github.com/PyCQA/flake8-bugbear
-    Repository: https://github.com/PyCQA/flake8-bugbear
-    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+    Release: https://pypi.org/pypi/flake8-bugbear/24.1.17 \
+    Homepage: https://github.com/PyCQA/flake8-bugbear \
+    Repository: https://github.com/PyCQA/flake8-bugbear \
+    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log \
     Diff: https://github.com/PyCQA/flake8-bugbear/compare/23.12.2...24.1.17
 
     Stubsabot analysis of the diff between the two releases:
@@ -169,10 +169,10 @@
 
 * Bump flake8-bugbear to 23.12.2 ([#11097](https://github.com/python/typeshed/pull/11097))
 
-    Release: https://pypi.org/pypi/flake8-bugbear/23.12.2
-    Homepage: https://github.com/PyCQA/flake8-bugbear
-    Repository: https://github.com/PyCQA/flake8-bugbear
-    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+    Release: https://pypi.org/pypi/flake8-bugbear/23.12.2 \
+    Homepage: https://github.com/PyCQA/flake8-bugbear \
+    Repository: https://github.com/PyCQA/flake8-bugbear \
+    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log \
     Diff: https://github.com/PyCQA/flake8-bugbear/compare/23.11.28...23.12.2
 
     Stubsabot analysis of the diff between the two releases:
@@ -194,10 +194,10 @@
 
 * Bump flake8-bugbear to 23.11.28 ([#11088](https://github.com/python/typeshed/pull/11088))
 
-    Release: https://pypi.org/pypi/flake8-bugbear/23.11.28
-    Homepage: https://github.com/PyCQA/flake8-bugbear
-    Repository: https://github.com/PyCQA/flake8-bugbear
-    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+    Release: https://pypi.org/pypi/flake8-bugbear/23.11.28 \
+    Homepage: https://github.com/PyCQA/flake8-bugbear \
+    Repository: https://github.com/PyCQA/flake8-bugbear \
+    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log \
     Diff: https://github.com/PyCQA/flake8-bugbear/compare/23.11.26...23.11.28
 
     Stubsabot analysis of the diff between the two releases:
@@ -211,10 +211,10 @@
 
 * Bump flake8-bugbear to 23.11.26 ([#11075](https://github.com/python/typeshed/pull/11075))
 
-    Release: https://pypi.org/pypi/flake8-bugbear/23.11.26
-    Homepage: https://github.com/PyCQA/flake8-bugbear
-    Repository: https://github.com/PyCQA/flake8-bugbear
-    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log
+    Release: https://pypi.org/pypi/flake8-bugbear/23.11.26 \
+    Homepage: https://github.com/PyCQA/flake8-bugbear \
+    Repository: https://github.com/PyCQA/flake8-bugbear \
+    Changelog: https://github.com/PyCQA/flake8-bugbear#change-log \
     Diff: https://github.com/PyCQA/flake8-bugbear/compare/23.9.16...23.11.26
 
     Stubsabot analysis of the diff between the two releases:

@@ -10,10 +10,10 @@
 
 * Bump ujson to 5.10.* ([#11915](https://github.com/python/typeshed/pull/11915))
 
-    Release: https://pypi.org/pypi/ujson/5.10.0
-    Homepage: https://github.com/ultrajson/ultrajson
-    Repository: https://github.com/ultrajson/ultrajson
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/ujson
+    Release: https://pypi.org/pypi/ujson/5.10.0 \
+    Homepage: https://github.com/ultrajson/ultrajson \
+    Repository: https://github.com/ultrajson/ultrajson \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/ujson \
     Diff: https://github.com/ultrajson/ultrajson/compare/5.9.0...5.10.0
 
     Stubsabot analysis of the diff between the two releases:

@@ -59,7 +59,7 @@
 
 * assertpy: improve type for extracting ([#12224](https://github.com/python/typeshed/pull/12224))
 
-    Signed-off-by: BJ Hargrave <bj@hargrave.dev>
+    Signed-off-by: BJ Hargrave <bj@hargrave.dev> \
     Co-authored-by: hauntsaninja <hauntsaninja@gmail.com>
 
 ## [1.1.0.20240516](https://pypi.org/project/types-assertpy/1.1.0.20240516/) (2024-05-16)

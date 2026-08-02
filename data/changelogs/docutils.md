@@ -152,8 +152,8 @@
 
 * add type annotations to docutils.writers ([#12420](https://github.com/python/typeshed/pull/12420))
 
-    Co-authored-by: daniel.eades <daniel.eades@seebyte.com>
-    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+    Co-authored-by: daniel.eades <daniel.eades@seebyte.com> \
+    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com> \
     Co-authored-by: James Addison <55152140+jayaddison@users.noreply.github.com>
 
 ## [0.21.0.20240907](https://pypi.org/project/types-docutils/0.21.0.20240907/) (2024-09-07)
@@ -216,7 +216,7 @@
 
 * improve type annotations in 'docutils.parsers.rst.directives.misc' ([#11524](https://github.com/python/typeshed/pull/11524))
 
-    Co-authored-by: daniel.eades <daniel.eades@seebyte.com>
+    Co-authored-by: daniel.eades <daniel.eades@seebyte.com> \
     Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
 ## [0.20.0.20240311](https://pypi.org/project/types-docutils/0.20.0.20240311/) (2024-03-11)
@@ -276,7 +276,7 @@
 
 * Add remaining node classes and functions ([#11255](https://github.com/python/typeshed/pull/11255))
 
-    Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
+    Co-authored-by: Sebastian Rittau <srittau@rittau.biz> \
     Co-authored-by: Avasam <samuel.06@hotmail.com>
 
 ## [0.20.0.20240126](https://pypi.org/project/types-docutils/0.20.0.20240126/) (2024-01-26)

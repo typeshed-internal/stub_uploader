@@ -52,11 +52,11 @@
 
 * Bump Markdown to 3.8.* ([#13819](https://github.com/python/typeshed/pull/13819))
 
-    Release: https://pypi.org/pypi/Markdown/3.8
-    Homepage: https://Python-Markdown.github.io/
-    Repository: https://github.com/Python-Markdown/markdown
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Markdown
-    Changelog: https://python-markdown.github.io/changelog/
+    Release: https://pypi.org/pypi/Markdown/3.8 \
+    Homepage: https://Python-Markdown.github.io/ \
+    Repository: https://github.com/Python-Markdown/markdown \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Markdown \
+    Changelog: https://python-markdown.github.io/changelog/ \
     Diff: https://github.com/Python-Markdown/markdown/compare/3.7...3.8
 
     Stubsabot analysis of the diff between the two releases:
@@ -86,8 +86,8 @@
 
 * Bump Markdown to 3.7.* ([#12565](https://github.com/python/typeshed/pull/12565))
 
-    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
-    Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com> \
+    Co-authored-by: Sebastian Rittau <srittau@rittau.biz> \
     Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
 ## [3.6.0.20240316](https://pypi.org/project/types-Markdown/3.6.0.20240316/) (2024-03-16)

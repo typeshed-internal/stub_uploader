@@ -30,7 +30,7 @@
 
 * Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
 
-    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com> \
     Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
 ## [1.42.0.20240419](https://pypi.org/project/types-influxdb-client/1.42.0.20240419/) (2024-04-19)
@@ -45,9 +45,9 @@
 
 * Bump influxdb-client to 1.40.* ([#11406](https://github.com/python/typeshed/pull/11406))
 
-    Release: https://pypi.org/pypi/influxdb-client/1.40.0
-    Homepage: https://github.com/influxdata/influxdb-client-python
-    Repository: https://github.com/influxdata/influxdb-client-python
+    Release: https://pypi.org/pypi/influxdb-client/1.40.0 \
+    Homepage: https://github.com/influxdata/influxdb-client-python \
+    Repository: https://github.com/influxdata/influxdb-client-python \
     Diff: https://github.com/influxdata/influxdb-client-python/compare/v1.39.0...v1.40.0
 
     Stubsabot analysis of the diff between the two releases:
@@ -59,7 +59,7 @@
 
     ---------
 
-    Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <> \
     Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## [1.39.0.20240206](https://pypi.org/project/types-influxdb-client/1.39.0.20240206/) (2024-02-06)

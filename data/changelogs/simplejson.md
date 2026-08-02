@@ -67,7 +67,7 @@
 
 * Mark simplejson as completed ([#9211](https://github.com/python/typeshed/pull/9211))
 
-    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com> \
     Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 3.19.0.2 (2023-07-20)

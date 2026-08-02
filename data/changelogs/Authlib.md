@@ -62,9 +62,9 @@
 
 * Bump Authlib to 1.6.7 ([#15382](https://github.com/python/typeshed/pull/15382))
 
-    Release: https://pypi.org/pypi/Authlib/1.6.7
-    Repository: https://github.com/authlib/authlib
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Authlib
+    Release: https://pypi.org/pypi/Authlib/1.6.7 \
+    Repository: https://github.com/authlib/authlib \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Authlib \
     Diff: https://github.com/authlib/authlib/compare/v1.6.6...v1.6.7
 
     Stubsabot analysis of the diff between the two releases:
@@ -168,9 +168,9 @@
 
 * Bump Authlib to 1.4.* ([#13329](https://github.com/python/typeshed/pull/13329))
 
-    Release: https://pypi.org/pypi/Authlib/1.4.0
-    Repository: https://github.com/lepture/authlib
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Authlib
+    Release: https://pypi.org/pypi/Authlib/1.4.0 \
+    Repository: https://github.com/lepture/authlib \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Authlib \
     Diff: https://github.com/lepture/authlib/compare/v1.3.2...v1.4.0
 
     Stubsabot analysis of the diff between the two releases:
@@ -184,6 +184,6 @@
 
 * Authlib (v2) ([#13140](https://github.com/python/typeshed/pull/13140))
 
-    Co-authored-by: Brian Villemarette <brian.villemarette@trucesoftware.com>
+    Co-authored-by: Brian Villemarette <brian.villemarette@trucesoftware.com> \
     Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 

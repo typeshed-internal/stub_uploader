@@ -30,7 +30,7 @@
 
 * Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
-    Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com> \
     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
 ## [7.45.6.20250309](https://pypi.org/project/types-pycurl/7.45.6.20250309/) (2025-03-09)

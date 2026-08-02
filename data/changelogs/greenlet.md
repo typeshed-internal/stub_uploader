@@ -38,11 +38,11 @@
 
 * Bump greenlet to 3.2.* ([#13836](https://github.com/python/typeshed/pull/13836))
 
-    Release: https://pypi.org/pypi/greenlet/3.2.0
-    Homepage: https://greenlet.readthedocs.io/
-    Repository: https://github.com/python-greenlet/greenlet
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/greenlet
-    Changelog: https://greenlet.readthedocs.io/en/latest/changes.html
+    Release: https://pypi.org/pypi/greenlet/3.2.0 \
+    Homepage: https://greenlet.readthedocs.io/ \
+    Repository: https://github.com/python-greenlet/greenlet \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/greenlet \
+    Changelog: https://greenlet.readthedocs.io/en/latest/changes.html \
     Diff: https://github.com/python-greenlet/greenlet/compare/3.1.1...3.2.0
 
     Stubsabot analysis of the diff between the two releases:

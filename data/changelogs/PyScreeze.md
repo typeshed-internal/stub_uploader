@@ -22,7 +22,7 @@
 
 * Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
-    Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com> \
     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
 ## [1.0.1.20250425](https://pypi.org/project/types-PyScreeze/1.0.1.20250425/) (2025-04-25)

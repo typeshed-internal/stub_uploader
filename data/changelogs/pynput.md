@@ -40,7 +40,7 @@
 
 * Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
-    Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com> \
     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
 ## [1.8.1.20250318](https://pypi.org/project/types-pynput/1.8.1.20250318/) (2025-03-18)
@@ -85,7 +85,7 @@
 
 * Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
 
-    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com> \
     Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
 ## [1.7.5.20240311](https://pypi.org/project/types-pynput/1.7.5.20240311/) (2024-03-11)

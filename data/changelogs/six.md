@@ -34,10 +34,10 @@
 
 * Bump six to 1.17.* ([#13197](https://github.com/python/typeshed/pull/13197))
 
-    Release: https://pypi.org/pypi/six/1.17.0
-    Homepage: https://github.com/benjaminp/six
-    Repository: https://github.com/benjaminp/six
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/six
+    Release: https://pypi.org/pypi/six/1.17.0 \
+    Homepage: https://github.com/benjaminp/six \
+    Repository: https://github.com/benjaminp/six \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/six \
     Diff: https://github.com/benjaminp/six/compare/1.16.0...1.17.0
 
     Stubsabot analysis of the diff between the two releases:

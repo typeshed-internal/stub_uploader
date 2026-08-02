@@ -56,7 +56,7 @@
 
 * Update mypy to 1.16.0 ([#14194](https://github.com/python/typeshed/pull/14194))
 
-    Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
+    Co-authored-by: Sebastian Rittau <srittau@rittau.biz> \
     Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 * Remove unnecessary overload ([#14201](https://github.com/python/typeshed/pull/14201))

@@ -58,7 +58,7 @@
 
 * Improve pymysql stubs ([#12942](https://github.com/python/typeshed/pull/12942))
 
-    Co-authored-by: Shamil <ashm.tech@proton.me>
+    Co-authored-by: Shamil <ashm.tech@proton.me> \
     Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
 ## [1.1.0.20240524](https://pypi.org/project/types-PyMySQL/1.1.0.20240524/) (2024-05-24)

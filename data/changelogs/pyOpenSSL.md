@@ -2,10 +2,10 @@
 
 * Mark pyOpenSSL as obsolete since 24.2.1 ([#12387](https://github.com/python/typeshed/pull/12387))
 
-    Release: https://pypi.org/pypi/pyOpenSSL/24.2.1
-    Homepage: https://pyopenssl.org/
-    Repository: https://github.com/pyca/pyopenssl
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/pyOpenSSL
+    Release: https://pypi.org/pypi/pyOpenSSL/24.2.1 \
+    Homepage: https://pyopenssl.org/ \
+    Repository: https://github.com/pyca/pyopenssl \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/pyOpenSSL \
     Diff: https://github.com/pyca/pyopenssl/compare/24.1.0...24.2.1
 
 ## [24.1.0.20240425](https://pypi.org/project/types-pyOpenSSL/24.1.0.20240425/) (2024-04-25)
@@ -42,9 +42,9 @@
 
 * Bump pyOpenSSL to 23.3.* ([#10936](https://github.com/python/typeshed/pull/10936))
 
-    Release: https://pypi.org/pypi/pyOpenSSL/23.3.0
-    Homepage: https://pyopenssl.org/
-    Repository: https://github.com/pyca/pyopenssl
+    Release: https://pypi.org/pypi/pyOpenSSL/23.3.0 \
+    Homepage: https://pyopenssl.org/ \
+    Repository: https://github.com/pyca/pyopenssl \
     Diff: https://github.com/pyca/pyopenssl/compare/23.2.0...23.3.0
 
     Stubsabot analysis of the diff between the two releases:

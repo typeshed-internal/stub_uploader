@@ -16,10 +16,10 @@
 
 * Bump jmespath to 1.1.* ([#15315](https://github.com/python/typeshed/pull/15315))
 
-    Release: https://pypi.org/pypi/jmespath/1.1.0
-    Homepage: https://github.com/jmespath/jmespath.py
-    Repository: https://github.com/jmespath/jmespath.py
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/jmespath
+    Release: https://pypi.org/pypi/jmespath/1.1.0 \
+    Homepage: https://github.com/jmespath/jmespath.py \
+    Repository: https://github.com/jmespath/jmespath.py \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/jmespath \
     Diff: https://github.com/jmespath/jmespath.py/compare/1.0.1...1.1.0
 
     Stubsabot analysis of the diff between the two releases:

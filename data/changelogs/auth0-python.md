@@ -38,7 +38,7 @@
 
 * Add async functions to AsyncAuth0 ([#13799](https://github.com/python/typeshed/pull/13799))
 
-    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com> \
     Co-authored-by: Avasam <samuel.06@hotmail.com>
 
 ## [4.9.0.20250416](https://pypi.org/project/types-auth0-python/4.9.0.20250416/) (2025-04-16)

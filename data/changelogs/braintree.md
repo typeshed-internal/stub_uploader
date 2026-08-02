@@ -112,10 +112,10 @@
 
 * Bump braintree to 4.30.* ([#12681](https://github.com/python/typeshed/pull/12681))
 
-    Release: https://pypi.org/pypi/braintree/4.30.0
-    Homepage: https://developer.paypal.com/braintree/docs/reference/overview
-    Repository: https://github.com/braintree/braintree_python
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/braintree
+    Release: https://pypi.org/pypi/braintree/4.30.0 \
+    Homepage: https://developer.paypal.com/braintree/docs/reference/overview \
+    Repository: https://github.com/braintree/braintree_python \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/braintree \
     Diff: https://github.com/braintree/braintree_python/compare/4.29.0...4.30.0
 
     Stubsabot analysis of the diff between the two releases:
@@ -155,18 +155,18 @@
 
 * Bump braintree to 4.25.* ([#11182](https://github.com/python/typeshed/pull/11182))
 
-    Release: https://pypi.org/pypi/braintree/4.25.0
-    Homepage: https://developer.paypal.com/braintree/docs/reference/overview
-    Repository: https://github.com/braintree/braintree_python
+    Release: https://pypi.org/pypi/braintree/4.25.0 \
+    Homepage: https://developer.paypal.com/braintree/docs/reference/overview \
+    Repository: https://github.com/braintree/braintree_python \
     Diff: https://github.com/braintree/braintree_python/compare/4.24.0...4.25.0
 
 ## [4.24.0.0](https://pypi.org/project/types-braintree/4.24.0.0/) (2023-11-08)
 
 * Bump braintree to 4.24.* ([#10993](https://github.com/python/typeshed/pull/10993))
 
-    Release: https://pypi.org/pypi/braintree/4.24.0
-    Homepage: https://developer.paypal.com/braintree/docs/reference/overview
-    Repository: https://github.com/braintree/braintree_python
+    Release: https://pypi.org/pypi/braintree/4.24.0 \
+    Homepage: https://developer.paypal.com/braintree/docs/reference/overview \
+    Repository: https://github.com/braintree/braintree_python \
     Diff: https://github.com/braintree/braintree_python/compare/4.23.0...4.24.0
 
     Stubsabot analysis of the diff between the two releases:

@@ -46,16 +46,16 @@
 
 * Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
 
-    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com> \
     Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
 ## [2.13.0.20240308](https://pypi.org/project/types-aws-xray-sdk/2.13.0.20240308/) (2024-03-08)
 
 * Bump aws-xray-sdk to 2.13.* ([#11536](https://github.com/python/typeshed/pull/11536))
 
-    Release: https://pypi.org/pypi/aws-xray-sdk/2.13.0
-    Homepage: https://github.com/aws/aws-xray-sdk-python
-    Repository: https://github.com/aws/aws-xray-sdk-python
+    Release: https://pypi.org/pypi/aws-xray-sdk/2.13.0 \
+    Homepage: https://github.com/aws/aws-xray-sdk-python \
+    Repository: https://github.com/aws/aws-xray-sdk-python \
     Diff: https://github.com/aws/aws-xray-sdk-python/compare/2.12.1...2.13.0
 
     Stubsabot analysis of the diff between the two releases:

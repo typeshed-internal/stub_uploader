@@ -30,10 +30,10 @@
 
 * Bump xmltodict to 0.14.* ([#12757](https://github.com/python/typeshed/pull/12757))
 
-    Release: https://pypi.org/pypi/xmltodict/0.14.0
-    Homepage: https://github.com/martinblech/xmltodict
-    Repository: https://github.com/martinblech/xmltodict
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/xmltodict
+    Release: https://pypi.org/pypi/xmltodict/0.14.0 \
+    Homepage: https://github.com/martinblech/xmltodict \
+    Repository: https://github.com/martinblech/xmltodict \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/xmltodict \
     Diff: https://github.com/martinblech/xmltodict/compare/v0.13.0...v0.14.0
 
     Stubsabot analysis of the diff between the two releases:

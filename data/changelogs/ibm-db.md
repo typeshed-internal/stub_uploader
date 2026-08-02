@@ -33,10 +33,10 @@
 
 * Bump ibm-db to 3.2.5 ([#13348](https://github.com/python/typeshed/pull/13348))
 
-    Release: https://pypi.org/pypi/ibm-db/3.2.5
-    Homepage: http://pypi.python.org/pypi/ibm_db/
-    Repository: https://github.com/ibmdb/python-ibmdb
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/ibm-db
+    Release: https://pypi.org/pypi/ibm-db/3.2.5 \
+    Homepage: http://pypi.python.org/pypi/ibm_db/ \
+    Repository: https://github.com/ibmdb/python-ibmdb \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/ibm-db \
     Diff: https://github.com/ibmdb/python-ibmdb/compare/v3.2.4...v3.2.5
 
     Stubsabot analysis of the diff between the two releases:

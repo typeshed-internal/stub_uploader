@@ -24,10 +24,10 @@
 
 * Bump mypy-extensions to 1.1.* ([#13868](https://github.com/python/typeshed/pull/13868))
 
-    Release: https://pypi.org/pypi/mypy-extensions/1.1.0
-    Homepage: https://github.com/python/mypy_extensions
-    Repository: https://github.com/python/mypy_extensions
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/mypy-extensions
+    Release: https://pypi.org/pypi/mypy-extensions/1.1.0 \
+    Homepage: https://github.com/python/mypy_extensions \
+    Repository: https://github.com/python/mypy_extensions \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/mypy-extensions \
     Diff: https://github.com/python/mypy_extensions/compare/1.0.0...1.1.0
 
     Stubsabot analysis of the diff between the two releases:

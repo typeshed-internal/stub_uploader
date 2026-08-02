@@ -18,10 +18,10 @@
 
 * Bump regex to 2026.5.9 ([#15748](https://github.com/python/typeshed/pull/15748))
 
-    Release: https://pypi.org/pypi/regex/2026.5.9
-    Homepage: https://github.com/mrabarnett/mrab-regex
-    Repository: https://github.com/mrabarnett/mrab-regex
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex
+    Release: https://pypi.org/pypi/regex/2026.5.9 \
+    Homepage: https://github.com/mrabarnett/mrab-regex \
+    Repository: https://github.com/mrabarnett/mrab-regex \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex \
     Diff: https://github.com/mrabarnett/mrab-regex/compare/2026.4.4...2026.5.9
 
     Stubsabot analysis of the diff between the two releases:
@@ -85,10 +85,10 @@
 
 * Bump regex to 2025.9.1 ([#14668](https://github.com/python/typeshed/pull/14668))
 
-    Release: https://pypi.org/pypi/regex/2025.9.1
-    Homepage: https://github.com/mrabarnett/mrab-regex
-    Repository: https://github.com/mrabarnett/mrab-regex
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex
+    Release: https://pypi.org/pypi/regex/2025.9.1 \
+    Homepage: https://github.com/mrabarnett/mrab-regex \
+    Repository: https://github.com/mrabarnett/mrab-regex \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex \
     Diff: https://github.com/mrabarnett/mrab-regex/compare/2025.8.29...2025.9.1
 
     Stubsabot analysis of the diff between the two releases:
@@ -140,10 +140,10 @@
 
 * Bump regex to 2024.9.11 ([#12641](https://github.com/python/typeshed/pull/12641))
 
-    Release: https://pypi.org/pypi/regex/2024.9.11
-    Homepage: https://github.com/mrabarnett/mrab-regex
-    Repository: https://github.com/mrabarnett/mrab-regex
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex
+    Release: https://pypi.org/pypi/regex/2024.9.11 \
+    Homepage: https://github.com/mrabarnett/mrab-regex \
+    Repository: https://github.com/mrabarnett/mrab-regex \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex \
     Diff: https://github.com/mrabarnett/mrab-regex/compare/2024.7.24...2024.9.11
 
     Stubsabot analysis of the diff between the two releases:
@@ -182,10 +182,10 @@
 
 * Bump regex to 2024.5.10 ([#11894](https://github.com/python/typeshed/pull/11894))
 
-    Release: https://pypi.org/pypi/regex/2024.5.10
-    Homepage: https://github.com/mrabarnett/mrab-regex
-    Repository: https://github.com/mrabarnett/mrab-regex
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex
+    Release: https://pypi.org/pypi/regex/2024.5.10 \
+    Homepage: https://github.com/mrabarnett/mrab-regex \
+    Repository: https://github.com/mrabarnett/mrab-regex \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex \
     Diff: https://github.com/mrabarnett/mrab-regex/compare/2024.4.28...2024.5.10
 
     Stubsabot analysis of the diff between the two releases:
@@ -207,10 +207,10 @@
 
 * Bump regex to 2024.4.28 ([#11842](https://github.com/python/typeshed/pull/11842))
 
-    Release: https://pypi.org/pypi/regex/2024.4.28
-    Homepage: https://github.com/mrabarnett/mrab-regex
-    Repository: https://github.com/mrabarnett/mrab-regex
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex
+    Release: https://pypi.org/pypi/regex/2024.4.28 \
+    Homepage: https://github.com/mrabarnett/mrab-regex \
+    Repository: https://github.com/mrabarnett/mrab-regex \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex \
     Diff: https://github.com/mrabarnett/mrab-regex/compare/2024.4.16...2024.4.28
 
     Stubsabot analysis of the diff between the two releases:
@@ -221,7 +221,7 @@
 
 * Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
 
-    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com> \
     Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
 ## [2024.4.16.20240418](https://pypi.org/project/types-regex/2024.4.16.20240418/) (2024-04-18)

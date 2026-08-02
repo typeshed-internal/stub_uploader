@@ -10,9 +10,9 @@
 
 * Bump pytz to 2026.2 ([#15698](https://github.com/python/typeshed/pull/15698))
 
-    Release: https://pypi.org/pypi/pytz/2026.2
-    Homepage: http://pythonhosted.org/pytz
-    Repository: https://github.com/stub42/pytz
+    Release: https://pypi.org/pypi/pytz/2026.2 \
+    Homepage: http://pythonhosted.org/pytz \
+    Repository: https://github.com/stub42/pytz \
     Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/pytz
 
     If stubtest fails for this PR:

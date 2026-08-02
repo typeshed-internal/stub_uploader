@@ -6,13 +6,13 @@
 
 * Mark click-spinner as obsolete since 0.2.0 ([#15936](https://github.com/python/typeshed/pull/15936))
 
-    Release: https://pypi.org/pypi/click-spinner/0.2.0
-    Homepage: https://github.com/click-contrib/click-spinner
-    Repository: https://github.com/click-contrib/click-spinner
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/click-spinner
+    Release: https://pypi.org/pypi/click-spinner/0.2.0 \
+    Homepage: https://github.com/click-contrib/click-spinner \
+    Repository: https://github.com/click-contrib/click-spinner \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/click-spinner \
     Diff: https://github.com/click-contrib/click-spinner/compare/v0.1.11...v0.2.0
 
-    Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <> \
     Co-authored-by: Sebastian Rittau <sebastian.rittau@zfutura.de>
 
 * Update to 0.1.11 ([#15938](https://github.com/python/typeshed/pull/15938))

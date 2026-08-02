@@ -126,7 +126,7 @@
 
 * fpdf2: improve `text_align` types and `.table()` method signature ([#12123](https://github.com/python/typeshed/pull/12123))
 
-    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com> \
     Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
 ## [2.7.9.20240519](https://pypi.org/project/types-fpdf2/2.7.9.20240519/) (2024-05-19)
@@ -139,7 +139,7 @@
 
 * Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
 
-    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com> \
     Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
 ## [2.7.8.20240406](https://pypi.org/project/types-fpdf2/2.7.8.20240406/) (2024-04-06)

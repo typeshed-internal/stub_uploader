@@ -28,9 +28,9 @@
 
 * Bump decorator to 5.2.* ([#13526](https://github.com/python/typeshed/pull/13526))
 
-    Release: https://pypi.org/pypi/decorator/5.2.0
-    Repository: https://github.com/micheles/decorator
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/decorator
+    Release: https://pypi.org/pypi/decorator/5.2.0 \
+    Repository: https://github.com/micheles/decorator \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/decorator \
     Diff: https://github.com/micheles/decorator/compare/5.1.1...5.2.0
 
     Stubsabot analysis of the diff between the two releases:

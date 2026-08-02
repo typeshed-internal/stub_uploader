@@ -70,11 +70,11 @@
 
 * Bump Pygments to 2.19.* ([#13370](https://github.com/python/typeshed/pull/13370))
 
-    Release: https://pypi.org/pypi/Pygments/2.19.0
-    Homepage: https://pygments.org
-    Repository: https://github.com/pygments/pygments
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Pygments
-    Changelog: https://github.com/pygments/pygments/blob/master/CHANGES
+    Release: https://pypi.org/pypi/Pygments/2.19.0 \
+    Homepage: https://pygments.org \
+    Repository: https://github.com/pygments/pygments \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Pygments \
+    Changelog: https://github.com/pygments/pygments/blob/master/CHANGES \
     Diff: https://github.com/pygments/pygments/compare/2.18.0...2.19.0
 
     Stubsabot analysis of the diff between the two releases:
@@ -88,11 +88,11 @@
 
 * Bump Pygments to 2.18.* ([#11861](https://github.com/python/typeshed/pull/11861))
 
-    Release: https://pypi.org/pypi/Pygments/2.18.0
-    Homepage: https://pygments.org
-    Repository: https://github.com/pygments/pygments
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Pygments
-    Changelog: https://github.com/pygments/pygments/blob/master/CHANGES
+    Release: https://pypi.org/pypi/Pygments/2.18.0 \
+    Homepage: https://pygments.org \
+    Repository: https://github.com/pygments/pygments \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Pygments \
+    Changelog: https://github.com/pygments/pygments/blob/master/CHANGES \
     Diff: https://github.com/pygments/pygments/compare/2.17.2...2.18.0
 
     Stubsabot analysis of the diff between the two releases:

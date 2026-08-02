@@ -6,9 +6,9 @@
 
 * Mark beautifulsoup4 as obsolete since 4.13.0 ([#13455](https://github.com/python/typeshed/pull/13455))
 
-    Release: https://pypi.org/pypi/beautifulsoup4/4.13.0
-    Homepage: https://www.crummy.com/software/BeautifulSoup/bs4/
-    Repository: https://git.launchpad.net/beautifulsoup/tree
+    Release: https://pypi.org/pypi/beautifulsoup4/4.13.0 \
+    Homepage: https://www.crummy.com/software/BeautifulSoup/bs4/ \
+    Repository: https://git.launchpad.net/beautifulsoup/tree \
     Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/beautifulsoup4
 
 ## [4.12.0.20241020](https://pypi.org/project/types-beautifulsoup4/4.12.0.20241020/) (2024-10-20)

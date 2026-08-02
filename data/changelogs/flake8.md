@@ -42,10 +42,10 @@
 
 * Bump flake8 to 7.1.* ([#12139](https://github.com/python/typeshed/pull/12139))
 
-    Release: https://pypi.org/pypi/flake8/7.1.0
-    Homepage: https://github.com/pycqa/flake8
-    Repository: https://github.com/pycqa/flake8
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8
+    Release: https://pypi.org/pypi/flake8/7.1.0 \
+    Homepage: https://github.com/pycqa/flake8 \
+    Repository: https://github.com/pycqa/flake8 \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8 \
     Diff: https://github.com/pycqa/flake8/compare/7.0.0...7.1.0
 
     Stubsabot analysis of the diff between the two releases:

@@ -245,7 +245,7 @@
 
 * `tensorflow`: Add missing members to the `tensorflow.keras.layers` module. ([#11333](https://github.com/python/typeshed/pull/11333))
 
-    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com> \
     Co-authored-by: Rebecca Chen <rechen@google.com>
 
 * `tensorflow` add `tensorflow.saved_model` ([#11439](https://github.com/python/typeshed/pull/11439))
@@ -378,7 +378,7 @@
 
 * Update mypy-protobuf ([#10914](https://github.com/python/typeshed/pull/10914))
 
-    Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com> \
     Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 2.12.0.7 (2023-08-28)

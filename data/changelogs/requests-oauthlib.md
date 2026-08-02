@@ -48,9 +48,9 @@
 
 * Bump requests-oauthlib to 2.0.* ([#11649](https://github.com/python/typeshed/pull/11649))
 
-    Release: https://pypi.org/pypi/requests-oauthlib/2.0.0
-    Homepage: https://github.com/requests/requests-oauthlib
-    Repository: https://github.com/requests/requests-oauthlib
+    Release: https://pypi.org/pypi/requests-oauthlib/2.0.0 \
+    Homepage: https://github.com/requests/requests-oauthlib \
+    Repository: https://github.com/requests/requests-oauthlib \
     Diff: https://github.com/requests/requests-oauthlib/compare/v1.4.0...v2.0.0
 
     Stubsabot analysis of the diff between the two releases:

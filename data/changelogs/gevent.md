@@ -99,7 +99,7 @@
 
 * Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
-    Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com> \
     Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
 ## [25.4.0.20250516](https://pypi.org/project/types-gevent/25.4.0.20250516/) (2025-05-16)
@@ -190,9 +190,9 @@
 
 * Bump gevent to 24.2.* ([#11425](https://github.com/python/typeshed/pull/11425))
 
-    Release: https://pypi.org/pypi/gevent/24.2.1
-    Homepage: http://www.gevent.org/
-    Repository: https://github.com/gevent/gevent
+    Release: https://pypi.org/pypi/gevent/24.2.1 \
+    Homepage: http://www.gevent.org/ \
+    Repository: https://github.com/gevent/gevent \
     Diff: https://github.com/gevent/gevent/compare/23.9.1...24.2.1
 
     Stubsabot analysis of the diff between the two releases:

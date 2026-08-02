@@ -32,10 +32,10 @@
 
 * Bump cachetools to 6.1.* ([#14291](https://github.com/python/typeshed/pull/14291))
 
-    Release: https://pypi.org/pypi/cachetools/6.1.0
-    Homepage: https://github.com/tkem/cachetools/
-    Repository: https://github.com/tkem/cachetools
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/cachetools
+    Release: https://pypi.org/pypi/cachetools/6.1.0 \
+    Homepage: https://github.com/tkem/cachetools/ \
+    Repository: https://github.com/tkem/cachetools \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/cachetools \
     Diff: https://github.com/tkem/cachetools/compare/v6.0.0...v6.1.0
 
     Stubsabot analysis of the diff between the two releases:

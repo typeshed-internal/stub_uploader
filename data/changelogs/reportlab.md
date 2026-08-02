@@ -102,7 +102,7 @@
 
 * Update mypy to 1.16.0 ([#14194](https://github.com/python/typeshed/pull/14194))
 
-    Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
+    Co-authored-by: Sebastian Rittau <srittau@rittau.biz> \
     Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## [4.4.1.20250601](https://pypi.org/project/types-reportlab/4.4.1.20250601/) (2025-06-01)
@@ -153,9 +153,9 @@
 
 * Bump reportlab to 4.2.5 ([#12719](https://github.com/python/typeshed/pull/12719))
 
-    Release: https://pypi.org/pypi/reportlab/4.2.5
-    Homepage: https://www.reportlab.com/
-    Repository: https://github.com/MrBitBucket/reportlab-mirror
+    Release: https://pypi.org/pypi/reportlab/4.2.5 \
+    Homepage: https://www.reportlab.com/ \
+    Repository: https://github.com/MrBitBucket/reportlab-mirror \
     Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/reportlab
 
     If stubtest fails for this PR:

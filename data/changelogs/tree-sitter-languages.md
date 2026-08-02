@@ -10,9 +10,9 @@
 
 * Bump tree-sitter-languages to 1.10.* ([#11228](https://github.com/python/typeshed/pull/11228))
 
-    Release: https://pypi.org/pypi/tree-sitter-languages/1.10.0
-    Homepage: https://github.com/grantjenks/py-tree-sitter-languages
-    Repository: https://github.com/grantjenks/py-tree-sitter-languages
+    Release: https://pypi.org/pypi/tree-sitter-languages/1.10.0 \
+    Homepage: https://github.com/grantjenks/py-tree-sitter-languages \
+    Repository: https://github.com/grantjenks/py-tree-sitter-languages \
     Diff: https://github.com/grantjenks/py-tree-sitter-languages/compare/v1.8.0...v1.10.0
 
     Stubsabot analysis of the diff between the two releases:

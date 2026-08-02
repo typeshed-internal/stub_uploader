@@ -46,14 +46,14 @@
 
 * Bump netaddr to 1.2.* ([#11437](https://github.com/python/typeshed/pull/11437))
 
-    Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <> \
     Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## [1.1.0.20240218](https://pypi.org/project/types-netaddr/1.1.0.20240218/) (2024-02-18)
 
 * Bump netaddr to 1.1.* ([#11424](https://github.com/python/typeshed/pull/11424))
 
-    Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <> \
     Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
 ## [1.0.0.20240212](https://pypi.org/project/types-netaddr/1.0.0.20240212/) (2024-02-12)

@@ -13,7 +13,7 @@
 
 * Update to ~=1.5.7.3 ([#15242](https://github.com/python/typeshed/pull/15242))
 
-    Closes: #15239
+    Closes: #15239 \
     Diff: https://github.com/sergey-dryabzhinsky/python-zstd/compare/v1.5.7.1...v1.5.7.3
 
 ## [1.5.7.1.20250708](https://pypi.org/project/types-zstd/1.5.7.1.20250708/) (2025-07-08)
@@ -32,10 +32,10 @@
 
 * Bump zstd to 1.5.6.7 ([#13780](https://github.com/python/typeshed/pull/13780))
 
-    Release: https://pypi.org/pypi/zstd/1.5.6.7
-    Homepage: https://github.com/sergey-dryabzhinsky/python-zstd
-    Repository: https://github.com/sergey-dryabzhinsky/python-zstd
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/zstd
+    Release: https://pypi.org/pypi/zstd/1.5.6.7 \
+    Homepage: https://github.com/sergey-dryabzhinsky/python-zstd \
+    Repository: https://github.com/sergey-dryabzhinsky/python-zstd \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/zstd \
     Diff: https://github.com/sergey-dryabzhinsky/python-zstd/compare/v1.5.6.6...v1.5.6.7
 
     Stubsabot analysis of the diff between the two releases:
@@ -54,10 +54,10 @@
 
 * Bump zstd to 1.5.6.6 ([#13584](https://github.com/python/typeshed/pull/13584))
 
-    Release: https://pypi.org/pypi/zstd/1.5.6.6
-    Homepage: https://github.com/sergey-dryabzhinsky/python-zstd
-    Repository: https://github.com/sergey-dryabzhinsky/python-zstd
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/zstd
+    Release: https://pypi.org/pypi/zstd/1.5.6.6 \
+    Homepage: https://github.com/sergey-dryabzhinsky/python-zstd \
+    Repository: https://github.com/sergey-dryabzhinsky/python-zstd \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/zstd \
     Diff: https://github.com/sergey-dryabzhinsky/python-zstd/compare/v1.5.6.5...v1.5.6.6
 
     Stubsabot analysis of the diff between the two releases:
@@ -80,10 +80,10 @@
 
 * Bump zstd to 1.5.6.4 ([#13527](https://github.com/python/typeshed/pull/13527))
 
-    Release: https://pypi.org/pypi/zstd/1.5.6.4
-    Homepage: https://github.com/sergey-dryabzhinsky/python-zstd
-    Repository: https://github.com/sergey-dryabzhinsky/python-zstd
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/zstd
+    Release: https://pypi.org/pypi/zstd/1.5.6.4 \
+    Homepage: https://github.com/sergey-dryabzhinsky/python-zstd \
+    Repository: https://github.com/sergey-dryabzhinsky/python-zstd \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/zstd \
     Diff: https://github.com/sergey-dryabzhinsky/python-zstd/compare/v1.5.6.3...v1.5.6.4
 
     Stubsabot analysis of the diff between the two releases:

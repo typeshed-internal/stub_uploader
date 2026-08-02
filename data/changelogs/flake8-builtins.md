@@ -28,10 +28,10 @@
 
 * Bump flake8-builtins to 2.5.* ([#11739](https://github.com/python/typeshed/pull/11739))
 
-    Release: https://pypi.org/pypi/flake8-builtins/2.5.0
-    Homepage: https://github.com/gforcada/flake8-builtins
-    Repository: https://github.com/gforcada/flake8-builtins
-    Changelog: https://github.com/gforcada/flake8-builtins/blob/main/CHANGES.rst
+    Release: https://pypi.org/pypi/flake8-builtins/2.5.0 \
+    Homepage: https://github.com/gforcada/flake8-builtins \
+    Repository: https://github.com/gforcada/flake8-builtins \
+    Changelog: https://github.com/gforcada/flake8-builtins/blob/main/CHANGES.rst \
     Diff: https://github.com/gforcada/flake8-builtins/compare/2.4.0...2.5.0
 
     Stubsabot analysis of the diff between the two releases:
@@ -45,7 +45,7 @@
 
 * Bump flake8-builtins to 2.4.* ([#11697](https://github.com/python/typeshed/pull/11697))
 
-    Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <> \
     Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## [2.3.0.20240331](https://pypi.org/project/types-flake8-builtins/2.3.0.20240331/) (2024-03-31)
@@ -56,10 +56,10 @@
 
 * Bump flake8-builtins to 2.2.* ([#10975](https://github.com/python/typeshed/pull/10975))
 
-    Release: https://pypi.org/pypi/flake8-builtins/2.2.0
-    Homepage: https://github.com/gforcada/flake8-builtins
-    Repository: https://github.com/gforcada/flake8-builtins
-    Changelog: https://github.com/gforcada/flake8-builtins/blob/main/CHANGES.rst
+    Release: https://pypi.org/pypi/flake8-builtins/2.2.0 \
+    Homepage: https://github.com/gforcada/flake8-builtins \
+    Repository: https://github.com/gforcada/flake8-builtins \
+    Changelog: https://github.com/gforcada/flake8-builtins/blob/main/CHANGES.rst \
     Diff: https://github.com/gforcada/flake8-builtins/compare/2.1.0...2.2.0
 
     Stubsabot analysis of the diff between the two releases:

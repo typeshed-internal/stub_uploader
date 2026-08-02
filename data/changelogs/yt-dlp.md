@@ -88,9 +88,9 @@
 
 * Bump yt-dlp to 2026.2.4 ([#15373](https://github.com/python/typeshed/pull/15373))
 
-    Release: https://pypi.org/pypi/yt-dlp/2026.2.4
-    Repository: https://github.com/yt-dlp/yt-dlp
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/yt-dlp
+    Release: https://pypi.org/pypi/yt-dlp/2026.2.4 \
+    Repository: https://github.com/yt-dlp/yt-dlp \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/yt-dlp \
     Diff: https://github.com/yt-dlp/yt-dlp/compare/2026.01.31...2026.02.04
 
     Stubsabot analysis of the diff between the two releases:
@@ -164,9 +164,9 @@
 
 * Bump yt-dlp to 2025.8.22 ([#14629](https://github.com/python/typeshed/pull/14629))
 
-    Release: https://pypi.org/pypi/yt-dlp/2025.8.22
-    Repository: https://github.com/yt-dlp/yt-dlp
-    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/yt-dlp
+    Release: https://pypi.org/pypi/yt-dlp/2025.8.22 \
+    Repository: https://github.com/yt-dlp/yt-dlp \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/yt-dlp \
     Diff: https://github.com/yt-dlp/yt-dlp/compare/2025.08.20...2025.08.22
 
     Stubsabot analysis of the diff between the two releases:
