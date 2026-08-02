@@ -19,7 +19,7 @@ _FIELD_RE = re.compile(r"^[A-Za-z][A-Za-z0-9 _/-]*:\s+\S")
 
 def _is_metadata_line(line: str) -> bool:
     line = line.strip()
-    return bool(_FIELD_RE.fullmatch(line))
+    return bool(_FIELD_RE.match(line))
 
 
 def main() -> None:
