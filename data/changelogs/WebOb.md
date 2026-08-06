@@ -1,3 +1,7 @@
+## [1.8.11.20260806](https://pypi.org/project/types-WebOb/1.8.11.20260806/) (2026-08-06)
+
+* Update to 1.8.11 ([#16135](https://github.com/python/typeshed/pull/16135))
+
 ## 1.8.0.20260716 (2026-07-16)
 
 Run ty on typeshed stubs in CI ([#16013](https://github.com/python/typeshed/pull/16013))

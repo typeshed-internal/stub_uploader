@@ -1,3 +1,7 @@
+## [1.4.1.20260806](https://pypi.org/project/types-dateparser/1.4.1.20260806/) (2026-08-06)
+
+* Pin dateparser to an exact version ([#16144](https://github.com/python/typeshed/pull/16144))
+
 ## 1.4.1.20260617 (2026-06-17)
 
 [dateparser] Update to ~=1.4.1 ([#15918](https://github.com/python/typeshed/pull/15918))
