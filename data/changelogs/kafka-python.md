@@ -1,3 +1,7 @@
+## [2.3.2.20260807](https://pypi.org/project/types-kafka-python/2.3.2.20260807/) (2026-08-07)
+
+* Run Pyrefly on typeshed stubs in CI ([#16155](https://github.com/python/typeshed/pull/16155))
+
 ## 2.3.2.20260605 (2026-06-05)
 
 [kafka-python] Update to 2.3.2 ([#15864](https://github.com/python/typeshed/pull/15864))

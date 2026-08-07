@@ -1,3 +1,7 @@
+## [26.1.0.20260807](https://pypi.org/project/types-django-filter/26.1.0.20260807/) (2026-08-07)
+
+* Update for django-stubs 6.0.8 ([#16152](https://github.com/python/typeshed/pull/16152))
+
 ## 26.1.0.20260713 (2026-07-13)
 
 [django-filter] Bump to 26.1.* ([#16008](https://github.com/python/typeshed/pull/16008))
