@@ -1,3 +1,19 @@
+## [4.70.0.20260805](https://pypi.org/project/types-tqdm/4.70.0.20260805/) (2026-08-05)
+
+* add base class property types ([#16139](https://github.com/python/typeshed/pull/16139))
+
+## [4.70.0.20260731](https://pypi.org/project/types-tqdm/4.70.0.20260731/) (2026-07-31)
+
+* Fix kwargs that were not marked optional ([#16117](https://github.com/python/typeshed/pull/16117))
+
+## [4.70.0.20260730](https://pypi.org/project/types-tqdm/4.70.0.20260730/) (2026-07-30)
+
+* Bump tqdm to 4.70.* ([#16107](https://github.com/python/typeshed/pull/16107))
+
+    Closes #16099
+
+* Properly import tensorflow.keras in tqdm.keras ([#16104](https://github.com/python/typeshed/pull/16104))
+
 ## [4.69.0.20260728](https://pypi.org/project/types-tqdm/4.69.0.20260728/) (2026-07-28)
 
 * Use optional-dependencies for third-party packages ([#16089](https://github.com/python/typeshed/pull/16089))

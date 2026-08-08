@@ -1,3 +1,7 @@
+## [2.1.13.20260730](https://pypi.org/project/types-Jetson.GPIO/2.1.13.20260730/) (2026-07-30)
+
+* Bump to 2.1.13 ([#16098](https://github.com/python/typeshed/pull/16098))
+
 ## 2.1.12.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

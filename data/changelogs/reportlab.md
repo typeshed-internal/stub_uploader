@@ -1,3 +1,7 @@
+## [4.5.1.20260807](https://pypi.org/project/types-reportlab/4.5.1.20260807/) (2026-08-07)
+
+* Run Pyrefly on typeshed stubs in CI ([#16155](https://github.com/python/typeshed/pull/16155))
+
 ## [4.5.1.20260728](https://pypi.org/project/types-reportlab/4.5.1.20260728/) (2026-07-28)
 
 * Use TypedDict with Unpack for BaseDocTemplate kwargs ([#16095](https://github.com/python/typeshed/pull/16095))

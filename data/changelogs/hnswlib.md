@@ -1,3 +1,9 @@
+## [0.8.0.20260801](https://pypi.org/project/types-hnswlib/0.8.0.20260801/) (2026-08-01)
+
+* Use darwin for stubtest ([#16125](https://github.com/python/typeshed/pull/16125))
+
+    Stubtest crashes on Linux, cf. https://github.com/python/typeshed/issues/16100
+
 ## [0.8.0.20260728](https://pypi.org/project/types-hnswlib/0.8.0.20260728/) (2026-07-28)
 
 * Use optional-dependencies for third-party packages ([#16089](https://github.com/python/typeshed/pull/16089))
