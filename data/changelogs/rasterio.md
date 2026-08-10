@@ -1,3 +1,9 @@
+## [1.5.0.20260810](https://pypi.org/project/types-rasterio/1.5.0.20260810/) (2026-08-10)
+
+* Pin to 1.5.0 ([#16172](https://github.com/python/typeshed/pull/16172))
+
+    Remove redundant stubtest-dependencies field
+
 ## [1.5.0.20260728](https://pypi.org/project/types-rasterio/1.5.0.20260728/) (2026-07-28)
 
 * Accept WarpedVRT and __geo_interface__ geometries ([#16092](https://github.com/python/typeshed/pull/16092))
