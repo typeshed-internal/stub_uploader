@@ -1,3 +1,7 @@
+## [26.8.0.20260811](https://pypi.org/project/types-gevent/26.8.0.20260811/) (2026-08-11)
+
+* Bump to 26.8.* ([#16182](https://github.com/python/typeshed/pull/16182))
+
 ## [26.7.0.20260807](https://pypi.org/project/types-gevent/26.7.0.20260807/) (2026-08-07)
 
 * Run Pyrefly on typeshed stubs in CI ([#16155](https://github.com/python/typeshed/pull/16155))

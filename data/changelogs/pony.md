@@ -1,3 +1,7 @@
+## [0.7.20.20260811](https://pypi.org/project/types-pony/0.7.20.20260811/) (2026-08-11)
+
+* Update to 0.7.20 ([#16176](https://github.com/python/typeshed/pull/16176))
+
 ## [0.7.0.20260807](https://pypi.org/project/types-pony/0.7.0.20260807/) (2026-08-07)
 
 * Run Pyrefly on typeshed stubs in CI ([#16155](https://github.com/python/typeshed/pull/16155))
