@@ -1,3 +1,11 @@
+## [4.3.0.20260807](https://pypi.org/project/types-peewee/4.3.0.20260807/) (2026-08-07)
+
+* Run Pyrefly on typeshed stubs in CI ([#16155](https://github.com/python/typeshed/pull/16155))
+
+## [4.3.0.20260802](https://pypi.org/project/types-peewee/4.3.0.20260802/) (2026-08-02)
+
+* Update to 4.3.0 ([#16131](https://github.com/python/typeshed/pull/16131))
+
 ## [4.2.6.20260723](https://pypi.org/project/types-peewee/4.2.6.20260723/) (2026-07-23)
 
 * Update to 4.2.6 ([#16076](https://github.com/python/typeshed/pull/16076))

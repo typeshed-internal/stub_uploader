@@ -1,3 +1,7 @@
+## [2026.7.4.20260807](https://pypi.org/project/types-yt-dlp/2026.7.4.20260807/) (2026-08-07)
+
+* Run Pyrefly on typeshed stubs in CI ([#16155](https://github.com/python/typeshed/pull/16155))
+
 ## [2026.7.4.20260725](https://pypi.org/project/types-yt-dlp/2026.7.4.20260725/) (2026-07-25)
 
 * Remove unused websockets dependency ([#16086](https://github.com/python/typeshed/pull/16086))

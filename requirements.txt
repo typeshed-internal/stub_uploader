@@ -1,5 +1,5 @@
 # scripts
-packaging
+packaging == 26.2  # see issue #220, needs investigation
 requests
 
 # build and upload

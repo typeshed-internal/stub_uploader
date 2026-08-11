@@ -1,3 +1,7 @@
+## [4.70.0.20260805](https://pypi.org/project/types-tqdm/4.70.0.20260805/) (2026-08-05)
+
+* add base class property types ([#16139](https://github.com/python/typeshed/pull/16139))
+
 ## [4.70.0.20260731](https://pypi.org/project/types-tqdm/4.70.0.20260731/) (2026-07-31)
 
 * Fix kwargs that were not marked optional ([#16117](https://github.com/python/typeshed/pull/16117))

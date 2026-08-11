@@ -1,3 +1,11 @@
+## [7.2.0.20260811](https://pypi.org/project/types-docker/7.2.0.20260811/) (2026-08-11)
+
+* Use TypedDict and SupportsGet for kwargs_from_context ([#16132](https://github.com/python/typeshed/pull/16132))
+
+## [7.2.0.20260806](https://pypi.org/project/types-docker/7.2.0.20260806/) (2026-08-06)
+
+* Fix context.Context methods ([#16133](https://github.com/python/typeshed/pull/16133))
+
 ## [7.2.0.20260728](https://pypi.org/project/types-docker/7.2.0.20260728/) (2026-07-28)
 
 * Use optional-dependencies for third-party packages ([#16089](https://github.com/python/typeshed/pull/16089))

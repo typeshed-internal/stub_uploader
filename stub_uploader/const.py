@@ -14,6 +14,7 @@ PYPROJECT = "pyproject.toml"
 
 TYPE_CHECKERS = [
     ("mypy", "https://github.com/python/mypy/"),
+    ("pyrefly", "https://pyrefly.org/"),
     ("pyright", "https://github.com/microsoft/pyright"),
     ("ty", "https://docs.astral.sh/ty/"),
 ]

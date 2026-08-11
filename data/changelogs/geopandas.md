@@ -1,3 +1,7 @@
+## [1.1.4.20260807](https://pypi.org/project/types-geopandas/1.1.4.20260807/) (2026-08-07)
+
+* Run Pyrefly on typeshed stubs in CI ([#16155](https://github.com/python/typeshed/pull/16155))
+
 ## [1.1.4.20260728](https://pypi.org/project/types-geopandas/1.1.4.20260728/) (2026-07-28)
 
 * Use optional-dependencies for third-party packages ([#16089](https://github.com/python/typeshed/pull/16089))

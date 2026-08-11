@@ -1,3 +1,9 @@
+## [6.21.0.20260810](https://pypi.org/project/types-pyinstaller/6.21.0.20260810/) (2026-08-10)
+
+* Mark as partial ([#16171](https://github.com/python/typeshed/pull/16171))
+
+    We're missing several sub-modules.
+
 ## [6.21.0.20260616](https://pypi.org/project/types-pyinstaller/6.21.0.20260616/) (2026-06-16)
 
 * Bump to 6.21.* ([#15916](https://github.com/python/typeshed/pull/15916))

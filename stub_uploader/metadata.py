@@ -272,6 +272,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "MarkupSafe",
     "Pillow",
     "Werkzeug",
+    "affine",
     "arrow",
     "asgiref",
     "beautifulsoup4",

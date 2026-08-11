@@ -1,3 +1,7 @@
+## [4.13.0.20260807](https://pypi.org/project/types-antlr4-python3-runtime/4.13.0.20260807/) (2026-08-07)
+
+* Run Pyrefly on typeshed stubs in CI ([#16155](https://github.com/python/typeshed/pull/16155))
+
 ## [4.13.0.20260518](https://pypi.org/project/types-antlr4-python3-runtime/4.13.0.20260518/) (2026-05-18)
 
 * Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
