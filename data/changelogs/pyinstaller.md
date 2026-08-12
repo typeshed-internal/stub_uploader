@@ -1,3 +1,7 @@
+## [6.22.0.20260812](https://pypi.org/project/types-pyinstaller/6.22.0.20260812/) (2026-08-12)
+
+* Bump to 6.22.* ([#16187](https://github.com/python/typeshed/pull/16187))
+
 ## [6.21.0.20260810](https://pypi.org/project/types-pyinstaller/6.21.0.20260810/) (2026-08-10)
 
 * Mark as partial ([#16171](https://github.com/python/typeshed/pull/16171))
