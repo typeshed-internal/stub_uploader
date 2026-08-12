@@ -2,63 +2,63 @@
 
 * Update to 0.32.0 ([#16038](https://github.com/python/typeshed/pull/16038))
 
-## 0.31.2.20260712 (2026-07-12)
+## [0.31.2.20260712](https://pypi.org/project/types-httplib2/0.31.2.20260712/) (2026-07-12)
 
-Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))
+* Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))
 
-Class members such as list, type, cursor, Model, and datetime shadow the builtins, classes, or modules referenced by nearby annotations. ty then resolves those annotations to Unknown, which can hide invalid calls in APIs including docker, sqlite3, psycopg2, Markdown, and requests.
+    Class members such as list, type, cursor, Model, and datetime shadow the builtins, classes, or modules referenced by nearby annotations. ty then resolves those annotations to Unknown, which can hide invalid calls in APIs including docker, sqlite3, psycopg2, Markdown, and requests.
 
-Qualify shadowed builtins and use private aliases for colliding imports and classes. This removes 15 stdlib and 120 third-party collision diagnostics under ty 0.0.58, restores the affected public types, and fixes four existing psycopg2 type assertions.
+    Qualify shadowed builtins and use private aliases for colliding imports and classes. This removes 15 stdlib and 120 third-party collision diagnostics under ty 0.0.58, restores the affected public types, and fixes four existing psycopg2 type assertions.
 
-## 0.31.2.20260408 (2026-04-08)
+## [0.31.2.20260408](https://pypi.org/project/types-httplib2/0.31.2.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 0.31.2.20260402 (2026-04-02)
+## [0.31.2.20260402](https://pypi.org/project/types-httplib2/0.31.2.20260402/) (2026-04-02)
 
-Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-## 0.31.2.20260125 (2026-01-25)
+## [0.31.2.20260125](https://pypi.org/project/types-httplib2/0.31.2.20260125/) (2026-01-25)
 
-[stubsabot] Bump httplib2 to 0.31.2 ([#15318](https://github.com/python/typeshed/pull/15318))
+* Bump httplib2 to 0.31.2 ([#15318](https://github.com/python/typeshed/pull/15318))
 
-## 0.31.1.20260115 (2026-01-15)
+## [0.31.1.20260115](https://pypi.org/project/types-httplib2/0.31.1.20260115/) (2026-01-15)
 
-[httplib2] Update to 0.31.1 ([#15278](https://github.com/python/typeshed/pull/15278))
+* Update to 0.31.1 ([#15278](https://github.com/python/typeshed/pull/15278))
 
-## 0.31.0.20250913 (2025-09-13)
+## [0.31.0.20250913](https://pypi.org/project/types-httplib2/0.31.0.20250913/) (2025-09-13)
 
-[stubsabot] Bump httplib2 to 0.31.* ([#14698](https://github.com/python/typeshed/pull/14698))
+* Bump httplib2 to 0.31.* ([#14698](https://github.com/python/typeshed/pull/14698))
 
-## 0.30.0.20250831 (2025-08-31)
+## [0.30.0.20250831](https://pypi.org/project/types-httplib2/0.30.0.20250831/) (2025-08-31)
 
-[httplib2] Update to 0.30.* ([#14665](https://github.com/python/typeshed/pull/14665))
+* Update to 0.30.* ([#14665](https://github.com/python/typeshed/pull/14665))
 
-## 0.22.0.20250622 (2025-06-22)
+## [0.22.0.20250622](https://pypi.org/project/types-httplib2/0.22.0.20250622/) (2025-06-22)
 
-[httplib2] Improve stubs ([#14249](https://github.com/python/typeshed/pull/14249))
+* Improve stubs ([#14249](https://github.com/python/typeshed/pull/14249))
 
-## 0.22.0.20250516 (2025-05-16)
+## [0.22.0.20250516](https://pypi.org/project/types-httplib2/0.22.0.20250516/) (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## 0.22.0.20250401 (2025-04-01)
+## [0.22.0.20250401](https://pypi.org/project/types-httplib2/0.22.0.20250401/) (2025-04-01)
 
-Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
+* Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
 
----------
+    ---------
 
-Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com>
 
-## 0.22.0.20241221 (2024-12-21)
+## [0.22.0.20241221](https://pypi.org/project/types-httplib2/0.22.0.20241221/) (2024-12-21)
 
-Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
-## 0.22.0.20240310 (2024-03-10)
+## [0.22.0.20240310](https://pypi.org/project/types-httplib2/0.22.0.20240310/) (2024-03-10)
 
-Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
+* Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
 
-Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 0.22.0.2 (2023-07-20)
 

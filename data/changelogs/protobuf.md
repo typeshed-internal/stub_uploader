@@ -1,192 +1,192 @@
-## 7.34.1.20260518 (2026-05-18)
+## [7.34.1.20260518](https://pypi.org/project/types-protobuf/7.34.1.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 7.34.1.20260508 (2026-05-08)
+## [7.34.1.20260508](https://pypi.org/project/types-protobuf/7.34.1.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 7.34.1.20260503 (2026-05-03)
+## [7.34.1.20260503](https://pypi.org/project/types-protobuf/7.34.1.20260503/) (2026-05-03)
 
-[protobuf] Add _loaded_options to FileDescriptor ([#15677](https://github.com/python/typeshed/pull/15677))
+* Add _loaded_options to FileDescriptor ([#15677](https://github.com/python/typeshed/pull/15677))
 
-## 7.34.1.20260408 (2026-04-08)
+## [7.34.1.20260408](https://pypi.org/project/types-protobuf/7.34.1.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 7.34.1.20260403 (2026-04-03)
+## [7.34.1.20260403](https://pypi.org/project/types-protobuf/7.34.1.20260403/) (2026-04-03)
 
-[protobuf] `UnknownFieldSet.__getitem__ takes only positional arguments ([#15599](https://github.com/python/typeshed/pull/15599))
+* `UnknownFieldSet.__getitem__ takes only positional arguments ([#15599](https://github.com/python/typeshed/pull/15599))
 
-## 7.34.1.20260402 (2026-04-02)
+## [7.34.1.20260402](https://pypi.org/project/types-protobuf/7.34.1.20260402/) (2026-04-02)
 
-[protobuf] Bump to 7.34.1 and improve type coverage ([#15569](https://github.com/python/typeshed/pull/15569))
+* Bump to 7.34.1 and improve type coverage ([#15569](https://github.com/python/typeshed/pull/15569))
 
-## 6.32.1.20260221 (2026-02-21)
+## [6.32.1.20260221](https://pypi.org/project/types-protobuf/6.32.1.20260221/) (2026-02-21)
 
-[protobuf] Add missing encoder and sizer exports ([#15422](https://github.com/python/typeshed/pull/15422))
+* Add missing encoder and sizer exports ([#15422](https://github.com/python/typeshed/pull/15422))
 
-## 6.32.1.20251210 (2025-12-10)
+## [6.32.1.20251210](https://pypi.org/project/types-protobuf/6.32.1.20251210/) (2025-12-10)
 
-[protobuf] Update annotations in internal/containers.pyi ([#15117](https://github.com/python/typeshed/pull/15117))
+* Update annotations in internal/containers.pyi ([#15117](https://github.com/python/typeshed/pull/15117))
 
-## 6.32.1.20251105 (2025-11-05)
+## [6.32.1.20251105](https://pypi.org/project/types-protobuf/6.32.1.20251105/) (2025-11-05)
 
-Amend annotation for `asyncio.Protocol.__slots__` ([#14980](https://github.com/python/typeshed/pull/14980))
+* Amend annotation for `asyncio.Protocol.__slots__` ([#14980](https://github.com/python/typeshed/pull/14980))
 
-## 6.32.1.20250918 (2025-09-18)
+## [6.32.1.20250918](https://pypi.org/project/types-protobuf/6.32.1.20250918/) (2025-09-18)
 
-Add `is_required` / `is_repeated` properties to `FieldDescriptor` ([#14703](https://github.com/python/typeshed/pull/14703))
+* Add `is_required` / `is_repeated` properties to `FieldDescriptor` ([#14703](https://github.com/python/typeshed/pull/14703))
 
-Update protobuf to ~=6.32.1 ([#14707](https://github.com/python/typeshed/pull/14707))
+* Update protobuf to ~=6.32.1 ([#14707](https://github.com/python/typeshed/pull/14707))
 
-## 6.30.2.20250914 (2025-09-14)
+## [6.30.2.20250914](https://pypi.org/project/types-protobuf/6.30.2.20250914/) (2025-09-14)
 
-Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
+* Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
 
-## 6.30.2.20250822 (2025-08-22)
+## [6.30.2.20250822](https://pypi.org/project/types-protobuf/6.30.2.20250822/) (2025-08-22)
 
-Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+* Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
 
-## 6.30.2.20250809 (2025-08-09)
+## [6.30.2.20250809](https://pypi.org/project/types-protobuf/6.30.2.20250809/) (2025-08-09)
 
-Fix dunder-method positional-only parameter discrepancies in third-party stubs ([#14529](https://github.com/python/typeshed/pull/14529))
+* Fix dunder-method positional-only parameter discrepancies in third-party stubs ([#14529](https://github.com/python/typeshed/pull/14529))
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 6.30.2.20250703 (2025-07-03)
+## [6.30.2.20250703](https://pypi.org/project/types-protobuf/6.30.2.20250703/) (2025-07-03)
 
-Make Mapping.get(default) more constrained ([#14360](https://github.com/python/typeshed/pull/14360))
+* Make Mapping.get(default) more constrained ([#14360](https://github.com/python/typeshed/pull/14360))
 
-## 6.30.2.20250516 (2025-05-16)
+## [6.30.2.20250516](https://pypi.org/project/types-protobuf/6.30.2.20250516/) (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## 6.30.2.20250506 (2025-05-06)
+## [6.30.2.20250506](https://pypi.org/project/types-protobuf/6.30.2.20250506/) (2025-05-06)
 
-Run Black on *_pb2 files ([#13930](https://github.com/python/typeshed/pull/13930))
+* Run Black on *_pb2 files ([#13930](https://github.com/python/typeshed/pull/13930))
 
-stubtest-complete grpcio plugins ([#13932](https://github.com/python/typeshed/pull/13932))
+* stubtest-complete grpcio plugins ([#13932](https://github.com/python/typeshed/pull/13932))
 
-## 6.30.2.20250503 (2025-05-03)
+## [6.30.2.20250503](https://pypi.org/project/types-protobuf/6.30.2.20250503/) (2025-05-03)
 
-Bump protobuf to ~=6.30.2 ([#13922](https://github.com/python/typeshed/pull/13922))
+* Bump protobuf to ~=6.30.2 ([#13922](https://github.com/python/typeshed/pull/13922))
 
-Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com>
 
-Mention rerunning sync_protobuf scripts ([#13924](https://github.com/python/typeshed/pull/13924))
+* Mention rerunning sync_protobuf scripts ([#13924](https://github.com/python/typeshed/pull/13924))
 
-## 5.29.1.20250402 (2025-04-02)
+## [5.29.1.20250402](https://pypi.org/project/types-protobuf/5.29.1.20250402/) (2025-04-02)
 
-Bump ruff to 0.11.2 ([#13757](https://github.com/python/typeshed/pull/13757))
+* Bump ruff to 0.11.2 ([#13757](https://github.com/python/typeshed/pull/13757))
 
-## 5.29.1.20250315 (2025-03-15)
+## [5.29.1.20250315](https://pypi.org/project/types-protobuf/5.29.1.20250315/) (2025-03-15)
 
-[protobuf] Add missing properties for class FieldDescriptor ([#13625](https://github.com/python/typeshed/pull/13625))
+* Add missing properties for class FieldDescriptor ([#13625](https://github.com/python/typeshed/pull/13625))
 
-## 5.29.1.20250208 (2025-02-08)
+## [5.29.1.20250208](https://pypi.org/project/types-protobuf/5.29.1.20250208/) (2025-02-08)
 
-Bump mypy to 1.15.0 ([#13473](https://github.com/python/typeshed/pull/13473))
+* Bump mypy to 1.15.0 ([#13473](https://github.com/python/typeshed/pull/13473))
 
-## 5.29.1.20241207 (2024-12-07)
+## [5.29.1.20241207](https://pypi.org/project/types-protobuf/5.29.1.20241207/) (2024-12-07)
 
-Bump protobuf to ~=5.29.1 ([#13209](https://github.com/python/typeshed/pull/13209))
+* Bump protobuf to ~=5.29.1 ([#13209](https://github.com/python/typeshed/pull/13209))
 
-## 5.28.3.20241203 (2024-12-03)
+## [5.28.3.20241203](https://pypi.org/project/types-protobuf/5.28.3.20241203/) (2024-12-03)
 
-Add `google.protobuf.runtime_version` ([#13161](https://github.com/python/typeshed/pull/13161))
+* Add `google.protobuf.runtime_version` ([#13161](https://github.com/python/typeshed/pull/13161))
 
-## 5.28.3.20241030 (2024-10-30)
+## [5.28.3.20241030](https://pypi.org/project/types-protobuf/5.28.3.20241030/) (2024-10-30)
 
-Bump tensorflow to ~=2.18.0 ([#12916](https://github.com/python/typeshed/pull/12916))
+* Bump tensorflow to ~=2.18.0 ([#12916](https://github.com/python/typeshed/pull/12916))
 
-* Tensorflow proto script update
+    * Tensorflow proto script update
 
-* Manual stubtest changes
+    * Manual stubtest changes
 
-* Use Path for arg type
+    * Use Path for arg type
 
-## 5.28.3.20241029 (2024-10-29)
+## [5.28.3.20241029](https://pypi.org/project/types-protobuf/5.28.3.20241029/) (2024-10-29)
 
-Use `lib/ts_utils` for `scripts/sync_protobuf` ([#12913](https://github.com/python/typeshed/pull/12913))
+* Use `lib/ts_utils` for `scripts/sync_protobuf` ([#12913](https://github.com/python/typeshed/pull/12913))
 
-- Simplified `download_file` error handling (400+ return codes already raised errors!)
-- Moved `update_metadata` from `scripts/sync_protobuf/_utils.py` to `lib/ts_utils/metadata.py`
-- Improved `update_metadata` to support any key (values unvalidated atm) and return the modified dictionary
-- Updated `scripts/stubsabot.py` to use `update_metadata`
-- Updated `scripts/sync_protobuf/*` to use  `lib/ts_utils`
-- Updated `scripts/sync_protobuf/tensorflow.py` and `scripts/sync_protobuf/google_protobuf.py` to use the version directly from the `METADATA.toml` file
+    - Simplified `download_file` error handling (400+ return codes already raised errors!)
+    - Moved `update_metadata` from `scripts/sync_protobuf/_utils.py` to `lib/ts_utils/metadata.py`
+    - Improved `update_metadata` to support any key (values unvalidated atm) and return the modified dictionary
+    - Updated `scripts/stubsabot.py` to use `update_metadata`
+    - Updated `scripts/sync_protobuf/*` to use  `lib/ts_utils`
+    - Updated `scripts/sync_protobuf/tensorflow.py` and `scripts/sync_protobuf/google_protobuf.py` to use the version directly from the `METADATA.toml` file
 
-## 5.28.0.20240924 (2024-09-24)
+## [5.28.0.20240924](https://pypi.org/project/types-protobuf/5.28.0.20240924/) (2024-09-24)
 
-Bump protobuf to 5.28.* ([#12689](https://github.com/python/typeshed/pull/12689))
+* Bump protobuf to 5.28.* ([#12689](https://github.com/python/typeshed/pull/12689))
 
-## 5.27.0.20240920 (2024-09-20)
+## [5.27.0.20240920](https://pypi.org/project/types-protobuf/5.27.0.20240920/) (2024-09-20)
 
-Rewrote protobuf generation scripts in Python ([#12527](https://github.com/python/typeshed/pull/12527))
+* Rewrote protobuf generation scripts in Python ([#12527](https://github.com/python/typeshed/pull/12527))
 
-## 5.27.0.20240907 (2024-09-07)
+## [5.27.0.20240907](https://pypi.org/project/types-protobuf/5.27.0.20240907/) (2024-09-07)
 
-Update MergeFrom annotations in protobuf containers.pyi ([#12623](https://github.com/python/typeshed/pull/12623))
+* Update MergeFrom annotations in protobuf containers.pyi ([#12623](https://github.com/python/typeshed/pull/12623))
 
-## 5.27.0.20240626 (2024-06-26)
+## [5.27.0.20240626](https://pypi.org/project/types-protobuf/5.27.0.20240626/) (2024-06-26)
 
-Bump protobuf to 5.27.* ([#12197](https://github.com/python/typeshed/pull/12197))
+* Bump protobuf to 5.27.* ([#12197](https://github.com/python/typeshed/pull/12197))
 
-## 5.26.0.20240422 (2024-04-22)
+## [5.26.0.20240422](https://pypi.org/project/types-protobuf/5.26.0.20240422/) (2024-04-22)
 
-Simplify protoc install in protobuf generation scripts ([#11785](https://github.com/python/typeshed/pull/11785))
+* Simplify protoc install in protobuf generation scripts ([#11785](https://github.com/python/typeshed/pull/11785))
 
-## 5.26.0.20240420 (2024-04-20)
+## [5.26.0.20240420](https://pypi.org/project/types-protobuf/5.26.0.20240420/) (2024-04-20)
 
-Bump protobuf to 5.26.* ([#11784](https://github.com/python/typeshed/pull/11784))
+* Bump protobuf to 5.26.* ([#11784](https://github.com/python/typeshed/pull/11784))
 
-Also update generate_proto_stubs script
+    Also update generate_proto_stubs script
 
-## 4.25.0.20240417 (2024-04-17)
+## [4.25.0.20240417](https://pypi.org/project/types-protobuf/4.25.0.20240417/) (2024-04-17)
 
-Remove remaining bare `Incomplete`s ([#11768](https://github.com/python/typeshed/pull/11768))
+* Remove remaining bare `Incomplete`s ([#11768](https://github.com/python/typeshed/pull/11768))
 
-Enable Y065
+    Enable Y065
 
-## 4.25.0.20240410 (2024-04-10)
+## [4.25.0.20240410](https://pypi.org/project/types-protobuf/4.25.0.20240410/) (2024-04-10)
 
-Bump protobuf to v25.3 ([#11694](https://github.com/python/typeshed/pull/11694))
+* Bump protobuf to v25.3 ([#11694](https://github.com/python/typeshed/pull/11694))
 
-## 4.24.0.20240408 (2024-04-08)
+## [4.24.0.20240408](https://pypi.org/project/types-protobuf/4.24.0.20240408/) (2024-04-08)
 
-Bump protobuf to v24.4 and update generator script ([#11693](https://github.com/python/typeshed/pull/11693))
+* Bump protobuf to v24.4 and update generator script ([#11693](https://github.com/python/typeshed/pull/11693))
 
-## 4.24.0.20240311 (2024-03-11)
+## [4.24.0.20240311](https://pypi.org/project/types-protobuf/4.24.0.20240311/) (2024-03-11)
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## 4.24.0.20240302 (2024-03-02)
+## [4.24.0.20240302](https://pypi.org/project/types-protobuf/4.24.0.20240302/) (2024-03-02)
 
-Add pyupgrade check outdated-version-block (UP036) ([#11509](https://github.com/python/typeshed/pull/11509))
+* Add pyupgrade check outdated-version-block (UP036) ([#11509](https://github.com/python/typeshed/pull/11509))
 
-Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## 4.24.0.20240106 (2024-01-06)
+## [4.24.0.20240106](https://pypi.org/project/types-protobuf/4.24.0.20240106/) (2024-01-06)
 
-Bump various test dependencies ([#11249](https://github.com/python/typeshed/pull/11249))
+* Bump various test dependencies ([#11249](https://github.com/python/typeshed/pull/11249))
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## 4.24.0.4 (2023-10-29)
+## [4.24.0.4](https://pypi.org/project/types-protobuf/4.24.0.4/) (2023-10-29)
 
-Enable ruff's isort rules on files generated using mypy-protobuf ([#10939](https://github.com/python/typeshed/pull/10939))
+* Enable ruff's isort rules on files generated using mypy-protobuf ([#10939](https://github.com/python/typeshed/pull/10939))
 
-Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
+    Co-authored-by: AlexWaygood <alex.waygood@gmail.com>
 
-## 4.24.0.3 (2023-10-23)
+## [4.24.0.3](https://pypi.org/project/types-protobuf/4.24.0.3/) (2023-10-23)
 
-Update mypy-protobuf ([#10914](https://github.com/python/typeshed/pull/10914))
+* Update mypy-protobuf ([#10914](https://github.com/python/typeshed/pull/10914))
 
-Co-authored-by: Avasam <samuel.06@hotmail.com>
-Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com> \
+    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
 ## 4.24.0.2 (2023-09-19)
 

@@ -2,243 +2,243 @@
 
 * Bump to 2026.7.19 ([#16027](https://github.com/python/typeshed/pull/16027))
 
-## 2026.7.10.20260711 (2026-07-11)
+## [2026.7.10.20260711](https://pypi.org/project/types-regex/2026.7.10.20260711/) (2026-07-11)
 
-[regex] Bump to 2026.7.10 ([#15996](https://github.com/python/typeshed/pull/15996))
+* Bump to 2026.7.10 ([#15996](https://github.com/python/typeshed/pull/15996))
 
-## 2026.6.28.20260630 (2026-06-30)
+## [2026.6.28.20260630](https://pypi.org/project/types-regex/2026.6.28.20260630/) (2026-06-30)
 
-[regex] Bump to 2026.6.28 ([#15964](https://github.com/python/typeshed/pull/15964))
+* Bump to 2026.6.28 ([#15964](https://github.com/python/typeshed/pull/15964))
 
-## 2026.5.9.20260518 (2026-05-18)
+## [2026.5.9.20260518](https://pypi.org/project/types-regex/2026.5.9.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 2026.5.9.20260510 (2026-05-10)
+## [2026.5.9.20260510](https://pypi.org/project/types-regex/2026.5.9.20260510/) (2026-05-10)
 
-[stubsabot] Bump regex to 2026.5.9 ([#15748](https://github.com/python/typeshed/pull/15748))
+* Bump regex to 2026.5.9 ([#15748](https://github.com/python/typeshed/pull/15748))
 
-Release: https://pypi.org/pypi/regex/2026.5.9
-Homepage: https://github.com/mrabarnett/mrab-regex
-Repository: https://github.com/mrabarnett/mrab-regex
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex
-Diff: https://github.com/mrabarnett/mrab-regex/compare/2026.4.4...2026.5.9
+    Release: https://pypi.org/pypi/regex/2026.5.9 \
+    Homepage: https://github.com/mrabarnett/mrab-regex \
+    Repository: https://github.com/mrabarnett/mrab-regex \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex \
+    Diff: https://github.com/mrabarnett/mrab-regex/compare/2026.4.4...2026.5.9
 
-Stubsabot analysis of the diff between the two releases:
- - 0 public Python files have been added.
- - 0 files included in typeshed's stubs have been deleted.
- - 1 file included in typeshed's stubs has been modified or renamed: `regex/_main.py`.
- - Total lines of Python code added: 1.
- - Total lines of Python code deleted: 1.
+    Stubsabot analysis of the diff between the two releases:
+     - 0 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 1 file included in typeshed's stubs has been modified or renamed: `regex/_main.py`.
+     - Total lines of Python code added: 1.
+     - Total lines of Python code deleted: 1.
 
-If stubtest fails for this PR:
-- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-- Fix stubtest failures in another PR, then close this PR
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
 
-Note that you will need to close and re-open the PR in order to trigger CI
+    Note that you will need to close and re-open the PR in order to trigger CI
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 2026.4.4.20260508 (2026-05-08)
+## [2026.4.4.20260508](https://pypi.org/project/types-regex/2026.4.4.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 2026.4.4.20260408 (2026-04-08)
+## [2026.4.4.20260408](https://pypi.org/project/types-regex/2026.4.4.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 2026.4.4.20260405 (2026-04-05)
+## [2026.4.4.20260405](https://pypi.org/project/types-regex/2026.4.4.20260405/) (2026-04-05)
 
-[regex] Bump to 2026.4.4 ([#15602](https://github.com/python/typeshed/pull/15602))
+* Bump to 2026.4.4 ([#15602](https://github.com/python/typeshed/pull/15602))
 
-## 2026.3.32.20260329 (2026-03-29)
+## [2026.3.32.20260329](https://pypi.org/project/types-regex/2026.3.32.20260329/) (2026-03-29)
 
-[stubsabot] Bump regex to 2026.3.32 ([#15570](https://github.com/python/typeshed/pull/15570))
+* Bump regex to 2026.3.32 ([#15570](https://github.com/python/typeshed/pull/15570))
 
-## 2026.2.28.20260301 (2026-03-01)
+## [2026.2.28.20260301](https://pypi.org/project/types-regex/2026.2.28.20260301/) (2026-03-01)
 
-[stubsabot] Bump regex to 2026.2.28 ([#15475](https://github.com/python/typeshed/pull/15475))
+* Bump regex to 2026.2.28 ([#15475](https://github.com/python/typeshed/pull/15475))
 
-## 2026.2.19.20260221 (2026-02-21)
+## [2026.2.19.20260221](https://pypi.org/project/types-regex/2026.2.19.20260221/) (2026-02-21)
 
-[regex] Update to 2026.2.19 ([#15439](https://github.com/python/typeshed/pull/15439))
+* Update to 2026.2.19 ([#15439](https://github.com/python/typeshed/pull/15439))
 
-## 2026.1.15.20260116 (2026-01-16)
+## [2026.1.15.20260116](https://pypi.org/project/types-regex/2026.1.15.20260116/) (2026-01-16)
 
-[stubsabot] Bump regex to 2026.1.15 ([#15281](https://github.com/python/typeshed/pull/15281))
+* Bump regex to 2026.1.15 ([#15281](https://github.com/python/typeshed/pull/15281))
 
-## 2025.11.3.20251106 (2025-11-06)
+## [2025.11.3.20251106](https://pypi.org/project/types-regex/2025.11.3.20251106/) (2025-11-06)
 
-[stubsabot] Bump regex to 2025.11.3 ([#14977](https://github.com/python/typeshed/pull/14977))
+* Bump regex to 2025.11.3 ([#14977](https://github.com/python/typeshed/pull/14977))
 
-## 2025.10.23.20251023 (2025-10-23)
+## [2025.10.23.20251023](https://pypi.org/project/types-regex/2025.10.23.20251023/) (2025-10-23)
 
-[regex] Update to 2025.10.23 ([#14908](https://github.com/python/typeshed/pull/14908))
+* Update to 2025.10.23 ([#14908](https://github.com/python/typeshed/pull/14908))
 
-## 2025.9.18.20250921 (2025-09-21)
+## [2025.9.18.20250921](https://pypi.org/project/types-regex/2025.9.18.20250921/) (2025-09-21)
 
-[stubsabot] Bump regex to 2025.9.18 ([#14751](https://github.com/python/typeshed/pull/14751))
+* Bump regex to 2025.9.18 ([#14751](https://github.com/python/typeshed/pull/14751))
 
-## 2025.9.1.20250903 (2025-09-03)
+## [2025.9.1.20250903](https://pypi.org/project/types-regex/2025.9.1.20250903/) (2025-09-03)
 
-[stubsabot] Bump regex to 2025.9.1 ([#14668](https://github.com/python/typeshed/pull/14668))
+* Bump regex to 2025.9.1 ([#14668](https://github.com/python/typeshed/pull/14668))
 
-Release: https://pypi.org/pypi/regex/2025.9.1
-Homepage: https://github.com/mrabarnett/mrab-regex
-Repository: https://github.com/mrabarnett/mrab-regex
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex
-Diff: https://github.com/mrabarnett/mrab-regex/compare/2025.8.29...2025.9.1
+    Release: https://pypi.org/pypi/regex/2025.9.1 \
+    Homepage: https://github.com/mrabarnett/mrab-regex \
+    Repository: https://github.com/mrabarnett/mrab-regex \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex \
+    Diff: https://github.com/mrabarnett/mrab-regex/compare/2025.8.29...2025.9.1
 
-Stubsabot analysis of the diff between the two releases:
- - Total lines of Python code added: 9.
- - Total lines of Python code deleted: 4.
+    Stubsabot analysis of the diff between the two releases:
+     - Total lines of Python code added: 9.
+     - Total lines of Python code deleted: 4.
 
-If stubtest fails for this PR:
-- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-- Fix stubtest failures in another PR, then close this PR
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
 
-Note that you will need to close and re-open the PR in order to trigger CI
+    Note that you will need to close and re-open the PR in order to trigger CI
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 2025.8.29.20250831 (2025-08-31)
+## [2025.8.29.20250831](https://pypi.org/project/types-regex/2025.8.29.20250831/) (2025-08-31)
 
-[stubsabot] Bump regex to 2025.8.29 ([#14663](https://github.com/python/typeshed/pull/14663))
+* Bump regex to 2025.8.29 ([#14663](https://github.com/python/typeshed/pull/14663))
 
-## 2025.7.34.20250809 (2025-08-09)
+## [2025.7.34.20250809](https://pypi.org/project/types-regex/2025.7.34.20250809/) (2025-08-09)
 
-[stubsabot] Bump regex to 2025.7.34 ([#14497](https://github.com/python/typeshed/pull/14497))
+* Bump regex to 2025.7.34 ([#14497](https://github.com/python/typeshed/pull/14497))
 
-## 2024.11.6.20250403 (2025-04-03)
+## [2024.11.6.20250403](https://pypi.org/project/types-regex/2024.11.6.20250403/) (2025-04-03)
 
-Remove Python 3.8 exclusive branches ([#13772](https://github.com/python/typeshed/pull/13772))
+* Remove Python 3.8 exclusive branches ([#13772](https://github.com/python/typeshed/pull/13772))
 
-## 2024.11.6.20250318 (2025-03-18)
+## [2024.11.6.20250318](https://pypi.org/project/types-regex/2024.11.6.20250318/) (2025-03-18)
 
-Fix various argument of extension modules ([#13651](https://github.com/python/typeshed/pull/13651))
+* Fix various argument of extension modules ([#13651](https://github.com/python/typeshed/pull/13651))
 
-* Mark various positional-only arguments: These are all positional-only
-  arguments in C code using the `METH_O` flag.
-* Remove various `*args, **kwargs` arguments that are using the
-  `METH_NOARGS` flag in C.
+    * Mark various positional-only arguments: These are all positional-only
+      arguments in C code using the `METH_O` flag.
+    * Remove various `*args, **kwargs` arguments that are using the
+      `METH_NOARGS` flag in C.
 
-## 2024.11.6.20250305 (2025-03-05)
+## [2024.11.6.20250305](https://pypi.org/project/types-regex/2024.11.6.20250305/) (2025-03-05)
 
-Enable Ruff PLE (Pylint Error) ([#13305](https://github.com/python/typeshed/pull/13305))
+* Enable Ruff PLE (Pylint Error) ([#13305](https://github.com/python/typeshed/pull/13305))
 
-## 2024.11.6.20241221 (2024-12-21)
+## [2024.11.6.20241221](https://pypi.org/project/types-regex/2024.11.6.20241221/) (2024-12-21)
 
-Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
-## 2024.11.6.20241108 (2024-11-08)
+## [2024.11.6.20241108](https://pypi.org/project/types-regex/2024.11.6.20241108/) (2024-11-08)
 
-[stubsabot] Bump regex to 2024.11.6 ([#12967](https://github.com/python/typeshed/pull/12967))
+* Bump regex to 2024.11.6 ([#12967](https://github.com/python/typeshed/pull/12967))
 
-## 2024.9.11.20240912 (2024-09-12)
+## [2024.9.11.20240912](https://pypi.org/project/types-regex/2024.9.11.20240912/) (2024-09-12)
 
-[stubsabot] Bump regex to 2024.9.11 ([#12641](https://github.com/python/typeshed/pull/12641))
+* Bump regex to 2024.9.11 ([#12641](https://github.com/python/typeshed/pull/12641))
 
-Release: https://pypi.org/pypi/regex/2024.9.11
-Homepage: https://github.com/mrabarnett/mrab-regex
-Repository: https://github.com/mrabarnett/mrab-regex
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex
-Diff: https://github.com/mrabarnett/mrab-regex/compare/2024.7.24...2024.9.11
+    Release: https://pypi.org/pypi/regex/2024.9.11 \
+    Homepage: https://github.com/mrabarnett/mrab-regex \
+    Repository: https://github.com/mrabarnett/mrab-regex \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex \
+    Diff: https://github.com/mrabarnett/mrab-regex/compare/2024.7.24...2024.9.11
 
-Stubsabot analysis of the diff between the two releases:
- - Total lines of Python code added: 7.
- - Total lines of Python code deleted: 3.
+    Stubsabot analysis of the diff between the two releases:
+     - Total lines of Python code added: 7.
+     - Total lines of Python code deleted: 3.
 
-If stubtest fails for this PR:
-- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-- Fix stubtest failures in another PR, then close this PR
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
 
-Note that you will need to close and re-open the PR in order to trigger CI
+    Note that you will need to close and re-open the PR in order to trigger CI
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 2024.7.24.20240726 (2024-07-26)
+## [2024.7.24.20240726](https://pypi.org/project/types-regex/2024.7.24.20240726/) (2024-07-26)
 
-[stubsabot] Bump regex to 2024.7.24 ([#12424](https://github.com/python/typeshed/pull/12424))
+* Bump regex to 2024.7.24 ([#12424](https://github.com/python/typeshed/pull/12424))
 
-## 2024.5.15.20240519 (2024-05-19)
+## [2024.5.15.20240519](https://pypi.org/project/types-regex/2024.5.15.20240519/) (2024-05-19)
 
-Mark pos-only __class_getitem__ args ([#11970](https://github.com/python/typeshed/pull/11970))
+* Mark pos-only __class_getitem__ args ([#11970](https://github.com/python/typeshed/pull/11970))
 
-Use assignment instead of annotation in third party enums ([#11957](https://github.com/python/typeshed/pull/11957))
+* Use assignment instead of annotation in third party enums ([#11957](https://github.com/python/typeshed/pull/11957))
 
-## 2024.5.15.20240516 (2024-05-16)
+## [2024.5.15.20240516](https://pypi.org/project/types-regex/2024.5.15.20240516/) (2024-05-16)
 
-[stubsabot] Bump regex to 2024.5.15 ([#11918](https://github.com/python/typeshed/pull/11918))
+* Bump regex to 2024.5.15 ([#11918](https://github.com/python/typeshed/pull/11918))
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 2024.5.10.20240512 (2024-05-12)
+## [2024.5.10.20240512](https://pypi.org/project/types-regex/2024.5.10.20240512/) (2024-05-12)
 
-regex: functions do not accept any buffer for pattern ([#11899](https://github.com/python/typeshed/pull/11899))
+* regex: functions do not accept any buffer for pattern ([#11899](https://github.com/python/typeshed/pull/11899))
 
-## 2024.5.10.20240511 (2024-05-11)
+## [2024.5.10.20240511](https://pypi.org/project/types-regex/2024.5.10.20240511/) (2024-05-11)
 
-[stubsabot] Bump regex to 2024.5.10 ([#11894](https://github.com/python/typeshed/pull/11894))
+* Bump regex to 2024.5.10 ([#11894](https://github.com/python/typeshed/pull/11894))
 
-Release: https://pypi.org/pypi/regex/2024.5.10
-Homepage: https://github.com/mrabarnett/mrab-regex
-Repository: https://github.com/mrabarnett/mrab-regex
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex
-Diff: https://github.com/mrabarnett/mrab-regex/compare/2024.4.28...2024.5.10
+    Release: https://pypi.org/pypi/regex/2024.5.10 \
+    Homepage: https://github.com/mrabarnett/mrab-regex \
+    Repository: https://github.com/mrabarnett/mrab-regex \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex \
+    Diff: https://github.com/mrabarnett/mrab-regex/compare/2024.4.28...2024.5.10
 
-Stubsabot analysis of the diff between the two releases:
- - Total lines of Python code added: 6.
- - Total lines of Python code deleted: 4.
+    Stubsabot analysis of the diff between the two releases:
+     - Total lines of Python code added: 6.
+     - Total lines of Python code deleted: 4.
 
-## 2024.4.28.20240506 (2024-05-06)
+## [2024.4.28.20240506](https://pypi.org/project/types-regex/2024.4.28.20240506/) (2024-05-06)
 
-regex: improve Pattern annotations ([#11862](https://github.com/python/typeshed/pull/11862))
+* regex: improve Pattern annotations ([#11862](https://github.com/python/typeshed/pull/11862))
 
-- Corrected types for `pos` and `endpos` arguments to `int | None = None`
-- Corrected type for `timeout` argument to `float | None = None`
-- Added default value `None` for `concurrent` and `timeout` parameters
-- Added default value `0` for `maxsplit` parameter
-- Added `partial` parameter where applicable
-- Removed invalid `flags` parameter from `sub` methods
+    - Corrected types for `pos` and `endpos` arguments to `int | None = None`
+    - Corrected type for `timeout` argument to `float | None = None`
+    - Added default value `None` for `concurrent` and `timeout` parameters
+    - Added default value `0` for `maxsplit` parameter
+    - Added `partial` parameter where applicable
+    - Removed invalid `flags` parameter from `sub` methods
 
-## 2024.4.28.20240430 (2024-04-30)
+## [2024.4.28.20240430](https://pypi.org/project/types-regex/2024.4.28.20240430/) (2024-04-30)
 
-[stubsabot] Bump regex to 2024.4.28 ([#11842](https://github.com/python/typeshed/pull/11842))
+* Bump regex to 2024.4.28 ([#11842](https://github.com/python/typeshed/pull/11842))
 
-Release: https://pypi.org/pypi/regex/2024.4.28
-Homepage: https://github.com/mrabarnett/mrab-regex
-Repository: https://github.com/mrabarnett/mrab-regex
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex
-Diff: https://github.com/mrabarnett/mrab-regex/compare/2024.4.16...2024.4.28
+    Release: https://pypi.org/pypi/regex/2024.4.28 \
+    Homepage: https://github.com/mrabarnett/mrab-regex \
+    Repository: https://github.com/mrabarnett/mrab-regex \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex \
+    Diff: https://github.com/mrabarnett/mrab-regex/compare/2024.4.16...2024.4.28
 
-Stubsabot analysis of the diff between the two releases:
- - Total lines of Python code added: 10.
- - Total lines of Python code deleted: 7.
+    Stubsabot analysis of the diff between the two releases:
+     - Total lines of Python code added: 10.
+     - Total lines of Python code deleted: 7.
 
-## 2024.4.16.20240423 (2024-04-23)
+## [2024.4.16.20240423](https://pypi.org/project/types-regex/2024.4.16.20240423/) (2024-04-23)
 
-Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
+* Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
 
-Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
-Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
+    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com> \
+    Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
-## 2024.4.16.20240418 (2024-04-18)
+## [2024.4.16.20240418](https://pypi.org/project/types-regex/2024.4.16.20240418/) (2024-04-18)
 
-[stubsabot] Bump regex to 2024.4.16 ([#11773](https://github.com/python/typeshed/pull/11773))
+* Bump regex to 2024.4.16 ([#11773](https://github.com/python/typeshed/pull/11773))
 
-## 2023.12.25.20240311 (2024-03-11)
+## [2023.12.25.20240311](https://pypi.org/project/types-regex/2023.12.25.20240311/) (2024-03-11)
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## 2023.12.25.20240106 (2024-01-06)
+## [2023.12.25.20240106](https://pypi.org/project/types-regex/2023.12.25.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## 2023.12.25.20231225 (2023-12-25)
+## [2023.12.25.20231225](https://pypi.org/project/types-regex/2023.12.25.20231225/) (2023-12-25)
 
-[stubsabot] Bump regex to 2023.12.25 ([#11198](https://github.com/python/typeshed/pull/11198))
+* Bump regex to 2023.12.25 ([#11198](https://github.com/python/typeshed/pull/11198))
 
 ## 2023.10.3.0 (2023-10-04)
 

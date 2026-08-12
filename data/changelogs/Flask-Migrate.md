@@ -1,42 +1,42 @@
-## 4.1.0.20260508 (2026-05-08)
+## [4.1.0.20260508](https://pypi.org/project/types-Flask-Migrate/4.1.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 4.1.0.20260408 (2026-04-08)
+## [4.1.0.20260408](https://pypi.org/project/types-Flask-Migrate/4.1.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 4.1.0.20260402 (2026-04-02)
+## [4.1.0.20260402](https://pypi.org/project/types-Flask-Migrate/4.1.0.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-## 4.1.0.20250809 (2025-08-09)
+## [4.1.0.20250809](https://pypi.org/project/types-Flask-Migrate/4.1.0.20250809/) (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 4.1.0.20250112 (2025-01-12)
+## [4.1.0.20250112](https://pypi.org/project/types-Flask-Migrate/4.1.0.20250112/) (2025-01-12)
 
-[stubsabot] Bump Flask-Migrate to 4.1.* ([#13392](https://github.com/python/typeshed/pull/13392))
+* Bump Flask-Migrate to 4.1.* ([#13392](https://github.com/python/typeshed/pull/13392))
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 4.0.0.20241204 (2024-12-04)
+## [4.0.0.20241204](https://pypi.org/project/types-Flask-Migrate/4.0.0.20241204/) (2024-12-04)
 
-Use SupportsFlush from typeshed to fix TODO ([#13166](https://github.com/python/typeshed/pull/13166))
+* Use SupportsFlush from typeshed to fix TODO ([#13166](https://github.com/python/typeshed/pull/13166))
 
-## 4.0.0.20240311 (2024-03-11)
+## [4.0.0.20240311](https://pypi.org/project/types-Flask-Migrate/4.0.0.20240311/) (2024-03-11)
 
-Use Python 3.11 for third-party stubtest in CI ([#11562](https://github.com/python/typeshed/pull/11562))
+* Use Python 3.11 for third-party stubtest in CI ([#11562](https://github.com/python/typeshed/pull/11562))
 
-## 4.0.0.20240205 (2024-02-05)
+## [4.0.0.20240205](https://pypi.org/project/types-Flask-Migrate/4.0.0.20240205/) (2024-02-05)
 
-A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
+* A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
 
-## 4.0.0.7 (2023-11-10)
+## [4.0.0.7](https://pypi.org/project/types-Flask-Migrate/4.0.0.7/) (2023-11-10)
 
-Complete Flask-Migrate and mark as Strict ([#10971](https://github.com/python/typeshed/pull/10971))
+* Complete Flask-Migrate and mark as Strict ([#10971](https://github.com/python/typeshed/pull/10971))
 
 ## 4.0.0.6 (2023-07-20)
 

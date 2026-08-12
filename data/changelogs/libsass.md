@@ -1,48 +1,48 @@
-## 0.23.0.20260211 (2026-02-11)
+## [0.23.0.20260211](https://pypi.org/project/types-libsass/0.23.0.20260211/) (2026-02-11)
 
-[libsass] Mark as no longer updated ([#15413](https://github.com/python/typeshed/pull/15413))
+* Mark as no longer updated ([#15413](https://github.com/python/typeshed/pull/15413))
 
-Fix stubtest setuptools dependency
+    Fix stubtest setuptools dependency
 
-## 0.23.0.20250401 (2025-04-01)
+## [0.23.0.20250401](https://pypi.org/project/types-libsass/0.23.0.20250401/) (2025-04-01)
 
-Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
+* Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
 
----------
+    ---------
 
-Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com>
 
-## 0.23.0.20241221 (2024-12-21)
+## [0.23.0.20241221](https://pypi.org/project/types-libsass/0.23.0.20241221/) (2024-12-21)
 
-Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
-## 0.23.0.20240724 (2024-07-24)
+## [0.23.0.20240724](https://pypi.org/project/types-libsass/0.23.0.20240724/) (2024-07-24)
 
-`setuptools` & `distutils`: `ClassVar` mutables (and tuples) ([#12403](https://github.com/python/typeshed/pull/12403))
+* `setuptools` & `distutils`: `ClassVar` mutables (and tuples) ([#12403](https://github.com/python/typeshed/pull/12403))
 
-## 0.23.0.20240425 (2024-04-25)
+## [0.23.0.20240425](https://pypi.org/project/types-libsass/0.23.0.20240425/) (2024-04-25)
 
-Bump pyright to v1.1.360 ([#11810](https://github.com/python/typeshed/pull/11810))
+* Bump pyright to v1.1.360 ([#11810](https://github.com/python/typeshed/pull/11810))
 
-## 0.23.0.20240311 (2024-03-11)
+## [0.23.0.20240311](https://pypi.org/project/types-libsass/0.23.0.20240311/) (2024-03-11)
 
-Make stubtest pass on libsass/passlib/redis/tree-sitter if you're using Python 3.12 ([#11561](https://github.com/python/typeshed/pull/11561))
+* Make stubtest pass on libsass/passlib/redis/tree-sitter if you're using Python 3.12 ([#11561](https://github.com/python/typeshed/pull/11561))
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## 0.23.0.20240109 (2024-01-09)
+## [0.23.0.20240109](https://pypi.org/project/types-libsass/0.23.0.20240109/) (2024-01-09)
 
-Bump libsass to 0.23.* ([#11253](https://github.com/python/typeshed/pull/11253))
+* Bump libsass to 0.23.* ([#11253](https://github.com/python/typeshed/pull/11253))
 
-## 0.22.0.20240106 (2024-01-06)
+## [0.22.0.20240106](https://pypi.org/project/types-libsass/0.22.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## 0.22.0.1 (2023-11-30)
+## [0.22.0.1](https://pypi.org/project/types-libsass/0.22.0.1/) (2023-11-30)
 
-Use `ConvertibleToInt`/`ConvertibleToFloat` in many third-party stubs ([#11022](https://github.com/python/typeshed/pull/11022))
+* Use `ConvertibleToInt`/`ConvertibleToFloat` in many third-party stubs ([#11022](https://github.com/python/typeshed/pull/11022))
 
-Note: this may make the latest version of certain stubs packages incompatible with older versions of mypy and pyright.
+    Note: this may make the latest version of certain stubs packages incompatible with older versions of mypy and pyright.
 
 ## 0.22.0.0 (2023-09-01)
 

@@ -14,247 +14,247 @@
 
 * Update to 4.1.2 ([#16049](https://github.com/python/typeshed/pull/16049))
 
-## 4.0.8.20260712 (2026-07-12)
+## [4.0.8.20260712](https://pypi.org/project/types-peewee/4.0.8.20260712/) (2026-07-12)
 
-Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))
+* Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))
 
-Class members such as list, type, cursor, Model, and datetime shadow the builtins, classes, or modules referenced by nearby annotations. ty then resolves those annotations to Unknown, which can hide invalid calls in APIs including docker, sqlite3, psycopg2, Markdown, and requests.
+    Class members such as list, type, cursor, Model, and datetime shadow the builtins, classes, or modules referenced by nearby annotations. ty then resolves those annotations to Unknown, which can hide invalid calls in APIs including docker, sqlite3, psycopg2, Markdown, and requests.
 
-Qualify shadowed builtins and use private aliases for colliding imports and classes. This removes 15 stdlib and 120 third-party collision diagnostics under ty 0.0.58, restores the affected public types, and fixes four existing psycopg2 type assertions.
+    Qualify shadowed builtins and use private aliases for colliding imports and classes. This removes 15 stdlib and 120 third-party collision diagnostics under ty 0.0.58, restores the affected public types, and fixes four existing psycopg2 type assertions.
 
-## 4.0.8.20260630 (2026-06-30)
+## [4.0.8.20260630](https://pypi.org/project/types-peewee/4.0.8.20260630/) (2026-06-30)
 
-[peewee] Update to 4.0.8 and improve stubs ([#15911](https://github.com/python/typeshed/pull/15911))
+* Update to 4.0.8 and improve stubs ([#15911](https://github.com/python/typeshed/pull/15911))
 
-* Add typed fields, queries, and update to some of the new APIs
-* Type the field classes
-* Type query results
-* Mark kwargs TypedDicts type_check_only and fix TypedDict import
-* Instead of separating get/set, just override for BigBitField.
+    * Add typed fields, queries, and update to some of the new APIs
+    * Type the field classes
+    * Type query results
+    * Mark kwargs TypedDicts type_check_only and fix TypedDict import
+    * Instead of separating get/set, just override for BigBitField.
 
-## 4.0.5.20260518 (2026-05-18)
+## [4.0.5.20260518](https://pypi.org/project/types-peewee/4.0.5.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 4.0.5.20260509 (2026-05-09)
+## [4.0.5.20260509](https://pypi.org/project/types-peewee/4.0.5.20260509/) (2026-05-09)
 
-[peewee] Update to 4.0.5 ([#15696](https://github.com/python/typeshed/pull/15696))
+* Update to 4.0.5 ([#15696](https://github.com/python/typeshed/pull/15696))
 
-## 4.0.1.20260508 (2026-05-08)
+## [4.0.1.20260508](https://pypi.org/project/types-peewee/4.0.1.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 4.0.1.20260503 (2026-05-03)
+## [4.0.1.20260503](https://pypi.org/project/types-peewee/4.0.1.20260503/) (2026-05-03)
 
-[peewee] add return type to query.count() and the model._meta attribute ([#15691](https://github.com/python/typeshed/pull/15691))
+* add return type to query.count() and the model._meta attribute ([#15691](https://github.com/python/typeshed/pull/15691))
 
-## 4.0.1.20260426 (2026-04-26)
+## [4.0.1.20260426](https://pypi.org/project/types-peewee/4.0.1.20260426/) (2026-04-26)
 
-[peewee] Update to 4.0.1 ([#15479](https://github.com/python/typeshed/pull/15479))
+* Update to 4.0.1 ([#15479](https://github.com/python/typeshed/pull/15479))
 
-## 4.0.0.20260408 (2026-04-08)
+## [4.0.0.20260408](https://pypi.org/project/types-peewee/4.0.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 4.0.0.20260402 (2026-04-02)
+## [4.0.0.20260402](https://pypi.org/project/types-peewee/4.0.0.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-## 4.0.0.20260223 (2026-02-23)
+## [4.0.0.20260223](https://pypi.org/project/types-peewee/4.0.0.20260223/) (2026-02-23)
 
-[peewee] Annotate return types ([#15450](https://github.com/python/typeshed/pull/15450))
+* Annotate return types ([#15450](https://github.com/python/typeshed/pull/15450))
 
-Add __slots__
+    Add __slots__
 
-## 4.0.0.20260222 (2026-02-22)
+## [4.0.0.20260222](https://pypi.org/project/types-peewee/4.0.0.20260222/) (2026-02-22)
 
-[peewee] Update to 4.0.0 ([#15445](https://github.com/python/typeshed/pull/15445))
+* Update to 4.0.0 ([#15445](https://github.com/python/typeshed/pull/15445))
 
-* Add default values
+    * Add default values
 
-## 3.19.0.20260109 (2026-01-09)
+## [3.19.0.20260109](https://pypi.org/project/types-peewee/3.19.0.20260109/) (2026-01-09)
 
-[stubsabot] Bump peewee to 3.19.0 ([#15230](https://github.com/python/typeshed/pull/15230))
+* Bump peewee to 3.19.0 ([#15230](https://github.com/python/typeshed/pull/15230))
 
-Release: https://pypi.org/pypi/peewee/3.19.0
-Repository: https://github.com/coleifer/peewee
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/peewee
-Changelog: https://github.com/coleifer/peewee/blob/master/CHANGELOG.md
-Diff: https://github.com/coleifer/peewee/compare/3.18.3...3.19.0
+    Release: https://pypi.org/pypi/peewee/3.19.0 \
+    Repository: https://github.com/coleifer/peewee \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/peewee \
+    Changelog: https://github.com/coleifer/peewee/blob/master/CHANGELOG.md \
+    Diff: https://github.com/coleifer/peewee/compare/3.18.3...3.19.0
 
-Stubsabot analysis of the diff between the two releases:
- - 1 public Python file has been added: `playhouse/_pysqlite/__init__.py`.
- - 0 files included in typeshed's stubs have been deleted.
- - 1 file included in typeshed's stubs has been modified or renamed: `peewee.py`.
- - Total lines of Python code added: 86.
- - Total lines of Python code deleted: 121.
+    Stubsabot analysis of the diff between the two releases:
+     - 1 public Python file has been added: `playhouse/_pysqlite/__init__.py`.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 1 file included in typeshed's stubs has been modified or renamed: `peewee.py`.
+     - Total lines of Python code added: 86.
+     - Total lines of Python code deleted: 121.
 
-If stubtest fails for this PR:
-- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-- Fix stubtest failures in another PR, then close this PR
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
 
-Note that you will need to close and re-open the PR in order to trigger CI
+    Note that you will need to close and re-open the PR in order to trigger CI
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 3.18.3.20251105 (2025-11-05)
+## [3.18.3.20251105](https://pypi.org/project/types-peewee/3.18.3.20251105/) (2025-11-05)
 
-[stubsabot] Bump peewee to 3.18.3 ([#14976](https://github.com/python/typeshed/pull/14976))
+* Bump peewee to 3.18.3 ([#14976](https://github.com/python/typeshed/pull/14976))
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 3.18.2.20250710 (2025-07-10)
+## [3.18.2.20250710](https://pypi.org/project/types-peewee/3.18.2.20250710/) (2025-07-10)
 
-[stubsabot] Bump peewee to 3.18.2 ([#14385](https://github.com/python/typeshed/pull/14385))
+* Bump peewee to 3.18.2 ([#14385](https://github.com/python/typeshed/pull/14385))
 
-Release: https://pypi.org/pypi/peewee/3.18.2
-Homepage: https://github.com/coleifer/peewee/
-Repository: https://github.com/coleifer/peewee
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/peewee
-Diff: https://github.com/coleifer/peewee/compare/3.18.1...3.18.2
+    Release: https://pypi.org/pypi/peewee/3.18.2 \
+    Homepage: https://github.com/coleifer/peewee/ \
+    Repository: https://github.com/coleifer/peewee \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/peewee \
+    Diff: https://github.com/coleifer/peewee/compare/3.18.1...3.18.2
 
-Stubsabot analysis of the diff between the two releases:
- - 0 public Python files have been added.
- - 0 files included in typeshed's stubs have been deleted.
- - 1 file included in typeshed's stubs has been modified or renamed: `peewee.py`.
- - Total lines of Python code added: 5.
- - Total lines of Python code deleted: 3.
+    Stubsabot analysis of the diff between the two releases:
+     - 0 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 1 file included in typeshed's stubs has been modified or renamed: `peewee.py`.
+     - Total lines of Python code added: 5.
+     - Total lines of Python code deleted: 3.
 
-If stubtest fails for this PR:
-- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-- Fix stubtest failures in another PR, then close this PR
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
 
-Note that you will need to close and re-open the PR in order to trigger CI
+    Note that you will need to close and re-open the PR in order to trigger CI
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 3.18.1.20250708 (2025-07-08)
+## [3.18.1.20250708](https://pypi.org/project/types-peewee/3.18.1.20250708/) (2025-07-08)
 
-[peewee] Fix type for field operations ([#14275](https://github.com/python/typeshed/pull/14275))
+* Fix type for field operations ([#14275](https://github.com/python/typeshed/pull/14275))
 
-## 3.18.1.20250601 (2025-06-01)
+## [3.18.1.20250601](https://pypi.org/project/types-peewee/3.18.1.20250601/) (2025-06-01)
 
-[peewee] Mark field_type as ClassVar ([#14203](https://github.com/python/typeshed/pull/14203))
+* Mark field_type as ClassVar ([#14203](https://github.com/python/typeshed/pull/14203))
 
-Should help with #14194
+    Should help with #14194
 
-## 3.18.1.20250516 (2025-05-16)
+## [3.18.1.20250516](https://pypi.org/project/types-peewee/3.18.1.20250516/) (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## 3.18.1.20250512 (2025-05-12)
+## [3.18.1.20250512](https://pypi.org/project/types-peewee/3.18.1.20250512/) (2025-05-12)
 
-[stubsabot] Bump peewee to 3.18.1 ([#13910](https://github.com/python/typeshed/pull/13910))
+* Bump peewee to 3.18.1 ([#13910](https://github.com/python/typeshed/pull/13910))
 
-## 3.18.0.20250501 (2025-05-01)
+## [3.18.0.20250501](https://pypi.org/project/types-peewee/3.18.0.20250501/) (2025-05-01)
 
-[stubsabot] Bump peewee to 3.18.0 ([#13907](https://github.com/python/typeshed/pull/13907))
+* Bump peewee to 3.18.0 ([#13907](https://github.com/python/typeshed/pull/13907))
 
-## 3.17.9.20250401 (2025-04-01)
+## [3.17.9.20250401](https://pypi.org/project/types-peewee/3.17.9.20250401/) (2025-04-01)
 
-Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
+* Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
 
----------
+    ---------
 
-Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com>
 
-## 3.17.9.20250308 (2025-03-08)
+## [3.17.9.20250308](https://pypi.org/project/types-peewee/3.17.9.20250308/) (2025-03-08)
 
-Mark database parameters in Peewee as optional ([#13442](https://github.com/python/typeshed/pull/13442))
+* Mark database parameters in Peewee as optional ([#13442](https://github.com/python/typeshed/pull/13442))
 
-Peewee injects database arguments using a decorator whenever a model
-or query has a bound connection. Passing the argument is therefore not
-required, even for some function parameters without default values.
+    Peewee injects database arguments using a decorator whenever a model
+    or query has a bound connection. Passing the argument is therefore not
+    required, even for some function parameters without default values.
 
-## 3.17.9.20250210 (2025-02-10)
+## [3.17.9.20250210](https://pypi.org/project/types-peewee/3.17.9.20250210/) (2025-02-10)
 
-Bump peewee to 3.17.9 ([#13475](https://github.com/python/typeshed/pull/13475))
+* Bump peewee to 3.17.9 ([#13475](https://github.com/python/typeshed/pull/13475))
 
-## 3.17.8.20241229 (2024-12-29)
+## [3.17.8.20241229](https://pypi.org/project/types-peewee/3.17.8.20241229/) (2024-12-29)
 
-Add return type for get_tables() in peewee ([#13230](https://github.com/python/typeshed/pull/13230))
+* Add return type for get_tables() in peewee ([#13230](https://github.com/python/typeshed/pull/13230))
 
-## 3.17.8.20241221 (2024-12-21)
+## [3.17.8.20241221](https://pypi.org/project/types-peewee/3.17.8.20241221/) (2024-12-21)
 
-Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
-## 3.17.8.20241117 (2024-11-17)
+## [3.17.8.20241117](https://pypi.org/project/types-peewee/3.17.8.20241117/) (2024-11-17)
 
-Bump peewee to 3.17.8 ([#13014](https://github.com/python/typeshed/pull/13014))
+* Bump peewee to 3.17.8 ([#13014](https://github.com/python/typeshed/pull/13014))
 
-## 3.17.7.20241017 (2024-10-17)
+## [3.17.7.20241017](https://pypi.org/project/types-peewee/3.17.7.20241017/) (2024-10-17)
 
-[stubsabot] Bump peewee to 3.17.7 ([#12820](https://github.com/python/typeshed/pull/12820))
+* Bump peewee to 3.17.7 ([#12820](https://github.com/python/typeshed/pull/12820))
 
-## 3.17.6.20241014 (2024-10-14)
+## [3.17.6.20241014](https://pypi.org/project/types-peewee/3.17.6.20241014/) (2024-10-14)
 
-[peewee] Some methods return `Self` ([#12788](https://github.com/python/typeshed/pull/12788))
+* Some methods return `Self` ([#12788](https://github.com/python/typeshed/pull/12788))
 
-## 3.17.6.20240813 (2024-08-13)
+## [3.17.6.20240813](https://pypi.org/project/types-peewee/3.17.6.20240813/) (2024-08-13)
 
-Use Generator instead of Iterator for 3rd-party context managers ([#12481](https://github.com/python/typeshed/pull/12481))
+* Use Generator instead of Iterator for 3rd-party context managers ([#12481](https://github.com/python/typeshed/pull/12481))
 
-## 3.17.6.20240806 (2024-08-06)
+## [3.17.6.20240806](https://pypi.org/project/types-peewee/3.17.6.20240806/) (2024-08-06)
 
-Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
+* Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
 
-## 3.17.6.20240722 (2024-07-22)
+## [3.17.6.20240722](https://pypi.org/project/types-peewee/3.17.6.20240722/) (2024-07-22)
 
-add some missing or incorrect types to peewee ([#12251](https://github.com/python/typeshed/pull/12251))
+* add some missing or incorrect types to peewee ([#12251](https://github.com/python/typeshed/pull/12251))
 
-## 3.17.6.20240712 (2024-07-12)
+## [3.17.6.20240712](https://pypi.org/project/types-peewee/3.17.6.20240712/) (2024-07-12)
 
-[stubsabot] Bump peewee to 3.17.6 ([#12290](https://github.com/python/typeshed/pull/12290))
+* Bump peewee to 3.17.6 ([#12290](https://github.com/python/typeshed/pull/12290))
 
-Release: https://pypi.org/pypi/peewee/3.17.6
-Homepage: https://github.com/coleifer/peewee/
-Repository: https://github.com/coleifer/peewee
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/peewee
-Diff: https://github.com/coleifer/peewee/compare/3.17.5...3.17.6
+    Release: https://pypi.org/pypi/peewee/3.17.6 \
+    Homepage: https://github.com/coleifer/peewee/ \
+    Repository: https://github.com/coleifer/peewee \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/peewee \
+    Diff: https://github.com/coleifer/peewee/compare/3.17.5...3.17.6
 
-Stubsabot analysis of the diff between the two releases:
- - 0 public Python files have been added.
- - 0 files included in typeshed's stubs have been deleted.
- - 1 file included in typeshed's stubs has been modified or renamed: `peewee.py`.
- - Total lines of Python code added: 234.
- - Total lines of Python code deleted: 61.
+    Stubsabot analysis of the diff between the two releases:
+     - 0 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 1 file included in typeshed's stubs has been modified or renamed: `peewee.py`.
+     - Total lines of Python code added: 234.
+     - Total lines of Python code deleted: 61.
 
-## 3.17.5.20240626 (2024-06-26)
+## [3.17.5.20240626](https://pypi.org/project/types-peewee/3.17.5.20240626/) (2024-06-26)
 
-Bump peewee to 3.17.5 ([#12201](https://github.com/python/typeshed/pull/12201))
+* Bump peewee to 3.17.5 ([#12201](https://github.com/python/typeshed/pull/12201))
 
-## 3.17.3.20240424 (2024-04-24)
+## [3.17.3.20240424](https://pypi.org/project/types-peewee/3.17.3.20240424/) (2024-04-24)
 
-Add peewee `playhouse.flask_utils` stubs ([#11731](https://github.com/python/typeshed/pull/11731))
+* Add peewee `playhouse.flask_utils` stubs ([#11731](https://github.com/python/typeshed/pull/11731))
 
-Co-authored-by: Avasam <samuel.06@hotmail.com>
-Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com> \
+    Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
-## 3.17.3.20240420 (2024-04-20)
+## [3.17.3.20240420](https://pypi.org/project/types-peewee/3.17.3.20240420/) (2024-04-20)
 
-Bump peewee to 3.17.3 and fix stubtest entries ([#11787](https://github.com/python/typeshed/pull/11787))
+* Bump peewee to 3.17.3 and fix stubtest entries ([#11787](https://github.com/python/typeshed/pull/11787))
 
-## 3.17.0.20240311 (2024-03-11)
+## [3.17.0.20240311](https://pypi.org/project/types-peewee/3.17.0.20240311/) (2024-03-11)
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## 3.17.0.20240207 (2024-02-07)
+## [3.17.0.20240207](https://pypi.org/project/types-peewee/3.17.0.20240207/) (2024-02-07)
 
-Pin peewee more tightly for stubtest ([#11372](https://github.com/python/typeshed/pull/11372))
+* Pin peewee more tightly for stubtest ([#11372](https://github.com/python/typeshed/pull/11372))
 
-Fixes  #11367
+    Fixes  #11367
 
-## 3.17.0.20240118 (2024-01-18)
+## [3.17.0.20240118](https://pypi.org/project/types-peewee/3.17.0.20240118/) (2024-01-18)
 
-Added some typings to peewee stubs ([#11284](https://github.com/python/typeshed/pull/11284))
+* Added some typings to peewee stubs ([#11284](https://github.com/python/typeshed/pull/11284))
 
-## 3.17.0.0 (2023-10-17)
+## [3.17.0.0](https://pypi.org/project/types-peewee/3.17.0.0/) (2023-10-17)
 
-Bump peewee to 3.17.* ([#10895](https://github.com/python/typeshed/pull/10895))
+* Bump peewee to 3.17.* ([#10895](https://github.com/python/typeshed/pull/10895))
 
 ## 3.16.0.2 (2023-08-15)
 

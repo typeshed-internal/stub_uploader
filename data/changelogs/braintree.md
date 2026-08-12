@@ -10,179 +10,179 @@
 
 * Update to 4.45.* ([#16040](https://github.com/python/typeshed/pull/16040))
 
-## 4.44.0.20260602 (2026-06-02)
+## [4.44.0.20260602](https://pypi.org/project/types-braintree/4.44.0.20260602/) (2026-06-02)
 
-[braintree] Update to 4.44.* ([#15850](https://github.com/python/typeshed/pull/15850))
+* Update to 4.44.* ([#15850](https://github.com/python/typeshed/pull/15850))
 
-## 4.43.0.20260518 (2026-05-18)
+## [4.43.0.20260518](https://pypi.org/project/types-braintree/4.43.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 4.43.0.20260509 (2026-05-09)
+## [4.43.0.20260509](https://pypi.org/project/types-braintree/4.43.0.20260509/) (2026-05-09)
 
-[braintree] Update to 4.43.* ([#15699](https://github.com/python/typeshed/pull/15699))
+* Update to 4.43.* ([#15699](https://github.com/python/typeshed/pull/15699))
 
-## 4.42.0.20260508 (2026-05-08)
+## [4.42.0.20260508](https://pypi.org/project/types-braintree/4.42.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 4.42.0.20260408 (2026-04-08)
+## [4.42.0.20260408](https://pypi.org/project/types-braintree/4.42.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 4.42.0.20260402 (2026-04-02)
+## [4.42.0.20260402](https://pypi.org/project/types-braintree/4.42.0.20260402/) (2026-04-02)
 
-Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-## 4.42.0.20260204 (2026-02-04)
+## [4.42.0.20260204](https://pypi.org/project/types-braintree/4.42.0.20260204/) (2026-02-04)
 
-[braintree] Update to 4.42.* ([#15362](https://github.com/python/typeshed/pull/15362))
+* Update to 4.42.* ([#15362](https://github.com/python/typeshed/pull/15362))
 
-## 4.41.0.20251214 (2025-12-14)
+## [4.41.0.20251214](https://pypi.org/project/types-braintree/4.41.0.20251214/) (2025-12-14)
 
-[braintree] Update to 4.41.* ([#15130](https://github.com/python/typeshed/pull/15130))
+* Update to 4.41.* ([#15130](https://github.com/python/typeshed/pull/15130))
 
-## 4.40.0.20251031 (2025-10-31)
+## [4.40.0.20251031](https://pypi.org/project/types-braintree/4.40.0.20251031/) (2025-10-31)
 
-Tighten the return type in braintree.PaymentMethod.find() ([#14916](https://github.com/python/typeshed/pull/14916))
+* Tighten the return type in braintree.PaymentMethod.find() ([#14916](https://github.com/python/typeshed/pull/14916))
 
-Annotate braintree's ClientToken and ClientTokenGateway ([#14926](https://github.com/python/typeshed/pull/14926))
+* Annotate braintree's ClientToken and ClientTokenGateway ([#14926](https://github.com/python/typeshed/pull/14926))
 
-Annotate braintree's Address and AddressGateway classes ([#14927](https://github.com/python/typeshed/pull/14927))
+* Annotate braintree's Address and AddressGateway classes ([#14927](https://github.com/python/typeshed/pull/14927))
 
-Annotate braintree's Subscription and Transaction methods ([#14917](https://github.com/python/typeshed/pull/14917))
+* Annotate braintree's Subscription and Transaction methods ([#14917](https://github.com/python/typeshed/pull/14917))
 
-## 4.40.0.20251025 (2025-10-25)
+## [4.40.0.20251025](https://pypi.org/project/types-braintree/4.40.0.20251025/) (2025-10-25)
 
-[braintree] Update to 4.40.* ([#14914](https://github.com/python/typeshed/pull/14914))
+* Update to 4.40.* ([#14914](https://github.com/python/typeshed/pull/14914))
 
-## 4.39.0.20251015 (2025-10-15)
+## [4.39.0.20251015](https://pypi.org/project/types-braintree/4.39.0.20251015/) (2025-10-15)
 
-[braintree] Update to 4.39 ([#14872](https://github.com/python/typeshed/pull/14872))
+* Update to 4.39 ([#14872](https://github.com/python/typeshed/pull/14872))
 
-## 4.38.0.20250809 (2025-08-09)
+## [4.38.0.20250809](https://pypi.org/project/types-braintree/4.38.0.20250809/) (2025-08-09)
 
-Fix dunder-method positional-only parameter discrepancies in third-party stubs ([#14529](https://github.com/python/typeshed/pull/14529))
+* Fix dunder-method positional-only parameter discrepancies in third-party stubs ([#14529](https://github.com/python/typeshed/pull/14529))
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 4.38.0.20250807 (2025-08-07)
+## [4.38.0.20250807](https://pypi.org/project/types-braintree/4.38.0.20250807/) (2025-08-07)
 
-[braintree] Update to 4.38.* ([#14534](https://github.com/python/typeshed/pull/14534))
+* Update to 4.38.* ([#14534](https://github.com/python/typeshed/pull/14534))
 
-## 4.37.0.20250701 (2025-07-01)
+## [4.37.0.20250701](https://pypi.org/project/types-braintree/4.37.0.20250701/) (2025-07-01)
 
-[braintree] Bump to 4.37.* ([#14344](https://github.com/python/typeshed/pull/14344))
+* Bump to 4.37.* ([#14344](https://github.com/python/typeshed/pull/14344))
 
-* `CustomerRecommendationsPayload`: Add `session_id` attribute
+    * `CustomerRecommendationsPayload`: Add `session_id` attribute
 
-* `CustomerRecommendationsPayload`: Represent overloaded constructor
+    * `CustomerRecommendationsPayload`: Represent overloaded constructor
 
-## 4.36.0.20250531 (2025-05-31)
+## [4.36.0.20250531](https://pypi.org/project/types-braintree/4.36.0.20250531/) (2025-05-31)
 
-Bump braintree to 4.36.* ([#14192](https://github.com/python/typeshed/pull/14192))
+* Bump braintree to 4.36.* ([#14192](https://github.com/python/typeshed/pull/14192))
 
-## 4.35.0.20250516 (2025-05-16)
+## [4.35.0.20250516](https://pypi.org/project/types-braintree/4.35.0.20250516/) (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## 4.35.0.20250506 (2025-05-06)
+## [4.35.0.20250506](https://pypi.org/project/types-braintree/4.35.0.20250506/) (2025-05-06)
 
-Bump braintree to 4.35.* ([#13914](https://github.com/python/typeshed/pull/13914))
+* Bump braintree to 4.35.* ([#13914](https://github.com/python/typeshed/pull/13914))
 
-## 4.34.0.20250426 (2025-04-26)
+## [4.34.0.20250426](https://pypi.org/project/types-braintree/4.34.0.20250426/) (2025-04-26)
 
-Improve `braintree` ([#13862](https://github.com/python/typeshed/pull/13862))
+* Improve `braintree` ([#13862](https://github.com/python/typeshed/pull/13862))
 
-## 4.34.0.20250308 (2025-03-08)
+## [4.34.0.20250308](https://pypi.org/project/types-braintree/4.34.0.20250308/) (2025-03-08)
 
-Bump braintree to 4.34.* ([#13592](https://github.com/python/typeshed/pull/13592))
+* Bump braintree to 4.34.* ([#13592](https://github.com/python/typeshed/pull/13592))
 
-## 4.33.0.20250219 (2025-02-19)
+## [4.33.0.20250219](https://pypi.org/project/types-braintree/4.33.0.20250219/) (2025-02-19)
 
-Bump braintree to 4.33.* ([#13511](https://github.com/python/typeshed/pull/13511))
+* Bump braintree to 4.33.* ([#13511](https://github.com/python/typeshed/pull/13511))
 
-## 4.32.0.20250123 (2025-01-23)
+## [4.32.0.20250123](https://pypi.org/project/types-braintree/4.32.0.20250123/) (2025-01-23)
 
-[stubsabot] Bump braintree to 4.32.* ([#13423](https://github.com/python/typeshed/pull/13423))
+* Bump braintree to 4.32.* ([#13423](https://github.com/python/typeshed/pull/13423))
 
-## 4.31.0.20241103 (2024-11-03)
+## [4.31.0.20241103](https://pypi.org/project/types-braintree/4.31.0.20241103/) (2024-11-03)
 
-Bump braintree to 4.31.* ([#12934](https://github.com/python/typeshed/pull/12934))
+* Bump braintree to 4.31.* ([#12934](https://github.com/python/typeshed/pull/12934))
 
-## 4.30.0.20240926 (2024-09-26)
+## [4.30.0.20240926](https://pypi.org/project/types-braintree/4.30.0.20240926/) (2024-09-26)
 
-[stubsabot] Bump braintree to 4.30.* ([#12681](https://github.com/python/typeshed/pull/12681))
+* Bump braintree to 4.30.* ([#12681](https://github.com/python/typeshed/pull/12681))
 
-Release: https://pypi.org/pypi/braintree/4.30.0
-Homepage: https://developer.paypal.com/braintree/docs/reference/overview
-Repository: https://github.com/braintree/braintree_python
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/braintree
-Diff: https://github.com/braintree/braintree_python/compare/4.29.0...4.30.0
+    Release: https://pypi.org/pypi/braintree/4.30.0 \
+    Homepage: https://developer.paypal.com/braintree/docs/reference/overview \
+    Repository: https://github.com/braintree/braintree_python \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/braintree \
+    Diff: https://github.com/braintree/braintree_python/compare/4.29.0...4.30.0
 
-Stubsabot analysis of the diff between the two releases:
- - 0 public Python files have been added.
- - 0 files included in typeshed's stubs have been deleted.
- - 4 files included in typeshed's stubs have been modified or renamed: `braintree/error_codes.py`, `braintree/transaction.py`, `braintree/version.py`, `braintree/webhook_testing_gateway.py`.
- - Total lines of Python code added: 317.
- - Total lines of Python code deleted: 278.
+    Stubsabot analysis of the diff between the two releases:
+     - 0 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 4 files included in typeshed's stubs have been modified or renamed: `braintree/error_codes.py`, `braintree/transaction.py`, `braintree/version.py`, `braintree/webhook_testing_gateway.py`.
+     - Total lines of Python code added: 317.
+     - Total lines of Python code deleted: 278.
 
-## 4.29.0.20240725 (2024-07-25)
+## [4.29.0.20240725](https://pypi.org/project/types-braintree/4.29.0.20240725/) (2024-07-25)
 
-Bump braintree to 4.29.* ([#12421](https://github.com/python/typeshed/pull/12421))
+* Bump braintree to 4.29.* ([#12421](https://github.com/python/typeshed/pull/12421))
 
-## 4.28.0.20240405 (2024-04-05)
+## [4.28.0.20240405](https://pypi.org/project/types-braintree/4.28.0.20240405/) (2024-04-05)
 
-Braintree: `PaymentMethodNonce.three_d_secure_info` can be `None` ([#11711](https://github.com/python/typeshed/pull/11711))
+* Braintree: `PaymentMethodNonce.three_d_secure_info` can be `None` ([#11711](https://github.com/python/typeshed/pull/11711))
 
-## 4.28.0.20240402 (2024-04-02)
+## [4.28.0.20240402](https://pypi.org/project/types-braintree/4.28.0.20240402/) (2024-04-02)
 
-braintree: Cleanup overzealous reexports from non `__init__` modules ([#11692](https://github.com/python/typeshed/pull/11692))
+* braintree: Cleanup overzealous reexports from non `__init__` modules ([#11692](https://github.com/python/typeshed/pull/11692))
 
-braintree: Use `Final` for string constants ([#11680](https://github.com/python/typeshed/pull/11680))
+* braintree: Use `Final` for string constants ([#11680](https://github.com/python/typeshed/pull/11680))
 
-braintree: Replace usages of `Any` ([#11679](https://github.com/python/typeshed/pull/11679))
+* braintree: Replace usages of `Any` ([#11679](https://github.com/python/typeshed/pull/11679))
 
-stubtest-complete & Bump braintree to 4.28.* ([#11678](https://github.com/python/typeshed/pull/11678))
+* stubtest-complete & Bump braintree to 4.28.* ([#11678](https://github.com/python/typeshed/pull/11678))
 
-## 4.25.0.20240331 (2024-03-31)
+## [4.25.0.20240331](https://pypi.org/project/types-braintree/4.25.0.20240331/) (2024-03-31)
 
-Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
+* Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
 
-## 4.25.0.20240205 (2024-02-05)
+## [4.25.0.20240205](https://pypi.org/project/types-braintree/4.25.0.20240205/) (2024-02-05)
 
-A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
+* A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
 
-## 4.25.0.0 (2023-12-19)
+## [4.25.0.0](https://pypi.org/project/types-braintree/4.25.0.0/) (2023-12-19)
 
-[stubsabot] Bump braintree to 4.25.* ([#11182](https://github.com/python/typeshed/pull/11182))
+* Bump braintree to 4.25.* ([#11182](https://github.com/python/typeshed/pull/11182))
 
-Release: https://pypi.org/pypi/braintree/4.25.0
-Homepage: https://developer.paypal.com/braintree/docs/reference/overview
-Repository: https://github.com/braintree/braintree_python
-Diff: https://github.com/braintree/braintree_python/compare/4.24.0...4.25.0
+    Release: https://pypi.org/pypi/braintree/4.25.0 \
+    Homepage: https://developer.paypal.com/braintree/docs/reference/overview \
+    Repository: https://github.com/braintree/braintree_python \
+    Diff: https://github.com/braintree/braintree_python/compare/4.24.0...4.25.0
 
-## 4.24.0.0 (2023-11-08)
+## [4.24.0.0](https://pypi.org/project/types-braintree/4.24.0.0/) (2023-11-08)
 
-[stubsabot] Bump braintree to 4.24.* ([#10993](https://github.com/python/typeshed/pull/10993))
+* Bump braintree to 4.24.* ([#10993](https://github.com/python/typeshed/pull/10993))
 
-Release: https://pypi.org/pypi/braintree/4.24.0
-Homepage: https://developer.paypal.com/braintree/docs/reference/overview
-Repository: https://github.com/braintree/braintree_python
-Diff: https://github.com/braintree/braintree_python/compare/4.23.0...4.24.0
+    Release: https://pypi.org/pypi/braintree/4.24.0 \
+    Homepage: https://developer.paypal.com/braintree/docs/reference/overview \
+    Repository: https://github.com/braintree/braintree_python \
+    Diff: https://github.com/braintree/braintree_python/compare/4.23.0...4.24.0
 
-Stubsabot analysis of the diff between the two releases:
- - 4 public Python files have been added: `braintree/meta_checkout_card.py`, `braintree/meta_checkout_token.py`, `tests/unit/test_meta_checkout_card.py`, `tests/unit/test_meta_checkout_token.py`.
- - 0 files included in typeshed's stubs have been deleted.
- - 7 files included in typeshed's stubs have been modified or renamed: `braintree/payment_instrument_type.py`, `braintree/payment_method.py`, `braintree/transaction.py`, `braintree/us_bank_account_verification.py`, `braintree/version.py`, `braintree/webhook_notification.py`, `braintree/webhook_testing_gateway.py`.
- - Total lines of Python code added: 738.
- - Total lines of Python code deleted: 49.
+    Stubsabot analysis of the diff between the two releases:
+     - 4 public Python files have been added: `braintree/meta_checkout_card.py`, `braintree/meta_checkout_token.py`, `tests/unit/test_meta_checkout_card.py`, `tests/unit/test_meta_checkout_token.py`.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 7 files included in typeshed's stubs have been modified or renamed: `braintree/payment_instrument_type.py`, `braintree/payment_method.py`, `braintree/transaction.py`, `braintree/us_bank_account_verification.py`, `braintree/version.py`, `braintree/webhook_notification.py`, `braintree/webhook_testing_gateway.py`.
+     - Total lines of Python code added: 738.
+     - Total lines of Python code deleted: 49.
 
-## 4.23.0.1 (2023-10-19)
+## [4.23.0.1](https://pypi.org/project/types-braintree/4.23.0.1/) (2023-10-19)
 
-Improve stubs for `braintree.environment` ([#10907](https://github.com/python/typeshed/pull/10907))
+* Improve stubs for `braintree.environment` ([#10907](https://github.com/python/typeshed/pull/10907))
 
 ## 4.23.0.0 (2023-10-11)
 

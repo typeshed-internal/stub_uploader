@@ -2,226 +2,226 @@
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
 
-## 312.0.0.20260609 (2026-06-09)
+## [312.0.0.20260609](https://pypi.org/project/types-pywin32/312.0.0.20260609/) (2026-06-09)
 
-Fix type errors in pywin32 using types-pywin32 ([#13844](https://github.com/python/typeshed/pull/13844))
+* Fix type errors in pywin32 using types-pywin32 ([#13844](https://github.com/python/typeshed/pull/13844))
 
-Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
-[pywin32] Update to 312 ([#15871](https://github.com/python/typeshed/pull/15871))
+* Update to 312 ([#15871](https://github.com/python/typeshed/pull/15871))
 
-## 311.0.0.20260521 (2026-05-21)
+## [311.0.0.20260521](https://pypi.org/project/types-pywin32/311.0.0.20260521/) (2026-05-21)
 
-[pywin32] Replace Incomplete win32print types ([#15794](https://github.com/python/typeshed/pull/15794))
+* Replace Incomplete win32print types ([#15794](https://github.com/python/typeshed/pull/15794))
 
-- Add the missing `DEVMODEType` and `DEVMODEWType` types, these are
-  both aliases to the `PyDEVMODEW` class.
-- Merge the `PyDEVMODE` and `PyDEVMODEW` classes, these are the same
-  class in reality.
-- Fix the type of `TimeType.format` to include the default value for
-  the `format` parameter.
-- Audit all the types in the win32print module, replacing all
-`Incomplete` types with an appropriate `TypedDict`, and using overloads
-to reference the correct version of the type.
+    - Add the missing `DEVMODEType` and `DEVMODEWType` types, these are
+      both aliases to the `PyDEVMODEW` class.
+    - Merge the `PyDEVMODE` and `PyDEVMODEW` classes, these are the same
+      class in reality.
+    - Fix the type of `TimeType.format` to include the default value for
+      the `format` parameter.
+    - Audit all the types in the win32print module, replacing all
+    `Incomplete` types with an appropriate `TypedDict`, and using overloads
+    to reference the correct version of the type.
 
-## 311.0.0.20260518 (2026-05-18)
+## [311.0.0.20260518](https://pypi.org/project/types-pywin32/311.0.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 311.0.0.20260508 (2026-05-08)
+## [311.0.0.20260508](https://pypi.org/project/types-pywin32/311.0.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 311.0.0.20260408 (2026-04-08)
+## [311.0.0.20260408](https://pypi.org/project/types-pywin32/311.0.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 311.0.0.20260402 (2026-04-02)
+## [311.0.0.20260402](https://pypi.org/project/types-pywin32/311.0.0.20260402/) (2026-04-02)
 
-Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-## 311.0.0.20260323 (2026-03-23)
+## [311.0.0.20260323](https://pypi.org/project/types-pywin32/311.0.0.20260323/) (2026-03-23)
 
-[pywin32] Improve win32com ([#15527](https://github.com/python/typeshed/pull/15527))
+* Improve win32com ([#15527](https://github.com/python/typeshed/pull/15527))
 
-## 311.0.0.20260317 (2026-03-17)
+## [311.0.0.20260317](https://pypi.org/project/types-pywin32/311.0.0.20260317/) (2026-03-17)
 
-[pywin32] Add parameters for incomplete functions ([#15512](https://github.com/python/typeshed/pull/15512))
+* Add parameters for incomplete functions ([#15512](https://github.com/python/typeshed/pull/15512))
 
-## 311.0.0.20260316 (2026-03-16)
+## [311.0.0.20260316](https://pypi.org/project/types-pywin32/311.0.0.20260316/) (2026-03-16)
 
-[pywin32] Mark stub-only NamedTuples as `@type_check_only` ([#15514](https://github.com/python/typeshed/pull/15514))
+* Mark stub-only NamedTuples as `@type_check_only` ([#15514](https://github.com/python/typeshed/pull/15514))
 
-## 311.0.0.20251008 (2025-10-08)
+## [311.0.0.20251008](https://pypi.org/project/types-pywin32/311.0.0.20251008/) (2025-10-08)
 
-pywin32: fill in the type of win32.win32pipe.GetNamedPipeInfo ([#14846](https://github.com/python/typeshed/pull/14846))
+* pywin32: fill in the type of win32.win32pipe.GetNamedPipeInfo ([#14846](https://github.com/python/typeshed/pull/14846))
 
-## 311.0.0.20250915 (2025-09-15)
+## [311.0.0.20250915](https://pypi.org/project/types-pywin32/311.0.0.20250915/) (2025-09-15)
 
-Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
+* Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
 
-## 311.0.0.20250914 (2025-09-14)
+## [311.0.0.20250914](https://pypi.org/project/types-pywin32/311.0.0.20250914/) (2025-09-14)
 
-Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
+* Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
 
-## 311.0.0.20250822 (2025-08-22)
+## [311.0.0.20250822](https://pypi.org/project/types-pywin32/311.0.0.20250822/) (2025-08-22)
 
-Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+* Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
 
-## 311.0.0.20250809 (2025-08-09)
+## [311.0.0.20250809](https://pypi.org/project/types-pywin32/311.0.0.20250809/) (2025-08-09)
 
-Fix dunder-method positional-only parameter discrepancies in third-party stubs ([#14529](https://github.com/python/typeshed/pull/14529))
+* Fix dunder-method positional-only parameter discrepancies in third-party stubs ([#14529](https://github.com/python/typeshed/pull/14529))
 
-## 311.0.0.20250801 (2025-08-01)
+## [311.0.0.20250801](https://pypi.org/project/types-pywin32/311.0.0.20250801/) (2025-08-01)
 
-Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
+* Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
-Co-authored-by: Avasam <samuel.06@hotmail.com>
-Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com> \
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
-## 311.0.0.20250731 (2025-07-31)
+## [311.0.0.20250731](https://pypi.org/project/types-pywin32/311.0.0.20250731/) (2025-07-31)
 
-Type stub for `win32com.server` ([#14492](https://github.com/python/typeshed/pull/14492))
+* Type stub for `win32com.server` ([#14492](https://github.com/python/typeshed/pull/14492))
 
-## 311.0.0.20250728 (2025-07-28)
+## [311.0.0.20250728](https://pypi.org/project/types-pywin32/311.0.0.20250728/) (2025-07-28)
 
-[pywin32] Update `LookupAccountSid` to accept `None` for `systemName` ([#14484](https://github.com/python/typeshed/pull/14484))
+* Update `LookupAccountSid` to accept `None` for `systemName` ([#14484](https://github.com/python/typeshed/pull/14484))
 
-## 311.0.0.20250723 (2025-07-23)
+## [311.0.0.20250723](https://pypi.org/project/types-pywin32/311.0.0.20250723/) (2025-07-23)
 
-Bump pywin32 to 311.* ([#14437](https://github.com/python/typeshed/pull/14437))
+* Bump pywin32 to 311.* ([#14437](https://github.com/python/typeshed/pull/14437))
 
-## 310.0.0.20250516 (2025-05-16)
+## [310.0.0.20250516](https://pypi.org/project/types-pywin32/310.0.0.20250516/) (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## 310.0.0.20250429 (2025-04-29)
+## [310.0.0.20250429](https://pypi.org/project/types-pywin32/310.0.0.20250429/) (2025-04-29)
 
-Improve `pywin32.isapi` ([#13889](https://github.com/python/typeshed/pull/13889))
+* Improve `pywin32.isapi` ([#13889](https://github.com/python/typeshed/pull/13889))
 
-## 310.0.0.20250428 (2025-04-28)
+## [310.0.0.20250428](https://pypi.org/project/types-pywin32/310.0.0.20250428/) (2025-04-28)
 
-Fix return type of win32wnet.WNetOpenEnum ([#13890](https://github.com/python/typeshed/pull/13890))
+* Fix return type of win32wnet.WNetOpenEnum ([#13890](https://github.com/python/typeshed/pull/13890))
 
-## 310.0.0.20250426 (2025-04-26)
+## [310.0.0.20250426](https://pypi.org/project/types-pywin32/310.0.0.20250426/) (2025-04-26)
 
-pywin32: Fix various arguments ([#13846](https://github.com/python/typeshed/pull/13846))
+* pywin32: Fix various arguments ([#13846](https://github.com/python/typeshed/pull/13846))
 
-## 310.0.0.20250319 (2025-03-19)
+## [310.0.0.20250319](https://pypi.org/project/types-pywin32/310.0.0.20250319/) (2025-03-19)
 
-Bump pywin32 to 310.* ([#13667](https://github.com/python/typeshed/pull/13667))
+* Bump pywin32 to 310.* ([#13667](https://github.com/python/typeshed/pull/13667))
 
-## 309.0.0.20250311 (2025-03-11)
+## [309.0.0.20250311](https://pypi.org/project/types-pywin32/309.0.0.20250311/) (2025-03-11)
 
-Bump pywin32 to 309 ([#13607](https://github.com/python/typeshed/pull/13607))
+* Bump pywin32 to 309 ([#13607](https://github.com/python/typeshed/pull/13607))
 
-## 308.0.0.20250128 (2025-01-28)
+## [308.0.0.20250128](https://pypi.org/project/types-pywin32/308.0.0.20250128/) (2025-01-28)
 
-Have `win32gui.SystemParametersInfo` return `Any` ([#13438](https://github.com/python/typeshed/pull/13438))
+* Have `win32gui.SystemParametersInfo` return `Any` ([#13438](https://github.com/python/typeshed/pull/13438))
 
-## 308.0.0.20250124 (2025-01-24)
+## [308.0.0.20250124](https://pypi.org/project/types-pywin32/308.0.0.20250124/) (2025-01-24)
 
-pywin32: type `Get*` functions in win32api ([#13430](https://github.com/python/typeshed/pull/13430))
+* pywin32: type `Get*` functions in win32api ([#13430](https://github.com/python/typeshed/pull/13430))
 
-## 308.0.0.20241221 (2024-12-21)
+## [308.0.0.20241221](https://pypi.org/project/types-pywin32/308.0.0.20241221/) (2024-12-21)
 
-Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
-## 308.0.0.20241128 (2024-11-28)
+## [308.0.0.20241128](https://pypi.org/project/types-pywin32/308.0.0.20241128/) (2024-11-28)
 
-Add pywin32's isapi.install ([#13119](https://github.com/python/typeshed/pull/13119))
+* Add pywin32's isapi.install ([#13119](https://github.com/python/typeshed/pull/13119))
 
-## 308.0.0.20241121 (2024-11-21)
+## [308.0.0.20241121](https://pypi.org/project/types-pywin32/308.0.0.20241121/) (2024-11-21)
 
-Fix pywin32 GetClipboardData return type ([#13046](https://github.com/python/typeshed/pull/13046))
+* Fix pywin32 GetClipboardData return type ([#13046](https://github.com/python/typeshed/pull/13046))
 
-Fixes #12825
+    Fixes #12825
 
-## 308.0.0.20241029 (2024-10-29)
+## [308.0.0.20241029](https://pypi.org/project/types-pywin32/308.0.0.20241029/) (2024-10-29)
 
-Add `win32com.gen_py` ([#12901](https://github.com/python/typeshed/pull/12901))
+* Add `win32com.gen_py` ([#12901](https://github.com/python/typeshed/pull/12901))
 
-## 308.0.0.20241025 (2024-10-25)
+## [308.0.0.20241025](https://pypi.org/project/types-pywin32/308.0.0.20241025/) (2024-10-25)
 
-Allow pywin32 to use `pywin.mfc.DocTemplate` in lieu of `PyCDocTemplate` ([#12888](https://github.com/python/typeshed/pull/12888))
+* Allow pywin32 to use `pywin.mfc.DocTemplate` in lieu of `PyCDocTemplate` ([#12888](https://github.com/python/typeshed/pull/12888))
 
-## 308.0.0.20241015 (2024-10-15)
+## [308.0.0.20241015](https://pypi.org/project/types-pywin32/308.0.0.20241015/) (2024-10-15)
 
-Bump pywin32 to 308.* ([#12799](https://github.com/python/typeshed/pull/12799))
+* Bump pywin32 to 308.* ([#12799](https://github.com/python/typeshed/pull/12799))
 
-## 307.0.0.20241009 (2024-10-09)
+## [307.0.0.20241009](https://pypi.org/project/types-pywin32/307.0.0.20241009/) (2024-10-09)
 
-Bump pywin32 to 307 ([#12742](https://github.com/python/typeshed/pull/12742))
+* Bump pywin32 to 307 ([#12742](https://github.com/python/typeshed/pull/12742))
 
-## 306.0.0.20240822 (2024-08-22)
+## [306.0.0.20240822](https://pypi.org/project/types-pywin32/306.0.0.20240822/) (2024-08-22)
 
-Using precise code for `pyright: ignore` and re-enabling various pyright tests ([#12576](https://github.com/python/typeshed/pull/12576))
+* Using precise code for `pyright: ignore` and re-enabling various pyright tests ([#12576](https://github.com/python/typeshed/pull/12576))
 
-## 306.0.0.20240806 (2024-08-06)
+## [306.0.0.20240806](https://pypi.org/project/types-pywin32/306.0.0.20240806/) (2024-08-06)
 
-Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
+* Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
 
-## 306.0.0.20240408 (2024-04-08)
+## [306.0.0.20240408](https://pypi.org/project/types-pywin32/306.0.0.20240408/) (2024-04-08)
 
-pywin32: Improve SHGetPropertyStoreFromParsingName type definition ([#11654](https://github.com/python/typeshed/pull/11654))
+* pywin32: Improve SHGetPropertyStoreFromParsingName type definition ([#11654](https://github.com/python/typeshed/pull/11654))
 
-Improve SHGetPropertyStoreFromParsingName type definition
+    Improve SHGetPropertyStoreFromParsingName type definition
 
-## 306.0.0.20240331 (2024-03-31)
+## [306.0.0.20240331](https://pypi.org/project/types-pywin32/306.0.0.20240331/) (2024-03-31)
 
-Various pywin32 improvements ([#11616](https://github.com/python/typeshed/pull/11616))
+* Various pywin32 improvements ([#11616](https://github.com/python/typeshed/pull/11616))
 
-## 306.0.0.20240319 (2024-03-19)
+## [306.0.0.20240319](https://pypi.org/project/types-pywin32/306.0.0.20240319/) (2024-03-19)
 
-Improved pywin32 error and exception classes ([#11613](https://github.com/python/typeshed/pull/11613))
+* Improved pywin32 error and exception classes ([#11613](https://github.com/python/typeshed/pull/11613))
 
-## 306.0.0.20240313 (2024-03-13)
+## [306.0.0.20240313](https://pypi.org/project/types-pywin32/306.0.0.20240313/) (2024-03-13)
 
-`pywin32`: Correctly reference `TimeType` aka `pywintypes.datetime` ([#11577](https://github.com/python/typeshed/pull/11577))
+* `pywin32`: Correctly reference `TimeType` aka `pywintypes.datetime` ([#11577](https://github.com/python/typeshed/pull/11577))
 
-* Correctly reference TimeType
+    * Correctly reference TimeType
 
-* PyUnicode is UnicodeType
+    * PyUnicode is UnicodeType
 
-## 306.0.0.20240312 (2024-03-12)
+## [306.0.0.20240312](https://pypi.org/project/types-pywin32/306.0.0.20240312/) (2024-03-12)
 
-Add deprecation decorator and comments for pywin32 ([#11570](https://github.com/python/typeshed/pull/11570))
+* Add deprecation decorator and comments for pywin32 ([#11570](https://github.com/python/typeshed/pull/11570))
 
-Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
-## 306.0.0.20240310 (2024-03-10)
+## [306.0.0.20240310](https://pypi.org/project/types-pywin32/306.0.0.20240310/) (2024-03-10)
 
-Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
+* Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
 
-Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## 306.0.0.20240130 (2024-01-30)
+## [306.0.0.20240130](https://pypi.org/project/types-pywin32/306.0.0.20240130/) (2024-01-30)
 
-pywin32: Remove reference to stubgen dll analysis issue ([#11323](https://github.com/python/typeshed/pull/11323))
+* pywin32: Remove reference to stubgen dll analysis issue ([#11323](https://github.com/python/typeshed/pull/11323))
 
-## 306.0.0.20240128 (2024-01-28)
+## [306.0.0.20240128](https://pypi.org/project/types-pywin32/306.0.0.20240128/) (2024-01-28)
 
-pywin32: Use PEP 570 positional-only argument syntax and fix arguments ([#11321](https://github.com/python/typeshed/pull/11321))
+* pywin32: Use PEP 570 positional-only argument syntax and fix arguments ([#11321](https://github.com/python/typeshed/pull/11321))
 
-## 306.0.0.20240106 (2024-01-06)
+## [306.0.0.20240106](https://pypi.org/project/types-pywin32/306.0.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## 306.0.0.8 (2023-12-19)
+## [306.0.0.8](https://pypi.org/project/types-pywin32/306.0.0.8/) (2023-12-19)
 
-pywin32 annotations improvements ([#11177](https://github.com/python/typeshed/pull/11177))
+* pywin32 annotations improvements ([#11177](https://github.com/python/typeshed/pull/11177))
 
-## 306.0.0.7 (2023-12-08)
+## [306.0.0.7](https://pypi.org/project/types-pywin32/306.0.0.7/) (2023-12-08)
 
-Fix `pywin32`'s `PyCBitmap.GetBitmapBits` method ([#11108](https://github.com/python/typeshed/pull/11108))
+* Fix `pywin32`'s `PyCBitmap.GetBitmapBits` method ([#11108](https://github.com/python/typeshed/pull/11108))
 
-## 306.0.0.6 (2023-10-29)
+## [306.0.0.6](https://pypi.org/project/types-pywin32/306.0.0.6/) (2023-10-29)
 
-Type `pywin32`'s `win32.win32print.StartDocPrinter` method ([#10898](https://github.com/python/typeshed/pull/10898))
+* Type `pywin32`'s `win32.win32print.StartDocPrinter` method ([#10898](https://github.com/python/typeshed/pull/10898))
 
-Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
 ## 306.0.0.5 (2023-10-15)
 

@@ -1,38 +1,38 @@
-## 3.3.0.20260508 (2026-05-08)
+## [3.3.0.20260508](https://pypi.org/project/types-ttkthemes/3.3.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 3.3.0.20260408 (2026-04-08)
+## [3.3.0.20260408](https://pypi.org/project/types-ttkthemes/3.3.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 3.3.0.20260402 (2026-04-02)
+## [3.3.0.20260402](https://pypi.org/project/types-ttkthemes/3.3.0.20260402/) (2026-04-02)
 
-Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+* Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
 
-## 3.3.0.20260130 (2026-01-30)
+## [3.3.0.20260130](https://pypi.org/project/types-ttkthemes/3.3.0.20260130/) (2026-01-30)
 
-Update outdated upstream_repository fields ([#15334](https://github.com/python/typeshed/pull/15334))
+* Update outdated upstream_repository fields ([#15334](https://github.com/python/typeshed/pull/15334))
 
-## 3.3.0.20251111 (2025-11-11)
+## [3.3.0.20251111](https://pypi.org/project/types-ttkthemes/3.3.0.20251111/) (2025-11-11)
 
-[ttkthemes] Update to 3.3.* ([#15009](https://github.com/python/typeshed/pull/15009))
+* Update to 3.3.* ([#15009](https://github.com/python/typeshed/pull/15009))
 
-## 3.2.4.20250927 (2025-09-27)
+## [3.2.4.20250927](https://pypi.org/project/types-ttkthemes/3.2.4.20250927/) (2025-09-27)
 
-[tkinter] Remove _ScreenUnits alias ([#14782](https://github.com/python/typeshed/pull/14782))
+* Remove _ScreenUnits alias ([#14782](https://github.com/python/typeshed/pull/14782))
 
-Inspired by https://github.com/python/typeshed/pull/14742#pullrequestreview-3241268005
+    Inspired by https://github.com/python/typeshed/pull/14742#pullrequestreview-3241268005
 
-## 3.2.4.20250924 (2025-09-24)
+## [3.2.4.20250924](https://pypi.org/project/types-ttkthemes/3.2.4.20250924/) (2025-09-24)
 
-[tkinter] Remove a few type aliases ([#14742](https://github.com/python/typeshed/pull/14742))
+* Remove a few type aliases ([#14742](https://github.com/python/typeshed/pull/14742))
 
-## 3.2.4.20250426 (2025-04-26)
+## [3.2.4.20250426](https://pypi.org/project/types-ttkthemes/3.2.4.20250426/) (2025-04-26)
 
-Complete `ttkthemes` ([#13858](https://github.com/python/typeshed/pull/13858))
+* Complete `ttkthemes` ([#13858](https://github.com/python/typeshed/pull/13858))
 
 ## 3.2.4.6 (2023-07-20)
 

@@ -6,379 +6,379 @@
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
 
-## 3.6.1.20260624 (2026-06-24)
+## [3.6.1.20260624](https://pypi.org/project/types-networkx/3.6.1.20260624/) (2026-06-24)
 
-[networkx] Fix regression tests ([#15932](https://github.com/python/typeshed/pull/15932))
+* Fix regression tests ([#15932](https://github.com/python/typeshed/pull/15932))
 
-The latest numpy release uses `type` statements, which were introduced
-in Python 3.12. Therefore, we can't run the regression tests with
-Python 3.10 and 3.11.
+    The latest numpy release uses `type` statements, which were introduced
+    in Python 3.12. Therefore, we can't run the regression tests with
+    Python 3.10 and 3.11.
 
-## 3.6.1.20260612 (2026-06-12)
+## [3.6.1.20260612](https://pypi.org/project/types-networkx/3.6.1.20260612/) (2026-06-12)
 
-[networkx] Fix type hints for networkx birank personalization parameters ([#15889](https://github.com/python/typeshed/pull/15889))
+* Fix type hints for networkx birank personalization parameters ([#15889](https://github.com/python/typeshed/pull/15889))
 
-## 3.6.1.20260518 (2026-05-18)
+## [3.6.1.20260518](https://pypi.org/project/types-networkx/3.6.1.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 3.6.1.20260513 (2026-05-13)
+## [3.6.1.20260513](https://pypi.org/project/types-networkx/3.6.1.20260513/) (2026-05-13)
 
-[networkx] Fully type communicability(_alg) ([#15781](https://github.com/python/typeshed/pull/15781))
+* Fully type communicability(_alg) ([#15781](https://github.com/python/typeshed/pull/15781))
 
-## 3.6.1.20260512 (2026-05-12)
+## [3.6.1.20260512](https://pypi.org/project/types-networkx/3.6.1.20260512/) (2026-05-12)
 
-[networkx] Add generic type for node and edge data ([#15660](https://github.com/python/typeshed/pull/15660))
+* Add generic type for node and edge data ([#15660](https://github.com/python/typeshed/pull/15660))
 
-## 3.6.1.20260508 (2026-05-08)
+## [3.6.1.20260508](https://pypi.org/project/types-networkx/3.6.1.20260508/) (2026-05-08)
 
-Drop 3.9 support for third-party packages ([#15707](https://github.com/python/typeshed/pull/15707))
+* Drop 3.9 support for third-party packages ([#15707](https://github.com/python/typeshed/pull/15707))
 
-Inline some unnecessary type aliases
+    Inline some unnecessary type aliases
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 3.6.1.20260408 (2026-04-08)
+## [3.6.1.20260408](https://pypi.org/project/types-networkx/3.6.1.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 3.6.1.20260402 (2026-04-02)
+## [3.6.1.20260402](https://pypi.org/project/types-networkx/3.6.1.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-## 3.6.1.20260321 (2026-03-21)
+## [3.6.1.20260321](https://pypi.org/project/types-networkx/3.6.1.20260321/) (2026-03-21)
 
-[networkx] Enhance annotation for Networkx.Graph.add_weighted_edges_from ([#15528](https://github.com/python/typeshed/pull/15528))
+* Enhance annotation for Networkx.Graph.add_weighted_edges_from ([#15528](https://github.com/python/typeshed/pull/15528))
 
-## 3.6.1.20260303 (2026-03-03)
+## [3.6.1.20260303](https://pypi.org/project/types-networkx/3.6.1.20260303/) (2026-03-03)
 
-[networkx] Graph/MultiGraph inherited methods return Self ([#15453](https://github.com/python/typeshed/pull/15453))
+* Graph/MultiGraph inherited methods return Self ([#15453](https://github.com/python/typeshed/pull/15453))
 
-## 3.6.1.20260210 (2026-02-10)
+## [3.6.1.20260210](https://pypi.org/project/types-networkx/3.6.1.20260210/) (2026-02-10)
 
-Officially remove Python 3.9 support ([#15360](https://github.com/python/typeshed/pull/15360))
+* Officially remove Python 3.9 support ([#15360](https://github.com/python/typeshed/pull/15360))
 
-## 3.6.1.20251220 (2025-12-20)
+## [3.6.1.20251220](https://pypi.org/project/types-networkx/3.6.1.20251220/) (2025-12-20)
 
-[networkx] Update usages of `SupportsGetItem` that should be more restrictive ([#14795](https://github.com/python/typeshed/pull/14795))
+* Update usages of `SupportsGetItem` that should be more restrictive ([#14795](https://github.com/python/typeshed/pull/14795))
 
-## 3.6.1.20251212 (2025-12-12)
+## [3.6.1.20251212](https://pypi.org/project/types-networkx/3.6.1.20251212/) (2025-12-12)
 
-[networkx] add stubs for `networkx.utils.union_find.UnionFind` ([#15126](https://github.com/python/typeshed/pull/15126))
+* add stubs for `networkx.utils.union_find.UnionFind` ([#15126](https://github.com/python/typeshed/pull/15126))
 
-## 3.6.1.20251210 (2025-12-10)
+## [3.6.1.20251210](https://pypi.org/project/types-networkx/3.6.1.20251210/) (2025-12-10)
 
-[networkx] Update to 3.6.1 ([#15123](https://github.com/python/typeshed/pull/15123))
+* Update to 3.6.1 ([#15123](https://github.com/python/typeshed/pull/15123))
 
-## 3.6.0.20251127 (2025-11-27)
+## [3.6.0.20251127](https://pypi.org/project/types-networkx/3.6.0.20251127/) (2025-11-27)
 
-[networkx] Update to 3.6 ([#15086](https://github.com/python/typeshed/pull/15086))
+* Update to 3.6 ([#15086](https://github.com/python/typeshed/pull/15086))
 
-## 3.5.0.20251106 (2025-11-06)
+## [3.5.0.20251106](https://pypi.org/project/types-networkx/3.5.0.20251106/) (2025-11-06)
 
-Add annotations to `networkx.algorithms.approximation.treewidth` ([#14983](https://github.com/python/typeshed/pull/14983))
+* Add annotations to `networkx.algorithms.approximation.treewidth` ([#14983](https://github.com/python/typeshed/pull/14983))
 
-networkx: fix link argument deprecation warning ([#14982](https://github.com/python/typeshed/pull/14982))
+* networkx: fix link argument deprecation warning ([#14982](https://github.com/python/typeshed/pull/14982))
 
-## 3.5.0.20251104 (2025-11-04)
+## [3.5.0.20251104](https://pypi.org/project/types-networkx/3.5.0.20251104/) (2025-11-04)
 
-Merge networkx Graph classes from python-type-stubs and address a few recent issues ([#14597](https://github.com/python/typeshed/pull/14597))
+* Merge networkx Graph classes from python-type-stubs and address a few recent issues ([#14597](https://github.com/python/typeshed/pull/14597))
 
-## 3.5.0.20251001 (2025-10-01)
+## [3.5.0.20251001](https://pypi.org/project/types-networkx/3.5.0.20251001/) (2025-10-01)
 
-networkx: Add type annotation to all `G` params ([#14796](https://github.com/python/typeshed/pull/14796))
+* networkx: Add type annotation to all `G` params ([#14796](https://github.com/python/typeshed/pull/14796))
 
-## 3.5.0.20250918 (2025-09-18)
+## [3.5.0.20250918](https://pypi.org/project/types-networkx/3.5.0.20250918/) (2025-09-18)
 
-Fix regression in DiDegreeView ([#14732](https://github.com/python/typeshed/pull/14732))
+* Fix regression in DiDegreeView ([#14732](https://github.com/python/typeshed/pull/14732))
 
-## 3.5.0.20250914 (2025-09-14)
+## [3.5.0.20250914](https://pypi.org/project/types-networkx/3.5.0.20250914/) (2025-09-14)
 
-Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
+* Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
 
-## 3.5.0.20250901 (2025-09-01)
+## [3.5.0.20250901](https://pypi.org/project/types-networkx/3.5.0.20250901/) (2025-09-01)
 
-networkx: Fix incompletes in connectivity/connectivity ([#14661](https://github.com/python/typeshed/pull/14661))
+* networkx: Fix incompletes in connectivity/connectivity ([#14661](https://github.com/python/typeshed/pull/14661))
 
-networkx: Update approximation/connectivity.pyi ([#14662](https://github.com/python/typeshed/pull/14662))
+* networkx: Update approximation/connectivity.pyi ([#14662](https://github.com/python/typeshed/pull/14662))
 
-## 3.5.0.20250830 (2025-08-30)
+## [3.5.0.20250830](https://pypi.org/project/types-networkx/3.5.0.20250830/) (2025-08-30)
 
-networkx: Add return types to algorithms/approximation/clique.pyi ([#14660](https://github.com/python/typeshed/pull/14660))
+* networkx: Add return types to algorithms/approximation/clique.pyi ([#14660](https://github.com/python/typeshed/pull/14660))
 
-## 3.5.0.20250829 (2025-08-29)
+## [3.5.0.20250829](https://pypi.org/project/types-networkx/3.5.0.20250829/) (2025-08-29)
 
-networkx: Add all_simple_path target typing in simple_paths.pyi ([#14656](https://github.com/python/typeshed/pull/14656))
+* networkx: Add all_simple_path target typing in simple_paths.pyi ([#14656](https://github.com/python/typeshed/pull/14656))
 
-Adds typing for the target argument of all_simple_paths and all_simple_edge_paths, which per the documentation take either a single node or an iterable of nodes.
+    Adds typing for the target argument of all_simple_paths and all_simple_edge_paths, which per the documentation take either a single node or an iterable of nodes.
 
-## 3.5.0.20250827 (2025-08-27)
+## [3.5.0.20250827](https://pypi.org/project/types-networkx/3.5.0.20250827/) (2025-08-27)
 
-networkx: complete the link_analysis algorithms module ([#14627](https://github.com/python/typeshed/pull/14627))
+* networkx: complete the link_analysis algorithms module ([#14627](https://github.com/python/typeshed/pull/14627))
 
-networkx: (almost) complete the traversal algorithms module ([#14628](https://github.com/python/typeshed/pull/14628))
+* networkx: (almost) complete the traversal algorithms module ([#14628](https://github.com/python/typeshed/pull/14628))
 
-## 3.5.0.20250823 (2025-08-23)
+## [3.5.0.20250823](https://pypi.org/project/types-networkx/3.5.0.20250823/) (2025-08-23)
 
-fix up some C signatures ([#14624](https://github.com/python/typeshed/pull/14624))
+* fix up some C signatures ([#14624](https://github.com/python/typeshed/pull/14624))
 
-a few issues exposed after https://github.com/python/mypy/pull/18259 was merged
+    a few issues exposed after https://github.com/python/mypy/pull/18259 was merged
 
-networkx: fix and complete functions related to the dot interface ([#14600](https://github.com/python/typeshed/pull/14600))
+* networkx: fix and complete functions related to the dot interface ([#14600](https://github.com/python/typeshed/pull/14600))
 
-## 3.5.0.20250822 (2025-08-22)
+## [3.5.0.20250822](https://pypi.org/project/types-networkx/3.5.0.20250822/) (2025-08-22)
 
-Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+* Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
 
-## 3.5.0.20250821 (2025-08-21)
+## [3.5.0.20250821](https://pypi.org/project/types-networkx/3.5.0.20250821/) (2025-08-21)
 
-networkx Final and Literal from python-type-stubs ([#14601](https://github.com/python/typeshed/pull/14601))
+* networkx Final and Literal from python-type-stubs ([#14601](https://github.com/python/typeshed/pull/14601))
 
-Correct type annotations on NetworkX DiGraphs ([#14595](https://github.com/python/typeshed/pull/14595))
+* Correct type annotations on NetworkX DiGraphs ([#14595](https://github.com/python/typeshed/pull/14595))
 
-Add detailed stubs for networkx.drawing.nx_pydot ([#14594](https://github.com/python/typeshed/pull/14594))
+* Add detailed stubs for networkx.drawing.nx_pydot ([#14594](https://github.com/python/typeshed/pull/14594))
 
-networkx: complete the nx_latex module ([#14581](https://github.com/python/typeshed/pull/14581))
+* networkx: complete the nx_latex module ([#14581](https://github.com/python/typeshed/pull/14581))
 
-## 3.5.0.20250819 (2025-08-19)
+## [3.5.0.20250819](https://pypi.org/project/types-networkx/3.5.0.20250819/) (2025-08-19)
 
-networkx: complete the layout module ([#14580](https://github.com/python/typeshed/pull/14580))
+* networkx: complete the layout module ([#14580](https://github.com/python/typeshed/pull/14580))
 
-networkx: (almost) complete the nx_pylab module ([#14579](https://github.com/python/typeshed/pull/14579))
+* networkx: (almost) complete the nx_pylab module ([#14579](https://github.com/python/typeshed/pull/14579))
 
-## 3.5.0.20250816 (2025-08-16)
+## [3.5.0.20250816](https://pypi.org/project/types-networkx/3.5.0.20250816/) (2025-08-16)
 
-complete  networkx/digraph.pyi addresses #14499 follows #14509 ([#14569](https://github.com/python/typeshed/pull/14569))
+* complete  networkx/digraph.pyi addresses #14499 follows #14509 ([#14569](https://github.com/python/typeshed/pull/14569))
 
-## 3.5.0.20250812 (2025-08-12)
+## [3.5.0.20250812](https://pypi.org/project/types-networkx/3.5.0.20250812/) (2025-08-12)
 
-networkx: annotate the linalg module ([#14551](https://github.com/python/typeshed/pull/14551))
+* networkx: annotate the linalg module ([#14551](https://github.com/python/typeshed/pull/14551))
 
-networkx: improve the multigraph module ([#14506](https://github.com/python/typeshed/pull/14506))
+* networkx: improve the multigraph module ([#14506](https://github.com/python/typeshed/pull/14506))
 
-networkx: complete the astar and generic modules in shortest_paths ([#14550](https://github.com/python/typeshed/pull/14550))
+* networkx: complete the astar and generic modules in shortest_paths ([#14550](https://github.com/python/typeshed/pull/14550))
 
-networkx: improve the nx_agraph module ([#14554](https://github.com/python/typeshed/pull/14554))
+* networkx: improve the nx_agraph module ([#14554](https://github.com/python/typeshed/pull/14554))
 
-## 3.5.0.20250809 (2025-08-09)
+## [3.5.0.20250809](https://pypi.org/project/types-networkx/3.5.0.20250809/) (2025-08-09)
 
-networkx: complete the components module ([#14507](https://github.com/python/typeshed/pull/14507))
+* networkx: complete the components module ([#14507](https://github.com/python/typeshed/pull/14507))
 
-networkx: improve the shortest_paths.weighted module ([#14508](https://github.com/python/typeshed/pull/14508))
+* networkx: improve the shortest_paths.weighted module ([#14508](https://github.com/python/typeshed/pull/14508))
 
-Complete networkx/graph.pyi. #14499 ([#14509](https://github.com/python/typeshed/pull/14509))
+* Complete networkx/graph.pyi. #14499 ([#14509](https://github.com/python/typeshed/pull/14509))
 
-## 3.5.0.20250728 (2025-07-28)
+## [3.5.0.20250728](https://pypi.org/project/types-networkx/3.5.0.20250728/) (2025-07-28)
 
-Remove pytype workarounds from third-party stubs ([#14471](https://github.com/python/typeshed/pull/14471))
+* Remove pytype workarounds from third-party stubs ([#14471](https://github.com/python/typeshed/pull/14471))
 
-## 3.5.0.20250727 (2025-07-27)
+## [3.5.0.20250727](https://pypi.org/project/types-networkx/3.5.0.20250727/) (2025-07-27)
 
-networkx: improve the cycles module ([#14459](https://github.com/python/typeshed/pull/14459))
+* networkx: improve the cycles module ([#14459](https://github.com/python/typeshed/pull/14459))
 
-networkx: improve the distance_measures module ([#14461](https://github.com/python/typeshed/pull/14461))
+* networkx: improve the distance_measures module ([#14461](https://github.com/python/typeshed/pull/14461))
 
-## 3.5.0.20250712 (2025-07-12)
+## [3.5.0.20250712](https://pypi.org/project/types-networkx/3.5.0.20250712/) (2025-07-12)
 
-Correct type hints for networkx/algorithms/flow/mincost.pyi ([#14395](https://github.com/python/typeshed/pull/14395))
+* Correct type hints for networkx/algorithms/flow/mincost.pyi ([#14395](https://github.com/python/typeshed/pull/14395))
 
-## 3.5.0.20250709 (2025-07-09)
+## [3.5.0.20250709](https://pypi.org/project/types-networkx/3.5.0.20250709/) (2025-07-09)
 
-networkx: All return types from python-type-stubs ([#14256](https://github.com/python/typeshed/pull/14256))
+* networkx: All return types from python-type-stubs ([#14256](https://github.com/python/typeshed/pull/14256))
 
-## 3.5.0.20250701 (2025-07-01)
+## [3.5.0.20250701](https://pypi.org/project/types-networkx/3.5.0.20250701/) (2025-07-01)
 
-[networkx] completed type annotation for `equivalence_classes` ([#14352](https://github.com/python/typeshed/pull/14352))
+* completed type annotation for `equivalence_classes` ([#14352](https://github.com/python/typeshed/pull/14352))
 
-## 3.5.0.20250610 (2025-06-10)
+## [3.5.0.20250610](https://pypi.org/project/types-networkx/3.5.0.20250610/) (2025-06-10)
 
-[networkx] Correct argument type for from_nested_tuple ([#14218](https://github.com/python/typeshed/pull/14218))
+* Correct argument type for from_nested_tuple ([#14218](https://github.com/python/typeshed/pull/14218))
 
-## 3.5.0.20250531 (2025-05-31)
+## [3.5.0.20250531](https://pypi.org/project/types-networkx/3.5.0.20250531/) (2025-05-31)
 
-Bump networkx to 3.5 ([#14196](https://github.com/python/typeshed/pull/14196))
+* Bump networkx to 3.5 ([#14196](https://github.com/python/typeshed/pull/14196))
 
-## 3.4.2.20250527 (2025-05-27)
+## [3.4.2.20250527](https://pypi.org/project/types-networkx/3.4.2.20250527/) (2025-05-27)
 
-Bump `importlib` to 3.14 ([#14138](https://github.com/python/typeshed/pull/14138))
+* Bump `importlib` to 3.14 ([#14138](https://github.com/python/typeshed/pull/14138))
 
-## 3.4.2.20250523 (2025-05-23)
+## [3.4.2.20250523](https://pypi.org/project/types-networkx/3.4.2.20250523/) (2025-05-23)
 
-networkx: Add symbols from python-type-stubs ([#14084](https://github.com/python/typeshed/pull/14084))
+* networkx: Add symbols from python-type-stubs ([#14084](https://github.com/python/typeshed/pull/14084))
 
-## 3.4.2.20250515 (2025-05-15)
+## [3.4.2.20250515](https://pypi.org/project/types-networkx/3.4.2.20250515/) (2025-05-15)
 
-Update nx_pylab.pyi: allow node_color to be a list of strings as well ([#14057](https://github.com/python/typeshed/pull/14057))
+* Update nx_pylab.pyi: allow node_color to be a list of strings as well ([#14057](https://github.com/python/typeshed/pull/14057))
 
-networkx: type `is_*` and  `has_*` functions ([#14054](https://github.com/python/typeshed/pull/14054))
+* networkx: type `is_*` and  `has_*` functions ([#14054](https://github.com/python/typeshed/pull/14054))
 
-## 3.4.2.20250514 (2025-05-14)
+## [3.4.2.20250514](https://pypi.org/project/types-networkx/3.4.2.20250514/) (2025-05-14)
 
-networkx: consistent `Unknown | None = None` ([#14027](https://github.com/python/typeshed/pull/14027))
+* networkx: consistent `Unknown | None = None` ([#14027](https://github.com/python/typeshed/pull/14027))
 
-## 3.4.2.20250513 (2025-05-13)
+## [3.4.2.20250513](https://pypi.org/project/types-networkx/3.4.2.20250513/) (2025-05-13)
 
-networkx: `ignore_missing_stub = false` ([#13968](https://github.com/python/typeshed/pull/13968))
+* networkx: `ignore_missing_stub = false` ([#13968](https://github.com/python/typeshed/pull/13968))
 
-## 3.4.2.20250509 (2025-05-09)
+## [3.4.2.20250509](https://pypi.org/project/types-networkx/3.4.2.20250509/) (2025-05-09)
 
-networkx: add all missing `__all__` ([#13956](https://github.com/python/typeshed/pull/13956))
+* networkx: add all missing `__all__` ([#13956](https://github.com/python/typeshed/pull/13956))
 
-## 3.4.2.20250507 (2025-05-07)
+## [3.4.2.20250507](https://pypi.org/project/types-networkx/3.4.2.20250507/) (2025-05-07)
 
-networkx: Most nodelist params are collections ([#13945](https://github.com/python/typeshed/pull/13945))
+* networkx: Most nodelist params are collections ([#13945](https://github.com/python/typeshed/pull/13945))
 
-## 3.4.2.20250426 (2025-04-26)
+## [3.4.2.20250426](https://pypi.org/project/types-networkx/3.4.2.20250426/) (2025-04-26)
 
-Fix generics in NetworkX ([#13864](https://github.com/python/typeshed/pull/13864))
+* Fix generics in NetworkX ([#13864](https://github.com/python/typeshed/pull/13864))
 
-## 3.4.2.20250319 (2025-03-19)
+## [3.4.2.20250319](https://pypi.org/project/types-networkx/3.4.2.20250319/) (2025-03-19)
 
-[networkx] Fix a few annotations in AtlasView and Graph ([#13656](https://github.com/python/typeshed/pull/13656))
+* Fix a few annotations in AtlasView and Graph ([#13656](https://github.com/python/typeshed/pull/13656))
 
-## 3.4.2.20250312 (2025-03-12)
+## [3.4.2.20250312](https://pypi.org/project/types-networkx/3.4.2.20250312/) (2025-03-12)
 
-[networkx] Fix argument type of node_connected_component ([#13612](https://github.com/python/typeshed/pull/13612))
+* Fix argument type of node_connected_component ([#13612](https://github.com/python/typeshed/pull/13612))
 
-## 3.4.2.20250304 (2025-03-04)
+## [3.4.2.20250304](https://pypi.org/project/types-networkx/3.4.2.20250304/) (2025-03-04)
 
-Add edges() override in MultiGraph to support the "keys" argument ([#13567](https://github.com/python/typeshed/pull/13567))
+* Add edges() override in MultiGraph to support the "keys" argument ([#13567](https://github.com/python/typeshed/pull/13567))
 
-Enable Ruff PLC (Pylint Convention) ([#13306](https://github.com/python/typeshed/pull/13306))
+* Enable Ruff PLC (Pylint Convention) ([#13306](https://github.com/python/typeshed/pull/13306))
 
-## 3.4.2.20250227 (2025-02-27)
+## [3.4.2.20250227](https://pypi.org/project/types-networkx/3.4.2.20250227/) (2025-02-27)
 
-[networkx] Add annotations for `MultiDiGraph` ([#13319](https://github.com/python/typeshed/pull/13319))
+* Add annotations for `MultiDiGraph` ([#13319](https://github.com/python/typeshed/pull/13319))
 
-Extract NetworkX types from docstrings ([#13458](https://github.com/python/typeshed/pull/13458))
+* Extract NetworkX types from docstrings ([#13458](https://github.com/python/typeshed/pull/13458))
 
-## 3.4.2.20241227 (2024-12-27)
+## [3.4.2.20241227](https://pypi.org/project/types-networkx/3.4.2.20241227/) (2024-12-27)
 
-Enable Ruff PGH rules ([#13304](https://github.com/python/typeshed/pull/13304))
+* Enable Ruff PGH rules ([#13304](https://github.com/python/typeshed/pull/13304))
 
-## 3.4.2.20241115 (2024-11-15)
+## [3.4.2.20241115](https://pypi.org/project/types-networkx/3.4.2.20241115/) (2024-11-15)
 
-Update networkx stubs for 3.4.2 ([#13001](https://github.com/python/typeshed/pull/13001))
+* Update networkx stubs for 3.4.2 ([#13001](https://github.com/python/typeshed/pull/13001))
 
-## 3.3.0.20241112 (2024-11-12)
+## [3.3.0.20241112](https://pypi.org/project/types-networkx/3.3.0.20241112/) (2024-11-12)
 
-Remove numpy pins from several stubs ([#12993](https://github.com/python/typeshed/pull/12993))
+* Remove numpy pins from several stubs ([#12993](https://github.com/python/typeshed/pull/12993))
 
-## 3.3.0.20241020 (2024-10-20)
+## [3.3.0.20241020](https://pypi.org/project/types-networkx/3.3.0.20241020/) (2024-10-20)
 
-Update mypy to 1.12.0 ([#12859](https://github.com/python/typeshed/pull/12859))
+* Update mypy to 1.12.0 ([#12859](https://github.com/python/typeshed/pull/12859))
 
-## 3.3.0.20241009 (2024-10-09)
+## [3.3.0.20241009](https://pypi.org/project/types-networkx/3.3.0.20241009/) (2024-10-09)
 
-Bump networkx to 3.3 ([#11727](https://github.com/python/typeshed/pull/11727))
+* Bump networkx to 3.3 ([#11727](https://github.com/python/typeshed/pull/11727))
 
-## 3.2.1.20240918 (2024-09-18)
+## [3.2.1.20240918](https://pypi.org/project/types-networkx/3.2.1.20240918/) (2024-09-18)
 
- fix: weight parameter type for networkx.algorithms.shortest_paths ([#12663](https://github.com/python/typeshed/pull/12663))
+*  fix: weight parameter type for networkx.algorithms.shortest_paths ([#12663](https://github.com/python/typeshed/pull/12663))
 
-## 3.2.1.20240907 (2024-09-07)
+## [3.2.1.20240907](https://pypi.org/project/types-networkx/3.2.1.20240907/) (2024-09-07)
 
-Fix networkx `DiDegreeView.__call__()` can return `int` ([#12472](https://github.com/python/typeshed/pull/12472))
+* Fix networkx `DiDegreeView.__call__()` can return `int` ([#12472](https://github.com/python/typeshed/pull/12472))
 
-Fix networkx `DiDegreeView.__call__()`
+    Fix networkx `DiDegreeView.__call__()`
 
-`DiDegreeView.__call__()` can return an integer if a single node is specified, as is also documented in the docstrings of the method:
+    `DiDegreeView.__call__()` can return an integer if a single node is specified, as is also documented in the docstrings of the method:
 
-https://github.com/networkx/networkx/blob/89718e0514bded93ded5b00aed755a4474c1dc6f/networkx/classes/digraph.py#L1198-L1199
+    https://github.com/networkx/networkx/blob/89718e0514bded93ded5b00aed755a4474c1dc6f/networkx/classes/digraph.py#L1198-L1199
 
-Implementation:
+    Implementation:
 
-https://github.com/networkx/networkx/blob/89718e0514bded93ded5b00aed755a4474c1dc6f/networkx/classes/reportviews.py#L436-L437
+    https://github.com/networkx/networkx/blob/89718e0514bded93ded5b00aed755a4474c1dc6f/networkx/classes/reportviews.py#L436-L437
 
-## 3.2.1.20240820 (2024-08-20)
+## [3.2.1.20240820](https://pypi.org/project/types-networkx/3.2.1.20240820/) (2024-08-20)
 
-Pin numpy in various stubs ([#12554](https://github.com/python/typeshed/pull/12554))
+* Pin numpy in various stubs ([#12554](https://github.com/python/typeshed/pull/12554))
 
-## 3.2.1.20240813 (2024-08-13)
+## [3.2.1.20240813](https://pypi.org/project/types-networkx/3.2.1.20240813/) (2024-08-13)
 
-Add graph attribute to networkx.Graph ([#12505](https://github.com/python/typeshed/pull/12505))
+* Add graph attribute to networkx.Graph ([#12505](https://github.com/python/typeshed/pull/12505))
 
-## 3.2.1.20240811 (2024-08-11)
+## [3.2.1.20240811](https://pypi.org/project/types-networkx/3.2.1.20240811/) (2024-08-11)
 
-networkx: Fix stubtest errors and remove numpy version pin ([#12477](https://github.com/python/typeshed/pull/12477))
+* networkx: Fix stubtest errors and remove numpy version pin ([#12477](https://github.com/python/typeshed/pull/12477))
 
-## 3.2.1.20240806 (2024-08-06)
+## [3.2.1.20240806](https://pypi.org/project/types-networkx/3.2.1.20240806/) (2024-08-06)
 
-Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
+* Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
 
-## 3.2.1.20240703 (2024-07-03)
+## [3.2.1.20240703](https://pypi.org/project/types-networkx/3.2.1.20240703/) (2024-07-03)
 
-add stubs for networx.has_path ([#12252](https://github.com/python/typeshed/pull/12252))
+* add stubs for networx.has_path ([#12252](https://github.com/python/typeshed/pull/12252))
 
-## 3.2.1.20240618 (2024-06-18)
+## [3.2.1.20240618](https://pypi.org/project/types-networkx/3.2.1.20240618/) (2024-06-18)
 
-Pin various stubs to numpy to < 2 ([#12152](https://github.com/python/typeshed/pull/12152))
+* Pin various stubs to numpy to < 2 ([#12152](https://github.com/python/typeshed/pull/12152))
 
-Fixes #12146
+    Fixes #12146
 
-## 3.2.1.20240531 (2024-05-31)
+## [3.2.1.20240531](https://pypi.org/project/types-networkx/3.2.1.20240531/) (2024-05-31)
 
-[networks] Fix some functions requiring DiGraph objects ([#12066](https://github.com/python/typeshed/pull/12066))
+* Fix some functions requiring DiGraph objects ([#12066](https://github.com/python/typeshed/pull/12066))
 
-## 3.2.1.20240518 (2024-05-18)
+## [3.2.1.20240518](https://pypi.org/project/types-networkx/3.2.1.20240518/) (2024-05-18)
 
-add networkx.topological_generations ([#11927](https://github.com/python/typeshed/pull/11927))
+* add networkx.topological_generations ([#11927](https://github.com/python/typeshed/pull/11927))
 
-## 3.2.1.20240425 (2024-04-25)
+## [3.2.1.20240425](https://pypi.org/project/types-networkx/3.2.1.20240425/) (2024-04-25)
 
-[networkx] Fix incremental_closeness_centrality argument type ([#11828](https://github.com/python/typeshed/pull/11828))
+* Fix incremental_closeness_centrality argument type ([#11828](https://github.com/python/typeshed/pull/11828))
 
-## 3.2.1.20240424 (2024-04-24)
+## [3.2.1.20240424](https://pypi.org/project/types-networkx/3.2.1.20240424/) (2024-04-24)
 
-Annotate a few NetworkX algorithm types ([#11811](https://github.com/python/typeshed/pull/11811))
+* Annotate a few NetworkX algorithm types ([#11811](https://github.com/python/typeshed/pull/11811))
 
-## 3.2.1.20240331 (2024-03-31)
+## [3.2.1.20240331](https://pypi.org/project/types-networkx/3.2.1.20240331/) (2024-03-31)
 
-Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
+* Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
 
-## 3.2.1.20240313 (2024-03-13)
+## [3.2.1.20240313](https://pypi.org/project/types-networkx/3.2.1.20240313/) (2024-03-13)
 
-networkx: add another overload to OutEdgeView.__call__(). ([#11578](https://github.com/python/typeshed/pull/11578))
+* networkx: add another overload to OutEdgeView.__call__(). ([#11578](https://github.com/python/typeshed/pull/11578))
 
-It's common to call the 'edges' property of a DiGraph with an 'nbunch'
-argument and no other arguments (see the Examples section of
-https://networkx.org/documentation/stable/reference/classes/generated/networkx.DiGraph.out_edges.html).
-None of the existing overloads allow this.
+    It's common to call the 'edges' property of a DiGraph with an 'nbunch'
+    argument and no other arguments (see the Examples section of
+    https://networkx.org/documentation/stable/reference/classes/generated/networkx.DiGraph.out_edges.html).
+    None of the existing overloads allow this.
 
-## 3.2.1.20240210 (2024-02-10)
+## [3.2.1.20240210](https://pypi.org/project/types-networkx/3.2.1.20240210/) (2024-02-10)
 
-Fix networkx stub; location of subgraph_view, etc. ([#11385](https://github.com/python/typeshed/pull/11385))
+* Fix networkx stub; location of subgraph_view, etc. ([#11385](https://github.com/python/typeshed/pull/11385))
 
-## 3.2.1.20240205 (2024-02-05)
+## [3.2.1.20240205](https://pypi.org/project/types-networkx/3.2.1.20240205/) (2024-02-05)
 
-A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
+* A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
 
-## 3.2.1.20240201 (2024-02-01)
+## [3.2.1.20240201](https://pypi.org/project/types-networkx/3.2.1.20240201/) (2024-02-01)
 
-Bump networkx to 3.2.1 ([#11336](https://github.com/python/typeshed/pull/11336))
+* Bump networkx to 3.2.1 ([#11336](https://github.com/python/typeshed/pull/11336))
 
-## 3.1.0.20240116 (2024-01-16)
+## [3.1.0.20240116](https://pypi.org/project/types-networkx/3.1.0.20240116/) (2024-01-16)
 
-Add more networkx annotations for networkx.algorithms.dag ([#11224](https://github.com/python/typeshed/pull/11224))
+* Add more networkx annotations for networkx.algorithms.dag ([#11224](https://github.com/python/typeshed/pull/11224))
 
-## 3.1.0.20240106 (2024-01-06)
+## [3.1.0.20240106](https://pypi.org/project/types-networkx/3.1.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## 3.1.0.20231220 (2023-12-20)
+## [3.1.0.20231220](https://pypi.org/project/types-networkx/3.1.0.20231220/) (2023-12-20)
 
-Add some missing networkx annotations ([#11181](https://github.com/python/typeshed/pull/11181))
+* Add some missing networkx annotations ([#11181](https://github.com/python/typeshed/pull/11181))
 
-Fix annotation for networkx.subgraph_view ([#11180](https://github.com/python/typeshed/pull/11180))
+* Fix annotation for networkx.subgraph_view ([#11180](https://github.com/python/typeshed/pull/11180))
 
-## 3.1.0.0 (2023-12-16)
+## [3.1.0.0](https://pypi.org/project/types-networkx/3.1.0.0/) (2023-12-16)
 
-Add networkx stubs ([#10544](https://github.com/python/typeshed/pull/10544))
+* Add networkx stubs ([#10544](https://github.com/python/typeshed/pull/10544))
 
-Co-authored-by: Avasam <samuel.06@hotmail.com>
-Co-authored-by: Audrey Dutcher <audrey@rhelmot.io>
+    Co-authored-by: Avasam <samuel.06@hotmail.com> \
+    Co-authored-by: Audrey Dutcher <audrey@rhelmot.io>
 
