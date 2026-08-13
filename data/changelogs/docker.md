@@ -1,3 +1,7 @@
+## [7.2.0.20260813](https://pypi.org/project/types-docker/7.2.0.20260813/) (2026-08-13)
+
+* Add return types for secret model operations ([#16185](https://github.com/python/typeshed/pull/16185))
+
 ## [7.2.0.20260811](https://pypi.org/project/types-docker/7.2.0.20260811/) (2026-08-11)
 
 * Use TypedDict and SupportsGet for kwargs_from_context ([#16132](https://github.com/python/typeshed/pull/16132))

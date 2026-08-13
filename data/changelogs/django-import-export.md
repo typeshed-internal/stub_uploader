@@ -1,3 +1,10 @@
+## [4.4.0.20260813](https://pypi.org/project/types-django-import-export/4.4.0.20260813/) (2026-08-13)
+
+* Fix prefly tests ([#16195](https://github.com/python/typeshed/pull/16195))
+
+    The base classes of `ExportActionModelAdmin` are incompatible in the
+    implementation when using Python >= 3.12.
+
 ## [4.4.0.20260724](https://pypi.org/project/types-django-import-export/4.4.0.20260724/) (2026-07-24)
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
