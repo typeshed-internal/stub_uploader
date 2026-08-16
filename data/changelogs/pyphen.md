@@ -1,3 +1,7 @@
+## [0.18.1.20260816](https://pypi.org/project/types-pyphen/0.18.1.20260816/) (2026-08-16)
+
+* Bump to 0.18.1 ([#16208](https://github.com/python/typeshed/pull/16208))
+
 ## [0.18.0.20260815](https://pypi.org/project/types-pyphen/0.18.0.20260815/) (2026-08-15)
 
 * Bump pyphen to 0.18.0 ([#16207](https://github.com/python/typeshed/pull/16207))
