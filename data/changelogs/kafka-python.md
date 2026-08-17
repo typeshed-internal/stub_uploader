@@ -1,3 +1,7 @@
+## [3.0.10.20260817](https://pypi.org/project/types-kafka-python/3.0.10.20260817/) (2026-08-17)
+
+* Add missing __slots__ ([#16218](https://github.com/python/typeshed/pull/16218))
+
 ## [3.0.10.20260814](https://pypi.org/project/types-kafka-python/3.0.10.20260814/) (2026-08-14)
 
 * Update to 3.0.10 ([#16201](https://github.com/python/typeshed/pull/16201))

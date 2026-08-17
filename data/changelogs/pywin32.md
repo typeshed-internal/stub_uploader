@@ -1,3 +1,9 @@
+## [312.0.0.20260817](https://pypi.org/project/types-pywin32/312.0.0.20260817/) (2026-08-17)
+
+* Improve pythonwin.win32uiole ([#16220](https://github.com/python/typeshed/pull/16220))
+
+* Improve pythonwin.win32ui ([#16214](https://github.com/python/typeshed/pull/16214))
+
 ## [312.0.0.20260724](https://pypi.org/project/types-pywin32/312.0.0.20260724/) (2026-07-24)
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
