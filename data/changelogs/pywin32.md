@@ -1,3 +1,7 @@
+## [312.0.0.20260818](https://pypi.org/project/types-pywin32/312.0.0.20260818/) (2026-08-18)
+
+* Use Final for win32.lib constants ([#16222](https://github.com/python/typeshed/pull/16222))
+
 ## [312.0.0.20260817](https://pypi.org/project/types-pywin32/312.0.0.20260817/) (2026-08-17)
 
 * Improve pythonwin.win32uiole ([#16220](https://github.com/python/typeshed/pull/16220))
