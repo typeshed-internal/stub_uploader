@@ -1,3 +1,7 @@
+## [2.21.0.20260819](https://pypi.org/project/types-Pygments/2.21.0.20260819/) (2026-08-19)
+
+* Update to 2.21.* ([#16233](https://github.com/python/typeshed/pull/16233))
+
 ## [2.20.0.20260728](https://pypi.org/project/types-Pygments/2.20.0.20260728/) (2026-07-28)
 
 * Use optional-dependencies for third-party packages ([#16089](https://github.com/python/typeshed/pull/16089))
