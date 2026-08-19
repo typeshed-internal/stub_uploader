@@ -168,7 +168,8 @@ def test_verify_requires_python() -> None:
 @pytest.mark.parametrize(
     "distribution,expected_packages",
     [
-        ("fpdf2", ["fpdf-stubs"]),
+        ("grpcio", ["grpc-stubs"]),
+        ("grpcio-status", ["grpc_status-stubs"]),
         ("pytz", ["pytz-stubs"]),
         ("protobuf", ["google-stubs"]),
         ("google-cloud-ndb", ["google-stubs"]),
@@ -184,7 +185,8 @@ def test_pkg_data_top_level_packages(
 @pytest.mark.parametrize(
     "distribution,expected_packages",
     [
-        ("fpdf2", ["fpdf-stubs"]),
+        ("grpcio", ["grpc-stubs"]),
+        ("grpcio-status", ["grpc_status-stubs"]),
         ("pytz", ["pytz-stubs"]),
         ("protobuf", ["google-stubs.protobuf"]),
         ("google-cloud-ndb", ["google-stubs.cloud.ndb"]),
