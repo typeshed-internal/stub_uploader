@@ -1,3 +1,7 @@
+## [312.0.0.20260820](https://pypi.org/project/types-pywin32/312.0.0.20260820/) (2026-08-20)
+
+* Improve win32crypt ([#16237](https://github.com/python/typeshed/pull/16237))
+
 ## [312.0.0.20260818](https://pypi.org/project/types-pywin32/312.0.0.20260818/) (2026-08-18)
 
 * Use Final for win32.lib constants ([#16222](https://github.com/python/typeshed/pull/16222))
