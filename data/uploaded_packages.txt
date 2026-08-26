@@ -129,6 +129,7 @@ types-hdbcli
 types-hnswlib
 types-html5lib
 types-httplib2
+types-httpretty
 types-humanfriendly
 types-hvac
 types-ibm-db
