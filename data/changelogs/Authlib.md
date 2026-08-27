@@ -1,3 +1,7 @@
+## [1.7.2.20260827](https://pypi.org/project/types-Authlib/1.7.2.20260827/) (2026-08-27)
+
+* fixed some typos ([#16273](https://github.com/python/typeshed/pull/16273))
+
 ## [1.7.2.20260814](https://pypi.org/project/types-Authlib/1.7.2.20260814/) (2026-08-14)
 
 * Improve utility functions ([#16196](https://github.com/python/typeshed/pull/16196))

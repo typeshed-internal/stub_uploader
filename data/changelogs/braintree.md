@@ -1,3 +1,7 @@
+## [4.46.0.20260827](https://pypi.org/project/types-braintree/4.46.0.20260827/) (2026-08-27)
+
+* Annotate MultipleValueNodeBuilder.in_list ([#16235](https://github.com/python/typeshed/pull/16235))
+
 ## [4.46.0.20260814](https://pypi.org/project/types-braintree/4.46.0.20260814/) (2026-08-14)
 
 * Update to 4.46.* ([#16200](https://github.com/python/typeshed/pull/16200))

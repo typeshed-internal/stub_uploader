@@ -257,6 +257,7 @@ types-tabulate
 types-tensorflow
 types-termcolor
 types-tinycss2
+types-titlecase
 types-toml
 types-toposort
 types-tornado

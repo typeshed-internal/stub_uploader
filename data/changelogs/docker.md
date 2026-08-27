@@ -1,3 +1,7 @@
+## [7.2.0.20260827](https://pypi.org/project/types-docker/7.2.0.20260827/) (2026-08-27)
+
+* Add return type for container labels ([#16272](https://github.com/python/typeshed/pull/16272))
+
 ## [7.2.0.20260819](https://pypi.org/project/types-docker/7.2.0.20260819/) (2026-08-19)
 
 * Add return types for node model operations ([#16236](https://github.com/python/typeshed/pull/16236))
