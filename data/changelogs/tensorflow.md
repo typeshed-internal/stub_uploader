@@ -1,3 +1,7 @@
+## [2.18.0.20260827](https://pypi.org/project/types-tensorflow/2.18.0.20260827/) (2026-08-27)
+
+* fixed some typos ([#16273](https://github.com/python/typeshed/pull/16273))
+
 ## [2.18.0.20260730](https://pypi.org/project/types-tensorflow/2.18.0.20260730/) (2026-07-30)
 
 * Add functions ([#16101](https://github.com/python/typeshed/pull/16101))

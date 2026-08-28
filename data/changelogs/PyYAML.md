@@ -1,3 +1,7 @@
+## [6.0.12.20260815](https://pypi.org/project/types-PyYAML/6.0.12.20260815/) (2026-08-15)
+
+* Use _YAMLObject /Incomplete instead of Any ([#16197](https://github.com/python/typeshed/pull/16197))
+
 ## [6.0.12.20260724](https://pypi.org/project/types-PyYAML/6.0.12.20260724/) (2026-07-24)
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))

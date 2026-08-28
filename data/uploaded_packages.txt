@@ -129,6 +129,7 @@ types-hdbcli
 types-hnswlib
 types-html5lib
 types-httplib2
+types-httpretty
 types-humanfriendly
 types-hvac
 types-ibm-db
@@ -256,6 +257,7 @@ types-tabulate
 types-tensorflow
 types-termcolor
 types-tinycss2
+types-titlecase
 types-toml
 types-toposort
 types-tornado

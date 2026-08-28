@@ -1,3 +1,11 @@
+## [26.2.0.20260827](https://pypi.org/project/types-gunicorn/26.2.0.20260827/) (2026-08-27)
+
+* Update to 26.2.0 ([#16298](https://github.com/python/typeshed/pull/16298))
+
+## [26.1.0.20260820](https://pypi.org/project/types-gunicorn/26.1.0.20260820/) (2026-08-20)
+
+* Update to 26.1.0 ([#16242](https://github.com/python/typeshed/pull/16242))
+
 ## [26.0.0.20260807](https://pypi.org/project/types-gunicorn/26.0.0.20260807/) (2026-08-07)
 
 * Run Pyrefly on typeshed stubs in CI ([#16155](https://github.com/python/typeshed/pull/16155))

@@ -1,3 +1,7 @@
+## [0.5.10.20260827](https://pypi.org/project/types-JACK-Client/0.5.10.20260827/) (2026-08-27)
+
+* Re-enable stubtest on darwin ([#16258](https://github.com/python/typeshed/pull/16258))
+
 ## [0.5.10.20260807](https://pypi.org/project/types-JACK-Client/0.5.10.20260807/) (2026-08-07)
 
 * Run Pyrefly on typeshed stubs in CI ([#16155](https://github.com/python/typeshed/pull/16155))

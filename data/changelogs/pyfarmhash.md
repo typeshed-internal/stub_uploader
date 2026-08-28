@@ -1,3 +1,7 @@
+## [0.5.0.20260819](https://pypi.org/project/types-pyfarmhash/0.5.0.20260819/) (2026-08-19)
+
+* Bump to 0.5.* ([#16229](https://github.com/python/typeshed/pull/16229))
+
 ## [0.4.0.20260408](https://pypi.org/project/types-pyfarmhash/0.4.0.20260408/) (2026-04-08)
 
 * Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

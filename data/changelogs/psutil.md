@@ -1,3 +1,7 @@
+## [7.2.2.20260827](https://pypi.org/project/types-psutil/7.2.2.20260827/) (2026-08-27)
+
+* Add `__all__` ([#16259](https://github.com/python/typeshed/pull/16259))
+
 ## [7.2.2.20260518](https://pypi.org/project/types-psutil/7.2.2.20260518/) (2026-05-18)
 
 * Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

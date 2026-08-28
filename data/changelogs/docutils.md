@@ -1,3 +1,9 @@
+## [0.23.0.20260827](https://pypi.org/project/types-docutils/0.23.0.20260827/) (2026-08-27)
+
+* Bump to 0.23 ([#16257](https://github.com/python/typeshed/pull/16257))
+
+* Type `Publisher` attributes and the source/destination classes in `docutils.core` ([#16268](https://github.com/python/typeshed/pull/16268))
+
 ## [0.22.3.20260724](https://pypi.org/project/types-docutils/0.22.3.20260724/) (2026-07-24)
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))

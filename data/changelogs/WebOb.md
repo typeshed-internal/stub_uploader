@@ -1,3 +1,7 @@
+## [1.8.11.20260827](https://pypi.org/project/types-WebOb/1.8.11.20260827/) (2026-08-27)
+
+* fixed some typos ([#16273](https://github.com/python/typeshed/pull/16273))
+
 ## [1.8.11.20260807](https://pypi.org/project/types-WebOb/1.8.11.20260807/) (2026-08-07)
 
 * Run Pyrefly on typeshed stubs in CI ([#16155](https://github.com/python/typeshed/pull/16155))

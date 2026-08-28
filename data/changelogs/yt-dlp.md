@@ -1,3 +1,7 @@
+## [2026.8.19.20260827](https://pypi.org/project/types-yt-dlp/2026.8.19.20260827/) (2026-08-27)
+
+* Update to 2026.8.19 ([#16271](https://github.com/python/typeshed/pull/16271))
+
 ## [2026.7.4.20260807](https://pypi.org/project/types-yt-dlp/2026.7.4.20260807/) (2026-08-07)
 
 * Run Pyrefly on typeshed stubs in CI ([#16155](https://github.com/python/typeshed/pull/16155))

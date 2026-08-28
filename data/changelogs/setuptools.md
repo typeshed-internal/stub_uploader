@@ -1,3 +1,7 @@
+## [84.0.0.20260812](https://pypi.org/project/types-setuptools/84.0.0.20260812/) (2026-08-12)
+
+* Update to 84.0.* ([#16188](https://github.com/python/typeshed/pull/16188))
+
 ## [83.0.0.20260807](https://pypi.org/project/types-setuptools/83.0.0.20260807/) (2026-08-07)
 
 * Run Pyrefly on typeshed stubs in CI ([#16155](https://github.com/python/typeshed/pull/16155))

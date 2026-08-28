@@ -1,3 +1,7 @@
+## [2.8.0.20260827](https://pypi.org/project/types-lupa/2.8.0.20260827/) (2026-08-27)
+
+* Bump to 2.8.* and add lupa.lua55 stubs ([#16254](https://github.com/python/typeshed/pull/16254))
+
 ## [2.6.0.20260509](https://pypi.org/project/types-lupa/2.6.0.20260509/) (2026-05-09)
 
 * Update mypy to 2.0.0 ([#15716](https://github.com/python/typeshed/pull/15716))

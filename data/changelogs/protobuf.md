@@ -1,3 +1,11 @@
+## [7.35.1.20260827](https://pypi.org/project/types-protobuf/7.35.1.20260827/) (2026-08-27)
+
+* Bump to 7.35.1 ([#16255](https://github.com/python/typeshed/pull/16255))
+
+## [7.34.1.20260816](https://pypi.org/project/types-protobuf/7.34.1.20260816/) (2026-08-16)
+
+* Fix internal encoder factory signatures ([#16163](https://github.com/python/typeshed/pull/16163))
+
 ## [7.34.1.20260518](https://pypi.org/project/types-protobuf/7.34.1.20260518/) (2026-05-18)
 
 * Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

@@ -1,3 +1,7 @@
+## [3.3.0.20260827](https://pypi.org/project/types-ibm-db/3.3.0.20260827/) (2026-08-27)
+
+* Bump to 3.3.0 ([#16253](https://github.com/python/typeshed/pull/16253))
+
 ## [3.2.9.20260522](https://pypi.org/project/types-ibm-db/3.2.9.20260522/) (2026-05-22)
 
 * Bump ibm-db to 3.2.9 ([#15818](https://github.com/python/typeshed/pull/15818))

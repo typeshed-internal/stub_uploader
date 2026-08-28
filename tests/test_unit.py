@@ -263,7 +263,7 @@ def test_read_typeshed_data__success() -> None:
     data = _test_typeshed_data(pp, req)
     assert data.oldest_supported_python == "3.10"
     assert data.type_checkers[0] == TypeChecker(
-        "mypy", Version("1.11.1"), "https://github.com/python/mypy/"
+        "mypy", Version("1.11.1"), "https://www.mypy-lang.org/"
     )
 
 

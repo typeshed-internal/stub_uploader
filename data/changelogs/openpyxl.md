@@ -1,3 +1,7 @@
+## [3.1.5.20260827](https://pypi.org/project/types-openpyxl/3.1.5.20260827/) (2026-08-27)
+
+* Add Series export ([#16210](https://github.com/python/typeshed/pull/16210))
+
 ## [3.1.5.20260807](https://pypi.org/project/types-openpyxl/3.1.5.20260807/) (2026-08-07)
 
 * Run Pyrefly on typeshed stubs in CI ([#16155](https://github.com/python/typeshed/pull/16155))

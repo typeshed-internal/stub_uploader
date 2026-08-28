@@ -1,3 +1,27 @@
+## [312.0.0.20260827](https://pypi.org/project/types-pywin32/312.0.0.20260827/) (2026-08-27)
+
+* fixed some typos ([#16273](https://github.com/python/typeshed/pull/16273))
+
+* Improve win32ras ([#16227](https://github.com/python/typeshed/pull/16227))
+
+* Improve pythonwin.dde ([#16221](https://github.com/python/typeshed/pull/16221))
+
+* Import win32ras definitions in pywin32.lib.win2kras ([#16223](https://github.com/python/typeshed/pull/16223))
+
+## [312.0.0.20260820](https://pypi.org/project/types-pywin32/312.0.0.20260820/) (2026-08-20)
+
+* Improve win32crypt ([#16237](https://github.com/python/typeshed/pull/16237))
+
+## [312.0.0.20260818](https://pypi.org/project/types-pywin32/312.0.0.20260818/) (2026-08-18)
+
+* Use Final for win32.lib constants ([#16222](https://github.com/python/typeshed/pull/16222))
+
+## [312.0.0.20260817](https://pypi.org/project/types-pywin32/312.0.0.20260817/) (2026-08-17)
+
+* Improve pythonwin.win32uiole ([#16220](https://github.com/python/typeshed/pull/16220))
+
+* Improve pythonwin.win32ui ([#16214](https://github.com/python/typeshed/pull/16214))
+
 ## [312.0.0.20260724](https://pypi.org/project/types-pywin32/312.0.0.20260724/) (2026-07-24)
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))

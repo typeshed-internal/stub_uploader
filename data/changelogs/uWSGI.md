@@ -1,3 +1,7 @@
+## [2.0.0.20260827](https://pypi.org/project/types-uWSGI/2.0.0.20260827/) (2026-08-27)
+
+* fixed some typos ([#16273](https://github.com/python/typeshed/pull/16273))
+
 ## [2.0.0.20260518](https://pypi.org/project/types-uWSGI/2.0.0.20260518/) (2026-05-18)
 
 * Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
