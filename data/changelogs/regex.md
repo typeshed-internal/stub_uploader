@@ -1,3 +1,28 @@
+## [2026.8.31.20260831](https://pypi.org/project/types-regex/2026.8.31.20260831/) (2026-08-31)
+
+* Bump regex to 2026.8.31 ([#16325](https://github.com/python/typeshed/pull/16325))
+
+    Release: https://pypi.org/pypi/regex/2026.8.31 \
+    Homepage: https://github.com/mrabarnett/mrab-regex \
+    Repository: https://github.com/mrabarnett/mrab-regex \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex \
+    Diff: https://github.com/mrabarnett/mrab-regex/compare/2026.7.19...2026.8.31
+
+    Stubsabot analysis of the diff between the two releases:
+     - 0 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 2 files included in typeshed's stubs have been modified or renamed: `regex/_main.py`, `regex/_regex_core.py`.
+     - Total lines of Python code added: 2.
+     - Total lines of Python code deleted: 3.
+
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
+
+    Note that you will need to close and re-open the PR in order to trigger CI
+
+    Co-authored-by: stubsabot <>
+
 ## [2026.7.19.20260720](https://pypi.org/project/types-regex/2026.7.19.20260720/) (2026-07-20)
 
 * Bump to 2026.7.19 ([#16027](https://github.com/python/typeshed/pull/16027))
