@@ -18,7 +18,14 @@ import requests
 from packaging.requirements import Requirement
 from packaging.specifiers import InvalidSpecifier, Specifier
 
-from .const import EXTERNAL_REQ_ALLOWLIST, EXTERNAL_RUNTIME_REQ_MAP, META, THIRD_PARTY_NAMESPACE, TYPES_PREFIX, UPLOADED_PATH
+from .const import (
+    EXTERNAL_REQ_ALLOWLIST,
+    EXTERNAL_RUNTIME_REQ_MAP,
+    META,
+    THIRD_PARTY_NAMESPACE,
+    TYPES_PREFIX,
+    UPLOADED_PATH,
+)
 
 
 class InvalidRequires(Exception):
