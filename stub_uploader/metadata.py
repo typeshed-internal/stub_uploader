@@ -18,7 +18,14 @@ import requests
 from packaging.requirements import Requirement
 from packaging.specifiers import InvalidSpecifier, Specifier
 
-from .const import META, THIRD_PARTY_NAMESPACE, TYPES_PREFIX, UPLOADED_PATH
+from .const import (
+    EXTERNAL_REQ_ALLOWLIST,
+    EXTERNAL_RUNTIME_REQ_MAP,
+    META,
+    THIRD_PARTY_NAMESPACE,
+    TYPES_PREFIX,
+    UPLOADED_PATH,
+)
 
 
 class InvalidRequires(Exception):
@@ -260,52 +267,6 @@ def strip_types_prefix(dependency: str) -> str:
     if not dependency.startswith(TYPES_PREFIX):
         raise ValueError("Expected dependency on a typeshed package")
     return dependency.removeprefix(TYPES_PREFIX)
-
-
-# Presence in the top 1000 PyPI packages could be a necessary but not sufficient criterion for
-# inclusion in this allowlist.
-# Note we could loosen our criteria once we address:
-# https://github.com/typeshed-internal/stub_uploader/pull/61#discussion_r979327370
-EXTERNAL_REQ_ALLOWLIST = {
-    "Flask",
-    "Flask-SQLAlchemy",
-    "MarkupSafe",
-    "Pillow",
-    "Werkzeug",
-    "affine",
-    "arrow",
-    "asgiref",
-    "beautifulsoup4",
-    "click",
-    "cryptography",
-    "django-stubs",
-    "djangorestframework-stubs",
-    "httpx",
-    "matplotlib",
-    "numpy",
-    "pandas-stubs",
-    "pygobject-stubs",
-    "pynacl",
-    "pyproj",
-    "pytest",
-    "referencing",
-    "requests",
-    "setuptools",
-    "torch",
-    "tree-sitter",
-    "urllib3",
-    "websockets",
-    "wsproto",
-}
-
-# Map of external stub packages to their runtime equivalent.
-# We check that the stubs actually depend on their runtime package.
-EXTERNAL_RUNTIME_REQ_MAP = {
-    "django-stubs": "django",
-    "djangorestframework-stubs": "djangorestframework",
-    "pandas-stubs": "pandas",
-    "pygobject-stubs": "pygobject",
-}
 
 
 def validate_pypi_response(resp: requests.Response, req: Requirement) -> None:
