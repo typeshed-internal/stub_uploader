@@ -2,51 +2,51 @@
 
 * Use optional-dependencies for third-party packages ([#16089](https://github.com/python/typeshed/pull/16089))
 
-## 1.3.1.20260520 (2026-05-20)
+## [1.3.1.20260520](https://pypi.org/project/types-Deprecated/1.3.1.20260520/) (2026-05-20)
 
-[Deprecated] Add default for `SphinxAdapter.__init__` ([#15790](https://github.com/python/typeshed/pull/15790))
+* Add default for `SphinxAdapter.__init__` ([#15790](https://github.com/python/typeshed/pull/15790))
 
-## 1.3.1.20260519 (2026-05-19)
+## [1.3.1.20260519](https://pypi.org/project/types-Deprecated/1.3.1.20260519/) (2026-05-19)
 
-[Deprecated] Add default for `DeprecatedParams.__init__` ([#15795](https://github.com/python/typeshed/pull/15795))
+* Add default for `DeprecatedParams.__init__` ([#15795](https://github.com/python/typeshed/pull/15795))
 
-## 1.3.1.20260508 (2026-05-08)
+## [1.3.1.20260508](https://pypi.org/project/types-Deprecated/1.3.1.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 1.3.1.20260408 (2026-04-08)
+## [1.3.1.20260408](https://pypi.org/project/types-Deprecated/1.3.1.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 1.3.1.20260402 (2026-04-02)
+## [1.3.1.20260402](https://pypi.org/project/types-Deprecated/1.3.1.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-## 1.3.1.20260130 (2026-01-30)
+## [1.3.1.20260130](https://pypi.org/project/types-Deprecated/1.3.1.20260130/) (2026-01-30)
 
-Update outdated upstream_repository fields ([#15334](https://github.com/python/typeshed/pull/15334))
+* Update outdated upstream_repository fields ([#15334](https://github.com/python/typeshed/pull/15334))
 
-## 1.3.1.20251101 (2025-11-01)
+## [1.3.1.20251101](https://pypi.org/project/types-Deprecated/1.3.1.20251101/) (2025-11-01)
 
-[Deprecated] Update to ~=1.3.1 ([#14954](https://github.com/python/typeshed/pull/14954))
+* Update to ~=1.3.1 ([#14954](https://github.com/python/typeshed/pull/14954))
 
-## 1.2.15.20250304 (2025-03-04)
+## [1.2.15.20250304](https://pypi.org/project/types-Deprecated/1.2.15.20250304/) (2025-03-04)
 
-[Deprecated]: fix missing extra_stacklevel kwarg for deprecated() ([#13573](https://github.com/python/typeshed/pull/13573))
+* fix missing extra_stacklevel kwarg for deprecated() ([#13573](https://github.com/python/typeshed/pull/13573))
 
-## 1.2.15.20241117 (2024-11-17)
+## [1.2.15.20241117](https://pypi.org/project/types-Deprecated/1.2.15.20241117/) (2024-11-17)
 
-[Deprecated] Update to 1.2.15 ([#13020](https://github.com/python/typeshed/pull/13020))
+* Update to 1.2.15 ([#13020](https://github.com/python/typeshed/pull/13020))
 
-## 1.2.9.20240311 (2024-03-11)
+## [1.2.9.20240311](https://pypi.org/project/types-Deprecated/1.2.9.20240311/) (2024-03-11)
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## 1.2.9.20240106 (2024-01-06)
+## [1.2.9.20240106](https://pypi.org/project/types-Deprecated/1.2.9.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 1.2.9.3 (2023-07-20)
 

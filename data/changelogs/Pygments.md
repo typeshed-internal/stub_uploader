@@ -6,139 +6,139 @@
 
 * Use optional-dependencies for third-party packages ([#16089](https://github.com/python/typeshed/pull/16089))
 
-## 2.20.0.20260518 (2026-05-18)
+## [2.20.0.20260518](https://pypi.org/project/types-Pygments/2.20.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 2.20.0.20260508 (2026-05-08)
+## [2.20.0.20260508](https://pypi.org/project/types-Pygments/2.20.0.20260508/) (2026-05-08)
 
-Drop 3.9 support for third-party packages ([#15707](https://github.com/python/typeshed/pull/15707))
+* Drop 3.9 support for third-party packages ([#15707](https://github.com/python/typeshed/pull/15707))
 
-Inline some unnecessary type aliases
+    Inline some unnecessary type aliases
 
-## 2.20.0.20260408 (2026-04-08)
+## [2.20.0.20260408](https://pypi.org/project/types-Pygments/2.20.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 2.20.0.20260407 (2026-04-07)
+## [2.20.0.20260407](https://pypi.org/project/types-Pygments/2.20.0.20260407/) (2026-04-07)
 
-[Pygments] Complete stubs for `filter` and `filters` modules ([#15616](https://github.com/python/typeshed/pull/15616))
+* Complete stubs for `filter` and `filters` modules ([#15616](https://github.com/python/typeshed/pull/15616))
 
-[Pygments] Complete stubs for various modules ([#15610](https://github.com/python/typeshed/pull/15610))
+* Complete stubs for various modules ([#15610](https://github.com/python/typeshed/pull/15610))
 
-## 2.20.0.20260406 (2026-04-06)
+## [2.20.0.20260406](https://pypi.org/project/types-Pygments/2.20.0.20260406/) (2026-04-06)
 
-[Pygments] Complete stubs for `Formatter` ([#15608](https://github.com/python/typeshed/pull/15608))
+* Complete stubs for `Formatter` ([#15608](https://github.com/python/typeshed/pull/15608))
 
-[Pygments] Cleanup metaclass workarounds for mypy<1.1 ([#15607](https://github.com/python/typeshed/pull/15607))
+* Cleanup metaclass workarounds for mypy<1.1 ([#15607](https://github.com/python/typeshed/pull/15607))
 
-## 2.20.0.20260405 (2026-04-05)
+## [2.20.0.20260405](https://pypi.org/project/types-Pygments/2.20.0.20260405/) (2026-04-05)
 
-[Pygments] Check for missing stubs outside omitted subpackages ([#15606](https://github.com/python/typeshed/pull/15606))
+* Check for missing stubs outside omitted subpackages ([#15606](https://github.com/python/typeshed/pull/15606))
 
-[Pygments] Update to 2.20.0 ([#15605](https://github.com/python/typeshed/pull/15605))
+* Update to 2.20.0 ([#15605](https://github.com/python/typeshed/pull/15605))
 
-## 2.19.0.20260402 (2026-04-02)
+## [2.19.0.20260402](https://pypi.org/project/types-Pygments/2.19.0.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-## 2.19.0.20251121 (2025-11-21)
+## [2.19.0.20251121](https://pypi.org/project/types-Pygments/2.19.0.20251121/) (2025-11-21)
 
-[Pygments] Use Incomplete instead of Any ([#15053](https://github.com/python/typeshed/pull/15053))
+* Use Incomplete instead of Any ([#15053](https://github.com/python/typeshed/pull/15053))
 
-## 2.19.0.20250809 (2025-08-09)
+## [2.19.0.20250809](https://pypi.org/project/types-Pygments/2.19.0.20250809/) (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 2.19.0.20250715 (2025-07-15)
+## [2.19.0.20250715](https://pypi.org/project/types-Pygments/2.19.0.20250715/) (2025-07-15)
 
-RawTokenFormatter always returns bytes ([#14412](https://github.com/python/typeshed/pull/14412))
+* RawTokenFormatter always returns bytes ([#14412](https://github.com/python/typeshed/pull/14412))
 
-## 2.19.0.20250516 (2025-05-16)
+## [2.19.0.20250516](https://pypi.org/project/types-Pygments/2.19.0.20250516/) (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## 2.19.0.20250514 (2025-05-14)
+## [2.19.0.20250514](https://pypi.org/project/types-Pygments/2.19.0.20250514/) (2025-05-14)
 
-Replace incomplete module markers ([#14030](https://github.com/python/typeshed/pull/14030))
+* Replace incomplete module markers ([#14030](https://github.com/python/typeshed/pull/14030))
 
-## 2.19.0.20250305 (2025-03-05)
+## [2.19.0.20250305](https://pypi.org/project/types-Pygments/2.19.0.20250305/) (2025-03-05)
 
-Remove `setuptools/pkg_resources` ([#13369](https://github.com/python/typeshed/pull/13369))
+* Remove `setuptools/pkg_resources` ([#13369](https://github.com/python/typeshed/pull/13369))
 
-## 2.19.0.20250219 (2025-02-19)
+## [2.19.0.20250219](https://pypi.org/project/types-Pygments/2.19.0.20250219/) (2025-02-19)
 
-pygments: Fix return type of pygments.lexers.guess_lexer_for_filename ([#13515](https://github.com/python/typeshed/pull/13515))
+* pygments: Fix return type of pygments.lexers.guess_lexer_for_filename ([#13515](https://github.com/python/typeshed/pull/13515))
 
-## 2.19.0.20250107 (2025-01-07)
+## [2.19.0.20250107](https://pypi.org/project/types-Pygments/2.19.0.20250107/) (2025-01-07)
 
-[stubsabot] Bump Pygments to 2.19.* ([#13370](https://github.com/python/typeshed/pull/13370))
+* Bump Pygments to 2.19.* ([#13370](https://github.com/python/typeshed/pull/13370))
 
-Release: https://pypi.org/pypi/Pygments/2.19.0
-Homepage: https://pygments.org
-Repository: https://github.com/pygments/pygments
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Pygments
-Changelog: https://github.com/pygments/pygments/blob/master/CHANGES
-Diff: https://github.com/pygments/pygments/compare/2.18.0...2.19.0
+    Release: https://pypi.org/pypi/Pygments/2.19.0 \
+    Homepage: https://pygments.org \
+    Repository: https://github.com/pygments/pygments \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Pygments \
+    Changelog: https://github.com/pygments/pygments/blob/master/CHANGES \
+    Diff: https://github.com/pygments/pygments/compare/2.18.0...2.19.0
 
-Stubsabot analysis of the diff between the two releases:
- - 9 public Python files have been added.
- - 0 files included in typeshed's stubs have been deleted.
- - 36 files included in typeshed's stubs have been modified or renamed.
- - Total lines of Python code added: 2960.
- - Total lines of Python code deleted: 694.
+    Stubsabot analysis of the diff between the two releases:
+     - 9 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 36 files included in typeshed's stubs have been modified or renamed.
+     - Total lines of Python code added: 2960.
+     - Total lines of Python code deleted: 694.
 
-## 2.18.0.20240506 (2024-05-06)
+## [2.18.0.20240506](https://pypi.org/project/types-Pygments/2.18.0.20240506/) (2024-05-06)
 
-[stubsabot] Bump Pygments to 2.18.* ([#11861](https://github.com/python/typeshed/pull/11861))
+* Bump Pygments to 2.18.* ([#11861](https://github.com/python/typeshed/pull/11861))
 
-Release: https://pypi.org/pypi/Pygments/2.18.0
-Homepage: https://pygments.org
-Repository: https://github.com/pygments/pygments
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Pygments
-Changelog: https://github.com/pygments/pygments/blob/master/CHANGES
-Diff: https://github.com/pygments/pygments/compare/2.17.2...2.18.0
+    Release: https://pypi.org/pypi/Pygments/2.18.0 \
+    Homepage: https://pygments.org \
+    Repository: https://github.com/pygments/pygments \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Pygments \
+    Changelog: https://github.com/pygments/pygments/blob/master/CHANGES \
+    Diff: https://github.com/pygments/pygments/compare/2.17.2...2.18.0
 
-Stubsabot analysis of the diff between the two releases:
- - 5 public Python files have been added: `pygments/lexers/mojo.py`, `pygments/lexers/soong.py`, `pygments/lexers/tact.py`, `pygments/lexers/typst.py`, `pygments/styles/coffee.py`.
- - 0 files included in typeshed's stubs have been deleted.
- - 36 files included in typeshed's stubs have been modified or renamed.
- - Total lines of Python code added: 4858.
- - Total lines of Python code deleted: 2467.
+    Stubsabot analysis of the diff between the two releases:
+     - 5 public Python files have been added: `pygments/lexers/mojo.py`, `pygments/lexers/soong.py`, `pygments/lexers/tact.py`, `pygments/lexers/typst.py`, `pygments/styles/coffee.py`.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 36 files included in typeshed's stubs have been modified or renamed.
+     - Total lines of Python code added: 4858.
+     - Total lines of Python code deleted: 2467.
 
-If stubtest fails for this PR:
-- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-- Fix stubtest failures in another PR, then close this PR
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
 
-Note that you will need to close and re-open the PR in order to trigger CI
+    Note that you will need to close and re-open the PR in order to trigger CI
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 2.17.0.20240310 (2024-03-10)
+## [2.17.0.20240310](https://pypi.org/project/types-Pygments/2.17.0.20240310/) (2024-03-10)
 
-`docutils`: Use `ClassVar` for `Directive` class variables ([#11550](https://github.com/python/typeshed/pull/11550))
+* `docutils`: Use `ClassVar` for `Directive` class variables ([#11550](https://github.com/python/typeshed/pull/11550))
 
-These are intended to be set as class variables, in subclasses of Directive, rather
-than instance variables.
+    These are intended to be set as class variables, in subclasses of Directive, rather
+    than instance variables.
 
-See also:
-- https://docutils.sourceforge.io/docs/howto/rst-directives.html#the-directive-class
-- https://docutils.sourceforge.io/docs/howto/rst-directives.html#admonitions
+    See also:
+    - https://docutils.sourceforge.io/docs/howto/rst-directives.html#the-directive-class
+    - https://docutils.sourceforge.io/docs/howto/rst-directives.html#admonitions
 
-## 2.17.0.20240106 (2024-01-06)
+## [2.17.0.20240106](https://pypi.org/project/types-Pygments/2.17.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## 2.17.0.0 (2023-11-24)
+## [2.17.0.0](https://pypi.org/project/types-Pygments/2.17.0.0/) (2023-11-24)
 
-Bump pygments to 2.17 ([#11051](https://github.com/python/typeshed/pull/11051))
+* Bump pygments to 2.17 ([#11051](https://github.com/python/typeshed/pull/11051))
 
-* Add some previously missing lexers.
-* Improve lexer type annotations.
+    * Add some previously missing lexers.
+    * Improve lexer type annotations.
 
-## 2.16.0.1 (2023-11-10)
+## [2.16.0.1](https://pypi.org/project/types-Pygments/2.16.0.1/) (2023-11-10)
 
-Add types for `pygments.lex`. ([#10998](https://github.com/python/typeshed/pull/10998))
+* Add types for `pygments.lex`. ([#10998](https://github.com/python/typeshed/pull/10998))
 
 ## 2.16.0.0 (2023-08-07)
 

@@ -9,55 +9,55 @@
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
 
-## 4.4.0.20260518 (2026-05-18)
+## [4.4.0.20260518](https://pypi.org/project/types-django-import-export/4.4.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 4.4.0.20260508 (2026-05-08)
+## [4.4.0.20260508](https://pypi.org/project/types-django-import-export/4.4.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 4.4.0.20260408 (2026-04-08)
+## [4.4.0.20260408](https://pypi.org/project/types-django-import-export/4.4.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 4.4.0.20260402 (2026-04-02)
+## [4.4.0.20260402](https://pypi.org/project/types-django-import-export/4.4.0.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-## 4.4.0.20260325 (2026-03-25)
+## [4.4.0.20260325](https://pypi.org/project/types-django-import-export/4.4.0.20260325/) (2026-03-25)
 
-[django-import-export]: Fix ForeignKeyWidget.__init__ argument types ([#15552](https://github.com/python/typeshed/pull/15552))
+* Fix ForeignKeyWidget.__init__ argument types ([#15552](https://github.com/python/typeshed/pull/15552))
 
-## 4.4.0.20260113 (2026-01-13)
+## [4.4.0.20260113](https://pypi.org/project/types-django-import-export/4.4.0.20260113/) (2026-01-13)
 
-[django-import-export] Update to 4.4.* ([#15256](https://github.com/python/typeshed/pull/15256))
+* Update to 4.4.* ([#15256](https://github.com/python/typeshed/pull/15256))
 
-## 4.3.0.20250822 (2025-08-22)
+## [4.3.0.20250822](https://pypi.org/project/types-django-import-export/4.3.0.20250822/) (2025-08-22)
 
-Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+* Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
 
-## 4.3.0.20250728 (2025-07-28)
+## [4.3.0.20250728](https://pypi.org/project/types-django-import-export/4.3.0.20250728/) (2025-07-28)
 
-Remove pytype workarounds from third-party stubs ([#14471](https://github.com/python/typeshed/pull/14471))
+* Remove pytype workarounds from third-party stubs ([#14471](https://github.com/python/typeshed/pull/14471))
 
-## 4.3.0.20250218 (2025-02-18)
+## [4.3.0.20250218](https://pypi.org/project/types-django-import-export/4.3.0.20250218/) (2025-02-18)
 
-[stubsabot] Bump django-import-export to 4.3.* ([#13460](https://github.com/python/typeshed/pull/13460))
+* Bump django-import-export to 4.3.* ([#13460](https://github.com/python/typeshed/pull/13460))
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 3.3.0.20250204 (2025-02-04)
+## [3.3.0.20250204](https://pypi.org/project/types-django-import-export/3.3.0.20250204/) (2025-02-04)
 
-Bump django-import-export to 4.3.4 ([#13414](https://github.com/python/typeshed/pull/13414))
+* Bump django-import-export to 4.3.4 ([#13414](https://github.com/python/typeshed/pull/13414))
 
-## 3.3.0.20250117 (2025-01-17)
+## [3.3.0.20250117](https://pypi.org/project/types-django-import-export/3.3.0.20250117/) (2025-01-17)
 
-Improve `django-import-export` ([#13402](https://github.com/python/typeshed/pull/13402))
+* Improve `django-import-export` ([#13402](https://github.com/python/typeshed/pull/13402))
 
-## 3.3.0.20241229 (2024-12-29)
+## [3.3.0.20241229](https://pypi.org/project/types-django-import-export/3.3.0.20241229/) (2024-12-29)
 
-Add stubs for `django-import-export` ([#11709](https://github.com/python/typeshed/pull/11709))
+* Add stubs for `django-import-export` ([#11709](https://github.com/python/typeshed/pull/11709))
 

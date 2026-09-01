@@ -2,60 +2,60 @@
 
 * Update for django-stubs 6.0.8 ([#16152](https://github.com/python/typeshed/pull/16152))
 
-## 26.1.0.20260713 (2026-07-13)
+## [26.1.0.20260713](https://pypi.org/project/types-django-filter/26.1.0.20260713/) (2026-07-13)
 
-[django-filter] Bump to 26.1.* ([#16008](https://github.com/python/typeshed/pull/16008))
+* Bump to 26.1.* ([#16008](https://github.com/python/typeshed/pull/16008))
 
-## 25.2.0.20260508 (2026-05-08)
+## [25.2.0.20260508](https://pypi.org/project/types-django-filter/25.2.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 25.2.0.20260408 (2026-04-08)
+## [25.2.0.20260408](https://pypi.org/project/types-django-filter/25.2.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 25.2.0.20260402 (2026-04-02)
+## [25.2.0.20260402](https://pypi.org/project/types-django-filter/25.2.0.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-## 25.2.0.20260213 (2026-02-13)
+## [25.2.0.20260213](https://pypi.org/project/types-django-filter/25.2.0.20260213/) (2026-02-13)
 
-[django-filter] fix return type for MultipleChoiceFilter.get_filter_predicate ([#15418](https://github.com/python/typeshed/pull/15418))
+* fix return type for MultipleChoiceFilter.get_filter_predicate ([#15418](https://github.com/python/typeshed/pull/15418))
 
-## 25.2.0.20251228 (2025-12-28)
+## [25.2.0.20251228](https://pypi.org/project/types-django-filter/25.2.0.20251228/) (2025-12-28)
 
-[django-filter] Fix BaseFilterSet.filter_for_lookup return type ([#15171](https://github.com/python/typeshed/pull/15171))
+* Fix BaseFilterSet.filter_for_lookup return type ([#15171](https://github.com/python/typeshed/pull/15171))
 
-## 25.2.0.20251010 (2025-10-10)
+## [25.2.0.20251010](https://pypi.org/project/types-django-filter/25.2.0.20251010/) (2025-10-10)
 
-[django-filter] Broaden OrderingFilter fields parameter type ([#14856](https://github.com/python/typeshed/pull/14856))
+* Broaden OrderingFilter fields parameter type ([#14856](https://github.com/python/typeshed/pull/14856))
 
-## 25.2.0.20251007 (2025-10-07)
+## [25.2.0.20251007](https://pypi.org/project/types-django-filter/25.2.0.20251007/) (2025-10-07)
 
-[stubsabot] Bump django-filter to 25.2.* ([#14836](https://github.com/python/typeshed/pull/14836))
+* Bump django-filter to 25.2.* ([#14836](https://github.com/python/typeshed/pull/14836))
 
-## 25.1.0.20250923 (2025-09-23)
+## [25.1.0.20250923](https://pypi.org/project/types-django-filter/25.1.0.20250923/) (2025-09-23)
 
-[django-filter] Improve stubtest comment ([#14738](https://github.com/python/typeshed/pull/14738))
+* Improve stubtest comment ([#14738](https://github.com/python/typeshed/pull/14738))
 
-## 25.1.0.20250914 (2025-09-14)
+## [25.1.0.20250914](https://pypi.org/project/types-django-filter/25.1.0.20250914/) (2025-09-14)
 
-Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
+* Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
 
-## 25.1.0.20250815 (2025-08-15)
+## [25.1.0.20250815](https://pypi.org/project/types-django-filter/25.1.0.20250815/) (2025-08-15)
 
-[django-filter] Improve constructor param types and add missing re-exports ([#14556](https://github.com/python/typeshed/pull/14556))
+* Improve constructor param types and add missing re-exports ([#14556](https://github.com/python/typeshed/pull/14556))
 
-* Accept `StrOrPromise` for field labels -- allow Django lazy translated strings.
-* Added `__init__` params that are inherited from parent classes. Reduced usage of loosely typed `*args, **kwargs`.
-* Removed `__init__` method type hints from classes whose parameters are same as parent class -- to avoid duplicating them.
-* Added missing re-exports to `django_filters/rest_framework/__init__.pyi` -- the imports in this file are clearly meant as re-export
+    * Accept `StrOrPromise` for field labels -- allow Django lazy translated strings.
+    * Added `__init__` params that are inherited from parent classes. Reduced usage of loosely typed `*args, **kwargs`.
+    * Removed `__init__` method type hints from classes whose parameters are same as parent class -- to avoid duplicating them.
+    * Added missing re-exports to `django_filters/rest_framework/__init__.pyi` -- the imports in this file are clearly meant as re-export
 
-[django-filter] Replace list with more generic Sequence ([#14567](https://github.com/python/typeshed/pull/14567))
+* Replace list with more generic Sequence ([#14567](https://github.com/python/typeshed/pull/14567))
 
-## 25.1.0.20250809 (2025-08-09)
+## [25.1.0.20250809](https://pypi.org/project/types-django-filter/25.1.0.20250809/) (2025-08-09)
 
-[django-filter] Add type stubs ([#14540](https://github.com/python/typeshed/pull/14540))
+* Add type stubs ([#14540](https://github.com/python/typeshed/pull/14540))
 

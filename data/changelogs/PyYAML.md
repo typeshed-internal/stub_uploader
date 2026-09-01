@@ -6,75 +6,75 @@
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
 
-## 6.0.12.20260518 (2026-05-18)
+## [6.0.12.20260518](https://pypi.org/project/types-PyYAML/6.0.12.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 6.0.12.20260510 (2026-05-10)
+## [6.0.12.20260510](https://pypi.org/project/types-PyYAML/6.0.12.20260510/) (2026-05-10)
 
-Add missing type hints in pyyaml.constructor ([#15746](https://github.com/python/typeshed/pull/15746))
+* Add missing type hints in pyyaml.constructor ([#15746](https://github.com/python/typeshed/pull/15746))
 
-This is the same as 84682a1d which missed these for some reason.
+    This is the same as 84682a1d which missed these for some reason.
 
-## 6.0.12.20260508 (2026-05-08)
+## [6.0.12.20260508](https://pypi.org/project/types-PyYAML/6.0.12.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 6.0.12.20260408 (2026-04-08)
+## [6.0.12.20260408](https://pypi.org/project/types-PyYAML/6.0.12.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 6.0.12.20250915 (2025-09-15)
+## [6.0.12.20250915](https://pypi.org/project/types-PyYAML/6.0.12.20250915/) (2025-09-15)
 
-Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
+* Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
 
-## 6.0.12.20250822 (2025-08-22)
+## [6.0.12.20250822](https://pypi.org/project/types-PyYAML/6.0.12.20250822/) (2025-08-22)
 
-Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+* Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
 
-Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+* Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
 
-## 6.0.12.20250809 (2025-08-09)
+## [6.0.12.20250809](https://pypi.org/project/types-PyYAML/6.0.12.20250809/) (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 6.0.12.20250516 (2025-05-16)
+## [6.0.12.20250516](https://pypi.org/project/types-PyYAML/6.0.12.20250516/) (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## 6.0.12.20250402 (2025-04-02)
+## [6.0.12.20250402](https://pypi.org/project/types-PyYAML/6.0.12.20250402/) (2025-04-02)
 
-Bump ruff to 0.11.2 ([#13757](https://github.com/python/typeshed/pull/13757))
+* Bump ruff to 0.11.2 ([#13757](https://github.com/python/typeshed/pull/13757))
 
-## 6.0.12.20250326 (2025-03-26)
+## [6.0.12.20250326](https://pypi.org/project/types-PyYAML/6.0.12.20250326/) (2025-03-26)
 
-Add `__all__` ([#13704](https://github.com/python/typeshed/pull/13704))
+* Add `__all__` ([#13704](https://github.com/python/typeshed/pull/13704))
 
-## 6.0.12.20241230 (2024-12-30)
+## [6.0.12.20241230](https://pypi.org/project/types-PyYAML/6.0.12.20241230/) (2024-12-30)
 
-fix(yaml): SafeConstructor.construct_scalar accept `MappingNode` ([#13340](https://github.com/python/typeshed/pull/13340))
+* fix(yaml): SafeConstructor.construct_scalar accept `MappingNode` ([#13340](https://github.com/python/typeshed/pull/13340))
 
-## 6.0.12.20241221 (2024-12-21)
+## [6.0.12.20241221](https://pypi.org/project/types-PyYAML/6.0.12.20241221/) (2024-12-21)
 
-Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
-## 6.0.12.20240917 (2024-09-17)
+## [6.0.12.20240917](https://pypi.org/project/types-PyYAML/6.0.12.20240917/) (2024-09-17)
 
-PyYAML: correct return type of `construct_scalar()` ([#12664](https://github.com/python/typeshed/pull/12664))
+* PyYAML: correct return type of `construct_scalar()` ([#12664](https://github.com/python/typeshed/pull/12664))
 
-## 6.0.12.20240808 (2024-08-08)
+## [6.0.12.20240808](https://pypi.org/project/types-PyYAML/6.0.12.20240808/) (2024-08-08)
 
-[PyYAML] stubtest: Ignore auto-generated methods ([#12497](https://github.com/python/typeshed/pull/12497))
+* stubtest: Ignore auto-generated methods ([#12497](https://github.com/python/typeshed/pull/12497))
 
-## 6.0.12.20240724 (2024-07-24)
+## [6.0.12.20240724](https://pypi.org/project/types-PyYAML/6.0.12.20240724/) (2024-07-24)
 
-Improve `yaml/constructor.pyi` types ([#12404](https://github.com/python/typeshed/pull/12404))
+* Improve `yaml/constructor.pyi` types ([#12404](https://github.com/python/typeshed/pull/12404))
 
-## 6.0.12.20240311 (2024-03-11)
+## [6.0.12.20240311](https://pypi.org/project/types-PyYAML/6.0.12.20240311/) (2024-03-11)
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
 ## 6.0.12.12 (2023-09-23)
 

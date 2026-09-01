@@ -30,135 +30,135 @@
 
 * Update to 4.69.* ([#16030](https://github.com/python/typeshed/pull/16030))
 
-## 4.68.0.20260608 (2026-06-08)
+## [4.68.0.20260608](https://pypi.org/project/types-tqdm/4.68.0.20260608/) (2026-06-08)
 
-[tqdm] Update to 4.68.* ([#15876](https://github.com/python/typeshed/pull/15876))
+* Update to 4.68.* ([#15876](https://github.com/python/typeshed/pull/15876))
 
-## 4.67.3.20260518 (2026-05-18)
+## [4.67.3.20260518](https://pypi.org/project/types-tqdm/4.67.3.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 4.67.3.20260508 (2026-05-08)
+## [4.67.3.20260508](https://pypi.org/project/types-tqdm/4.67.3.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 4.67.3.20260408 (2026-04-08)
+## [4.67.3.20260408](https://pypi.org/project/types-tqdm/4.67.3.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 4.67.3.20260402 (2026-04-02)
+## [4.67.3.20260402](https://pypi.org/project/types-tqdm/4.67.3.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-## 4.67.3.20260303 (2026-03-03)
+## [4.67.3.20260303](https://pypi.org/project/types-tqdm/4.67.3.20260303/) (2026-03-03)
 
-[tqdm] Add `thread_map` and `process_map` type hints ([#15460](https://github.com/python/typeshed/pull/15460))
+* Add `thread_map` and `process_map` type hints ([#15460](https://github.com/python/typeshed/pull/15460))
 
-## 4.67.3.20260205 (2026-02-05)
+## [4.67.3.20260205](https://pypi.org/project/types-tqdm/4.67.3.20260205/) (2026-02-05)
 
-[stubsabot] Bump tqdm to 4.67.3 ([#15366](https://github.com/python/typeshed/pull/15366))
+* Bump tqdm to 4.67.3 ([#15366](https://github.com/python/typeshed/pull/15366))
 
-Release: https://pypi.org/pypi/tqdm/4.67.3
-Repository: https://github.com/tqdm/tqdm
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/tqdm
-Diff: https://github.com/tqdm/tqdm/compare/v4.67.2...v4.67.3
+    Release: https://pypi.org/pypi/tqdm/4.67.3 \
+    Repository: https://github.com/tqdm/tqdm \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/tqdm \
+    Diff: https://github.com/tqdm/tqdm/compare/v4.67.2...v4.67.3
 
-Stubsabot analysis of the diff between the two releases:
- - Total lines of Python code added: 0.
- - Total lines of Python code deleted: 0.
+    Stubsabot analysis of the diff between the two releases:
+     - Total lines of Python code added: 0.
+     - Total lines of Python code deleted: 0.
 
-If stubtest fails for this PR:
-- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-- Fix stubtest failures in another PR, then close this PR
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
 
-Note that you will need to close and re-open the PR in order to trigger CI
+    Note that you will need to close and re-open the PR in order to trigger CI
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 4.67.2.20260202 (2026-02-02)
+## [4.67.2.20260202](https://pypi.org/project/types-tqdm/4.67.2.20260202/) (2026-02-02)
 
-[tqdm] Update to 4.67.2 ([#15348](https://github.com/python/typeshed/pull/15348))
+* Update to 4.67.2 ([#15348](https://github.com/python/typeshed/pull/15348))
 
-Closes: #15347
-Diff: https://github.com/tqdm/tqdm/compare/v4.67.1...v4.67.2
+    Closes: #15347 \
+    Diff: https://github.com/tqdm/tqdm/compare/v4.67.1...v4.67.2
 
-## 4.67.0.20250809 (2025-08-09)
+## [4.67.0.20250809](https://pypi.org/project/types-tqdm/4.67.0.20250809/) (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 4.67.0.20250516 (2025-05-16)
+## [4.67.0.20250516](https://pypi.org/project/types-tqdm/4.67.0.20250516/) (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## 4.67.0.20250513 (2025-05-13)
+## [4.67.0.20250513](https://pypi.org/project/types-tqdm/4.67.0.20250513/) (2025-05-13)
 
-tqdm: Fix return type of `async for` loop ([#14028](https://github.com/python/typeshed/pull/14028))
+* tqdm: Fix return type of `async for` loop ([#14028](https://github.com/python/typeshed/pull/14028))
 
-## 4.67.0.20250417 (2025-04-17)
+## [4.67.0.20250417](https://pypi.org/project/types-tqdm/4.67.0.20250417/) (2025-04-17)
 
-[tqdm] Add return type to tqdm.asyncio.gather ([#13839](https://github.com/python/typeshed/pull/13839))
+* Add return type to tqdm.asyncio.gather ([#13839](https://github.com/python/typeshed/pull/13839))
 
-## 4.67.0.20250404 (2025-04-04)
+## [4.67.0.20250404](https://pypi.org/project/types-tqdm/4.67.0.20250404/) (2025-04-04)
 
-Enable Ruff flake8-todos (TD) ([#13748](https://github.com/python/typeshed/pull/13748))
+* Enable Ruff flake8-todos (TD) ([#13748](https://github.com/python/typeshed/pull/13748))
 
-## 4.67.0.20250401 (2025-04-01)
+## [4.67.0.20250401](https://pypi.org/project/types-tqdm/4.67.0.20250401/) (2025-04-01)
 
-Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
+* Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
 
----------
+    ---------
 
-Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com>
 
-## 4.67.0.20250319 (2025-03-19)
+## [4.67.0.20250319](https://pypi.org/project/types-tqdm/4.67.0.20250319/) (2025-03-19)
 
-[CI] Run stubtest with Python 3.13 ([#13638](https://github.com/python/typeshed/pull/13638))
+* Run stubtest with Python 3.13 ([#13638](https://github.com/python/typeshed/pull/13638))
 
-## 4.67.0.20250301 (2025-03-01)
+## [4.67.0.20250301](https://pypi.org/project/types-tqdm/4.67.0.20250301/) (2025-03-01)
 
-fix yield type of `tqdm.as_completed` ([#13557](https://github.com/python/typeshed/pull/13557))
+* fix yield type of `tqdm.as_completed` ([#13557](https://github.com/python/typeshed/pull/13557))
 
-## 4.67.0.20250228 (2025-02-28)
+## [4.67.0.20250228](https://pypi.org/project/types-tqdm/4.67.0.20250228/) (2025-02-28)
 
-tqdm: Improve wrapattr ([#13361](https://github.com/python/typeshed/pull/13361))
+* tqdm: Improve wrapattr ([#13361](https://github.com/python/typeshed/pull/13361))
 
-## 4.67.0.20241221 (2024-12-21)
+## [4.67.0.20241221](https://pypi.org/project/types-tqdm/4.67.0.20241221/) (2024-12-21)
 
-Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
-## 4.67.0.20241220 (2024-12-20)
+## [4.67.0.20241220](https://pypi.org/project/types-tqdm/4.67.0.20241220/) (2024-12-20)
 
-Fix tqdm.asyncio type inconsistency ([#13259](https://github.com/python/typeshed/pull/13259))
+* Fix tqdm.asyncio type inconsistency ([#13259](https://github.com/python/typeshed/pull/13259))
 
-## 4.67.0.20241119 (2024-11-19)
+## [4.67.0.20241119](https://pypi.org/project/types-tqdm/4.67.0.20241119/) (2024-11-19)
 
-Update tqdm to 4.67.* ([#13004](https://github.com/python/typeshed/pull/13004))
+* Update tqdm to 4.67.* ([#13004](https://github.com/python/typeshed/pull/13004))
 
-## 4.66.0.20240417 (2024-04-17)
+## [4.66.0.20240417](https://pypi.org/project/types-tqdm/4.66.0.20240417/) (2024-04-17)
 
-Remove remaining bare `Incomplete`s ([#11768](https://github.com/python/typeshed/pull/11768))
+* Remove remaining bare `Incomplete`s ([#11768](https://github.com/python/typeshed/pull/11768))
 
-Enable Y065
+    Enable Y065
 
-## 4.66.0.20240106 (2024-01-06)
+## [4.66.0.20240106](https://pypi.org/project/types-tqdm/4.66.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## 4.66.0.5 (2023-11-24)
+## [4.66.0.5](https://pypi.org/project/types-tqdm/4.66.0.5/) (2023-11-24)
 
-Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
+* Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
 
-## 4.66.0.4 (2023-11-07)
+## [4.66.0.4](https://pypi.org/project/types-tqdm/4.66.0.4/) (2023-11-07)
 
-Remove redundant inheritances from `Generic` and various `typing` protocols ([#10981](https://github.com/python/typeshed/pull/10981))
+* Remove redundant inheritances from `Generic` and various `typing` protocols ([#10981](https://github.com/python/typeshed/pull/10981))
 
-## 4.66.0.3 (2023-10-27)
+## [4.66.0.3](https://pypi.org/project/types-tqdm/4.66.0.3/) (2023-10-27)
 
-Remove many redundant inheritances from `Generic[]` ([#10933](https://github.com/python/typeshed/pull/10933))
+* Remove many redundant inheritances from `Generic[]` ([#10933](https://github.com/python/typeshed/pull/10933))
 
 ## 4.66.0.2 (2023-08-28)
 

@@ -1,62 +1,62 @@
-## 1.7.0.20260508 (2026-05-08)
+## [1.7.0.20260508](https://pypi.org/project/types-fanstatic/1.7.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 1.7.0.20260408 (2026-04-08)
+## [1.7.0.20260408](https://pypi.org/project/types-fanstatic/1.7.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 1.7.0.20260402 (2026-04-02)
+## [1.7.0.20260402](https://pypi.org/project/types-fanstatic/1.7.0.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+* Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
 
-## 1.7.0.20260322 (2026-03-22)
+## [1.7.0.20260322](https://pypi.org/project/types-fanstatic/1.7.0.20260322/) (2026-03-22)
 
-[stubsabot] Bump fanstatic to 1.7.* ([#15534](https://github.com/python/typeshed/pull/15534))
+* Bump fanstatic to 1.7.* ([#15534](https://github.com/python/typeshed/pull/15534))
 
-## 1.6.0.20251106 (2025-11-06)
+## [1.6.0.20251106](https://pypi.org/project/types-fanstatic/1.6.0.20251106/) (2025-11-06)
 
-[stubsabot] Bump fanstatic to 1.6.* ([#14981](https://github.com/python/typeshed/pull/14981))
+* Bump fanstatic to 1.6.* ([#14981](https://github.com/python/typeshed/pull/14981))
 
-## 1.5.0.20250822 (2025-08-22)
+## [1.5.0.20250822](https://pypi.org/project/types-fanstatic/1.5.0.20250822/) (2025-08-22)
 
-Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+* Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
 
-## 1.5.0.20250809 (2025-08-09)
+## [1.5.0.20250809](https://pypi.org/project/types-fanstatic/1.5.0.20250809/) (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 1.5.0.20250307 (2025-03-07)
+## [1.5.0.20250307](https://pypi.org/project/types-fanstatic/1.5.0.20250307/) (2025-03-07)
 
-[stubsabot] Bump fanstatic to 1.5.* ([#13586](https://github.com/python/typeshed/pull/13586))
+* Bump fanstatic to 1.5.* ([#13586](https://github.com/python/typeshed/pull/13586))
 
-## 1.4.0.20250305 (2025-03-05)
+## [1.4.0.20250305](https://pypi.org/project/types-fanstatic/1.4.0.20250305/) (2025-03-05)
 
-Remove `setuptools/pkg_resources` ([#13369](https://github.com/python/typeshed/pull/13369))
+* Remove `setuptools/pkg_resources` ([#13369](https://github.com/python/typeshed/pull/13369))
 
-## 1.4.0.20240310 (2024-03-10)
+## [1.4.0.20240310](https://pypi.org/project/types-fanstatic/1.4.0.20240310/) (2024-03-10)
 
-Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
+* Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
 
-Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## 1.4.0.20240301 (2024-03-01)
+## [1.4.0.20240301](https://pypi.org/project/types-fanstatic/1.4.0.20240301/) (2024-03-01)
 
-Fix invalid noqa comments and poorly formatted type ignores ([#11497](https://github.com/python/typeshed/pull/11497))
+* Fix invalid noqa comments and poorly formatted type ignores ([#11497](https://github.com/python/typeshed/pull/11497))
 
-## 1.4.0.20240106 (2024-01-06)
+## [1.4.0.20240106](https://pypi.org/project/types-fanstatic/1.4.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## 1.4.0.1 (2023-12-11)
+## [1.4.0.1](https://pypi.org/project/types-fanstatic/1.4.0.1/) (2023-12-11)
 
-fanstatic: Use `Unpack` in `fanstatic.injector.Injector` ([#11139](https://github.com/python/typeshed/pull/11139))
+* fanstatic: Use `Unpack` in `fanstatic.injector.Injector` ([#11139](https://github.com/python/typeshed/pull/11139))
 
-## 1.4.0.0 (2023-11-22)
+## [1.4.0.0](https://pypi.org/project/types-fanstatic/1.4.0.0/) (2023-11-22)
 
-Add stubs for fanstatic ([#9931](https://github.com/python/typeshed/pull/9931))
+* Add stubs for fanstatic ([#9931](https://github.com/python/typeshed/pull/9931))
 
