@@ -1,3 +1,7 @@
+## [1.5.9.20260901](https://pypi.org/project/types-jwcrypto/1.5.9.20260901/) (2026-09-01)
+
+* Update to 1.5.9 ([#16306](https://github.com/python/typeshed/pull/16306))
+
 ## [1.5.8.20260720](https://pypi.org/project/types-jwcrypto/1.5.8.20260720/) (2026-07-20)
 
 * Update to 1.5.8 ([#16039](https://github.com/python/typeshed/pull/16039))

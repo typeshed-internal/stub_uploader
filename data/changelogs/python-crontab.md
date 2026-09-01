@@ -1,3 +1,7 @@
+## [3.4.0.20260901](https://pypi.org/project/types-python-crontab/3.4.0.20260901/) (2026-09-01)
+
+* Update to 3.4.* ([#16321](https://github.com/python/typeshed/pull/16321))
+
 ## [3.3.0.20260726](https://pypi.org/project/types-python-crontab/3.3.0.20260726/) (2026-07-26)
 
 * Add default values ([#16088](https://github.com/python/typeshed/pull/16088))
