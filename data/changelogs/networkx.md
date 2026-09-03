@@ -1,3 +1,7 @@
+## [3.6.1.20260903](https://pypi.org/project/types-networkx/3.6.1.20260903/) (2026-09-03)
+
+* Make numpy dependency optional ([#16297](https://github.com/python/typeshed/pull/16297))
+
 ## [3.6.1.20260728](https://pypi.org/project/types-networkx/3.6.1.20260728/) (2026-07-28)
 
 * Improve type coverage ([#16028](https://github.com/python/typeshed/pull/16028))

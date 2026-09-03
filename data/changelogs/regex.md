@@ -1,3 +1,7 @@
+## [2026.9.3.20260903](https://pypi.org/project/types-regex/2026.9.3.20260903/) (2026-09-03)
+
+* Bump regex to 2026.9.3 ([#16338](https://github.com/python/typeshed/pull/16338))
+
 ## [2026.8.31.20260901](https://pypi.org/project/types-regex/2026.8.31.20260901/) (2026-09-01)
 
 * Fix allcaptures()/allspans() return type ([#16319](https://github.com/python/typeshed/pull/16319))
