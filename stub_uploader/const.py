@@ -43,7 +43,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "cryptography",
     "django-stubs",
     "djangorestframework-stubs",
-    "httpx",
+    "httpx2",
     "matplotlib",
     "numpy",
     "pandas-stubs",
