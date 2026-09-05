@@ -7,37 +7,45 @@ on:
         description: 'Package name or pattern (Python regexp)'
         required: true
 
+permissions: {}
+
 env:
   FORCE_COLOR: 1
 
 jobs:
   build-and-upload:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Setup Python
-        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # 6.2.0
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # v6.2.0
         with:
           python-version: '3.13'
       - name: Checkout main
-        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # 6.0.3
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # v6.0.3
         with:
           path: main
+          # Needed to push updates to the uploaded packages list.
+          persist-credentials: true
       - name: Checkout typeshed
-        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # 6.0.3
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # v6.0.3
         with:
           repository: python/typeshed
           path: typeshed
+          persist-credentials: false
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install -r main/requirements.txt
       - name: Execute build and upload
         env:
+          DISTRIBUTION: ${{ github.event.inputs.distribution }}
           TWINE_USERNAME: __token__
           TWINE_PASSWORD: ${{ secrets.TYPESHED_BOT_API_TOKEN }}
         run: |
           cd main
-          python -m stub_uploader.upload_some ../typeshed "${{ github.event.inputs.distribution }}"
+          python -m stub_uploader.upload_some ../typeshed "$DISTRIBUTION"
           # If we are force uploading packages that were never uploaded, they are added to the list
           if [ -z "$(git status --porcelain)" ]; then
               exit 0;

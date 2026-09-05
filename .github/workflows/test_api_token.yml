@@ -9,6 +9,9 @@ on:
         required: true
         default: 0
 
+permissions:
+  contents: read
+
 env:
   FORCE_COLOR: 1
 
@@ -17,20 +20,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # 6.0.3
+    - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # v6.0.3
+      with:
+        persist-credentials: false
     - name: Set up Python
-      uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # 6.2.0
+      uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # v6.2.0
       with:
         python-version: '3.13'
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install build setuptools wheel twine
-    - name: Build and publish
+    # This workflow specifically tests API-token authentication.
+    - name: Build and publish  # zizmor: ignore[use-trusted-publishing]
       env:
+        PACKAGE_VERSION_INCREMENT: ${{ github.event.inputs.increment }}
         TWINE_USERNAME: __token__
         TWINE_PASSWORD: ${{ secrets.TYPESHED_BOT_API_TOKEN }}
       run: |
         cd data/empty_package
-        PACKAGE_VERSION_INCREMENT=${{ github.event.inputs.increment }} python -m build --wheel --no-isolation
+        python -m build --wheel --no-isolation
         twine upload dist/*
