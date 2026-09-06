@@ -23,6 +23,7 @@ import subprocess
 import sys
 import tempfile
 from collections.abc import Iterable
+from importlib.metadata import version as package_version
 from pathlib import Path
 from textwrap import dedent
 
@@ -471,7 +472,8 @@ def main(
 
     print(f"\033[0;33mRunning '{sys.executable} -m build --no-isolation' in {tmpdir}")
     print()
-    subprocess.run(["pip freeze | egrep 'build|twine'"], shell=True)
+    for package in ("build", "twine"):
+        print(f"{package}=={package_version(package)}")
     print("\033[0m")
     subprocess.run(
         [sys.executable, "-m", "build", "--no-isolation"],

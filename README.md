@@ -61,6 +61,25 @@ Note that this action also sorts packages in the dependency order, but it doesn'
 [list of uploaded packages](https://github.com/typeshed-internal/stub_uploader/blob/main/data/uploaded_packages.txt)
 if this is the first time the package is uploaded.
 
+## Development
+
+Development uses [uv](https://docs.astral.sh/uv/) and Python 3.13 or later. The integration tests expect a typeshed checkout at `../typeshed`, alongside this repository.
+
+Dependencies are declared in the `dev` dependency group in `pyproject.toml` and pinned in `uv.lock`. Run the checks with:
+
+```sh
+uv run --locked mypy --strict -p stub_uploader -p tests
+uv run --locked python -Werror -m pytest tests
+```
+
+After editing the dependencies in `pyproject.toml`, update the lockfile:
+
+```sh
+uv lock
+```
+
+To upgrade the pinned versions, use `uv lock --upgrade`. Commit `uv.lock` whenever it changes. The `uv-lock` hook and CI check that it matches the project dependencies.
+
 ## Security Implications
 
 Please see the [SECURITY.md](./SECURITY.md) document for more information.

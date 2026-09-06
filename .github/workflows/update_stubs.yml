@@ -19,16 +19,19 @@ jobs:
       contents: write
     if: ${{ github.repository == 'typeshed-internal/stub_uploader' || github.event_name == 'workflow_dispatch' }}
     steps:
-      - name: Setup Python
-        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # v6.2.0
-        with:
-          python-version: '3.13'
       - name: Checkout main
         uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # v6.0.3
         with:
           path: main
           # Needed to push updated commit records and changelogs.
           persist-credentials: true
+      - name: Setup uv
+        uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d  # v10.0.1
+        with:
+          version: '0.12.10'
+          working-directory: main
+          python-version: '3.13'
+          enable-cache: false
       - name: Checkout typeshed
         uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # v6.0.3
         with:
@@ -39,16 +42,15 @@ jobs:
           # We could set this to 0 to fetch everything, but we want this to be fast.
           fetch-depth: 100
       - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install -r main/requirements.txt
+        working-directory: main
+        run: uv sync --locked
       - name: Execute diff build and upload tasks
         env:
           TWINE_USERNAME: __token__
           TWINE_PASSWORD: ${{ secrets.TYPESHED_BOT_API_TOKEN }}
         run: |
           cd main
-          python -m stub_uploader.upload_changed ../typeshed $(cat data/last_typeshed_commit.sha1)
+          uv run --locked python -m stub_uploader.upload_changed ../typeshed $(cat data/last_typeshed_commit.sha1)
           (cd ../typeshed; git rev-parse HEAD) > data/last_typeshed_commit.sha1
           if [ -z "$(git status --porcelain)" ]; then
               exit 0;
