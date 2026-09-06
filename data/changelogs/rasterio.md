@@ -1,3 +1,7 @@
+## [1.5.1.20260906](https://pypi.org/project/types-rasterio/1.5.1.20260906/) (2026-09-06)
+
+* Allow WarpedVRT to take DatasetWriter ([#16156](https://github.com/python/typeshed/pull/16156))
+
 ## [1.5.1.20260819](https://pypi.org/project/types-rasterio/1.5.1.20260819/) (2026-08-19)
 
 * 1.5.1 support ([#16180](https://github.com/python/typeshed/pull/16180))

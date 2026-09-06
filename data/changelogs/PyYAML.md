@@ -1,3 +1,7 @@
+## [6.0.12.20260906](https://pypi.org/project/types-PyYAML/6.0.12.20260906/) (2026-09-06)
+
+* Complete PyYAML event annotations ([#16288](https://github.com/python/typeshed/pull/16288))
+
 ## [6.0.12.20260815](https://pypi.org/project/types-PyYAML/6.0.12.20260815/) (2026-08-15)
 
 * Use _YAMLObject /Incomplete instead of Any ([#16197](https://github.com/python/typeshed/pull/16197))

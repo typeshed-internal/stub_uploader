@@ -1,3 +1,9 @@
+## [7.2.2.20260906](https://pypi.org/project/types-psutil/7.2.2.20260906/) (2026-09-06)
+
+* Type the memory map and heap namedtuple fields ([#16261](https://github.com/python/typeshed/pull/16261))
+
+* Add overloads for `Process.memory_maps()` ([#16265](https://github.com/python/typeshed/pull/16265))
+
 ## [7.2.2.20260827](https://pypi.org/project/types-psutil/7.2.2.20260827/) (2026-08-27)
 
 * Add `__all__` ([#16259](https://github.com/python/typeshed/pull/16259))

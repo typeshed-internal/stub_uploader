@@ -1,3 +1,18 @@
+## [7.35.1.20260906](https://pypi.org/project/types-protobuf/7.35.1.20260906/) (2026-09-06)
+
+* Fix internal decoder factory signatures ([#16250](https://github.com/python/typeshed/pull/16250))
+
+    At runtime Int32Decoder through BoolDecoder are factories with the same
+    signature as EnumDecoder (field_number, is_repeated, is_packed, key,
+    new_default, clear_if_default=False), not decoders. The returned
+    decoders and ReadTag receive a memoryview (ReadTag calls .tobytes()),
+    and new_default callables return scalars or containers, not Message.
+    Mirrors the encoder.pyi fix in #16163.
+
+    Closes #10697
+    Closes #10698
+    Closes #10712
+
 ## [7.35.1.20260827](https://pypi.org/project/types-protobuf/7.35.1.20260827/) (2026-08-27)
 
 * Bump to 7.35.1 ([#16255](https://github.com/python/typeshed/pull/16255))
