@@ -1,81 +1,81 @@
-## 3.1.0.20260508 (2026-05-08)
+## [3.1.0.20260508](https://pypi.org/project/types-flake8-builtins/3.1.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 3.1.0.20260408 (2026-04-08)
+## [3.1.0.20260408](https://pypi.org/project/types-flake8-builtins/3.1.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 3.1.0.20260402 (2026-04-02)
+## [3.1.0.20260402](https://pypi.org/project/types-flake8-builtins/3.1.0.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-## 3.1.0.20251027 (2025-10-27)
+## [3.1.0.20251027](https://pypi.org/project/types-flake8-builtins/3.1.0.20251027/) (2025-10-27)
 
-[stubsabot] Bump flake8-builtins to 3.1.* ([#14922](https://github.com/python/typeshed/pull/14922))
+* Bump flake8-builtins to 3.1.* ([#14922](https://github.com/python/typeshed/pull/14922))
 
-## 3.0.0.20250819 (2025-08-19)
+## [3.0.0.20250819](https://pypi.org/project/types-flake8-builtins/3.0.0.20250819/) (2025-08-19)
 
-[flake8-builtins] Update to 3.0.* ([#14587](https://github.com/python/typeshed/pull/14587))
+* Update to 3.0.* ([#14587](https://github.com/python/typeshed/pull/14587))
 
-## 2.5.0.20250415 (2025-04-15)
+## [2.5.0.20250415](https://pypi.org/project/types-flake8-builtins/2.5.0.20250415/) (2025-04-15)
 
-Complete `flake8-builtins` ([#13824](https://github.com/python/typeshed/pull/13824))
+* Complete `flake8-builtins` ([#13824](https://github.com/python/typeshed/pull/13824))
 
-## 2.5.0.20240411 (2024-04-11)
+## [2.5.0.20240411](https://pypi.org/project/types-flake8-builtins/2.5.0.20240411/) (2024-04-11)
 
-[stubsabot] Bump flake8-builtins to 2.5.* ([#11739](https://github.com/python/typeshed/pull/11739))
+* Bump flake8-builtins to 2.5.* ([#11739](https://github.com/python/typeshed/pull/11739))
 
-Release: https://pypi.org/pypi/flake8-builtins/2.5.0
-Homepage: https://github.com/gforcada/flake8-builtins
-Repository: https://github.com/gforcada/flake8-builtins
-Changelog: https://github.com/gforcada/flake8-builtins/blob/main/CHANGES.rst
-Diff: https://github.com/gforcada/flake8-builtins/compare/2.4.0...2.5.0
+    Release: https://pypi.org/pypi/flake8-builtins/2.5.0 \
+    Homepage: https://github.com/gforcada/flake8-builtins \
+    Repository: https://github.com/gforcada/flake8-builtins \
+    Changelog: https://github.com/gforcada/flake8-builtins/blob/main/CHANGES.rst \
+    Diff: https://github.com/gforcada/flake8-builtins/compare/2.4.0...2.5.0
 
-Stubsabot analysis of the diff between the two releases:
- - 0 public Python files have been added.
- - 0 files included in typeshed's stubs have been deleted.
- - 1 file included in typeshed's stubs has been modified or renamed: `flake8_builtins.py`.
- - Total lines of Python code added: 5.
- - Total lines of Python code deleted: 1.
+    Stubsabot analysis of the diff between the two releases:
+     - 0 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 1 file included in typeshed's stubs has been modified or renamed: `flake8_builtins.py`.
+     - Total lines of Python code added: 5.
+     - Total lines of Python code deleted: 1.
 
-## 2.4.0.20240404 (2024-04-04)
+## [2.4.0.20240404](https://pypi.org/project/types-flake8-builtins/2.4.0.20240404/) (2024-04-04)
 
-[stubsabot] Bump flake8-builtins to 2.4.* ([#11697](https://github.com/python/typeshed/pull/11697))
+* Bump flake8-builtins to 2.4.* ([#11697](https://github.com/python/typeshed/pull/11697))
 
-Co-authored-by: stubsabot <>
-Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+    Co-authored-by: stubsabot <> \
+    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## 2.3.0.20240331 (2024-03-31)
+## [2.3.0.20240331](https://pypi.org/project/types-flake8-builtins/2.3.0.20240331/) (2024-03-31)
 
-Update flake8-builtins to 2.3.* ([#11669](https://github.com/python/typeshed/pull/11669))
+* Update flake8-builtins to 2.3.* ([#11669](https://github.com/python/typeshed/pull/11669))
 
-## 2.2.0.0 (2023-11-04)
+## [2.2.0.0](https://pypi.org/project/types-flake8-builtins/2.2.0.0/) (2023-11-04)
 
-[stubsabot] Bump flake8-builtins to 2.2.* ([#10975](https://github.com/python/typeshed/pull/10975))
+* Bump flake8-builtins to 2.2.* ([#10975](https://github.com/python/typeshed/pull/10975))
 
-Release: https://pypi.org/pypi/flake8-builtins/2.2.0
-Homepage: https://github.com/gforcada/flake8-builtins
-Repository: https://github.com/gforcada/flake8-builtins
-Changelog: https://github.com/gforcada/flake8-builtins/blob/main/CHANGES.rst
-Diff: https://github.com/gforcada/flake8-builtins/compare/2.1.0...2.2.0
+    Release: https://pypi.org/pypi/flake8-builtins/2.2.0 \
+    Homepage: https://github.com/gforcada/flake8-builtins \
+    Repository: https://github.com/gforcada/flake8-builtins \
+    Changelog: https://github.com/gforcada/flake8-builtins/blob/main/CHANGES.rst \
+    Diff: https://github.com/gforcada/flake8-builtins/compare/2.1.0...2.2.0
 
-Stubsabot analysis of the diff between the two releases:
- - 0 public Python files have been added.
- - 0 files included in typeshed's stubs have been deleted.
- - 1 file included in typeshed's stubs has been modified or renamed: `flake8_builtins.py`.
- - Total lines of Python code added: 34.
- - Total lines of Python code deleted: 86.
+    Stubsabot analysis of the diff between the two releases:
+     - 0 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 1 file included in typeshed's stubs has been modified or renamed: `flake8_builtins.py`.
+     - Total lines of Python code added: 34.
+     - Total lines of Python code deleted: 86.
 
-If stubtest fails for this PR:
-- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-- Fix stubtest failures in another PR, then close this PR
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
 
-Note that you will need to close and re-open the PR in order to trigger CI
+    Note that you will need to close and re-open the PR in order to trigger CI
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
 ## 2.1.0.3 (2023-07-20)
 

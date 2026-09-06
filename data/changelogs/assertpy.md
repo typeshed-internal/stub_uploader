@@ -1,68 +1,68 @@
-## 1.1.0.20260518 (2026-05-18)
+## [1.1.0.20260518](https://pypi.org/project/types-assertpy/1.1.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 1.1.0.20260508 (2026-05-08)
+## [1.1.0.20260508](https://pypi.org/project/types-assertpy/1.1.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 1.1.0.20260408 (2026-04-08)
+## [1.1.0.20260408](https://pypi.org/project/types-assertpy/1.1.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 1.1.0.20260221 (2026-02-21)
+## [1.1.0.20260221](https://pypi.org/project/types-assertpy/1.1.0.20260221/) (2026-02-21)
 
-[assertpy] Remove spurious `Iterable` from star arguments ([#15441](https://github.com/python/typeshed/pull/15441))
+* Remove spurious `Iterable` from star arguments ([#15441](https://github.com/python/typeshed/pull/15441))
 
-## 1.1.0.20260128 (2026-01-28)
+## [1.1.0.20260128](https://pypi.org/project/types-assertpy/1.1.0.20260128/) (2026-01-28)
 
-[assertpy] Accept extensions with additional parameters ([#15329](https://github.com/python/typeshed/pull/15329))
+* Accept extensions with additional parameters ([#15329](https://github.com/python/typeshed/pull/15329))
 
-## 1.1.0.20251219 (2025-12-19)
+## [1.1.0.20251219](https://pypi.org/project/types-assertpy/1.1.0.20251219/) (2025-12-19)
 
-[assertpy] Replace or explain `Any`s ([#15144](https://github.com/python/typeshed/pull/15144))
+* Replace or explain `Any`s ([#15144](https://github.com/python/typeshed/pull/15144))
 
-## 1.1.0.20250502 (2025-05-02)
+## [1.1.0.20250502](https://pypi.org/project/types-assertpy/1.1.0.20250502/) (2025-05-02)
 
-Correct type of `kwargs` in `assertpy.exception.ExceptionMixin.when_called_with` ([#13903](https://github.com/python/typeshed/pull/13903))
+* Correct type of `kwargs` in `assertpy.exception.ExceptionMixin.when_called_with` ([#13903](https://github.com/python/typeshed/pull/13903))
 
-The keys of `kwargs` dicts are always strings, the type hint is for the values,
-which in this case could be anything.
+    The keys of `kwargs` dicts are always strings, the type hint is for the values,
+    which in this case could be anything.
 
-## 1.1.0.20250407 (2025-04-07)
+## [1.1.0.20250407](https://pypi.org/project/types-assertpy/1.1.0.20250407/) (2025-04-07)
 
-Mark internal stuff in allowlist for `assertpy` ([#13802](https://github.com/python/typeshed/pull/13802))
+* Mark internal stuff in allowlist for `assertpy` ([#13802](https://github.com/python/typeshed/pull/13802))
 
-Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
-## 1.1.0.20240712 (2024-07-12)
+## [1.1.0.20240712](https://pypi.org/project/types-assertpy/1.1.0.20240712/) (2024-07-12)
 
-Update assertpy/string.pyi to correct type of pattern arg ([#12235](https://github.com/python/typeshed/pull/12235))
+* Update assertpy/string.pyi to correct type of pattern arg ([#12235](https://github.com/python/typeshed/pull/12235))
 
-The methods requires the pattern arg to be of type str, not Pattern.
+    The methods requires the pattern arg to be of type str, not Pattern.
 
-Signed-off-by: BJ Hargrave <bj@hargrave.dev>
+    Signed-off-by: BJ Hargrave <bj@hargrave.dev>
 
-## 1.1.0.20240703 (2024-07-03)
+## [1.1.0.20240703](https://pypi.org/project/types-assertpy/1.1.0.20240703/) (2024-07-03)
 
-Update assertpy/extracting.pyi so that kwargs are not required ([#12229](https://github.com/python/typeshed/pull/12229))
+* Update assertpy/extracting.pyi so that kwargs are not required ([#12229](https://github.com/python/typeshed/pull/12229))
 
-The recent change to better type the `sort` and `filter` kwargs had the
-side effect of making them required. So we fix to supply a default
-argument.
+    The recent change to better type the `sort` and `filter` kwargs had the
+    side effect of making them required. So we fix to supply a default
+    argument.
 
-Signed-off-by: BJ Hargrave <bj@hargrave.dev>
+    Signed-off-by: BJ Hargrave <bj@hargrave.dev>
 
-## 1.1.0.20240627 (2024-06-27)
+## [1.1.0.20240627](https://pypi.org/project/types-assertpy/1.1.0.20240627/) (2024-06-27)
 
-assertpy: improve type for extracting ([#12224](https://github.com/python/typeshed/pull/12224))
+* assertpy: improve type for extracting ([#12224](https://github.com/python/typeshed/pull/12224))
 
-Signed-off-by: BJ Hargrave <bj@hargrave.dev>
-Co-authored-by: hauntsaninja <hauntsaninja@gmail.com>
+    Signed-off-by: BJ Hargrave <bj@hargrave.dev> \
+    Co-authored-by: hauntsaninja <hauntsaninja@gmail.com>
 
-## 1.1.0.20240516 (2024-05-16)
+## [1.1.0.20240516](https://pypi.org/project/types-assertpy/1.1.0.20240516/) (2024-05-16)
 
-Add stubs for `assertpy` ([#11916](https://github.com/python/typeshed/pull/11916))
+* Add stubs for `assertpy` ([#11916](https://github.com/python/typeshed/pull/11916))
 

@@ -1,8 +1,8 @@
-## 1.2.0.20240106 (2024-01-06)
+## [1.2.0.20240106](https://pypi.org/project/types-pluggy/1.2.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-Remove Python 3.7 branches ([#11238](https://github.com/python/typeshed/pull/11238))
+* Remove Python 3.7 branches ([#11238](https://github.com/python/typeshed/pull/11238))
 
 ## 1.2.0.2 (2023-08-27)
 

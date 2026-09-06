@@ -1,82 +1,82 @@
-## 6.0.3.20260712 (2026-07-12)
+## [6.0.3.20260712](https://pypi.org/project/types-Flask-Cors/6.0.3.20260712/) (2026-07-12)
 
-Structured obsolete_since fields ([#15682](https://github.com/python/typeshed/pull/15682))
+* Structured obsolete_since fields ([#15682](https://github.com/python/typeshed/pull/15682))
 
-## 6.0.3.20260616 (2026-06-16)
+## [6.0.3.20260616](https://pypi.org/project/types-Flask-Cors/6.0.3.20260616/) (2026-06-16)
 
-[Flask-Cors] Update type annotation for origins to also allow Pattern ([#15825](https://github.com/python/typeshed/pull/15825))
+* Update type annotation for origins to also allow Pattern ([#15825](https://github.com/python/typeshed/pull/15825))
 
-## 6.0.3.20260609 (2026-06-09)
+## [6.0.3.20260609](https://pypi.org/project/types-Flask-Cors/6.0.3.20260609/) (2026-06-09)
 
-[Flask-Cors] Mark as obsolete since 6.0.4 and pin to 6.0.3 ([#15880](https://github.com/python/typeshed/pull/15880))
+* Mark as obsolete since 6.0.4 and pin to 6.0.3 ([#15880](https://github.com/python/typeshed/pull/15880))
 
-## 6.0.3.20260608 (2026-06-08)
+## [6.0.3.20260608](https://pypi.org/project/types-Flask-Cors/6.0.3.20260608/) (2026-06-08)
 
-[Flask-Cors] Update to 6.0.3 ([#15875](https://github.com/python/typeshed/pull/15875))
+* Update to 6.0.3 ([#15875](https://github.com/python/typeshed/pull/15875))
 
-## 6.0.0.20260518 (2026-05-18)
+## [6.0.0.20260518](https://pypi.org/project/types-Flask-Cors/6.0.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 6.0.0.20260508 (2026-05-08)
+## [6.0.0.20260508](https://pypi.org/project/types-Flask-Cors/6.0.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 6.0.0.20260408 (2026-04-08)
+## [6.0.0.20260408](https://pypi.org/project/types-Flask-Cors/6.0.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 6.0.0.20260402 (2026-04-02)
+## [6.0.0.20260402](https://pypi.org/project/types-Flask-Cors/6.0.0.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-## 6.0.0.20250809 (2025-08-09)
+## [6.0.0.20250809](https://pypi.org/project/types-Flask-Cors/6.0.0.20250809/) (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 6.0.0.20250520 (2025-05-20)
+## [6.0.0.20250520](https://pypi.org/project/types-Flask-Cors/6.0.0.20250520/) (2025-05-20)
 
-Bump Flask-Cors to 6.0.* ([#14097](https://github.com/python/typeshed/pull/14097))
+* Bump Flask-Cors to 6.0.* ([#14097](https://github.com/python/typeshed/pull/14097))
 
-## 5.0.0.20250413 (2025-04-13)
+## [5.0.0.20250413](https://pypi.org/project/types-Flask-Cors/5.0.0.20250413/) (2025-04-13)
 
-Mark `Flask-Cors` as complete ([#13820](https://github.com/python/typeshed/pull/13820))
+* Mark `Flask-Cors` as complete ([#13820](https://github.com/python/typeshed/pull/13820))
 
-## 5.0.0.20240902 (2024-09-02)
+## [5.0.0.20240902](https://pypi.org/project/types-Flask-Cors/5.0.0.20240902/) (2024-09-02)
 
-[stubsabot] Bump Flask-Cors to 5.0.* ([#12609](https://github.com/python/typeshed/pull/12609))
+* Bump Flask-Cors to 5.0.* ([#12609](https://github.com/python/typeshed/pull/12609))
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 4.0.0.20240828 (2024-08-28)
+## [4.0.0.20240828](https://pypi.org/project/types-Flask-Cors/4.0.0.20240828/) (2024-08-28)
 
-[Flask-Cors] Mark constants using `Final` ([#12596](https://github.com/python/typeshed/pull/12596))
+* Mark constants using `Final` ([#12596](https://github.com/python/typeshed/pull/12596))
 
-## 4.0.0.20240825 (2024-08-25)
+## [4.0.0.20240825](https://pypi.org/project/types-Flask-Cors/4.0.0.20240825/) (2024-08-25)
 
-Add missing constants to flask-cors stubs ([#12585](https://github.com/python/typeshed/pull/12585))
+* Add missing constants to flask-cors stubs ([#12585](https://github.com/python/typeshed/pull/12585))
 
-## 4.0.0.20240806 (2024-08-06)
+## [4.0.0.20240806](https://pypi.org/project/types-Flask-Cors/4.0.0.20240806/) (2024-08-06)
 
-Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
+* Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
 
-## 4.0.0.20240523 (2024-05-23)
+## [4.0.0.20240523](https://pypi.org/project/types-Flask-Cors/4.0.0.20240523/) (2024-05-23)
 
-[Flask-Cors] accepts flask blueprints ([#11995](https://github.com/python/typeshed/pull/11995))
+* accepts flask blueprints ([#11995](https://github.com/python/typeshed/pull/11995))
 
-## 4.0.0.20240405 (2024-04-05)
+## [4.0.0.20240405](https://pypi.org/project/types-Flask-Cors/4.0.0.20240405/) (2024-04-05)
 
-Improve `flask-cors` stubs ([#11708](https://github.com/python/typeshed/pull/11708))
+* Improve `flask-cors` stubs ([#11708](https://github.com/python/typeshed/pull/11708))
 
-## 4.0.0.20240106 (2024-01-06)
+## [4.0.0.20240106](https://pypi.org/project/types-Flask-Cors/4.0.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## 4.0.0.2 (2023-11-24)
+## [4.0.0.2](https://pypi.org/project/types-Flask-Cors/4.0.0.2/) (2023-11-24)
 
-Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
+* Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
 
 ## 4.0.0.1 (2023-07-20)
 

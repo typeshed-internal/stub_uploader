@@ -1,14 +1,14 @@
-## 1.7.0.20260408 (2026-04-08)
+## [1.7.0.20260408](https://pypi.org/project/types-flake8-docstrings/1.7.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 1.7.0.20260402 (2026-04-02)
+## [1.7.0.20260402](https://pypi.org/project/types-flake8-docstrings/1.7.0.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-## 1.7.0.20250425 (2025-04-25)
+## [1.7.0.20250425](https://pypi.org/project/types-flake8-docstrings/1.7.0.20250425/) (2025-04-25)
 
-Complete `flake8-docstrings` ([#13872](https://github.com/python/typeshed/pull/13872))
+* Complete `flake8-docstrings` ([#13872](https://github.com/python/typeshed/pull/13872))
 
 ## 1.7.0.3 (2023-07-20)
 

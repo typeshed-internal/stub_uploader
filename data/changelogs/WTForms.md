@@ -1,99 +1,99 @@
-## 3.2.1.20260518 (2026-05-18)
+## [3.2.1.20260518](https://pypi.org/project/types-WTForms/3.2.1.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 3.2.1.20260508 (2026-05-08)
+## [3.2.1.20260508](https://pypi.org/project/types-WTForms/3.2.1.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 3.2.1.20260408 (2026-04-08)
+## [3.2.1.20260408](https://pypi.org/project/types-WTForms/3.2.1.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 3.2.1.20260402 (2026-04-02)
+## [3.2.1.20260402](https://pypi.org/project/types-WTForms/3.2.1.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+* Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
 
-## 3.2.1.20260312 (2026-03-12)
+## [3.2.1.20260312](https://pypi.org/project/types-WTForms/3.2.1.20260312/) (2026-03-12)
 
-[wtforms] Fix variance issues with SelectField.choices ([#15503](https://github.com/python/typeshed/pull/15503))
+* Fix variance issues with SelectField.choices ([#15503](https://github.com/python/typeshed/pull/15503))
 
-## 3.2.1.20250809 (2025-08-09)
+## [3.2.1.20250809](https://pypi.org/project/types-WTForms/3.2.1.20250809/) (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 3.2.1.20250602 (2025-06-02)
+## [3.2.1.20250602](https://pypi.org/project/types-WTForms/3.2.1.20250602/) (2025-06-02)
 
-Update mypy to 1.16.0 ([#14194](https://github.com/python/typeshed/pull/14194))
+* Update mypy to 1.16.0 ([#14194](https://github.com/python/typeshed/pull/14194))
 
-Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
-Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+    Co-authored-by: Sebastian Rittau <srittau@rittau.biz> \
+    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## 3.2.1.20250401 (2025-04-01)
+## [3.2.1.20250401](https://pypi.org/project/types-WTForms/3.2.1.20250401/) (2025-04-01)
 
-Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
+* Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
 
----------
+    ---------
 
-Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com>
 
-## 3.2.1.20250304 (2025-03-04)
+## [3.2.1.20250304](https://pypi.org/project/types-WTForms/3.2.1.20250304/) (2025-03-04)
 
-Enable Ruff PLC (Pylint Convention) ([#13306](https://github.com/python/typeshed/pull/13306))
+* Enable Ruff PLC (Pylint Convention) ([#13306](https://github.com/python/typeshed/pull/13306))
 
-## 3.2.1.20241221 (2024-12-21)
+## [3.2.1.20241221](https://pypi.org/project/types-WTForms/3.2.1.20241221/) (2024-12-21)
 
-Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
-## 3.2.1.20241025 (2024-10-25)
+## [3.2.1.20241025](https://pypi.org/project/types-WTForms/3.2.1.20241025/) (2024-10-25)
 
-WTForms: Form errors no longer use `None` as a special key ([#12877](https://github.com/python/typeshed/pull/12877))
+* WTForms: Form errors no longer use `None` as a special key ([#12877](https://github.com/python/typeshed/pull/12877))
 
-This also fixes incorrect `error` attributes on `FieldList`/`FormField`
+    This also fixes incorrect `error` attributes on `FieldList`/`FormField`
 
-## 3.2.1.20241023 (2024-10-23)
+## [3.2.1.20241023](https://pypi.org/project/types-WTForms/3.2.1.20241023/) (2024-10-23)
 
-WTForms: Fix incorrect `Form` constructor return type for pyright ([#12875](https://github.com/python/typeshed/pull/12875))
+* WTForms: Fix incorrect `Form` constructor return type for pyright ([#12875](https://github.com/python/typeshed/pull/12875))
 
-## 3.2.1.20241022 (2024-10-22)
+## [3.2.1.20241022](https://pypi.org/project/types-WTForms/3.2.1.20241022/) (2024-10-22)
 
-Bump WTForms to ~= 3.2.1 ([#12867](https://github.com/python/typeshed/pull/12867))
+* Bump WTForms to ~= 3.2.1 ([#12867](https://github.com/python/typeshed/pull/12867))
 
-Bump WTForms to 3.2.* ([#12865](https://github.com/python/typeshed/pull/12865))
+* Bump WTForms to 3.2.* ([#12865](https://github.com/python/typeshed/pull/12865))
 
-Add missing `__all__` declarations
+    Add missing `__all__` declarations
 
-## 3.1.0.20240425 (2024-04-25)
+## [3.1.0.20240425](https://pypi.org/project/types-WTForms/3.1.0.20240425/) (2024-04-25)
 
-Bump pyright to v1.1.360 ([#11810](https://github.com/python/typeshed/pull/11810))
+* Bump pyright to v1.1.360 ([#11810](https://github.com/python/typeshed/pull/11810))
 
-## 3.1.0.20240311 (2024-03-11)
+## [3.1.0.20240311](https://pypi.org/project/types-WTForms/3.1.0.20240311/) (2024-03-11)
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## 3.1.0.20240301 (2024-03-01)
+## [3.1.0.20240301](https://pypi.org/project/types-WTForms/3.1.0.20240301/) (2024-03-01)
 
-Fix invalid noqa comments and poorly formatted type ignores ([#11497](https://github.com/python/typeshed/pull/11497))
+* Fix invalid noqa comments and poorly formatted type ignores ([#11497](https://github.com/python/typeshed/pull/11497))
 
-## 3.1.0.20240205 (2024-02-05)
+## [3.1.0.20240205](https://pypi.org/project/types-WTForms/3.1.0.20240205/) (2024-02-05)
 
-A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
+* A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
 
-## 3.1.0.20240106 (2024-01-06)
+## [3.1.0.20240106](https://pypi.org/project/types-WTForms/3.1.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## 3.1.0.2 (2023-11-24)
+## [3.1.0.2](https://pypi.org/project/types-WTForms/3.1.0.2/) (2023-11-24)
 
-Fix typos in docs and comments ([#11064](https://github.com/python/typeshed/pull/11064))
+* Fix typos in docs and comments ([#11064](https://github.com/python/typeshed/pull/11064))
 
-## 3.1.0.1 (2023-11-11)
+## [3.1.0.1](https://pypi.org/project/types-WTForms/3.1.0.1/) (2023-11-11)
 
-third-party: make some protocol params pos-only ([#11006](https://github.com/python/typeshed/pull/11006))
+* third-party: make some protocol params pos-only ([#11006](https://github.com/python/typeshed/pull/11006))
 
 ## 3.1.0.0 (2023-10-12)
 

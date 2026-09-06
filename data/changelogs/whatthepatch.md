@@ -1,22 +1,22 @@
-## 1.0.2.20260519 (2026-05-19)
+## [1.0.2.20260519](https://pypi.org/project/types-whatthepatch/1.0.2.20260519/) (2026-05-19)
 
-[whatthepatch] Fix `Change.line` type ([#15796](https://github.com/python/typeshed/pull/15796))
+* Fix `Change.line` type ([#15796](https://github.com/python/typeshed/pull/15796))
 
-## 1.0.2.20260408 (2026-04-08)
+## [1.0.2.20260408](https://pypi.org/project/types-whatthepatch/1.0.2.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 1.0.2.20250401 (2025-04-01)
+## [1.0.2.20250401](https://pypi.org/project/types-whatthepatch/1.0.2.20250401/) (2025-04-01)
 
-Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
+* Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
 
----------
+    ---------
 
-Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com>
 
-## 1.0.2.20241221 (2024-12-21)
+## [1.0.2.20241221](https://pypi.org/project/types-whatthepatch/1.0.2.20241221/) (2024-12-21)
 
-Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
 ## 1.0.2.5 (2023-07-20)
 

@@ -1,18 +1,18 @@
-## 3.0.1.20250514 (2025-05-14)
+## [3.0.1.20250514](https://pypi.org/project/types-python-datemath/3.0.1.20250514/) (2025-05-14)
 
-Replace incomplete module markers ([#14030](https://github.com/python/typeshed/pull/14030))
+* Replace incomplete module markers ([#14030](https://github.com/python/typeshed/pull/14030))
 
-## 3.0.1.20240913 (2024-09-13)
+## [3.0.1.20240913](https://pypi.org/project/types-python-datemath/3.0.1.20240913/) (2024-09-13)
 
-[python-datemath] Pin and mark as obsolete ([#12645](https://github.com/python/typeshed/pull/12645))
+* Pin and mark as obsolete ([#12645](https://github.com/python/typeshed/pull/12645))
 
-Closes: #12640
+    Closes: #12640
 
-## 3.0.0.20240902 (2024-09-02)
+## [3.0.0.20240902](https://pypi.org/project/types-python-datemath/3.0.0.20240902/) (2024-09-02)
 
-[stubsabot] Bump python-datemath to 3.0.* ([#12583](https://github.com/python/typeshed/pull/12583))
+* Bump python-datemath to 3.0.* ([#12583](https://github.com/python/typeshed/pull/12583))
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
 ## 1.5.0.4 (2023-07-20)
 

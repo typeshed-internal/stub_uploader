@@ -2,46 +2,46 @@
 
 * Run Pyrefly on typeshed stubs in CI ([#16155](https://github.com/python/typeshed/pull/16155))
 
-## 17.0.0.20260518 (2026-05-18)
+## [17.0.0.20260518](https://pypi.org/project/types-workalendar/17.0.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 17.0.0.20260508 (2026-05-08)
+## [17.0.0.20260508](https://pypi.org/project/types-workalendar/17.0.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 17.0.0.20260408 (2026-04-08)
+## [17.0.0.20260408](https://pypi.org/project/types-workalendar/17.0.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 17.0.0.20250827 (2025-08-27)
+## [17.0.0.20250827](https://pypi.org/project/types-workalendar/17.0.0.20250827/) (2025-08-27)
 
-[workalendar] Improve stubs ([#14639](https://github.com/python/typeshed/pull/14639))
+* Improve stubs ([#14639](https://github.com/python/typeshed/pull/14639))
 
-## 17.0.0.20250602 (2025-06-02)
+## [17.0.0.20250602](https://pypi.org/project/types-workalendar/17.0.0.20250602/) (2025-06-02)
 
-Update mypy to 1.16.0 ([#14194](https://github.com/python/typeshed/pull/14194))
+* Update mypy to 1.16.0 ([#14194](https://github.com/python/typeshed/pull/14194))
 
-Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
-Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+    Co-authored-by: Sebastian Rittau <srittau@rittau.biz> \
+    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## 17.0.0.20250516 (2025-05-16)
+## [17.0.0.20250516](https://pypi.org/project/types-workalendar/17.0.0.20250516/) (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## 17.0.0.20250401 (2025-04-01)
+## [17.0.0.20250401](https://pypi.org/project/types-workalendar/17.0.0.20250401/) (2025-04-01)
 
-Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
+* Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
 
----------
+    ---------
 
-Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com>
 
-## 17.0.0.20241221 (2024-12-21)
+## [17.0.0.20241221](https://pypi.org/project/types-workalendar/17.0.0.20241221/) (2024-12-21)
 
-Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
 ## 17.0.0.0 (2023-08-25)
 

@@ -2,91 +2,91 @@
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
 
-## 3.3.0.20260518 (2026-05-18)
+## [3.3.0.20260518](https://pypi.org/project/types-oauthlib/3.3.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 3.3.0.20260508 (2026-05-08)
+## [3.3.0.20260508](https://pypi.org/project/types-oauthlib/3.3.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 3.3.0.20260408 (2026-04-08)
+## [3.3.0.20260408](https://pypi.org/project/types-oauthlib/3.3.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 3.3.0.20260324 (2026-03-24)
+## [3.3.0.20260324](https://pypi.org/project/types-oauthlib/3.3.0.20260324/) (2026-03-24)
 
-[oauthlib] Use Incomplete instead of Any ([#15547](https://github.com/python/typeshed/pull/15547))
+* Use Incomplete instead of Any ([#15547](https://github.com/python/typeshed/pull/15547))
 
-## 3.3.0.20250822 (2025-08-22)
+## [3.3.0.20250822](https://pypi.org/project/types-oauthlib/3.3.0.20250822/) (2025-08-22)
 
-Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+* Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
 
-## 3.3.0.20250814 (2025-08-14)
+## [3.3.0.20250814](https://pypi.org/project/types-oauthlib/3.3.0.20250814/) (2025-08-14)
 
-[oauthlib] Fix create_token_response() body argument type ([#14570](https://github.com/python/typeshed/pull/14570))
+* Fix create_token_response() body argument type ([#14570](https://github.com/python/typeshed/pull/14570))
 
-## 3.3.0.20250809 (2025-08-09)
+## [3.3.0.20250809](https://pypi.org/project/types-oauthlib/3.3.0.20250809/) (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 3.3.0.20250708 (2025-07-08)
+## [3.3.0.20250708](https://pypi.org/project/types-oauthlib/3.3.0.20250708/) (2025-07-08)
 
-[oauthlib] Add missing stubs ([#14301](https://github.com/python/typeshed/pull/14301))
+* Add missing stubs ([#14301](https://github.com/python/typeshed/pull/14301))
 
-[oauthlib] Fix type on body argument of oauthlib.oauth1.Client.sign() ([#14295](https://github.com/python/typeshed/pull/14295))
+* Fix type on body argument of oauthlib.oauth1.Client.sign() ([#14295](https://github.com/python/typeshed/pull/14295))
 
-## 3.3.0.20250703 (2025-07-03)
+## [3.3.0.20250703](https://pypi.org/project/types-oauthlib/3.3.0.20250703/) (2025-07-03)
 
-Make Mapping.get(default) more constrained ([#14360](https://github.com/python/typeshed/pull/14360))
+* Make Mapping.get(default) more constrained ([#14360](https://github.com/python/typeshed/pull/14360))
 
-## 3.3.0.20250622 (2025-06-22)
+## [3.3.0.20250622](https://pypi.org/project/types-oauthlib/3.3.0.20250622/) (2025-06-22)
 
-Bump oauthlib to 3.3.* ([#14300](https://github.com/python/typeshed/pull/14300))
+* Bump oauthlib to 3.3.* ([#14300](https://github.com/python/typeshed/pull/14300))
 
-## 3.2.0.20250516 (2025-05-16)
+## [3.2.0.20250516](https://pypi.org/project/types-oauthlib/3.2.0.20250516/) (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## 3.2.0.20250514 (2025-05-14)
+## [3.2.0.20250514](https://pypi.org/project/types-oauthlib/3.2.0.20250514/) (2025-05-14)
 
-Improve `oauthlib.oauth2.rfc6749` ([#13965](https://github.com/python/typeshed/pull/13965))
+* Improve `oauthlib.oauth2.rfc6749` ([#13965](https://github.com/python/typeshed/pull/13965))
 
-Improve `oauthlib.openid.connect.core` ([#13966](https://github.com/python/typeshed/pull/13966))
+* Improve `oauthlib.openid.connect.core` ([#13966](https://github.com/python/typeshed/pull/13966))
 
-## 3.2.0.20250408 (2025-04-08)
+## [3.2.0.20250408](https://pypi.org/project/types-oauthlib/3.2.0.20250408/) (2025-04-08)
 
-Improve `oauthlib.oauth2.rfc6749` ([#13793](https://github.com/python/typeshed/pull/13793))
+* Improve `oauthlib.oauth2.rfc6749` ([#13793](https://github.com/python/typeshed/pull/13793))
 
-Improve `oauthlib` ([#13794](https://github.com/python/typeshed/pull/13794))
+* Improve `oauthlib` ([#13794](https://github.com/python/typeshed/pull/13794))
 
-## 3.2.0.20250403 (2025-04-03)
+## [3.2.0.20250403](https://pypi.org/project/types-oauthlib/3.2.0.20250403/) (2025-04-03)
 
-Improve stubs for `oauthlib.oauth2.rfc6749` ([#13752](https://github.com/python/typeshed/pull/13752))
+* Improve stubs for `oauthlib.oauth2.rfc6749` ([#13752](https://github.com/python/typeshed/pull/13752))
 
-## 3.2.0.20250401 (2025-04-01)
+## [3.2.0.20250401](https://pypi.org/project/types-oauthlib/3.2.0.20250401/) (2025-04-01)
 
-Improve `oauthlib.common` ([#13744](https://github.com/python/typeshed/pull/13744))
+* Improve `oauthlib.common` ([#13744](https://github.com/python/typeshed/pull/13744))
 
-## 3.2.0.20240806 (2024-08-06)
+## [3.2.0.20240806](https://pypi.org/project/types-oauthlib/3.2.0.20240806/) (2024-08-06)
 
-Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
+* Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
 
-## 3.2.0.20240217 (2024-02-17)
+## [3.2.0.20240217](https://pypi.org/project/types-oauthlib/3.2.0.20240217/) (2024-02-17)
 
-oauthlib: Fix annotations for `oauthlib.oauth2.RequestValidator` ([#11417](https://github.com/python/typeshed/pull/11417))
+* oauthlib: Fix annotations for `oauthlib.oauth2.RequestValidator` ([#11417](https://github.com/python/typeshed/pull/11417))
 
-## 3.2.0.20240124 (2024-01-24)
+## [3.2.0.20240124](https://pypi.org/project/types-oauthlib/3.2.0.20240124/) (2024-01-24)
 
-[oauthlib] Fix return types of `Client` methods ([#9908](https://github.com/python/typeshed/pull/9908))
+* Fix return types of `Client` methods ([#9908](https://github.com/python/typeshed/pull/9908))
 
-## 3.2.0.20240105 (2024-01-05)
+## [3.2.0.20240105](https://pypi.org/project/types-oauthlib/3.2.0.20240105/) (2024-01-05)
 
-Add support for the refresh_token grant type (RefreshTokenGrant) (#11… ([#11206](https://github.com/python/typeshed/pull/11206))
+* Add support for the refresh_token grant type (RefreshTokenGrant) (#11… ([#11206](https://github.com/python/typeshed/pull/11206))
 
-Add support for the refresh_token grant type (RefreshTokenGrant).
+    Add support for the refresh_token grant type (RefreshTokenGrant).
 
 ## 3.2.0.10 (2023-09-18)
 

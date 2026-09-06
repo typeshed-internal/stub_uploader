@@ -1,124 +1,124 @@
-## 3.10.2.20260712 (2026-07-12)
+## [3.10.2.20260712](https://pypi.org/project/types-Markdown/3.10.2.20260712/) (2026-07-12)
 
-Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))
+* Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))
 
-Class members such as list, type, cursor, Model, and datetime shadow the builtins, classes, or modules referenced by nearby annotations. ty then resolves those annotations to Unknown, which can hide invalid calls in APIs including docker, sqlite3, psycopg2, Markdown, and requests.
+    Class members such as list, type, cursor, Model, and datetime shadow the builtins, classes, or modules referenced by nearby annotations. ty then resolves those annotations to Unknown, which can hide invalid calls in APIs including docker, sqlite3, psycopg2, Markdown, and requests.
 
-Qualify shadowed builtins and use private aliases for colliding imports and classes. This removes 15 stdlib and 120 third-party collision diagnostics under ty 0.0.58, restores the affected public types, and fixes four existing psycopg2 type assertions.
+    Qualify shadowed builtins and use private aliases for colliding imports and classes. This removes 15 stdlib and 120 third-party collision diagnostics under ty 0.0.58, restores the affected public types, and fixes four existing psycopg2 type assertions.
 
-## 3.10.2.20260518 (2026-05-18)
+## [3.10.2.20260518](https://pypi.org/project/types-Markdown/3.10.2.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 3.10.2.20260508 (2026-05-08)
+## [3.10.2.20260508](https://pypi.org/project/types-Markdown/3.10.2.20260508/) (2026-05-08)
 
-Drop 3.9 support for third-party packages ([#15707](https://github.com/python/typeshed/pull/15707))
+* Drop 3.9 support for third-party packages ([#15707](https://github.com/python/typeshed/pull/15707))
 
-Inline some unnecessary type aliases
+    Inline some unnecessary type aliases
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 3.10.2.20260408 (2026-04-08)
+## [3.10.2.20260408](https://pypi.org/project/types-Markdown/3.10.2.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 3.10.2.20260211 (2026-02-11)
+## [3.10.2.20260211](https://pypi.org/project/types-Markdown/3.10.2.20260211/) (2026-02-11)
 
-[Markdown] Update to 3.10.2 ([#15414](https://github.com/python/typeshed/pull/15414))
+* Update to 3.10.2 ([#15414](https://github.com/python/typeshed/pull/15414))
 
-## 3.10.0.20251106 (2025-11-06)
+## [3.10.0.20251106](https://pypi.org/project/types-Markdown/3.10.0.20251106/) (2025-11-06)
 
-[Markdown] Update to 3.10.* ([#14978](https://github.com/python/typeshed/pull/14978))
+* Update to 3.10.* ([#14978](https://github.com/python/typeshed/pull/14978))
 
-## 3.9.0.20250906 (2025-09-06)
+## [3.9.0.20250906](https://pypi.org/project/types-Markdown/3.9.0.20250906/) (2025-09-06)
 
-[Markdown] Update to 3.9.* ([#14676](https://github.com/python/typeshed/pull/14676))
+* Update to 3.9.* ([#14676](https://github.com/python/typeshed/pull/14676))
 
-## 3.8.0.20250809 (2025-08-09)
+## [3.8.0.20250809](https://pypi.org/project/types-Markdown/3.8.0.20250809/) (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 3.8.0.20250708 (2025-07-08)
+## [3.8.0.20250708](https://pypi.org/project/types-Markdown/3.8.0.20250708/) (2025-07-08)
 
-[Markdown] Add missing stubs ([#14285](https://github.com/python/typeshed/pull/14285))
+* Add missing stubs ([#14285](https://github.com/python/typeshed/pull/14285))
 
-## 3.8.0.20250415 (2025-04-15)
+## [3.8.0.20250415](https://pypi.org/project/types-Markdown/3.8.0.20250415/) (2025-04-15)
 
-Annotate `markdown.util.get_installed_extensions` ([#13822](https://github.com/python/typeshed/pull/13822))
+* Annotate `markdown.util.get_installed_extensions` ([#13822](https://github.com/python/typeshed/pull/13822))
 
-## 3.8.0.20250413 (2025-04-13)
+## [3.8.0.20250413](https://pypi.org/project/types-Markdown/3.8.0.20250413/) (2025-04-13)
 
-[stubsabot] Bump Markdown to 3.8.* ([#13819](https://github.com/python/typeshed/pull/13819))
+* Bump Markdown to 3.8.* ([#13819](https://github.com/python/typeshed/pull/13819))
 
-Release: https://pypi.org/pypi/Markdown/3.8
-Homepage: https://Python-Markdown.github.io/
-Repository: https://github.com/Python-Markdown/markdown
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Markdown
-Changelog: https://python-markdown.github.io/changelog/
-Diff: https://github.com/Python-Markdown/markdown/compare/3.7...3.8
+    Release: https://pypi.org/pypi/Markdown/3.8 \
+    Homepage: https://Python-Markdown.github.io/ \
+    Repository: https://github.com/Python-Markdown/markdown \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Markdown \
+    Changelog: https://python-markdown.github.io/changelog/ \
+    Diff: https://github.com/Python-Markdown/markdown/compare/3.7...3.8
 
-Stubsabot analysis of the diff between the two releases:
- - 0 public Python files have been added.
- - 0 files included in typeshed's stubs have been deleted.
- - 12 files included in typeshed's stubs have been modified or renamed.
- - Total lines of Python code added: 730.
- - Total lines of Python code deleted: 103.
+    Stubsabot analysis of the diff between the two releases:
+     - 0 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 12 files included in typeshed's stubs have been modified or renamed.
+     - Total lines of Python code added: 730.
+     - Total lines of Python code deleted: 103.
 
-If stubtest fails for this PR:
-- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-- Fix stubtest failures in another PR, then close this PR
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
 
-Note that you will need to close and re-open the PR in order to trigger CI
+    Note that you will need to close and re-open the PR in order to trigger CI
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 3.7.0.20250322 (2025-03-22)
+## [3.7.0.20250322](https://pypi.org/project/types-Markdown/3.7.0.20250322/) (2025-03-22)
 
-Clarify sequences for `markdown` stubs ([#13686](https://github.com/python/typeshed/pull/13686))
+* Clarify sequences for `markdown` stubs ([#13686](https://github.com/python/typeshed/pull/13686))
 
-## 3.7.0.20241204 (2024-12-04)
+## [3.7.0.20241204](https://pypi.org/project/types-Markdown/3.7.0.20241204/) (2024-12-04)
 
-Use _ReadableStream from codecs ([#13167](https://github.com/python/typeshed/pull/13167))
+* Use _ReadableStream from codecs ([#13167](https://github.com/python/typeshed/pull/13167))
 
-## 3.7.0.20240822 (2024-08-22)
+## [3.7.0.20240822](https://pypi.org/project/types-Markdown/3.7.0.20240822/) (2024-08-22)
 
-Bump Markdown to 3.7.* ([#12565](https://github.com/python/typeshed/pull/12565))
+* Bump Markdown to 3.7.* ([#12565](https://github.com/python/typeshed/pull/12565))
 
-Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
-Co-authored-by: Sebastian Rittau <srittau@rittau.biz>
-Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com> \
+    Co-authored-by: Sebastian Rittau <srittau@rittau.biz> \
+    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
-## 3.6.0.20240316 (2024-03-16)
+## [3.6.0.20240316](https://pypi.org/project/types-Markdown/3.6.0.20240316/) (2024-03-16)
 
-[Markdown] Bump to 3.6.* ([#11607](https://github.com/python/typeshed/pull/11607))
+* Bump to 3.6.* ([#11607](https://github.com/python/typeshed/pull/11607))
 
-## 3.5.0.20240311 (2024-03-11)
+## [3.5.0.20240311](https://pypi.org/project/types-Markdown/3.5.0.20240311/) (2024-03-11)
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## 3.5.0.20240129 (2024-01-29)
+## [3.5.0.20240129](https://pypi.org/project/types-Markdown/3.5.0.20240129/) (2024-01-29)
 
-markdown: Restore wrongly deleted DoubleTagPattern ([#11335](https://github.com/python/typeshed/pull/11335))
+* markdown: Restore wrongly deleted DoubleTagPattern ([#11335](https://github.com/python/typeshed/pull/11335))
 
-## 3.5.0.20240106 (2024-01-06)
+## [3.5.0.20240106](https://pypi.org/project/types-Markdown/3.5.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## 3.5.0.3 (2023-11-16)
+## [3.5.0.3](https://pypi.org/project/types-Markdown/3.5.0.3/) (2023-11-16)
 
-Various improvements to `Markdown` stubs ([#10972](https://github.com/python/typeshed/pull/10972))
+* Various improvements to `Markdown` stubs ([#10972](https://github.com/python/typeshed/pull/10972))
 
-## 3.5.0.2 (2023-11-15)
+## [3.5.0.2](https://pypi.org/project/types-Markdown/3.5.0.2/) (2023-11-15)
 
-markdown: Accept legacy `Pattern` in `inlinePatterns` registry ([#11027](https://github.com/python/typeshed/pull/11027))
+* markdown: Accept legacy `Pattern` in `inlinePatterns` registry ([#11027](https://github.com/python/typeshed/pull/11027))
 
-Signed-off-by: Anders Kaseorg <andersk@mit.edu>
+    Signed-off-by: Anders Kaseorg <andersk@mit.edu>
 
-## 3.5.0.1 (2023-11-03)
+## [3.5.0.1](https://pypi.org/project/types-Markdown/3.5.0.1/) (2023-11-03)
 
-Various improvements to `Markdown` stubs ([#10963](https://github.com/python/typeshed/pull/10963))
+* Various improvements to `Markdown` stubs ([#10963](https://github.com/python/typeshed/pull/10963))
 
 ## 3.5.0.0 (2023-10-07)
 

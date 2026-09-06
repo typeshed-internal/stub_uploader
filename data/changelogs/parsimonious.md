@@ -2,31 +2,31 @@
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
 
-## 0.11.0.20260508 (2026-05-08)
+## [0.11.0.20260508](https://pypi.org/project/types-parsimonious/0.11.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 0.11.0.20260408 (2026-04-08)
+## [0.11.0.20260408](https://pypi.org/project/types-parsimonious/0.11.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 0.11.0.20251114 (2025-11-14)
+## [0.11.0.20251114](https://pypi.org/project/types-parsimonious/0.11.0.20251114/) (2025-11-14)
 
-[parsimonious] Update to 0.11.* ([#15021](https://github.com/python/typeshed/pull/15021))
+* Update to 0.11.* ([#15021](https://github.com/python/typeshed/pull/15021))
 
-## 0.10.0.20250822 (2025-08-22)
+## [0.10.0.20250822](https://pypi.org/project/types-parsimonious/0.10.0.20250822/) (2025-08-22)
 
-Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+* Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
 
-## 0.10.0.20240331 (2024-03-31)
+## [0.10.0.20240331](https://pypi.org/project/types-parsimonious/0.10.0.20240331/) (2024-03-31)
 
-Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
+* Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
 
-## 0.10.0.10 (2023-11-24)
+## [0.10.0.10](https://pypi.org/project/types-parsimonious/0.10.0.10/) (2023-11-24)
 
-Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
+* Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
 
 ## 0.10.0.9 (2023-07-20)
 

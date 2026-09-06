@@ -1,122 +1,122 @@
-## 6.3.2.20260712 (2026-07-12)
+## [6.3.2.20260712](https://pypi.org/project/types-icalendar/6.3.2.20260712/) (2026-07-12)
 
-Structured obsolete_since fields ([#15682](https://github.com/python/typeshed/pull/15682))
+* Structured obsolete_since fields ([#15682](https://github.com/python/typeshed/pull/15682))
 
-## 6.3.2.20260518 (2026-05-18)
+## [6.3.2.20260518](https://pypi.org/project/types-icalendar/6.3.2.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 6.3.2.20260508 (2026-05-08)
+## [6.3.2.20260508](https://pypi.org/project/types-icalendar/6.3.2.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 6.3.2.20260408 (2026-04-08)
+## [6.3.2.20260408](https://pypi.org/project/types-icalendar/6.3.2.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 6.3.2.20260402 (2026-04-02)
+## [6.3.2.20260402](https://pypi.org/project/types-icalendar/6.3.2.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+* Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
 
-## 6.3.2.20260223 (2026-02-23)
+## [6.3.2.20260223](https://pypi.org/project/types-icalendar/6.3.2.20260223/) (2026-02-23)
 
-Add missing __slots__ to third-party packages ([#15454](https://github.com/python/typeshed/pull/15454))
+* Add missing __slots__ to third-party packages ([#15454](https://github.com/python/typeshed/pull/15454))
 
-## 6.3.2.20260213 (2026-02-13)
+## [6.3.2.20260213](https://pypi.org/project/types-icalendar/6.3.2.20260213/) (2026-02-13)
 
-[stubsabot] Mark icalendar as obsolete since 7.0.0 ([#15419](https://github.com/python/typeshed/pull/15419))
+* Mark icalendar as obsolete since 7.0.0 ([#15419](https://github.com/python/typeshed/pull/15419))
 
-## 6.3.2.20251222 (2025-12-22)
+## [6.3.2.20251222](https://pypi.org/project/types-icalendar/6.3.2.20251222/) (2025-12-22)
 
-[icalendar] Use stricter pyright settings ([#15159](https://github.com/python/typeshed/pull/15159))
+* Use stricter pyright settings ([#15159](https://github.com/python/typeshed/pull/15159))
 
-## 6.3.2.20251221 (2025-12-21)
+## [6.3.2.20251221](https://pypi.org/project/types-icalendar/6.3.2.20251221/) (2025-12-21)
 
-[icalendar] Remove duplicate entry from `__all__` in `icalendar` ([#15158](https://github.com/python/typeshed/pull/15158))
+* Remove duplicate entry from `__all__` in `icalendar` ([#15158](https://github.com/python/typeshed/pull/15158))
 
-## 6.3.2.20251107 (2025-11-07)
+## [6.3.2.20251107](https://pypi.org/project/types-icalendar/6.3.2.20251107/) (2025-11-07)
 
-[stubsabot] Bump icalendar to 6.3.2 ([#14985](https://github.com/python/typeshed/pull/14985))
+* Bump icalendar to 6.3.2 ([#14985](https://github.com/python/typeshed/pull/14985))
 
-## 6.3.1.20250914 (2025-09-14)
+## [6.3.1.20250914](https://pypi.org/project/types-icalendar/6.3.1.20250914/) (2025-09-14)
 
-Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
+* Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
 
-## 6.3.1.20250822 (2025-08-22)
+## [6.3.1.20250822](https://pypi.org/project/types-icalendar/6.3.1.20250822/) (2025-08-22)
 
-Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+* Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
 
-## 6.3.1.20250809 (2025-08-09)
+## [6.3.1.20250809](https://pypi.org/project/types-icalendar/6.3.1.20250809/) (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 6.3.1.20250521 (2025-05-21)
+## [6.3.1.20250521](https://pypi.org/project/types-icalendar/6.3.1.20250521/) (2025-05-21)
 
-[icalendar] Update to 6.3.1 ([#14105](https://github.com/python/typeshed/pull/14105))
+* Update to 6.3.1 ([#14105](https://github.com/python/typeshed/pull/14105))
 
-## 6.3.0.20250517 (2025-05-17)
+## [6.3.0.20250517](https://pypi.org/project/types-icalendar/6.3.0.20250517/) (2025-05-17)
 
-Bump icalendar to 6.3.* ([#14078](https://github.com/python/typeshed/pull/14078))
+* Bump icalendar to 6.3.* ([#14078](https://github.com/python/typeshed/pull/14078))
 
-## 6.2.0.20250514 (2025-05-14)
+## [6.2.0.20250514](https://pypi.org/project/types-icalendar/6.2.0.20250514/) (2025-05-14)
 
-Bump icalendar to 6.2.* ([#13963](https://github.com/python/typeshed/pull/13963))
+* Bump icalendar to 6.2.* ([#13963](https://github.com/python/typeshed/pull/13963))
 
-## 6.1.3.20250403 (2025-04-03)
+## [6.1.3.20250403](https://pypi.org/project/types-icalendar/6.1.3.20250403/) (2025-04-03)
 
-Remove Python 3.8 exclusive branches ([#13772](https://github.com/python/typeshed/pull/13772))
+* Remove Python 3.8 exclusive branches ([#13772](https://github.com/python/typeshed/pull/13772))
 
-## 6.1.3.20250329 (2025-03-29)
+## [6.1.3.20250329](https://pypi.org/project/types-icalendar/6.1.3.20250329/) (2025-03-29)
 
-icalendar: update ([#13737](https://github.com/python/typeshed/pull/13737))
+* icalendar: update ([#13737](https://github.com/python/typeshed/pull/13737))
 
-Fixes #13735
+    Fixes #13735
 
-## 6.1.2.20250321 (2025-03-21)
+## [6.1.2.20250321](https://pypi.org/project/types-icalendar/6.1.2.20250321/) (2025-03-21)
 
-[icalendar] Update to 6.1.2 ([#13672](https://github.com/python/typeshed/pull/13672))
+* Update to 6.1.2 ([#13672](https://github.com/python/typeshed/pull/13672))
 
-Finish icalendar.prop annotations
+    Finish icalendar.prop annotations
 
-## 6.1.0.20250301 (2025-03-01)
+## [6.1.0.20250301](https://pypi.org/project/types-icalendar/6.1.0.20250301/) (2025-03-01)
 
-Fix conflicting imports ([#13561](https://github.com/python/typeshed/pull/13561))
+* Fix conflicting imports ([#13561](https://github.com/python/typeshed/pull/13561))
 
-## 6.1.0.20250119 (2025-01-19)
+## [6.1.0.20250119](https://pypi.org/project/types-icalendar/6.1.0.20250119/) (2025-01-19)
 
-icalendar: fix arg name ([#13407](https://github.com/python/typeshed/pull/13407))
+* icalendar: fix arg name ([#13407](https://github.com/python/typeshed/pull/13407))
 
-Fixes #13406
+    Fixes #13406
 
-## 6.1.0.20250111 (2025-01-11)
+## [6.1.0.20250111](https://pypi.org/project/types-icalendar/6.1.0.20250111/) (2025-01-11)
 
-Officially drop Python 3.8 support ([#13386](https://github.com/python/typeshed/pull/13386))
+* Officially drop Python 3.8 support ([#13386](https://github.com/python/typeshed/pull/13386))
 
-## 6.1.0.20241128 (2024-11-28)
+## [6.1.0.20241128](https://pypi.org/project/types-icalendar/6.1.0.20241128/) (2024-11-28)
 
-[icalendar] Update to 6.1.* ([#13109](https://github.com/python/typeshed/pull/13109))
+* Update to 6.1.* ([#13109](https://github.com/python/typeshed/pull/13109))
 
-## 6.0.1.20241022 (2024-10-22)
+## [6.0.1.20241022](https://pypi.org/project/types-icalendar/6.0.1.20241022/) (2024-10-22)
 
-Use compatible version marker for icalendar ([#12831](https://github.com/python/typeshed/pull/12831))
+* Use compatible version marker for icalendar ([#12831](https://github.com/python/typeshed/pull/12831))
 
-## 6.0.0.20241015 (2024-10-15)
+## [6.0.0.20241015](https://pypi.org/project/types-icalendar/6.0.0.20241015/) (2024-10-15)
 
-Bump icalendar to 6.0.1 ([#12802](https://github.com/python/typeshed/pull/12802))
+* Bump icalendar to 6.0.1 ([#12802](https://github.com/python/typeshed/pull/12802))
 
-## 6.0.0.20241003 (2024-10-03)
+## [6.0.0.20241003](https://pypi.org/project/types-icalendar/6.0.0.20241003/) (2024-10-03)
 
-[icalendar] Update to 6.0.0 ([#12706](https://github.com/python/typeshed/pull/12706))
+* Update to 6.0.0 ([#12706](https://github.com/python/typeshed/pull/12706))
 
-## 5.0.0.20240806 (2024-08-06)
+## [5.0.0.20240806](https://pypi.org/project/types-icalendar/5.0.0.20240806/) (2024-08-06)
 
-Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
+* Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
 
-## 5.0.0.20240409 (2024-04-09)
+## [5.0.0.20240409](https://pypi.org/project/types-icalendar/5.0.0.20240409/) (2024-04-09)
 
-Add icalendar stubs ([#11733](https://github.com/python/typeshed/pull/11733))
+* Add icalendar stubs ([#11733](https://github.com/python/typeshed/pull/11733))
 

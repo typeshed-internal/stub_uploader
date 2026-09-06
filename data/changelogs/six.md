@@ -6,93 +6,93 @@
 
 * convert `callable` assignment to re-export ([#16052](https://github.com/python/typeshed/pull/16052))
 
-## 1.17.0.20260518 (2026-05-18)
+## [1.17.0.20260518](https://pypi.org/project/types-six/1.17.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 1.17.0.20260408 (2026-04-08)
+## [1.17.0.20260408](https://pypi.org/project/types-six/1.17.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 1.17.0.20251009 (2025-10-09)
+## [1.17.0.20251009](https://pypi.org/project/types-six/1.17.0.20251009/) (2025-10-09)
 
-Update comments for `operator.itemgetter.__call__` generic following mypy 1.11 fix ([#13489](https://github.com/python/typeshed/pull/13489))
+* Update comments for `operator.itemgetter.__call__` generic following mypy 1.11 fix ([#13489](https://github.com/python/typeshed/pull/13489))
 
-## 1.17.0.20250515 (2025-05-15)
+## [1.17.0.20250515](https://pypi.org/project/types-six/1.17.0.20250515/) (2025-05-15)
 
-Bump `urllib.request` to 3.14 ([#14062](https://github.com/python/typeshed/pull/14062))
+* Bump `urllib.request` to 3.14 ([#14062](https://github.com/python/typeshed/pull/14062))
 
-## 1.17.0.20250403 (2025-04-03)
+## [1.17.0.20250403](https://pypi.org/project/types-six/1.17.0.20250403/) (2025-04-03)
 
-Remove Python 3.8 exclusive branches ([#13772](https://github.com/python/typeshed/pull/13772))
+* Remove Python 3.8 exclusive branches ([#13772](https://github.com/python/typeshed/pull/13772))
 
-## 1.17.0.20250304 (2025-03-04)
+## [1.17.0.20250304](https://pypi.org/project/types-six/1.17.0.20250304/) (2025-03-04)
 
-Drop flake8-noqa and remove workarounds to work with Ruff ([#13571](https://github.com/python/typeshed/pull/13571))
+* Drop flake8-noqa and remove workarounds to work with Ruff ([#13571](https://github.com/python/typeshed/pull/13571))
 
-## 1.17.0.20241205 (2024-12-05)
+## [1.17.0.20241205](https://pypi.org/project/types-six/1.17.0.20241205/) (2024-12-05)
 
-[stubsabot] Bump six to 1.17.* ([#13197](https://github.com/python/typeshed/pull/13197))
+* Bump six to 1.17.* ([#13197](https://github.com/python/typeshed/pull/13197))
 
-Release: https://pypi.org/pypi/six/1.17.0
-Homepage: https://github.com/benjaminp/six
-Repository: https://github.com/benjaminp/six
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/six
-Diff: https://github.com/benjaminp/six/compare/1.16.0...1.17.0
+    Release: https://pypi.org/pypi/six/1.17.0 \
+    Homepage: https://github.com/benjaminp/six \
+    Repository: https://github.com/benjaminp/six \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/six \
+    Diff: https://github.com/benjaminp/six/compare/1.16.0...1.17.0
 
-Stubsabot analysis of the diff between the two releases:
- - Total lines of Python code added: 29.
- - Total lines of Python code deleted: 11.
+    Stubsabot analysis of the diff between the two releases:
+     - Total lines of Python code added: 29.
+     - Total lines of Python code deleted: 11.
 
-If stubtest fails for this PR:
-- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-- Fix stubtest failures in another PR, then close this PR
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
 
-Note that you will need to close and re-open the PR in order to trigger CI
+    Note that you will need to close and re-open the PR in order to trigger CI
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 1.16.21.20241105 (2024-11-05)
+## [1.16.21.20241105](https://pypi.org/project/types-six/1.16.21.20241105/) (2024-11-05)
 
-remove unused io-related allowlist entries ([#12955](https://github.com/python/typeshed/pull/12955))
+* remove unused io-related allowlist entries ([#12955](https://github.com/python/typeshed/pull/12955))
 
-fallout from https://github.com/python/typeshed/pull/12947
+    fallout from https://github.com/python/typeshed/pull/12947
 
-fixes https://github.com/python/typeshed/issues/12954
+    fixes https://github.com/python/typeshed/issues/12954
 
-## 1.16.21.20241009 (2024-10-09)
+## [1.16.21.20241009](https://pypi.org/project/types-six/1.16.21.20241009/) (2024-10-09)
 
-Allowlist `six.create_bound_method.__code__` (Fix daily test failure) ([#12759](https://github.com/python/typeshed/pull/12759))
+* Allowlist `six.create_bound_method.__code__` (Fix daily test failure) ([#12759](https://github.com/python/typeshed/pull/12759))
 
-## 1.16.21.20240513 (2024-05-13)
+## [1.16.21.20240513](https://pypi.org/project/types-six/1.16.21.20240513/) (2024-05-13)
 
-Replace types._Cell with types.CellType ([#11904](https://github.com/python/typeshed/pull/11904))
+* Replace types._Cell with types.CellType ([#11904](https://github.com/python/typeshed/pull/11904))
 
-Closes #11901
+    Closes #11901
 
-## 1.16.21.20240425 (2024-04-25)
+## [1.16.21.20240425](https://pypi.org/project/types-six/1.16.21.20240425/) (2024-04-25)
 
-Introduce SupportsContainsAndGetItem ([#11827](https://github.com/python/typeshed/pull/11827))
+* Introduce SupportsContainsAndGetItem ([#11827](https://github.com/python/typeshed/pull/11827))
 
-## 1.16.21.20240311 (2024-03-11)
+## [1.16.21.20240311](https://pypi.org/project/types-six/1.16.21.20240311/) (2024-03-11)
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## 1.16.21.20240310 (2024-03-10)
+## [1.16.21.20240310](https://pypi.org/project/types-six/1.16.21.20240310/) (2024-03-10)
 
-Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
+* Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
 
-Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## 1.16.21.20240301 (2024-03-01)
+## [1.16.21.20240301](https://pypi.org/project/types-six/1.16.21.20240301/) (2024-03-01)
 
-Enable nearly all pyupgrade rules (except on test cases) ([#11499](https://github.com/python/typeshed/pull/11499))
+* Enable nearly all pyupgrade rules (except on test cases) ([#11499](https://github.com/python/typeshed/pull/11499))
 
-Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## 1.16.21.20240106 (2024-01-06)
+## [1.16.21.20240106](https://pypi.org/project/types-six/1.16.21.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 1.16.21.9 (2023-07-20)
 
