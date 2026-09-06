@@ -7,27 +7,34 @@ on:
   # If needed, allows to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+permissions: {}
+
 env:
   FORCE_COLOR: 1
 
 jobs:
   build-and-upload:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     if: ${{ github.repository == 'typeshed-internal/stub_uploader' || github.event_name == 'workflow_dispatch' }}
     steps:
       - name: Setup Python
-        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # 6.2.0
+        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # v6.2.0
         with:
           python-version: '3.13'
       - name: Checkout main
-        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # 6.0.3
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # v6.0.3
         with:
           path: main
+          # Needed to push updated commit records and changelogs.
+          persist-credentials: true
       - name: Checkout typeshed
-        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # 6.0.3
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # v6.0.3
         with:
           repository: python/typeshed
           path: typeshed
+          persist-credentials: false
           # It is unlikely there will be more commits between two runs.
           # We could set this to 0 to fetch everything, but we want this to be fast.
           fetch-depth: 100
