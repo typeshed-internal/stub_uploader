@@ -1,3 +1,7 @@
+## [2.33.0.20260906](https://pypi.org/project/types-requests/2.33.0.20260906/) (2026-09-06)
+
+* Type module constants and `Response.links` ([#16266](https://github.com/python/typeshed/pull/16266))
+
 ## [2.33.0.20260712](https://pypi.org/project/types-requests/2.33.0.20260712/) (2026-07-12)
 
 * Structured obsolete_since fields ([#15682](https://github.com/python/typeshed/pull/15682))

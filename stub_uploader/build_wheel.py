@@ -28,12 +28,12 @@ from textwrap import dedent
 
 from stub_uploader.const import (
     CHANGELOG_PATH,
+    EXTERNAL_RUNTIME_REQ_MAP,
     META,
     TESTS_NAMESPACE,
     THIRD_PARTY_NAMESPACE,
 )
 from stub_uploader.metadata import (
-    EXTERNAL_RUNTIME_REQ_MAP,
     Dependency,
     Metadata,
     read_metadata,

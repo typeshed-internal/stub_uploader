@@ -18,10 +18,10 @@ The directory layout is self-explanatory:
 There are four GitHub actions in the repository. Here is a brief explanation
 of the role of each action.
 
-### Check scripts (CI)
+### Check (CI)
 
-[This CI action](https://github.com/typeshed-internal/stub_uploader/actions?query=workflow%3A%22Check+scripts%22)
-simply runs mypy and tests on each PR and push. You don't need to run it manually.
+[This CI action](https://github.com/typeshed-internal/stub_uploader/actions?query=workflow%3A%22Check%22)
+simply runs mypy, linters/formatters and tests on each PR and push. You don't need to run it manually.
 
 ### Test PyPI API token
 

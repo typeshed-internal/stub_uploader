@@ -11,6 +11,3 @@ twine
 mypy
 pytest
 types-requests
-
-# formatting
-black >= 26.5.1, < 27

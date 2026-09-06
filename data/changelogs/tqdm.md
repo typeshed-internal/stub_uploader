@@ -1,3 +1,7 @@
+## [4.70.0.20260906](https://pypi.org/project/types-tqdm/4.70.0.20260906/) (2026-09-06)
+
+* Update tqdm.utils.envwrap ([#16351](https://github.com/python/typeshed/pull/16351))
+
 ## [4.70.0.20260827](https://pypi.org/project/types-tqdm/4.70.0.20260827/) (2026-08-27)
 
 * fixed some typos ([#16273](https://github.com/python/typeshed/pull/16273))

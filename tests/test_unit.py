@@ -349,7 +349,7 @@ commit 126768408a69b7a3a09b7d3992970b289f92937e
 commit 337fd828e819988af2d3600283d8068bbbab7f50
 
     Bump setuptools to 80.7.* (#14069)
-    
+
     Body text #12345 python/typeshed#12345 https://example.com/#123
 
 commit 58f581cea1a5040a733e6284adf81bf0793ac26a

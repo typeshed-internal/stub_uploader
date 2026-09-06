@@ -1,3 +1,7 @@
+## [26.1.0.20260906](https://pypi.org/project/types-django-filter/26.1.0.20260906/) (2026-09-06)
+
+* Broaden OrderingFilter fields parameter ([#16246](https://github.com/python/typeshed/pull/16246))
+
 ## [26.1.0.20260807](https://pypi.org/project/types-django-filter/26.1.0.20260807/) (2026-08-07)
 
 * Update for django-stubs 6.0.8 ([#16152](https://github.com/python/typeshed/pull/16152))
