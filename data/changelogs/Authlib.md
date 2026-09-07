@@ -1,3 +1,9 @@
+## [1.8.0.20260907](https://pypi.org/project/types-Authlib/1.8.0.20260907/) (2026-09-07)
+
+* Update to 1.8.0 ([#16326](https://github.com/python/typeshed/pull/16326))
+
+    Closes: #16324
+
 ## [1.7.2.20260901](https://pypi.org/project/types-Authlib/1.7.2.20260901/) (2026-09-01)
 
 * Add requests as an optional dependency ([#16015](https://github.com/python/typeshed/pull/16015))
