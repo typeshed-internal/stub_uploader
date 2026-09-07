@@ -20,6 +20,11 @@ repos:
     rev: cef8b8350da46d8114c7e6b7272aebdccdf193ce # frozen: v1.30.0
     hooks:
       - id: zizmor
+  - repo: https://github.com/astral-sh/uv-pre-commit
+    rev: 7720020191168f707a43279c65b6bf9cdf7ed04e # frozen: 0.12.10
+    hooks:
+      - id: uv-lock
+        args: [--check, --refresh]
   - repo: https://github.com/psf/black-pre-commit-mirror
     rev: 4160603246a6b365d4a2af661c6d71b0a0f50478 # frozen: 26.5.1
     hooks:
