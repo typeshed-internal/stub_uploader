@@ -127,7 +127,7 @@ Some stubs depend on third-party libraries that are not required by every user.
 The following extras are available:
 
 ```console
-- pip install '{stub_distribution}[all]' # installs all optional dependencies
+pip install '{stub_distribution}[all]' # installs all optional dependencies
 {extras_install_commands}
 ```
 """.strip()
@@ -450,7 +450,7 @@ def generate_long_description(
             EXTRAS_SECTION_TEMPLATE.format(
                 stub_distribution=metadata.stub_distribution,
                 extras_install_commands="\n".join(
-                    f"- pip install '{metadata.stub_distribution}"
+                    f"pip install '{metadata.stub_distribution}"
                     f"[{EXTERNAL_RUNTIME_REQ_MAP.get(dep.base_name, dep.base_name)}]' "
                     f"# installs {dep}"
                     for dep in metadata.optional_dependencies
