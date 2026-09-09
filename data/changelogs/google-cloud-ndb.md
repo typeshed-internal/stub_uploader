@@ -1,3 +1,7 @@
+## [2.4.0.20260909](https://pypi.org/project/types-google-cloud-ndb/2.4.0.20260909/) (2026-09-09)
+
+* Add default values ([#16359](https://github.com/python/typeshed/pull/16359))
+
 ## [2.4.0.20260906](https://pypi.org/project/types-google-cloud-ndb/2.4.0.20260906/) (2026-09-06)
 
 * Model.get_by_id and get_or_insert should return Self ([#16277](https://github.com/python/typeshed/pull/16277))
