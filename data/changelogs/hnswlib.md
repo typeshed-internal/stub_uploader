@@ -1,3 +1,7 @@
+## [0.8.0.20260911](https://pypi.org/project/types-hnswlib/0.8.0.20260911/) (2026-09-11)
+
+* Fix parameter name in `Index.init_index` ([#16381](https://github.com/python/typeshed/pull/16381))
+
 ## [0.8.0.20260827](https://pypi.org/project/types-hnswlib/0.8.0.20260827/) (2026-08-27)
 
 * Fix SIGILL in stubtest by building without `-march=native` ([#16244](https://github.com/python/typeshed/pull/16244))

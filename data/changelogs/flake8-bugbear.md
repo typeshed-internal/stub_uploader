@@ -1,3 +1,7 @@
+## [26.9.9.20260911](https://pypi.org/project/types-flake8-bugbear/26.9.9.20260911/) (2026-09-11)
+
+* Update to 26.9.9 ([#16377](https://github.com/python/typeshed/pull/16377))
+
 ## 25.11.29.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

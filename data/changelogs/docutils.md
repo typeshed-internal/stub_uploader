@@ -1,3 +1,7 @@
+## [0.23.0.20260911](https://pypi.org/project/types-docutils/0.23.0.20260911/) (2026-09-11)
+
+* Improve types in `docutils.io` ([#16260](https://github.com/python/typeshed/pull/16260))
+
 ## [0.23.0.20260827](https://pypi.org/project/types-docutils/0.23.0.20260827/) (2026-08-27)
 
 * Bump to 0.23 ([#16257](https://github.com/python/typeshed/pull/16257))

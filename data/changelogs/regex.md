@@ -1,3 +1,7 @@
+## [2026.9.10.20260911](https://pypi.org/project/types-regex/2026.9.10.20260911/) (2026-09-11)
+
+* Bump regex to 2026.9.10 ([#16374](https://github.com/python/typeshed/pull/16374))
+
 ## [2026.9.3.20260903](https://pypi.org/project/types-regex/2026.9.3.20260903/) (2026-09-03)
 
 * Bump regex to 2026.9.3 ([#16338](https://github.com/python/typeshed/pull/16338))

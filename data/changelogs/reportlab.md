@@ -1,3 +1,7 @@
+## [5.0.0.20260911](https://pypi.org/project/types-reportlab/5.0.0.20260911/) (2026-09-11)
+
+* Bump to 5.0.0 ([#16249](https://github.com/python/typeshed/pull/16249))
+
 ## [4.5.1.20260827](https://pypi.org/project/types-reportlab/4.5.1.20260827/) (2026-08-27)
 
 * fixed some typos ([#16273](https://github.com/python/typeshed/pull/16273))

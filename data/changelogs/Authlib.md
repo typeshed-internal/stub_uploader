@@ -1,3 +1,7 @@
+## [1.8.0.20260911](https://pypi.org/project/types-Authlib/1.8.0.20260911/) (2026-09-11)
+
+* Improve requests integrations ([#16369](https://github.com/python/typeshed/pull/16369))
+
 ## [1.8.0.20260910](https://pypi.org/project/types-Authlib/1.8.0.20260910/) (2026-09-10)
 
 * Improve Flask integrations ([#16368](https://github.com/python/typeshed/pull/16368))
