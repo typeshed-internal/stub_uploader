@@ -1,3 +1,11 @@
+## [26.1.0.20260907](https://pypi.org/project/types-boltons/26.1.0.20260907/) (2026-09-07)
+
+* Add `functools.partial.__get__` for Python 3.14 ([#15977](https://github.com/python/typeshed/pull/15977))
+
+    partial became a descriptor in 3.14 (python/cpython#121027).
+
+    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+
 ## [26.1.0.20260724](https://pypi.org/project/types-boltons/26.1.0.20260724/) (2026-07-24)
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))

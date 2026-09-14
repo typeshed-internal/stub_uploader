@@ -23,6 +23,7 @@ import subprocess
 import sys
 import tempfile
 from collections.abc import Iterable
+from importlib.metadata import version as package_version
 from pathlib import Path
 from textwrap import dedent
 
@@ -43,11 +44,6 @@ from stub_uploader.ts_data import TypeshedData, read_typeshed_data
 CHANGELOG = "CHANGELOG.md"
 
 SUFFIX = "-stubs"
-
-PARTIAL_STUBS_DESCRIPTION = """
-This stub package is marked as [partial](https://typing.python.org/en/latest/spec/distributing.html#partial-stub-packages).
-If you find that annotations are missing, feel free to contribute and help complete them.
-""".lstrip()
 
 PYPROJECT_TEMPLATE = dedent("""
 [build-system]
@@ -85,16 +81,6 @@ include-package-data = false
 {package_data}
 """).lstrip()
 
-NO_LONGER_UPDATED_TEMPLATE = """
-*Note:* `{stub_distribution}` is unmaintained and won't be updated.
-""".lstrip()
-
-OBSOLETE_SINCE_TEXT_TEMPLATE = """
-*Note:* The `{distribution}` package includes type annotations or type stubs
-since version {obsolete_since}. Please uninstall the `{stub_distribution}`
-package if you use this or a newer version.
-""".lstrip()
-
 DESCRIPTION_INTRO_TEMPLATE = """
 ## Typing stubs for {distribution}
 
@@ -104,6 +90,21 @@ to check code that uses `{distribution}`. This version of
 `{stub_distribution}` aims to provide accurate annotations for
 `{distribution}{typeshed_version_spec}`.
 """.strip()
+
+OBSOLETE_SINCE_TEXT_TEMPLATE = """
+*Note:* The `{distribution}` package includes type annotations or type stubs
+since version {obsolete_since}. Please uninstall the `{stub_distribution}`
+package if you use this or a newer version.
+""".lstrip()
+
+NO_LONGER_UPDATED_TEMPLATE = """
+*Note:* `{stub_distribution}` is unmaintained and won't be updated.
+""".lstrip()
+
+PARTIAL_STUBS_DESCRIPTION = """
+This stub package is marked as [partial](https://typing.python.org/en/latest/spec/distributing.html#partial-stub-packages).
+If you find that annotations are missing, feel free to contribute and help complete them.
+""".lstrip()
 
 DESCRIPTION_OUTRO_TEMPLATE = """
 This package is part of the [typeshed project](https://github.com/python/typeshed).
@@ -118,6 +119,18 @@ This package was tested with the following type checkers:
 
 It was generated from typeshed commit
 [`{commit}`](https://github.com/python/typeshed/commit/{commit}).
+""".strip()
+
+EXTRAS_SECTION_TEMPLATE = """
+## Optional dependencies
+
+Some stubs depend on third-party libraries that are not required by every user.
+The following extras are available:
+
+```console
+pip install '{stub_distribution}[all]' # installs all optional dependencies
+{extras_install_commands}
+```
 """.strip()
 
 
@@ -336,7 +349,7 @@ def is_ignored_distribution_file(entry: Path) -> bool:
 
 
 def generate_optional_dependencies_table(dependencies: Iterable[Dependency]) -> str:
-    """Generate the [project.optional-dependencies] table."""
+    """Generate the [project.optional-dependencies] table for pyproject.toml."""
     if not dependencies:
         return ""
 
@@ -433,6 +446,18 @@ def generate_long_description(
             ),
         )
     )
+    if metadata.optional_dependencies:
+        parts.append(
+            EXTRAS_SECTION_TEMPLATE.format(
+                stub_distribution=metadata.stub_distribution,
+                extras_install_commands="\n".join(
+                    f"pip install '{metadata.stub_distribution}"
+                    f"[{EXTERNAL_RUNTIME_REQ_MAP.get(dep.base_name, dep.base_name)}]' "
+                    f"# installs {dep}"
+                    for dep in metadata.optional_dependencies
+                ),
+            )
+        )
     return "\n\n".join(parts)
 
 
@@ -471,7 +496,8 @@ def main(
 
     print(f"\033[0;33mRunning '{sys.executable} -m build --no-isolation' in {tmpdir}")
     print()
-    subprocess.run(["pip freeze | egrep 'build|twine'"], shell=True)
+    for package in ("build", "twine"):
+        print(f"{package}=={package_version(package)}")
     print("\033[0m")
     subprocess.run(
         [sys.executable, "-m", "build", "--no-isolation"],

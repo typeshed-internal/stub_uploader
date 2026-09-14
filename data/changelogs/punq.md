@@ -1,3 +1,7 @@
+## [0.8.0.20260909](https://pypi.org/project/types-punq/0.8.0.20260909/) (2026-09-09)
+
+* Mark as obsolete since 0.9.0 ([#16366](https://github.com/python/typeshed/pull/16366))
+
 ## [0.8.0.20260720](https://pypi.org/project/types-punq/0.8.0.20260720/) (2026-07-20)
 
 * Update to 0.8.* ([#16037](https://github.com/python/typeshed/pull/16037))

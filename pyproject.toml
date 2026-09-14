@@ -1,0 +1,31 @@
+[project]
+name = "stub-uploader"
+version = "0.0.0"
+requires-python = ">=3.13"
+
+[dependency-groups]
+dev = [
+    # scripts
+    "packaging==26.2", # see issue #220, needs investigation
+    "requests",
+
+    # build and upload
+    "build",
+    "setuptools>=82.0.1",
+    "twine",
+    "wheel",
+
+    # tests
+    "mypy",
+    "pytest",
+    "types-requests",
+]
+
+[tool.uv]
+# Manage script dependencies without building or installing this repository.
+package = false
+# For improved security, avoid executing third-party build backends when installing
+# dependencies.
+no-build = true
+# Allow time for security issues in new releases to be discovered by security scanners.
+exclude-newer = "P7D"

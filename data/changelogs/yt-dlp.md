@@ -1,3 +1,7 @@
+## [2026.8.19.20260912](https://pypi.org/project/types-yt-dlp/2026.8.19.20260912/) (2026-09-12)
+
+* Rename private options type ([#16354](https://github.com/python/typeshed/pull/16354))
+
 ## [2026.8.19.20260827](https://pypi.org/project/types-yt-dlp/2026.8.19.20260827/) (2026-08-27)
 
 * Update to 2026.8.19 ([#16271](https://github.com/python/typeshed/pull/16271))

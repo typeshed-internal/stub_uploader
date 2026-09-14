@@ -27,29 +27,31 @@ jobs:
     name: Check stub_uploader with mypy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # v6.2.0
-        with:
-          python-version: '3.13'
       - uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # v6.0.3
         with:
           persist-credentials: false
-      - run: pip install -r requirements.txt
-      - run: mypy --strict -p stub_uploader -p tests
+      - uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d  # v10.0.1
+        with:
+          version: '0.12.10'
+          python-version: '3.13'
+      - run: uv run --locked mypy --strict -p stub_uploader -p tests
 
   tests:
     name: Run integration and unit tests
     runs-on: ubuntu-latest
     steps:
-      - name: Setup Python
-        uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405  # v6.2.0
-        with:
-          # Keep in sync with typeshed's daily.yml and tests.yml workflows.
-          python-version: '3.13'
       - name: Checkout main
         uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # v6.0.3
         with:
           path: main
           persist-credentials: false
+      - name: Setup uv
+        uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d  # v10.0.1
+        with:
+          version: '0.12.10'
+          working-directory: main
+          # Keep in sync with typeshed's daily.yml and tests.yml workflows.
+          python-version: '3.13'
       - name: Checkout typeshed
         uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10  # v6.0.3
         with:
@@ -59,5 +61,4 @@ jobs:
       - name: Run tests
         run: |
           cd main
-          pip install -r requirements.txt
-          python -Werror -m pytest tests
+          uv run --locked python -Werror -m pytest tests

@@ -1,3 +1,16 @@
+## [2.0.0.20260907](https://pypi.org/project/types-requests-oauthlib/2.0.0.20260907/) (2026-09-07)
+
+* requests-oauthlib: add **kwargs to OAuth1Session.__init__ ([#15980](https://github.com/python/typeshed/pull/15980))
+
+    At runtime OAuth1Session.__init__ forwards **kwargs straight through to
+    OAuth1(...) (see requests_oauthlib/oauth1_session.py), which already has
+    extra keyword-only params typed in oauth1_auth.pyi (e.g. realm). The
+    OAuth1Session stub was missing the passthrough, so legitimate calls like
+    OAuth1Session(client_key=..., realm=...) failed with a spurious
+    "No parameter named realm" error. Sibling methods on the same class
+    (authorization_url, fetch_request_token, fetch_access_token) already use
+    a bare **kwargs for the same reason.
+
 ## 2.0.0.20260610 (2026-06-10)
 
 Change dependencies from types-requests to requests ([#15813](https://github.com/python/typeshed/pull/15813))

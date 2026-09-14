@@ -1,3 +1,7 @@
+## [3.6.1.20260911](https://pypi.org/project/types-networkx/3.6.1.20260911/) (2026-09-11)
+
+* Accept any node and edge data types in the drawing functions ([#16371](https://github.com/python/typeshed/pull/16371))
+
 ## [3.6.1.20260903](https://pypi.org/project/types-networkx/3.6.1.20260903/) (2026-09-03)
 
 * Make numpy dependency optional ([#16297](https://github.com/python/typeshed/pull/16297))
