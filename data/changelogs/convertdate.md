@@ -1,3 +1,7 @@
+## [2.5.1.20260915](https://pypi.org/project/types-convertdate/2.5.1.20260915/) (2026-09-15)
+
+* Bump to 2.5.1 ([#16389](https://github.com/python/typeshed/pull/16389))
+
 ## [2.4.1.20260724](https://pypi.org/project/types-convertdate/2.4.1.20260724/) (2026-07-24)
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
