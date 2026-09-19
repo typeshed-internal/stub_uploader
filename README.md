@@ -1,6 +1,6 @@
 # Typeshed Stub Uploader
 
-[![Build status](https://github.com/typeshed-internal/stub_uploader/actions/workflows/check_scripts.yml/badge.svg)](https://github.com/typeshed-internal/stub_uploader/actions/workflows/check_scripts.yml)
+[![Build status](https://github.com/typeshed-internal/stub_uploader/actions/workflows/check.yml/badge.svg)](https://github.com/typeshed-internal/stub_uploader/actions/workflows/check.yml)
 [![Upload status](https://github.com/typeshed-internal/stub_uploader/actions/workflows/update_stubs.yml/badge.svg)](https://github.com/typeshed-internal/stub_uploader/actions/workflows/update_stubs.yml)
 
 This repository contains scripts and GitHub actions to auto-upload
