@@ -1,3 +1,7 @@
+## [0.6.0.20260907](https://pypi.org/project/types-webencodings/0.6.0.20260907/) (2026-09-07)
+
+* Update _CharMap alias for mapping params ([#16275](https://github.com/python/typeshed/pull/16275))
+
 ## [0.6.0.20260827](https://pypi.org/project/types-webencodings/0.6.0.20260827/) (2026-08-27)
 
 * Update to 0.6.* ([#16215](https://github.com/python/typeshed/pull/16215))

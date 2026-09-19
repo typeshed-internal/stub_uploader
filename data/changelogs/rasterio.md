@@ -1,3 +1,11 @@
+## [1.5.1.20260907](https://pypi.org/project/types-rasterio/1.5.1.20260907/) (2026-09-07)
+
+* Accept int EPSG codes and any to_wkt provider in CRSInput ([#16294](https://github.com/python/typeshed/pull/16294))
+
+    `CRS.from_user_input` dispatches on a `to_wkt` method before checking any
+    concrete type, and reads a bare `int` as an EPSG code. Model the former as a
+    `_SupportsToWkt` Protocol rather than taking a dependency on pyproj.
+
 ## [1.5.1.20260906](https://pypi.org/project/types-rasterio/1.5.1.20260906/) (2026-09-06)
 
 * Allow WarpedVRT to take DatasetWriter ([#16156](https://github.com/python/typeshed/pull/16156))

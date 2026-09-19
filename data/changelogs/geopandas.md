@@ -1,3 +1,7 @@
+## [1.1.4.20260916](https://pypi.org/project/types-geopandas/1.1.4.20260916/) (2026-09-16)
+
+* Fix stubtest errors ([#16393](https://github.com/python/typeshed/pull/16393))
+
 ## [1.1.4.20260807](https://pypi.org/project/types-geopandas/1.1.4.20260807/) (2026-08-07)
 
 * Run Pyrefly on typeshed stubs in CI ([#16155](https://github.com/python/typeshed/pull/16155))

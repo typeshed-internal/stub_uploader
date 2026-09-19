@@ -1,3 +1,7 @@
+## [2.9.21.20260911](https://pypi.org/project/types-psycopg2/2.9.21.20260911/) (2026-09-11)
+
+* Update to 2.9.13 ([#16376](https://github.com/python/typeshed/pull/16376))
+
 ## [2.9.21.20260724](https://pypi.org/project/types-psycopg2/2.9.21.20260724/) (2026-07-24)
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))

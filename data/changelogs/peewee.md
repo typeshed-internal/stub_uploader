@@ -1,3 +1,13 @@
+## [4.5.1.20260909](https://pypi.org/project/types-peewee/4.5.1.20260909/) (2026-09-09)
+
+* Bump to 4.5.1 ([#16367](https://github.com/python/typeshed/pull/16367))
+
+## [4.5.0.20260907](https://pypi.org/project/types-peewee/4.5.0.20260907/) (2026-09-07)
+
+* Update to 4.5.0 ([#16355](https://github.com/python/typeshed/pull/16355))
+
+    Closes: #16349
+
 ## [4.4.0.20260827](https://pypi.org/project/types-peewee/4.4.0.20260827/) (2026-08-27)
 
 * Update to 4.4.0 ([#16291](https://github.com/python/typeshed/pull/16291))
