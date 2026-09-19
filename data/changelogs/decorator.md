@@ -1,78 +1,78 @@
-## 5.2.0.20260712 (2026-07-12)
+## [5.2.0.20260712](https://pypi.org/project/types-decorator/5.2.0.20260712/) (2026-07-12)
 
-Structured obsolete_since fields ([#15682](https://github.com/python/typeshed/pull/15682))
+* Structured obsolete_since fields ([#15682](https://github.com/python/typeshed/pull/15682))
 
-## 5.2.0.20260519 (2026-05-19)
+## [5.2.0.20260519](https://pypi.org/project/types-decorator/5.2.0.20260519/) (2026-05-19)
 
-[decorator] Mark as obsolete since 5.3.0 ([#15806](https://github.com/python/typeshed/pull/15806))
+* Mark as obsolete since 5.3.0 ([#15806](https://github.com/python/typeshed/pull/15806))
 
-## 5.2.0.20260508 (2026-05-08)
+## [5.2.0.20260508](https://pypi.org/project/types-decorator/5.2.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 5.2.0.20260408 (2026-04-08)
+## [5.2.0.20260408](https://pypi.org/project/types-decorator/5.2.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 5.2.0.20251101 (2025-11-01)
+## [5.2.0.20251101](https://pypi.org/project/types-decorator/5.2.0.20251101/) (2025-11-01)
 
-[decorator] Fix FunctionMaker attributes ([#14909](https://github.com/python/typeshed/pull/14909))
+* Fix FunctionMaker attributes ([#14909](https://github.com/python/typeshed/pull/14909))
 
-## 5.2.0.20250324 (2025-03-24)
+## [5.2.0.20250324](https://pypi.org/project/types-decorator/5.2.0.20250324/) (2025-03-24)
 
-Improve `decorator` ([#13703](https://github.com/python/typeshed/pull/13703))
+* Improve `decorator` ([#13703](https://github.com/python/typeshed/pull/13703))
 
-## 5.2.0.20250224 (2025-02-24)
+## [5.2.0.20250224](https://pypi.org/project/types-decorator/5.2.0.20250224/) (2025-02-24)
 
-[stubsabot] Bump decorator to 5.2.* ([#13526](https://github.com/python/typeshed/pull/13526))
+* Bump decorator to 5.2.* ([#13526](https://github.com/python/typeshed/pull/13526))
 
-Release: https://pypi.org/pypi/decorator/5.2.0
-Repository: https://github.com/micheles/decorator
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/decorator
-Diff: https://github.com/micheles/decorator/compare/5.1.1...5.2.0
+    Release: https://pypi.org/pypi/decorator/5.2.0 \
+    Repository: https://github.com/micheles/decorator \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/decorator \
+    Diff: https://github.com/micheles/decorator/compare/5.1.1...5.2.0
 
-Stubsabot analysis of the diff between the two releases:
- - Total lines of Python code added: 36.
- - Total lines of Python code deleted: 50.
+    Stubsabot analysis of the diff between the two releases:
+     - Total lines of Python code added: 36.
+     - Total lines of Python code deleted: 50.
 
-If stubtest fails for this PR:
-- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-- Fix stubtest failures in another PR, then close this PR
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
 
-Note that you will need to close and re-open the PR in order to trigger CI
+    Note that you will need to close and re-open the PR in order to trigger CI
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 5.1.8.20250215 (2025-02-15)
+## [5.1.8.20250215](https://pypi.org/project/types-decorator/5.1.8.20250215/) (2025-02-15)
 
-Revert "Improve [Async]ContextDecorator type hinting ([#13416](https://github.com/python/typeshed/pull/13416))" ([#13436](https://github.com/python/typeshed/pull/13436))
+* Revert "Improve [Async]ContextDecorator type hinting ([#13416](https://github.com/python/typeshed/pull/13416))" ([#13436](https://github.com/python/typeshed/pull/13436))
 
-This reverts commit 57d7c4334b64856fda6f6e8f992b101ddafe2f57.
+    This reverts commit 57d7c4334b64856fda6f6e8f992b101ddafe2f57.
 
-The attempted fix loses all type overload information during type
-inferencing, so postpone fixing the issue until we have a solution
-which doesn't impose such a dramatic loss in functionality.
+    The attempted fix loses all type overload information during type
+    inferencing, so postpone fixing the issue until we have a solution
+    which doesn't impose such a dramatic loss in functionality.
 
-Reopens #13403
+    Reopens #13403
 
-## 5.1.8.20250121 (2025-01-21)
+## [5.1.8.20250121](https://pypi.org/project/types-decorator/5.1.8.20250121/) (2025-01-21)
 
-Improve [Async]ContextDecorator type hinting ([#13416](https://github.com/python/typeshed/pull/13416))
+* Improve [Async]ContextDecorator type hinting ([#13416](https://github.com/python/typeshed/pull/13416))
 
-Updated annotations allow access to `__wrapped__` on
-decorated callables without complaints from typecheckers.
+    Updated annotations allow access to `__wrapped__` on
+    decorated callables without complaints from typecheckers.
 
-## 5.1.8.20240310 (2024-03-10)
+## [5.1.8.20240310](https://pypi.org/project/types-decorator/5.1.8.20240310/) (2024-03-10)
 
-Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
+* Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
 
-Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## 5.1.8.20240106 (2024-01-06)
+## [5.1.8.20240106](https://pypi.org/project/types-decorator/5.1.8.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 5.1.8.4 (2023-07-20)
 

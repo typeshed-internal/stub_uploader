@@ -2,79 +2,79 @@
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
 
-## 1.3.0.20260518 (2026-05-18)
+## [1.3.0.20260518](https://pypi.org/project/types-netaddr/1.3.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 1.3.0.20260508 (2026-05-08)
+## [1.3.0.20260508](https://pypi.org/project/types-netaddr/1.3.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-Drop 3.9 support in the stdlib ([#15708](https://github.com/python/typeshed/pull/15708))
+* Drop 3.9 support in the stdlib ([#15708](https://github.com/python/typeshed/pull/15708))
 
-## 1.3.0.20260408 (2026-04-08)
+## [1.3.0.20260408](https://pypi.org/project/types-netaddr/1.3.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 1.3.0.20260130 (2026-01-30)
+## [1.3.0.20260130](https://pypi.org/project/types-netaddr/1.3.0.20260130/) (2026-01-30)
 
-Update outdated upstream_repository fields ([#15334](https://github.com/python/typeshed/pull/15334))
+* Update outdated upstream_repository fields ([#15334](https://github.com/python/typeshed/pull/15334))
 
-## 1.3.0.20251108 (2025-11-08)
+## [1.3.0.20251108](https://pypi.org/project/types-netaddr/1.3.0.20251108/) (2025-11-08)
 
-[netaddr]: Annotate missing parameter types ([#14990](https://github.com/python/typeshed/pull/14990))
+* Annotate missing parameter types ([#14990](https://github.com/python/typeshed/pull/14990))
 
-## 1.3.0.20250822 (2025-08-22)
+## [1.3.0.20250822](https://pypi.org/project/types-netaddr/1.3.0.20250822/) (2025-08-22)
 
-Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+* Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
 
-## 1.3.0.20240530 (2024-05-30)
+## [1.3.0.20240530](https://pypi.org/project/types-netaddr/1.3.0.20240530/) (2024-05-30)
 
-Bump netaddr to version 1.3 ([#12057](https://github.com/python/typeshed/pull/12057))
+* Bump netaddr to version 1.3 ([#12057](https://github.com/python/typeshed/pull/12057))
 
-## 1.2.0.20240331 (2024-03-31)
+## [1.2.0.20240331](https://pypi.org/project/types-netaddr/1.2.0.20240331/) (2024-03-31)
 
-Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
+* Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
 
-## 1.2.0.20240311 (2024-03-11)
+## [1.2.0.20240311](https://pypi.org/project/types-netaddr/1.2.0.20240311/) (2024-03-11)
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## 1.2.0.20240219 (2024-02-19)
+## [1.2.0.20240219](https://pypi.org/project/types-netaddr/1.2.0.20240219/) (2024-02-19)
 
-[stubsabot] Bump netaddr to 1.2.* ([#11437](https://github.com/python/typeshed/pull/11437))
+* Bump netaddr to 1.2.* ([#11437](https://github.com/python/typeshed/pull/11437))
 
-Co-authored-by: stubsabot <>
-Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+    Co-authored-by: stubsabot <> \
+    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## 1.1.0.20240218 (2024-02-18)
+## [1.1.0.20240218](https://pypi.org/project/types-netaddr/1.1.0.20240218/) (2024-02-18)
 
-[stubsabot] Bump netaddr to 1.1.* ([#11424](https://github.com/python/typeshed/pull/11424))
+* Bump netaddr to 1.1.* ([#11424](https://github.com/python/typeshed/pull/11424))
 
-Co-authored-by: stubsabot <>
-Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+    Co-authored-by: stubsabot <> \
+    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
-## 1.0.0.20240212 (2024-02-12)
+## [1.0.0.20240212](https://pypi.org/project/types-netaddr/1.0.0.20240212/) (2024-02-12)
 
-netaddr: Bump to version 1.0 ([#11401](https://github.com/python/typeshed/pull/11401))
+* netaddr: Bump to version 1.0 ([#11401](https://github.com/python/typeshed/pull/11401))
 
-Closes #11395
+    Closes #11395
 
-## 0.10.0.20240106 (2024-01-06)
+## [0.10.0.20240106](https://pypi.org/project/types-netaddr/0.10.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## 0.10.0.20240102 (2024-01-02)
+## [0.10.0.20240102](https://pypi.org/project/types-netaddr/0.10.0.20240102/) (2024-01-02)
 
-netaddr: Bump to 0.10.* ([#11215](https://github.com/python/typeshed/pull/11215))
+* netaddr: Bump to 0.10.* ([#11215](https://github.com/python/typeshed/pull/11215))
 
-Closes #11211
+    Closes #11211
 
-## 0.9.0.2 (2023-12-19)
+## [0.9.0.2](https://pypi.org/project/types-netaddr/0.9.0.2/) (2023-12-19)
 
-Review `SupportsInt` and `SupportsFloat` usages in 3rd-party stubs ([#11003](https://github.com/python/typeshed/pull/11003))
+* Review `SupportsInt` and `SupportsFloat` usages in 3rd-party stubs ([#11003](https://github.com/python/typeshed/pull/11003))
 
 ## 0.9.0.1 (2023-09-23)
 

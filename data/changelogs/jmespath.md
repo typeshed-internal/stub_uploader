@@ -2,56 +2,56 @@
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
 
-## 1.1.0.20260508 (2026-05-08)
+## [1.1.0.20260508](https://pypi.org/project/types-jmespath/1.1.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 1.1.0.20260408 (2026-04-08)
+## [1.1.0.20260408](https://pypi.org/project/types-jmespath/1.1.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 1.1.0.20260124 (2026-01-24)
+## [1.1.0.20260124](https://pypi.org/project/types-jmespath/1.1.0.20260124/) (2026-01-24)
 
-[stubsabot] Bump jmespath to 1.1.* ([#15315](https://github.com/python/typeshed/pull/15315))
+* Bump jmespath to 1.1.* ([#15315](https://github.com/python/typeshed/pull/15315))
 
-Release: https://pypi.org/pypi/jmespath/1.1.0
-Homepage: https://github.com/jmespath/jmespath.py
-Repository: https://github.com/jmespath/jmespath.py
-Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/jmespath
-Diff: https://github.com/jmespath/jmespath.py/compare/1.0.1...1.1.0
+    Release: https://pypi.org/pypi/jmespath/1.1.0 \
+    Homepage: https://github.com/jmespath/jmespath.py \
+    Repository: https://github.com/jmespath/jmespath.py \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/jmespath \
+    Diff: https://github.com/jmespath/jmespath.py/compare/1.0.1...1.1.0
 
-Stubsabot analysis of the diff between the two releases:
- - 0 public Python files have been added.
- - 0 files included in typeshed's stubs have been deleted.
- - 3 files included in typeshed's stubs have been modified or renamed: `jmespath/__init__.py`, `jmespath/functions.py`, `jmespath/parser.py`.
- - Total lines of Python code added: 40.
- - Total lines of Python code deleted: 128.
+    Stubsabot analysis of the diff between the two releases:
+     - 0 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 3 files included in typeshed's stubs have been modified or renamed: `jmespath/__init__.py`, `jmespath/functions.py`, `jmespath/parser.py`.
+     - Total lines of Python code added: 40.
+     - Total lines of Python code deleted: 128.
 
-If stubtest fails for this PR:
-- Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
-- Fix stubtest failures in another PR, then close this PR
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
 
-Note that you will need to close and re-open the PR in order to trigger CI
+    Note that you will need to close and re-open the PR in order to trigger CI
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 1.0.2.20250809 (2025-08-09)
+## [1.0.2.20250809](https://pypi.org/project/types-jmespath/1.0.2.20250809/) (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 1.0.2.20250711 (2025-07-11)
+## [1.0.2.20250711](https://pypi.org/project/types-jmespath/1.0.2.20250711/) (2025-07-11)
 
-[jmespath] Remove from pyrightconfig ([#14378](https://github.com/python/typeshed/pull/14378))
+* Remove from pyrightconfig ([#14378](https://github.com/python/typeshed/pull/14378))
 
-## 1.0.2.20250529 (2025-05-29)
+## [1.0.2.20250529](https://pypi.org/project/types-jmespath/1.0.2.20250529/) (2025-05-29)
 
-Improve `jmespath` ([#14176](https://github.com/python/typeshed/pull/14176))
+* Improve `jmespath` ([#14176](https://github.com/python/typeshed/pull/14176))
 
-## 1.0.2.20240106 (2024-01-06)
+## [1.0.2.20240106](https://pypi.org/project/types-jmespath/1.0.2.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 1.0.2.7 (2023-07-20)
 

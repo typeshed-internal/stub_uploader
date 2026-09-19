@@ -1,10 +1,10 @@
-## 2.0.5.20260408 (2026-04-08)
+## [2.0.5.20260408](https://pypi.org/project/types-first/2.0.5.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 2.0.5.20240806 (2024-08-06)
+## [2.0.5.20240806](https://pypi.org/project/types-first/2.0.5.20240806/) (2024-08-06)
 
-Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
+* Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
 
 ## 2.0.5.2 (2023-07-20)
 

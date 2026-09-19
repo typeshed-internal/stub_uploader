@@ -14,41 +14,41 @@
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))
 
-## 0.7.0.20260518 (2026-05-18)
+## [0.7.0.20260518](https://pypi.org/project/types-pony/0.7.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 0.7.0.20260508 (2026-05-08)
+## [0.7.0.20260508](https://pypi.org/project/types-pony/0.7.0.20260508/) (2026-05-08)
 
-Drop 3.9 support for third-party packages ([#15707](https://github.com/python/typeshed/pull/15707))
+* Drop 3.9 support for third-party packages ([#15707](https://github.com/python/typeshed/pull/15707))
 
-Inline some unnecessary type aliases
+    Inline some unnecessary type aliases
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 0.7.0.20260408 (2026-04-08)
+## [0.7.0.20260408](https://pypi.org/project/types-pony/0.7.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 0.7.0.20260402 (2026-04-02)
+## [0.7.0.20260402](https://pypi.org/project/types-pony/0.7.0.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-## 0.7.0.20260322 (2026-03-22)
+## [0.7.0.20260322](https://pypi.org/project/types-pony/0.7.0.20260322/) (2026-03-22)
 
-Add `@type_check_only` to stub-only private classes in various third-party stubs ([#15535](https://github.com/python/typeshed/pull/15535))
+* Add `@type_check_only` to stub-only private classes in various third-party stubs ([#15535](https://github.com/python/typeshed/pull/15535))
 
-## 0.7.0.20260223 (2026-02-23)
+## [0.7.0.20260223](https://pypi.org/project/types-pony/0.7.0.20260223/) (2026-02-23)
 
-Add missing __slots__ to third-party packages ([#15454](https://github.com/python/typeshed/pull/15454))
+* Add missing __slots__ to third-party packages ([#15454](https://github.com/python/typeshed/pull/15454))
 
-## 0.7.0.20250822 (2025-08-22)
+## [0.7.0.20250822](https://pypi.org/project/types-pony/0.7.0.20250822/) (2025-08-22)
 
-Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+* Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
 
-## 0.7.0.20250717 (2025-07-17)
+## [0.7.0.20250717](https://pypi.org/project/types-pony/0.7.0.20250717/) (2025-07-17)
 
-Add pony stubs ([#14361](https://github.com/python/typeshed/pull/14361))
+* Add pony stubs ([#14361](https://github.com/python/typeshed/pull/14361))
 

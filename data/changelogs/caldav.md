@@ -1,22 +1,22 @@
-## 1.3.0.20250516 (2025-05-16)
+## [1.3.0.20250516](https://pypi.org/project/types-caldav/1.3.0.20250516/) (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## 1.3.0.20241107 (2024-11-07)
+## [1.3.0.20241107](https://pypi.org/project/types-caldav/1.3.0.20241107/) (2024-11-07)
 
-[stubsabot] Mark caldav as obsolete since 1.4.0 ([#12957](https://github.com/python/typeshed/pull/12957))
+* Mark caldav as obsolete since 1.4.0 ([#12957](https://github.com/python/typeshed/pull/12957))
 
-## 1.3.0.20240824 (2024-08-24)
+## [1.3.0.20240824](https://pypi.org/project/types-caldav/1.3.0.20240824/) (2024-08-24)
 
-Resolve some stubtest allowlist entries by marking params as keyword-only ([#12581](https://github.com/python/typeshed/pull/12581))
+* Resolve some stubtest allowlist entries by marking params as keyword-only ([#12581](https://github.com/python/typeshed/pull/12581))
 
-## 1.3.0.20240331 (2024-03-31)
+## [1.3.0.20240331](https://pypi.org/project/types-caldav/1.3.0.20240331/) (2024-03-31)
 
-Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
+* Remove bare Incomplete annotations in third-party stubs ([#11671](https://github.com/python/typeshed/pull/11671))
 
-## 1.3.0.20240106 (2024-01-06)
+## [1.3.0.20240106](https://pypi.org/project/types-caldav/1.3.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 1.3.0.0 (2023-07-20)
 

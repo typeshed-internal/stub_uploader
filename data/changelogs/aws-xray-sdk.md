@@ -1,69 +1,69 @@
-## 2.15.0.20260518 (2026-05-18)
+## [2.15.0.20260518](https://pypi.org/project/types-aws-xray-sdk/2.15.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 2.15.0.20260508 (2026-05-08)
+## [2.15.0.20260508](https://pypi.org/project/types-aws-xray-sdk/2.15.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 2.15.0.20260408 (2026-04-08)
+## [2.15.0.20260408](https://pypi.org/project/types-aws-xray-sdk/2.15.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 2.15.0.20251206 (2025-12-06)
+## [2.15.0.20251206](https://pypi.org/project/types-aws-xray-sdk/2.15.0.20251206/) (2025-12-06)
 
-Align type of aws_xra_sdk.core.xray_recorder stub with lib ([#15107](https://github.com/python/typeshed/pull/15107))
+* Align type of aws_xra_sdk.core.xray_recorder stub with lib ([#15107](https://github.com/python/typeshed/pull/15107))
 
-## 2.15.0.20251111 (2025-11-11)
+## [2.15.0.20251111](https://pypi.org/project/types-aws-xray-sdk/2.15.0.20251111/) (2025-11-11)
 
-[aws-xray-sdk] Annotate more ([#15004](https://github.com/python/typeshed/pull/15004))
+* Annotate more ([#15004](https://github.com/python/typeshed/pull/15004))
 
-## 2.15.0.20251101 (2025-11-01)
+## [2.15.0.20251101](https://pypi.org/project/types-aws-xray-sdk/2.15.0.20251101/) (2025-11-01)
 
-[aws-xray-sdk] Update to 2.15.* ([#14955](https://github.com/python/typeshed/pull/14955))
+* Update to 2.15.* ([#14955](https://github.com/python/typeshed/pull/14955))
 
-## 2.14.0.20250708 (2025-07-08)
+## [2.14.0.20250708](https://pypi.org/project/types-aws-xray-sdk/2.14.0.20250708/) (2025-07-08)
 
-[aws-xray-sdk] Improve stubs ([#14277](https://github.com/python/typeshed/pull/14277))
+* Improve stubs ([#14277](https://github.com/python/typeshed/pull/14277))
 
-[aws-xray-sdk] Add missing stubs ([#14276](https://github.com/python/typeshed/pull/14276))
+* Add missing stubs ([#14276](https://github.com/python/typeshed/pull/14276))
 
-## 2.14.0.20250516 (2025-05-16)
+## [2.14.0.20250516](https://pypi.org/project/types-aws-xray-sdk/2.14.0.20250516/) (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## 2.14.0.20250428 (2025-04-28)
+## [2.14.0.20250428](https://pypi.org/project/types-aws-xray-sdk/2.14.0.20250428/) (2025-04-28)
 
-Add None to SubsegmentContextManager.__enter__ return type ([#13892](https://github.com/python/typeshed/pull/13892))
+* Add None to SubsegmentContextManager.__enter__ return type ([#13892](https://github.com/python/typeshed/pull/13892))
 
-## 2.14.0.20240606 (2024-06-06)
+## [2.14.0.20240606](https://pypi.org/project/types-aws-xray-sdk/2.14.0.20240606/) (2024-06-06)
 
-[stubsabot] Bump aws-xray-sdk to 2.14.* ([#12096](https://github.com/python/typeshed/pull/12096))
+* Bump aws-xray-sdk to 2.14.* ([#12096](https://github.com/python/typeshed/pull/12096))
 
-## 2.13.0.20240423 (2024-04-23)
+## [2.13.0.20240423](https://pypi.org/project/types-aws-xray-sdk/2.13.0.20240423/) (2024-04-23)
 
-Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
+* Add precise values for enum members where possible ([#11299](https://github.com/python/typeshed/pull/11299))
 
-Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
-Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
+    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com> \
+    Co-authored-by: Alex Waygood <alex.waygood@gmail.com>
 
-## 2.13.0.20240308 (2024-03-08)
+## [2.13.0.20240308](https://pypi.org/project/types-aws-xray-sdk/2.13.0.20240308/) (2024-03-08)
 
-[stubsabot] Bump aws-xray-sdk to 2.13.* ([#11536](https://github.com/python/typeshed/pull/11536))
+* Bump aws-xray-sdk to 2.13.* ([#11536](https://github.com/python/typeshed/pull/11536))
 
-Release: https://pypi.org/pypi/aws-xray-sdk/2.13.0
-Homepage: https://github.com/aws/aws-xray-sdk-python
-Repository: https://github.com/aws/aws-xray-sdk-python
-Diff: https://github.com/aws/aws-xray-sdk-python/compare/2.12.1...2.13.0
+    Release: https://pypi.org/pypi/aws-xray-sdk/2.13.0 \
+    Homepage: https://github.com/aws/aws-xray-sdk-python \
+    Repository: https://github.com/aws/aws-xray-sdk-python \
+    Diff: https://github.com/aws/aws-xray-sdk-python/compare/2.12.1...2.13.0
 
-Stubsabot analysis of the diff between the two releases:
- - 1 public Python file has been added: `tests/ext/sqlalchemy_core/test_dburl.py`.
- - 0 files included in typeshed's stubs have been deleted.
- - 1 file included in typeshed's stubs has been modified or renamed: `aws_xray_sdk/version.py`.
- - Total lines of Python code added: 65.
- - Total lines of Python code deleted: 14.
+    Stubsabot analysis of the diff between the two releases:
+     - 1 public Python file has been added: `tests/ext/sqlalchemy_core/test_dburl.py`.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 1 file included in typeshed's stubs has been modified or renamed: `aws_xray_sdk/version.py`.
+     - Total lines of Python code added: 65.
+     - Total lines of Python code deleted: 14.
 
 ## 2.12.0.3 (2023-10-13)
 

@@ -1,6 +1,6 @@
-## 1.0.2.20260408 (2026-04-08)
+## [1.0.2.20260408](https://pypi.org/project/types-passpy/1.0.2.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
 ## 1.0.2.4 (2023-07-20)
 

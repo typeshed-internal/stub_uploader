@@ -10,70 +10,70 @@
 
 * Update to 1.2.* ([#16053](https://github.com/python/typeshed/pull/16053))
 
-## 1.1.0.20260518 (2026-05-18)
+## [1.1.0.20260518](https://pypi.org/project/types-PyMySQL/1.1.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 1.1.0.20260508 (2026-05-08)
+## [1.1.0.20260508](https://pypi.org/project/types-PyMySQL/1.1.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 1.1.0.20260408 (2026-04-08)
+## [1.1.0.20260408](https://pypi.org/project/types-PyMySQL/1.1.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 1.1.0.20251220 (2025-12-20)
+## [1.1.0.20251220](https://pypi.org/project/types-PyMySQL/1.1.0.20251220/) (2025-12-20)
 
-[PyMySQL] Add Cursor.warning_count attribute ([#15150](https://github.com/python/typeshed/pull/15150))
+* Add Cursor.warning_count attribute ([#15150](https://github.com/python/typeshed/pull/15150))
 
-## 1.1.0.20250916 (2025-09-16)
+## [1.1.0.20250916](https://pypi.org/project/types-PyMySQL/1.1.0.20250916/) (2025-09-16)
 
-[PyMySQL] Fix stubs for `pymysql.connections.Connection.__init__` ([#14724](https://github.com/python/typeshed/pull/14724))
+* Fix stubs for `pymysql.connections.Connection.__init__` ([#14724](https://github.com/python/typeshed/pull/14724))
 
-## 1.1.0.20250914 (2025-09-14)
+## [1.1.0.20250914](https://pypi.org/project/types-PyMySQL/1.1.0.20250914/) (2025-09-14)
 
-Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
+* Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
 
-## 1.1.0.20250909 (2025-09-09)
+## [1.1.0.20250909](https://pypi.org/project/types-PyMySQL/1.1.0.20250909/) (2025-09-09)
 
-[PyMySQL] Add stub for `SSCursor.read_next` ([#14670](https://github.com/python/typeshed/pull/14670))
+* Add stub for `SSCursor.read_next` ([#14670](https://github.com/python/typeshed/pull/14670))
 
-[PyMySQL] Improve `Connection.__init__` overloads & add missing types ([#14684](https://github.com/python/typeshed/pull/14684))
+* Improve `Connection.__init__` overloads & add missing types ([#14684](https://github.com/python/typeshed/pull/14684))
 
-## 1.1.0.20250822 (2025-08-22)
+## [1.1.0.20250822](https://pypi.org/project/types-PyMySQL/1.1.0.20250822/) (2025-08-22)
 
-Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+* Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
 
-## 1.1.0.20250711 (2025-07-11)
+## [1.1.0.20250711](https://pypi.org/project/types-PyMySQL/1.1.0.20250711/) (2025-07-11)
 
-[PyMySQL] Fix issue with import constants attributes ([#14393](https://github.com/python/typeshed/pull/14393))
+* Fix issue with import constants attributes ([#14393](https://github.com/python/typeshed/pull/14393))
 
-## 1.1.0.20250708 (2025-07-08)
+## [1.1.0.20250708](https://pypi.org/project/types-PyMySQL/1.1.0.20250708/) (2025-07-08)
 
-[PyMySQL] Add missing stubs ([#14335](https://github.com/python/typeshed/pull/14335))
+* Add missing stubs ([#14335](https://github.com/python/typeshed/pull/14335))
 
-## 1.1.0.20250516 (2025-05-16)
+## [1.1.0.20250516](https://pypi.org/project/types-PyMySQL/1.1.0.20250516/) (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## 1.1.0.20241103 (2024-11-03)
+## [1.1.0.20241103](https://pypi.org/project/types-PyMySQL/1.1.0.20241103/) (2024-11-03)
 
-Improve pymysql stubs ([#12942](https://github.com/python/typeshed/pull/12942))
+* Improve pymysql stubs ([#12942](https://github.com/python/typeshed/pull/12942))
 
-Co-authored-by: Shamil <ashm.tech@proton.me>
-Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+    Co-authored-by: Shamil <ashm.tech@proton.me> \
+    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
-## 1.1.0.20240524 (2024-05-24)
+## [1.1.0.20240524](https://pypi.org/project/types-PyMySQL/1.1.0.20240524/) (2024-05-24)
 
-Update PyMySQL to 1.1.1 ([#12001](https://github.com/python/typeshed/pull/12001))
+* Update PyMySQL to 1.1.1 ([#12001](https://github.com/python/typeshed/pull/12001))
 
-Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
+    Co-authored-by: Jelle Zijlstra <jelle.zijlstra@gmail.com>
 
-## 1.1.0.20240425 (2024-04-25)
+## [1.1.0.20240425](https://pypi.org/project/types-PyMySQL/1.1.0.20240425/) (2024-04-25)
 
-Bump pyright to v1.1.360 ([#11810](https://github.com/python/typeshed/pull/11810))
+* Bump pyright to v1.1.360 ([#11810](https://github.com/python/typeshed/pull/11810))
 
 ## 1.1.0.1 (2023-07-20)
 

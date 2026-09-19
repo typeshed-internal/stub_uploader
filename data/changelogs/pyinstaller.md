@@ -12,179 +12,179 @@
 
     We're missing several sub-modules.
 
-## 6.21.0.20260616 (2026-06-16)
+## [6.21.0.20260616](https://pypi.org/project/types-pyinstaller/6.21.0.20260616/) (2026-06-16)
 
-[PyInstaller] Bump to 6.21.* ([#15916](https://github.com/python/typeshed/pull/15916))
+* Bump to 6.21.* ([#15916](https://github.com/python/typeshed/pull/15916))
 
-[pyinstaller] Expose `PyInstaller.building.splash.Splash._check_tcl_tk_compatibility` ([#15915](https://github.com/python/typeshed/pull/15915))
+* Expose `PyInstaller.building.splash.Splash._check_tcl_tk_compatibility` ([#15915](https://github.com/python/typeshed/pull/15915))
 
-## 6.20.0.20260518 (2026-05-18)
+## [6.20.0.20260518](https://pypi.org/project/types-pyinstaller/6.20.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 6.20.0.20260508 (2026-05-08)
+## [6.20.0.20260508](https://pypi.org/project/types-pyinstaller/6.20.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 6.20.0.20260503 (2026-05-03)
+## [6.20.0.20260503](https://pypi.org/project/types-pyinstaller/6.20.0.20260503/) (2026-05-03)
 
-[pyinstaller]: bump pyinstaller to 6.20.* ([#15673](https://github.com/python/typeshed/pull/15673))
+* bump pyinstaller to 6.20.* ([#15673](https://github.com/python/typeshed/pull/15673))
 
-## 6.19.0.20260408 (2026-04-08)
+## [6.19.0.20260408](https://pypi.org/project/types-pyinstaller/6.19.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 6.19.0.20260402 (2026-04-02)
+## [6.19.0.20260402](https://pypi.org/project/types-pyinstaller/6.19.0.20260402/) (2026-04-02)
 
-Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
+* Update most test/lint dependencies ([#15582](https://github.com/python/typeshed/pull/15582))
 
-## 6.19.0.20260322 (2026-03-22)
+## [6.19.0.20260322](https://pypi.org/project/types-pyinstaller/6.19.0.20260322/) (2026-03-22)
 
-Add `@type_check_only` to stub-only private classes in various third-party stubs ([#15535](https://github.com/python/typeshed/pull/15535))
+* Add `@type_check_only` to stub-only private classes in various third-party stubs ([#15535](https://github.com/python/typeshed/pull/15535))
 
-## 6.19.0.20260215 (2026-02-15)
+## [6.19.0.20260215](https://pypi.org/project/types-pyinstaller/6.19.0.20260215/) (2026-02-15)
 
-[stubsabot] Bump pyinstaller to 6.19.* ([#15428](https://github.com/python/typeshed/pull/15428))
+* Bump pyinstaller to 6.19.* ([#15428](https://github.com/python/typeshed/pull/15428))
 
-## 6.18.0.20260115 (2026-01-15)
+## [6.18.0.20260115](https://pypi.org/project/types-pyinstaller/6.18.0.20260115/) (2026-01-15)
 
-[pyinstaller] Update to 6.18.* ([#15279](https://github.com/python/typeshed/pull/15279))
+* Update to 6.18.* ([#15279](https://github.com/python/typeshed/pull/15279))
 
-## 6.17.0.20251127 (2025-11-27)
+## [6.17.0.20251127](https://pypi.org/project/types-pyinstaller/6.17.0.20251127/) (2025-11-27)
 
-[stubsabot] Bump pyinstaller to 6.17.* ([#15081](https://github.com/python/typeshed/pull/15081))
+* Bump pyinstaller to 6.17.* ([#15081](https://github.com/python/typeshed/pull/15081))
 
-## 6.16.0.20250918 (2025-09-18)
+## [6.16.0.20250918](https://pypi.org/project/types-pyinstaller/6.16.0.20250918/) (2025-09-18)
 
-[pyinstaller] Update to 6.16.* ([#14715](https://github.com/python/typeshed/pull/14715))
+* Update to 6.16.* ([#14715](https://github.com/python/typeshed/pull/14715))
 
-## 6.15.0.20250822 (2025-08-22)
+## [6.15.0.20250822](https://pypi.org/project/types-pyinstaller/6.15.0.20250822/) (2025-08-22)
 
-Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+* Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
 
-## 6.15.0.20250809 (2025-08-09)
+## [6.15.0.20250809](https://pypi.org/project/types-pyinstaller/6.15.0.20250809/) (2025-08-09)
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 6.15.0.20250805 (2025-08-05)
+## [6.15.0.20250805](https://pypi.org/project/types-pyinstaller/6.15.0.20250805/) (2025-08-05)
 
-[pyinstaller] Update to 6.15.* ([#14521](https://github.com/python/typeshed/pull/14521))
+* Update to 6.15.* ([#14521](https://github.com/python/typeshed/pull/14521))
 
-## 6.14.0.20250611 (2025-06-11)
+## [6.14.0.20250611](https://pypi.org/project/types-pyinstaller/6.14.0.20250611/) (2025-06-11)
 
-[stubsabot] Bump pyinstaller to 6.14.* ([#14217](https://github.com/python/typeshed/pull/14217))
+* Bump pyinstaller to 6.14.* ([#14217](https://github.com/python/typeshed/pull/14217))
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 6.13.0.20250417 (2025-04-17)
+## [6.13.0.20250417](https://pypi.org/project/types-pyinstaller/6.13.0.20250417/) (2025-04-17)
 
-Bump pyinstaller to 6.13.* ([#13843](https://github.com/python/typeshed/pull/13843))
+* Bump pyinstaller to 6.13.* ([#13843](https://github.com/python/typeshed/pull/13843))
 
-Add all classes in `stubs/pyinstaller/PyInstaller/utils/win32/versioninfo.pyi` ([#13833](https://github.com/python/typeshed/pull/13833))
+* Add all classes in `stubs/pyinstaller/PyInstaller/utils/win32/versioninfo.pyi` ([#13833](https://github.com/python/typeshed/pull/13833))
 
-## 6.12.0.20250308 (2025-03-08)
+## [6.12.0.20250308](https://pypi.org/project/types-pyinstaller/6.12.0.20250308/) (2025-03-08)
 
-PyInstaller: Complete types in splash.pyi ([#13568](https://github.com/python/typeshed/pull/13568))
+* PyInstaller: Complete types in splash.pyi ([#13568](https://github.com/python/typeshed/pull/13568))
 
----------
+    ---------
 
-Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com>
 
-## 6.12.0.20250301 (2025-03-01)
+## [6.12.0.20250301](https://pypi.org/project/types-pyinstaller/6.12.0.20250301/) (2025-03-01)
 
-Fix `pyinstaller.utils.hooks.collect_entry_point` return type ([#13111](https://github.com/python/typeshed/pull/13111))
+* Fix `pyinstaller.utils.hooks.collect_entry_point` return type ([#13111](https://github.com/python/typeshed/pull/13111))
 
-## 6.12.0.20250226 (2025-02-26)
+## [6.12.0.20250226](https://pypi.org/project/types-pyinstaller/6.12.0.20250226/) (2025-02-26)
 
-PyInstaller: Complete types in build_main.pyi ([#13528](https://github.com/python/typeshed/pull/13528))
+* PyInstaller: Complete types in build_main.pyi ([#13528](https://github.com/python/typeshed/pull/13528))
 
-Co-authored-by: sobolevn <mail@sobolevn.me>
+    Co-authored-by: sobolevn <mail@sobolevn.me>
 
-## 6.12.0.20250223 (2025-02-23)
+## [6.12.0.20250223](https://pypi.org/project/types-pyinstaller/6.12.0.20250223/) (2025-02-23)
 
-Fix typo in PyInstaller type alias ([#13525](https://github.com/python/typeshed/pull/13525))
+* Fix typo in PyInstaller type alias ([#13525](https://github.com/python/typeshed/pull/13525))
 
-## 6.12.0.20250210 (2025-02-10)
+## [6.12.0.20250210](https://pypi.org/project/types-pyinstaller/6.12.0.20250210/) (2025-02-10)
 
-[stubsabot] Bump pyinstaller to 6.12.* ([#13479](https://github.com/python/typeshed/pull/13479))
+* Bump pyinstaller to 6.12.* ([#13479](https://github.com/python/typeshed/pull/13479))
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 6.11.0.20250130 (2025-01-30)
+## [6.11.0.20250130](https://pypi.org/project/types-pyinstaller/6.11.0.20250130/) (2025-01-30)
 
-Upgrade Black and Ruff ([#13443](https://github.com/python/typeshed/pull/13443))
+* Upgrade Black and Ruff ([#13443](https://github.com/python/typeshed/pull/13443))
 
-## 6.11.0.20241028 (2024-10-28)
+## [6.11.0.20241028](https://pypi.org/project/types-pyinstaller/6.11.0.20241028/) (2024-10-28)
 
-Bump pyinstaller to 6.11.* ([#12911](https://github.com/python/typeshed/pull/12911))
+* Bump pyinstaller to 6.11.* ([#12911](https://github.com/python/typeshed/pull/12911))
 
-## 6.10.0.20240812 (2024-08-12)
+## [6.10.0.20240812](https://pypi.org/project/types-pyinstaller/6.10.0.20240812/) (2024-08-12)
 
-Bump pyinstaller to 6.10.* ([#12513](https://github.com/python/typeshed/pull/12513))
+* Bump pyinstaller to 6.10.* ([#12513](https://github.com/python/typeshed/pull/12513))
 
-## 6.9.0.20240710 (2024-07-10)
+## [6.9.0.20240710](https://pypi.org/project/types-pyinstaller/6.9.0.20240710/) (2024-07-10)
 
-[stubsabot] Bump pyinstaller to 6.9.* ([#12289](https://github.com/python/typeshed/pull/12289))
+* Bump pyinstaller to 6.9.* ([#12289](https://github.com/python/typeshed/pull/12289))
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
-## 6.8.0.20240626 (2024-06-26)
+## [6.8.0.20240626](https://pypi.org/project/types-pyinstaller/6.8.0.20240626/) (2024-06-26)
 
-Bump pyinstaller to 6.8.* ([#12198](https://github.com/python/typeshed/pull/12198))
+* Bump pyinstaller to 6.8.* ([#12198](https://github.com/python/typeshed/pull/12198))
 
-## 6.6.0.20240426 (2024-04-26)
+## [6.6.0.20240426](https://pypi.org/project/types-pyinstaller/6.6.0.20240426/) (2024-04-26)
 
-pyinstaller: allow `Splash(text_pos = None)` ([#11835](https://github.com/python/typeshed/pull/11835))
+* pyinstaller: allow `Splash(text_pos = None)` ([#11835](https://github.com/python/typeshed/pull/11835))
 
-## 6.6.0.20240417 (2024-04-17)
+## [6.6.0.20240417](https://pypi.org/project/types-pyinstaller/6.6.0.20240417/) (2024-04-17)
 
-Remove remaining bare `Incomplete`s ([#11768](https://github.com/python/typeshed/pull/11768))
+* Remove remaining bare `Incomplete`s ([#11768](https://github.com/python/typeshed/pull/11768))
 
-Enable Y065
+    Enable Y065
 
-## 6.6.0.20240415 (2024-04-15)
+## [6.6.0.20240415](https://pypi.org/project/types-pyinstaller/6.6.0.20240415/) (2024-04-15)
 
-Bump pyinstaller to 6.6.* ([#11764](https://github.com/python/typeshed/pull/11764))
+* Bump pyinstaller to 6.6.* ([#11764](https://github.com/python/typeshed/pull/11764))
 
-## 6.5.0.20240311 (2024-03-11)
+## [6.5.0.20240311](https://pypi.org/project/types-pyinstaller/6.5.0.20240311/) (2024-03-11)
 
-Bump pyinstaller to 6.5.* ([#11563](https://github.com/python/typeshed/pull/11563))
+* Bump pyinstaller to 6.5.* ([#11563](https://github.com/python/typeshed/pull/11563))
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## 6.4.0.20240212 (2024-02-12)
+## [6.4.0.20240212](https://pypi.org/project/types-pyinstaller/6.4.0.20240212/) (2024-02-12)
 
-[stubsabot] Bump pyinstaller to 6.4.* ([#11398](https://github.com/python/typeshed/pull/11398))
+* Bump pyinstaller to 6.4.* ([#11398](https://github.com/python/typeshed/pull/11398))
 
-## 6.3.0.20240106 (2024-01-06)
+## [6.3.0.20240106](https://pypi.org/project/types-pyinstaller/6.3.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-Remove Python 3.7 branches ([#11238](https://github.com/python/typeshed/pull/11238))
+* Remove Python 3.7 branches ([#11238](https://github.com/python/typeshed/pull/11238))
 
-## 6.3.0.20240105 (2024-01-05)
+## [6.3.0.20240105](https://pypi.org/project/types-pyinstaller/6.3.0.20240105/) (2024-01-05)
 
-Drop support for Python 3.7 ([#11234](https://github.com/python/typeshed/pull/11234))
+* Drop support for Python 3.7 ([#11234](https://github.com/python/typeshed/pull/11234))
 
-## 6.3.0.0 (2023-12-18)
+## [6.3.0.0](https://pypi.org/project/types-pyinstaller/6.3.0.0/) (2023-12-18)
 
-Bump pyinstaller to 6.3.* ([#11175](https://github.com/python/typeshed/pull/11175))
+* Bump pyinstaller to 6.3.* ([#11175](https://github.com/python/typeshed/pull/11175))
 
-## 6.2.0.1 (2023-11-24)
+## [6.2.0.1](https://pypi.org/project/types-pyinstaller/6.2.0.1/) (2023-11-24)
 
-Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
+* Third-party stubs: remove unused `type: ignore`s ([#11063](https://github.com/python/typeshed/pull/11063))
 
-## 6.2.0.0 (2023-11-13)
+## [6.2.0.0](https://pypi.org/project/types-pyinstaller/6.2.0.0/) (2023-11-13)
 
-Bump pyinstaller to 6.2.* ([#11023](https://github.com/python/typeshed/pull/11023))
+* Bump pyinstaller to 6.2.* ([#11023](https://github.com/python/typeshed/pull/11023))
 
-Update `PyInstaller.building.api.EXE.__init__` ([#11024](https://github.com/python/typeshed/pull/11024))
+* Update `PyInstaller.building.api.EXE.__init__` ([#11024](https://github.com/python/typeshed/pull/11024))
 
-## 6.1.0.1 (2023-11-09)
+## [6.1.0.1](https://pypi.org/project/types-pyinstaller/6.1.0.1/) (2023-11-09)
 
-Bump flake8-pyi to 23.11.0 ([#10997](https://github.com/python/typeshed/pull/10997))
+* Bump flake8-pyi to 23.11.0 ([#10997](https://github.com/python/typeshed/pull/10997))
 
 ## 6.1.0.0 (2023-10-14)
 

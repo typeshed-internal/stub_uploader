@@ -1,34 +1,34 @@
-## 1.2.0.20260518 (2026-05-18)
+## [1.2.0.20260518](https://pypi.org/project/types-click-default-group/1.2.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 1.2.0.20260408 (2026-04-08)
+## [1.2.0.20260408](https://pypi.org/project/types-click-default-group/1.2.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 1.2.0.20260402 (2026-04-02)
+## [1.2.0.20260402](https://pypi.org/project/types-click-default-group/1.2.0.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-## 1.2.0.20250513 (2025-05-13)
+## [1.2.0.20250513](https://pypi.org/project/types-click-default-group/1.2.0.20250513/) (2025-05-13)
 
-[click_default_group] default_cmd_name argument should be named default ([#14023](https://github.com/python/typeshed/pull/14023))
+* default_cmd_name argument should be named default ([#14023](https://github.com/python/typeshed/pull/14023))
 
-## 1.2.0.20250425 (2025-04-25)
+## [1.2.0.20250425](https://pypi.org/project/types-click-default-group/1.2.0.20250425/) (2025-04-25)
 
-Expand args and kwargs for `click_default_group` methods ([#13873](https://github.com/python/typeshed/pull/13873))
+* Expand args and kwargs for `click_default_group` methods ([#13873](https://github.com/python/typeshed/pull/13873))
 
-## 1.2.0.20250413 (2025-04-13)
+## [1.2.0.20250413](https://pypi.org/project/types-click-default-group/1.2.0.20250413/) (2025-04-13)
 
-Import names from typing directly rather than importing module ([#13761](https://github.com/python/typeshed/pull/13761))
+* Import names from typing directly rather than importing module ([#13761](https://github.com/python/typeshed/pull/13761))
 
-## 1.2.0.20250322 (2025-03-22)
+## [1.2.0.20250322](https://pypi.org/project/types-click-default-group/1.2.0.20250322/) (2025-03-22)
 
-Add `__all__` to `click-default-group` ([#13694](https://github.com/python/typeshed/pull/13694))
+* Add `__all__` to `click-default-group` ([#13694](https://github.com/python/typeshed/pull/13694))
 
-## 1.2.0.20241221 (2024-12-21)
+## [1.2.0.20241221](https://pypi.org/project/types-click-default-group/1.2.0.20241221/) (2024-12-21)
 
-Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
 ## 1.2.0.0 (2023-07-22)
 

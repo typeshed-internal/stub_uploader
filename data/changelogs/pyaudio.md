@@ -1,31 +1,31 @@
-## 0.2.16.20260508 (2026-05-08)
+## [0.2.16.20260508](https://pypi.org/project/types-pyaudio/0.2.16.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 0.2.16.20260408 (2026-04-08)
+## [0.2.16.20260408](https://pypi.org/project/types-pyaudio/0.2.16.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 0.2.16.20250801 (2025-08-01)
+## [0.2.16.20250801](https://pypi.org/project/types-pyaudio/0.2.16.20250801/) (2025-08-01)
 
-Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
+* Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
-Co-authored-by: Avasam <samuel.06@hotmail.com>
-Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com> \
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
-## 0.2.16.20240516 (2024-05-16)
+## [0.2.16.20240516](https://pypi.org/project/types-pyaudio/0.2.16.20240516/) (2024-05-16)
 
-uWSGI: Makes stubtest_allowlist_darwin more resilient against CI flakyness ([#11819](https://github.com/python/typeshed/pull/11819))
+* uWSGI: Makes stubtest_allowlist_darwin more resilient against CI flakyness ([#11819](https://github.com/python/typeshed/pull/11819))
 
-## 0.2.16.20240425 (2024-04-25)
+## [0.2.16.20240425](https://pypi.org/project/types-pyaudio/0.2.16.20240425/) (2024-04-25)
 
-Disable uwsgi, pyaudio, jack-client stubtest on macOS ([#11821](https://github.com/python/typeshed/pull/11821))
+* Disable uwsgi, pyaudio, jack-client stubtest on macOS ([#11821](https://github.com/python/typeshed/pull/11821))
 
-## 0.2.16.20240106 (2024-01-06)
+## [0.2.16.20240106](https://pypi.org/project/types-pyaudio/0.2.16.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
 ## 0.2.16.7 (2023-08-13)
 

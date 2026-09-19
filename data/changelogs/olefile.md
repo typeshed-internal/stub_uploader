@@ -1,26 +1,26 @@
-## 0.47.0.20260508 (2026-05-08)
+## [0.47.0.20260508](https://pypi.org/project/types-olefile/0.47.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 0.47.0.20260408 (2026-04-08)
+## [0.47.0.20260408](https://pypi.org/project/types-olefile/0.47.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 0.47.0.20240806 (2024-08-06)
+## [0.47.0.20240806](https://pypi.org/project/types-olefile/0.47.0.20240806/) (2024-08-06)
 
-Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
+* Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
 
-## 0.47.0.20240626 (2024-06-26)
+## [0.47.0.20240626](https://pypi.org/project/types-olefile/0.47.0.20240626/) (2024-06-26)
 
-Updated olefile types ([#12097](https://github.com/python/typeshed/pull/12097))
+* Updated olefile types ([#12097](https://github.com/python/typeshed/pull/12097))
 
-## 0.47.0.20240301 (2024-03-01)
+## [0.47.0.20240301](https://pypi.org/project/types-olefile/0.47.0.20240301/) (2024-03-01)
 
-Fix invalid noqa comments and poorly formatted type ignores ([#11497](https://github.com/python/typeshed/pull/11497))
+* Fix invalid noqa comments and poorly formatted type ignores ([#11497](https://github.com/python/typeshed/pull/11497))
 
-## 0.47.0.20240218 (2024-02-18)
+## [0.47.0.20240218](https://pypi.org/project/types-olefile/0.47.0.20240218/) (2024-02-18)
 
-Added types for olefile ([#11416](https://github.com/python/typeshed/pull/11416))
+* Added types for olefile ([#11416](https://github.com/python/typeshed/pull/11416))
 

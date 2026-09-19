@@ -1,160 +1,160 @@
-## 16.3.0.20260712 (2026-07-12)
+## [16.3.0.20260712](https://pypi.org/project/types-gdb/16.3.0.20260712/) (2026-07-12)
 
-[gdb] Allow gdb.Value to take a Buffer plus a Type ([#16006](https://github.com/python/typeshed/pull/16006))
+* Allow gdb.Value to take a Buffer plus a Type ([#16006](https://github.com/python/typeshed/pull/16006))
 
-If a type is passed that is not None, it always goes through the
-buffer protocol, which interestingly means you can't pass
-an existing gdb.Value together with a type. You have to use the
-cast method for that purpose.
+    If a type is passed that is not None, it always goes through the
+    buffer protocol, which interestingly means you can't pass
+    an existing gdb.Value together with a type. You have to use the
+    cast method for that purpose.
 
-## 16.3.0.20260518 (2026-05-18)
+## [16.3.0.20260518](https://pypi.org/project/types-gdb/16.3.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 16.3.0.20260508 (2026-05-08)
+## [16.3.0.20260508](https://pypi.org/project/types-gdb/16.3.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 16.3.0.20260408 (2026-04-08)
+## [16.3.0.20260408](https://pypi.org/project/types-gdb/16.3.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 16.3.0.20260203 (2026-02-03)
+## [16.3.0.20260203](https://pypi.org/project/types-gdb/16.3.0.20260203/) (2026-02-03)
 
-[gdb] `Value.address` can be `None` ([#15355](https://github.com/python/typeshed/pull/15355))
+* `Value.address` can be `None` ([#15355](https://github.com/python/typeshed/pull/15355))
 
-## 16.3.0.20260109 (2026-01-09)
+## [16.3.0.20260109](https://pypi.org/project/types-gdb/16.3.0.20260109/) (2026-01-09)
 
-Update mypy to 1.19.1 ([#15235](https://github.com/python/typeshed/pull/15235))
+* Update mypy to 1.19.1 ([#15235](https://github.com/python/typeshed/pull/15235))
 
-Skip gdb stubtest for now
+    Skip gdb stubtest for now
 
-## 16.3.0.20250920 (2025-09-20)
+## [16.3.0.20250920](https://pypi.org/project/types-gdb/16.3.0.20250920/) (2025-09-20)
 
-[gdb] Update ThreadExitedEvent parent class for 17.0 ([#14729](https://github.com/python/typeshed/pull/14729)) ([#14744](https://github.com/python/typeshed/pull/14744))
+* Update ThreadExitedEvent parent class for 17.0 ([#14729](https://github.com/python/typeshed/pull/14729)) ([#14744](https://github.com/python/typeshed/pull/14744))
 
-Even though the parent thread for `ThreadExitedEvent` won't change from
-`Event` to `ThreadEvent` until 17.0 is released, this actually makes
-type checking work better in practice for all released versions that
-support `ThreadExitedEvent` because at run time `ThreadExitedEvent` has
-the lone attribute, `inferior_thread`, that it would have inherited from
-`ThreadEvent`.
+    Even though the parent thread for `ThreadExitedEvent` won't change from
+    `Event` to `ThreadEvent` until 17.0 is released, this actually makes
+    type checking work better in practice for all released versions that
+    support `ThreadExitedEvent` because at run time `ThreadExitedEvent` has
+    the lone attribute, `inferior_thread`, that it would have inherited from
+    `ThreadEvent`.
 
-## 16.3.0.20250915 (2025-09-15)
+## [16.3.0.20250915](https://pypi.org/project/types-gdb/16.3.0.20250915/) (2025-09-15)
 
-Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
+* Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
 
-## 16.3.0.20250812 (2025-08-12)
+## [16.3.0.20250812](https://pypi.org/project/types-gdb/16.3.0.20250812/) (2025-08-12)
 
-Update GDB stubs to 16.3 ([#13923](https://github.com/python/typeshed/pull/13923))
+* Update GDB stubs to 16.3 ([#13923](https://github.com/python/typeshed/pull/13923))
 
-## 15.0.0.20250809 (2025-08-09)
+## [15.0.0.20250809](https://pypi.org/project/types-gdb/15.0.0.20250809/) (2025-08-09)
 
-Fix dunder-method positional-only parameter discrepancies in third-party stubs ([#14529](https://github.com/python/typeshed/pull/14529))
+* Fix dunder-method positional-only parameter discrepancies in third-party stubs ([#14529](https://github.com/python/typeshed/pull/14529))
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 15.0.0.20250801 (2025-08-01)
+## [15.0.0.20250801](https://pypi.org/project/types-gdb/15.0.0.20250801/) (2025-08-01)
 
-Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
+* Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
-Co-authored-by: Avasam <samuel.06@hotmail.com>
-Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com> \
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
-## 15.0.0.20250713 (2025-07-13)
+## [15.0.0.20250713](https://pypi.org/project/types-gdb/15.0.0.20250713/) (2025-07-13)
 
-[gdb] Complete stubs for `gdb.dap` ([#14269](https://github.com/python/typeshed/pull/14269))
+* Complete stubs for `gdb.dap` ([#14269](https://github.com/python/typeshed/pull/14269))
 
-## 15.0.0.20250516 (2025-05-16)
+## [15.0.0.20250516](https://pypi.org/project/types-gdb/15.0.0.20250516/) (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## 15.0.0.20250514 (2025-05-14)
+## [15.0.0.20250514](https://pypi.org/project/types-gdb/15.0.0.20250514/) (2025-05-14)
 
-Replace incomplete module markers ([#14030](https://github.com/python/typeshed/pull/14030))
+* Replace incomplete module markers ([#14030](https://github.com/python/typeshed/pull/14030))
 
-## 15.0.0.20250321 (2025-03-21)
+## [15.0.0.20250321](https://pypi.org/project/types-gdb/15.0.0.20250321/) (2025-03-21)
 
-[gdb] Remove unused import ([#13682](https://github.com/python/typeshed/pull/13682))
+* Remove unused import ([#13682](https://github.com/python/typeshed/pull/13682))
 
-Unblocks #13680
+    Unblocks #13680
 
-## 15.0.0.20250308 (2025-03-08)
+## [15.0.0.20250308](https://pypi.org/project/types-gdb/15.0.0.20250308/) (2025-03-08)
 
-Remove LD_LIBRARY_PATH before running gdb ([#13594](https://github.com/python/typeshed/pull/13594))
+* Remove LD_LIBRARY_PATH before running gdb ([#13594](https://github.com/python/typeshed/pull/13594))
 
-Suggestion by @peace-maker
+    Suggestion by @peace-maker
 
-## 15.0.0.20250306 (2025-03-06)
+## [15.0.0.20250306](https://pypi.org/project/types-gdb/15.0.0.20250306/) (2025-03-06)
 
-Update tools versions in `stubtest` workflow ([#13582](https://github.com/python/typeshed/pull/13582))
+* Update tools versions in `stubtest` workflow ([#13582](https://github.com/python/typeshed/pull/13582))
 
-## 15.0.0.20241204 (2024-12-04)
+## [15.0.0.20241204](https://pypi.org/project/types-gdb/15.0.0.20241204/) (2024-12-04)
 
-Fixes for `gdb` stubs ([#13169](https://github.com/python/typeshed/pull/13169))
+* Fixes for `gdb` stubs ([#13169](https://github.com/python/typeshed/pull/13169))
 
-* gdb: Clarify a comment
-* gdb: Fix gdb.unwinder.Unwinder.__call__ argument. It takes a gdb.PendingFrame, not a gdb.Frame.
-* gdb: Unwinders may implement a proto without subclassing gdb.unwinder.Unwinder
-* gdb: Fix Breakpoint.__init__
+    * gdb: Clarify a comment
+    * gdb: Fix gdb.unwinder.Unwinder.__call__ argument. It takes a gdb.PendingFrame, not a gdb.Frame.
+    * gdb: Unwinders may implement a proto without subclassing gdb.unwinder.Unwinder
+    * gdb: Fix Breakpoint.__init__
 
- 1. `line` should be `int|str`, not just `int` (IDK what a string means,
-    but that it can be a string is clear if you read
-    py-breakpoint.c:bppy_init().
- 2. `type` argument should be able to be passed to the "location" form,
-    not just the "spec" form, even if
-    https://sourceware.org/gdb/current/onlinedocs/gdb.html/Breakpoints-In-Python.html
-    neglects to mention it (don't worry, I'll be submitting a patch to fix
-    the doc soon).
- 3. Fix the positional argument order (based on GDB's sources, it isn't
-    really documented)
- 4. Use more `@overloads` to enforce that at least 1 of `function`,
-    `label`, or `line` are given in the location form.
+     1. `line` should be `int|str`, not just `int` (IDK what a string means,
+        but that it can be a string is clear if you read
+        py-breakpoint.c:bppy_init().
+     2. `type` argument should be able to be passed to the "location" form,
+        not just the "spec" form, even if
+        https://sourceware.org/gdb/current/onlinedocs/gdb.html/Breakpoints-In-Python.html
+        neglects to mention it (don't worry, I'll be submitting a patch to fix
+        the doc soon).
+     3. Fix the positional argument order (based on GDB's sources, it isn't
+        really documented)
+     4. Use more `@overloads` to enforce that at least 1 of `function`,
+        `label`, or `line` are given in the location form.
 
-## 15.0.0.20241015 (2024-10-15)
+## [15.0.0.20241015](https://pypi.org/project/types-gdb/15.0.0.20241015/) (2024-10-15)
 
-Bump gdb to 15.0.* ([#12804](https://github.com/python/typeshed/pull/12804))
+* Bump gdb to 15.0.* ([#12804](https://github.com/python/typeshed/pull/12804))
 
-Closes: #12777
+    Closes: #12777
 
-## 12.1.4.20240704 (2024-07-04)
+## [12.1.4.20240704](https://pypi.org/project/types-gdb/12.1.4.20240704/) (2024-07-04)
 
-Add `global_context` keyword to `gdb.parse_and_eval` in GDB stub ([#12269](https://github.com/python/typeshed/pull/12269))
+* Add `global_context` keyword to `gdb.parse_and_eval` in GDB stub ([#12269](https://github.com/python/typeshed/pull/12269))
 
-## 12.1.4.20240408 (2024-04-08)
+## [12.1.4.20240408](https://pypi.org/project/types-gdb/12.1.4.20240408/) (2024-04-08)
 
-[gdb] Add __r{add,sub,mul,truediv,mod}__ for gdb.Value ([#11707](https://github.com/python/typeshed/pull/11707))
+* Add __r{add,sub,mul,truediv,mod}__ for gdb.Value ([#11707](https://github.com/python/typeshed/pull/11707))
 
-## 12.1.4.20240401 (2024-04-01)
+## [12.1.4.20240401](https://pypi.org/project/types-gdb/12.1.4.20240401/) (2024-04-01)
 
-Update GDB stubs to 12.1 ([#11665](https://github.com/python/typeshed/pull/11665))
+* Update GDB stubs to 12.1 ([#11665](https://github.com/python/typeshed/pull/11665))
 
-## 12.1.4.20240327 (2024-03-27)
+## [12.1.4.20240327](https://pypi.org/project/types-gdb/12.1.4.20240327/) (2024-03-27)
 
-Run gdb stubtests ([#11644](https://github.com/python/typeshed/pull/11644))
+* Run gdb stubtests ([#11644](https://github.com/python/typeshed/pull/11644))
 
-The gdb package is only available inside gdb and cannot be installed externally through e.g. pip.
-Run the stubtest inside gdb.
+    The gdb package is only available inside gdb and cannot be installed externally through e.g. pip.
+    Run the stubtest inside gdb.
 
-## 12.1.4.20240322 (2024-03-22)
+## [12.1.4.20240322](https://pypi.org/project/types-gdb/12.1.4.20240322/) (2024-03-22)
 
-Overload gdb.execute return type ([#11638](https://github.com/python/typeshed/pull/11638))
+* Overload gdb.execute return type ([#11638](https://github.com/python/typeshed/pull/11638))
 
-## 12.1.4.20240311 (2024-03-11)
+## [12.1.4.20240311](https://pypi.org/project/types-gdb/12.1.4.20240311/) (2024-03-11)
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## 12.1.4.20240305 (2024-03-05)
+## [12.1.4.20240305](https://pypi.org/project/types-gdb/12.1.4.20240305/) (2024-03-05)
 
-Add VERSION to gdb stubs ([#11529](https://github.com/python/typeshed/pull/11529))
+* Add VERSION to gdb stubs ([#11529](https://github.com/python/typeshed/pull/11529))
 
-## 12.1.4.20240113 (2024-01-13)
+## [12.1.4.20240113](https://pypi.org/project/types-gdb/12.1.4.20240113/) (2024-01-13)
 
-Fix inconsistencies in gdb stubs ([#11227](https://github.com/python/typeshed/pull/11227))
+* Fix inconsistencies in gdb stubs ([#11227](https://github.com/python/typeshed/pull/11227))
 
-See #11225
+    See #11225
 
 ## 12.1.4.5 (2023-08-13)
 

@@ -1,24 +1,24 @@
-## 0.7.3.20260610 (2026-06-10)
+## [0.7.3.20260610](https://pypi.org/project/types-slumber/0.7.3.20260610/) (2026-06-10)
 
-Change dependencies from types-requests to requests ([#15813](https://github.com/python/typeshed/pull/15813))
+* Change dependencies from types-requests to requests ([#15813](https://github.com/python/typeshed/pull/15813))
 
-## 0.7.3.20260508 (2026-05-08)
+## [0.7.3.20260508](https://pypi.org/project/types-slumber/0.7.3.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 0.7.3.20260408 (2026-04-08)
+## [0.7.3.20260408](https://pypi.org/project/types-slumber/0.7.3.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 0.7.3.20260402 (2026-04-02)
+## [0.7.3.20260402](https://pypi.org/project/types-slumber/0.7.3.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-## 0.7.3.20250622 (2025-06-22)
+## [0.7.3.20250622](https://pypi.org/project/types-slumber/0.7.3.20250622/) (2025-06-22)
 
-[slumber] Remove allowlist and correct kwargs type ([#14266](https://github.com/python/typeshed/pull/14266))
+* Remove allowlist and correct kwargs type ([#14266](https://github.com/python/typeshed/pull/14266))
 
 ## 0.7.3.5 (2023-07-20)
 

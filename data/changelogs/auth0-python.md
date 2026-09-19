@@ -1,57 +1,57 @@
-## 4.10.0.20260712 (2026-07-12)
+## [4.10.0.20260712](https://pypi.org/project/types-auth0-python/4.10.0.20260712/) (2026-07-12)
 
-Structured obsolete_since fields ([#15682](https://github.com/python/typeshed/pull/15682))
+* Structured obsolete_since fields ([#15682](https://github.com/python/typeshed/pull/15682))
 
-## 4.10.0.20260509 (2026-05-09)
+## [4.10.0.20260509](https://pypi.org/project/types-auth0-python/4.10.0.20260509/) (2026-05-09)
 
-[stubsabot] Mark auth0-python as obsolete since 5.4.0 ([#14697](https://github.com/python/typeshed/pull/14697))
+* Mark auth0-python as obsolete since 5.4.0 ([#14697](https://github.com/python/typeshed/pull/14697))
 
-## 4.10.0.20260508 (2026-05-08)
+## [4.10.0.20260508](https://pypi.org/project/types-auth0-python/4.10.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 4.10.0.20260408 (2026-04-08)
+## [4.10.0.20260408](https://pypi.org/project/types-auth0-python/4.10.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 4.10.0.20260402 (2026-04-02)
+## [4.10.0.20260402](https://pypi.org/project/types-auth0-python/4.10.0.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+* Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
 
-## 4.10.0.20250822 (2025-08-22)
+## [4.10.0.20250822](https://pypi.org/project/types-auth0-python/4.10.0.20250822/) (2025-08-22)
 
-Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+* Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
 
-## 4.10.0.20250708 (2025-07-08)
+## [4.10.0.20250708](https://pypi.org/project/types-auth0-python/4.10.0.20250708/) (2025-07-08)
 
-[auth0-python] Bump to 4.10.* ([#14261](https://github.com/python/typeshed/pull/14261))
+* Bump to 4.10.* ([#14261](https://github.com/python/typeshed/pull/14261))
 
-## 4.9.0.20250516 (2025-05-16)
+## [4.9.0.20250516](https://pypi.org/project/types-auth0-python/4.9.0.20250516/) (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## 4.9.0.20250425 (2025-04-25)
+## [4.9.0.20250425](https://pypi.org/project/types-auth0-python/4.9.0.20250425/) (2025-04-25)
 
-[auth0-python] Add async functions to AsyncAuth0 ([#13799](https://github.com/python/typeshed/pull/13799))
+* Add async functions to AsyncAuth0 ([#13799](https://github.com/python/typeshed/pull/13799))
 
-Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
-Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com> \
+    Co-authored-by: Avasam <samuel.06@hotmail.com>
 
-## 4.9.0.20250416 (2025-04-16)
+## [4.9.0.20250416](https://pypi.org/project/types-auth0-python/4.9.0.20250416/) (2025-04-16)
 
-auth0-python solve stubtest_allowlist entries ([#13827](https://github.com/python/typeshed/pull/13827))
+* auth0-python solve stubtest_allowlist entries ([#13827](https://github.com/python/typeshed/pull/13827))
 
-auth0-python: Cleanup re-exports leftovers from stubgen ([#13828](https://github.com/python/typeshed/pull/13828))
+* auth0-python: Cleanup re-exports leftovers from stubgen ([#13828](https://github.com/python/typeshed/pull/13828))
 
-## 4.9.0.20250413 (2025-04-13)
+## [4.9.0.20250413](https://pypi.org/project/types-auth0-python/4.9.0.20250413/) (2025-04-13)
 
-Bump auth0-python to 4.9.* ([#13803](https://github.com/python/typeshed/pull/13803))
+* Bump auth0-python to 4.9.* ([#13803](https://github.com/python/typeshed/pull/13803))
 
-## 4.8.0.20250404 (2025-04-04)
+## [4.8.0.20250404](https://pypi.org/project/types-auth0-python/4.8.0.20250404/) (2025-04-04)
 
-[auth0-python] Add auth0-python stubs ([#13716](https://github.com/python/typeshed/pull/13716))
+* Add auth0-python stubs ([#13716](https://github.com/python/typeshed/pull/13716))
 

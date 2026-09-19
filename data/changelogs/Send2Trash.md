@@ -1,14 +1,14 @@
-## 2.1.0.20260408 (2026-04-08)
+## [2.1.0.20260408](https://pypi.org/project/types-Send2Trash/2.1.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 2.1.0.20260117 (2026-01-17)
+## [2.1.0.20260117](https://pypi.org/project/types-Send2Trash/2.1.0.20260117/) (2026-01-17)
 
-[stubsabot] Bump Send2Trash to 2.1.* ([#15197](https://github.com/python/typeshed/pull/15197))
+* Bump Send2Trash to 2.1.* ([#15197](https://github.com/python/typeshed/pull/15197))
 
-## 2.0.0.20260116 (2026-01-16)
+## [2.0.0.20260116](https://pypi.org/project/types-Send2Trash/2.0.0.20260116/) (2026-01-16)
 
-[Send2Trash] Update to 2.0.* ([#15202](https://github.com/python/typeshed/pull/15202))
+* Update to 2.0.* ([#15202](https://github.com/python/typeshed/pull/15202))
 
 ## 1.8.2.7 (2023-07-25)
 

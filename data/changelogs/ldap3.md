@@ -2,55 +2,55 @@
 
 * Add types for Connection.unbind ([#16243](https://github.com/python/typeshed/pull/16243))
 
-## 2.9.13.20260518 (2026-05-18)
+## [2.9.13.20260518](https://pypi.org/project/types-ldap3/2.9.13.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 2.9.13.20260508 (2026-05-08)
+## [2.9.13.20260508](https://pypi.org/project/types-ldap3/2.9.13.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 2.9.13.20260408 (2026-04-08)
+## [2.9.13.20260408](https://pypi.org/project/types-ldap3/2.9.13.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 2.9.13.20260402 (2026-04-02)
+## [2.9.13.20260402](https://pypi.org/project/types-ldap3/2.9.13.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-## 2.9.13.20260319 (2026-03-19)
+## [2.9.13.20260319](https://pypi.org/project/types-ldap3/2.9.13.20260319/) (2026-03-19)
 
-[pyasn1] Fix componentType to accept Asn1Type in SequenceOf ([#15442](https://github.com/python/typeshed/pull/15442))
+* Fix componentType to accept Asn1Type in SequenceOf ([#15442](https://github.com/python/typeshed/pull/15442))
 
-## 2.9.13.20251121 (2025-11-21)
+## [2.9.13.20251121](https://pypi.org/project/types-ldap3/2.9.13.20251121/) (2025-11-21)
 
-[ldap3] Use Incomplete instead of Any ([#15054](https://github.com/python/typeshed/pull/15054))
+* Use Incomplete instead of Any ([#15054](https://github.com/python/typeshed/pull/15054))
 
-## 2.9.13.20250622 (2025-06-22)
+## [2.9.13.20250622](https://pypi.org/project/types-ldap3/2.9.13.20250622/) (2025-06-22)
 
-[ldap3] Add missing stubs ([#14271](https://github.com/python/typeshed/pull/14271))
+* Add missing stubs ([#14271](https://github.com/python/typeshed/pull/14271))
 
-## 2.9.13.20250516 (2025-05-16)
+## [2.9.13.20250516](https://pypi.org/project/types-ldap3/2.9.13.20250516/) (2025-05-16)
 
-Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
+* Replace `Incomplete | None = None` in third party stubs ([#14063](https://github.com/python/typeshed/pull/14063))
 
-## 2.9.13.20240205 (2024-02-05)
+## [2.9.13.20240205](https://pypi.org/project/types-ldap3/2.9.13.20240205/) (2024-02-05)
 
-A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
+* A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
 
-## 2.9.13.20240119 (2024-01-19)
+## [2.9.13.20240119](https://pypi.org/project/types-ldap3/2.9.13.20240119/) (2024-01-19)
 
-ldap3: Connection: auto_bind also supports booleans ([#11289](https://github.com/python/typeshed/pull/11289))
+* ldap3: Connection: auto_bind also supports booleans ([#11289](https://github.com/python/typeshed/pull/11289))
 
-## 2.9.13.20240106 (2024-01-06)
+## [2.9.13.20240106](https://pypi.org/project/types-ldap3/2.9.13.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-## 2.9.13.15 (2023-10-27)
+## [2.9.13.15](https://pypi.org/project/types-ldap3/2.9.13.15/) (2023-10-27)
 
-Remove many redundant inheritances from `Generic[]` ([#10933](https://github.com/python/typeshed/pull/10933))
+* Remove many redundant inheritances from `Generic[]` ([#10933](https://github.com/python/typeshed/pull/10933))
 
 ## 2.9.13.14 (2023-07-20)
 

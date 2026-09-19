@@ -35,197 +35,197 @@
 
     Co-authored-by: stubsabot <>
 
-## 26.4.0.20260518 (2026-05-18)
+## [26.4.0.20260518](https://pypi.org/project/types-gevent/26.4.0.20260518/) (2026-05-18)
 
-Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
+* Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))
 
-## 26.4.0.20260512 (2026-05-12)
+## [26.4.0.20260512](https://pypi.org/project/types-gevent/26.4.0.20260512/) (2026-05-12)
 
-Remove `selector._EventMask` type alias ([#15771](https://github.com/python/typeshed/pull/15771))
+* Remove `selector._EventMask` type alias ([#15771](https://github.com/python/typeshed/pull/15771))
 
-## 26.4.0.20260508 (2026-05-08)
+## [26.4.0.20260508](https://pypi.org/project/types-gevent/26.4.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 26.4.0.20260409 (2026-04-09)
+## [26.4.0.20260409](https://pypi.org/project/types-gevent/26.4.0.20260409/) (2026-04-09)
 
-[stubsabot] Bump gevent to 26.4.* ([#15638](https://github.com/python/typeshed/pull/15638))
+* Bump gevent to 26.4.* ([#15638](https://github.com/python/typeshed/pull/15638))
 
-## 25.9.0.20260408 (2026-04-08)
+## [25.9.0.20260408](https://pypi.org/project/types-gevent/25.9.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 25.9.0.20260402 (2026-04-02)
+## [25.9.0.20260402](https://pypi.org/project/types-gevent/25.9.0.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
+* Update mypy to 1.20.0 ([#15588](https://github.com/python/typeshed/pull/15588))
 
-## 25.9.0.20260322 (2026-03-22)
+## [25.9.0.20260322](https://pypi.org/project/types-gevent/25.9.0.20260322/) (2026-03-22)
 
-Add `@type_check_only` to stub-only private classes in various third-party stubs ([#15535](https://github.com/python/typeshed/pull/15535))
+* Add `@type_check_only` to stub-only private classes in various third-party stubs ([#15535](https://github.com/python/typeshed/pull/15535))
 
-## 25.9.0.20251228 (2025-12-28)
+## [25.9.0.20251228](https://pypi.org/project/types-gevent/25.9.0.20251228/) (2025-12-28)
 
-[psutil] Update to 7.2.0 ([#15173](https://github.com/python/typeshed/pull/15173))
+* Update to 7.2.0 ([#15173](https://github.com/python/typeshed/pull/15173))
 
-## 25.9.0.20251102 (2025-11-02)
+## [25.9.0.20251102](https://pypi.org/project/types-gevent/25.9.0.20251102/) (2025-11-02)
 
-[gevent]: Bump gevent to 25.9.* ([#14871](https://github.com/python/typeshed/pull/14871))
+* Bump gevent to 25.9.* ([#14871](https://github.com/python/typeshed/pull/14871))
 
-## 25.4.0.20250915 (2025-09-15)
+## [25.4.0.20250915](https://pypi.org/project/types-gevent/25.4.0.20250915/) (2025-09-15)
 
-Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
+* Add `@disjoint_base` decorator to the third-party stubs ([#14716](https://github.com/python/typeshed/pull/14716))
 
-## 25.4.0.20250914 (2025-09-14)
+## [25.4.0.20250914](https://pypi.org/project/types-gevent/25.4.0.20250914/) (2025-09-14)
 
-Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
+* Update mypy to 1.18.1 ([#14699](https://github.com/python/typeshed/pull/14699))
 
-## 25.4.0.20250822 (2025-08-22)
+## [25.4.0.20250822](https://pypi.org/project/types-gevent/25.4.0.20250822/) (2025-08-22)
 
-Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
+* Add __slots__ to third-party packages using stubdefaulter ([#14619](https://github.com/python/typeshed/pull/14619))
 
-Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
+* Add missing defaults to third-party stubs ([#14617](https://github.com/python/typeshed/pull/14617))
 
-## 25.4.0.20250814 (2025-08-14)
+## [25.4.0.20250814](https://pypi.org/project/types-gevent/25.4.0.20250814/) (2025-08-14)
 
-Remove a superflous allowlist entry ([#14571](https://github.com/python/typeshed/pull/14571))
+* Remove a superflous allowlist entry ([#14571](https://github.com/python/typeshed/pull/14571))
 
-## 25.4.0.20250812 (2025-08-12)
+## [25.4.0.20250812](https://pypi.org/project/types-gevent/25.4.0.20250812/) (2025-08-12)
 
-gevent: Use a `TypeVarTuple` in `gevent.baseserver.BaseServer` ([#11138](https://github.com/python/typeshed/pull/11138))
+* gevent: Use a `TypeVarTuple` in `gevent.baseserver.BaseServer` ([#11138](https://github.com/python/typeshed/pull/11138))
 
-## 25.4.0.20250809 (2025-08-09)
+## [25.4.0.20250809](https://pypi.org/project/types-gevent/25.4.0.20250809/) (2025-08-09)
 
-Fix dunder-method positional-only parameter discrepancies in third-party stubs ([#14529](https://github.com/python/typeshed/pull/14529))
+* Fix dunder-method positional-only parameter discrepancies in third-party stubs ([#14529](https://github.com/python/typeshed/pull/14529))
 
-Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
+* Mark stub-only private symbols as `@type_check_only` in third-party stubs ([#14545](https://github.com/python/typeshed/pull/14545))
 
-## 25.4.0.20250801 (2025-08-01)
+## [25.4.0.20250801](https://pypi.org/project/types-gevent/25.4.0.20250801/) (2025-08-01)
 
-Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
+* Split `tool.stubtest.platforms` metadata key ([#13746](https://github.com/python/typeshed/pull/13746))
 
-Co-authored-by: Avasam <samuel.06@hotmail.com>
-Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com> \
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
 
-## 25.4.0.20250516 (2025-05-16)
+## [25.4.0.20250516](https://pypi.org/project/types-gevent/25.4.0.20250516/) (2025-05-16)
 
-gevent: Remove remaining uses of `Incomplete` ([#14072](https://github.com/python/typeshed/pull/14072))
+* gevent: Remove remaining uses of `Incomplete` ([#14072](https://github.com/python/typeshed/pull/14072))
 
-## 25.4.0.20250512 (2025-05-12)
+## [25.4.0.20250512](https://pypi.org/project/types-gevent/25.4.0.20250512/) (2025-05-12)
 
-Bump gevent to 25.4.*  ([#13885](https://github.com/python/typeshed/pull/13885))
+* Bump gevent to 25.4.*  ([#13885](https://github.com/python/typeshed/pull/13885))
 
-## 24.11.0.20250401 (2025-04-01)
+## [24.11.0.20250401](https://pypi.org/project/types-gevent/24.11.0.20250401/) (2025-04-01)
 
-Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
+* Add `__all__` part 2 ([#13719](https://github.com/python/typeshed/pull/13719))
 
----------
+    ---------
 
-Co-authored-by: Avasam <samuel.06@hotmail.com>
+    Co-authored-by: Avasam <samuel.06@hotmail.com>
 
-## 24.11.0.20250305 (2025-03-05)
+## [24.11.0.20250305](https://pypi.org/project/types-gevent/24.11.0.20250305/) (2025-03-05)
 
-Enable Ruff PLE (Pylint Error) ([#13305](https://github.com/python/typeshed/pull/13305))
+* Enable Ruff PLE (Pylint Error) ([#13305](https://github.com/python/typeshed/pull/13305))
 
-## 24.11.0.20250304 (2025-03-04)
+## [24.11.0.20250304](https://pypi.org/project/types-gevent/24.11.0.20250304/) (2025-03-04)
 
-Enable Ruff PLR (Pylint Refactor) ([#13307](https://github.com/python/typeshed/pull/13307))
+* Enable Ruff PLR (Pylint Refactor) ([#13307](https://github.com/python/typeshed/pull/13307))
 
-## 24.11.0.20241230 (2024-12-30)
+## [24.11.0.20241230](https://pypi.org/project/types-gevent/24.11.0.20241230/) (2024-12-30)
 
-fix gevent.select.poll ([#13335](https://github.com/python/typeshed/pull/13335))
+* fix gevent.select.poll ([#13335](https://github.com/python/typeshed/pull/13335))
 
-fixes #13330
+    fixes #13330
 
-## 24.11.0.20241225 (2024-12-25)
+## [24.11.0.20241225](https://pypi.org/project/types-gevent/24.11.0.20241225/) (2024-12-25)
 
-gevent: remove unused allowlist entry ([#13301](https://github.com/python/typeshed/pull/13301))
+* gevent: remove unused allowlist entry ([#13301](https://github.com/python/typeshed/pull/13301))
 
-Fixes #13300
+    Fixes #13300
 
-## 24.11.0.20241221 (2024-12-21)
+## [24.11.0.20241221](https://pypi.org/project/types-gevent/24.11.0.20241221/) (2024-12-21)
 
-Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
+* Update to mypy 1.14 ([#13272](https://github.com/python/typeshed/pull/13272))
 
-## 24.11.0.20241122 (2024-11-22)
+## [24.11.0.20241122](https://pypi.org/project/types-gevent/24.11.0.20241122/) (2024-11-22)
 
-clean up allowlist for gevent ([#13056](https://github.com/python/typeshed/pull/13056))
+* clean up allowlist for gevent ([#13056](https://github.com/python/typeshed/pull/13056))
 
-## 24.11.0.20241115 (2024-11-15)
+## [24.11.0.20241115](https://pypi.org/project/types-gevent/24.11.0.20241115/) (2024-11-15)
 
-Update gevent to 24.11.* ([#13003](https://github.com/python/typeshed/pull/13003))
+* Update gevent to 24.11.* ([#13003](https://github.com/python/typeshed/pull/13003))
 
-## 24.10.0.20241012 (2024-10-12)
+## [24.10.0.20241012](https://pypi.org/project/types-gevent/24.10.0.20241012/) (2024-10-12)
 
-Bump gevent to 24.10.* ([#12779](https://github.com/python/typeshed/pull/12779))
+* Bump gevent to 24.10.* ([#12779](https://github.com/python/typeshed/pull/12779))
 
-## 24.2.0.20241003 (2024-10-03)
+## [24.2.0.20241003](https://pypi.org/project/types-gevent/24.2.0.20241003/) (2024-10-03)
 
-gevent: remove unused allowlist entry ([#12726](https://github.com/python/typeshed/pull/12726))
+* gevent: remove unused allowlist entry ([#12726](https://github.com/python/typeshed/pull/12726))
 
-## 24.2.0.20240806 (2024-08-06)
+## [24.2.0.20240806](https://pypi.org/project/types-gevent/24.2.0.20240806/) (2024-08-06)
 
-Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
+* Bump mypy to 1.11.1 ([#12463](https://github.com/python/typeshed/pull/12463))
 
-## 24.2.0.20240425 (2024-04-25)
+## [24.2.0.20240425](https://pypi.org/project/types-gevent/24.2.0.20240425/) (2024-04-25)
 
-Bump pyright to v1.1.360 ([#11810](https://github.com/python/typeshed/pull/11810))
+* Bump pyright to v1.1.360 ([#11810](https://github.com/python/typeshed/pull/11810))
 
-## 24.2.0.20240315 (2024-03-15)
+## [24.2.0.20240315](https://pypi.org/project/types-gevent/24.2.0.20240315/) (2024-03-15)
 
-chore(deps): update pytype and pyright ([#11595](https://github.com/python/typeshed/pull/11595))
+* chore(deps): update pytype and pyright ([#11595](https://github.com/python/typeshed/pull/11595))
 
-## 24.2.0.20240311 (2024-03-11)
+## [24.2.0.20240311](https://pypi.org/project/types-gevent/24.2.0.20240311/) (2024-03-11)
 
-Use Python 3.11 for third-party stubtest in CI ([#11562](https://github.com/python/typeshed/pull/11562))
+* Use Python 3.11 for third-party stubtest in CI ([#11562](https://github.com/python/typeshed/pull/11562))
 
-Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
+* Use PEP 570 syntax in third party stubs ([#11554](https://github.com/python/typeshed/pull/11554))
 
-## 24.2.0.20240310 (2024-03-10)
+## [24.2.0.20240310](https://pypi.org/project/types-gevent/24.2.0.20240310/) (2024-03-10)
 
-Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
+* Bump mypy to 1.9, add to json.encoder, small fixups ([#11549](https://github.com/python/typeshed/pull/11549))
 
-Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
+    Co-authored-by: Alex Waygood <Alex.Waygood@Gmail.com>
 
-## 24.2.0.20240301 (2024-03-01)
+## [24.2.0.20240301](https://pypi.org/project/types-gevent/24.2.0.20240301/) (2024-03-01)
 
-Fix invalid noqa comments and poorly formatted type ignores ([#11497](https://github.com/python/typeshed/pull/11497))
+* Fix invalid noqa comments and poorly formatted type ignores ([#11497](https://github.com/python/typeshed/pull/11497))
 
-## 24.2.0.20240218 (2024-02-18)
+## [24.2.0.20240218](https://pypi.org/project/types-gevent/24.2.0.20240218/) (2024-02-18)
 
-[stubsabot] Bump gevent to 24.2.* ([#11425](https://github.com/python/typeshed/pull/11425))
+* Bump gevent to 24.2.* ([#11425](https://github.com/python/typeshed/pull/11425))
 
-Release: https://pypi.org/pypi/gevent/24.2.1
-Homepage: http://www.gevent.org/
-Repository: https://github.com/gevent/gevent
-Diff: https://github.com/gevent/gevent/compare/23.9.1...24.2.1
+    Release: https://pypi.org/pypi/gevent/24.2.1 \
+    Homepage: http://www.gevent.org/ \
+    Repository: https://github.com/gevent/gevent \
+    Diff: https://github.com/gevent/gevent/compare/23.9.1...24.2.1
 
-Stubsabot analysis of the diff between the two releases:
- - Total lines of Python code added: 4.
- - Total lines of Python code deleted: 4.
+    Stubsabot analysis of the diff between the two releases:
+     - Total lines of Python code added: 4.
+     - Total lines of Python code deleted: 4.
 
-## 23.9.0.20240205 (2024-02-05)
+## [23.9.0.20240205](https://pypi.org/project/types-gevent/23.9.0.20240205/) (2024-02-05)
 
-A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
+* A new shade of Black ([#11362](https://github.com/python/typeshed/pull/11362))
 
-## 23.9.0.20240106 (2024-01-06)
+## [23.9.0.20240106](https://pypi.org/project/types-gevent/23.9.0.20240106/) (2024-01-06)
 
-Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
+* Update typing_extensions imports in third-party stubs ([#11245](https://github.com/python/typeshed/pull/11245))
 
-Remove Python 3.7 branches ([#11238](https://github.com/python/typeshed/pull/11238))
+* Remove Python 3.7 branches ([#11238](https://github.com/python/typeshed/pull/11238))
 
-## 23.9.0.20240105 (2024-01-05)
+## [23.9.0.20240105](https://pypi.org/project/types-gevent/23.9.0.20240105/) (2024-01-05)
 
-Drop support for Python 3.7 ([#11234](https://github.com/python/typeshed/pull/11234))
+* Drop support for Python 3.7 ([#11234](https://github.com/python/typeshed/pull/11234))
 
-## 23.9.0.1 (2023-12-11)
+## [23.9.0.1](https://pypi.org/project/types-gevent/23.9.0.1/) (2023-12-11)
 
-gevent: Use `TypeVarTuple` instead of old `ParamSpec` workaround. ([#11129](https://github.com/python/typeshed/pull/11129))
+* gevent: Use `TypeVarTuple` instead of old `ParamSpec` workaround. ([#11129](https://github.com/python/typeshed/pull/11129))
 
-## 23.9.0.0 (2023-12-07)
+## [23.9.0.0](https://pypi.org/project/types-gevent/23.9.0.0/) (2023-12-07)
 
-Add stubs for gevent ([#10527](https://github.com/python/typeshed/pull/10527))
+* Add stubs for gevent ([#10527](https://github.com/python/typeshed/pull/10527))
 

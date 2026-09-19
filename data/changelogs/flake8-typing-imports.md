@@ -1,24 +1,24 @@
-## 1.17.0.20260408 (2026-04-08)
+## [1.17.0.20260408](https://pypi.org/project/types-flake8-typing-imports/1.17.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 1.17.0.20251011 (2025-10-11)
+## [1.17.0.20251011](https://pypi.org/project/types-flake8-typing-imports/1.17.0.20251011/) (2025-10-11)
 
-[stubsabot] Bump flake8-typing-imports to 1.17.* ([#14857](https://github.com/python/typeshed/pull/14857))
+* Bump flake8-typing-imports to 1.17.* ([#14857](https://github.com/python/typeshed/pull/14857))
 
-## 1.16.0.20250708 (2025-07-08)
+## [1.16.0.20250708](https://pypi.org/project/types-flake8-typing-imports/1.16.0.20250708/) (2025-07-08)
 
-[flake8-typing-imports] Complete stubs ([#14262](https://github.com/python/typeshed/pull/14262))
+* Complete stubs ([#14262](https://github.com/python/typeshed/pull/14262))
 
-## 1.16.0.20250514 (2025-05-14)
+## [1.16.0.20250514](https://pypi.org/project/types-flake8-typing-imports/1.16.0.20250514/) (2025-05-14)
 
-Replace incomplete module markers ([#14030](https://github.com/python/typeshed/pull/14030))
+* Replace incomplete module markers ([#14030](https://github.com/python/typeshed/pull/14030))
 
-## 1.16.0.20241013 (2024-10-13)
+## [1.16.0.20241013](https://pypi.org/project/types-flake8-typing-imports/1.16.0.20241013/) (2024-10-13)
 
-[stubsabot] Bump flake8-typing-imports to 1.16.* ([#12784](https://github.com/python/typeshed/pull/12784))
+* Bump flake8-typing-imports to 1.16.* ([#12784](https://github.com/python/typeshed/pull/12784))
 
-Co-authored-by: stubsabot <>
+    Co-authored-by: stubsabot <>
 
 ## 1.15.0.0 (2023-10-03)
 

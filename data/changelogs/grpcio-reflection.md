@@ -1,18 +1,18 @@
-## 1.0.0.20260508 (2026-05-08)
+## [1.0.0.20260508](https://pypi.org/project/types-grpcio-reflection/1.0.0.20260508/) (2026-05-08)
 
-Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
+* Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))
 
-Part of #13782
+    Part of #13782
 
-## 1.0.0.20260408 (2026-04-08)
+## [1.0.0.20260408](https://pypi.org/project/types-grpcio-reflection/1.0.0.20260408/) (2026-04-08)
 
-Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
+* Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))
 
-## 1.0.0.20260402 (2026-04-02)
+## [1.0.0.20260402](https://pypi.org/project/types-grpcio-reflection/1.0.0.20260402/) (2026-04-02)
 
-Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
+* Rename `requires` to `dependencies` in METADATA files ([#15594](https://github.com/python/typeshed/pull/15594))
 
-## 1.0.0.20250506 (2025-05-06)
+## [1.0.0.20250506](https://pypi.org/project/types-grpcio-reflection/1.0.0.20250506/) (2025-05-06)
 
-Extract grpcio plugins ([#13896](https://github.com/python/typeshed/pull/13896))
+* Extract grpcio plugins ([#13896](https://github.com/python/typeshed/pull/13896))
 
