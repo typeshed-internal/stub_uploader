@@ -1,3 +1,7 @@
+## [2026.4.0.20260926](https://pypi.org/project/types-pytz/2026.4.0.20260926/) (2026-09-26)
+
+* Bump to 2026.4 ([#16440](https://github.com/python/typeshed/pull/16440))
+
 ## [2026.3.1.20260727](https://pypi.org/project/types-pytz/2026.3.1.20260727/) (2026-07-27)
 
 * Bump to 2026.3.post1 ([#16091](https://github.com/python/typeshed/pull/16091))
