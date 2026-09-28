@@ -1,3 +1,13 @@
+## [312.0.0.20260928](https://pypi.org/project/types-pywin32/312.0.0.20260928/) (2026-09-28)
+
+* Fix win32file.ReadFile return types and overlapped forms ([#16429](https://github.com/python/typeshed/pull/16429))
+
+    ReadFile returns bytes, not str: a new bytes object when no OVERLAPPED
+    is passed, the buffer object itself (or a freshly allocated read buffer
+    for an int size) when one is. The stub also rejected an OVERLAPPED
+    together with an int size and accepted only PyOVERLAPPEDReadBuffer as
+    the buffer, while the runtime takes any writable buffer.
+
 ## [312.0.0.20260827](https://pypi.org/project/types-pywin32/312.0.0.20260827/) (2026-08-27)
 
 * fixed some typos ([#16273](https://github.com/python/typeshed/pull/16273))

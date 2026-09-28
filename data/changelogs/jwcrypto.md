@@ -1,3 +1,26 @@
+## [1.6.1.20260928](https://pypi.org/project/types-jwcrypto/1.6.1.20260928/) (2026-09-28)
+
+* Bump jwcrypto to 1.6.1 ([#16397](https://github.com/python/typeshed/pull/16397))
+
+    Release: https://pypi.org/pypi/jwcrypto/1.6.1 \
+    Homepage: https://github.com/latchset/jwcrypto \
+    Repository: https://github.com/latchset/jwcrypto \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/jwcrypto \
+    Diff: https://github.com/latchset/jwcrypto/compare/v1.6.0...v1.6.1
+
+    Stubsabot analysis of the diff between the two releases:
+     - 0 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 3 files included in typeshed's stubs have been modified or renamed: `jwcrypto/jwk.py`, `jwcrypto/jwt.py`, `jwcrypto/version.py`.
+     - Total lines of Python code added: 28.
+     - Total lines of Python code deleted: 29.
+
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
+
+    Note that you will need to close and re-open the PR in order to trigger CI
+
 ## [1.6.0.20260903](https://pypi.org/project/types-jwcrypto/1.6.0.20260903/) (2026-09-03)
 
 * Bump jwcrypto to 1.6.0 ([#16337](https://github.com/python/typeshed/pull/16337))

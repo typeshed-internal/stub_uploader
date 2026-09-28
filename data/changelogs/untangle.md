@@ -1,3 +1,7 @@
+## [1.3.0.20260928](https://pypi.org/project/types-untangle/1.3.0.20260928/) (2026-09-28)
+
+* Update to 1.3.* ([#16438](https://github.com/python/typeshed/pull/16438))
+
 ## 1.2.0.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

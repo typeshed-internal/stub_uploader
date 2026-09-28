@@ -1,3 +1,21 @@
+## [1.84.0.20260928](https://pypi.org/project/types-grpcio/1.84.0.20260928/) (2026-09-28)
+
+* Bump grpcio to ~=1.84.0 ([#16391](https://github.com/python/typeshed/pull/16391))
+
+    Release: https://pypi.org/pypi/grpcio/1.84.0 \
+    Homepage: https://grpc.io \
+    Repository: https://github.com/grpc/grpc \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/grpcio \
+    Diff: https://github.com/grpc/grpc/compare/v1.83.1...v1.84.0
+
+    Stubsabot analysis of the diff between the two releases:
+     - Total lines of Python code added: 120.
+     - Total lines of Python code deleted: 21.
+
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
+
 ## [1.83.0.20260730](https://pypi.org/project/types-grpcio/1.83.0.20260730/) (2026-07-30)
 
 * Update to ~=1.83.0 ([#16110](https://github.com/python/typeshed/pull/16110))
