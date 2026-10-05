@@ -1,3 +1,25 @@
+## [1.5.2.20261005](https://pypi.org/project/types-rasterio/1.5.2.20261005/) (2026-10-05)
+
+* Bump rasterio to 1.5.2 ([#16458](https://github.com/python/typeshed/pull/16458))
+
+    Release: https://pypi.org/pypi/rasterio/1.5.2 \
+    Repository: https://github.com/rasterio/rasterio \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/rasterio \
+    Diff: https://github.com/rasterio/rasterio/compare/1.5.1...1.5.2
+
+    Stubsabot analysis of the diff between the two releases:
+     - 0 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 10 files included in typeshed's stubs have been modified or renamed.
+     - Total lines of Python code added: 251.
+     - Total lines of Python code deleted: 94.
+
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
+
+    Co-authored-by: stubsabot <>
+
 ## [1.5.1.20260907](https://pypi.org/project/types-rasterio/1.5.1.20260907/) (2026-09-07)
 
 * Accept int EPSG codes and any to_wkt provider in CRSInput ([#16294](https://github.com/python/typeshed/pull/16294))
