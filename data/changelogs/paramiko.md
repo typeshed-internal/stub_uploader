@@ -1,3 +1,9 @@
+## [5.0.0.20261006](https://pypi.org/project/types-paramiko/5.0.0.20261006/) (2026-10-06)
+
+* Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))
+
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## [5.0.0.20260724](https://pypi.org/project/types-paramiko/5.0.0.20260724/) (2026-07-24)
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))

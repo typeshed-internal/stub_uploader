@@ -1,3 +1,9 @@
+## [1.8.11.20261006](https://pypi.org/project/types-WebOb/1.8.11.20261006/) (2026-10-06)
+
+* Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))
+
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## [1.8.11.20260827](https://pypi.org/project/types-WebOb/1.8.11.20260827/) (2026-08-27)
 
 * fixed some typos ([#16273](https://github.com/python/typeshed/pull/16273))

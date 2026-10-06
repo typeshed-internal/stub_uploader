@@ -1,3 +1,9 @@
+## [2.33.0.20261006](https://pypi.org/project/types-requests/2.33.0.20261006/) (2026-10-06)
+
+* Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))
+
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## [2.33.0.20260906](https://pypi.org/project/types-requests/2.33.0.20260906/) (2026-09-06)
 
 * Type module constants and `Response.links` ([#16266](https://github.com/python/typeshed/pull/16266))

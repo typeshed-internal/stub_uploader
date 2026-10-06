@@ -1,3 +1,9 @@
+## [2026.8.19.20261006](https://pypi.org/project/types-yt-dlp/2026.8.19.20261006/) (2026-10-06)
+
+* Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))
+
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## [2026.8.19.20260912](https://pypi.org/project/types-yt-dlp/2026.8.19.20260912/) (2026-09-12)
 
 * Rename private options type ([#16354](https://github.com/python/typeshed/pull/16354))

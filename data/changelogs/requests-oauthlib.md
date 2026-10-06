@@ -1,3 +1,9 @@
+## [2.0.0.20261006](https://pypi.org/project/types-requests-oauthlib/2.0.0.20261006/) (2026-10-06)
+
+* Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))
+
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## [2.0.0.20260907](https://pypi.org/project/types-requests-oauthlib/2.0.0.20260907/) (2026-09-07)
 
 * requests-oauthlib: add **kwargs to OAuth1Session.__init__ ([#15980](https://github.com/python/typeshed/pull/15980))

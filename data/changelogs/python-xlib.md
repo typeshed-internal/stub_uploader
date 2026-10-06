@@ -1,3 +1,7 @@
+## [0.33.0.20261006](https://pypi.org/project/types-python-xlib/0.33.0.20261006/) (2026-10-06)
+
+* Update pyrefly to 1.3.1 ([#16469](https://github.com/python/typeshed/pull/16469))
+
 ## [0.33.0.20260724](https://pypi.org/project/types-python-xlib/0.33.0.20260724/) (2026-07-24)
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))

@@ -1,3 +1,9 @@
+## [6.2.4.20261006](https://pypi.org/project/types-croniter/6.2.4.20261006/) (2026-10-06)
+
+* Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))
+
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## 6.2.4.20260711 (2026-07-11)
 
 [croniter] Bump to 6.2.4 ([#15995](https://github.com/python/typeshed/pull/15995))

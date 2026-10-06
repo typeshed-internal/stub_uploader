@@ -1,3 +1,7 @@
+## [5.0.0.20261006](https://pypi.org/project/types-reportlab/5.0.0.20261006/) (2026-10-06)
+
+* Update Ruff to 0.16.8 ([#16468](https://github.com/python/typeshed/pull/16468))
+
 ## [5.0.0.20260911](https://pypi.org/project/types-reportlab/5.0.0.20260911/) (2026-09-11)
 
 * Bump to 5.0.0 ([#16249](https://github.com/python/typeshed/pull/16249))

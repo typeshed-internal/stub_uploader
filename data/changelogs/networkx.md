@@ -1,3 +1,9 @@
+## [3.6.1.20261006](https://pypi.org/project/types-networkx/3.6.1.20261006/) (2026-10-06)
+
+* Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))
+
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## [3.6.1.20260911](https://pypi.org/project/types-networkx/3.6.1.20260911/) (2026-09-11)
 
 * Accept any node and edge data types in the drawing functions ([#16371](https://github.com/python/typeshed/pull/16371))
