@@ -1,3 +1,7 @@
+## [3.10.2.20261007](https://pypi.org/project/types-Markdown/3.10.2.20261007/) (2026-10-07)
+
+* Allow XML elements in HtmlStash ([#16486](https://github.com/python/typeshed/pull/16486))
+
 ## 3.10.2.20260712 (2026-07-12)
 
 Avoid class-scope name collisions in stubs ([#15994](https://github.com/python/typeshed/pull/15994))
