@@ -1,3 +1,7 @@
+## [1.17.0.20261008](https://pypi.org/project/types-six/1.17.0.20261008/) (2026-10-08)
+
+* Enable Ruff `preview` and use human-readable rule names ([#16496](https://github.com/python/typeshed/pull/16496))
+
 ## [1.17.0.20260724](https://pypi.org/project/types-six/1.17.0.20260724/) (2026-07-24)
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))

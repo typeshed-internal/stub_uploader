@@ -1,3 +1,7 @@
+## [0.28.0.20261008](https://pypi.org/project/types-pyxdg/0.28.0.20261008/) (2026-10-08)
+
+* Enable Ruff `preview` and use human-readable rule names ([#16496](https://github.com/python/typeshed/pull/16496))
+
 ## 0.28.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

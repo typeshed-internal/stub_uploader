@@ -1,3 +1,7 @@
+## [17.0.0.20261008](https://pypi.org/project/types-workalendar/17.0.0.20261008/) (2026-10-08)
+
+* Enable Ruff `preview` and use human-readable rule names ([#16496](https://github.com/python/typeshed/pull/16496))
+
 ## [17.0.0.20261006](https://pypi.org/project/types-workalendar/17.0.0.20261006/) (2026-10-06)
 
 * Update Ruff to 0.16.8 ([#16468](https://github.com/python/typeshed/pull/16468))

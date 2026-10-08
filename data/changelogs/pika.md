@@ -1,3 +1,7 @@
+## [1.4.0.20261008](https://pypi.org/project/types-pika/1.4.0.20261008/) (2026-10-08)
+
+* Enable Ruff `preview` and use human-readable rule names ([#16496](https://github.com/python/typeshed/pull/16496))
+
 ## [1.4.0.20260730](https://pypi.org/project/types-pika/1.4.0.20260730/) (2026-07-30)
 
 * Remove extra description from METADATA.toml ([#16109](https://github.com/python/typeshed/pull/16109))

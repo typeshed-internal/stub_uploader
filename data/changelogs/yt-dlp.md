@@ -1,3 +1,7 @@
+## [2026.8.19.20261008](https://pypi.org/project/types-yt-dlp/2026.8.19.20261008/) (2026-10-08)
+
+* Enable Ruff `preview` and use human-readable rule names ([#16496](https://github.com/python/typeshed/pull/16496))
+
 ## [2026.8.19.20261006](https://pypi.org/project/types-yt-dlp/2026.8.19.20261006/) (2026-10-06)
 
 * Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))
