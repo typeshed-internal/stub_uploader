@@ -11,6 +11,7 @@ from zipfile import ZipFile
 
 import pytest
 from packaging.requirements import Requirement
+from packaging.specifiers import Specifier
 from packaging.version import Version
 
 from stub_uploader import build_wheel, get_version
@@ -74,27 +75,30 @@ def test_version_increment(distribution: str) -> None:
 
 
 def test_verify_external_req() -> None:
+    any_version = Specifier(">=0")
     # Check that some known dependencies verify as valid.
     verify_external_req(
         Requirement("typing-extensions"),
         "mypy",
+        any_version,
         _unsafe_ignore_allowlist=True,
     )
     verify_external_req(
         Requirement("mypy-extensions"),
         "mypy",
+        any_version,
         _unsafe_ignore_allowlist=True,
     )
     # Check that types-foo can depend on foo
-    verify_external_req(Requirement("setuptools"), "setuptools")
+    verify_external_req(Requirement("setuptools"), "setuptools", any_version)
 
     with pytest.raises(
         InvalidRequires, match="to be present in the stub_uploader allowlist"
     ):
-        verify_external_req(Requirement("typing-extensions"), "mypy")
+        verify_external_req(Requirement("typing-extensions"), "mypy", any_version)
 
     # Check differing runtime and stub dependencies
-    verify_external_req(Requirement("pandas-stubs"), "geopandas")
+    verify_external_req(Requirement("pandas-stubs"), "geopandas", any_version)
     with pytest.raises(
         InvalidRequires,
         match=(
@@ -102,10 +106,10 @@ def test_verify_external_req() -> None:
             r"\. Did you mean pandas-stubs\?"
         ),
     ):
-        verify_external_req(Requirement("pandas"), "geopandas")
+        verify_external_req(Requirement("pandas"), "geopandas", any_version)
 
     with pytest.raises(InvalidRequires, match="to be listed in mypy's requires_dist"):
-        verify_external_req(Requirement("numpy"), "mypy")
+        verify_external_req(Requirement("numpy"), "mypy", any_version)
 
 
 def test_dependency_order() -> None:

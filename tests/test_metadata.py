@@ -1,6 +1,11 @@
 import pytest
 
-from stub_uploader.metadata import InvalidRequires, Metadata, uploaded_packages
+from stub_uploader.metadata import (
+    InvalidRequires,
+    Metadata,
+    read_metadata,
+    uploaded_packages,
+)
 from tests.test_integration import TYPESHED
 
 
@@ -10,7 +15,7 @@ def test_dependencies() -> None:
     m = Metadata(
         "auth0-python",
         {
-            "version": "0.1",
+            "version": read_metadata(TYPESHED, "auth0-python").data["version"],
             "dependencies": ["cryptography", "types-requests>=0.1"],
         },
         typeshed_pkgs,
@@ -28,7 +33,7 @@ def test_optional_dependencies() -> None:
     m = Metadata(
         "auth0-python",
         {
-            "version": "0.1",
+            "version": read_metadata(TYPESHED, "auth0-python").data["version"],
             "optional-dependencies": ["cryptography", "types-requests"],
         },
         typeshed_pkgs,
@@ -44,7 +49,7 @@ def test_invalid_dependencies() -> None:
     typeshed_pkgs = uploaded_packages.read()
 
     # numpy is not a dependency of mypy, so this should raise an error
-    m = Metadata("mypy", {"version": "0.1", "dependencies": ["numpy"]}, typeshed_pkgs)
+    m = Metadata("mypy", {"version": "1.*", "dependencies": ["numpy"]}, typeshed_pkgs)
     with pytest.raises(InvalidRequires, match="to be listed in mypy's requires_dist"):
         m.dependencies
     with pytest.raises(InvalidRequires, match="to be listed in mypy's requires_dist"):
@@ -56,7 +61,7 @@ def test_invalid_optional_dependencies() -> None:
 
     # numpy is not a dependency of mypy, so this should raise an error
     m = Metadata(
-        "mypy", {"version": "0.1", "optional-dependencies": ["numpy"]}, typeshed_pkgs
+        "mypy", {"version": "1.*", "optional-dependencies": ["numpy"]}, typeshed_pkgs
     )
     with pytest.raises(InvalidRequires, match="to be listed in mypy's requires_dist"):
         m.optional_dependencies
