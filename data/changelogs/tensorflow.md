@@ -1,3 +1,16 @@
+## [2.18.0.20261009](https://pypi.org/project/types-tensorflow/2.18.0.20261009/) (2026-10-09)
+
+* Update mypy to 2.4.0 ([#16502](https://github.com/python/typeshed/pull/16502))
+
+    Fix a few built-in dunder annotations:
+
+    * Accept `object` instead of `Any` for `str.__mod__`. (Will call `str` on arbitrary objects passed in.)
+    * Add `str.__rmod__`.
+    * Type argument to `{bytes,bytearray}.__mod__` (was `Any`).
+    * Add `{bytes,bytesarray}.__rmod__`.
+    * Add reverse operators to `set` and `frozenset`.
+    * Add `types.FrameLocalsProxyType.__{i,r,}or__`.
+
 ## [2.18.0.20261006](https://pypi.org/project/types-tensorflow/2.18.0.20261006/) (2026-10-06)
 
 * Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))
