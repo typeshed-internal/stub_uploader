@@ -788,15 +788,15 @@ dev = [
 
 [package.metadata.requires-dev]
 dev = [
-    { name = "build" },
-    { name = "mypy" },
+    { name = "build", specifier = ">=1.6.0" },
+    { name = "mypy", specifier = ">=2.3.1" },
     { name = "packaging", specifier = "==26.2" },
-    { name = "pytest" },
-    { name = "requests" },
+    { name = "pytest", specifier = ">=9.1.1" },
+    { name = "requests", specifier = ">=2.34.2" },
     { name = "setuptools", specifier = ">=82.0.1" },
-    { name = "twine" },
-    { name = "types-requests" },
-    { name = "wheel" },
+    { name = "twine", specifier = ">=7.0.0" },
+    { name = "types-requests", specifier = ">=2.33.0.20260712" },
+    { name = "wheel", specifier = ">=0.48.0" },
 ]
 
 [[package]]
