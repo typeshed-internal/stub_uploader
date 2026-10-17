@@ -1,3 +1,7 @@
+## [2026.9.29.20261017](https://pypi.org/project/types-regex/2026.9.29.20261017/) (2026-10-17)
+
+* Replace deprecated `typing.List` and friends ([#16527](https://github.com/python/typeshed/pull/16527))
+
 ## [2026.9.29.20261005](https://pypi.org/project/types-regex/2026.9.29.20261005/) (2026-10-05)
 
 * Bump regex to 2026.9.29 ([#16455](https://github.com/python/typeshed/pull/16455))

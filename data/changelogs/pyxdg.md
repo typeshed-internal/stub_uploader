@@ -1,3 +1,7 @@
+## [0.28.0.20261017](https://pypi.org/project/types-pyxdg/0.28.0.20261017/) (2026-10-17)
+
+* Replace deprecated `typing.List` and friends ([#16527](https://github.com/python/typeshed/pull/16527))
+
 ## [0.28.0.20261008](https://pypi.org/project/types-pyxdg/0.28.0.20261008/) (2026-10-08)
 
 * Enable Ruff `preview` and use human-readable rule names ([#16496](https://github.com/python/typeshed/pull/16496))

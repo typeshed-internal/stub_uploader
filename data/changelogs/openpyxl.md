@@ -1,3 +1,7 @@
+## [3.1.5.20261017](https://pypi.org/project/types-openpyxl/3.1.5.20261017/) (2026-10-17)
+
+* Replace deprecated `typing.List` and friends ([#16527](https://github.com/python/typeshed/pull/16527))
+
 ## [3.1.5.20260827](https://pypi.org/project/types-openpyxl/3.1.5.20260827/) (2026-08-27)
 
 * Add Series export ([#16210](https://github.com/python/typeshed/pull/16210))

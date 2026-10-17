@@ -1,3 +1,7 @@
+## [1.8.11.20261017](https://pypi.org/project/types-WebOb/1.8.11.20261017/) (2026-10-17)
+
+* Replace deprecated `typing.List` and friends ([#16527](https://github.com/python/typeshed/pull/16527))
+
 ## [1.8.11.20261006](https://pypi.org/project/types-WebOb/1.8.11.20261006/) (2026-10-06)
 
 * Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))
