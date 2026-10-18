@@ -1,3 +1,7 @@
+## [3.6.1.20261018](https://pypi.org/project/types-networkx/3.6.1.20261018/) (2026-10-18)
+
+* Accept a Callable as relabel_nodes mapping ([#16552](https://github.com/python/typeshed/pull/16552))
+
 ## [3.6.1.20261006](https://pypi.org/project/types-networkx/3.6.1.20261006/) (2026-10-06)
 
 * Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))

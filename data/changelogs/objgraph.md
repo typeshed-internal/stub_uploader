@@ -1,3 +1,7 @@
+## [3.7.0.20261018](https://pypi.org/project/types-objgraph/3.7.0.20261018/) (2026-10-18)
+
+* Bump objgraph to 3.7.* ([#16550](https://github.com/python/typeshed/pull/16550))
+
 ## [3.6.0.20261006](https://pypi.org/project/types-objgraph/3.6.0.20261006/) (2026-10-06)
 
 * Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))
