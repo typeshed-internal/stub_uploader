@@ -1,3 +1,9 @@
+## [1.84.0.20261020](https://pypi.org/project/types-grpcio/1.84.0.20261020/) (2026-10-20)
+
+* Add `add_registered_method_handlers` to `Server` ([#16565](https://github.com/python/typeshed/pull/16565))
+
+* Add `keys`, `values` and `items` to `aio.Metadata` ([#16566](https://github.com/python/typeshed/pull/16566))
+
 ## [1.84.0.20260928](https://pypi.org/project/types-grpcio/1.84.0.20260928/) (2026-09-28)
 
 * Bump grpcio to ~=1.84.0 ([#16391](https://github.com/python/typeshed/pull/16391))
