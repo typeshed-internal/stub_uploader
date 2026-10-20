@@ -32,7 +32,7 @@ jobs:
           persist-credentials: false
       - uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d  # v10.0.1
         with:
-          version: '0.12.10'
+          version: '0.13.4'
           python-version: '3.13'
       - run: uv run --locked mypy --strict -p stub_uploader -p tests
 
@@ -48,7 +48,7 @@ jobs:
       - name: Setup uv
         uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d  # v10.0.1
         with:
-          version: '0.12.10'
+          version: '0.13.4'
           working-directory: main
           # Keep in sync with typeshed's daily.yml and tests.yml workflows.
           python-version: '3.13'
