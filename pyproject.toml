@@ -29,3 +29,8 @@ package = false
 no-build = true
 # Allow time for security issues in new releases to be discovered by security scanners.
 exclude-newer = "P7D"
+# Allow certifi 2026.10.19 before the seven-day wait: its CA bundle removes
+# the eMudhra root that anchors the compromised intermediate certificates.
+# Remove the certifi cutoff once 2026.10.19 is seven days old, so later
+# certifi releases can be selected after the seven-day wait.
+exclude-newer-package = { certifi = "2026-10-20T02:24:17Z" }
