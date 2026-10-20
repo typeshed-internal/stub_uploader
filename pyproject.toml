@@ -29,3 +29,6 @@ package = false
 no-build = true
 # Allow time for security issues in new releases to be discovered by security scanners.
 exclude-newer = "P7D"
+# Allow certifi 2026.10.19 before the seven-day wait: it removes trust in the
+# eMudhra root that signed the compromised intermediate certificates.
+exclude-newer-package = { certifi = "2026-10-20T02:24:17Z" }
