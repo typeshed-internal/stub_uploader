@@ -1,3 +1,7 @@
+## [5.0.0.20261021](https://pypi.org/project/types-paramiko/5.0.0.20261021/) (2026-10-21)
+
+* `Transport.open_sftp_client` never returns  `None` ([#16567](https://github.com/python/typeshed/pull/16567))
+
 ## [5.0.0.20261006](https://pypi.org/project/types-paramiko/5.0.0.20261006/) (2026-10-06)
 
 * Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))

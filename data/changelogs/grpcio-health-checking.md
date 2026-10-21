@@ -1,3 +1,7 @@
+## [1.0.0.20261021](https://pypi.org/project/types-grpcio-health-checking/1.0.0.20261021/) (2026-10-21)
+
+* Add async health service stubs ([#16563](https://github.com/python/typeshed/pull/16563))
+
 ## 1.0.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

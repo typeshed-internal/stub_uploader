@@ -1,3 +1,7 @@
+## [26.1.0.20261021](https://pypi.org/project/types-boltons/26.1.0.20261021/) (2026-10-21)
+
+* Fix to_dict() return types in tbutils ([#16493](https://github.com/python/typeshed/pull/16493))
+
 ## [26.1.0.20260907](https://pypi.org/project/types-boltons/26.1.0.20260907/) (2026-09-07)
 
 * Add `functools.partial.__get__` for Python 3.14 ([#15977](https://github.com/python/typeshed/pull/15977))

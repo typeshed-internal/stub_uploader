@@ -1,3 +1,9 @@
+## [2.4.0.20261021](https://pypi.org/project/types-google-cloud-ndb/2.4.0.20261021/) (2026-10-21)
+
+* Add `set_if_not_exists` to global caches ([#16568](https://github.com/python/typeshed/pull/16568))
+
+* Add `Context.call_on_transaction_complete` ([#16569](https://github.com/python/typeshed/pull/16569))
+
 ## [2.4.0.20260909](https://pypi.org/project/types-google-cloud-ndb/2.4.0.20260909/) (2026-09-09)
 
 * Add default values ([#16359](https://github.com/python/typeshed/pull/16359))

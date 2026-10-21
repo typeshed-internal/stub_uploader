@@ -1,3 +1,21 @@
+## [3.6.1.20261021](https://pypi.org/project/types-networkx/3.6.1.20261021/) (2026-10-21)
+
+* Return the input graph type from transitive_closure ([#16556](https://github.com/python/typeshed/pull/16556))
+
+    Co-authored-by: Daniel Shafer <dan@danielshafer.com>
+
+* Return the input graph type from compose_all ([#16555](https://github.com/python/typeshed/pull/16555))
+
+    Co-authored-by: Daniel Shafer <dan@danielshafer.com>
+
+* Accept any node type in graph functions that took Graph[Hashable] ([#16557](https://github.com/python/typeshed/pull/16557))
+
+    Graph is invariant in its node type, so Graph[Hashable] rejected
+    Graph[str] and similar graphs. Use the _Node type variable, like the
+    other functions in the module.
+
+* Type max_flow_min_cost endpoints as nodes ([#16559](https://github.com/python/typeshed/pull/16559))
+
 ## [3.6.1.20261018](https://pypi.org/project/types-networkx/3.6.1.20261018/) (2026-10-18)
 
 * Accept a Callable as relabel_nodes mapping ([#16552](https://github.com/python/typeshed/pull/16552))

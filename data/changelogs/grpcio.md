@@ -1,3 +1,7 @@
+## [1.84.0.20261021](https://pypi.org/project/types-grpcio/1.84.0.20261021/) (2026-10-21)
+
+* Replace more deprecated imports in tests ([#16573](https://github.com/python/typeshed/pull/16573))
+
 ## [1.84.0.20261020](https://pypi.org/project/types-grpcio/1.84.0.20261020/) (2026-10-20)
 
 * Add `add_registered_method_handlers` to `Server` ([#16565](https://github.com/python/typeshed/pull/16565))
