@@ -1,3 +1,7 @@
+## [312.0.0.20261024](https://pypi.org/project/types-pywin32/312.0.0.20261024/) (2026-10-24)
+
+* Annotate `win32comext.mapi.emsabtags` constants as `int` ([#16601](https://github.com/python/typeshed/pull/16601))
+
 ## [312.0.0.20261006](https://pypi.org/project/types-pywin32/312.0.0.20261006/) (2026-10-06)
 
 * Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))

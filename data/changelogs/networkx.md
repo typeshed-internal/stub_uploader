@@ -1,3 +1,9 @@
+## [3.6.1.20261024](https://pypi.org/project/types-networkx/3.6.1.20261024/) (2026-10-24)
+
+* Use concrete node types for a few generators ([#16603](https://github.com/python/typeshed/pull/16603))
+
+* Return the input node type from center, centroid and moral_graph ([#16602](https://github.com/python/typeshed/pull/16602))
+
 ## [3.6.1.20261021](https://pypi.org/project/types-networkx/3.6.1.20261021/) (2026-10-21)
 
 * Return the input graph type from transitive_closure ([#16556](https://github.com/python/typeshed/pull/16556))
