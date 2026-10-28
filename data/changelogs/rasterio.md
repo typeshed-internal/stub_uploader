@@ -1,3 +1,7 @@
+## [1.5.2.20261028](https://pypi.org/project/types-rasterio/1.5.2.20261028/) (2026-10-28)
+
+* Accept `Band` and `(dataset, bidx)` sources in `features.shapes` ([#16619](https://github.com/python/typeshed/pull/16619))
+
 ## [1.5.2.20261005](https://pypi.org/project/types-rasterio/1.5.2.20261005/) (2026-10-05)
 
 * Bump rasterio to 1.5.2 ([#16458](https://github.com/python/typeshed/pull/16458))
