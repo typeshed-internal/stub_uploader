@@ -1,3 +1,7 @@
+## [1.5.2.20261029](https://pypi.org/project/types-rasterio/1.5.2.20261029/) (2026-10-29)
+
+* Fix rowcol operation return type ([#16352](https://github.com/python/typeshed/pull/16352))
+
 ## [1.5.2.20261028](https://pypi.org/project/types-rasterio/1.5.2.20261028/) (2026-10-28)
 
 * Accept `Band` and `(dataset, bidx)` sources in `features.shapes` ([#16619](https://github.com/python/typeshed/pull/16619))

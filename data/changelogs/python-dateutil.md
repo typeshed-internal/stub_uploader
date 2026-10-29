@@ -1,3 +1,7 @@
+## [2.9.0.20261029](https://pypi.org/project/types-python-dateutil/2.9.0.20261029/) (2026-10-29)
+
+* Accept bytearray inputs in ISO parsers ([#16613](https://github.com/python/typeshed/pull/16613))
+
 ## [2.9.0.20261021](https://pypi.org/project/types-python-dateutil/2.9.0.20261021/) (2026-10-21)
 
 * Replace more deprecated imports in tests ([#16573](https://github.com/python/typeshed/pull/16573))

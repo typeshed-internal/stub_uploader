@@ -1,3 +1,9 @@
+## [1.85.0.20261029](https://pypi.org/project/types-grpcio-health-checking/1.85.0.20261029/) (2026-10-29)
+
+* Bump version to 1.85.* ([#16623](https://github.com/python/typeshed/pull/16623))
+
+    Add the Health List RPC from 1.85
+
 ## [1.0.0.20261021](https://pypi.org/project/types-grpcio-health-checking/1.0.0.20261021/) (2026-10-21)
 
 * Add async health service stubs ([#16563](https://github.com/python/typeshed/pull/16563))

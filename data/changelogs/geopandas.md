@@ -1,3 +1,7 @@
+## [1.2.0.20261029](https://pypi.org/project/types-geopandas/1.2.0.20261029/) (2026-10-29)
+
+* Update to 1.2.0 ([#16632](https://github.com/python/typeshed/pull/16632))
+
 ## [1.1.4.20261006](https://pypi.org/project/types-geopandas/1.1.4.20261006/) (2026-10-06)
 
 * Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))

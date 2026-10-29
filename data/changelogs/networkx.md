@@ -1,3 +1,9 @@
+## [3.6.1.20261029](https://pypi.org/project/types-networkx/3.6.1.20261029/) (2026-10-29)
+
+* Use concrete types for the random tree generators ([#16617](https://github.com/python/typeshed/pull/16617))
+
+* Use concrete node types for the Harary, circulant and expander generators ([#16635](https://github.com/python/typeshed/pull/16635))
+
 ## [3.6.1.20261024](https://pypi.org/project/types-networkx/3.6.1.20261024/) (2026-10-24)
 
 * Use concrete node types for a few generators ([#16603](https://github.com/python/typeshed/pull/16603))

@@ -1,3 +1,7 @@
+## [3.11.2.20261029](https://pypi.org/project/types-Markdown/3.11.2.20261029/) (2026-10-29)
+
+* Update to ~=3.11.2 ([#16576](https://github.com/python/typeshed/pull/16576))
+
 ## [3.10.2.20261007](https://pypi.org/project/types-Markdown/3.10.2.20261007/) (2026-10-07)
 
 * Allow XML elements in HtmlStash ([#16486](https://github.com/python/typeshed/pull/16486))

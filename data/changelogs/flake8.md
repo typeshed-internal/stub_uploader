@@ -1,3 +1,23 @@
+## [7.5.0.20261029](https://pypi.org/project/types-flake8/7.5.0.20261029/) (2026-10-29)
+
+* Bump flake8 to 7.5.* ([#16638](https://github.com/python/typeshed/pull/16638))
+
+    Release: https://pypi.org/pypi/flake8/7.5.0 \
+    Homepage: https://github.com/pycqa/flake8 \
+    Repository: https://github.com/pycqa/flake8 \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/flake8 \
+    Diff: https://github.com/pycqa/flake8/compare/7.4.1...7.5.0
+
+    Stubsabot analysis of the diff between the two releases:
+     - Total lines of Python code added: 1.
+     - Total lines of Python code deleted: 1.
+
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
+
+    Co-authored-by: stubsabot <>
+
 ## [7.4.0.20260923](https://pypi.org/project/types-flake8/7.4.0.20260923/) (2026-09-23)
 
 * Bump flake8 to 7.4.* ([#16431](https://github.com/python/typeshed/pull/16431))

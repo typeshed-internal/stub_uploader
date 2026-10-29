@@ -1,3 +1,7 @@
+## [26.1.0.20261029](https://pypi.org/project/types-boltons/26.1.0.20261029/) (2026-10-29)
+
+* Fix set xor return types for abstract sets ([#16127](https://github.com/python/typeshed/pull/16127))
+
 ## [26.1.0.20261021](https://pypi.org/project/types-boltons/26.1.0.20261021/) (2026-10-21)
 
 * Fix to_dict() return types in tbutils ([#16493](https://github.com/python/typeshed/pull/16493))
