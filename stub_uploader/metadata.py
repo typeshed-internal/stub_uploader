@@ -27,6 +27,7 @@ from .const import (
     TYPES_PREFIX,
     UPLOADED_PATH,
 )
+from .pypi import DOWNLOAD_TIMEOUT, pypi_get
 
 
 class InvalidRequires(Exception):
@@ -283,7 +284,7 @@ def temp_archive_path(sdist_data: dict[str, str], req: Requirement) -> str:
     tmpdir = tempfile.mkdtemp()
     archive_path = Path(tmpdir, sdist_data["filename"])
 
-    resp = requests.get(sdist_data["url"], stream=True)
+    resp = pypi_get(sdist_data["url"], stream=True, timeout=DOWNLOAD_TIMEOUT)
     validate_pypi_response(resp, req)
     with open(archive_path, "wb") as file:
         file.write(resp.raw.read())
@@ -420,7 +421,7 @@ def get_upstream_release_metadata(
     """Fetch metadata for the latest supported, non-yanked upstream release."""
 
     project_url = f"https://pypi.org/pypi/{upstream_distribution}"
-    resp = requests.get(f"{project_url}/json")
+    resp = pypi_get(f"{project_url}/json")
     validate_pypi_response(resp, req)
     project_data = resp.json()
 
@@ -442,7 +443,7 @@ def get_upstream_release_metadata(
         )
 
     release = urllib.parse.quote(max(candidates)[1], safe="")
-    resp = requests.get(f"{project_url}/{release}/json")
+    resp = pypi_get(f"{project_url}/{release}/json")
     validate_pypi_response(resp, req)
     data: dict[str, Any] = resp.json()
     return data

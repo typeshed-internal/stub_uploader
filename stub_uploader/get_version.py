@@ -15,28 +15,20 @@ import datetime
 
 from typing import Any
 
-import requests
 from packaging.specifiers import Specifier, SpecifierSet
 from packaging.version import Version
-from requests.adapters import HTTPAdapter
-from urllib3.util.retry import Retry
 
 from stub_uploader.const import TYPES_PREFIX
 from stub_uploader.metadata import Metadata
+from stub_uploader.pypi import pypi_get
 
 URL_TEMPLATE = "https://pypi.org/pypi/{}/json"
-RETRIES = 5
-RETRY_ON = [429, 500, 502, 503, 504]
-TIMEOUT = 3
 
 
 def fetch_pypi_versions(distribution: str) -> list[Version]:
     assert distribution.startswith(TYPES_PREFIX)
     url = URL_TEMPLATE.format(distribution)
-    retry_strategy = Retry(total=RETRIES, status_forcelist=RETRY_ON)
-    with requests.Session() as session:
-        session.mount("https://", HTTPAdapter(max_retries=retry_strategy))
-        resp = session.get(url, timeout=TIMEOUT)
+    resp = pypi_get(url)
     if not resp.ok:
         if resp.status_code == 404:
             # Looks like this is first time this package is ever uploaded.
