@@ -1,3 +1,16 @@
+## [2.33.0.20261030](https://pypi.org/project/types-requests/2.33.0.20261030/) (2026-10-30)
+
+* Mark the Any trick with `MaybeNone` in third-party stubs ([#16627](https://github.com/python/typeshed/pull/16627))
+
+    - No change for type checkers, `MaybeNone` is an alias for `Any`
+    - `regex`: match groups and `split()` results, matching stdlib `re`
+    - `shapely`: indexed getters, `STRtree.nearest()` and `boundary`
+    - `PyYAML`, `requests`, `pyserial`, `docutils`: attributes that can be `None`
+    - `yt-dlp`: `read_stdin()`, matching `sys.stdin`
+
+    Closes #12822
+    Refs #12855
+
 ## [2.33.0.20261006](https://pypi.org/project/types-requests/2.33.0.20261006/) (2026-10-06)
 
 * Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))

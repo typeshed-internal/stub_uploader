@@ -1,3 +1,16 @@
+## [6.0.12.20261030](https://pypi.org/project/types-PyYAML/6.0.12.20261030/) (2026-10-30)
+
+* Mark the Any trick with `MaybeNone` in third-party stubs ([#16627](https://github.com/python/typeshed/pull/16627))
+
+    - No change for type checkers, `MaybeNone` is an alias for `Any`
+    - `regex`: match groups and `split()` results, matching stdlib `re`
+    - `shapely`: indexed getters, `STRtree.nearest()` and `boundary`
+    - `PyYAML`, `requests`, `pyserial`, `docutils`: attributes that can be `None`
+    - `yt-dlp`: `read_stdin()`, matching `sys.stdin`
+
+    Closes #12822
+    Refs #12855
+
 ## [6.0.12.20260906](https://pypi.org/project/types-PyYAML/6.0.12.20260906/) (2026-09-06)
 
 * Complete PyYAML event annotations ([#16288](https://github.com/python/typeshed/pull/16288))

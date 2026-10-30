@@ -1,3 +1,7 @@
+## [5.1.0.20261030](https://pypi.org/project/types-paramiko/5.1.0.20261030/) (2026-10-30)
+
+* Update to 5.1.* ([#16640](https://github.com/python/typeshed/pull/16640))
+
 ## [5.0.0.20261021](https://pypi.org/project/types-paramiko/5.0.0.20261021/) (2026-10-21)
 
 * `Transport.open_sftp_client` never returns  `None` ([#16567](https://github.com/python/typeshed/pull/16567))
