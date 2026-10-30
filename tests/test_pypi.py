@@ -6,8 +6,16 @@ from collections.abc import Iterator
 from http.server import BaseHTTPRequestHandler, HTTPServer
 
 import pytest
+from packaging.requirements import Requirement
 
-from stub_uploader.pypi import RETRIES, _session, pypi_get
+from stub_uploader import metadata
+from stub_uploader.pypi import (
+    BACKOFF_FACTOR,
+    DOWNLOAD_TIMEOUT,
+    RETRIES,
+    _session,
+    pypi_get,
+)
 
 
 class FlakyHandler(BaseHTTPRequestHandler):
@@ -37,6 +45,14 @@ class FlakyHandler(BaseHTTPRequestHandler):
         pass
 
 
+@pytest.fixture(autouse=True)
+def sleeps(monkeypatch: pytest.MonkeyPatch) -> list[float]:
+    """Record urllib3's backoff sleeps instead of waiting for them."""
+    recorded: list[float] = []
+    monkeypatch.setattr("urllib3.util.retry.time.sleep", recorded.append)
+    return recorded
+
+
 @pytest.fixture
 def server() -> Iterator[str]:
     FlakyHandler.hits = 0
@@ -62,12 +78,34 @@ def test_retries_dropped_connection(server: str) -> None:
     assert FlakyHandler.hits == 3
 
 
-def test_returns_last_response_when_retries_run_out(server: str) -> None:
+def test_returns_last_response_when_retries_run_out(
+    server: str, sleeps: list[float]
+) -> None:
     FlakyHandler.failures, FlakyHandler.mode = 100, "503"
     resp = pypi_get(server)
     assert resp.status_code == 503
     assert FlakyHandler.hits == RETRIES + 1
+    # urllib3 does not wait before the first retry, then backs off exponentially.
+    assert sleeps == [BACKOFF_FACTOR * 2**n for n in range(1, RETRIES)]
 
 
 def test_session_is_shared() -> None:
     assert _session() is _session()
+
+
+def test_sdist_download_has_a_finite_timeout(
+    monkeypatch: pytest.MonkeyPatch,
+) -> None:
+    seen: dict[str, object] = {}
+
+    def fake_get(url: str, **kwargs: object) -> object:
+        seen.update(kwargs)
+        raise RuntimeError("stop after the request")
+
+    monkeypatch.setattr(metadata, "pypi_get", fake_get)
+    with pytest.raises(RuntimeError):
+        metadata.temp_archive_path(
+            {"filename": "x.tar.gz", "url": "https://example.invalid/x.tar.gz"},
+            Requirement("x"),
+        )
+    assert seen["timeout"] == DOWNLOAD_TIMEOUT

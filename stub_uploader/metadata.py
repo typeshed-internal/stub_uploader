@@ -27,7 +27,7 @@ from .const import (
     TYPES_PREFIX,
     UPLOADED_PATH,
 )
-from .pypi import pypi_get
+from .pypi import DOWNLOAD_TIMEOUT, pypi_get
 
 
 class InvalidRequires(Exception):
@@ -284,7 +284,7 @@ def temp_archive_path(sdist_data: dict[str, str], req: Requirement) -> str:
     tmpdir = tempfile.mkdtemp()
     archive_path = Path(tmpdir, sdist_data["filename"])
 
-    resp = pypi_get(sdist_data["url"], stream=True, timeout=None)
+    resp = pypi_get(sdist_data["url"], stream=True, timeout=DOWNLOAD_TIMEOUT)
     validate_pypi_response(resp, req)
     with open(archive_path, "wb") as file:
         file.write(resp.raw.read())
