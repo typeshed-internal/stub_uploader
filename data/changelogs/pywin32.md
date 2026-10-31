@@ -1,3 +1,13 @@
+## [312.0.0.20261031](https://pypi.org/project/types-pywin32/312.0.0.20261031/) (2026-10-31)
+
+* Type `pscon` property keys as `PyPROPERTYKEY` ([#16656](https://github.com/python/typeshed/pull/16656))
+
+    pywin32 converts a `PROPERTYKEY` to and from an `(IID, pid)` tuple ([source](https://github.com/mhammond/pywin32/blob/b312/com/win32comext/propsys/src/propsys.cpp#L38-L46)), and every `PKEY_*` constant in `pscon` is such a tuple ([source](https://github.com/mhammond/pywin32/blob/b312/com/win32comext/propsys/pscon.py#L153)). This makes `PyPROPERTYKEY` an alias for `tuple[PyIID, int]` and uses it for the 567 `PKEY_*` constants (plus `int` for `GUIDSTRING_MAX`/`PKEYSTR_MAX`), so the constants can be passed to `propsys` functions that take a `PyPROPERTYKEY`.
+
+    Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+
+* Replace `Incomplete` in `win32gui` ([#16651](https://github.com/python/typeshed/pull/16651))
+
 ## [312.0.0.20261024](https://pypi.org/project/types-pywin32/312.0.0.20261024/) (2026-10-24)
 
 * Annotate `win32comext.mapi.emsabtags` constants as `int` ([#16601](https://github.com/python/typeshed/pull/16601))

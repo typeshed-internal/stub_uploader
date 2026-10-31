@@ -1,3 +1,9 @@
+## [3.6.1.20261031](https://pypi.org/project/types-networkx/3.6.1.20261031/) (2026-10-31)
+
+* Use concrete node types for the caveman, ring of cliques, windmill and LFR generators ([#16661](https://github.com/python/typeshed/pull/16661))
+
+* Use concrete node types for the small named graph generators ([#16662](https://github.com/python/typeshed/pull/16662))
+
 ## [3.6.1.20261029](https://pypi.org/project/types-networkx/3.6.1.20261029/) (2026-10-29)
 
 * Use concrete types for the random tree generators ([#16617](https://github.com/python/typeshed/pull/16617))

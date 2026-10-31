@@ -1,3 +1,7 @@
+## [4.2.0.20261031](https://pypi.org/project/types-simplejson/4.2.0.20261031/) (2026-10-31)
+
+* Make JSONEncoder.default return Any, matching json.JSONEncoder ([#16462](https://github.com/python/typeshed/pull/16462))
+
 ## [4.2.0.20261006](https://pypi.org/project/types-simplejson/4.2.0.20261006/) (2026-10-06)
 
 * Bump to 4.2.* ([#16473](https://github.com/python/typeshed/pull/16473))
