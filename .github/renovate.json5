@@ -1,0 +1,54 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "dependencyDashboard": true,
+  "suppressNotifications": ["prEditedNotification"],
+  "extends": [
+    "config:recommended",
+    "helpers:pinGitHubActionDigestsToSemver",
+    "replacements:all",
+    "abandonments:recommended"
+  ],
+  "configMigration": true,
+  "semanticCommits": "disabled",
+  "separateMajorMinor": false,
+  "prHourlyLimit": 10,
+  "enabledManagers": ["github-actions", "pre-commit", "pep621"],
+  // This package rule disables updates for `actions/setup-python` Python versions:
+  // it's better to do these manually as there's often a reason why we can't use
+  // the latest Python version in CI for a specific job
+  "ignoreDeps": ["python"],
+  "pre-commit": {
+    "enabled": true
+  },
+  "pep621": {
+    // Keep deliberate constraints in pyproject.toml for routine updates.
+    // Python packages are pinned in uv.lock; security fixes can override the constraints.
+    "rangeStrategy": "in-range-only"
+  },
+  "minimumReleaseAge": "7 days",
+  // Vulnerability alerts bypass Renovate's routine update schedule and release delay.
+  "schedule": ["every 3 months on the first day of the month"],
+  "lockFileMaintenance": {
+    "enabled": true,
+    "schedule": ["every 3 months on the first day of the month"]
+  },
+  "packageRules": [
+    {
+      // Pin versions already in use without waiting for the upgrade cooldown.
+      "matchUpdateTypes": ["pinDigest"],
+      "minimumReleaseAge": null
+    },
+    {
+      "groupName": "GitHub Actions",
+      "matchManagers": ["github-actions"]
+    },
+    {
+      "groupName": "pre-commit hooks",
+      "matchManagers": ["pre-commit"]
+    },
+    {
+      "groupName": "Python dependencies",
+      "matchManagers": ["pep621"]
+    }
+  ]
+}
