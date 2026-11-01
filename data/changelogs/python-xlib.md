@@ -1,3 +1,15 @@
+## [0.33.0.20261101](https://pypi.org/project/types-python-xlib/0.33.0.20261101/) (2026-11-01)
+
+* python-xlib: Fixes from Avasam/python-xlib#7 ([#16670](https://github.com/python/typeshed/pull/16670))
+
+    Various fixes noticed by Claude Opus 5.5 whilst working on Avasam/python-xlib#7 that apply to `types-python-xlib`.
+
+    - `rq.List` accepts `rq.Str`, a `ValueField` instance, or any parse-only type with a `parse_binary` method (like `Xlib.ext.xinput.ClassInfo`) as its type. `rq.FixedList` accepts the same types
+    - Value fields accept `None` as their name. `rq.Field.name` is `str | None` to match the runtime class default, so the `*.name` stubtest allowlist entry is no longer needed
+    - `rq.Object` accepts a tuple, dict or `DictWrapper` as its default, and `rq.Object.default` has the same type
+    - `rq.Str.pack_value` accepts `bytes`
+    - `rq.Struct.fields` is a variable-length tuple, not single
+
 ## [0.33.0.20261006](https://pypi.org/project/types-python-xlib/0.33.0.20261006/) (2026-10-06)
 
 * Update pyrefly to 1.3.1 ([#16469](https://github.com/python/typeshed/pull/16469))
