@@ -1,3 +1,7 @@
+## [7.2.0.20261102](https://pypi.org/project/types-docker/7.2.0.20261102/) (2026-11-02)
+
+* Depend on requests, not types-requests ([#16498](https://github.com/python/typeshed/pull/16498))
+
 ## [7.2.0.20261006](https://pypi.org/project/types-docker/7.2.0.20261006/) (2026-10-06)
 
 * Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))

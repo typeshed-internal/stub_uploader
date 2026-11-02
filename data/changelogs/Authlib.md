@@ -1,3 +1,12 @@
+## [1.8.0.20261102](https://pypi.org/project/types-Authlib/1.8.0.20261102/) (2026-11-02)
+
+* Various improvements ([#15865](https://github.com/python/typeshed/pull/15865))
+
+    - Add type annotations to method arguments and return types.
+    - Use variable annotations with `ClassVar` instead of assignments for
+      class variables.
+    - Use type vars to ensure the same input and output types for `OAuth2Auth.__call__` and `OAuth2ClientAuth.__call__`.
+
 ## [1.8.0.20260911](https://pypi.org/project/types-Authlib/1.8.0.20260911/) (2026-09-11)
 
 * Improve requests integrations ([#16369](https://github.com/python/typeshed/pull/16369))

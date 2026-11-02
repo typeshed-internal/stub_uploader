@@ -1,3 +1,7 @@
+## [4.0.0.20261102](https://pypi.org/project/types-oauthlib/4.0.0.20261102/) (2026-11-02)
+
+* Pin the oauthlib stub target to 4.0.0 ([#16676](https://github.com/python/typeshed/pull/16676))
+
 ## [4.0.0.20261018](https://pypi.org/project/types-oauthlib/4.0.0.20261018/) (2026-10-18)
 
 * Upgrade 4.0.* ([#16479](https://github.com/python/typeshed/pull/16479))

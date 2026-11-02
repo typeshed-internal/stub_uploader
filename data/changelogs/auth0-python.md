@@ -1,3 +1,7 @@
+## [4.10.0.20261102](https://pypi.org/project/types-auth0-python/4.10.0.20261102/) (2026-11-02)
+
+* Replace dependencies on types-requests with requests ([#16677](https://github.com/python/typeshed/pull/16677))
+
 ## 4.10.0.20260712 (2026-07-12)
 
 Structured obsolete_since fields ([#15682](https://github.com/python/typeshed/pull/15682))
