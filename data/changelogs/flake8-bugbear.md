@@ -1,3 +1,7 @@
+## [26.10.27.20261103](https://pypi.org/project/types-flake8-bugbear/26.10.27.20261103/) (2026-11-03)
+
+* Update to 26.10.27 ([#16659](https://github.com/python/typeshed/pull/16659))
+
 ## [26.9.9.20260911](https://pypi.org/project/types-flake8-bugbear/26.9.9.20260911/) (2026-09-11)
 
 * Update to 26.9.9 ([#16377](https://github.com/python/typeshed/pull/16377))

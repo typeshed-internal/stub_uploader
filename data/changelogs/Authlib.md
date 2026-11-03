@@ -1,3 +1,9 @@
+## [1.8.0.20261103](https://pypi.org/project/types-Authlib/1.8.0.20261103/) (2026-11-03)
+
+* Fix AsyncOAuth2Client missing async context manager methods. ([#15190](https://github.com/python/typeshed/pull/15190))
+
+* Improve django integrations ([#16382](https://github.com/python/typeshed/pull/16382))
+
 ## [1.8.0.20261102](https://pypi.org/project/types-Authlib/1.8.0.20261102/) (2026-11-02)
 
 * Various improvements ([#15865](https://github.com/python/typeshed/pull/15865))

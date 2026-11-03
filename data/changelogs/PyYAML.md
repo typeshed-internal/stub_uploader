@@ -1,3 +1,7 @@
+## [6.0.12.20261103](https://pypi.org/project/types-PyYAML/6.0.12.20261103/) (2026-11-03)
+
+* Allow None constructor tags ([#16685](https://github.com/python/typeshed/pull/16685))
+
 ## [6.0.12.20261030](https://pypi.org/project/types-PyYAML/6.0.12.20261030/) (2026-10-30)
 
 * Mark the Any trick with `MaybeNone` in third-party stubs ([#16627](https://github.com/python/typeshed/pull/16627))
