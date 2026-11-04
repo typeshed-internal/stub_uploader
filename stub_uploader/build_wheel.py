@@ -242,7 +242,9 @@ def find_stub_files(top: str) -> list[str]:
             elif not file.endswith((".md", ".rst")):
                 # Allow having README docs, as some stubs have these (e.g. click).
                 if (
-                    subprocess.run(["git", "check-ignore", file], cwd=top, check=False).returncode
+                    subprocess.run(
+                        ["git", "check-ignore", file], cwd=top, check=False
+                    ).returncode
                     != 0
                 ):
                     raise ValueError(f"Only stub files are allowed, not {file!r}")
@@ -499,8 +501,7 @@ def main(
         print(f"{package}=={package_version(package)}")
     print("\033[0m")
     subprocess.run(
-        [sys.executable, "-m", "build", "--no-isolation"],
-        cwd=tmpdir, check=False
+        [sys.executable, "-m", "build", "--no-isolation"], cwd=tmpdir, check=False
     )
     return Path(tmpdir) / "dist"
 
