@@ -11,11 +11,12 @@ This does following things:
 import argparse
 import os
 import re
+import sys
 
 from stub_uploader.upload import upload
 
 
-def main(typeshed_dir: str, pattern: str) -> None:
+def main(typeshed_dir: str, pattern: str) -> bool:
     """Force upload typeshed stub packages to PyPI."""
     compiled = re.compile(f"^{pattern}$")  # force exact matches
     matching = [
@@ -24,7 +25,7 @@ def main(typeshed_dir: str, pattern: str) -> None:
         if re.match(compiled, d)
     ]
     # TODO: Update changelog by providing the "commit" argument
-    upload(typeshed_dir, matching)
+    return upload(typeshed_dir, matching)
 
 
 if __name__ == "__main__":
@@ -34,4 +35,5 @@ if __name__ == "__main__":
         "pattern", help="Regular expression to select distributions for upload"
     )
     args = parser.parse_args()
-    main(args.typeshed_dir, args.pattern)
+    success = main(args.typeshed_dir, args.pattern)
+    sys.exit(0 if success else 1)

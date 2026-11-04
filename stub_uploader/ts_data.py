@@ -37,7 +37,7 @@ class TypeshedData:
             capture_output=True,
             text=True,
             cwd=self.typeshed_path,
-            check=False,
+            check=True,
         ).stdout.strip()
 
 
