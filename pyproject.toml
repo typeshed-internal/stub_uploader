@@ -7,18 +7,18 @@ requires-python = ">=3.13"
 dev = [
     # scripts
     "packaging==26.2", # see issue #220, needs investigation
-    "requests",
+    "requests>=2.34.2",
 
     # build and upload
-    "build",
+    "build>=1.6.0",
     "setuptools>=82.0.1",
-    "twine",
-    "wheel",
+    "twine>=7.0.0",
+    "wheel>=0.48.0",
 
     # tests
-    "mypy",
-    "pytest",
-    "types-requests",
+    "mypy>=2.3.1",
+    "pytest>=9.1.1",
+    "types-requests>=2.33.0.20260712",
 ]
 
 [tool.uv]
