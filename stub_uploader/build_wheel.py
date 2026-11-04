@@ -25,6 +25,7 @@ import tempfile
 from collections.abc import Iterable
 from importlib.metadata import version as package_version
 from pathlib import Path
+from subprocess import CalledProcessError
 from textwrap import dedent
 
 from stub_uploader.const import (
@@ -132,6 +133,10 @@ pip install '{stub_distribution}[all]' # installs all optional dependencies
 {extras_install_commands}
 ```
 """.strip()
+
+
+class BuildError(Exception):
+    pass
 
 
 class BuildData:
@@ -500,9 +505,13 @@ def main(
     for package in ("build", "twine"):
         print(f"{package}=={package_version(package)}")
     print("\033[0m")
-    subprocess.run(
-        [sys.executable, "-m", "build", "--no-isolation"], cwd=tmpdir, check=False
+    try:
+        subprocess.run(
+        [sys.executable, "-m", "build", "--no-isolation"], cwd=tmpdir, check=True
     )
+    except CalledProcessError as exc:
+        raise BuildError(f"Failed to build {distribution!r}: {exc}") from exc
+
     return Path(tmpdir) / "dist"
 
 

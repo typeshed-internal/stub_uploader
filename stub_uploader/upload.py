@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import subprocess
+from subprocess import CalledProcessError
 
 from stub_uploader import build_wheel
+from stub_uploader.build_wheel import BuildError
 from stub_uploader.get_version import determine_stub_version
 from stub_uploader.metadata import read_metadata, sort_by_dependency, uploaded_packages
 from stub_uploader.update_changelog import update_changelog
@@ -14,17 +16,16 @@ def upload(
     commit: str | None = None,
     *,
     dry_run: bool = False,
-) -> None:
+) -> bool:
     to_upload = sort_by_dependency(typeshed_dir, distributions)
     print("Building and uploading stubs for:", ", ".join(distributions))
     print()
-    for distribution in to_upload:
-        upload_distribution(typeshed_dir, distribution, commit, dry_run=dry_run)
+    return all(upload_distribution(typeshed_dir, distribution, commit, dry_run=dry_run) for distribution in to_upload)
 
 
 def upload_distribution(
     typeshed_dir: str, distribution: str, commit: str | None, *, dry_run: bool
-) -> None:
+) -> bool:
     print(f"Building stubs for {distribution}... ", end="")
     metadata = read_metadata(typeshed_dir, distribution)
     metadata.validate_dependencies_recursively(typeshed_dir)
@@ -34,14 +35,26 @@ def upload_distribution(
     if commit:
         update_changelog(typeshed_dir, commit, distribution, version, dry_run=dry_run)
 
-    temp_dir = build_wheel.main(typeshed_dir, distribution, version)
-    print(f"ok, version {version}")
+    try:
+        temp_dir = build_wheel.main(typeshed_dir, distribution, version)
+    except BuildError as exc:
+        print(f"error: {exc}")
+        print()
+        return False
 
     print(f"Uploading stubs for {distribution}... ", end="")
     if dry_run or not metadata.upload:
         print("skipped")
     else:
-        subprocess.run(["twine", "upload", str(temp_dir / "*")], check=True)
-        uploaded_packages.add(distribution)
-        print("ok")
+        try:
+            subprocess.run(["twine", "upload", str(temp_dir / "*")], check=True)
+        except CalledProcessError as exc:
+            print(f"error: {exc}")
+            print()
+            return False
+        else:
+            uploaded_packages.add(distribution)
+            print("ok")
     print()
+
+    return True

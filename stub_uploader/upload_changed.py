@@ -11,18 +11,19 @@ This does following things:
 
 import argparse
 import os
+import sys
 
 from stub_uploader import get_changed
 from stub_uploader.upload import upload
 
 
-def main(typeshed_dir: str, commit: str, dry_run: bool = False) -> None:
+def main(typeshed_dir: str, commit: str, dry_run: bool = False) -> bool:
     """Upload stub typeshed packages modified since commit."""
     changed = get_changed.main(typeshed_dir, commit)
     # Ignore those distributions that were completely deleted.
     current = set(os.listdir(os.path.join(typeshed_dir, "stubs")))
     changed = [d for d in changed if d in current]
-    upload(typeshed_dir, changed, commit, dry_run=dry_run)
+    return upload(typeshed_dir, changed, commit, dry_run=dry_run)
 
 
 if __name__ == "__main__":
@@ -37,4 +38,5 @@ if __name__ == "__main__":
         help="Should we perform a dry run (don't actually upload)",
     )
     args = parser.parse_args()
-    main(args.typeshed_dir, args.previous_commit, args.dry_run)
+    success = main(args.typeshed_dir, args.previous_commit, args.dry_run)
+    sys.exit(0 if success else 1)
