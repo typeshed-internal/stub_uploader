@@ -1,11 +1,6 @@
 import pytest
 
-from stub_uploader.metadata import (
-    InvalidRequires,
-    Metadata,
-    read_metadata,
-    uploaded_packages,
-)
+from stub_uploader.metadata import InvalidRequires, Metadata, uploaded_packages
 from tests.test_integration import TYPESHED
 
 
@@ -15,7 +10,7 @@ def test_dependencies() -> None:
     m = Metadata(
         "auth0-python",
         {
-            "version": read_metadata(TYPESHED, "auth0-python").data["version"],
+            "version": "4.10.0",
             "dependencies": ["cryptography", "types-requests>=0.1"],
         },
         typeshed_pkgs,
@@ -33,7 +28,7 @@ def test_optional_dependencies() -> None:
     m = Metadata(
         "auth0-python",
         {
-            "version": read_metadata(TYPESHED, "auth0-python").data["version"],
+            "version": "4.10.0",
             "optional-dependencies": ["cryptography", "types-requests"],
         },
         typeshed_pkgs,
