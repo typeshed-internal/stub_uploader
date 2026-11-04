@@ -8,17 +8,14 @@ def test_dependencies() -> None:
     typeshed_pkgs = uploaded_packages.read()
 
     m = Metadata(
-        "fake-package",
+        "tensorflow",
         {
-            "version": "1.2.3",
-            "dependencies": ["cryptography", "types-requests>=0.1"],
+            "version": "2.18.0",
+            "dependencies": ["requests", "numpy", "types-protobuf"],
         },
         typeshed_pkgs,
     )
-    assert sorted([r.name for r in m.dependencies]) == [
-        "cryptography",
-        "types-requests",
-    ]
+    assert sorted([r.name for r in m.dependencies]) ==  ["numpy", "requests", "types-protobuf"]
     assert m.optional_dependencies == []
 
 
@@ -26,17 +23,17 @@ def test_optional_dependencies() -> None:
     typeshed_pkgs = uploaded_packages.read()
 
     m = Metadata(
-        "fake-package",
+        "tqdm",
         {
-            "version": "1.2.3",
-            "optional-dependencies": ["cryptography", "types-requests"],
+            "version": "4.70.0",
+            "optional-dependencies": ["requests", "types-tensorflow"],
         },
         typeshed_pkgs,
     )
     assert m.dependencies == []
     assert sorted([r.name for r in m.optional_dependencies]) == [
-        "cryptography",
-        "types-requests",
+        "requests",
+        "types-tensorflow",
     ]
 
 
