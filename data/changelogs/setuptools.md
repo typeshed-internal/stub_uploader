@@ -1,3 +1,7 @@
+## [84.2.0.20261104](https://pypi.org/project/types-setuptools/84.2.0.20261104/) (2026-11-04)
+
+* Bump `setuptools` to `84.2.*` ([#16692](https://github.com/python/typeshed/pull/16692))
+
 ## [84.0.0.20261006](https://pypi.org/project/types-setuptools/84.0.0.20261006/) (2026-10-06)
 
 * Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))

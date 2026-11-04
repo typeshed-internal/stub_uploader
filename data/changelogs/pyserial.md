@@ -1,3 +1,7 @@
+## [3.5.0.20261104](https://pypi.org/project/types-pyserial/3.5.0.20261104/) (2026-11-04)
+
+* Use ReadableBuffer for single-byte codec decode input ([#16683](https://github.com/python/typeshed/pull/16683))
+
 ## [3.5.0.20261030](https://pypi.org/project/types-pyserial/3.5.0.20261030/) (2026-10-30)
 
 * Mark the Any trick with `MaybeNone` in third-party stubs ([#16627](https://github.com/python/typeshed/pull/16627))

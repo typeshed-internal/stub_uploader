@@ -1,3 +1,9 @@
+## [312.0.0.20261104](https://pypi.org/project/types-pywin32/312.0.0.20261104/) (2026-11-04)
+
+* pywin32 fixes for pywin32's own demos and tests ([#16680](https://github.com/python/typeshed/pull/16680))
+
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## [312.0.0.20261031](https://pypi.org/project/types-pywin32/312.0.0.20261031/) (2026-10-31)
 
 * Type `pscon` property keys as `PyPROPERTYKEY` ([#16656](https://github.com/python/typeshed/pull/16656))

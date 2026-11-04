@@ -1,3 +1,7 @@
+## [1.2.0.20261104](https://pypi.org/project/types-mypy-extensions/1.2.0.20261104/) (2026-11-04)
+
+* Update to 1.2.* ([#16691](https://github.com/python/typeshed/pull/16691))
+
 ## [1.1.0.20260724](https://pypi.org/project/types-mypy-extensions/1.1.0.20260724/) (2026-07-24)
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))

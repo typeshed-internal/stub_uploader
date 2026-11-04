@@ -1,3 +1,7 @@
+## [2.9.0.20261104](https://pypi.org/project/types-python-dateutil/2.9.0.20261104/) (2026-11-04)
+
+* Make datetime generic over tzinfo ([#11844](https://github.com/python/typeshed/pull/11844))
+
 ## [2.9.0.20261029](https://pypi.org/project/types-python-dateutil/2.9.0.20261029/) (2026-10-29)
 
 * Accept bytearray inputs in ISO parsers ([#16613](https://github.com/python/typeshed/pull/16613))

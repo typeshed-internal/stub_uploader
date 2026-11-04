@@ -1,3 +1,7 @@
+## [2.16.0.20261104](https://pypi.org/project/types-aws-xray-sdk/2.16.0.20261104/) (2026-11-04)
+
+* Update to 2.16.* ([#16682](https://github.com/python/typeshed/pull/16682))
+
 ## 2.15.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

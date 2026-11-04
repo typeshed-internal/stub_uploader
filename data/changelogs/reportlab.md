@@ -1,3 +1,7 @@
+## [5.1.0.20261104](https://pypi.org/project/types-reportlab/5.1.0.20261104/) (2026-11-04)
+
+* Update to 5.1.0 ([#16311](https://github.com/python/typeshed/pull/16311))
+
 ## [5.0.0.20261008](https://pypi.org/project/types-reportlab/5.0.0.20261008/) (2026-10-08)
 
 * Enable Ruff `preview` and use human-readable rule names ([#16496](https://github.com/python/typeshed/pull/16496))
