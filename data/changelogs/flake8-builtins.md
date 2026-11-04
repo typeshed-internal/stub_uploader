@@ -1,3 +1,7 @@
+## [3.2.0.20261103](https://pypi.org/project/types-flake8-builtins/3.2.0.20261103/) (2026-11-03)
+
+* Bump to 3.2.* ([#16678](https://github.com/python/typeshed/pull/16678))
+
 ## 3.1.0.20260508 (2026-05-08)
 
 Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))

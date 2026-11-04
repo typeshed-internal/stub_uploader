@@ -1,3 +1,7 @@
+## [26.2.0.20261008](https://pypi.org/project/types-gunicorn/26.2.0.20261008/) (2026-10-08)
+
+* Enable Ruff `preview` and use human-readable rule names ([#16496](https://github.com/python/typeshed/pull/16496))
+
 ## [26.2.0.20260827](https://pypi.org/project/types-gunicorn/26.2.0.20260827/) (2026-08-27)
 
 * Update to 26.2.0 ([#16298](https://github.com/python/typeshed/pull/16298))

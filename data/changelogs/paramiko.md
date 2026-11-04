@@ -1,3 +1,17 @@
+## [5.1.0.20261030](https://pypi.org/project/types-paramiko/5.1.0.20261030/) (2026-10-30)
+
+* Update to 5.1.* ([#16640](https://github.com/python/typeshed/pull/16640))
+
+## [5.0.0.20261021](https://pypi.org/project/types-paramiko/5.0.0.20261021/) (2026-10-21)
+
+* `Transport.open_sftp_client` never returns  `None` ([#16567](https://github.com/python/typeshed/pull/16567))
+
+## [5.0.0.20261006](https://pypi.org/project/types-paramiko/5.0.0.20261006/) (2026-10-06)
+
+* Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))
+
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## [5.0.0.20260724](https://pypi.org/project/types-paramiko/5.0.0.20260724/) (2026-07-24)
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))

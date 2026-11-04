@@ -1,3 +1,7 @@
+## [0.6.0.20261104](https://pypi.org/project/types-webencodings/0.6.0.20261104/) (2026-11-04)
+
+* Use ReadableBuffer for single-byte codec decode input ([#16683](https://github.com/python/typeshed/pull/16683))
+
 ## [0.6.0.20260907](https://pypi.org/project/types-webencodings/0.6.0.20260907/) (2026-09-07)
 
 * Update _CharMap alias for mapping params ([#16275](https://github.com/python/typeshed/pull/16275))

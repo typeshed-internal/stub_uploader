@@ -1,3 +1,7 @@
+## [5.7.0.20261103](https://pypi.org/project/types-Flask-SocketIO/5.7.0.20261103/) (2026-11-03)
+
+* Bump to 5.7.* ([#16503](https://github.com/python/typeshed/pull/16503))
+
 ## [5.6.0.20260728](https://pypi.org/project/types-Flask-SocketIO/5.6.0.20260728/) (2026-07-28)
 
 * Use optional-dependencies for third-party packages ([#16089](https://github.com/python/typeshed/pull/16089))

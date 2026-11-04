@@ -1,3 +1,15 @@
+## [4.2.0.20261104](https://pypi.org/project/types-simplejson/4.2.0.20261104/) (2026-11-04)
+
+* Replace Incomplete in JSONDecoder and fix scan_once return type ([#16666](https://github.com/python/typeshed/pull/16666))
+
+## [4.2.0.20261031](https://pypi.org/project/types-simplejson/4.2.0.20261031/) (2026-10-31)
+
+* Make JSONEncoder.default return Any, matching json.JSONEncoder ([#16462](https://github.com/python/typeshed/pull/16462))
+
+## [4.2.0.20261006](https://pypi.org/project/types-simplejson/4.2.0.20261006/) (2026-10-06)
+
+* Bump to 4.2.* ([#16473](https://github.com/python/typeshed/pull/16473))
+
 ## [4.1.0.20260724](https://pypi.org/project/types-simplejson/4.1.0.20260724/) (2026-07-24)
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))

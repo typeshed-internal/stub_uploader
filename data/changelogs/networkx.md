@@ -1,3 +1,49 @@
+## [3.6.1.20261031](https://pypi.org/project/types-networkx/3.6.1.20261031/) (2026-10-31)
+
+* Use concrete node types for the caveman, ring of cliques, windmill and LFR generators ([#16661](https://github.com/python/typeshed/pull/16661))
+
+* Use concrete node types for the small named graph generators ([#16662](https://github.com/python/typeshed/pull/16662))
+
+## [3.6.1.20261029](https://pypi.org/project/types-networkx/3.6.1.20261029/) (2026-10-29)
+
+* Use concrete types for the random tree generators ([#16617](https://github.com/python/typeshed/pull/16617))
+
+* Use concrete node types for the Harary, circulant and expander generators ([#16635](https://github.com/python/typeshed/pull/16635))
+
+## [3.6.1.20261024](https://pypi.org/project/types-networkx/3.6.1.20261024/) (2026-10-24)
+
+* Use concrete node types for a few generators ([#16603](https://github.com/python/typeshed/pull/16603))
+
+* Return the input node type from center, centroid and moral_graph ([#16602](https://github.com/python/typeshed/pull/16602))
+
+## [3.6.1.20261021](https://pypi.org/project/types-networkx/3.6.1.20261021/) (2026-10-21)
+
+* Return the input graph type from transitive_closure ([#16556](https://github.com/python/typeshed/pull/16556))
+
+    Co-authored-by: Daniel Shafer <dan@danielshafer.com>
+
+* Return the input graph type from compose_all ([#16555](https://github.com/python/typeshed/pull/16555))
+
+    Co-authored-by: Daniel Shafer <dan@danielshafer.com>
+
+* Accept any node type in graph functions that took Graph[Hashable] ([#16557](https://github.com/python/typeshed/pull/16557))
+
+    Graph is invariant in its node type, so Graph[Hashable] rejected
+    Graph[str] and similar graphs. Use the _Node type variable, like the
+    other functions in the module.
+
+* Type max_flow_min_cost endpoints as nodes ([#16559](https://github.com/python/typeshed/pull/16559))
+
+## [3.6.1.20261018](https://pypi.org/project/types-networkx/3.6.1.20261018/) (2026-10-18)
+
+* Accept a Callable as relabel_nodes mapping ([#16552](https://github.com/python/typeshed/pull/16552))
+
+## [3.6.1.20261006](https://pypi.org/project/types-networkx/3.6.1.20261006/) (2026-10-06)
+
+* Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))
+
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## [3.6.1.20260911](https://pypi.org/project/types-networkx/3.6.1.20260911/) (2026-09-11)
 
 * Accept any node and edge data types in the drawing functions ([#16371](https://github.com/python/typeshed/pull/16371))

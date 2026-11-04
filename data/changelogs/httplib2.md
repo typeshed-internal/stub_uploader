@@ -1,3 +1,26 @@
+## [0.32.1.20261029](https://pypi.org/project/types-httplib2/0.32.1.20261029/) (2026-10-29)
+
+* Bump httplib2 to 0.32.1 ([#16639](https://github.com/python/typeshed/pull/16639))
+
+    Release: https://pypi.org/pypi/httplib2/0.32.1 \
+    Homepage: https://github.com/httplib2/httplib2 \
+    Repository: https://github.com/httplib2/httplib2 \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/httplib2 \
+    Diff: https://github.com/httplib2/httplib2/compare/v0.32.0...v0.32.1
+
+    Stubsabot analysis of the diff between the two releases:
+     - 0 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 1 file included in typeshed's stubs has been modified or renamed: `httplib2/__init__.py`.
+     - Total lines of Python code added: 2.
+     - Total lines of Python code deleted: 2.
+
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
+
+    Co-authored-by: stubsabot <>
+
 ## [0.32.0.20260720](https://pypi.org/project/types-httplib2/0.32.0.20260720/) (2026-07-20)
 
 * Update to 0.32.0 ([#16038](https://github.com/python/typeshed/pull/16038))

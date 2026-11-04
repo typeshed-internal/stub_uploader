@@ -1,3 +1,27 @@
+## [26.2.0.20261005](https://pypi.org/project/types-django-filter/26.2.0.20261005/) (2026-10-05)
+
+* Bump django-filter to 26.2.* ([#16472](https://github.com/python/typeshed/pull/16472))
+
+    Release: https://pypi.org/pypi/django-filter/26.2 \
+    Homepage: https://github.com/carltongibson/django-filter/tree/main \
+    Repository: https://github.com/carltongibson/django-filter/ \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/django-filter \
+    Changelog: https://github.com/carltongibson/django-filter/blob/main/CHANGES.rst \
+    Diff: https://github.com/carltongibson/django-filter/compare/26.1...26.2
+
+    Stubsabot analysis of the diff between the two releases:
+     - 0 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 2 files included in typeshed's stubs have been modified or renamed: `django_filters/__init__.py`, `django_filters/widgets.py`.
+     - Total lines of Python code added: 19.
+     - Total lines of Python code deleted: 2.
+
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
+
+    Co-authored-by: stubsabot <>
+
 ## [26.1.0.20260906](https://pypi.org/project/types-django-filter/26.1.0.20260906/) (2026-09-06)
 
 * Broaden OrderingFilter fields parameter ([#16246](https://github.com/python/typeshed/pull/16246))

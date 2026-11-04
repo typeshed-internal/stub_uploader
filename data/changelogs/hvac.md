@@ -1,3 +1,7 @@
+## [2.4.0.20261102](https://pypi.org/project/types-hvac/2.4.0.20261102/) (2026-11-02)
+
+* Add types for hvac.api.secrets_engines.consul ([#16501](https://github.com/python/typeshed/pull/16501))
+
 ## [2.4.0.20260731](https://pypi.org/project/types-hvac/2.4.0.20260731/) (2026-07-31)
 
 * Fix secret dictionary types ([#16114](https://github.com/python/typeshed/pull/16114))

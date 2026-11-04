@@ -1,3 +1,39 @@
+## [312.0.0.20261104](https://pypi.org/project/types-pywin32/312.0.0.20261104/) (2026-11-04)
+
+* pywin32 fixes for pywin32's own demos and tests ([#16680](https://github.com/python/typeshed/pull/16680))
+
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+## [312.0.0.20261031](https://pypi.org/project/types-pywin32/312.0.0.20261031/) (2026-10-31)
+
+* Type `pscon` property keys as `PyPROPERTYKEY` ([#16656](https://github.com/python/typeshed/pull/16656))
+
+    pywin32 converts a `PROPERTYKEY` to and from an `(IID, pid)` tuple ([source](https://github.com/mhammond/pywin32/blob/b312/com/win32comext/propsys/src/propsys.cpp#L38-L46)), and every `PKEY_*` constant in `pscon` is such a tuple ([source](https://github.com/mhammond/pywin32/blob/b312/com/win32comext/propsys/pscon.py#L153)). This makes `PyPROPERTYKEY` an alias for `tuple[PyIID, int]` and uses it for the 567 `PKEY_*` constants (plus `int` for `GUIDSTRING_MAX`/`PKEYSTR_MAX`), so the constants can be passed to `propsys` functions that take a `PyPROPERTYKEY`.
+
+    Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>
+
+* Replace `Incomplete` in `win32gui` ([#16651](https://github.com/python/typeshed/pull/16651))
+
+## [312.0.0.20261024](https://pypi.org/project/types-pywin32/312.0.0.20261024/) (2026-10-24)
+
+* Annotate `win32comext.mapi.emsabtags` constants as `int` ([#16601](https://github.com/python/typeshed/pull/16601))
+
+## [312.0.0.20261006](https://pypi.org/project/types-pywin32/312.0.0.20261006/) (2026-10-06)
+
+* Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))
+
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
+## [312.0.0.20260928](https://pypi.org/project/types-pywin32/312.0.0.20260928/) (2026-09-28)
+
+* Fix win32file.ReadFile return types and overlapped forms ([#16429](https://github.com/python/typeshed/pull/16429))
+
+    ReadFile returns bytes, not str: a new bytes object when no OVERLAPPED
+    is passed, the buffer object itself (or a freshly allocated read buffer
+    for an int size) when one is. The stub also rejected an OVERLAPPED
+    together with an int size and accepted only PyOVERLAPPEDReadBuffer as
+    the buffer, while the runtime takes any writable buffer.
+
 ## [312.0.0.20260827](https://pypi.org/project/types-pywin32/312.0.0.20260827/) (2026-08-27)
 
 * fixed some typos ([#16273](https://github.com/python/typeshed/pull/16273))

@@ -1,3 +1,26 @@
+## [2026.8.19.20261030](https://pypi.org/project/types-yt-dlp/2026.8.19.20261030/) (2026-10-30)
+
+* Mark the Any trick with `MaybeNone` in third-party stubs ([#16627](https://github.com/python/typeshed/pull/16627))
+
+    - No change for type checkers, `MaybeNone` is an alias for `Any`
+    - `regex`: match groups and `split()` results, matching stdlib `re`
+    - `shapely`: indexed getters, `STRtree.nearest()` and `boundary`
+    - `PyYAML`, `requests`, `pyserial`, `docutils`: attributes that can be `None`
+    - `yt-dlp`: `read_stdin()`, matching `sys.stdin`
+
+    Closes #12822
+    Refs #12855
+
+## [2026.8.19.20261008](https://pypi.org/project/types-yt-dlp/2026.8.19.20261008/) (2026-10-08)
+
+* Enable Ruff `preview` and use human-readable rule names ([#16496](https://github.com/python/typeshed/pull/16496))
+
+## [2026.8.19.20261006](https://pypi.org/project/types-yt-dlp/2026.8.19.20261006/) (2026-10-06)
+
+* Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))
+
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## [2026.8.19.20260912](https://pypi.org/project/types-yt-dlp/2026.8.19.20260912/) (2026-09-12)
 
 * Rename private options type ([#16354](https://github.com/python/typeshed/pull/16354))

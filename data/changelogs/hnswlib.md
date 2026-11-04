@@ -1,3 +1,7 @@
+## [0.8.0.20261021](https://pypi.org/project/types-hnswlib/0.8.0.20261021/) (2026-10-21)
+
+* Fix `Index.get_items` return types ([#16578](https://github.com/python/typeshed/pull/16578))
+
 ## [0.8.0.20260911](https://pypi.org/project/types-hnswlib/0.8.0.20260911/) (2026-09-11)
 
 * Fix parameter name in `Index.init_index` ([#16381](https://github.com/python/typeshed/pull/16381))

@@ -1,3 +1,24 @@
+## [4.47.0.20260928](https://pypi.org/project/types-braintree/4.47.0.20260928/) (2026-09-28)
+
+* Bump braintree to 4.47.* ([#16405](https://github.com/python/typeshed/pull/16405))
+
+    Release: https://pypi.org/pypi/braintree/4.47.0 \
+    Homepage: https://developer.paypal.com/braintree/docs/reference/overview \
+    Repository: https://github.com/braintree/braintree_python \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/braintree \
+    Diff: https://github.com/braintree/braintree_python/compare/4.46.0...4.47.0
+
+    Stubsabot analysis of the diff between the two releases:
+     - 0 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 19 files included in typeshed's stubs have been modified or renamed.
+     - Total lines of Python code added: 647.
+     - Total lines of Python code deleted: 48.
+
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
+
 ## [4.46.0.20260827](https://pypi.org/project/types-braintree/4.46.0.20260827/) (2026-08-27)
 
 * Annotate MultipleValueNodeBuilder.in_list ([#16235](https://github.com/python/typeshed/pull/16235))

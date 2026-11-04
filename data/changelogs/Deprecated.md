@@ -1,3 +1,16 @@
+## [1.3.1.20260928](https://pypi.org/project/types-Deprecated/1.3.1.20260928/) (2026-09-28)
+
+* Mark Deprecated as obsolete since 3.0.0 ([#16445](https://github.com/python/typeshed/pull/16445))
+
+    Release: https://pypi.org/pypi/Deprecated/3.0.0 \
+    Homepage: https://github.com/laurent-laporte-pro/deprecated \
+    Repository: https://github.com/laurent-laporte-pro/deprecated \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/Deprecated \
+    Changelog: https://github.com/laurent-laporte-pro/deprecated/blob/master/CHANGELOG.md \
+    Diff: https://github.com/laurent-laporte-pro/deprecated/compare/v1.3.1...v3.0.0
+
+    Co-authored-by: stubsabot <>
+
 ## [1.3.1.20260728](https://pypi.org/project/types-Deprecated/1.3.1.20260728/) (2026-07-28)
 
 * Use optional-dependencies for third-party packages ([#16089](https://github.com/python/typeshed/pull/16089))

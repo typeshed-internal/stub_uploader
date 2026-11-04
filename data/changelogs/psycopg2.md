@@ -1,3 +1,15 @@
+## [2.9.21.20261030](https://pypi.org/project/types-psycopg2/2.9.21.20261030/) (2026-10-30)
+
+* Improve string_types annotations ([#16652](https://github.com/python/typeshed/pull/16652))
+
+    Co-authored-by: Claude Opus 5.5 <noreply@anthropic.com>
+
+* Type wait callbacks ([#16646](https://github.com/python/typeshed/pull/16646))
+
+## [2.9.21.20261008](https://pypi.org/project/types-psycopg2/2.9.21.20261008/) (2026-10-08)
+
+* Enable Ruff `preview` and use human-readable rule names ([#16496](https://github.com/python/typeshed/pull/16496))
+
 ## [2.9.21.20260911](https://pypi.org/project/types-psycopg2/2.9.21.20260911/) (2026-09-11)
 
 * Update to 2.9.13 ([#16376](https://github.com/python/typeshed/pull/16376))

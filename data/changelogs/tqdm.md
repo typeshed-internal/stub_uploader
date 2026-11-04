@@ -1,3 +1,7 @@
+## [4.70.0.20261102](https://pypi.org/project/types-tqdm/4.70.0.20261102/) (2026-11-02)
+
+* Replace dependencies on types-requests with requests ([#16677](https://github.com/python/typeshed/pull/16677))
+
 ## [4.70.0.20260906](https://pypi.org/project/types-tqdm/4.70.0.20260906/) (2026-09-06)
 
 * Update tqdm.utils.envwrap ([#16351](https://github.com/python/typeshed/pull/16351))

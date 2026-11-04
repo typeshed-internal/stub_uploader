@@ -7,18 +7,18 @@ requires-python = ">=3.13"
 dev = [
     # scripts
     "packaging==26.2", # see issue #220, needs investigation
-    "requests",
+    "requests>=2.34.2",
 
     # build and upload
-    "build",
+    "build>=1.6.0",
     "setuptools>=82.0.1",
-    "twine",
-    "wheel",
+    "twine>=7.0.0",
+    "wheel>=0.48.0",
 
     # tests
-    "mypy",
-    "pytest",
-    "types-requests",
+    "mypy>=2.3.1",
+    "pytest>=9.1.1",
+    "types-requests>=2.33.0.20260712",
 ]
 
 [tool.uv]
@@ -29,3 +29,8 @@ package = false
 no-build = true
 # Allow time for security issues in new releases to be discovered by security scanners.
 exclude-newer = "P7D"
+# Allow certifi 2026.10.19 before the seven-day wait: its CA bundle removes
+# the eMudhra root that anchors the compromised intermediate certificates.
+# Remove the certifi cutoff once 2026.10.19 is seven days old, so later
+# certifi releases can be selected after the seven-day wait.
+exclude-newer-package = { certifi = "2026-10-20T02:24:17Z" }

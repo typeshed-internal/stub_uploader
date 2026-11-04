@@ -1,3 +1,7 @@
+## [4.5.3.20261029](https://pypi.org/project/types-peewee/4.5.3.20261029/) (2026-10-29)
+
+* Update to 4.5.3 ([#16631](https://github.com/python/typeshed/pull/16631))
+
 ## [4.5.1.20260909](https://pypi.org/project/types-peewee/4.5.1.20260909/) (2026-09-09)
 
 * Bump to 4.5.1 ([#16367](https://github.com/python/typeshed/pull/16367))

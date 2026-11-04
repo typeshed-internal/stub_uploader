@@ -1,3 +1,9 @@
+## [26.9.0.20261006](https://pypi.org/project/types-gevent/26.9.0.20261006/) (2026-10-06)
+
+* Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))
+
+    Co-authored-by: pre-commit-ci[bot] <66853113+pre-commit-ci[bot]@users.noreply.github.com>
+
 ## [26.9.0.20260923](https://pypi.org/project/types-gevent/26.9.0.20260923/) (2026-09-23)
 
 * Bump gevent to 26.9.* ([#16406](https://github.com/python/typeshed/pull/16406))

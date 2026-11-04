@@ -1,3 +1,9 @@
+## [2.0.0.20261021](https://pypi.org/project/types-pycocotools/2.0.0.20261021/) (2026-10-21)
+
+* Accept lists of RLEs in `mask.decode`, `area` and `toBbox` ([#16577](https://github.com/python/typeshed/pull/16577))
+
+* Accept in-memory results in `COCO.loadRes` ([#16570](https://github.com/python/typeshed/pull/16570))
+
 ## 2.0.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

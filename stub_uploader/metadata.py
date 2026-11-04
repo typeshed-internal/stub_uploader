@@ -17,6 +17,7 @@ from typing import Any, LiteralString, Optional
 import requests
 from packaging.requirements import Requirement
 from packaging.specifiers import InvalidSpecifier, Specifier
+from packaging.version import InvalidVersion, Version
 
 from .const import (
     EXTERNAL_REQ_ALLOWLIST,
@@ -138,7 +139,9 @@ class Metadata:
     def _validate_dependencies(self, dependencies: list[Dependency]) -> None:
         for dep in dependencies:
             if not dep.is_typeshed_pkg:
-                verify_external_req(dep.requirement, self.upstream_distribution)
+                verify_external_req(
+                    dep.requirement, self.upstream_distribution, self.version_spec
+                )
 
     def validate_dependencies_recursively(self, typeshed_dir: str) -> set[str]:
         # While metadata.dependencies and metadata.optional_dependencies will perform validation on the
@@ -350,6 +353,7 @@ def get_latest_sdist_data(pypi_data: dict[str, Any]) -> dict[str, Any] | None:
 def verify_external_req(
     req: Requirement,
     upstream_distribution: str | None,
+    upstream_version_spec: Specifier,
     *,
     _unsafe_ignore_allowlist: bool = False,  # used for tests
 ) -> None:
@@ -361,7 +365,9 @@ def verify_external_req(
     verify_external_req_in_allowlist(
         req, _unsafe_ignore_allowlist=_unsafe_ignore_allowlist
     )
-    verify_external_req_stubs_require_its_runtime(req, upstream_distribution)
+    verify_external_req_stubs_require_its_runtime(
+        req, upstream_distribution, upstream_version_spec
+    )
 
 
 def verify_external_req_in_allowlist(
@@ -380,7 +386,9 @@ def verify_external_req_in_allowlist(
 
 
 def verify_external_req_stubs_require_its_runtime(
-    req: Requirement, upstream_distribution: str | None
+    req: Requirement,
+    upstream_distribution: str | None,
+    upstream_version_spec: Specifier,
 ) -> None:
     """Verify that an external stubs package requires its runtime package."""
 
@@ -389,13 +397,9 @@ def verify_external_req_stubs_require_its_runtime(
             f"There is no upstream distribution on PyPI, so cannot verify {req}"
         )
 
-    resp = requests.get(f"https://pypi.org/pypi/{upstream_distribution}/json")
-    validate_pypi_response(resp, req)
-    data: dict[str, Any] = resp.json()
-
-    # TODO: PyPI doesn't seem to have version specific requires_dist. This does mean we can be
-    # broken by new releases of upstream packages, even if they do not match the version spec we
-    # have for the upstream distribution.
+    data = get_upstream_release_metadata(
+        req, upstream_distribution, upstream_version_spec
+    )
 
     if not (
         req.name == upstream_distribution  # Allow `types-foo` to require `foo`
@@ -410,12 +414,42 @@ def verify_external_req_stubs_require_its_runtime(
         )
 
 
+def get_upstream_release_metadata(
+    req: Requirement, upstream_distribution: str, upstream_version_spec: Specifier
+) -> dict[str, Any]:
+    """Fetch metadata for the latest supported, non-yanked upstream release."""
+
+    project_url = f"https://pypi.org/pypi/{upstream_distribution}"
+    resp = requests.get(f"{project_url}/json")
+    validate_pypi_response(resp, req)
+    project_data = resp.json()
+
+    candidates: list[tuple[Version, str]] = []
+    for release, files in project_data["releases"].items():
+        try:
+            version = Version(release)
+        except InvalidVersion:
+            continue
+        if upstream_version_spec.contains(
+            version, prereleases=bool(upstream_version_spec.prereleases)
+        ) and any(not file.get("yanked", False) for file in files):
+            candidates.append((version, release))
+
+    if not candidates:
+        raise InvalidRequires(
+            f"No published, non-yanked release of {upstream_distribution} "
+            f"matches {upstream_version_spec}"
+        )
+
+    release = urllib.parse.quote(max(candidates)[1], safe="")
+    resp = requests.get(f"{project_url}/{release}/json")
+    validate_pypi_response(resp, req)
+    data: dict[str, Any] = resp.json()
+    return data
+
+
 def runtime_in_upstream_requires(req: Requirement, data: dict[str, Any]) -> bool:
     """Return whether an external stubs package depends on its runtime package."""
-
-    # TODO: PyPI doesn't seem to have version specific requires_dist. This does mean we can be
-    # broken by new releases of upstream packages, even if they do not match the version spec we
-    # have for the upstream distribution.
 
     runtime_req_name = EXTERNAL_RUNTIME_REQ_MAP.get(req.name, req.name)
     runtime_req_canonical_name = canonical_name(runtime_req_name)

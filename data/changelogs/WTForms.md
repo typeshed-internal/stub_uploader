@@ -1,3 +1,11 @@
+## [3.3.0.20261104](https://pypi.org/project/types-WTForms/3.3.0.20261104/) (2026-11-04)
+
+* Accept lazy strings for labels, descriptions and messages ([#16507](https://github.com/python/typeshed/pull/16507))
+
+## [3.3.0.20261103](https://pypi.org/project/types-WTForms/3.3.0.20261103/) (2026-11-03)
+
+* Update stubs for 3.3.0 ([#16604](https://github.com/python/typeshed/pull/16604))
+
 ## 3.2.1.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

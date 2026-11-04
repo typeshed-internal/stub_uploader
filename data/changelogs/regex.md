@@ -1,3 +1,43 @@
+## [2026.9.29.20261030](https://pypi.org/project/types-regex/2026.9.29.20261030/) (2026-10-30)
+
+* Mark the Any trick with `MaybeNone` in third-party stubs ([#16627](https://github.com/python/typeshed/pull/16627))
+
+    - No change for type checkers, `MaybeNone` is an alias for `Any`
+    - `regex`: match groups and `split()` results, matching stdlib `re`
+    - `shapely`: indexed getters, `STRtree.nearest()` and `boundary`
+    - `PyYAML`, `requests`, `pyserial`, `docutils`: attributes that can be `None`
+    - `yt-dlp`: `read_stdin()`, matching `sys.stdin`
+
+    Closes #12822
+    Refs #12855
+
+## [2026.9.29.20261017](https://pypi.org/project/types-regex/2026.9.29.20261017/) (2026-10-17)
+
+* Replace deprecated `typing.List` and friends ([#16527](https://github.com/python/typeshed/pull/16527))
+
+## [2026.9.29.20261005](https://pypi.org/project/types-regex/2026.9.29.20261005/) (2026-10-05)
+
+* Bump regex to 2026.9.29 ([#16455](https://github.com/python/typeshed/pull/16455))
+
+    Release: https://pypi.org/pypi/regex/2026.9.29 \
+    Homepage: https://github.com/mrabarnett/mrab-regex \
+    Repository: https://github.com/mrabarnett/mrab-regex \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex \
+    Diff: https://github.com/mrabarnett/mrab-regex/compare/2026.9.10...2026.9.29
+
+    Stubsabot analysis of the diff between the two releases:
+     - 0 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 1 file included in typeshed's stubs has been modified or renamed: `regex/_main.py`.
+     - Total lines of Python code added: 59.
+     - Total lines of Python code deleted: 69.
+
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
+
+    Co-authored-by: stubsabot <>
+
 ## [2026.9.10.20260911](https://pypi.org/project/types-regex/2026.9.10.20260911/) (2026-09-11)
 
 * Bump regex to 2026.9.10 ([#16374](https://github.com/python/typeshed/pull/16374))
