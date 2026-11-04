@@ -11,9 +11,8 @@ distribution information.
 """
 
 from __future__ import annotations
-import datetime
 
-from typing import Any
+import datetime
 
 import requests
 from packaging.specifiers import Specifier, SpecifierSet
@@ -42,8 +41,8 @@ def fetch_pypi_versions(distribution: str) -> list[Version]:
             # Looks like this is first time this package is ever uploaded.
             return []
         raise ValueError("Error while retrieving version")
-    releases: dict[str, Any] = resp.json()["releases"]
-    return [Version(release) for release in releases.keys()]
+    releases: dict[str, object] = resp.json()["releases"]
+    return [Version(release) for release in releases]
 
 
 def ensure_specificity(ver: list[int], specificity: int) -> None:

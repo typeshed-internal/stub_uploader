@@ -154,8 +154,7 @@ class PackageData:
         The top-level package name can optionally include the "-stubs" suffix.
         """
         top_level, *sub_packages = package_name.split(".")
-        if top_level.endswith(SUFFIX):
-            top_level = top_level[: -len(SUFFIX)]
+        top_level = top_level.removesuffix(SUFFIX)
         return Path(top_level, *sub_packages)
 
     def package_build_path(self, package_name: str) -> Path:
@@ -243,7 +242,9 @@ def find_stub_files(top: str) -> list[str]:
             elif not file.endswith((".md", ".rst")):
                 # Allow having README docs, as some stubs have these (e.g. click).
                 if (
-                    subprocess.run(["git", "check-ignore", file], cwd=top).returncode
+                    subprocess.run(
+                        ["git", "check-ignore", file], cwd=top, check=False
+                    ).returncode
                     != 0
                 ):
                     raise ValueError(f"Only stub files are allowed, not {file!r}")
@@ -337,7 +338,7 @@ def is_ignored_distribution_file(entry: Path) -> bool:
             return True
         if (
             subprocess.run(
-                ["git", "check-ignore", entry.name], cwd=str(entry.parent)
+                ["git", "check-ignore", entry.name], cwd=str(entry.parent), check=False
             ).returncode
             == 0
         ):
@@ -500,8 +501,7 @@ def main(
         print(f"{package}=={package_version(package)}")
     print("\033[0m")
     subprocess.run(
-        [sys.executable, "-m", "build", "--no-isolation"],
-        cwd=tmpdir,
+        [sys.executable, "-m", "build", "--no-isolation"], cwd=tmpdir, check=False
     )
     return Path(tmpdir) / "dist"
 

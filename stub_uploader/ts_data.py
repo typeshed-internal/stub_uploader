@@ -5,12 +5,12 @@ Information about typeshed.
 from __future__ import annotations
 
 import argparse
-from collections.abc import Iterable
-from dataclasses import dataclass, fields
-from pathlib import Path
 import re
 import subprocess
 import tomllib
+from collections.abc import Iterable
+from dataclasses import dataclass, fields
+from pathlib import Path
 
 from packaging.requirements import Requirement
 from packaging.version import Version
@@ -37,6 +37,7 @@ class TypeshedData:
             capture_output=True,
             text=True,
             cwd=self.typeshed_path,
+            check=False,
         ).stdout.strip()
 
 

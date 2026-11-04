@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
 import functools
 import graphlib
 import os
@@ -10,9 +9,10 @@ import tempfile
 import tomllib
 import urllib.parse
 from collections.abc import Generator, Iterable
+from dataclasses import dataclass
 from glob import glob
 from pathlib import Path
-from typing import Any, LiteralString, Optional
+from typing import Any, LiteralString
 
 import requests
 from packaging.requirements import Requirement
@@ -70,7 +70,7 @@ class Dependency:
 
 class Metadata:
     def __init__(
-        self, distribution: str, data: dict[str, Any], typeshed_pkgs: set[str]
+        self, distribution: str, data: dict[str, object], typeshed_pkgs: set[str]
     ):
         assert not distribution.startswith(TYPES_PREFIX)
         self._alleged_upstream_distribution = distribution
@@ -78,7 +78,7 @@ class Metadata:
         self.typeshed_pkgs = typeshed_pkgs
 
     @property
-    def upstream_distribution(self) -> Optional[str]:
+    def upstream_distribution(self) -> str | None:
         # TODO: add a field to METADATA.toml if the stubs are for a package
         # that does not exist on PyPI
         if self._alleged_upstream_distribution == "gdb":
@@ -241,7 +241,7 @@ def canonical_name(name: str) -> str:
 class _UploadedPackages:
     def __init__(self, file_path: str) -> None:
         self._file_path = file_path
-        self._cached: Optional[list[str]] = None
+        self._cached: list[str] | None = None
 
     def read(self) -> set[str]:
         if self._cached is not None:
@@ -298,7 +298,7 @@ def temp_archive_path(sdist_data: dict[str, str], req: Requirement) -> str:
 
 def extract_sdist_requires(
     sdist_data: dict[str, str], req: Requirement
-) -> Generator[Requirement, None, None]:
+) -> Generator[Requirement]:
     tmpdir = temp_archive_path(sdist_data, req)
 
     # Only a single folder with "<package-version>.egg-info/requires.txt" in the archive should exist
@@ -316,7 +316,7 @@ def extract_sdist_requires(
 
 def extract_sdist_pyproject_requires(
     sdist_data: dict[str, str], req: Requirement
-) -> Generator[Requirement, None, None]:
+) -> Generator[Requirement]:
     tmpdir = temp_archive_path(sdist_data, req)
 
     # Find and process only the first pyproject.toml we come across:
@@ -416,7 +416,7 @@ def verify_external_req_stubs_require_its_runtime(
 
 def get_upstream_release_metadata(
     req: Requirement, upstream_distribution: str, upstream_version_spec: Specifier
-) -> dict[str, Any]:
+) -> dict[str, object]:
     """Fetch metadata for the latest supported, non-yanked upstream release."""
 
     project_url = f"https://pypi.org/pypi/{upstream_distribution}"
@@ -444,7 +444,8 @@ def get_upstream_release_metadata(
     release = urllib.parse.quote(max(candidates)[1], safe="")
     resp = requests.get(f"{project_url}/{release}/json")
     validate_pypi_response(resp, req)
-    data: dict[str, Any] = resp.json()
+    data: object = resp.json()
+    assert isinstance(data, dict)
     return data
 
 
@@ -495,7 +496,7 @@ def runtime_in_upstream_group_requires(req: Requirement, data: dict[str, Any]) -
 
 def sort_by_dependency(
     typeshed_dir: str, distributions: Iterable[str]
-) -> Generator[str, None, None]:
+) -> Generator[str]:
     # Just a simple topological sort. Unlike previous versions of the code, we do not rely
     # on this to perform validation, like requiring the graph to be complete.
     # We only use this to help with edge cases like multiple packages being uploaded

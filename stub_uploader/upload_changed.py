@@ -11,6 +11,7 @@ This does following things:
 
 import argparse
 import os
+
 from stub_uploader import get_changed
 from stub_uploader.upload import upload
 
