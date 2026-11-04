@@ -154,7 +154,7 @@ class PackageData:
         The top-level package name can optionally include the "-stubs" suffix.
         """
         top_level, *sub_packages = package_name.split(".")
-        top_level.removesuffix(SUFFIX)
+        top_level = top_level.removesuffix(SUFFIX)
         return Path(top_level, *sub_packages)
 
     def package_build_path(self, package_name: str) -> Path:
