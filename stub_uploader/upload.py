@@ -20,7 +20,10 @@ def upload(
     to_upload = sort_by_dependency(typeshed_dir, distributions)
     print("Building and uploading stubs for:", ", ".join(distributions))
     print()
-    return all(upload_distribution(typeshed_dir, distribution, commit, dry_run=dry_run) for distribution in to_upload)
+    return all(
+        upload_distribution(typeshed_dir, distribution, commit, dry_run=dry_run)
+        for distribution in to_upload
+    )
 
 
 def upload_distribution(

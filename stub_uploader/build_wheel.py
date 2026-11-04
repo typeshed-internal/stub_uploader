@@ -507,8 +507,8 @@ def main(
     print("\033[0m")
     try:
         subprocess.run(
-        [sys.executable, "-m", "build", "--no-isolation"], cwd=tmpdir, check=True
-    )
+            [sys.executable, "-m", "build", "--no-isolation"], cwd=tmpdir, check=True
+        )
     except CalledProcessError as exc:
         raise BuildError(f"Failed to build {distribution!r}: {exc}") from exc
 
