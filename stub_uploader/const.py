@@ -54,6 +54,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "referencing",
     "requests",
     "setuptools",
+    "starlette",
     "torch",
     "tree-sitter",
     "urllib3",
