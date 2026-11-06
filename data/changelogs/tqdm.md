@@ -1,3 +1,7 @@
+## [4.70.0.20261106](https://pypi.org/project/types-tqdm/4.70.0.20261106/) (2026-11-06)
+
+* Replace Incomplete with concrete types on tqdm attributes ([#16687](https://github.com/python/typeshed/pull/16687))
+
 ## [4.70.0.20261102](https://pypi.org/project/types-tqdm/4.70.0.20261102/) (2026-11-02)
 
 * Replace dependencies on types-requests with requests ([#16677](https://github.com/python/typeshed/pull/16677))

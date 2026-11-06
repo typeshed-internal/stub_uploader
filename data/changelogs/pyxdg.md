@@ -1,3 +1,7 @@
+## [0.28.0.20261106](https://pypi.org/project/types-pyxdg/0.28.0.20261106/) (2026-11-06)
+
+* Allow None return from load_first_config ([#16705](https://github.com/python/typeshed/pull/16705))
+
 ## [0.28.0.20261017](https://pypi.org/project/types-pyxdg/0.28.0.20261017/) (2026-10-17)
 
 * Replace deprecated `typing.List` and friends ([#16527](https://github.com/python/typeshed/pull/16527))

@@ -1,3 +1,7 @@
+## [1.8.0.20261106](https://pypi.org/project/types-Authlib/1.8.0.20261106/) (2026-11-06)
+
+* Improve starlette integrations ([#16699](https://github.com/python/typeshed/pull/16699))
+
 ## [1.8.0.20261103](https://pypi.org/project/types-Authlib/1.8.0.20261103/) (2026-11-03)
 
 * Fix AsyncOAuth2Client missing async context manager methods. ([#15190](https://github.com/python/typeshed/pull/15190))
