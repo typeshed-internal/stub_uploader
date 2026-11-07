@@ -1,3 +1,7 @@
+## [25.1.0.20261107](https://pypi.org/project/types-aiofiles/25.1.0.20261107/) (2026-11-07)
+
+* Make `AsyncSpooledTemporaryFile.fileno`/`rollover` awaitable ([#16719](https://github.com/python/typeshed/pull/16719))
+
 ## 25.1.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

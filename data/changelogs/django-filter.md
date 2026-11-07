@@ -1,3 +1,7 @@
+## [26.2.0.20261107](https://pypi.org/project/types-django-filter/26.2.0.20261107/) (2026-11-07)
+
+* Mark always-set FilterSet and OrderingFilter attributes non-optional ([#16712](https://github.com/python/typeshed/pull/16712))
+
 ## [26.2.0.20261005](https://pypi.org/project/types-django-filter/26.2.0.20261005/) (2026-10-05)
 
 * Bump django-filter to 26.2.* ([#16472](https://github.com/python/typeshed/pull/16472))

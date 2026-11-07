@@ -1,3 +1,9 @@
+## [3.6.1.20261107](https://pypi.org/project/types-networkx/3.6.1.20261107/) (2026-11-07)
+
+* Fix typos in stub comments ([#16715](https://github.com/python/typeshed/pull/16715))
+
+    Co-authored-by: Claude Opus 5 <noreply@anthropic.com>
+
 ## [3.6.1.20261031](https://pypi.org/project/types-networkx/3.6.1.20261031/) (2026-10-31)
 
 * Use concrete node types for the caveman, ring of cliques, windmill and LFR generators ([#16661](https://github.com/python/typeshed/pull/16661))

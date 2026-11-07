@@ -1,3 +1,9 @@
+## [2.9.13.20261107](https://pypi.org/project/types-ldap3/2.9.13.20261107/) (2026-11-07)
+
+* Fix typos in stub comments ([#16715](https://github.com/python/typeshed/pull/16715))
+
+    Co-authored-by: Claude Opus 5 <noreply@anthropic.com>
+
 ## [2.9.13.20260827](https://pypi.org/project/types-ldap3/2.9.13.20260827/) (2026-08-27)
 
 * Add types for Connection.unbind ([#16243](https://github.com/python/typeshed/pull/16243))

@@ -1,3 +1,9 @@
+## [3.11.2.20261107](https://pypi.org/project/types-Markdown/3.11.2.20261107/) (2026-11-07)
+
+* Fix typos in stub comments ([#16715](https://github.com/python/typeshed/pull/16715))
+
+    Co-authored-by: Claude Opus 5 <noreply@anthropic.com>
+
 ## [3.11.2.20261029](https://pypi.org/project/types-Markdown/3.11.2.20261029/) (2026-10-29)
 
 * Update to ~=3.11.2 ([#16576](https://github.com/python/typeshed/pull/16576))

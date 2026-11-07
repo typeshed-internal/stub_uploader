@@ -1,3 +1,9 @@
+## [0.23.0.20261107](https://pypi.org/project/types-docutils/0.23.0.20261107/) (2026-11-07)
+
+* Fix typos in stub comments ([#16715](https://github.com/python/typeshed/pull/16715))
+
+    Co-authored-by: Claude Opus 5 <noreply@anthropic.com>
+
 ## [0.23.0.20261030](https://pypi.org/project/types-docutils/0.23.0.20261030/) (2026-10-30)
 
 * Mark the Any trick with `MaybeNone` in third-party stubs ([#16627](https://github.com/python/typeshed/pull/16627))

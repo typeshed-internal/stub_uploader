@@ -1,3 +1,7 @@
+## [4.0.0.20261107](https://pypi.org/project/types-oauthlib/4.0.0.20261107/) (2026-11-07)
+
+* Add GrantTypeBase.custom_validators ([#16711](https://github.com/python/typeshed/pull/16711))
+
 ## [4.0.0.20261102](https://pypi.org/project/types-oauthlib/4.0.0.20261102/) (2026-11-02)
 
 * Pin the oauthlib stub target to 4.0.0 ([#16676](https://github.com/python/typeshed/pull/16676))

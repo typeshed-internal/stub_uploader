@@ -1,3 +1,7 @@
+## [0.13.2.20261107](https://pypi.org/project/types-seaborn/0.13.2.20261107/) (2026-11-07)
+
+* Fix misspelled `orientation` default in `Plot.save`/`Plotter.save` ([#16714](https://github.com/python/typeshed/pull/16714))
+
 ## [0.13.2.20261006](https://pypi.org/project/types-seaborn/0.13.2.20261006/) (2026-10-06)
 
 * Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))
