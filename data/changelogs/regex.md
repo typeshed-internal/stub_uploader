@@ -1,3 +1,7 @@
+## [2026.11.7.20261108](https://pypi.org/project/types-regex/2026.11.7.20261108/) (2026-11-08)
+
+* Bump to 2026.11.7 ([#16727](https://github.com/python/typeshed/pull/16727))
+
 ## [2026.9.29.20261030](https://pypi.org/project/types-regex/2026.9.29.20261030/) (2026-10-30)
 
 * Mark the Any trick with `MaybeNone` in third-party stubs ([#16627](https://github.com/python/typeshed/pull/16627))

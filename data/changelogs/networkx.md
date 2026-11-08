@@ -1,3 +1,7 @@
+## [3.6.1.20261108](https://pypi.org/project/types-networkx/3.6.1.20261108/) (2026-11-08)
+
+* Replace Incomplete in graph-returning algorithm stubs ([#16729](https://github.com/python/typeshed/pull/16729))
+
 ## [3.6.1.20261107](https://pypi.org/project/types-networkx/3.6.1.20261107/) (2026-11-07)
 
 * Fix typos in stub comments ([#16715](https://github.com/python/typeshed/pull/16715))

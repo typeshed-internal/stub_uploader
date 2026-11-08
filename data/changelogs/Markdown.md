@@ -1,3 +1,9 @@
+## [3.11.3.20261108](https://pypi.org/project/types-Markdown/3.11.3.20261108/) (2026-11-08)
+
+* Update to 3.11.3 ([#16713](https://github.com/python/typeshed/pull/16713))
+
+    Add toc.unique's counters parameter and DelimiterProcessor.rule_of_3
+
 ## [3.11.2.20261107](https://pypi.org/project/types-Markdown/3.11.2.20261107/) (2026-11-07)
 
 * Fix typos in stub comments ([#16715](https://github.com/python/typeshed/pull/16715))

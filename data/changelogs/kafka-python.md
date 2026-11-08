@@ -1,3 +1,7 @@
+## [3.0.13.20261108](https://pypi.org/project/types-kafka-python/3.0.13.20261108/) (2026-11-08)
+
+* Bump to 3.0.13 ([#16726](https://github.com/python/typeshed/pull/16726))
+
 ## [3.0.12.20261030](https://pypi.org/project/types-kafka-python/3.0.12.20261030/) (2026-10-30)
 
 * Update to 3.0.12 ([#16641](https://github.com/python/typeshed/pull/16641))
