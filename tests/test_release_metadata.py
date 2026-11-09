@@ -44,7 +44,7 @@ def test_supported_release_metadata(
 ) -> None:
     metadata = Metadata("example", {"version": version_spec, field: ["numpy"]}, set())
     with patch(
-        "stub_uploader.metadata.requests.get",
+        "stub_uploader.metadata.pypi_get",
         side_effect=[
             response(project_data),
             response({"info": {"requires_dist": ["numpy"]}, "urls": []}),
@@ -65,7 +65,7 @@ def test_supported_release_metadata(
 @pytest.mark.parametrize("version_spec", ["==3.*", "==1.11", "==1.12"])
 def test_no_supported_release(project_data: dict[str, Any], version_spec: str) -> None:
     with patch(
-        "stub_uploader.metadata.requests.get", return_value=response(project_data)
+        "stub_uploader.metadata.pypi_get", return_value=response(project_data)
     ) as get:
         with pytest.raises(InvalidRequires, match="No published, non-yanked release"):
             verify_external_req(
@@ -77,7 +77,7 @@ def test_no_supported_release(project_data: dict[str, Any], version_spec: str) -
 def test_dependency_must_be_in_selected_release(project_data: dict[str, Any]) -> None:
     project_data["info"]["requires_dist"] = ["numpy"]
     with patch(
-        "stub_uploader.metadata.requests.get",
+        "stub_uploader.metadata.pypi_get",
         side_effect=[
             response(project_data),
             response({"info": {"requires_dist": []}, "urls": []}),
@@ -98,7 +98,7 @@ def test_sdist_metadata_uses_selected_release(
     sdist = {"packagetype": "sdist", "filename": "example-1.10.tar.gz"}
     with (
         patch(
-            "stub_uploader.metadata.requests.get",
+            "stub_uploader.metadata.pypi_get",
             side_effect=[
                 response(project_data),
                 response({"info": {"requires_dist": []}, "urls": [sdist]}),
@@ -126,6 +126,6 @@ def test_pypi_error(project_data: dict[str, Any], release_error: bool) -> None:
     responses = [response({}, status_code=503)]
     if release_error:
         responses.insert(0, response(project_data))
-    with patch("stub_uploader.metadata.requests.get", side_effect=responses):
+    with patch("stub_uploader.metadata.pypi_get", side_effect=responses):
         with pytest.raises(InvalidRequires, match="got 503"):
             verify_external_req(Requirement("numpy"), "example", Specifier("==1.*"))
