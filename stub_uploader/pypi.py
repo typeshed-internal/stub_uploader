@@ -34,7 +34,6 @@ def _session() -> requests.Session:
     session = requests.Session()
     adapter = HTTPAdapter(max_retries=retry_strategy)
     session.mount("https://", adapter)
-    session.mount("http://", adapter)
     return session
 
 
