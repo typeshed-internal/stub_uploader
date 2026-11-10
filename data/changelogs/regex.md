@@ -1,3 +1,26 @@
+## [2026.11.9.20261110](https://pypi.org/project/types-regex/2026.11.9.20261110/) (2026-11-10)
+
+* Bump regex to 2026.11.9 ([#16751](https://github.com/python/typeshed/pull/16751))
+
+    Release: https://pypi.org/pypi/regex/2026.11.9 \
+    Homepage: https://github.com/mrabarnett/mrab-regex \
+    Repository: https://github.com/mrabarnett/mrab-regex \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex \
+    Diff: https://github.com/mrabarnett/mrab-regex/compare/2026.11.8...2026.11.9
+
+    Stubsabot analysis of the diff between the two releases:
+     - 0 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 2 files included in typeshed's stubs have been modified or renamed: `regex/_main.py`, `regex/_regex_core.py`.
+     - Total lines of Python code added: 19.
+     - Total lines of Python code deleted: 1.
+
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
+
+    Co-authored-by: stubsabot <>
+
 ## [2026.11.8.20261109](https://pypi.org/project/types-regex/2026.11.8.20261109/) (2026-11-09)
 
 * Bump regex to 2026.11.8 ([#16740](https://github.com/python/typeshed/pull/16740))
