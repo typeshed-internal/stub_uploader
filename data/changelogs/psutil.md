@@ -1,3 +1,7 @@
+## [7.2.2.20261111](https://pypi.org/project/types-psutil/7.2.2.20261111/) (2026-11-11)
+
+* Correct terminal and niceness return types ([#16756](https://github.com/python/typeshed/pull/16756))
+
 ## [7.2.2.20260906](https://pypi.org/project/types-psutil/7.2.2.20260906/) (2026-09-06)
 
 * Type the memory map and heap namedtuple fields ([#16261](https://github.com/python/typeshed/pull/16261))

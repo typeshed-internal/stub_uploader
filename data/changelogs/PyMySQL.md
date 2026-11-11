@@ -1,3 +1,7 @@
+## [1.2.4.20261111](https://pypi.org/project/types-PyMySQL/1.2.4.20261111/) (2026-11-11)
+
+* Sync ER constants with PyMySQL 1.2.4 ([#16753](https://github.com/python/typeshed/pull/16753))
+
 ## [1.2.0.20260923](https://pypi.org/project/types-PyMySQL/1.2.0.20260923/) (2026-09-23)
 
 * Update to 1.2.3 ([#16426](https://github.com/python/typeshed/pull/16426))

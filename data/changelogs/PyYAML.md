@@ -1,3 +1,7 @@
+## [6.0.12.20261111](https://pypi.org/project/types-PyYAML/6.0.12.20261111/) (2026-11-11)
+
+* Complete parser function annotations ([#16755](https://github.com/python/typeshed/pull/16755))
+
 ## [6.0.12.20261103](https://pypi.org/project/types-PyYAML/6.0.12.20261103/) (2026-11-03)
 
 * Allow None constructor tags ([#16685](https://github.com/python/typeshed/pull/16685))
