@@ -1,3 +1,7 @@
+## [4.3.0.20261112](https://pypi.org/project/types-simplejson/4.3.0.20261112/) (2026-11-12)
+
+* Bump to 4.3.* ([#16762](https://github.com/python/typeshed/pull/16762))
+
 ## [4.2.0.20261104](https://pypi.org/project/types-simplejson/4.2.0.20261104/) (2026-11-04)
 
 * Replace Incomplete in JSONDecoder and fix scan_once return type ([#16666](https://github.com/python/typeshed/pull/16666))
