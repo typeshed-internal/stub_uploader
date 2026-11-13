@@ -1,3 +1,9 @@
+## [0.6.0.20261113](https://pypi.org/project/types-pyasn1/0.6.0.20261113/) (2026-11-13)
+
+* Partially replace `complex` with `complex | float | int` ([#16743](https://github.com/python/typeshed/pull/16743))
+
+    In places where all three are accepted.
+
 ## [0.6.0.20260724](https://pypi.org/project/types-pyasn1/0.6.0.20260724/) (2026-07-24)
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))

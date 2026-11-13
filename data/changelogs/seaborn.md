@@ -1,3 +1,9 @@
+## [0.13.2.20261113](https://pypi.org/project/types-seaborn/0.13.2.20261113/) (2026-11-13)
+
+* Partially replace `complex` with `complex | float | int` ([#16743](https://github.com/python/typeshed/pull/16743))
+
+    In places where all three are accepted.
+
 ## [0.13.2.20261107](https://pypi.org/project/types-seaborn/0.13.2.20261107/) (2026-11-07)
 
 * Fix misspelled `orientation` default in `Plot.save`/`Plotter.save` ([#16714](https://github.com/python/typeshed/pull/16714))
