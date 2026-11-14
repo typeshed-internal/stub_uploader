@@ -1,3 +1,11 @@
+## [0.13.0.20261114](https://pypi.org/project/types-pyogrio/0.13.0.20261114/) (2026-11-14)
+
+* Update ty to 0.0.98 ([#16790](https://github.com/python/typeshed/pull/16790))
+
+    * Update ty to 0.0.98
+
+    * Update rule name
+
 ## [0.13.0.20260807](https://pypi.org/project/types-pyogrio/0.13.0.20260807/) (2026-08-07)
 
 * Run Pyrefly on typeshed stubs in CI ([#16155](https://github.com/python/typeshed/pull/16155))

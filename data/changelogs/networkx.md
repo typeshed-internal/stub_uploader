@@ -1,3 +1,7 @@
+## [3.6.1.20261114](https://pypi.org/project/types-networkx/3.6.1.20261114/) (2026-11-14)
+
+* Use concrete node types for the atlas, cograph and duplication generators ([#16793](https://github.com/python/typeshed/pull/16793))
+
 ## [3.6.1.20261108](https://pypi.org/project/types-networkx/3.6.1.20261108/) (2026-11-08)
 
 * Replace Incomplete in graph-returning algorithm stubs ([#16729](https://github.com/python/typeshed/pull/16729))
