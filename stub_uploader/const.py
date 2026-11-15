@@ -44,6 +44,7 @@ EXTERNAL_REQ_ALLOWLIST = {
     "django-stubs",
     "djangorestframework-stubs",
     "httpx2",
+    "joserfc",
     "matplotlib",
     "numpy",
     "pandas-stubs",
