@@ -1,3 +1,7 @@
+## [0.13.2.20261115](https://pypi.org/project/types-seaborn/0.13.2.20261115/) (2026-11-15)
+
+* Use Literal for figure orientation arguments ([#16716](https://github.com/python/typeshed/pull/16716))
+
 ## [0.13.2.20261113](https://pypi.org/project/types-seaborn/0.13.2.20261113/) (2026-11-13)
 
 * Partially replace `complex` with `complex | float | int` ([#16743](https://github.com/python/typeshed/pull/16743))

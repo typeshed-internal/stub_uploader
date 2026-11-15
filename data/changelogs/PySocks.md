@@ -1,3 +1,7 @@
+## [1.7.1.20261115](https://pypi.org/project/types-PySocks/1.7.1.20261115/) (2026-11-15)
+
+* Correct timeout and optional socket error types ([#16797](https://github.com/python/typeshed/pull/16797))
+
 ## 1.7.1.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

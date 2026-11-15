@@ -155,6 +155,7 @@ types-lzstring
 types-m3u8
 types-maxminddb
 types-mock
+types-msal
 types-mypy-extensions
 types-mysqlclient
 types-nanoid
@@ -216,6 +217,7 @@ types-python-crontab
 types-python-datemath
 types-python-dateutil
 types-python-gflags
+types-python-gnupg
 types-python-http-client
 types-python-jenkins
 types-python-jose

@@ -1,3 +1,7 @@
+## [1.2.0.20261115](https://pypi.org/project/types-polib/1.2.0.20261115/) (2026-11-15)
+
+* Correct optional paths and message contexts ([#16796](https://github.com/python/typeshed/pull/16796))
+
 ## 1.2.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

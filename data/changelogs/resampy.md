@@ -1,3 +1,7 @@
+## [0.4.0.20261115](https://pypi.org/project/types-resampy/0.4.0.20261115/) (2026-11-15)
+
+* More accurate and dynamic TypeVar ([#15926](https://github.com/python/typeshed/pull/15926))
+
 ## 0.4.0.20260508 (2026-05-08)
 
 Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))

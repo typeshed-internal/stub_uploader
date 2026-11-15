@@ -1,3 +1,7 @@
+## [26.1.0.20261115](https://pypi.org/project/types-boltons/26.1.0.20261115/) (2026-11-15)
+
+* Narrow `MutableSet` in-place operators ([#16634](https://github.com/python/typeshed/pull/16634))
+
 ## [26.1.0.20261029](https://pypi.org/project/types-boltons/26.1.0.20261029/) (2026-10-29)
 
 * Fix set xor return types for abstract sets ([#16127](https://github.com/python/typeshed/pull/16127))

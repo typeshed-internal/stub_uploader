@@ -1,3 +1,7 @@
+## [2.21.0.20261115](https://pypi.org/project/types-Pygments/2.21.0.20261115/) (2026-11-15)
+
+* Accept byte input when lexing and highlighting ([#16754](https://github.com/python/typeshed/pull/16754))
+
 ## [2.21.0.20260819](https://pypi.org/project/types-Pygments/2.21.0.20260819/) (2026-08-19)
 
 * Update to 2.21.* ([#16233](https://github.com/python/typeshed/pull/16233))
