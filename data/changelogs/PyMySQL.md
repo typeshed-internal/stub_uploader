@@ -1,3 +1,9 @@
+## [1.2.4.20261116](https://pypi.org/project/types-PyMySQL/1.2.4.20261116/) (2026-11-16)
+
+* Replace Incomplete in MySQLResult, protocol and _auth ([#16706](https://github.com/python/typeshed/pull/16706))
+
+* Fix the type of Cursor.description ([#16707](https://github.com/python/typeshed/pull/16707))
+
 ## [1.2.4.20261111](https://pypi.org/project/types-PyMySQL/1.2.4.20261111/) (2026-11-11)
 
 * Sync ER constants with PyMySQL 1.2.4 ([#16753](https://github.com/python/typeshed/pull/16753))

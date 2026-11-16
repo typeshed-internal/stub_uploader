@@ -1,3 +1,7 @@
+## [2.9.0.20261116](https://pypi.org/project/types-python-dateutil/2.9.0.20261116/) (2026-11-16)
+
+* tzoffset.tzname and tzfile.tzname can return None ([#16818](https://github.com/python/typeshed/pull/16818))
+
 ## [2.9.0.20261104](https://pypi.org/project/types-python-dateutil/2.9.0.20261104/) (2026-11-04)
 
 * Make datetime generic over tzinfo ([#11844](https://github.com/python/typeshed/pull/11844))

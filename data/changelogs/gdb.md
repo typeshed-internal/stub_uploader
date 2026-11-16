@@ -1,3 +1,7 @@
+## [16.3.0.20261116](https://pypi.org/project/types-gdb/16.3.0.20261116/) (2026-11-16)
+
+* Re-enable gdb stubtest ([#16813](https://github.com/python/typeshed/pull/16813))
+
 ## 16.3.0.20260712 (2026-07-12)
 
 [gdb] Allow gdb.Value to take a Buffer plus a Type ([#16006](https://github.com/python/typeshed/pull/16006))
