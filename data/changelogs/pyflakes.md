@@ -1,3 +1,7 @@
+## [3.4.0.20261117](https://pypi.org/project/types-pyflakes/3.4.0.20261117/) (2026-11-17)
+
+* getCommonAncestor can return None ([#16833](https://github.com/python/typeshed/pull/16833))
+
 ## [3.4.0.20260724](https://pypi.org/project/types-pyflakes/3.4.0.20260724/) (2026-07-24)
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))

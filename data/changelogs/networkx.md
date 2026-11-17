@@ -1,3 +1,9 @@
+## [3.6.1.20261117](https://pypi.org/project/types-networkx/3.6.1.20261117/) (2026-11-17)
+
+* Fix all-pairs shortest_path target key type ([#16851](https://github.com/python/typeshed/pull/16851))
+
+* Use concrete node types for the sudoku, internet AS, joint degree and spectral forge generators ([#16842](https://github.com/python/typeshed/pull/16842))
+
 ## [3.6.1.20261114](https://pypi.org/project/types-networkx/3.6.1.20261114/) (2026-11-14)
 
 * Use concrete node types for the atlas, cograph and duplication generators ([#16793](https://github.com/python/typeshed/pull/16793))

@@ -1,3 +1,7 @@
+## [0.18.1.20261117](https://pypi.org/project/types-pyphen/0.18.1.20261117/) (2026-11-17)
+
+* language_fallback can return None ([#16831](https://github.com/python/typeshed/pull/16831))
+
 ## [0.18.1.20260816](https://pypi.org/project/types-pyphen/0.18.1.20260816/) (2026-08-16)
 
 * Bump to 0.18.1 ([#16208](https://github.com/python/typeshed/pull/16208))

@@ -1,3 +1,7 @@
+## [2.2.0.20261117](https://pypi.org/project/types-shapely/2.2.0.20261117/) (2026-11-17)
+
+* Update to 2.2.* ([#16562](https://github.com/python/typeshed/pull/16562))
+
 ## [2.1.0.20261030](https://pypi.org/project/types-shapely/2.1.0.20261030/) (2026-10-30)
 
 * Mark the Any trick with `MaybeNone` in third-party stubs ([#16627](https://github.com/python/typeshed/pull/16627))

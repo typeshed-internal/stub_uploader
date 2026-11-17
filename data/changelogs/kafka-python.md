@@ -1,3 +1,7 @@
+## [3.0.13.20261117](https://pypi.org/project/types-kafka-python/3.0.13.20261117/) (2026-11-17)
+
+* KafkaConsumer.subscription() can return None ([#16739](https://github.com/python/typeshed/pull/16739))
+
 ## [3.0.13.20261108](https://pypi.org/project/types-kafka-python/3.0.13.20261108/) (2026-11-08)
 
 * Bump to 3.0.13 ([#16726](https://github.com/python/typeshed/pull/16726))

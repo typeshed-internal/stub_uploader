@@ -1,3 +1,7 @@
+## [1.8.3.20261117](https://pypi.org/project/types-python-jenkins/1.8.3.20261117/) (2026-11-17)
+
+* Some methods can return None ([#16845](https://github.com/python/typeshed/pull/16845))
+
 ## 1.8.3.20260610 (2026-06-10)
 
 Change dependencies from types-requests to requests ([#15813](https://github.com/python/typeshed/pull/15813))
