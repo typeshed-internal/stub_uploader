@@ -1,3 +1,7 @@
+## [6.2.4.20261118](https://pypi.org/project/types-croniter/6.2.4.20261118/) (2026-11-18)
+
+* Correct nth-weekday mapping types ([#16853](https://github.com/python/typeshed/pull/16853))
+
 ## [6.2.4.20261006](https://pypi.org/project/types-croniter/6.2.4.20261006/) (2026-10-06)
 
 * Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))

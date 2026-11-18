@@ -1,3 +1,7 @@
+## [1.4.0.20261118](https://pypi.org/project/types-pika/1.4.0.20261118/) (2026-11-18)
+
+* Mark as obsolete since 1.5.0 ([#16854](https://github.com/python/typeshed/pull/16854))
+
 ## [1.4.0.20261008](https://pypi.org/project/types-pika/1.4.0.20261008/) (2026-10-08)
 
 * Enable Ruff `preview` and use human-readable rule names ([#16496](https://github.com/python/typeshed/pull/16496))
