@@ -1,3 +1,9 @@
+## [3.6.1.20261119](https://pypi.org/project/types-networkx/3.6.1.20261119/) (2026-11-19)
+
+* Allow scalar values with attribute name in set_edge_attributes and set_node_attributes ([#16693](https://github.com/python/typeshed/pull/16693))
+
+* Fix NodeDataView return type for string attribute in nodes(data=...) ([#16695](https://github.com/python/typeshed/pull/16695))
+
 ## [3.6.1.20261117](https://pypi.org/project/types-networkx/3.6.1.20261117/) (2026-11-17)
 
 * Fix all-pairs shortest_path target key type ([#16851](https://github.com/python/typeshed/pull/16851))

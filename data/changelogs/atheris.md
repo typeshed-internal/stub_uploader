@@ -1,3 +1,7 @@
+## [3.1.0.20261119](https://pypi.org/project/types-atheris/3.1.0.20261119/) (2026-11-19)
+
+* Add FuzzedDataProvider and re-export the public API from atheris ([#16610](https://github.com/python/typeshed/pull/16610))
+
 ## 3.1.0.20260630 (2026-06-30)
 
 [atheris] Update to 3.1.0 ([#15959](https://github.com/python/typeshed/pull/15959))
