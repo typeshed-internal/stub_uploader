@@ -1,3 +1,7 @@
+## [4.5.3.20261120](https://pypi.org/project/types-peewee/4.5.3.20261120/) (2026-11-20)
+
+* Declare query operators as methods ([#16865](https://github.com/python/typeshed/pull/16865))
+
 ## [4.5.3.20261029](https://pypi.org/project/types-peewee/4.5.3.20261029/) (2026-10-29)
 
 * Update to 4.5.3 ([#16631](https://github.com/python/typeshed/pull/16631))
