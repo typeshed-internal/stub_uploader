@@ -1,3 +1,7 @@
+## [2.16.0.20261122](https://pypi.org/project/types-aws-xray-sdk/2.16.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [2.16.0.20261104](https://pypi.org/project/types-aws-xray-sdk/2.16.0.20261104/) (2026-11-04)
 
 * Update to 2.16.* ([#16682](https://github.com/python/typeshed/pull/16682))

@@ -1,3 +1,7 @@
+## [1.1.0.20261122](https://pypi.org/project/types-simple-websocket/1.1.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## 1.1.0.20260512 (2026-05-12)
 
 Remove `selector._EventMask` type alias ([#15771](https://github.com/python/typeshed/pull/15771))

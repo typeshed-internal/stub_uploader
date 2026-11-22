@@ -1,3 +1,7 @@
+## [2.18.0.20261122](https://pypi.org/project/types-tensorflow/2.18.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [2.18.0.20261009](https://pypi.org/project/types-tensorflow/2.18.0.20261009/) (2026-10-09)
 
 * Update mypy to 2.4.0 ([#16502](https://github.com/python/typeshed/pull/16502))

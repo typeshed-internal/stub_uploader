@@ -1,3 +1,14 @@
+## [0.9.3.20261122](https://pypi.org/project/types-PyAutoGUI/0.9.3.20261122/) (2026-11-22)
+
+* Replace final `FloatInt` instances ([#16887](https://github.com/python/typeshed/pull/16887))
+
+    - `unittest.mock.ThreadingMixin.DEFAULT_TIMEOUT` was marked as final
+    by accident.
+    - `jenkins.DEFAULT_TIMEOUT` is a sentinel, not `float`.
+    - Reportlab landscape and portrait only accept float arguments if they return only float values.
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## 0.9.3.20260508 (2026-05-08)
 
 Import some items from typing instead of typing_extensions ([#15711](https://github.com/python/typeshed/pull/15711))

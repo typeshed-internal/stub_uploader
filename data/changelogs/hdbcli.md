@@ -1,3 +1,7 @@
+## [2.30.0.20261122](https://pypi.org/project/types-hdbcli/2.30.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [2.30.0.20260923](https://pypi.org/project/types-hdbcli/2.30.0.20260923/) (2026-09-23)
 
 * Bump hdbcli to 2.30.* ([#16396](https://github.com/python/typeshed/pull/16396))

@@ -1,3 +1,7 @@
+## [6.2.4.20261122](https://pypi.org/project/types-croniter/6.2.4.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [6.2.4.20261118](https://pypi.org/project/types-croniter/6.2.4.20261118/) (2026-11-18)
 
 * Correct nth-weekday mapping types ([#16853](https://github.com/python/typeshed/pull/16853))

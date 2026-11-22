@@ -1,3 +1,7 @@
+## [7.49.0.20261122](https://pypi.org/project/types-pycurl/7.49.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [7.49.0.20261030](https://pypi.org/project/types-pycurl/7.49.0.20261030/) (2026-10-30)
 
 * Update stubs to 7.49.0 ([#16645](https://github.com/python/typeshed/pull/16645))

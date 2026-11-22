@@ -1,3 +1,7 @@
+## [1.2.4.20261122](https://pypi.org/project/types-PyMySQL/1.2.4.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [1.2.4.20261116](https://pypi.org/project/types-PyMySQL/1.2.4.20261116/) (2026-11-16)
 
 * Replace Incomplete in MySQLResult, protocol and _auth ([#16706](https://github.com/python/typeshed/pull/16706))

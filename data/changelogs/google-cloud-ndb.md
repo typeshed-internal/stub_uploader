@@ -1,3 +1,7 @@
+## [2.4.0.20261122](https://pypi.org/project/types-google-cloud-ndb/2.4.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [2.4.0.20261021](https://pypi.org/project/types-google-cloud-ndb/2.4.0.20261021/) (2026-10-21)
 
 * Add `set_if_not_exists` to global caches ([#16568](https://github.com/python/typeshed/pull/16568))

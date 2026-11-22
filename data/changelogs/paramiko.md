@@ -1,3 +1,7 @@
+## [5.1.0.20261122](https://pypi.org/project/types-paramiko/5.1.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [5.1.0.20261030](https://pypi.org/project/types-paramiko/5.1.0.20261030/) (2026-10-30)
 
 * Update to 5.1.* ([#16640](https://github.com/python/typeshed/pull/16640))

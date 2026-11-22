@@ -1,3 +1,7 @@
+## [0.16.0.20261122](https://pypi.org/project/types-scp/0.16.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## 0.16.0.20260715 (2026-07-15)
 
 [scp] Bump to 0.16.* ([#16012](https://github.com/python/typeshed/pull/16012))

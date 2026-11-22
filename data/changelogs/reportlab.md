@@ -1,3 +1,14 @@
+## [5.1.0.20261122](https://pypi.org/project/types-reportlab/5.1.0.20261122/) (2026-11-22)
+
+* Replace final `FloatInt` instances ([#16887](https://github.com/python/typeshed/pull/16887))
+
+    - `unittest.mock.ThreadingMixin.DEFAULT_TIMEOUT` was marked as final
+    by accident.
+    - `jenkins.DEFAULT_TIMEOUT` is a sentinel, not `float`.
+    - Reportlab landscape and portrait only accept float arguments if they return only float values.
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [5.1.0.20261104](https://pypi.org/project/types-reportlab/5.1.0.20261104/) (2026-11-04)
 
 * Update to 5.1.0 ([#16311](https://github.com/python/typeshed/pull/16311))

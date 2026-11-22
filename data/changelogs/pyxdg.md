@@ -1,3 +1,7 @@
+## [0.28.0.20261122](https://pypi.org/project/types-pyxdg/0.28.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [0.28.0.20261106](https://pypi.org/project/types-pyxdg/0.28.0.20261106/) (2026-11-06)
 
 * Allow None return from load_first_config ([#16705](https://github.com/python/typeshed/pull/16705))

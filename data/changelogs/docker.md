@@ -1,3 +1,7 @@
+## [7.2.0.20261122](https://pypi.org/project/types-docker/7.2.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [7.2.0.20261102](https://pypi.org/project/types-docker/7.2.0.20261102/) (2026-11-02)
 
 * Depend on requests, not types-requests ([#16498](https://github.com/python/typeshed/pull/16498))

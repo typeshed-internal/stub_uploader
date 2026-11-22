@@ -1,3 +1,7 @@
+## [3.3.0.20261122](https://pypi.org/project/types-geojson/3.3.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [3.3.0.20261006](https://pypi.org/project/types-geojson/3.3.0.20261006/) (2026-10-06)
 
 * Enable Ruff rule RUF036 ([#16477](https://github.com/python/typeshed/pull/16477))

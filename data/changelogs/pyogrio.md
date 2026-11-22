@@ -1,3 +1,7 @@
+## [0.13.0.20261122](https://pypi.org/project/types-pyogrio/0.13.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [0.13.0.20261114](https://pypi.org/project/types-pyogrio/0.13.0.20261114/) (2026-11-14)
 
 * Update ty to 0.0.98 ([#16790](https://github.com/python/typeshed/pull/16790))

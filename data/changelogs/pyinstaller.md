@@ -1,3 +1,7 @@
+## [6.22.1.20261122](https://pypi.org/project/types-pyinstaller/6.22.1.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [6.22.1.20260827](https://pypi.org/project/types-pyinstaller/6.22.1.20260827/) (2026-08-27)
 
 * Add missing `compat.is_netbsd` ([#16217](https://github.com/python/typeshed/pull/16217))

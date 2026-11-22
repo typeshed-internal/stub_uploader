@@ -1,3 +1,9 @@
+## [27.0.1.20261122](https://pypi.org/project/types-gunicorn/27.0.1.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
+* Update to 27.0.1 ([#16787](https://github.com/python/typeshed/pull/16787))
+
 ## [26.2.0.20261008](https://pypi.org/project/types-gunicorn/26.2.0.20261008/) (2026-10-08)
 
 * Enable Ruff `preview` and use human-readable rule names ([#16496](https://github.com/python/typeshed/pull/16496))

@@ -1,3 +1,7 @@
+## [0.9.9.20261122](https://pypi.org/project/types-retry/0.9.9.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## 0.9.9.20260408 (2026-04-08)
 
 Use dashes instead of underscores for METADATA.toml field names ([#15614](https://github.com/python/typeshed/pull/15614))

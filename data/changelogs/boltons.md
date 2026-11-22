@@ -1,3 +1,7 @@
+## [26.1.0.20261122](https://pypi.org/project/types-boltons/26.1.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [26.1.0.20261115](https://pypi.org/project/types-boltons/26.1.0.20261115/) (2026-11-15)
 
 * Narrow `MutableSet` in-place operators ([#16634](https://github.com/python/typeshed/pull/16634))

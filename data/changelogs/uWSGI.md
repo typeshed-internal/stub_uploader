@@ -1,3 +1,7 @@
+## [2.0.0.20261122](https://pypi.org/project/types-uWSGI/2.0.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [2.0.0.20260827](https://pypi.org/project/types-uWSGI/2.0.0.20260827/) (2026-08-27)
 
 * fixed some typos ([#16273](https://github.com/python/typeshed/pull/16273))

@@ -1,3 +1,7 @@
+## [3.0.13.20261122](https://pypi.org/project/types-kafka-python/3.0.13.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [3.0.13.20261117](https://pypi.org/project/types-kafka-python/3.0.13.20261117/) (2026-11-17)
 
 * KafkaConsumer.subscription() can return None ([#16739](https://github.com/python/typeshed/pull/16739))

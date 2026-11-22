@@ -1,3 +1,14 @@
+## [0.33.0.20261122](https://pypi.org/project/types-python-xlib/0.33.0.20261122/) (2026-11-22)
+
+* Replace final `FloatInt` instances ([#16887](https://github.com/python/typeshed/pull/16887))
+
+    - `unittest.mock.ThreadingMixin.DEFAULT_TIMEOUT` was marked as final
+    by accident.
+    - `jenkins.DEFAULT_TIMEOUT` is a sentinel, not `float`.
+    - Reportlab landscape and portrait only accept float arguments if they return only float values.
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [0.33.0.20261101](https://pypi.org/project/types-python-xlib/0.33.0.20261101/) (2026-11-01)
 
 * python-xlib: Fixes from Avasam/python-xlib#7 ([#16670](https://github.com/python/typeshed/pull/16670))

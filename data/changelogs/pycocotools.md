@@ -1,3 +1,7 @@
+## [2.0.0.20261122](https://pypi.org/project/types-pycocotools/2.0.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [2.0.0.20261021](https://pypi.org/project/types-pycocotools/2.0.0.20261021/) (2026-10-21)
 
 * Accept lists of RLEs in `mask.decode`, `area` and `toBbox` ([#16577](https://github.com/python/typeshed/pull/16577))

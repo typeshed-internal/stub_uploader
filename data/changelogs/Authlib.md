@@ -1,3 +1,11 @@
+## [1.9.6.20261122](https://pypi.org/project/types-Authlib/1.9.6.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
+* Update to 1.9.6 ([#16807](https://github.com/python/typeshed/pull/16807))
+
+    Also improve annotations around tokens and requests.
+
 ## [1.8.0.20261106](https://pypi.org/project/types-Authlib/1.8.0.20261106/) (2026-11-06)
 
 * Improve starlette integrations ([#16699](https://github.com/python/typeshed/pull/16699))

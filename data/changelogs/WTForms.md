@@ -1,3 +1,7 @@
+## [3.3.0.20261122](https://pypi.org/project/types-WTForms/3.3.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [3.3.0.20261104](https://pypi.org/project/types-WTForms/3.3.0.20261104/) (2026-11-04)
 
 * Accept lazy strings for labels, descriptions and messages ([#16507](https://github.com/python/typeshed/pull/16507))

@@ -1,3 +1,7 @@
+## [3.5.0.20261122](https://pypi.org/project/types-pyserial/3.5.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [3.5.0.20261104](https://pypi.org/project/types-pyserial/3.5.0.20261104/) (2026-11-04)
 
 * Use ReadableBuffer for single-byte codec decode input ([#16683](https://github.com/python/typeshed/pull/16683))

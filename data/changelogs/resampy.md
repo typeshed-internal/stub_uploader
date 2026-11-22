@@ -1,3 +1,7 @@
+## [0.4.0.20261122](https://pypi.org/project/types-resampy/0.4.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [0.4.0.20261115](https://pypi.org/project/types-resampy/0.4.0.20261115/) (2026-11-15)
 
 * More accurate and dynamic TypeVar ([#15926](https://github.com/python/typeshed/pull/15926))

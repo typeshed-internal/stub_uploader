@@ -1,3 +1,7 @@
+## [2.1.0.20261122](https://pypi.org/project/types-cffi/2.1.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [2.1.0.20260827](https://pypi.org/project/types-cffi/2.1.0.20260827/) (2026-08-27)
 
 * Bump to 2.1.* ([#16247](https://github.com/python/typeshed/pull/16247))

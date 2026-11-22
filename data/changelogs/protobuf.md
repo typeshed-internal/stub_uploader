@@ -1,3 +1,9 @@
+## [7.35.1.20261122](https://pypi.org/project/types-protobuf/7.35.1.20261122/) (2026-11-22)
+
+* Remove `google.protobuf.Message.__new__` ([#16606](https://github.com/python/typeshed/pull/16606))
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [7.35.1.20260906](https://pypi.org/project/types-protobuf/7.35.1.20260906/) (2026-09-06)
 
 * Fix internal decoder factory signatures ([#16250](https://github.com/python/typeshed/pull/16250))

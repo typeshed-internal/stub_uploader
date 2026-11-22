@@ -1,3 +1,7 @@
+## [0.11.0.20261122](https://pypi.org/project/types-parsimonious/0.11.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [0.11.0.20260724](https://pypi.org/project/types-parsimonious/0.11.0.20260724/) (2026-07-24)
 
 * Replace `NoReturn` with `Never` ([#16079](https://github.com/python/typeshed/pull/16079))

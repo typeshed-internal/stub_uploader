@@ -1,3 +1,7 @@
+## [0.5.10.20261122](https://pypi.org/project/types-JACK-Client/0.5.10.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [0.5.10.20260923](https://pypi.org/project/types-JACK-Client/0.5.10.20260923/) (2026-09-23)
 
 * Update for 0.5.6 ([#16434](https://github.com/python/typeshed/pull/16434))

@@ -1,3 +1,7 @@
+## [4.70.0.20261122](https://pypi.org/project/types-tqdm/4.70.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [4.70.0.20261106](https://pypi.org/project/types-tqdm/4.70.0.20261106/) (2026-11-06)
 
 * Replace Incomplete with concrete types on tqdm attributes ([#16687](https://github.com/python/typeshed/pull/16687))

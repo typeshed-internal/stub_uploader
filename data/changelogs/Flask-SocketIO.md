@@ -1,3 +1,7 @@
+## [5.7.0.20261122](https://pypi.org/project/types-Flask-SocketIO/5.7.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [5.7.0.20261103](https://pypi.org/project/types-Flask-SocketIO/5.7.0.20261103/) (2026-11-03)
 
 * Bump to 5.7.* ([#16503](https://github.com/python/typeshed/pull/16503))

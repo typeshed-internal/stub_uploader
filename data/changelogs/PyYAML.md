@@ -1,3 +1,7 @@
+## [6.0.12.20261122](https://pypi.org/project/types-PyYAML/6.0.12.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [6.0.12.20261113](https://pypi.org/project/types-PyYAML/6.0.12.20261113/) (2026-11-13)
 
 * Partially replace `complex` with `complex | float | int` ([#16743](https://github.com/python/typeshed/pull/16743))

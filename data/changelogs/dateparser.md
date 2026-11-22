@@ -1,3 +1,7 @@
+## [1.4.3.20261122](https://pypi.org/project/types-dateparser/1.4.3.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [1.4.3.20260907](https://pypi.org/project/types-dateparser/1.4.3.20260907/) (2026-09-07)
 
 * Update to 1.4.3 ([#16345](https://github.com/python/typeshed/pull/16345))

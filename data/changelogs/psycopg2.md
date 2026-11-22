@@ -1,3 +1,7 @@
+## [2.9.21.20261122](https://pypi.org/project/types-psycopg2/2.9.21.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [2.9.21.20261030](https://pypi.org/project/types-psycopg2/2.9.21.20261030/) (2026-10-30)
 
 * Improve string_types annotations ([#16652](https://github.com/python/typeshed/pull/16652))

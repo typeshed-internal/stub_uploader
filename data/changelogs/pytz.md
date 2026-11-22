@@ -1,3 +1,7 @@
+## [2026.6.0.20261122](https://pypi.org/project/types-pytz/2026.6.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [2026.6.0.20261031](https://pypi.org/project/types-pytz/2026.6.0.20261031/) (2026-10-31)
 
 * Bump to 2026.6 ([#16654](https://github.com/python/typeshed/pull/16654))

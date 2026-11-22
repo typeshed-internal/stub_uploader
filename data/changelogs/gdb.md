@@ -1,3 +1,7 @@
+## [16.3.0.20261122](https://pypi.org/project/types-gdb/16.3.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [16.3.0.20261116](https://pypi.org/project/types-gdb/16.3.0.20261116/) (2026-11-16)
 
 * Re-enable gdb stubtest ([#16813](https://github.com/python/typeshed/pull/16813))

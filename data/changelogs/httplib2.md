@@ -1,3 +1,7 @@
+## [0.32.1.20261122](https://pypi.org/project/types-httplib2/0.32.1.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [0.32.1.20261029](https://pypi.org/project/types-httplib2/0.32.1.20261029/) (2026-10-29)
 
 * Bump httplib2 to 0.32.1 ([#16639](https://github.com/python/typeshed/pull/16639))

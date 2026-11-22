@@ -1,3 +1,7 @@
+## [1.2.0.20261122](https://pypi.org/project/types-geopandas/1.2.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [1.2.0.20261107](https://pypi.org/project/types-geopandas/1.2.0.20261107/) (2026-11-07)
 
 * Fix typos in stub comments ([#16715](https://github.com/python/typeshed/pull/16715))

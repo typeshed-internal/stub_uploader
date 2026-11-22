@@ -1,3 +1,7 @@
+## [1.2.0.20261122](https://pypi.org/project/types-polib/1.2.0.20261122/) (2026-11-22)
+
+* Replace `Any` and `IO` ([#16800](https://github.com/python/typeshed/pull/16800))
+
 ## [1.2.0.20261115](https://pypi.org/project/types-polib/1.2.0.20261115/) (2026-11-15)
 
 * Correct optional paths and message contexts ([#16796](https://github.com/python/typeshed/pull/16796))

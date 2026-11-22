@@ -1,3 +1,14 @@
+## [7.2.2.20261122](https://pypi.org/project/types-psutil/7.2.2.20261122/) (2026-11-22)
+
+* Replace final `FloatInt` instances ([#16887](https://github.com/python/typeshed/pull/16887))
+
+    - `unittest.mock.ThreadingMixin.DEFAULT_TIMEOUT` was marked as final
+    by accident.
+    - `jenkins.DEFAULT_TIMEOUT` is a sentinel, not `float`.
+    - Reportlab landscape and portrait only accept float arguments if they return only float values.
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [7.2.2.20261111](https://pypi.org/project/types-psutil/7.2.2.20261111/) (2026-11-11)
 
 * Correct terminal and niceness return types ([#16756](https://github.com/python/typeshed/pull/16756))

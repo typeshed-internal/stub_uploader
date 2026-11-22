@@ -1,3 +1,7 @@
+## [3.1.5.20261122](https://pypi.org/project/types-openpyxl/3.1.5.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [3.1.5.20261017](https://pypi.org/project/types-openpyxl/3.1.5.20261017/) (2026-10-17)
 
 * Replace deprecated `typing.List` and friends ([#16527](https://github.com/python/typeshed/pull/16527))

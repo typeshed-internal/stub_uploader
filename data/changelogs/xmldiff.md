@@ -1,3 +1,7 @@
+## [3.0.0.20261122](https://pypi.org/project/types-xmldiff/3.0.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [3.0.0.20260720](https://pypi.org/project/types-xmldiff/3.0.0.20260720/) (2026-07-20)
 
 * Update to 3.0.* ([#16041](https://github.com/python/typeshed/pull/16041))

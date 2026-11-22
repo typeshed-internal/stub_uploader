@@ -1,3 +1,7 @@
+## [3.11.3.20261122](https://pypi.org/project/types-Markdown/3.11.3.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [3.11.3.20261108](https://pypi.org/project/types-Markdown/3.11.3.20261108/) (2026-11-08)
 
 * Update to 3.11.3 ([#16713](https://github.com/python/typeshed/pull/16713))

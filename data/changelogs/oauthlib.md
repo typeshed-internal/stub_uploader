@@ -1,3 +1,7 @@
+## [4.0.0.20261122](https://pypi.org/project/types-oauthlib/4.0.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [4.0.0.20261107](https://pypi.org/project/types-oauthlib/4.0.0.20261107/) (2026-11-07)
 
 * Add GrantTypeBase.custom_validators ([#16711](https://github.com/python/typeshed/pull/16711))

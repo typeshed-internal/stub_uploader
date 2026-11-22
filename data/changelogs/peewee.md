@@ -1,3 +1,7 @@
+## [4.5.3.20261122](https://pypi.org/project/types-peewee/4.5.3.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [4.5.3.20261120](https://pypi.org/project/types-peewee/4.5.3.20261120/) (2026-11-20)
 
 * Declare query operators as methods ([#16865](https://github.com/python/typeshed/pull/16865))

@@ -1,3 +1,7 @@
+## [2.1.13.20261122](https://pypi.org/project/types-Jetson.GPIO/2.1.13.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [2.1.13.20260730](https://pypi.org/project/types-Jetson.GPIO/2.1.13.20260730/) (2026-07-30)
 
 * Bump to 2.1.13 ([#16098](https://github.com/python/typeshed/pull/16098))

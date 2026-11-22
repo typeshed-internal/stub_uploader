@@ -1,3 +1,9 @@
+## [4.9.0.20261122](https://pypi.org/project/types-pexpect/4.9.0.20261122/) (2026-11-22)
+
+* Annotate send, sendline, write and writelines consistently ([#16875](https://github.com/python/typeshed/pull/16875))
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## 4.9.0.20260518 (2026-05-18)
 
 Upgrade black to 26.5.0 ([#15801](https://github.com/python/typeshed/pull/15801))

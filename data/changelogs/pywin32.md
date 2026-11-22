@@ -1,3 +1,7 @@
+## [312.0.0.20261122](https://pypi.org/project/types-pywin32/312.0.0.20261122/) (2026-11-22)
+
+* Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
+
 ## [312.0.0.20261104](https://pypi.org/project/types-pywin32/312.0.0.20261104/) (2026-11-04)
 
 * pywin32 fixes for pywin32's own demos and tests ([#16680](https://github.com/python/typeshed/pull/16680))
