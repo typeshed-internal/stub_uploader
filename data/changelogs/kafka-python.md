@@ -1,3 +1,7 @@
+## [3.0.13.20261123](https://pypi.org/project/types-kafka-python/3.0.13.20261123/) (2026-11-23)
+
+* UUID.decode() can return None ([#16892](https://github.com/python/typeshed/pull/16892))
+
 ## [3.0.13.20261122](https://pypi.org/project/types-kafka-python/3.0.13.20261122/) (2026-11-22)
 
 * Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))

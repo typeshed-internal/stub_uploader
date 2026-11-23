@@ -1,3 +1,7 @@
+## [0.8.0.20261123](https://pypi.org/project/types-console-menu/0.8.0.20261123/) (2026-11-23)
+
+* format_prompt() returns None when prompt is None ([#16893](https://github.com/python/typeshed/pull/16893))
+
 ## [0.8.0.20261122](https://pypi.org/project/types-console-menu/0.8.0.20261122/) (2026-11-22)
 
 * Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))

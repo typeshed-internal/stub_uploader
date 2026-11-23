@@ -1,3 +1,11 @@
+## [1.9.10.20261123](https://pypi.org/project/types-Authlib/1.9.10.20261123/) (2026-11-23)
+
+* Set version to 1.9.10 ([#16894](https://github.com/python/typeshed/pull/16894))
+
+* get_header_zip() and get_claim_cls_by_response_type() can return None ([#16883](https://github.com/python/typeshed/pull/16883))
+
+* Update to 1.9.10 ([#16891](https://github.com/python/typeshed/pull/16891))
+
 ## [1.9.6.20261122](https://pypi.org/project/types-Authlib/1.9.6.20261122/) (2026-11-22)
 
 * Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))

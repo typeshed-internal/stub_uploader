@@ -1,3 +1,7 @@
+## [2026.8.19.20261123](https://pypi.org/project/types-yt-dlp/2026.8.19.20261123/) (2026-11-23)
+
+* Parsing helpers return None for missing or invalid input ([#16836](https://github.com/python/typeshed/pull/16836))
+
 ## [2026.8.19.20261122](https://pypi.org/project/types-yt-dlp/2026.8.19.20261122/) (2026-11-22)
 
 * Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
