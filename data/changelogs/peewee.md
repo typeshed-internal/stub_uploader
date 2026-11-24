@@ -1,3 +1,7 @@
+## [4.5.3.20261124](https://pypi.org/project/types-peewee/4.5.3.20261124/) (2026-11-24)
+
+* Add stubs for playhouse extension modules ([#16878](https://github.com/python/typeshed/pull/16878))
+
 ## [4.5.3.20261122](https://pypi.org/project/types-peewee/4.5.3.20261122/) (2026-11-22)
 
 * Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
