@@ -1,3 +1,7 @@
+## [5.1.0.20261125](https://pypi.org/project/types-paramiko/5.1.0.20261125/) (2026-11-25)
+
+* Reexport `ServiceRequestingTransport` from top-level ([#16899](https://github.com/python/typeshed/pull/16899))
+
 ## [5.1.0.20261122](https://pypi.org/project/types-paramiko/5.1.0.20261122/) (2026-11-22)
 
 * Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
