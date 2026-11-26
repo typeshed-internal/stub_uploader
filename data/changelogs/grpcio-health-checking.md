@@ -1,3 +1,9 @@
+## [1.85.0.20261126](https://pypi.org/project/types-grpcio-health-checking/1.85.0.20261126/) (2026-11-26)
+
+* Added missing methods of HealthStub ([#16903](https://github.com/python/typeshed/pull/16903))
+
+    Added partial stubs for HealthStub
+
 ## [1.85.0.20261029](https://pypi.org/project/types-grpcio-health-checking/1.85.0.20261029/) (2026-10-29)
 
 * Bump version to 1.85.* ([#16623](https://github.com/python/typeshed/pull/16623))

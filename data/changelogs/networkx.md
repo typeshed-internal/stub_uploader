@@ -1,3 +1,7 @@
+## [3.6.1.20261126](https://pypi.org/project/types-networkx/3.6.1.20261126/) (2026-11-26)
+
+* Preserve the node type in isolates() ([#16902](https://github.com/python/typeshed/pull/16902))
+
 ## [3.6.1.20261122](https://pypi.org/project/types-networkx/3.6.1.20261122/) (2026-11-22)
 
 * Replace final `FloatInt` instances ([#16887](https://github.com/python/typeshed/pull/16887))

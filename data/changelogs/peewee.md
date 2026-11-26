@@ -1,3 +1,7 @@
+## [4.5.3.20261126](https://pypi.org/project/types-peewee/4.5.3.20261126/) (2026-11-26)
+
+* Annotate ColumnBase.__invert__ ([#16650](https://github.com/python/typeshed/pull/16650))
+
 ## [4.5.3.20261124](https://pypi.org/project/types-peewee/4.5.3.20261124/) (2026-11-24)
 
 * Add stubs for playhouse extension modules ([#16878](https://github.com/python/typeshed/pull/16878))

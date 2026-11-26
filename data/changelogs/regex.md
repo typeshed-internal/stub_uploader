@@ -1,3 +1,47 @@
+## [2026.11.24.20261126](https://pypi.org/project/types-regex/2026.11.24.20261126/) (2026-11-26)
+
+* Bump regex to 2026.11.24 ([#16905](https://github.com/python/typeshed/pull/16905))
+
+    Release: https://pypi.org/pypi/regex/2026.11.24 \
+    Homepage: https://github.com/mrabarnett/mrab-regex \
+    Repository: https://github.com/mrabarnett/mrab-regex \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex \
+    Diff: https://github.com/mrabarnett/mrab-regex/compare/2026.11.23...2026.11.24
+
+    Stubsabot analysis of the diff between the two releases:
+     - 0 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 1 file included in typeshed's stubs has been modified or renamed: `regex/_main.py`.
+     - Total lines of Python code added: 23.
+     - Total lines of Python code deleted: 1.
+
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
+
+    Co-authored-by: stubsabot <>
+
+* Bump regex to 2026.11.23 ([#16900](https://github.com/python/typeshed/pull/16900))
+
+    Release: https://pypi.org/pypi/regex/2026.11.23 \
+    Homepage: https://github.com/mrabarnett/mrab-regex \
+    Repository: https://github.com/mrabarnett/mrab-regex \
+    Typeshed stubs: https://github.com/python/typeshed/tree/main/stubs/regex \
+    Diff: https://github.com/mrabarnett/mrab-regex/compare/2026.11.19...2026.11.23
+
+    Stubsabot analysis of the diff between the two releases:
+     - 0 public Python files have been added.
+     - 0 files included in typeshed's stubs have been deleted.
+     - 2 files included in typeshed's stubs have been modified or renamed: `regex/_main.py`, `regex/_regex_core.py`.
+     - Total lines of Python code added: 46.
+     - Total lines of Python code deleted: 15.
+
+    If stubtest fails for this PR:
+    - Leave this PR open (as a reminder, and to prevent stubsabot from opening another PR)
+    - Fix stubtest failures in another PR, then close this PR
+
+    Co-authored-by: stubsabot <>
+
 ## [2026.11.19.20261122](https://pypi.org/project/types-regex/2026.11.19.20261122/) (2026-11-22)
 
 * Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
