@@ -1,3 +1,7 @@
+## [26.9.0.20261128](https://pypi.org/project/types-gevent/26.9.0.20261128/) (2026-11-28)
+
+* Add `__all__` to `gevent.os` ([#16913](https://github.com/python/typeshed/pull/16913))
+
 ## [26.9.0.20261122](https://pypi.org/project/types-gevent/26.9.0.20261122/) (2026-11-22)
 
 * Replace float with FloatInt ([#16789](https://github.com/python/typeshed/pull/16789))
